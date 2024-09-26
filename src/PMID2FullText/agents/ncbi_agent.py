@@ -1,5 +1,6 @@
 import logging
 from dataclasses import dataclass
+from pathlib import Path
 
 from Bio import Entrez
 import click
@@ -16,6 +17,16 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 class NCBIAgent:
     no_pmcid_output_path: str
 
+    def __post_init__(self):
+        self.no_pmcid_output_path = self.resolve_path(self.no_pmcid_output_path)
+
+    def resolve_path(self, path):
+        project_root = Path(__file__).parent.parent
+        full_path = project_root / path
+        if not full_path.exists():
+            raise FileNotFoundError(f"File not found: {full_path}")
+        return str(full_path)
+
     def get_pmcid(self, pmid):
         """Retrieve the PMCID for a given PMID."""
         handle = Entrez.elink(dbfrom="pubmed", db="pmc", id=pmid)
@@ -28,6 +39,7 @@ class NCBIAgent:
             self.handle_no_pmcid(pmid)
 
     def handle_no_pmcid(self, pmid):
+        """Write every pmid that is not in pmcid to outfile"""
         with open(self.no_pmcid_output_path, "a") as f:
             f.write(pmid + "\n")
 
@@ -63,7 +75,7 @@ class NCBIAgent:
         """Check if the PMID has a full text available (open access)."""
         pmcid = self.get_pmcid(pmid)
         if pmcid:
-            return self.is_open_access(pmcid)  # Check for open access
+            return self.is_open_access(pmcid)
         else:
             self.handle_no_pmcid(pmid)
             return False
