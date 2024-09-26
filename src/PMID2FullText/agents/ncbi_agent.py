@@ -15,16 +15,14 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 @dataclass
 class NCBIAgent:
-    no_pmcid_output_path: str
+    no_pmcid_output_file: str
 
     def __post_init__(self):
-        self.no_pmcid_output_path = self.resolve_path(self.no_pmcid_output_path)
+        self.no_pmcid_output_file = self.resolve_path(self.no_pmcid_output_file)
 
     def resolve_path(self, path):
         project_root = Path(__file__).parent.parent
         full_path = project_root / path
-        if not full_path.exists():
-            raise FileNotFoundError(f"File not found: {full_path}")
         return str(full_path)
 
     def get_pmcid(self, pmid):
@@ -40,7 +38,7 @@ class NCBIAgent:
 
     def handle_no_pmcid(self, pmid):
         """Write every pmid that is not in pmcid to outfile"""
-        with open(self.no_pmcid_output_path, "a") as f:
+        with open(self.no_pmcid_output_file, "a") as f:
             f.write(pmid + "\n")
 
     def is_open_access(self, pmcid):
@@ -83,14 +81,14 @@ class NCBIAgent:
 
 @click.command()
 @click.option('-f', '--file_path', default='input/data.xlsx', help="Path to the file containing PMIDs.")
-@click.option('-o', '--output-dir', default='output/no_open_access.txt', help="Directory to save XML files.")
+@click.option('-o', '--output-dir', default="output/no_pmcids.txt" ,help="Directory to save XML files.")
 @click.option('--verbose', is_flag=True, help="Enable verbose logging.")
 def main(file_path, output_dir, verbose):
     if verbose:
         logger.setLevel(logging.INFO)
     excel = ExcelAgent(path=file_path)
     pmids = excel.read_pmids_from_xlsx(column_index=9)
-    ncbi_agent = NCBIAgent(no_pmcid_output_path=output_dir)
+    ncbi_agent = NCBIAgent(no_pmcid_output_file=output_dir)
     for pmid in pmids:
         ncbi_agent.check(pmid)
     logger.info("Process completed successfully.")
