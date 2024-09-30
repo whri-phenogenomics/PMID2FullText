@@ -1,3 +1,4 @@
-most of PMIDs come to PMCIDS, the one not, are listed in ouput/no_pmcid.txt
+Total files processed: 582
+Files without <body> tag: 324
 
-however: 740 are not open access and need to be via qmul login proxy
+Currently only ~260 Full text files available for experiment
