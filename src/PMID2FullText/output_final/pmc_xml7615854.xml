@@ -1,0 +1,494 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+  <?properties manuscript?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">9216904</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Genet</journal-id>
+      <journal-title-group>
+        <journal-title>Nature genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1061-4036</issn>
+      <issn pub-type="epub">1546-1718</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35864190</article-id>
+      <article-id pub-id-type="pmc">7615854</article-id>
+      <article-id pub-id-type="manuscript">EMS195517</article-id>
+      <article-id pub-id-type="doi">10.1038/s41588-022-01120-0</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Loss of FOCAD, operating via the SKI messenger RNA surveillance pathway, causes a pediatric syndrome with liver cirrhosis</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2607-107X</contrib-id>
+          <name>
+            <surname>Traspas</surname>
+            <given-names>Ricardo Moreno</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+          <xref rid="A2" ref-type="aff">2</xref>
+          <xref rid="CR1" ref-type="corresp">&#x2709;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Teoh</surname>
+            <given-names>Tze Shin</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wong</surname>
+            <given-names>Pui-Mun</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Maier</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chia</surname>
+            <given-names>Crystal Y.</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lay</surname>
+            <given-names>Kenneth</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ali</surname>
+            <given-names>Nur Ain</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Larson</surname>
+            <given-names>Austin</given-names>
+          </name>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mutairi</surname>
+            <given-names>Fuad Al</given-names>
+          </name>
+          <xref rid="A4" ref-type="aff">4</xref>
+          <xref rid="A5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Al-Sannaa</surname>
+            <given-names>Nouriya Abbas</given-names>
+          </name>
+          <xref rid="A6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Faqeih</surname>
+            <given-names>Eissa Ali</given-names>
+          </name>
+          <xref rid="A7" ref-type="aff">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Alfadhel</surname>
+            <given-names>Majid</given-names>
+          </name>
+          <xref rid="A4" ref-type="aff">4</xref>
+          <xref rid="A8" ref-type="aff">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cheema</surname>
+            <given-names>Huma Arshad</given-names>
+          </name>
+          <xref rid="A9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dupont</surname>
+            <given-names>Juliette</given-names>
+          </name>
+          <xref rid="A10" ref-type="aff">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0095-1319</contrib-id>
+          <name>
+            <surname>B&#xE9;zieau</surname>
+            <given-names>St&#xE9;phane</given-names>
+          </name>
+          <xref rid="A11" ref-type="aff">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Isidor</surname>
+            <given-names>Bertrand</given-names>
+          </name>
+          <xref rid="A11" ref-type="aff">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7742-3189</contrib-id>
+          <name>
+            <surname>Yanwen Low</surname>
+            <given-names>Dorrain</given-names>
+          </name>
+          <xref rid="A12" ref-type="aff">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Yulan</given-names>
+          </name>
+          <xref rid="A12" ref-type="aff">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tan</surname>
+            <given-names>Grace</given-names>
+          </name>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lai</surname>
+            <given-names>Poh San</given-names>
+          </name>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Piloquet</surname>
+            <given-names>Hugues</given-names>
+          </name>
+          <xref rid="A13" ref-type="aff">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Joubert</surname>
+            <given-names>Madeleine</given-names>
+          </name>
+          <xref rid="A14" ref-type="aff">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0376-499X</contrib-id>
+          <name>
+            <surname>Kayserili</surname>
+            <given-names>Hulya</given-names>
+          </name>
+          <xref rid="A15" ref-type="aff">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kripps</surname>
+            <given-names>Kimberly A.</given-names>
+          </name>
+          <xref rid="A16" ref-type="aff">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nahas</surname>
+            <given-names>Shareef A.</given-names>
+          </name>
+          <xref rid="A17" ref-type="aff">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wartchow</surname>
+            <given-names>Eric P.</given-names>
+          </name>
+          <xref rid="A18" ref-type="aff">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Warren</surname>
+            <given-names>Mikako</given-names>
+          </name>
+          <xref rid="A19" ref-type="aff">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bhavani</surname>
+            <given-names>Gandham SriLakshmi</given-names>
+          </name>
+          <xref rid="A20" ref-type="aff">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dasouki</surname>
+            <given-names>Majed</given-names>
+          </name>
+          <xref rid="A21" ref-type="aff">21</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sandoval</surname>
+            <given-names>Renata</given-names>
+          </name>
+          <xref rid="A22" ref-type="aff">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carvalho</surname>
+            <given-names>Elisa</given-names>
+          </name>
+          <xref rid="A23" ref-type="aff">23</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1668-1683</contrib-id>
+          <name>
+            <surname>Ramos</surname>
+            <given-names>Luiza</given-names>
+          </name>
+          <xref rid="A24" ref-type="aff">24</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Porta</surname>
+            <given-names>Gilda</given-names>
+          </name>
+          <xref rid="A25" ref-type="aff">25</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Bin</given-names>
+          </name>
+          <xref rid="A26" ref-type="aff">26</xref>
+          <xref rid="A27" ref-type="aff">27</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6398-6546</contrib-id>
+          <name>
+            <surname>Lashkari</surname>
+            <given-names>Harsha Prasada</given-names>
+          </name>
+          <xref rid="A28" ref-type="aff">28</xref>
+          <xref rid="A29" ref-type="aff">29</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>AlSaleem</surname>
+            <given-names>Badr</given-names>
+          </name>
+          <xref rid="A30" ref-type="aff">30</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>BaAbbad</surname>
+            <given-names>Raeda M.</given-names>
+          </name>
+          <xref rid="A30" ref-type="aff">30</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abreu Ferr&#xE3;o</surname>
+            <given-names>Anabela Nat&#xE1;lia</given-names>
+          </name>
+          <xref rid="A31" ref-type="aff">31</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Karageorgou</surname>
+            <given-names>Vasiliki</given-names>
+          </name>
+          <xref rid="A32" ref-type="aff">32</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ordonez-Herrera</surname>
+            <given-names>Natalia</given-names>
+          </name>
+          <xref rid="A32" ref-type="aff">32</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Khan</surname>
+            <given-names>Suliman</given-names>
+          </name>
+          <xref rid="A32" ref-type="aff">32</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bauer</surname>
+            <given-names>Peter</given-names>
+          </name>
+          <xref rid="A32" ref-type="aff">32</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5503-6292</contrib-id>
+          <name>
+            <surname>Cogne</surname>
+            <given-names>Benjamin</given-names>
+          </name>
+          <xref rid="A11" ref-type="aff">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9544-1877</contrib-id>
+          <name>
+            <surname>Bertoli-Avella</surname>
+            <given-names>Aida M.</given-names>
+          </name>
+          <xref rid="A32" ref-type="aff">32</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1010-5618</contrib-id>
+          <name>
+            <surname>Vincent</surname>
+            <given-names>Marie</given-names>
+          </name>
+          <xref rid="A11" ref-type="aff">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0139-8239</contrib-id>
+          <name>
+            <surname>Girisha</surname>
+            <given-names>Katta Mohan</given-names>
+          </name>
+          <xref rid="A20" ref-type="aff">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4070-7997</contrib-id>
+          <name>
+            <surname>Reversade</surname>
+            <given-names>Bruno</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+          <xref rid="A2" ref-type="aff">2</xref>
+          <xref rid="A15" ref-type="aff">15</xref>
+          <xref rid="A33" ref-type="aff">33</xref>
+          <xref rid="A34" ref-type="aff">34</xref>
+          <xref rid="CR1" ref-type="corresp">&#x2709;</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+<label>1</label>Laboratory of Human Genetics and Therapeutics, Genome Institute of Singapore, A*STAR, Singapore, Singapore</aff>
+      <aff id="A2">
+<label>2</label>Department of Pediatrics, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore</aff>
+      <aff id="A3">
+<label>3</label>Section of Pediatrics-Clinical Genetics and Metabolism, Children&#x2019;s Hospital Colorado, Aurora, CO, USA</aff>
+      <aff id="A4">
+<label>4</label>Department of Genetics and Precision Medicine, King Abdullah Specialized Children Hospital, King Abdulaziz Medical City, Ministry of National Guard Health Affairs, Riyadh, Saudi Arabia</aff>
+      <aff id="A5">
+<label>5</label>College of Medicine, King Saud bin Abdulaziz University for Health Sciences, King Abdulaziz Medical City, Ministry of National Guard Health Affairs, Riyadh, Saudi Arabia</aff>
+      <aff id="A6">
+<label>6</label>Pediatric Services, John Hopkins Aramco Healthcare, Dhahran, Saudi Arabia</aff>
+      <aff id="A7">
+<label>7</label>Section of Medical Genetics, Children&#x2019;s Specialist Hospital, King Fahad Medical City, Riyadh, Saudi Arabia</aff>
+      <aff id="A8">
+<label>8</label>Department of Medical Genomic Research, King Abdullah International Medical Research Centre, King Saud bin Abdulaziz University for Health Sciences, King Abdulaziz Medical City, Ministry of National Guard Health Affairs, Riyadh, Saudi Arabia</aff>
+      <aff id="A9">
+<label>9</label>Division of Pediatric Gastroenterology-Hepatology and Nutrition, The Children&#x2019;s Hospital and The Institute of Child Health, Lahore, Pakistan</aff>
+      <aff id="A10">
+<label>10</label>Department of Pediatrics, Genetic Services, Lisbon North University Hospital Center, Lisbon, Portugal</aff>
+      <aff id="A11">
+<label>11</label>Medical Genetics Service, Nantes University Hospital Center, Nantes, France</aff>
+      <aff id="A12">
+<label>12</label>Singapore Phenome Center, Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore</aff>
+      <aff id="A13">
+<label>13</label>Gastropediatrics Department, Nantes University Hospital Center, Nantes, France</aff>
+      <aff id="A14">
+<label>14</label>Anatomopathology Department, Nantes University Hospital Center, Nantes, France</aff>
+      <aff id="A15">
+<label>15</label>Medical Genetics Department, School of Medicine, Ko&#xE7; University, Istanbul, Turkey</aff>
+      <aff id="A16">
+<label>16</label>Department of Molecular and Medical Genetics, Oregon Health and Science University, Portland, OR, USA</aff>
+      <aff id="A17">
+<label>17</label>Rady Children&#x2019;s Institute for Genomic Medicine, San Diego, CA, USA</aff>
+      <aff id="A18">
+<label>18</label>Department of Pathology and Laboratory Medicine, Children&#x2019;s Hospital Colorado, Aurora, CO, USA</aff>
+      <aff id="A19">
+<label>19</label>Department of Pathology and Laboratory Medicine, Children&#x2019;s Hospital Los Angeles, University of Southern California Keck School of Medicine, Los Angeles, CA, USA</aff>
+      <aff id="A20">
+<label>20</label>Department of Medical Genetics, Kasturba Medical College, Manipal Academy of Higher Education, Manipal, India</aff>
+      <aff id="A21">
+<label>21</label>Department of Pediatric Genetics, AdventHealth Medical Group, Orlando, FL, USA</aff>
+      <aff id="A22">
+<label>22</label>Department of Oncogenetics, Hospital S&#xED;rio-Liban&#xEA;s, Bras&#xED;lia, Brazil</aff>
+      <aff id="A23">
+<label>23</label>Department of Pediatric Gastroenterology and Hepatology, Hospital da Crian&#xE7;a de Bras&#xED;lia Jos&#xE9; Alencar, UniCEUB, Bras&#xED;lia, Brazil</aff>
+      <aff id="A24">
+<label>24</label>Mendelics Genomic Analysis, S&#xE3;o Paulo, Brazil</aff>
+      <aff id="A25">
+<label>25</label>Department of Pediatric Hepatology, Transplant Unit, Hospital S&#xED;rio-Liban&#xEA;s, S&#xE3;o Paulo, Brazil</aff>
+      <aff id="A26">
+<label>26</label>School of Biological Sciences, Nanyang Technological University, Singapore, Singapore</aff>
+      <aff id="A27">
+<label>27</label>Institute of Structural Biology, Nanyang Technological University, Singapore, Singapore</aff>
+      <aff id="A28">
+<label>28</label>Department of Pediatrics, Kasturba Medical College, Mangalore, India</aff>
+      <aff id="A29">
+<label>29</label>Manipal Academy of Higher Education, Manipal, India</aff>
+      <aff id="A30">
+<label>30</label>Section of Pediatric Gastroenterology-Hepatology, Children&#x2019;s Specialist Hospital, King Fahad Medical City, Riyadh, Saudi Arabia</aff>
+      <aff id="A31">
+<label>31</label>Department of Pediatrics, Hematology Unit, Lisbon North University Hospital Center, Lisbon, Portugal</aff>
+      <aff id="A32">
+<label>32</label>Centogene AG, Rostock, Germany</aff>
+      <aff id="A33">
+<label>33</label>Institute of Molecular and Cell Biology, A*STAR, Singapore, Singapore</aff>
+      <aff id="A34">
+<label>34</label>Smart-Health Initiative, Biological and Environmental Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia</aff>
+      <author-notes>
+        <corresp id="CR1"><label>&#x2709;</label><bold>Correspondence and requests for materials</bold> should be addressed to Ricardo Moreno Traspas or Bruno Reversade.<email>ricardo.traspas@reversade.com</email>; <email>bruno@reversade.com</email></corresp>
+        <fn id="FN2" fn-type="COI-statement">
+          <p id="P52">
+<bold>Competing interests</bold>
+</p>
+          <p id="P53">P.B., A.M.B.-A., V.K., N.O.-H. and S.K. are employed by and receive a salary from Centogene AG (exome sequencing is among the commercially available tests). K.M.G. is founder and director of Suma Genomics (exome sequencing is among the commercially available tests). The remaining authors declare no competing interests.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>01</day>
+        <month>8</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>7</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="nihms-submitted">
+        <day>17</day>
+        <month>4</month>
+        <year>2024</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>23</day>
+        <month>4</month>
+        <year>2024</year>
+      </pub-date>
+      <volume>54</volume>
+      <issue>8</issue>
+      <fpage>1214</fpage>
+      <lpage>1226</lpage>
+      <abstract>
+        <p id="P1">Cirrhosis is usually a late-onset and life-threatening disease characterized by fibrotic scarring and inflammation that disrupts liver architecture and function. While it is typically the result of alcoholism or hepatitis viral infection in adults, its etiology in infants is much less understood. In this study, we report 14 children from ten unrelated families presenting with a syndromic form of pediatric liver cirrhosis. By genome/exome sequencing, we found recessive variants in <italic toggle="yes">FOCAD</italic> segregating with the disease. Zebrafish lacking <italic toggle="yes">focad</italic> phenocopied the human disease, revealing a signature of altered messenger RNA (mRNA) degradation processes in the liver. Using patient&#x2019;s primary cells and CRISPR-Cas9-mediated inactivation in human hepatic cell lines, we found that FOCAD deficiency compromises the SKI mRNA surveillance pathway by reducing the levels of the RNA helicase SKIC2 and its cofactor SKIC3. FOCAD knockout hepatocytes exhibited lowered albumin expression and signs of persistent injury accompanied by CCL2 overproduction. Our results reveal the importance of FOCAD in maintaining liver homeostasis and disclose a possible therapeutic intervention point via inhibition of the CCL2/CCR2 signaling axis.</p>
+      </abstract>
+    </article-meta>
+  </front>
+</article>
+</pmc-articleset>

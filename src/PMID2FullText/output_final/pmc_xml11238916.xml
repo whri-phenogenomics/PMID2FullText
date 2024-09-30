@@ -1,0 +1,788 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="report">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">MAbs</journal-id><journal-id journal-id-type="iso-abbrev">MAbs</journal-id><journal-title-group><journal-title>mAbs</journal-title></journal-title-group><issn pub-type="ppub">1942-0862</issn><issn pub-type="epub">1942-0870</issn><publisher><publisher-name>Taylor &amp; Francis</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38984665</article-id><article-id pub-id-type="pmc">11238916</article-id>
+<article-id pub-id-type="doi">10.1080/19420862.2024.2375798</article-id><article-id pub-id-type="publisher-id">2375798</article-id><article-version vocab="JAV" vocab-identifier="http://www.niso.org/publications/rp/RP-8-2008.pdf" vocab-term="Version of Record" article-version-type="VoR">Version of Record</article-version><article-categories><subj-group subj-group-type="article-type"><subject>Report</subject></subj-group><subj-group subj-group-type="heading"><subject>Report</subject></subj-group></article-categories><title-group><article-title>Illuminating a biologics development challenge: systematic characterization of CHO cell-derived hydrolases identified in monoclonal antibody formulations</article-title><alt-title alt-title-type="left-running-head">M. MAIER ET AL.</alt-title><alt-title alt-title-type="right-running-head">MABS</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Maier</surname><given-names>Melanie</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>b</sup>
+</xref><xref rid="an0003" ref-type="author-notes">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wei&#xDF;</surname><given-names>Linus</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>c</sup>
+</xref><xref rid="an0003" ref-type="author-notes">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zeh</surname><given-names>Nikolas</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Schmieder-Todtenhaupt</surname><given-names>Valerie</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Dehghani</surname><given-names>Alireza</given-names></name><xref rid="aff0004" ref-type="aff">
+<sup>d</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Felix</surname><given-names>Marius Nicolaus</given-names></name><xref rid="aff0004" ref-type="aff">
+<sup>d</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Heinzelmann</surname><given-names>Daniel</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lindner</surname><given-names>Benjamin</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Schmidt</surname><given-names>Moritz</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Studts</surname><given-names>Joey</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Schulz</surname><given-names>Patrick</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Reisinger</surname><given-names>Bernd</given-names></name><xref rid="aff0004" ref-type="aff">
+<sup>d</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Otte</surname><given-names>Kerstin</given-names></name><xref rid="aff0003" ref-type="aff">
+<sup>c</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Franzreb</surname><given-names>Matthias</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>b</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lakatos</surname><given-names>Daniel</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><contrib contrib-type="author"><name><surname>Fischer</surname><given-names>Simon</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>a</sup>
+</xref><xref rid="an0002" ref-type="corresp"/></contrib><aff id="aff0001"><label>a</label>Bioprocess Development Biologicals, <institution-wrap><institution>Boehringer Ingelheim Pharma GmbH &amp; Co. KG</institution></institution-wrap>, <city>Biberach an der Riss</city>, <country>Germany</country></aff><aff id="aff0002"><label>b</label>Institute of Functional Interfaces, <institution-wrap><institution>Karlsruhe Institute of Technology</institution></institution-wrap>, <city>Karlsruhe</city>, <country>Germany</country></aff><aff id="aff0003"><label>c</label>Institute for Applied Biotechnology, <institution-wrap><institution>University of Applied Sciences Biberach</institution></institution-wrap>, <city>Biberach an der Riss</city>, <country>Germany</country></aff><aff id="aff0004"><label>d</label>Analytical Development Biologicals, <institution-wrap><institution>Boehringer Ingelheim Pharma GmbH &amp; Co. KG</institution></institution-wrap>, <city>Biberach an der Riss</city>, <country>Germany</country></aff></contrib-group><author-notes><corresp id="an0001">CONTACT Daniel Lakatos <email xlink:href="mailto:daniel.lakatos@boehringer-ingelheim.com">daniel.lakatos@boehringer-ingelheim.com</email></corresp><corresp id="an0002">Simon Fischer <email xlink:href="mailto:simon.fischer@boehringer-ingelheim.com">simon.fischer@boehringer-ingelheim.com</email> Bioprocess Development Biologicals, Boehringer Ingelheim Pharma GmbH &amp; Co. KG, <addr-line>Birkendorfer Stra&#xDF;e 65</addr-line>, <city>Biberach an der Riss</city>
+<postal-code>88397</postal-code>, <country>Germany</country></corresp><fn id="an0003"><label>*</label><p>Contributed equally.</p></fn></author-notes><pub-date date-type="pub" publication-format="electronic"><day>10</day><month>7</month><year>2024</year></pub-date><pub-date date-type="collection" publication-format="electronic"><year>2024</year></pub-date><pub-date pub-type="pmc-release"><day>10</day><month>7</month><year>2024</year></pub-date><volume>16</volume><issue>1</issue><elocation-id seq="53">2375798</elocation-id><pub-history><event event-type="tagger"><event-desc>Integra</event-desc><date><day>10</day><month>7</month><year>2024</year></date></event><event event-type="final"><event-desc>Integra</event-desc><date><day>10</day><month>7</month><year>2024</year></date></event><event event-type="received"><date><day>29</day><month>2</month><year>2024</year></date></event><event event-type="revised"><date><day>07</day><month>6</month><year>2024</year></date></event><event event-type="accepted"><date><day>30</day><month>6</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>&#xA9; 2024 The Author(s). Published with license by Taylor &amp; Francis Group, LLC.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>The Author(s)</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="KMAB_16_2375798.pdf"/><abstract><title>ABSTRACT</title><p>Monoclonal antibodies (mAb) and other biological drugs are affected by enzymatic polysorbate (PS) degradation that reduces product stability and jeopardizes the supply of innovative medicines. PS represents a critical surfactant stabilizing the active pharmaceutical ingredients, which are produced by recombinant Chinese hamster ovary (CHO) cell lines. While the list of potential PS-degrading CHO host cell proteins (HCPs) has grown over the years, tangible data on industrially relevant HCPs are still scarce. By means of a highly sensitive liquid chromatography-tandem mass spectrometry method, we investigated seven different mAb products, resulting in the identification of 12 potentially PS-degrading hydrolases, including the strongly PS-degrading lipoprotein lipase (LPL). Using an LPL knockout CHO host cell line, we were able to stably overexpress and purify the remaining candidate hydrolases through orthogonal affinity chromatography methods, enabling their detailed functional characterization. Applying a PS degradation assay, we found nine mostly secreted, PS-active hydrolases with varying hydrolytic activity. All active hydrolases showed a serine-histidine-aspartate/glutamate catalytical triad. Further, we subjected the active hydrolases to pH-screenings and revealed a diverse range of activity optima, which can facilitate the identification of residual hydrolases during bioprocess development. Ultimately, we compiled our dataset in a risk matrix identifying PAF-AH, LIPA, PPT1, and LPLA2 as highly critical hydrolases based on their cellular expression, detection in purified antibodies, active secretion, and PS degradation activity. With this work, we pave the way toward a comprehensive functional characterization of PS-degrading hydrolases and provide a basis for a future reduction of PS degradation in biopharmaceutical drug products.</p></abstract><kwd-group kwd-group-type="author"><title>KEYWORDS</title><kwd>Polysorbate</kwd><kwd>hydrolase</kwd><kwd>hydrolysis</kwd><kwd>degradation</kwd><kwd>host cell protein</kwd><kwd>lipase</kwd><kwd>particle</kwd></kwd-group><support-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>Boehringer Ingelheim</institution><institution-id institution-id-type="open-funder-registry">10.13039/100001003</institution-id></institution-wrap>
+</funding-source></award-group><funding-statement>This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors. This research was wholly funded by Boehringer Ingelheim Pharma GmbH &amp; Co.KG.</funding-statement></funding-group></support-group><counts><fig-count count="6"/><table-count count="2"/><ref-count count="52"/><page-count count="1"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" disp-level="1" id="s0001">
+      <title>Introduction</title>
+      <p>Enzymatic polysorbate (PS) degradation in biological drug formulations mediated by host cell proteins (HCPs) has become a widespread and acute challenge in the biopharmaceutical industry. As an indispensable surfactant, PS is used in drug formulations to prevent biopharmaceutical agents, often monoclonal antibodies (mAbs), from aggregation and minimizes surface adhesion and air-liquid interfacial stress.<sup><xref rid="cit0001" ref-type="bibr">1</xref></sup> PS is a heterogeneous mixture consisting of a hydrophilic polyoxyethylene sorbitan head group that is esterified to one or multiple hydrophobic fatty acids of varying length. Degradation of PS is driven via two independent pathways: Chemical degradation by auto-oxidation or hydrolysis and enzymatic degradation elicited by hydrolytic enzymes.<sup><xref rid="cit0001" ref-type="bibr">1</xref></sup> Chemical degradation has been successfully prevented by the use of buffering agents and anti-oxidants,<sup><xref rid="cit0002" ref-type="bibr">2&#x2013;4</xref></sup> leaving hydrolytic enzymes acting on ester bonds (Enzyme class 3.1) as the major root cause of PS degradation. These enzymes are secreted in the bioprocess as HCPs originating from production cell lines derived from Chinese hamster ovary (CHO) cells.<sup><xref rid="cit0005" ref-type="bibr">5&#x2013;8</xref></sup> Here, a small portion of hydrolytic HCPs that are particularly difficult to remove persist in the downstream purification process and eventually cause hydrolytic cleavage of PS in drug substance and drug product. The degradation of PS results in the accumulation of free fatty acid aggregates and associated (sub-)visible particle formation. This can adversely affect product safety and quality because these aggregates can potentially induce adverse immune responses, reduce product efficacy, or compromise its stability. In recent years, substantial effort has been put into the identification and characterization of potential HCPs acting on the ester bonds of PS.<sup><xref rid="cit0009" ref-type="bibr">9&#x2013;14</xref></sup> One prominent example is Phospholipase B-Like 2 (PLBL2), which was long considered an active polysorbate-degrading HCP due to misinterpretation of results from contaminated recombinant HCP samples. This example highlights the importance of a well-designed purification and characterization strategy for recombinant HCPs to avoid misleading data interpretation as a result of persisting impurities.<sup><xref rid="cit0015" ref-type="bibr">15</xref></sup> As hydrolytic HCPs were found to cause PS degradation at trace levels, &lt;10 ppm,<sup><xref rid="cit0008" ref-type="bibr">8</xref></sup> detection of these low-abundance enzymes represents a major analytical challenge for the biopharmaceutical community. Therefore, new innovative analytical methods were developed, including optimized sample preparation prior to mass spectrometric analysis<sup><xref rid="cit0009" ref-type="bibr">9&#x2013;12</xref></sup> and activity-based protein profiling.<sup><xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0014" ref-type="bibr">14</xref>,<xref rid="cit0016" ref-type="bibr">16</xref></sup> To date, advances in HCP detection have resulted in a comprehensive list of potentially PS-degrading protein contaminants detected at various stages of the bioprocess, but data regarding their enzymatic activity profiles against PS and an understanding of the impact of the downstream purification processes on these enzymes are still lacking. A less explored but promising approach to address this issue is the recombinant overexpression and simultaneous screening of multiple putative polysorbate-degrading HCPs, especially the hydrolase species.</p>
+      <p>Toward this end, we identified, systematically overexpressed and characterized a selected list of potentially critical CHO cell-derived hydrolases, which were previously detected in seven purified model mAb products via a state-of-the-art mass spectrometry approach. We further used a transposase-based expression system in combination with a newly established lipoprotein lipase (LPL) knockout CHO host cell line to generate stable cell pools expressing the candidate hydrolases in high yields, without contamination of LPL and by entailing Streptavidin (Strep)- and Histidine (His)-affinity tags. The latter enabled the implementation of orthogonal purification steps, ensuring high purity of the recombinantly expressed CHO hydrolases. Characterization studies with the purified hydrolases, including cellular localization data, activity testing toward PS degradation and pH activity profiling, were conducted. Finally, by compiling all data, we were able to build a knowledge base that assists in the prioritization and risk assessment of critical CHO cell-derived hydrolases at different points throughout the entire biopharmaceutical production process.</p>
+    </sec>
+    <sec disp-level="1" id="s0002">
+      <title>Results</title>
+      <sec disp-level="2" id="s0002-s2001">
+        <title>Identification of hydrolytic host cell proteins in formulated mAb products</title>
+        <p>By means of a highly sensitive liquid chromatography-tandem mass spectrometry (LC-MS/MS) technique (down to 0.3 ppm), 7 mAb products were analyzed for their residual hydrolase content. Of note, the analyzed mAb products were industrially relevant molecules that were purified through a chemistry, manufacturing, and controls (CMC) bioprocess and were formulated to simulate preparation for clinical application. Across all investigated products, 12 hydrolytic enzymes acting on ester bonds (enzyme class, EC 3.1) were identified (<xref rid="t0001" ref-type="table">Table 1</xref>).<table-wrap position="float" id="t0001"><label>Table 1.</label><caption><p>List of hydrolytic host cell proteins of the enzyme class 3.1, identified at least once in LC/MS-MS analyses of seven different antibody formulations.</p></caption><!--OASIS TABLE HERE--><table frame="hsides" rules="groups"><colgroup><col width="1*" align="left"/><col width="1*" align="left"/><col width="1*" align="center"/><col width="1*" align="left"/><col width="1*" align="center"/></colgroup><thead><tr><th align="left">Uniprot Accession No.</th><th align="center">Protein name</th><th align="center">EC number</th><th align="center">Gene name</th><th align="center">Number of products showing enzymatic (EC class 3.1) HCP hits</th></tr></thead><tbody><tr><td align="left">G3I8P7</td><td align="left">GNS (N-acetylglucosamine-6-sulfatase)</td><td align="center">3.1.6.14</td><td align="left"><italic toggle="yes">Gns</italic></td><td align="center">6 of 7</td></tr><tr><td align="left">G3H6V7</td><td align="left">LPL (Lipoprotein lipase)</td><td align="center">3.1.1.34</td><td align="left"><italic toggle="yes">Lpl</italic></td><td align="center">6 of 7</td></tr><tr><td align="left">G3IMH4</td><td align="left">SMPD1 (Sphingomyelinphosphodiesterase)</td><td align="center">3.1.4.12</td><td align="left"><italic toggle="yes">Smpd1</italic></td><td align="center">5 of 7</td></tr><tr><td align="left">G3HQY6</td><td align="left">LIPA (Lysosomal acid lipase)</td><td align="center">3.1.1.13</td><td align="left"><italic toggle="yes">Lipa</italic></td><td align="center">3 of 7</td></tr><tr><td align="left">G3HN89</td><td align="left">PPT1 (Palmitoyl-proteinthioesterase 1)</td><td align="center">3.1.2.22</td><td align="left"><italic toggle="yes">Ppt1</italic></td><td align="center">3 of 7</td></tr><tr><td align="left">G3HKV9</td><td align="left">LPLA2 (Group XV phospholipase A2)</td><td align="center">3.1.1.32</td><td align="left"><italic toggle="yes">Pla2g15</italic></td><td align="center">2 of 7</td></tr><tr><td align="left">A0A061IFE2</td><td align="left">CES1 (Liver carboxylesterase 1-like protein)</td><td align="center">3.1.1.-</td><td align="left"><italic toggle="yes">Ces1</italic></td><td align="center">1 of 7</td></tr><tr><td align="left">A0A061I7X9</td><td align="left">CES1F (Liver carboxylesterase B-1-like protein)</td><td align="center">&#xA0;</td><td align="left"><italic toggle="yes">Ces1f</italic></td><td align="center">&#xA0;</td></tr><tr><td align="left">G3IIG1</td><td align="left">CES2C (Carboxylic ester hydrolase 2C)</td><td align="center">3.1.1.-</td><td align="left"><italic toggle="yes">Ces2c</italic></td><td align="center">1 of 7</td></tr><tr><td align="left">G3IHH9</td><td align="left">IAH1 (Isoamyl acetate-hydrolyzing esterase 1-like)</td><td align="center">3.1.1.112</td><td align="left"><italic toggle="yes">Iah1</italic></td><td align="center">1 of 7</td></tr><tr><td align="left">A0A061IKF8</td><td align="left">PAF-AH (1-alkyl-2-acetylglycerophosphocholine esterase)</td><td align="center">3.1.1.47</td><td align="left"><italic toggle="yes">Pla2g7</italic></td><td align="center">1 of 7</td></tr><tr><td align="left">A0A061HXK9</td><td align="left">PLD3 (Phospholipase D3)</td><td align="center">3.1.4.4</td><td align="left"><italic toggle="yes">Pld3</italic></td><td align="center">1 of 7</td></tr></tbody></table></table-wrap></p>
+        <p>Although all mAb products were expressed using the same CHO expression platform, the number of identified hydrolases in the purified antibody products varied from 1 to 6 of the seven investigated samples. LPL, GNS, and SMPD1 were frequently identified as hydrolases, but others (CES2C, CES1(F), PLD3, IAH1, PAF-AH) were only found in single products. To investigate whether the expression of identified hydrolases correlated with their frequency of occurrence in purified antibodies, we analyzed previously compiled transcriptomics and proteomics data sets of three different, representative cell-line development campaigns (<xref rid="f0001" ref-type="fig">Figure 1</xref>). Overall, a high and statistically significant correlation between transcriptome and proteome data was observed for all three mAb datasets (Suppl. Figure S1). Strikingly, for LPL, a frequently mentioned hydrolase in the context of PS degradation,<sup><xref rid="cit0009" ref-type="bibr">9</xref>,<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0014" ref-type="bibr">14</xref>,<xref rid="cit0017" ref-type="bibr">17</xref></sup> the high occurrence in many mAb products correlated with high mRNA and protein expression in all investigated production cell lines. This was also true for SMPD1 and LIPA, although here high expression values correlated only with identification in 5 and 3 of the 7 analyzed mAb products, respectively. The hydrolases CES1F and PAF-AH showed high gene and protein expression although it was only found in one of the investigated mAb formulations. The other identified hydrolases were expressed at much lower levels and occurrence of identification was low, except for GNS, which was identified in 6 of 7 products (<xref rid="f0001" ref-type="fig">Figure 1</xref>). In conclusion, expression of hydrolases varies substantially in CHO cells and mRNA and protein expression levels are not sufficiently predictive of the occurrence and abundance of the hydrolase in mAb products, which is probably due to unique interactions of difficult-to-remove hydrolases with the product and/or the chromatography columns.
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1.</label><caption><p>(a) Gene expression data in transcripts per million of potentially PS-degrading hydrolases identified in drug products. Transcript data of producer cell lines from three different campaigns are depicted. One clone each (two timepoints, <italic toggle="yes">n</italic>&#x2009;=&#x2009;2) was analyzed for monoclonal antibody (mAb) 1 and 2 and a producer pool (one timepoint, <italic toggle="yes">n</italic>&#x2009;=&#x2009;24) was analyzed for mAb 3. Data are sorted in descending order according to their occurrence in seven investigated drug products. (b) Relative protein abundance (MS1 intensity) of potentially PS-degrading hydrolases identified in drug products. Protein expression data in cell culture supernatant from three different campaigns are depicted. One clone each (technical triplicates, <italic toggle="yes">n</italic>&#x2009;=&#x2009;3) was analyzed for mAb 1 and 2 and a producer pool (technical duplicates, <italic toggle="yes">n</italic>&#x2009;=&#x2009;2) was analyzed for mAb 3.</p></caption><alternatives><graphic xlink:href="KMAB_A_2375798_F0001_OC" content-type="color" specific-use="web-only" position="float"/><graphic xlink:href="KMAB_A_2375798_F0001_PB" content-type="black-white" specific-use="print-only" position="float"/></alternatives></fig></p>
+      </sec>
+      <sec disp-level="2" id="s0002-s2002">
+        <title>Knockout of PS-degrading LPL in CHO cells to allow for unbiased HCP characterizations</title>
+        <p>As LPL was most frequently identified in mAb product formulations, expressed at the highest level in CHO production cells and previously suggested as a source for substantial PS degradation,<sup><xref rid="cit0017" ref-type="bibr">17</xref></sup> we aimed to investigate the extent of LPL-related PS degradation in our platform process. Therefore, LPL was knocked out (KO) in an mAb-producing CHO cell line using CRISPR/Cas9 genome editing technology. A combination of two different polymerase chain reaction (PCR) experiments validated the complete bi-allelic removal of the LPL gene in the engineered production cell line (<xref rid="f0002" ref-type="fig">Figure 2a</xref>). The KO production cell line was fed-batch cultivated head-to-head with the respective originator mAb production cell line (expressing LPL) over a period of 14&#x2009;days in an ambr&#xAE;250 bioreactor system. Supernatant sampled on day 3 of the fed-batch process was measured using LPL enzyme-linked immunosorbent assay (ELISA), which confirmed the absence of LPL protein in samples of the LPL KO cell line (<xref rid="f0002" ref-type="fig">Figure 2b</xref>). Next, supernatant harvested at day 14 of the cultivation process was subjected to a fluorescence micelle assay (FMA) measuring PS20 degradation over time at five different time points post PS spiking (d0, d1, d3, d7, d14) (<xref rid="f0002" ref-type="fig">Figure 2c</xref>). Strikingly, in the supernatant of the non-edited parental CHO production clone (LPL wildtype (wt)), 95% of initially spiked PS content was degraded after one day of incubation. In contrast, the supernatant of LPL KO production cells elicited a significantly slower PS degradation rate resulting in only 7% degradation of initial PS levels after one day of incubation and 31% degradation after 14&#x2009;days. While these data suggest a major PS-degrading activity by LPL, the observed residual PS-degrading activity clearly suggests that further hydrolases contribute to the total PS degradation activity. Therefore, an LPL KO cell line would certainly serve as an improved manufacturing host cell line for biologics, but also represents an ideal host cell line to characterize the additionally present hydrolases without the substantially masking PS degradation activity of LPL.
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2.</label><caption><p>(a) Agarose gel electrophoresis for verification of biallelic lipoprotein lipase (LPL) knockout (KO) in mAb producer LPL KO (KO) versus mAb producer LPL wildtype (Wt). Deletion PCR and non-deletion PCR were performed with genomic DNA. Lack of bands in non-deletion PCRs indicates biallelic deletion. <italic toggle="yes">M</italic>&#x2009;=&#x2009;Marker. (b) LPL concentration in day 3 fed-batch samples of mAb producer cell lines with and without LPL KO. Cell lines were cultured head-to-head in an ambr&#xAE;250 system and harvested cell culture supernatant was subjected to an LPL ELISA. (c) Polysorbate degradation in fed-batch samples of mAb producer cell lines with (brown) and without (gray) LPL assayed over a 14-day period. Cell lines were cultured head-to-head over 14&#x2009;days in an ambr&#xAE;250 system and harvested cell culture supernatant was subjected to a fluorescence micelle assay. Statistical significance was tested using ordinary two-way ANOVA with &#x160;&#xED;d&#xE1;k&#x2019;s Multiple Comparison Test. <italic toggle="yes">p</italic>&#x2009;&lt;&#x2009;0.05 was considered as statistically significant. ns&#x2009;=&#x2009;not significant.</p></caption><alternatives><graphic xlink:href="KMAB_A_2375798_F0002_OC" content-type="color" specific-use="web-only" position="float"/><graphic xlink:href="KMAB_A_2375798_F0002_PB" content-type="black-white" specific-use="print-only" position="float"/></alternatives></fig></p>
+      </sec>
+      <sec disp-level="2" id="s0002-s2003">
+        <title>Secretion analysis of CHO hydrolases</title>
+        <p>In order to characterize the additional hydrolases previously identified in mAb products and to analyze their potential PS degradation activity (<xref rid="t0001" ref-type="table">Table 1</xref>), the remaining 11 CHO hydrolases were individually overexpressed in a CHO K1 glutamine synthetase (GS) LPL KO host cell line to avoid the masking potential of LPL. Here, the KO was realized via zinc finger nucleases (ZFN) and validated using LPL ELISA (<xref rid="f0003" ref-type="fig">Figure 3a</xref>). Native CHO coding sequences of the 11 hydrolases, containing no additional signal sequence, were cloned into a transposon expression plasmid including His- and Strep-Tags at the 3&#x2019;-end of the hydrolase gene (<xref rid="f0003" ref-type="fig">Figure 3b</xref>). Next, transposon plasmids were stably introduced in the CHO K1 GS LPL KO host cell line using a transposase technology in combination with a GS-based metabolic selection approach to generate stable hydrolase expressing pools. As many of the identified hydrolases were annotated by UniProt as intracellular proteins, we wondered why potentially intracellular hydrolases were identified in the harvested supernatant and ultimately in the formulated mAb products. To determine whether the hydrolases are actively secreted into the supernatant, their localization in supernatant and cell pellet was quantified via the His-Tag after a three-day batch cultivation of all generated hydrolase overexpressing cell pools that displayed&#x2009;&gt;98% viable cells at harvest (Supplementary Figure S2a). While the hydrolases PAF-AH and SMPD1 were fully secreted by the CHO cells, other proteins, including CES1F, CES2C, GNS, LPLA2, and PPT1, were partially detected in the intracellular fraction. Only LIPA, IAH1, and PLD3 were mainly localized intracellularly (<xref rid="f0003" ref-type="fig">Figure 3c</xref>). Other than PLD3, LIPA and IAH1 could be quantified in supernatant of the 3 mAb producer cell lines (<xref rid="f0001" ref-type="fig">Figure 1b</xref>), which might be due to mAb-HCP shuttling mechanisms or simply a reduced harvest viability of the assayed cell culture (59, 84, 88% for mAb1, 2, 3, respectively). As most of the overexpressed native CHO hydrolases are actively secreted, their occurrence in mAb products is not surprising.
+<fig position="float" id="f0003" fig-type="figure"><label>Figure 3.</label><caption><p>(a) LPL concentration in day 3 fed-batch samples of mAb host cell lines with and without LPL KO. Cell lines were cultured head-to-head in an ambr&#xAE;15 system and harvested cell culture supernatant was subjected to an LPL ELISA. (b) Hydrolase expression plasmid suitable for transposase-mediated stable transfection via inverted repeats recognition sites. His- and Strep- tags were added at the 3&#x2018;-end of the sequence coding for the native hydrolase. Glutamine synthetase was used for stable selection. Created by BioRender. (c) Relative protein amounts of expressed hydrolases as the ratio of intracellular to extracellular protein. Hydrolases were quantified using biolayer interferometry with his2 sensors on the Octet system. Average values of two replicates with standard deviations are shown.</p></caption><alternatives><graphic xlink:href="KMAB_A_2375798_F0003_OC" content-type="color" specific-use="web-only" position="float"/><graphic xlink:href="KMAB_A_2375798_F0003_PB" content-type="black-white" specific-use="print-only" position="float"/></alternatives></fig></p>
+      </sec>
+      <sec disp-level="2" id="s0002-s2004">
+        <title>Hydrolytic activity of CHO hydrolases against polysorbate</title>
+        <p>Next, we aimed for a detailed characterization of all overexpressed CHO hydrolases regarding their PS degradation potential. All stable hydrolase-expressing cell pools were cultivated in (fed-) batch mode and supernatants were harvested (Supplementary Figure S2b). The crude supernatant was spiked with PS (0.4&#x2009;mg/mL) and PS degradation was investigated over a period of 14&#x2009;days via FMA. Strong PS degradation activity was measured for hydrolases CES1F, CES2C, PPT1, and PAF-AH (<xref rid="f0004" ref-type="fig">Figure 4a</xref>). Furthermore, moderate PS degradation was elicited by LPLA2, and IAH1, while no PS degradation was observed in supernatants of cell pools overexpressing GNS, SMPD1, LIPA, CES1, and PLD3, which also served as a comparative baseline. Notably, the crude culture supernatant does not allow for the determination of the exact PS degradation activity for each enzyme, as the supernatant likely contained additional hydrolases or lacked hydrolases that are not efficiently secreted. Thus, for direct comparison with uniform starting concentrations, we developed a multi-step purification strategy to obtain highly purified protein. Toward this end, overexpressed proteins were purified from harvested cell culture supernatant or cell pellets using a combination of two orthogonal capture steps comprising an immobilized metal ion affinity column (IMAC) specifically binding the His-Tag on the recombinant hydrolases followed by a Strep-Tactin column to further capture the Strep-tagged hydrolases. In addition, size exclusion chromatography (SEC) was performed as a polishing step and for aggregate removal. After purification, the CHO hydrolases were tested for their catalytic activity toward PS20 via FMA. Contrary to the FMA performed with crude supernatant, purified enzymes were spiked at uniform concentrations in a formulation buffer containing PS20 and PS degradation was investigated over a period of 14&#x2009;days as described before (<xref rid="f0004" ref-type="fig">Figure 4b</xref>). In contrast to the previous analysis of crude cell culture supernatant, purified CES1, IAH1, and LIPA now showed strong PS degradation activity. This observation aligns with the fact that these enzymes are not secreted and, as a result, are not present in the crude supernatant (see <xref rid="f0003" ref-type="fig">Figure 3c</xref>). Strikingly, LPLA2 and PAF-AH now displayed the strongest PS degradation activity among all assayed hydrolases. For CES1F and CES2C, similar PS degradation was observed, while the hydrolase PPT1 now exhibited lower PS degradation activity as a purified enzyme. As before, GNS, SMPD1 and PLD3 displayed no PS degradation potential. Besides the above-mentioned drawbacks when measuring crude cell culture supernatant, it is important to note that the stability or aggregation of purified enzymes can influence the observed activity levels over time. In comparison with other hydrolases, PPT1 was particularly prone to aggregation during the purification process (Supplementary Figure S3).
+<fig position="float" id="f0004" fig-type="figure"><label>Figure 4.</label><caption><p>(a) Polysorbate (PS) degradation over time of crude cell culture supernatant of hydrolase expressing cell lines determined via the fluorescence micelle assay. Cell culture supernatants of (fed-)batch fermentations were diluted in PS-spiked fresh cultivation medium and degradation was monitored over 14&#x2009;days (d0, d1, d3, d7, d14). PS concentration was normalized to the initial PS concentration on d0. Average values of four technical replicates with standard deviations are shown. (b) PS degradation over time of purified hydrolases determined via the fluorescence micelle assay. Purified hydrolases were spiked into a formulation buffer to a final concentration of 20&#x2009;&#xB5;g/mL and degradation was monitored over 14&#x2009;days (d0, d1, d3, d7, d14). PS concentration was normalized to the initial PS concentration on d0. Average values of four technical replicates with standard deviations are shown.</p></caption><alternatives><graphic xlink:href="KMAB_A_2375798_F0004_OC" content-type="color" specific-use="web-only" position="float"/><graphic xlink:href="KMAB_A_2375798_F0004_PB" content-type="black-white" specific-use="print-only" position="float"/></alternatives></fig></p>
+        <p>These experiments showed that hydrolase-containing crude cell culture supernatant can provide an initial indication of hydrolase-specific PS degradation potential, but purification of specific hydrolases is necessary to determine their specific enzymatic activity. In summary, 8 of 11 hydrolases previously identified in the mAb formulations displayed significant PS degradation activity. Of note, enzyme activity was measured under uniform pH conditions, whereby individual pH optima of the enzymes were not considered.</p>
+      </sec>
+      <sec disp-level="2" id="s0002-s2005">
+        <title>Comparison of active sites in the CHO hydrolases</title>
+        <p>To identify common features among the identified active hydrolases, we compared the active sites of both PS degrading and non-degrading hydrolases. We determined the active site residues of the CHO hydrolases by referring to UniProt annotations. In addition, we compared the protein sequences to orthologous enzymes with experimentally determined active sites (<xref rid="t0002" ref-type="table">Table 2</xref>). A common catalytic triad consisting of a serine (Ser) &#x2013; histidine (His) &#x2013; aspartate/glutamate (Asp/Glu) motif was identified in PS-degrading hydrolases, which distinguished them from non-PS degrading enzymes (<xref rid="t0002" ref-type="table">Table 2</xref>).<table-wrap position="float" id="t0002"><label>Table 2.</label><caption><p>Active site residues of hydrolases identified in seven industrial mAb formulations. Residues based on indicated literature and UniProt.</p></caption><!--OASIS TABLE HERE--><table frame="hsides" rules="groups"><colgroup><col width="1*" align="left"/><col width="1*" align="center"/><col width="1*" align="left"/><col width="1*" align="center"/></colgroup><thead><tr><th align="left">Protein</th><th align="center">Reference</th><th align="center">Active site</th><th align="center">Active against PS</th></tr></thead><tbody><tr><td align="left">CES1</td><td align="center"><sup><xref rid="cit0018" ref-type="bibr">18</xref></sup></td><td align="left">Ser221, Glu353, His466</td><td align="center">Yes</td></tr><tr><td align="left">CES1F</td><td align="center"><sup><xref rid="cit0018" ref-type="bibr">18</xref></sup></td><td align="left">Ser200, Glu332, His442</td><td align="center">Yes</td></tr><tr><td align="left">CES2C</td><td align="center"><sup><xref rid="cit0019" ref-type="bibr">19</xref></sup></td><td align="left">Ser228, Glu345, His457</td><td align="center">Yes</td></tr><tr><td align="left">GNS</td><td align="center"><sup><xref rid="cit0020" ref-type="bibr">20&#x2013;22</xref></sup></td><td align="left">FGly (from Cys), Asp, His, Arg*</td><td align="center">No</td></tr><tr><td align="left">IAH1</td><td align="center"><sup><xref rid="cit0023" ref-type="bibr">23</xref></sup></td><td align="left">Ser71, Glu228, His231</td><td align="center">Yes</td></tr><tr><td align="left">LIPA</td><td align="center"><sup><xref rid="cit0024" ref-type="bibr">24</xref></sup></td><td align="left">Ser172, Asp343, His372</td><td align="center">Yes</td></tr><tr><td align="left">LPL</td><td align="center"><sup><xref rid="cit0025" ref-type="bibr">25</xref></sup></td><td align="left">Ser159, Asp183, His268</td><td align="center">Yes</td></tr><tr><td align="left">LPLA2</td><td align="center"><sup><xref rid="cit0026" ref-type="bibr">26</xref></sup></td><td align="left">Ser198, Asp360, His392</td><td align="center">Yes</td></tr><tr><td align="left">PAF-AH</td><td align="center"><sup><xref rid="cit0027" ref-type="bibr">27</xref></sup></td><td align="left">Ser271, Glu295, His350</td><td align="center">Yes</td></tr><tr><td align="left">PLD3</td><td align="center"><sup><xref rid="cit0028" ref-type="bibr">28</xref></sup></td><td align="left">His, Asp, Lys*</td><td align="center">No</td></tr><tr><td align="left">PPT1</td><td align="center"><sup><xref rid="cit0029" ref-type="bibr">29</xref></sup></td><td align="left">Ser115, Asp233, His289</td><td align="center">Yes</td></tr><tr><td align="left">SMPD1</td><td align="center"><sup><xref rid="cit0030" ref-type="bibr">30</xref></sup></td><td align="left">Asp, His, Glu/Asn*</td><td align="center">No</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p>*residue positions are not known.</p></fn></table-wrap-foot></table-wrap></p>
+        <p>Enzymes with alternative catalytic sites (GNS, PLD3, and SMPD1) did not exhibit PS degradation activity. This finding is particularly valuable when new hydrolases are identified, as it provides a clear marker of potential PS degradation activity. It is important to note that previous research has shown that PS-degrading hydrolases are not limited to the enzyme sub-class of &#x201C;carboxylic ester hydrolases&#x201D; (3.1.1).<sup><xref rid="cit0009" ref-type="bibr">9</xref></sup> In fact, they can also be found within the broader enzyme class &#x201C;acting on ester bonds&#x201D; (3.1), which includes not only carboxylic-ester hydrolases but also thioester and phosphoester hydrolases, among others. This underscores the diverse enzymatic landscape involved in PS degradation and highlights the importance of the conserved catalytic triad as a predictive marker for PS degradation activity.</p>
+      </sec>
+      <sec disp-level="2" id="s0002-s2006">
+        <title>pH dependent activity of hydrolytic HCPs</title>
+        <p>The activity optimum of enzymes is strongly dependent on an ideal pH.<sup><xref rid="cit0031" ref-type="bibr">31</xref></sup> To further characterize and evaluate the pH optima of each identified hydrolase acting on PS, pH screenings with the purified enzymes were conducted (<xref rid="f0005" ref-type="fig">Figure 5a</xref>). Here, enzymatic activity was measured upon cleavage of ester bonds in an assay using 4-methylumbelliferyl decanoate (MUD4) as a PS surrogate. LIPA and LPLA2 displayed unique activity profiles with activity optima in a neutral or acidic pH, respectively. In contrast, the group of CES1, CES2C, IAH1, and PAF-AH revealed similar pH-dependent activity patterns with low activity in the low pH range and increasing activity with increasing pH values. Equally, the group of CES1F and PPT1 displayed pH optima at strongly basic pH values, while here activity at lower pH was also relatively high.
+<fig position="float" id="f0005" fig-type="figure"><label>Figure 5.</label><caption><p>(a) pH dependent activity of the eight active hydrolases after purification. Values are normalized to highest activity of the respective hydrolase. Average values of duplicate analyses are shown. (b) Normalized hydrolytic activities of three mAb samples after the second polishing step at different pH values. Values are normalized to highest activity of the respective mAb sample. Average values of duplicate analyses are shown.</p></caption><alternatives><graphic xlink:href="KMAB_A_2375798_F0005_OC" content-type="color" specific-use="web-only" position="float"/><graphic xlink:href="KMAB_A_2375798_F0005_PB" content-type="black-white" specific-use="print-only" position="float"/></alternatives></fig></p>
+        <p>As the investigated hydrolases showed various pH-dependent activity profiles, this property might be harnessed to identify or exclude residual hydrolases in final drug products. To test this hypothesis, the ester cleaving activity of three model mAb formulations was analyzed in the same way as in the above-described pH screenings (<xref rid="f0005" ref-type="fig">Figure 5b</xref>). Varying pH-dependent PS degrading activities were observed, which may indicate the presence of various residual hydrolases with unique pH optima. mAb formulation A showed strong activity toward higher (basic) pH values, but no enzymatic activity under acidic pH conditions. In contrast, mAb formulation B displayed strong similarities to the combined activity profiles of LPLA2 and LIPA. Lastly, mAb formulation C also showed strong activity toward higher pH values. However, unlike mAb A, mAb C revealed a medium activity in the acidic pH range, suggesting the presence of CES1F and/or PPT1. In conclusion, differing pH activity profiles might be used to infer the presence or absence of specific hydrolases and could be a valuable resource when considering pH values of mAb formulation buffers.</p>
+      </sec>
+      <sec disp-level="2" id="s0002-s2007">
+        <title>CHO hydrolase risk matrix</title>
+        <p>In a final step, gathered data about actively PS-degrading hydrolases were summarized in a risk matrix (<xref rid="f0006" ref-type="fig">Figure 6</xref>), which can serve as a guideline for prioritizing potentially critical HCPs for targeted removal or monitoring during bioprocess development. Based on identified values for gene expression, occurrence in mAb products, cellular localization, and the PS degradation activity, risk points were assigned and ranked in a final score. All risk categories were weighted equally (for rating approach, see Supplementary Table S1). The pH-dependent hydrolase activity was not incorporated into the risk matrix, as this factor is specific to the formulation buffer and must be assessed individually. Of note, proteomic data were not part of the risk matrix, as quantitative proteomic datasets may not be readily available for biopharmaceutical production processes.
+<fig position="float" id="f0006" fig-type="figure"><label>Figure 6.</label><caption><p>Risk matrix summarizing investigated host cell protein (HCP) parameters. Only PS-degrading hydrolases are compared. Color gradient from green to red represents increasing risk of the HCP&#x2019;s presence in drug product and/or causing PS degradation. Final score can be used for prioritization of HCP removal.</p></caption><alternatives><graphic xlink:href="KMAB_A_2375798_F0006_OC" content-type="color" specific-use="web-only" position="float"/><graphic xlink:href="KMAB_A_2375798_F0006_PB" content-type="black-white" specific-use="print-only" position="float"/></alternatives></fig></p>
+        <p>Furthermore, we were able to demonstrate strong correlation between proteome and transcriptome datasets (supported by localization data). As a result of this assessment, top ranked and thus to be prioritized in removal during the bioprocess are the hydrolases LIPA, PPT1, PAF-AH, and LPLA2, which all showed strong PS degradation activity likely catalyzed by the Ser, His, Asp/Glu triad. Among these, LIPA was the only intracellular hydrolase and was also highly expressed on mRNA level, thus rendering this enzyme particularly critical for bioprocesses with low cell viability or high cell lysis at the end of the fermentation and/or during harvest. LPLA2 and PAF-AH both displayed high PS degradation capacity, for PAF-AH in combination with efficient secretion, which rendered it with the higher risk score. IAH1 has the lowest risk score because it combined medium PS activity, intracellular localization and comparably low mRNA expression. This risk matrix can be used as a guideline to focus on the most critical PS-degrading HCPs in a CHO-based manufacturing process and helps to ensure efficient use of resources.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1" id="s0003">
+      <title>Discussion</title>
+      <p>Removal of PS-hydrolyzing HCPs from biologic products has proven challenging to the biopharmaceutical industry, jeopardizing the supply of innovative medicine.<sup><xref rid="cit0001" ref-type="bibr">1</xref>,<xref rid="cit0005" ref-type="bibr">5</xref>,<xref rid="cit0006" ref-type="bibr">6</xref>,<xref rid="cit0017" ref-type="bibr">17</xref></sup> Thus, the identification and characterization of hydrolytic HCPs are crucial for understanding their potential impact on product stability, efficacy, and safety. In this study, we characterized 12 hydrolytic enzymes potentially acting on PS that were identified in seven different mAb preparations. Our results suggest that the presence of specific HCPs in purified mAbs is influenced by factors beyond gene expression levels, which is in line with literature on difficult-to-remove HCPs. Here, final formulation &#x201C;contaminating&#x201D; HCPs are reported to persist purification either via product association or co-elution due to product-resembling physicochemical protein properties.<sup><xref rid="cit0032" ref-type="bibr">32&#x2013;36</xref></sup></p>
+      <p>In line with the previous work of Chiu et al., our study highlighted the importance of LPL as a major contributor to PS degradation.<sup><xref rid="cit0017" ref-type="bibr">17</xref></sup> Nevertheless, a CRISPR/Cas9 mediated LPL KO alone was not able to halt PS degradation completely, explaining the increasing efforts put into identification and characterization of additional hydrolytic HCPs.<sup><xref rid="cit0009" ref-type="bibr">9</xref>,<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0014" ref-type="bibr">14</xref></sup></p>
+      <p>By the systematic overexpression of hydrolytic HCPs other than LPL, we aimed for a system enabling the detailed characterization and, thus, a comprehensive risk assessment, of potentially critical CHO cell-derived HCPs acting on PS. We successfully demonstrated that hydrolase-containing crude cell culture supernatant can be applied in a PS degradation assay, providing strong indications toward hydrolase-specific PS degradation. In fact, only LIPA, IAH1, and CES1 did not confirm the results obtained with the purified hydrolases, which is probably due to their intracellular localization.</p>
+      <p>Following hydrolase purification, FMA data confirmed the list of PS-critical HCPs previously identified by several different groups.<sup><xref rid="cit0006" ref-type="bibr">6</xref>,<xref rid="cit0008" ref-type="bibr">8</xref>,<xref rid="cit0009" ref-type="bibr">9</xref>,<xref rid="cit0017" ref-type="bibr">17</xref>,<xref rid="cit0037" ref-type="bibr">37</xref></sup> In our study, we observed that the hydrolase SMPD1 was not active against PS, which presents a discrepancy with the findings reported in literature.<sup><xref rid="cit0037" ref-type="bibr">37</xref>,<xref rid="cit0038" ref-type="bibr">38</xref></sup> Kovner et al. demonstrated very weak activity of SMPD1 against PS. However, it is important to consider that this could be attributed to residual HCPs, as only one affinity tag was used to purify hydrolases. In our study, we successfully purified SMPD1 as confirmed by a size exclusion chromatogram and Western blot against the C-terminal His tag (Suppl. Figure S4a). Furthermore, comparison of the separations of a SEC protein standard mixture and SMPD1 shows that the protein elutes according to the apparent molecular weight of the monomer (72 kDa), demonstrating that no aggregation has occurred (Suppl. Figure S4b). To our knowledge, our work is the first to include three orthogonal capture steps for hydrolase purifications and activity data based on a uniform starting concentration, enabling direct comparison of PS degradation rates. Here, we demonstrate varying enzymatic activity for different hydrolases, which explains why enzyme abundance does not consistently correspond to the extent of PS degradation in a drug product.</p>
+      <p>Another important aspect is the localization of hydrolytic HCPs, especially in terms of CHO proteins, as localization data are oftentimes not experimentally determined. Low harvest viabilities lead to the release of intracellular HCPs, changing the HCP profile in the cell culture harvest including PS-degrading enzymes.<sup><xref rid="cit0039" ref-type="bibr">39</xref></sup> Thus, cell viability at harvest and cell-straining harvest procedures can be of particular importance in products contaminated with predominantly intracellular HCPs.</p>
+      <p>Enzymes active against PS were found to possess the classical catalytic triad, which consists of Serine (Ser), Histidine (His), and Aspartate/Glutamate (Asp/Glu). This finding is consistent with the activities of PS hydrolases investigated in previous research.<sup><xref rid="cit0009" ref-type="bibr">9</xref>,<xref rid="cit0013" ref-type="bibr">13</xref></sup> However, acid ceramidase possessing the same catalytic triad does not exhibit PS degrading activity.<sup><xref rid="cit0009" ref-type="bibr">9</xref>,<xref rid="cit0013" ref-type="bibr">13</xref></sup> In contrast to the enzymes investigated here, acid ceramidase belongs to EC number 3.5 and not 3.1. Thus, the catalytic triad is a prerequisite for PS degradation, but other protein properties are similarly important.</p>
+      <p>Furthermore, we found that purified mAb formulations exhibited varying activity pH profiles, suggesting the involvement of multiple enzymes in PS degradation. This further supports the idea that the specific enzymes, which are active with regard to PS degradation, depend on the downstream purification process and the specific mAb product. Although these data do not conclusively identify a hydrolase active in a drug product, activity pH profiles can help exclude specific enzyme groups and provide information on which group is significantly involved in PS hydrolysis. This information is particularly useful when multiple hydrolases are identified, and it is unclear which of them are primarily involved in PS hydrolysis in a particular product. Furthermore, use of potential preventive strategies, such as changing the pH of a formulation buffer to reduce PS-degrading activity of specific HCPs, may be beneficial. However, it should be considered that pH changes are limited to the stability range of the product and may cause chemical PS degradation in extreme pH conditions.<sup><xref rid="cit0040" ref-type="bibr">40</xref>,<xref rid="cit0041" ref-type="bibr">41</xref></sup></p>
+      <p>Based on our findings, we developed a risk matrix to prioritize hydrolases for further investigation and potential mitigation strategies. Of note, LPL would most likely have scored the highest in the risk matrix, as it showed highest gene and protein expression values and was found in 6 of 7 mAb products. In addition, LPL wt cell lines strongly degraded PS in comparison to LPL KO cell lines, which is in line with current literature confirming strong PS degradation by LPL.<sup><xref rid="cit0017" ref-type="bibr">17</xref></sup> Strikingly, LIPA, despite being mainly localized intracellularly, is frequently found in mAb preparations and scores the highest final score in the risk matrix. According to our data, approximately 10% of LIPA is secreted or at least found in the cell culture supernatant. Considering its high expression level, it is conceivable that even at low secretion levels, relatively high concentrations of LIPA are reached in the cell culture supernatant comparable to or even higher than that of other PS hydrolases. Additionally, low harvest viabilities or increased cell lysis induced by the harvest method or necrosis might increase the release of intracellular LIPA, offering an easy-to-implement counter measurement. Although the risk matrix provides a guidance of which hydrolases should be more closely monitored in the final drug product, individual products can differ in their hydrolase profile. Therefore, an individual case assessment is necessary, considering also other factors as the pH-dependent activity profiles or the level of similarity toward the specific biopharmaceutical.</p>
+      <p>This work provides a valuable overview facilitating decision-making toward future strategies to mitigate PS degradation. Due to the individual inherent features of the identified HCPs, multiple mitigation strategies are conceivable and must/can be combined to develop a PS degradation-free final drug product. Starting with the cell-line development, it was shown, that critical HCPs can be removed completely using genome engineering tools such as zinc finger nucleases or CRISPR/Cas9.<sup><xref rid="cit0017" ref-type="bibr">17</xref>,<xref rid="cit0042" ref-type="bibr">42</xref></sup> Another cell-line engineering approach would be the knockdown of several hydrolases using artificial miRNAs or siRNAs.<sup><xref rid="cit0043" ref-type="bibr">43</xref></sup> Given the essentiality of some HCPs for the CHO cell, other methods focused on the two main mechanisms responsible for retaining HCPs during purification: product association or product co-elution.<sup><xref rid="cit0032" ref-type="bibr">32</xref></sup> Tackling product association of specific HCPs, the molecule itself could be engineered to prevent specific interactions.<sup><xref rid="cit0044" ref-type="bibr">44</xref></sup> However, this concept is only feasible if the functionality of the product remains intact.<sup><xref rid="cit0045" ref-type="bibr">45</xref></sup> More common is the use of stringent wash buffers during the downstream chromatography steps, which may include extreme pH values and wash additives.<sup><xref rid="cit0035" ref-type="bibr">35</xref>,<xref rid="cit0046" ref-type="bibr">46</xref>,<xref rid="cit0047" ref-type="bibr">47</xref></sup> It is important to note that not every wash buffer can be used because some may compromise product quality. In general, HCP removal during purification can be realized by many other methods, such as flocculation,<sup><xref rid="cit0048" ref-type="bibr">48</xref></sup> depth filtration,<sup><xref rid="cit0049" ref-type="bibr">49</xref></sup> and various chromatography modes.<sup><xref rid="cit0046" ref-type="bibr">46</xref></sup> Of note, industrial bioprocesses are striving for platform processes that mostly do not allow the introduction of additional HCP reduction steps to ensure timely development and reduced complexity. Thus, using our results, it will be possible to optimize and adapt existing purification processes to specifically remove critical HCPs. Finally, PS degradation can be reduced by alternative formulation strategies. Besides changing the pH of the formulation buffer, the addition of hydrolase inhibitors or fatty acid solubilizer were successfully applied to reduce PS degradation and/or particle formation.<sup><xref rid="cit0050" ref-type="bibr">50</xref></sup> Moreover, alternative surfactants as Poloxamer 188 were effectively used due to their lack of cleavable ester bonds.<sup><xref rid="cit0050" ref-type="bibr">50</xref></sup> However, other than PS20, which has an excellent safety profile, any new formulation ingredient must address toxicology and stability concerns, requiring laborious and time-consuming safety analyses.<sup><xref rid="cit0001" ref-type="bibr">1</xref>,<xref rid="cit0050" ref-type="bibr">50</xref></sup> Our system of stably HCP-overexpressing CHO cells enabled the robust supply of HCPs without contamination by the strongly PS-degrading LPL enzyme and facilitates the expansion of this dataset in the future. In conclusion, PS degradation represents a highly relevant problem in the biopharmaceutical industry that can only be solved through joint efforts of all bioprocess-involved departments.</p>
+    </sec>
+    <sec disp-level="1" id="s0004">
+      <title>Materials and methods</title>
+      <sec disp-level="2" id="s0004-s2001">
+        <title>Hydrolase identification by LC/MS-MS</title>
+        <sec disp-level="3" id="s0004-s2001-s3001">
+          <title>Sample preparation</title>
+          <p>For each mAb, 8&#x2009;mg of ultrafiltration/diafiltration material was diluted using purified water to the final volume of 370&#x2009;&#xB5;l, and pH was adjusted using 10&#x2009;&#x3BC;L of 1&#x2009;M Tris/HCl buffer (pH 8.0). 4&#x2009;&#xB5;g of trypsin was added to each sample, and samples were incubated at 37&#xB0;C for 2&#x2009;h, at 550 RPM. Dithiothreitol (DTT) was added to each sample to 13.4&#x2009;mM final concentration, followed by 10&#x2009;min incubation at 95&#xB0;C for 10&#x2009;min, 550 RPM. Undigested mAb was pelleted by 5&#x2009;min centrifugation at 15,000&#x2009;g, and supernatants were transferred to fresh tubes. Samples were acidified using 15&#x2009;&#x3BC;L of 10% formic acid (FA) and desalted using C18 StageTips and dried by vacuum centrifuge. Purified dried peptides were fractionated using tip-based basic reversed-phase (BRP) fractionation. For BRP-fractionation 10&#x2009;mM ammonium formate elution buffers were prepared with ascending acetonitrile (ACN) concentration. The pH of the elution buffers was adjusted to 10 using 28% NH<sub>4</sub>OH and BRP tip columns were prepared using 14 layers of C18 Empore Extraction material (3&#x2009;M). Columns were equilibrated by applying 100&#x2009;&#xB5;l of methanol, 100&#x2009;&#xB5;l of 10&#x2009;mM ammonium formate, 20% ACN, and 100&#x2009;&#xB5;l of 10&#x2009;mM ammonium formate, 5% ACN. Dried samples were resolubilized in 200&#x2009;&#xB5;l of 10&#x2009;mM ammonium formate, 5% ACN and were loaded to columns, and flow-through was collected as the first fraction after 3&#x2009;min centrifugation at 2500&#x2009;g. Subsequent fractions were collected using the elution buffers with 7.5%, 10.0%, 12.5%, 15.0%, 17.5%, 20.0%, and 50.0% ACN, and all fractions were dried using a vacuum centrifuge until further analysis.</p>
+        </sec>
+        <sec disp-level="3" id="s0004-s2001-s3002">
+          <title>LC-MS/MS data acquisition</title>
+          <p>The dried samples were reconstituted in a solution containing 5% ACN and 5% FA, and then loaded onto a PepMap&#xAE; RSLC C18 Easy-spray column (#ES903, ThermoFisher) at a flow rate of 300 nL/min using solvent A (0.1% FA in water) at a column temperature of 60&#xB0;C, using a Dionex UltiMate 3000 RSLCnano system (ThermoFisher Scientific, Waltham). Peptides were separated with a 240-min linear gradient, starting from 98% solvent A and 2% solvent B (0.1% FA in ACN) to 65% solvent A and 35% solvent B, at a flow rate of 250 nL/min. The column was washed with four cycles of zigzag washing steps, ranging from 2% solvent B to 95% solvent B.</p>
+          <p>The eluted peptides from the analytical column were subjected to positive ionization at 2.0 kV using the EASY-Spray&#x2122; Source (ThermoFisher Scientific, Waltham) of an Exploris 480 mass spectrometer, equipped with a FAIMS pro interface (ThermoFisher Scientific, Waltham). The mass spectrometer was operated in data-dependent acquisition (DDA) mode with survey scans acquired from m/z 300 to 1600 in the Orbitrap analyzer at a resolution of 60,000 at four different compensation voltages (CV &#x2212;40, &#x2212;65, &#x2212;75, &#x2212;90), followed by fragmentation of the most abundant ions. MS/MS spectra were obtained using higher-energy collisional dissociation (HCD) at 30%. The isolation window was set at 2&#x2009;m/z, the Orbitrap resolution at 15,000, the target value at 1E5, and the maximum injection time set at auto. Selected precursor ions for fragmentation (including charge state 2&#x2013;8) were excluded for 30 s, and the repeat count was set at 1.</p>
+        </sec>
+        <sec disp-level="3" id="s0004-s2001-s3003">
+          <title>Data analysis</title>
+          <p>Acquired raw files were analyzed using Proteome Discoverer 2.2 with the Mascot and SEQUEST algorithms in one combined search. The search was performed against the Chinese hamster UniProt proteome database (UP000001075). The applied search parameters were as follows: a full tryptic digestion and a maximum missed cleavage of 3, dynamic modifications of oxidation at methionine and acetylation at protein N-termini, the minimum peptide length of 6, and a maximum of 144. The precursor mass tolerance and fragment mass tolerance were set to 10 ppm and 0.02&#x2009;Da, respectively. Data filter criteria were set as 1% and 5% false discovery rate (FDR) for peptides and proteins, respectively. A protein was considered as identified when at least two unique peptides fulfilling the mentioned criteria could be identified. Uniprot<sup><xref rid="cit0051" ref-type="bibr">51</xref></sup> and BRENDA<sup><xref rid="cit0052" ref-type="bibr">52</xref></sup> databases were used for the enzyme class determination of the HCPs.</p>
+        </sec>
+      </sec>
+      <sec disp-level="2" id="s0004-s2002">
+        <title>Hydrolase quantification by LC/MS-MS</title>
+        <sec disp-level="3" id="s0004-s2002-s3001">
+          <title>Sample preparation</title>
+          <p>An equivalent of 100&#x2009;&#xB5;g antibody from harvested cell culture supernatant were denaturized with 80&#x2009;&#x3BC;l of 7&#x2009;M guanidine&#xB7; HCl, 0.4&#x2009;M tris-HCl buffer at a final volume of 180&#x2009;&#xB5;l. Samples were reduced in 5&#x2009;mM DTT for 30&#x2009;min at 56&#xB0;C for 30&#x2009;min and alkylated with 10&#x2009;mM Chloroacetamide at room temperature in the dark for 45&#x2009;min. Afterward samples were diluted to a final volume of 800&#x2009;&#xB5;l with 25&#x2009;mM Tris-HCl before adding 1.5&#x2009;&#xB5;g of Trypsin/LysC mix (#V5073, Promega). Digestion was carried out overnight for at least 18&#x2009;h. Digested samples were desalted using Pierce&#x2122; Peptide Desalting Spin Columns (#89851, ThermoFisher Scientific) as described in the manufacturer&#x2019;s manual and dried until further use.</p>
+        </sec>
+        <sec disp-level="3" id="s0004-s2002-s3002">
+          <title>LC-MS/MS data acquisition</title>
+          <p>The dried samples were reconstituted in 2% ACN and 0.1% FA and trapped on a Pierce&#x2122; Neo 5&#x2009;&#xB5;m C18 300&#x2009;&#xB5;m &#xD7; 5&#x2009;mm Trap cartridge (#174500, ThermoFisher Scientific) at a flow rate of 30&#x2009;&#xB5;l/min using a Dionex UltiMate 3000 RSLCnano System (ThermoFisher Scientific, Waltham). Subsequently, peptides were eluted in back flush on to a PepMap&#x2122; RSLC C18 Easy-spray column (#ES75500PN, ThermoFisher Scientific) (75&#x2009;mm inner diameter x 50&#x2009;cm, 2&#x2009;mm particle size, 100 &#xC5;) with a 120-min linear gradient at a flow rate of 300nL/min, starting from 98% solvent A and 2% solvent B (0.1% FA in ACN) to 65% solvent A and 35% solvent B, at a flow rate of 300 nl/min. Afterward, the column was washed with 80% solvent B before being equilibrated with 98% solvent A and 2% solvent B.</p>
+          <p>The eluted peptides were subjected to ionization at 2.0 kV using an EASY-Spray&#x2122; Source (ThermoFisher Scientific, Waltham) of an Exploris 480 mass spectrometer, equipped with a FAIMS pro interface (ThermoFisher Scientific, Waltham). The mass spectrometer was operated in DDA mode with full scans acquired from m/z 300 to 1600 in the Orbitrap analyzed at a resolution of 60,000 followed by fragmentation of the 10 most abundant ions at three different compensation voltages (CV &#x2212;50, &#x2212;65, &#x2212;85). Tandem mass spectra were obtained using HCD at 30%. The isolation window was set at 2&#x2009;m/z, the Orbitrap resolution at 15,000, the target value at 1E5, and the maximum injection time set at auto. Selected precursor ions for fragmentation (including charge state 2&#x2009;&#x2212;&#x2009;8) were excluded for 45 s, and the repeat count was set at 1.</p>
+        </sec>
+        <sec disp-level="3" id="s0004-s2002-s3003">
+          <title>Data analysis</title>
+          <p>Raw files were analyzed using Proteome Discoverer 3.0 using Mascot and SEQUEST search algorithms in one combined search using the Chinese Hamster TrEMBL proteome database (downloaded 01.03.2023, 57854 entries). Database search was carried out using search parameters as follows: full tryptic digestion and a maximum missed cleavage of 2, dynamic modifications of oxidation at methionine and acetylation at protein N-termini, the minimum peptide length of 6, and a maximum of 144. The precursor mass tolerance and fragment mass tolerance were set to 10 ppm and 0.02&#x2009;Da, respectively. Data filter criteria were set as 1% FDR for peptides and proteins. Peak areas deriving from the full scans were used for relative quantification using the precursor ions quantifier node with default settings in Proteome Discoverer.</p>
+        </sec>
+      </sec>
+      <sec disp-level="2" id="s0004-s2003">
+        <title>Cell culture</title>
+        <p>CHO K1 producer cell lines were cultured with Boehringer Ingelheim (BI) proprietary medium in 125&#x2009;mL shake flasks on an orbital shaker (Infors HT, Bottmingen) with 120 rpm (50-mm orbit). Cells were seeded with 5&#x2009;&#xD7;&#x2009;10<sup>5</sup> viable cells/mL and passaged every 2&#x2013;3&#x2009;days. Viable cell density and viability were determined by trypan blue exclusion using Vi-CELL BLU (Beckman Coulter, Brea). Cultured cells were maintained at 36.5&#xB0;C and 5% CO2.</p>
+      </sec>
+      <sec disp-level="2" id="s0004-s2004">
+        <title>Gene expression analysis</title>
+        <p>RNA was isolated from 5&#x2009;&#xD7;&#x2009;10<sup>6</sup> cells using QIAsymphony RNA Kit and the QIAsymphony (Qiagen, Hilden). The RNA quality was assessed using the Fragment Analyzer with the RNA Kit (DNF-471-0500, Agilent) and samples with RNA quality numbers of&#x2009;&#x2265;&#x2009;7.5 were processed further. Strand-specific RNA libraries were prepared using the NEBNext Ultra II Directional RNA Library Kit and the NEBNext Poly(A) mRNA Magnetic Isolation Module (#E7760, # E7490, New England Biolabs). Libraries were sequenced on Illumina&#x2019;s NovaSeq 6000 (Illumina, San Diego) in 100 bp paired-end mode generated mean read counts of 3&#x2009;&#xD7;&#x2009;10<sup>7</sup> read pairs per sample. Sequencing data was analyzed with GeneData Selector&#xAE; software (Genedata, Basel). Sequence reads were quality filtered, adapter sequences were trimmed off, and high-quality reads were mapped to BI&#x2019;s proprietary CHO K1 genome. Protein coding sequences were annotated, counted, and normalized to library size. Gene expression was calculated as transcripts per million reads (TPM).</p>
+      </sec>
+      <sec disp-level="2" id="s0004-s2005">
+        <title>Generation of LPL KO cell lines</title>
+        <p>Generation of LPL KO cell lines producing mAb was done via CRISPR/Cas9 deletion technology. In brief, 180 pmol Alt-R&#x2122; Sp. Cas9 (#1081059, Integrated DNA Technologies) was complexed to 220 pmol Alt-R&#x2122; sgRNAs (Integrated DNA Technologies) (Upstream: TCTACCGCGCTCCAGCCCTT; Downstream: GGTCTTGGCGCACTCTAGAA) and transfected via the NEON electroporation system (Thermo Fisher Scientific, Waltham) in 5&#x2009;&#xD7;&#x2009;10<sup>6</sup> cells. Transfected cells were resuspended in 25&#x2009;mL culture medium in 125&#x2009;mL shaking flasks and single cell sorted via FACSAria<sup>TM</sup> (BD Bioscience, San Jose) after 3&#x2009;days cultivation. Following expansion, biallelic LPL KO clones were identified via (Non-)Deletion PCR of extracted gDNA (non-deletion primer:fw: tggggcaacggtactgtaga; rev: aacgtaccgtctgctgcg; Deletion primer:fw: tggggcaacggtactgtaga; rev: ctggatgtgaggaagctacttcc). In addition, lack of LPL expression on protein level was confirmed by ELISA measurement (#SEA386Mu, Cloud-Clone Corp.).</p>
+        <p>Deletion of LPL in CHO host cells was performed with a ZFN pair targeting exon 7 (Sigma-Aldrich). 2&#x2009;&#xB5;g of each ZFN were transfected with the NEON electroporation device in 1&#x2009;&#xD7;&#x2009;10<sup>6</sup> cells and transferred into 10&#x2009;mL medium in a 50&#x2009;mL TPP. Single-cell cloning was performed 3&#x2009;days after transfection and LPL KO validation was executed via ELISA.</p>
+      </sec>
+      <sec disp-level="2" id="s0004-s2006">
+        <title>Fed-batch cultivation</title>
+        <p>Fed-batch cultivation of LPL KO and LPL wt was performed in ambr15&#xAE;/ambr250&#xAE; (Sartorius, G&#xF6;ttingen) micro bioreactors under BI standard cultivation conditions. After 14&#x2009;days cultivation, supernatant was harvested by centrifugation and filtration.</p>
+      </sec>
+      <sec disp-level="2" id="s0004-s2007">
+        <title>Generation of stably expressing hydrolase cell lines and recombinant hydrolase expression</title>
+        <p>For hydrolase expression, a transposase system was used in combination with a glutamine selection system. Hydrolase sequences were extracted from the proprietary CHO K1 transcriptome and cloned into a transposase recognition sequence harboring expression plasmid. For purification purposes, a C-terminal His- and Strep Tag were added to the native hydrolase coding sequences. 3&#x2009;&#xB5;g transposon plasmid and 1.5&#x2009;&#xB5;g transposase expression plasmid were transfected (NEON electroporation system) into 5&#x2009;&#xD7;&#x2009;10<sup>6</sup> cells and cells were resuspended in 5&#x2009;mL medium and incubated statically. Selection pressure was applied one day post-transfection, and cells were expanded in 40&#x2009;mL medium. After reaching a viability of &gt;&#x2009;40% and a VCC of &gt;&#x2009;1.5&#xD7;10<sup>5</sup> cells/mL, cells were transferred in 25&#x2009;mL medium in a shaking flask and cultivated until reaching viabilities&#x2009;&gt;&#x2009;95%. Stable hydrolase expressing cell pools were (fed-)batch cultivated in 1.5&#x2009;L cultures over 5&#x2013;12&#x2009;days and cell pellet/supernatant was harvested via centrifugation and stored at &#x2212;70&#xB0;C.</p>
+      </sec>
+      <sec disp-level="2" id="s0004-s2008">
+        <title>Enzyme localization</title>
+        <p>Expression and localization of the protein of interest was analyzed with biolayer interferometry using Anti-His2 biosensors (Octet&#xAE; Anti-HIS2 #18&#x2013;5114, Sartorius) on an Octet HTX platform (ForteBio, Fremont, CA). For protein localization, cell pellets were lysed using the same volume of lysis buffer (50&#x2009;mM Tris pH 8, 150&#x2009;mM NaCl, 1% Triton X-100) as the corresponding cell culture supernatant. This ensured a consistent comparison between intracellular and extracellular protein levels. The ratio of the amount of intracellular- and extracellular protein was then calculated.</p>
+      </sec>
+      <sec disp-level="2" id="s0004-s2009">
+        <title>Purification of recombinant hydrolases</title>
+        <p>Recombinant hydrolases were purified using two orthogonal capture steps followed by SEC on an Akta Avant 150 system (Cytiva, Marlborough). Initially, immobilized metal affinity chromatography (IMAC) was performed using a nickel-nitrolotriacetic acid column (HisTrap FF crude #17528601, Cytiva). The column was equilibrated with buffer containing 20&#x2009;mM Hepes pH 8, 150&#x2009;mM NaCl and 20&#x2009;mM imidazole. After sample loading, the column was washed with the same buffer until baseline absorbance at 280&#x2009;nm. The bound protein was eluted by an imidazole gradient over 10 column volumes (20&#x2013;500&#x2009;mM). Elution fractions were pooled and loaded onto a Strep-Tactin column (StrepTrap XT #29401323, Cytiva) according to manufacturer&#x2019;s instructions. Proteins were eluted with a step elution of 10&#x2009;mM HEPES, 150&#x2009;mM NaCl and 50&#x2009;mM biotin at pH 8. Samples containing the protein of interest, as determined by SDS-PAGE, were pooled and polished by SEC (HiLoad 16/600 Superdex 200 pg #28989335, Cytiva). The recombinant hydrolase monomers were identified by comparing the chromatogram to a molecular weight standard. Fractions containing pure protein were aliquoted and stored at &#x2212;70&#xB0;C.</p>
+      </sec>
+      <sec disp-level="2" id="s0004-s2010">
+        <title>Fluorescence micelle assay for determining polysorbate degradation</title>
+        <p>The assay was performed as described before.<sup><xref rid="cit0043" ref-type="bibr">43</xref></sup> Purified hydrolases were spiked into a typical formulation buffer (50&#x2009;mM Histidine pH 6) at a final concentration of 25&#x2009;&#xB5;g/mL and mixture was incubated at room temperature. At different time points (d0, d1, d3, d7, d14), samples were frozen at &#x2212;70&#xB0;C. Hydrolase containing cell culture supernatant was diluted in PS spiked (0.4&#x2009;mg/mL), fresh cultivation media.</p>
+      </sec>
+      <sec disp-level="2" id="s0004-s2011">
+        <title>pH-dependent activity</title>
+        <p>The esterase activity assay was fully automated using a Fluent Control (Tecan Group, M&#xE4;nnerdorf) and employed 4-methylumbelliferyl decanoate (MUD4) as a substrate to evaluate hydrolytic activity at various pH values between 4 and 8. Multi-component buffers were prepared at pH 4 and 8, and a master mix containing the MUD4 substrate was created. The multi-component buffers were mixed in a 12-column reservoir trough to generate a linear pH gradient. The assay was performed in a 96-well plate with the following composition per well: 75 &#xB5; sample, 75&#x2009;&#xB5;L water, 150&#x2009;&#xB5;L master mix at various pH values. MUD4 is a nonfluorescent ester that, upon cleavage by esterases, releases the fluorescent product 4-methylumbelliferon (MU). This cleavage of the ester bond results in an increase in fluorescence signal within the sample, which can be detected using excitation and emission wavelengths of 355&#x2009;nm and 460&#x2009;nm (Sepctra Max M series, Molecular Devices, San Jos&#xE9;), respectively. By measuring the assay at different pH values, pH-dependent activities can be investigated. The fluorescence intensity is proportional to the amount of fluorogenic substrate (MUD4) being cleaved, allowing for the quantification of esterase activity in the sample under various pH conditions.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1" id="s0005">
+      <title>Abbreviations</title>
+      <p>
+<def-list><def-item><term>API</term><def><p>Active Pharmaceutical Ingredient</p></def></def-item><def-item><term>CES1</term><def><p>Liver carboxylesterase 1-like protein</p></def></def-item><def-item><term>CES1(F)</term><def><p>Carboxylesterase 1 (F)</p></def></def-item><def-item><term>CES2C</term><def><p>Carboxylic ester hydrolase 2C</p></def></def-item><def-item><term>CHO</term><def><p>Chinese hamster ovary</p></def></def-item><def-item><term>CMC</term><def><p>Chemistry, manufacturing, and controls</p></def></def-item><def-item><term>CRISPR/Cas9</term><def><p>Clustered Regularly Interspaces Short Palindromic Repeats/CRISPR-associated protein 9</p></def></def-item><def-item><term>EC</term><def><p>Enzyme Commission</p></def></def-item><def-item><term>ELISA</term><def><p>Enzyme-linked immunosorbent assay</p></def></def-item><def-item><term>FMA</term><def><p>Fluorescence micelle assay</p></def></def-item><def-item><term>GNS</term><def><p>N-acetylglucosamine-6-sulfatase</p></def></def-item><def-item><term>HCP</term><def><p>host cell protein, His: Histidine</p></def></def-item><def-item><term>IMAC</term><def><p>Immobilized Metal Ion Affinity Column</p></def></def-item><def-item><term>IAH1</term><def><p>Isoamyl acetate-hydrolyzing esterase 1-like</p></def></def-item><def-item><term>KO</term><def><p>Knockout</p></def></def-item><def-item><term>LC-MS/MS</term><def><p>Liquid chromatography-tandem mass spectrometry</p></def></def-item><def-item><term>LIPA</term><def><p>Lysosomal acid lipase</p></def></def-item><def-item><term>LPL</term><def><p>Lipoprotein lipase</p></def></def-item><def-item><term>LPLA2</term><def><p>Group XV phospholipase A2</p></def></def-item><def-item><term>mAb</term><def><p>monoclonal antibody</p></def></def-item><def-item><term>MUD4</term><def><p>4-methylumbelliferyl decanoate</p></def></def-item><def-item><term>PAF-AH</term><def><p>Platelet-Activating Factor Acetylhydrolase</p></def></def-item><def-item><term>PCR</term><def><p>Polymerase Chain Reaction</p></def></def-item><def-item><term>PLB3</term><def><p>Phospholipase D3</p></def></def-item><def-item><term>PLBL2</term><def><p>Phospholipase B-Like 2</p></def></def-item><def-item><term>PS</term><def><p>polysorbate, ppm: parts per million</p></def></def-item><def-item><term>PPT1</term><def><p>Palmitoyl-proteinthioesterase 1</p></def></def-item><def-item><term>SMPD1</term><def><p>Sphingomyelinphosphodiesterase</p></def></def-item><def-item><term>Strep</term><def><p>Streptavidin</p></def></def-item></def-list></p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material id="SM8686" position="float" content-type="local-data">
+        <caption>
+          <title>KMAB-2024-0042R1_Supplements_final.docx</title>
+        </caption>
+        <media xlink:href="KMAB_A_2375798_SM8686.docx"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors gratefully acknowledge support by team members of ADB, 1CLD, LS DSP, ES PD from Boehringer Ingelheim Pharma GmbH &amp; Co. KG.</p>
+    </ack>
+    <sec sec-type="COI-statement" disp-level="1" id="s0006">
+      <title>Disclosure statement</title>
+      <p>No potential conflict of interest was reported by the author(s).</p>
+    </sec>
+    <sec disp-level="1" id="s0007">
+      <title>Author contributions</title>
+      <p>M.M., L.W., N.Z., K.O., S.F., D.L. designed the study.</p>
+      <p>D.H. designed plasmids for overexpression.</p>
+      <p>M.M., L.W., V.S., A.D., B.L. performed the experiments.</p>
+      <p>M.M., L.W., V.S., A.D., B.L. performed analysis and interpretation of data.</p>
+      <p>M.M. and L.W. wrote the manuscript.</p>
+      <p>All authors provided critical feedback and helped shape the research, analysis, and manuscript.</p>
+    </sec>
+    <sec sec-type="supplementary-material" disp-level="1" id="s0008">
+      <title>Supplementary material</title>
+      <p>Supplemental data for this article can be accessed online at <ext-link xlink:href="https://doi.org/10.1080/19420862.2024.2375798" ext-link-type="uri">https://doi.org/10.1080/19420862.2024.2375798</ext-link></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dwivedi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Blech</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Presser</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Garidel</surname>
+<given-names>P.</given-names></string-name></person-group>
+<article-title>Polysorbate degradation in biotherapeutic formulations: identification and discussion of current root causes</article-title>. <source>Int J Pharm</source>. <year>2018</year>;<volume>552</volume>(<issue>1&#x2013;2</issue>):<fpage>422</fpage>&#x2013;<lpage>15</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ijpharm.2018.10.008</pub-id>. <comment>PMID:30300706</comment>.<pub-id pub-id-type="pmid">30300706</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bates</surname>
+<given-names>TR</given-names></string-name>, <string-name><surname>Nightingale</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Dixon</surname>
+<given-names>E</given-names></string-name></person-group>. <article-title>Kinetics of hydrolysis of polyoxyethylene (20) sorbitan fatty acid ester surfactants</article-title>. <source>J Pharm Pharmacol</source>. <year>1973</year>;<volume>25</volume>(<issue>6</issue>):<fpage>470</fpage>&#x2013;<lpage>477</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.2042-7158.1973.tb09135.x</pub-id>. <comment>PMID:4146586</comment>.<pub-id pub-id-type="pmid">4146586</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kerwin</surname>
+<given-names>BA</given-names></string-name></person-group>. <article-title>Polysorbates 20 and 80 used in the formulation of protein biotherapeutics: structure and degradation pathways</article-title>. <source>J Pharm Sci</source>. <year>2008</year>;<volume>97</volume>(<issue>8</issue>):<fpage>2924</fpage>&#x2013;<lpage>2935</lpage>. doi:<pub-id pub-id-type="doi">10.1002/jps.21190</pub-id>. <comment>PMID:17973307</comment>.<pub-id pub-id-type="pmid">17973307</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yarbrough</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hodge</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Menard</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Jerome</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Ryczek</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Moore</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Baldus</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Warne</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Ohtake</surname>
+<given-names>S</given-names></string-name></person-group>. <article-title>Edetate disodium as a polysorbate degradation and monoclonal antibody oxidation stabilizer</article-title>. <source>J Pharm Sci</source>. <year>2019</year>;<volume>108</volume>(<issue>4</issue>):<fpage>1631</fpage>&#x2013;<lpage>1635</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.xphs.2018.11.031</pub-id>. <comment>PMID:30502482</comment>.<pub-id pub-id-type="pmid">30502482</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dixit</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Salamat-Miller</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Salinas</surname>
+<given-names>PA</given-names></string-name>, <string-name><surname>Taylor</surname>
+<given-names>KD</given-names></string-name>, <string-name><surname>Basu</surname>
+<given-names>SK</given-names></string-name></person-group>. <article-title>Residual host cell protein promotes polysorbate 20 degradation in a sulfatase drug product leading to free fatty acid particles</article-title>. <source>J Pharm Sci</source>. <year>2016</year>;<volume>105</volume>(<issue>5</issue>):<fpage>1657</fpage>&#x2013;<lpage>1666</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.xphs.2016.02.029</pub-id>. <comment>PMID:27032893</comment>.<pub-id pub-id-type="pmid">27032893</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hall</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Sandefur</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Frye</surname>
+<given-names>CC</given-names></string-name>, <string-name><surname>Tuley</surname>
+<given-names>TL</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>L</given-names></string-name></person-group>. <article-title>Polysorbates 20 and 80 degradation by group XV lysosomal phospholipase A2 isomer X1 in monoclonal antibody formulations</article-title>. <source>J Pharm Sci</source>. <year>2016</year>;<volume>105</volume>(<issue>5</issue>):<fpage>1633</fpage>&#x2013;<lpage>1642</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.xphs.2016.02.022</pub-id>. <comment>PMID:27056628</comment>.<pub-id pub-id-type="pmid">27056628</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>McShan</surname>
+<given-names>AC</given-names></string-name>, <string-name><surname>Kei</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Ji</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>DC</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>YJ</given-names></string-name></person-group>. <article-title>Hydrolysis of polysorbate 20 and 80 by a range of carboxylester hydrolases</article-title>. <source>PDA J Pharm Sci Technol</source>. <year>2016</year>;<volume>70</volume>(<issue>4</issue>):<fpage>332</fpage>&#x2013;<lpage>345</lpage>. <comment>PMID:27020650</comment>. doi:<pub-id pub-id-type="doi">10.5731/pdajpst.2015.005942</pub-id>.<pub-id pub-id-type="pmid">27020650</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zhang</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Xiao</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Molden</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Qiu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>N</given-names></string-name></person-group>. <article-title>Rapid polysorbate 80 degradation by liver carboxylesterase in a monoclonal antibody formulated drug substance at early stage development</article-title>. <source>J Pharm Sci</source>. <year>2020</year>;<volume>109</volume>(<issue>11</issue>):<fpage>3300</fpage>&#x2013;<lpage>3307</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.xphs.2020.07.018</pub-id>. <comment>PMID:32721471</comment>.<pub-id pub-id-type="pmid">32721471</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Graf</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Tomlinson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Yuk</surname>
+<given-names>IH</given-names></string-name>, <string-name><surname>Kufer</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Spensberger</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Falkenstein</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Shen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Duan</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>W</given-names></string-name></person-group>. et al. <article-title>Identification and characterization of polysorbate-degrading enzymes in a monoclonal antibody formulation</article-title>. <source>J Pharm Sci</source>. <year>2021</year>;<volume>110</volume>(<issue>11</issue>):<fpage>3558</fpage>&#x2013;<lpage>3567</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.xphs.2021.06.033</pub-id>. <comment>PMID:34224732</comment>.<pub-id pub-id-type="pmid">34224732</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Madsen</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Farutin</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Carbeau</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Wudyka</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Yin</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Smith</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Anderson</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Capila</surname>
+<given-names>I</given-names></string-name></person-group>. <article-title>Toward the complete characterization of host cell proteins in biotherapeutics via affinity depletions, LC-MS/MS, and multivariate analysis</article-title>. <source>mAbs</source>. <year>2015</year>;<volume>7</volume>(<issue>6</issue>):<fpage>1128</fpage>&#x2013;<lpage>1137</lpage>. doi:<pub-id pub-id-type="doi">10.1080/19420862.2015.1082017</pub-id>. <comment>PMID:26291024</comment>.<pub-id pub-id-type="pmid">26291024</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>M&#xF6;rtstedt</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Makower</surname>
+<given-names>&#xC5;</given-names></string-name>, <string-name><surname>Edlund</surname>
+<given-names>P-O</given-names></string-name>, <string-name><surname>Sj&#xF6;berg</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Tjernberg</surname>
+<given-names>A</given-names></string-name></person-group>. <article-title>Improved identification of host cell proteins in a protein biopharmaceutical by LC-MS/MS using the ProteoMiner&#x2122; Enrichment Kit</article-title>. <source>J Pharm Biomed Anal</source>. <year>2020</year>;<volume>185</volume>:<fpage>113256</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpba.2020.113256</pub-id>. <comment>PMID:32229402</comment>.<pub-id pub-id-type="pmid">32229402</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Thompson</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Chung</surname>
+<given-names>WK</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Tie</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Aboulaich</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Strouse</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Mo</surname>
+<given-names>WD</given-names></string-name></person-group>. <article-title>Improved detection of host cell proteins (HCPs) in a mammalian cell-derived antibody drug using liquid chromatography/mass spectrometry in conjunction with an HCP-enrichment strategy</article-title>. <source>Rapid Commun Mass Spectrom</source>. <year>2014</year>;<volume>28</volume>(<issue>8</issue>):<fpage>855</fpage>&#x2013;<lpage>860</lpage>. doi:<pub-id pub-id-type="doi">10.1002/rcm.6854</pub-id>. <comment>PMID:24623688</comment>.<pub-id pub-id-type="pmid">24623688</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Chandra</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Letarte</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Adam</surname>
+<given-names>GC</given-names></string-name>, <string-name><surname>Welch</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>R-S</given-names></string-name>, <string-name><surname>Rivera</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Bodea</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Dow</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Chi</surname>
+<given-names>A</given-names></string-name></person-group>. et al. <article-title>Profiling active enzymes for polysorbate degradation in biotherapeutics by activity-based protein profiling</article-title>. <source>Analytical Chem</source>. <year>2021</year>;<volume>93</volume>(<issue>23</issue>):<fpage>8161</fpage>&#x2013;<lpage>8169</lpage>. doi:<pub-id pub-id-type="doi">10.1021/acs.analchem.1c00042</pub-id>. <comment>PMID:34032423</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Liu</surname>
+<given-names>G-Y</given-names></string-name>, <string-name><surname>Nie</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zheng</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>N</given-names></string-name></person-group>. <article-title>Activity-based protein profiling probe for the detection of enzymes catalyzing polysorbate degradation</article-title>. <source>Analytical Chem</source>. <year>2022</year>;<volume>94</volume>(<issue>24</issue>):<fpage>8625</fpage>&#x2013;<lpage>8632</lpage>. doi:<pub-id pub-id-type="doi">10.1021/acs.analchem.2c00059</pub-id>. <comment>PMID:35679579</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zhang</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Xiao</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Goren</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Burakov</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Tustian</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Adams</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Mattila</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Bak</surname>
+<given-names>H</given-names></string-name></person-group>. <article-title>Putative phospholipase B-Like 2 is not responsible for polysorbate degradation in monoclonal antibody drug products</article-title>. <source>JPharmSci</source>. <year>2020</year>;<volume>109</volume>(<issue>9</issue>):<fpage>2710</fpage>&#x2013;<lpage>2718</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.xphs.2020.05.028</pub-id>. <comment>PMID:32534029</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dehghani</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Binder</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Zorn</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Feigler</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Fischer</surname>
+<given-names>KI</given-names></string-name>, <string-name><surname>Felix</surname>
+<given-names>MN</given-names></string-name>, <string-name><surname>Happersberger</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Reisinger</surname>
+<given-names>B</given-names></string-name></person-group>. <article-title>Investigating pH effects on enzymes catalyzing polysorbate degradation by activity-based protein profiling</article-title>. <source>JPharmSci</source>. <year>2023</year>. doi:<pub-id pub-id-type="doi">10.1016/j.xphs.2023.09.013</pub-id>. <comment>PMID:37758159</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chiu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Valente</surname>
+<given-names>KN</given-names></string-name>, <string-name><surname>Levy</surname>
+<given-names>NE</given-names></string-name>, <string-name><surname>Min</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Lenhoff</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>KH</given-names></string-name></person-group>. <article-title>Knockout of a difficult-to-remove CHO host cell protein, lipoprotein lipase, for improved polysorbate stability in monoclonal antibody formulations</article-title>. <source>Biotechnol Bioeng</source>. <year>2017</year>;<volume>114</volume>(<issue>5</issue>):<fpage>1006</fpage>&#x2013;<lpage>1015</lpage>. doi:<pub-id pub-id-type="doi">10.1002/bit.26237</pub-id>. <comment>PMID:27943242</comment>.<pub-id pub-id-type="pmid">27943242</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wang</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Zou</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Jin</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Hou</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Ge</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>L</given-names></string-name></person-group>. <article-title>Human carboxylesterases: a comprehensive review</article-title>. <source>Acta Pharmaceutica Sin B</source>. <year>2018</year>;<volume>8</volume>(<issue>5</issue>):<fpage>699</fpage>&#x2013;<lpage>712</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.apsb.2018.05.005</pub-id>. <comment>PMID:30245959</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Satoh</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Hosokawa</surname>
+<given-names>M</given-names></string-name></person-group>. <article-title>The mammalian carboxylesterases: from molecules to functions. Annual review of pharmacology and toxicology</article-title>. <source>Annu Rev Pharmacol Toxicol</source>. <year>1998</year>;<volume>38</volume>(<issue>1</issue>):<fpage>257</fpage>&#x2013;<lpage>88</lpage>. doi:<pub-id pub-id-type="doi">10.1146/annurev.pharmtox.38.1.257</pub-id>. <comment>PMID:9597156</comment>.<pub-id pub-id-type="pmid">9597156</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Marino</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Russo</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Toscano</surname>
+<given-names>M</given-names></string-name></person-group>. <article-title>Catalytic mechanism of the arylsulfatase promiscuous enzyme from Pseudomonas aeruginosa</article-title>. <source>Chemistry (Weinheim an der Bergstrasse, Ger)</source>. <year>2013</year>;<volume>19</volume>(<issue>6</issue>):<fpage>2185</fpage>&#x2013;<lpage>2192</lpage>. doi:<pub-id pub-id-type="doi">10.1002/chem.201201943</pub-id>. <comment>PMID:23280779</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Robertson</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Freeman</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Morris</surname>
+<given-names>CP</given-names></string-name>, <string-name><surname>Hopwood</surname>
+<given-names>JJ</given-names></string-name></person-group>. <article-title>A cDNA clone for human glucosamine-6-sulphatase reveals differences between arylsulphatases and non-arylsulphatases</article-title>. <source>Biochemical J</source>. <year>1992</year>;<volume>288</volume>(<issue>Pt 2</issue>):<fpage>539</fpage>&#x2013;<lpage>544</lpage>. doi:<pub-id pub-id-type="doi">10.1042/bj2880539</pub-id>. <comment>PMID:1463457</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Appel</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Bertozzi</surname>
+<given-names>CR</given-names></string-name></person-group>. <article-title>Formylglycine, a post-translationally generated residue with unique catalytic capabilities and biotechnology applications</article-title>. <source>ACS Chem Biol</source>. <year>2015</year>;<volume>10</volume>(<issue>1</issue>):<fpage>72</fpage>&#x2013;<lpage>84</lpage>. doi:<pub-id pub-id-type="doi">10.1021/cb500897w</pub-id>. <comment>PMID:25514000</comment>.<pub-id pub-id-type="pmid">25514000</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ma</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Yuan</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Ge</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Niu</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Teng</surname>
+<given-names>M</given-names></string-name></person-group>. <article-title>Crystal structure of isoamyl acetate-hydrolyzing esterase from Saccharomyces cerevisiae reveals a novel active site architecture and the basis of substrate specificity</article-title>. <source>Proteins: Struct, Function, Bioinf</source>. <year>2011</year>;<volume>79</volume>(<issue>2</issue>):<fpage>662</fpage>&#x2013;<lpage>668</lpage>. doi:<pub-id pub-id-type="doi">10.1002/prot.22865</pub-id>. <comment>PMID:21069734</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rajamohan</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Reyes</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Tu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Nedoma</surname>
+<given-names>NL</given-names></string-name>, <string-name><surname>Hoth</surname>
+<given-names>LR</given-names></string-name>, <string-name><surname>Schwaid</surname>
+<given-names>AG</given-names></string-name>, <string-name><surname>Kurumbail</surname>
+<given-names>RG</given-names></string-name>, <string-name><surname>Ward</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Han</surname>
+<given-names>S</given-names></string-name></person-group>. <article-title>Crystal structure of human lysosomal acid lipase and its implications in cholesteryl ester storage disease</article-title>. <source>J Lipid Res</source>. <year>2020</year>;<volume>61</volume>(<issue>8</issue>):<fpage>1192</fpage>&#x2013;<lpage>1202</lpage>. doi:<pub-id pub-id-type="doi">10.1194/jlr.RA120000748</pub-id>. <comment>PMID:32482718</comment>.<pub-id pub-id-type="pmid">32482718</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Emmerich</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Beg</surname>
+<given-names>OU</given-names></string-name>, <string-name><surname>Peterson</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Previato</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Brunzell</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Brewer</surname>
+<given-names>HB</given-names></string-name>, <string-name><surname>Santamarina-Fojo</surname>
+<given-names>S</given-names></string-name></person-group>. <article-title>Human lipoprotein lipase. Analysis of the catalytic triad by site-directed mutagenesis of Ser-132, Asp-156, and His-241</article-title>. <source>J Biol Chem</source>. <year>1992</year>;<volume>267</volume>(<issue>6</issue>):<fpage>4161</fpage>&#x2013;<lpage>65</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0021-9258(19)50642-1</pub-id>. <comment>PMID:1371284</comment>.<pub-id pub-id-type="pmid">1371284</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Glukhova</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hinkovska-Galcheva</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Kelly</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Abe</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Shayman</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Tesmer</surname>
+<given-names>JJG</given-names></string-name></person-group>. <article-title>Structure and function of lysosomal phospholipase A2 and lecithin: cholesterol acyltransferase</article-title>. <source>Nat Commun</source>. <year>2015</year>;<volume>6</volume>(<issue>1</issue>):<fpage>6250</fpage>. doi:<pub-id pub-id-type="doi">10.1038/ncomms7250</pub-id>. <comment>PMID:25727495</comment>.<pub-id pub-id-type="pmid">25727495</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Samanta</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Bahnson</surname>
+<given-names>BJ</given-names></string-name></person-group>. <article-title>Crystal structure of human plasma platelet-activating factor acetylhydrolase: structural implication to lipoprotein binding and catalysis</article-title>. <source>J Biol Chem</source>. <year>2008</year>;<volume>283</volume>(<issue>46</issue>):<fpage>31617</fpage>&#x2013;<lpage>24</lpage>. doi:<pub-id pub-id-type="doi">10.1074/jbc.M804750200</pub-id>. <comment>PMID:18784071</comment>.<pub-id pub-id-type="pmid">18784071</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nibbeling</surname>
+<given-names>EAR</given-names></string-name>, <string-name><surname>Duarri</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Verschuuren-Bemelmans</surname>
+<given-names>CC</given-names></string-name>, <string-name><surname>Fokkens</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Karjalainen</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Smeets</surname>
+<given-names>CJLM</given-names></string-name>, <string-name><surname>de Boer-Bergsma</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>van der Vries</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Dooijes</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Bampi</surname>
+<given-names>GB</given-names></string-name></person-group>. et al. <article-title>Exome sequencing and network analysis identifies shared mechanisms underlying spinocerebellar ataxia</article-title>. <source>Brain: J Neurol</source>. <year>2017</year>;<volume>140</volume>(<issue>11</issue>):<fpage>2860</fpage>&#x2013;<lpage>2878</lpage>. doi:<pub-id pub-id-type="doi">10.1093/brain/awx251</pub-id>. <comment>PMID:29053796</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="confproc"><person-group person-group-type="author"><string-name><surname>Bellizzi</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Widom</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Kemp</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>JY</given-names></string-name>, <string-name><surname>Das</surname>
+<given-names>AK</given-names></string-name>, <string-name><surname>Hofmann</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Clardy</surname>
+<given-names>J</given-names></string-name></person-group>. <article-title>The crystal structure of palmitoyl protein thioesterase 1 and the molecular basis of infantile neuronal ceroid lipofuscinosis</article-title>. <conf-name>Proceedings of the National Academy of Sciences of the United States of America</conf-name>; Vol. <volume>97</volume>. <year>2000</year>. p. <fpage>4573</fpage>&#x2013;<lpage>478</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.080508097</pub-id>. <comment>PMID:10781062</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gorelik</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Illes</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Heinz</surname>
+<given-names>LX</given-names></string-name>, <string-name><surname>Superti-Furga</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Nagar</surname>
+<given-names>B</given-names></string-name></person-group>. <article-title>Crystal structure of mammalian acid sphingomyelinase</article-title>. <source>Nat Commun</source>. <year>2016</year>;<volume>7</volume>(<issue>1</issue>):<fpage>12196</fpage>. <pub-id pub-id-type="doi">10.1038/ncomms12196</pub-id>. <comment>PMID:27435900</comment>.<pub-id pub-id-type="pmid">27435900</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="book"><person-group person-group-type="editor"><string-name><surname>Bisswanger</surname>
+<given-names>H</given-names></string-name></person-group>, editor. <part-title>pH and temperature dependence of enzymes</part-title>. In: <source>Enzyme kinetics: principles and methods</source>. <publisher-name>John Wiley &amp; Sons, Ltd</publisher-name>; <year>2017</year>. p. <fpage>145</fpage>&#x2013;<lpage>152</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Singh</surname>
+<given-names>SK</given-names></string-name>, <string-name><surname>Mishra</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Yadav</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Budholiya</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Rathore</surname>
+<given-names>AS</given-names></string-name></person-group>. <article-title>Understanding the mechanism of copurification of &#x201C;difficult to remove&#x201D; host cell proteins in rituximab biosimilar products</article-title>. <source>Biotechnol Prog</source>. <year>2020</year>;<volume>36</volume>(<issue>2</issue>):<fpage>e2936</fpage>. doi:<pub-id pub-id-type="doi">10.1002/btpr.2936</pub-id>. <comment>PMID:31661608</comment>.<pub-id pub-id-type="pmid">31661608</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Levy</surname>
+<given-names>NE</given-names></string-name>, <string-name><surname>Valente</surname>
+<given-names>KN</given-names></string-name>, <string-name><surname>Choe</surname>
+<given-names>LH</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>KH</given-names></string-name>, <string-name><surname>Lenhoff</surname>
+<given-names>AM</given-names></string-name></person-group>. <article-title>Identification and characterization of host cell protein product-associated impurities in monoclonal antibody bioprocessing</article-title>. <source>Biotechnol Bioeng</source>. <year>2014</year>;<volume>111</volume>(<issue>5</issue>):<fpage>904</fpage>&#x2013;<lpage>912</lpage>. doi:<pub-id pub-id-type="doi">10.1002/bit.25158</pub-id>. <comment>PMID:24254318</comment>.<pub-id pub-id-type="pmid">24254318</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Aboulaich</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Chung</surname>
+<given-names>WK</given-names></string-name>, <string-name><surname>Thompson</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Larkin</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Robbins</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>M</given-names></string-name></person-group>. <article-title>A novel approach to monitor clearance of host cell proteins associated with monoclonal antibodies</article-title>. <source>Biotechnol Prog</source>. <year>2014</year>;<volume>30</volume>(<issue>5</issue>):<fpage>1114</fpage>&#x2013;<lpage>1124</lpage>. doi:<pub-id pub-id-type="doi">10.1002/btpr.1948</pub-id>. <comment>PMID:25044920</comment>.<pub-id pub-id-type="pmid">25044920</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Shukla</surname>
+<given-names>AA</given-names></string-name>, <string-name><surname>Hinckley</surname>
+<given-names>P</given-names></string-name></person-group>. <article-title>Host cell protein clearance during protein a chromatography: development of an improved column wash step</article-title>. <source>Biotechnol Prog</source>. <year>2008</year>;<volume>24</volume>(<issue>5</issue>):<fpage>1115</fpage>&#x2013;<lpage>1121</lpage>. doi:<pub-id pub-id-type="doi">10.1002/btpr.50</pub-id>. <comment>PMID:19194921</comment>.<pub-id pub-id-type="pmid">19194921</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Valente</surname>
+<given-names>KN</given-names></string-name>, <string-name><surname>Levy</surname>
+<given-names>NE</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>KH</given-names></string-name>, <string-name><surname>Lenhoff</surname>
+<given-names>AM</given-names></string-name></person-group>. <article-title>Applications of proteomic methods for CHO host cell protein characterization in biopharmaceutical manufacturing</article-title>. <source>Curr Opin Biotechnol</source>. <year>2018</year>;<volume>53</volume>:<fpage>144</fpage>&#x2013;<lpage>150</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.copbio.2018.01.004</pub-id>. <comment>PMID:29414072</comment>.<pub-id pub-id-type="pmid">29414072</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kovner</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Yuk</surname>
+<given-names>IH</given-names></string-name>, <string-name><surname>Shen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Graf</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Gupta</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Tomlinson</surname>
+<given-names>A</given-names></string-name></person-group>. <article-title>Characterization of recombinantly-expressed hydrolytic enzymes from Chinese hamster ovary cells: identification of host cell proteins that degrade polysorbate</article-title>. <source>JPharmSci</source>. <year>2023</year>;<volume>112</volume>(<issue>5</issue>):<fpage>1351</fpage>&#x2013;<lpage>1363</lpage>. <pub-id pub-id-type="doi">10.1016/j.xphs.2023.01.003</pub-id>. <comment>PMID:36646283</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gupta</surname>
+<given-names>SK</given-names></string-name>, <string-name><surname>Graf</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Edelmann</surname>
+<given-names>FT</given-names></string-name>, <string-name><surname>Seelmann</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Reintinger</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hillringhaus</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Bergmann</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Wiedmann</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Falkenstein</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Wegele</surname>
+<given-names>H</given-names></string-name></person-group>. et al. <article-title>A fast and sensitive high-throughput assay to assess polysorbate-degrading hydrolytic activity in biopharmaceuticals</article-title>. <source>Eur J Pharm Biopharmaceutics: Off J Arbeitsgemeinschaft Fur Pharmazeutische Verfahrenstech e V</source>. <year>2023</year>;<volume>187</volume>:<fpage>120</fpage>&#x2013;<lpage>129</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ejpb.2023.04.021</pub-id>. <comment>PMID:37116764</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hogwood</surname>
+<given-names>CEM</given-names></string-name>, <string-name><surname>Bracewell</surname>
+<given-names>DG</given-names></string-name>, <string-name><surname>Smales</surname>
+<given-names>CM</given-names></string-name></person-group>. <article-title>Measurement and control of host cell proteins (HCPs) in CHO cell bioprocesses</article-title>. <source>Curr Opin Biotechnol</source>. <year>2014</year>;<volume>30</volume>:<fpage>153</fpage>&#x2013;<lpage>160</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.copbio.2014.06.017</pub-id>. <comment>PMID:25032907</comment>.<pub-id pub-id-type="pmid">25032907</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dwivedi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Buske</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Haemmerling</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Blech</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Garidel</surname>
+<given-names>P</given-names></string-name></person-group>. <article-title>Acidic and alkaline hydrolysis of polysorbates under aqueous conditions: Towards understanding polysorbate degradation in biopharmaceutical formulations</article-title>. <source>Eur J Pharm Sci</source>. <year>2020</year>;<volume>144</volume>:<fpage>105211</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ejps.2019.105211</pub-id>. <comment>PMID:31931121</comment>.<pub-id pub-id-type="pmid">31931121</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gl&#xFC;cklich</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Dwivedi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Carle</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Buske</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>M&#xE4;der</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Garidel</surname>
+<given-names>P</given-names></string-name></person-group>. <article-title>An in-depth examination of fatty acid solubility limits in biotherapeutic protein formulations containing polysorbate 20 and polysorbate 80</article-title>. <source>Int J Pharm</source>. <year>2020</year>;<volume>591</volume>:<fpage>119934</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ijpharm.2020.119934</pub-id>. <comment>PMID:33059015</comment>.<pub-id pub-id-type="pmid">33059015</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kol</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ley</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Wulff</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Decker</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Arnsdorf</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Schoffelen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hansen</surname>
+<given-names>AH</given-names></string-name>, <string-name><surname>Jensen</surname>
+<given-names>TL</given-names></string-name>, <string-name><surname>Gutierrez</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Chiang</surname>
+<given-names>AWT</given-names></string-name></person-group>. et al. <article-title>Multiplex secretome engineering enhances recombinant protein production and purity</article-title>. <source>Nat Commun</source>. <year>2020</year>;<volume>11</volume>(<issue>1</issue>):<fpage>1908</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-020-15866-w</pub-id>. <comment>PMID:32313013</comment>.<pub-id pub-id-type="pmid">32313013</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wei&#xDF;</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Schmieder-Todtenhaupt</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Haemmerling</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Lakatos</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Schulz</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Fischer</surname>
+<given-names>S</given-names></string-name></person-group>. <article-title>Multi-lipase gene knockdown in Chinese hamster ovary cells using artificial microRNAs to reduce host cell protein mediated polysorbate degradation</article-title>. <source>Biotechnol Bioeng</source>. <year>2023</year>. <volume>121</volume>(<issue>1</issue>):<fpage>329</fpage>&#x2013;<lpage>340</lpage>. doi:<pub-id pub-id-type="doi">10.1002/bit.28563</pub-id>. <comment>PMID:37743807</comment>.<pub-id pub-id-type="pmid">37743807</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hecht</surname>
+<given-names>ES</given-names></string-name>, <string-name><surname>Mehta</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Wecksler</surname>
+<given-names>AT</given-names></string-name>, <string-name><surname>Aguilar</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Swanson</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Phung</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Dubey Kelsoe</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Benner</surname>
+<given-names>WH</given-names></string-name>, <string-name><surname>Tesar</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kelley</surname>
+<given-names>RF</given-names></string-name></person-group>. et al. <article-title>Insights into ultra-low affinity lipase-antibody noncovalent complex binding mechanisms</article-title>. <source>mAbs</source>. <year>2022</year>;<volume>14</volume>(<issue>1</issue>):<fpage>2135183</fpage>. doi:<pub-id pub-id-type="doi">10.1080/19420862.2022.2135183</pub-id>. <comment>PMID:36284469</comment>.<pub-id pub-id-type="pmid">36284469</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ranjan</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chung</surname>
+<given-names>WK</given-names></string-name>, <string-name><surname>Hofele</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Heidbrink Thompson</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Bee</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Robbins</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Cramer</surname>
+<given-names>SM</given-names></string-name></person-group>. <article-title>Investigation of cathepsin D&#x2013;mAb interactions using a combined experimental and computational tool set</article-title>. <source>Biotechnol Bioeng</source>. <year>2019</year>;<volume>116</volume>(<issue>7</issue>):<fpage>1684</fpage>&#x2013;<lpage>1697</lpage>. doi:<pub-id pub-id-type="doi">10.1002/bit.26968</pub-id>. <comment>PMID:30882893</comment>.<pub-id pub-id-type="pmid">30882893</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name></person-group>. <article-title>Effective strategies for host cell protein clearance in downstream processing of monoclonal antibodies and Fc-fusion proteins</article-title>. <source>Protein Expression Purif</source>. <year>2017</year>;<volume>134</volume>:<fpage>96</fpage>&#x2013;<lpage>103</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.pep.2017.04.006</pub-id>. <comment>PMID:28414067</comment>.</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chollangi</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Parker</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Singh</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Borys</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Z</given-names></string-name></person-group>. <article-title>Development of robust antibody purification by optimizing protein-A chromatography in combination with precipitation methodologies</article-title>. <source>Biotechnol Bioeng</source>. <year>2015</year>;<volume>112</volume>(<issue>11</issue>):<fpage>2292</fpage>&#x2013;<lpage>2304</lpage>. doi:<pub-id pub-id-type="doi">10.1002/bit.25639</pub-id>. <comment>PMID:25950654</comment>.<pub-id pub-id-type="pmid">25950654</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kang</surname>
+<given-names>YK</given-names></string-name>, <string-name><surname>Hamzik</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Felo</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Qi</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Ng</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Liebisch</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Shanehsaz</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Singh</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Persaud</surname>
+<given-names>K</given-names></string-name></person-group>. et al. <article-title>Development of a novel and efficient cell culture flocculation process using a stimulus responsive polymer to streamline antibody purification processes</article-title>. <source>Biotechnol Bioeng</source>. <year>2013</year>;<volume>110</volume>(<issue>11</issue>):<fpage>2928</fpage>&#x2013;<lpage>37</lpage>. doi:<pub-id pub-id-type="doi">10.1002/bit.24969</pub-id>. <comment>PMID:23740533</comment>.<pub-id pub-id-type="pmid">23740533</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yigzaw</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Piper</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Tran</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Shukla</surname>
+<given-names>AA</given-names></string-name></person-group>. <article-title>Exploitation of the adsorptive properties of depth filters for host cell protein removal during monoclonal antibody purification</article-title>. <source>Biotechnol Prog</source>. <year>2006</year>;<volume>22</volume>(<issue>1</issue>):<fpage>288</fpage>&#x2013;<lpage>296</lpage>. doi:<pub-id pub-id-type="doi">10.1021/bp050274w</pub-id>. <comment>PMID:16454522</comment>.<pub-id pub-id-type="pmid">16454522</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Roy</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Patel</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kumar</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Nanda</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Assenberg</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Wuchner</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Amin</surname>
+<given-names>K</given-names></string-name></person-group>. <article-title>Polysorbate degradation and particle formation in a high concentration mAb: formulation strategies to minimize effect of enzymatic polysorbate degradation</article-title>. <source>J Pharm Sci</source>. <year>2021</year>;<volume>110</volume>(<issue>9</issue>):<fpage>3313</fpage>&#x2013;<lpage>3323</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.xphs.2021.05.012</pub-id>. <comment>PMID:34077768</comment>.<pub-id pub-id-type="pmid">34077768</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><comment>The UniProt Consortium</comment>, <person-group person-group-type="author"><string-name><surname>Bateman</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Martin</surname>
+<given-names>M-J</given-names></string-name>, <string-name><surname>Orchard</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Magrane</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ahmad</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Alpi</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Bowler-Barnett</surname>
+<given-names>EH</given-names></string-name>, <string-name><surname>Britto</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Bye-A-Jee</surname>
+<given-names>H</given-names></string-name></person-group>. et al. <article-title>UniProt: the universal protein knowledgebase in 2023</article-title>. <source>Nucleic Acids Res</source>. <year>2023</year>;<volume>51</volume>(<issue>D1</issue>):<fpage>D523</fpage>&#x2013;<lpage>31</lpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gkac1052</pub-id>. <comment>PMID:36408920</comment>.<pub-id pub-id-type="pmid">36408920</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chang</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Jeske</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ulbrich</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hofmann</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Koblitz</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Schomburg</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Neumann-Schaal</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Jahn</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Schomburg</surname>
+<given-names>D</given-names></string-name></person-group>. <article-title>BRENDA, the ELIXIR core data resource in 2021: new developments and updates</article-title>. <source>Nucleic Acids Res</source>. <year>2021</year>;<volume>49</volume>(<issue>D1</issue>):<fpage>D498</fpage>&#x2013;<lpage>508</lpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gkaa1025</pub-id>. <comment>PMID:33211880</comment>.<pub-id pub-id-type="pmid">33211880</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

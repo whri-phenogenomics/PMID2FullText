@@ -1,0 +1,880 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Clin Invest</journal-id>
+      <journal-id journal-id-type="iso-abbrev">J Clin Invest</journal-id>
+      <journal-id journal-id-type="publisher-id">J Clin Invest</journal-id>
+      <journal-title-group>
+        <journal-title>The Journal of Clinical Investigation</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0021-9738</issn>
+      <issn pub-type="epub">1558-8238</issn>
+      <publisher>
+        <publisher-name>American Society for Clinical Investigation</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35617047</article-id>
+      <article-id pub-id-type="pmc">9246377</article-id>
+      <article-id pub-id-type="publisher-id">145660</article-id>
+      <article-id pub-id-type="doi">10.1172/JCI145660</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic toggle="yes">RRM1</italic> variants cause a mitochondrial DNA maintenance disorder via impaired de novo nucleotide synthesis</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-2729-9009</contrib-id>
+          <name>
+            <surname>Shintaku</surname>
+            <given-names>Jonathan</given-names>
+          </name>
+          <email>js5052@cumc.columbia.edu</email>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0001-9176-621X</contrib-id>
+          <name>
+            <surname>Pernice</surname>
+            <given-names>Wolfgang M.</given-names>
+          </name>
+          <email>wp2181@cumc.columbia.edu</email>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eyaid</surname>
+            <given-names>Wafaa</given-names>
+          </name>
+          <email>EyaidW@NGHA.MED.SA</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>GC</surname>
+            <given-names>Jeevan B.</given-names>
+          </name>
+          <email>jg4361@cumc.columbia.edu</email>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-9846-2822</contrib-id>
+          <name>
+            <surname>Brown</surname>
+            <given-names>Zuben P.</given-names>
+          </name>
+          <email>zb2218@cumc.columbia.edu</email>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-4566-7154</contrib-id>
+          <name>
+            <surname>Juanola-Falgarona</surname>
+            <given-names>Marti</given-names>
+          </name>
+          <email>malvjf@gmail.com</email>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-6092-9458</contrib-id>
+          <name>
+            <surname>Torres-Torronteras</surname>
+            <given-names>Javier</given-names>
+          </name>
+          <email>javier.torres@vhir.org</email>
+          <xref rid="A4" ref-type="aff">4</xref>
+          <xref rid="A5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sommerville</surname>
+            <given-names>Ewen W.</given-names>
+          </name>
+          <email>e.w.sommerville@googlemail.com</email>
+          <xref rid="A6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hellebrekers</surname>
+            <given-names>Debby M.E.I.</given-names>
+          </name>
+          <email>debby.hellebrekers@mumc.nl</email>
+          <xref rid="A7" ref-type="aff">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Blakely</surname>
+            <given-names>Emma L.</given-names>
+          </name>
+          <email>emma.watson33@nhs.net</email>
+          <xref rid="A6" ref-type="aff">6</xref>
+          <xref rid="A8" ref-type="aff">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0001-9193-4172</contrib-id>
+          <name>
+            <surname>Donaldson</surname>
+            <given-names>Alan</given-names>
+          </name>
+          <email>alan.donaldson@uhbw.nhs.uk</email>
+          <xref rid="A9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>van de Laar</surname>
+            <given-names>Ingrid</given-names>
+          </name>
+          <xref rid="A10" ref-type="aff">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-0301-8316</contrib-id>
+          <name>
+            <surname>Leu</surname>
+            <given-names>Cheng-Shiun</given-names>
+          </name>
+          <email>cl94@cumc.columbia.edu</email>
+          <xref rid="A11" ref-type="aff">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-8273-9540</contrib-id>
+          <name>
+            <surname>Marti</surname>
+            <given-names>Ramon</given-names>
+          </name>
+          <email>ramon.marti@vhir.org</email>
+          <xref rid="A4" ref-type="aff">4</xref>
+          <xref rid="A5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Frank</surname>
+            <given-names>Joachim</given-names>
+          </name>
+          <email>jf2192@cumc.columbia.edu</email>
+          <xref rid="A3" ref-type="aff">3</xref>
+          <xref rid="A12" ref-type="aff">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tanji</surname>
+            <given-names>Kurenai</given-names>
+          </name>
+          <email>kt8@columbia.edu</email>
+          <xref rid="A1" ref-type="aff">1</xref>
+          <xref rid="A13" ref-type="aff">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-2152-4626</contrib-id>
+          <name>
+            <surname>Koolen</surname>
+            <given-names>David A.</given-names>
+          </name>
+          <email>David.Koolen@radboudumc.nl</email>
+          <xref rid="A14" ref-type="aff">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0001-5227-3527</contrib-id>
+          <name>
+            <surname>Rodenburg</surname>
+            <given-names>Richard J.</given-names>
+          </name>
+          <email>r.rodenburg@cukz.umcn.nl</email>
+          <xref rid="A15" ref-type="aff">15</xref>
+          <xref rid="A16" ref-type="aff">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chinnery</surname>
+            <given-names>Patrick F.</given-names>
+          </name>
+          <email>pfc25@cam.ac.uk</email>
+          <xref rid="A17" ref-type="aff">17</xref>
+          <xref rid="A18" ref-type="aff">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-3859-8522</contrib-id>
+          <name>
+            <surname>Smeets</surname>
+            <given-names>H.J.M.</given-names>
+          </name>
+          <email>bert.smeets@molcelb.unimaas.nl</email>
+          <xref rid="A19" ref-type="aff">19</xref>
+          <xref rid="A20" ref-type="aff">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-7585-3409</contrib-id>
+          <name>
+            <surname>Gorman</surname>
+            <given-names>Gr&#xE1;inne S.</given-names>
+          </name>
+          <email>grainne.gorman@ncl.ac.uk</email>
+          <xref rid="A6" ref-type="aff">6</xref>
+          <xref rid="A8" ref-type="aff">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0001-5581-5301</contrib-id>
+          <name>
+            <surname>Bonnen</surname>
+            <given-names>Penelope E.</given-names>
+          </name>
+          <email>pbonnen@bcm.edu</email>
+          <xref rid="A21" ref-type="aff">21</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-7768-8873</contrib-id>
+          <name>
+            <surname>Taylor</surname>
+            <given-names>Robert W.</given-names>
+          </name>
+          <email>Robert.Taylor@newcastle.ac.uk</email>
+          <xref rid="A6" ref-type="aff">6</xref>
+          <xref rid="A8" ref-type="aff">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-7070-7402</contrib-id>
+          <name>
+            <surname>Hirano</surname>
+            <given-names>Michio</given-names>
+          </name>
+          <email>mh29@columbia.edu</email>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Department of Neurology, H. Houston Merritt Neuromuscular Research Center, Columbia University Irving Medical Center, New York, New York, USA.</aff>
+      <aff id="A2"><label>2</label>Genetics Division, Department of Pediatrics, King Saud bin Abdulaziz University for Health Science, King Abdulaziz Medical City, Riyadh, Saudi Arabia.</aff>
+      <aff id="A3"><label>3</label>Department of Biochemistry and Molecular Biophysics, Columbia University, New York, New York, USA.</aff>
+      <aff id="A4"><label>4</label>Center for Biomedical Network Research on Rare Diseases, Instituto de Salud Carlos III, Madrid, Spain.</aff>
+      <aff id="A5"><label>5</label>Research Group on Neuromuscular and Mitochondrial Diseases, Vall d&#x2019;Hebron Research Institute, Autonomous University of Barcelona, Barcelona, Spain.</aff>
+      <aff id="A6"><label>6</label>Wellcome Centre for Mitochondrial Research, Translational and Clinical Research Institute, Faculty of Medical Sciences, Newcastle University, Newcastle upon Tyne, United Kingdom.</aff>
+      <aff id="A7"><label>7</label>Department of Clinical Genetics, Maastricht University Medical Centre, Maastricht, Netherlands.</aff>
+      <aff id="A8"><label>8</label>NHS Highly Specialised Service for Rare Mitochondrial Disorders, Newcastle upon Tyne Hospitals NHS Foundation Trust, Newcastle upon Tyne, United Kingdom.</aff>
+      <aff id="A9"><label>9</label>Clinical Genetics Service, University of Bristol NHS Foundation Trust, Bristol, United Kingdom.</aff>
+      <aff id="A10"><label>10</label>Department of Clinical Genetics, Erasmus MC, University Medical Center Rotterdam, Rotterdam, Netherlands.</aff>
+      <aff id="A11"><label>11</label>Mailman School of Public Health and</aff>
+      <aff id="A12"><label>12</label>Department of Biological Sciences, Columbia University, New York, New York, USA.</aff>
+      <aff id="A13"><label>13</label>Department of Pathology and Cell Biology, Columbia University Irving Medical Center, New York, New York, USA.</aff>
+      <aff id="A14"><label>14</label>Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, Netherlands.</aff>
+      <aff id="A15"><label>15</label>Radboud Centre for Mitochondrial Medicine, Department of Pediatrics, Amalia Children&#x2019;s Hospital, Nijmegen, Netherlands.</aff>
+      <aff id="A16"><label>16</label>Translational Metabolic Laboratory, Department of Laboratory Medicine, Radboud University Medical Center, Nijmegen, Netherlands.</aff>
+      <aff id="A17"><label>17</label>MRC Mitochondrial Biology Unit and</aff>
+      <aff id="A18"><label>18</label>Department of Clinical Neuroscience, School of Clinical Medicine, University of Cambridge, Cambridge, United Kingdom.</aff>
+      <aff id="A19"><label>19</label>Department of Genetics and Cell Biology, Clinical Genomics Unit, and</aff>
+      <aff id="A20"><label>20</label>School for Mental Health and Neuroscience, Maastricht University, Maastricht, Netherlands.</aff>
+      <aff id="A21"><label>21</label>Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, Texas, USA.</aff>
+      <author-notes>
+        <corresp>Address correspondence to: Michio Hirano, Columbia University Irving Medical Center, 630 West 168th Street, P&amp;S 4-423, New York, New York 10032, USA. Phone: 212.305.1048; Email: <email>mh29@columbia.edu</email>.</corresp>
+      </author-notes>
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2022-07-01T12:00:00-0400">
+        <day>1</day>
+        <month>7</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date date-type="collection" publication-format="electronic" iso-8601-date="2022-07-01T12:00:00-0400">
+        <day>1</day>
+        <month>7</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date date-type="pub" publication-format="print" iso-8601-date="2022-07-01T12:00:00-0400">
+        <day>1</day>
+        <month>7</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>1</day>
+        <month>7</month>
+        <year>2022</year>
+      </pub-date>
+      <!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.-->
+      <volume>132</volume>
+      <issue>13</issue>
+      <elocation-id>e145660</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>4</day>
+          <month>11</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>5</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2022 Shintaku et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Shintaku et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p>This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit <ext-link xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="https://www.jci.org/articles/view/145660">This article is available online at https://www.jci.org/articles/view/145660</self-uri>
+      <abstract>
+        <p>Mitochondrial DNA (mtDNA) depletion/deletions syndromes (MDDS) encompass a clinically and etiologically heterogenous group of mitochondrial disorders caused by impaired mtDNA maintenance. Among the most frequent causes of MDDS are defects in nucleoside/nucleotide metabolism, which is critical for synthesis and homeostasis of the deoxynucleoside triphosphate (dNTP) substrates of mtDNA replication. A central enzyme for generating dNTPs is ribonucleotide reductase, a critical mediator of de novo nucleotide synthesis composed of catalytic RRM1 subunits in complex with RRM2 or p53R2. Here, we report 5 probands from 4 families who presented with ptosis and ophthalmoplegia as well as other clinical manifestations and multiple mtDNA deletions in muscle. We identified 3 <italic toggle="yes">RRM1</italic> loss-of-function variants, including a dominant catalytic site variant (NP_001024.1: p.N427K) and 2 homozygous recessive variants at p.R381, which has evolutionarily conserved interactions with the specificity site. Atomistic molecular dynamics simulations indicate mechanisms by which <italic toggle="yes">RRM1</italic> variants affect protein structure. Cultured primary skin fibroblasts of probands manifested mtDNA depletion under cycling conditions, indicating impaired de novo nucleotide synthesis. Fibroblasts also exhibited aberrant nucleoside diphosphate and dNTP pools and mtDNA ribonucleotide incorporation. Our data reveal that primary RRM1 deficiency and, by extension, impaired de novo nucleotide synthesis are causes of MDDS.</p>
+      </abstract>
+      <abstract abstract-type="graphical">
+        <p>
+<graphic xlink:href="jci-132-145660-g186.jpg" position="float"/>
+</p>
+      </abstract>
+      <kwd-group kwd-group-type="specialties">
+        <kwd>Genetics</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="keywords">
+        <kwd>Genetic diseases</kwd>
+        <kwd>Mitochondria</kwd>
+        <kwd>Molecular pathology</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>U.S. Department of Defense</institution><institution-id>https://doi.org/10.13039/100000005</institution-id></institution-wrap>
+</funding-source>
+          <award-id>W81XWH2010807</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>National Institutes of Health</institution><institution-id>https://doi.org/10.13039/100000002</institution-id></institution-wrap>
+</funding-source>
+          <award-id>P01 HD32062</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>National Institutes of Health</institution><institution-id>https://doi.org/10.13039/100000002</institution-id></institution-wrap>
+</funding-source>
+          <award-id>R35 GM139453</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Arturo Estopinan TK2 Research Fund</funding-source>
+          <award-id>NA</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Nicholas Nunno Foundation</funding-source>
+          <award-id>NA</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>JDM Fund for Mitochondrial Research</funding-source>
+          <award-id>NA</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Shuman Mitochondrial Disease Fund</funding-source>
+          <award-id>NA</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>J. Willard and Alice S. Marriott Foundation</funding-source>
+          <award-id>NA</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>National Institutes of Health</institution><institution-id>https://doi.org/10.13039/100000002</institution-id></institution-wrap>
+</funding-source>
+          <award-id>U54 NS078059</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Wellcome Centre for Mitochondrial Research</funding-source>
+          <award-id>203105/Z/16/Z</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Medical Research Council</institution><institution-id>https://doi.org/10.13039/501100000265</institution-id></institution-wrap>
+</funding-source>
+          <award-id>MR/S005021/1</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Lily Foundation</funding-source>
+          <award-id>NA</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>UK National Health Service</funding-source>
+          <award-id>NA</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>National Science Foundation</institution><institution-id>https://doi.org/10.13039/100000001</institution-id></institution-wrap>
+</funding-source>
+          <award-id>ACI-1548562</award-id>
+        </award-group>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p>Autosomal disorders of mitochondrial DNA (mtDNA) maintenance are clinically heterogeneous and typically severe diseases with mtDNA depletion or multiple deletions leading to focal respiratory chain deficiency in affected tissues (<xref rid="B1" ref-type="bibr">1</xref>). mtDNA depletion typically causes infantile- or early childhood&#x2013;onset severe multisystemic phenotypes such as Alpers syndrome, while multiple mtDNA deletions characteristically manifest later with chronic progressive external ophthalmoplegia in isolation or in combination with other organ involvement (<xref rid="B1" ref-type="bibr">1</xref>).</p>
+      <p>Variants in the thymidine phosphorylase (<italic toggle="yes">TYMP</italic>) gene were the first identified cause of mtDNA depletion/deletions syndromes (MDDS) linked to impaired deoxynucleoside metabolism (<xref rid="B2" ref-type="bibr">2</xref>). Patients with loss-of-function <italic toggle="yes">TYMP</italic> variants develop a multisystemic disorder known as mitochondrial neurogastrointestinal encephalomyopathy, which is characterized by chronic progressive external ophthalmoplegia, gastrointestinal dysmotility, cachexia, peripheral neuropathy, and leukoencephalopathy (<xref rid="B3" ref-type="bibr">3</xref>). Pathogenic variants in at least 6 additional nucleotide salvage pathway genes have been identified as causes of MDDS (<xref rid="B4" ref-type="bibr">4</xref>&#x2013;<xref rid="B9" ref-type="bibr">9</xref>).</p>
+      <p>The salvage pathway converts DNA- and RNA-degradative intermediates into deoxynucleoside triphosphates (dNTPs) for DNA synthesis and repair. This is particularly important for mtDNA synthesis and nuclear DNA (nDNA) repair in postmitotic cells, in which de novo synthesis is downregulated (<xref rid="B10" ref-type="bibr">10</xref>).</p>
+      <p>Ribonucleotide reductase (RNR) catalyzes the rate-limiting step of de novo nucleotide synthesis through reduction of ADP, CDP, GDP, and UDP to their deoxynucleotide equivalents. The RNR complex is composed of catalytic RRM1 dimers in complex with RRM2 or p53R2 subunits, which fuel RRM1 with tyrosyl radicals. RRM2 expression is transiently upregulated during the S phase of the cell cycle to supply dNTPs for nDNA replication and rapidly degraded in the G<sub>2</sub> phase. In contrast, p53R2 is constitutively expressed, ensuring basal de novo dNTP synthesis to complement the salvage pathway outside of S phase and in postmitotic cells (<xref rid="B11" ref-type="bibr">11</xref>). The functional relationship between p53R2 and the salvage pathway is notable because pathogenic variants of <italic toggle="yes">RRM2B</italic>, encoding p53R2, have been identified in MDDS (<xref rid="B12" ref-type="bibr">12</xref>). However, pathogenic nDNA gene variants affecting the broader scope of de novo nucleotide synthesis have not been reported.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>Results and Discussion</title>
+      <p>Proband 1a, a 32-year-old Saudi Arabian man of consanguineous parents, was healthy until 7 years of age when he developed nausea and occasional vomiting (<xref rid="T1" ref-type="table">Table 1</xref>). He developed intermittent diarrhea at 14 years of age. At 17 years of age, he was evaluated for failure to gain weight and was noted to have ophthalmoparesis. Over the next 15 years, he lost 17 kg and developed moderate proximal limb weakness. Ptosis and elevated creatine kinase (697 U/L; normal 51&#x2013;294 U/L) were evident after pneumonia at 31 years of age. At 32 years of age, brain MRI was normal. Absent tendon reflexes, nerve conduction studies, and electromyography indicated a mild axonal sensorimotor peripheral neuropathy. Limb MRI revealed generalized muscle atrophy. A muscle biopsy showed 50%&#x2013;60% COX-deficient fibers, 3%&#x2013;4% ragged-red fibers (RRFs), numerous highly atrophic fibers, regenerating central nucleated fibers, and a few fibers with necrotic sarcoplasm (<xref rid="F1" ref-type="fig">Figure 1A</xref>). Southern blot revealed multiple mtDNA deletions (<xref rid="sd" ref-type="sec">Supplemental Figure 1A</xref>; supplemental material available online with this article; <ext-link xlink:href="https://doi.org/10.1172/JCI145660DS1" ext-link-type="uri">https://doi.org/10.1172/JCI145660DS1</ext-link>). Proband 1b, a nephew of proband 1a, developed ptosis, ophthalmoparesis, cachexia, and intestinal dysmotility (<xref rid="T1" ref-type="table">Table 1</xref>).</p>
+      <p>Proband 2 was a healthy Dutch woman until 45 years of age when she developed double vision, ptosis, ophthalmoplegia, myopathy, and impaired gait (<xref rid="T1" ref-type="table">Table 1</xref>). She was diagnosed with MDDS following a muscle biopsy that revealed multiple mtDNA deletions and reduced mtDNA (10%&#x2013;30% of age-matched controls) (<xref rid="sd" ref-type="sec">Supplemental Figure 1A</xref>).</p>
+      <p>Proband 3 was a White British man; his symptoms began in his early 40s, with double vision and ptosis, which progressed to ophthalmoplegia, dysphagia, sensorineural hearing loss, and muscle atrophy (<xref rid="T1" ref-type="table">Table 1</xref>). Although creatine kinase levels were normal, muscle biopsy revealed COX-deficient fibers and RRFs (<xref rid="F1" ref-type="fig">Figure 1A</xref>). Southern blot and long-range PCR of muscle DNA identified multiple mtDNA deletions (<xref rid="sd" ref-type="sec">Supplemental Figure 1</xref>, A and B).</p>
+      <p>Proband 4 was a 61-year-old woman of nonconsanguineous parents with double vision, ptosis, ophthalmoplegia, and difficulty walking stairs and standing due to muscle weakness. In retrospect, she perceived weakness since childhood, though it did not interfere with daily activities. Muscle histopathology showed COX-deficient fibers and 30% RRFs. Molecular analysis revealed multiple mtDNA deletions.</p>
+      <p>To investigate the genetic cause of MDDS in proband 1a, we performed whole exome sequencing (WES) and identified a candidate <italic toggle="yes">RRM1</italic> missense variant (NM_001033.5: c.1142G&gt;A; NP_001024.1: p.R381H). Arginine 381 was highly conserved (<xref rid="sd" ref-type="sec">Supplemental Figure 1C</xref>), and in silico PROVEAN and SIFT (<xref rid="B13" ref-type="bibr">13</xref>, <xref rid="B14" ref-type="bibr">14</xref>) predicted that the p.R381H variant was deleterious (<xref rid="sd" ref-type="sec">Supplemental Figure 1D</xref>). In addition, the <italic toggle="yes">RRM1</italic> c.1142G&gt;A single nucleotide variant was absent in gnomAD v2.1.1 (Genome Aggregation Database, <ext-link xlink:href="https://gnomad.broadinstitute.org/" ext-link-type="uri">https://gnomad.broadinstitute.org/</ext-link>). Familial segregation studies found that of 11 relatives only probands 1a and 1b were homozygous for c.1142G&gt;A, whereas no others reported similar clinical manifestations (<xref rid="F1" ref-type="fig">Figure 1B</xref>).</p>
+      <p>WES of proband 2 independently identified a homozygous <italic toggle="yes">RRM1</italic> missense variant (c.1141C&gt;T; p.R381C) affecting the same amino acid residue identified in family 1 probands. This variant was present in gnomAD at a very low frequency (0.0001) in heterozygosity but was absent in homozygosity. Sanger sequencing revealed that her similarly affected brother was homozygous for c.1141C&gt;T (<xref rid="F1" ref-type="fig">Figure 1C</xref>). WES of proband 4 revealed an identical homozygous <italic toggle="yes">RRM1</italic> variant.</p>
+      <p>The candidate variant of proband 3 was a heterozygous missense variant (c.1281C&gt;A; p.N427K), affecting a highly conserved amino acid residue (<xref rid="sd" ref-type="sec">Supplemental Figure 1C</xref>). PROVEAN and SIFT predicted p.N427K to be deleterious (<xref rid="sd" ref-type="sec">Supplemental Figure 1D</xref>). Furthermore, this variant was absent from external databases, including gnomAD. Both unaffected brothers of proband 3 did not harbor the c.1281C&gt;A variant (<xref rid="F1" ref-type="fig">Figure 1D</xref>). The deceased mother of proband 3 reportedly had similar clinical manifestations, though her genotype could not be ascertained.</p>
+      <p>The structural basis of RRM1 function has been well-characterized (<xref rid="B15" ref-type="bibr">15</xref>, <xref rid="B16" ref-type="bibr">16</xref>). We explored candidate variants in the human RRM1-TTP-GDP (hRRM1-TTP-GDP) complex crystal structure (<xref rid="F2" ref-type="fig">Figure 2A</xref>). Substrate binding at the catalytic site normally involves p.N427, which coordinates 2&#x2032;- and 3&#x2032;-OH groups of the substrate&#x2019;s ribose via hydrogen bonds. The p.N427K variant disrupts those hydrogen bonds, presumably reducing substrate binding and RNR activity.</p>
+      <p>In contrast, the significance of p.R381 was obscure because it does not directly interact with described functional features of RRM1. Interestingly, p.R381 interacts with p.S260, which coordinates both flanks of loop 1 via hydrogen bonds to p.A257 and p.S269 (<xref rid="F2" ref-type="fig">Figure 2B</xref>). Both p.R381H and p.R381C variants lack hydrogen bonds with p.S260, suggesting loss of potential allosteric interactions between the p.R381 locus and specificity site (<xref rid="F2" ref-type="fig">Figure 2B</xref>).</p>
+      <p>Although hRRM1 and <italic toggle="yes">Saccharomyces cerevisiae</italic> Rnr1p form highly conserved tertiary structures, structural alignment shows hRRM1 p.R381 absent in Rnr1p (<xref rid="sd" ref-type="sec">Supplemental Figure 2A</xref>). Nevertheless, we identified coordination between the conserved locus and loop 1 through a hydrogen bond network emerging from Rnr1p p.R379. These observations suggest that hRRM1 p.R381 is an extension of loop 1 through which the specificity site may be stabilized or fine-tuned.</p>
+      <p>To develop mechanistic insights into the effects of p.R381 variants, we performed atomistic molecular dynamics (MD) simulations using the crystal structure of the hRRM1-TTP-GDP complex in its dimeric form. We modeled a disulfide bond between p.R381C and p.C356 due to their proximity (<xref rid="F2" ref-type="fig">Figure 2B</xref>). All systems were stable throughout the simulations, as indicated by time evolution root mean square deviation median values below 3 &#xC5; (<xref rid="sd" ref-type="sec">Supplemental Figure 2</xref>, B and C).</p>
+      <p>We focused on an extensive network of hydrogen bonds between p.R381 and the catalytic site &#x201C;gating&#x201D; p.R293 (<xref rid="B17" ref-type="bibr">17</xref>) (<xref rid="F2" ref-type="fig">Figure 2C</xref>). Although p.R381C did not disrupt the hydrogen bond network, it did reduce protein flexibility, as indicated by the root mean square deviation reduction from 2.72 &#xC5; to 2.50 &#xC5; (<xref rid="sd" ref-type="sec">Supplemental Figure 2C</xref>). The buried surface area (BSA) between the protomers decreased by approximately 100 &#xC5;<sup>2</sup> (<xref rid="F2" ref-type="fig">Figure 2D</xref>), indicating that p.R381C may impair RRM1 dimerization and thereby reduce RNR activity.</p>
+      <p>In contrast, p.R381H disrupted the hydrogen bond network. During the p.R381H MD simulation (Supplemental video), p.R293 underwent a reorientation away from the base ring of GDP (<xref rid="F2" ref-type="fig">Figure 2, E and F</xref>). In addition, the hydrogen bond between p.Q288 and the p.R293 backbone was broken, and a new hydrogen bond was formed between p.Q288 and the specificity site TTP (<xref rid="sd" ref-type="sec">Supplemental Figure 2D</xref>). This conformational change reduced the BSA of TTP (<xref rid="F2" ref-type="fig">Figure 2G</xref>). Because BSA is correlated with affinity (<xref rid="B18" ref-type="bibr">18</xref>), results suggest that p.R381H reduces TTP binding affinity, which, combined with interruption of the hydrogen bond network, could severely impact specificity site function. Interestingly, p.R381H also reduced BSA between RRM1 protomers, suggesting impaired dimerization (<xref rid="F2" ref-type="fig">Figure 2D</xref>).</p>
+      <p>Using primary skin fibroblasts from probands, we measured RNR activity and found significantly impaired reduction of [<sup>14</sup>C]CDP to [<sup>14</sup>C]dCDP (<xref rid="F3" ref-type="fig">Figure 3A</xref>). We found a similar trend of reduced RNR activity in an activity assay that we developed to increase sensitivity (<xref rid="sd" ref-type="sec">Supplemental Figure 3A</xref>). By Western blot, RRM1 was similar between probands and controls (<xref rid="sd" ref-type="sec">Supplemental Figure 3B</xref>).</p>
+      <p>To assess how <italic toggle="yes">RRM1</italic> variants influence nucleotide pools, we first measured total nucleoside diphosphate (NDP) concentrations (<xref rid="F3" ref-type="fig">Figure 3B</xref>). Probands 2 and 3 had higher concentrations of NDPs than controls, consistent with reduced RNR activity. A similar pattern was observed for NTP concentrations (<xref rid="sd" ref-type="sec">Supplemental Figure 3C</xref>). Surprisingly, fibroblasts from probands 1a and 1b had NDP concentrations similar to those of controls, and fibroblasts from proband 1b had decreased CTP and UTP (<xref rid="F3" ref-type="fig">Figure 3B</xref> and <xref rid="sd" ref-type="sec">Supplemental Figure 3C</xref>).</p>
+      <p>As a downstream indicator of RNR activity, we measured mitochondrial dNTPs. Fibroblasts from probands 2 and 3 had reduced dGTP and dTTP (<xref rid="F3" ref-type="fig">Figure 3C</xref>). This is consistent with impaired RRM1 dimerization in proband 2 and the compromised RRM1 catalytic site of proband 3. In contrast, mitochondrial dNTP pools of fibroblasts from probands 1a and 1b were generally similar to those of controls, aside from a slight increase of dGTP for proband 1a (<xref rid="F3" ref-type="fig">Figure 3C</xref>). The distinct nucleotide pools of proband 1a and 1b fibroblasts may reflect aberrant nucleotide binding at both the specificity and catalytic sites.</p>
+      <p>We then investigated the connection between RRM1 variants and mtDNA. In proliferating fibroblasts, when de novo nucleotide synthesis was most active, proband fibroblasts had low mtDNA content (<xref rid="F3" ref-type="fig">Figure 3D</xref>). However, under quiescent conditions when cells rely on nucleotide salvage pathways, proband fibroblast mtDNA levels were no longer diminished (<xref rid="F3" ref-type="fig">Figure 3E</xref>). To understand whether the nucleotide salvage pathway compensated for deficient de novo nucleotide synthesis in quiescent proband fibroblasts, we measured salvage pathway enzyme transcripts and found expression levels similar to controls (<xref rid="sd" ref-type="sec">Supplemental Figure 4A</xref>).</p>
+      <p>Long-range PCR with proliferating proband fibroblasts did not detect multiple mtDNA deletions (<xref rid="sd" ref-type="sec">Supplemental Figure 4B</xref>). Protein measurements of respiratory chain complexes showed decreased complex IV in proband 2 fibroblasts (<xref rid="sd" ref-type="sec">Supplemental Figure 4C</xref>), and activities of respiratory chain complexes II+III were similarly impaired in all proband fibroblasts (<xref rid="sd" ref-type="sec">Supplemental Figure 4D</xref>).</p>
+      <p>Ribonucleotide misincorporation into mtDNA is influenced by nucleotide pools and can cause mtDNA instability (<xref rid="B19" ref-type="bibr">19</xref>). After alkaline hydrolysis of fibroblast DNA, a denaturing Southern blot revealed smaller mtDNA fragments in probands compared with those in controls, indicating higher ribonucleotide content (<xref rid="F3" ref-type="fig">Figure 3F</xref>).</p>
+      <p>Because RNR is essential for nDNA replication and repair, we assessed whether the clinical and in vitro abnormalities were primarily due to impaired maintenance of mtDNA. The absence of malignancy or defects in rapidly proliferating cells in the probands suggested nDNA replication was preserved. We measured the replication rate of proband fibroblasts and found no difference from that in controls (<xref rid="sd" ref-type="sec">Supplemental Figure 5</xref>). Using WES data, we also found no differences in variant allele frequency (<xref rid="F3" ref-type="fig">Figure 3G</xref>). In particular, there was no increase in the occurrence of low frequency variants, suggesting these <italic toggle="yes">RRM1</italic> variants do not increase the rate of somatic mutations.</p>
+      <p>In summary, our data reveal that both recessive and dominant <italic toggle="yes">RRM1</italic> variants contribute to the diversity of mitochondrial disorders. More broadly, our findings demonstrate that other elements of the de novo nucleotide synthesis pathway beyond RRM1 may also lead to MDDS.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <p>Detailed methods are provided in the Supplemental Methods.</p>
+      <sec>
+        <title>Study approval.</title>
+        <p>Informed consent for anonymous publication of patient clinical features and analyses of DNA samples, skin-derived fibroblasts, and muscle tissues was obtained from study participants under a Columbia University Irving Medical Center Institutional Review Board&#x2013;approved protocol or with local ethics committee approval of Maastricht University Medical Centre, Maastricht, the Netherlands; University Medical Center Rotterdam, Rotterdam, the Netherlands; or University of Bristol NHS Foundation Trust, Bristol, United Kingdom.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Author contributions</title>
+      <p>JS designed research and performed in vitro cellular and biochemical experiments. WMP, JBGC, ZPB, and JF performed structural analyses. WE, AD, EWS, ELB, PEB, KT, DAK, and RJR performed clinical experiments and diagnoses. MJF performed Sanger sequencing. JTT and RM measured ribonucleotides. CSL performed statistical analyses. PFC, GSG, RWT supervised experiments, provided clinical input, and contributed financial support. DMEIH, IVDL, and HJMS provided clinical information. MH conceptualized the study, provided clinical input, and supervised and designed experiments. JS, WMP, JBGC, ZPB, JF, and MH wrote the manuscript. All authors contributed to critical manuscript revision.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="sd">
+      <title>Supplementary Material</title>
+      <supplementary-material id="SD1" position="float" content-type="local-data">
+        <caption>
+          <title>Supplemental data</title>
+        </caption>
+        <media xlink:href="jci-132-145660-s184.pdf" id="d64e753" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>This work was supported by Department of Defense Focused Program Award W81XWH2010807 (to MH), NIH research grant P01 HD32062 (to MH), and NIH grant 35 GM139453 (to JF). MH is supported by the Arturo Estopinan TK2 Research Fund, Nicholas Nunno Foundation, JDM Fund for Mitochondrial Research, Shuman Mitochondrial Disease Fund, the Marriott Mitochondrial Disease Clinic Research Fund from the J. Willard and Alice S. Marriott Foundation, and NIH grant U54 NS078059. Work in Newcastle upon Tyne was supported by the Wellcome Centre for Mitochondrial Research (203105/Z/16/Z), Medical Research Council International Centre for Genomic Medicine in Neuromuscular Disease (MR/S005021/1), UK NIHR Biomedical Research Centre in Age and Age Related Diseases award to the Newcastle upon Tyne Hospitals NHS Foundation, the Lily Foundation, and the UK National Health Service Highly Specialised Service for Rare Mitochondrial Disorders. RWT receives financial support from the Pathological Society. EWS was funded by a Medical Research Council PhD studentship. This work used the Extreme Science and Engineering Discovery Environment (XSEDE), which is supported by National Science Foundation grant ACI-1548562. JBGC is supported by grant BIO210070 from XSEDE. The authors thank the patients and their families for collaborating in this study and Saba Tadesse for technical support of mitochondrial respiratory chain enzyme activities. We also thank the Genome Technology Center at the Radboud University Medical Center and BGI Copenhagen for WES technical support.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p><bold>Conflict of interest:</bold> The authors have declared that no conflict of interest exists.</p>
+      </fn>
+      <fn>
+        <p><bold>Copyright:</bold> &#xA9; 2022, Shintaku et al. This is an open access article published under the terms of the Creative Commons Attribution 4.0 International License.</p>
+      </fn>
+      <fn>
+        <p><bold>Reference information:</bold><italic toggle="yes"> J Clin Invest</italic>. 2022;132(13):e145660.https://doi.org/10.1172/JCI145660.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>DiMauro</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>The clinical maze of mitochondrial neurology</article-title>
+          <source>Nat Rev Neurol</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <issue>8</issue>
+          <fpage>429</fpage>
+          <lpage>444</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrneurol.2013.126</pub-id>
+          <!--<pub-id pub-id-type="pmcid">3959773</pub-id>-->
+          <pub-id pub-id-type="pmid">23835535</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Nishino</surname><given-names>I</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Thymidine phosphorylase gene mutations in MNGIE, a human mitochondrial disorder</article-title>
+          <source>Science</source>
+          <year>1999</year>
+          <volume>283</volume>
+          <issue>5402</issue>
+          <fpage>689</fpage>
+          <lpage>692</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.283.5402.689</pub-id>
+          <pub-id pub-id-type="pmid">9924029</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Hirano</surname><given-names>M</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Thymidine phosphorylase gene mutations cause mitochondrial neurogastrointestinal encephalomyopathy (MNGIE)</article-title>
+          <source>Intern Med</source>
+          <year>2006</year>
+          <volume>45</volume>
+          <issue>19</issue>
+          <elocation-id>1103</elocation-id>
+          <pub-id pub-id-type="doi">10.2169/internalmedicine.45.6064</pub-id>
+          <pub-id pub-id-type="pmid">17077575</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Mandel</surname><given-names>H</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>The deoxyguanosine kinase gene is mutated in individuals with depleted hepatocerebral mitochondrial DNA</article-title>
+          <source>Nat Genet</source>
+          <year>2001</year>
+          <volume>29</volume>
+          <issue>3</issue>
+          <fpage>337</fpage>
+          <lpage>341</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng746</pub-id>
+          <pub-id pub-id-type="pmid">11687800</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Elpeleg</surname><given-names>O</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Deficiency of the ADP-forming succinyl-CoA synthase activity is associated with encephalomyopathy and mitochondrial DNA depletion</article-title>
+          <source>Am J Hum Genet</source>
+          <year>2005</year>
+          <volume>76</volume>
+          <issue>6</issue>
+          <fpage>1081</fpage>
+          <lpage>1086</lpage>
+          <pub-id pub-id-type="doi">10.1086/430843</pub-id>
+          <!--<pub-id pub-id-type="pmcid">1196446</pub-id>-->
+          <pub-id pub-id-type="pmid">15877282</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Ostergaard</surname><given-names>E</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Deficiency of the alpha subunit of succinate-coenzyme A ligase causes fatal infantile lactic acidosis with mitochondrial DNA depletion</article-title>
+          <source>Am J Hum Genet</source>
+          <year>2007</year>
+          <volume>81</volume>
+          <issue>2</issue>
+          <fpage>383</fpage>
+          <lpage>387</lpage>
+          <pub-id pub-id-type="doi">10.1086/519222</pub-id>
+          <!--<pub-id pub-id-type="pmcid">1950792</pub-id>-->
+          <pub-id pub-id-type="pmid">17668387</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Saada</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Mutant mitochondrial thymidine kinase in mitochondrial DNA depletion myopathy</article-title>
+          <source>Nat Genet</source>
+          <year>2001</year>
+          <volume>29</volume>
+          <issue>3</issue>
+          <fpage>342</fpage>
+          <lpage>344</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng751</pub-id>
+          <pub-id pub-id-type="pmid">11687801</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Besse</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>The GABA transaminase, ABAT, is essential for mitochondrial nucleoside metabolism</article-title>
+          <source>Cell Metab</source>
+          <year>2015</year>
+          <volume>21</volume>
+          <issue>3</issue>
+          <fpage>417</fpage>
+          <lpage>427</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2015.02.008</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4757431</pub-id>-->
+          <pub-id pub-id-type="pmid">25738457</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Sommerville</surname><given-names>EW</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Identification of a novel heterozygous guanosine monophosphate reductase (GMPR) variant in a patient with a late-onset disorder of mitochondrial DNA maintenance</article-title>
+          <source>Clin Genet</source>
+          <year>2020</year>
+          <volume>97</volume>
+          <issue>2</issue>
+          <fpage>276</fpage>
+          <lpage>286</lpage>
+          <pub-id pub-id-type="doi">10.1111/cge.13652</pub-id>
+          <!--<pub-id pub-id-type="pmcid">7004030</pub-id>-->
+          <pub-id pub-id-type="pmid">31600844</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Lane</surname><given-names>AN</given-names></name>
+<name><surname>Fan</surname><given-names>TW</given-names></name>
+</person-group>
+          <article-title>Regulation of mammalian nucleotide metabolism and biosynthesis</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2015</year>
+          <volume>43</volume>
+          <issue>4</issue>
+          <fpage>2466</fpage>
+          <lpage>2485</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkv047</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4344498</pub-id>-->
+          <pub-id pub-id-type="pmid">25628363</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Guarino</surname><given-names>E</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Cellular regulation of ribonucleotide reductase in eukaryotes</article-title>
+          <source>Semin Cell Dev Biol</source>
+          <year>2014</year>
+          <volume>30</volume>
+          <fpage>97</fpage>
+          <lpage>103</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.semcdb.2014.03.030</pub-id>
+          <pub-id pub-id-type="pmid">24704278</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Bourdon</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Mutation of RRM2B, encoding p53-controlled ribonucleotide reductase (p53R2), causes severe mitochondrial DNA depletion</article-title>
+          <source>Nat Genet</source>
+          <year>2007</year>
+          <volume>39</volume>
+          <issue>6</issue>
+          <fpage>776</fpage>
+          <lpage>780</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng2040</pub-id>
+          <pub-id pub-id-type="pmid">17486094</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Choi</surname><given-names>Y</given-names></name>
+<name><surname>Chan</surname><given-names>AP</given-names></name>
+</person-group>
+          <article-title>PROVEAN web server: a tool to predict the functional effect of amino acid substitutions and indels</article-title>
+          <source>Bioinformatics</source>
+          <year>2015</year>
+          <volume>31</volume>
+          <issue>16</issue>
+          <fpage>2745</fpage>
+          <lpage>2747</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btv195</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4528627</pub-id>-->
+          <pub-id pub-id-type="pmid">25851949</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Sim</surname><given-names>NL</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>SIFT web server: predicting effects of amino acid substitutions on proteins</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2012</year>
+          <volume>40</volume>
+          <issue>web server issue</issue>
+          <fpage>W452</fpage>
+          <lpage>W457</lpage>
+          <!--<pub-id pub-id-type="pmcid">3394338</pub-id>-->
+          <pub-id pub-id-type="pmid">22689647</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Xu</surname><given-names>H</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Structures of eukaryotic ribonucleotide reductase I provide insights into dNTP regulation</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2006</year>
+          <volume>103</volume>
+          <issue>11</issue>
+          <fpage>4022</fpage>
+          <lpage>4027</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0600443103</pub-id>
+          <!--<pub-id pub-id-type="pmcid">1389704</pub-id>-->
+          <pub-id pub-id-type="pmid">16537479</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Fairman</surname><given-names>JW</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Structural basis for allosteric regulation of human ribonucleotide reductase by nucleotide-induced oligomerization</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <year>2011</year>
+          <volume>18</volume>
+          <issue>3</issue>
+          <fpage>316</fpage>
+          <lpage>322</lpage>
+          <pub-id pub-id-type="doi">10.1038/nsmb.2007</pub-id>
+          <!--<pub-id pub-id-type="pmcid">3101628</pub-id>-->
+          <pub-id pub-id-type="pmid">21336276</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Ahmad</surname><given-names>MF</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Role of arginine 293 and glutamine 288 in communication between catalytic and allosteric sites in yeast ribonucleotide reductase</article-title>
+          <source>J Mol Biol</source>
+          <year>2012</year>
+          <volume>419</volume>
+          <issue>5</issue>
+          <fpage>315</fpage>
+          <lpage>329</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jmb.2012.03.014</pub-id>
+          <!--<pub-id pub-id-type="pmcid">3589814</pub-id>-->
+          <pub-id pub-id-type="pmid">22465672</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>J</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Protein-protein interactions: general trends in the relationship between binding affinity and interfacial buried surface area</article-title>
+          <source>Protein Sci</source>
+          <year>2013</year>
+          <volume>22</volume>
+          <issue>4</issue>
+          <fpage>510</fpage>
+          <lpage>515</lpage>
+          <pub-id pub-id-type="doi">10.1002/pro.2230</pub-id>
+          <!--<pub-id pub-id-type="pmcid">3610057</pub-id>-->
+          <pub-id pub-id-type="pmid">23389845</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Berglund</surname><given-names>AK</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Nucleotide pools dictate the identity and frequency of ribonucleotide incorporation in mitochondrial DNA</article-title>
+          <source>PLoS Genet</source>
+          <year>2017</year>
+          <volume>13</volume>
+          <issue>2</issue>
+          <elocation-id>e1006628</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1006628</pub-id>
+          <!--<pub-id pub-id-type="pmcid">5336301</pub-id>-->
+          <pub-id pub-id-type="pmid">28207748</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <notes notes-type="version-changes">
+      <sec sec-type="version-changes">
+        <label>Version 1</label>
+        <title>05/26/2022</title>
+        <p>In-Press Preview</p>
+      </sec>
+      <sec sec-type="version-changes">
+        <label>Version 2</label>
+        <title>07/01/2022</title>
+        <p>Electronic publication</p>
+      </sec>
+    </notes>
+  </back>
+  <floats-group>
+    <fig position="float" id="F1">
+      <label>Figure 1</label>
+      <caption>
+        <title>Identification of MDDS and candidate <italic toggle="yes">RRM1</italic> variants.</title>
+        <p>(<bold>A</bold>) Histology of muscle biopsy cross sections. Asterisks indicate ragged-blue (NADH-TR and SDH), COX-negative, and ragged-red (modified Gomori trichrome) fibers. Scale bar: 100 &#x3BC;m. (<bold>B</bold>) Family 1, (<bold>C</bold>) family 2, and (<bold>D</bold>) family 3 pedigrees, indicating affected individuals (black), WES (asterisks), and Sanger sequencing (+, normal; &#x2013;, variant; ?, not done).</p>
+      </caption>
+      <graphic xlink:href="jci-132-145660-g180" position="float"/>
+    </fig>
+    <fig position="float" id="F2">
+      <label>Figure 2</label>
+      <caption>
+        <title>Structural analysis and MD simulations of <italic toggle="yes">RRM1</italic> variants.</title>
+        <p>(<bold>A</bold>) Surface rendering of RRM1 dimer with highlighted catalytic site (blue), specificity site composed of loop 1 (green) and loop 2 (yellow), and loci of RRM1 variants (pink). (<bold>B</bold>) Hydrogen bonds between p.R381 and the specificity site via p.E355 and p.S260. (<bold>C</bold>) RRM1 protomers (yellow and green), ligands TTP and GDP, and allosteric communication bridging the mutation, specificity site, and catalytic site. (<bold>D</bold>) Interprotomer BSA of WT, p.R381C, and p.R381H, with median values of 1830.6 &#xC5;<sup>2</sup>, 1734.8 &#xC5;<sup>2</sup>, and 1764.2 &#xC5;<sup>2</sup>, respectively. (<bold>E</bold>) Snapshots of the p.R381H MD simulation capture the reorientation of p.R293 and p.Q288. (<bold>F</bold>) Conformational distance between the p.R293 side chain guanidinium group and GDP. (<bold>G</bold>) Buried surface area of TTP.</p>
+      </caption>
+      <graphic xlink:href="jci-132-145660-g181" position="float"/>
+    </fig>
+    <fig position="float" id="F3">
+      <label>Figure 3</label>
+      <caption>
+        <title>Functional characterization of <italic toggle="yes">RRM1</italic> variants in primary fibroblasts.</title>
+        <p>(<bold>A</bold>) RNR activity of proband fibroblasts and 3 controls. Each control individual is represented by a distinct symbol. Identical symbols around each bar represent technical replicates. (<bold>B</bold>) Total NDPs from proliferating proband fibroblasts and 3 controls. (<bold>C</bold>) Mitochondrial dNTP pools of proliferating proband fibroblasts and 4 controls. (<bold>D</bold>) Proliferating fibroblast mtDNA quantitation. (<bold>E</bold>) Quiescent fibroblast mtDNA quantitation. (<bold>F</bold>) Southern blot indicating mtDNA ribonucleotide content. Maximum intensity plots illustrate the fragment size distribution of each lane. Representative of 3 experiments. (<bold>G</bold>) Variant allele frequency (VAF) histograms from WES data of proband 1a, proband 3, and 2 siblings of proband 1a as controls. We used 2-way ANOVA with the one individual per cell method to compare the mean outcome of each proband to the controls. Findings were considered as statistically significant if the corresponding <italic toggle="yes">P</italic> values were less than 0.05. *<italic toggle="yes">P &lt;</italic> 0.05.</p>
+      </caption>
+      <graphic xlink:href="jci-132-145660-g182" position="float"/>
+    </fig>
+    <table-wrap position="float" id="T1">
+      <label>Table 1</label>
+      <caption>
+        <title>Clinical characteristics of patients with <italic toggle="yes">RRM1</italic> pathogenic variants</title>
+      </caption>
+      <graphic xlink:href="jci-132-145660-g183" position="float"/>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

@@ -1,0 +1,3051 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">9216904</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">2419</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat. Genet.</journal-id>
+      <journal-title-group>
+        <journal-title>Nature genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1061-4036</issn>
+      <issn pub-type="epub">1546-1718</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">29255262</article-id>
+      <article-id pub-id-type="pmc">5742538</article-id>
+      <article-id pub-id-type="doi">10.1038/s41588-017-0006-7</article-id>
+      <article-id pub-id-type="manuscript">EMS74866</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Mutations in <italic>SELENBP1</italic>, encoding a novel human
+methanethiol oxidase, cause extra-oral halitosis</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Pol</surname>
+            <given-names>Arjan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Renkema</surname>
+            <given-names>G. Herma</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tangerman</surname>
+            <given-names>Albert</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Winkel</surname>
+            <given-names>Edwin G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Engelke</surname>
+            <given-names>Udo F.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>de Brouwer</surname>
+            <given-names>Arjan P. M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lloyd</surname>
+            <given-names>Kent C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Araiza</surname>
+            <given-names>Renee S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>van den Heuvel</surname>
+            <given-names>Lambert</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Omran</surname>
+            <given-names>Heymut</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Olbrich</surname>
+            <given-names>Heike</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Elberink</surname>
+            <given-names>Marijn Oude</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gilissen</surname>
+            <given-names>Christian</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rodenburg</surname>
+            <given-names>Richard J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sass</surname>
+            <given-names>J&#xF6;rn Oliver</given-names>
+          </name>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schwab</surname>
+            <given-names>K. Otfried</given-names>
+          </name>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sch&#xE4;fer</surname>
+            <given-names>Hendrik</given-names>
+          </name>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Venselaar</surname>
+            <given-names>Hanka</given-names>
+          </name>
+          <xref ref-type="aff" rid="A14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sequeira</surname>
+            <given-names>J. Silvia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Op den Camp</surname>
+            <given-names>Huub J.M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="author-notes" rid="FN1">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wevers</surname>
+            <given-names>Ron A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="author-notes" rid="FN1">17</xref>
+          <xref ref-type="corresp" rid="CR1">18</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+<label>1</label>Department of Microbiology, IWWR, Faculty of Science, Radboud
+University, Nijmegen, The Netherlands</aff>
+      <aff id="A2">
+<label>2</label>Translational Metabolic Laboratory, Department of Laboratory
+Medicine, Radboud University Nijmegen Medical Centre (RUNMC), Nijmegen, The
+Netherlands</aff>
+      <aff id="A3">
+<label>3</label>Department of Internal medicine, RUNMC, Nijmegen, The
+Netherlands</aff>
+      <aff id="A4">
+<label>4</label>Center for Dentistry and Oral Hygiene, University Medical Center
+Groningen, University of Groningen, The Netherlands</aff>
+      <aff id="A5">
+<label>5</label>Clinic for Periodontology, Amsterdam, The Netherlands</aff>
+      <aff id="A6">
+<label>6</label>Department of Human Genetics, RUNMC, Nijmegen, The Netherlands</aff>
+      <aff id="A7">
+<label>7</label>Department of Surgery, School of Medicine, and Mouse Biology
+Program, University of California, Davis, USA</aff>
+      <aff id="A8">
+<label>8</label>Mouse Biology Program, University of California, Davis, USA</aff>
+      <aff id="A9">
+<label>9</label>Department of Pediatrics, RUNMC, Nijmegen, The Netherlands</aff>
+      <aff id="A10">
+<label>10</label>Klinik f&#xFC;r Kinder- und Jugendmedizin,
+Universit&#xE4;tsklinikum M&#xFC;nster, Germany</aff>
+      <aff id="A11">
+<label>11</label>Bioanalytics and Biochemistry, Department of Natural Sciences,
+Bonn-Rhein-Sieg University of Applied Sciences, Rheinbach, Germany</aff>
+      <aff id="A12">
+<label>12</label>Department of Pediatrics and Adolescence Medicine, University
+Hospital Freiburg, Germany</aff>
+      <aff id="A13">
+<label>13</label>School of Life Sciences, University of Warwick, Coventry, United
+Kingdom</aff>
+      <aff id="A14">
+<label>14</label>Centre for Molecular and Biomolecular Informatics, RUNMC, Nijmegen,
+the Netherlands</aff>
+      <aff id="A15">
+<label>15</label>Metabolic Unit-Pediatric Department, Hospital de Dona
+Estef&#xE2;nia, CHLC, Lisbon, Portugal</aff>
+      <author-notes>
+        <corresp id="CR1"><label>18</label>Correspondence should be addressed to R.A.W.
+(<email>ron.wevers@radboudumc.nl</email>)</corresp>
+        <fn id="FN1">
+          <label>17</label>
+          <p id="P1">These authors jointly directed this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>13</day>
+        <month>11</month>
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>12</month>
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>1</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>18</day>
+        <month>6</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>50</volume>
+      <issue>1</issue>
+      <fpage>120</fpage>
+      <lpage>129</lpage>
+      <!--elocation-id from pubmed: 10.1038/s41588-017-0006-7-->
+      <permissions>
+        <license>
+          <license-p>Users may view, print, copy, and download text and data-mine the
+content in such documents, for the purposes of academic research, subject
+always to the full Conditions of use:<ext-link ext-link-type="uri" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</ext-link></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P2">Selenium binding protein1 (SELENBP1) has been associated with several
+cancers. Its exact role was unknown. We show that SELENBP1 is a methanethiol
+oxidase (MTO), related to MTO of methylotrophic bacteria, converting
+methanethiol to H<sub>2</sub>O<sub>2</sub>, formaldehyde and H<sub>2</sub>S, an
+activity not known to exist in humans. Mutations in <italic>SELENBP1</italic>
+were found in five patients with a cabbage-like smelling breath. Increased
+levels of methanethiol and dimethylsulfide are the main odorous compounds in
+their breath and responsible for the malodor. Increased urinary excretion of
+dimethylsulfoxide is a diagnostic biomarker of MTO-deficiency. Patient
+fibroblasts showed reduced amounts of SELENBP1 protein and deficient MTO
+enzymatic activity which could be restored by lentiviral-mediated expression of
+the wild-type <italic>SELENBP1</italic> gene. A knockout mouse line showed the
+same biochemical characteristics. Our data define a novel inborn error of
+metabolism caused by MTO-deficiency leading to a malodor syndrome. MTO
+deficiency may be a frequent inborn error of metabolism.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>extra-oral halitosis</kwd>
+        <kwd>dimethylsulfoxide</kwd>
+        <kwd>dimethylsulfone</kwd>
+        <kwd>dimethylsulfide</kwd>
+        <kwd>methanethiol</kwd>
+        <kwd>methanethiol oxidase</kwd>
+        <kwd>erythrocytes</kwd>
+        <kwd>inborn error of metabolism</kwd>
+        <kwd>gasotransmitter</kwd>
+        <kwd>cancer</kwd>
+        <kwd>malodor</kwd>
+        <kwd>hydrogen sulfide</kwd>
+        <kwd>volatile organic compounds</kwd>
+        <kwd>tumor suppessor</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="S1">
+      <title>Introduction</title>
+      <p id="P3">Volatile sulfur-containing compounds hydrogen sulfide (H<sub>2</sub>S),
+methanethiol (MT, CH<sub>3</sub>-SH) and dimethylsulfide (DMS,
+CH<sub>3</sub>-S-CH<sub>3</sub>) have been identified as the main contributors
+of halitosis or bad breath <xref rid="R1" ref-type="bibr">1</xref>. The origin of
+halitosis can be intra- or extra-oral <xref rid="R2" ref-type="bibr">2</xref>&#x2013;<xref rid="R4" ref-type="bibr">4</xref>. Intra-oral halitosis
+is the most common form usually caused by MT and H<sub>2</sub>S produced by
+Gram-negative bacteria located on the dorsum of the tongue or in gingival- and
+periodontal crevices. Extra-oral halitosis has an estimated prevalence of 0.5-3% in
+the general population <xref rid="R2" ref-type="bibr">2</xref>. Its origin is less
+well understood. Extra-oral bad smelling breath can be caused by conditions
+affecting the nose, sinuses, tonsils, and esophagus, but evidence indicates that in
+some patients the extra-oral halitosis is blood-borne <xref rid="R3" ref-type="bibr">3</xref>. In blood-borne halitosis malodorant compounds, most commonly DMS, are
+carried to the lungs where they enter the breath <xref rid="R3" ref-type="bibr">3</xref>. Mouth and nose breath DMS concentrations of these patients showed a
+five- to six-fold increase compared to controls <xref rid="R2" ref-type="bibr">2</xref>. The cause for increased DMS levels in these patients is unknown. DMS
+is produced from MT by methylation. Both compounds result from the complex
+microbiome-mammalian co-metabolism of volatile sulfur compounds (<xref ref-type="fig" rid="F1">Figure 1</xref>) <xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R6" ref-type="bibr">6</xref>. Under physiological
+conditions MT has three sources in the human body <xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R8" ref-type="bibr">8</xref>: production from sulfur
+containing amino acids by intestinal bacteria; formation within intestinal cells by
+methylation of H<sub>2</sub>S by thiol S-methyltransferase; biosynthesis from
+methionine by the transamination pathway in human endogenous metabolism. Under
+pathological conditions, it has been found that increased levels of DMS can lead to
+high concentrations of dimethylsulfoxide (DMSO) and dimethylsulfone
+(DMSO<sub>2</sub>) <xref rid="R9" ref-type="bibr">9</xref><sub>.</sub> The
+enzymes involved in these conversions are largely unknown and a contribution of the
+gut bacteria is expected <xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R6" ref-type="bibr">6</xref>. Interestingly cancer patients were found to
+produce MT and DMS as prominent volatile organic compounds <xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R11" ref-type="bibr">11</xref>. DMS is produced
+in significant amounts by lung- and liver cancer cell lines <xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R12" ref-type="bibr">12</xref> and was found in
+lung tumor tissue<xref rid="R13" ref-type="bibr">13</xref>.</p>
+      <p id="P4">Recently, a methanethiol oxidase (MTO) was purified from the
+<italic>Hyphomicrobium</italic> strain VS <xref rid="R14" ref-type="bibr">14</xref>,<xref rid="R15" ref-type="bibr">15</xref>. The gene encoding this
+enzyme was identified and showed 26% homology at the protein level to the human
+<italic>SELENBP1</italic> gene, encoding a protein possessing selenium binding
+properties but with unknown function <xref rid="R16" ref-type="bibr">16</xref>&#x2013;<xref rid="R18" ref-type="bibr">18</xref>. Reduced expression
+of the human gene has been found in several tumors, and a tumor suppressor function
+has been suggested <xref rid="R19" ref-type="bibr">19</xref>&#x2013;<xref rid="R21" ref-type="bibr">21</xref>. We hypothesized that mutations in
+<italic>SELENBP1</italic> could be causative for extra-oral halitosis. We
+studied five patients with extra-oral halitosis caused by elevated levels of DMS in
+the blood. We identified SELENBP1 as the human MTO, catalyzing the conversion of MT
+into formaldehyde, H<sub>2</sub>S and hydrogen peroxide
+(H<sub>2</sub>O<sub>2</sub>). Mutations in <italic>SELENBP1</italic> cause
+extra-oral halitosis and define a novel inborn error of metabolism.</p>
+    </sec>
+    <sec sec-type="results" id="S2">
+      <title>Results</title>
+      <sec id="S3">
+        <title>Extra-oral halitosis patients</title>
+        <p id="P5">We studied five patients from three unrelated families with extra-oral
+halitosis with a cabbage-like odor (<xref ref-type="fig" rid="F2">Figure
+2A</xref>). The patients had high levels of DMS in their mouth- and nose
+breath. Known causes, such as intake of DMS containing food, use of
+sulfur-containing medication, lower gastrointestinal problems, known metabolic
+defects such as methionine adenosyltransferase deficiency and tyrosinemia were
+excluded. Family A is a German family of Turkish origin with two affected
+children (AII-2 and AII-3), family B is Portuguese with one affected child
+(BII-2), and family C is a Dutch family with two affected children (CII-1 and
+CII-2). The unifying clinical feature was the pungent malodor from the breath.
+Other clinical signs and symptoms of the patients differed considerably (for a
+full description see <xref ref-type="supplementary-material" rid="SD4">Supplementary Note</xref>). The two patients in the Dutch family are from a
+non-consanguineous marriage and the malodor was their only clinical symptom. The
+mother of patients CII-1 and CII-2 had some complaints of halitosis. The parents
+of the other patients were consanguineous. The female patient in family A had
+malodor as only symptom while her brother had a broader spectrum of clinical
+symptoms with neurological features. The Portuguese patient also had
+neurological sequelae.</p>
+      </sec>
+      <sec id="S4">
+        <title>Breath and body fluid analyses</title>
+        <p id="P6">Breath and body fluid analyses used complementary methods (NMR
+spectroscopy, gas-chromatography) (<xref ref-type="table" rid="T1">Table
+1</xref>). Because of the malodor body fluid NMR spectroscopy was requested
+in the index patients of the three families. NMR showed the presence of
+increased concentrations of DMSO and DMSO<sub>2</sub> in their body fluids
+(<xref ref-type="fig" rid="F2">Figures 2 B and C</xref>).</p>
+        <p id="P7">Using gas-chromatography with a sulfur detector an increased
+concentration of an additional sulfur-containing compound, DMS, was detected
+(<xref ref-type="table" rid="T1">Table 1B</xref>). Increased DMS
+concentrations in blood have been described in patients with extra-oral
+halitosis <xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R4" ref-type="bibr">4</xref>. DMSO<sub>2</sub> is an oxidation product of DMS. Increased
+DMSO<sub>2</sub> concentrations have been observed in blood of patients with
+methionine adenosyltransferase deficiency <xref rid="R9" ref-type="bibr">9</xref>. DMSO<sub>2</sub> also occurs in cerebrospinal fluid after
+DMSO<sub>2</sub> intake as dietary supplement <xref rid="R22" ref-type="bibr">22</xref>. Additional investigations on breath samples of patients
+AII-3 and CII-2 revealed increased levels of a fourth sulfur-containing
+compound, MT. The MT concentration in breath of these patients was ten times
+higher than the highest value in control persons and unaffected family members.
+Specialized dental clinics may use portable gas chromatography to detect this
+specific form of halitosis (see breath analysis of CII-2, <xref ref-type="supplementary-material" rid="SD3">Supplementary Figure 1</xref>).
+We detected increased MT levels in urine in some of our patient samples. Because
+MT is highly volatile and reactive, reproducible quantification of urinary MT
+was impossible.</p>
+        <p id="P8">Patient BII-2 was treated for five days with the antibiotic Metronidazol
+(500 mg oral; three times/day). The concentration of DMS in breath decreased to
+just above the detection limit. DMS and MT in urine decreased to 65% after 5
+days of Metronidazol. After cessation, the DMS levels in breath and urine
+returned to values before treatment. In patient AII-3 a methionine loading trial
+was performed. Initial levels of 18 and 129 &#x3BC;mol/mmol creatinine for DMSO
+and DMSO<sub>2</sub> rose to 67 and 178, respectively at 12 h after loading. At
+20 h the levels were still increased (48 and 152). These data are in line with a
+significant contribution of the microbiome and as well of methionine metabolism
+to the breath- and body fluid concentration of MT, DMS and its further oxidation
+products DMSO and DMSO<sub>2</sub> in the patients.</p>
+      </sec>
+      <sec id="S5">
+        <title>Mutational analysis of <italic>SELENBP1</italic></title>
+        <p id="P9">Based on the profile of accumulating sulfur-containing compounds in our
+patients we postulated a defect in a pathway that would result in the
+accumulation of DMS. We hypothesized that defects in MT-oxidation would lead to
+increased levels of MT and lead to an alternative metabolism resulting in
+increased DMS, DMSO, and DMSO<sub>2</sub> (<xref ref-type="fig" rid="F1">Figure
+1</xref>). MT degrading enzymes are not known in humans, but methanethiol
+oxidases (EC 1.8.3.4.) have been purified from <italic>Hyphomicrobium</italic>
+strain EG <xref rid="R23" ref-type="bibr">23</xref> and <italic>Thiobacillus
+thioparus</italic> TK-m <xref rid="R24" ref-type="bibr">24</xref>. Recently
+a gene, <italic>mtoX</italic>, was found in <italic>Hyphomicrobium</italic>
+strain VS encoding a protein with MTO activity <xref rid="R15" ref-type="bibr">15</xref>. BLAST searches of the human protein database using the
+<italic>Hyphomicrobium</italic> strain VS MTO amino acid sequence yielded a
+single hit, selenium-binding protein 1 (SELENBP1/SBP1/hSBP/SBP56), with a
+sequence identity of 26% and homology of 54% (<xref ref-type="supplementary-material" rid="SD3">Supplementary Figure 2</xref>).
+The gene encoding this candidate protein, <italic>SELENBP1</italic> is located
+on chromosome 1 (151.364.302-151.372.734), and lies within a linkage interval
+with a LOD-score of 1.8 found in family A. The protein is well conserved in the
+three domains of life from human to bacteria and archaea (<xref ref-type="fig" rid="F3">Figure 3A</xref>). Subsequent <italic>SELENBP1</italic> Sanger
+sequencing showed 4 different bi-allelic mutations in our 5 patients (<xref ref-type="table" rid="T2">Table 2</xref>). Segregation with the malodour was
+confirmed in the three pedigrees.</p>
+      </sec>
+      <sec id="S6">
+        <title>Pathogenicity of <italic>SELENBP1</italic> mutations</title>
+        <p id="P10">The four mutations were predicted to be pathogenic by the algorithms
+Align GVGD, SIFT, MutationTaster, and PolyPhen-2 (<xref ref-type="table" rid="T2">Table 2</xref>). When calculated by the CADD tool, the mutations
+ranked in the top 1% of most deleterious mutations (C-score &#x2265; 20) or even
+in the top 0.1% (C-score &#x2265; 30) (<xref ref-type="table" rid="T2">Table
+2</xref>). We have modeled the human SELENBP1 protein containing the two
+mutations of family C on the X-ray structure of the hypothetical
+selenium-binding protein from the archaeon <italic>Sulfolobus tokodaii</italic>
+(PDB ID: 2ECE) (<xref ref-type="fig" rid="F3">Figure 3B and C</xref>). Gly225Trp
+is likely incompatible with the original structure since glycine-225, without
+side chain, is replaced by a bulky tryptophan. Moreover, Gly225 is conserved in
+methanethiol oxidases and putative selenium binding proteins from all domains of
+life. For the c.985C&gt;T mutation changing His329 to Tyr the pathogenicity
+is less obvious from the structure analysis. The mutant residue is only slightly
+larger and does not seem to collide with adjacent side chains but His329 is
+conserved in eukaryotic orthologues and is in close proximity to a fully
+conserved region (<xref ref-type="fig" rid="F3">Figure 3D</xref>).</p>
+      </sec>
+      <sec id="S7">
+        <title>Diagnostic assay for MTO enzyme deficiency</title>
+        <p id="P11">We have developed a functional MTO enzymatic assay to prove that
+SELENBP1 has MTO activity, to evaluate its biochemical characteristics and to
+establish the residual activity in patients (see <xref ref-type="sec" rid="S14">Online Methods</xref> and <xref ref-type="supplementary-material" rid="SD3">Supplementary Figure 3</xref>. MTO activity in different blood fractions of
+control individuals revealed relatively high activity in erythrocyte extracts,
+but with a broad range (0.04 - 6.1 nmol.&#x3BC;l<sup>-1</sup>.h<sup>-1</sup>,
+mean 1.4, median 0.63; n=30, <xref ref-type="fig" rid="F4">Figure 4A</xref>, see
+<xref ref-type="supplementary-material" rid="SD1">Raw gel data</xref>
+for full length blots of <xref ref-type="fig" rid="F4">Figure 4</xref>). MTO
+activity was low in leucocytes from control individuals and hardly detectable in
+plasma (not shown). Erythrocytes of the patients AII-3 and CII-2 had very low
+MTO activity (0.017 and 0.022 nmol.&#x3BC;l<sup>-1</sup>.h<sup>-1</sup>) in
+line with a deficiency of the enzyme and adding to the functional role of the
+SELENBP1 protein as a methanethiol oxidase.</p>
+      </sec>
+      <sec id="S8">
+        <title>SELENBP1 protein and activity in cell lines</title>
+        <p id="P12"><italic>SELENBP1</italic> mRNA was found to be ubiquitously expressed.
+The highest RNA levels were found in adult tissues, mainly in kidney, duodenum,
+liver, lung, and the brain (<xref ref-type="fig" rid="F4">Figure 4B</xref>).</p>
+        <p id="P13">SELENBP1 has been described as a tumor marker with decreased expression
+in certain cancers and tumor cell lines <xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R21" ref-type="bibr">21</xref>. To correlate the
+protein expression levels with our biochemical assay we analyzed colon cancer
+lines with previously documented high (HT29 cells) and low
+<italic>SELENBP1</italic> expression (SW480 cells) <xref rid="R25" ref-type="bibr">25</xref>. Western blot analysis of these cell lines (<xref ref-type="fig" rid="F4">Figure 4C</xref>) was in agreement with published
+results. MTO enzymatic activity was high in HT29 cells (4.2 nmol.mg
+protein<sup>-1</sup>.h<sup>-1</sup>) and undetectable in SW480 cells, nicely
+in line with expression data from literature and corresponding with Western blot
+results.</p>
+        <p id="P14">Fibroblast lines from patients (AII-3 and CII-2) had significantly lower
+SELENBP1 protein levels than control cells (<xref ref-type="fig" rid="F4">Figure
+4D</xref>). MTO enzyme activity in the patient cells was not detectable
+(controls: 2.6-6.6 nmol.mg protein<sup>-1</sup>.h<sup>-1</sup>). We could
+demonstrate that the MTO enzyme activity in control fibroblasts is dependent on
+the presence of oxygen (data not shown) and that the molar amount of
+H<sub>2</sub>S formed equals the amount of converted substrate MT.</p>
+      </sec>
+      <sec id="S9">
+        <title>SELENBP1 has a nanomolar range K<sub>m</sub> for MT</title>
+        <p id="P15">For accurate kinetic analysis we supplemented the reaction mixture with
+0.3 mg/ml of BSA, which stabilizes MTO at low protein concentrations. A kinetic
+analysis with erythrocytes was performed by varying the initial MT
+concentrations and measuring the initial reaction rates (<xref ref-type="supplementary-material" rid="SD3">Supplementary Figure 3D</xref>),
+resulting in a remarkably low apparent K<sub>m</sub> value of 4.8 nM. When using
+different cell and tissue sources of MTO we could measure the decrease of MT in
+the headspace of the reaction down to low nanomolar amounts (<xref ref-type="supplementary-material" rid="SD3">Supplementary Figure
+3E-G</xref>). Curve fitting resulted in similar apparent K<sub>m</sub> values
+for all tested extracts.</p>
+      </sec>
+      <sec id="S10">
+        <title>Frequency of <italic>SELENBP1</italic> mutations</title>
+        <p id="P16">Using data from the ExAC browser and a local dataset of 15,000 exomes we
+found evidence for a possible frequency of bi-allelic pathogenic
+<italic>SELENBP1</italic> mutations of approximately 1 : 90,000
+corresponding to a carrier frequency of 1 per 300 individuals (See <xref ref-type="supplementary-material" rid="SD4">Supplementary Note</xref>, and
+<xref ref-type="supplementary-material" rid="SD5">Supplementary Table 1</xref>). Based on these data MTO deficiency may be a frequent
+inborn error of metabolism. The frequency of extra-oral halitosis has been
+estimated by Tangerman et al <xref rid="R2" ref-type="bibr">2</xref> to be
+between 0.25-1.5% indicating that bi-allelic mutations in
+<italic>SELENBP1</italic> can explain a minority of extra-oral halitosis
+cases.</p>
+      </sec>
+      <sec id="S11">
+        <title>Lentiviral complementation analysis</title>
+        <p id="P17">To further substantiate that the MTO activity depends on the presence of
+SELENBP1 we performed a lentiviral complementation experiment in a patient
+fibroblast cell line (<xref ref-type="fig" rid="F4">Figure 4F</xref>). The cell
+line of patient AII-3 and a control fibroblast line were lentivirally transduced
+with either a control virus expressing V5 epitope tagged green fluorescent
+protein (GFP), or a virus expressing V5-tagged wild-type SELENBP1. The exogenous
+protein was expressed partly in the nucleus but mostly in the cytoplasm. The
+cytoplasmic staining was not uniform but seemed to follow internal filamentous
+structures (<xref ref-type="supplementary-material" rid="SD3">Supplementary
+Figure 4</xref>). This confirms previous studies <xref rid="R21" ref-type="bibr">21</xref>,<xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R27" ref-type="bibr">27</xref>.</p>
+        <p id="P18">Subsequently, we analyzed MTO activity in stably expressing cell lines.
+The MTO activity in patient fibroblasts expressing GFP protein only and the
+non-transduced cells was undetectable. In addition, little or no SELENBP1
+protein was seen on Western blot. Introducing exogenous SELENBP1-V5 protein in
+patient fibroblasts resulted in re-expression of SELENBP1, as detected with the
+specific antiserum as well as with an anti-V5 tag antiserum. Moreover, the MTO
+enzyme activity increased from undetectable to 55% of the control cell line.</p>
+      </sec>
+      <sec id="S12">
+        <title>SELENBP1 knockout mouse</title>
+        <p id="P19">A knockout mouse line was previously created by the Knockout Mouse
+Program Project (KOMP) at UC Davis. This mouse, expressing a &#x201C;knockout
+(KO) first&#x201D; allele of the Selenbp1<sup>tm1b(KOMP)Wtsi</sup> gene, had no
+apparent phenotypic changes. MTO enzyme activity and metabolite concentrations
+were measured in KO mice, heterozygous carriers and wild type mice. MTO activity
+in erythrocytes of wild type mice was 1.8
+nmol.&#x3BC;l<sup>-1</sup>.h<sup>-1</sup>, which is in the same order of
+magnitude as found in human erythrocytes. MTO activity in mouse erythrocytes was
+also strictly dependent on oxygen and yielded stoichiometric amounts of sulfide
+(not shown).</p>
+        <p id="P20">MTO activity in KO mice erythrocytes was deficient (on the limit of
+detection at 0.05 nmol.&#x3BC;l<sup>-1</sup>.h<sup>-1</sup>) while an
+intermediate activity was found in heterozygous mice (0.8
+nmol.&#x3BC;l<sup>-1</sup>.h<sup>-1</sup>, <xref ref-type="fig" rid="F5">Figure 5A</xref>). MTO enzyme activity was measured in four different
+tissues (<xref ref-type="fig" rid="F5">Figure 5B</xref>). The highest activity
+in wild type animals was found in liver. Activity in liver and kidney was more
+than tenfold higher compared to muscle and brain. In KO animals the residual
+activity was &lt;6% in all tissues compared to wild type animals
+illustrating the enzyme deficiency. The affinity constant of MTO from mouse
+tissue extracts (liver shown in <xref ref-type="supplementary-material" rid="SD3">Supplementary Figure 3G</xref>) and mouse erythrocytes (not shown)
+was 4-6 nM, similar to the low apparent K<sub>m</sub> in human erythrocytes and
+HT29 colon cells (<xref ref-type="supplementary-material" rid="SD3">Supplementary Figure 3E and F</xref>).</p>
+        <p id="P21">Since the loss of MTO activity in the patients resulted in accumulation
+of DMS and DMSO<sub>2</sub> we also measured these products in blood plasma of
+the mice. As MT is expected to be much lower than DMS in blood and because of
+the highly volatile nature of the compound, MT quantification was not undertaken
+in the small amounts of plasma available. DMS in plasma of KO mice was
+significantly increased over control levels (<xref ref-type="fig" rid="F5">Figure 5C</xref>). Interestingly somewhat increased plasma DMS levels were
+also seen in the heterozygous mice. This implies a mild biochemical phenotype of
+the gene defect in the heterozygous mice illustrating that the reduced MTO
+activity cannot cope with the usual flux through this enzymatic reaction. There
+was an accumulation of DMSO<sub>2</sub> in plasma in the KO mice that was not
+detectable in both the wild type mice (<xref ref-type="fig" rid="F5">Figure 5D
+and E</xref>; 36 &#x3BC;M) and the heterozygous mice (not shown). Overall
+the biochemical characteristics of the patients were mimicked in the KO mouse
+model.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="S13">
+      <title>Discussion</title>
+      <p id="P22">We describe a group of patients suffering from extra-oral halitosis. All
+known causes for extra-oral halitosis, fetor hepaticus caused by liver cirrhosis
+<xref rid="R28" ref-type="bibr">28</xref>, medicine use, cysteamine treatment in
+cystinosis <xref rid="R29" ref-type="bibr">29</xref>, were excluded. Also methionine
+adenosyltransferase deficiency <xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R30" ref-type="bibr">30</xref> and trimethylaminuria <xref rid="R3" ref-type="bibr">3</xref> were excluded. Our patients have increased concentrations of
+four sulfur-containing metabolites in their body fluids and breath. MT and DMS have
+a high odor index and are responsible for their malodor. Increased urinary excretion
+of DMSO<sub>2</sub> is characteristic and diagnostic for this form of extra-oral
+halitosis. MT is known to be produced in substantial amounts by gut bacteria. We
+hypothesized that the metabolic defect in our patients relates to an impairment of
+MT metabolism. It was known that MT is oxidized towards H<sub>2</sub>S <xref rid="R7" ref-type="bibr">7</xref> but the enzyme, a methanethiol oxidase, had
+never been found. Our data show that SELENBP1 is the long-sought human
+MT-oxidase.</p>
+      <p id="P23">Bi-allelic mutations in <italic>SELENBP1</italic> are the underlying cause
+for a novel autosomal recessive malodor syndrome. Mutations in
+<italic>SELENBP1</italic> had never been implicated with a genetic disorder.
+Increased expression of <italic>SELENBP1</italic> was found in blood and in
+dorsolateral prefrontal cortex of schizophrenia patients <xref rid="R31" ref-type="bibr">31</xref>&#x2013;<xref rid="R33" ref-type="bibr">33</xref>.</p>
+      <p id="P24">The malodor is the unifying clinical feature in our patients. It is the only
+clinical feature in both patients of family C. There is consanguinity in the
+families A and B. The additional neurological signs and symptoms of patients AII-3
+and BII-2 but not of AII-2 may have had other causes. Whole exome analysis in family
+A identified pathogenic mutations in <italic>THAP4</italic> as a potential cause for
+the neurological features in AII-3 (see <xref ref-type="supplementary-material" rid="SD4">Supplementary Note</xref>, for detailed Patient Description and <xref ref-type="supplementary-material" rid="SD3">Supplementary Figure 5</xref>). Our
+data thus suggest that defects in <italic>SELENBP1</italic> may cause a malodor
+syndrome without neurological sequelae. Further studies are required to unravel the
+full phenotypic consequences of <italic>SELENBP1</italic> defects. Furne et al <xref rid="R34" ref-type="bibr">34</xref> have described a specialized detoxification
+system in colonic mucosa that converts MT to appreciable amounts of H<sub>2</sub>S.
+Defective mucosal detoxification of MT may lead to ulcerative colitis <xref rid="R34" ref-type="bibr">34</xref>. They see a potential link with the strong
+familial clustering of ulcerative colitis. Based on our findings it may be
+worthwhile to investigate a potential involvement of SELENBP1 in ulcerative
+colitis.</p>
+      <p id="P25"><italic>SELENBP1</italic> was first cloned by Chang <xref rid="R35" ref-type="bibr">35</xref> based on homology to the mouse selenium binding protein
+(mSBP56) <xref rid="R17" ref-type="bibr">17</xref>,<xref rid="R18" ref-type="bibr">18</xref>. Binding of selenite by SELENBP1 was suggested to occur via
+cysteine-57 <xref rid="R16" ref-type="bibr">16</xref>. The bacterial MTOs do not
+have Cys at the 57-position nor in close proximity. Therefore Selenium binding seems
+not essential for MTO enzyme activity of SELENBP1. Selenite binding was found
+essential for a specific interaction of SELENBP1 with the von Hippel-Lindau
+protein-interacting deubiquitinating enzyme 1 <xref rid="R26" ref-type="bibr">26</xref>. SELENBP1 was not known to possess enzymatic activity <xref rid="R26" ref-type="bibr">26</xref>. In incubations of control human fibroblasts
+and erythrocytes with the MTO-substrate MT we observed a rapid conversion of MT in
+time and were able to measure stoichiometric amounts of the H<sub>2</sub>S formed.
+The enzymatic activity was strictly dependent on the presence of oxygen. We based
+the presumed reaction formula (<xref ref-type="fig" rid="F1">Figure 1</xref>) on our
+results and on the homologous <italic>Hyphomicrobium</italic> strain VS enzyme for
+which also H<sub>2</sub>O<sub>2</sub> and formaldehyde were confirmed as reaction
+products. The apparent K<sub>m</sub> value of the human MTO towards MT, 4.8 nM, is
+very low. According to the BRENDA database there are only very few enzymes with such
+a low K<sub>m</sub> value. The formation of DMS from MT is normally of minor
+importance (an estimated 1% of MT is converted into DMS in control individuals <xref rid="R7" ref-type="bibr">7</xref>). The high flux through the MTO reaction
+becomes apparent in our patients and in the KO mouse model. In the deficiency state
+an alternative metabolic pathway comes in place resulting in substantial amounts of
+DMS, DMSO and DMSO<sub>2</sub> in the body fluids of the affected individuals. This
+underpins the relevance of the MTO enzyme reaction in human metabolism.</p>
+      <p id="P26">Deficiency of MTO activity may have metabolic consequences. These can be
+toxicity effects due to accumulating sulfur compounds. Data on toxicity of MT, DMS
+and DMSO are anecdotal and only little is known about low-dose toxicity of these
+compounds (<xref rid="R36" ref-type="bibr">36</xref>, and TOXNET). No cell
+biological effects of an increased MT concentration have been documented. The MTO
+enzymatic activity of the SELENBP1 protein sheds new light on this because at least
+two of the products of this enzyme, H<sub>2</sub>O<sub>2</sub> or H<sub>2</sub>S,
+are biologically active molecules possessing cellular signaling functions. Decreased
+availability of H<sub>2</sub>O<sub>2</sub> or H<sub>2</sub>S may have metabolic
+consequences. H<sub>2</sub>O<sub>2</sub> is important because of its role in
+cellular signaling <xref rid="R37" ref-type="bibr">37</xref>. H<sub>2</sub>S is a
+gaseous signaling molecule, a gasotransmitter, like nitric oxide and carbon monoxide
+<xref rid="R38" ref-type="bibr">38</xref>. At low concentrations it acts as
+mitochondrial electron donor thus stimulating electron transport in mammalian cells
+<xref rid="R5" ref-type="bibr">5</xref>. The general effect of H<sub>2</sub>S is
+cyto-protective <xref rid="R5" ref-type="bibr">5</xref> and H<sub>2</sub>S therapy
+for several disorders aims at vasodilatation, antioxidant upregulation, inflammation
+inhibition, and activation of anti-apoptotic pathways <xref rid="R38" ref-type="bibr">38</xref>&#x2013;<xref rid="R40" ref-type="bibr">40</xref>. At high
+concentrations H<sub>2</sub>S is toxic by its known inhibition of the respiratory
+chain complex IV. In view of these literature data we cannot exclude that toxic
+effects of accumulating sulfur compounds or the lack of H<sub>2</sub>O<sub>2</sub>
+or the gasotransmitter H<sub>2</sub>S may be causing other clinical signs and
+symptoms in patients with <italic>SELENBP1</italic> mutations than malodour only.
+The low apparent K<sub>m</sub> of MTO may be important to avoid MT toxicity but also
+may have a role in the gasotransmitter producing system that operates at the
+nanomolar level. Three enzymes in human metabolism are known to produce
+H<sub>2</sub>S. These are cystathionine <italic>&#x3B2;</italic>-synthase
+(CBS), cystathionine <italic>&#x3B3;</italic>-lyase (CSE or CGL) and
+3-mercapto-pyruvate sulfur transferase (3MST) <xref rid="R41" ref-type="bibr">41</xref>. Our data show that the MTO encoded by <italic>SELENBP1</italic> is a
+fourth human H<sub>2</sub>S producing enzyme. The degree to which SELENBP1
+contributes to the total H<sub>2</sub>S production is so far unknown.</p>
+      <p id="P27">One may speculate that the function of SELENBP1 may lie in keeping the
+breath MT concentration low enabling the human nose to detect foul smell from
+environmental volatile sulfur compounds. The human nose is very sensitive for MT and
+DMS which have a very high odor index <xref rid="R3" ref-type="bibr">3</xref>. The
+sensitivity towards sulfur-containing compounds is evolutionary beneficial since
+these compounds often represent &#x2018;danger&#x2019; in the form of decaying food
+sources. The low apparent K<sub>m</sub> of MTO is essential to keep the MT
+concentration in the body below the odor threshold level.</p>
+      <p id="P28">The presence of MTO activity in erythrocytes seems rather surprising since
+red blood cells have only few functions other than transporting oxygen. The presence
+of SELENBP1 protein as one of the major non-heme proteins in these cells has been
+described before in the naked mole rat <xref rid="R42" ref-type="bibr">42</xref> and
+in humans <xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R43" ref-type="bibr">43</xref>. Also one of the other known H<sub>2</sub>S producing enzymes, 3MST,
+has been found in erythrocytes. Local H<sub>2</sub>S production in the bloodstream
+may be important for vasodilatation <xref rid="R44" ref-type="bibr">44</xref>,<xref rid="R45" ref-type="bibr">45</xref>. A second H<sub>2</sub>S producing enzyme in
+the red blood cell underpins the importance of this metabolite for this cell or the
+role that the erythrocyte plays in the delivery of H<sub>2</sub>S as cargo. It
+remains to be established which of these two enzymes has the most important
+contribution to H<sub>2</sub>S formation in the blood. We have no indications for
+vascular problems in patients with MTO mutations but this is open for further
+investigations.</p>
+      <p id="P29">SELENBP1 is a possible biomarker for disease progression in several cancers,
+such as breast-, renal cell- and colorectal cancers and others <xref rid="R46" ref-type="bibr">46</xref>. It is of note that we have no indication that patients with
+<italic>SELENBP1</italic> mutations have an increased risk to develop cancer.
+Low <italic>SELENBP1</italic> mRNA or protein levels are associated with a poor
+clinical cancer prognosis <xref rid="R46" ref-type="bibr">46</xref> suggesting that
+SELENBP1 might be a tumor suppressor <xref rid="R20" ref-type="bibr">20</xref>. In
+line with a tumor suppressor role and the MTO enzymatic activity of SELENBP1 is the
+observation that A549 lung cancer- and the HepG2 liver cancer cell lines produce DMS
+and other volatile sulfur compounds <xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R12" ref-type="bibr">12</xref>,<xref rid="R47" ref-type="bibr">47</xref>.
+DMS and MT were found in breath of lung cancer patients <xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R11" ref-type="bibr">11</xref>. DMS, normally
+absent in lung tissue, was found in lung tumor tissue <xref rid="R13" ref-type="bibr">13</xref>. MT was found increased in flatus samples of colon cancer
+patients <xref rid="R10" ref-type="bibr">10</xref>. Interestingly prevention of
+diffusion of sulfur-containing gases from the tumour in an animal model caused a
+significant decrease in tumour proliferation rate <xref rid="R11" ref-type="bibr">11</xref>. The mechanism of SELENBP1 tumor suppression is largely unknown <xref rid="R25" ref-type="bibr">25</xref>. The SELENBP1 interaction with the von
+Hippel-Lindau protein-interacting deubiquitinating enzyme 1, which is involved in
+cancer suppression may play a role <xref rid="R26" ref-type="bibr">26</xref>. Also
+its interaction with GPX1 (glutathione peroxidase 1), interestingly also a
+selenocysteine-containing protein, may be relevant <xref rid="R48" ref-type="bibr">48</xref>. Both proteins are present in erythrocytes. GPX1 is a potent
+antioxidant enzyme involved in counteracting oxidative stress by reducing peroxide
+to water to limit its destructive effects <xref rid="R49" ref-type="bibr">49</xref>.
+Several cancers have been described to have reduced GPX1 expression (reviewed by
+<xref rid="R50" ref-type="bibr">50</xref>). Besides a tight physical
+interaction, SELENBP1 and GPX1 have complex regulatory effects on each other <xref rid="R48" ref-type="bibr">48</xref>. Our finding that SELENBP1 is in fact a
+human MTO that produces H<sub>2</sub>O<sub>2</sub>, which is enzymatically converted
+by GPX1, may shed new light on the interactions between SELENBP1 and GPX1.
+Deregulation of either enzyme may cause a misbalance in local
+H<sub>2</sub>O<sub>2</sub> concentrations. The H<sub>2</sub>O<sub>2</sub>
+concentration must be controlled because of its bivalent roles in both oxidative
+damage as well as in cellular signaling <xref rid="R37" ref-type="bibr">37</xref>.
+The function of SELENBP1 in sulfur metabolism sheds new light on the tumor
+suppression mechanism and the role of the local concentrations of MT, DMS and
+H<sub>2</sub>S in this process. It is well known that dogs can smell the
+presence of some tumors in patients <xref rid="R51" ref-type="bibr">51</xref>. With
+our data it is tempting to speculate that MT and DMS are the compounds that the dogs
+will smell in patients with cancer.</p>
+      <p id="P30">Taken together the putative tumor suppression role of SELENBP1 and the
+presence of DMS in tumors nicely fit together against the background of the
+enzymatic function of SELENBP1 as the long sought methanethiol oxidase.</p>
+      <p id="P31">In conclusion, our experiments have identified a novel human enzyme
+activity, a methanethiol oxidase. The enzyme is encoded by
+<italic>SELENBP1</italic>. <italic>SELENBP1</italic> mutations cause extra-oral
+halitosis, an autosomal recessive malodor syndrome that may occur frequently in the
+general population. Accumulating sulfur-containing metabolites cause the bad smell
+in the patients. Theoretically this syndrome may be a treatable inborn error of
+metabolism when using dietary measures. SELENBP1 has been studied as a biomarker for
+several cancers. The finding that SELENBP1 has an enzymatic role in sulfur
+metabolism and influences the concentration of biologically active molecules as
+H<sub>2</sub>O<sub>2</sub> and H<sub>2</sub>S may provide new clues and targets
+for the cancer field.</p>
+    </sec>
+    <sec sec-type="methods" id="S14" specific-use="web-only">
+      <title>Online Methods</title>
+      <sec id="S15">
+        <title>Patients and data</title>
+        <p id="P32">This study adhered to the Declaration of Helsinki and written informed
+consent was obtained from each individual. Full description of the patients can
+be found in the <xref ref-type="supplementary-material" rid="SD4">Supplementary
+Note</xref>.</p>
+      </sec>
+      <sec id="S16">
+        <title>Statistics, body fluids, cells and animal model</title>
+        <p id="P33">Statistical analysis was performed using GraphPad Prism 5.</p>
+        <p id="P34">Human blood cells were obtained from anonymized samples from the Radboud
+university medical center. White blood cells were obtained after dextran
+gradient sedimentation. The leucocyte fraction contained lymphocytes and
+granulocytes. Erythrocytes were obtained after slow centrifugation (600xg) of
+heparinized blood. Plasma and white blood cells were removed and the
+erythrocytes were extensively washed with PBS before being snap frozen as
+pellets. The erythrocyte extracts had a protein concentration between 240-280
+mg/ml. Anonymized plasma was obtained from healthy volunteers after informed
+consent.</p>
+        <p id="P35">The C57BL/6N- Selenbp1<sup>tm1b(KOMP)Wtsi</sup>/Mbp knockout mouse (Mus
+musculus) was genetically engineered to delete the critical coding region and
+create a homozygous null mutation of the Selenbp1 gene in all somatic and
+germline tissues. This knockout model was generated as part of the U.S. National
+Institute of Health&#x2019;s Knockout Mouse Production and Phenotyping Project.
+The knockout mouse line was created by the Knockout Mouse Program Project (KOMP)
+at UC Davis in full compliance with all applicable laws and regulations for the
+KOMP program. Animal care and use was conducted under guidelines provided by the
+8<sup>th</sup> Revision of the Guide for the Care and Use of Laboratory
+Animals. The care, use, and disposition of all mice used in this study were
+reviewed and approved by the Institutional Animal Care and Use Committee of the
+University of California at Davis. This study used both male and female
+homozygous mutant mice ranging in age from 8-18 weeks of age for urine
+collections, and 11-20 weeks of age for end point blood and tissue collections.
+Mouse plasma samples, washed erythrocytes (as for the human erythrocytes) and
+snap frozen tissue samples were sent to Nijmegen in The Netherlands by courier
+and on dry ice. For the animal studies no randomization was used and no animals
+were excluded from this study. The investigators were not blinded to the group
+allocation of the animal samples.</p>
+      </sec>
+      <sec id="S17">
+        <title>NMR spectroscopy of body fluids</title>
+        <p id="P36">DMSO and DMSO<sub>2</sub> in plasma, urine and cerebrospinal fluid (CSF)
+were measured using proton NMR spectroscopy essentially as described for plasma,
+CSF <xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R54" ref-type="bibr">54</xref>,<xref rid="R55" ref-type="bibr">55</xref> and urine <xref rid="R56" ref-type="bibr">56</xref>. The lower limit of detection for DMSO
+and DMSO<sub>2</sub> amounts to 1 &#x3BC;M.</p>
+      </sec>
+      <sec id="S18">
+        <title>GC analysis of H<sub>2</sub>S, MT and DMS</title>
+        <p id="P37">Analysis of MT for comparison of fibroblast MTO activity was done with a
+Chrompack CP9001 GC that was equipped with a sulfur-specific flame photometric
+detector (FPD) and a two meter glass column (four mm ID) packed with Carbopack B
+HT, as described <xref rid="R57" ref-type="bibr">57</xref>. In addition an
+Agilent 7890B gas chromatograph (Middelburg, The Netherlands) was used, of which
+the FPD detector had a lower detection limit (0.05 pmol). This allowed us to
+study the MT kinetics of MTO in the low nM range. This GC had the same column of
+Carbopak B HT100 fitted to the capillary inlet of the FPD detector (set at 200
+&#xB0;C). The empty part of the inlet side of the column was extended into the
+heated GC inlet (150 &#xB0;C) up to the septum to avoid any contact of sample
+gas with metal parts, since MT and other volatile sulfur-containing compound are
+notorious for their stickiness to metals. For both GC's the carrier gas
+was nitrogen (80 ml/min). For MTO enzyme activity measurements where both
+hydrogen sulfide and MT were measured the column was set at 100 &#xB0;C. For
+higher sensitivity desired in MTO kinetics when sulfide was trapped, the
+temperature was set at 130 &#xB0;C. For MT and DMS analysis in breath the
+initial column temperature was set at 100 &#xB0;C and after 0.5 min. increased
+to 140 &#xB0;C resulting in retention times of 0.6 min. for H<sub>2</sub>S,
+1.4 min. for MT and 6 min. for DMS, respectively.</p>
+      </sec>
+      <sec id="S19">
+        <title>Analysis of MT and DMS in breath</title>
+        <p id="P38">Breath samples were collected in three Liter Tedlar bags (SKC, Procare
+BV, Groningen, The Netherlands) via a tube (ID 4 mm). The end of this tube was
+pierced through a 12 mm rubber stopper. This stopper was pressed against one
+nostril while the other one was kept closed. The bag was filled in 2-4 goes
+after a relative deep breath through the nose was taken. Each go took 5-10
+seconds. For DMS analysis three ml subsamples were taken from the bag and
+injected into the GC (lower limit of detection: 1 ppb). For MT analysis 400 ml
+subsamples were concentrated on a Tenax tube (13 cm, 3 mm ID) that was kept in
+dry ice (10 min. precooling). About 1.5 cm of the Tenax tube was sticking out
+above the dry ice pellets and insulated by polystyrene, to prevent MT absorbing
+at the very beginning of the Tenax. The breath subsamples were pushed manually
+over the Tenax tube with a 100 ml glass syringe (with a Teflon plunger tip) at a
+rate of 5 ml/sec. To trap water from the breath samples a tube (8 cm, 4 mm ID)
+filled with CaCl<sub>2</sub>.2H<sub>2</sub>O was fitted in between the syringe
+and the Tenax tube. The end of the Tenax tube was extended with a 40 cm empty
+part that was coiled and sticking out of the dry ice. This acted as a gas
+reservoir for nitrogen gas that was passed over the Tenax after the samples (15
+s at 200 ml/min). To desorb the trapped MT a three ml plastic syringe (Braun
+Injekt, fully polypropylene/ polyethylene, so no rubber plunger tip) was
+connected to the inlet of the Tenax tube which was subsequently taken out of the
+dry ice and quickly submerged completely in a hot water bath (95 &#xB0;C).
+After 20 s in the water bath the three ml syringe was filled quickly in this way
+passing the hot nitrogen from the gas reservoir over the Tenax. The full content
+of the three ml syringe was now injected into the Agilent 7890B gas
+chromatograph (see above). The MT recovery of the Tenax trapping/desorbing
+method described here was about 60%. Calibration of MT for this method was done
+by injecting increasing amounts from a MT stock into a 15 L Tedlar bag that was
+filled with 10 L of clean air. The lower limit of detection for MT for this
+method was five ppt (parts per trillion). Loss of MT in Tedlar bags at room
+temperature was estimated at 10-25% after one day and verified for each bag
+used. Analysis was performed within 8 h (patient CII-2, loss &lt; 10%) and
+24 h (patient AII-3, loss &lt;10%), respectively. The Tenax trapping part of
+the method was similar to that described previously by Tangerman <xref rid="R58" ref-type="bibr">58</xref> who used liquid nitrogen for cooling.
+The method suffers from some inherent inaccuracies and difficulties. MT absorbs
+to the Teflon parts of the 100 ml glass syringe. The same syringe is used
+throughout and cleaning in between samples that can differ a factor of 30 in MT
+concentration is critical. The same is true for the Tedlar bags used for
+collecting breath samples. The variation in gas flow rate from the syringe when
+concentrating MT on the Tenax tube may cause differences in the Tenax zone (both
+width and position) that is loaded with MT and will influence the desorption
+behavior. Also the position of the Tenax tube in the dry ice pellets during
+loading and in the hot water bath for desorption of the Tenax tube has limited
+reproducibility, as has the gas flow rate during manual desorption of MT by the
+three ml syringe. Reproducibility of duplicate samples from the same bag was in
+general good with differences less than 20%. Only for the low ppt values close
+to detection level differences could be higher, up to 50%.</p>
+      </sec>
+      <sec id="S20">
+        <title>Cell culture</title>
+        <p id="P39">Fibroblasts were cultured using standard procedures in M199 medium
+(Gibco, Life Technologies) supplemented with 10% fetal calf serum (FCS, GE
+Healthcare, Diegem, Belgium), and 100 U/ml / 100 &#x3BC;g/ml of
+penicillin/streptomycin (P/S) (Gibco) at 37 &#xBA;C with 5% CO<sub>2</sub>.
+All cell lines are routinely checked for mycoplasma infection and were only used
+in experiments when negative.</p>
+      </sec>
+      <sec id="S21">
+        <title>Cell lysates and Western blot analysis</title>
+        <p id="P40">For protein expression analysis by SDS-PAGE and Western blot analysis
+fibroblasts and colon cancer cell extracts were made by extraction in lysis
+buffer (50 mM Tris.HCl (pH 7.4), 150 mM NaCl, 1 mM EDTA, 10% glycerol, 1% Triton
+X-100) for 10 min. on ice and subsequent clearance (10 min., 13,000 x g).
+Protein concentrations were measured using a Micro BCA protein assay kit (Thermo
+Scientific) using bovine serum albumin (BSA) as a standard. Forty &#x3BC;g of
+the total extracts were separated on 10 % SDS-PAGE. Antisera used were: anti-V5
+(#R960, Invitrogen monoclonal), anti-SELENBP1 (#SAB2108611, Sigma affinity
+purified rabbit polyclonal), and anti-actin (#AC-15, Novus Biologicals mouse
+monoclonal). Western blot analysis was performed 2 -3 times for each experiment.
+Representative results are shown in the figures. For the MTO assay the snap
+frozen fibroblast and erythrocyte pellets that had been stored at -80 &#xB0;C,
+were resuspended in PBS and homogenized by extensive pipetting. White blood
+cells were also resuspended in PBS and homogenized by sonification. The protein
+concentration of the resulting homogenates ranged from 1-4 mg/ml as measured
+with the Bio-Rad Protein Assay (Bio-Rad) using BSA as a standard.</p>
+      </sec>
+      <sec id="S22">
+        <title>Tissue extracts</title>
+        <p id="P41">Tissue samples (snap frozen and stored at -80 &#xBA;C) were thawed on
+ice, chopped finely, and homogenized in Tris buffer using a tight fitting potter
+(10 mM Tris.HCl pH 7.4, 250 mM sucrose, 2 mM K<sup>+</sup>- EDTA,
+5.10<sup>4</sup> U/l heparin). The homogenate was centrifuged (10 min,
+600xg) and stored in aliquots at -80 &#xBA;C.</p>
+      </sec>
+      <sec id="S23">
+        <title>Molecular genetic analysis</title>
+        <p id="P42">Total DNA was extracted using the QIAamp DNA kit (Qiagen), and all exons
+and relevant splice sites were PCR amplified with primers containing the M13
+forward or reverse sequence fused to a specific sequence and sequenced with M13
+primers. Primer sequences are available upon request. Mutations were analyzed
+using Alamut version 2.5.1 with the integrated pathogenicity prediction tools.
+The Alamut splice site prediction module includes the following methods:
+SpliceSiteFinder-like, MaxEntScan, MNSplicer, GeneSplicer and Human Splicing
+Finder. Sequence alignment with SELENBP1 orthologues was done using the Clustal
+Omega (EMBL-EBI) webtool.</p>
+        <p id="P43">For frequency analysis we used the Exome Aggregation Consortium (ExAC),
+Cambridge, MA (URL: <ext-link ext-link-type="uri" xlink:href="http://exac.broadinstitute.org">http://exac.broadinstitute.org</ext-link>). We used the Combined
+Annotation-Dependent Depletion (CADD) tool to estimate the pathogenicity of
+mutations found in the ExAC browser. This tool prioritizes functional,
+deleterious, and pathogenic variants across many functional categories by using
+a CADD PHRED like C-score <xref rid="R59" ref-type="bibr">59</xref>.</p>
+      </sec>
+      <sec id="S24">
+        <title>Phylogenetic analysis of methanethiol oxidases and putative selenium-binding
+proteins</title>
+        <p id="P44">The evolutionary history was inferred using the Neighbor-Joining method.
+The two enzymes with proven MTO activity are indicated in red. Accession numbers
+are given between parenthesis. The optimal tree with the sum of branch length =
+10.21887791 is shown. The percentage of replicate trees in which the associated
+taxa clustered together in the bootstrap test (500 replicates) are shown next to
+the branches for values &gt; 60. The tree is drawn to scale, with branch
+lengths in the same units as those of the evolutionary distances used to infer
+the phylogenetic tree. The evolutionary distances were computed using the
+Dayhoff matrix based method and are in the units of the number of amino acid
+substitutions per site. The analysis involved 45 amino acid sequences. All
+ambiguous positions were removed for each sequence pair. There were a total of
+564 positions in the final dataset. Evolutionary analyses were conducted in
+MEGA6 <xref rid="R52" ref-type="bibr">52</xref>.</p>
+      </sec>
+      <sec id="S25">
+        <title><italic>SELENBP1</italic> mRNA tissue expression analysis</title>
+        <p id="P45">The expression profile of <italic>SELENBP1</italic> was determined as
+described before <xref rid="R60" ref-type="bibr">60</xref>. Primer sequences
+used to detect <italic>SELENBP1</italic> mRNA expression levels can be found in
+<xref ref-type="supplementary-material" rid="SD6">Supplementary Table
+2</xref>.</p>
+      </sec>
+      <sec id="S26">
+        <title>Structural analysis</title>
+        <p id="P46">The structure of the heterologically expressed hypothetical
+selenium-binding protein from <italic>Sulfolobus tokodaii</italic> (st0059) was
+solved by X-ray crystallography and deposited in 2007 (PDB file 2ECE). This
+structure was used as a template to build a homology model of human SELENBP1
+(40% identity). This model was used to study the structural details of the
+Gly225Trp and His329Tyr mutations and was created and visualized using the WHAT
+IF &amp; YASARA Twinset <xref rid="R61" ref-type="bibr">61</xref>,<xref rid="R62" ref-type="bibr">62</xref>. The figures were rendered with PovRay
+(<ext-link ext-link-type="uri" xlink:href="http://www.povray.org/">http://www.povray.org/</ext-link>).</p>
+      </sec>
+      <sec id="S27">
+        <title>Lentiviral complementation</title>
+        <p id="P47">A gateway compatible expression vector for wild type
+<italic>SELENBP1</italic> without a stop codon was purchased from PlasmID/
+Harvard Medical School and recombined with the pLenti6.2V5-DEST destination
+vector (Invitrogen) using the Gateway LR Clonase II Enzyme Mix (Invitrogen)
+according to the manufacturer&#x2019;s instructions. The resulting
+pLenti6.2-SELENBP1-V5 or the control construct pLenti6.2-AcGFP-V5
+(<italic>Aequorea coerulescens</italic> Green Fluorescent Protein) were used
+to produce viruses for fibroblast infection and selection of stable expressing
+cells as was described <xref rid="R63" ref-type="bibr">63</xref>.</p>
+      </sec>
+      <sec id="S28">
+        <title>Immunofluorescent microscopy</title>
+        <p id="P48">For immunofluorescent detection of V5-tagged SELENBP1 the stably
+transduced patient fibroblasts were grown on coverslips. The cells were fixed
+using 3.3% paraformaldehyde in cell culture medium for 15 min., washed three
+times with PBS and permeabilized for 15 min. with 0,5 Triton X-100 in PBS/10%
+FCS. The primary antibody (anti-V5) was diluted 1:100 in PBS/10% FCS and
+incubated for one hour. After extensive washing the secondary antibody
+(goat-anti-mouse IgG AlexaFluor 568, Invitrogen) was diluted 1:1000 in PBS/10%
+FCS and incubated for one hour. After washing the slides were mounted using
+ProLong&#xAE; Gold antifade with DAPI (Invitrogen). Image acquisition was
+performed using a Zeiss Observer Z1with LED illumination and appropriate
+emission filters.</p>
+      </sec>
+      <sec id="S29">
+        <title>MTO enzyme assay</title>
+        <p id="P49">MTO enzymatic activity was measured by incubating cell homogenates or
+plasma in closed bottles and measuring the disappearance of added MT via
+headspace GC analysis. The use of new glassware proved essential for obtaining
+low and reproducible background measurements. To compare MTO activity in
+fibroblast- and colon cell lines, we used three ml Exetainer vials (Labco
+Limited). Cell homogenates (400-700 &#x3BC;l, equivalent to 0.75 - 1.85 mg of
+protein) were transferred in the vials and ZnSO<sub>4</sub> (0.2 mM final
+concentration) was added to trap H<sub>2</sub>S produced by MTO. This
+concentration was found not to inhibit the MTO enzymatic activity. After closing
+the bottles 12-25 &#x3BC;l of a freshly prepared MT stock solution (0.82 mM)
+was added by syringe, resulting in a MT concentration in the liquid phase of
+12-23 &#x3BC;M. Vials were horizontally shaken at 200 rpm and 35 &#xBA;C. For
+MT analysis 100 &#x3BC;l gas samples were taken by syringe and determined by GC
+analysis. Because of the reactivity of MT, mainly oxidation into
+dimethyldisulfide, we always detected low levels of MT disappearance in control
+bottles without added enzyme. These rates were subtracted from experimental
+rates. For MTO activity measurements in erythrocytes and mouse tissue extracts
+the standard assay was performed in 250 ml screw cap serum bottles (neck size 28
+mm ID). This allowed bigger gas samples to be taken for GC analysis with less
+effects of changing the gas volume and septum leakage. Also background MT
+disappearance was much lower. Bottles with 25 ml of PBS containing
+ZnSO<sub>4</sub> (0.2 mM) and BSA (0.3mg/ml) were closed with red rubber
+septa and incubated at 350 rpm at 35 &#xBA;C. Four nmoles of MT were added,
+resulting in about 50 nM in the liquid phase. For the determination of the
+reaction stoichiometry and the oxygen dependency higher MT concentrations were
+used (20 - 75 nmoles, giving 250-950 nM MT in the liquid). After preincubation
+with MT for 15 - 20 min. the MTO reaction was started by the addition of
+erythrocytes or tissue extracts which were diluted in 1 ml PBS. Gas samples (1
+ml) were taken every 1.5 - 4 min. for GC analysis. The lower limit of detection
+for MTO activity in erythrocytes was 0.01 nmol.&#x3BC;l
+<sup>-1</sup>.h<sup>-1</sup>, in fibroblasts 0.5 nmol.mg
+protein<sup>-1</sup>.h<sup>-1</sup> and in mouse tissue extracts 1 nmol.mg
+protein<sup>-1</sup>.h<sup>-1</sup>. To study the kinetics of MTO in
+erythrocytes and colon cells the assay was scaled up to 500 ml serum bottles
+with 50 ml PBS. The amount of MTO added was adjusted in a way to obtain a
+reliable MT consumption rate over a period of about 10 -20 min.</p>
+        <p id="P50">At the end of the incubations with fibroblasts Zn-trapped H<sub>2</sub>S
+was released by the addition HCl to a final concentration of 0.1M using a
+syringe and shaking the bottles for ten min. at 25 &#xBA;C to reach gas-liquid
+equilibration for H<sub>2</sub>S. The resulting H<sub>2</sub>S concentration was
+determined in the headspace by GC analysis. Total H<sub>2</sub>S was calculated
+by assuming a gas/liquid concentration ratio for H<sub>2</sub>S of 1 : 2.47
+which was calculated from reported solubility data <xref rid="R64" ref-type="bibr">64</xref>. Addition of Zn traps the H<sub>2</sub>S that otherwise
+builds up in time and inhibits the MTO enzyme reaction.</p>
+        <p id="P51">The gas/liquid ratio for the concentration of MT in PBS at 35 &#xBA;C
+was determined at 1: 5.5. This was calculated from the amount of MT that
+dissolved in the liquid after addition of a fixed amount of MT to a closed 50 ml
+bottle that contained 10 ml of PBS. The dissolved amount was determined by
+comparing the headspace MT concentration of the gas phase in this bottle with
+the gas phase MT concentration in an empty bottle (so without PBS) that received
+the same amount of MT. A slightly different ratio of 1:5 was obtained when using
+PBS in 250 ml bottles to which also BSA (0.3 mg.ml<sup>-1</sup>) was added. For
+sulfide a gas/liquid ratio of 1: 12.5 was obtained in such bottles. After
+acidification a value of 1: 5.5 was found and this is much lower than expected
+at 35 &#xBA;C (1:2) <xref rid="R64" ref-type="bibr">64</xref>. We attributed
+the higher amount of sulfide dissolved to the presence of BSA for which
+adsorption of sulfide has been suggested <xref rid="R65" ref-type="bibr">65</xref>.</p>
+        <p id="P52">The BRENDA database was accessed at: <ext-link ext-link-type="uri" xlink:href="http://www.brenda-enzymes.org/">http://www.brenda-enzymes.org/</ext-link>.</p>
+        <p id="P53">To determine DMS in mouse plasma 200 &#x3BC;l samples were introduced
+via a septum into a closed glass syringe with 3 ml of air that was preincubated
+at 70 &#xB0;C in a waterbath and incubated for another 5 minutes with
+intermittent shaking. At 70 &#xB0;C most of the DMS from the sample is in the
+gas phase. 2.6 ml of gas phase was transferred into a 3 ml syringe and analyzed
+by GC. From water samples with DMS, &gt;80% was recovered in this way. The
+DMS lower limit of detection was 1.5 nM.</p>
+      </sec>
+    </sec>
+    <sec id="S30">
+      <title>Data Availability</title>
+      <p id="P54">Data that support the findings of this study are available from the
+corresponding author upon reasonable request.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>Raw gel data</label>
+        <media xlink:href="NIHMS74866-supplement-Raw_gel_data.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" xlink:type="simple" id="d36e1516" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3">
+        <label>Supplementary figures </label>
+        <media xlink:href="NIHMS74866-supplement-Supplementary_figures.doc" mimetype="application" mime-subtype="msword" orientation="portrait" xlink:type="simple" id="d36e1520" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD4">
+        <label>Supplementary note</label>
+        <media xlink:href="NIHMS74866-supplement-Supplementary_note.docx" mimetype="application" mime-subtype="octet-stream" orientation="portrait" xlink:type="simple" id="d36e1524" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD5">
+        <label>Supplementary table 1</label>
+        <media xlink:href="NIHMS74866-supplement-Supplementary_table_1.xlsx" mimetype="application" orientation="portrait" xlink:type="simple" id="d36e1528" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD6">
+        <label>Supplementary table 2</label>
+        <media xlink:href="NIHMS74866-supplement-Supplementary_table_2.docx" mimetype="application" mime-subtype="octet-stream" orientation="portrait" xlink:type="simple" id="d36e1532" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S31">
+      <title>Acknowledgements</title>
+      <p>The authors gratefully thank the patients and families for their help in this study.
+The contribution of W. Lehnert, I. Goldschmidt and C. von Schnakenburg to early
+investigations on family A is gratefully acknowledged. M. Antoine and T van Alen are
+kindly acknowledged for their technical expertise and &#xD6;. Eyice-Broadbent for
+the work to identify the bacterial MTO. G. Linthorst, F. Wijburg and H. Blom are
+acknowledged for their help in obtaining good quality patient samples. The authors
+thank P. Klaren for statistical consultation. The work was supported by the
+following grants: UK Biotechnology and Biological Sciences Research Council grant to
+H. Sch&#xE4;fer (reference BB/H003851/1), an ERC-grant to H. Op den Camp (ERC
+669371-Volcano) and a grant from the E.C. Noyons foundation to R. Wevers.</p>
+    </ack>
+    <fn-group>
+      <fn id="FN2">
+        <p id="P55">URLs:</p>
+        <p id="P56">BRENDA: <ext-link ext-link-type="uri" xlink:href="https://www.brenda-enzymes.org/">https://www.brenda-enzymes.org/</ext-link></p>
+        <p id="P57">CADD: <ext-link ext-link-type="uri" xlink:href="http://cadd.gs.washington.edu/">http://cadd.gs.washington.edu/</ext-link></p>
+        <p id="P58">ExAC: <ext-link ext-link-type="uri" xlink:href="http://exac.broadinstitute.org/">http://exac.broadinstitute.org/</ext-link></p>
+        <p id="P59">KOMP: <ext-link ext-link-type="uri" xlink:href="https://www.komp.org/">https://www.komp.org/</ext-link></p>
+        <p id="P60">MEGA6: <ext-link ext-link-type="uri" xlink:href="http://www.megasoftware.net/">http://www.megasoftware.net/</ext-link></p>
+        <p id="P61">PIR: <ext-link ext-link-type="uri" xlink:href="http://pir.georgetown.edu/pirwww/search/">http://pir.georgetown.edu/pirwww/search/</ext-link></p>
+        <p id="P62">PovRay: <ext-link ext-link-type="uri" xlink:href="http://www.povray.org/">http://www.povray.org/</ext-link></p>
+        <p id="P63">TOXNET: <ext-link ext-link-type="uri" xlink:href="https://toxnet.nlm.nih.gov/">https://toxnet.nlm.nih.gov/</ext-link></p>
+        <p id="P64">WHAT IF: <ext-link ext-link-type="uri" xlink:href="http://swift.cmbi.ru.nl/whatif/">http://swift.cmbi.ru.nl/whatif/</ext-link></p>
+        <p id="P65">YASARA: <ext-link ext-link-type="uri" xlink:href="http://www.yasara.org/">http://www.yasara.org/</ext-link></p>
+      </fn>
+      <fn fn-type="con" id="FN3">
+        <p id="P66">Author Contributions</p>
+        <p id="P67">H.J.M.OdC. and R.A.W. conceived the study, coordinated and supervised
+the different teams; H.J.M.OdC. and A.P. and G.H.R. designed the assays of the
+sulfur metabolites and MTO enzyme activity; A.P., U.F.E., A.T. measured sulfur
+metabolites and/or MTO enzyme activity; E.G.W. performed the Oral Chroma
+technique for halitosis detection; U.F.E. did the body fluid NMR measurements;
+A.P.M.d.B. provided the tissue expression data of <italic>SELENBP1</italic>;
+K.C.L. and R.S.A. made the knockout mouse line; L.v.d.H. and M.O-E. performed
+Sanger sequencing of <italic>SELENBP1</italic>; H.Om. and H.Ol. did the linkage
+analysis and whole exome sequencing in family A. C.G. made the frequency
+calculations for the <italic>SELENBP1</italic> defect; R.J.R. and G.H.R.
+performed the cell cultures and the lentiviral complementation studies; J.O.S.,
+K.O.S., J.S.S. and A.T. did the clinical and biochemical phenotyping of the
+patients and families; H.S. and H.J.M.OdC. provided the gene sequence of
+methanethiol oxidase from the Hyphomicrobium strain VS; H.V. made the SELENBP1
+three-dimensional model and mapped the affected amino acid residues; A.T. did
+initial measurements of sulfur containing metabolites in blood and breath and
+carried out several studies on halitosis patients; A.P., G.H.R. and R.A.W.
+prepared the manuscript with contributions of various co-authors. All co-authors
+edited and reviewed the final manuscript.</p>
+      </fn>
+      <fn fn-type="COI-statement" id="FN4">
+        <p id="P68">Competing Financial Interests</p>
+        <p id="P69">The authors have no competing interests as defined by Springer Nature,
+or other interests that might be perceived to influence the results and/or
+discussion reported in this paper.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="R1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tangerman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Winkel</surname>
+              <given-names>EG</given-names>
+            </name>
+          </person-group>
+          <article-title>The portable gas chromatograph OralChroma: a method of choice to
+detect oral and extra-oral halitosis</article-title>
+          <source>J Breath Res</source>
+          <year>2008</year>
+          <volume>2</volume>
+          <comment>017010</comment>
+        </element-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tangerman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Winkel</surname>
+              <given-names>EG</given-names>
+            </name>
+          </person-group>
+          <article-title>Intra- and extra-oral halitosis: finding of a new form of
+extra-oral blood-borne halitosis caused by dimethyl sulphide</article-title>
+          <source>J Clin Periodontol</source>
+          <year>2007</year>
+          <volume>34</volume>
+          <fpage>748</fpage>
+          <lpage>55</lpage>
+          <pub-id pub-id-type="pmid">17716310</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tangerman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Winkel</surname>
+              <given-names>EG</given-names>
+            </name>
+          </person-group>
+          <article-title>Extra-oral halitosis: an overview</article-title>
+          <source>J Breath Res</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <comment>017003</comment>
+        </element-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harvey-Woodworth</surname>
+              <given-names>CN</given-names>
+            </name>
+          </person-group>
+          <article-title>Dimethylsulphidemia: the significance of dimethyl sulphide in
+extra-oral, blood borne halitosis</article-title>
+          <source>Br Dent J</source>
+          <year>2013</year>
+          <volume>214</volume>
+          <fpage>E20</fpage>
+          <pub-id pub-id-type="pmid">23579164</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szabo</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Regulation of mitochondrial bioenergetic function by hydrogen
+sulfide. Part I. Biochemical and physiological mechanisms</article-title>
+          <source>Br J Pharmacol</source>
+          <year>2014</year>
+          <volume>171</volume>
+          <fpage>2099</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="pmid">23991830</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Slupsky</surname>
+              <given-names>CM</given-names>
+            </name>
+          </person-group>
+          <article-title>Metabolic fingerprint of dimethyl sulfone (DMSO2) in
+microbial-mammalian co-metabolism</article-title>
+          <source>J Proteome Res</source>
+          <year>2014</year>
+          <volume>13</volume>
+          <fpage>5281</fpage>
+          <lpage>92</lpage>
+          <pub-id pub-id-type="pmid">25245235</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blom</surname>
+              <given-names>HJ</given-names>
+            </name>
+            <name>
+              <surname>Tangerman</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Methanethiol metabolism in whole blood</article-title>
+          <source>J Lab Clin Med</source>
+          <year>1988</year>
+          <volume>111</volume>
+          <fpage>606</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="pmid">3373106</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walker</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Mills</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Fortune</surname>
+              <given-names>PM</given-names>
+            </name>
+            <name>
+              <surname>Wheeler</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Neonatal encephalopathy with a pungent body odour</article-title>
+          <source>Arch Dis Child Fetal Neonatal Ed</source>
+          <year>1997</year>
+          <volume>77</volume>
+          <fpage>F65</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">9279187</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Engelke</surname>
+              <given-names>UF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dimethyl sulfone in human cerebrospinal fluid and blood plasma
+confirmed by one-dimensional (1)H and two-dimensional (1)H-(13)C
+NMR</article-title>
+          <source>NMR Biomed</source>
+          <year>2005</year>
+          <volume>18</volume>
+          <fpage>331</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">15996001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamagishi</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Generation of gaseous sulfur-containing compounds in tumour
+tissue and suppression of gas diffusion as an antitumour
+treatment</article-title>
+          <source>Gut</source>
+          <year>2012</year>
+          <volume>61</volume>
+          <fpage>554</fpage>
+          <lpage>61</lpage>
+          <pub-id pub-id-type="pmid">21836027</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Machado</surname>
+              <given-names>RF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Detection of lung cancer by sensor array analyses of exhaled
+breath</article-title>
+          <source>Am J Respir Crit Care Med</source>
+          <year>2005</year>
+          <volume>171</volume>
+          <fpage>1286</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="pmid">15750044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Real-time ultrasensitive VUV-PIMS detection of representative
+endogenous volatile markers in cancers</article-title>
+          <source>Cancer Biomark</source>
+          <year>2016</year>
+          <volume>16</volume>
+          <fpage>477</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="pmid">27062705</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buszewski</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Ulanowska</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kowalkowski</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Cieslinski</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigation of lung cancer biomarkers by hyphenated separation
+techniques and chemometrics</article-title>
+          <source>Clin Chem Lab Med</source>
+          <year>2011</year>
+          <volume>50</volume>
+          <fpage>573</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="pmid">22035139</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pol</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Op den Camp</surname>
+              <given-names>HJ</given-names>
+            </name>
+            <name>
+              <surname>Mees</surname>
+              <given-names>SG</given-names>
+            </name>
+            <name>
+              <surname>Kersten</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>van der Drift</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation of a dimethylsulfide-utilizing Hyphomicrobium species
+and its application in biofiltration of polluted air</article-title>
+          <source>Biodegradation</source>
+          <year>1994</year>
+          <volume>5</volume>
+          <fpage>105</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="pmid">7765115</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eyice</surname>
+              <given-names>O</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Bacterial SBP56 identified as a Cu-dependent methanethiol oxidase
+widely distributed in the biosphere</article-title>
+          <source>ISME Journal</source>
+          <comment>In Press</comment>
+          <pub-id pub-id-type="doi">10.1038/ismej.2017.148</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raucci</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structural and functional studies of the human selenium binding
+protein-1 and its involvement in hepatocellular carcinoma</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>2011</year>
+          <volume>1814</volume>
+          <fpage>513</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="pmid">21338716</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bansal</surname>
+              <given-names>MP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>DNA sequencing of a mouse liver protein that binds selenium:
+implications for selenium's mechanism of action in cancer
+prevention</article-title>
+          <source>Carcinogenesis</source>
+          <year>1990</year>
+          <volume>11</volume>
+          <fpage>2071</fpage>
+          <lpage>3</lpage>
+          <pub-id pub-id-type="pmid">2225343</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bansal</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name>
+              <surname>Oborn</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Danielson</surname>
+              <given-names>KG</given-names>
+            </name>
+            <name>
+              <surname>Medina</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence for two selenium-binding proteins distinct from
+glutathione peroxidase in mouse liver</article-title>
+          <source>Carcinogenesis</source>
+          <year>1989</year>
+          <volume>10</volume>
+          <fpage>541</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">2924398</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jerome-Morais</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Inverse association between glutathione peroxidase activity and
+both selenium-binding protein 1 levels and Gleason score in human prostate
+tissue</article-title>
+          <source>Prostate</source>
+          <year>2012</year>
+          <volume>72</volume>
+          <fpage>1006</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="pmid">22072582</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ansong</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Evidence that selenium binding protein 1 is a tumor suppressor in
+prostate cancer</article-title>
+          <source>PLoS One</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <fpage>e0127295</fpage>
+          <pub-id pub-id-type="pmid">25993660</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Reduced selenium-binding protein 1 expression is associated with
+poor outcome in lung adenocarcinomas</article-title>
+          <source>J Pathol</source>
+          <year>2004</year>
+          <volume>202</volume>
+          <fpage>321</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">14991897</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Willemsen</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Engelke</surname>
+              <given-names>UF</given-names>
+            </name>
+            <name>
+              <surname>van der Graaf</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Wevers</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Methylsulfonylmethane (MSM) ingestion causes a significant
+resonance in proton magnetic resonance spectra of brain and cerebrospinal
+fluid</article-title>
+          <source>Neuropediatrics</source>
+          <year>2006</year>
+          <volume>37</volume>
+          <fpage>312</fpage>
+          <lpage>4</lpage>
+          <pub-id pub-id-type="pmid">17236113</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suylen</surname>
+              <given-names>GMH</given-names>
+            </name>
+            <name>
+              <surname>Large</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>van Dijken</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Kuenen</surname>
+              <given-names>JG</given-names>
+            </name>
+          </person-group>
+          <article-title>Methyl mercaptan oxidase, a key enzyme in the metabolism of
+methylated sulphur compounds by Hyphomicrobium EG</article-title>
+          <source>Journal of General Microbiology</source>
+          <year>1987</year>
+          <volume>133</volume>
+          <fpage>2989</fpage>
+          <lpage>2997</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gould</surname>
+              <given-names>WD</given-names>
+            </name>
+            <name>
+              <surname>Kanagawa</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Purification and Properties of Methyl Mercaptan Oxidase from
+Thiobacillus-Thioparus Tk-M</article-title>
+          <source>Journal of General Microbiology</source>
+          <year>1992</year>
+          <volume>138</volume>
+          <fpage>217</fpage>
+          <lpage>221</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pohl</surname>
+              <given-names>NM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Transcriptional regulation and biological functions of
+selenium-binding protein 1 in colorectal cancer in vitro and in nude mouse
+xenografts</article-title>
+          <source>PLoS One</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>e7774</fpage>
+          <pub-id pub-id-type="pmid">19924303</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jeong</surname>
+              <given-names>JY</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Sytkowski</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Human selenium binding protein-1 (hSP56) interacts with VDU1 in a
+selenium-dependent manner</article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <year>2009</year>
+          <volume>379</volume>
+          <fpage>583</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">19118533</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miyaguchi</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Localization of selenium-binding protein at the tips of rapidly
+extending protrusions</article-title>
+          <source>Histochem Cell Biol</source>
+          <year>2004</year>
+          <volume>121</volume>
+          <fpage>371</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">15108003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tangerman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Meuwese-Arends</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Jansen</surname>
+              <given-names>JB</given-names>
+            </name>
+          </person-group>
+          <article-title>Cause and composition of foetor hepaticus</article-title>
+          <source>Lancet</source>
+          <year>1994</year>
+          <volume>343</volume>
+          <fpage>483</fpage>
+          <pub-id pub-id-type="pmid">7905979</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Besouw</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tangerman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Cornelissen</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Rioux</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Levtchenko</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Halitosis in cystinosis patients after administration of
+immediate-release cysteamine bitartrate compared to delayed-release
+cysteamine bitartrate</article-title>
+          <source>Mol Genet Metab</source>
+          <year>2012</year>
+          <volume>107</volume>
+          <fpage>234</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">22832073</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mudd</surname>
+              <given-names>SH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Isolated persistent hypermethioninemia</article-title>
+          <source>Am J Hum Genet</source>
+          <year>1995</year>
+          <volume>57</volume>
+          <fpage>882</fpage>
+          <lpage>92</lpage>
+          <pub-id pub-id-type="pmid">7573050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Glatt</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Comparative gene expression analysis of blood and brain provides
+concurrent validation of SELENBP1 up-regulation in
+schizophrenia</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2005</year>
+          <volume>102</volume>
+          <fpage>15533</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">16223876</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kanazawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The utility of SELENBP1 gene expression as a biomarker for major
+psychotic disorders: replication in schizophrenia and extension to bipolar
+disorder with psychosis</article-title>
+          <source>Am J Med Genet B Neuropsychiatr Genet</source>
+          <year>2008</year>
+          <volume>147B</volume>
+          <fpage>686</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">18163446</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Prabakaran</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>2-D DIGE analysis of liver and red blood cells provides further
+evidence for oxidative stress in schizophrenia</article-title>
+          <source>J Proteome Res</source>
+          <year>2007</year>
+          <volume>6</volume>
+          <fpage>141</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">17203958</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Furne</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Springfield</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Koenig</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>DeMaster</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Levitt</surname>
+              <given-names>MD</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidation of hydrogen sulfide and methanethiol to thiosulfate by
+rat tissues: a specialized function of the colonic mucosa</article-title>
+          <source>Biochem Pharmacol</source>
+          <year>2001</year>
+          <volume>62</volume>
+          <fpage>255</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">11389886</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chang</surname>
+              <given-names>PW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Isolation, characterization, and chromosomal mapping of a novel
+cDNA clone encoding human selenium binding protein</article-title>
+          <source>J Cell Biochem</source>
+          <year>1997</year>
+          <volume>64</volume>
+          <fpage>217</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="pmid">9027582</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Galvao</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Unexpected low-dose toxicity of the universal solvent
+DMSO</article-title>
+          <source>FASEB J</source>
+          <year>2014</year>
+          <volume>28</volume>
+          <fpage>1317</fpage>
+          <lpage>30</lpage>
+          <pub-id pub-id-type="pmid">24327606</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Finkel</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidant signals and oxidative stress</article-title>
+          <source>Curr Opin Cell Biol</source>
+          <year>2003</year>
+          <volume>15</volume>
+          <fpage>247</fpage>
+          <lpage>54</lpage>
+          <pub-id pub-id-type="pmid">12648682</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barr</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Calvert</surname>
+              <given-names>JW</given-names>
+            </name>
+          </person-group>
+          <article-title>Discoveries of hydrogen sulfide as a novel cardiovascular
+therapeutic</article-title>
+          <source>Circ J</source>
+          <year>2014</year>
+          <volume>78</volume>
+          <fpage>2111</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">25131384</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wallace</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Hydrogen sulfide-based therapeutics: exploiting a unique but
+ubiquitous gasotransmitter</article-title>
+          <source>Nat Rev Drug Discov</source>
+          <year>2015</year>
+          <volume>14</volume>
+          <fpage>329</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="pmid">25849904</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bos</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>van Goor</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Joles</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Whiteman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Leuvenink</surname>
+              <given-names>HG</given-names>
+            </name>
+          </person-group>
+          <article-title>Hydrogen sulfide: physiological properties and therapeutic
+potential in ischaemia</article-title>
+          <source>Br J Pharmacol</source>
+          <year>2015</year>
+          <volume>172</volume>
+          <fpage>1479</fpage>
+          <lpage>93</lpage>
+          <pub-id pub-id-type="pmid">25091411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Banerjee</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Catalytic promiscuity and heme-dependent redox regulation of H2S
+synthesis</article-title>
+          <source>Curr Opin Chem Biol</source>
+          <year>2017</year>
+          <volume>37</volume>
+          <fpage>115</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="pmid">28282633</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Nevo</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Tashian</surname>
+              <given-names>RE</given-names>
+            </name>
+          </person-group>
+          <article-title>Unexpected expression of carbonic anhydrase I and
+selenium-binding protein as the only major non-heme proteins in erythrocytes
+of the subterranean mole rat (Spalax ehrenbergi)</article-title>
+          <source>FEBS Lett</source>
+          <year>1998</year>
+          <volume>430</volume>
+          <fpage>343</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">9688568</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ringrose</surname>
+              <given-names>JH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Highly efficient depletion strategy for the two most abundant
+erythrocyte soluble proteins improves proteome coverage
+dramatically</article-title>
+          <source>J Proteome Res</source>
+          <year>2008</year>
+          <volume>7</volume>
+          <fpage>3060</fpage>
+          <lpage>3</lpage>
+          <pub-id pub-id-type="pmid">18494517</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wagner</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>Hydrogen sulfide: a new gaseous signal molecule and blood
+pressure regulator</article-title>
+          <source>J Nephrol</source>
+          <year>2009</year>
+          <volume>22</volume>
+          <fpage>173</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">19384833</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Erythrocytic hydrogen sulfide production is increased in children
+with vasovagal syncope</article-title>
+          <source>J Pediatr</source>
+          <year>2015</year>
+          <volume>166</volume>
+          <fpage>965</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">25641243</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Diamond</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>Selenium-binding protein 1 as a tumor suppressor and a prognostic
+indicator of clinical outcome</article-title>
+          <source>Biomark Res</source>
+          <year>2013</year>
+          <volume>1</volume>
+          <fpage>15</fpage>
+          <pub-id pub-id-type="pmid">24163737</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mochalski</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Release and uptake of volatile organic compounds by human
+hepatocellular carcinoma cells (HepG2) in vitro</article-title>
+          <source>Cancer Cell Int</source>
+          <year>2013</year>
+          <volume>13</volume>
+          <fpage>72</fpage>
+          <pub-id pub-id-type="pmid">23870484</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fang</surname>
+              <given-names>W</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Functional and physical interaction between the selenium-binding
+protein 1 (SBP1) and the glutathione peroxidase 1
+selenoprotein</article-title>
+          <source>Carcinogenesis</source>
+          <year>2010</year>
+          <volume>31</volume>
+          <fpage>1360</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">20530237</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baliga</surname>
+              <given-names>MS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Selenoprotein deficiency enhances radiation-induced micronuclei
+formation</article-title>
+          <source>Mol Nutr Food Res</source>
+          <year>2008</year>
+          <volume>52</volume>
+          <fpage>1300</fpage>
+          <lpage>4</lpage>
+          <pub-id pub-id-type="pmid">18720346</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lubos</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Loscalzo</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Handy</surname>
+              <given-names>DE</given-names>
+            </name>
+          </person-group>
+          <article-title>Glutathione peroxidase-1 in health and disease: from molecular
+mechanisms to therapeutic opportunities</article-title>
+          <source>Antioxid Redox Signal</source>
+          <year>2011</year>
+          <volume>15</volume>
+          <fpage>1957</fpage>
+          <lpage>97</lpage>
+          <pub-id pub-id-type="pmid">21087145</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R51">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jezierski</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Walczak</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ligor</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Rudnicka</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Buszewski</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Study of the art: canine olfaction used for cancer detection on
+the basis of breath odour. Perspectives and limitations</article-title>
+          <source>J Breath Res</source>
+          <year>2015</year>
+          <volume>9</volume>
+          <comment>027001</comment>
+        </element-citation>
+      </ref>
+      <ref id="R52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tamura</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Stecher</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Filipski</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>MEGA6: Molecular Evolutionary Genetics Analysis version
+6.0</article-title>
+          <source>Mol Biol Evol</source>
+          <year>2013</year>
+          <volume>30</volume>
+          <fpage>2725</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">24132122</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R53">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tangerman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Meuwese-Arends</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>van Tongeren</surname>
+              <given-names>JH</given-names>
+            </name>
+          </person-group>
+          <article-title>A new sensitive assay for measuring volatile sulphur compounds in
+human breath by Tenax trapping and gas chromatography and its application in
+liver cirrhosis</article-title>
+          <source>Clin Chim Acta</source>
+          <year>1983</year>
+          <volume>130</volume>
+          <fpage>103</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="pmid">6851177</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R54">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wevers</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Engelke</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Heerschap</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>High-resolution 1H-NMR spectroscopy of blood plasma for metabolic
+studies</article-title>
+          <source>Clin Chem</source>
+          <year>1994</year>
+          <volume>40</volume>
+          <fpage>1245</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="pmid">8013094</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R55">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wevers</surname>
+              <given-names>RA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Standardized method for high-resolution 1H-NMR of cerebrospinal
+fluid</article-title>
+          <source>Clin Chem</source>
+          <year>1995</year>
+          <volume>41</volume>
+          <fpage>744</fpage>
+          <lpage>51</lpage>
+          <pub-id pub-id-type="pmid">7729054</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R56">
+        <label>56</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moolenaar</surname>
+              <given-names>SH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Prolidase deficiency diagnosed by 1H NMR spectroscopy of
+urine</article-title>
+          <source>J Inherit Metab Dis</source>
+          <year>2001</year>
+          <volume>24</volume>
+          <fpage>843</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="pmid">11916317</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R57">
+        <label>57</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Derikx</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Op Den Camp</surname>
+              <given-names>HJ</given-names>
+            </name>
+            <name>
+              <surname>van der Drift</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>van Griensven</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Vogels</surname>
+              <given-names>GD</given-names>
+            </name>
+          </person-group>
+          <article-title>Odorous Sulfur Compounds Emitted during Production of Compost
+Used as a Substrate in Mushroom Cultivation</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>1990</year>
+          <volume>56</volume>
+          <fpage>176</fpage>
+          <lpage>80</lpage>
+          <pub-id pub-id-type="pmid">16348090</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R58">
+        <label>58</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tangerman</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Determination of volatile sulphur compounds in air at the parts
+per trillion level by Tenax trapping and gas chromatography</article-title>
+          <source>J Chromatogr</source>
+          <year>1986</year>
+          <volume>366</volume>
+          <fpage>205</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="pmid">3782318</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R59">
+        <label>59</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kircher</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A general framework for estimating the relative pathogenicity of
+human genetic variants</article-title>
+          <source>Nat Genet</source>
+          <year>2014</year>
+          <volume>46</volume>
+          <fpage>310</fpage>
+          <lpage>5</lpage>
+          <pub-id pub-id-type="pmid">24487276</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R60">
+        <label>60</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wortmann</surname>
+              <given-names>SB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>CLPB Mutations Cause 3-Methylglutaconic Aciduria, Progressive
+Brain Atrophy, Intellectual Disability, Congenital Neutropenia, Cataracts,
+Movement Disorder</article-title>
+          <source>Am J Hum Genet</source>
+          <year>2015</year>
+          <volume>96</volume>
+          <fpage>245</fpage>
+          <lpage>57</lpage>
+          <pub-id pub-id-type="pmid">25597510</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R61">
+        <label>61</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vriend</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>WHAT IF: a molecular modeling and drug design
+program</article-title>
+          <source>J Mol Graph</source>
+          <year>1990</year>
+          <volume>8</volume>
+          <fpage>52</fpage>
+          <lpage>6</lpage>
+          <comment>29</comment>
+          <pub-id pub-id-type="pmid">2268628</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R62">
+        <label>62</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krieger</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Koraimann</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Vriend</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Increasing the precision of comparative models with YASARA
+NOVA--a self-parameterizing force field</article-title>
+          <source>Proteins</source>
+          <year>2002</year>
+          <volume>47</volume>
+          <fpage>393</fpage>
+          <lpage>402</lpage>
+          <pub-id pub-id-type="pmid">11948792</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R63">
+        <label>63</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Renkema</surname>
+              <given-names>GH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SDHA mutations causing a multisystem mitochondrial disease: novel
+mutations and genetic overlap with hereditary tumors</article-title>
+          <source>Eur J Hum Genet</source>
+          <year>2015</year>
+          <volume>23</volume>
+          <fpage>202</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">24781757</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R64">
+        <label>64</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Douabul</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Priley</surname>
+              <given-names>JP</given-names>
+            </name>
+          </person-group>
+          <article-title>Solubility of gases in distilled water and seawater. 5. Hydrogen
+sulfide</article-title>
+          <source>Deep-sea Research</source>
+          <year>1979</year>
+          <volume>26</volume>
+          <fpage>259</fpage>
+          <lpage>268</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R65">
+        <label>65</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tan</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>New method for quantification of gasotransmitter hydrogen sulfide
+in biological matrices by LC-MS/MS</article-title>
+          <source>Sci Rep</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <comment>46278</comment>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <title>Sulfur metabolism</title>
+        <p>Diet, bacterial metabolism and endogenous metabolism contribute to the levels of
+MT, DMS, DMSO and DMSO<sub>2</sub> and catabolites in the body. The main
+conversion of MT to H<sub>2</sub>O<sub>2</sub>, formaldehyde and H<sub>2</sub>S
+by the enzyme MTO (indicated by the cross) is deficient in the patients. The
+lower part shows the MTO reaction. All underlined metabolites have been
+confirmed in our assay.</p>
+      </caption>
+      <graphic xlink:href="emss-74866-f001"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <title>Extra-oral halitosis families</title>
+        <p>Panel A, Schematic representation of the family trees of the affected families.
+Double horizontal line in families A and B indicate consanguineous marriages.
+Dark symbols represent affected individuals, crossed out symbols are deceased
+individuals.</p>
+        <p>Panels B and C, One-dimensional <sup>1</sup>H-NMR spectroscopy of human plasma
+measured at pH 2.50. Plasma from patient CII-2 (B) and a control sample (C). The
+spectra illustrate the increased concentration of DMSO<sub>2</sub> in the
+patient. For quantitative data see <xref ref-type="table" rid="T1">Table
+1B</xref>.</p>
+      </caption>
+      <graphic xlink:href="emss-74866-f002"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <title>Analysis of missense mutations in <italic>SELENBP1</italic></title>
+        <p>Panel A, Neighbor-Joining phylogenetic tree of methanethiol oxidases and putative
+selenium-binding proteins. The evolutionary distances were computed using the
+Dayhoff matrix based method and are in the units of the number of amino acid
+substitutions per site. Bootstrap values (500 replicates) are shown next to the
+branches for values &gt; 60. Evolutionary analyses were conducted in MEGA6
+<xref rid="R52" ref-type="bibr">52</xref>.</p>
+        <p>Panel B, The SELENBP1 sequence was modeled on the X-ray structure of the
+hypothetical selenium-binding protein from <italic>Sulfolobus tokodaii</italic>
+(PDB ID: 2ECE). The protein forms a typical WD40 fold. The positions of the
+mutations Gly225Trp (on the right) and His329Tyr (on the left) are indicated in
+red.</p>
+        <p>Panel C, Detail of the amino acid changes that are found in family C. Green
+residue is the original, red the replacement in the patients.</p>
+        <p>Panel D, Alignments of the regions of SELENBP1 of multiple species indicating the
+conserved residues found mutated in family C. The amino acid numbering is
+according to the human sequence. Asterisk indicates a fully conserved residue,
+colon indicates conservation between amino acids of strongly similar properties,
+period indicates conservation between amino acids of weakly similar
+properties.</p>
+      </caption>
+      <graphic xlink:href="emss-74866-f003"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <title>Analysis of SELENBP1 expression and MTO activity in human cell lines</title>
+        <p>Panel A, MTO activity in human erythrocytes in control (n=30) versus patients
+AII-3 and CII-2. Box indicates the median and the 25 - 75 percentile, whiskers
+indicate the minimal and maximal value. Panel B, SELENBP1 mRNA expression in
+human fetal and adult tissues. Presented as fold change in comparison to the
+tissue with the lowest expression level.</p>
+        <p>Panel C, Anti-SELENBP1 Western blot analysis in HT29 (high expression) and SW480
+(low expression) colon cancer cell lines. Panel D, Western blot analysis of
+patient (CII-2 and AII-3) and 4 control fibroblast cell lines. Upper panel:
+anti-SELENBP1. &#x25B2;, SELENBP1; &#x25B3;, non-specific band. Lower panel:
+loading control (anti-actin).</p>
+        <p>Panel E: Progress curve of MTO activity. &#x25B2;, control fibroblast C5120);
+&#x25A0;, patient AII-3 &#x25CF;,control incubation without protein added. At t
+= 0 MT was added to all samples; the arrow indicates a second addition of MT to
+the control fibroblasts when the substrate was depleted, resulting in
+restoration of the initial activity, indicating that the enzyme was still fully
+functional.</p>
+        <p>Panel F: Lentiviral complementation of patient and control fibroblast using
+SELENBP1-V5 viruses shows restoration of the MTO activity. As a control GFP-V5
+encoding viruses were used. Upper panel: Western blot analysis of SELENBP1
+expression (anti-SELENBP1). Middle panel: Western blot analysis of the exogenous
+expressed V5 tagged proteins (closed arrowhead is SELENBP1-V5, open arrowhead is
+GFP-V5). Lower panel: loading control (anti-actin).</p>
+        <p>In panels C, D and F the MTO activity of each sample is indicated below the
+lanes. BG = background, below 0.5 nmol.mg
+protein<sup>-1</sup>.h<sup>-1</sup>.</p>
+      </caption>
+      <graphic xlink:href="emss-74866-f004"/>
+    </fig>
+    <fig id="F5" orientation="portrait" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <title>MTO activity and DMS levels in SELENBP1 KO mice</title>
+        <p>Panel A, MTO activity in erythrocyte extracts from SELENBP1 KO, heterozygous and
+wild type animals (n=7 for each group). MTO activity in erythrocytes of the
+SELENBP1 KO animals were at or under the level of detection.</p>
+        <p>Panel B, MTO activities were determined in homogenates of mouse tissues of both
+SELENBP1 KO and wild type animals (n=3 for each tissue and each genotype). Black
+symbols are plotted on the left Y-axis, open symbols on the right Y-axis. MTO
+activities in the muscle and brain of the SELENBP1 KO animals were at or under
+the level of detection.</p>
+        <p>Panel C, DMS levels in mouse plasma was determined from the SELENBP1 KO (n=5) as
+well as heterozygous (n=4) and wild type animals (n=3).</p>
+        <p>For panels A, B and C, Boxes indicate the median and the 25 - 75 percentile,
+whiskers indicate the minimal and maximal values. Statistical analysis was
+performed with GraphPad Prism using a two-sided unpaired t test with
+Welch's correction. ***, p&lt;0.001; **, p&lt;0.01; *,
+p&lt;0.05.</p>
+        <p>Panels D and E, Representative one-dimensional <sup>1</sup>H-NMR spectroscopy of
+mouse plasma samples measured at pH 2.50. Plasma from a KO animal (D) and a wild
+type sample (E). The spectra illustrate the increased concentration of
+DMSO<sub>2</sub> in the SELENBP1 knock out animals.</p>
+      </caption>
+      <graphic xlink:href="emss-74866-f005"/>
+    </fig>
+    <table-wrap id="T1" position="float" orientation="portrait">
+      <label>Table 1</label>
+      <caption>
+        <title>MT, DMS, DMSO and DMSO<sub>2</sub> levels in patients.</title>
+      </caption>
+      <table frame="box" rules="all">
+        <thead>
+          <tr>
+            <th align="center" rowspan="1" colspan="1">A</th>
+            <th align="center" rowspan="1" colspan="1"/>
+            <th align="center" rowspan="1" colspan="1">MT<break/>(ppb)</th>
+            <th align="center" rowspan="1" colspan="1"/>
+            <th align="center" rowspan="1" colspan="1">DMS<break/>(ppb)</th>
+            <th align="center" rowspan="1" colspan="1"/>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">Breath</td>
+            <td align="left" rowspan="1" colspan="1">Ref.</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;0.05</td>
+            <td align="left" rowspan="1" colspan="1">+/- 0.05 (range 0.01&#x2013;0.24)</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;6.1</td>
+            <td align="left" rowspan="1" colspan="1">+/- 4.5 (range 1-19)</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">AII-2</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;-</td>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;154/201</td>
+            <td align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">AII-3</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;2.6</td>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;251/246/200</td>
+            <td align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">BII-2</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;-</td>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;184</td>
+            <td align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">CII-1</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;-</td>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;30/34</td>
+            <td align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">CII-2</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;2.3</td>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;40/67/104</td>
+            <td align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">
+<bold>B</bold>
+</td>
+            <td align="center" rowspan="1" colspan="1"/>
+            <td align="center" colspan="2" rowspan="1">
+<bold>DMS</bold>
+<break/>
+<bold>(nM)</bold>
+</td>
+            <td align="center" rowspan="1" colspan="1">
+<bold>DMSO</bold>
+<break/>
+<bold>(&#x3BC;M)</bold>
+</td>
+            <td align="center" rowspan="1" colspan="1">
+<bold>DMSO<sub>2</sub></bold>
+<break/>
+<bold>(&#x3BC;M)</bold>
+</td>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">Blood</td>
+            <td align="left" rowspan="1" colspan="1">Ref.</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;&#xA0;&lt; 7</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&lt; 1</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&lt;1-24</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">AII-2</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;192</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;-</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;-</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">AII-3</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;191/242</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;6</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;68</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">BII-2</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;185</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;4</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;36</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">CII-1</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;164</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;-</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;-</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">CII-2</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;156</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;-</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;-</td>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">CSF</td>
+            <td align="left" rowspan="1" colspan="1">Ref.</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;&lt; 10</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&lt; 1</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&lt;1-25</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">AII-3</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;104/114</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;8</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;112</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">BII-2</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;-</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;8</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;41</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="center" colspan="2" rowspan="1">
+<bold>DMS</bold>
+<break/>
+<bold>(nM)</bold>
+</td>
+            <td align="center" rowspan="1" colspan="1">
+<bold>DMSO</bold>
+<break/>
+<bold>(&#x3BC;mol/mmol Cr)</bold>
+</td>
+            <td align="center" rowspan="1" colspan="1">
+<bold>DMSO<sub>2</sub></bold>
+<break/>
+<bold>(&#x3BC;mol/mmol Cr)</bold>
+</td>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">Urine</td>
+            <td align="left" rowspan="1" colspan="1">Ref.</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;&lt;10</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&lt; 1</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;3-18</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">AII-2</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;194</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;30</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;54</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">AII-3</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;&#xA0;&#xA0;71-194<xref ref-type="table-fn" rid="TFN3">**</xref></td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;31</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;47</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">BII-2</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;265/480</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;10</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;60</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">CII-1</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;-</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;4</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;31</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" rowspan="1" colspan="1">CII-2</td>
+            <td align="left" colspan="2" rowspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;-</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;4</td>
+            <td align="left" rowspan="1" colspan="1">&#xA0;&#xA0;28</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="TFN1">
+          <p id="P70">MT and DMS were measured using gas-chromatography and DMSO and
+DMSO<sub>2</sub> were measured with NMR spectroscopy. Numbers separated
+by &#x201C;/&#x201D; are measurements on separate days. -, not
+determined.</p>
+        </fn>
+        <fn id="TFN2">
+          <p id="P71">Panel A: MT and DMS levels measured in exhaled breath. Reference
+ranges were obtained from 20 control persons sampled arbitrarily throughout
+the day (given as mean &#xB1; 1 SD and as well as range). The values from
+individual persons fluctuated during the day (up to a factor of 10), these
+values are all included in the reference range. The DMS reference range
+corresponds to the range previously published <xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R53" ref-type="bibr">53</xref>.</p>
+        </fn>
+        <fn id="TFN3">
+          <p id="P72">Panel B: DMS, DMSO and DMSO<sub>2</sub> levels in body fluids of the
+affected patients and controls. Reference ranges for DMSO<sub>2</sub> have
+been described in Engelke et al <xref rid="R9" ref-type="bibr">9</xref>. DMS
+was measured in blood, DMSO and DMSO<sub>2</sub> in plasma. **: range of
+measurements on different time points during the day.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="T2" position="float" orientation="landscape">
+      <label>Table 2</label>
+      <caption>
+        <title>Mutation analysis of <italic>SELENBP1</italic> (NM_003944.3)</title>
+      </caption>
+      <table frame="box" rules="all">
+        <thead>
+          <tr>
+            <th align="center" valign="top" rowspan="1" colspan="1">Patient</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">cDNA</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">Genomic position GRCh37*</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">Protein</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">Prediction of pathogenicity</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">C- score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">AII-2 and AII-3</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.1039G&gt;T<break/>homozygous</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">g.151,338,044</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Gly347*</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Premature stop codon</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">38</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">BII-2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.481+1G&gt;A<break/>homozygous</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">g.151,340,674</td>
+            <td align="left" rowspan="1" colspan="1"/>
+            <td align="left" valign="top" rowspan="1" colspan="1">Disruption of the 5&#x2019;splice site of the
+intron following exon 5</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">28.7</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="2" colspan="1">CII-1 and CII-2</td>
+            <td align="left" valign="top" rowspan="2" colspan="1">c.673G&gt;T<break/><break/><break/>and<break/><break/><break/><break/>c.985C&gt;T</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">g.151,338,921</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Gly225Trp</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">
+<list list-type="simple" id="L1"><list-item><label>-</label><p>Align GVGD: C15 (GV: 206.04 - GD: 178.95)</p></list-item><list-item><label>-</label><p>SIFT: Deleterious (score: 0, median: 3.57)</p></list-item><list-item><label>-</label><p>MutationTaster: disease causing (p-value: 1)</p></list-item><list-item><label>-</label><p>PolyPhen-2: Possibly damaging (HumDiv 1.0, HumVar 1.0)</p></list-item></list>
+</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">35</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">g.151,338,098</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.His329Tyr</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">
+<list list-type="simple" id="L2"><list-item><label>-</label><p>Align GVGD: C0 (GV: 227.83 - GD: 79.14)</p></list-item><list-item><label>-</label><p>SIFT: Deleterious (score: 0, median: 3.57)</p></list-item><list-item><label>-</label><p>MutationTaster: disease causing (p-value: 1)</p></list-item><list-item><label>-</label><p>PolyPhen-2: Possibly damaging (HumDiv 0.935, HumVar
+0.734)</p></list-item></list>
+</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">24.5</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

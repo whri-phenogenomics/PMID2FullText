@@ -1,0 +1,1319 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group UK</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">33824347</article-id>
+      <article-id pub-id-type="pmc">8024261</article-id>
+      <article-id pub-id-type="publisher-id">22340</article-id>
+      <article-id pub-id-type="doi">10.1038/s41467-021-22340-8</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Deficiency of TMEM53 causes a previously unknown sclerosing bone disorder by dysregulation of BMP-SMAD signaling</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9660-6941</contrib-id>
+          <name>
+            <surname>Guo</surname>
+            <given-names>Long</given-names>
+          </name>
+          <address>
+            <email>longguo601@gmail.com</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7538-1651</contrib-id>
+          <name>
+            <surname>Iida</surname>
+            <given-names>Aritoshi</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bhavani</surname>
+            <given-names>Gandham SriLakshmi</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gowrishankar</surname>
+            <given-names>Kalpana</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Zheng</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xue</surname>
+            <given-names>Jing-yi</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Juan</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Miyake</surname>
+            <given-names>Noriko</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9846-6500</contrib-id>
+          <name>
+            <surname>Matsumoto</surname>
+            <given-names>Naomichi</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hasegawa</surname>
+            <given-names>Takanori</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Iizuka</surname>
+            <given-names>Yusuke</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Matsuda</surname>
+            <given-names>Masashi</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nakashima</surname>
+            <given-names>Tomoki</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Takechi</surname>
+            <given-names>Masaki</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Iseki</surname>
+            <given-names>Sachiko</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yambe</surname>
+            <given-names>Shinsei</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nishimura</surname>
+            <given-names>Gen</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Koseki</surname>
+            <given-names>Haruhiko</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5616-6761</contrib-id>
+          <name>
+            <surname>Shukunami</surname>
+            <given-names>Chisa</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0139-8239</contrib-id>
+          <name>
+            <surname>Girisha</surname>
+            <given-names>Katta M.</given-names>
+          </name>
+          <address>
+            <email>girish.katta@manipal.edu</email>
+          </address>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0316-2147</contrib-id>
+          <name>
+            <surname>Ikegawa</surname>
+            <given-names>Shiro</given-names>
+          </name>
+          <address>
+            <email>sikegawa@ims.u-tokyo.ac.jp</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label>Laboratory for Bone and Joint Diseases, RIKEN Center for Integrative Medical Sciences, Tokyo, Japan </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.419280.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 1763 8916</institution-id><institution>Department of Clinical Genome Analysis, Medical Genome Center, </institution><institution>National Center of Neurology and Psychiatry, Kodaira, </institution></institution-wrap>Tokyo, Japan </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.411639.8</institution-id><institution-id institution-id-type="ISNI">0000 0001 0571 5193</institution-id><institution>Department of Medical Genetics, Kasturba Medical College, Manipal, </institution><institution>Manipal Academy of Higher Education, </institution></institution-wrap>Manipal, India </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.412931.c</institution-id><institution-id institution-id-type="ISNI">0000 0004 1767 8213</institution-id><institution>Kanchi Kamakoti CHILDS Trust Hospital, </institution></institution-wrap>Tamil Nadu, India </aff>
+        <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.506261.6</institution-id><institution-id institution-id-type="ISNI">0000 0001 0706 7839</institution-id><institution>Department of Medical Genetics, Institute of Basic Medical Sciences, </institution><institution>Peking Union Medical College and Chinese Academy of Medical Sciences, </institution></institution-wrap>Beijing, China </aff>
+        <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.268441.d</institution-id><institution-id institution-id-type="ISNI">0000 0001 1033 6139</institution-id><institution>Department of Human Genetics, </institution><institution>Yokohama City University Graduate School of Medicine, </institution></institution-wrap>Yokohama, Japan </aff>
+        <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.43169.39</institution-id><institution-id institution-id-type="ISNI">0000 0001 0599 1243</institution-id><institution>Department of Ultrasound, The Second Affiliated Hospital, </institution><institution>Medical School of Xi&#x2019;an Jiaotong University, </institution></institution-wrap>Xi&#x2019;an, China </aff>
+        <aff id="Aff8"><label>8</label>Laboratory for Developmental Genetics, RIKEN Center for Integrative Medical Sciences, Yokohama, Japan </aff>
+        <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.265073.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 1014 9130</institution-id><institution>Department of Cell Signaling, Graduate School of Medical and Dental Sciences, </institution><institution>Tokyo Medical and Dental University, </institution></institution-wrap>Tokyo, Japan </aff>
+        <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.265073.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 1014 9130</institution-id><institution>Department of Molecular Craniofacial Embryology, Graduate School of Medical and Dental Sciences, </institution><institution>Tokyo Medical and Dental University, </institution></institution-wrap>Tokyo, Japan </aff>
+        <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.257022.0</institution-id><institution-id institution-id-type="ISNI">0000 0000 8711 3200</institution-id><institution>Department of Molecular Biology and Biochemistry, Graduate School of Biomedical and Health Sciences, </institution><institution>Hiroshima University, </institution></institution-wrap>Hiroshima, Japan </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>6</day>
+        <month>4</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>6</day>
+        <month>4</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <volume>12</volume>
+      <elocation-id>2046</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>1</day>
+          <month>10</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>2</day>
+          <month>3</month>
+          <year>2021</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2021</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">Bone formation represents a heritable trait regulated by many signals and complex mechanisms. Its abnormalities manifest themselves in various diseases, including sclerosing bone disorder (SBD). Exploration of genes that cause SBD has significantly improved our understanding of the mechanisms that regulate bone formation. Here, we discover a previously unknown type of SBD in four independent families caused by bi-allelic loss-of-function pathogenic variants in <italic>TMEM53</italic>, which encodes a nuclear envelope transmembrane protein. <italic>Tmem53</italic><sup><italic>-/-</italic></sup> mice recapitulate the human skeletal phenotypes. Analyses of the molecular pathophysiology using the primary cells from the <italic>Tmem53</italic><sup><italic>-/-</italic></sup> mice and the <italic>TMEM53</italic> knock-out cell lines indicates that TMEM53 inhibits BMP signaling in osteoblast lineage cells by blocking cytoplasm-nucleus translocation of BMP2-activated Smad proteins. Pathogenic variants in the patients impair the TMEM53-mediated blocking effect, thus leading to overactivated BMP signaling that promotes bone formation and contributes to the SBD phenotype. Our results establish a previously unreported SBD entity (craniotubular dysplasia, Ikegawa type) and contribute to a better understanding of the regulation of BMP signaling and bone formation.</p>
+      </abstract>
+      <abstract id="Abs2" abstract-type="web-summary">
+        <p id="Par2">Sclerosing bone disorder (SBD) includes a broad spectrum of monogenic diseases characterised by increased bone density. Here, the authors describe a previously unknown SBD in four families caused by mutations in TMEM53 and demonstrate the role this protein plays in BMP signalling during bone formation.</p>
+      </abstract>
+      <kwd-group kwd-group-type="npg-subject">
+        <title>Subject terms</title>
+        <kwd>Disease genetics</kwd>
+        <kwd>Development</kwd>
+        <kwd>Next-generation sequencing</kwd>
+        <kwd>Growth disorders</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100009619</institution-id>
+              <institution>Japan Agency for Medical Research and Development (AMED)</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>20bm0804006</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Ikegawa</surname>
+              <given-names>Shiro</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; The Author(s) 2021</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Introduction</title>
+      <p id="Par3">Sclerosing bone disorder (SBD) is a heterogeneous group of monogenic diseases characterized by increased bone density. More than 40 disease entities, including osteopetrosis, dysosteosclerosis, and sclerosteosis, fall into this category<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>, which encompasses a broad phenotypic spectrum involving lethality, bone fracture risk, and complications. Identification of dozens of the causal genes for SBD over the past few decades has not only improved precise diagnosis and genetic counseling of the diseases but also continuously driven the research of molecular mechanisms of bone formation and regulation of the skeletal system and exploration of innovative therapies for bone density-related diseases<sup><xref ref-type="bibr" rid="CR2">2</xref>&#x2013;<xref ref-type="bibr" rid="CR5">5</xref></sup>.</p>
+      <p id="Par4">The bone morphogenetic protein (BMP) signaling pathway plays important roles in bone formation<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> and is related to several human skeletal dysplasias<sup><xref ref-type="bibr" rid="CR7">7</xref>&#x2013;<xref ref-type="bibr" rid="CR9">9</xref></sup>. Binding of BMP2/4 to their receptors initiates the signal transduction cascade by inducing phosphorylation of SMAD1/5/9, which can then form hetero-complexes with SMAD4 followed by translocation into the nucleus to upregulate osteogenesis-related genes. However, the mechanism by which nuclear translocation is regulated remains unclear.</p>
+      <p id="Par5">In this study, we discover a previously unknown type of SBD and identify its causal gene, <italic>TMEM53</italic>, which encodes nuclear envelope transmembrane (NET) protein 53 (TMEM53, also known as NET4). TMEM53 is initially identified in a screen for nuclear envelope proteins<sup><xref ref-type="bibr" rid="CR10">10</xref></sup> and then later confirmed to localize to the outer membrane of the nucleus<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. Its function remains unclear, particularly in bone formation. We show that TMEM53 acts as an inhibitor of BMP-SMAD signaling by preventing SMAD accumulation in the cell nucleus and that its deficiency enhances osteogenic differentiation by overactivating the BMP signaling pathway. Our findings establish a previously unreported SBD entity and demonstrate a regulatory mechanism in the BMP signaling pathway that impacts bone formation and development.</p>
+    </sec>
+    <sec id="Sec2" sec-type="results">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>Identification of <italic>TMEM53</italic> pathogenic variants in a previously unknown type of SBD</title>
+        <p id="Par6">We recruited individuals with SBD from the Japanese Skeletal Dysplasia Consortium (<ext-link ext-link-type="uri" xlink:href="http://www2.riken.jp/lab/OA-team/JSDC/">http://www2.riken.jp/lab/OA-team/JSDC/</ext-link>). Detailed clinical analyses identified five individuals in four independent Indian families who were affected by the same unknown type of SBD (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a&#x2013;d</xref>); the families resided in different geographic areas of India. Pre-natal and early post-natal development were uneventful, but all five showed proportional or short-limbed short stature with variable severity, which was not identifiable at birth (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). In addition, the patients had various kinds of head deformities (macrocephaly, dolichocephaly, or prominent forehead), and epicanthic folds and thick vermilion of upper and lower lips were common. Their vision diminished progressively after early childhood due to optic nerve compression, and neither intellectual disability, dental problems, nor chest or spinal deformities were present. Their radiographic features were hyperostosis of the calvaria and the skull base, mild platyspondyly, wide pubis and ischia, broadening of the femoral neck, meta-diaphyseal under-modeling of the long tubular bones, and mild shortening and diaphyseal broadening of the short tubular bones (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref> and Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1e&#x2013;x</xref>), indicating that the disorder belongs to the group of craniotubular dysplasias. Laboratory findings including calcium, phosphorus, parathyroid hormone, and alkaline phosphatase (ALP) were unremarkable. A search of known skeletal disorders, including disease entities registered in the latest version of the international nosology and classification of genetic skeletal disorders<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>, did not find any reports matching the characteristic skeletal phenotypes that were observed in the five patients.<fig id="Fig1"><label>Fig. 1</label><caption><title>A previously unknown type of skeletal dysplasia associated with <italic>TMEM53</italic> variants.</title><p><bold>a</bold>&#x2013;<bold>d</bold> Pedigrees of Families A&#x2013;D. A previously unknown skeletal dysplasia co-segregated with two recessive <italic>TMEM53</italic> variants, c.222_223insCATG (V1) and c.62-5_62-3delTTC (V2), in four independent families. Black filled symbols indicate affected individuals; black arrows indicate probands. <bold>e</bold>&#x2013;<bold>h</bold> Physical appearance of the patients. Prominent forehead and glabella, dolichocephaly, broad nasal root, hypertelorism, and strabismus in individual A-V-1 (<bold>e</bold>, <bold>f</bold>), A-V-2 (<bold>g</bold>), and B-III-18 (<bold>h</bold>). <bold>i</bold> CT image shows narrowing of the optic canal (arrow) in individual A-V-2. <bold>j</bold>&#x2013;<bold>x</bold> Radiological features of individual A-V-1 (<bold>j</bold>, <bold>k</bold>, <bold>p</bold>, <bold>q</bold>, <bold>r</bold>), individual A-V-2 (<bold>l</bold>, <bold>m</bold>, <bold>s</bold>, <bold>t</bold>, <bold>u</bold>), and individual C-II-1 (<bold>n</bold>, <bold>o</bold>, <bold>v</bold>, <bold>w</bold>, <bold>x</bold>). <bold>j</bold>&#x2013;<bold>o</bold> Skull X-ray images show diffuse thickening of calvaria, minor sclerosis of skull base, and prominent frontal bones. <bold>p</bold>, <bold>s</bold>, <bold>v</bold> Lateral views of the spine displays mild platyspondyly and broad ribs. <bold>q</bold>, <bold>t</bold>, <bold>w</bold> Hand X-ray images reveal mild brachydactyly and under-constriction of diaphyses of metacarpals and phalanges. <bold>r</bold>, <bold>u</bold>, <bold>x</bold> Pelvis X-ray images show widening of pubis and ischia, broadening of the femoral neck, and meta-diaphyseal under-modeling.</p></caption><graphic xlink:href="41467_2021_22340_Fig1_HTML" id="d32e734"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>Clinical and radiographic findings of the four Indian families with homozygous <italic>TMEM53</italic> pathogenic variants.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Individual</th><th>V-1</th><th>V-2</th><th>III-18</th><th>II-1</th><th>III-4</th></tr></thead><tbody><tr><td>Family</td><td>A</td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>Pathogenic variant</td><td>c.222_223ins4</td><td>c.222_223ins4</td><td>c.62-5_c.62-3del3</td><td>c.62-5_c.62-3del3</td><td>c.62-5_c.62-3del3</td></tr><tr><td colspan="6">Demographics</td></tr><tr><td>&#xA0;&#x2003;Sex</td><td>Male</td><td>Female</td><td>Female</td><td>Male</td><td>Male</td></tr><tr><td>&#xA0;&#x2003;Present age</td><td>19 years</td><td>12 years</td><td>8 years</td><td>15 years</td><td>17 years</td></tr><tr><td>&#xA0;&#x2003;Consanguinity</td><td>+</td><td>+</td><td>Probably +</td><td>&#x2212;</td><td>+</td></tr><tr><td colspan="6">Clinical finding</td></tr><tr><td>&#xA0;&#x2003;Height [cm] (SD)</td><td>150 (&#x2212;3.6)</td><td>138 (&#x2212;2.7)</td><td>107 (&#x2212;3.6)</td><td>148 (&#x2212;3)</td><td>138 (&#x2212;5)</td></tr><tr><td>&#xA0;&#x2003;Macrocephaly</td><td>&#x2212;</td><td>&#x2212;</td><td>+</td><td>+</td><td>+</td></tr><tr><td>&#xA0;&#x2003;Prominent forehead</td><td>+</td><td>+</td><td>+</td><td>N/A</td><td>N/A</td></tr><tr><td>&#xA0;&#x2003;Hypertelorism</td><td>+</td><td>+</td><td>+</td><td>&#x2212;</td><td>+</td></tr><tr><td>&#xA0;&#x2003;Dolichocephaly</td><td>+</td><td>+</td><td>+</td><td>&#x2212;</td><td>+</td></tr><tr><td>&#xA0;&#x2003;Impaired vision</td><td>Started at 8 years</td><td>Started at 11&#x2009;years</td><td>Started at 8&#x2009;years</td><td>Started at 11&#x2009;years</td><td>Started at 17&#x2009;years</td></tr><tr><td colspan="6">Radiographic finding</td></tr><tr><td>&#xA0;&#x2003;Thin cortex</td><td>+</td><td>+</td><td>+ Mild</td><td>+ Mild</td><td>&#x2212;</td></tr><tr><td>&#xA0;&#x2003;Calvaria thickening</td><td>+</td><td>+</td><td>+ Mild</td><td>+</td><td>+</td></tr><tr><td>&#xA0;&#x2003;Skull base sclerosis</td><td>+</td><td>+ Mild</td><td>&#x2212;</td><td>+</td><td>+</td></tr><tr><td>&#xA0;&#x2003;Broad rib</td><td>+</td><td>+</td><td>+ Mild</td><td>+</td><td>+ Mild</td></tr><tr><td>&#xA0;&#x2003;Platyspondyly</td><td>+ Mild</td><td>+ Mild</td><td>+ Mild</td><td>+ Mild</td><td>+ Mild</td></tr><tr><td>&#xA0;&#x2003;Wide pubis/ischia</td><td>+</td><td>+</td><td>+ Mild</td><td>+</td><td>+</td></tr><tr><td>&#xA0;&#x2003;Broad femoral neck</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td></tr><tr><td>&#xA0;&#x2003;Meta-diaphyseal undermodeling of long bones</td><td>+</td><td>+</td><td>+ Mild</td><td>+</td><td>+ Very mild</td></tr><tr><td>&#xA0;&#x2003;Broadening diaphysis of short bones</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+ Very mild</td></tr></tbody></table><table-wrap-foot><p><italic>N/A</italic> not available.</p></table-wrap-foot></table-wrap></p>
+        <p id="Par7">With the pedigrees indicating a likely autosomal recessive mode (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a&#x2013;d</xref>), we performed whole-exome sequencing (WES) (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>) and identified two homozygous variants, c.222_223insCATG (ClinVar, SCV001446315) in Family A and c.62-5_62-3delTTC (ClinVar, SCV001446316) in Families B&#x2013;D, in <italic>TMEM53</italic> (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a&#x2013;d</xref>) that were not present in any known population genetic databases including gnomAD and ExAC. We confirmed the variants by Sanger sequencing of genomic DNA from the affected subjects and their parents (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>) and found that the variants co-segregated with the disease in the families. Homozygosity mapping using the WES data indicated that individuals B-III-18, C-II-1, and D-III-4 shared a 2.4-Mb homozygous region including <italic>TMEM53</italic> (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>), suggesting a common ancestral origin for c.62-5_62-3delTTC.<fig id="Fig2"><label>Fig. 2</label><caption><title>Functional analysis of <italic>TMEM53</italic> pathogenic variants.</title><p><bold>a</bold> Electropherograms of Sanger sequencing showing that two variants in <italic>TMEM53</italic>, c.222_223insCATG (V1) and c.62-5_62-3delTTC (V2), were homozygous in the affected individuals in Families A and B, respectively. The unaffected parents were heterozygotes for these variants. <bold>b</bold> The location of the two variants in the four RefSeq transcripts of <italic>TMEM53</italic>. T.1, NM_024587.4; T.2, NM_001300746.1; T.3, NM_001300747.2; T.4, NM_001300748.2; TM, transmembrane domain. The arrow heads represent the primers used in RT-PCR of <bold>c</bold>. <bold>c</bold> RT-PCR analysis for the peripheral blood from the affected individual (B-III-18) and the unaffected parents (B-II-4 and B-II-7) (<italic>n</italic>&#x2009;=&#x2009;2 independent experiments). Compared to the normal control, an extra 187-bp band was detected in B-III-18, B-II-4, and B-II-7. The 399-bp and 309-bp bands corresponding to T.1 and T.3, respectively, were not detected in B-III-18. T.4 with three nucleotides less than T.3 was not detected in any individuals. NTC, no template control. <bold>d</bold> Electropherograms of Sanger sequencing showing that the 187-bp RT-PCR band represents a T.3 variant, in which exon 2 is skipped. The variant T.3 contains a premature stop codon in exon 3, resulting in a truncated protein p.N22Afs*7. <bold>e</bold> The effects of the two variants at protein levels. V1 causes a frameshift in transcripts T.1 and T.2, thus leading to two truncated proteins, p.V75Hfs*26 and p.V2Hfs*26, respectively. V2 causes T.1 loss and T.3 aberrant splice producing p.N22Afs*7. <bold>f</bold> Forced expression of wild-type (WT) and truncated TMEM53 proteins with S-tag in MG-63 cells (<italic>n</italic>&#x2009;=&#x2009;2 independent experiments). T.1 Mut, p.V75Hfs*26; T.2 Mut, p.V2Hfs*26; T.3 Mut, p.N22Afs*7. T.2 WT and T.2 Mut were transcribed but not translated. <bold>g</bold> Immunofluorescence staining for S-tag-TMEM53 and Lamin A in MG-63 cell (<italic>n</italic>&#x2009;=&#x2009;3 independent experiments). T.1 Mut and T.3 Mut failed in nuclear envelope targeting, while T.1 WT and T.3 WT were expressed around the nuclear envelopes. The scale bar represents 20&#x2009;&#x3BC;m. Source data are provided as a Source Data file.</p></caption><graphic xlink:href="41467_2021_22340_Fig2_HTML" id="d32e1249"/></fig></p>
+        <p id="Par8"><italic>TMEM53</italic> has four RefSeq transcripts, here named T.1 (NM_024587.4), T.2 (NM_001300746.1), T.3 (NM_001300747.2), and T.4 (NM_001300748.2), with T.1 showing the highest expression in multiple tissue and cell types (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>). The variant c.222_223insCATG is located in the coding sequences of T.1 and T.2 (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b</xref>), thus causing a frame-shift in exon 3. Because exon 3 is the last exon, nonsense-mediated mRNA decay (NMD) would not occur. Instead, the mutated T.1 and T.2 would produce two truncated proteins, p.V75Hfs*26 and p.V2Hfs*26 (NP_078863.2), respectively, that lack the transmembrane domain (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">3a</xref>).</p>
+        <p id="Par9">The variant c.62-5_62-3delTTC neighbors the intron 1&#x2013;exon 2 junction (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b</xref>) and is predicted to cause abnormal splicing by multiple online programs (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>). RT-PCR analysis using RNA extracted from the peripheral blood of one affected individual (B-III-18) and their unaffected parents (B-II-4 and B-II-7) who carry c.62-5_62-3delTTC indicated an extra short band (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>), which corresponds to a T.3 variant in which exon 2 is skipped during the splicing process (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2d</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">3b</xref>). As a result, a premature stop codon is generated in exon 3, resulting in a truncated protein, p.N22Afs*7&#x3000;(NP_078863.2), which also lacks a transmembrane domain (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">3b</xref>). Unlike the complete loss of normal T.3 in the affected individual, normal T.3 was still detected in the heterozygous parents (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>). Notably, the band corresponding to T.1 in the normal individual and heterozygous parents did not exist in the affected individual (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>), indicating that c.62-5_62-3delTTC leads to complete loss of the T.1 transcript, which has both the highest expression in normal individuals and represents the longest protein coding sequence.</p>
+        <p id="Par10">In summary, c.222_223insCATG in Family A potentially generates two truncated proteins (p.V75Hfs*26 and p.V2Hfs*26), and c.62-5_62-3delTTC in Families B&#x2013;D causes T.1 loss and generates one truncated protein, p.N22Afs*7 (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2e</xref>). All three truncated proteins lack the transmembrane domain, which is necessary for nuclear envelope targeting of transmembrane proteins<sup><xref ref-type="bibr" rid="CR10">10</xref>, <xref ref-type="bibr" rid="CR11">11</xref></sup>. To assess their subcellular localization, we expressed these truncated proteins and the corresponding normal isoforms with S-tag in the MG-63 cell line (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2f</xref>). Immunocytochemistry (ICC) for the tagged proteins indicated that p.V75Hfs*26 and p.N22Afs*7 failed to target the nuclear envelopes, where their normal isoforms were localized (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2g</xref>). T.2 and its truncated protein, p.V2Hfs*26, were expressed on mRNA, but not on protein level (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2f</xref>), which is consistent with the observation that the vast majority of genes have a single dominant splice isoform that is translated regardless of the variety of alternative splice variants predicted to exist at the transcript level<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. Since T.1 shows the highest expression in multiple tissue types, including cartilage (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>), and its disruption is a sufficient condition to cause the disease in the patients with c.222_223insCATG (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2e</xref>), T.1 is probably the most important transcript in the developing skeleton.</p>
+      </sec>
+      <sec id="Sec4">
+        <title><italic>Tmem53</italic> mutant mice recapitulated the human SBD associated with <italic>TMEM53</italic> pathogenic variants</title>
+        <p id="Par11">TMEM53 is highly conserved among species and is 86.3% identical between human and mouse (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">4</xref>). To generate <italic>Tmem53</italic>-deficient mice, we introduced deleterious mutations into the coding region by CRISPR/Cas9-mediated gene editing. A targeting site shared by all six RefSeq transcripts of <italic>Tmem53</italic> was selected to guarantee that the mutation could disrupt all transcripts (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">5a</xref>). As a result, three lines with three frame-shift mutations that would produce truncated proteins without a transmembrane domain in all transcripts were established (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">5b, c</xref>), and all of the lines showed late-onset short stature. Phenotypes of the line <italic>Tmem53</italic><sup><italic>1bin/1bin</italic></sup> were evaluated in detail in the following experiments.</p>
+        <p id="Par12">As summarized in Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>, all affected individuals who were homozygous for <italic>TMEM53</italic> pathogenic variants showed normal development until birth and late-onset short stature. Similarly, the <italic>Tmem53</italic> mutant mice did not display severe skeletal abnormity at birth (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref>) but later exhibited late-onset short stature (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3b, c</xref>). The craniofacial dysmorphias observed in the affected subjects, including tall forehead (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1f, k, m, o</xref>) and hypertelorism (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1e, g, h</xref>), were also found in the <italic>Tmem53</italic> mutant mice (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3d, e</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">6</xref>). In addition, the mutant mice showed thickening of the calvaria and minor sclerosis of the skull base (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3f&#x2013;i</xref>), which we highlighted for the affected individuals (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1k, m, o</xref>). Like some other SBDs<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>, the cranial nerve compression caused by bony overgrowth of the cranial nerve foramina also existed in the affected individuals, who had optic nerve compression with resultant vision impairment (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1i</xref> and Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). Although the vision of the <italic>Tmem53</italic> mutant mice was not evaluated in this study, hyperostosis of the skull base (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3f</xref>) and narrowing of the bony fissure relevant to the optic foramen were observed in the mice (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">7</xref>). Another radiographic feature of the SBD was platyspondyly, i.e., flattened vertebral bodies throughout the axial skeleton (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1p, s, v</xref>), which was also identified in the <italic>Tmem53</italic> mutant mice (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3j, k</xref>). With respect to the tubular bones, the patients showed proportionally short limbs and hands, and under-constriction of the diaphyses (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1q, t, w</xref>), which were also observed in the mutant mice (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3l&#x2013;m</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">8</xref>). Thus, the <italic>Tmem53</italic> mutant mice recapitulated the skeletal features identified in the affected subjects, who were homozygous for <italic>TMEM53</italic> pathogenic variants, reinforcing the genetics-based hypothesis presented above that <italic>TMEM53</italic> is the causal gene for the previously unknown type of SBD.<fig id="Fig3"><label>Fig. 3</label><caption><title><italic>Tmem53</italic> mutant mice recapitulate the human skeletal dysplasia associated with <italic>TMEM53</italic> pathogenic variants.</title><p><bold>a</bold> Lateral views of skeletal preparation of wild-type (WT) and <italic>Tmem53</italic> mutant mice (Mutant) at P7. Scale bar, 5&#x2009;mm. <bold>b</bold> Dorsal views of male WT and Mutant at P24 and P93. Scale bar, 1&#x2009;cm. <bold>c</bold> Measurement of the body length (<italic>n</italic>&#x2009;=&#x2009;9, 15, 15, 17). <italic>P</italic>&#x2009;=&#x2009;0.48 and 1&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup>* for P24 and P93, respectively. <bold>d</bold> Representative 3D images reconstructed from micro-CT stacks of P113 mouse skull. The upper, middle, and lower panels show dorsal, lateral, and frontal views, respectively. The yellow and red dotted lines show the skull height and the distance between the medial canthi of bony orbits, respectively. Scale bar, 1&#x2009;mm. <bold>e</bold> Measurement of the distance between medial canthi (<italic>n</italic>&#x2009;=&#x2009;6). *<italic>P</italic>&#x2009;=&#x2009;0.000021. <bold>f</bold> Lateral views of color-coded Z-projection images of Micro-CT stacks. The areas highlighted by the dotted box in the upper panels are magnified in the lower panels. Scale bar, 1&#x2009;mm. <bold>g</bold> Quantification of relative bone density of the skull bases (<italic>n</italic>&#x2009;=&#x2009;6). AU, arbitrary unit. *<italic>P</italic>&#x2009;=&#x2009;0.0002. <bold>h</bold> Sagittal micro-CT images of adult mice. The lower panels are the areas highlighted in the upper panels. Scale bar, 1&#x2009;mm. <bold>i</bold> Quantification of the calvarial thickness (<italic>n</italic>&#x2009;=&#x2009;6). *<italic>P</italic>&#x2009;=&#x2009;0.0002. <bold>j</bold> Lateral views of X-ray images of P113 mouse tails. The areas highlighted by the dotted box in the upper panels are magnified in the lower panels. Scale bar, 1&#x2009;cm. <bold>k</bold> Measurement of the average height of the three caudal vertebral bodies shown in <bold>j</bold> (<italic>n</italic>&#x2009;=&#x2009;8). *<italic>P</italic>&#x2009;=&#x2009;0.00000003. <bold>l</bold> Skeletal preparation of left hind paws at P7. The red bracket shows the ossified portion of the first metatarsus. Scale bar, 1&#x2009;mm. <bold>m</bold> Quantitative analysis of the ossified portion of the metatarsal bones (<italic>n</italic>&#x2009;=&#x2009;4 and 6). *FDR-adjusted <italic>P</italic>&#x2009;=&#x2009;0.0010, 0.000051, 0.000051, 0.00088, and 0.0025. The above quantitative data indicate mean&#x2009;&#xB1;&#x2009;SD and statistical significance was assessed using two-sided <italic>t</italic>-test. Source data are provided as a Source Data file.</p></caption><graphic xlink:href="41467_2021_22340_Fig3_HTML" id="d32e1547"/></fig></p>
+      </sec>
+      <sec id="Sec5">
+        <title>Enhanced osteoblast differentiation in the calvaria of the <italic>Tmem53</italic> mutant mice</title>
+        <p id="Par13">To identify the molecular mechanisms underlying the skeletal phenotypes caused by TMEM53 deficiency, we examined the expression pattern of <italic>Tmem53</italic> in mouse heads. In situ hybridization for <italic>Tmem53</italic> showed high expression in calvaria (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>), which were thickened in the <italic>Tmem53</italic> mutant mice (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2h</xref>) and the <italic>TMEM53</italic> mutant individuals (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1k, m, o</xref>). Then, the calvaria dissected from the <italic>Tmem53</italic> mutant mice and its heterozygous siblings were subjected to RNA sequencing (RNA-seq). From a total of 14,836 genes on which gene expression profiling was performed, we identified 1278 differentially expressed genes (DEGs) (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b</xref>). These DEGs were enriched for some Gene Ontology (GO) terms, and the most enriched term was &#x201C;ossification&#x201D; (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4c</xref>), which can be considered as closely related to thickening of the calvaria in the <italic>Tmem53</italic> mutants, since a calvarium is formed via intramembranous ossification, in which bone develops directly from sheets of undifferentiated mesenchymal connective tissue<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. To assess the bone differentiation status of the calvaria, we examined the known marker genes of osteogenic precursors, osteoblasts, and osteocytes in the RNA-seq dataset (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d</xref>) and validated the findings by RT&#x2013;qPCR (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4e</xref>). Osteogenic precursor and early osteoblast markers <italic>Runx2</italic> and <italic>Sp</italic>7 were increased (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d, e</xref>), suggesting enhanced differentiation of mesenchymal stem cells into pre-osteoblasts in the mutant calvaria. Accordingly, the downstream genes of <italic>Runx2</italic> and <italic>Sp7</italic>, <italic>Alpl</italic>, <italic>Bglap</italic> and <italic>Ibsp</italic>, were upregulated as well (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d, e</xref>). The elevated genes are late osteoblast and osteocyte markers, thus revealing increased bone formation in the <italic>Tmem53</italic> mutant mice, which was further confirmed by ALP and Alizarin Red (AR) staining of the wild-type and mutant calvaria (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4f</xref>). We also checked the proliferation markers in the RNA-seq dataset, and no significant change was recorded (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d</xref>). A methyl thiazolyl tetrazolium (MTT) assay for the primary calvarial cells did not show a difference for cell growth (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">9</xref>). These results support the hypothesis that the calvaria thickening in the <italic>Tmem53</italic> mutant is caused by enhanced osteoblast differentiation rather than proliferation.<fig id="Fig4"><label>Fig. 4</label><caption><title>Enhanced differentiation of calvaria osteoblast in <italic>Tmem53</italic> mutant mice.</title><p><bold>a</bold> In situ hybridization (ISH) for <italic>Tmem53</italic>. The upper panels show dorsal views of cephalic whole-mount ISH at E16.5, scale bar, 1&#x2009;mm; the lower panels show coronal ISH sections of the calvaria at P1, scale bar, 100&#x2009;&#x3BC;m (<italic>n</italic>&#x2009;=&#x2009;3 mice). <bold>b</bold> Volcano plot of RNA-seq data for calvaria showing differentially expressed genes (DEGs) in <italic>Tmem53</italic> mutant mice (Homo) versus their heterozygous littermates (Hetero) (<italic>n</italic>&#x2009;=&#x2009;3 animals for each group) with respect to fold change (FC) and significance (adjusted <italic>P</italic> value). Each dot represents an individual gene. Gray dots represent genes with no significantly differentially expressed (<italic>P</italic>&#x2009;&gt;&#x2009;0.05). Green dots represent significant downregulated DEGs (FC&#x2009;&lt;&#x2009;0.5) and red dots represent significant upregulated DEGs (FC&#x2009;&gt;&#x2009;2). Statistical significance was assessed using two-sided <italic>t</italic>-test. <italic>P</italic> value is adjusted by false discovery rate (FDR). <bold>c</bold> Gene ontology (GO) enrichment analysis for the DEGs by DAVID 6.8 showing top 10 significantly enriched GO terms for the DEGs in biological processes. Statistical significance was assessed using one-sided Fisher&#x2019;s exact probability test. <italic>P</italic> value is adjusted by FDR. <bold>d</bold> Heat map of representative DEGs associated with osteoblast differentiation and representative genes associated with cell proliferation. <bold>e</bold> RT&#x2013;qPCR-based validation of the DEGs found via RNA-seq to be upregulated in the calvaria of <italic>Tmem53</italic> mutant mice. WT, wild type. Data are mean&#x2009;&#xB1;&#x2009;SD (<italic>n</italic>&#x2009;=&#x2009;3 biologically independent samples). *<italic>P</italic>&#x2009;=&#x2009;0.000003, 0.0008, 0.0025, 0.0008, and 0.00005 for <italic>Runx2</italic>, <italic>Sp7</italic>, <italic>Alpl</italic>, <italic>Ibsp</italic>, and <italic>Bglap</italic>, respectively. Statistical significance was assessed using two-sided <italic>t</italic>-test. <bold>f</bold> Dorsal views of the skull stained by Alizarin Red (AR) at P2, alkaline phosphatase staining (ALP) at E16.5, and tartrate-resistant acid phosphatase (TRAP) at P4, respectively (<italic>n</italic>&#x2009;=&#x2009;3 animals for each group). Scale bar, 1&#x2009;mm. Source data are provided as a Source Data file.</p></caption><graphic xlink:href="41467_2021_22340_Fig4_HTML" id="d32e1736"/></fig></p>
+      </sec>
+      <sec id="Sec6">
+        <title>TMEM53 deficiency overactivates the BMP signaling pathway during calvaria ossification</title>
+        <p id="Par14">The BMP signaling pathway plays important roles in the craniofacial development by upregulating the osteogenesis-related genes such as <italic>Dlx5</italic> and <italic>Runx2</italic> (refs. <sup><xref ref-type="bibr" rid="CR14">14</xref>&#x2013;<xref ref-type="bibr" rid="CR16">16</xref></sup>). Since Runx2 and other downstream markers of bone formation were increased in the calvaria of <italic>Tmem53</italic> mutant mice (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d, e</xref>), we hypothesized that <italic>Tmem53</italic> deficiency could enhance osteoblast differentiation by modulating the BMP signaling pathway. To verify the hypothesis, we performed an enrichment analysis using the calvaria RNA-seq dataset and found that the DEGs were enriched for the reported target genes of Smad1/5/4 (ref. <sup><xref ref-type="bibr" rid="CR17">17</xref></sup>) (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">10</xref>). Notably, the representative downstream transcriptional targets of BMP signaling, <italic>Id1</italic>, <italic>Dlx3</italic>, and <italic>Dlx5</italic> (refs. <sup><xref ref-type="bibr" rid="CR18">18</xref>&#x2013;<xref ref-type="bibr" rid="CR20">20</xref></sup>), were significantly upregulated in the <italic>Tmem53</italic> mutant (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5a</xref>), suggesting overactivated BMP-SMAD signaling in the calvaria.<fig id="Fig5"><label>Fig. 5</label><caption><title>TMEM53 deficiency upregulates BMP-SMAD signaling by facilitating p-SMAD1/5/9 nuclear translocation.</title><p><bold>a</bold> Heat map of representative Smad1/5/9 target genes expressed differentially between <italic>Tmem53</italic> mutant mice (Homo) and their heterozygous littermates (Hetero). <bold>b</bold> Alkaline phosphatase (ALP) and Alizarin Red (AR) staining of primary calvaria cells. <bold>c</bold>, <bold>d</bold> Quantification of ALP and AR staining; <italic>n</italic>&#x2009;=&#x2009;5 biologically independent samples. FDR-adjusted <italic>P</italic>&#x2009;=&#x2009;0.60, 0.011*, and 0.000073* for AR staining. <italic>P</italic>&#x2009;=&#x2009;0.18, 0.0012*, and 0.000089* for AR staining. AU, arbitrary unit. <bold>e</bold> qPCR for BMP2-induced osteoblast markers in MC3TC-E1 cells; <italic>n</italic>&#x2009;=&#x2009;4 biologically independent samples. *<italic>P</italic>&#x2009;&lt;&#x2009;1&#x2009;&#xD7;&#x2009;10<sup>&#x2212;5</sup>. <bold>f</bold> Smad1/5/9-mediated BMP2 signaling activity in Hela cells with <italic>TMEM53</italic> depletion or overexpression. KO1 and KO2: two <italic>TMEM53</italic> knockout lines. BRE, BMP response element; <italic>n</italic>&#x2009;=&#x2009;6 biologically independent samples. *<italic>P</italic>&#x2009;=&#x2009;9.3&#x2009;&#xD7;&#x2009;10<sup>&#x2212;11</sup>, **<italic>P</italic>&#x2009;&lt;&#x2009;1&#x2009;&#xD7;&#x2009;10<sup>&#x2212;15</sup>. <bold>g</bold> Immunocytochemistry (ICC) for P-Smad1/5/9 in BMP2-treated primary calvaria cells. Scale bar, 20&#x2009;&#x3BC;m. <bold>h</bold> Quantification of nuclear to cytoplasmic (nuc/cyto) ratio of P-Smad1/5/9 in <bold>g</bold>; 42 and 54 cells were quantified, *<italic>P</italic>&#x2009;&lt;&#x2009;1&#x2009;&#xD7;&#x2009;10<sup>&#x2212;15</sup>. <bold>i</bold> Western blot of cytoplasmic and nuclear fractions of WT and mutant (Mut) primary calvaria cells; <italic>n</italic>&#x2009;=&#x2009;3 independent experiments. <bold>j</bold> Western blot of whole-cell lysate; <italic>n</italic>&#x2009;=&#x2009;3 independent experiments. <bold>k</bold> ICC of BMP2-treated WT and <italic>TMEM53</italic> knockout (KO) Hela cells. WT and p.V75Hfs*26 (Mut) TMEM53 were expressed in the KO cells to rescue the KO effect. Scale bar, 20&#x2009;&#x3BC;m. <bold>l</bold> Quantification of nuc/cyto ratio of P-SMAD1/5/9 in <bold>k</bold>; 149, 140, 237, and 149 cells were quantified. *<italic>P</italic>&#x2009;&lt;&#x2009;1 &#xD7;10<sup>-15</sup>. The data indicate mean&#x2009;&#xB1;&#x2009;SD. Statistical test: two-sided <italic>t</italic>-test for <bold>c</bold>, <bold>d</bold>, and <bold>h</bold>; one-way ANOVA for <bold>e</bold>, <bold>f</bold>, and <bold>l</bold>. <bold>m</bold> Working model. TMEM53 works as a gate-keeper of BMP-SMAD signal at outer nuclear membranes to inhibit the BMP-activated osteogenic pathway. The <italic>TMEM53</italic> pathogenic variants cause loss-of-function of TMEM53, thus facilitating the nuclear accumulation of P-Smad1/5/9. Imp, importins; NPs, nucleoporins; BRE, BMP response element; NE, nuclear envelope; ER, endoplasmic reticulum. Source data are provided as a Source Data file.</p></caption><graphic xlink:href="41467_2021_22340_Fig5_HTML" id="d32e1943"/></fig></p>
+        <p id="Par15">We then assessed the bone formation capacity of the primary calvaria cells by in vitro induction. The ALP and AR staining showed increased osteoblastic activity and calcification in <italic>Tmem53</italic> mutant cells upon induction of osteoblast differentiation (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5b&#x2013;d</xref>). Notably, the difference of bone formation capacity between wild-type and mutant calvaria cells was increased by BMP2 stimulation (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5b&#x2013;d</xref>) and ablated by adding K02288, a selective inhibitor of the BMP type I receptor kinases<sup><xref ref-type="bibr" rid="CR21">21</xref></sup> (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">11</xref>). We further evaluated markers of bone formation in response to BMP2 stimulus using MC3T3-E1, a mouse calvaria-derived osteoblastic cell line. Compared to the normal control, cells with <italic>Tmem53</italic> knockdown expressed higher levels of osteoblast markers (<italic>Bglap</italic> and <italic>Alpl</italic>) in response to BMP2 stimulus (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5e</xref>). These results suggest that <italic>Tmem53</italic> deficiency enhances BMP signal-induced bone formation in calvaria cells.</p>
+        <p id="Par16">To decide whether <italic>TMEM53</italic> regulates the SMAD-dependent BMP signaling pathway, we generated <italic>TMEM53</italic> knockout (KO) human cell lines by deleting the largest exon, which contains 78% of the coding sequence, in Hela cells (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">12</xref>). We used these cell lines in a BMP reporter assay<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> and quantified SMAD-dependent BMP signaling activity. The assay showed that BMP signaling activity was upregulated in two independent <italic>TMEM53</italic> KO cell lines and was downregulated when <italic>TMEM53</italic> was overexpressed (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5f</xref>). Exogenous expression of <italic>TMEM53</italic> restored the BMP overactivity in <italic>TMEM53</italic> KO cell lines (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5f</xref>). These results demonstrate that TMEM53 plays an inhibitory role in the activation process of the SMAD-dependent BMP signaling pathway, suggesting the enhanced ossification in the calvaria of the <italic>Tmem53</italic> mutant mice and the individuals with <italic>TMEM53</italic> pathologic variants is caused by overactivation of the BMP signaling pathway.</p>
+      </sec>
+      <sec id="Sec7">
+        <title>TMEM53 deficiency increased nuclear localization of phosphorylated SMAD1/5/9</title>
+        <p id="Par17">To explore the mechanism that regulates overactivation of SMAD-dependent BMP signaling in the calvaria of the <italic>Tmem53</italic> mutant mice, we performed ICC for phosphorylated Smad1/5/9 in primary calvaria cells stimulated with BMP2. We found that phosphorylated Smad1/5/9 increased in the nucleus and correspondingly decreased in the cytoplasm (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5g, h</xref>), and those findings were supported by Western blot analysis of the cytoplasmic and nuclear protein extracts (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5i</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">13</xref>). In contrast, the whole-cell lysate did not show significant changes in the phosphorylation levels of Smad1/5/9 (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5j</xref>), and neither were Smad1/5/9/4 mRNA levels altered in calvaria RNA-seq data (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">14</xref>). These results suggest that overactivated BMP signaling in the calvaria of the <italic>Tmem53</italic> mutant mice can be attributed to the excessive trafficking of phosphorylated Smad1/5/9 into the nucleus rather than to their increased expression or phosphorylation levels. We performed ICC for phosphorylated SMAD1/5/9 in <italic>TMEM53</italic> KO Hela cells and observed the same trend as in the primary calvaria cells of the <italic>Tmem53</italic> mutant mice (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5k, l</xref>). Thus, the effect of the mutation in mice is equivalent to gene KO with respect to regulation of BMP signaling. Due to the phenotypic similarity between the <italic>Tmem53</italic> mutant mice and the individuals with <italic>TMEM53</italic> pathologic variants, it is reasonable to conclude that the previously unknown type of skeletal dysplasia is causally associated with loss-of-function of TMEM53 in regulating the cytoplasm&#x2013;nucleus translocation of phosphorylated SMAD1/5/9 (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5m</xref>). This is further supported by the results of a rescue experiment in <italic>TMEM53</italic> KO cells, in which wild-type TMEM53, but not the truncated TMEM53 protein produced using the patient-derived pathogenic variant, succeeded in restoring the nuclear to cytoplasmic ratio of phosphorylated SMAD1/5/9 (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5k, l</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="Sec8" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par18">In this study, we discovered a previously unknown type of skeletal dysplasia with an autosomal recessive mode of inheritance. The observed skeletal changes have some similarities to three diseases belonging to the group of craniotubular dysplasias: craniometadiaphyseal dysplasia (CRMDD, MIM: %269300)<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>, craniometaphyseal dysplasia, Jackson type (CMD, MIM: #123000)<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>, and craniodiaphyseal dysplasia, Joseph-Halliday type (CDD, MIM: #122860)<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. However, definite differences exist between our cases and patients with those SBDs. Although CRMDD also presents with sclerosis of the base of the skull, the calvaria show thinning rather than thickening. Multiple Wormian bones, dental hypoplasia, and frequent fractures are present in CRMDD, but no platyspondyly is found in CRMDD. CMD shows club-shaped metaphyseal widening of tubular bones, while our cases display quite mild metaphyseal dysplasias. Moreover, CMD does not show platyspondyly and under-constricted diaphysis, which are characteristic in our cases. CDD is by far more severe than our cases. CDD is lethal and shows severe craniofacial abnormalities, including distorted faces and prominent jaw. In addition, dental malocclusion and premature loss of teeth are observable in CDD. These obvious differences provide an operable guideline to separate the disorder reported here from the known skeletal dysplasias in clinical practice, supporting the consideration of this disorder as a previously unreported clinical entity that we suggest designating as craniotubular dysplasia, Ikegawa type.</p>
+      <p id="Par19">So far, two skeletal disorders are known to be explicitly related to BMP-signaling: Myhre syndrome caused by <italic>SMAD4</italic> pathogenic variants (MIM: # 139210)<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> and BMPR1B-related brachydactyly (MIM: # 609441, # 616849, # 112600)<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, but both show no hyperostosis. The previously unknown disorder identified in this study shows a strong relationship with BMP signaling, thus probably being the only hyperostosis caused by overactivity of BMP signaling. As the other branch of TGF-&#x3B2; family signaling, overactivity of TGF-&#x3B2; signaling is considered to be the mechanism of Camurati&#x2013;Engelmann disease (MIM: # 139210)<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>. The hallmark of Camurati&#x2013;Engelmann disease is the cortical thickening of diaphyses of the long bones, which was not found in our cases.</p>
+      <p id="Par20">In our study, multiple pieces of genetic and biological evidence from humans and mice indicate that the previously unknown type of SBD is caused by loss-of-function of TMEM53. TMEM53 deficiency leads to overactivation of the BMP signaling pathway, which plays key roles in craniofacial development<sup><xref ref-type="bibr" rid="CR14">14</xref>, <xref ref-type="bibr" rid="CR15">15</xref></sup>. Overactivated BMP signaling during intramembranous ossification would cause hyperostosis with resultant calvarial thickening, which were observed in both human and mouse <italic>TMEM5</italic>3 mutants. Notably, besides the enhanced osteoblastogenesis in the mutant calvaria, we found an asymmetrical change in TRAP5 (tartrate-resistant acid phosphatase) staining (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4f</xref>), which suggests a defect in osteoclastogenesis, which probably also contributed to the dysregulated ossification. The defective osteoclastogenesis may be a change secondary to the defective osteoblastogenesis due to the close coupling of bone formation and resorption during calvarial remodeling<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Alternatively, the unequal distribution of TRAP staining is only due to the asymmetrical skull development, which is mirrored by the dysmorphic coronal sutures in the <italic>Tmem53</italic> mutant mice (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">15</xref>). Cranial sutures serve as growth centers composed of two osteogenic bone fronts on either side of the sutures. Maldevelopment of cranial sutures causes dysmorphogenesis of skulls in humans and mice<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>, and BMP signaling participates in the regulation of cranial suture morphogenesis<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. Thus, the dysmorphic coronal suture can be linked to the overactivated BMP signaling and contribute to the craniofacial dysmorphism in human and mouse <italic>TMEM53</italic> mutants.</p>
+      <p id="Par21">Besides cranial phenotypes, under-constriction or under-modeling in the meta-diaphyses of the mildly shortened tubular bones were another feature of the affected individuals with <italic>TMEM53</italic> pathogenic variants, and comparable phenotypes were evident in the <italic>Tmem53</italic> mutant mice as well (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3l, m</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">8</xref>). These findings suggest interrupted coordination of interstitial growth and appositional growth of tubular bones. Interstitial growth, also referred to as cartilaginous growth, elongates tubular bones by endochondral ossification in the growth plate. The specific expression pattern of <italic>Tmem53</italic> in the proliferative and pre-hypertrophic zones of the growth plate supports its functional involvement in the elongation of tubular bones (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">16a</xref>). In the <italic>Tmem53</italic> mutant mice, we observed a thickened growth plate in the femur (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">16b, c</xref>), and prior studies have shown that BMP signaling is important for growth plate regulation<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. Together with our observations that <italic>Tmem53</italic> knockdown increased BMP2-induced chondrocyte markers in chondrogenic ATDC5 cells (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">16d&#x2013;f</xref>), these results suggest <italic>Tmem53</italic> deficiency promotes chondrogenesis in the growth plate by overactivating BMP signaling. The enhanced chondrogenesis would disturb normal ossification in the growth plate and result in delayed growth in the length of tubular bones. In contrast to interstitial growth, appositional growth is a process of periosteal bone shaping, which determines the contour and diameter of tubular bones by coupling bone formative and resorptive activities beneath the periosteum. Unlike endochondral ossification in growth plates, periosteal bone shaping of tubular bones is similar to intramembranous ossification of the calvaria. The failure in the process manifests as &#x201C;under-constriction&#x201D; or &#x201C;under-modeling&#x201D; of meta-diaphyses in several known human bone dysplasias<sup><xref ref-type="bibr" rid="CR3">3</xref>, <xref ref-type="bibr" rid="CR28">28</xref>, <xref ref-type="bibr" rid="CR29">29</xref></sup>. Additionally, <italic>Tmem53</italic> is highly expressed in the periosteal zone of tubular bones as well as in the calvaria (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">16a</xref>). These lines of evidence imply that the under-modeling of the meta-diaphyses of the tubular bones in human and mouse <italic>Tmem53</italic> mutants could be caused by a potential defect in periosteal bone shaping stemming from a molecular mechanism similar to that revealed for calvaria.</p>
+      <p id="Par22">TMEM53 belongs to the family of NET proteins, which were identified based on their subcellular localization at the nuclear envelope<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. As the boundary between the cell nucleus and cytoplasm, nuclear envelopes are formed by a specialized domain of the endoplasmic reticulum, where two closely juxtaposed lipid bilayers constitute a double-membrane sheet, the inner nuclear membrane (INM) and the outer nuclear membrane (ONM). Nuclear envelopes serve as a protective shell for the genome and a versatile communication interface between nucleus and cytoplasm. Pathogenic variants in NET proteins cause monogenic diseases, including muscular dystrophies, lipodystrophies, and neuropathy<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. In addition, loss-of-function of an INM protein called the LEM domain containing 3 (LEMD3) results in a special SBD spectrum, osteopoikilosis (MIM: #166700)<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Our study provides the second case wherein deficiency of a NET protein induces SBD, thus reinforcing the functional link between NET proteins and the regulation of bone density. Besides SBD, <italic>TMEM135</italic>, which encodes another NET protein, was identified as a susceptibility gene for osteoporosis in several studies<sup><xref ref-type="bibr" rid="CR32">32</xref>, <xref ref-type="bibr" rid="CR33">33</xref></sup>. These ever-growing lines of evidence suggest that the NET protein family could play hitherto unknown roles in bone metabolism as it relates to health and disease.</p>
+      <p id="Par23">The study of TMEM53 function at the tissue and organism levels has not been reported previously. As far as we know, the only report about TMEM53 function is an in vitro research report indicating that TMEM53 affects cell cycle regulation in some cell lines<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. However, the RNA-seq data of the calvaria of the <italic>Tmem53</italic> mutant mice did not show changes in proliferation markers (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d</xref>). Also, the in vitro culture of the primary calvarial cells did not show any difference in the cell growth (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">9</xref>). The inconsistent findings imply that the effect of Tmem53 on cell cycles may depend on tissue and cell types as revealed by the previous report<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Instead, we found that TMEM53 deficiency promoted osteoblast differentiation by overactivation of BMP signaling. The BMP signaling pathway plays key roles in bone formation and development, and its intracellular regulation is realized by the modulation of the SMAD proteins. Our study reveals that TMEM53 prevents the nuclear accumulation of SMAD1/5/9 without affecting their levels of expression and phosphorylation. Nucleocytoplasmic transport of the SMAD proteins occurs through the nuclear pore complex (NPC)<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. NPCs are assembled by multiple copies of ~30 different nucleoporins, which form a hydrophobic channel through the nuclear envelope. The trafficking process refers to multiple rounds of interaction among SMADs, transport receptors, and nucleoporins<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. As an ONM protein<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>, TMEM53 might be engaged in these interactions to hamper SMAD1/5/9 translocation into the nucleus (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5m</xref>). The underlying mechanism by which TMEM53 functions as a gate-keeper of BMP-SMAD signaling at the nuclear membrane needs further study.</p>
+    </sec>
+    <sec id="Sec9">
+      <title>Methods</title>
+      <sec id="Sec10">
+        <title>Patients</title>
+        <p id="Par24">Individual A-V-1, a 19-year-old Indian male, was one of the two children of healthy and consanguineous parents (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>). His birth and development were uneventful. Left orchiopexy has been performed at the age of 3 years. Short stature and mild coarsening of the face were recorded at age 5. He was first noted to have diminished vision at age 8 and completely lost vision in both eyes at age 10. He received decompression of optic nerves at age 10, which was not successful. He attained puberty at an appropriate age. He lost hearing in both ears at age 18. When he was age 19, his height was 150&#x2009;cm (&#x2212;3.6&#x2009;SD), arm span 149&#x2009;cm, lower segment 77&#x2009;cm, occipital&#x2013;frontal circumference (OFC) 55.5&#x2009;cm, and weight 50&#x2009;kg (&#x2212;1.2&#x2009;SD). He had prominent forehead, dolichocephaly, broad nasal root, anteverted nares, hypertelorism, epicanthic folds, thick vermillion of upper and lower lips, and prominent glabella (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1e, f</xref>). Ophthalmic evaluation revealed phthisis of the right eye and optic nerve atrophy of the left eye. Visual evoked potential test revealed no wave form in both eyes. The routine laboratory tests were normal. His skeletal survey showed thick calvaria, minor sclerosis of the skull base, broad ribs, mild platyspondyly, broad femoral neck, under-constriction of diaphyses of metacarpals and phalanges, and mild metaphyseal dysplasia of the knee joints (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1e, f, j, k, p&#x2013;r</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">17a&#x2013;d</xref>). Computed tomography (CT) of the orbits revealed diffuse thickening of calvaria with narrowing of the bony orbits and optic canals (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">17e</xref>). Right frontal orbitotomy was done for deterioration of vision. The subsequent imaging studies revealed progressive thickening of calvaria and constricting of all the foramina at the skull base. His brain was normal on imaging.</p>
+        <p id="Par25">Individual A-V-2, a younger sister of A-V-1 (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>), was born by a Cesarean section and weighed 2.45&#x2009;kg at birth. She had a ventricular septal defect that closed spontaneously by 3 months of age. She had normal development and intelligence. She was apparently asymptomatic till age 10, when she was noticed to have short stature and shared characteristic facial features with her brother (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1g</xref>). Deterioration of her vision started at age 11. On the physical examination at age 12, her height was 138&#x2009;cm (&#x2212;2.7&#x2009;SD), arm span 137.5&#x2009;cm, lower segment 75&#x2009;cm, OFC 52&#x2009;cm, and weight 38&#x2009;kg (&#x2212;1.0&#x2009;SD). Her hearing was normal. She had bilateral optic atrophy. Her routine laboratory examinations were unremarkable. Her skeletal survey showed quite similar abnormalities to her brother, including thickened calvaria, broad ribs, platyspondyly with relatively wide intervertebral disc, widened femoral neck, meta-diaphyseal dysplasias of short tubular bones of the hand, and mild metaphyseal dysplasia of the knee joints (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1l, m, s&#x2013;u</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">18a&#x2013;d</xref>). CT of the head revealed normal brain and narrow optic canals (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1i</xref>).</p>
+        <p id="Par26">Individual B-III-18, was an 8-year-old girl, who sought medical consultation because of impaired vision within a few months of onset. Her birth, perinatal, and development history were unremarkable. The healthy parents were not consanguineous but were from the same village (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1b</xref>). Individual B-III-18 had a cousin (individual B-III-9) with the same disease (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1b</xref>). Her height was 107&#x2009;cm (&#x2212;3.6&#x2009;SD), OFC 53&#x2009;cm (normal), and weight 16&#x2009;kg (&#x2212;2.1&#x2009;SD). She had normal intelligence. She had dolichocephaly, tall forehead, prominent eyes, hypertelorism, and epicanthic fold, thick vermillion of lips, broad nasal root, anteverted nares, and long philtrum (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1h</xref>). The hematological tests were normal. Skeletal survey showed thick calvaria, broad ribs, mild platyspondyly, and broad and short tubular bones of hands (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">19a&#x2013;e</xref>). The long tubular bones of the upper limbs were normal (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">19f</xref>).</p>
+        <p id="Par27">Individual C-II-1, a 15-year-old boy, sought medical consultation for diminished bilateral vision. His birth and perinatal history were uneventful. Parents were healthy and non-consanguineously married (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1c</xref>). His height was 148&#x2009;cm (&#x2212;3 SD), weight 42.7&#x2009;kg (&#x2212;3 SD), arm span 134&#x2009;cm, and OFC 57&#x2009;cm (+1.3&#x2009;SD). He had macrocephaly, short hands, and small black colored nodules of 2&#x2013;3&#x2009;mm size on his face, and decreased vision. Eye evaluation revealed optic nerve compression, mydriasis, and cortical blindness. A skeletal survey showed thick calvaria, broad ribs, mild platyspondyly, broad and short tubular bones of hands, and mild metaphyseal dysplasia of knee joints (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1n&#x2013;o</xref>, <xref rid="Fig1" ref-type="fig">1v&#x2013;x</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">20a, b</xref>).</p>
+        <p id="Par28">Individual D-III-4, a 17-year-old male, was referred to us due to progressive diminishment of bilateral vision during the past 7 months. His birth and perinatal history were uneventful. The healthy parents were cousins and he had an elder sister with similar disease (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1d</xref>). His height was 138&#x2009;cm (&#x2212;5 SD), weight 35&#x2009;kg (&#x2212;4 SD), and OFC 56&#x2009;cm (+4&#x2009;SD). He had developmental delay, dolichocephaly, hypertelorism, muddy conjunctiva, strabismus, bilateral gynecomastia, and syndactyly of the left third and fourth fingers. Skeletal survey showed thick calvaria, broad ribs, mild platyspondyly, broad and short tubular bones of hands, and mild metaphyseal dysplasia of knee joints (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">21a&#x2013;f</xref>). Ophthalmic examination showed compressive optic neuropathy.</p>
+        <p id="Par29">The authors affirm that human research participants have seen and read the material to be published and have provided informed consent for publication of the images in Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1</xref> and Supplementary Figs.&#xA0;<xref rid="MOESM1" ref-type="media">17</xref>&#x2013;<xref rid="MOESM1" ref-type="media">21</xref>.</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Whole-exome sequencing</title>
+        <p id="Par30">The study was approved by the ethical committee of RIKEN, Kasturba Hospital, Manipal, and participating institutions (approval number: 17-16-40(3)). Genomic DNA were extracted by standard procedures from peripheral blood or saliva of the patients and/or their parents after informed consent. WES was performed as previously described<sup><xref ref-type="bibr" rid="CR28">28</xref>, <xref ref-type="bibr" rid="CR29">29</xref></sup>. Briefly, genomic DNA (3&#x2009;&#x3BC;g) was sheared by CovarisTM S2 system (Covaris) and processed using a SureSelectXT Human All Exon V5 kit (Agilent Technologies) or Nextera Rapid Capture Exome Kit (Illumina). We sequenced DNA captured by the kit using HiSeq 2000 (Illumina) or NextSeq500 Sequencer (Illumina). We performed the image analysis and base calling by HiSeq Control Software/Real Time Analysis and CASAVA1.6.0 or 1.8.2 (Illumina) and mapped the sequences to human genome hg19 by Novoalign (ver. 3.02.04) or BWA-MEM (ver. 0.7.15). We processed the aligned reads by Picard v.1.128 to remove PCR duplicate. Variants were called by Genome Analysis Toolkit (GATK) v2.7-4 based on GATK&#x2019;s best practice Workflow v3 and annotated by ANNOVAR<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>PCR and Sanger sequencing</title>
+        <p id="Par31">Peripheral blood was obtained from the patient and their parents after informed consent. Genomic DNA and total RNA were extracted from the blood by standard methods. Genomic fragments containing the variants identified by WES were amplified by PCR and sequenced for both strands. Total RNAs (1&#x2009;&#x3BC;g) were used to synthesize cDNA with a PrimeScript RT reagent Kit (Takara Bio). The electrophoretic bands of the PCR products were cut from the gel, purified, and sequenced. The PCR primer sets are shown in Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>. A 3730 DNA analyzer (Life Technologies) was used for the Sanger sequencing. Sequencher V.4.7 (Gene Codes) and Genetyx Ver.12 (Genetyx) were used for aligning sequencing chromatographs to reference sequences.</p>
+      </sec>
+      <sec id="Sec13">
+        <title>Construction of expression plasmids</title>
+        <p id="Par32">Clones for coding sequences of the three transcript variants of human <italic>TMEM53</italic> (GenBank: NM024587.4, NM001300746.1, NM001300747.2) were PCR-amplified from a cDNA library derived from human peripheral blood using KOD -Plus- (Toyobo). The PCR amplicons were cloned into the EcoRI and HindIII sites of the pTriEx4 expression vector (Novagen). The mutations were generated by inverse PCR-based site-directed mutagenesis kit (Toyobo). All PCR primers are shown in Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>.</p>
+      </sec>
+      <sec id="Sec14">
+        <title>Immunofluorescence staining</title>
+        <p id="Par33">MG63 or Hela cells in 8-well chamber slides (Nunc Lab-Tek, Thermo Scientific) were fixed in methanol:acetone (1:1) for 1&#x2009;min and permeabilized with 0.3% Triton X-100&#x2013;PBS for 10&#x2009;min. The cells were blocked in 5% milk/10% FCS&#x2013;0.3% bovine serum albumin/0.3% Triton X-100 in PBS for 30&#x2009;min at room temperature. The staining was performed using anti-S-tag dylight 488 (1:500 dilution, ab117509, Abcam), Lamin A (1:1000 dilution, #86846, Cell Sgnaling Technology), anti-phospho-Smad1/5/9 antibody (1:100 dilution, #13820, Cell Signaling Technology), anti-rabbit IgG-fluor 546 (1:250 dilution, A11035, Invitrogen), anti-mouse IgG-fluor 546 (1:500 dilution, A11030, Invitrogen), and DAPI. The slides were mounted in Dako fluoresce mounting medium (Dako) and examined with a Nikon A1Rsi microscope (Nikon). The quantification of cytoplasm&#x2013;nucleus translocation was performed using CellProfiler 3.0.0 with a customized analysis protocol of BBBC014v1 from the Broad Bioimage Benchmark Collection<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>.</p>
+      </sec>
+      <sec id="Sec15">
+        <title>Generation of <italic>Tmem53</italic> mutant mice</title>
+        <p id="Par34">All animal experimental protocols were approved by the Animal Experiments Committee of the RIKEN Center for Integrative Medical Sciences (approval number: 2019-009(5)) and conformed to institutional guidelines for the study of vertebrates. All animal experiments were carried out in accordance with the in-house guidelines for the care and use of laboratory animals of the RIKEN, Yokohama Institute, Japan. The mice were housed at a standard 12-h light/12-h dark cycle. The ambient temperatures is 21&#x2013;25&#x2009;&#xB0;C with 40&#x2013;60% humidity. For CRISPR/Cas9-mediated gene editing, guide RNAs (gRNAs) were designed using the GPP sgRNA Designer and CRISPR direct web sites. A DNA fragment containing T7 promoter followed by the gRNA sequence was PCR-amplified and cloned into the HindIII and XbaI sites of the pUC19 vector. The gRNAs were generated by T7 in vitro transcription (IVT) using MEGAshortscript Kit (Thermo Fisher Scientific). The Cas9 coding sequence was subcloned from pX330 (Addgene) into a pUC vector with T7 promoter. Using the linearized vector, Cas9 mRNA was synthesized by mMESSAGE mMACHINE T7 Ultra Kit (Thermo Fisher Scientific). Cas9 mRNA (20&#x2009;ng/&#xB5;l) and gRNAs (5&#x2009;ng/&#xB5;l) were dissolved in 10&#x2009;mM Tris-HCl solution containing 0.1&#x2009;mM EDTA (pH 8.0) and injected into the cytoplasm of fertilized eggs. The eggs were transferred to pseudo-pregnant female mice. Mutations in the offspring were identified by Sanger sequencing for tail tip genomic DNA. Mouse lines were established from founder mice carrying frame-shift mutations in targeted DNA sites. PCR primers for the plasmid construction and Sanger sequencing are listed in Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>.</p>
+      </sec>
+      <sec id="Sec16">
+        <title>Skeletal preparation</title>
+        <p id="Par35">After removing the skin and viscera, the mice were dehydrated with 100% ethanol for at least 3 days. The mice were stained with 0.03% Alcian blue 8 GX (Sigma) for 5 days and 0.002% Alizarin Red S (Sigma) in 1% KOH for 8&#x2009;h. Then, the mice were cleared with 20% glycerol/1% KOH solution for several days and stored in 100% glycerol.</p>
+      </sec>
+      <sec id="Sec17">
+        <title>ALP staining</title>
+        <p id="Par36">For the whole-mount staining, mouse calvaria were dissected out and fixed in 4% PFA/PBS overnight. The calvaria were immersed in 1-Step NBP/BCIP solution (Thermo Scientific) for 5&#x2009;h. The reaction was stopped by 4% PFA/PBS. For in vitro osteogenesis assay, primary calvaria cells were fixed in 4% PFA/PBS for 15&#x2009;min and incubated with 1-Step NBP/BCIP solution for 20&#x2009;min at room temperature. Images were captured using a MVX10 microscope equipped with a DP72 camera (Olympus).</p>
+      </sec>
+      <sec id="Sec18">
+        <title>TRAP staining</title>
+        <p id="Par37">TRAP staining solution was prepared by dissolving 0.01% naphthol AS-MX phosphate disodium (Sigma) and 0.06% Fast Red violet LB salt (Sigma) in TRAP buffer. The mouse calvaria were dissected out and fixed in 4% PFA/PBS overnight. Calvaria were immersed in the TRAP staining solution for 6&#x2009;h at room temperature. Images were captured using a MVX10 microscope equipped with a DP72 camera (Olympus).</p>
+      </sec>
+      <sec id="Sec19">
+        <title>Skeletal imaging by micro-CT and X-ray</title>
+        <p id="Par38">The skeletal morphology of the adult mice was analyzed by micro-CT scans with Scan Xmate-L090 (Comscan) or Inspexio SMX-100CT (Shimadzu), and X-ray with TRS-1005 (SOFRON). Three-dimensional reconstruction and image processing were performed with ImageJ software or Avizo 6.3.</p>
+      </sec>
+      <sec id="Sec20">
+        <title>In situ hybridization</title>
+        <p id="Par39">A 500-bp <italic>Tmem53</italic> cDNA fragment was amplified by RT-PCR and cloned into the XhoI and BamHI sites of the pBluescript II SK(+) vector. The PCR primers are listed in Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>. Antisense and sense RNA probes for <italic>Tmem53</italic> were transcribed from the linearized plasmids with a digoxygenin (DIG) RNA labeling kit (Roche). For the whole-mount in situ hybridization, mouse embryos were fixed in 4% paraformaldehyde/PBS overnight and dehydrated with methanol. After rehydration, the embryos were treated with proteinase K (Invitrogen) and hybridized with DIG-labeled probes at 65&#x2009;&#xB0;C overnight. For the in situ hybridization analysis of frozen sections, the heads of mouse neonates were dissected out and fixed with 4% PFA/PBS containing 20% sucrose for 3&#x2009;h. The specimens were then embedded in a cryo-embedding medium (Section-Lab) and frozen in <italic>n</italic>-hexane cooled with dry ice. Frozen sections (8-&#x3BC;m thick) were prepared using a cryostat microtome (Leica) and post-fixed with 4% PFA/PBS for 10&#x2009;min at room temperature and carbethoxylated twice in 0.1% DEPC/PBS. Sections were hybridized with DIG-labeled probes at 55&#x2009;&#xB0;C overnight. After washing, the hybridized RNA probes were detected with ALP-conjugated anti-DIG antibody (Roche) and BM purple (Roche). Images were captured using a MVX10 microscope equipped with a DP72 camera (Olympus) and a CX41 microscope equipped with a DP20 camera (Olympus).</p>
+      </sec>
+      <sec id="Sec21">
+        <title>RNA sequencing</title>
+        <p id="Par40">After P3 mice were sacrificed by decapitation, the calvaria were immediately dissected out and preserved in RNAlater RNA Stabilization Reagent (Qiagen). The dissected calvaria were frozen in liquid nitrogen and crushed by a cryopress (Microtec). The homogenized tissue powders were dissolved in ISOGEN solution (Nippon Gene) followed by total RNA extraction using Qiagen RNeasy kit (Qiagen). RNA sample quality was assessed using an Agilent 2100 Bioanalyzer (Agilent Technologies). rRNA was removed by Ribo-ZeroTM Magnetic Gold Kit (Illumina). The cDNA was synthesized by NEBNext Ultra Directional RNA Library Prep Kit for Illumina R (New England biolabs). The libraries were fed into an Illumina NovaSeq 6000 sequencer according to the manufacturer&#x2019;s instructions, with paired end reads and mean read lengths of 150&#x2009;bp. Read quality was assessed using FastQC, and adapters were trimmed from the reads using FASTX-toolkit. RNA-seq yielded ~30 million reads per sample.</p>
+      </sec>
+      <sec id="Sec22">
+        <title>Differential gene expression analysis of RNA-seq data</title>
+        <p id="Par41">The reads from the RNA-seq were aligned to the mouse genome (NCBI build37.2) using Tophat. Aligned reads were quantified using Cufflinks. Differential gene expression analysis was performed with Cuffdiff. The volcano plot and the heatmaps were created using RStudio (ver. 1.0.153) and GraphPad Prism 8.0, respectively. GO term enrichment analysis was performed by DAVID 6.8.</p>
+      </sec>
+      <sec id="Sec23">
+        <title>Primary cell isolation and in vitro osteogenesis assay</title>
+        <p id="Par42">Primary calvaria cells were isolated by digesting the P3 mouse calvaria with 1&#x2009;mg/ml collagenase A (Roche) for 20&#x2009;min three times. The cells were expanded in &#x3B1; MEM (Sigma) supplemented with 10% FBS to 70&#x2013;80% confluence prior to passaging. For in vitro osteogenesis assay, the passaged cells were cultured in osteogenic media containing osteoblast-inducer reagents (TAKARA) with or without 100&#x2009;ng/ml BMP2 (Humankine) or 1.0&#x2009;&#xB5;M K02288 (CAY 16678). The differentiated cells were stained by 1% Alizarin Red S (Sigma) 95% ethanol and 1-Step NBP/BCIP solution (Thermo Scientific) for 20&#x2009;min. Images were captured using a MVX10 microscope equipped with a DP72 camera (Olympus) and quantified using ImageJ. MC3T3-E1 and ATDC5 cells were cultured in &#x3B1; MEM (Sigma) supplemented with 10% FBS and DMEM/F12 (Sigma) supplemented with 5% FBS, respectively.</p>
+      </sec>
+      <sec id="Sec24">
+        <title>Generation of <italic>TMEM53</italic> KO cell lines</title>
+        <p id="Par43">Six gRNA sequences targeting genomic DNA within intron 2 or 3&#x2B9; UTR of <italic>TMEM53</italic> were designed by E-CRISP. Complementary oligos containing the <italic>TMEM53</italic> guide sequences and <italic>Bbs</italic>I ligation adapters were annealed and ligated into the <italic>Bbs</italic>I-digested pX330 vector (Addgene). These oligo sequences are listed in Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>. Nine pairs of pX330 vector containing gRNA sequences were transfected into Hela cells by TransIT-LT1 (Mirus), respectively. Each pair of gRNA sequences targets intron 2 and 3&#x2B9; UTR of <italic>TMEM53</italic>, respectively, thus leading to a deletion covering exon 3 of <italic>TMEM53</italic> (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">12a</xref>). The efficiencies of generating the deletions were detected by PCR for genomic DNA (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">12a</xref>). The pair of pX330 plasmids with the highest efficiency were selected and co-transfected with pEGFP-N1 (Clontech) vector, which was used as a fluorescent marker to sort transfected cells by FACSAria (BD Biosciences) (Supplementary Figs.&#xA0;<xref rid="MOESM1" ref-type="media">12b</xref> and&#xA0;<xref rid="MOESM1" ref-type="media">22</xref>). Monoclonal cell populations were obtained by limiting dilution of the sorted cells in half 96-well plate. The cell lines with deletions covering exon 3 of <italic>TMEM53</italic> were identified by PCR for genomic DNA (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">12c</xref>) and confirmed by Sanger sequencing (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">12d</xref>). RT-qPCR was performed to validate the KO effect (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">12e</xref>). PCR primers for the plasmid construction and Sanger sequencing are listed in Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>.</p>
+      </sec>
+      <sec id="Sec25">
+        <title>Knockdown of <italic>Tmem53</italic></title>
+        <p id="Par44">Two Stealth siRNA-Tmem53 sequences (MSS229322 and MSS229323) were designed by BLOCK-iT&#x2122; RNAi Express and synthesized by Life Technologies Corporation (Invitrogen). The Stealth RNAi negative control medium GC duplex was used as a negative control. The siRNA were transfected using TransIT TKO (Mirus) according to the manufacturer&#x2019;s protocol.</p>
+      </sec>
+      <sec id="Sec26">
+        <title>Luciferase assay</title>
+        <p id="Par45">The BMP reporter (pGL3 BRE Luciferase) plasmid was a gift from Martine Roussel and Peter ten Dijkewas (Addgene, #45126)<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. The phRL-SV40 vector (Promega) was used as an internal control to normalize the variation in transfection efficiency. The wild-type Hela cell and two independent <italic>TMEM53</italic> KO cell lines were used for luciferase assay. Cells were seeded in 24-well plates at a density of 5&#x2009;&#xD7;&#x2009;10<sup>4</sup> and cultured at 37&#x2009;&#xB0;C under 5% CO<sub>2</sub> in Dulbecco&#x2019;s modified Eagle&#x2019;s medium (DMEM) supplemented with 10% fetal bovine serum (FBS). After 24&#x2009;h, 100&#x2009;ng/ml BMP2 (Humankine) was added into the medium, and the cells were transfected using TransIT-LT1 (Mirus Bio) according the manufacturer&#x2019;s instructions. The luciferase activities were measured using the PicaGene Dual Sea Pansy Luminescence kit (Toyo Ink).</p>
+      </sec>
+      <sec id="Sec27">
+        <title>RT-qPCR</title>
+        <p id="Par46">Total RNA from calvaria and cells was extracted using Qiagen RNeasy kit (Qiagen) and the SV Total RNA Isolation System (Promega), respectively, according to the manufacturer&#x2019;s instructions. The cDNA was synthesized from total RNA using a PrimeScript RT reagent Kit (Takara Bio). We performed real-time qPCR with a StepOnePlus Real-Time PCR system (Applied Biosystems) and the QuantiTect SYBR Green PCR Kit (QIAGEN). The value of each mRNA expression was normalized to <italic>Gapdh</italic> in the same sample. The qPCR primers are listed in Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>.</p>
+      </sec>
+      <sec id="Sec28">
+        <title>Western blot</title>
+        <p id="Par47">Whole-cell lysates were harvested with 200&#x2009;&#x3BC;l of RIPA Lysis and Extraction Buffer (Thermo Fisher Scientific). Cytoplasmic and nuclear extracts were prepared with NE-PER&#x2122; Nuclear and Cytoplasmic Extraction Reagents (Thermo Fisher Scientific). Western blots were performed by standard procedures using antibodies for Smad1 (1:1000 dilution, #9743, Cell Signaling Technology), phospho-Smad1/5/9 (1:1000 dilution, #13820, Cell Signaling Technology), &#x3B2;-actin-HRP (1:10,000 dilution, PM053-7, MBL, Japan), Lamin A (1:1000 dilution, ab226198, Abcam), &#x3B2;-tubulin (1:1000 dilution, H-235, Santa Cruz), rabbit IgG&#x2013;peroxidase (1:20,000 dilution, A0545, Sigma-Aldrich), and S-protein HRP conjugate (1:5000 dilution, 69047, Novagen). The signals were detected by ECL Prime Western Blotting Detection Reagents (RPN2232, GE Healthcare). Quantification was performed using ImageJ software.</p>
+      </sec>
+      <sec id="Sec29">
+        <title>Statistical analysis</title>
+        <p id="Par48">Continuous variables were reported as mean&#x2009;&#xB1;&#x2009;SD and compared with a two-tailed Student&#x2019;s <italic>t</italic>-test or a one-way ANOVA followed by a post-hoc Tukey&#x2019;s multiple-comparison test as specified in the figure legends. <italic>P</italic> values&#x2009;&lt;&#x2009;0.05 were considered to be significant.</p>
+      </sec>
+      <sec id="Sec30">
+        <title>Reporting summary</title>
+        <p id="Par49">Further information on research design is available in the&#xA0;<xref rid="MOESM2" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary information</title>
+      <sec id="Sec31">
+        <supplementary-material content-type="local-data" id="MOESM1">
+          <media xlink:href="41467_2021_22340_MOESM1_ESM.pdf">
+            <caption>
+              <p>Supplementary Information</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM2">
+          <media xlink:href="41467_2021_22340_MOESM2_ESM.pdf">
+            <caption>
+              <p>Reporting Summary</p>
+            </caption>
+          </media>
+        </supplementary-material>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="App1">
+        <sec id="Sec32">
+          <title>Source data</title>
+          <p id="Par52">
+            <media position="anchor" xlink:href="41467_2021_22340_MOESM3_ESM.xlsx" id="MOESM3">
+              <caption>
+                <p>Source Data</p>
+              </caption>
+            </media>
+          </p>
+        </sec>
+      </app>
+    </app-group>
+    <fn-group>
+      <fn>
+        <p><bold>Peer review information</bold>
+<italic>Nature Communications</italic> thanks Uwe Kornak, Yuji Mishina and the other, anonymous, reviewer for their contribution to the peer review of this work. Peer reviewer reports are available.</p>
+      </fn>
+      <fn>
+        <p><bold>Publisher&#x2019;s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <title>Supplementary information</title>
+      <p>The online version contains supplementary material available at 10.1038/s41467-021-22340-8.</p>
+    </sec>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank the affected individuals and their families for their participation and help to the study. This study was supported by research grants from Japan Agency for Medical Research and Development (AMED) (20ek0109486 and 20bm0804006 to S.I.; 20ek0109486, 20dm0107090, 20ek0109301, 20ek0109348, and 20kk0205012 to N.M.) and the Japan Society for the Promotion of Science (17H04357 and 18H02932 to S.I.; 17H01539 and 19H03621 to N.M.). K.M.G. is supported by The Department of Science and Technology, Government of India (SB/SO/HS/005/2014). Z.W. is supported by CAM Initiative Fund for Medical Sciences (2016-12M-3-003). We thank Tomoko Kusadokoro, Chieko Tezuka, Tomoyuki Ishikura, and Akari Suzuki for the technical support. We also thank Dr. Todd Johnson for checking English.</p>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Author contributions</title>
+      <p>The study was designed by L.G. and S.I. The patients were recruited by K.M.G., G.S.B., K.G., G.N., and S.I. The disease was evaluated by L.G., G.N., and S.I. The experiments were performed by L.G., A.I., G.S.B., Z.W., J.Y.X., N.M., S.Y., C.S., T.N., N.M., M.T., S.I., T.H., Y.I., M.M., and H.K. The data were analyzed by L.G., A.I., and J.W. The draft was written by L.G. and S.I. All authors contributed to revising the manuscript.</p>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Data availability</title>
+      <p>The human variant data have been deposited in NCBI ClinVar with the accession codes &#x201C;<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/clinvar/variation/986737/">SCV001446315</ext-link>&#x201D; and &#x201C;<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/clinvar/variation/986738/">SCV001446316</ext-link>&#x201D;. The variants were evaluated by using the databases: GeneBank (<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/genbank/">https://www.ncbi.nlm.nih.gov/genbank/</ext-link>), dbSNP (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/projects/SNP/">http://www.ncbi.nlm.nih.gov/projects/SNP/</ext-link>), ExAC (<ext-link ext-link-type="uri" xlink:href="http://exac.broadinstitute.org/">http://exac.broadinstitute.org/</ext-link>), gnomAD (<ext-link ext-link-type="uri" xlink:href="https://gnomad.broadinstitute.org/">https://gnomad.broadinstitute.org/</ext-link>), HGMD (<ext-link ext-link-type="uri" xlink:href="https://portal.biobase-international.com/hgmd/pro/start.php">https://portal.biobase-international.com/hgmd/pro/start.php</ext-link>), NNSPLICE (<ext-link ext-link-type="uri" xlink:href="http://www.fruitfly.org/seq_tools/splice.html">http://www.fruitfly.org/seq_tools/splice.html</ext-link>), ASSP (<ext-link ext-link-type="uri" xlink:href="http://wangcomputing.com/assp/">http://wangcomputing.com/assp/</ext-link>), HSF (<ext-link ext-link-type="uri" xlink:href="http://www.umd.be/HSF/">http://www.umd.be/HSF/</ext-link>), and MaxEntScan (<ext-link ext-link-type="uri" xlink:href="http://genes.mit.edu/burgelab/maxent/Xmaxentscan_scoreseq.html">http://genes.mit.edu/burgelab/maxent/Xmaxentscan_scoreseq.html</ext-link>). Homozygosity mapping was performed by HomozygosityMapper (<ext-link ext-link-type="uri" xlink:href="http://www.homozygositymapper.org/">http://www.homozygositymapper.org/</ext-link>). The mouse RNA-seq data have been deposited in NCBI GEO with the accession code &#x201C;<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161193">GSE161193</ext-link>&#x201D;. The patients&#x2019; genome data obtained by whole-exome sequencing are not publicly available because study participants did not give full consent for releasing data publicly. These data can be accessed under the condition that a joint research plan is made by the researchers and approved by the ethics committees. All the other data supporting the findings of this study are included within the article or the Supplementary information.&#xA0;<xref rid="Sec32" ref-type="sec">Source data</xref> are provided with this paper.</p>
+    </notes>
+    <notes id="FPar1" notes-type="COI-statement">
+      <title>Competing interests</title>
+      <p id="Par50">The authors declare no competing interests.</p>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mortier</surname>
+              <given-names>GR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Nosology and classification of genetic skeletal disorders: 2019 revision</article-title>
+          <source>Am. J. Med. Genet. A</source>
+          <year>2019</year>
+          <volume>179</volume>
+          <fpage>2393</fpage>
+          <lpage>2419</lpage>
+          <pub-id pub-id-type="doi">10.1002/ajmg.a.61366</pub-id>
+          <pub-id pub-id-type="pmid">31633310</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van Wesenbeeck</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Six novel missense mutations in the LDL receptor-related protein 5 (LRP5) gene in different conditions with an increased bone density</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2003</year>
+          <volume>72</volume>
+          <fpage>763</fpage>
+          <lpage>771</lpage>
+          <pub-id pub-id-type="doi">10.1086/368277</pub-id>
+          <pub-id pub-id-type="pmid">12579474</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simsek Kiper</surname>
+              <given-names>PO</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cortical-bone fragility &#x2014; insights from sFRP4 deficiency in Pyle&#x2019;s disease</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>2016</year>
+          <volume>374</volume>
+          <fpage>2553</fpage>
+          <lpage>2562</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJMoa1509342</pub-id>
+          <pub-id pub-id-type="pmid">27355534</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kornak</surname>
+              <given-names>U</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss of the CIC-7 chloride channel leads to osteopetrosis in mice and man</article-title>
+          <source>Cell</source>
+          <year>2001</year>
+          <volume>104</volume>
+          <fpage>205</fpage>
+          <lpage>215</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(01)00206-9</pub-id>
+          <pub-id pub-id-type="pmid">11207362</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balemans</surname>
+              <given-names>W</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Increased bone density in sclerosteosis is due to the deficiency of a novel secreted protein (SOST)</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <year>2001</year>
+          <volume>10</volume>
+          <fpage>537</fpage>
+          <lpage>543</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/10.5.537</pub-id>
+          <pub-id pub-id-type="pmid">11181578</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Minina</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Kreschel</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Naski</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Ornitz</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Vortkamp</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction of FGF, Ihh/Pthlh, and BMP signaling integrates chondrocyte proliferation and hypertrophic differentiation</article-title>
+          <source>Dev. Cell</source>
+          <year>2002</year>
+          <volume>3</volume>
+          <fpage>439</fpage>
+          <lpage>449</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1534-5807(02)00261-7</pub-id>
+          <pub-id pub-id-type="pmid">12361605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Le Goff</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations at a single codon in Mad homology 2 domain of SMAD4 cause Myhre syndrome</article-title>
+          <source>Nat. Genet.</source>
+          <year>2012</year>
+          <volume>44</volume>
+          <fpage>85</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.1016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in bone morphogenetic protein receptor 1B cause brachydactyly type A2</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2003</year>
+          <volume>100</volume>
+          <fpage>12277</fpage>
+          <lpage>12282</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.2133476100</pub-id>
+          <pub-id pub-id-type="pmid">14523231</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shore</surname>
+              <given-names>EM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A recurrent mutation in the BMP type I receptor ACVR1 causes inherited and sporadic fibrodysplasia ossificans progressiva</article-title>
+          <source>Nat. Genet.</source>
+          <year>2006</year>
+          <volume>38</volume>
+          <fpage>525</fpage>
+          <lpage>527</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng1783</pub-id>
+          <pub-id pub-id-type="pmid">16642017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schirmer</surname>
+              <given-names>EC</given-names>
+            </name>
+            <name>
+              <surname>Florens</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Yates</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Gerace</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Nuclear membrane proteins with potential disease links found by subtractive proteomics</article-title>
+          <source>Science</source>
+          <year>2003</year>
+          <volume>301</volume>
+          <fpage>1380</fpage>
+          <lpage>1382</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1088176</pub-id>
+          <pub-id pub-id-type="pmid">12958361</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malik</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cell-specific and lamin-dependent targeting of novel transmembrane proteins in the nuclear envelope</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2010</year>
+          <volume>67</volume>
+          <fpage>1353</fpage>
+          <lpage>1369</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-010-0257-2</pub-id>
+          <pub-id pub-id-type="pmid">20091084</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tress</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Abascal</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Valencia</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Alternative splicing may not be the key to proteome complexity</article-title>
+          <source>Trends Biochem. Sci.</source>
+          <year>2017</year>
+          <volume>42</volume>
+          <fpage>98</fpage>
+          <lpage>110</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tibs.2016.08.008</pub-id>
+          <pub-id pub-id-type="pmid">27712956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jin</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Sim</surname>
+              <given-names>KB</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>SD</given-names>
+            </name>
+          </person-group>
+          <article-title>Development and growth of the normal cranial vault: an embryologic review</article-title>
+          <source>J. Korean Neurosurg. Soc.</source>
+          <year>2016</year>
+          <volume>59</volume>
+          <fpage>192</fpage>
+          <lpage>196</lpage>
+          <pub-id pub-id-type="doi">10.3340/jkns.2016.59.3.192</pub-id>
+          <pub-id pub-id-type="pmid">27226848</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Graf</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Malik</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Hayano</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mishina</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Common mechanisms in development and disease: BMP signaling in craniofacial development</article-title>
+          <source>Cytokine Growth Factor Rev.</source>
+          <year>2016</year>
+          <volume>27</volume>
+          <fpage>129</fpage>
+          <lpage>139</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cytogfr.2015.11.004</pub-id>
+          <pub-id pub-id-type="pmid">26747371</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>MH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dlx5 specifically regulates Runx2 type II expression by binding to homeodomain-response elements in the Runx2 distal promoter</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2005</year>
+          <volume>280</volume>
+          <fpage>35579</fpage>
+          <lpage>35587</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M502267200</pub-id>
+          <pub-id pub-id-type="pmid">16115867</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>MH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>BMP-2-induced Runx2 expression is mediated by Dlx5, and TGF-&#x3B2;1 opposes the BMP-2-induced osteoblast differentiation by suppression of Dlx5 expression</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>34387</fpage>
+          <lpage>34394</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M211386200</pub-id>
+          <pub-id pub-id-type="pmid">12815054</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fei</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genome-wide mapping of SMAD target genes reveals the role of BMP signaling in embryonic stem cell fate determination</article-title>
+          <source>Genome Res.</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>36</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.092114.109</pub-id>
+          <pub-id pub-id-type="pmid">19926752</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miyama</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A BMP-inducible gene, Dlx5, regulates osteoblast differentiation and mesoderm induction</article-title>
+          <source>Dev. Biol.</source>
+          <year>1999</year>
+          <volume>208</volume>
+          <fpage>123</fpage>
+          <lpage>133</lpage>
+          <pub-id pub-id-type="doi">10.1006/dbio.1998.9197</pub-id>
+          <pub-id pub-id-type="pmid">10075846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>GT</given-names>
+            </name>
+            <name>
+              <surname>Morasso</surname>
+              <given-names>MI</given-names>
+            </name>
+          </person-group>
+          <article-title>Bone morphogenetic protein-2 (BMP-2) transactivates Dlx3 through Smad1 and Smad4: alternative mode for Dlx3 induction in mouse keratinocytes</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>515</fpage>
+          <lpage>522</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/30.2.515</pub-id>
+          <pub-id pub-id-type="pmid">11788714</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Korchynskyi</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Ten Dijke</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and functional characterization of distinct critically important bone morphogenetic protein-specific response elements in the Id1 promoter</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2002</year>
+          <volume>277</volume>
+          <fpage>4883</fpage>
+          <lpage>4891</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M111023200</pub-id>
+          <pub-id pub-id-type="pmid">11729207</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <mixed-citation publication-type="other">Sanvitale, C. E. et al. A new class of small molecule inhibitor of BMP signaling. <italic>PLoS ONE</italic><bold>8</bold>, e62721 (2013).</mixed-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dhar</surname>
+              <given-names>SU</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Trinh</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Sutton</surname>
+              <given-names>VR</given-names>
+            </name>
+          </person-group>
+          <article-title>Cranio-meta-diaphyseal dysplasia: 25 year follow-up and review of literature</article-title>
+          <source>Am. J. Med. Genet. A</source>
+          <year>2010</year>
+          <volume>152A</volume>
+          <fpage>2335</fpage>
+          <lpage>2338</lpage>
+          <pub-id pub-id-type="doi">10.1002/ajmg.a.33582</pub-id>
+          <pub-id pub-id-type="pmid">20684007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kornak</surname>
+              <given-names>U</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Three novel mutations in the ANK membrane protein cause craniometaphyseal dysplasia with variable conductive hearing loss</article-title>
+          <source>Am. J. Med. Genet. A</source>
+          <year>2010</year>
+          <volume>152A</volume>
+          <fpage>870</fpage>
+          <lpage>874</lpage>
+          <pub-id pub-id-type="doi">10.1002/ajmg.a.33301</pub-id>
+          <pub-id pub-id-type="pmid">20358596</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of signal peptide domain SOST mutations in autosomal dominant craniodiaphyseal dysplasia</article-title>
+          <source>Hum. Genet.</source>
+          <year>2011</year>
+          <volume>129</volume>
+          <fpage>497</fpage>
+          <lpage>502</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00439-011-0947-3</pub-id>
+          <pub-id pub-id-type="pmid">21221996</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kinoshita</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Domain-specific mutations in TGFB1 result in Camurati-Engelmann disease</article-title>
+          <source>Nat. Genet.</source>
+          <year>2000</year>
+          <volume>26</volume>
+          <fpage>19</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="doi">10.1038/79128</pub-id>
+          <pub-id pub-id-type="pmid">10973241</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beederman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Farina</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Reid</surname>
+              <given-names>RR</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular basis of cranial suture biology and disease: osteoblastic and osteoclastic perspectives</article-title>
+          <source>Genes Dis.</source>
+          <year>2014</year>
+          <volume>1</volume>
+          <fpage>120</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.gendis.2014.07.004</pub-id>
+          <pub-id pub-id-type="pmid">25426492</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greenwald</surname>
+              <given-names>JA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Regional differentiation of cranial suture-associated dura mater in vivo and in vitro: Implications for suture fusion and patency</article-title>
+          <source>J. Bone Miner. Res.</source>
+          <year>2000</year>
+          <volume>15</volume>
+          <fpage>2413</fpage>
+          <lpage>2430</lpage>
+          <pub-id pub-id-type="doi">10.1359/jbmr.2000.15.12.2413</pub-id>
+          <pub-id pub-id-type="pmid">11127206</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Bi-allelic CSF1R mutations cause skeletal dysplasia of dysosteosclerosis-Pyle disease spectrum and degenerative encephalopathy with brain malformation</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2019</year>
+          <volume>104</volume>
+          <fpage>925</fpage>
+          <lpage>935</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2019.03.004</pub-id>
+          <pub-id pub-id-type="pmid">30982609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dysosteosclerosis is also caused by TNFRSF11A mutation</article-title>
+          <source>J. Hum. Genet.</source>
+          <year>2018</year>
+          <volume>63</volume>
+          <fpage>769</fpage>
+          <lpage>774</lpage>
+          <pub-id pub-id-type="doi">10.1038/s10038-018-0447-6</pub-id>
+          <pub-id pub-id-type="pmid">29568001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bauer</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Ratti</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Millat</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>M&#xE9;jat</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Nuclear envelopathies: a complex LINC between nuclear envelope and pathology</article-title>
+          <source>Orphanet J. Rare Dis.</source>
+          <year>2017</year>
+          <volume>12</volume>
+          <fpage>1</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.1186/s13023-017-0698-x</pub-id>
+          <pub-id pub-id-type="pmid">28057032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hellemans</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss-of-function mutations in LEMD3 result in osteopoikilosis, Buschke-Ollendorff syndrome and melorheostosis</article-title>
+          <source>Nat. Genet.</source>
+          <year>2004</year>
+          <volume>36</volume>
+          <fpage>1213</fpage>
+          <lpage>1218</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng1453</pub-id>
+          <pub-id pub-id-type="pmid">15489854</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Meta-analysis of genome-wide association studies identifies three loci associated with stiffness index of the calcaneus</article-title>
+          <source>J. Bone Miner. Res.</source>
+          <year>2019</year>
+          <volume>34</volume>
+          <fpage>1275</fpage>
+          <lpage>1283</lpage>
+          <pub-id pub-id-type="doi">10.1002/jbmr.3703</pub-id>
+          <pub-id pub-id-type="pmid">30779856</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moayyeri</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genetic determinants of heel bone properties: genome-wide association meta-analysis and replication in the GEFOS/GENOMOS consortium</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <year>2014</year>
+          <volume>23</volume>
+          <fpage>3054</fpage>
+          <lpage>3068</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddt675</pub-id>
+          <pub-id pub-id-type="pmid">24430505</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Korfali</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A flow cytometry-based screen of nuclear envelope transmembrane proteins identifies NET4/Tmem53 as involved in stress-dependent cell cycle withdrawal</article-title>
+          <source>PLoS ONE</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <fpage>e18762</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0018762</pub-id>
+          <pub-id pub-id-type="pmid">21533191</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanism and regulation of nucleocytoplasmic trafficking of Smad</article-title>
+          <source>Cell Biosci.</source>
+          <year>2011</year>
+          <volume>1</volume>
+          <fpage>40</fpage>
+          <pub-id pub-id-type="doi">10.1186/2045-3701-1-40</pub-id>
+          <pub-id pub-id-type="pmid">22204445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hakonarson</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2010</year>
+          <volume>38</volume>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkp829</pub-id>
+          <pub-id pub-id-type="pmid">19843612</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ljosa</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Sokolnicki</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>Carpenter</surname>
+              <given-names>AE</given-names>
+            </name>
+          </person-group>
+          <article-title>Annotated high-throughput microscopy image sets for validation</article-title>
+          <source>Nat. Methods</source>
+          <year>2012</year>
+          <volume>9</volume>
+          <fpage>637</fpage>
+          <pub-id pub-id-type="doi">10.1038/nmeth.2083</pub-id>
+          <pub-id pub-id-type="pmid">22743765</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,807 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Brain</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Brain</journal-id>
+      <journal-id journal-id-type="publisher-id">brainj</journal-id>
+      <journal-title-group>
+        <journal-title>Brain</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0006-8950</issn>
+      <issn pub-type="epub">1460-2156</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">33704440</article-id>
+      <article-id pub-id-type="pmc">8422349</article-id>
+      <article-id pub-id-type="doi">10.1093/brain/awab101</article-id>
+      <article-id pub-id-type="publisher-id">awab101</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Articles</subject>
+        </subj-group>
+        <subj-group subj-group-type="category-taxonomy-collection">
+          <subject>AcademicSubjects/MED00310</subject>
+          <subject>AcademicSubjects/SCI01870</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic toggle="yes">CACNA1I</italic> gain-of-function mutations differentially affect channel gating and cause neurodevelopmental disorders</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0829-5865</contrib-id>
+          <name>
+            <surname>El Ghaleb</surname>
+            <given-names>Yousra</given-names>
+          </name>
+          <xref rid="awab101-aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8282-7367</contrib-id>
+          <name>
+            <surname>Schneeberger</surname>
+            <given-names>Pauline E</given-names>
+          </name>
+          <xref rid="awab101-aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6811-6283</contrib-id>
+          <name>
+            <surname>Fern&#xE1;ndez-Quintero</surname>
+            <given-names>Monica L</given-names>
+          </name>
+          <xref rid="awab101-aff1" ref-type="aff">1</xref>
+          <xref rid="awab101-aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8898-0108</contrib-id>
+          <name>
+            <surname>Geisler</surname>
+            <given-names>Stefanie M</given-names>
+          </name>
+          <xref rid="awab101-aff4" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9320-9983</contrib-id>
+          <name>
+            <surname>Pelizzari</surname>
+            <given-names>Simone</given-names>
+          </name>
+          <xref rid="awab101-aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Polstra</surname>
+            <given-names>Abeltje M</given-names>
+          </name>
+          <xref rid="awab101-aff5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>van Hagen</surname>
+            <given-names>Johanna M</given-names>
+          </name>
+          <xref rid="awab101-aff5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Denecke</surname>
+            <given-names>Jonas</given-names>
+          </name>
+          <xref rid="awab101-aff6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9629-2073</contrib-id>
+          <name>
+            <surname>Campiglio</surname>
+            <given-names>Marta</given-names>
+          </name>
+          <xref rid="awab101-aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0985-2299</contrib-id>
+          <name>
+            <surname>Liedl</surname>
+            <given-names>Klaus R</given-names>
+          </name>
+          <xref rid="awab101-aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stevens</surname>
+            <given-names>Cathy A</given-names>
+          </name>
+          <xref rid="awab101-aff7" ref-type="aff">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Person</surname>
+            <given-names>Richard E</given-names>
+          </name>
+          <xref rid="awab101-aff8" ref-type="aff">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rentas</surname>
+            <given-names>Stefan</given-names>
+          </name>
+          <xref rid="awab101-aff9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Marsh</surname>
+            <given-names>Eric D</given-names>
+          </name>
+          <xref rid="awab101-aff10" ref-type="aff">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Conlin</surname>
+            <given-names>Laura K</given-names>
+          </name>
+          <xref rid="awab101-aff11" ref-type="aff">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3660-6138</contrib-id>
+          <name>
+            <surname>Tuluc</surname>
+            <given-names>Petronel</given-names>
+          </name>
+          <xref rid="awab101-aff4" ref-type="aff">4</xref>
+          <xref rid="awab101-FM1" ref-type="author-notes"/>
+          <xref rid="awab101-cor3" ref-type="corresp"/>
+          <!--petronel.tuluc@uibk.ac.at-->
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7155-0315</contrib-id>
+          <name>
+            <surname>Kutsche</surname>
+            <given-names>Kerstin</given-names>
+          </name>
+          <xref rid="awab101-aff2" ref-type="aff">2</xref>
+          <xref rid="awab101-FM1" ref-type="author-notes"/>
+          <xref rid="awab101-cor2" ref-type="corresp"/>
+          <!--bernhard.e.flucher@i-med.ac.at-->
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5255-4705</contrib-id>
+          <name>
+            <surname>Flucher</surname>
+            <given-names>Bernhard E</given-names>
+          </name>
+          <xref rid="awab101-cor1" ref-type="corresp"/>
+          <xref rid="awab101-aff1" ref-type="aff">1</xref>
+          <xref rid="awab101-FM1" ref-type="author-notes"/>
+          <!--bernhard.e.flucher@i-med.ac.at-->
+        </contrib>
+      </contrib-group>
+      <aff id="awab101-aff1"><label>1</label><institution>Institute of Physiology, Medical University Innsbruck</institution>, Innsbruck 6020, <country country="AT">Austria</country></aff>
+      <aff id="awab101-aff2"><label>2</label><institution>Institute of Human Genetics, University Medical Center Hamburg-Eppendorf</institution>, Hamburg 20251, <country country="DE">Germany</country></aff>
+      <aff id="awab101-aff3"><label>3</label><institution>Institute of Theoretical Chemistry, University of Innsbruck</institution>, Innsbruck 6020, <country country="AT">Austria</country></aff>
+      <aff id="awab101-aff4"><label>4</label><institution>Department of Pharmacology, University of Innsbruck</institution>, Innsbruck 6020, <country country="AT">Austria</country></aff>
+      <aff id="awab101-aff5"><label>5</label><institution>Department of Clinical Genetics, Amsterdam UMC, Vrije Universiteit Amsterdam</institution>, Amsterdam, 1012 WX, <country country="NL">The Netherlands</country></aff>
+      <aff id="awab101-aff6"><label>6</label><institution>Department of Pediatrics, University Medical Center Hamburg-Eppendorf</institution>, Hamburg 20251, <country country="DE">Germany</country></aff>
+      <aff id="awab101-aff7"><label>7</label><institution>Department of Pediatrics, University of Tennessee College of Medicine</institution>, Chattanooga, TN 37403, <country country="US">USA</country></aff>
+      <aff id="awab101-aff8"><label>8</label><institution>GeneDX</institution>, Gaithersburg, MD 20877, <country country="US">USA</country></aff>
+      <aff id="awab101-aff9"><label>9</label><institution>Division of Genomic Diagnostics, Children&#x2019;s Hospital of Philadelphia</institution>, Philadelphia, PA 19104, <country country="US">USA</country></aff>
+      <aff id="awab101-aff10"><label>10</label><institution>Division of Neurology, Children&#x2019;s Hospital of Philadelphia</institution>, Philadelphia, PA 19104, <country country="US">USA</country></aff>
+      <aff id="awab101-aff11"><label>11</label><institution>Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania</institution>, Philadelphia, PA 19104, <country country="US">USA</country></aff>
+      <author-notes>
+        <fn id="awab101-FM1">
+          <p>Petronel Tuluc, Kerstin Kutsche and Bernhard E Flucher authors contributed equally to this work.</p>
+        </fn>
+        <corresp id="awab101-cor1">Correspondence to: Bernhard E. Flucher, PhD Medical University Innsbruck Department of Physiology and Medical Physics Institute of Physiology, Sch&#xF6;pfstra&#xDF;e 41, 6020 Innsbruck, Austria E-mail: <email>bernhard.e.flucher@i-med.ac.at</email></corresp>
+        <corresp id="awab101-cor2">Correspondence may also be addressed to: Kerstin Kutsche, PhD Institute of Human Genetics, University Medical Center Hamburg-Eppendorf Martinistra&#xDF;e 52, 20246 Hamburg, Germany E-mail: <email>kkutsche@uke.de</email></corresp>
+        <corresp id="awab101-cor3">Petronel Tuluc Department of Pharmacology, University of Innsbruck Innrain 80, 6020 Innsbruck, Austria E-mail: <email>petronel.tuluc@uibk.ac.at</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>7</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="epub" iso-8601-date="2021-03-11">
+        <day>11</day>
+        <month>3</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>11</day>
+        <month>3</month>
+        <year>2021</year>
+      </pub-date>
+      <volume>144</volume>
+      <issue>7</issue>
+      <fpage>2092</fpage>
+      <lpage>2106</lpage>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>9</month>
+          <year>2020</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>5</day>
+          <month>1</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>6</day>
+          <month>1</month>
+          <year>2021</year>
+        </date>
+        <date date-type="corrected-typeset">
+          <day>12</day>
+          <month>8</month>
+          <year>2021</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) (2021). Published by Oxford University Press on behalf of the Guarantors of Brain.</copyright-statement>
+        <copyright-year>2021</copyright-year>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="awab101.pdf"/>
+      <abstract>
+        <title>Abstract</title>
+        <p>T-type calcium channels (Ca<sub>v</sub>3.1 to Ca<sub>v</sub>3.3) regulate low-threshold calcium spikes, burst firing and rhythmic oscillations of neurons and are involved in sensory processing, sleep, and hormone and neurotransmitter release. Here, we examined four heterozygous missense variants in <italic toggle="yes">CACNA1I</italic>, encoding the Ca<sub>v</sub>3.3 channel, in patients with variable neurodevelopmental phenotypes. The p.(Ile860Met) variant, affecting a residue in the putative channel gate at the cytoplasmic end of the IIS6 segment, was identified in three family members with variable cognitive impairment. The <italic toggle="yes">de novo</italic> p.(Ile860Asn) variant, changing the same amino acid residue, was detected in a patient with severe developmental delay and seizures. In two additional individuals with global developmental delay, hypotonia, and epilepsy, the variants p.(Ile1306Thr) and p.(Met1425Ile), substituting residues at the cytoplasmic ends of IIIS5 and IIIS6, respectively, were found. Because structure modelling indicated that the amino acid substitutions differentially affect the mobility of the channel gate, we analysed possible effects on Ca<sub>v</sub>3.3 channel function using patch-clamp analysis in HEK293T cells. The mutations resulted in slowed kinetics of current activation, inactivation, and deactivation, and in hyperpolarizing shifts of the voltage-dependence of activation and inactivation, with Ca<sub>v</sub>3.3-I860N showing the strongest and Ca<sub>v</sub>3.3-I860M the weakest effect. Structure modelling suggests that by introducing stabilizing hydrogen bonds the mutations slow the kinetics of the channel gate and cause the gain-of-function effect in Ca<sub>v</sub>3.3 channels. The gating defects left-shifted and increased the window currents, resulting in increased calcium influx during repetitive action potentials and even at resting membrane potentials. Thus, calcium toxicity in neurons expressing the Ca<sub>v</sub>3.3 variants is one likely cause of the neurodevelopmental phenotype. Computer modelling of thalamic reticular nuclei neurons indicated that the altered gating properties of the Ca<sub>v</sub>3.3 disease variants lower the threshold and increase the duration and frequency of action potential firing. Expressing the Ca<sub>v</sub>3.3-I860N/M mutants in mouse chromaffin cells shifted the mode of firing from low-threshold spikes and rebound burst firing with wild-type Ca<sub>v</sub>3.3 to slow oscillations with Ca<sub>v</sub>3.3-I860N and an intermediate firing mode with Ca<sub>v</sub>3.3-I860M, respectively. Such neuronal hyper-excitability could explain seizures in the patient with the p.(Ile860Asn) mutation. Thus, our study implicates <italic toggle="yes">CACNA1I</italic> gain-of-function mutations in neurodevelopmental disorders, with a phenotypic spectrum ranging from borderline intellectual functioning to a severe neurodevelopmental disorder with epilepsy.</p>
+      </abstract>
+      <abstract abstract-type="teaser">
+        <p>T-type calcium channels regulate neuronal firing, are implicated in brain disease and are targets for anti-epileptic drugs. El Ghaleb <italic toggle="yes">et al.</italic> identify heterozygous missense variants of <italic toggle="yes">CACNA1I</italic> associated with variable neurodevelopmental disorders and epilepsy, and show how gain-of-function mutations cause hyper-excitability.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>low-voltage-gated calcium channels</kwd>
+        <kwd>T-type calcium channels</kwd>
+        <kwd>Ca<sub>V</sub>3.3</kwd>
+        <kwd>epilepsy</kwd>
+        <kwd>intellectual disability (ID)</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Austrian Science Fund</institution><institution-id institution-id-type="DOI">10.13039/501100002428</institution-id></institution-wrap>
+</funding-source>
+          <award-id>P30402</award-id>
+          <award-id>DOC30</award-id>
+          <award-id>P31434</award-id>
+          <award-id>T855</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Deutsche Forschungsgemeinschaft</institution><institution-id institution-id-type="DOI">10.13039/501100001659</institution-id></institution-wrap>
+</funding-source>
+          <award-id>KU 1240/6-2</award-id>
+          <award-id>KU 1240/10-1</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Federal Ministry of Education and Research</institution><institution-id institution-id-type="DOI">10.13039/501100002347</institution-id></institution-wrap>
+</funding-source>
+          <award-id>01DQ17003</award-id>
+        </award-group>
+      </funding-group>
+      <counts>
+        <page-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p>Low voltage-activated, T-type calcium channels (Ca<sub>v</sub>3) are expressed throughout the vertebrate nervous system and critical for normal cerebellar, thalamic, and cortical functions.<xref rid="awab101-B1" ref-type="bibr"><sup>1-3</sup></xref> Owing to their specific biophysical properties they regulate neuronal excitability and contribute to neural processing of pain, sensory, and motor functions, to neurotransmitter and hormone release, and to sleep.<xref rid="awab101-B4" ref-type="bibr"><sup>4</sup></xref> In addition, T-type calcium channels are also expressed in astrocytes.<xref rid="awab101-B5" ref-type="bibr"><sup>5</sup></xref> Mutations in <italic toggle="yes">CACNA1G</italic>, <italic toggle="yes">CACNA1H</italic>, and <italic toggle="yes">CACNA1I</italic> encoding Ca<sub>v</sub>3 channels have been associated with a range of neurodevelopmental, neurological, and/or psychiatric disorders.<xref rid="awab101-B6" ref-type="bibr"><sup>6</sup></xref> Accordingly, T-type calcium channels are regarded as promising candidate targets in ongoing drug development ventures.<xref rid="awab101-B7" ref-type="bibr"><sup>7</sup></xref></p>
+      <p>T-type calcium channels operate at negative voltages near the resting potential of nerve cells, where they regulate excitability and the rhythmic activity of neuronal circuits.<xref rid="awab101-B4" ref-type="bibr"><sup>4</sup></xref><sup>,</sup><xref rid="awab101-B8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="awab101-B9" ref-type="bibr"><sup>9</sup></xref> At rest, the great majority of T-type channels are inactivated. Following hyperpolarization, they recover and generate low threshold calcium spikes and rebound burst firing. Because of their slow deactivation kinetics considerable amounts of calcium can enter nerve cells in the wake of an action potential. Furthermore, because of the negative voltage-dependence of activation and the incomplete overlap with the voltage-dependence of inactivation, a small fraction of T-type channels remains open at rest.<xref rid="awab101-B10" ref-type="bibr"><sup>10</sup></xref> In electrophysiological analyses these currents upon repolarization and at rest are evident as transient &#x2018;tail currents&#x2019; and as continuous &#x2018;window currents&#x2019;, respectively. When aberrantly enlarged, both these currents can become the source of an increased calcium load threatening normal development and survival of neurons.</p>
+      <p>In recent years several disease-associated Ca<sub>v</sub>3 channel variants have been identified and functionally characterized in heterologous expression systems and genetic mouse models.<xref rid="awab101-B6" ref-type="bibr"><sup>6</sup></xref> The most deleterious variants detected in the <italic toggle="yes">CACNA1G</italic> and <italic toggle="yes">CACNA1H</italic> genes, encoding Ca<sub>v</sub>3.1 and Ca<sub>v</sub>3.2, respectively, represent <italic toggle="yes">de novo</italic> gain-of-function missense mutations causing congenital severe motor and cognitive impairment with cerebellar atrophy and primary aldosteronism, respectively.<xref rid="awab101-B11" ref-type="bibr"><sup>11&#x2013;13</sup></xref> These missense mutations are primarily located at the cytoplasmic end of the channels<sub><bold>&#x2019;</bold></sub> S6 helices, which comprise the channel gate.<xref rid="awab101-B6" ref-type="bibr"><sup>6</sup></xref><sup>,</sup><xref rid="awab101-B14" ref-type="bibr"><sup>14</sup></xref> Accordingly, the common feature of these mutations is that they affect the channel gating properties; foremost by slowing the kinetics and left-shifting the voltage-dependence of activation and inactivation. This leads to prolonged channel openings and increased window currents, which in turn result in hyper-excitability of neurons and an increased calcium load, which might be causal for neurological defects on one hand and aldosterone production and hypertension on the other.<xref rid="awab101-B6" ref-type="bibr"><sup>6</sup></xref> Involvement of both the <italic toggle="yes">CACNA1G</italic> and <italic toggle="yes">CACNA1H</italic> genes in inherited epilepsy has been proposed based on various findings in humans and mice.<xref rid="awab101-B15" ref-type="bibr"><sup>15&#x2013;17</sup></xref> However, to date, none of the investigated variants have been undoubtable identified as causing seizure phenotypes and are rather classified as genetic risk factors for developing epilepsy (reviewed in Lory<xref rid="awab101-B6" ref-type="bibr"><sup>6</sup></xref>).</p>
+      <p>The third member of the T-type channel family, Ca<sub>v</sub>3.3 encoded by <italic toggle="yes">CACNA1I</italic>, was identified as genetic risk factor in schizophrenia.<xref rid="awab101-B18" ref-type="bibr"><sup>18&#x2013;23</sup></xref> The schizophrenia-associated missense variant p.(Arg1346His) causes decreased membrane expression and current density when expressed in heterologous cells, while other current properties remained unaltered.<xref rid="awab101-B24" ref-type="bibr"><sup>24</sup></xref> Computer simulation suggests that such reduced current density eliminates rebound burst firing in thalamic reticular nucleus (TRN) neurons, in which Ca<sub>v</sub>3.3 channels are highly expressed.<xref rid="awab101-B25" ref-type="bibr"><sup>25</sup></xref><sup>,</sup><xref rid="awab101-B26" ref-type="bibr"><sup>26</sup></xref> Knock-in mice homozygous for the orthologous p.(Arg1346His) variant showed altered excitability of TRN neurons and deficits in sleep spindle occurrence.<xref rid="awab101-B27" ref-type="bibr"><sup>27</sup></xref> Thus, <italic toggle="yes">CACNA1I</italic> loss-of-function variants disrupt neuronal excitability and network activity and may contribute to the development of schizophrenia, autism and/or other complex neuropsychiatric disorders.<xref rid="awab101-B22" ref-type="bibr"><sup>22</sup></xref><sup>,</sup><xref rid="awab101-B28" ref-type="bibr"><sup>28</sup></xref><sup>,</sup><xref rid="awab101-B29" ref-type="bibr"><sup>29</sup></xref></p>
+      <p>Here we report three unrelated patients and one family with three affected individuals with heterozygous missense variants in the <italic toggle="yes">CACNA1I</italic> gene and variable neurodevelopmental phenotype. While the mother and her two children of one family showed variable cognitive impairment, the three unrelated probands had a severe phenotype with global developmental delay, hypotonia and epilepsy. Three of the four disease-associated missense variants affect an amino acid residue located at the cytoplasmic end of an S6 helix constituting the gate of the Ca<sub>v</sub>3.3 calcium channel. The fourth amino acid change is located in the closely adjacent region of an S5 helix. Structure modelling suggests that the amino acid substitutions reduce the mobility of the gate by introducing new stabilizing hydrogen bond interactions. Electrophysiological analysis demonstrated slowed kinetics and left-shifted voltage-dependence of activation and inactivation of all the Ca<sub>v</sub>3.3 mutant channels. These altered gating properties result in hyper-excitability, prolonged calcium currents, and a shift of firing modes when tested in the TRN neuron model and upon heterologous expression in mouse chromaffin cells. Interestingly, Ca<sub>v</sub>3.3 mutant channels with p.(Ile860Asn) or p.(Ile860Met) greatly differ in the magnitude of their effects on gating properties and cellular excitability, and these differences parallel the disease severity in the affected individuals. Thus, the data presented here provide evidence for a causal link of pathogenic missense variants in the <italic toggle="yes">CACNA1I</italic> gene with a range of neurodevelopmental phenotypes. The gain-of-function effects caused by the amino acid substitutions offer possible functional and mechanistic explanations for the pathophysiological role of the Ca<sub>v</sub>3.3 T-type calcium mutant channels in causing impaired cognitive function and epilepsy.</p>
+    </sec>
+    <sec>
+      <title>Materials and methods</title>
+      <sec>
+        <title>Patients</title>
+        <p>Informed consent for genetic analyses was obtained for all patients, and genetic studies were performed clinically or as approved by the Institutional Review Boards of the relevant institutions. The patients or patients&#x2019; parents provided written informed consent for the participation in the study, clinical data and specimen collection, genetic analysis, and publication of relevant findings.</p>
+      </sec>
+      <sec>
+        <title>Whole-exome sequencing</title>
+        <p>Quad whole-exome sequencing (WES) was performed in Family 2 (Patients 2&#x2013;4 and the father of the siblings), trio WES in Families 1 and 3 (Patients 1, 5 and their parents) and duo WES in Family 4 (Patient 6 and mother). Variant validation was performed by Sanger sequencing with DNA obtained from leucocytes of patients and parents.</p>
+      </sec>
+      <sec>
+        <title>Structure modelling</title>
+        <p>We predicted the structure of the wild-type T-type channel Ca<sub>v</sub>3.3 &#x3B1;<sub>1</sub>-subunit and the mutants in the activated state by building a homology model based on the cryo-electron microscopy (EM) structure of the Ca<sub>v</sub>3.1 &#x3B1;<sub>1</sub>-subunit in the inactivated state characterized by depolarized voltage-sensing domains and a closed intracellular gate (PDB accession code: 6KZO).<xref rid="awab101-B14" ref-type="bibr"><sup>14</sup></xref> The high sequence similarity of &#x223C;85% allows a reliable structure prediction of the Ca<sub>v</sub>3.3 &#x3B1;<sub>1</sub>-subunit. Additionally, we also generated a homology model of the Ca<sub>v</sub>3.3 &#x3B1;<sub>1</sub>-subunit in a resting state based on the cryo-EM resting state structure of Na<sub>v</sub>Ab (PDB accession code: 6P6W).<xref rid="awab101-B30" ref-type="bibr"><sup>30</sup></xref></p>
+      </sec>
+      <sec>
+        <title>Expression plasmids and transfections</title>
+        <p>The human Ca<sub>v</sub>3.3 subunit (Genebank ID AF393329)<xref rid="awab101-B31" ref-type="bibr"><sup>31</sup></xref> was transferred into an expression plasmid with an N-terminal GFP tag and the mutations were introduced by splicing by overlap extension (SOE)-PCR. HEK293T cells were transfected with the expression plasmids using FuGENE<sup>&#xAE;</sup> HD reagent (Promega). Chromaffin cells from 6&#x2013;8-week-old male mice were obtained as described previously<xref rid="awab101-B32" ref-type="bibr"><sup>32</sup></xref><sup>,</sup><xref rid="awab101-B33" ref-type="bibr"><sup>33</sup></xref> and transfected by electroporation with the Mouse Neuron Nucleofector<sup>TM</sup> Kit.<xref rid="awab101-B34" ref-type="bibr"><sup>34</sup></xref></p>
+      </sec>
+      <sec>
+        <title>Electrophysiology and data analysis</title>
+        <p>Calcium currents in HEK293T cells were recorded with the whole-cell patch-clamp technique in voltage-clamp mode. Patch pipettes had resistances between 1.8 M&#x3A9; and 4.5 M&#x3A9; when filled with (in mM) 135 CsCl, 1 MgCl<sub>2</sub>, 10 HEPES, 4 ATP-Na<sub>2</sub> and 10 EGTA (pH 7.4 with CsOH). The extracellular bath solution contained (in mM) 2 CaCl<sub>2</sub>, 165 choline-chloride, 10 HEPES, and 1&#x2009;MgCl<sub>2</sub> (pH 7.4 with CsOH). All five experimental groups were analysed in transiently transfected cells from four to six independent cell passages. The variants were always recorded in parallel with the wild-type Ca<sub>v</sub>3.3 in cells of the same passage to obtain matched controls for statistical comparison. The means, standard error of the mean (SEM), and <italic toggle="yes">P</italic>-values of the experiments where the variants have separate control groups were calculated using the Student&#x2019;s <italic toggle="yes">t</italic>-test, two-tailed, with significance criteria *<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.05, **<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.01, ***<italic toggle="yes">P&#x2009;</italic>&lt;&#x2009;0.001 and ****<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.0001. <italic toggle="yes">P</italic>-values of the experiments where the variants are compared to the same control group were calculated using the ANOVA and Tukey&#x2019;s or Dunnett&#x2019;s <italic toggle="yes">post hoc</italic> test.</p>
+        <p>The whole cell current-clamp recordings of isolated mouse chromaffin cells were performed in perforated-patch mode. Patch pipettes had a resistance between 1.8 M&#x3A9; and 4 M&#x3A9; when filled with (in mM): 10 NaCl, 10 KCl, 76 K<sub>2</sub>SO<sub>4</sub>, 1 MgCl<sub>2</sub>, 5 HEPES (pH 7.35 with KOH) and supplemented with 240&#x2009;&#xB5;g/ml amphotericin B. The external bath solution contained (in mM): 140 NaCl, 3.6 KCl, 2 NaHCO<sub>3</sub>, 0.5 NaH<sub>2</sub>PO<sub>4</sub>, 0.5 MgSO<sub>4</sub>, 2.5 CaCl<sub>2</sub>, 5 HEPES, 5 glucose (pH 7.4 with NaOH). All three experimental groups were analysed in eGFP-positive chromaffin cells from three independent culture preparations. Wild-type Ca<sub>v</sub>3.3, I860N and I860M were recorded in parallel on the same days to match controls and mutants for optimal statistical comparison. Data-points in scatter plots represent values of individual cells and means (line) &#xB1; standard error (SE). <italic toggle="yes">P</italic>-values were calculated using the Student&#x2019;s <italic toggle="yes">t</italic>-test or ANOVA with Holm-Sidak <italic toggle="yes">post hoc</italic> test with significance criteria *<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.05, **<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.01, and ***<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.001.</p>
+      </sec>
+      <sec>
+        <title>Computer model</title>
+        <p>Modelling was performed in the NEURON simulation environment<xref rid="awab101-B35" ref-type="bibr"><sup>35</sup></xref> using the model for thalamic relay neurons<xref rid="awab101-B36" ref-type="bibr"><sup>36</sup></xref> from the model database at Yale University (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://senselab.med.yale.edu/modeldb/" ext-link-type="uri">https://senselab.med.yale.edu/modeldb/ accessed 21 May 2021</ext-link>). The electrophysiological properties of the Ca<sub>v</sub>3.3 channels were modelled using Hodgkin-Huxley equations as described previously.<xref rid="awab101-B36" ref-type="bibr"><sup>36</sup></xref><sup>,</sup><xref rid="awab101-B37" ref-type="bibr"><sup>37</sup></xref> The values of native T-type channels were substituted by the experimentally obtained values for the wild-type and the individual mutants.</p>
+        <p>Further details of the experimental procedures can be found in the <xref rid="sup1" ref-type="supplementary-material">Supplementary material</xref>.</p>
+      </sec>
+      <sec sec-type="data-availability">
+        <title>Data availability</title>
+        <p>The authors declare that all data supporting the findings of this study are available within the paper and its <xref rid="sup1" ref-type="supplementary-material">Supplementary material</xref>. Consent restrictions preclude sharing of full datasets, and the consents do not cover the deposition of the next-generation sequencing data in a public database.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Heterozygous missense variants in the <italic toggle="yes">CACNA1I</italic> gene cause a spectrum of neurological symptoms</title>
+        <p>Patient 1 is an 8-year-old female, who is the only child of healthy unrelated parents (<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 1</xref>). Pregnancy was complicated by reduced foetal movements, breech presentation, and mild gestosis. She was born at 37&#x2009;+&#x2009;6&#x2009;weeks of gestation by caesarean section; her birth parameters were in the normal range. Muscular hypotonia was noted at age 4&#x2009;weeks, and seizures were discussed because of atypical head movements. At the age of 4&#x2009;months, she received anticonvulsive therapy because of pathological EEG findings associated with possible epileptic apnoea. She showed non-epileptic hyperexcitability, and within the second year of life epileptic myoclonus was noted. Between the age of 4 and 6&#x2009;years, startle seizures triggered by noise were dominating with myoclonic seizures followed by a tonic episode. Last examination at age 8&#x2009;years and 1&#x2009;month revealed severe global developmental delay and severe proximal muscular hypotonia and distal muscular hypertonia; she did not show any interaction. She did not achieve any motor milestones and had no speech and no cognitive development. She had myoclonic seizures daily as the predominant seizure type and rare grand mal seizures that did not respond to treatment. Cortical blindness was diagnosed. She had severe obstructive sleep apnoea syndrome that required intermittent non-invasive ventilation at the age of 6&#x2009;years. She received a gastrostomy tube because of feeding difficulties. Brain MRI at age 4&#x2009;months was normal. At the age of 2&#x2009;years and 7&#x2009;months, brain imaging revealed frontal brain atrophy, a flattened brainstem and mildly delayed myelination. We performed trio WES in Patient 1 and her parents, and did not detect any biallelic variant that could underlie her severe neurodevelopmental phenotype. However, we identified the Sanger-validated <italic toggle="yes">de novo</italic> variant c.2579T&gt;A in the <italic toggle="yes">CACNA1I</italic> gene predicting the amino acid substitution p.(Ile860Asn) as the only potentially disease-causing variant (<xref rid="sup1" ref-type="supplementary-material">Supplementary Tables 1 and 2</xref>).</p>
+        <p>Through GeneMatcher,<xref rid="awab101-B38" ref-type="bibr"><sup>38</sup></xref> we identified five additional individuals with a heterozygous missense variant in <italic toggle="yes">CACNA1I</italic>: Family 2 with three affected members (Patients 2&#x2013;4), and the two unrelated Patients 5 and 6. We included these cases in the study for clinical comparison and functional analysis. Family 2 comprised a 58-year-old female (Patient 2), her 28-year-old son (Patient 3) and 31-year-old daughter (Patient 4) who all carried the <italic toggle="yes">CACNA1I</italic> variant c.2580C&gt;G/p.(Ile860Met) (<xref rid="sup1" ref-type="supplementary-material">Supplementary Tables 1 and 2</xref>). The mother of Patients 3 and 4 had mild cognitive impairment, and she developed seizures at the age of 58&#x2009;years. Patient 3 had mild intellectual disability, and Patient 4 showed moderate intellectual disability and speech retardation. Brain CT in Patient 2 did not reveal any abnormalities (<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 1</xref>). Interestingly, in Patient 1 and Family 2 codon 860 of <italic toggle="yes">CACNA1I</italic> was affected resulting in substitution of isoleucine for asparagine in Patient 1 and for methionine in Family 2 (<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 2</xref>). WES in female Patient 5 and male Patient 6 revealed the heterozygous <italic toggle="yes">CACNA1I</italic> variant c.3917T&gt;C/p.(Ile1306Thr) and c.4275G&gt;A/p.(Met1425Ile), respectively (<xref rid="sup1" ref-type="supplementary-material">Supplementary Tables 1 and 2</xref>). <italic toggle="yes">De novo</italic> occurrence of the variant was confirmed in Patient 5, while the change was absent in the mother of Patient 6, but his father was not available for testing (<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 1</xref>). The 21-month-old Patient 5 and the 8-year-old Patient 6 presented with severe developmental delay, hypotonia, severe speech impairment, and cortical visual impairment. Seizures began at age 2&#x2009;weeks in Patient 5 and at 2&#x2009;years in Patient 6 and are controlled on medication. Brain imaging at the age of 12&#x2009;months was unremarkable in Patient 5; in Patient 6, several brain abnormalities were observed at the age of 5&#x2009;years (<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 1</xref>). Similar to Patient 1, Patients 5 and 6 had feeding issues with reflux that required G-tube placement in Patient 5. Patients 1 and 6 presented with postnatal growth retardation, and Patient 6 in addition had growth hormone deficiency (<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 1</xref>).</p>
+        <p><italic toggle="yes">CACNA1I</italic> is intolerant to functional genetic variation (<italic toggle="yes">Z</italic>-score: 5.05; observed/expected value for missense variants: 0.59),<xref rid="awab101-B39" ref-type="bibr"><sup>39</sup></xref><sup>,</sup><xref rid="awab101-B40" ref-type="bibr"><sup>40</sup></xref> and the four different <italic toggle="yes">CACNA1I</italic> missense variants affect three evolutionary conserved amino acid residues that were predicted to be intolerant to variation (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1 and Table 2</xref>).<xref rid="awab101-B41" ref-type="bibr"><sup>41</sup></xref> All variants are absent from gnomAD, and three <italic toggle="yes">in silico</italic> algorithms predicted the missense variants to have a damaging impact on protein function (<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 2</xref>). In summary, based on the absence of the identified <italic toggle="yes">CACNA1I</italic> variants in the population databases, a predicted deleterious effect of the missense variants on protein function, and impaired cognitive function in all six affected individuals, we believed the heterozygous <italic toggle="yes">CACNA1I</italic> missense changes to underlie the phenotype in all of them.</p>
+      </sec>
+      <sec>
+        <title>Homology structure modelling predicts increased stability of activation gates in Ca<sub>v</sub>3.3-I860N, -I860M and -I1306T</title>
+        <p>To assess the structural impact of the missense variants, we generated homology structure models of wild-type and mutant Ca<sub>v</sub>3.3. Eukaryotic Ca<sub>v</sub> channels are composed of four homologous repeats (I&#x2013;IV), each comprising six membrane-spanning helices (S1&#x2013;S6) (<xref rid="awab101-F1" ref-type="fig">Fig. 1A</xref>). Helices S1&#x2013;S4 of each repeat form separate voltage-sensing domains, while the four S5 and S6 helices and the connecting pore-loops form the channel pore with the selectivity filter and the activation gate (<xref rid="awab101-F1" ref-type="fig">Fig. 1B and C</xref>). Because the two different substitutions of I860 (p.I860N and p.I860M) were found in individuals with greatly differing disease severity, we first focused our attention on these two variants. The I860 residue is located at the intracellular end of the IIS6 helix, a position known to be part of the channel activation gate (<xref rid="awab101-F1" ref-type="fig">Fig. 1A&#x2013;C</xref>).<xref rid="awab101-B42" ref-type="bibr"><sup>42</sup></xref> The structure homology model of the activated state of Ca<sub>v</sub>3.3, based on the cryo-EM structure of Ca<sub>v</sub>3.1 in the activated state,<xref rid="awab101-B14" ref-type="bibr"><sup>14</sup></xref> shows that I860 in wild-type Ca<sub>v</sub>3.3 forms multiple hydrophobic interactions with neighbouring residues in the IIS5, IIS6 and the S4&#x2013;S5 linker (<xref rid="awab101-F1" ref-type="fig">Fig. 1D</xref>). These hydrophobic interactions in the activation gate area have only a weak stabilizing effect, which allows the flexibility necessary for opening and closing the channel gate. When the I860 residue is replaced by asparagine (N860), the model predicts the formation of two strong hydrogen bonds between N860 and N761 in the S4&#x2013;S5 linker (<xref rid="awab101-F1" ref-type="fig">Fig. 1E</xref>). This stabilizes the activation gate in the activated state and probably perturbs S6 and S4&#x2013;S5 linker movement upon deactivation and inactivation. Replacing the I860 residue with methionine (M860) results in the formation of a single stabilizing sulphur hydrogen bond between M860 and N761 (<xref rid="awab101-F1" ref-type="fig">Fig. 1F</xref>). This sulphur hydrogen bond is considerably weaker than either one of the classical hydrogen bonds formed by the I860N variant. Thus, M860 may also stabilize the activation gate in the activated state and potentially perturb S6 and S4&#x2013;S5 linker movement, but to a lesser extent than the I860N variant (<xref rid="awab101-T1" ref-type="table">Table 1</xref>).</p>
+        <fig position="float" id="awab101-F1">
+          <label>Figure 1</label>
+          <caption>
+            <p><bold>Structure modelling of the variants I860N and I860M in Ca<sub>v</sub>3.3.</bold> (<bold>A</bold>) Domain structure of Ca<sub>v</sub>3.3 indicating the location of the four pathogenic missense variants at the cytoplasmic end of transmembrane helices IIS6, IIIS5, and IIIS6 (arrows) which form part of the channel&#x2019;s activation gate. (<bold>B</bold>&#x2013;<bold>F</bold>) Structure homology model of Ca<sub>v</sub>3.3 based on the cryo-EM structure of Ca<sub>v</sub>3.1 in the activated state, colour-coded as in <bold>A</bold>. (<bold>B</bold>) Bottom view and (<bold>C</bold>) side view, frames show the areas depicted in <bold>D</bold>&#x2013;<bold>I</bold>. VSDI&#x2013;IV = voltage-sensing domains. (<bold>D</bold>) In wild-type, I860 in IIS6 forms numerous hydrophobic interactions with neighbouring residues in the IIS5, IIS6 and the S4-S5 linker. (<bold>E</bold>) The N860 variant forms two strong, stabilizing hydrogen bonds between N860 and N761 in the S4-S5 linker. (<bold>F</bold>) The M860 variant forms one weak sulphur hydrogen bond with N761. (<bold>G</bold>&#x2013;<bold>I</bold>) Interactions of the different variants in the resting state. (<bold>G</bold>) Wild-type I860 forms numerous hydrophobic interactions with neighbouring residues in IIIS6 and IIS5. (<bold>H</bold>) The N860 variant forms one strong stabilizing hydrogen bond between N860 and N1424 in IIIS6. (<bold>I</bold>) The M860 variant forms one sulphur hydrogen bond with N1424.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="awab101f1" position="float"/>
+        </fig>
+        <table-wrap position="float" id="awab101-T1">
+          <label>Table 1</label>
+          <caption>
+            <p><bold>Predicted interaction partners</bold>&#x2018; <bold>of all four <italic toggle="yes">CACNA1I</italic> variants (N860, M860, T1306, I1425) and their corresponding wild-type residues (I860, I1306, M1425) in the activated and resting state</bold></p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">
+<bold>Variant</bold>
+</th>
+                <th align="left" rowspan="1" colspan="1">
+<bold>Interaction partners activated state</bold>
+</th>
+                <th align="left" rowspan="1" colspan="1">
+<bold>Interaction partners resting state</bold>
+</th>
+                <th align="left" rowspan="1" colspan="1">
+<bold>Nature of interaction</bold>
+</th>
+                <th align="left" rowspan="1" colspan="1">
+<bold>Stabilization</bold>
+</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">I860</td>
+                <td rowspan="1" colspan="1">I397, V762, L856, L857, L861</td>
+                <td rowspan="1" colspan="1">V762, L856, F1421, V1427</td>
+                <td rowspan="1" colspan="1">Hydrophobic</td>
+                <td rowspan="1" colspan="1">Low</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">N860</td>
+                <td rowspan="1" colspan="1">N761</td>
+                <td rowspan="1" colspan="1">N1424</td>
+                <td rowspan="1" colspan="1">2 H-bonds</td>
+                <td rowspan="1" colspan="1">High</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">M860</td>
+                <td rowspan="1" colspan="1">N761</td>
+                <td rowspan="1" colspan="1">N1424</td>
+                <td rowspan="1" colspan="1">1 S-H bond</td>
+                <td rowspan="1" colspan="1">Medium</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">I1306</td>
+                <td rowspan="1" colspan="1">V1429</td>
+                <td rowspan="1" colspan="1">V1726</td>
+                <td rowspan="1" colspan="1">Hydrophobic</td>
+                <td rowspan="1" colspan="1">Low</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">T1306</td>
+                <td rowspan="1" colspan="1">E1432</td>
+                <td rowspan="1" colspan="1">N1723</td>
+                <td rowspan="1" colspan="1">Charged H-bond</td>
+                <td rowspan="1" colspan="1">High</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">M1425</td>
+                <td rowspan="1" colspan="1">V1310, I1309</td>
+                <td rowspan="1" colspan="1">I1306</td>
+                <td rowspan="1" colspan="1">Hydrophobic</td>
+                <td rowspan="1" colspan="1">Low</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">I1425</td>
+                <td rowspan="1" colspan="1">V1310, I1309</td>
+                <td rowspan="1" colspan="1">I1306</td>
+                <td rowspan="1" colspan="1">Hydrophobic</td>
+                <td rowspan="1" colspan="1">Low</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>Next we analysed possible interactions of wild-type I860 and mutant N860 and M860 in a homology model of Ca<sub>v</sub>3.3 in the resting state, based on the resting state structure of the prokaryotic sodium channel Na<sub>v</sub>Ab<xref rid="awab101-B30" ref-type="bibr"><sup>30</sup></xref> (<xref rid="awab101-F1" ref-type="fig">Fig. 1G&#x2013;I</xref>). Again, wild-type I860 formed multiple hydrophobic interactions (<xref rid="awab101-F1" ref-type="fig">Fig. 1G</xref>). In contrast, N860 (<xref rid="awab101-F1" ref-type="fig">Fig. 1H</xref>) and M860 (<xref rid="awab101-F1" ref-type="fig">Fig. 1I</xref>) formed a single hydrogen bond and a sulphur hydrogen bond, respectively, with an asparagine (N1424) in the neighbouring IIIS6 helix, thus stabilizing the channel gate in the resting state and thereby potentially hampering channel opening upon activation.</p>
+        <p>A similar effect was found for the I1306T variant, which formed stabilizing hydrogen bonds in the resting and activated states (<xref rid="awab101-T1" ref-type="table">Table 1</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 2A&#x2013;D</xref>). Only the M1425I variant in IIIS6 was different, in that it did not form stabilizing hydrogen bonds, but further increased the hydrophobicity (<xref rid="awab101-T1" ref-type="table">Table 1</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 2E&#x2013;H</xref>). Interestingly, however, this substitution strengthened the van der Waals interaction with I1306 in the neighbouring IIIS5 helix, indicating reciprocal effects within this critical interaction network in the channel gate. The hydrophobic interactions in wild-type Ca<sub>v</sub>3.3 are consistent with the necessary mobility of the cytoplasmic ends of the S5 and S6 helices in the gating process. On the other hand, the introduction of stabilizing interactions in the resting and activated states of the disease-associated variants is anticipated to impede both opening and closing of the gate.</p>
+      </sec>
+      <sec>
+        <title><italic toggle="yes">CACNA1I</italic> variants alter the gating properties of Ca<sub>v</sub>3.3 to different extents</title>
+        <p>To study the effects of the four disease-associated amino acid substitutions on the biophysical gating properties of the channel we performed whole-cell patch clamp recordings of HEK293T cells transfected with wild-type and mutant Ca<sub>v</sub>3.3 channels. In a first set of experiments we individually compared the current properties of the two substitutions of I860 with wild-type controls. The representative recordings and quantitative analyses presented in <xref rid="awab101-F2" ref-type="fig">Fig. 2</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Table 3</xref> demonstrate that the I860N substitution caused a striking slowing of current kinetics (<xref rid="awab101-F2" ref-type="fig">Fig. 2A&#x2013;E</xref>), and a similar but milder effect was observed for the I860M mutant (<xref rid="awab101-F2" ref-type="fig">Fig. 2H&#x2013;L</xref>). At the voltage of maximal activation (V<sub>max</sub>) the time to peak of Ca<sub>v</sub>3.3-I860N was increased by more than 3-fold compared to that of wild-type Ca<sub>v</sub>3.3 (<xref rid="awab101-F2" ref-type="fig">Fig. 2D</xref>) and &#x223C;2-fold for Ca<sub>v</sub>3.3-I860M (<xref rid="awab101-F2" ref-type="fig">Fig. 2K</xref>). However, analysis of the activation time constants at all test potentials revealed that for the Ca<sub>v</sub>3.3 mutants activation kinetics were significantly increased only at voltage steps to &#x2212;50&#x2009;mV and for Ca<sub>v</sub>3.3-I860N also at &#x2212;40&#x2009;mV, but not at higher test potentials (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 4</xref>). Also, both Ca<sub>v</sub>3.3 mutants showed a significant slowing of the inactivation kinetics with a substantially greater effect for Ca<sub>v</sub>3.3-I860N compared to Ca<sub>v</sub>3.3-I860M. During a 500-ms depolarization to V<sub>max</sub> the calcium current of wild-type Ca<sub>v</sub>3.3 inactivated almost completely (95&#x2013;98%), while inactivation of the Ca<sub>v</sub>3.3-I860N current only reached &#x223C;52% (<xref rid="awab101-F2" ref-type="fig">Fig. 2E</xref>) and Ca<sub>v</sub>3.3-I860M &#x223C;87% (<xref rid="awab101-F2" ref-type="fig">Fig. 2L</xref>). Fitting the decay phase of the current during 5-s test pulses showed significantly increased time constants for inactivation between &#x2212;40 and +20&#x2009;mV for Ca<sub>v</sub>3.3-I860N, but for Ca<sub>v</sub>3.3-I860M this increase does not reach significance (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 5</xref>). Furthermore, the I/V curve (<xref rid="awab101-F1" ref-type="fig">Fig. 2B and</xref>
+<xref rid="awab101-F2" ref-type="fig">I</xref>) and fractional activation plotted against the voltage of the depolarizing test pulse (<xref rid="awab101-F2" ref-type="fig">Fig. 2C and J</xref>) show that the voltage dependence of activation was significantly shifted in the hyperpolarizing direction in both Ca<sub>v</sub>3.3 mutants. Compared to wild-type Ca<sub>v</sub>3.3 the Ca<sub>v</sub>3.3-I860N mutant resulted in a 15.5&#x2009;mV left shift of the activation curve (<xref rid="awab101-F2" ref-type="fig">Fig. 2G</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Table 3</xref>). The voltage dependence of activation of Ca<sub>v</sub>3.3-I860M was 8.1&#x2009;mV left-shifted compared to wild-type Ca<sub>v</sub>3.3 (<xref rid="awab101-F2" ref-type="fig">Fig. 2N</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Table 3</xref>).</p>
+        <fig position="float" id="awab101-F2">
+          <label>Figure 2</label>
+          <caption>
+            <p><bold>The I860N and I860M substitutions slow current kinetics and left-shift the voltage-dependence of activation of Ca<sub>v</sub>3.3.</bold> (<bold>A</bold>&#x2013;<bold>G</bold>) Current properties of Ca<sub>v</sub>3.3-I860N (red) compared to its wild-type (WT) Ca<sub>v</sub>3.3 controls (blue). (<bold>H</bold>&#x2013;<bold>N</bold>) Current properties of Ca<sub>v</sub>3.3-I860M (green) compared to its wild-type Ca<sub>v</sub>3.3 controls (blue). (<bold>A</bold> and <bold>H</bold>) Example maximal current traces at V<sub>max</sub> with comparable current densities show slower activation and inactivation of the I860N and I860M variants. (<bold>B</bold> and <bold>I</bold>) The current-voltage relationship and (<bold>C</bold> and <bold>J</bold>) the fractional activation curves show a 15.5&#x2009;mV left-shift of activation for I860N (<italic toggle="yes">n</italic>&#x2009;=&#x2009;6) and an 8.1&#x2009;mV left-shift of activation for I860M (<italic toggle="yes">n</italic>&#x2009;=&#x2009;7), as compared to wild-type (<italic toggle="yes">n</italic>&#x2009;=&#x2009;7 and 6, respectively). (<bold>D</bold> and <bold>K</bold>) Scatter plots of the time to peak and (<bold>E</bold> and <bold>L</bold>) the fractional inactivation after 500&#x2009;ms show significantly slowed activation and inactivation of the I860N and I860M variants at V<sub>max</sub>. (<bold>F</bold> and <bold>M</bold>) The differences in maximum current densities (I<sub>peak</sub>) between WT and I860N or I860M are not significant (I860N, <italic toggle="yes">P</italic>&#x2009;=&#x2009;0.18; I860M, <italic toggle="yes">P</italic>&#x2009;=&#x2009;0.75). (<bold>G</bold> and <bold>N</bold>) The scatter plots of the voltage at half-maximal activation (V<sub><bold>&#xBD;</bold></sub>) show significant hyperpolarizing shifts for I860N and I860M. Mean &#xB1; SEM; <italic toggle="yes">P</italic>-values calculated with Student&#x2019;s <italic toggle="yes">t</italic>-test; ***<italic toggle="yes">P&#x2009;&lt;&#x2009;</italic>0.001, ****<italic toggle="yes">P&#x2009;&lt;&#x2009;</italic>0.0001.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="awab101f2" position="float"/>
+        </fig>
+        <p>Additional electrophysiological analysis of the mutants identified in Patients 5 and 6, Ca<sub>v</sub>3.3-I1306T and Ca<sub>v</sub>3.3-M1425I, demonstrated similar changes on activation and inactivation kinetics as well as a left-shifted voltage-dependence of activation, 14.5&#x2009;mV and 13.7&#x2009;mV, respectively. M1425I also showed an almost 3-fold increase in Ipeak (<xref rid="awab101-F3" ref-type="fig">Fig. 3</xref>, <xref rid="sup1" ref-type="supplementary-material">Supplementary Figs 4, 5 and</xref>
+<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 3</xref>).</p>
+        <fig position="float" id="awab101-F3">
+          <label>Figure 3</label>
+          <caption>
+            <p><bold>The I1306T and M1425I substitutions slow current kinetics and left-shift the voltage-dependence of activation of Ca<sub>v</sub>3.3</bold>. (<bold>A</bold>) Example maximal current traces of wild-type (WT) Ca<sub>v</sub>3.3 (blue), Ca<sub>v</sub>3.3-I1306T (purple) and Ca<sub>v</sub>3.3-M1425I (cyan) show slower activation and inactivation at V<sub>max</sub>. (<bold>B</bold>) The current-voltage relationship and (<bold>C</bold>) the fractional activation curves show a 6.6&#x2009;mV left-shift of activation for I1306T (<italic toggle="yes">n</italic>&#x2009;=&#x2009;9), as compared to wild-type (<italic toggle="yes">n</italic>&#x2009;=&#x2009;9), and a 5.9&#x2009;mV left-shift for M1425I (<italic toggle="yes">n</italic>&#x2009;=&#x2009;9). (<bold>D</bold>) Scatter plots of the time to peak and (<bold>E</bold>) the fractional inactivation after 500&#x2009;ms at V<sub>max</sub> indicate significantly slowed activation and inactivation, respectively, of both variants. (<bold>F</bold>) The maximum current density (I<sub>peak</sub>) is doubled in M1425I (<italic toggle="yes">P</italic>&#x2009;=&#x2009;0.03), but only insignificantly increased in I1306T (<italic toggle="yes">P</italic>&#x2009;=&#x2009;0.73). (<bold>G</bold>) The scatter plot of the voltage at half-maximal activation (V<sub><bold>&#xBD;</bold></sub>) shows a significant hyperpolarizing shift for both variants. Mean &#xB1; SEM; <italic toggle="yes">P</italic>-values calculated with ANOVA and Dunnett&#x2019;s <italic toggle="yes">post hoc</italic> test; *<italic toggle="yes">P&#x2009;&lt;&#x2009;</italic>0.05, **<italic toggle="yes">P&#x2009;&lt;&#x2009;</italic>0.01, ****<italic toggle="yes">P&#x2009;&lt;&#x2009;</italic>0.0001.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="awab101f3" position="float"/>
+        </fig>
+        <p>Taken together, the current properties of the four Ca<sub>v</sub>3.3 mutants reveal a gain-of-function effect. The left shift of voltage dependence of activation indicates that the putative disease variants activate at voltages closer to the resting membrane potential compared to wild-type Ca<sub>v</sub>3.3 channels. The slowed inactivation of the mutants allows considerably more calcium to enter during depolarization. The magnitude of these effects varied between the examined Ca<sub>v</sub>3.3 mutants, but consistently was highest in Ca<sub>v</sub>3.3-I860N and lowest in Ca<sub>v</sub>3.3-I860M.</p>
+      </sec>
+      <sec>
+        <title>Deactivation kinetics of Ca<sub>v</sub>3.3 channels are slowed in Ca<sub>v</sub>3.3-I860N, -I1306T, and -M1425I</title>
+        <p>To examine whether the amino acid substitutions also affect the deactivation kinetics of the Ca<sub>v</sub>3.3 channel, we performed voltage steps to V<sub>max</sub> for the duration necessary to achieve maximal activation, without detectable inactivation. As shown in <xref rid="awab101-F4" ref-type="fig">Fig. 4A and C</xref> the tail current of the I860N, I1306T, and M1425I mutants were strikingly broader than those of wild-type and the I860M mutant. When fitting the decay of the tail current, we observed a substantial slowing of the time constant of deactivation in I860N as compared to wild-type Ca<sub>v</sub>3.3, less but still significant slowing for I1306T and M1425I, but similar deactivation kinetics for I860M and wild-type (<xref rid="awab101-F4" ref-type="fig">Fig. 4B and D</xref>). The up to 10-fold slower deactivation of calcium currents in the three Ca<sub>v</sub>3.3 mutants suggests a considerably increased calcium influx upon repolarization as compared to both wild-type and I860M Ca<sub>v</sub>3.3 channels. As the speed of deactivation is a critical determinant for the oscillatory behaviour of Ca<sub>v</sub>3.3 channels,<xref rid="awab101-B10" ref-type="bibr"><sup>10</sup></xref> this channel function may be compromised in neurons expressing Ca<sub>v</sub>3.3-I860N, -I1306T, or -M1425I.</p>
+        <fig position="float" id="awab101-F4">
+          <label>Figure 4</label>
+          <caption>
+            <p><bold>Current deactivation is slowed in I860N, I1306T and M1425I, but not in I860M.</bold> (<bold>A</bold>) Representative current traces, normalized to the peak of the tail currents of wild-type (blue), display a broadening of the tail current in I860N (red) and I860M (green) compared to wild-type. <italic toggle="yes">Inset</italic> shows the voltage-clamp protocol; voltage-steps were applied from a holding potential of &#x2212;100&#x2009;mV to the voltage of maximal activation for the duration necessary to achieve maximal activation without detectable inactivation [wild-type (WT) 15&#x2009;ms, variants 50&#x2009;ms]. (<bold>B</bold>) The scatter plot of the time constants (&#x3C4;) of a mono-exponential fit of the decay of the tail currents demonstrates a significant slowing of deactivation in I860N versus wild-type (<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.0001), but not for I860M versus wild-type (<italic toggle="yes">P</italic>&#x2009;=&#x2009;0.8). Wild-type (<italic toggle="yes">n</italic>&#x2009;=&#x2009;8), I860N (<italic toggle="yes">n</italic>&#x2009;=&#x2009;6), I860M (<italic toggle="yes">n</italic>&#x2009;=&#x2009;6). Mean &#xB1; SEM; <italic toggle="yes">P</italic>-values calculated with ANOVA and Tukey&#x2019;s <italic toggle="yes">post hoc</italic> test. ****<italic toggle="yes">P&#x2009;&lt;&#x2009;</italic>0.0001. (<bold>C</bold>) Representative normalized example current traces show that the tail currents of I1306T (purple) and M1425I (cyan) are broadened compared to wild-type. (<bold>D</bold>) The scatter plot of the time constants (&#x3C4;) of a mono-exponential fit of the decay of the tail currents demonstrates a significant slowing of deactivation in I1306T versus wild-type (<italic toggle="yes">P</italic>&#x2009;=&#x2009;0.02), as well as for M1425I versus wild-type (<italic toggle="yes">P</italic>&#x2009;=&#x2009;0.009). <italic toggle="yes">n</italic>&#x2009;=&#x2009;6 for all three experimental groups; <italic toggle="yes">P</italic>-values calculated with ANOVA and Dunnett&#x2019;s <italic toggle="yes">post hoc test</italic>. *<italic toggle="yes">P&#x2009;&lt;&#x2009;</italic>0.05, **<italic toggle="yes">P&#x2009;&lt;&#x2009;</italic>0.01.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="awab101f4" position="float"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Steady state inactivation and window currents are shifted closer to the resting membrane potential</title>
+        <p>We performed a steady state inactivation protocol comparing the current size during test pulses before and after 5&#x2009;s conditioning pulses at incrementally increasing potentials. Plotting the fractional inactivation against the voltage of the conditioning pulse revealed a significant left-shift of voltage-dependence of inactivation in all mutants except in I1306T (<xref rid="awab101-F5" ref-type="fig">Fig. 5A, B, E and F</xref>). The overlapping area between activation and inactivation curves represents the window current (<xref rid="awab101-F5" ref-type="fig">Fig. 5C and G</xref>). In all mutants the window current was left-shifted with peaks at voltages between &#x2212;70 and &#x2212;60&#x2009;mV, as compared to window currents of wild-type Ca<sub>v</sub>3.3, which peaks near &#x2212;50&#x2009;mV (<xref rid="awab101-F5" ref-type="fig">Fig. 5D and H</xref>). In addition, I860N and I1306T experienced a substantial increase of their window currents, because in both cases the left-shift in the voltage-dependence of activation was not accompanied by a similar left-shift in the voltage-dependence of inactivation. The voltage range of Ca<sub>v</sub>3.3 window current is a critical determinant of electrical activity and calcium oscillations,<xref rid="awab101-B10" ref-type="bibr"><sup>10</sup></xref> suggesting that the left-shifted and increased window current affects electrical activity of neurons expressing these Ca<sub>v</sub>3.3 variants. This further implies a persistent calcium influx close to the resting membrane potential, suggesting the possibility of calcium toxicity particular for Ca<sub>v</sub>3.3-I860N and Ca<sub>v</sub>3.3-I1306T.</p>
+        <fig position="float" id="awab101-F5">
+          <label>Figure 5</label>
+          <caption>
+            <p><bold>Steady state inactivation and window currents are left-shifted in all four missense variants of Ca<sub>v</sub>3.3.</bold> (<bold>A</bold>&#x2013;<bold>D</bold>) Steady-state inactivation and window currents of Ca<sub>v</sub>3.3-I860N (red) and -I860M (green) compared to wild-type (WT) controls (blue); (<bold>E</bold>&#x2013;<bold>H</bold>) the same for Ca<sub>v</sub>3.3-I1306T (purple) and Ca<sub>v</sub>3.3-M1425I (cyan). (<bold>A</bold>, <bold>B</bold>, <bold>E</bold> and <bold>F</bold>) Fractional inactivation curves and scatter plot of V<sub>&#xBD;</sub> of inactivation show that, compared to wild-type, the voltage-dependence of inactivation is left-shifted in I860N (6.6&#x2009;mV, <italic toggle="yes">P</italic>&#x2009;=&#x2009;0.0018), I860M (5.9&#x2009;mV, <italic toggle="yes">P</italic>&#x2009;=&#x2009;0.0045; <italic toggle="yes">n</italic>&#x2009;=&#x2009;6), and M1425I (6.8&#x2009;mV, <italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.001), but not in I1306T (<italic toggle="yes">P</italic>&#x2009;=&#x2009;0.47). The <italic toggle="yes">inset</italic> in <bold>A</bold> shows the steady state inactivation protocol used for these experiments. (<bold>C</bold> and <bold>G</bold>) The simultaneous display of the fractional activation and inactivation curves shows that activation of Ca<sub>v</sub>3.3-I860N and Ca<sub>v</sub>3.3-I1306T is left-shifted to greater extent than inactivation, resulting in greatly increased window currents. (<bold>D</bold> and <bold>H</bold>) Enlarged area indicated by the frames in (<bold>C</bold> and <bold>G</bold>) show the size and voltage-range of the window currents for wild-type (shaded in blue), I860N (red), I860M (green), I1306T (purple), and M1425I (cyan). Window currents of Ca<sub>v</sub>3.3-I860M and -M1425I are left-shifted but not enlarged. <italic toggle="yes">n</italic>&#x2009;=&#x2009;6 for all experimental groups. Mean &#xB1; SEM; <italic toggle="yes">P</italic>-values calculated with ANOVA and Dunnett&#x2019;s <italic toggle="yes">post hoc</italic> test. **<italic toggle="yes">P&#x2009;</italic>&lt;<italic toggle="yes">&#x2009;</italic>0.01, ***<italic toggle="yes">P&#x2009;</italic>&lt;<italic toggle="yes">&#x2009;</italic>0.001.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="awab101f5" position="float"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>The mutant Ca<sub>v</sub>3.3 channels increase persistent and action potential-induced calcium currents</title>
+        <p>The observed alterations in activation, deactivation, and inactivation properties of the disease-associated Ca<sub>v</sub>3.3 mutants are expected to affect neuronal excitability and the magnitude of calcium influx during repetitive action potential firing. Therefore, we next examined the calcium currents in action potential clamp experiments. Action potential-like depolarizations, modelled on the shape of thalamic neurons,<xref rid="awab101-B43" ref-type="bibr"><sup>43</sup></xref> were repeated 99 times at 20&#x2009;Hz, and currents were recorded from HEK293T cells heterologously expressing wild-type and mutant Ca<sub>v</sub>3.3 channels (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3A and B</xref>). In all conditions, T-type calcium currents were facilitated during the first few action potentials and then experienced a continuous attenuation during the rest or the protocol, due to accumulating inactivation of Ca<sub>v</sub>3.3. Importantly, with Ca<sub>v</sub>3.3-I860N, -I860M, -I1306T, and -M1425I calcium currents before (persistent pace-making current), during, and after the action potential were increased by several-fold (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3C</xref>). The increase was greatest in the early sweeps, where the persistent current of the mutants was an order of magnitude larger than that of wild-type and about twice the size for I860N and I1306T compared to I860M and M1425I (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3D</xref>). Also, the calcium influx during the action potential was several-fold larger than in wild-type, with I860N, -I1306T and -M1425I, but not for -I860M (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3E and F</xref>). Together, the action potential clamp recordings demonstrate that during repetitive action potential firing calcium influx is increased substantially and to different degrees in cells expressing the examined Ca<sub>v</sub>3.3 mutants. However, action potential clamp experiments do not account for the dynamic feedback regulation of the continually changing T-type currents onto the shape of the neuronal firing patterns.</p>
+      </sec>
+      <sec>
+        <title>The mutant Ca<sub>v</sub>3.3 channels increase neuronal firing in a model of thalamic neurons</title>
+        <p>Since Ca<sub>v</sub>3.3 is highly expressed in thalamic neurons and these neurons are implicated in the pathophysiology of epilepsy,<xref rid="awab101-B17" ref-type="bibr"><sup>17</sup></xref><sup>,</sup><xref rid="awab101-B37" ref-type="bibr"><sup>37</sup></xref><sup>,</sup><xref rid="awab101-B44" ref-type="bibr"><sup>44</sup></xref> we simulated the effects of altered gating properties of the four Ca<sub>v</sub>3.3 disease-associated variants in a computer model of TRN neurons.<xref rid="awab101-B11" ref-type="bibr"><sup>11</sup></xref><sup>,</sup><xref rid="awab101-B45" ref-type="bibr"><sup>45</sup></xref> In the model the parameters of the T-type calcium conductance were adjusted to closely resemble the current properties determined in the heterologous cell system (<xref rid="awab101-F6" ref-type="fig">Fig. 6A, D and G</xref>; <italic toggle="yes">cf</italic>. <xref rid="awab101-F2" ref-type="fig">Figs 2</xref>, <xref rid="awab101-F3" ref-type="fig">3</xref> and <xref rid="awab101-F5" ref-type="fig">5</xref>). Simulation of neuronal excitability with the wild-type Ca<sub>v</sub>3.3 showed that depolarizing current injection triggers burst firing with a starting frequency of &#x223C;250&#x2009;Hz that is steadily decreasing until the burst ends abruptly at the end of the current injection (<xref rid="awab101-F6" ref-type="fig">Fig. 6B and J</xref>). In simulations for the Ca<sub>v</sub>3.3 mutants eliciting burst firing required substantially less current injection (<xref rid="awab101-F6" ref-type="fig">Fig. 6J and M</xref>) indicating that the gating defects in the Ca<sub>v</sub>3.3 mutants lower the neuron&#x2019;s rheobase. The firing frequency was somewhat elevated (up to 300&#x2009;Hz), but strikingly the burst duration was prolonged, exceeding the duration of the depolarizing current injection (<xref rid="awab101-F6" ref-type="fig">Fig. 6 B, E, H, K, M and N</xref>). These effects on rheobase and burst duration were strongest for I860N and weakest for I860M (<xref rid="awab101-F6" ref-type="fig">Fig. 6J and M</xref>).</p>
+        <fig position="float" id="awab101-F6">
+          <label>Figure 6</label>
+          <caption>
+            <p><bold>Computer modelling of a TRN neuron shows that all amino acid substitutions increase electrical activity of Ca<sub>v</sub>3.3, with I860N showing a stronger effect.</bold> The experimentally determined values for &#x3C4;<sub>activation</sub>, &#x3C4;<sub>inactivation</sub>, V<sub>1/2activation</sub>, k<sub>act</sub>, V<sub>1/2inactivation</sub>, and k<sub>inact</sub> were entered in the computer model to generate I<sub>CaT</sub> currents with identical kinetics (<bold>A</bold>) and voltage dependence of activation and inactivation (<bold>D</bold> and <bold>G</bold>) as experimentally measured (<xref rid="awab101-F2" ref-type="fig">Figs 2&#x2013;5</xref>) for wild-type (WT) Ca<sub>v</sub>3.3 (blue), M1425I (cyan), I860M (green), I1306T (purple) and I860N (red) channels. To test the effects of mutations on neuronal excitability, the resting membrane potential was set to &#x2212;110&#x2009;mV and 200&#x2009;ms long depolarizing current pulses of increasing amplitudes were applied. (<bold>B</bold>, <bold>E</bold>, <bold>H</bold>, <bold>K and N</bold>) show the electrical activity at the minimum current injection (rheobase) necessary to stimulate an action potential. (<bold>J</bold>) The wild-type model needs a depolarizing pulse of 0.29&#x2009;nA to initiate a train of action potentials, while M1425I fires at 0.20&#x2009;nA current injection, I860M at 0.22&#x2009;nA, I1306T at 0.19&#x2009;nA, and I860N at 0.18&#x2009;nA. (<bold>M</bold>) While at maximum current injection of 0.35&#x2009;nA the 200<sub><bold>-</bold></sub>ms long pulses initiate in wild-type and I860M models an action potential train with a comparable duration (wild-type t&#x2009;=&#x2009;132.7&#x2009;ms and I860M t&#x2009;=&#x2009;156.3&#x2009;ms) the other Ca<sub>v</sub>3.3 mutations substantially increased the train duration (M1425I t&#x2009;=&#x2009;243.5&#x2009;ms, I1306T t&#x2009;=&#x2009;376.3&#x2009;ms, and I860N t&#x2009;=&#x2009;302.9&#x2009;ms) even at lower current injection levels. Running the models for 10&#x2009;s (here shown 1&#x2009;s) with the resting membrane potential unclamped showed that the wild-type model fires short action potential trains only after a brief hyperpolarizing pulse to &#x2212;110&#x2009;mV (<bold>C</bold>) with a frequency f<sub>0</sub>=255.1&#x2009;Hz, while I860M (<bold>I</bold>), I1306T (<bold>L</bold>) and I860N (<bold>O</bold>) models display a continuous electrical activity, with I860M showing an initial frequency of f<sub>0</sub> = 355.5&#x2009;Hz and final frequency of f<sub>SS</sub> = 91.5&#x2009;Hz, I1306T of f<sub>0</sub> = 320.9&#x2009;Hz and f<sub>SS</sub> = 44.9&#x2009;Hz, and I860N of f<sub>0</sub> = 320.3&#x2009;Hz and f<sub>SS</sub> = 129.2&#x2009;Hz. (<bold>F</bold>) The M1425I model does not show a continuous electrical activity but a train with a frequency f<sub>0</sub> = 338.2&#x2009;Hz.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="awab101f6" position="float"/>
+        </fig>
+        <p>When the simulations were run from a membrane potential of &#x2212;60&#x2009;mV, corresponding to the up-state of thalamic neurons, in the wild-type model hyperpolarizing steps to &#x2212;110&#x2009;mV were followed by transient burst lasting &#x223C;100&#x2009;ms (<xref rid="awab101-F6" ref-type="fig">Fig. 6C</xref>). In contrast, in simulations of the mutants the bursts were lengthened, stopping spontaneously only with Ca<sub>v</sub>3.3-M1425I. For Ca<sub>v</sub>3.3-I860M, -I860N, and -I1306T bursting started at high frequency for &#x223C;100&#x2009;ms and then switched to a steady firing pattern at reduced frequency continuing until the end of the 10-s recording (<xref rid="awab101-F1" ref-type="fig">Fig. 6F</xref>, <xref rid="awab101-F6" ref-type="fig">I, L and O</xref>). Together, the data from the computer simulations of TRN neurons indicate that the altered gating properties of the Ca<sub>v</sub>3.3 mutants cause a neuronal gain-of-function effect with severe hyper-excitability.</p>
+      </sec>
+      <sec>
+        <title>Expression of Ca<sub>v</sub>3.3-I860N and -I860M variants in mouse chromaffin cells shifts their firing mode</title>
+        <p>Finally, to examine the effects of the altered gating properties of the putative Ca<sub>v</sub>3.3 disease variants on the firing patterns in native excitable cells, we overexpressed wild-type Ca<sub>v</sub>3.3 and two representative mutants in freshly prepared mouse chromaffin cells, an established model for studying neuron-like action potential firing.<xref rid="awab101-B46" ref-type="bibr"><sup>46</sup></xref><sup>,</sup><xref rid="awab101-B47" ref-type="bibr"><sup>47</sup></xref> We chose Ca<sub>v</sub>3.3-I860N and -I860M, because structurally they are substitutions of the same residue and functionally represent the two extremes of the observed effects on gating properties and excitability. Consistent with the critical role of Ca<sub>v</sub>3 channels in regulating neuronal excitability,<xref rid="awab101-B4" ref-type="bibr"><sup>4</sup></xref><sup>,</sup><xref rid="awab101-B44" ref-type="bibr"><sup>44</sup></xref> and as predicted by our neuronal simulation, expression of wild-type Ca<sub>v</sub>3.3 in mouse chromaffin cells induced low-threshold firing (either tonic or repetitive burst-firing) (<xref rid="awab101-F7" ref-type="fig">Fig. 7A</xref>). Presumably, activation of the T-type calcium current depolarizes the membrane potential to above the threshold of the sodium spikes before its gradual inactivation terminates the burst and allows the repolarization of the membrane potential.<xref rid="awab101-B4" ref-type="bibr"><sup>4</sup></xref> As long as inactivation of Ca<sub>v</sub>3.3 is incomplete the cell remains in the up-state with the membrane potential oscillating in the range of Ca<sub>v</sub>3.3&#x2019;s window current near &#x2212;50 mV. Only after the membrane potential had returned to below the lower threshold of the window current the cell would fire spikes and bursts again. This firing behaviour observed in mouse chromaffin cells expressing wild-type Ca<sub>v</sub>3.3 is reminiscent of the firing pattern of thalamic neurons,<xref rid="awab101-B4" ref-type="bibr"><sup>4</sup></xref><sup>,</sup><xref rid="awab101-B37" ref-type="bibr"><sup>37</sup></xref> therefore, chromaffin cells represent a useful model system for studying the effects of altered T-type calcium currents on thalamic neuron-like burst firing.</p>
+        <fig position="float" id="awab101-F7">
+          <label>Figure 7</label>
+          <caption>
+            <p><bold>Wild-type, I860M and I860N Ca<sub>v</sub>3.3 channels differently shape firing patterns of mouse chromaffin cells.</bold> (<bold>A</bold>&#x2013;<bold>C</bold>) Representative current-clamp recordings of isolated mouse chromaffin cells (MCCs) at resting membrane potential (RMP, 0&#x2009;pA current injection). MCCs expressing wild-type (WT) Ca<sub>v</sub>3.3, Ca<sub>v</sub>3.3-I860M or Ca<sub>v</sub>3.3-I860N exhibit distinct firing modes depending on the contribution of T-type window currents (I<sub>T</sub> window) and hyperpolarization-activated sodium conductances (Ih)<xref rid="awab101-B4" ref-type="bibr"><sup>4</sup></xref>: low threshold tonic or burst firing (LTF, <bold>A</bold>), slow oscillations (SO, <bold>B</bold>) resulting from membrane potential bistability, and intermediate (LTF+SO, <bold>C</bold>). The percentages of MCCs displaying the different firing modes for wild-type (blue), I860M (green) and I860N (red) are indicated in each panel. Note that all firing cells expressing wild-type channels show LTF, while I860M shifts firing more towards SO (25% SO and 25% LTF+SO; wild-type <italic toggle="yes">n</italic>&#x2009;=&#x2009;4, I860M n&#x2009;=&#x2009;4). MCCs expressing the I860N variant display no spontaneous activity (<italic toggle="yes">n</italic>&#x2009;=&#x2009;11). Hatched lines indicate the membrane potential at which I<sub>T</sub> window current is on (blue) or off (red). (<bold>D</bold> and <bold>E</bold>) Representative current-clamp recordings after clamping the resting membrane potential to &#x2212;70&#x2009;mV. All firing cells expressing wild-type Ca<sub>v</sub>3.3 show LTF (<bold>D</bold>). I860M shifts firing more towards SO [17% LTF (<bold>D</bold>), 50% SO and 33% LTF+SO (<bold>E</bold>)]. MCCs expressing I860N display only SO (<bold>E</bold>) (<italic toggle="yes">P</italic>&#x2009;=&#x2009;0.001) (wild-type <italic toggle="yes">n</italic>&#x2009;=&#x2009;6, I860N <italic toggle="yes">n</italic>&#x2009;=&#x2009;5, I860M <italic toggle="yes">n</italic>&#x2009;=&#x2009;6). (<bold>F</bold>) Expression of I860N channel in MCCs hyperpolarizes the membrane potential to &#x2212;116.9&#x2009;&#xB1;&#x2009;11.9&#x2009;mV (<italic toggle="yes">P</italic>&#x2009;=&#x2009;0.01) compared to &#x2212;74.3&#x2009;&#xB1;&#x2009;1.5&#x2009;mV for wild-type and &#x2212;94.2&#x2009;&#xB1;&#x2009;9.1&#x2009;mV for I860M. (<bold>G</bold>) While the depolarization threshold of MCCs expressing wild-type Ca<sub>v</sub>3.3 channels is &#x2212;56.7&#x2009;&#xB1;&#x2009;2.1&#x2009;mV, expression of Ca<sub>v</sub>3.3-I860N shifts the depolarization threshold to &#x2212;79.9&#x2009;&#xB1;&#x2009;3.6&#x2009;mV (<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.001) and Cav3.3-I860M to &#x2212;69.6&#x2009;&#xB1;&#x2009;2.9&#x2009;mV (<italic toggle="yes">P</italic>&#x2009;=&#x2009;0.01). (<bold>H</bold>) The area under the action potential plateau phase is significantly higher (<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.05) for MCCs expressing I860M (16&#x200A;940&#x2009;&#xB1;&#x2009;6562&#x2009;mV &#xD7; ms) compared to wild-type (5471&#x2009;&#xB1;&#x2009;926.8&#x2009;mV &#xD7; ms) when the cells show LTF activity, while it is similar for MCCs expressing I860M or I860N in the SO firing mode (<bold>J</bold>). The action potential decay slope (between 90% and 10%) was significantly increased in MCCs expressing I860M (&#x2212;0.08&#x2009;&#xB1;&#x2009;0.01&#x2009;mV/ms, <italic toggle="yes">P</italic>&#x2009;=&#x2009;0.02) compared to wild-type (&#x2212;0.23&#x2009;&#xB1;&#x2009;0.03&#x2009;mV/ms) (<bold>I</bold>), but was similar for cells expressing I860M or I860N (<bold>K</bold>). Chi-square test, <italic toggle="yes">t</italic>-test or one-way ANOVA with Holm-Sidak <italic toggle="yes">post hoc test</italic>. *<italic toggle="yes">P&#x2009;</italic>&lt;<italic toggle="yes">&#x2009;</italic>0.05, **<italic toggle="yes">P&#x2009;</italic>&lt;<italic toggle="yes">&#x2009;</italic>0.01, ***<italic toggle="yes">P&#x2009;</italic>&lt;<italic toggle="yes">&#x2009;</italic>0.001.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="awab101f7" position="float"/>
+        </fig>
+        <p>When the Ca<sub>v</sub>3.3-I860M variant was expressed in chromaffin cells the decay of low-threshold spikes was significantly delayed, resulting in a prolonged calcium spike (<xref rid="awab101-F7" ref-type="fig">Fig. 7D</xref>) or in persistent low-frequency oscillations in the up-state (<xref rid="awab101-F7" ref-type="fig">Fig. 7B and E</xref>). In variance to what was predicted by the neuronal computer model, this did not result in prolonged spike firing but in occasional spikes in some of the recorded chromaffin cells (<xref rid="awab101-F7" ref-type="fig">Fig. 7B, C and E</xref>). Either the oscillations mostly remained below the threshold of the sodium spikes or the incomplete recovery from inactivation of the sodium channels prevented the generation of repetitive sodium spikes. Eventually the membrane potential returned to the down-state and the cells were ready for firing again. The delayed repolarization and the resulting prolonged slow oscillation are consistent with the reduced rate of inactivation kinetics and the left-shifted window current of the Ca<sub>v</sub>3.3-I860M channel observed in the patch-clamp analysis. When the Ca<sub>v</sub>3.3-I860N variant was expressed in chromaffin cells, spike-firing ceased completely, and all recorded cells remained in the slow oscillation mode (<xref rid="awab101-F7" ref-type="fig">Fig. 7E</xref>). Apparently, because of the substantially slowed T-type current inactivation and severely left-shifted and enlarged window current, cells expressing this disease-associated Ca<sub>v</sub>3.3 variant mostly persist in the up-state showing low-frequency oscillations without sodium spikes.</p>
+        <p>The shift in firing modes from low-threshold firing to slow oscillations in the two Ca<sub>v</sub>3.3 mutants was accompanied by a hyperpolarization of the baseline membrane potential (<xref rid="awab101-F7" ref-type="fig">Fig. 7F</xref>) and a significant reduction of the firing threshold of the calcium spike (<xref rid="awab101-F7" ref-type="fig">Fig. 7G</xref>). This is consistent with the notion that the left-shifted voltage dependence of activation in Ca<sub>v</sub>3.3-I860M and -I860N results in hyper-excitability of the cell. Moreover, the delayed hyperpolarization and persistent slow oscillations cause a substantially increased and potentially harmful calcium influx in cells expressing Ca<sub>v</sub>3.3-I860M and -I860N (<xref rid="awab101-F7" ref-type="fig">Fig. 7H&#x2013;K</xref>). This notion was examined by monitoring the seal stability during the recording. While initial seal quality of chromaffin cells expressing I860M or I860N was good and comparable to that of wild-type cells, after action potential firing &#x223C;80% of I860N and 9% of I860M cells displayed leaky and unstable seal properties (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 6</xref>). This is indicative of increased cellular stress experienced, probably due to the increased calcium influx through the mutant channels.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>In this study we report heterozygous gain-of-function mutations in <italic toggle="yes">CACNA1I</italic> associated with a congenital neurodevelopmental disorder of variable severity in three unrelated patients and one family. Patients 2&#x2013;4 belonging to one family share the heterozygous <italic toggle="yes">CACNA1I</italic> missense variant p.(Ile860Met) and have borderline intellectual functioning or mild or moderate intellectual disability as main clinical feature. Patient 2 developed late-onset seizures. The other three patients (Patients 1, 5 and 6) show a severe neurodevelopmental disorder and share severe global developmental delay, absence of speech, gross motor delay, muscular hypotonia, early-onset seizures, cortical visual impairment, and feeding difficulties. Variable clinical features include various brain malformations, startle response or seizures, postnatal growth retardation, gastroesophageal reflux, and gastrostomy. The <italic toggle="yes">CACNA1I</italic> variants p.(Ile860Asn) and p.(Ile1306Thr) were <italic toggle="yes">de novo</italic> in Patients 1 and 5, respectively, while Patient 6 carried the heterozygous p.(Met1425Ile) variant absent in his mother.</p>
+      <p>The four different <italic toggle="yes">CACNA1I</italic> missense variants reported here affect amino acid residues in a known hot-spot region for gain-of-function calcium channel mutations in or next to the channel activation gate (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1</xref>).<xref rid="awab101-B11" ref-type="bibr"><sup>11&#x2013;13</sup></xref> Three of the four variants affect an amino acid residue located at the cytoplasmic end of an S6 helix; thus classifying the related disease as S6 calcium channelopathy.<xref rid="awab101-B6" ref-type="bibr"><sup>6</sup></xref> Methionine 1425 in Ca<sub>v</sub>3.3 corresponds to methionine 1531 in Ca<sub>v</sub>3.1 and to methionine 1549 in Ca<sub>v</sub>3.2. The <italic toggle="yes">de novo CACNA1G</italic> variant p.(Met1531Val) has recently been reported in a patient with severe epileptic encephalopathy and global cerebellar atrophy,<xref rid="awab101-B11" ref-type="bibr"><sup>11</sup></xref> and the heterozygous <italic toggle="yes">CACNA1H</italic> variants p.(Met1549Val) and p.(Met1549Ile) have been associated with early-onset hypertension and hyperaldosteronism with incomplete penetrance.<xref rid="awab101-B12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="awab101-B13" ref-type="bibr"><sup>13</sup></xref> Electrophysiological studies of the respective Ca<sub>v</sub>3 mutant channels provided evidence for a gain-of-function effect of all three mutations changing the methionine in the highly conserved MFV sequence in the Ca<sub>v</sub>3 IIIS6 segment.<xref rid="awab101-B11" ref-type="bibr"><sup>11&#x2013;13</sup></xref> The recurrently mutated alanine 961 in Ca<sub>v</sub>3.1 [p.(Ala961Thr)], underlying severe developmental delay, cerebellar atrophy with or without epilepsy,<xref rid="awab101-B11" ref-type="bibr"><sup>11</sup></xref> is located next to the isoleucine corresponding to Ile860 in Ca<sub>v</sub>3.3 which is mutated in Patient 1 and Family 2 reported here (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1</xref>). The Ca<sub>v</sub>3.1 A961T mutant showed slowed activation and inactivation kinetics and a negative shift in the steady-state activations, similar to the M1531V mutant, confirming both as gain-of-function mutations.<xref rid="awab101-B11" ref-type="bibr"><sup>11</sup></xref> For isoleucine 1306 substituted by threonine in Ca<sub>v</sub>3.3, no equivalent pathogenic germline mutation could be identified in one of the other Ca<sub>v</sub> channels (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1</xref>). However, somatic mutations resulting in the corresponding substitutions I1430T in Ca<sub>v</sub>3.2 (<italic toggle="yes">CACNA1H</italic>) and I1015S/V in Ca<sub>v</sub>1.3 (<italic toggle="yes">CACNA1D</italic>) were identified in aldosterone-producing adenomas.<xref rid="awab101-B48" ref-type="bibr"><sup>48</sup></xref><sup>,</sup><xref rid="awab101-B49" ref-type="bibr"><sup>49</sup></xref> Moreover, substitutions of two neighbouring amino acid residues, such as serine 1373 in Ca<sub>v</sub>2.1 (<italic toggle="yes">CACNA1A</italic>) and arginine 998 in Ca<sub>v</sub>1.4 (<italic toggle="yes">CACNA1F</italic>), are disease-associated (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1</xref>), but likely cause loss- rather than gain-of-function.<xref rid="awab101-B50" ref-type="bibr"><sup>50&#x2013;52</sup></xref></p>
+      <p>Electrophysiological analysis of the Ca<sub>v</sub>3.3 variants revealed a gain-of-function effect on channel gating with a substantially increased calcium influx at rest and during action potential firing. These altered channel properties resulted in hyper-excitability in a model of TRN neurons. When ectopically expressed in mouse chromaffin cells, the two representative Ca<sub>v</sub>3.3 variants I860M and I860N which are associated with a relatively mild and severe neurological phenotype, respectively, caused a shift of firing modes from burst firing to slow oscillation. Importantly, the magnitude of all functional changes determined experimentally was consistently lower for the Ca<sub>v</sub>3.3-I860M variant than for Ca<sub>v</sub>3.3-I860N and -I1306T corresponding well to the relatively mild phenotype in patients with the I860M variant. Together, our data add <italic toggle="yes">CACNA1I</italic> to the list of disease genes associated with motor and cognitive impairment with or without epilepsy.</p>
+      <p>All four disease-associated Ca<sub>v</sub>3.3 variants show substantial gain-of-function effects on the gating properties. The up to 16&#x2009;mV shift in the voltage-dependence of activation to hyperpolarizing potentials is the likely cause of the observed increased excitability of neurons expressing the Ca<sub>v</sub>3.3 channel variants. This notion is supported by the reduced threshold and increased frequency and duration of firing in the model of TRN neurons. Moreover, in the case of Ca<sub>v</sub>3.3-I860M and -I860N, it is evident in the lower threshold for calcium spikes recorded in mouse chromaffin cells. As TRN neurons are implicated in the generation of abnormal rhythms associated with absence epilepsy,<xref rid="awab101-B37" ref-type="bibr"><sup>37</sup></xref> hyper-excitability of the Ca<sub>v</sub>3.3 mutant channel expressed in thalamic neurons represents a plausible cause of the epileptic phenotype in the three patients with the p.(Ile860Asn), p.(Ile1306Thr) and p.(Met1425Ile) variants. Coherent with this interpretation, increased T-type calcium currents have previously been observed in TRN neurons of a genetic rat model of generalized epilepsy.<xref rid="awab101-B9" ref-type="bibr"><sup>9</sup></xref><sup>,</sup><xref rid="awab101-B17" ref-type="bibr"><sup>17</sup></xref></p>
+      <p>The Ca<sub>v</sub>3.3 mutants showed reduced activation, deactivation, and inactivation kinetics. Slowed activation would represent a loss-of-function, but this effect was only significant at the most negative test potentials. However, the significantly slowed deactivation and inactivation kinetics will result in prolonged channel openings and increased calcium influx in active neurons, and thus represents a gain of calcium channel function. Action potential clamp experiments indicated that during physiological depolarization patterns the effects on voltage-dependence of inactivation dominate and cause substantially increased calcium influx before, during, and after the neuronal action potential. Slowed inactivation, in part also combined with altered voltage-dependence of activation and inactivation, have previously been described for disease-causing mutations in <italic toggle="yes">CACNA1G</italic> and <italic toggle="yes">CACNA1H</italic> encoding the T-type calcium channels Ca<sub>v</sub>3.1 and Ca<sub>v</sub>3.2, respectively,<xref rid="awab101-B11" ref-type="bibr"><sup>11</sup></xref><sup>,</sup><xref rid="awab101-B12" ref-type="bibr"><sup>12</sup></xref> as well as in L-, PQ-, and R-type calcium channels.<xref rid="awab101-B53" ref-type="bibr"><sup>53&#x2013;57</sup></xref> In all these genes, mutations affect highly conserved amino acid residues at the cytoplasmic end of the S6 helices, which line the channel gate. The associated phenotypes comprise neurodevelopmental anomalies and/or epileptic encephalopathy in the majority of cases. Thus, there is substantial evidence indicating that increased calcium influx because of a delayed inactivation causes a congenital neurodevelopmental disorder. Our present study adds another member of the voltage-gated calcium channel family to the S6 channelopathies, all of which probably share common pathophysiological mechanisms.</p>
+      <p>Because of their specific biophysical properties, with activation at low membrane potentials, T-type calcium channels support calcium influx at rest. The partial overlap of the activation and inactivation curves indicates the voltage range where a fraction of channels becomes activated but not yet inactivated, called the window current. In cells expressing T-type channels this causes a bi-stable resting potential and cells in the up-state generate slow, calcium-dependent oscillations of the membrane potential at about &#x2212;50&#x2009;mV.<xref rid="awab101-B10" ref-type="bibr"><sup>10</sup></xref> Particularly in the Ca<sub>v</sub>3.3-I860N and -I1306T variants the greater left-shift of the voltage-dependence of activation compared to that of inactivation causes a substantial left-shift and enlargement of the window current. This most probably causes the complete switch from the low-threshold firing mode to the slow oscillation mode observed in mouse chromaffin cells expressing Ca<sub>v</sub>3.3-I860N. As this mode is accompanied by a constant influx of calcium it will increase the likelihood of calcium toxicity and consequently may lead to aberrant development and death of neurons.<xref rid="awab101-B58" ref-type="bibr"><sup>58</sup></xref> We propose that these neuronal cell abnormalities represent a major cause of the severe neurodevelopmental defects observed in Patients 1, 5 and 6.</p>
+      <p>The modest and profound electrophysiological alterations observed in the Ca<sub>v</sub>3.3-I860M and -I860N channel variants, respectively, strikingly demonstrate that the properties of the substituted amino acid rather than the position or nature of the changed amino acid residue determine the severity of the gating defects and the clinical phenotype. At the molecular level our structure models of wild-type and mutant Ca<sub>v</sub>3.3 provide a possible mechanistic explanation for the left-shifted voltage-dependence of activation and slowed inactivation, as well as for the different severity of the effects in the Ca<sub>v</sub>3.3-I860M and -I860N channel variants. In the wild-type situation Ca<sub>v</sub>3.3 I860 interacts with its environment through multiple weak hydrophobic interactions. This endows the cytoplasmic end of the IIS6 helix with the necessary flexibility for its radial motion upon opening and closing of the channel gate. In the Ca<sub>v</sub>3.3-I860N and -I860M disease variants the substituted amino acids form hydrogen bonds with neighbouring residues, both in the activated and resting state. Stabilization of both states by addition of hydrogen bonds can easily be envisaged to slow the kinetics and left-shift activation, by slowing the state transitions and stabilizing the activated state, respectively. The addition of stabilizing interactions by the substituted amino acids, rather than the removal of a critical property of the original amino acid, is consistent with the observed dominant gain-of-function effects and also explains how two distinct substitutions at the same position can result in different disease severity. By forming two classical hydrogen bonds the stability of Ca<sub>v</sub>3.3-I860N substantially exceeds that of Ca<sub>v</sub>3.3-I860M, which only forms a single sulphur hydrogen bond. This difference in the strength of the immobilizing interactions corresponds well with the differences in the experimentally determined effects on the voltage-dependence of activation and the kinetics of deactivation and inactivation. Consistent with this notion, also the Ca<sub>v</sub>3.3-I1306T variant forms a hydrogen bond in an otherwise hydrophobic position. However, Ca<sub>v</sub>3.3-M1425I does not form hydrogen bonds; instead the substitution increases the hydrophobicity and probable van der Waals interactions with neighbouring I1306, thus further highlighting the importance of the molecular interactions of these amino acids at the cytoplasmic ends of IIIS5 and IIIS6 for proper channel gating.</p>
+      <p>Together, our functional analysis of the <italic toggle="yes">CACNA1I</italic> variants linked to neurodevelopmental disorders provide evidence for two parallel pathomechanisms contributing to the aetiology of the epileptic phenotype. First, from early development on calcium toxicity in neurons expressing the Ca<sub>v</sub>3.3 variants with a more severe gain-of-function effect may lead to aberrant development and loss of neurons, structural brain changes, global developmental delay, and seizures.<xref rid="awab101-B58" ref-type="bibr"><sup>58</sup></xref> Second, because of the specific function of Ca<sub>v</sub>3.3 in regulating neuronal firing patterns in the thalamus,<xref rid="awab101-B1" ref-type="bibr"><sup>1</sup></xref><sup>,</sup><xref rid="awab101-B4" ref-type="bibr"><sup>4</sup></xref> defects in the channel gating properties observed in the Ca<sub>v</sub>3.3 variants are expected to result in hyper-excitability and firing mode shift in thalamic neurons and thus may directly contribute to epileptic seizures. At present it remains uncertain to what extent deficiencies in early neuronal development and acutely altered excitability contribute to hyper-excitability on the network level and consequently to seizures. An involvement of glia cells, which also express Ca<sub>v</sub>3.3, cannot be excluded.<xref rid="awab101-B5" ref-type="bibr"><sup>5</sup></xref><sup>,</sup><xref rid="awab101-B58" ref-type="bibr"><sup>58</sup></xref> Nevertheless, the identification of <italic toggle="yes">CACNA1I</italic> gain-of-function mutations to be causative for a range of neurodevelopmental phenotypes, including difficult-to-treat epilepsy, makes Ca<sub>v</sub>3.3 an attractive target for pharmacological treatment with licensed T-type channel blockers, as well as for the development of new Ca<sub>v</sub>3.3-specific inhibitors.<xref rid="awab101-B7" ref-type="bibr"><sup>7</sup></xref> As a case in point, targeted treatment of Patient 1 with the non-selective T-type channel blocker ethosuximide resulted in improved control of seizures, in particular in a reduction of myoclonic seizures. Further studies are required to establish a target therapy of T-type calcium channel blockers in patients with this new type of S6 calcium channelopathy.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material id="sup1" position="float" content-type="local-data">
+        <label>awab101_Supplementary_Data</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="awab101_Supplementary_Data.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="ack1">
+      <title>Acknowledgements</title>
+      <p>We thank the patient families for the participation in this study. We further thank I. Mahlknecht, S. Demezt, and N. Kranebitter at the Division of Physiology, Medical University Innsbruck for excellent technical support. We thank Emilio Carbone, Claudio Franchino and Chiara Calorio from the Department of Drug Science and Technology, University of Turin, Italy, for providing helpful advice on chromaffin cell cultures. We thank Maja Hempel for genetic counselling of Family 1 and Inka Jantke for skilful technical assistance, both at the Institute of Human Genetics, University Medical Center Hamburg-Eppendorf, Hamburg.</p>
+      <sec>
+        <title>Funding</title>
+        <p>This study was supported by grants from the Austrian Science Fund (FWF) P30402 and DOC30 to B.E.F., P31434 to P.T., T855 to M.C., and grants from the Deutsche Forschungsgemeinschaft (KU 1240/6-2 and KU 1240/10-1 to K.K.) and the Federal Ministry of Education and Research (01DQ17003 to K.K.).</p>
+      </sec>
+      <sec>
+        <title>Competing interests</title>
+        <p>R.E.P. is an employee of GeneDx, Inc. All other authors report no competing interests.</p>
+      </sec>
+      <sec>
+        <title>Supplementary material</title>
+        <p><xref rid="sup1" ref-type="supplementary-material">Supplementary material</xref> is available at <italic toggle="yes">Brain</italic> online.</p>
+      </sec>
+    </ack>
+    <ref-list id="ref1">
+      <title>References</title>
+      <ref id="awab101-B1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Huguenard</surname><given-names>JR.</given-names></string-name></person-group><article-title>Neuronal circuitry of thalamocortical epilepsy and mechanisms of antiabsence drug action</article-title>. <source>Adv Neurol</source>. <year>1999</year>;<volume>79</volume>:<fpage>991</fpage>&#x2013;<lpage>999</lpage>.<pub-id pub-id-type="pmid">10514881</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B2">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Monteil</surname><given-names>A</given-names></string-name>, <string-name><surname>Chemin</surname><given-names>J</given-names></string-name>, <string-name><surname>Leuranguer</surname><given-names>V</given-names></string-name></person-group>, <etal>et al</etal><article-title>Specific properties of T-type calcium channels generated by the human alpha 1I subunit</article-title>. <source>J Biol Chem</source>. <year>2000</year>;<volume>275</volume>:<fpage>16530</fpage>&#x2013;<lpage>16535</lpage>.<pub-id pub-id-type="pmid">10749850</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B3">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Perez-Reyes</surname><given-names>E.</given-names></string-name></person-group><article-title>Molecular physiology of low-voltage-activated T-type calcium channels</article-title>. <source>Physiol Rev</source>. <year>2003</year>;<volume>83</volume>:<fpage>117</fpage>&#x2013;<lpage>161</lpage>.<pub-id pub-id-type="pmid">12506128</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B4">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cain</surname><given-names>SM</given-names></string-name>, <string-name><surname>Snutch</surname><given-names>TP.</given-names></string-name></person-group><article-title>Contributions of T-type calcium channel isoforms to neuronal firing</article-title>. <source>Channels</source>. <year>2010</year>;<volume>4</volume>:<fpage>475</fpage>&#x2013;<lpage>482</lpage>.<pub-id pub-id-type="pmid">21139420</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B5">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Latour</surname><given-names>I</given-names></string-name>, <string-name><surname>Hamid</surname><given-names>J</given-names></string-name>, <string-name><surname>Beedle</surname><given-names>AM</given-names></string-name>, <string-name><surname>Zamponi</surname><given-names>GW</given-names></string-name>, <string-name><surname>Macvicar</surname><given-names>BA.</given-names></string-name></person-group><article-title>Expression of voltage-gated Ca2+ channel subtypes in cultured astrocytes</article-title>. <source>Glia</source>. <year>2003</year>;<volume>41</volume>:<fpage>347</fpage>&#x2013;<lpage>353</lpage>.<pub-id pub-id-type="pmid">12555202</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B6">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lory</surname><given-names>P.</given-names></string-name></person-group><article-title>Neuronal Cav3 channelopathies: Recent progress and perspectives</article-title>. <source>Pflugers Arch</source>. <year>2020</year>;<volume>472</volume>(<issue>7</issue>):<fpage>831</fpage>&#x2013;<lpage>844</lpage>.<pub-id pub-id-type="pmid">32638069</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B7">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Weiss</surname><given-names>N</given-names></string-name>, <string-name><surname>Zamponi</surname><given-names>GW.</given-names></string-name></person-group><article-title>T-type channel druggability at a crossroads</article-title>. <source>ACS Chem Neurosci</source>. <year>2019</year>;<volume>10</volume>:<fpage>1124</fpage>&#x2013;<lpage>1126</lpage>.<pub-id pub-id-type="pmid">30697997</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B8">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chemin</surname><given-names>J</given-names></string-name>, <string-name><surname>Monteil</surname><given-names>A</given-names></string-name>, <string-name><surname>Perez-Reyes</surname><given-names>E</given-names></string-name>, <string-name><surname>Bourinet</surname><given-names>E</given-names></string-name>, <string-name><surname>Nargeot</surname><given-names>J</given-names></string-name>, <string-name><surname>Lory</surname><given-names>P.</given-names></string-name></person-group><article-title>Specific contribution of human T-type calcium channel isotypes (&#x3B1;1G, &#x3B1;1H and &#x3B1;1I) to neuronal excitability</article-title>. <source>J Physiol</source>. <year>2002</year>;<volume>540</volume>:<fpage>3</fpage>&#x2013;<lpage>14</lpage>.<pub-id pub-id-type="pmid">11927664</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B9">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Broicher</surname><given-names>T</given-names></string-name>, <string-name><surname>Kanyshkova</surname><given-names>T</given-names></string-name>, <string-name><surname>Meuth</surname><given-names>P</given-names></string-name>, <string-name><surname>Pape</surname><given-names>H-C</given-names></string-name>, <string-name><surname>Budde</surname><given-names>T.</given-names></string-name></person-group><article-title>Correlation of T-channel coding gene expression, IT, and the low threshold Ca2+ spike in the thalamus of a rat model of absence epilepsy</article-title>. <source>Mol Cell Neurosci</source>. <year>2008</year>;<volume>39</volume>:<fpage>384</fpage>&#x2013;<lpage>399</lpage>.<pub-id pub-id-type="pmid">18708145</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B10">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chevalier</surname><given-names>M</given-names></string-name>, <string-name><surname>Lory</surname><given-names>P</given-names></string-name>, <string-name><surname>Mironneau</surname><given-names>C</given-names></string-name>, <string-name><surname>Macrez</surname><given-names>N</given-names></string-name>, <string-name><surname>Quignard</surname><given-names>J-F.</given-names></string-name></person-group><article-title>T-type Cav3.3 calcium channels produce spontaneous low-threshold action potentials and intracellular calcium oscillations</article-title>. <source>Eur J Neurosci</source>. <year>2006</year>;<volume>23</volume>:<fpage>2321</fpage>&#x2013;<lpage>2329</lpage>.<pub-id pub-id-type="pmid">16706840</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B11">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chemin</surname><given-names>J</given-names></string-name>, <string-name><surname>Siquier-Pernet</surname><given-names>K</given-names></string-name>, <string-name><surname>Nicouleau</surname><given-names>M</given-names></string-name></person-group>, <etal>et al</etal><article-title>De novo mutation screening in childhood-onset cerebellar atrophy identifies gain-of-function mutations in the CACNA1G calcium channel gene</article-title>. <source>Brain</source>. <year>2018</year>;<volume>141</volume>:<fpage>1998</fpage>&#x2013;<lpage>2013</lpage>.<pub-id pub-id-type="pmid">29878067</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B12">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Daniil</surname><given-names>G</given-names></string-name>, <string-name><surname>Fernandes-Rosa</surname><given-names>FL</given-names></string-name>, <string-name><surname>Chemin</surname><given-names>J</given-names></string-name></person-group>, <etal>et al</etal><article-title>CACNA1H mutations are associated with different forms of primary aldosteronism</article-title>. <source>EBioMed</source>. <year>2016</year>;<volume>13</volume>:<fpage>225</fpage>&#x2013;<lpage>236</lpage>.</mixed-citation>
+      </ref>
+      <ref id="awab101-B13">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Scholl</surname><given-names>UI</given-names></string-name>, <string-name><surname>St&#xF6;lting</surname><given-names>G</given-names></string-name>, <string-name><surname>Nelson-Williams</surname><given-names>C</given-names></string-name></person-group>, <etal>et al</etal><article-title>Recurrent gain of function mutation in calcium channel CACNA1H causes early-onset hypertension with primary aldosteronism</article-title>. <source>Elife</source>. <year>2015</year>;<volume>4</volume>:<fpage>e06315</fpage>.<pub-id pub-id-type="pmid">25907736</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B14">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zhao</surname><given-names>Y</given-names></string-name>, <string-name><surname>Huang</surname><given-names>G</given-names></string-name>, <string-name><surname>Wu</surname><given-names>Q</given-names></string-name></person-group>, <etal>et al</etal><article-title>Cryo-EM structures of apo and antagonist-bound human Cav3.1</article-title>. <source>Nature</source>. <year>2019</year>;<volume>576</volume>:<fpage>492</fpage>&#x2013;<lpage>491</lpage>.<pub-id pub-id-type="pmid">31766050</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B15">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Eckle</surname><given-names>V-S</given-names></string-name>, <string-name><surname>Shcheglovitov</surname><given-names>A</given-names></string-name>, <string-name><surname>Vitko</surname><given-names>I</given-names></string-name></person-group>, <etal>et al</etal><article-title>Mechanisms by which a <italic toggle="yes">CACNA1H</italic> mutation in epilepsy patients increases seizure susceptibility</article-title>. <source>J Physiol</source>. <year>2014</year>;<volume>592</volume>:<fpage>795</fpage>&#x2013;<lpage>809</lpage>.<pub-id pub-id-type="pmid">24277868</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B16">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Singh</surname><given-names>B</given-names></string-name>, <string-name><surname>Monteil</surname><given-names>A</given-names></string-name>, <string-name><surname>Bidaud</surname><given-names>I</given-names></string-name></person-group>, <etal>et al</etal><article-title>Mutational analysis of <italic toggle="yes">CACNA1G</italic> in idiopathic generalized epilepsy</article-title>. <source>Hum Mutat</source>. <year>2007</year>;<volume>28</volume>:<fpage>524</fpage>&#x2013;<lpage>525</lpage>.</mixed-citation>
+      </ref>
+      <ref id="awab101-B17">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Tsakiridou</surname><given-names>E</given-names></string-name>, <string-name><surname>Bertollini</surname><given-names>L</given-names></string-name>, <string-name><surname>de Curtis</surname><given-names>M</given-names></string-name>, <string-name><surname>Avanzini</surname><given-names>G</given-names></string-name>, <string-name><surname>Pape</surname><given-names>HC.</given-names></string-name></person-group><article-title>Selective increase in T-type calcium conductance of reticular thalamic neurons in a rat model of absence epilepsy</article-title>. <source>J Neurosci</source>. <year>1995</year>;<volume>15</volume>:<fpage>3110</fpage>&#x2013;<lpage>3117</lpage>.<pub-id pub-id-type="pmid">7722649</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B18">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Donnelly</surname><given-names>P</given-names></string-name>, <string-name><surname>Barroso</surname><given-names>I</given-names></string-name>, <string-name><surname>Blackwell</surname><given-names>J</given-names></string-name></person-group>, <etal>et al</etal>; ISGC and the WTCCC 2. <article-title>Genome-wide association study implicates HLA-C01:02 as a risk factor at the major histocompatibility complex locus in schizophrenia</article-title>. <source>Biol Psychiatry</source>. <year>2012</year>;<volume>72</volume>:<fpage>620</fpage>&#x2013;<lpage>628</lpage>.<pub-id pub-id-type="pmid">22883433</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B19">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gulsuner</surname><given-names>S</given-names></string-name>, <string-name><surname>Walsh</surname><given-names>T</given-names></string-name>, <string-name><surname>Watts</surname><given-names>AC</given-names></string-name></person-group>, <etal>et al</etal>; PAARTNERS Study Group. <article-title>Spatial and temporal mapping of de novo mutations in schizophrenia to a fetal prefrontal cortical network</article-title>. <source>Cell</source>. <year>2013</year>;<volume>154</volume>:<fpage>518</fpage>&#x2013;<lpage>529</lpage>.<pub-id pub-id-type="pmid">23911319</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B20">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Manoach</surname><given-names>DS</given-names></string-name>, <string-name><surname>Pan</surname><given-names>JQ</given-names></string-name>, <string-name><surname>Purcell</surname><given-names>SM</given-names></string-name>, <string-name><surname>Stickgold</surname><given-names>R.</given-names></string-name></person-group><article-title>Reduced sleep spindles in schizophrenia: A treatable endophenotype that links risk genes to impaired cognition?</article-title><source>Biol Psychiatry</source>. <year>2016</year>;<volume>80</volume>:<fpage>599</fpage>&#x2013;<lpage>608</lpage>.<pub-id pub-id-type="pmid">26602589</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B21">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ripke</surname><given-names>S</given-names></string-name>, <string-name><surname>Neale</surname><given-names>B</given-names></string-name>, <string-name><surname>Corvin</surname><given-names>A</given-names></string-name></person-group>, <etal>et al</etal><article-title>SWG of the PGC. Biological insights from 108 schizophrenia-associated genetic loci</article-title>. <source>Nature</source>. <year>2014</year>;<volume>511</volume>:<fpage>421</fpage>&#x2013;<lpage>427</lpage>.<pub-id pub-id-type="pmid">25056061</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B22">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Xie</surname><given-names>Y</given-names></string-name>, <string-name><surname>Huang</surname><given-names>D</given-names></string-name>, <string-name><surname>Wei</surname><given-names>L</given-names></string-name>, <string-name><surname>Luo</surname><given-names>X-J.</given-names></string-name></person-group><article-title>Further evidence for the genetic association between CACNA1I and schizophrenia</article-title>. <source>Hereditas</source>. <year>2018</year>;<volume>155</volume>:<fpage>16</fpage>.<pub-id pub-id-type="pmid">29308060</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B23">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Xu</surname><given-names>W</given-names></string-name>, <string-name><surname>Liu</surname><given-names>Y</given-names></string-name>, <string-name><surname>Chen</surname><given-names>J</given-names></string-name></person-group>, <etal>et al</etal><article-title>Genetic risk between the CACNA1I gene and schizophrenia in Chinese Uygur population</article-title>. <source>Hereditas</source>. <year>2018</year>;<volume>155</volume>:<fpage>5</fpage>.<pub-id pub-id-type="pmid">28725167</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B24">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Andrade</surname><given-names>A</given-names></string-name>, <string-name><surname>Hope</surname><given-names>J</given-names></string-name>, <string-name><surname>Allen</surname><given-names>A</given-names></string-name>, <string-name><surname>Yorgan</surname><given-names>V</given-names></string-name>, <string-name><surname>Lipscombe</surname><given-names>D</given-names></string-name>, <string-name><surname>Pan</surname><given-names>JQ.</given-names></string-name></person-group><article-title>A rare schizophrenia risk variant of CACNA1I disrupts CaV3.3 channel activity</article-title>. <source>Sci Rep</source>. <year>2016</year>;<volume>6</volume>:<fpage>34233</fpage>.<pub-id pub-id-type="pmid">27756899</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B25">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Astori</surname><given-names>S</given-names></string-name>, <string-name><surname>Wimmer</surname><given-names>RD</given-names></string-name>, <string-name><surname>Prosser</surname><given-names>HM</given-names></string-name></person-group>, <etal>et al</etal><article-title>The Ca(V)3.3 calcium channel is the major sleep spindle pacemaker in thalamus</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2011</year>;<volume>108</volume>:<fpage>13823</fpage>&#x2013;<lpage>13828</lpage>.<pub-id pub-id-type="pmid">21808016</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B26">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Liu</surname><given-names>X-B</given-names></string-name>, <string-name><surname>Murray</surname><given-names>KD</given-names></string-name>, <string-name><surname>Jones</surname><given-names>EG.</given-names></string-name></person-group><article-title>Low-threshold calcium channel subunit Ca(v) 3.3 is specifically localized in GABAergic neurons of rodent thalamus and cerebral cortex</article-title>. <source>J Comp Neurol</source>. <year>2011</year>;<volume>519</volume>:<fpage>1181</fpage>&#x2013;<lpage>1195</lpage>.<pub-id pub-id-type="pmid">21344408</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B27">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ghoshal</surname><given-names>A</given-names></string-name>, <string-name><surname>Uygun</surname><given-names>DS</given-names></string-name>, <string-name><surname>Yang</surname><given-names>L</given-names></string-name></person-group>, <etal>et al</etal><article-title>Effects of a patient-derived de novo coding alteration of CACNA1I in mice connect a schizophrenia risk gene with sleep spindle deficits</article-title>. <source>Transl Psychiatry</source>. <year>2020</year>;<volume>10</volume>:<fpage>29</fpage>.<pub-id pub-id-type="pmid">32066662</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B28">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lu</surname><given-names>AT-H</given-names></string-name>, <string-name><surname>Dai</surname><given-names>X</given-names></string-name>, <string-name><surname>Martinez-Agosto</surname><given-names>JA</given-names></string-name>, <string-name><surname>Cantor</surname><given-names>RM.</given-names></string-name></person-group><article-title>Support for calcium channel gene defects in autism spectrum disorders</article-title>. <source>Mol Autism</source>. <year>2012</year>;<volume>3</volume>:<fpage>18</fpage>.<pub-id pub-id-type="pmid">23241247</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B29">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sanchez-Roige</surname><given-names>S</given-names></string-name>, <string-name><surname>Fontanillas</surname><given-names>P</given-names></string-name>, <string-name><surname>Elson</surname><given-names>SL</given-names></string-name></person-group>, <etal>et al</etal><article-title>Genome-wide association studies of impulsive personality traits (BIS-11 and UPPS-P) and drug experimentation in up to 22,861 adult research participants identify loci in the CACNA1I and CADM2 genes</article-title>. <source>J Neurosci</source>. <year>2019</year>;<volume>39</volume>:<fpage>2562</fpage>&#x2013;<lpage>2572</lpage>.<pub-id pub-id-type="pmid">30718321</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B30">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wisedchaisri</surname><given-names>G</given-names></string-name>, <string-name><surname>Tonggu</surname><given-names>L</given-names></string-name>, <string-name><surname>McCord</surname><given-names>E</given-names></string-name></person-group>, <etal>et al</etal><article-title>Resting-state structure and gating mechanism of a voltage-gated sodium channel</article-title>. <source>Cell</source>. <year>2019</year>;<volume>178</volume>:<fpage>993</fpage>&#x2013;<lpage>1003.e12</lpage>.<pub-id pub-id-type="pmid">31353218</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B31">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gomora</surname><given-names>JC</given-names></string-name>, <string-name><surname>Murbartian</surname><given-names>J</given-names></string-name>, <string-name><surname>Arias</surname><given-names>JM</given-names></string-name>, <string-name><surname>Lee</surname><given-names>JH</given-names></string-name>, <string-name><surname>Perez-Reyes</surname><given-names>E.</given-names></string-name></person-group><article-title>Cloning and expression of the human {T-type channel Ca(v)3.3}: insights into prepulse facilitation</article-title>. <source>Biophys J</source>. <year>2002</year>;<volume>83</volume>:<fpage>229</fpage>&#x2013;<lpage>241</lpage>.<pub-id pub-id-type="pmid">12080115</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B32">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Calorio</surname><given-names>C</given-names></string-name>, <string-name><surname>Gavello</surname><given-names>D</given-names></string-name>, <string-name><surname>Guarina</surname><given-names>L</given-names></string-name></person-group>, <etal>et al</etal><article-title>Impaired chromaffin cell excitability and exocytosis in autistic Timothy syndrome TS2-neo mouse rescued by L-type calcium channel blockers</article-title>. <source>J Physiol</source>. <year>2019</year>;<volume>597</volume>:<fpage>1705</fpage>&#x2013;<lpage>1733</lpage>.<pub-id pub-id-type="pmid">30629744</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B33">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Marcantoni</surname><given-names>A</given-names></string-name>, <string-name><surname>Vandael</surname><given-names>DHF</given-names></string-name>, <string-name><surname>Mahapatra</surname><given-names>S</given-names></string-name></person-group>, <etal>et al</etal><article-title>Loss of Cav1.3 channels reveals the critical role of L-type and BK channel coupling in pacemaking mouse adrenal chromaffin cells</article-title>. <source>J Neurosci</source>. <year>2010</year>;<volume>30</volume>:<fpage>491</fpage>&#x2013;<lpage>504</lpage>.<pub-id pub-id-type="pmid">20071512</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B34">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Courel</surname><given-names>M</given-names></string-name>, <string-name><surname>Vasquez</surname><given-names>MS</given-names></string-name>, <string-name><surname>Hook</surname><given-names>VY</given-names></string-name>, <string-name><surname>Mahata</surname><given-names>SK</given-names></string-name>, <string-name><surname>Taupenot</surname><given-names>L.</given-names></string-name></person-group><article-title>Sorting of the neuroendocrine secretory protein Secretogranin II into the regulated secretory pathway: Role of N- and C-terminal alpha-helical domains</article-title>. <source>J Biol Chem</source>. <year>2008</year>;<volume>283</volume>:<fpage>11807</fpage>&#x2013;<lpage>11822</lpage>.<pub-id pub-id-type="pmid">18299326</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B35">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hines</surname><given-names>ML</given-names></string-name>, <string-name><surname>Carnevale</surname><given-names>NT.</given-names></string-name></person-group><article-title>The NEURON simulation environment</article-title>. <source>Neural Comput</source>. <year>1997</year>;<volume>9</volume>:<fpage>1179</fpage>&#x2013;<lpage>1209</lpage>.<pub-id pub-id-type="pmid">9248061</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B36">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Destexhe</surname><given-names>A</given-names></string-name>, <string-name><surname>Contreras</surname><given-names>D</given-names></string-name>, <string-name><surname>Steriade</surname><given-names>M</given-names></string-name>, <string-name><surname>Sejnowski</surname><given-names>TJ</given-names></string-name>, <string-name><surname>Huguenard</surname><given-names>JR.</given-names></string-name></person-group><article-title>In vivo, in vitro, and computational analysis of dendritic calcium currents in thalamic reticular neurons</article-title>. <source>J Neurosci</source>. <year>1996</year>;<volume>16</volume>:<fpage>169</fpage>&#x2013;<lpage>185</lpage>.<pub-id pub-id-type="pmid">8613783</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B37">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Huguenard</surname><given-names>JR</given-names></string-name>, <string-name><surname>Prince</surname><given-names>DA.</given-names></string-name></person-group><article-title>A novel T-type current underlies prolonged Ca(2+)-dependent burst firing in GABAergic neurons of rat thalamic reticular nucleus</article-title>. <source>J Neurosci</source>. <year>1992</year>;<volume>12</volume>:<fpage>3804</fpage>&#x2013;<lpage>3817</lpage>.<pub-id pub-id-type="pmid">1403085</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B38">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sobreira</surname><given-names>N</given-names></string-name>, <string-name><surname>Schiettecatte</surname><given-names>F</given-names></string-name>, <string-name><surname>Valle</surname><given-names>D</given-names></string-name>, <string-name><surname>Hamosh</surname><given-names>A.</given-names></string-name></person-group><article-title>GeneMatcher: A matching tool for connecting investigators with an interest in the same gene</article-title>. <source>Hum Mutat</source>. <year>2015</year>;<volume>36</volume>:<fpage>928</fpage>&#x2013;<lpage>930</lpage>.<pub-id pub-id-type="pmid">26220891</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B39">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Karczewski</surname><given-names>KJ</given-names></string-name>, <string-name><surname>Francioli</surname><given-names>LC</given-names></string-name>, <string-name><surname>Tiao</surname><given-names>G</given-names></string-name></person-group>, <etal>et al</etal>; Genome Aggregation Database Consortium. <article-title>The mutational constraint spectrum quantified from variation in 141,456 humans</article-title>. <source>Nature</source>. <year>2020</year>;<volume>581</volume>:<fpage>434</fpage>&#x2013;<lpage>443</lpage>.<pub-id pub-id-type="pmid">32461654</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B40">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lek</surname><given-names>M</given-names></string-name>, <string-name><surname>Karczewski</surname><given-names>KJ</given-names></string-name>, <string-name><surname>Minikel</surname><given-names>EV</given-names></string-name></person-group>, <etal>et al</etal>; Exome Aggregation Consortium. <article-title>Analysis of protein-coding genetic variation in 60,706 humans</article-title>. <source>Nature</source>. <year>2016</year>;<volume>536</volume>:<fpage>285</fpage>&#x2013;<lpage>291</lpage>.<pub-id pub-id-type="pmid">27535533</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B41">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wiel</surname><given-names>L</given-names></string-name>, <string-name><surname>Baakman</surname><given-names>C</given-names></string-name>, <string-name><surname>Gilissen</surname><given-names>D</given-names></string-name>, <string-name><surname>Veltman</surname><given-names>JA</given-names></string-name>, <string-name><surname>Vriend</surname><given-names>G</given-names></string-name>, <string-name><surname>Gilissen</surname><given-names>C.</given-names></string-name></person-group><article-title>MetaDome: Pathogenicity analysis of genetic variants through aggregation of homologous human protein domains</article-title>. <source>Hum Mutat</source>. <year>2019</year>;<volume>40</volume>:<fpage>1030</fpage>&#x2013;<lpage>1038</lpage>.<pub-id pub-id-type="pmid">31116477</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B42">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Catterall</surname><given-names>WA</given-names></string-name>, <string-name><surname>Lenaeus</surname><given-names>MJ</given-names></string-name>, <string-name><surname>El-Din</surname><given-names>TMG.</given-names></string-name></person-group><article-title>Structure and pharmacology of voltage-gated sodium and calcium channels</article-title>. <source>Annu Rev Pharmacol Toxicol</source>. <year>2020</year>;<volume>60</volume>:<fpage>133</fpage>&#x2013;<lpage>154</lpage>.<pub-id pub-id-type="pmid">31537174</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B43">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cazade</surname><given-names>M</given-names></string-name>, <string-name><surname>Bidaud</surname><given-names>I</given-names></string-name>, <string-name><surname>Lory</surname><given-names>P</given-names></string-name>, <string-name><surname>Chemin</surname><given-names>J.</given-names></string-name></person-group><article-title>Activity-dependent regulation of T-type calcium channels by submembrane calcium ions</article-title>. <source>Elife</source>. <year>2017</year>;<volume>6</volume>:e22331.</mixed-citation>
+      </ref>
+      <ref id="awab101-B44">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zamponi</surname><given-names>GW</given-names></string-name>, <string-name><surname>Lory</surname><given-names>P</given-names></string-name>, <string-name><surname>Perez-Reyes</surname><given-names>E.</given-names></string-name></person-group><article-title>Role of voltage-gated calcium channels in epilepsy</article-title>. <source>J Physiol</source>. <year>2010</year>;<volume>460</volume>:<fpage>395</fpage>&#x2013;<lpage>403</lpage>.</mixed-citation>
+      </ref>
+      <ref id="awab101-B45">
+        <label>45</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chemin</surname><given-names>J</given-names></string-name>, <string-name><surname>Nargeot</surname><given-names>J</given-names></string-name>, <string-name><surname>Lory</surname><given-names>P.</given-names></string-name></person-group><article-title>Neuronal T-type alpha 1H calcium channels induce neuritogenesis and expression of high-voltage-activated calcium channels in the NG108-15 cell line</article-title>. <source>J Neurosci</source>. <year>2002</year>;<volume>22</volume>:<fpage>6856</fpage>&#x2013;<lpage>6862</lpage>.<pub-id pub-id-type="pmid">12177183</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B46">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mahapatra</surname><given-names>S</given-names></string-name>, <string-name><surname>Calorio</surname><given-names>C</given-names></string-name>, <string-name><surname>Vandael</surname><given-names>DHF</given-names></string-name>, <string-name><surname>Marcantoni</surname><given-names>A</given-names></string-name>, <string-name><surname>Carabelli</surname><given-names>V</given-names></string-name>, <string-name><surname>Carbone</surname><given-names>E.</given-names></string-name></person-group><article-title>Calcium channel types contributing to chromaffin cell excitability, exocytosis and endocytosis</article-title>. <source>Cell Calcium</source>. <year>2012</year>;<volume>51</volume>:<fpage>321</fpage>&#x2013;<lpage>330</lpage>.<pub-id pub-id-type="pmid">22317919</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B47">
+        <label>47</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Marcantoni</surname><given-names>A</given-names></string-name>, <string-name><surname>Baldelli</surname><given-names>P</given-names></string-name>, <string-name><surname>Hernandez-Guijo</surname><given-names>JM</given-names></string-name>, <string-name><surname>Comunanza</surname><given-names>V</given-names></string-name>, <string-name><surname>Carabelli</surname><given-names>V</given-names></string-name>, <string-name><surname>Carbone</surname><given-names>E.</given-names></string-name></person-group><article-title>L-type calcium channels in adrenal chromaffin cells: role in pace-making and secretion</article-title>. <source>Cell Calcium</source>. <year>2007</year>;<volume>42</volume>:<fpage>397</fpage>&#x2013;<lpage>408</lpage>.<pub-id pub-id-type="pmid">17561252</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B48">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Naba</surname><given-names>K</given-names>, </string-name>, <string-name><surname>Blinder</surname><given-names>AR</given-names>, </string-name>, <string-name><surname>Hattangady</surname><given-names>NG</given-names></string-name>, </person-group><etal>et al</etal><article-title>Somatic CACNA1H mutation as a cause of aldosterone-producing adenoma</article-title>. <source><italic toggle="yes">Hypertension</italic></source>. <year>2020</year>;<volume>75</volume>(<issue>3</issue>):<fpage>645</fpage>&#x2013;<lpage>649</lpage>.<pub-id pub-id-type="pmid">31983310</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B49">
+        <label>49</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ortner</surname><given-names>NJ</given-names>, </string-name>, <string-name><surname>Kaserer</surname><given-names>T</given-names>, </string-name>, <string-name><surname>Copeland</surname><given-names>JN</given-names>, </string-name>, <string-name><surname>Striessnig</surname><given-names>J.</given-names></string-name></person-group><article-title>De novo CACAN1D Ca<sup>2+</sup> channelopathies: clinical phenotypes and molecular mechanism</article-title>. <italic toggle="yes">Pflugers Arch</italic>. <year>2020</year>;<volume>472</volume>(<issue>7</issue>):<fpage>755</fpage>&#x2013;<lpage>773</lpage>.</mixed-citation>
+      </ref>
+      <ref id="awab101-B50">
+        <label>50</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Byers</surname><given-names>HM</given-names></string-name>, <string-name><surname>Beatty</surname><given-names>CW</given-names></string-name>, <string-name><surname>Hahn</surname><given-names>SH</given-names></string-name>, <string-name><surname>Gospe</surname><given-names>SM.</given-names></string-name></person-group><article-title>Dramatic response after lamotrigine in a patient with epileptic encephalopathy and a De NovoCACNA1A variant</article-title>. <source>Pediatr Neurol</source>. <year>2016</year>;<volume>60</volume>:<fpage>79</fpage>&#x2013;<lpage>82</lpage>.<pub-id pub-id-type="pmid">27212419</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B51">
+        <label>51</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Damaj</surname><given-names>L</given-names></string-name>, <string-name><surname>Lupien-Meilleur</surname><given-names>A</given-names></string-name>, <string-name><surname>Lortie</surname><given-names>A</given-names></string-name></person-group>, <etal>et al</etal><article-title>CACNA1A haploinsufficiency causes cognitive impairment, autism and epileptic encephalopathy with mild cerebellar symptoms</article-title>. <source>Eur J Hum Genet</source>. <year>2015</year>;<volume>23</volume>:<fpage>1505</fpage>&#x2013;<lpage>1512</lpage>.<pub-id pub-id-type="pmid">25735478</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B52">
+        <label>52</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zeitz</surname><given-names>C</given-names></string-name>, <string-name><surname>Michiels</surname><given-names>C</given-names></string-name>, <string-name><surname>Neuill&#xE9;</surname><given-names>M</given-names></string-name></person-group>, <etal>et al</etal><article-title>Where are the missing gene defects in inherited retinal disorders? Intronic and synonymous variants contribute at least to 4% of CACNA1F-mediated inherited retinal disorders</article-title>. <source>Hum Mutat</source>. <year>2019</year>;<volume>40</volume>:<fpage>765</fpage>&#x2013;<lpage>787</lpage>.<pub-id pub-id-type="pmid">30825406</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B53">
+        <label>53</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Helbig</surname><given-names>KL</given-names></string-name>, <string-name><surname>Lauerer</surname><given-names>RJ</given-names></string-name>, <string-name><surname>Bahr</surname><given-names>JC</given-names></string-name></person-group>, <etal>et al</etal><article-title>De novo pathogenic variants in CACNA1E cause developmental and epileptic encephalopathy with contractures, macrocephaly, and dyskinesias</article-title>. <source>Am J Hum Genet</source>. <year>2018</year>;<volume>103</volume>(<issue>5</issue>):<fpage>666</fpage>&#x2013;<lpage>678</lpage>.<pub-id pub-id-type="pmid">30343943</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B54">
+        <label>54</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hofer</surname><given-names>NT</given-names></string-name>, <string-name><surname>Tuluc</surname><given-names>P</given-names></string-name>, <string-name><surname>Ortner</surname><given-names>NJ</given-names></string-name></person-group>, <etal>et al</etal><article-title>Biophysical classification of a CACNA1D de novo mutation as a high-risk mutation for a severe neurodevelopmental disorder</article-title>. <source>Mol Ecular Autism</source>. <year>2020</year>;<volume>11</volume>: <fpage>4</fpage>.</mixed-citation>
+      </ref>
+      <ref id="awab101-B55">
+        <label>55</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Jiang</surname><given-names>X</given-names></string-name>, <string-name><surname>Raju</surname><given-names>PK</given-names></string-name>, <string-name><surname>D'Avanzo</surname><given-names>N</given-names></string-name></person-group>, <etal>et al</etal><article-title>Both gain&#x2010;of&#x2010;function and loss&#x2010;of&#x2010;function de novo CACNA 1A mutations cause severe developmental epileptic encephalopathies in the spectrum of Lennox&#x2010;Gastaut syndrome</article-title>. <source>Epilepsia</source>. <year>2019</year>;<volume>60</volume>:<fpage>1881</fpage>&#x2013;<lpage>1894</lpage>.<pub-id pub-id-type="pmid">31468518</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B56">
+        <label>56</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pinggera</surname><given-names>A</given-names></string-name>, <string-name><surname>Lieb</surname><given-names>A</given-names></string-name>, <string-name><surname>Benedetti</surname><given-names>B</given-names></string-name></person-group>, <etal>et al</etal><article-title>CACNA1D de novo mutations in autism spectrum disorders activate cav1.3 l-type calcium channels</article-title>. <source>Biol Psychiatry</source>. <year>2015</year>;<volume>77</volume>:<fpage>816</fpage>&#x2013;<lpage>822</lpage>.<pub-id pub-id-type="pmid">25620733</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B57">
+        <label>57</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Splawski</surname><given-names>I</given-names></string-name>, <string-name><surname>Timothy</surname><given-names>KW</given-names></string-name>, <string-name><surname>Sharpe</surname><given-names>LM</given-names></string-name></person-group>, <etal>et al</etal><article-title>CaV1.2 calcium channel dysfunction causes a multisystem disorder including arrhythmia and autism</article-title>. <source>Cell</source>. <year>2004</year>;<volume>119</volume>:<fpage>19</fpage>&#x2013;<lpage>31</lpage>.<pub-id pub-id-type="pmid">15454078</pub-id></mixed-citation>
+      </ref>
+      <ref id="awab101-B58">
+        <label>58</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Steinlein</surname><given-names>OK.</given-names></string-name></person-group><article-title>Calcium signaling and epilepsy</article-title>. <source>Cell Tissue Res</source>. <year>2014</year>;<volume>357</volume>:<fpage>385</fpage>&#x2013;<lpage>393</lpage>.<pub-id pub-id-type="pmid">24723228</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <glossary>
+      <def-list>
+        <def-item>
+          <term>TRN</term>
+          <def>
+            <p>thalamic reticular nucleus</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+  </back>
+</article>
+</pmc-articleset>

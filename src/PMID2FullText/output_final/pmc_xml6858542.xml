@@ -1,0 +1,616 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">9216904</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">2419</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat. Genet.</journal-id>
+      <journal-title-group>
+        <journal-title>Nature genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1061-4036</issn>
+      <issn pub-type="epub">1546-1718</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">31570889</article-id>
+      <article-id pub-id-type="pmc">6858542</article-id>
+      <article-id pub-id-type="doi">10.1038/s41588-019-0498-4</article-id>
+      <article-id pub-id-type="manuscript">NIHMS1537602</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Postzygotic inactivating mutations of <italic>RHOA</italic> cause a mosaic neuroectodermal syndrome</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vabres</surname>
+            <given-names>Pierre</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A24">24</xref>
+          <xref rid="CR1" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sorlin</surname>
+            <given-names>Arthur</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A24">24</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kholmanskikh</surname>
+            <given-names>Stanislav S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A24">24</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Demeer</surname>
+            <given-names>B&#xE9;n&#xE9;dicte</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>St-Onge</surname>
+            <given-names>Judith</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Duffourd</surname>
+            <given-names>Yannis</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kuentz</surname>
+            <given-names>Paul</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Courcet</surname>
+            <given-names>Jean-Beno&#xEE;t</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carmignac</surname>
+            <given-names>Virginie</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Garret</surname>
+            <given-names>Philippine</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bessis</surname>
+            <given-names>Didier</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Boute</surname>
+            <given-names>Odile</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bron</surname>
+            <given-names>Alain</given-names>
+          </name>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Captier</surname>
+            <given-names>Guillaume</given-names>
+          </name>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carmi</surname>
+            <given-names>Esther</given-names>
+          </name>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Devauchelle</surname>
+            <given-names>Bernard</given-names>
+          </name>
+          <xref ref-type="aff" rid="A14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Genevi&#xE8;ve</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="A15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gondry-Jouet</surname>
+            <given-names>Catherine</given-names>
+          </name>
+          <xref ref-type="aff" rid="A16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guibaud</surname>
+            <given-names>Laurent</given-names>
+          </name>
+          <xref ref-type="aff" rid="A17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lafon</surname>
+            <given-names>Arnaud</given-names>
+          </name>
+          <xref ref-type="aff" rid="A18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mathieu-Dramard</surname>
+            <given-names>Mich&#xE8;le</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thevenon</surname>
+            <given-names>Julien</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dobyns</surname>
+            <given-names>William B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A19">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bernard</surname>
+            <given-names>Genevi&#xE8;ve</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+          <xref ref-type="aff" rid="A20">20</xref>
+          <xref ref-type="aff" rid="A21">21</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Polubothu</surname>
+            <given-names>Satyamaanasa</given-names>
+          </name>
+          <xref ref-type="aff" rid="A22">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Faravelli</surname>
+            <given-names>Francesca</given-names>
+          </name>
+          <xref ref-type="aff" rid="A22">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kinsler</surname>
+            <given-names>Veronica A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A22">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thauvin</surname>
+            <given-names>Christel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Faivre</surname>
+            <given-names>Laurence</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A25">25</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ross</surname>
+            <given-names>M. Elizabeth</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A25">25</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rivi&#xE8;re</surname>
+            <given-names>Jean-Baptiste</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A7">7</xref>
+          <xref ref-type="aff" rid="A23">23</xref>
+          <xref ref-type="aff" rid="A25">25</xref>
+          <xref rid="CR1" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>F&#xE9;d&#xE9;ration Hospitalo-Universitaire M&#xE9;decine Translationnelle et Anomalies du D&#xE9;veloppement, CHU Dijon Bourgogne, Dijon, France.</aff>
+      <aff id="A2"><label>2</label>UMR Inserm 1231 G&#xE9;n&#xE9;tique des Anomalies du D&#xE9;veloppement, Universit&#xE9; Bourgogne Franche-Comt&#xE9;, Dijon, France.</aff>
+      <aff id="A3"><label>3</label>Centre de R&#xE9;f&#xE9;rence MAGEC, Service de Dermatologie, CHU Dijon Bourgogne, Dijon, France.</aff>
+      <aff id="A4"><label>4</label>Service de P&#xE9;diatrie 1 et de G&#xE9;n&#xE9;tique M&#xE9;dicale, CHU Dijon Bourgogne, Dijon, France.</aff>
+      <aff id="A5"><label>5</label>Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, New York, USA.</aff>
+      <aff id="A6"><label>6</label>Unit&#xE9; de G&#xE9;n&#xE9;tique M&#xE9;dicale et Oncog&#xE9;n&#xE9;tique, CHU Amiens Picardie, Amiens, France.</aff>
+      <aff id="A7"><label>7</label>Child Health and Human Development Program, Research Institute of the McGill University Health Centre, Montreal, Quebec, Canada.</aff>
+      <aff id="A8"><label>8</label>G&#xE9;n&#xE9;tique Biologique Histologie, CHRU de Besan&#xE7;on, Besan&#xE7;on, France.</aff>
+      <aff id="A9"><label>9</label>D&#xE9;partement de Dermatologie, CHU de Montpellier, Montpellier, France.</aff>
+      <aff id="A10"><label>10</label>Service de G&#xE9;n&#xE9;tique Clinique, CHU Lille, Lille, France.</aff>
+      <aff id="A11"><label>11</label>Service d&#x2019;Ophtalmologie, CHU Dijon Bourgogne, Dijon, France.</aff>
+      <aff id="A12"><label>12</label>Service de Chirurgie orthop&#xE9;dique et plastique p&#xE9;diatrique, CHU de Montpellier, Montpellier, France.</aff>
+      <aff id="A13"><label>13</label>Dermatology Office, 34 Avenue d&#x2019;Allemagne, Amiens, France.</aff>
+      <aff id="A14"><label>14</label>D&#xE9;partement de Chirurgie Maxillo-Faciale et Stomatologie, CHU Amiens Picardie, Amiens, France.</aff>
+      <aff id="A15"><label>15</label>D&#xE9;partement de G&#xE9;n&#xE9;tique M&#xE9;dicale, Maladies rares et M&#xE9;decine Personnalis&#xE9;e, CHU de Montpellier, Montpellier, France.</aff>
+      <aff id="A16"><label>16</label>D&#xE9;partment de Radiologie, CHU Amiens Picardie, Amiens, France.</aff>
+      <aff id="A17"><label>17</label>Service d&#x2019;Imagerie P&#xE9;diatrique et F&#x153;tale, H&#xF4;pital Femme-M&#xE8;re-Enfant Louis Pradel, Hospices Civils de Lyon, Bron, France.</aff>
+      <aff id="A18"><label>18</label>Service d&#x2019;Odontologie-Stomatologie, CHU Dijon Bourgogne, Dijon, France.</aff>
+      <aff id="A19"><label>19</label>Center for Integrative Brain Research, Seattle Children&#x2019;s Research Institute, Seattle, Washington, USA.</aff>
+      <aff id="A20"><label>20</label>Departments of Neurology and Neurosurgery, and Pediatrics McGill University, Montreal, Quebec, Canada.</aff>
+      <aff id="A21"><label>21</label>Department of Medical Genetics, Montreal Children&#x2019;s Hospital, McGill University Health Centre, Montreal, Quebec, Canada.</aff>
+      <aff id="A22"><label>22</label>Institute of Child Health, University College London, London, UK.</aff>
+      <aff id="A23"><label>23</label>Department of Human Genetics, Faculty of Medicine, McGill University, Montreal, Quebec, Canada.</aff>
+      <aff id="A24"><label>24</label>These authors contributed equally to this work.</aff>
+      <aff id="A25"><label>25</label>These authors jointly directed this work.</aff>
+      <author-notes>
+        <fn fn-type="con" id="FN1">
+          <p id="P1">AUTHOR CONTRIBUTIONS</p>
+          <p id="P2">P.V. and J.-B.R. designed the study. A.S., J.S.-O., P.K., J.-B.C., V.C., S.P. and V.A.K. performed the genetics experiments. J.-B.R., Y.D. and P.G. performed the bioinformatics experiments. S.S.K. performed the functional experiments. P.V., A.S., B. Demeer, D.B., O.B., A.B., G.C., E.C., C.T., S.P., F.F., V.A.K., B. Devauchelle, D.G., C.G.-J., A.L., M.M.-D., J.T. and L.F. recruited and evaluated the study subjects. L.G., G.B. and W.B.D. analyzed the brain MRI. P.V., L.F., M.E.R. and J.-B.R. supervised the study. P.V., A.S., S.S.K, M.E.R. and J.-B.R. wrote the manuscript. All authors revised the manuscript.</p>
+        </fn>
+        <corresp id="CR1"><label>*</label>Correspondence should be addressed to P.V. (<email>pierre.vabres@chu-dijon.fr</email>) or J.-B.R. (<email>jean-baptiste.riviere@mcgill.ca</email>).</corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>18</day>
+        <month>8</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>9</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>10</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>30</day>
+        <month>3</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>51</volume>
+      <issue>10</issue>
+      <fpage>1438</fpage>
+      <lpage>1441</lpage>
+      <!--elocation-id from pubmed: 10.1038/s41588-019-0498-4-->
+      <permissions>
+        <license>
+          <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<uri xlink:type="simple" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+        </license>
+      </permissions>
+      <abstract id="ABS1">
+        <p id="P3">Hypopigmentation along Blaschko&#x2019;s lines is a hallmark of a poorly defined group of mosaic syndromes whose genetic causes are unknown. Here we show that postzygotic inactivating mutations of <italic>RHOA</italic> cause a neuroectodermal syndrome combining linear hypopigmentation, alopecia, apparently asymptomatic leukoencephalopathy, and facial, ocular, dental, and acral anomalies. Our findings pave the way towards elucidating the etiology of pigmentary mosaicism and highlight the role of <italic>RHOA</italic> in human development and disease.</p>
+      </abstract>
+      <abstract id="ABS2" abstract-type="summary">
+        <title>Editorial summary</title>
+        <p id="P4">Postzygotic inactivating mutations in <italic>RHOA</italic> cause a mosaic neuroectodermal syndrome characterized by linear hypopigmentation, leukoencephalopathy, and craniofacial anomalies, highlighting the role of RHOA in human development and disease.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p id="P5">Linear hypopigmentation, which is commonly seen as a non-specific manifestation of mosaicism, is currently classified using poorly defined umbrella terms such as &#x201C;pigmentary mosaicism&#x201D; and &#x201C;hypomelanosis of Ito&#x201D;<sup><xref rid="R1" ref-type="bibr">1</xref></sup>. Because of its frequent association with various extracutaneous anomalies (especially cerebral involvement and epilepsy), hypomelanosis of Ito is often considered as a neurocutaneous syndrome, the fourth most common after neurofibromatosis, tuberous sclerosis complex, and Sturge-Weber syndrome<sup><xref rid="R2" ref-type="bibr">2</xref></sup>. Apart from rare reports of non-recurrent mosaic chromosomal anomalies<sup><xref rid="R1" ref-type="bibr">1</xref></sup>, the genetic causes of pigmentary mosaicism have remained largely unknown, which hinders diagnosis and patient care.</p>
+    <p id="P6">As part of our research program on mosaic skin disorders, we ascertained seven unrelated individuals with a remarkably similar constellation of features that did not match any known syndrome (<xref rid="F1" ref-type="fig">Fig. 1</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Figs. 1</xref> and <xref rid="SD1" ref-type="supplementary-material">2</xref>, and <xref rid="SD2" ref-type="supplementary-material">Supplementary Table 1</xref>). Key clinical features included linear hypopigmentation and hypotrichosis following the lines of Blaschko, symmetric or asymmetric facial dysmorphism (microstomia, malar hypoplasia, downslanting palpebral fissures, and broad nasal bridge), acral anomalies (brachydactyly, syndactyly, and broad first toe), teeth anomalies (oligodontia, microdontia, conical teeth, and abnormal enamel), and ocular anomalies (microphthalmia, strabismus, and myopia). Brain magnetic resonance imaging (MRI) was available for three patients and showed diffuse cystic leukoencephalopathy with mildly enlarged lateral ventricles (<xref rid="F1" ref-type="fig">Fig. 1</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2</xref>). Despite this striking brain phenotype, no intellectual deficiency or neurological impairment was noted in any affected individual. Linear hypopigmentation following Blaschko&#x2019;s lines, asymmetric craniofacial and brain features, and sporadic occurrence were highly suggestive of mosaicism.</p>
+    <p id="P7">We hypothesized that this previously unrecognized mosaic neuroectodermal syndrome was likely to result from postzygotic mutations in the same gene. We conducted whole-exome sequencing (WES) in two parent&#x2013;case trios (subjects S1 and S2) using genomic DNA derived from patients&#x2019; affected skin and parental blood samples (Online Methods and <xref rid="SD2" ref-type="supplementary-material">Supplementary Table 2</xref>). We identified the same postzygotic change of <italic>RHOA</italic> (NM_001664.3:c.139G&gt;A; NP_001655.1:p.(Glu47Lys)) supported by 30.6% (44/144) and 2.6% (6/228) of reads in subjects S1 and S2, respectively (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figs. 3</xref> and <xref rid="SD1" ref-type="supplementary-material">4</xref>, and <xref rid="SD2" ref-type="supplementary-material">Supplementary Table 3</xref>). We confirmed the presence and postzygotic nature of these mutations by targeted ultra-deep sequencing of the region spanning the c.139G&gt;A substitution in all available DNA samples from the two patients and their parents (Methods and <xref rid="SD2" ref-type="supplementary-material">Supplementary Tables 4</xref>&#x2013;<xref rid="SD2" ref-type="supplementary-material">6</xref>). Trio-based WES in a third patient (subject S3) led to identification of another postzygotic <italic>RHOA</italic> change (NM_001664.3:c.211C&gt;T; NP_001655.1:p.(Pro71Ser)) supported by 24.3% (28/115) of reads (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 5</xref>), thus confirming mutations of <italic>RHOA</italic> as the cause of this novel syndrome. Amplicon-based ultra-deep sequencing of <italic>RHOA</italic> coding exons in skin-derived DNA from the remaining three affected individuals, and Sanger sequencing of <italic>RHOA</italic> in one extra individual, led to identification of the recurrent c.139G&gt;A change (encoding p.Glu47Lys) in three (S4, S5 and S7), for a total of five patients with the exact same change (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 6</xref>). This G to A transition occurs at a CpG dinucleotide, which might at least partly explain its recurrence. Subject S6 could not be analyzed due to failed quality controls. Both <italic>RHOA</italic> mutations (c.139G&gt;A and c.211C&gt;T) were absent from dbSNP (build 147, <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/snp/">https://www.ncbi.nlm.nih.gov/snp/</ext-link>), major public variant databases, and in-house WES data from ~1,500 individuals. They affect highly conserved nucleotides and amino acids, and are predicted as pathogenic <italic>in silico</italic> (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 7</xref>). All mutations were absent from blood samples of affected individuals. In skin-derived DNA samples, mutant allele fractions ranged from 1.9% to 33.5% with higher levels in fresh skin than in cultured skin fibroblasts (<xref rid="F1" ref-type="fig">Fig. 1j</xref> and <xref rid="SD2" ref-type="supplementary-material">Supplementary Table 6</xref>), possibly due to negative selection of mutant cells during cell culture. WES in S2 also revealed a previously unknown familial NC_012920.1:m.11778G&gt;A MT-ND4 in mitochondrial Complex I mtDNA, causing Leber&#x2019;s hereditary optic neuropathy, and probably responsible for a more severe loss of visual acuity (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 6</xref>). No <italic>RHOA</italic> mutations were found in 24 additional subjects with linear hypopigmentation associated with various extracutaneous features (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 8</xref>).</p>
+    <p id="P8"><italic>RHOA</italic> encodes a RAS-related Rho GTPase known to control a wide range of biological functions such as morphogenesis, chemotaxis, axonal guidance, and cell cycle progression<sup><xref rid="R3" ref-type="bibr">3</xref></sup>. RhoA has been extensively studied for its central role in signal transduction and actin cytoskeleton dynamics, through regulation of stress fibers and focal adhesion formation<sup><xref rid="R4" ref-type="bibr">4</xref></sup>. The two mutations identified here (encoding p.(Glu47Lys) and p.(Pro71Ser)) are located just downstream of each of the two switch regions (<xref rid="F1" ref-type="fig">Fig. 1k</xref>), whose GTP-dependent conformational changes regulate selective interaction of RhoA with downstream effectors<sup><xref rid="R5" ref-type="bibr">5</xref></sup>. To assess the impact of the p.(Glu47Lys) and p.(Pro71Ser) missense changes identified in four of our patients, we compared their effects with two well-characterized <italic>RHOA</italic> mutants, namely dominant-negative p.(Thr19Asn)<sup><xref rid="R6" ref-type="bibr">6</xref></sup> and constitutively active p.(Gly14Val)<sup><xref rid="R7" ref-type="bibr">7</xref></sup> changes. We transfected NIH3T3 cells with FLAG-tagged mutants and wild-type <italic>RHOA</italic> plasmids. Immunocytochemical labeling of F-actin stress fibers and microtubules revealed marked cytoskeletal alterations in cells transfected with both mutant plasmids. Similar to the <italic>RHOA</italic> dominant-negative p.(Thr19Asn) mutant, p.(Glu47Lys) and p.(Pro71Ser) expressing cells displayed reduced cell spreading and decreased number of stress fibers, as well as microtubule disorganization (<xref rid="F2" ref-type="fig">Fig. 2a</xref>,<xref rid="F2" ref-type="fig">b</xref>), thus indicating a dominant-negative or otherwise inactivating effect for these two mutations. Consistent with these findings, Western blot analysis of NIH3T3 cells transfected with the dominant-negative p.(Thr19Asn), p.(Glu47Lys) RhoA, or p.(Pro71Ser) RhoA revealed reduced levels of endogenous myosin phosphatase target subunit 1 (MYPT1) phosphorylated at Thr696, and myosin light chain 2 (MLC2) phosphorylated at Thr19, both sites targeted by Rho kinase 1 (ROCK1), a major downstream effector of activated RhoA<sup><xref rid="R8" ref-type="bibr">8</xref></sup> (<xref rid="F2" ref-type="fig">Fig. 2c</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 7</xref>).</p>
+    <p id="P9">We have delineated a clinical and molecular subset of pigmentary mosaicism, which we propose to name &#x201C;<italic>RHOA</italic>-related mosaic ectodermal dysplasia&#x201D;. Apart from recent reports of linear hypopigmentation in six patients with <italic>MTOR</italic>-related hemimegalencephaly<sup><xref rid="R9" ref-type="bibr">9</xref></sup>, no specific genes have been implicated in pigmentary mosaic disorders. Our findings highlight the value of careful clinical phenotyping combined with massively parallel sequencing for elucidating their genetic causes. The syndrome described here presents both similarities and notable differences with other mosaic syndromes involving the skin, such as disorders of the PI3K-AKT-mTOR and RAS-MAPK pathways<sup><xref rid="R10" ref-type="bibr">10</xref></sup>. RhoA is a highly conserved protein particularly intolerant to amino acid substitutions, with only five observed missense changes in the Exome Aggregation Consortium (66.9 expected variants; z = 3.70) and no loss-of-function alleles (5.1 expected)<sup><xref rid="R11" ref-type="bibr">11</xref></sup>. Accordingly, <italic>RHOA</italic> is part of the &#x201C;core essentialome&#x201D;, a set of genes essential to cell viability<sup><xref rid="R12" ref-type="bibr">12</xref>,<xref rid="R13" ref-type="bibr">13</xref></sup>, thus supporting the idea that <italic>RHOA</italic>-related mosaic ectodermal dysplasia should be added to the list of disorders resulting from lethal mutations surviving only by mosaicism, which includes Proteus, Sturge-Weber, and some other mosaic syndromes<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. All postzygotic mutations reported to date as causing such mosaic syndromes have been activating mutations also frequently found in somatic cancer<sup><xref rid="R15" ref-type="bibr">15</xref></sup>. Our data show that disease-causing lethal mutations surviving by mosaicism can act through a likely dominant-negative effect. Intriguingly, although both dominant-negative and activating <italic>RHOA</italic> mutations are known somatic driver mutations in several cancer types, neither of the two mutations identified here has been reported in cancer (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 9</xref>). The absence of both variants in blood, as commonly observed in mosaic development disorders<sup><xref rid="R16" ref-type="bibr">16</xref></sup>, is consistent with the known pivotal role of RhoA in hematopoietic stem cell and lymphocyte development<sup><xref rid="R17" ref-type="bibr">17</xref></sup>, suggesting negative selection of mutant blood cells. Hence, for diagnostic purpose, mutation testing in <italic>RHOA</italic>-related mosaic ectodermal dysplasia should be performed on a biopsy from affected skin, as in other mosaic conditions. We hypothesize that most clinical manifestations in <italic>RHOA</italic>-related mosaic ectodermal dysplasia result from anomalies in cell migration, particularly in the brain and eye. However, we cannot exclude additional mechanisms, such as inhibition of NF&#x3BA;B, or alteration of the Wnt pathway, similar to male-lethal X-linked diseases incontinentia pigmenti or focal dermal hypoplasia, since RhoA is involved in the regulation of both pathways<sup><xref rid="R18" ref-type="bibr">18</xref>&#x2013;<xref rid="R20" ref-type="bibr">20</xref></sup>, Finally, similar to mosaic overgrowth disorders of the PI3K-AKT-mTOR pathway, identification of other genes causing ectodermal mosaic syndromes may pinpoint common pathogenesis pathways, which will help enhancing our understanding of their causes, and ultimately result in novel therapeutic opportunities.</p>
+    <sec id="S1">
+      <title>ONLINE METHODS</title>
+      <sec id="S2">
+        <title>Study subjects</title>
+        <p id="P10">The study included seven unrelated affected individuals and their unaffected parents. Individuals were phenotyped and recruited by geneticists and dermatologists in Dijon and elsewhere in France through a collaborative nationwide effort to identify genes causing mosaic syndromes involving the skin (ClinicalTrial registration number <related-object id="RO1" source-type="clinical-trials-registry" source-id="ClinicalTrials.gov" source-id-type="registry-name" document-id="NCT01950975" document-id-type="clinical-trial-number"/>, <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/">https://clinicaltrials.gov/</ext-link>). Inclusion criteria consisted of the following: sporadic condition, congenital or early childhood onset, and cutaneous lesions with a pattern suggestive of mosaicism associated with extracutaneous anomalies. We obtained written informed consent from all subjects or their legal representatives, and the ethics committee of Dijon University Hospital approved the study. We extracted genomic DNA from fresh skin, cultured skin fibroblasts, and blood samples using the Gentra Puregene Blood and Tissue Extraction Kit (Qiagen). We assessed genomic DNA integrity and quantity by agarose gel electrophoresis, NanoDrop spectrophotometry, and Qubit fluorometry (Thermo Fisher).</p>
+      </sec>
+      <sec id="S3">
+        <title>Whole-exome sequencing (WES)</title>
+        <p id="P11">Exome capture and sequencing were performed at Integragen (Evry, France) from 1 &#x3BC;g of genomic DNA per individual using the Agilent SureSelect Human All Exon V5 (trios S1 and S2) and Clinical Research Exome (trio S3) kits. Libraries were sequenced on a HiSeq platform (Illumina) using paired-end 75-bp reads. Sequences were aligned to the human genome reference sequence (GRCh37/hg19 build of UCSC Genome Browser), and single-nucleotide variants and small insertions/deletions were systematically detected as previously described<sup><xref rid="R21" ref-type="bibr">21</xref></sup>. Candidate <italic>de novo</italic> mutational events were identified by focusing on protein-altering and splice-site changes: (i) supported by at least three reads and 10% of total reads in the proband; (ii) absent in both parents, as defined by variant reads representing less than 5% of total reads; (iii) at base-pair positions covered by at least four reads in the entire trio; and (iv) present at a frequency less than 1% in dbSNP (build 147) and 0.1% in the Exome Aggregation Consortium (ExAC, <ext-link ext-link-type="uri" xlink:href="http://exac.broadinstitute.org/">http://exac.broadinstitute.org/</ext-link>)<sup><xref rid="R11" ref-type="bibr">11</xref></sup>. Candidate low-level postzygotic changes of <italic>RHOA</italic> in subject S2 were detected as previously described<sup><xref rid="R22" ref-type="bibr">22</xref></sup>. Briefly, all coding and splice-site bases of <italic>RHOA</italic> were systematically analyzed to count all sites with at least one read not matching the reference sequence, using a base-quality threshold of 30.</p>
+      </sec>
+      <sec id="S4">
+        <title>Ultra-deep sequencing of <italic>RHOA</italic></title>
+        <p id="P12">Coding exons of <italic>RHOA</italic> (reference accession NM_001664.2) were amplified using custom intronic primers (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 4</xref>) and standard PCR with the PrimeSTAR GXL DNA Polymerase (Takara Bio). PCR products were purified and libraries were prepared using the transposase-based Nextera XT DNA Sample Preparation kit (Illumina). Libraries were sequenced on a MiSeq instrument using 300-cycle reagent kits v2 (Illumina) and paired-end sequencing reactions of 150-bp reads. Ultra-deep sequencing was performed to achieve a sequencing depth of at least 1,000 reads for all targeted coding bases and splice junctions (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 5</xref>). As previously described<sup><xref rid="R22" ref-type="bibr">22</xref></sup>, we identified candidate single-nucleotide variants and small insertions/deletions by recording all sites of <italic>RHOA</italic> coding exons and splice junctions with at least four reads not matching the reference sequence, using a base quality threshold of 30 and a mapping quality threshold of 20, with a mutant allele fraction of at least 0.01. We annotated variants with SeattleSeq Annotation (<ext-link ext-link-type="uri" xlink:href="http://snp.gs.washington.edu/SeattleSeqAnnotation138/">http://snp.gs.washington.edu/SeattleSeqAnnotation138/</ext-link>), and focused on protein-altering and splice-site changes present at a frequency less than 0.1% in ExAC<sup><xref rid="R11" ref-type="bibr">11</xref></sup>.</p>
+      </sec>
+      <sec id="S5">
+        <title><italic>In silico</italic> prediction</title>
+        <p id="P13">Nucleotide-level conservation and impact of amino acid change of <italic>RHOA</italic> mutations were assessed using the Genomic Evolutionary Rate Profiling (GERP)<sup><xref rid="R23" ref-type="bibr">23</xref></sup> and Combined Annotation-Dependent Depletion (CADD) scores<sup><xref rid="R24" ref-type="bibr">24</xref></sup>, respectively (<xref rid="SD2" ref-type="supplementary-material">Supplementary Table 7</xref>).</p>
+      </sec>
+      <sec id="S6">
+        <title>Cell culture and transfection</title>
+        <p id="P14">NIH/3T3 cells were obtained from ATCC (CRL-1658TM) and maintained in Dulbecco&#x2019;s Modified Eagle&#x2019;s Medium (DMEM (Life Technologies)) plus 10% calf serum. 60% confluent cultures were transfected using XfectTM reagent (Clontech) as per manufacturer&#x2019;s protocol and cultured for 48 hours before lysis or fixation.</p>
+      </sec>
+      <sec id="S7">
+        <title>FLAG-tagged DNA constructs and mutagenesis</title>
+        <p id="P15">DNA constructs for mammalian expression, including FLAG-tagged wild-type, G14V and T19N mutant RhoA, were obtained from the Missouri S&amp;T cDNA Resource Center (<ext-link ext-link-type="uri" xlink:href="http://www.cdna.org/">www.cdna.org</ext-link>). E47K and P71S mutations were introduced into the wild-type <italic>RHOA</italic> sequence using the QuickChange site-directed mutagenesis kit (Agilent Technologies), as per manufacturer&#x2019;s protocol along with the primers described in <xref rid="SD2" ref-type="supplementary-material">Supplementary Table 10</xref>. The wild-type or mutant <italic>RHOA</italic> ORFs were then moved to pCMV-Tag2B mammalian expression vector (Stratagene) using standard cloning procedures to create proteins with FLAG tag at the N-terminus.</p>
+      </sec>
+      <sec id="S8">
+        <title>Immunocytochemistry</title>
+        <p id="P16">NIH/3T3 cells were fixed with 0.25% glutaraldehyde and permeabilized with 0.1% Triton x100 (Sigma). Mouse anti-&#x3B1;-tubulin (T6074, Sigma, 1:5,000) and goat anti-FLAG (A190&#x2013;101A, Bethyl Laboratories, 1:500) antibodies were incubated overnight at 4 &#xB0;C. Appropriate secondary AlexaFluor-conjugated antibodies (Life Technologies, 1:1,000) along with AlexaFluor-conjugated phalloidin to visualize F-actin (A12379, Life Technologies, 1:100) were applied for 1 hour at room temperature. Cover glasses were mounted in ProLong anti-fade media (Life Technologies) and visualized with 100x oil objective on inverted microscope (Zeiss) fitted with spinning disc confocal scanner (Perkin-Elmer). Imaging analysis was performed using ImageJ software as follows: Confocal stacks were projected into a single plane (Z-project, Maximal Intensity), images were thresholded and fluorescence intensity measured as a mean gray value. The investigator collecting images was blinded to the experimental groups. During analysis of immunocytochemistry data, the investigator was blinded to the identity of the experimental groups.</p>
+      </sec>
+      <sec id="S9">
+        <title>Western blotting</title>
+        <p id="P17">NIH/3T3 cells were rinsed once with PBS and lysed in M-PER lysis buffer (Thermo Fisher) supplemented with protease and phosphatase inhibitor cocktail (Sigma). Protein concentration of the lysates cleared of insoluble cell debris were determined using 660 nm Protein Assay reagent (Thermo Fisher). A total of 15 &#x3BC;g of proteins in LDS electrophoresis loading buffer (Life Technologies) was denatured for 10 min at 70 &#xB0;C and separated on 4&#x2013;12% SDS-PAGE gel (Life Technologies). Proteins were transferred onto 0.2-&#x3BC;m nitrocellulose membrane (Pall) and processed for Western blotting. Primary antibodies were used at the following dilutions: goat anti-actin (sc-1616, Santa-Cruz Biotechnology, 1:4,000), mouse anti-MYPT1 (612165, Becton-Dickinson, 1:4,000), rabbit anti-MYPT1(pT696) (ABS45, Millipore, 1:500), rabbit anti-RhoA (67B9, Cell Signaling, 1:4,000), rabbit anti-MLC2 (8505, Cell Signaling, 1:4,000), and mouse anti-MLC2(pT19) (3674, Cell Signaling, 1:500). Appropriate secondary IRDye-conjugated antibodies (LI-COR) were used at 1:10,000. Proteins were detected using Odyssey imager (LI-COR). The investigator carrying out the Western blot experiments was not blinded to the identity of the samples.</p>
+      </sec>
+      <sec id="S10">
+        <title>Myc-tagged DNA constructs and mutagenesis</title>
+        <p id="P18">DNA constructs of myc-tagged wild-type, p.Gly14Val, and p.Thr19Asn <italic>RhoA</italic> for mammalian expression were obtained from Missouri S&amp;T cDNA Resource Center (<ext-link ext-link-type="uri" xlink:href="http://www.cdna.org/">www.cdna.org</ext-link>). The c.139G&gt;A mutation (encoding p.Glu47Lys) was introduced into the wild-type <italic>RHOA</italic> sequence using the QuickChange site-directed mutagenesis kit (Agilent Technologies) as per manufacturer&#x2019;s protocol, and primers listed in <xref rid="SD2" ref-type="supplementary-material">Supplementary Table 10</xref>. Other steps were performed as described above, with anti-Myc antibodies instead of anti-FLAG (Bethyl Laboratories, 1:500).</p>
+      </sec>
+      <sec id="S11">
+        <title>Statistics</title>
+        <p id="P19">For fluorescence intensity quantification, a <italic>t</italic>-test assuming unequal variance was performed, with <italic>P</italic>-values less than 0.05 considered significant difference. For Western blotting, four independent experiments for each transfection were performed, and average and standard deviation reflect these replicates.</p>
+      </sec>
+      <sec sec-type="data-availability" id="S12">
+        <title>Data availability</title>
+        <p id="P20">The data that support the findings of this study are available from the corresponding authors upon reasonable request.</p>
+      </sec>
+      <sec id="S13">
+        <title>Reporting summary</title>
+        <p id="P21">Comprehensive information on experimental design and reagents can be found online in the <bold>Life Sciences Reporting Summary</bold>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM1">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>1</label>
+        <media xlink:href="NIHMS1537602-supplement-1.docx" orientation="portrait" xlink:type="simple" id="d36e930" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>2</label>
+        <media xlink:href="NIHMS1537602-supplement-2.pdf" orientation="portrait" xlink:type="simple" id="d36e934" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S14">
+      <title>ACKNOWLEDGEMENTS</title>
+      <p id="P22">We thank the subjects and families involved in the study. We also thank the University of Burgundy Centre de Calcul (CcuB, <ext-link ext-link-type="uri" xlink:href="https://haydn2005.u-bourgogne.fr/dsi-ccub/">https://haydn2005.u-bourgogne.fr/dsi-ccub/</ext-link>) for technical support and management of the informatics platform. This work was funded by the Agence Nationale de la Recherche (ANR-13-PDOC-0029 to J.-B.R.), the Programme Hospitalier de Recherche Clinique (PHRC) National 2010 (<related-object id="RO2" source-type="clinical-trials-registry" source-id="ClinicalTrials.gov" source-id-type="registry-name" document-id="NCT01950975" document-id-type="clinical-trial-number"/> to P.V.), and the NIH (HD067244 to MER). G.B. has received a Research Scholar Junior 1 (2012&#x2013;2016) salary award from the Fonds de Recherche du Qu&#xE9;bec en Sant&#xE9; (FRQS) and the New Investigator salary award (2017&#x2013;2022) from the Canadian Institute for Health Research (CIHR, MOP-G-287547).</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement" id="FN2">
+        <p id="P23">COMPETING FINANCIAL INTERESTS</p>
+        <p id="P24">The authors declare no competing financial interests.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="R1">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><name><surname>Sybert</surname><given-names>VP</given-names></name>
+<article-title>Hypomelanosis of Ito: a description, not a diagnosis</article-title>. <source>J. Invest. Dermatol</source>
+<volume>103</volume>, <fpage>S141</fpage>&#x2013;<lpage>S143</lpage> (<year>1994</year>).</mixed-citation>
+      </ref>
+      <ref id="R2">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><name><surname>Pavone</surname><given-names>P</given-names></name>, <name><surname>Pratic&#xF2;</surname><given-names>AD</given-names></name>, <name><surname>Ruggieri</surname><given-names>M</given-names></name> &amp; <name><surname>Falsaperla</surname><given-names>R</given-names></name>
+<article-title>Hypomelanosis of Ito: a round on the frequency and type of epileptic complications</article-title>. <source>Neurol. Sci</source>
+<volume>36</volume>, <fpage>1173</fpage>&#x2013;<lpage>1180</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25586695</pub-id></mixed-citation>
+      </ref>
+      <ref id="R3">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><name><surname>Canman</surname><given-names>JC</given-names></name>
+<etal/>
+<article-title>Inhibition of Rac by the GAP activity of Centralspindlin is essential for cytokinesis</article-title>. <source>Science</source>
+<volume>322</volume>, <fpage>1543</fpage>&#x2013;<lpage>1546</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">19056985</pub-id></mixed-citation>
+      </ref>
+      <ref id="R4">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><name><surname>Hall</surname><given-names>A</given-names></name>
+<article-title>Rho GTPases and the actin cytoskeleton</article-title>. <source>Science</source>
+<volume>279</volume>, <fpage>509</fpage>&#x2013;<lpage>514</lpage> (<year>1998</year>).<pub-id pub-id-type="pmid">9438836</pub-id></mixed-citation>
+      </ref>
+      <ref id="R5">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><name><surname>Vetter</surname><given-names>IR</given-names></name> &amp; <name><surname>Wittinghofer</surname><given-names>A</given-names></name>
+<article-title>The guanine nucleotide-binding switch in three dimensions</article-title>. <source>Science</source>
+<volume>294</volume>, <fpage>1299</fpage>&#x2013;<lpage>1304</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11701921</pub-id></mixed-citation>
+      </ref>
+      <ref id="R6">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><name><surname>Pan</surname><given-names>ZK</given-names></name>
+<etal/>
+<article-title>Role of the Rho GTPase in bradykinin-stimulated nuclear factor-&#x3BA;B activation and IL-1&#x3B2; gene expression in cultured human epithelial cells</article-title>. <source>J. Immunol</source>
+<volume>160</volume>, <fpage>3038</fpage>&#x2013;<lpage>3045</lpage> (<year>1998</year>).<pub-id pub-id-type="pmid">9510209</pub-id></mixed-citation>
+      </ref>
+      <ref id="R7">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhao</surname><given-names>X</given-names></name>
+<etal/>
+<article-title>Overexpression of RhoA induces preneoplastic transformation of primary mammary epithelial cells</article-title>. <source>Cancer Res</source>. <volume>69</volume>, <fpage>483</fpage>&#x2013;<lpage>491</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19147561</pub-id></mixed-citation>
+      </ref>
+      <ref id="R8">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><name><surname>Maekawa</surname><given-names>M</given-names></name>
+<etal/>
+<article-title>Signaling from Rho to the actin cytoskeleton through protein kinases ROCK and LIM-kinase</article-title>. <source>Science</source>
+<volume>285</volume>, <fpage>895</fpage>&#x2013;<lpage>898</lpage> (<year>1999</year>).<pub-id pub-id-type="pmid">10436159</pub-id></mixed-citation>
+      </ref>
+      <ref id="R9">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><name><surname>Mirzaa</surname><given-names>GM</given-names></name>
+<etal/>
+<article-title>Association of MTOR mutations with developmental brain disorders, including megalencephaly, focal cortical dysplasia, and pigmentary mosaicism</article-title>. <source>JAMA Neurol</source>. <volume>73</volume>, <fpage>836</fpage>&#x2013;<lpage>845</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27159400</pub-id></mixed-citation>
+      </ref>
+      <ref id="R10">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><name><surname>van Steensel</surname><given-names>MAM</given-names></name>
+<article-title>Neurocutaneous manifestations of genetic mosaicism</article-title>. <source>J. Pediatr. Genet</source>
+<volume>4</volume>, <fpage>144</fpage>&#x2013;<lpage>153</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">27617125</pub-id></mixed-citation>
+      </ref>
+      <ref id="R11">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><name><surname>Lek</surname><given-names>M</given-names></name>
+<etal/>
+<article-title>Analysis of protein-coding genetic variation in 60,706 humans</article-title>. <source>Nature</source>
+<volume>536</volume>, <fpage>285</fpage>&#x2013;<lpage>291</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27535533</pub-id></mixed-citation>
+      </ref>
+      <ref id="R12">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><name><surname>Blomen</surname><given-names>VA</given-names></name>
+<etal/>
+<article-title>Gene essentiality and synthetic lethality in haploid human cells</article-title>. <source>Science</source>
+<volume>350</volume>, <fpage>1092</fpage>&#x2013;<lpage>1096</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26472760</pub-id></mixed-citation>
+      </ref>
+      <ref id="R13">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>T</given-names></name>
+<etal/>
+<article-title>Identification and characterization of essential genes in the human genome</article-title>. <source>Science</source>
+<volume>350</volume>, <fpage>1096</fpage>&#x2013;<lpage>1101</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26472758</pub-id></mixed-citation>
+      </ref>
+      <ref id="R14">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><name><surname>Happle</surname><given-names>R</given-names></name>
+<article-title>Cutaneous manifestation of lethal genes</article-title>. <source>Hum. Genet</source>
+<volume>72</volume>, <fpage>280</fpage> (<year>1986</year>).<pub-id pub-id-type="pmid">3957353</pub-id></mixed-citation>
+      </ref>
+      <ref id="R15">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><name><surname>Fern&#xE1;ndez</surname><given-names>LC</given-names></name>, <name><surname>Torres</surname><given-names>M</given-names></name> &amp; <name><surname>Real</surname><given-names>FX</given-names></name>
+<article-title>Somatic mosaicism: on the road to cancer</article-title>. <source>Nat. Rev. Cancer</source>
+<volume>16</volume>, <fpage>43</fpage>&#x2013;<lpage>55</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26678315</pub-id></mixed-citation>
+      </ref>
+      <ref id="R16">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><name><surname>Kuentz</surname><given-names>P</given-names></name>
+<etal/>
+<article-title>Molecular diagnosis of PIK3CA-related overgrowth spectrum (PROS) in 162 patients and recommendations for genetic testing</article-title>. <source>Genet. Med</source>
+<volume>19</volume>, <fpage>989</fpage>&#x2013;<lpage>997</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28151489</pub-id></mixed-citation>
+      </ref>
+      <ref id="R17">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>S</given-names></name>, <name><surname>Zhou</surname><given-names>X</given-names></name>, <name><surname>Lang</surname><given-names>RA</given-names></name> &amp; <name><surname>Guo</surname><given-names>F</given-names></name>
+<article-title>RhoA of the Rho family small GTPases is essential for B lymphocyte development</article-title>. <source>PLoS ONE</source>
+<volume>7</volume>, <fpage>e33773</fpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22438996</pub-id></mixed-citation>
+      </ref>
+      <ref id="R18">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><name><surname>Tong</surname><given-names>L</given-names></name> &amp; <name><surname>Tergaonkar</surname><given-names>V</given-names></name>
+<article-title>Rho protein GTPases and their interactions with NF&#x3BA;B: crossroads of inflammation and matrix biology</article-title>. <source>Biosci. Rep</source>
+<volume>34</volume>, (<year>2014</year>).</mixed-citation>
+      </ref>
+      <ref id="R19">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><name><surname>Ord&#xF3;&#xF1;ez-Mor&#xE1;n</surname><given-names>P</given-names></name>
+<etal/>
+<article-title>RhoA&#x2013;ROCK and p38MAPK-MSK1 mediate vitamin D effects on gene expression, phenotype, and Wnt pathway in colon cancer cells</article-title>. <source>J. Cell Biol</source>
+<volume>183</volume>, <fpage>697</fpage>&#x2013;<lpage>710</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">19015318</pub-id></mixed-citation>
+      </ref>
+      <ref id="R20">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><name><surname>Rodrigues</surname><given-names>P</given-names></name>
+<etal/>
+<article-title>RHOA inactivation enhances Wnt signalling and promotes colorectal cancer</article-title>. <source>Nat. Commun</source>
+<volume>5</volume>, <fpage>5458</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25413277</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <ref-list>
+      <title>Methods-only References</title>
+      <ref id="R21">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><name><surname>Thevenon</surname><given-names>J</given-names></name>
+<etal/>
+<article-title>Diagnostic odyssey in severe neurodevelopmental disorders: toward clinical whole-exome sequencing as a first-line diagnostic test</article-title>. <source>Clin. Genet</source>
+<volume>89</volume>, <fpage>700</fpage>&#x2013;<lpage>707</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26757139</pub-id></mixed-citation>
+      </ref>
+      <ref id="R22">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><name><surname>Rivi&#xE8;re</surname><given-names>J-B</given-names></name>
+<etal/>
+<article-title>De novo germline and postzygotic mutations in AKT3, PIK3R2 and PIK3CA cause a spectrum of related megalencephaly syndromes</article-title>. <source>Nat. Genet</source>
+<volume>44</volume>, <fpage>934</fpage>&#x2013;<lpage>940</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22729224</pub-id></mixed-citation>
+      </ref>
+      <ref id="R23">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><name><surname>Cooper</surname><given-names>GM</given-names></name>
+<etal/>
+<article-title>Single-nucleotide evolutionary constraint scores highlight disease-causing mutations</article-title>. <source>Nat. Methods</source>
+<volume>7</volume>, <fpage>250</fpage>&#x2013;<lpage>251</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20354513</pub-id></mixed-citation>
+      </ref>
+      <ref id="R24">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><name><surname>Kircher</surname><given-names>M</given-names></name>
+<etal/>
+<article-title>A general framework for estimating the relative pathogenicity of human genetic variants</article-title>. <source>Nat. Genet</source>
+<volume>46</volume>, <fpage>310</fpage>&#x2013;<lpage>315</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24487276</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Figure 1 |</label>
+      <caption>
+        <title>Main clinical features of <italic>RHOA</italic>-related mosaic ectodermal dysplasia and <italic>RHOA</italic> mutations.</title>
+        <p id="P25"><bold>a-e</bold>, Craniofacial appearance, linear hypopigmentation and other extracutaneous anomalies in subject S1. <bold>f-i</bold>, Brain MRI of subject S1 at 15 years. A second MRI, conducted 6 months later, did not show any significant change. Subjects S2 and S4 had similar but milder MRI abnormalities, including enlarged temporal horns of the lateral ventricles (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2</xref>). Sagittal T1-weighted image revealed preserved midline structures (<bold>f</bold>). Axial T2-weighted images revealed a focal hyperintense lesion in the right hemisphere of the cerebellum (<bold>g</bold>, arrowhead), and diffuse cystic leukoencephalopathy with mildly enlarged lateral ventricles and cysts in the thalami and caudate nuclei (<bold>h</bold>). The leukoencephalopathy and presence of multiple cysts is confirmed on fluid-attenuated inversion recovery (FLAIR) sequences (<bold>i</bold>). <bold>j</bold>, Mutant allele fraction of <italic>RHOA</italic> mutations in the five subjects studied in WES or TUDS. <bold>k</bold>, Linear representation of <italic>RHOA</italic> and localization of the two mutations.</p>
+      </caption>
+      <graphic xlink:href="nihms-1537602-f0001"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Figure 2 |</label>
+      <caption>
+        <title>Inactivating effect of the two <italic>RHOA</italic> mutations.</title>
+        <p id="P26"><bold>a,b</bold>, Cytoskeletal organization and morphology in NIH/3T3 cells transfected with wild-type, constitutively active (p.Gly14Val), dominant-negative (p.Thr19Asn), (p.Glu47Lys) and (p.Pro71Ser) forms of <italic>RHOA</italic>. <bold>a</bold>, Up: Cells transfected with wild-type <italic>RHOA</italic> or p.Gly14Val mutant display expected increase in F-actin staining, particularly with regard to stress fibers which are brighter, thicker and more numerous. Cells transfected with p.Thr19Asn, p.Glu47Lys or (p.Pro71Ser) mutants barely contain any stress fibers at all. Low: Dual labeling for DAPI (blue) and alpha-tubulin (green) does not reveal significant differences in the gross organization of microtubule cytoskeleton or nuclear morphology between different mutants. All cells (<italic>n</italic> = 20 per group) selected at random across the cover slip that were individually examined showed reduced stress fibers and limited cell spreading. <bold>b</bold>, Up: FLAG staining does not reveal any visible differences in the subcellular localization of different RhoA mutants. All mutants tend to impair cell spreading, while wild-type RhoA overexpressing cells maintain normal morphology. Middle: Dual labeling for DAPI (blue) and pMYPT1 (red) shows decrease in signal intensity of MYPT1(pT696) staining upon transfection with T19N (control), E47K or P71S mutants. Low: Quantification of MYPT1(pThr696) staining shows significant decrease (<italic>n</italic> = 20, 24, 14, 30, and 13 cells, for WT, G14V, T19N, E47K, and P71S, respectively). Box plot elements: 5&#xB0;, 25&#xB0;, median, mean (cross), 75&#xB0; and 95&#xB0;percentiles. <bold>c</bold>, Levels of phosphorylated MYPT1(pThr696) and MLC2(pThr19). Left: Cropped images of Western blot experiment showing expression levels of total MYPT1, phospho-MYPT1, total MLC2, and phospho-MLC2. There is a visible reduction in phospho-MYPT1 and phospho-MLC2 when RhoA(Thr19Asn) or RhoA(Glu47Lys) are overexpressed. Middle and right: dot plot of normalized ratio (4 independent experiments) for phospho-MYPT1 and phospho-MLC2 normalized to total MYPT1 and MLC2, respectively, indicate reduction in MYPT1(pThr696) and MLC2(pThr19) upon RhoA(Glu47Lys) or RhoA(Pro71Ser) overexpression. Further analyses for p.(Glu47Lys) are shown in <xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 7</xref>. Full scans of blots are provided in <xref rid="SD1" ref-type="supplementary-material">Supplementary Figure 8</xref>.</p>
+      </caption>
+      <graphic xlink:href="nihms-1537602-f0002"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

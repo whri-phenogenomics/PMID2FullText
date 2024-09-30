@@ -1,0 +1,1542 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group UK</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">33602924</article-id>
+      <article-id pub-id-type="pmc">7893070</article-id>
+      <article-id pub-id-type="publisher-id">21279</article-id>
+      <article-id pub-id-type="doi">10.1038/s41467-021-21279-0</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic>POLRMT</italic> mutations impair mitochondrial transcription causing neurological disease</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Ol&#xE1;hov&#xE1;</surname>
+            <given-names>Monika</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Peter</surname>
+            <given-names>Bradley</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Szilagyi</surname>
+            <given-names>Zsolt</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Diaz-Maldonado</surname>
+            <given-names>Hector</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Singh</surname>
+            <given-names>Meenakshi</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sommerville</surname>
+            <given-names>Ewen W.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Blakely</surname>
+            <given-names>Emma L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Collier</surname>
+            <given-names>Jack J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hoberg</surname>
+            <given-names>Emily</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Str&#xE1;neck&#xFD;</surname>
+            <given-names>Viktor</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hartmannov&#xE1;</surname>
+            <given-names>Hana</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bleyer</surname>
+            <given-names>Anthony J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8407-8942</contrib-id>
+          <name>
+            <surname>McBride</surname>
+            <given-names>Kim L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6917-5333</contrib-id>
+          <name>
+            <surname>Bowden</surname>
+            <given-names>Sasigarn A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Korandov&#xE1;</surname>
+            <given-names>Zuzana</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0204-7502</contrib-id>
+          <name>
+            <surname>Pecinov&#xE1;</surname>
+            <given-names>Alena</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ropers</surname>
+            <given-names>Hans-Hilger</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+          <xref ref-type="aff" rid="Aff9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kahrizi</surname>
+            <given-names>Kimia</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Najmabadi</surname>
+            <given-names>Hossein</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tarnopolsky</surname>
+            <given-names>Mark A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Brady</surname>
+            <given-names>Lauren I.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Weaver</surname>
+            <given-names>K. Nicole</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff12">12</xref>
+          <xref ref-type="aff" rid="Aff13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Prada</surname>
+            <given-names>Carlos E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff12">12</xref>
+          <xref ref-type="aff" rid="Aff13">13</xref>
+          <xref ref-type="aff" rid="Aff14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4594-6364</contrib-id>
+          <name>
+            <surname>&#xD5;unap</surname>
+            <given-names>Katrin</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff15">15</xref>
+          <xref ref-type="aff" rid="Aff16">16</xref>
+          <xref ref-type="aff" rid="Aff17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wojcik</surname>
+            <given-names>Monica H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff17">17</xref>
+          <xref ref-type="aff" rid="Aff18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5435-0781</contrib-id>
+          <name>
+            <surname>Pajusalu</surname>
+            <given-names>Sander</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff15">15</xref>
+          <xref ref-type="aff" rid="Aff16">16</xref>
+          <xref ref-type="aff" rid="Aff19">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Syeda</surname>
+            <given-names>Safoora B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff20">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pais</surname>
+            <given-names>Lynn</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff21">21</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Estrella</surname>
+            <given-names>Elicia A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff22">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bruels</surname>
+            <given-names>Christine C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff20">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kunkel</surname>
+            <given-names>Louis M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff22">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4270-7325</contrib-id>
+          <name>
+            <surname>Kang</surname>
+            <given-names>Peter B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff20">20</xref>
+          <xref ref-type="aff" rid="Aff23">23</xref>
+          <xref ref-type="aff" rid="Aff24">24</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bonnen</surname>
+            <given-names>Penelope E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff25">25</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mr&#xE1;&#x10D;ek</surname>
+            <given-names>Tom&#xE1;&#x161;</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kmoch</surname>
+            <given-names>Stanislav</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gorman</surname>
+            <given-names>Gr&#xE1;inne S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8713-173X</contrib-id>
+          <name>
+            <surname>Falkenberg</surname>
+            <given-names>Maria</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3531-8468</contrib-id>
+          <name>
+            <surname>Gustafsson</surname>
+            <given-names>Claes M.</given-names>
+          </name>
+          <address>
+            <email>claes.gustafsson@medkem.gu.se</email>
+          </address>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7768-8873</contrib-id>
+          <name>
+            <surname>Taylor</surname>
+            <given-names>Robert W.</given-names>
+          </name>
+          <address>
+            <email>robert.taylor@ncl.ac.uk</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.1006.7</institution-id><institution-id institution-id-type="ISNI">0000 0001 0462 7212</institution-id><institution>Wellcome Centre for Mitochondrial Research, Translational and Clinical Research Institute, The Medical School, </institution><institution>Newcastle University, </institution></institution-wrap>Newcastle upon Tyne, NE2 4HH UK </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.8761.8</institution-id><institution-id institution-id-type="ISNI">0000 0000 9919 9582</institution-id><institution>Department of Medical Biochemistry and Cell Biology, </institution><institution>University of Gothenburg, </institution></institution-wrap>Gothenburg, Sweden </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.4491.8</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 116X</institution-id><institution>Research Unit for Rare Diseases, Department of Pediatrics and Adolescent Medicine, First Faculty of Medicine, </institution><institution>Charles University, </institution></institution-wrap>Prague, 120 00 Czech Republic </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.241167.7</institution-id><institution-id institution-id-type="ISNI">0000 0001 2185 3318</institution-id><institution>Section on Nephrology, Wake Forest School of Medicine, </institution></institution-wrap>Winston-Salem, USA </aff>
+        <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.261331.4</institution-id><institution-id institution-id-type="ISNI">0000 0001 2285 7943</institution-id><institution>Center for Cardiovascular and Pulmonary Research, Department of Pediatrics, Nationwide Children&#x2019;s Hospital, </institution><institution>The Ohio State University College of Medicine, </institution></institution-wrap>Columbus, USA </aff>
+        <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.261331.4</institution-id><institution-id institution-id-type="ISNI">0000 0001 2285 7943</institution-id><institution>Division of Endocrinology, Nationwide Children&#x2019;s Hospital, </institution><institution>The Ohio State University College of Medicine, </institution></institution-wrap>Columbus, USA </aff>
+        <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.418925.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 0633 9419</institution-id><institution>Department of Bioenergetics, </institution><institution>Institute of Physiology of the Czech Academy of Sciences, </institution></institution-wrap>Prague, Czech Republic </aff>
+        <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.419538.2</institution-id><institution-id institution-id-type="ISNI">0000 0000 9071 0620</institution-id><institution>Department of Human Molecular Genetics, </institution><institution>Max Planck Institute for Molecular Genetics, </institution></institution-wrap>Berlin, Germany </aff>
+        <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.410607.4</institution-id><institution>Institute of Human Genetics, </institution><institution>University Medical Center of the Johannes Gutenberg University, </institution></institution-wrap>Mainz, Germany </aff>
+        <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.472458.8</institution-id><institution-id institution-id-type="ISNI">0000 0004 0612 774X</institution-id><institution>Genetics Research Center, </institution><institution>University of Social Welfare and Rehabilitation Sciences, </institution></institution-wrap>Tehran, Iran </aff>
+        <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.25073.33</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8227</institution-id><institution>Department of Pediatric and Medicines, Division of Neuromuscular and Neurometabolic Diseases, </institution><institution>McMaster University Children&#x2019;s Hospital, </institution></institution-wrap>Hamilton, Canada </aff>
+        <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="GRID">grid.239573.9</institution-id><institution-id institution-id-type="ISNI">0000 0000 9025 8099</institution-id><institution>Division of Human Genetics, Cincinnati Children&#x2019;s Hospital Medical Center, </institution></institution-wrap>Cincinnati, OH USA </aff>
+        <aff id="Aff13"><label>13</label><institution-wrap><institution-id institution-id-type="GRID">grid.24827.3b</institution-id><institution-id institution-id-type="ISNI">0000 0001 2179 9593</institution-id><institution>Department of Pediatrics, </institution><institution>University of Cincinnati College of Medicine, </institution></institution-wrap>Cincinnati, OH USA </aff>
+        <aff id="Aff14"><label>14</label><institution-wrap><institution-id institution-id-type="GRID">grid.418078.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 1764 0020</institution-id><institution>Department of Pediatrics, </institution><institution>Cardiovascular Foundation of Colombia, </institution></institution-wrap>Floridablanca, Colombia </aff>
+        <aff id="Aff15"><label>15</label><institution-wrap><institution-id institution-id-type="GRID">grid.412269.a</institution-id><institution-id institution-id-type="ISNI">0000 0001 0585 7044</institution-id><institution>Department of Clinical Genetics, United Laboratories, </institution><institution>Tartu University Hospital, </institution></institution-wrap>Tartu, Estonia </aff>
+        <aff id="Aff16"><label>16</label><institution-wrap><institution-id institution-id-type="GRID">grid.10939.32</institution-id><institution-id institution-id-type="ISNI">0000 0001 0943 7661</institution-id><institution>Department of Clinical Genetics, Institute of Clinical Medicine, </institution><institution>University of Tartu, </institution></institution-wrap>Tartu, Estonia </aff>
+        <aff id="Aff17"><label>17</label><institution-wrap><institution-id institution-id-type="GRID">grid.66859.34</institution-id><institution>Broad Institute of MIT and Harvard, </institution></institution-wrap>Cambridge, MA USA </aff>
+        <aff id="Aff18"><label>18</label><institution-wrap><institution-id institution-id-type="GRID">grid.2515.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 0378 8438</institution-id><institution>Divisions of Newborn Medicine and Genetics and Genomics, Department of Pediatrics, </institution><institution>Boston Children&#x2019;s Hospital, </institution></institution-wrap>Boston, MA USA </aff>
+        <aff id="Aff19"><label>19</label><institution-wrap><institution-id institution-id-type="GRID">grid.47100.32</institution-id><institution-id institution-id-type="ISNI">0000000419368710</institution-id><institution>Department of Genetics, </institution><institution>Yale University School of Medicine, </institution></institution-wrap>New Haven, CT USA </aff>
+        <aff id="Aff20"><label>20</label><institution-wrap><institution-id institution-id-type="GRID">grid.15276.37</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8091</institution-id><institution>Division of Pediatric Neurology, Department of Pediatrics, </institution><institution>University of Florida College of Medicine, </institution></institution-wrap>Gainesville, FL USA </aff>
+        <aff id="Aff21"><label>21</label><institution-wrap><institution-id institution-id-type="GRID">grid.66859.34</institution-id><institution>Center for Mendelian Genomics, Broad Institute of MIT and Harvard, </institution></institution-wrap>Cambridge, Massachusetts USA </aff>
+        <aff id="Aff22"><label>22</label><institution-wrap><institution-id institution-id-type="GRID">grid.38142.3c</institution-id><institution-id institution-id-type="ISNI">000000041936754X</institution-id><institution>Division of Genetics &amp; Genomics, Boston Children&#x2019;s Hospital and Harvard Medical School, </institution></institution-wrap>Boston, MA USA </aff>
+        <aff id="Aff23"><label>23</label><institution-wrap><institution-id institution-id-type="GRID">grid.15276.37</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8091</institution-id><institution>Department of Molecular Genetics &amp; Microbiology, and Department of Neurology, </institution><institution>University of Florida College of Medicine, </institution></institution-wrap>Gainesville, FL USA </aff>
+        <aff id="Aff24"><label>24</label><institution-wrap><institution-id institution-id-type="GRID">grid.15276.37</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8091</institution-id><institution>Genetics Institute and Myology Institute, </institution><institution>University of Florida, </institution></institution-wrap>Gainesville, FL USA </aff>
+        <aff id="Aff25"><label>25</label><institution-wrap><institution-id institution-id-type="GRID">grid.39382.33</institution-id><institution-id institution-id-type="ISNI">0000 0001 2160 926X</institution-id><institution>Department of Molecular and Human Genetics, </institution><institution>Baylor College of Medicine, </institution></institution-wrap>Houston, TX USA </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>2</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>18</day>
+        <month>2</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <volume>12</volume>
+      <elocation-id>1135</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>5</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>12</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2021</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">While &gt;300 disease-causing variants have been identified in the mitochondrial DNA (mtDNA) polymerase &#x3B3;, no mitochondrial phenotypes have been associated with POLRMT, the RNA polymerase responsible for transcription of the mitochondrial genome. Here, we characterise the clinical and molecular nature of <italic>POLRMT</italic> variants in eight individuals from seven unrelated families. Patients present with global developmental delay, hypotonia, short stature, and speech/intellectual disability in childhood; one subject displayed an indolent progressive external ophthalmoplegia phenotype. Massive parallel sequencing of all subjects identifies recessive and dominant variants in the <italic>POLRMT</italic> gene. Patient fibroblasts have a defect in mitochondrial mRNA synthesis, but no mtDNA deletions or copy number abnormalities. The in vitro characterisation of the recombinant POLRMT mutants reveals variable, but deleterious effects on mitochondrial transcription. Together, our in vivo and in vitro functional studies of <italic>POLRMT</italic> variants establish defective mitochondrial transcription as an important disease mechanism.</p>
+      </abstract>
+      <abstract id="Abs2" abstract-type="web-summary">
+        <p id="Par2">POLRMT is key for transcription of the mitochondrial genome, yet has not been implicated in mitochondrial disease to date. Here, the authors identify mutations in <italic>POLRMT</italic> in individuals with mitochondrial disease-related phenotypes and characterise underlying defects in mitochondrial transcription.</p>
+      </abstract>
+      <kwd-group kwd-group-type="npg-subject">
+        <title>Subject terms</title>
+        <kwd>Genetics</kwd>
+        <kwd>Neuroscience</kwd>
+        <kwd>Molecular medicine</kwd>
+        <kwd>Neurology</kwd>
+      </kwd-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; The Author(s) 2021</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Introduction</title>
+      <p id="Par3">Mitochondrial diseases comprise a wide spectrum of genetic disorders with varied clinical features and patient prognoses<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. These often multi-organ disorders can be sporadic or due to inherited pathogenic variants in either mitochondrial DNA (mtDNA) or in the ~1200 nuclear-encoded genes required for mitochondrial function and maintenance. These mtDNA maintenance proteins include the DNA polymerase &#x3B3; (POL&#x3B3;) and TWINKLE helicase required for replication of mtDNA. In addition, priming of mtDNA replication as well as oxidative phosphorylation (OXPHOS) system gene expression is known to be reliant upon the mtDNA transcription machinery<sup><xref ref-type="bibr" rid="CR2">2</xref>&#x2013;<xref ref-type="bibr" rid="CR4">4</xref></sup>. Transcription of mtDNA is carried out by the mitochondrial RNA polymerase (POLRMT) and the mitochondrial transcription factors A (TFAM) and B2 (TFB2M) that initiate promoter-specific transcription from the light-strand and heavy-strand promoters (LSP and HSP)<sup><xref ref-type="bibr" rid="CR5">5</xref>&#x2013;<xref ref-type="bibr" rid="CR7">7</xref></sup>. During replication of mtDNA, POLRMT also synthesises the RNA primers required for initiation from the two mitochondrial origins of replication, OriL and OriH<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR8">8</xref></sup>.</p>
+      <p id="Par4">Structurally, POLRMT comprises four main domains: the N-terminal extension, a pentatricopeptide repeat (PPR) domain, the N-terminal domain, and the C-terminal domain<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. Large-scale conformational changes occur in these domains as the protein binds TFAM and mtDNA during transcription initiation as well as during the handover to processive mtDNA transcription<sup><xref ref-type="bibr" rid="CR9">9</xref>&#x2013;<xref ref-type="bibr" rid="CR12">12</xref></sup>. The initiation of transcription begins with TFAM binding the promoter upstream of the transcription start site and inducing a stable U-bend in the mtDNA. Following the recruitment of POLRMT a closed pre-initiation complex is formed. The interaction between POLRMT with TFAM is mediated via the N-terminal extension domain of POLRMT, also known as the &#x2018;tether helix&#x2019;, which is important for anchoring the active site of POLRMT near the transcription start site where the initial DNA melting occurs<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. Following the binding of TFB2M to the duplex DNA, TFB2M induces structural changes in POLRMT that stabilise the open DNA region. TFB2M contacts the conserved intercalating hairpin within the N-terminal domain of POLRMT, that results in melting of the DNA duplex and formation of the open initiation complex, where de novo RNA synthesis can begin<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. The transition from transcription initiation to elongation involves the release of TFB2M and recruitment of the mitochondrial transcription elongation factor (TEFM). TEFM forms a homodimer via its C-terminus and stabilises interactions between the intercalating hairpin of POLRMT and the DNA template, thus separating the nascent RNA<sup><xref ref-type="bibr" rid="CR13">13</xref>&#x2013;<xref ref-type="bibr" rid="CR15">15</xref></sup>. This interaction also contributes to the formation of a tight RNA exit tunnel along POLRMT, that is thought to enhance the processivity of the RNA polymerase along the DNA strand, and bypass premature termination or stalling caused by secondary structured RNA regions such as the G-quadruplex sequence of the conserved sequence block II (CSBII)<sup><xref ref-type="bibr" rid="CR13">13</xref>&#x2013;<xref ref-type="bibr" rid="CR15">15</xref></sup>. In the absence of TEFM, the LSP-driven transcription is often terminated at the CSBII producing a 120-nt transcript, which after processing can be used by the replisome machinery to initiate replication at OriH<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>.</p>
+      <p id="Par5">The vast majority of mitochondrial disorders result from defects in components of the mtDNA maintenance machinery and the OXPHOS system<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR17">17</xref></sup>. Variants in <italic>POLG</italic> and <italic>TWNK</italic>, the genes encoding POL&#x3B3; and TWINKLE, represent a frequent cause of inherited mitochondrial disease, with more than 300 different disease-causing variants having been identified in <italic>POLG</italic> alone (<ext-link ext-link-type="uri" xlink:href="https://tools.niehs.nih.gov/polg/">https://tools.niehs.nih.gov/polg/</ext-link>). These mutations lead to a disorder of mtDNA maintenance which can manifest as mtDNA depletion or variable mtDNA deletions<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. In contrast, pathogenic variants in <italic>POLRMT</italic> have not, until now, been associated with mitochondrial disease.</p>
+      <p id="Par6">Here we report a cohort of eight patients with <italic>POLRMT</italic> mutations associated with mitochondrial dysfunction and a broad spectrum of neurological presentations which are independent of disorders of mtDNA maintenance. Respiratory chain deficiencies in cultured patient fibroblasts are linked to the quantitative loss of OXPHOS mRNA transcripts in vivo whereas mtDNA depletion/deletions were absent. In vitro assessment of the <italic>POLRMT</italic> variants reveals a negative effect on processive transcription activity and a reduced ability to synthesise primers for mtDNA replication. Our data demonstrate that defective POLRMT can lead to classical mitochondrial disease and wider neurological manifestations which are independent of disordered mtDNA maintenance.</p>
+    </sec>
+    <sec id="Sec2" sec-type="results">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>Identification of patients with pathogenic <italic>POLRMT</italic> variants</title>
+        <p id="Par7">We identified 8 individuals from 7 families (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>, Supplementary results and Tables&#xA0;<xref rid="Tab1" ref-type="table">1</xref>, <xref rid="Tab2" ref-type="table">2</xref>) with a broad range of neurological manifestations and rare <italic>POLRMT</italic> variants using a range of massive parallel sequencing strategies. The most frequent clinical presentation of our patients was developmental delay including fine motor, gross motor, language, social/behavioural, and thinking/intellectual (five patients). This was often accompanied by low BMI (five patients), hypotonia (four patients), gastrointestinal (three patients), limb-girdle weakness (three patients), short stature (four patients), and eye movement abnormalities (four patients); resulting in mild to severe disability. Other muscle symptoms such as facial weakness (two patients), contractures (one patient), and neck ptosis (one patient) were less frequent. Other symptoms were relatively uncommon and included electrolyte abnormalities (three patients), skeletal abnormalities (two patients), dysmorphism (two patients), renal dysfunction (two patients), anaemia (two patients), sensorineural hearing loss (one patient), and epilepsy (one patient). Cardiac involvement was conspicuously absent. All <italic>POLRMT</italic> variants were confirmed using Sanger sequencing and phase established confirming the inheritance pattern where possible (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>). Detailed clinical and molecular genetic findings are provided in Tables&#xA0;<xref rid="Tab1" ref-type="table">1</xref>, <xref rid="Tab2" ref-type="table">2,</xref> and the supplementary appendix.<fig id="Fig1"><label>Fig. 1</label><caption><title>Molecular genetics and histochemical studies.</title><p><bold>a</bold> Family pedigrees and segregation status of <italic>POLRMT</italic> patients. Affected individuals are depicted in black, circles represent females, squares represent males; a diagonal line through the symbol represents deceased individuals and double horizontal lines indicate consanguinity. <bold>b</bold> Diagnostic histochemical analyses (<italic>n</italic>&#x2009;=&#x2009;2) of skeletal muscle-derived from P3 showing (i) Haematoxylin &amp; Eosin staining (ii) SDH (iii) COX and (iv) COX-SDH reactivities. The sequential COX-SDH reaction in (iv) revealed a mosaic pattern of COX-deficiency in P3. The scale bar shown is 100 um.</p></caption><graphic xlink:href="41467_2021_21279_Fig1_HTML" id="d32e1021"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>Genetic findings in individuals with <italic>POLRMT</italic> variants.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>ID</th><th>cDNA (NM_005035.3) protein (NP_005026.3)</th><th>Minor Allele Frequency (gnomAD)</th><th>CADD score</th><th>Age-at-onset/ Clinical course</th><th>Ethnicity</th></tr></thead><tbody><tr><td>Family 1 Patient 1<sup>a</sup> female</td><td><p>c.1696C&#x2009;&gt;&#x2009;T, p.Pro566Ser</p><p>c. 2608G&#x2009;&gt;&#x2009;A, p.Asp870Asn</p><p>c.3578C&#x2009;&gt;&#x2009;T, p.Ser1193Phe (recessive)</p></td><td><p>2.0&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup></p><p>3.6&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup></p><p>1.61&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup></p></td><td><p>14.93</p><p>16.0</p><p>15.17</p></td><td>1y/Alive 16y</td><td>Dominican Mixed Ancestry</td></tr><tr><td>Family 2 Patient 2<sup>a,b</sup> female</td><td><p>c.748C&#x2009;&gt;&#x2009;G, p.His250Asp</p><p>c.2225_2242del, p.Pro742_Pro747del (recessive)</p></td><td><p>1.81&#x2009;&#xD7;&#x2009;10<sup>&#x2212;4</sup></p><p>1.69&#x2009;&#xD7;&#x2009;10<sup>&#x2212;4</sup></p></td><td><p>21.7</p><p>n/a</p></td><td>Birth/Alive 19y</td><td>Northern European</td></tr><tr><td>Family 3 Patient 3<sup>a,c</sup> male</td><td>c.2641-1G&#x2009;&gt;&#x2009;C, p.Gly881_Lys883del (dominant)</td><td>9.49&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup></td><td>n/a</td><td>28y/Alive 57y</td><td>British</td></tr><tr><td>Family 4 Patient 4<sup>a</sup> male</td><td>c.1832C&#x2009;&gt;&#x2009;T, p.Ser611Phe (de novo dominant)</td><td>&#xD8;</td><td>25.3</td><td>10m/Alive 3y</td><td>North American</td></tr><tr><td>Family 5 Patient 5<sup>a</sup> male</td><td>c.1923C&#x2009;&gt;&#x2009;G, p.Phe641Leu (recessive)</td><td>4.21&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup></td><td>16.02</td><td>1y/Alive 10y</td><td>Iranian<sup>d</sup></td></tr><tr><td>Family&#xA0;6 Patient 6<sup>a</sup> female</td><td><p>c.2775C&#x2009;&gt;&#x2009;A, p.Cys925*</p><p>c.2428C&#x2009;&gt;&#x2009;T, p.Pro810Ser (recessive)</p></td><td><p>1.28&#x2009;&#xD7;&#x2009;10<sup>&#x2212;4</sup></p><p>1.46&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup></p></td><td><p>53</p><p>24.8</p></td><td>Birth/Alive 14y</td><td>Northern European</td></tr><tr><td>Family 7 Patient 7<sup>a</sup> male</td><td><p>c.445C&#x2009;&gt;&#x2009;T, p.Gln149*</p><p>c.3037C&#x2009;&gt;&#x2009;T, p.Arg1013Cys (recessive)</p></td><td><p>4.01&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup></p><p>&#xD8;</p></td><td><p>35</p><p>29.4</p></td><td><p>Early</p><p>40&#x2019;s/Alive 59y</p></td><td>Italian ancestry</td></tr><tr><td>Family 7 Patient 8<sup>a</sup> male</td><td><p>c.445C&#x2009;&gt;&#x2009;T, p.Gln149*</p><p>c.3037C&#x2009;&gt;&#x2009;T, p.Arg1013Cys (recessive)</p></td><td><p>4.01&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup></p><p>&#xD8;</p></td><td><p>35</p><p>29.4</p></td><td><p>Early</p><p>40&#x2019;s/Alive 72y</p></td><td>Italian ancestry</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>investigated by whole-exome sequencing;</p><p><sup>b</sup>investigated by mitochondrial gene panel;</p><p><sup>c</sup>investigated by whole genome sequencing;</p><p><sup>d</sup>consanguineous parents; &#xD8; &#x2013; variant absent in gnomAD.</p></table-wrap-foot></table-wrap><table-wrap id="Tab2"><label>Table 2</label><caption><p>Clinical and pathological findings in individuals with <italic>POLRMT</italic> variants.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>ID</th><th>Clinical features and relevant clinical investigations</th><th>Muscle biopsy findings</th><th>Biochemical and laboratory findings</th></tr></thead><tbody><tr><td>Family 1 Patient 1<sup>a</sup> female</td><td>GA: 36 weeks, birth weight 4100 grams, birth length 50&#x2009;cm, OFC 38&#x2009;cm; Genu varum around age 1 year; proximal tubulopathy or renal Fanconi syndrome with hypophosphatemic rickets; mild developmental delays and hypotonia; short stature; BMI 27&#x2009;kg/m<sup>2</sup>; elevated lactate; enuresis; normal pubertal development; stage 3 chronic kidney disease; white matter volume loss with mild ventriculomegaly and thinning of the corpus callosum</td><td>Increased lipid in the myofibres</td><td><p>Mild combined CI&#x2009;+&#x2009;CIII respiratory chain defect in fibroblasts. CI deficiency and milder loss of CIII activity in skeletal muscle</p><p>mtDNA testing for point mutations, deletions and CI gene sequencing normal</p></td></tr><tr><td>Family 2 Patient 2<sup>a,b</sup> female</td><td>Intellectual disability; high frequency hearing loss; BMI 28.4&#x2009;kg/m<sup>2</sup>; developmental delay; mild hypotonia; bilateral ptosis; left eye exotropia; constipation; normal lactate and pyruvate levels; several foci of FLAIR high signal in subcortical white matter of the frontal lobes bilaterally; mild increase in lactate on MRS in the left insular cortex and thalamus</td><td>Mitochondrial aggregates on EM, normal biopsy histologically</td><td><p>Mild combined CI&#x2009;+&#x2009;CIII respiratory chain defects in fibroblasts and skeletal muscle</p><p>No evidence of mtDNA depletion, single or multiple mtDNA deletions in muscle</p></td></tr><tr><td>Family 3 Patient 3<sup>a,c</sup> male</td><td>Indolent PEO phenotype; bilateral ptosis; brain MRI is normal; an uncle was reported to have PEO but this was never clinically-confirmed</td><td>25% COX-deficient muscle fibres, some ragged-red fibres</td><td><p>Mild CI and CIV defects in skeletal muscle</p><p>No evidence of mtDNA copy number abnormality, mtDNA rearrangements or mtDNA point mutations</p></td></tr><tr><td>Family 4 Patient 4<sup>a</sup> male</td><td>Birth weight 3315 grams, length 52&#x2009;cm, OFC 36.5&#x2009;cm; at the age 3.5&#x2009;y: OFC 51&#x2009;cm (75th centile), height 83&#x2009;cm (&lt;3rd centile), weight 12.3&#x2009;kg (10th centile); global, mild developmental delay; hypotonia; expressive-receptive language difficulties (20 words at 3.5 years); short stature; low phosphorous; medullary nephrocalcinosis; one episode of anaemia requiring a blood</td><td>Not determined</td><td><p>Respiratory chain studies not undertaken</p><p>Renal hypomagnesemia: 0.6&#x2009;mg/dl (normal range 1.7&#x2013;2.4&#x2009;mg/dl)</p><p>Elevated lactate: 2.4 to 3.8&#x2009;mmol/l (normal range 0.7&#x2013;2.1&#x2009;mmol/l)</p><p>Normal creatine kinase levels</p></td></tr><tr><td>Family 5 Patient 5<sup>a</sup> male</td><td>GA: 39 weeks, weight 2800 grams, length 48&#x2009;cm, OFC 31&#x2009;cm; profound intellectual disability (IQ 20); microcephaly; severe global developmental delay (head control:13&#x2009;m, sitting: 4&#x2009;y, walking 8&#x2009;y); short stature; strabismus; no speech; generalised myopathy; walking with assistance</td><td>Not determined</td><td>Respiratory chain studies not undertaken</td></tr><tr><td>Family&#xA0;6 Patient 6<sup>a</sup> female</td><td>GA: 37 weeks, weight 2690 grams (&#x2212;1 SD), length 47&#x2009;cm (&#x2212;1 SD), OFC 32&#x2009;cm (&#x2212;1.5&#x2009;SD); bilateral club foot; epicanthal folds; strabismus; hypotelorism; blue scleras; low nasal bridge; upturned nose; opened mouth appearance; high palate; dysmorphic ears; bilateral simian crease; no sucking reflex in infancy; moderate intellectual disability; microcephaly; global developmental delay; short stature; strabismus; no speech; focal epilepsy; muscular hypotonia; iron deficient anaemia and thrombocytopenia; secondary carnitine deficiency; low folate; MRI brain: ventriculus septi pellucidi</td><td>Not determined</td><td><p>Unspecific organic aciduria (increased excretion of Krebs cycle metabolites and methylmalonate)</p><p>Lactate/pyruvate ratio: 70 (normal range &lt;25)</p></td></tr><tr><td>Family 7 Patient 7<sup>a</sup> male</td><td>Predominant muscle weakness, accompanied by muscle atrophy</td><td>Myopathic findings on electromyography - type 2 fibre predominance, rare &#x201C;nuclear bags&#x201D;, some COX-deficient fibres, mitochondrial abnormalities on EM</td><td><p>Respiratory chain enzymes and coenzyme Q10 levels normal in skeletal muscle</p><p>Elevated creatine kinase levels: 873&#x2009;U/L (normal range 175&#x2009;U/L)</p></td></tr><tr><td>Family 7 Patient 8<sup>a</sup> male</td><td>Proximal muscle weakness, neurological examination is notable for right exotropia</td><td>Myopathic findings on electromyography</td><td>Mildly elevated creatine kinase levels: 307&#x2009;U/L (normal 175&#x2009;U/L)</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>investigated by whole-exome sequencing;</p><p><sup>b</sup>investigated by mitochondrial gene panel;</p><p><sup>c</sup>investigated by whole-genome sequencing; GA gestational age; OFC occipital frontal circumference; BMI body mass index; MRI magnetic resonance imaging; MRS magnetic resonance spectroscopy; CI Complex I; CIII Complex III; EM electron microscopy, n/a not applicable.</p></table-wrap-foot></table-wrap></p>
+        <p id="Par8">In Patient 1 (P1) (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref> and Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>), whole exome sequencing (WES) of all four family members led to the identification of three <italic>POLRMT</italic> variants in the proband (NM_005035.3, <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/NM_005035.3">https://www.ncbi.nlm.nih.gov/nuccore/NM_005035.3</ext-link>); two paternally-inherited, <italic>in cis</italic>, missense variants c.1696C&#x2009;&gt;&#x2009;T (p.Pro566Ser) and c.3578C&#x2009;&gt;&#x2009;T (p.Ser1193Phe) and a maternally-inherited c.2608G&#x2009;&gt;&#x2009;A (p.Asp870Asn) variant. In gnomAD (<ext-link ext-link-type="uri" xlink:href="https://gnomad.broadinstitute.org/">https://gnomad.broadinstitute.org/</ext-link>), the p.Pro566Ser variant was found in 401/200344 alleles (minor allele frequency (MAF), 2.0&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup>) and the p.Ser1193Phe variant was found in 452/279886 (1.61&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup>) alleles, all in heterozygous state. Both missense variants were predicted to be benign by PolyPhen-2 (<ext-link ext-link-type="uri" xlink:href="http://genetics.bwh.harvard.edu/pph2/">http://genetics.bwh.harvard.edu/pph2/</ext-link>). The maternal variant p.Asp870Asn (rs139383492) was found in 992/275368 alleles (3.6&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup>) in gnomAD, which included 7 homozygotes. The variant was predicted as &#x2018;possibily damaging&#x2019; in PolyPhen-2.</p>
+        <p id="Par9">In Patient 2 (P2), analysis using a 406 custom, nuclear-encoded mitochondrial gene panel identified two rare <italic>POLRMT</italic> variants, c.2225_2242del (p.Pro742_Pro747del) and c.748C&#x2009;&gt;&#x2009;G (p.His250Asp) (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref> and Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). The p.Pro742_Pro747del in-frame deletion was found in 8/47292 alleles (1.69&#x2009;&#xD7;&#x2009;10<sup>&#x2212;4</sup>) and the p.His250Asp variant was present in 50/276422 alleles (1.81&#x2009;&#xD7;&#x2009;10<sup>&#x2212;4</sup>) in gnomAD, all in heterozygous state. Sanger sequencing confirmed that both variants were <italic>in trans</italic>, establishing recessive inheritance (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>).</p>
+        <p id="Par10">In Patient 3 (P3), WES identified a rare heterozygous c.2641-1G&#x2009;&gt;&#x2009;C <italic>POLRMT</italic> splice-acceptor variant in intron 10, which was confirmed by Sanger sequencing (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref> and Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). Parental and familial segregation studies were not possible. The variant was absent from in-house controls (<italic>n</italic>&#x2009;=&#x2009;378) but was present in heterozygous state in gnomAD in two Non-Finnish Europeans (9.49&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup>). No pathogenic or likely pathogenic variants were identified in known nuclear genes associated with mtDNA maintenance disorders. No additional rare variants in <italic>POLRMT</italic> were identified and analysis of exome sequencing copy number variants did not disclose rearrangements encompassing <italic>POLRMT</italic>. Further to WES, whole genome sequencing of Patient 3 failed to identify a second <italic>POLRMT</italic> variant or any other likely genetic cause. To assess the potential effect on exon splicing, total RNA was extracted from emetine-treated and untreated fibroblasts from P3 and a control. Following RT-PCR, sequencing of fibroblast-derived cDNA products showed that the c.2641-1G&#x2009;&gt;&#x2009;C variant disrupts the consensus splice-acceptor site of intron 10, leading activation of a cryptic splice-site in exon 11 of <italic>POLRMT</italic> and removal of nucleotides r.2641_2649 from the transcript (Supplementary Figure&#xA0;<xref rid="MOESM1" ref-type="media">S1</xref>). The predicted effect at protein level is an in-frame deletion of three amino acids p.Gly881_Lys883del. The presence of this mutant transcript in both emetine-treated and untreated patient fibroblasts confirmed that it is not subjected to nonsense-mediated decay.</p>
+        <p id="Par11">Patient 4 (P4) was subject to diagnostic trio WES after candidate gene screening for possible causal variants in genes associated with hypomagnesemia (<italic>CLDN16</italic>, <italic>CLDN19</italic>, <italic>CNNM2</italic>, <italic>EGF</italic>, <italic>FXYD2</italic>, <italic>KCNA1</italic>, <italic>SLC12A3</italic> and <italic>TRPM6</italic>), which identified only a single possible pathogenic <italic>SLC12A3</italic> variant (XomeDx Slice, Genedx). Given the presence of hypercalciuria was not consistent with Gittelman syndrome, deletion/duplication testing of <italic>SLC12A3</italic> was not pursued. The trio WES strategy identified a de novo c.1832C&#x2009;&gt;&#x2009;T (p.Ser611Phe) <italic>POLRMT</italic> gene variant (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref> and Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). This variant was absent from both gnomAD and the 1000 Genomes Consortium (<ext-link ext-link-type="uri" xlink:href="http://www.internationalgenome.org/home">http://www.internationalgenome.org/home</ext-link>). MutationTaster, Provean, and SIFT all predict the variant to be damaging.</p>
+        <p id="Par12">Trio WES strategy was also employed in the family of Patient 5 (P5), leading to identification of a rare homozygous missense <italic>POLRMT</italic> variant c.1923C&#x2009;&gt;&#x2009;G (p.Phe641Leu). The Phe641 amino acid was completely conserved from human to <italic>Drosophila</italic> and <italic>C. elegans</italic>, with high in silico pathogenicity prediction scores (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref> and Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). The parents of P5 were confirmed to be heterozygous carriers. The p.Phe641Leu variant was found in 1/237432 alleles (4.21&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup>) in gnomAD and was absent from the Iranome Consortium (<ext-link ext-link-type="uri" xlink:href="http://www.iranome.ir/">http://www.iranome.ir/</ext-link>).</p>
+        <p id="Par13">Trio WES analysis in the family of Patient 6 (P6) identified two <italic>POLRMT</italic> variant alleles, a maternally-inherited c.2775C&#x2009;&gt;&#x2009;A (p.Cys925*) nonsense variant and a paternally-inherited c.2428C&#x2009;&gt;&#x2009;T (p.Pro810Ser) missense variant (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref> and Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). The p.Cys925* variant was found in 4/31368 alleles (1.28&#x2009;&#xD7;&#x2009;10<sup>&#x2212;4</sup>) in GnomAD, all in heterozygous state. By contrast, the p.Pro810Ser variant was found in 386/264146 alleles (1.46&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup>) in gnomAD, which included four homozygotes. Nevertheless, the p.Pro810Ser variant is predicted to be (possibly) damaging by various in-silico algorithms like PolyPhen-2 (0.45), SIFT (0.04), MutationTaster, and CADD (score 24.4).</p>
+        <p id="Par14">Genetic testing for limb-girdle muscular dystrophy (LGMD) genes and a neuromuscular disease genetic panel were initially performed on Patient 7 (P7) and Patient 8 (P8) respectively. However, no pathogenic variants were found. Next, WES was performed in both P7 and P8, leading to the identification of two heterozygous <italic>POLRMT</italic> variants present in both probands, a c.445C&#x2009;&gt;&#x2009;T (p.Gln149*) nonsense variant and c.3037C&#x2009;&gt;&#x2009;T (p.Arg1013Cys) missense variant (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>, Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). Parental segregation analysis was not possible. Nonetheless, segregation studies confirmed both variants in P7 and P8, while an unaffected sibling was heterozygous for only the p.Arg1013Cys variant. In gnomAD, the p.Gln149* variant was present in 1/249286 alleles (4.1&#xD7;10<sup>&#x2212;6</sup>). By contrast, the p.Arg1013Cys variant is absent from gnomAD.</p>
+      </sec>
+      <sec id="Sec4">
+        <title>Histological and biochemical studies</title>
+        <p id="Par15">Muscle biopsies were available from four patients (P1, P2, P3, P7) and these were subjected to routine, diagnostic histopathological investigations (Table&#xA0;<xref rid="Tab2" ref-type="table">2</xref>). In P1, increased levels of neutral lipid were observed in the myofibers. Histologically, two muscle biopsies performed in P2 at 8 and 12 years of age only showed non-specific changes. P3 showed a mosaic pattern of cytochrome <italic>c</italic> oxidase (COX)-deficiency following sequential COX-SDH (succinate dehydrogenase) histochemistry (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1b</xref>), in addition to occasional ragged-red fibres. A muscle biopsy available from P7 showed variation of fibre size with type 2 fibre predominance and rare &#x201C;nuclear bags&#x201D;. Electron microscopy (EM) showed subsarcolemmal accumulation of mitochondria with moderate pleomorphism, along with rectangular crystalline inclusions present in mitochondria.</p>
+        <p id="Par16">Spectrophotometric assessment of mitochondrial OXPHOS complex activities in the muscle from P1 showed a respiratory chain defect in Complex I associated with a mild loss of Complex III activity<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Biochemical assessment of the mitochondrial respiratory chain complex activities and the matrix marker citrate synthase in P2 skeletal muscle homogenate revealed a defect in Complexes I&#x2009;+&#x2009;III, while Complex IV and Complexes II&#x2009;+&#x2009;III activities were reported to be similar to controls (Table&#xA0;<xref rid="Tab2" ref-type="table">2</xref>).</p>
+      </sec>
+      <sec id="Sec5">
+        <title>Structural analysis of <italic>POLRMT</italic> variants</title>
+        <p id="Par17">Assessment of the structural implications of the patient variants carried out in silico predicted that all of the identified mutations could have negative effects on transcription initiation or elongation. Although several of the identified variants cluster in the catalytic C-terminal domain, mutations also occur in the PPR and N-terminal domains (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>). All residues appear to be involved in either (1) intramolecular interactions which stabilise the core structure of POLRMT (P1, P2, P5, P6, P7, P8); (2) conformational flexibility required for the switch from transcription initiation to elongation (P3); (3) protein-protein interactions which facilitate cofactor binding (P4); or (4) protein&#x2013;DNA interactions which facilitate transcription (P2, P4) (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b, c</xref>). P1 harbours the compound heterozygous variants p.Asp870Asn (D870N) and p.Pro566Ser (P566S)/p.Ser1193Phe (S1193F). P566 is located between two helices (&#x3B1;14&#x2013;&#x3B1;15) and induces a kink in the succeeding helix &#x3B1;15, whereas D870 forms a stabilising salt-bridge with R882 located on an adjacent loop (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b</xref>). S1193 protrudes into the solvent and is surrounded by predominantly bulky residues (K1189, R1190, and F1191). The His250Asp (H250D) POLRMT variant present in P2 is located in close proximity to the TFAM binding site and forms a stabilising interaction with Y264 and D289 (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b</xref>). P2 also harbours a deletion of residues 742&#x2013;747, a region located in close proximity to the bound promoter DNA (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b</xref>). P3 harbours a deletion of residues 881&#x2013;883 (&#x394;881&#x2013;3) in the palm subdomain. The loop containing residues 881&#x2013;883 is stably associated with an adjacent helix by several H-bonds (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b</xref>). This region is conserved in the T7 RNA polymerase and subsequent mutations would likely perturb the integrity of this structural element. P4 harbours the Ser611Phe (S611F) variant which is located on the intercalating hairpin in close proximity to the promoter DNA (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>). Interestingly, this residue forms a hydrogen bond with E391 of the TFB2M cofactor in the transcription initiation complex (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>) and is also located in close proximity to both the elongation factor TEFM and promoter DNA in the transcription elongation complex (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>). In P5, the homozygous p.Phe641Leu (F641L) variant fits tightly into a hydrophobic pocket (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>), whereas P6 harbours a p.Pro810Ser (P810S) variant which is located in close proximity (~7&#x2009;&#xC5;) to the DNA template. Interestingly, P810 is located at the centre of a stabilising proline cluster, the residues of which are highly conserved across both vertebrate and invertebrate species (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>). Finally, P7 and P8 harbour an p.Arg1013Cys (R1013C) variant which is located on helix Y within the active site and in close proximity to the catalytic residues (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>). The movement of this helix is associated with nucleotide addition and translocation along the DNA. In the transcription elongation complex, R1013 forms a salt bridge with E1016 and a hydrogen bond with Q992 (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>).<fig id="Fig2"><label>Fig. 2</label><caption><title>Domain organisation of POLRMT.</title><p><bold>a</bold> The structure of the transcription initiation complex is shown bound to the heavy strand promoter (HSP) (PDB ID: 6ERQ). POLRMT comprises four main domains: the N-terminal extension (yellow), a pentatricopeptide repeat (PPR) domain (purple), the N-terminal domain (green), and the C-terminal domain (orange). The positions of the disease-causing variants analysed in this study are indicated (black circles) as well as the location of the active site (full black circle). <bold>b</bold>, <bold>c</bold> Interactions formed between the residues implicated in disease (magenta, bold text) and surrounding residues (green). <bold>b</bold> P1 harbours the compound heterozygous variants D870N and P566S/S1193F, P2 harbours the H250D variant as well as a deletion of residues 742&#x2013;747 and P3 harbours a deletion of residues 881&#x2013;883. <bold>c</bold> P4 harbours the S611F variant, P5 harbours the F641L variant, P6 harbours the P810S variant, and P7/8 harbour the R1013C variant. Structures in (<bold>b</bold>, <bold>c</bold>) are generated from the transcription initiation complex (PDB ID: 6ERP) and transcription elongation complex (PDB ID: 5OLA).</p></caption><graphic xlink:href="41467_2021_21279_Fig2_HTML" id="d32e1814"/></fig></p>
+      </sec>
+      <sec id="Sec6">
+        <title>Patient <italic>POLRMT</italic> variants do not cause mtDNA depletion/deletions but are associated with lower mRNA transcript levels in vivo</title>
+        <p id="Par18">The mtDNA molecular analysis for point mutations and deletions was normal in P1 muscle as previously reported<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Diagnostic analysis of P2 total muscle DNA homogenate showed no evidence of mtDNA copy number abnormalities, single or multiple mtDNA deletions using long-range PCR, while full mtDNA sequencing failed to detect rare mtDNA variants other than mtDNA haplogroup markers. Similarly, mitochondrial genome sequencing performed on DNA isolated from P3 muscle excluded pathogenic point mutations, with diagnostic long-range PCR assays and quantitative real-time PCR assays in single cells failing to detect mtDNA rearrangements. Clinical mitochondrial DNA analyses were not performed in P4-P8.</p>
+        <p id="Par19">Levels of mtDNA from control and patient fibroblasts were subsequently analysed by Southern blot and qPCR, revealing a mild mtDNA depletion in P3, while in P1, P2, and P6 no significant depletion or deletions of mtDNA were observed (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref>). The effect of the <italic>POLRMT</italic> variants on mitochondrial gene transcription was subsequently assessed using RT-qPCR (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3b</xref>). Transcript levels of six mitochondrial genes involved in OXPHOS activity were down-regulated in all four <italic>POLRMT</italic> patients compared to control cells. Cells isolated from P1, P2 and P6 showed modest effects on gene expression (31&#x2013;66%, 46&#x2013;70% and 42&#x2013;68% of wild-type levels, respectively), whereas cells isolated from P3 showed severe loss of mitochondrial transcripts (5&#x2013;34% of wild-type levels). Thus, the identified <italic>POLRMT</italic> variants appear to exert their pathogenic effect by primarily influencing gene expression rather than mtDNA replication.<fig id="Fig3"><label>Fig. 3</label><caption><title>mtDNA, mitochondrial transcript, and OXPHOS protein levels in <italic>POLRMT</italic> patient fibroblasts.</title><p><bold>a</bold> Effects of the patient variants on mtDNA levels in vivo were analysed by Southern blot (left panel) and qPCR (right panel). No significant deletions/depletion of mtDNA were observed in P1, P2, and P6 while mild mtDNA depletion was observed in P3 when compared to control (Ct). Southern blotting was repeated three times and a representative example is shown. For qPCR analysis, 6 technical repeats were performed (patient cells were grown in two separate cell cultures, which were each analysed three times). <bold>b</bold> Levels of mitochondrial transcripts in patient fibroblasts were analysed by RT-qPCR. P1, P2, and P6 showed a mild down-regulation of gene expression whereas P3 showed a severe loss of mitochondrial transcripts (5&#x2013;32% of wild-type levels). For qPCR analysis, 4&#x2013;6 technical repeats were performed (patient cells were grown in two separate cell cultures, which were each analysed 2&#x2013;3 times). <bold>c</bold> Western blot analysis of whole-cell lysates extracted from adult control (Ct1, Ct2) and <italic>POLRMT</italic> patient (P1, P2, P3, P6) fibroblasts (left panel). P1 and P3 showed a decrease in the steady-state levels of subunits of CI (NDUFB8), CIII (UQCRC2), and CIV (COXII). Normal levels of OXPHOS subunits were detected in P2 and P6. One-dimensional BN PAGE analysis revealed a combined OXPHOS assembly defect in P3 and a slight defect in the assembly of CIV in P1 (right panel). The nuclear-encoded SDHA and/or SDHB subunits were used as loading controls. Representative blots of three independent SDS and BN PAGE experiments for P1, P2, and P3 are shown. One representative western blot experiment out of two independent analysis is shown for P6.</p></caption><graphic xlink:href="41467_2021_21279_Fig3_HTML" id="d32e1869"/></fig></p>
+      </sec>
+      <sec id="Sec7">
+        <title>Human <italic>POLRMT</italic> variants affect OXPHOS subunit synthesis and assembly in vivo</title>
+        <p id="Par20">To further characterise the effect of <italic>POLRMT</italic> variants on OXPHOS, western blot and blue native (BN) PAGE analyses were performed on protein extracts isolated from control and patient primary dermal fibroblasts. In P1 and P3, we observed a decrease in the protein levels of subunits of Complex I (NDUFB8), Complex III (UQCRC2), and Complex IV (COXII), while normal levels of OXPHOS subunits were detected in P2 and P6 (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3c</xref>). One-dimensional BN PAGE analysis revealed a slight defect in the assembly of Complex IV in P1 (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3c</xref>). Consistent with normal steady-state levels of mitochondrial OXPHOS subunits, no marked changes were observed in the nascent OXPHOS complexes in P2, except for a very mild decrease in Complex I (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3c)</xref>. However, analysis of mitochondrial extracts isolated from P3 revealed a combined OXPHOS assembly defect affecting Complexes I, III, and IV (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3c</xref>). Interestingly, the loss of mitochondrial mRNA transcripts (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3c</xref>) and the OXPHOS assembly defect was more severe in P3, which may reflect the more deleterious nature of the dominant c.2641-1G&#x2009;&gt;&#x2009;C, p.Gly881_Lys883del <italic>POLRMT</italic> variant.</p>
+      </sec>
+      <sec id="Sec8">
+        <title>Disease-associated mutations impair mitochondrial transcription in vitro</title>
+        <p id="Par21">We next set out to characterise the enzymatic activities of the mutant forms of POLRMT in vitro. To this end, we expressed POLRMT in recombinant form, recapitulating the pathogenic mutations identified in all seven families (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>). First, we investigated if the disease-causing mutations affect the thermal stability of POLRMT using differential scanning fluorimetry. We found that the thermal stability was relatively unaffected compared to wild-type (Supplementary Figure&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>). We next monitored the ability of wild-type POLRMT and mutant derivatives to support promoter-dependent initiation of transcription. To this end, we used a linear template containing the mitochondrial light strand promoter and the reactions were performed in the presence of TFAM and TFB2M (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b</xref>). Under these conditions, most of the individual mutations displayed severely reduced transcription levels. The exceptions were P556S/S1193F, H250D and F641L, which only displayed mild reductions in activity (46&#x2013;60% of wild-type activity).<fig id="Fig4"><label>Fig. 4</label><caption><title>In vitro transcription assays of wild-type and mutant POLRMT.</title><p><bold>a</bold> Combination of mutant alleles present in individual patients. <bold>b</bold> Promoter-dependent transcription from a linear LSP template comparing the activities of individual mutant POLRMT variants. The 400 nt run-off product (LSP RO) is indicated along with the pre-terminated transcription products formed at CSB II. Each POLRMT variant was analysed at least 3 times and a representative experiment is shown. <bold>c</bold> Promoter-dependent transcription as in panel <bold>b</bold>, but now using the combination of mutations identified in affected patients. The levels of run-off products relative to wild-type are indicated above each lane. Each POLRMT combination was analysed at least 3 times and a representative experiment is shown. <bold>d</bold> Single ribonucleotide incorporation (SNRI) assay comparing the combination of mutations identified in affected patients (top panel). Percentage of RNA product relative to the labelled substrate is indicated in the bar graph below. Data are presented as mean&#x2009;&#xB1;&#x2009;SEM of three individual experiments. Unpaired <italic>t</italic> test was performed to check significance. Asterisks represent statistically significant differences (*, <italic>P</italic>&#x2009;&lt;&#x2009;0.05; **, <italic>P</italic>&#x2009;&lt;&#x2009;0.01; ***, <italic>P</italic>&#x2009;&lt;&#x2009;0.005). <bold>e</bold> Primer synthesis on template containing the OriL stem loop structure with the indicated <italic>POLRMT</italic> variants (top panel) revealed mild to strong impairment of primase activity compared to the wild-type (middle panel). In the bar graph (lower panel), the percentage activity relative to wild-type is shown for each lane. Data are presented as mean&#x2009;&#xB1;&#x2009;SEM of three individual experiments. The <italic>P</italic> value was calculated as described in panel (<bold>d</bold>).</p></caption><graphic xlink:href="41467_2021_21279_Fig4_HTML" id="d32e1964"/></fig></p>
+        <p id="Par22">Next, we repeated the transcription reactions, but now mixed the mutant POLRMT in the combinations present in patients. On a linear template, the mutant combinations found in patients P1, P2, P4, and P5 displayed an intermediate reduction in transcription levels (36&#x2013;68% wild-type activity) while the P3, P6, and P7/8 combinations showed severe loss of transcription activity (3&#x2013;13% wild-type activity) (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4c</xref>). A similar trend was observed when using a circular supercoiled template, with P1, P2, P4, and P5 showing milder transcription defects compared to P3, P6 and P7/8 (Supplementary Figure&#xA0;<xref rid="MOESM1" ref-type="media">3A</xref>).</p>
+        <p id="Par23">To analyse POLRMT activity independently of the accessory transcription factors TFAM and TFB2M, we used a single nucleotide incorporation assay (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d</xref>). In this assay, all the characterised disease combinations caused reduced nucleotide incorporation. The P1, P3, P4 and P5 combinations were associated with mild defects, while the P2, P6, and P7/8 variants showed severe loss of activity on a primed double-stranded template (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d</xref>).</p>
+        <p id="Par24">Finally, POLRMT is required for the synthesis of primers required for mtDNA replication at OriL. To monitor effects of this reaction, we used a template containing the OriL sequence in its active, single-stranded conformation (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4e</xref>) and analysed the activities of the different disease combinations found in patients (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>). Primer synthesis was reduced in all mutant combinations analysed, with P2, P6, and P7/8 being particularly affected.</p>
+      </sec>
+    </sec>
+    <sec id="Sec9" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par25">Defects in mtDNA maintenance genes are typically associated with PEO, encephalopathy, myopathy or hearing loss<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR20">20</xref></sup>. Similarly, to the mitochondrial-disease manifestations associated with <italic>POLG</italic> gene defects, human <italic>POLRMT</italic> variants cause a wide range of clinical symptoms which may manifest in childhood or adulthood. One adult patient (P3) from our cohort of eight patients harbouring <italic>POLRMT</italic> variants presented with an adult-onset PEO and two adult patients from the same family only manifested muscle weakness. However, the predominant clinical phenotype of the five paediatric patients harbouring <italic>POLRMT</italic> variants was an early onset moderate to severe developmental delay, mild to severe intellectual disability, hypotonia/muscle weakness, short stature, and speech delay. The clinical presentation of <italic>POLRMT</italic> mutations is variable and there is no clear distinction between autosomal recessive and autosomal dominant disease. However, such clinical heterogeneity is well-described across a broad range of mitochondrial genetic aetiologies<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>.</p>
+      <p id="Par26">POLRMT is the sole mitochondrial primase and its deletion leads to a profound decrease in mtDNA replication that is associated with severe mitochondrial dysfunction and dilated cardiomyopathy in POLRMT knockout mice<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>. However, the mutant <italic>POLRMT</italic> variants studied here did not seem to dramatically affect either mtDNA copy number or length in patient skeletal muscle and fibroblasts (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref>). At low POLRMT levels in mice, transcription initiation from LSP is better maintained and an RNA primer for mtDNA replication at OriH is still synthesised<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>. This may also be the case for the patients analysed here, where POLRMT activity is compromised. In addition, even if in vitro analysis revealed reduced primer synthesis at OriL (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3e</xref>), the levels produced are apparently sufficient to maintain initiation of L-strand replication and mtDNA levels in vivo. Instead, the mutant POLRMT variants appear to primarily affect mRNA levels (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3b</xref>). These significant drops in transcript levels were only associated with mild respiratory chain defects in fibroblasts derived from P1 and P3 (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3c</xref>). It is possible that the half-life of mitochondrially-encoded mRNAs in <italic>POLRMT</italic> patient fibroblasts is prolonged in order to compensate for the decreased synthesis of mitochondrial transcripts<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>. It is important to note, however, that OXPHOS defects are often restricted to certain tissues and are not necessarily evident in cultured fibroblasts<sup><xref ref-type="bibr" rid="CR21">21</xref>&#x2013;<xref ref-type="bibr" rid="CR23">23</xref></sup>. Indeed, <italic>POLRMT</italic> conditional knockout mice present with a severe combined defect in the mitochondrial respiratory chain enzymes in cardiac muscle<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>. Besides the two key components of mitochondrial nucleoids, TFAM and the mitochondrial single-stranded DNA-binding protein (mtSSB), a number of other mitochondrial proteins including POLRMT are prominently enriched in the nucleoprotein complex<sup><xref ref-type="bibr" rid="CR24">24</xref>&#x2013;<xref ref-type="bibr" rid="CR26">26</xref></sup>. Therefore, we investigated the effect of <italic>POLRMT</italic> variants on the nucleoid distribution and dynamics of the mitochondrial network in patient fibroblasts. We did not observe any significant alterations in the mitochondrial network dynamics (Supplementary Figure&#xA0;<xref rid="MOESM1" ref-type="media">4</xref>) and the nucleoid size and distribution also appeared normal, however, no quantitative assessment was made (Supplementary Figure&#xA0;<xref rid="MOESM1" ref-type="media">4</xref>). These data suggest that the <italic>POLRMT</italic> variants studied here directly target mRNA synthesis without affecting nucleoid maintenance per se.</p>
+      <p id="Par27">Our in vitro transcription data provide strong evidence that the RNA polymerase activity of the POLRMT variants is severely affected (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4</xref>). The patient variants studied here are distributed across three POLRMT domains (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>). Each of these domains performs a particular function, suggesting that the effects of the mutations may be distinct and possibly synergistic and may be a reflection on the severity and spectrum of clinical phenotypes associated with these mutations. Analysis of the combinations of POLRMT mutations observed in patients revealed reduced transcription and in most cases, there was a similar reduction of activity in run-off transcription and single-nucleotide incorporation assays. A notable exception was P3. For this patient, we observed severe defects in run-off transcription activity, but the single-nucleotide incorporation levels were only mildly affected (P3). In this patient, a wild-type copy of <italic>POLRMT</italic> still exists but the &#x394;881&#x2013;3 variant appears to exert a dominant negative effect over the wild-type. This is possibly a result of altered transcription dynamics due to lowered flexibility of the 881&#x2013;883 region (due to loss of G881) and an inability to efficiently switch between initiation and elongation states, manifesting itself as impaired processive transcription activity (Supplementary Figure&#xA0;<xref rid="MOESM1" ref-type="media">3B</xref> and Supplementary Movie&#xA0;<xref rid="MOESM3" ref-type="media">1</xref>). Conformational flexibility, or a lack of, is therefore a possible contributor to the patient disease phenotype. For two of the mutants located in the C-terminal domain of the protein, P810S (P6) and R1013C (P7-8), we observed a near complete loss of transcription in vitro. We believe that the effect of these mutations is most likely exacerbated in vitro, possibly due to a lack of correct molecular chaperones or binding partners, since a complete loss of mitochondrial transcription would be incompatible with life.</p>
+      <p id="Par28">Previous reports suggested that a <italic>POLRMT</italic> splice variant (spRNAP-IV) coordinates the transcription of nuclear genes<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. However, it is now clear that POLRMT is solely responsible for the transcription of the mitochondrial genome, with evidence from expression and fluorescence imaging studies in human and mouse models<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. Our data also support the exclusive role of POLRMT in mitochondrial transcription as demonstrated by the in vivo mitochondrial gene expression (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3b</xref>) and in vitro mitochondrial transcription studies (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4</xref>). The nuclear function for POLRMT is implausible, given the origin of the phage-related single-subunit mitochondrial RNA polymerase POLRMT, in contrast to the multi-subunit RNA polymerases (RNAPs) found in the eukaryotic nucleus, bacteria, and archaea<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. Furthermore, structural studies revealing the molecular basis of mitochondrial transcription initiation demonstrated that the mechanism of POLRMT is distinct from the multi-subunit nuclear RNAPs, requiring specific transcription factors (TFAM and TFB2M) that structurally differ from their nuclear counterparts. Despite some topological similarities related to trapping of the non-template DNA strand found in nuclear and bacterial systems, TFAM and TFB2M have been shown to have specific roles in assisting POLRMT during promoter-dependent initiation<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. Interestingly, mutations in <italic>TFB2M</italic>, were recently associated with an autistic spectrum disorder and developmental delay and shown to cause increased levels of transcription in patient cell lines<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. It is therefore possible that mutations in other components of the mitochondrial transcription machinery could lead to effects related to those observed here with <italic>POLRMT</italic> mutations. Future investigations involving more patients are required to draw any clear conclusions.</p>
+      <p id="Par29">In summary, we report the identification of pathogenic variants in the mitochondrial RNA polymerase, POLRMT, that underlie the mitochondrial disease-associated phenotypes present in the seven families we have studied. Our in vivo and in vitro functional studies establish <italic>POLRMT</italic> as a candidate disease gene that should be considered in the genetic diagnostic workup of patients that present with global developmental delay, speech/intellectual disabilities, hypotonia, short stature, PEO and multiple OXPHOS defects, and suggest that defects in the human mitochondrial transcription machinery may be more prevalent than previously thought.</p>
+    </sec>
+    <sec id="Sec10">
+      <title>Methods</title>
+      <sec id="Sec11">
+        <title>Genetic, histopathological, and biochemical studies</title>
+        <p id="Par30">Massive parallel sequencing including whole exome, whole genome, or nuclear mitochondrial gene panel sequencing, followed by filtering and candidate variant analysis was undertaken in all eight patients studied. Details of the various sequencing strategies employed are provided in the supplementary appendix (Supplementary materials and methods&#xA0;<xref rid="MOESM1" ref-type="media">2.1</xref>). Diagnostic skeletal muscle biopsies from P1, P2, P3, P7, and P8 were obtained and subsequently processed for diagnostic histology and mtDNA molecular analyses according to standard procedures<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR31">31</xref>&#x2013;<xref ref-type="bibr" rid="CR35">35</xref></sup>. Large-scale mitochondrial DNA rearrangements in P3 muscle were screened by long-range PCR using a pair of primers (L6249: nucleotides 6249&#x2013;6265; and H16125: nucleotides 16215&#x2013;16196) to amplify a &#x223C;10&#x2009;kb product in wild-type mitochondrial DNA (GenBank Accession number NC_012920.1)<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. The diagnostic in vitro spectrophotometric assessment of respiratory chain complex activities (complexes I&#x2009;+&#x2009;III, complexes II&#x2009;+&#x2009;III, and complex IV) and citrate synthase were performed on P1, P2, and P3 muscle homogenates and P1, P2 fibroblasts<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR36">36</xref></sup>.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>Cell culture conditions</title>
+        <p id="Par31">Primary <italic>POLRMT</italic> patient fibroblasts (P1, P2, P3, and P4) and controls (C1, C2) were cultured in high glucose Dulbecco&#x2019;s modified Eagle&#x2019;s medium (Sigma) supplemented with 10% fetal calf serum, 1 X non-essential amino acids (Sigma), 50 U/ml penicillin, 50&#x2009;&#x3BC;g/ml streptomycin (Sigma) and 50&#x2009;&#x3BC;g/ml uridine. The studied cell lines were mycoplasma free.</p>
+      </sec>
+      <sec id="Sec13">
+        <title>DNA isolation and Southern blot analysis</title>
+        <p id="Par32">Total DNA was isolated from control and patient fibroblasts (2&#x2013;4 &#xD7;10<sup>6</sup> cells) using the High Pure PCR template preparation kit (Roche) according to the manufacturer&#x2019;s instructions. DNA (5&#x2009;&#xB5;g) was linearised by digestion with <italic>Pvu</italic>II and separated on a 0.8% agarose gel followed by overnight Southern blotting onto a nitrocellulose membrane. The DNA was UV-crosslinked to the membrane and hybridised with 32P-labelled probes corresponding to the D-loop or 28 S DNA sequences (see Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>) at 60&#x2009;&#xB0;C. Membranes were washed twice with 2X SSC buffer/0.1% SDS for 5&#x2009;min at 60&#x2009;&#xB0;C, followed by two washes with 0.2X SSC buffer/0.1% SDS for 15&#x2009;min at 60&#x2009;&#xB0;C. Signals were subsequently visualised and quantified using a FLA7000 Phosphoimager (Amersham) and MultiGauge software (Fujifilm).</p>
+      </sec>
+      <sec id="Sec14">
+        <title>qPCR Quantification of mtDNA levels</title>
+        <p id="Par33">For qPCR analysis of the isolated total DNA, quantitative PCR reactions were performed using the indicated primer pairs to quantify both nuclear and mitochondrial DNA (see Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). Amplification levels of mitochondrial DNA from all samples were normalised to their nuclear control and the results were plotted relative to the control fibroblast sample.</p>
+      </sec>
+      <sec id="Sec15">
+        <title>RNA isolation and real-time qPCR analysis of mRNA transcript levels</title>
+        <p id="Par34">The levels of mitochondrial transcripts were assessed using real-time qPCR. Total RNA was isolated from control and patient fibroblasts (2&#x2013;4 &#xD7;10<sup>6</sup> cells) using the TRIzol reagent (Ambion) according to the manufacturer&#x2019;s instructions. RNA (2&#x2009;&#xB5;g) was DNAse-treated and used for cDNA synthesis using the High-Capacity cDNA Reverse Transcription kit (Invitrogen). Real-time qPCR was performed on the synthesised cDNA using a TaqMan Universal Master Mix II (ThermoFisher Scientific) and probes specific for mitochondrial transcripts (see Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). Expression levels of the indicated mitochondrial transcripts were normalised to GAPDH and 18 S rRNA.</p>
+      </sec>
+      <sec id="Sec16">
+        <title>Western blot and BN-PAGE analysis</title>
+        <p id="Par35">Protein analysis by Western blot and blue-native (BN) polyacrylamide gel electrophoresis (PAGE) was performed according to published methodologies<sup><xref ref-type="bibr" rid="CR37">37</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup>. Briefly, pelleted control and patient fibroblasts were resuspended in lysis buffer [50&#x2009;mM Tris-HCl pH 7.5, 130&#x2009;mM NaCl, 2&#x2009;mM MgCl<sub>2</sub>, 1&#x2009;mM phenylmethanesulphonyl fluoride (PMSF), 1% Nonidet&#x2122; P-40 (v/v), and EDTA free protease inhibitor cocktail (Pierce)] and lysed for 30&#x2009;min on ice, followed by centrifugation at 500&#x2009;g for 5&#x2009;min. The supernatant was retained, and Bradford method (Bio-Rad) was used to determine protein concentration. Equal amounts of protein samples resuspended in Laemmli sample buffer (1% SDS, 10% glycerol, 10&#x2009;mM Tris-HCl, pH 6.8, 1&#x2009;mM EDTA, and 50&#x2009;mM dithiothreitol) were separated by sodium dodecyl sulphate&#x2013;polyacrylamide gel electrophoresis (SDS-PAGE), followed by wet transfer to polyvinyl difluoride (PVDF) membrane (Immobilon&#x2122;-P, Millipore Corporation) and subsequent probing with specific primary and HRP-conjugated secondary antibodies described below.</p>
+        <p id="Par36">BN PAGE was performed on mitochondria isolated from cultured skin fibroblasts as in<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. In brief, mitochondrial membranes were solubilised using 2&#x2009;mg/mg protein n-dodecyl &#x3B2;-D-maltoside (DDM) on ice for 20&#x2009;min. Protein extracts (150&#x2009;&#xB5;g) were separated on a 4&#x2013;16% native polyacrylamide gradient gel according to the Novex&#xAE; NativePAGE&#x2122; Bis-Tris Gel System instructions. Subsequently, the proteins were transferred to a PVDF membrane and subjected to standard immunological analysis of OXPHOS complexes as described below.</p>
+      </sec>
+      <sec id="Sec17">
+        <title>Immunoblotting</title>
+        <p id="Par37">The following primary antibodies were used in this study: MS601 (ab110411, Abcam, 1:1000 dilution), NDUFB8 (ab110242, Abcam, 1:1000 dilution), SDHA (ab14715, Abcam, 1:2000 dilution), UQCRC2 (ab14745, Abcam, 1:1000 dilution), COXI (ab14705, Abcam, 1:1000 dilution), ATP5A (ab14748, Abcam, 1:1000 dilution), and &#x3B2;-actin (Cloud Clone Corp. CAB340Hu22, 1:10 000 dilution). HRP-conjugated mouse secondary antibody was used (DAKO, P0260, 1:2000 dilution), followed by detection using the ECL (GE Healthcare) and BioRad imaging system (Image Lab).</p>
+      </sec>
+      <sec id="Sec18">
+        <title>In silico analysis and structural modelling</title>
+        <p id="Par38">The structures of the POLRMT initiation complex (PDB ID: 6ERQ), elongation complex (PDB ID: 4BOC), and POLRMT alone (PDB ID: 3SPA) were used to assess the structural implications of the patient variants. In silico mutagenesis was performed in PyMol V 1.3 (Schrodinger, LLC) and UCSF Chimera V 1.10.2.</p>
+      </sec>
+      <sec id="Sec19">
+        <title>Expression and purification of recombinant POLRMT variants</title>
+        <p id="Par39">Recombinant POLRMT variants containing an N-terminal MBP tag and lacking the mitochondrial targeting sequence (MTS; residues 1&#x2013;42) were cloned and expressed in ArcticExpress <italic>E. coli</italic> cells (Agilent Technologies). Site-directed mutagenesis producing human <italic>POLRMT</italic> variants with disease causing amino acid changes (D870N, P566S/S1193F, H250D, &#x394;742&#x2013;7, &#x394;881&#x2013;3, S611F, F641F, P810S, and R1013C) was carried out using the QuikChange XL Lightning site-directed mutagenesis kit (Agilent Technologies) according to the manufacturer&#x2019;s instructions. The primers used are provided in Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>. Mutations were confirmed by sequencing. Please note, the nonsense variants (Cys925* and Glu149*) were not produced nor analysed.</p>
+        <p id="Par40">Expression of the recombinant proteins in <italic>E. coli</italic> was induced by addition of 1&#x2009;mM IPTG at 16&#x2009;&#xB0;C for 18&#x2009;h. Cells were harvested at 5000&#x2009;rpm, 10&#x2009;min, 4&#x2009;&#xB0;C using a Beckman JLA 8.1000 rotor. Cells were resuspended in lysis buffer (0.5&#x2009;M NaCl, 20&#x2009;mM Hepes-OH pH 8.0, 10&#x2009;mM &#xDF;-mercaptoethanol) containing 1&#xD7; protease inhibitors (for all purifications the 100&#xD7; stock of protease inhibitors contained 100&#x2009;mM phenylmethylsulfonyl fluoride, 200&#x2009;mM pepstatin A, 60&#x2009;mM leupeptin and 200&#x2009;mM benzamidine in 100% ethanol) and mixed with an Ultra-Turrax (Merck) to lower viscosity. The solution was centrifuged at 20,000&#x2009;g, 45&#x2009;min, 4&#x2009;&#xB0;C, and the supernatant was collected<sup><xref ref-type="bibr" rid="CR6">6</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>. The extract was loaded onto a 5&#x2009;mL HiTrap Heparin HP column (GE Healthcare) pre-equilibrated with Buffer A (25&#x2009;mM Tris-HCl pH 8.0, 0.4&#x2009;M NaCl, 10% (v/v) glycerol and 1&#x2009;mM DTT) and eluted in a NaCl gradient (0.2&#x2013;1.2&#x2009;M NaCl in Buffer A). The MBP tag was removed by overnight incubation with 500 U TEV protease at 4&#x2009;&#xB0;C. Proteins were further purified on a HiLoad 16/60 Superdex 200 column (GE Healthcare) and 1&#x2009;mL HiTrap SP HP (GE Healthcare) and dialysed against Buffer A.</p>
+        <p id="Par41">Mitochondrial transcription factor A (TFAM), B2 (TFB2M), and mitochondrial transcription elongation factor (TEFM) were cloned as 6 x His-tagged fusion proteins into the vector pBacPAK9 (Clontech). Recombinant baculoviruses for the individual proteins were prepared as described in the BacPAK manual (Clontech) and used to infect <italic>Spodoptera frugiperda</italic> (<italic>Sf</italic>9) insect cells (Termo Fisher Scientific). Sf9 cells were grown in suspension and collected 60&#x2013;72&#x2009;h after infection. Infected cells were frozen in liquid nitrogen and thawed at 4&#x2009;&#xB0;C in a lysis buffer containing 25&#x2009;mM Tris-HCl (pH 8.0), 20&#x2009;mM 2-mercaptoethanol, and 1x protease inhibitors. Cells were incubated on ice for 20&#x2009;min and then transferred to a Dounce homogeniser and lysed by 20 strokes of a tight-fitting pestle. NaCl was next added to a final concentration of 0.8&#x2009;M and the homogenate was swirled gently for 40&#x2009;min at 4&#x2009;&#xB0;C. Extracts were next cleared by centrifugation at 45,000 r.p.m. for 45&#x2009;min at 4&#x2009;&#xB0;C using a Beckman TLA 100.3 rotor, followed by purification with HIS-Select Nickel Affinity Gel (Sigma Aldrich)<sup><xref ref-type="bibr" rid="CR6">6</xref>,<xref ref-type="bibr" rid="CR36">36</xref></sup>. After loading of protein extracts, the affinity gel was washed with 40&#x2009;mM imidazole in buffer A (25&#x2009;mM Tris&#x2013;HCl pH 8.0, 0.4&#x2009;M NaCl, 10% glycerol, 10&#x2009;mM 2-mercaptoethanol, and 1&#xD7; protease inhibitors). Proteins were eluted from the affinity gel with 250&#x2009;mM imidazole in buffer A. The proteins were further purified over HiTrap Heparin and HiTrap SP column (GE-Healthcare). The HiTrap columns were equilibrated in a buffer with 0.2&#x2009;M NaCl, 25&#x2009;mM potassium phosphate pH 7.0, 10% glycerol, 0.5&#x2009;mM EDTA, and 1&#x2009;mM DTT (Purification Buffer-0.2). The proteins were eluted by a 15&#x2009;ml gradient (0.2&#x2013;1.2&#x2009;M NaCl) using the buffer conditions. Purified proteins were dialysed against Purification Buffer-0.2 and frozen in liquid nitrogen.</p>
+      </sec>
+      <sec id="Sec20">
+        <title>In vitro transcription assays</title>
+        <p id="Par42">Transcription activity was probed using either a supercoiled circular or <italic>Bam</italic>HI-linearised pUC18 plasmid containing the mitochondrial light strand promoter (LSP). Transcription reactions (25&#x2009;&#xB5;l) contained 10&#x2009;mM Tris-HCl pH 8.0, 10&#x2009;mM MgCl<sub>2</sub>, 60&#x2009;mM NaCl, 100&#x2009;&#x3BC;g/mL BSA, 1&#x2009;mM DTT, 4 U RNase inhibitor (New England Biolabs), 400&#x2009;&#xB5;M ATP, 150&#x2009;&#xB5;M GTP, 150&#x2009;&#xB5;M CTP, 10&#x2009;&#xB5;M UTP, 0.02&#x2009;&#xB5;M &#x3B1;<sup>32</sup>P-UTP (3000 &#xB5;Ci/mmol), and 100 fmol circular or linear LSP template. Reactions were mixed and 500 fmol POLRMT variant, 500 fmol TFB2M, and 5 pmol TFAM were added on ice. In addition, 500 fmol TEFM was added to reactions containing circular supercoiled LSP template. Reactions were incubated at 32&#x2009;&#xB0;C for 30&#x2009;min, stopped by the addition of stop buffer (10&#x2009;mM Tris-HCl pH 8.0, 0.2&#x2009;M NaCl, 1&#x2009;mM EDTA and 100&#x2009;&#xB5;g/ml proteinase K) followed by incubation at 42&#x2009;&#xB0;C for 45&#x2009;min. Transcription products were purified by ethanol precipitation and the pellets were dissolved in 20&#x2009;&#xB5;l loading buffer (98% formamide, 10&#x2009;mM EDTA, 0.025% (w/v) xylene cyanol FF and 0.025% (w/v) bromophenol blue). Samples were analysed on 8% (linear LSP) or 5% (circular LSP) denaturing polyacrylamide gels followed by exposure on photo film. All experiments were performed in triplicate and quantified using ImageJ software, version 1.53. For combination experiments, 250 fmol of each POLRMT variant was used, yielding 500 fmol total POLRMT per reaction.</p>
+        <p id="Par43">A single nucleotide incorporation (SNRI) assay was used to assess POLRMT-mediated transcription initiation from a primed double-stranded template. A 14-mer RNA oligonucleotide was &#x3B3;-32P end-labelled using T4 polynucleotide kinase (PNK; Thermo Scientific) and annealed to a 28-mer non-template DNA oligonucleotide and its complementary template strand in 1:1 molar ratio (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). Reactions (20&#x2009;&#xB5;l) contained 20&#x2009;mM Tris-HCl pH 8.0, 10&#x2009;mM MgCl<sub>2</sub>, 60&#x2009;mM NaCl, 100&#x2009;&#x3BC;g/mL bovine serum albumin (BSA), 1&#x2009;mM DTT, 4 U RNase inhibitor (New England Biolabs), 100&#x2009;&#xB5;M ATP, 100 fmol end-labelled template and 1 pmol of indicated combination of POLRMT (WT and P1-P7). Reactions were incubated at 32&#x2009;&#xB0;C for 5&#x2009;min and stopped by the addition of loading buffer (98% formamide, 10&#x2009;mM EDTA, 0.025% (w/v) xylene cyanol FF and 0.025% (w/v) bromophenol blue). Samples were analysed on 12% denaturing polyacrylamide sequencing gels. All experiments were performed in triplicate and error bars &#xB1; SEM were calculated.</p>
+        <p id="Par44">Primer synthesis assay was also used to assess POLRMT-mediated initiation from OriL. Primase reactions (25&#x2009;&#xB5;l) were set up as described above with the following changes: 1 pmol ssDNA oligonucleotide, 400&#x2009;&#xB5;M ATP, 150&#x2009;&#xB5;M CTP, 10&#x2009;&#xB5;M GTP, 150&#x2009;&#xB5;M UTP and 0.02&#x2009;&#xB5;M &#x3B1;-<sup>32</sup>P GTP (3000&#x2009;&#xB5;Ci/mmol) and 1 pmol of indicated combination of POLRMT (WT and P1-P7). Reactions were incubated at 32&#x2009;&#xB0;C for 30&#x2009;min, stopped by the addition of loading buffer (98% formamide, 10&#x2009;mM EDTA, 0.025% (w/v) xylene cyanol FF and 0.025% (w/v) bromophenol blue). Samples were analysed on 12% denaturing polyacrylamide sequencing gels. All experiments were performed in triplicate and error bars &#xB1; SEM were calculated.</p>
+      </sec>
+      <sec id="Sec21">
+        <title>Statistics</title>
+        <p id="Par45">For qPCR quantification of mtDNA levels, reactions were performed in triplicate from two biological repeats and error bars&#x2009;&#xB1;&#x2009;SEM were calculated. For mtRNA quantification, qPCR reactions were performed in duplicate from two independent biological repeats and error bars&#x2009;&#xB1;&#x2009;SEM were calculated. For in vitro transcription activity assays, reactions were performed in triplicate, quantified using MultiGauge software (Fujifilm) and reported&#x2009;&#xB1;&#x2009;SEM.</p>
+      </sec>
+      <sec id="Sec22">
+        <title>Study approval</title>
+        <p id="Par46">All procedures were in accordance with the ethical principles of the Declaration of Helsinki. Written patient consent was obtained, and all the studies were performed in agreement with the approved guidelines of local ethics committees of each institution that participated in this study with samples stored in the Newcastle Mitochondrial Research Biobank (NRES Committee North East - Newcastle &amp; North Tyneside 1; 16/NE/0267). The online tool GeneMatcher facilitated collaboration between research centres (<ext-link ext-link-type="uri" xlink:href="https://genematcher.org">https://genematcher.org</ext-link>).</p>
+      </sec>
+      <sec id="Sec23">
+        <title>Reporting summary</title>
+        <p id="Par47">Further information on research design is available in the&#xA0;<xref rid="MOESM5" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary information</title>
+      <sec id="Sec24">
+        <supplementary-material content-type="local-data" id="MOESM1">
+          <media xlink:href="41467_2021_21279_MOESM1_ESM.pdf">
+            <caption>
+              <p>Supplementary Information</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM2">
+          <media xlink:href="41467_2021_21279_MOESM2_ESM.pdf">
+            <caption>
+              <p>Description of Additional Supplementary Files</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM3">
+          <media xlink:href="41467_2021_21279_MOESM3_ESM.mp4">
+            <caption>
+              <p>Supplementary Movie 1</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM4">
+          <media xlink:href="41467_2021_21279_MOESM4_ESM.pdf">
+            <caption>
+              <p>Peer Review File</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM5">
+          <media xlink:href="41467_2021_21279_MOESM5_ESM.pdf">
+            <caption>
+              <p>Reporting Summary</p>
+            </caption>
+          </media>
+        </supplementary-material>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="App1">
+        <sec id="Sec25">
+          <title>Source data</title>
+          <p id="Par50">
+            <media position="anchor" xlink:href="41467_2021_21279_MOESM6_ESM.zip" id="MOESM6">
+              <caption>
+                <p>Source Data</p>
+              </caption>
+            </media>
+          </p>
+        </sec>
+      </app>
+    </app-group>
+    <fn-group>
+      <fn>
+        <p><bold>Peer review information</bold>
+<italic>Nature Communications</italic> thanks Carlos Moraes and the other, anonymous, reviewers for their contribution to the peer review of this work. Peer reviewer reports are available.</p>
+      </fn>
+      <fn>
+        <p><bold>Publisher&#x2019;s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+      <fn>
+        <p>These authors contributed equally: Monika Ol&#xE1;hov&#xE1;, Bradley Peter.</p>
+      </fn>
+      <fn>
+        <p>These authors jointly supervised: Claes M. Gustafsson, Robert W. Taylor.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <title>Supplementary information</title>
+      <p>The online version contains supplementary material available at 10.1038/s41467-021-21279-0.</p>
+    </sec>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>R.W.T. is supported by the Wellcome Centre for Mitochondrial Research (203105/Z/16/Z), Mitochondrial Disease Patient Cohort (UK) (G0800674), the Lily Foundation, the UK NIHR Biomedical Research Centre for Ageing and Age-related disease award to the Newcastle upon Tyne Foundation Hospitals NHS Trust, the MRC/EPSRC Molecular Pathology Node and the UK NHS Highly Specialised Service for Rare Mitochondrial Disorders of Adults and Children. E.W.S. was in receipt of a Medical Research Council (MRC) PhD studentship. C.M.G. and M.F. are supported by the Swedish Research Council (2013&#x2013;3621 to M.F., 2012&#x2013;2583 to C.M.G.), Swedish Cancer Foundation, the Knut and Alice Wallenberg foundation and grants from the Swedish state under the agreement between the Swedish government and the county councils, the ALF agreement to M.F. (ALFGBG-727491) and C.M.G. (ALFGBG-728151). S.K. was supported by the grant NV19-07-00136 from the Ministry of Health of the Czech Republic, acknowledge institutional program UNCE/MED/007 of the Charles University, the project LQ1604 NPU II from the Ministry of Education, Youth and Sports of the Czech Republic, and thanks to The National Center for Medical Genomics (LM2018132) for instrumental and methodologic support with the WES analyses. T.M. was supported by the grant NV19-07-00149 from the Ministry of Health of the Czech Republic and RVO:67985823 (to Institute of Physiology CAS); Z.K. was in receipt of Charles University PhD project GA UK 772119. K.&#xD5;. and S.P. were supported by the Estonian Research Council grants PRG471 and PUTJD827. The Broad Center for Mendelian Genomics (UM1 HG008900) is funded by the National Human Genome Research Institute with supplemental funding provided by the National Heart, Lung, and Blood Institute under the Trans-Omics for Precision Medicine (TOPMed) program and the National Eye Institute. M.H.W. is supported by T32GM007748. P.B.K. is supported by NIH R01 NS080929 and the Children&#x2019;s Miracle Network. Exome sequencing and analysis were provided by the Broad Institute of Harvard and MIT Center for Mendelian Genomics (Broad CMG) and was funded by the National Human Genome Research Institute, the National Eye Institute, and the National Heart, Lung and Blood Institute grant NIH UM1 HG008900 to Daniel MacArthur and Heidi Rehm. We thank Daniel MacArthur and Anne O&#x2019;Donnell-Luria at the Center for Mendelian Genetics of the Broad Institute for their contributions to exome sequencing and analysis. P.E.B. is supported by NIH NINDS RO1 NS08372. We thank Doug Turnbull and Andrew Schaefer for their long-term support and care of patient 3 described in this manuscript and Laura Bone for technical support. We would like to thank Dan Wright and family and Warren Lammert and Kathy Corkins for donations to the McMaster Neuromuscular Clinic which has supported the care of patient 2 described in this manuscript.</p>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Author contributions</title>
+      <p>M.O., B.P., Z.S., H.D.M., M.S., E.H., E.W.S., E.L.B. and J.J.C. carried out the experiments. S.K., T.M., V.S., H.H., A.J.B., K.L.M., S.B., Z.K. and A.P. performed the clinical and molecular investigations of family 1; M.T. and L.I.B. performed the clinical and molecular investigations of family 2; M.O., E.L.B., P.E.B., G.G., E.W.S. and R.W.T. performed the clinical and molecular investigations of family 3; K.N.W. and C.E.P. performed the clinical and molecular investigations of family 4; K.K., H.N. and H.R. performed the clinical and molecular investigations of family 5; K.O., M.H.W. and S.P. performed the clinical and molecular investigations of family 6; S.B.S., L.P., E.A.E., C.C.B., L.M.K. and P.B.K. performed the clinical and molecular investigations of family 7. M.O., B.P., Z.S., E.W.S., G.S.G., M.F., C.G. and R.W.T. analysed and interpreted the data. R.W.T., C.G. and M.F. designed and supervised the study and acquired funding. M.O., B.P., M.F., C.G. and R.W.T. wrote the manuscript. All authors contributed to the revision of the manuscript.</p>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Data availibility</title>
+      <p>The authors declare that the data supporting the findings of this study are available within the paper and its supplementary information files. Accession number for POLRMT cDNA used in the study is <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/NM_005035.3">NM_005035.3</ext-link>. The structures of the POLRMT initiation complex (PDB ID: 6ERQ), elongation complex (PDB ID: 4BOC) and POLRMT alone (PDB ID: 3SPA) were sourced from PDB (<ext-link ext-link-type="uri" xlink:href="https://www.rcsb.org">https://www.rcsb.org</ext-link>). Diagnostic next generation sequencing data can be made available by the authors on request.&#xA0;<xref rid="Sec25" ref-type="sec">Source data</xref> are provided with this paper.</p>
+    </notes>
+    <notes id="FPar1" notes-type="COI-statement">
+      <title>Competing interests</title>
+      <p id="Par48">The authors declare no competing interests.</p>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gorman</surname>
+              <given-names>GS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mitochondrial diseases</article-title>
+          <source>Nat. Rev. Dis. Prim.</source>
+          <year>2016</year>
+          <volume>2</volume>
+          <fpage>16080</fpage>
+          <pub-id pub-id-type="doi">10.1038/nrdp.2016.80</pub-id>
+          <pub-id pub-id-type="pmid">27775730</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bonawitz</surname>
+              <given-names>ND</given-names>
+            </name>
+            <name>
+              <surname>Clayton</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Shadel</surname>
+              <given-names>GS</given-names>
+            </name>
+          </person-group>
+          <article-title>Initiation and beyond: multiple functions of the human mitochondrial transcription machinery</article-title>
+          <source>Mol. Cell</source>
+          <year>2006</year>
+          <volume>24</volume>
+          <fpage>813</fpage>
+          <lpage>825</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2006.11.024</pub-id>
+          <pub-id pub-id-type="pmid">17189185</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wanrooij</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Human mitochondrial RNA polymerase primes lagging-strand DNA synthesis in vitro</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>11122</fpage>
+          <lpage>11127</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0805399105</pub-id>
+          <pub-id pub-id-type="pmid">18685103</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Posse</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>RNase H1 directs origin-specific initiation of DNA replication in human mitochondria</article-title>
+          <source>PLoS Genet.</source>
+          <year>2019</year>
+          <volume>15</volume>
+          <fpage>e1007781</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1007781</pub-id>
+          <pub-id pub-id-type="pmid">30605451</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Larsson</surname>
+              <given-names>NG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mitochondrial transcription factor A is necessary for mtDNA maintenance and embryogenesis in mice</article-title>
+          <source>Nat. Genet.</source>
+          <year>1998</year>
+          <volume>18</volume>
+          <fpage>231</fpage>
+          <lpage>236</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng0398-231</pub-id>
+          <pub-id pub-id-type="pmid">9500544</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Falkenberg</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mitochondrial transcription factors B1 and B2 activate transcription of human mtDNA</article-title>
+          <source>Nat. Genet.</source>
+          <year>2002</year>
+          <volume>31</volume>
+          <fpage>289</fpage>
+          <lpage>294</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng909</pub-id>
+          <pub-id pub-id-type="pmid">12068295</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mammalian transcription factor A is a core component of the mitochondrial transcription machinery</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2012</year>
+          <volume>109</volume>
+          <fpage>16510</fpage>
+          <lpage>16515</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1119738109</pub-id>
+          <pub-id pub-id-type="pmid">23012404</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fuste</surname>
+              <given-names>JM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mitochondrial RNA polymerase is needed for activation of the origin of light-strand DNA replication</article-title>
+          <source>Mol. Cell</source>
+          <year>2010</year>
+          <volume>37</volume>
+          <fpage>67</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2009.12.021</pub-id>
+          <pub-id pub-id-type="pmid">20129056</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ringel</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structure of human mitochondrial RNA polymerase</article-title>
+          <source>Nature</source>
+          <year>2011</year>
+          <volume>478</volume>
+          <fpage>269</fpage>
+          <lpage>273</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature10435</pub-id>
+          <pub-id pub-id-type="pmid">21947009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schwinghammer</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structure of human mitochondrial RNA polymerase elongation complex</article-title>
+          <source>Nat. Struct. Mol. Biol.</source>
+          <year>2013</year>
+          <volume>20</volume>
+          <fpage>1298</fpage>
+          <lpage>1303</lpage>
+          <pub-id pub-id-type="doi">10.1038/nsmb.2683</pub-id>
+          <pub-id pub-id-type="pmid">24096365</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hillen</surname>
+              <given-names>HS</given-names>
+            </name>
+            <name>
+              <surname>Morozov</surname>
+              <given-names>YI</given-names>
+            </name>
+            <name>
+              <surname>Sarfallah</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Temiakov</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Cramer</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural basis of mitochondrial transcription initiation</article-title>
+          <source>Cell</source>
+          <year>2017</year>
+          <volume>171</volume>
+          <fpage>1072</fpage>
+          <lpage>1081 e1010</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2017.10.036</pub-id>
+          <pub-id pub-id-type="pmid">29149603</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hillen</surname>
+              <given-names>HS</given-names>
+            </name>
+            <name>
+              <surname>Temiakov</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Cramer</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural basis of mitochondrial transcription</article-title>
+          <source>Nat. Struct. Mol. Biol.</source>
+          <year>2018</year>
+          <volume>25</volume>
+          <fpage>754</fpage>
+          <lpage>765</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41594-018-0122-9</pub-id>
+          <pub-id pub-id-type="pmid">30190598</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Agaronyan</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Morozov</surname>
+              <given-names>YI</given-names>
+            </name>
+            <name>
+              <surname>Anikin</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Temiakov</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial biology. Replication-transcription switch in human mitochondria</article-title>
+          <source>Science</source>
+          <year>2015</year>
+          <volume>347</volume>
+          <fpage>548</fpage>
+          <lpage>551</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.aaa0986</pub-id>
+          <pub-id pub-id-type="pmid">25635099</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Posse</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Shahzad</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Falkenberg</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hallberg</surname>
+              <given-names>BM</given-names>
+            </name>
+            <name>
+              <surname>Gustafsson</surname>
+              <given-names>CM</given-names>
+            </name>
+          </person-group>
+          <article-title>TEFM is a potent stimulator of mitochondrial transcription elongation in vitro</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2015</year>
+          <volume>43</volume>
+          <fpage>2615</fpage>
+          <lpage>2624</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkv105</pub-id>
+          <pub-id pub-id-type="pmid">25690892</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hillen</surname>
+              <given-names>HS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mechanism of transcription anti-termination in human mitochondria</article-title>
+          <source>Cell</source>
+          <year>2017</year>
+          <volume>171</volume>
+          <fpage>1082</fpage>
+          <lpage>1093.e1013</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2017.09.035</pub-id>
+          <pub-id pub-id-type="pmid">29033127</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Copeland</surname>
+              <given-names>WC</given-names>
+            </name>
+          </person-group>
+          <article-title>Defects in mitochondrial DNA replication and human disease</article-title>
+          <source>Crit. Rev. Biochem. Mol. Biol.</source>
+          <year>2012</year>
+          <volume>47</volume>
+          <fpage>64</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="doi">10.3109/10409238.2011.632763</pub-id>
+          <pub-id pub-id-type="pmid">22176657</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reinecke</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Smeitink</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>van der Westhuizen</surname>
+              <given-names>FH</given-names>
+            </name>
+          </person-group>
+          <article-title>OXPHOS gene expression and control in mitochondrial disorders</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2009</year>
+          <volume>1792</volume>
+          <fpage>1113</fpage>
+          <lpage>1121</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbadis.2009.04.003</pub-id>
+          <pub-id pub-id-type="pmid">19389473</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rahman</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Copeland</surname>
+              <given-names>WC</given-names>
+            </name>
+          </person-group>
+          <article-title>POLG-related disorders and their neurological manifestations</article-title>
+          <source>Nat. Rev. Neurol.</source>
+          <year>2019</year>
+          <volume>15</volume>
+          <fpage>40</fpage>
+          <lpage>52</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41582-018-0101-0</pub-id>
+          <pub-id pub-id-type="pmid">30451971</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bowden</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Patel</surname>
+              <given-names>HP</given-names>
+            </name>
+            <name>
+              <surname>Beebe</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>McBride</surname>
+              <given-names>KL</given-names>
+            </name>
+          </person-group>
+          <article-title>Successful medical therapy for hypophosphatemic rickets due to mitochondrial complex I deficiency induced de Toni-Debre-Fanconi syndrome</article-title>
+          <source>Case Rep. Pediatr.</source>
+          <year>2013</year>
+          <volume>2013</volume>
+          <fpage>354314</fpage>
+          <pub-id pub-id-type="pmid">24386581</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holt</surname>
+              <given-names>IJ</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Morgan-Hughes</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Harding</surname>
+              <given-names>AE</given-names>
+            </name>
+          </person-group>
+          <article-title>Deletions of muscle mitochondrial DNA</article-title>
+          <source>Lancet</source>
+          <year>1988</year>
+          <volume>1</volume>
+          <fpage>1462</fpage>
+          <pub-id pub-id-type="doi">10.1016/S0140-6736(88)92273-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuhl</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>POLRMT regulates the switch between replication primer formation and gene expression of mammalian mtDNA</article-title>
+          <source>Sci. Adv.</source>
+          <year>2016</year>
+          <volume>2</volume>
+          <fpage>e1600963</fpage>
+          <pub-id pub-id-type="doi">10.1126/sciadv.1600963</pub-id>
+          <pub-id pub-id-type="pmid">27532055</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>El-Hattab</surname>
+              <given-names>AW</given-names>
+            </name>
+            <name>
+              <surname>Craigen</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>Scaglia</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial DNA maintenance defects</article-title>
+          <source>Biochim Biophys. Acta Mol. Basis Dis.</source>
+          <year>2017</year>
+          <volume>1863</volume>
+          <fpage>1539</fpage>
+          <lpage>1555</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbadis.2017.02.017</pub-id>
+          <pub-id pub-id-type="pmid">28215579</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oliveira</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lethal neonatal LTBL associated with biallelic EARS2 variants: case report and review of the reported neuroradiological features</article-title>
+          <source>JIMD Rep.</source>
+          <year>2017</year>
+          <volume>33</volume>
+          <fpage>61</fpage>
+          <lpage>68</lpage>
+          <pub-id pub-id-type="doi">10.1007/8904_2016_581</pub-id>
+          <pub-id pub-id-type="pmid">27571996</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Farge</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Falkenberg</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Organization of DNA in mammalian mitochondria</article-title>
+          <source>Int J. Mol. Sci.</source>
+          <year>2019</year>
+          <volume>20</volume>
+          <fpage>2770</fpage>
+          <pub-id pub-id-type="doi">10.3390/ijms20112770</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bogenhagen</surname>
+              <given-names>DF</given-names>
+            </name>
+            <name>
+              <surname>Rousseau</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Burke</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>The layered structure of human mitochondrial DNA nucleoids</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2008</year>
+          <volume>283</volume>
+          <fpage>3665</fpage>
+          <lpage>3675</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M708444200</pub-id>
+          <pub-id pub-id-type="pmid">18063578</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rajala</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Whole cell formaldehyde cross-linking simplifies purification of mitochondrial nucleoids and associated proteins involved in mitochondrial gene expression</article-title>
+          <source>PLoS ONE</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <fpage>e0116726</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0116726</pub-id>
+          <pub-id pub-id-type="pmid">25695250</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kravchenko</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Rogozin</surname>
+              <given-names>IB</given-names>
+            </name>
+            <name>
+              <surname>Koonin</surname>
+              <given-names>EV</given-names>
+            </name>
+            <name>
+              <surname>Chumakov</surname>
+              <given-names>PM</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcription of mammalian messenger RNAs by a nuclear RNA polymerase of mitochondrial origin</article-title>
+          <source>Nature</source>
+          <year>2005</year>
+          <volume>436</volume>
+          <fpage>735</fpage>
+          <lpage>739</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature03848</pub-id>
+          <pub-id pub-id-type="pmid">16079853</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuhl</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>POLRMT does not transcribe nuclear genes</article-title>
+          <source>Nature</source>
+          <year>2014</year>
+          <volume>514</volume>
+          <fpage>E7</fpage>
+          <lpage>E11</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature13690</pub-id>
+          <pub-id pub-id-type="pmid">25297440</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shutt</surname>
+              <given-names>TE</given-names>
+            </name>
+            <name>
+              <surname>Gray</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <article-title>Bacteriophage origins of mitochondrial replication and transcription proteins</article-title>
+          <source>Trends Genet.</source>
+          <year>2006</year>
+          <volume>22</volume>
+          <fpage>90</fpage>
+          <lpage>95</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tig.2005.11.007</pub-id>
+          <pub-id pub-id-type="pmid">16364493</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>CB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of a rare homozygous c.790C&gt;T variation in the TFB2M gene in Korean patients with autism spectrum disorder</article-title>
+          <source>Biochem Biophys. Res Commun.</source>
+          <year>2018</year>
+          <volume>507</volume>
+          <fpage>148</fpage>
+          <lpage>154</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2018.10.194</pub-id>
+          <pub-id pub-id-type="pmid">30414672</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parise</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Brose</surname>
+              <given-names>AN</given-names>
+            </name>
+            <name>
+              <surname>Tarnopolsky</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>Resistance exercise training decreases oxidative damage to DNA and increases cytochrome oxidase activity in older adults</article-title>
+          <source>Exp. Gerontol.</source>
+          <year>2005</year>
+          <volume>40</volume>
+          <fpage>173</fpage>
+          <lpage>180</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.exger.2004.09.002</pub-id>
+          <pub-id pub-id-type="pmid">15763394</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tarnopolsky</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Pearce</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Lach</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Suction-modified Bergstrom muscle biopsy technique: experience with 13,500 procedures</article-title>
+          <source>Muscle Nerve</source>
+          <year>2011</year>
+          <volume>43</volume>
+          <fpage>717</fpage>
+          <lpage>725</lpage>
+          <pub-id pub-id-type="doi">10.1002/mus.21945</pub-id>
+          <pub-id pub-id-type="pmid">21462204</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pfeffer</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in the SPG7 gene cause chronic progressive external ophthalmoplegia through disordered mitochondrial DNA maintenance</article-title>
+          <source>Brain</source>
+          <year>2014</year>
+          <volume>137</volume>
+          <fpage>1323</fpage>
+          <lpage>1336</lpage>
+          <pub-id pub-id-type="doi">10.1093/brain/awu060</pub-id>
+          <pub-id pub-id-type="pmid">24727571</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Detection and quantification of mitochondrial DNA deletions in individual cells by real-time PCR</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>e68</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gnf067</pub-id>
+          <pub-id pub-id-type="pmid">12136116</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Old</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>Methods of microphotometric assay of succinate dehydrogenase and cytochrome c oxidase activities for use on human skeletal muscle</article-title>
+          <source>Histochem. J.</source>
+          <year>1989</year>
+          <volume>21</volume>
+          <fpage>545</fpage>
+          <lpage>555</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF01753355</pub-id>
+          <pub-id pub-id-type="pmid">2556354</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kirby</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Thorburn</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Turnbull</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>RW</given-names>
+            </name>
+          </person-group>
+          <article-title>Biochemical assays of respiratory chain complex activity</article-title>
+          <source>Methods Cell Biol.</source>
+          <year>2007</year>
+          <volume>80</volume>
+          <fpage>93</fpage>
+          <lpage>119</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0091-679X(06)80004-X</pub-id>
+          <pub-id pub-id-type="pmid">17445690</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Olahova</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>LRPPRC mutations cause early-onset multisystem mitochondrial disease outside of the French-Canadian population</article-title>
+          <source>Brain</source>
+          <year>2015</year>
+          <volume>138</volume>
+          <fpage>3503</fpage>
+          <lpage>3519</lpage>
+          <pub-id pub-id-type="doi">10.1093/brain/awv291</pub-id>
+          <pub-id pub-id-type="pmid">26510951</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peter</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Defective mitochondrial protease LonP1 can cause classical mitochondrial disease</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <year>2018</year>
+          <volume>27</volume>
+          <fpage>1743</fpage>
+          <lpage>1753</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddy080</pub-id>
+          <pub-id pub-id-type="pmid">29518248</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Posse</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The amino terminal extension of mammalian mitochondrial RNA polymerase ensures promoter specific transcription initiation</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2014</year>
+          <volume>42</volume>
+          <fpage>3638</fpage>
+          <lpage>3647</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkt1397</pub-id>
+          <pub-id pub-id-type="pmid">24445803</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,1738 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Genet Med</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Genet. Med</journal-id>
+      <journal-title-group>
+        <journal-title>Genetics in Medicine</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1098-3600</issn>
+      <issn pub-type="epub">1530-0366</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group US</publisher-name>
+        <publisher-loc>New York</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">32103185</article-id>
+      <article-id pub-id-type="pmc">7272323</article-id>
+      <article-id pub-id-type="publisher-id">758</article-id>
+      <article-id pub-id-type="doi">10.1038/s41436-020-0758-9</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Regulation of human cerebral cortical development by <italic>EXOC7</italic> and <italic>EXOC8</italic>, components of the exocyst complex, and roles in neural progenitor cell proliferation and survival</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Coulter</surname>
+            <given-names>Michael E.</given-names>
+          </name>
+          <degrees>MD, PhD</degrees>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Musaev</surname>
+            <given-names>Damir</given-names>
+          </name>
+          <degrees>BSc</degrees>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>DeGennaro</surname>
+            <given-names>Ellen M.</given-names>
+          </name>
+          <degrees>BA</degrees>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Xiaochang</given-names>
+          </name>
+          <degrees>PhD</degrees>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Henke</surname>
+            <given-names>Katrin</given-names>
+          </name>
+          <degrees>PhD</degrees>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>James</surname>
+            <given-names>Kiely N.</given-names>
+          </name>
+          <degrees>PhD</degrees>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Smith</surname>
+            <given-names>Richard S.</given-names>
+          </name>
+          <degrees>PhD</degrees>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hill</surname>
+            <given-names>R. Sean</given-names>
+          </name>
+          <degrees>PhD</degrees>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Partlow</surname>
+            <given-names>Jennifer N.</given-names>
+          </name>
+          <degrees>MS</degrees>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Muna Al-Saffar</surname>
+          </name>
+          <degrees>MBChB, MSc</degrees>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kamumbu</surname>
+            <given-names>A. Stacy</given-names>
+          </name>
+          <degrees>BA</degrees>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hatem</surname>
+            <given-names>Nicole</given-names>
+          </name>
+          <degrees>BA</degrees>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Barkovich</surname>
+            <given-names>A. James</given-names>
+          </name>
+          <degrees>MD</degrees>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aziza</surname>
+            <given-names>Jacqueline</given-names>
+          </name>
+          <degrees>MD</degrees>
+          <xref ref-type="aff" rid="Aff9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chassaing</surname>
+            <given-names>Nicolas</given-names>
+          </name>
+          <degrees>MD, PhD</degrees>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zaki</surname>
+            <given-names>Maha S.</given-names>
+          </name>
+          <degrees>MD, PhD</degrees>
+          <xref ref-type="aff" rid="Aff12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sultan</surname>
+            <given-names>Tipu</given-names>
+          </name>
+          <degrees>MD</degrees>
+          <xref ref-type="aff" rid="Aff13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Burglen</surname>
+            <given-names>Lydie</given-names>
+          </name>
+          <degrees>MD, PhD</degrees>
+          <xref ref-type="aff" rid="Aff14">14</xref>
+          <xref ref-type="aff" rid="Aff15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rajab</surname>
+            <given-names>Anna</given-names>
+          </name>
+          <degrees>MD, PhD</degrees>
+          <xref ref-type="aff" rid="Aff16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Al-Gazali</surname>
+            <given-names>Lihadh</given-names>
+          </name>
+          <degrees>MBChB, MSc</degrees>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mochida</surname>
+            <given-names>Ganeshwaran H.</given-names>
+          </name>
+          <degrees>MD, MMSc</degrees>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Harris</surname>
+            <given-names>Matthew P.</given-names>
+          </name>
+          <degrees>PhD</degrees>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Gleeson</surname>
+            <given-names>Joseph G.</given-names>
+          </name>
+          <degrees>MD</degrees>
+          <address>
+            <email>jogleeson@ucsd.edu</email>
+          </address>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0156-2238</contrib-id>
+          <name>
+            <surname>Walsh</surname>
+            <given-names>Christopher A.</given-names>
+          </name>
+          <degrees>MD, PhD</degrees>
+          <address>
+            <email>christopher.walsh@childrens.harvard.edu</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">000000041936754X</institution-id><institution-id institution-id-type="GRID">grid.38142.3c</institution-id><institution>Division of Genetics and Genomics and Howard Hughes Medical Institute, Boston Children&#x2019;s Hospital, Departments of Pediatrics and Neurology, </institution><institution>Harvard Medical School, </institution></institution-wrap>Boston, MA USA </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">000000041936754X</institution-id><institution-id institution-id-type="GRID">grid.38142.3c</institution-id><institution>Program in Neuroscience and Harvard/MIT MD-PHD Program, Harvard Medical School, </institution></institution-wrap>Boston, MA USA </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000000104485736</institution-id><institution-id institution-id-type="GRID">grid.267102.0</institution-id><institution>Department of Neurosciences and Howard Hughes Medical Institute, </institution><institution>University of San Diego, </institution></institution-wrap>La Jolla, CA USA </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2341 2786</institution-id><institution-id institution-id-type="GRID">grid.116068.8</institution-id><institution>Harvard&#x2013;MIT Division of Health Sciences and Technology, Massachusetts Institute of Technology, </institution></institution-wrap>Cambridge, MA USA </aff>
+        <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 7822</institution-id><institution-id institution-id-type="GRID">grid.170205.1</institution-id><institution>Department of Human Genetics, </institution><institution>University of Chicago, </institution></institution-wrap>Chicago, IL USA </aff>
+        <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">000000041936754X</institution-id><institution-id institution-id-type="GRID">grid.38142.3c</institution-id><institution>Division of Orthopedic Research, Boston Children&#x2019;s Hospital, Department of Genetics, </institution><institution>Harvard Medical School, </institution></institution-wrap>Boston, MA USA </aff>
+        <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2193 6666</institution-id><institution-id institution-id-type="GRID">grid.43519.3a</institution-id><institution>Department of Paediatrics, College of Medicine and Health Sciences, </institution><institution>United Arab Emirates University, </institution></institution-wrap>Al Ain, United Arab Emirates </aff>
+        <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2297 6811</institution-id><institution-id institution-id-type="GRID">grid.266102.1</institution-id><institution>Benioff Children&#x2019;s Hospital, Departments of Radiology, Pediatrics, Neurology, and Neurological Surgery, </institution><institution>University of California San Francisco, </institution></institution-wrap>San Francisco, CA USA </aff>
+        <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.488470.7</institution-id><institution>D&#xE9;partement de Pathologie, </institution><institution>Institut Universitaire du Cancer de Toulouse&#x2013;Oncopole&#x2013;CHU Toulouse, </institution></institution-wrap>Toulouse, France </aff>
+        <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 1457 2980</institution-id><institution-id institution-id-type="GRID">grid.411175.7</institution-id><institution>Service de G&#xE9;n&#xE9;tique M&#xE9;dicale, CHU Toulouse, </institution></institution-wrap>Toulouse, France </aff>
+        <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2353 1689</institution-id><institution-id institution-id-type="GRID">grid.11417.32</institution-id><institution>UDEAR; UMR 1056 Inserm&#x2013;Universit&#xE9; de Toulouse, </institution></institution-wrap>Toulouse, France </aff>
+        <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2151 8157</institution-id><institution-id institution-id-type="GRID">grid.419725.c</institution-id><institution>Clinical Genetics Department, Human Genetics and Genome Research Division, National Research Centre, </institution></institution-wrap>Cairo, Egypt </aff>
+        <aff id="Aff13"><label>13</label>Department of Pediatric Neurology, Institute of Child Health &amp; The Children&#x2019;s Hospital, Lahore, Pakistan </aff>
+        <aff id="Aff14"><label>14</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2308 1657</institution-id><institution-id institution-id-type="GRID">grid.462844.8</institution-id><institution>Centre de r&#xE9;f&#xE9;rence des malformations et maladies cong&#xE9;nitales du cervelet, D&#xE9;partement de g&#xE9;n&#xE9;tique, </institution><institution>AP-HP.Sorbonne Universit&#xE9;, </institution></institution-wrap>Paris, France </aff>
+        <aff id="Aff15"><label>15</label><institution-wrap><institution-id institution-id-type="GRID">grid.462336.6</institution-id><institution>H&#xF4;pital Trousseau and Developmental Brain Disorders Laboratory, Imagine Institute, </institution></institution-wrap>INSERM UMR 1163, Paris, France </aff>
+        <aff id="Aff16"><label>16</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0571 4213</institution-id><institution-id institution-id-type="GRID">grid.415703.4</institution-id><institution>National Genetics Center, Directorate General of Health Affairs, Ministry of Health, </institution></institution-wrap>Muscat, Oman </aff>
+        <aff id="Aff17"><label>17</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0386 9924</institution-id><institution-id institution-id-type="GRID">grid.32224.35</institution-id><institution>Department of Neurology, </institution><institution>Massachusetts General Hospital, </institution></institution-wrap>Boston, MA USA </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>2</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>27</day>
+        <month>2</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <year>2020</year>
+      </pub-date>
+      <volume>22</volume>
+      <issue>6</issue>
+      <fpage>1040</fpage>
+      <lpage>1050</lpage>
+      <history>
+        <date date-type="received">
+          <day>12</day>
+          <month>9</month>
+          <year>2019</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>16</day>
+          <month>1</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>1</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2020</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, and provide a link to the Creative Commons license. You do not have permission under this license to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <sec>
+          <title>Purpose</title>
+          <p id="Par1">The exocyst complex is a conserved protein complex that mediates fusion of intracellular vesicles to the plasma membrane and is implicated in processes including cell polarity, cell migration, ciliogenesis, cytokinesis, autophagy, and fusion of secretory vesicles. The essential role of these genes in human genetic disorders, however, is unknown.</p>
+        </sec>
+        <sec>
+          <title>Methods</title>
+          <p id="Par2">We performed homozygosity mapping and exome sequencing of consanguineous families with recessively inherited brain development disorders. We modeled an <italic>EXOC7</italic> splice variant in vitro and examined <italic>EXOC7</italic> messenger RNA (mRNA) expression in developing mouse and human cortex. We modeled <italic>exoc7</italic> loss-of-function in a zebrafish knockout.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p id="Par3">We report variants in exocyst complex members, <italic>EXOC7</italic> and <italic>EXOC8</italic>, in a novel disorder of cerebral cortex development. In <italic>EXOC7</italic>, we identified four independent partial loss-of-function (LOF) variants in a recessively inherited disorder characterized by brain atrophy, seizures, and developmental delay, and in severe cases, microcephaly and infantile death. In <italic>EXOC8</italic>, we found a homozygous truncating variant in a family with a similar clinical disorder. We modeled <italic>exoc7</italic> deficiency in zebrafish and found the absence of <italic>exoc7</italic> causes microcephaly.</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p id="Par4">Our results highlight the essential role of the exocyst pathway in normal cortical development and how its perturbation causes complex brain disorders.</p>
+        </sec>
+      </abstract>
+      <kwd-group xml:lang="en">
+        <title>Keywords</title>
+        <kwd>exocyst</kwd>
+        <kwd>
+          <italic>EXOC7</italic>
+        </kwd>
+        <kwd>
+          <italic>EXOC8</italic>
+        </kwd>
+        <kwd>microcephaly</kwd>
+        <kwd>developmental delay</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/http://dx.doi.org/10.13039/100000025</institution-id>
+              <institution>National Institute of Mental Health</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>F30 MH102909</award-id>
+          <award-id>F30 MH102909</award-id>
+          <award-id>F30 MH102909</award-id>
+          <award-id>F30 MH102909</award-id>
+          <award-id>F30 MH102909</award-id>
+          <award-id>F30 MH102909</award-id>
+          <award-id>F30 MH102909</award-id>
+          <award-id>F30 MH102909</award-id>
+          <award-id>F30 MH102909</award-id>
+          <award-id>F30 MH102909</award-id>
+          <award-id>F30 MH102909</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Xiaochang</given-names>
+            </name>
+            <name>
+              <surname>Henke</surname>
+              <given-names>Katrin</given-names>
+            </name>
+            <name>
+              <surname>Muna Al-Saffar</surname>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/http://dx.doi.org/10.13039/100000011</institution-id>
+              <institution>Howard Hughes Medical Institute</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>Medical Student Fellowship</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Muna Al-Saffar</surname>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/http://dx.doi.org/10.13039/100007429</institution-id>
+              <institution>Nancy Lurie Marks Family Foundation</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>Medical Student Fellowship</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Muna Al-Saffar</surname>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/http://dx.doi.org/10.13039/100000065</institution-id>
+              <institution>National Institute of Neurological Disorders and Stroke</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>R01 NS35129</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Muna Al-Saffar</surname>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/http://dx.doi.org/10.13039/100008796</institution-id>
+              <institution>Allen Foundation</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>Allen Discovery Center program</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Muna Al-Saffar</surname>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/</institution-id>
+              <institution>Boston Children&#x2019;s Hospital Orthopaedic Surgery Foundation</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>n/a</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Muna Al-Saffar</surname>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/http://dx.doi.org/10.13039/100000051</institution-id>
+              <institution>National Human Genome Research Institute</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>UM1 HG008900</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Muna Al-Saffar</surname>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/http://dx.doi.org/10.13039/100000070</institution-id>
+              <institution>National Institute of Biomedical Imaging and Bioengineering</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>5T32EB1680</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Muna Al-Saffar</surname>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; American College of Medical Genetics and Genomics 2020</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>INTRODUCTION</title>
+      <p id="Par5">Eight genes in the human genome, <italic>EXOC1</italic>&#x2013;<italic>EXOC8</italic>, encode the exocyst complex, a multimeric, evolutionarily conserved complex that traffics vesicles within the cell to the plasma membrane for fusion. The exocyst complex has been shown to play a role in several cellular processes, including cell polarity, cell migration, ciliogenesis, cytokinesis, autophagy, and fusion of secretory vesicles,<sup><xref ref-type="bibr" rid="CR1">1</xref></sup> but human disorders associated with definitive loss-of-function variants in any of these components have not yet been reported. Although a missense variant in <italic>EXOC8</italic><sup><xref ref-type="bibr" rid="CR2">2</xref></sup> was reported in a single case of Joubert syndrome (MIM 213300), and a missense variant in <italic>EXOC4</italic><sup><xref ref-type="bibr" rid="CR3">3</xref></sup> was reported in a case of Meckel&#x2013;Gruber syndrome (MIM 249000), the pathogenicity of these two variants has not yet been confirmed. As such, the essential role of individual proteins of the exocyst complex remains unclear.</p>
+      <p id="Par6">Several of the reported functions of the exocyst complex, cell polarity and migration, cytokinesis, and ciliogenesis,<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR4">4</xref>&#x2013;<xref ref-type="bibr" rid="CR6">6</xref></sup> are integral processes during cerebral cortical development and so motivated us to test the hypothesis that variants in exocyst encoding genes cause brain development disorders. First, establishing cell polarity and cell migration are essential for cortical development. Variants in radial glial cell progenitors (RGC) polarity genes, such as <italic>Pals1</italic> and <italic>Par3</italic>, disrupt cortical development through massive cell death or premature cell cycle exit, respectively.<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref></sup> In addition, variants in genes required for neuronal migration can cause one of several cortical malformations, including lissencephaly (MIM 607432, <italic>PAFAH1B1</italic>/<italic>LIS1</italic><sup><xref ref-type="bibr" rid="CR9">9</xref></sup>), double cortex syndrome (MIM 300067, <italic>DCX</italic><sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup>), and cortical dysplasia (MIM 610031, <italic>TUBB3</italic>,<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>
+<italic>TUBB5</italic>,<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>
+<italic>KIF5C</italic>,<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>
+<italic>KIF2A</italic><sup><xref ref-type="bibr" rid="CR14">14</xref></sup>). Second, robust and rapid cell division of cortical progenitors is essential for cortical development and several genetic causes of microcephaly (MIM 251200) exhibit disrupted cytokinesis as a result of supernumerary (<italic>CDK5RAP2</italic>,<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup>
+<italic>KATNB1</italic><sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>), or missing spindle poles (<italic>ASPM</italic>,<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>
+<italic>WDR62</italic><sup><xref ref-type="bibr" rid="CR20">20</xref></sup>) stemming from dysfunctional centrosomes.<sup><xref ref-type="bibr" rid="CR21">21</xref></sup> Finally, defects in cilia formation lead to ciliopathy syndromes (MIM 209900), complex syndromes with disrupted brain development (<italic>INPP5E</italic>,<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>
+<italic>C2CD3</italic>,<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>
+<italic>BBS1</italic><sup><xref ref-type="bibr" rid="CR24">24</xref></sup>).</p>
+      <p id="Par7">Here we provide a systematic analysis of variants in two exocyst components, by defining several variants in <italic>EXOC7</italic> and <italic>EXOC8</italic>. We identify four independent, partial loss-of-function variants in <italic>EXOC7</italic>, associated with developmental brain disorders of variable severity characterized by developmental delay, seizures, brain atrophy, microcephaly, and infantile death. We also describe one loss-of-function variant in <italic>EXOC8</italic> similarly associated with severe developmental delay, seizures, brain atrophy, microcephaly, and premature death. We further provide a zebrafish genetic model of <italic>EXOC7</italic> loss-of-function and offer genetic evidence that <italic>EXOC7</italic> is required for neuron survival.</p>
+    </sec>
+    <sec id="Sec2" sec-type="materials|methods">
+      <title>MATERIALS AND METHODS</title>
+      <sec id="Sec3">
+        <title>Human subjects</title>
+        <p id="Par8">This study was conducted with the approval of institutional review boards and according to the ethical standards of the participating institutions: Boston Children&#x2019;s Hospital; University of California&#x2013;San Diego; the Faculty of Medicine, United Arab Emirates University; and AP-HP Sorbonne Universit&#xE9;. Informed consent was received from all participants. Permission was received to publish patient photographs.</p>
+      </sec>
+      <sec id="Sec4">
+        <title>IACUC approval of zebrafish housing and experiments</title>
+        <p id="Par9">A complete description of the husbandry and environmental conditions in housing for the fish used in these experiments is available as a collection in protocols.io (10.17504/protocols.io.mrjc54n). All animals were cared for humanely and all experiments were approved by Boston Children&#x2019;s Hospital Institutional Animal Care and Use Committee (IACUC).</p>
+      </sec>
+      <sec id="Sec5">
+        <title>Exome sequencing</title>
+        <p id="Par10">DNA was extracted from whole blood and exome sequencing was performed (See <xref rid="MOESM1" ref-type="media">Supplement</xref>). We filtered out variants with allele frequency &gt;10% in the Middle Eastern population.<sup><xref ref-type="bibr" rid="CR25">25</xref></sup></p>
+      </sec>
+      <sec id="Sec6">
+        <title>Sanger sequencing</title>
+        <p id="Par11">Primers surrounding the reported variant in each family were used for polymerase chain reaction (PCR) and subsequent Sanger sequencing to confirm genotype from exome sequencing and determine segregation within the family.</p>
+      </sec>
+      <sec id="Sec7">
+        <title>Minigene cloning and expression</title>
+        <p id="Par12">A ~5-kb section of human <italic>EXOC7</italic> locus was amplified with primers (F: AAGGACTGAAGGAGCATTTC, R: CAGGGAGTCGAAGGTCTTCT) from a BAC and cloned into pCAG expression vector. The splice acceptor variant from family I was introduced with site-directed mutagenesis. Wild-type (WT) or splice variant containing vector was transfected into mouse N2A cells and after 48&#x2009;hours RNA was isolated and retrotranscribed into complementary DNA (cDNA). N2A cells were cultured at 37&#x2009;&#xB0;C and 5% CO<sub>2</sub> in high-glucose DMEM (GIBCO) supplemented with 10% fetal bovine serum and 1% penicillin&#x2013;streptomycin.</p>
+      </sec>
+      <sec id="Sec8">
+        <title>HAP1 mutant cell line</title>
+        <p id="Par13">HAP1 human cell line was cultured at 37&#x2009;&#xB0;C and 5% CO<sub>2</sub> in high-glucose DMEM (GIBCO) supplemented with 10% fetal bovine serum and 1% penicillin&#x2013;streptomycin. The splice acceptor variant from family I was introduced into a HAP1 cell line as a hemizygous variant using CRISPR/Cas9 mutagenesis (Supplemental <xref rid="MOESM1" ref-type="media">Methods</xref>)<sup><xref ref-type="bibr" rid="CR26">26</xref></sup> (Horizon Discovery). Immunoblot was performed using human EXOC7 antibody (Abcam, ab118792).</p>
+      </sec>
+      <sec id="Sec9">
+        <title><italic>Exoc7</italic> alternative splicing in developing cortex</title>
+        <p id="Par14">Alternative splicing analysis of <italic>EXOC7</italic> in developing human (GW13&#x2013;16) and mouse (E14.5) cortex was performed as described previously.<sup><xref ref-type="bibr" rid="CR27">27</xref></sup> Aligned BAM files from RNA sequencing data sets were analyzed with the MISO pipeline (version 0.4.6) to determine the inclusion frequency of alternatively spliced exons.</p>
+      </sec>
+      <sec id="Sec10">
+        <title>Generation of <italic>exoc7</italic> mutant zebrafish lines</title>
+        <p id="Par15"><italic>Exoc7</italic> mutant zebrafish were generated by CRISPR/Cas9 mutagenesis. Cas9 messenger RNA (mRNA) (250&#x2009;ng/&#x3BC;l) and <italic>exoc7</italic> targeting guide RNA (target: CCGTCCTCATCCTGGACGCC, 80&#x2009;ng/&#x3BC;l) were injected into 1-cell embryos. Embryos developed to adulthood and then Sanger sequencing was used to identify potential heterozygous <italic>exoc7</italic> mutant carriers in F1 progeny. A 1-bp frameshift deletion in exon 5 was identified and this fish was backcrossed to WT to generate heterozygous carriers. This allele is <italic>mh111</italic>.</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Toluidine blue staining of zebrafish</title>
+        <p id="Par16">Five days postfertilization (dpf) embryos were fixed in 4% PFA overnight at 4&#x2009;&#xB0;C and then embedded in JB-4 resin according to manufacturer&#x2019;s protocol (Polysciences Inc). Fish were sectioned at 2 &#x3BC;m, and then matching sections were stained with toluidine blue and imaged with a bright-field microscope.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>Immunostaining of zebrafish progenitor cells</title>
+        <p id="Par17">Five dpf embryos were fixed in 4% PFA overnight at 4&#x2009;&#xB0;C, embedded in OCT, and sectioned coronally at 20 &#x3BC;m on a cryostat. Matched sections were stained with a primary antibody against Sox2 (Abcam, ab97959). Tissue was permeabilized and blocked in 3% BSA, 0.3% Triton X-100, 0.3% sodium azide in PBS. Primary antibodies were incubated overnight at 4&#x2009;&#xB0;C. Sections were stained with Alexa secondary antibodies and Hoechst. Imaging was done on Zeiss 510 confocal microscope. Sox2-positive nuclei in telencephalon were counted.</p>
+      </sec>
+      <sec id="Sec13">
+        <title>TUNEL staining in developing zebrafish</title>
+        <p id="Par18">Five dpf embryos were fixed in 4% PFA overnight at 4&#x2009;&#xB0;C, embedded in OCT, and cryosectioned coronally. Apoptotic cells in matched sections were labeled with TUNEL staining using the Apoptag kit (Millipore) according to the manufacturer&#x2019;s instructions. Imaging was done on Zeiss 510 confocal microscope. TUNEL positive cells in telencephalon were counted.</p>
+      </sec>
+      <sec id="Sec14">
+        <title>RNAscope</title>
+        <p id="Par19">RNAscope on human fetal brain tissue was performed according to manufacturer&#x2019;s protocol (ACDBio). Tissue was fixed in 4% PFA, frozen, and sectioned at 20 &#x3BC;m on a cryostat.</p>
+      </sec>
+      <sec id="Sec15">
+        <title>Quantification and statistical analysis</title>
+        <p id="Par20">In all analyses, mean values are presented for pooled data and errors bars are SEM. For all quantifications, statistical significance was determined using a two-tailed, unpaired <italic>t</italic> test (GraphPad Prism).</p>
+      </sec>
+    </sec>
+    <sec id="Sec16" sec-type="results">
+      <title>RESULTS</title>
+      <sec id="Sec17">
+        <title><italic>EXOC7</italic> and <italic>EXOC8</italic> variants in recessive developmental disorders</title>
+        <p id="Par21">In mapping developmental disorders affecting the cerebral cortex, we identified variants in <italic>EXOC7</italic> and <italic>EXOC8</italic> associated with recessive brain development syndromes with a range of symptom severity including developmental delay, seizures, brain atrophy, microcephaly, and infantile death (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>).<table-wrap id="Tab1"><label>Table 1</label><caption><p>Variant summary for each family.</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>Family I</th><th>Family II</th><th>Family III</th><th>Family IV</th><th>Family V</th></tr></thead><tbody><tr><td>Maximum LOD score</td><td>1.93</td><td>Singleton</td><td>Nonconsanguineous</td><td>2.9</td><td>2.5</td></tr><tr><td>Gene</td><td><italic>EXOC7</italic></td><td><italic>EXOC7</italic></td><td><italic>EXOC7</italic></td><td><italic>EXOC7</italic></td><td><italic>EXOC8</italic></td></tr><tr><td>Variant type</td><td>Splice variant</td><td>In-frame deletion</td><td>Splice variant &amp; in-frame deletion</td><td>Missense</td><td>Frameshift deletion</td></tr><tr><td>Variant</td><td>Exon 7 splice acceptor (c.809&#x2013;2A&gt;G)</td><td>Ser48del (GGAT&gt;G)</td><td>Exon 7 splice acceptor (c.809&#x2013;2A&gt;G) &amp; exon 10: c.1212_1226 delTGGGCTG ATGCTTGA</td><td>Ala523Thr (C&gt;T)</td><td>Asp607Ter (CCT&gt;C)</td></tr><tr><td>Segregates in family</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>gnomAD frequency</td><td>2/251,414 alleles, heterozygous</td><td>2/276,426 alleles, heterozygous</td><td>Splice: 2/251,414 alleles, heterozygous &amp; deletion: absent</td><td>2/277,066 alleles, heterozygous</td><td>Absent</td></tr></tbody></table><table-wrap-foot><p><italic>LOD</italic> logarithm of the odds.</p></table-wrap-foot></table-wrap></p>
+        <p id="Par22">Family I is a consanguineous family with the most severely affected children,&#xA0;who have infantile lethality with neonatal microencephaly, seizures, and arthrogryposis (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>, <xref rid="MOESM1" ref-type="media">S1A</xref>). The family had two daughters who were born with myoclonic seizures and arthrogryposis multiplex. One had documented microcephaly (&#x2212;2.7&#x2009;SD), and both died within the first months of life. Imaging of both siblings showed a cerebrum smaller than the skull cavity with a thin cortex and extremely simplified gyri, enlarged ventricles, reduced white matter, and a very small cerebellum and brainstem (Table&#xA0;<xref rid="MOESM1" ref-type="media">S1</xref>). These findings are consistent with global cerebral cortical maldevelopment, and likely brain atrophy, reflecting neuronal loss (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>). Homozygosity mapping in this family identified a region on chromosome 17 linked to disease with a statistically suggestive maximum logarithm of the odds (LOD) score of 1.93 (Fig.&#xA0;<xref rid="MOESM1" ref-type="media">S2A</xref>). Exome sequencing identified a homozygous splice variant in <italic>EXOC7</italic> within this region (exon 7 splice acceptor, NC_000017.10:g.74087318T&gt;C [hg19], c.809&#x2013;2A&gt;G, Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>); this variant is heterozygous in 2/251,414 alleles from normal controls (frequency&#x2009;=&#x2009;7.96&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup>) and never homozygous (gnomAD<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>). This variant mutates a highly conserved base, disrupts the canonical splice acceptor for exon 7 (ag|G&gt;gg|G), and segregates perfectly with disease in this family. One additional rare homozygous variant was found in the same linkage region that caused a missense variant&#xA0;in <italic>CYB5D2</italic> (NC_000017.10:g.4057982C&gt;T [hg19], p.Arg136Trp), a gene that encodes a heme binding protein<sup><xref ref-type="bibr" rid="CR29">29</xref></sup> with low expression in the developing cerebral cortex (Fig.&#xA0;<xref rid="MOESM1" ref-type="media">S4</xref>). In the gnomAD database, this <italic>CYB5D2</italic> variant is heterozygous in 3/276,426 alleles from normal controls (frequency&#x2009;=&#x2009;1.22&#x2009;&#xD7;&#x2009;10<sup>&#x2212;5</sup>, 0 homozygous alleles), and there are three additional homozygous missense and one homozygous stop-gain variants in <italic>CYB5D2</italic> in gnomAD. Although little is known about <italic>CYB5D2</italic> function, its expression is much lower than <italic>EXOC7</italic> in developing cortex and the greater relative severity of the <italic>EXOC7</italic> splice acceptor variant favors it as causative in this family.<fig id="Fig1"><label>Fig. 1</label><caption><title><italic>EXOC7</italic> variants cause a recessive brain development disorder.</title><p>(<bold>a</bold>) Left, pedigree of family I showing consanguineous parents and recessive inheritance of lethal microcephaly in I-01 and I-05. Middle, coronal and axial brain magnetic resonance image (MRI) (I-01) or computed tomography (CT) (I-05) show extremely simplified gyral pattern, small cortex, and fluid accumulation with age-matched normal MRI for comparison. Right, Sanger sequencing of <italic>EXOC7</italic> intron 6/exon 7 boundary shows intronic A&gt;G variant that mutates the canonical splice acceptor (ag|G to gg|G). This variant is homozygous in affected individuals and segregates with disease. (<bold>b</bold>) Left, pedigree of family II showing consanguineous parents and recessive inheritance of brain atrophy, microcephaly, and seizures in II-04. Middle, Sanger sequencing of <italic>EXOC7</italic> exon 3 reveals a homozygous 3-base-pair ATC deletion in the affected individual that segregates with disease. Right, this deletion removes amino acid Serine 48, which is located in the EXOC7 N-terminal region responsible for binding to EXOC8.<sup><xref ref-type="bibr" rid="CR30">30</xref></sup> (<bold>c</bold>) Left, pedigree of family III showing recessive inheritance of fetal microcephaly and cerebellar hypoplasia in III-03, III-04. Middle, Sanger sequencing showing <italic>EXOC7</italic> exon 7 heterozygous splice acceptor variant. Right, diagram of 15-bp heterozygous deletion in <italic>EXOC7</italic> exon 10. (<bold>d</bold>) Left, pedigree of family IV showing consanguineous parents and recessive inheritance of brain atrophy and seizures in IV-05, IV-07, and IV-09. Middle, Sanger sequencing of <italic>EXOC7</italic> exon 15 reveals a homozygous G&gt;A variant in affected individuals that segregates with disease. Right, this variant changes amino acid 523, a highly conserved amino acid from humans to zebrafish, from alanine to threonine. (<bold>e</bold>) Family V has recessive inheritance of a syndrome of developmental regression and delay, seizures, brain atrophy, and early death. Homozygosity mapping and exome sequencing reveals a homozygous 2-base-pair deletion in <italic>EXOC8</italic> that causes early protein truncation. <italic>aa</italic> amino acid.</p></caption><graphic xlink:href="41436_2020_758_Fig1_HTML" id="d30e1384"/></fig></p>
+        <p id="Par23">Family II has one affected male child, of consanguineous parents, with severe developmental delay, seizures, and mild microcephaly (&#x2212;2.6&#x2009;SD) (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1b</xref>). Brain imaging showed central and cortical atrophy prominent in the temporal lobes (Table&#xA0;<xref rid="MOESM1" ref-type="media">S1</xref>). Exome sequencing identified a homozygous 3-base-pair deletion in exon 3 of <italic>EXOC7</italic> that removes a serine at position 48 (NC_000017.10:g.74097928_74097930delGAT (hg19), Ser48del, Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1b</xref>). This variant is heterozygous in 2/276,426 alleles from normal controls (frequency&#x2009;=&#x2009;7.24&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup>) and never homozygous (gnomAD), and segregates perfectly with disease. Recent work presents two important roles for EXOC7&#x2019;s N-terminal domain, (1) binding to EXOC8 to promote exocyst complex assembly<sup><xref ref-type="bibr" rid="CR30">30</xref></sup> and (2) binding to Wave regulatory complex for cell migration.<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> As Ser48 is located in this region, its deletion could disrupt these functions, consistent with it being a pathogenic variant.</p>
+        <p id="Par24">Family III is nonconsanguineous with two affected fetuses with mild microcephaly and cerebellar hypoplasia, confirmed by autopsy following termination of pregnancy (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1c</xref>, <xref rid="MOESM1" ref-type="media">S1</xref>F&#x2013;H, Table&#xA0;<xref rid="MOESM1" ref-type="media">S1</xref>). Exome and Sanger sequencing identified two compound heterozygous variants in <italic>EXOC7</italic> in the affected fetuses that segregated with disease. One variant is the same exon 7 splice variant found in family I (NC_000017.10:g.74087318T&gt;C [hg19], c.809&#x2013;2A&gt;G, Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1c</xref>). The second variant is an in-frame deletion of 15&#x2009;bp that removes five amino acids in exon 10 (NM_001145297.2: c.1212_1226delTGGGCTGATGCTTGA, Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1c</xref>, <xref rid="MOESM1" ref-type="media">S3</xref>). This variant is absent from normal controls (gnomAD).</p>
+        <p id="Par25">Family IV is consanguineous with three siblings affected with recessively inherited seizures, intellectual disability, and developmental delay (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1d</xref>). Brain imaging showed atrophy in two of the three affected siblings (Table&#xA0;<xref rid="MOESM1" ref-type="media">S1</xref>). Homozygosity mapping identified a single linkage region on chromosome 17 with the maximum possible LOD score of 2.9 (Fig.&#xA0;<xref rid="MOESM1" ref-type="media">S2B</xref>). Exome sequencing identified a homozygous missense variant in exon 15 of <italic>EXOC7</italic> within the linkage region (NC_000017.10:g.74081807C&gt;T [hg19], Ala523Thr, Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1d</xref>). This variant is heterozygous in 2/277,066 alleles from normal controls (frequency&#x2009;=&#x2009;7.22&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup>) and never homozygous (gnomAD), and segregates perfectly with disease. Alanine 523 is a highly conserved amino acid that is conserved from humans to zebrafish.</p>
+        <p id="Par26">Family V exhibits recessively inherited global developmental delay with regression, seizures, and microcephaly in three daughters of consanguineous parents (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1e</xref>, <xref rid="MOESM1" ref-type="media">S1B&#x2013;E</xref>). Brain imaging showed atrophy in all three affected individuals (Table&#xA0;<xref rid="MOESM1" ref-type="media">S1</xref>). Homozygosity mapping identified multiple linkage regions with a maximum possible LOD score of 2.5, including a large region on chromosome 1 (Fig.&#xA0;<xref rid="MOESM1" ref-type="media">S2C</xref>). Exome sequencing identified a homozygous 2-base-pair deletion in exon 1 of <italic>EXOC8</italic> in the linkage region (NC_000001.10:g.231471676_231471677delCT (hg19), Asp607Ter, Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1e</xref>), which is absent from normal controls (gnomAD). This frameshifting deletion creates a premature stop codon at amino acid 607, short of the full-length protein (725 aa), and segregates perfectly with disease in this family. One additional homozygous variant was detected in the family (stop-gain in <italic>RP1L1</italic>). In gnomAD, this variant is present as a homozygote in one individual and <italic>RP1L1</italic> is associated with adult-onset retinitis pigmentosum (OMIM 613587), so this variant is unlikely to contribute to microcephaly in this family.</p>
+        <p id="Par27">In total, we report four novel missense and splice site variants in <italic>EXOC7</italic> and one novel truncating variant in <italic>EXOC8</italic> in families with a recessive syndrome of brain atrophy, seizures, and developmental delay, and in more severe cases microcephaly and infantile death (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). The presence of cerebral atrophy in all families indicates neurodegeneration and suggests <italic>EXOC7</italic> and <italic>EXOC8</italic> are required for neuronal survival. Loss-of-function variants in <italic>EXOC7</italic> have not been previously linked to human disease, and we have recently reported one homozygous missense variant in <italic>EXOC8</italic> in a single case of Joubert syndrome.<sup><xref ref-type="bibr" rid="CR2">2</xref></sup></p>
+      </sec>
+      <sec id="Sec18">
+        <title><italic>EXOC7</italic> splice variant disrupts mRNA splicing patterns and reduces protein expression</title>
+        <p id="Par28"><italic>EXOC7</italic> is an alternatively spliced gene with 5 verified transcripts;<sup><xref ref-type="bibr" rid="CR32">32</xref></sup> three of which include exon 7. We generated a minigene assay to model the exon 7 splice acceptor variant found in both families I and III and found this variant disrupts splicing and decreases EXOC7 protein level. The minigene was constructed using 5&#x2009;kb of genomic DNA from the human <italic>EXOC7</italic> locus spanning exon 6 to exon 9 (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>). Reverse transcription PCR (RT-PCR) of mRNA transcribed from the minigene plasmid expressed in mouse N2A cells revealed three splicing disruptions caused by the human variant (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>). First, cDNA encoding a high-abundance transcript (including exons 6, 7, and 9) was isolated from wild-type minigene but completely absent from the variant (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>). A low-abundance larger product that could not be subcloned for sequencing was found in wild-type and likely encodes a transcript including exons 6, 7, 8, and 9 (*, Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>). Second, two novel out-of-frame splice forms that are predicted to encode early truncations were found exclusively in variant minigene cDNA (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>). Form A splices in the last 37 bases of intron 6 causing a frameshift that is predicted to create a premature stop codon at amino acid 286, well short of the full-length protein of 684 amino acids. Form B splices out the first 14 bases of exon 7 causing a frameshift, predicted to create a premature stop codon at amino acid 290. An isoform that skips exon 7 and includes exons 6 and 9 was observed in both wild-type and variant minigenes. These minigene results show that the variant disrupts <italic>EXOC7</italic> mRNA splicing. To assess the variant&#x2019;s effect on EXOC7 protein we mutated a HAP1 cell line to encode the patient variant (hemizygous). Immunoblot of EXOC7 protein showed reduced expression in variant HAP1 cells (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b, c</xref>). We detected two isoforms: (1) a larger isoform was significantly reduced by 50% (two-tailed <italic>t</italic> test, <italic>p</italic>&#x2009;=&#x2009;0.045) and (2) a smaller isoform showed a trend towards reduction (two-tailed <italic>t</italic> test, <italic>p</italic>&#x2009;=&#x2009;0.088). Together, these results support the pathogenicity of this variant.<fig id="Fig2"><label>Fig. 2</label><caption><title><italic>EXOC7</italic> exon 7 splice acceptor variant disrupts splicing.</title><p>(<bold>a</bold>) Top, diagram of <italic>EXOC7</italic> human minigene construct with splice acceptor variant. Blue arrows mark reverse transcription polymerase chain reaction (RT-PCR) primers used to generate complementary DNA (cDNA) products shown in gel image. Arrows from each band in gel point to splicing diagram determined by Sanger sequencing of the cDNA. Wild-type (WT) minigene generated two in-frame isoforms (left), whereas variant minigene generated one in-frame isoform and two novel out-of-frame isoforms (right). Two variant isoforms encode novel stop codons that lead to premature protein truncation. Asterisk (*) indicates low-abundance product that could not be subcloned for sequencing. (<bold>b</bold>) Immunoblot of EXOC7 protein in WT and variant HAP1 cells showing reduction of two EXOC7 isoforms. GAPDH is a protein loading control. (<bold>c</bold>) Quantification of (<bold>b</bold>) showed significant 50% reduction of larger EXOC7 band (band 1, <italic>p</italic>&#x2009;=&#x2009;0.045), while the lower weight band (band 2) was not significantly reduced. <italic>P</italic> values calculated by two-tailed <italic>t</italic> test. Error bars represent SEM.</p></caption><graphic xlink:href="41436_2020_758_Fig2_HTML" id="d30e1598"/></fig></p>
+      </sec>
+      <sec id="Sec19">
+        <title><italic>EXOC7</italic> is highly expressed in developing cerebral cortex</title>
+        <p id="Par29"><italic>EXOC7</italic> is highly expressed in the developing human cortex, consistent with the affected individuals&#x2019; phenotypes. In situ hybridization using RNAscope in human fetal cortex showed abundant <italic>EXOC7</italic> expression in the ventricular zone (adjacent to the ventricle and coexpressing <italic>VIM</italic>), the outer subventricular zone (coexpressing <italic>TBR2</italic>) and in the cortical plate (adjacent to the pial surface) (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a, b</xref>). Similarly, <italic>Exoc7</italic> is expressed in developing mouse cortex (MGI). RNA sequencing analysis of human fetal cortex<sup><xref ref-type="bibr" rid="CR33">33</xref></sup> confirms this expression pattern with expression in the ventricular zone and the inner and outer subventricular zones at a similar level as <italic>ASPM</italic>, a canonical microcephaly gene, and in the cortical plate (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3c</xref>). <italic>EXOC7</italic> expression in both progenitors and postmitotic neurons suggests it has important roles in both cell types during cortical development. Notably, exon 7 of <italic>EXOC7</italic>, which contains a splice acceptor variant in families I and III, is differentially spliced in cortical progenitors compared with postmitotic cortical neurons. Using a previously published method,<sup><xref ref-type="bibr" rid="CR27">27</xref></sup> we identified differentially spliced exons in the developing cortex with RNA sequencing of separated cortical progenitors and postmitotic neurons isolated from both developing mouse and human brain tissue. During fetal human cortical development (GW15), exon 7 is included in 93% of transcripts from the cortical plate and 47% of transcripts from ventricular zone (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3d</xref>). Similarly, during cortical development in mice (E14.5), exon 7 is included in 87% of transcripts isolated from the cortical plate and 35% of transcripts from the ventricular zone (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3d</xref>). The role of this differential splicing in the regulation of <italic>EXOC7</italic> function in development is unknown, but our evidence that the splicing variant identified in families I and III alters this differential expression, by eliminating expression of the exon 7 included isoform (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2</xref>), suggests this variant is pathogenic by disrupting cortical development.<fig id="Fig3"><label>Fig. 3</label><caption><title><italic>EXOC7</italic> is highly expressed in developing cortex.</title><p>(<bold>a</bold>) Diagram of cortical section of human fetal cortex indicating locations of RNAscope imaging in (<bold>b</bold>) and RNA sequencing in (<bold>c</bold>). (<bold>b</bold>) RNAscope imaging of fetal human cortex shows <italic>EXOC7</italic> expression in VZ and OSVZ, two progenitor zones, and in CP, the location of postmitotic neurons. (<bold>c</bold>) <italic>EXOC7</italic> is highly expressed in developing human cortex and shown in comparison with <italic>ASPM</italic>. Expression levels measured based on RNA sequencing.<sup><xref ref-type="bibr" rid="CR33">33</xref></sup> (<bold>d</bold>) RNA sequencing data from developing human fetal cortex (GW15) and mouse cortex (E14.5) showing differential inclusion of exon 7 in CP vs. VZ. <italic>FPKM</italic> fragments per kilobase of transcript per million mapped reads.</p></caption><graphic xlink:href="41436_2020_758_Fig3_HTML" id="d30e1704"/></fig></p>
+      </sec>
+      <sec id="Sec20">
+        <title><italic>Exoc7</italic> is essential for vertebrate embryonic development</title>
+        <p id="Par30">EXOC7 protein is highly conserved among vertebrates (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>). To further characterize the function of <italic>EXOC7</italic> in brain development, we examined <italic>Exoc7</italic> loss in both zebrafish and mouse. Mice deficient for <italic>Exoc7</italic> have been created by Lexicon Pharmaceuticals and are reported to be homozygous lethal (personal communication). This is consistent with the phenotype for loss-of-function variants in other exocyst components also reported to be early embryonic lethal,<sup><xref ref-type="bibr" rid="CR34">34</xref>,<xref ref-type="bibr" rid="CR35">35</xref></sup> and suggests that the three human alleles identified retain some function and are partial loss-of-function.<fig id="Fig4"><label>Fig. 4</label><caption><title><italic>Exoc7</italic> is essential for zebrafish telencephalon development.</title><p>(<bold>a</bold>) Exoc7 amino acid sequence is highly conserved between human, mice, and zebrafish. (<bold>b</bold>) <italic>exoc7</italic> 1-bp frameshift deletion variant in exon 5 is confirmed by DNA sequencing and predicted to cause a frameshift and subsequently a protein truncation through a premature stop codon at amino acid 186. <italic>gRNA</italic> guide RNA. (<bold>c</bold>) <italic>exoc7</italic> homozygous mutant fish have gross developmental abnormalities by 5 dpf, notably small eyes and head edema. Green line shows measurement of adjusted head diameter calculated by subtracting edema (red lines). (<bold>d</bold>) Heterozygous <italic>exoc7</italic> zebrafish crosses generated mutant fish (small eye/edema or dead) at expected Mendelian ratio. Genotyping confirmed that phenotypically mutant larvae were homozygous for the <italic>exoc7</italic> variant. (<bold>e</bold>) Quantification of adjusted head diameter, which is significantly reduced in homozygous mutant fish. (<bold>f</bold>) Body length is not significantly changed in homozygous mutant fish. (<bold>g</bold>) Toluidine blue stain of 5-dpf wild-type and <italic>exoc7</italic> mutant zebrafish. (<bold>h</bold>) Apoptag staining shows a significant increase of apoptotic cells in the <italic>exoc7</italic> mutant telencephalon. (<bold>i</bold>) Immunohistochemical staining of neuronal progenitors using Sox2. The number of Sox2+ progenitors is significantly decreased in the <italic>exoc7</italic> mutant telencephalon. <italic>P</italic> values calculated with two-tailed <italic>t</italic> test. Error bars represent SEM.</p></caption><graphic xlink:href="41436_2020_758_Fig4_HTML" id="d30e1804"/></fig></p>
+        <p id="Par31">To facilitate analysis of <italic>Exoc7</italic> function during development, we took advantage of the ease of genome editing in the zebrafish. We created an <italic>exoc7</italic> mutant zebrafish with predicted loss of function of the encoded protein that allowed us to examine the function of <italic>exoc7</italic> in development. We used CRISPR/Cas9 mutagenesis to create a 1-bp deletion in exon 5 of <italic>exoc7</italic> that generates a predicted frameshift and subsequent nonsense&#xA0;variant. This variant is predicted to lead to a prematurely truncated protein 185 amino acids long, well short of the full-length peptide at 735 (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b</xref>).</p>
+        <p id="Par32">We found that <italic>exoc7</italic> is essential for zebrafish development. At 5 dpf, approximately 25% of progeny from a heterozygous incross showed head edema and small eyes, consistent with Mendelian inheritance (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4c, d, g</xref>). Genotyping confirmed that these phenotypes were associated with loss of <italic>exoc7</italic> and demonstrated that the phenotype was highly penetrant (Fig.&#xA0;<xref rid="MOESM1" ref-type="media">S5A</xref>). The mutant fish from the incross (edema and small eyes) die shortly after day 5, showing <italic>exoc7</italic> is essential for early zebrafish survival.</p>
+        <p id="Par33">Quantification of the small eye phenotype revealed that the eye area was reduced by 26% in mutant fish (two-tailed <italic>t</italic> test, 3.6&#x2009;&#xD7;&#x2009;10<sup>&#x2212;24</sup>, Fig.&#xA0;<xref rid="MOESM1" ref-type="media">S5B</xref>). Broader characterization of the phenotype in <italic>exoc7</italic> mutant fish revealed general defects in head size although this was partially masked with the present edema. To account for the changes caused by the edema, we measured the distance from the outside of one eye to the other and then subtracted the regions of edema (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4c</xref>). Even with this conservative measure, head diameter was 4% smaller in <italic>exoc7</italic> null fish compared with clutch controls (two-tailed <italic>t</italic> test, <italic>p</italic>&#x2009;=&#x2009;6.8&#x2009;&#xD7;&#x2009;10<sup>&#x2212;5</sup>, Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4e</xref>). We detected no difference in body length in mutant fish, suggesting that these defects are specifically caused by the loss of <italic>exoc7</italic> and not simply by developmental delay or allometric changes (two-tailed <italic>t</italic> test, <italic>p</italic>&#x2009;=&#x2009;0.21, Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4f</xref>).</p>
+      </sec>
+      <sec id="Sec21">
+        <title>Cellular defects in <italic>exoc7</italic> null developing telencephalon</title>
+        <p id="Par34">To identify cellular mechanisms underlying microphthalmia and microcephaly in <italic>exoc7</italic> mutant zebrafish (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4g</xref>), we measured apoptosis and counted progenitor cells in the developing telencephalon. At 5 dpf, we found a threefold increase in the number of apoptotic cells (TUNEL stain) in the telencephalon of <italic>exoc7</italic> null zebrafish (control <italic>n</italic>&#x2009;=&#x2009;5, <italic>exoc7</italic> knockout [KO] <italic>n</italic>&#x2009;=&#x2009;5, two-tailed <italic>t</italic> test, <italic>p</italic>&#x2009;=&#x2009;0.0023, Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4h</xref>). At the same age, we also found a 53% decrease in the number of Sox2-positive telencephalon progenitor cells (control <italic>n</italic>&#x2009;=&#x2009;4, <italic>exoc7</italic> KO <italic>n</italic>&#x2009;=&#x2009;5, two-tailed <italic>t</italic> test, <italic>p</italic>&#x2009;=&#x2009;0.0019, Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4i</xref>). The number of Sox2-positive neuroprogenitors was also decreased in the retina of <italic>exoc7</italic> null fish, with a 76% decrease compared with controls (control <italic>n</italic>&#x2009;=&#x2009;11, <italic>exoc7</italic> KO <italic>n</italic>&#x2009;=&#x2009;10, two-tailed <italic>t</italic> test, <italic>p</italic>&#x2009;=&#x2009;3.0&#x2009;&#xD7;&#x2009;10<sup>&#x2212;6</sup>, Fig.&#xA0;<xref rid="MOESM1" ref-type="media">S5C</xref>). We examined Hoechst-stained mitotic figures in developing telencephalon and did not find a detectable increase in abnormal mitoses in exoc7 null fish, suggesting normal cytokinesis (Fig.&#xA0;<xref rid="MOESM1" ref-type="media">S5E</xref>). Together, these results highlight specific cellular defects that drive microcephaly in zebrafish in the absence of <italic>exoc7</italic>, and further suggest that the atrophy and microcephaly observed in humans with <italic>EXOC7</italic> variants reflect loss of proliferating progenitor cells and postmitotic neurons.</p>
+      </sec>
+    </sec>
+    <sec id="Sec22" sec-type="discussion">
+      <title>DISCUSSION</title>
+      <p id="Par35">We identified four independent presumably hypomorphic variants in <italic>EXOC7</italic> and one predicted loss-of-function variant in <italic>EXOC8</italic> causing a recessive human brain development disorder characterized by brain atrophy, seizures, and developmental delay and in more severe cases, microcephaly and infantile death. We show that <italic>EXOC7</italic>, a member of the mammalian exocyst complex, is highly expressed in developing human cortex. In addition, a zebrafish model of <italic>Exoc7</italic> deficiency recapitulates the human disorder with increased apoptosis and decreased progenitor cells during telencephalon development, suggesting that the brain atrophy in human cases reflects neuronal degeneration. These findings provide key inroads into understanding the role of the exocyst complex in normal cortical development and complex neurodegenerative disorders.</p>
+      <sec id="Sec23">
+        <title>Exocyst variants cause a range of brain development disorders</title>
+        <p id="Par36">Our work represents the first systematic genetic analysis of the role of exocyst components in human genetic disease. The four distinct alleles that we describe in <italic>EXOC7</italic> show a range of severity consistent with the degree to which they likely damage the protein, with the splicing variant being most severe, a 5&#x2013;amino acid deletion having similar severity, a 1&#x2013;amino acid deletion being less severe, and an amino acid substitution being the mildest. However, all families share central nervous system (CNS) disease and specifically cortical atrophy.</p>
+        <p id="Par37">We also report a null variant in <italic>EXOC8</italic> associated with severe phenotypes within this spectrum. Interestingly, we previously reported that a single affected individual with Joubert syndrome had a homozygous missense variant (E265G) in <italic>EXOC8</italic>.<sup><xref ref-type="bibr" rid="CR2">2</xref></sup> This variant occurred at a highly conserved amino acid and was predicted to be damaging to protein function. Careful clinical review of the affected individuals here confirms that they do not have classic signs of Joubert syndrome. It is possible that these two alleles, E265G and Asp607Ter, lead to different clinical syndromes based on differing&#xA0;variant severity, where a hypomorphic missense&#xA0;variant causes Joubert syndrome and a null variant causes cortical atrophy and microcephaly. Consistent with this idea, homozygous null <italic>Exoc8</italic> mice are reported to have early embryonic lethality (MGI, Mouse Phenotyping Consortium). Here we report that loss-of-function variants in either <italic>EXOC7</italic> or <italic>EXOC8</italic> lead to highly overlapping clinical features, suggesting perhaps that disruption of the exocyst complex broadly impairs normal cortical development. This is supported by previous work reporting an individual with Meckel&#x2013;Gruber syndrome and microcephaly had a homozygous missense variant (Gln578Arg) in another exocyst component, <italic>EXOC4</italic>.<sup><xref ref-type="bibr" rid="CR3">3</xref></sup> The exact mechanism for exocyst dysfunction causing microcephaly and cortical atrophy is unknown, but previous work and our current results suggest the exocyst may be essential for multiple molecular processes during cortical development. Joubert syndrome and Meckel&#x2013;Gruber syndrome both have features of ciliopathies, and the exocyst is reported to localize to the primary cilium where some members are required for normal ciliogenesis (<italic>EXOC5</italic><sup><xref ref-type="bibr" rid="CR36">36</xref></sup>). In developing zebrafish, a ciliopathy phenotype of abdominal or cardiac edema, upward tail curvature, and small eyes has been observed with loss of <italic>exoc5</italic>,<sup><xref ref-type="bibr" rid="CR37">37</xref></sup> and knockdown of Joubert syndrome gene <italic>arl13b</italic><sup><xref ref-type="bibr" rid="CR38">38</xref></sup> (OMIM 612291). We find that <italic>exoc7</italic> mutant zebrafish have a phenotype with some ciliopathy features including small eyes with edema but missing other features such as abdominal edema or upward tail curvature (Fig.&#xA0;<xref rid="MOESM1" ref-type="media">S5D</xref>). Further investigation will be required to determine if loss of <italic>exoc7</italic> causes mild cilia dysfunction. Interestingly, the patients we report with <italic>EXOC7</italic> hypomorphic variants do not have classic ciliopathy features. We find that loss of <italic>EXOC7</italic> leads to apoptosis, cell loss, and atrophy in the developing brain and further studies will determine which cellular processes (or combination thereof) are disrupted including RGC polarity and cilia function.</p>
+      </sec>
+      <sec id="Sec24">
+        <title>Exocyst complex in cortical development</title>
+        <p id="Par38">Our results agree with previous studies of <italic>Exoc7</italic> function in neurons and add new details for its role in brain development. Previous work reported that expression of dominant negative <italic>Exoc7</italic> in developing mouse cortex impaired neuron migration<sup><xref ref-type="bibr" rid="CR39">39</xref></sup> and in vitro <italic>Exoc7</italic> knockdown in cultured neurons disrupted polarization and prevented process outgrowth.<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup> A conditional mouse knockout of <italic>Arp2</italic>/3, an actin binding protein that interacts with <italic>Exoc7</italic>, in neuroprogenitors showed cortical disorganization characterized by radial glia process truncation, impaired neuron migration, and abundant apoptosis.<sup><xref ref-type="bibr" rid="CR40">40</xref></sup> Here we find <italic>exoc7</italic> deficiency in the zebrafish developing telencephalon is also associated with abundant apoptosis.</p>
+        <p id="Par39">We report the first identification of human variants in an exocyst member, <italic>EXOC7</italic>, and show these variants and a null variant in another exocyst member, <italic>EXOC8</italic>, cause a neurodevelopmental syndrome of brain atrophy, seizures, and developmental delay with microcephaly and infantile death. This study exposes key, shared properties of two exocyst components in brain development. Our <italic>exoc7</italic> loss-of-function zebrafish model provides a new tool that can shed light on the mechanisms of the exocyst complex in the developing brain supporting the role of <italic>EXOC7</italic> as the cause of this complex neurological disorder.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary information</title>
+      <sec id="Sec25">
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="41436_2020_758_MOESM1_ESM.docx"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <title>Supplementary information</title>
+      <p>The online version of this article (10.1038/s41436-020-0758-9) contains supplementary material, which is available to authorized users.</p>
+    </sec>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank the families for their invaluable participation in our study. M.E.C. was supported by F30 MH102909, Howard Hughes Medical Institute Medical Student Fellowship, and Nancy Lurie Marks Family Foundation Medical Student Fellowship. C.A.W. was supported by R01 NS35129 and R01NS032457 from the National Institute of Neurological Disorders and Stroke (NINDS), U01MH106883 from the National Institute of Mental Health (NIMH), and the Allen Discovery Center program through The Paul G. Allen Frontiers Group. C.A.W. and J.G.G. are Investigators of the Howard Hughes Medical Institute. X.Z. was supported by K01MH109747 from the NIMH. K.H. and M.P.H. were supported in part through funding from Children&#x2019;s Hospital Orthopaedic Surgery Foundation. This work was also supported by the Broad Center for Mendelian Genomics (UM1 HG008900) funded by the National Human Genome Research Institute (NHGRI). E.M.D. was supported by the National Institute of Biomedical Imaging and Bioengineering (NIBIB) under award 5T32EB1680. R.S.S. was supported by NINDS (F32NS100033801, K99NS112604). J.A., N.C., and L.B. were supported by the French Health Ministry (PNMR2-PNMR3).</p>
+    </ack>
+    <notes id="FPar1" notes-type="COI-statement">
+      <title>Disclosure</title>
+      <p id="Par40">The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Polgar</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Fogelgren</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of cell polarity by exocyst-mediated trafficking</article-title>
+          <source>Cold Spring Harb Perspect Biol.</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <fpage>a031401.</fpage>
+          <pub-id pub-id-type="doi">10.1101/cshperspect.a031401</pub-id>
+          <pub-id pub-id-type="pmid">28264817</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dixon-Salazar</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Silhavy</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Udpa</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Exome sequencing can improve diagnosis and alter patient management</article-title>
+          <source>Sci Transl Med</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>138ra178</fpage>
+          <pub-id pub-id-type="doi">10.1126/scitranslmed.3003544</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shaheen</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Faqeih</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Alshammari</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genomic analysis of Meckel&#x2013;Gruber syndrome in Arabs reveals marked genetic heterogeneity and novel candidate genes</article-title>
+          <source>Eur J Hum Genet</source>
+          <year>2013</year>
+          <volume>21</volume>
+          <fpage>762</fpage>
+          <lpage>768</lpage>
+          <pub-id pub-id-type="doi">10.1038/ejhg.2012.254</pub-id>
+          <pub-id pub-id-type="pmid">23169490</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dupraz</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Grassi</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bernis</surname>
+              <given-names>ME</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The TC10-Exo70 complex is essential for membrane expansion and axonal specification in developing neurons</article-title>
+          <source>J Neurosci</source>
+          <year>2009</year>
+          <volume>29</volume>
+          <fpage>13292</fpage>
+          <lpage>13301</lpage>
+          <pub-id pub-id-type="doi">10.1523/JNEUROSCI.3907-09.2009</pub-id>
+          <pub-id pub-id-type="pmid">19846717</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujita</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Koinuma</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Yasuda</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>GTP hydrolysis of TC10 promotes neurite outgrowth through exocytic fusion of Rab11- and L1-containing vesicles by releasing exocyst component Exo70</article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <fpage>e79689</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0079689</pub-id>
+          <pub-id pub-id-type="pmid">24223996</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Exo70 stimulates the Arp2/3 complex for lamellipodia formation and directional cell migration</article-title>
+          <source>Curr Biol</source>
+          <year>2012</year>
+          <volume>22</volume>
+          <fpage>1510</fpage>
+          <lpage>1515</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cub.2012.05.055</pub-id>
+          <pub-id pub-id-type="pmid">22748316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lehtinen</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Sessa</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The apical complex couples cell fate and cell survival to cerebral cortical development</article-title>
+          <source>Neuron</source>
+          <year>2010</year>
+          <volume>66</volume>
+          <fpage>69</fpage>
+          <lpage>84</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neuron.2010.03.019</pub-id>
+          <pub-id pub-id-type="pmid">20399730</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Costa</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Lepier</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Schroeder</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Gotz</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Par-complex proteins promote proliferative progenitor divisions in the developing mouse cerebral cortex</article-title>
+          <source>Development</source>
+          <year>2008</year>
+          <volume>135</volume>
+          <fpage>11</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.009951</pub-id>
+          <pub-id pub-id-type="pmid">18032449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reiner</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Carrozzo</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Isolation of a Miller-Dieker lissencephaly gene containing G protein beta-subunit-like repeats</article-title>
+          <source>Nature</source>
+          <year>1993</year>
+          <volume>364</volume>
+          <fpage>717</fpage>
+          <lpage>721</lpage>
+          <pub-id pub-id-type="doi">10.1038/364717a0</pub-id>
+          <pub-id pub-id-type="pmid">8355785</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gleeson</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Allen</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Fox</surname>
+              <given-names>JW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Doublecortin, a brain-specific gene mutated in human X-linked lissencephaly and double cortex syndrome, encodes a putative signaling protein</article-title>
+          <source>Cell</source>
+          <year>1998</year>
+          <volume>92</volume>
+          <fpage>63</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(00)80899-5</pub-id>
+          <pub-id pub-id-type="pmid">9489700</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>des Portes</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Pinard</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Billuart</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A novel CNS gene required for neuronal migration and involved in X-linked subcortical laminar heterotopia and lissencephaly syndrome</article-title>
+          <source>Cell</source>
+          <year>1998</year>
+          <volume>92</volume>
+          <fpage>51</fpage>
+          <lpage>61</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(00)80898-3</pub-id>
+          <pub-id pub-id-type="pmid">9489699</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poirier</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Saillour</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Bahi-Buisson</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in the neuronal ss-tubulin subunit TUBB3 result in malformation of cortical development and neuronal migration defects</article-title>
+          <source>Hum Mol Genet</source>
+          <year>2010</year>
+          <volume>19</volume>
+          <fpage>4462</fpage>
+          <lpage>4473</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddq377</pub-id>
+          <pub-id pub-id-type="pmid">20829227</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Breuss</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Heng</surname>
+              <given-names>JI</given-names>
+            </name>
+            <name>
+              <surname>Poirier</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in the beta-tubulin gene TUBB5 cause microcephaly with structural brain abnormalities</article-title>
+          <source>Cell Rep</source>
+          <year>2012</year>
+          <volume>2</volume>
+          <fpage>1554</fpage>
+          <lpage>1562</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2012.11.017</pub-id>
+          <pub-id pub-id-type="pmid">23246003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poirier</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Lebrun</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Broix</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in TUBG1, DYNC1H1, KIF5C and KIF2A cause malformations of cortical development and microcephaly</article-title>
+          <source>Nat Genet</source>
+          <year>2013</year>
+          <volume>45</volume>
+          <fpage>639</fpage>
+          <lpage>647</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.2613</pub-id>
+          <pub-id pub-id-type="pmid">23603762</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lizarraga</surname>
+              <given-names>SB</given-names>
+            </name>
+            <name>
+              <surname>Margossian</surname>
+              <given-names>SP</given-names>
+            </name>
+            <name>
+              <surname>Harris</surname>
+              <given-names>MH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cdk5rap2 regulates centrosome function and chromosome segregation in neuronal progenitors</article-title>
+          <source>Development</source>
+          <year>2010</year>
+          <volume>137</volume>
+          <fpage>1907</fpage>
+          <lpage>1917</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.040410</pub-id>
+          <pub-id pub-id-type="pmid">20460369</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pagnamenta</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Murray</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Yoon</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A novel nonsense CDK5RAP2 mutation in a Somali child with primary microcephaly and sensorineural hearing loss</article-title>
+          <source>Am J Med Genet A</source>
+          <year>2012</year>
+          <volume>158A</volume>
+          <fpage>2577</fpage>
+          <lpage>2582</lpage>
+          <pub-id pub-id-type="doi">10.1002/ajmg.a.35558</pub-id>
+          <pub-id pub-id-type="pmid">22887808</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>WF</given-names>
+            </name>
+            <name>
+              <surname>Pomp</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Ben-Omran</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Katanin p80 regulates human cortical development by limiting centriole and cilia number</article-title>
+          <source>Neuron</source>
+          <year>2014</year>
+          <volume>84</volume>
+          <fpage>1240</fpage>
+          <lpage>1257</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neuron.2014.12.017</pub-id>
+          <pub-id pub-id-type="pmid">25521379</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mishra-Gorur</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Caglayan</surname>
+              <given-names>AO</given-names>
+            </name>
+            <name>
+              <surname>Schaffer</surname>
+              <given-names>AE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in KATNB1 cause complex cerebral malformations by disrupting asymmetrically dividing neural progenitors</article-title>
+          <source>Neuron</source>
+          <year>2014</year>
+          <volume>84</volume>
+          <fpage>1226</fpage>
+          <lpage>1239</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neuron.2014.12.014</pub-id>
+          <pub-id pub-id-type="pmid">25521378</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bond</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Mochida</surname>
+              <given-names>GH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ASPM is a major determinant of cerebral cortical size</article-title>
+          <source>Nat Genet</source>
+          <year>2002</year>
+          <volume>32</volume>
+          <fpage>316</fpage>
+          <lpage>320</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng995</pub-id>
+          <pub-id pub-id-type="pmid">12355089</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>TW</given-names>
+            </name>
+            <name>
+              <surname>Mochida</surname>
+              <given-names>GH</given-names>
+            </name>
+            <name>
+              <surname>Tischfield</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in WDR62, encoding a centrosome-associated protein, cause microcephaly with simplified gyri and abnormal cortical architecture</article-title>
+          <source>Nat Genet</source>
+          <year>2010</year>
+          <volume>42</volume>
+          <fpage>1015</fpage>
+          <lpage>1020</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.683</pub-id>
+          <pub-id pub-id-type="pmid">20890278</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O&#x2019;Neill</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Schoborg</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name>
+              <surname>Rusan</surname>
+              <given-names>NM</given-names>
+            </name>
+          </person-group>
+          <article-title>Same but different: pleiotropy in centrosome-related microcephaly</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2018</year>
+          <volume>29</volume>
+          <fpage>241</fpage>
+          <lpage>246</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.E17-03-0192</pub-id>
+          <pub-id pub-id-type="pmid">29382806</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bielas</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Silhavy</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Brancati</surname>
+              <given-names>F</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in INPP5E, encoding inositol polyphosphate-5-phosphatase E, link phosphatidyl inositol signaling to the ciliopathies</article-title>
+          <source>Nat Genet</source>
+          <year>2009</year>
+          <volume>41</volume>
+          <fpage>1032</fpage>
+          <lpage>1036</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.423</pub-id>
+          <pub-id pub-id-type="pmid">19668216</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thauvin-Robinet</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Lopez</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The oral-facial-digital syndrome gene C2CD3 encodes a positive regulator of centriole elongation</article-title>
+          <source>Nat Genet</source>
+          <year>2014</year>
+          <volume>46</volume>
+          <fpage>905</fpage>
+          <lpage>911</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.3031</pub-id>
+          <pub-id pub-id-type="pmid">24997988</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Muller</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Stoetzel</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Vincent</surname>
+              <given-names>MC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of 28 novel mutations in the Bardet-Biedl syndrome genes: the burden of private mutations in an extensively heterogeneous disease</article-title>
+          <source>Hum Genet</source>
+          <year>2010</year>
+          <volume>127</volume>
+          <fpage>583</fpage>
+          <lpage>593</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00439-010-0804-9</pub-id>
+          <pub-id pub-id-type="pmid">20177705</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scott</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Halees</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Itan</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Characterization of Greater Middle Eastern genetic variation for enhanced disease gene discovery</article-title>
+          <source>Nat Genet</source>
+          <year>2016</year>
+          <volume>48</volume>
+          <fpage>1071</fpage>
+          <lpage>1076</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.3592</pub-id>
+          <pub-id pub-id-type="pmid">27428751</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Essletzbichler</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Konopka</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Santoro</surname>
+              <given-names>F</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Megabase-scale deletion using CRISPR/Cas9 to generate a fully haploid human cell line</article-title>
+          <source>Genome Res</source>
+          <year>2014</year>
+          <volume>24</volume>
+          <fpage>2059</fpage>
+          <lpage>2065</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.177220.114</pub-id>
+          <pub-id pub-id-type="pmid">25373145</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>X</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cell-type-specific alternative splicing governs cell fate in the developing cerebral cortex</article-title>
+          <source>Cell</source>
+          <year>2016</year>
+          <volume>166</volume>
+          <fpage>1147</fpage>
+          <lpage>62 e1115</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2016.07.025</pub-id>
+          <pub-id pub-id-type="pmid">27565344</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lek</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Karczewski</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <name>
+              <surname>Minikel</surname>
+              <given-names>EV</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Analysis of protein-coding genetic variation in 60,706 humans</article-title>
+          <source>Nature</source>
+          <year>2016</year>
+          <volume>536</volume>
+          <fpage>285</fpage>
+          <lpage>291</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature19057</pub-id>
+          <pub-id pub-id-type="pmid">27535533</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bruce</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rybak</surname>
+              <given-names>AP</given-names>
+            </name>
+          </person-group>
+          <article-title>CYB5D2 requires heme-binding to regulate HeLa cell growth and confer survival from chemotherapeutic agents</article-title>
+          <source>PLoS ONE</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <fpage>e86435</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0086435</pub-id>
+          <pub-id pub-id-type="pmid">24466094</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mei</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cryo-EM structure of the exocyst complex</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <year>2018</year>
+          <volume>25</volume>
+          <fpage>139</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41594-017-0016-2</pub-id>
+          <pub-id pub-id-type="pmid">29335562</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biondini</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sadou-Dubourgnoux</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Paul-Gilloteaux</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Direct interaction between exocyst and Wave complexes promotes cell protrusions and motility</article-title>
+          <source>J Cell Sci</source>
+          <year>2016</year>
+          <volume>129</volume>
+          <fpage>3756</fpage>
+          <lpage>3769</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.187336</pub-id>
+          <pub-id pub-id-type="pmid">27591259</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Exo70 isoform switching upon epithelial-mesenchymal transition mediates cancer cell invasion</article-title>
+          <source>Dev Cell</source>
+          <year>2013</year>
+          <volume>27</volume>
+          <fpage>560</fpage>
+          <lpage>573</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.devcel.2013.10.020</pub-id>
+          <pub-id pub-id-type="pmid">24331928</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fietz</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Lachmann</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Brandl</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Transcriptomes of germinal zones of human and mouse fetal neocortex suggest a role of extracellular matrix in progenitor self-renewal</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2012</year>
+          <volume>109</volume>
+          <fpage>11836</fpage>
+          <lpage>11841</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1209647109</pub-id>
+          <pub-id pub-id-type="pmid">22753484</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mizuno</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Takami</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Daitoku</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Peri-implantation lethality in mice carrying megabase-scale deletion on 5qc3.3 is caused by Exoc1 null mutation</article-title>
+          <source>Sci Rep</source>
+          <year>2015</year>
+          <volume>5</volume>
+          <fpage>13632</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep13632</pub-id>
+          <pub-id pub-id-type="pmid">26346620</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Friedrich</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Hildebrand</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Soriano</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>The secretory protein Sec8 is required for paraxial mesoderm formation in the mouse</article-title>
+          <source>Dev Biol</source>
+          <year>1997</year>
+          <volume>192</volume>
+          <fpage>364</fpage>
+          <lpage>374</lpage>
+          <pub-id pub-id-type="doi">10.1006/dbio.1997.8727</pub-id>
+          <pub-id pub-id-type="pmid">9441674</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zuo</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Lipschutz</surname>
+              <given-names>JH</given-names>
+            </name>
+          </person-group>
+          <article-title>The exocyst protein Sec10 is necessary for primary ciliogenesis and cystogenesis in vitro</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2009</year>
+          <volume>20</volume>
+          <fpage>2522</fpage>
+          <lpage>2529</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.e08-07-0772</pub-id>
+          <pub-id pub-id-type="pmid">19297529</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lobo</surname>
+              <given-names>GP</given-names>
+            </name>
+            <name>
+              <surname>Fulmer</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The exocyst is required for photoreceptor ciliogenesis and retinal development</article-title>
+          <source>J Biol Chem</source>
+          <year>2017</year>
+          <volume>292</volume>
+          <fpage>14814</fpage>
+          <lpage>14826</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M117.795674</pub-id>
+          <pub-id pub-id-type="pmid">28729419</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Seixas</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>SY</given-names>
+            </name>
+            <name>
+              <surname>Polgar</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Arl13b and the exocyst interact synergistically in ciliogenesis</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2016</year>
+          <volume>27</volume>
+          <fpage>308</fpage>
+          <lpage>320</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.e15-02-0061</pub-id>
+          <pub-id pub-id-type="pmid">26582389</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Letinic</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Sebastian</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Toomre</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Rakic</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Exocyst is involved in polarized cell migration and cerebral cortical development</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2009</year>
+          <volume>106</volume>
+          <fpage>11342</fpage>
+          <lpage>11347</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0904244106</pub-id>
+          <pub-id pub-id-type="pmid">19549839</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Chou</surname>
+              <given-names>FS</given-names>
+            </name>
+            <name>
+              <surname>Ramachandran</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Crucial roles of the Arp2/3 complex during mammalian corticogenesis</article-title>
+          <source>Development</source>
+          <year>2016</year>
+          <volume>143</volume>
+          <fpage>2741</fpage>
+          <lpage>2752</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.130542</pub-id>
+          <pub-id pub-id-type="pmid">27385014</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

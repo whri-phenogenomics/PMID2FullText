@@ -1,0 +1,2429 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">0410462</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nature</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nature</journal-id>
+      <journal-title-group>
+        <journal-title>Nature</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0028-0836</issn>
+      <issn pub-type="epub">1476-4687</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">32499645</article-id>
+      <article-id pub-id-type="pmc">7334047</article-id>
+      <article-id pub-id-type="doi">10.1038/s41586-020-2265-1</article-id>
+      <article-id pub-id-type="manuscript">EMS85907</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Whole genome sequencing of a sporadic primary immunodeficiency cohort</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thaventhiran</surname>
+            <given-names>James E. D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="author-notes" rid="FN2">41</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Allen</surname>
+            <given-names>Hana Lango</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref ref-type="fn" rid="FN1">7</xref>
+          <xref ref-type="author-notes" rid="FN2">41</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Burren</surname>
+            <given-names>Oliver S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="author-notes" rid="FN2">41</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rae</surname>
+            <given-names>William</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="author-notes" rid="FN2">41</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Greene</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref ref-type="aff" rid="A7">8</xref>
+          <xref ref-type="author-notes" rid="FN10">44</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Staples</surname>
+            <given-names>Emily</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="author-notes" rid="FN10">44</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Zinan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A8">9</xref>
+          <xref ref-type="author-notes" rid="FN10">44</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Farmery</surname>
+            <given-names>James H. R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">10</xref>
+          <xref ref-type="author-notes" rid="FN10">44</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Simeoni</surname>
+            <given-names>Ilenia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rivers</surname>
+            <given-names>Elizabeth</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">11</xref>
+          <xref ref-type="aff" rid="A11">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Maimaris</surname>
+            <given-names>Jesmeen</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">11</xref>
+          <xref ref-type="aff" rid="A11">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Penkett</surname>
+            <given-names>Christopher J</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stephens</surname>
+            <given-names>Jonathan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Deevi</surname>
+            <given-names>Sri V.V.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sanchis-Juan</surname>
+            <given-names>Alba</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gleadall</surname>
+            <given-names>Nicholas S</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thomas</surname>
+            <given-names>Moira J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A12">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sargur</surname>
+            <given-names>Ravishankar B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A13">14</xref>
+          <xref ref-type="aff" rid="A14">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gordins</surname>
+            <given-names>Pavels</given-names>
+          </name>
+          <xref ref-type="aff" rid="A15">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Baxendale</surname>
+            <given-names>Helen E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A16">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Brown</surname>
+            <given-names>Matthew</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tuijnenburg</surname>
+            <given-names>Paul</given-names>
+          </name>
+          <xref ref-type="aff" rid="A17">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Worth</surname>
+            <given-names>Austen</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">11</xref>
+          <xref ref-type="aff" rid="A11">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hanson</surname>
+            <given-names>Steven</given-names>
+          </name>
+          <xref ref-type="aff" rid="A18">19</xref>
+          <xref ref-type="aff" rid="A19">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Linger</surname>
+            <given-names>Rachel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Buckland</surname>
+            <given-names>Matthew S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A18">19</xref>
+          <xref ref-type="aff" rid="A19">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rayner-Matthews</surname>
+            <given-names>Paula J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gilmour</surname>
+            <given-names>Kimberly C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">11</xref>
+          <xref ref-type="aff" rid="A11">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Samarghitean</surname>
+            <given-names>Crina</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Seneviratne</surname>
+            <given-names>Suranjith L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A18">19</xref>
+          <xref ref-type="aff" rid="A19">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sansom</surname>
+            <given-names>David M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A18">19</xref>
+          <xref ref-type="aff" rid="A19">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lynch</surname>
+            <given-names>Andy G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">10</xref>
+          <xref ref-type="aff" rid="A20">21</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Megy</surname>
+            <given-names>Karyn</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ellinghaus</surname>
+            <given-names>Eva</given-names>
+          </name>
+          <xref ref-type="aff" rid="A21">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ellinghaus</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="A22">23</xref>
+          <xref ref-type="aff" rid="A23">24</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jorgensen</surname>
+            <given-names>Silje F.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A24">25</xref>
+          <xref ref-type="aff" rid="A25">26</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Karlsen</surname>
+            <given-names>Tom H</given-names>
+          </name>
+          <xref ref-type="aff" rid="A21">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stirrups</surname>
+            <given-names>Kathleen E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cutler</surname>
+            <given-names>Antony J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A26">27</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kumararatne</surname>
+            <given-names>Dinakantha S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A27">28</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chandra</surname>
+            <given-names>Anita</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A27">28</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Edgar</surname>
+            <given-names>J. David M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A28">29</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Herwadkar</surname>
+            <given-names>Archana</given-names>
+          </name>
+          <xref ref-type="aff" rid="A29">30</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cooper</surname>
+            <given-names>Nichola</given-names>
+          </name>
+          <xref ref-type="aff" rid="A30">31</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Grigoriadou</surname>
+            <given-names>Sofia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A31">32</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Huissoon</surname>
+            <given-names>Aarnoud</given-names>
+          </name>
+          <xref ref-type="aff" rid="A32">33</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Goddard</surname>
+            <given-names>Sarah</given-names>
+          </name>
+          <xref ref-type="aff" rid="A33">34</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jolles</surname>
+            <given-names>Stephen</given-names>
+          </name>
+          <xref ref-type="aff" rid="A34">35</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schuetz</surname>
+            <given-names>Catharina</given-names>
+          </name>
+          <xref ref-type="aff" rid="A35">36</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Boschann</surname>
+            <given-names>Felix</given-names>
+          </name>
+          <xref ref-type="aff" rid="A36">37</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <collab>NBR-RD PID Consortium</collab>
+        </contrib>
+        <contrib contrib-type="author">
+          <collab>NIHR BioResource</collab>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lyons</surname>
+            <given-names>Paul A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hurles</surname>
+            <given-names>Matthew E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A37">38</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Savic</surname>
+            <given-names>Sinisa</given-names>
+          </name>
+          <xref ref-type="aff" rid="A38">39</xref>
+          <xref ref-type="aff" rid="A39">40</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Burns</surname>
+            <given-names>Siobhan O.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A18">19</xref>
+          <xref ref-type="aff" rid="A19">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kuijpers</surname>
+            <given-names>Taco W.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A17">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Turro</surname>
+            <given-names>Ernest</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref ref-type="aff" rid="A7">8</xref>
+          <xref ref-type="author-notes" rid="FN3">43</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ouwehand</surname>
+            <given-names>Willem H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A38">39</xref>
+          <xref ref-type="author-notes" rid="FN3">43</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thrasher</surname>
+            <given-names>Adrian J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">8</xref>
+          <xref ref-type="aff" rid="A8">9</xref>
+          <xref ref-type="author-notes" rid="FN3">43</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Smith</surname>
+            <given-names>Kenneth G. C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+<label>1</label>Cambridge Institute of Therapeutic Immunology and Infectious Disease, Jeffrey Cheah Biomedical Centre, Cambridge Biomedical Campus, Cambridge, UK</aff>
+      <aff id="A2">
+<label>2</label>Department of Medicine, University of Cambridge School of Clinical Medicine, Cambridge Biomedical Campus, Cambridge, UK</aff>
+      <aff id="A3">
+<label>3</label>Medical Research Council Toxicology Unit, School of Biological Sciences, University of Cambridge, Cambridge, UK</aff>
+      <aff id="A4">
+<label>4</label>Department of Haematology, University of Cambridge School of Clinical Medicine, Cambridge Biomedical Campus, Cambridge, UK</aff>
+      <aff id="A5">
+<label>5</label>NHS Blood and Transplant, Cambridge Biomedical Campus, Cambridge, UK</aff>
+      <aff id="A6">
+<label>6</label>NIHR BioResource, Cambridge University Hospitals, Cambridge Biomedical Campus, Cambridge, UK</aff>
+      <aff id="A7">
+<label>8</label>Medical Research Council Biostatistics Unit, Cambridge Biomedical Campus, Cambridge, UK</aff>
+      <aff id="A8">
+<label>9</label>Molecular Development of the Immune System Section, Laboratory of Immune System Biology and Clinical Genomics Program, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, MD, USA</aff>
+      <aff id="A9">
+<label>10</label>Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, Cambridge, UK</aff>
+      <aff id="A10">
+<label>11</label>UCL Great Ormond Street Institute of Child Health, London, UK</aff>
+      <aff id="A11">
+<label>12</label>Great Ormond Street Hospital for Children NHS Foundation Trust, London, UK</aff>
+      <aff id="A12">
+<label>13</label>Department of Immunology, Queen Elizabeth University Hospital, Glasgow, UK</aff>
+      <aff id="A13">
+<label>14</label>Sheffield Teaching Hospitals NHS Foundation Trust, Sheffield, UK</aff>
+      <aff id="A14">
+<label>15</label>Department of Infection Immunity and Cardiovascular Disease, University of Sheffield, Sheffield, UK</aff>
+      <aff id="A15">
+<label>16</label>East Yorkshire Regional Adult Immunology and Allergy Unit, Hull Royal Infirmary, Hull and East Yorkshire Hospitals NHS Trust, Hull, UK</aff>
+      <aff id="A16">
+<label>17</label>Royal Papworth Hospital NHS Foundation Trust, Cambridge, UK</aff>
+      <aff id="A17">
+<label>18</label>Department of Pediatric Immunology, Rheumatology and Infectious Diseases, Emma Children&#x2019;s Hospital &amp; The Department of Experimental Immunology, Amsterdam University Medical Center (AMC), University of Amsterdam, Amsterdam, The Netherlands</aff>
+      <aff id="A18">
+<label>19</label>Institute of Immunity and Transplantation, University College London, London, UK</aff>
+      <aff id="A19">
+<label>20</label>Department of Immunology, Royal Free London NHS Foundation Trust, London, UK</aff>
+      <aff id="A20">
+<label>21</label>School of Mathematics and Statistics/School of Medicine, University of St Andrews, St Andrews, UK</aff>
+      <aff id="A21">
+<label>22</label>K.G. Jebsen Inflammation Research Centre, Institute of Clinical Medicine, University of Oslo, Oslo University Hospital, Rikshospitalet, Oslo, Norway</aff>
+      <aff id="A22">
+<label>23</label>Department of Transplantation, Institute of Clinical Medicine, University of Oslo, Oslo University Hospital, Rikshospitalet, Oslo, Norway</aff>
+      <aff id="A23">
+<label>24</label>Institute of Clinical Molecular Biology, Christian Albrechts University of Kiel, Kiel, Germany</aff>
+      <aff id="A24">
+<label>25</label>Section of Clinical Immunology and Infectious Diseases, Department of Rheumatology, Dermatology and Infectious Diseases, Oslo University Hospital, Rikshospitalet, Norway</aff>
+      <aff id="A25">
+<label>26</label>Research Institute of Internal Medicine, Division of Surgery, Inflammatory Diseases and Transplantation, Oslo University Hospital, Rikshospitalet, Norway</aff>
+      <aff id="A26">
+<label>27</label>JDRF/Wellcome Diabetes and Inflammation Laboratory, Wellcome Centre for Human Genetics, Nuffield Department of Medicine, NIHR Oxford Biomedical Research Centre, University of Oxford, Oxford, UK</aff>
+      <aff id="A27">
+<label>28</label>Department of Clinical Biochemistry and Immunology, Cambridge University Hospitals, Cambridge Biomedical Campus, Cambridge, UK</aff>
+      <aff id="A28">
+<label>29</label>St James&#x2019;s Hospital &amp; Trinity College Dublin, Ireland</aff>
+      <aff id="A29">
+<label>30</label>Salford Royal NHS Foundation Trust, Salford, UK</aff>
+      <aff id="A30">
+<label>31</label>Department of Medicine, Imperial College London, London, UK</aff>
+      <aff id="A31">
+<label>32</label>Barts Health NHS Foundation Trust, London, UK</aff>
+      <aff id="A32">
+<label>33</label>West Midlands Immunodeficiency Centre, University Hospitals Birmingham, Birmingham, UK</aff>
+      <aff id="A33">
+<label>34</label>University Hospitals of North Midlands NHS Trust, Stoke-on-Trent, UK</aff>
+      <aff id="A34">
+<label>35</label>Immunodeficiency Centre for Wales, University Hospital of Wales, Cardiff, UK</aff>
+      <aff id="A35">
+<label>36</label>Department of Pediatric Immunology, University Hospital Carl Gustav Carus, Dresden, Germany</aff>
+      <aff id="A36">
+<label>37</label>Institute of Medical Genetics and Human Genetics, Charite-Universitatsmedizin Berlin, Berlin, Germany</aff>
+      <aff id="A37">
+<label>38</label>Department of Human Genetics, Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK</aff>
+      <aff id="A38">
+<label>39</label>The Department of Clinical Immunology and Allergy, St James&#x2019;s University Hospital, Leeds, UK</aff>
+      <aff id="A39">
+<label>40</label>The NIHR Leeds Biomedical Research Centre and Leeds Institute of Rheumatic and Musculoskeletal Medicine, Leeds, UK</aff>
+      <author-notes>
+        <corresp id="CR1"><underline>Corresponding Authors:</underline> Correspondence and requests for materials should be addressed to J.E.D.T. (<email>jedt2@cam.ac.uk</email>) and K.G.C.S. (<email>kgcs2@cam.ac.uk</email>)</corresp>
+        <fn id="FN2">
+          <label>41</label>
+          <p id="P2">These authors led the analysis: James E. D. Thaventhiran, Hana Lango Allen, Oliver S. Burren, William Rae.</p>
+        </fn>
+        <fn id="FN3">
+          <label>43</label>
+          <p id="P3">These authors helped supervise this work: Taco W. Kuijpers, Ernest Turro, Willem H. Ouwehand, Adrian J. Thrasher</p>
+        </fn>
+        <fn id="FN10">
+          <label>44</label>
+          <p id="P1aa">These authors contributed equally to this work.</p>
+        </fn>
+        <fn id="FN4">
+          <p id="P4"><underline>Members of the NBR-RD PID Consortium:</underline> Zoe Adhya, Hana Alachkar, Carl E Allen, Ariharan Anantharachagan, Richard Antrobus, Gururaj Arumugakani, Chiara Bacchelli, Helen E Baxendale, Claire Bethune, Shahnaz Bibi, Barbara Boardman, Claire Booth, Matthew Brown, Michael J Browning, Mary Brownlie, Matthew S Buckland, Siobhan O Burns, Oliver S Burren, Anita Chandra, Ivan K. Chinn, Hayley Clifford, Nichola Cooper, Godelieve J de Bree, E Graham Davies, Sarah Deacock, John Dempster, Lisa A Devlin, Elizabeth Drewe, J David M Edgar, William Egner, Shuayb El Khalifa, Tariq El-Shanawany, James H R Farmery, H Bobby Gaspar, Rohit Ghurye, Kimberly C Gilmour, Sarah Goddard, Pavels Gordins, Sofia Grigoriadou, Scott J Hackett, Rosie Hague, Lorraine Harper, Grant Hayman, Archana Herwadkar, Stephen Hughes, Aarnoud P Huissoon, Stephen Jolles, Julie Jones, Yousuf M Karim, Peter Kelleher, Sorena Kiani, Nigel Klein, Taco W Kuijpers, Dinakantha S Kumararatne, James Laffan, Hana Lango Allen, Sara E Lear, Hilary Longhurst, Lorena E Lorenzo, Paul A Lyons, Jesmeen Maimaris, Ania Manson, Elizabeth M McDermott, Hazel Millar, Anoop Mistry, Valerie Morrisson, Sai H K Murng, Iman Nasir, Sergey Nejentsev, Sadia Noorani, Eric Oksenhendler, Mark J Ponsford, Waseem Qasim, Ellen Quinn, Isabella Quinti, Alex Richter, Crina Samarghitean, Ravishankar B Sargur, Sinisa Savic, Suranjith L Seneviratne, W A Carrock Sewell, Fiona Shackley, Olga Shamardina, Ilenia Simeoni, Kenneth G C Smith, Emily Staples, Hans Stauss, Cathal L Steele, James E Thaventhiran, David C Thomas, Moira J Thomas, Adrian J Thrasher, John A Todd, Anton T J Tool, Salih Tuna, Rafal D Urniaz, Steven B Welch, Lisa Willcocks, Sarita Workman, Austen Worth, Nigel Yeatman, Patrick F K Yong.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>27</day>
+        <month>2</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>5</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>7</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>06</day>
+        <month>11</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>583</volume>
+      <issue>7814</issue>
+      <fpage>90</fpage>
+      <lpage>95</lpage>
+      <!--elocation-id from pubmed: 10.1038/s41586-020-2265-1-->
+      <permissions>
+        <license xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">
+          <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<ext-link ext-link-type="uri" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</ext-link></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P5">Primary immunodeficiency (PID) is characterised by recurrent and often life-threatening infections, autoimmunity and cancer, and it presents major diagnostic and therapeutic challenges. Although the most severe forms present in early childhood, the majority of patients present in adulthood, typically with no apparent family history and a variable clinical phenotype of widespread immune dysregulation: about 25% of patients have autoimmune disease, allergy is prevalent, and up to 10% develop lymphoid malignancies<sup><xref rid="R1" ref-type="bibr">1</xref>&#x2013;<xref rid="R3" ref-type="bibr">3</xref></sup>. Consequently, in sporadic PID genetic diagnosis is difficult and the role of genetics is not well defined. We addressed these challenges by performing whole genome sequencing (WGS) of a large PID cohort of 1,318 participants. Analysis of coding regions of 886 index cases found disease-causing mutations in known monogenic PID genes in 10.3%, while a Bayesian approach (BeviMed<sup><xref rid="R4" ref-type="bibr">4</xref></sup>) identified multiple potential new candidate genes, including <italic>IVNS1ABP</italic>. Exploration of the non-coding genome revealed deletions in regulatory regions which contribute to disease causation. Finally, a genome-wide association study (GWAS) identified PID-associated loci and uncovered evidence for co-localisation of, and interplay between, novel high penetrance monogenic variants and common variants (at the <italic>PTPN2</italic> and <italic>SOCS1</italic> loci). This begins to explain the contribution of common variants to variable penetrance and phenotypic complexity in PID. Thus, a cohort-based WGS approach to PID diagnosis can increase diagnostic yield while deepening our understanding of the key pathways influencing human immune responsiveness.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p id="P6">The phenotypic heterogeneity of PID leads to diagnostic difficulty, and almost certainly to an underestimation of its true incidence. Our cohort reflects this heterogeneity, though it is dominated by adult onset, sporadic antibody deficiency-associated PID (AD-PID: comprising Common Variable Immunodeficiency (CVID), Combined Immunodeficiency (CID) and isolated antibody deficiency). Identifying a specific genetic cause of PID can facilitate definitive treatment including haematopoietic stem cell transplantation, genetic counselling, and the possibility of gene-specific therapy<sup><xref rid="R2" ref-type="bibr">2</xref></sup> while contributing to our understanding of the human immune system<sup><xref rid="R5" ref-type="bibr">5</xref></sup>. Unfortunately, only 29% of patients with PID have a genetic cause of their disease identified<sup><xref rid="R6" ref-type="bibr">6</xref></sup>, with the lowest rate in patients who present as adults and have no apparent family history. While variants in over 300 genes have been described as monogenic causes of PID<sup><xref rid="R3" ref-type="bibr">3</xref></sup>, it is often difficult to match the clinical phenotype to a known genetic cause, because phenotypes are heterogeneous and disease penetrance is often low<sup><xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R7" ref-type="bibr">7</xref></sup>. Furthermore, a common variant analysis of CVID identified new disease-associated loci, and raised the possibility that common variants may impact upon clinical presentation<sup><xref rid="R8" ref-type="bibr">8</xref></sup>. We therefore investigated whether applying WGS across a &#x201C;real world&#x201D; PID cohort might illuminate the complex genetics of the range of conditions collectively termed PID: the approach is summarised in <xref ref-type="fig" rid="F5">Extended Data Fig. 1</xref>.</p>
+    <sec id="S1">
+      <title>Patient cohort</title>
+      <p id="P7">We sequenced 1,318 individuals recruited as part of the PID domain of the United Kingdom NIHR BioResource - Rare Diseases program (NBR-RD; <xref ref-type="fig" rid="F6">Extended Data Fig.2</xref>; <xref ref-type="supplementary-material" rid="SD1">Supplementary Methods</xref>). The cohort comprised of both sporadic and familial PID patients (N=974) and family members. Of the patients, 886 were index cases who fell into one of the diagnostic categories of the European Society for Immunodeficiencies (ESID) registry diagnostic criteria (<xref ref-type="fig" rid="F1">Fig. 1a</xref>; <xref rid="T1" ref-type="table">Extended Data Table 1</xref>). This cohort represents a third of CVID and half of CID patients registered in the UK<sup><xref rid="R9" ref-type="bibr">9</xref></sup>. Clinical phenotypes were dominated by adult-onset sporadic AD-PID: all had recurrent infections, 28% had autoimmunity, and 8% had malignancy (<xref ref-type="fig" rid="F1">Fig. 1a-b</xref>, <xref rid="T2" ref-type="table">Extended Data Table 2</xref>), mirroring the UK national PID registry<sup><xref rid="R6" ref-type="bibr">6</xref></sup>.</p>
+    </sec>
+    <sec id="S2">
+      <title>Identification of Pathogenic Variants in Known Genes</title>
+      <p id="P8">We analysed coding regions of genes with previously reported disease-causing variants in PID<sup><xref rid="R10" ref-type="bibr">10</xref></sup> (<xref ref-type="sec" rid="S7">Methods</xref>). Based on filtering criteria for diagnostic reporting according to the American College of Medical Genetics (ACMG) guidelines<sup><xref rid="R11" ref-type="bibr">11</xref></sup> and described in the <xref ref-type="sec" rid="S7">Methods</xref>, we identified and reported to the referring clinicians 104 known or likely pathogenic variants in 91 index cases (10.3%) across 41 genes implicated in monogenic disease (<xref ref-type="fig" rid="F1">Fig. 1c</xref>; <xref ref-type="supplementary-material" rid="SD3">Supplementary Table 1</xref>). 60 patients (6.8%) had a previously reported pathogenic variant in the disease modifier <italic>TNFRSF13B</italic> (<italic>TACI</italic>), increasing the proportion of cases with a reportable variant to 17.0% (151 patients). Interestingly, 5 patients with a monogenic diagnosis (in <italic>BTK</italic>, <italic>LRBA</italic>, <italic>MAGT1</italic>, <italic>RAG2</italic>, <italic>SMARCAL1</italic>) also had a pathogenic <italic>TNFRSF13B</italic> variant. Of the 103 monogenic variants we report here, 69 (67.0%) had not been previously described (<xref ref-type="supplementary-material" rid="SD3">Supplementary Table 1</xref>) and 8 were structural variants, including single exon and non-coding promoter deletions unlikely to have been detected by whole exome sequencing<sup><xref rid="R12" ref-type="bibr">12</xref></sup>.</p>
+      <p id="P9">In 22 patients with variants in 14 genes (34% of 41 identified genes) reported as pathogenic, the clinical presentation deviated from the phenotypes typically associated with those genes. One example was chronic mucocutaneous candidiasis (CMC), which is the trigger for clinical genetic testing for <italic>STAT1</italic> GOF variants, as CMC was reported in 98% of such patients<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R14" ref-type="bibr">14</xref></sup>. Now this series, along with single case reports<sup><xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R16" ref-type="bibr">16</xref></sup>, indicate <italic>STAT1</italic> GOF may present with phenotypes as diverse as CVID or primary antibody deficiency. Since many PID-associated genes were initially discovered in a small number of familial cases, it is not surprising that the phenotypes described in the literature do not reflect the true clinical diversity. Thus, a cohort-based WGS approach to PID provides a diagnostic yield even in a predominantly sporadic cohort, allows diagnoses which are not constrained by pre-existing assumptions about genotype-phenotype relationships, and suggests caution in the use of clinical phenotype in targeted gene screening and interpreting PID genetic data.</p>
+    </sec>
+    <sec id="S3">
+      <title>An approach to prioritising candidate PID-associated genes in a WGS cohort</title>
+      <p id="P10">We next determined whether the cohort-based WGS approach could identify new genetic associations with PID. We included all 886 index cases in a single cohort in order to optimise statistical power, and because genotype-phenotype correlation in PID is incompletely understood. We applied a Bayesian inference procedure, named BeviMed<sup><xref rid="R4" ref-type="bibr">4</xref></sup>, and used it to determine posterior probabilities of association (PPA) between each gene and case/control status of the 886 index cases and 9,283 unrelated controls (<xref ref-type="sec" rid="S7">Methods</xref>). We obtained a BeviMed PPA for 31,350 genes in the human genome; the 25 highest ranked genes are shown in <xref ref-type="fig" rid="F2">Fig. 2a</xref> (see also <xref ref-type="supplementary-material" rid="SD2">Supplementary Table 2</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Note 2</xref>). Overall, genes with BeviMed PPA&gt;0.1 were strongly enriched for known PID genes (odds ratio = 15.1, P = 3.1x10<sup>-8</sup> Fisher&#x2019;s Exact test), demonstrating that a statistical genetic association approach can identify genes causal for PID.</p>
+      <p id="P11">This method produces a <italic>posterior probability</italic> of association, therefore it is inevitable that, where this is &lt;1, some genes identified will not end up being found to be causal. Such false positives are an integral feature of a method which does not provide statistical proof of causality, but rather ranks/prioritises genes for subsequent functional assessment. They can be minimised by ensuring reasonable assumptions in the Bayesian algorithm<sup><xref rid="R4" ref-type="bibr">4</xref></sup>, and by taking care to detect and minimise relatedness and population stratification (detailed in <xref ref-type="sec" rid="S7">Methods</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Note 2</xref> and <xref ref-type="supplementary-material" rid="SD2">Supplementary Table 2</xref>).</p>
+      <p id="P12"><italic>NFKB1</italic> and <italic>ARPC1B</italic> were first associated with PID in the literature as a result of familial co-segregation studies<sup><xref rid="R17" ref-type="bibr">17</xref>,<xref rid="R18" ref-type="bibr">18</xref></sup>, and were highly ranked in the BeviMed analysis, validating it as a gene-discovery tool in PID. <italic>NFKB1</italic> had the strongest probability of association (PPA=1-(1.25x10<sup>-8</sup>)), driven by truncating heterozygous variants in 13 patients &#x2013; leading to our report of <italic>NFKB1</italic> haploinsufficiency as the commonest monogenic cause of CVID<sup><xref rid="R19" ref-type="bibr">19</xref></sup>. Association of <italic>ARPC1B</italic> with PID (PPA=0.18) was identified by BeviMed based on two recessive cases; one the first reported to link this gene to PID<sup><xref rid="R18" ref-type="bibr">18</xref></sup> and the other described below.</p>
+      <p id="P13">To further demonstrate the effectiveness of BeviMed at prioritizing PID-related genetic variants in the cohort, we selected <italic>IVNS1ABP</italic> for validation. BeviMed enrichment (PPA=0.33) of <italic>IVNS1ABP</italic> was driven by three independent heterozygous protein-truncating variants, suggesting haploinsufficiency, while no such variants were observed in controls (<xref ref-type="fig" rid="F2">Fig. 2b</xref>). A pathogenic role for <italic>IVNS1ABP</italic> was supported by its intolerance to loss-of-function (pLI=0.994) and a distinctive clinical similarity between the patients &#x2013; all had severe warts (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note 1</xref>). IVNS1ABP protein expression was around 50% of control, consistent with haploinsufficiency (<xref ref-type="fig" rid="F2">Fig. 2c</xref>). The patients also shared a previously undescribed peripheral leukocyte phenotype &#x2013; with low/normal CD4+ T cells and B cells and aberrant increased expression of CD127 and PD-1 on na&#xEF;ve T cells (<xref ref-type="fig" rid="F2">Fig. 2d,e</xref>). Taken together, these data implicate <italic>IVNS1ABP</italic> haploinsufficiency as a novel monogenic cause of PID (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note 1</xref>).</p>
+      <p id="P14">The identification of both known and new PID genes using BeviMed underlines its effectiveness in cohorts of unrelated patients with sporadic disease. As the PID cohort grows, even very rare causes of PID should be detectable with a high positive predictive value (<xref ref-type="fig" rid="F7">Extended Data Fig. 3</xref>).</p>
+    </sec>
+    <sec id="S4">
+      <title>Identification of regulatory elements contributing to PID</title>
+      <p id="P15">Sequence variation within non-coding regions of the genome can have profound effects on gene expression and would be expected to contribute to susceptibility to PID. We combined rare variant and large deletion (&gt;50bp) events with a tissue-specific catalogue of cis-regulatory elements (CREs)<sup><xref rid="R20" ref-type="bibr">20</xref></sup>, generated using promoter capture Hi-C (pcHi-C)<sup><xref rid="R21" ref-type="bibr">21</xref></sup>, to prioritise putative causal PID genes (<xref ref-type="sec" rid="S7">Methods</xref>). We limited our initial analysis to rare large deletions overlapping exon, promoter or &#x2018;super-enhancer&#x2019; CREs of known PID genes. No homozygous deletions affecting CREs were identified, so we sought individuals with two or more heterozygous variants comprising a CRE deletion with either a rare coding variant or another large deletion in a pcHi-C linked gene. Such candidate compound heterozygote (cHET) variants had the potential to cause recessive disease. Out of 22,296 candidate cHET deletion events, after filtering by MAF, functional score and known PID gene status, we obtained 10 events (<xref ref-type="supplementary-material" rid="SD4">Supplementary Table 3</xref>, <xref ref-type="fig" rid="F8">Extended Data Fig. 4</xref>); the confirmation of three is described.</p>
+      <p id="P16">The <italic>LRBA</italic> and <italic>DOCK8</italic> cHET variants were functionally validated (<xref ref-type="fig" rid="F8">Extended Data Figs. 4</xref> and <xref ref-type="fig" rid="F9">5</xref>). In these two cases SV deletions encompassed both non-coding CREs and coding exons, but the use of WGS PID cohorts to detect a contribution of CREs confined to the non-coding genome would represent a major advance in PID pathogenesis and diagnosis. <italic>ARPC1B</italic> fulfilled this criterion, with its BeviMed association partially driven by a patient cHET for a novel p.Leu247Glyfs*25 variant resulting in a premature stop, and a 9Kb deletion spanning the promoter region including an untranslated first exon (<xref ref-type="fig" rid="F3">Fig. 3a</xref>) that has no coverage in the ExAC database (<ext-link ext-link-type="uri" xlink:href="http://exac.broadinstitute.org/">http://exac.broadinstitute.org</ext-link>). Two unaffected first-degree relatives were heterozygous for the frameshift variant, and two for the promoter deletion (<xref ref-type="fig" rid="F3">Fig. 3b</xref>), confirming compound heterozygosity in the patient. Western blotting demonstrated complete absence of ARPC1B and raised ARPC1A in platelets<sup><xref rid="R22" ref-type="bibr">22</xref></sup>(<xref ref-type="fig" rid="F3">Fig. 3c</xref>). <italic>ARPC1B</italic> mRNA was almost absent from mononuclear cells in the patient and was reduced in a clinically unaffected sister carrying the frameshift mutation (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note 1</xref>). An allele specific expression assay demonstrated that the promoter deletion essentially abolished mRNA expression (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note 1</xref>). ARPC1B is part of the Arp2/3 complex necessary for normal actin assembly in immune cells<sup><xref rid="R23" ref-type="bibr">23</xref></sup>, and monocyte-derived macrophages from the patient had an absence of podosomes, phenocopying deficiency of the Arp2/3 regulator WASp (<xref ref-type="fig" rid="F3">Fig. 3d</xref>).</p>
+      <p id="P17">While examples of bi-allelic coding variants have been described as causing PID (e.g.<sup><xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R25" ref-type="bibr">25</xref></sup>), here we demonstrate the utility of WGS for detecting compound heterozygosity for a coding variant and a non-coding CRE deletion - a further advantage of a WGS approach to PID diagnosis. Improvements in analysis methodology, cohort size and better annotation of regulatory regions will be required to explore the non-coding genome more fully and discover further disease-causing genetic variants.</p>
+    </sec>
+    <sec id="S5">
+      <title>GWAS of the WGS cohort reveals PID-associated loci</title>
+      <p id="P18">The diverse clinical phenotype and variable within-family disease penetrance of PID may be in part due to stochastic events (e.g. unpredictable pathogen transmission) but may also have a genetic basis. We therefore performed a GWAS of common SNPs (minor allele frequency (MAF)&gt;0.05), restricted to 733 AD-PID cases (<xref ref-type="fig" rid="F1">Fig. 1a</xref>) to reduce phenotypic heterogeneity (see <xref ref-type="sec" rid="S7">Methods</xref>), and 9,225 unrelated NBR-RD controls, and performed a fixed effect meta-analysis of this AD-PID GWAS with a previous CVID study ImmunoChip study (778 cases, 10,999 controls)<sup><xref rid="R8" ref-type="bibr">8</xref></sup>. This strengthened known MHC and 16p13.13 associations<sup><xref rid="R8" ref-type="bibr">8</xref></sup>, and found suggestive associations including at 3p24.1 within the promoter region of <italic>EOMES</italic> and at 18p11.21 proximal to <italic>PTPN2</italic>. We also examined SNPs of intermediate frequency (0.005&lt;MAF&lt;0.05) in AD-PID, identifying <italic>TNFRSF13B</italic> p.Cys104Arg variant<sup><xref rid="R26" ref-type="bibr">26</xref></sup> (OR=4.04, P = 1.37x10<sup>-12</sup>) (<xref ref-type="fig" rid="F4">Fig. 4a</xref>, <xref rid="T3" ref-type="table">Extended Data Table 3</xref>, <xref ref-type="fig" rid="F10">Extended Data Fig. 6</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Note 3</xref>). Conditional analysis of the MHC locus revealed independent signals at the Class I and Class II regions, driven by amino-acid changes in the <italic>HLA-B</italic> and HLA-<italic>DRB1</italic> genes known to impact upon peptide binding (<xref ref-type="fig" rid="F11">Extended Data Fig. 7</xref>). We next examined the enrichment of non-MHC AD-PID associations in 9 other diseases, finding enrichment for allergic and immune-mediated diseases (IMD), suggesting that dysregulation of common pathways contributes to susceptibility to both (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note 4</xref>).</p>
+    </sec>
+    <sec id="S6">
+      <title>GWAS data allows identification of candidate monogenic PID genes and disease-modifying variants</title>
+      <p id="P19">To investigate whether loci identified by GWAS of AD-PID and other IMD might be used to prioritize novel candidate monogenic PID genes, we used the data-driven pcHiC omnibus gene score (COGS) approach<sup><xref rid="R21" ref-type="bibr">21</xref></sup> (<xref ref-type="sec" rid="S7">Methods</xref>, <xref ref-type="supplementary-material" rid="SD6">Supplementary Table 4</xref>). We selected six protein-coding genes with above average prioritisation scores in one or more diseases (<xref ref-type="fig" rid="F4">Fig. 4b</xref>), and identified a single protein truncating variant in each of <italic>ETS1, SOCS1</italic> and <italic>PTPN2</italic> genes, all occurring exclusively in PID patients. <italic>SOCS1</italic> and <italic>PTPN2</italic> variants were analysed further.</p>
+      <p id="P20"><italic>SOCS1</italic> limits phosphorylation of targets including STAT1, and is a key regulator of IFN-&#x3B3; signalling<sup><xref rid="R27" ref-type="bibr">27</xref></sup>. The patient with a heterozygous <italic>de-novo</italic> protein-truncating <italic>SOCS1</italic> variant (p.Met161Alafs*46) presented with CVID complicated by lung and liver inflammation. GeneMatcher<sup><xref rid="R28" ref-type="bibr">28</xref></sup> identified an independent pedigree with a protein truncating variant p.Tyr64* in <italic>SOCS1</italic>. All patients showed low/normal numbers of B cells, a Th1-skewed memory CD4+ population and reduced T regulatory (Treg) cells (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note 1</xref>). <italic>Socs1</italic> haploinsufficient mice also demonstrate B lymphopenia<sup><xref rid="R27" ref-type="bibr">27</xref>,<xref rid="R29" ref-type="bibr">29</xref></sup>, a Th1 skew, decreased Tregs<sup><xref rid="R30" ref-type="bibr">30</xref></sup> and immune-mediated liver inflammation<sup><xref rid="R31" ref-type="bibr">31</xref></sup>. In patients&#x2019; T cell blasts, SOCS1 was reduced and IFN-&#x3B3; induced STAT1 phosphorylation was increased (<xref ref-type="fig" rid="F4">Fig. 4c</xref>). Taken together this is consistent with <italic>SOCS1</italic> haploinsufficiency causing PID. The initial patient also carried the <italic>SOCS1</italic> pcHiC-linked 16p13.13 risk-allele identified in the AD-PID GWAS (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note 3</xref>) in <italic>trans</italic> with the novel <italic>SOCS1</italic>-truncating variant (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note 1</xref>); such compound heterozygosity suggests common and rare variants might combine to impact upon disease phenotype, a possibility explored further below.</p>
+      <p id="P21">A more detailed example of an interplay between rare and common variants is provided by a family containing <italic>PTPN2</italic> variants (<xref ref-type="fig" rid="F4">Fig. 4d</xref>). <italic>PTPN2</italic> encodes the non-receptor T-cell protein tyrosine phosphatase (TC-PTP) that negatively regulates immune responses by dephosphorylation of proteins mediating cytokine signalling. <italic>PTPN2</italic> deficient mice are B cell lymphopenic<sup><xref rid="R32" ref-type="bibr">32</xref>,<xref rid="R33" ref-type="bibr">33</xref></sup> and haematopoietic deletion leads to B and T cell proliferation and autoimmunity<sup><xref rid="R34" ref-type="bibr">34</xref></sup>. A novel premature stop-gain at p.Glu291 was identified in a &#x201C;sporadic&#x201D; case presenting with CVID at age 20; he had B lymphopenia, low IgG, rheumatoid-like polyarthropathy, severe recurrent bacterial infections, splenomegaly and inflammatory lung disease. His mother, also heterozygous for the <italic>PTPN2</italic> truncating variant, had systemic lupus erythematosus (SLE), insulin-dependent diabetes mellitus, hypothyroidism and autoimmune neutropenia (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note 1</xref>). Gain-of-function variants in <italic>STAT1</italic> can present as CVID (<xref ref-type="supplementary-material" rid="SD3">Supplementary Table 1</xref>) and TC-PTP, like SOCS1, reduces phosphorylated STAT1 (<xref ref-type="fig" rid="F4">Fig. 4e</xref>). Both mother and son demonstrated reduced T cell TC-PTP expression and STAT1 hyperphosphorylation, more pronounced in the index case and similar to both SOCS1 haploinsufficient and STAT1 GOF patients (<xref ref-type="fig" rid="F4">Fig. 4f</xref>). Thus <italic>PTPN2</italic> haploinsufficiency represents a new cause of PID that acts, at least in part, through increased phosphorylation of STAT1. Reports that use of the Janus Kinase 1 and 2 inhibitor ruxolitinib is effective in controlling autoimmunity in <italic>STAT1</italic>-GOF patients<sup><xref rid="R35" ref-type="bibr">35</xref></sup>, suggests it might be effective in <italic>SOCS1</italic> and <italic>PTPN2</italic> deficiency.</p>
+      <p id="P22">The index case, but not his mother, carried the G allele of variant rs2847297 at the <italic>PTPN2</italic> locus, an expression quantitative trait locus (eQTL)<sup><xref rid="R36" ref-type="bibr">36</xref></sup> previously associated with rheumatoid arthritis<sup><xref rid="R37" ref-type="bibr">37</xref></sup>. His brother, healthy apart from severe allergic nasal polyposis, was heterozygous at rs2847297 and did not inherit the rare variant (<xref ref-type="fig" rid="F4">Fig. 4d</xref>). Allele-specific expression analysis demonstrated reduced <italic>PTPN2</italic> transcription from the rs2847297-G allele, explaining the lower expression of TC-PTP and greater persistence of pSTAT1 in the index case compared to his mother (<xref ref-type="fig" rid="F4">Fig. 4g</xref>). This could explain the variable disease penetrance in this family, with <italic>PTPN2</italic> haploinsufficiency alone driving autoimmunity in the mother, but the additional impact of the common variant on the index case causing immunodeficiency. The family illustrates the strength of cohort-wide WGS approach to PID diagnosis, by revealing both a new monogenic cause of disease, and how the interplay between common and rare genetic variants may contribute to the variable clinical phenotypes of PID.</p>
+      <p id="P23">In summary, we show that cohort-based WGS in PID is a powerful approach to provide diagnosis of known genetic defects, and discover new coding and non-coding variants associated with disease (comparison of WGS with other methodologies; <xref ref-type="supplementary-material" rid="SD1">Supplementary Note 5</xref>). Improved analysis methodology and better integration of parallel datasets, such as GWAS and cell surface or metabolic immunophenotyping, will allow further exploration of the non-coding space, enhancing diagnostic yield. Such an approach promises to transform our understanding of genotype-phenotype relationships in PID and related immune-mediated conditions, and could redefine the clinical boundaries of immunodeficiency, add to our understanding of human immunology, and ultimately improve patient outcomes.</p>
+    </sec>
+    <sec sec-type="methods" id="S7" specific-use="web-only">
+      <title>Methods</title>
+      <sec id="S8">
+        <title>PID cohort</title>
+        <p id="P24">The PID patients and their family members were recruited by specialists in clinical immunology across 26 hospitals in the UK, and one each from the Netherlands, France and Germany. The recruitment criteria were intentionally broad, and included the following: clinical diagnosis of common variable immunodeficiency disorder (CVID) according to internationally established criteria (<xref rid="T1" ref-type="table">Extended Data Table 1</xref>); extreme autoimmunity; or recurrent and/or unusual severe infections suggestive of defective innate or cell-mediated immunity. Patients with known secondary immunodeficiencies caused by cancer or HIV infection were excluded. Although screening for more common and obvious genetic causes of PID prior to enrolment into this WGS study was encouraged, it was not a requirement. Consequently, a minority of patients (16%) had some prior genetic testing, from single gene Sanger sequencing or MLPA to a gene panel screen. Paediatric and familial cases were less frequent in our cohort, in part reflecting that genetic testing is more frequently performed in more severe cases: 31% of paediatric onset cases had prior genetic testing compared to 10% of adult index cases (<xref ref-type="fig" rid="F6">Extended Data Fig. 2</xref>).</p>
+        <p id="P25">To expedite recruitment a minimal clinical dataset was required for enrolment, though more detail was often provided. There was a large variety in patients&#x2019; phenotypes, from simple &#x201C;chest infections&#x201D; to complex syndromic features, and the collected phenotypic data of the sequenced individuals ranged from assigned disease category only to detailed clinical synopsis and immunophenotyping data. The clinical subsets used to subdivide PID patients were based on ESID definitions, as shown in <xref rid="T1" ref-type="table">Extended Data Table 1</xref>. The final PID cohort that we sequenced comprised of 886 index cases, 88 affected relatives, and 344 family members unaffected at the time of recruitment.</p>
+        <p id="P26">To facilitate GWAS analysis by grouping patients with a degree of phenotypic coherence while excluding some distinct and very rare clinical subtypes of PID that may have different aetiologies, a group of patients was determined to have antibody deficiency-associated PID (AD-PID). This group comprised 733 of the 886 unrelated index cases, and included all patients with CID, CVID or Antibody Defect ticked on the recruitment form, together with patients requiring IgG replacement therapy and those with specified low levels of IgG/A/M. SCID patients satisfying these AD criteria were not assigned to the AD-PID cohort.</p>
+      </sec>
+      <sec id="S9">
+        <title>WGS data processing</title>
+        <p id="P27">Details of DNA sample processing, whole genome sequencing, data processing pipeline, quality checks, alignment and variant calling, ancestry and relatedness estimation, variant normalisation and annotation, large deletion calling and filtering, and allele frequency calculations, are described in<sup><xref rid="R38" ref-type="bibr">38</xref></sup>. Briefly, DNA or whole blood EDTA samples were processed and quality checked according to standard laboratory practices and shipped on dry ice to the sequencing provider (Illumina Inc, Great Chesterford, UK). Illumina Inc performed further QC array genotyping, before fragmenting the samples to 450bp fragments and processing with the Illumina TruSeq DNA PCR-Free Sample Preparation kit (Illumina Inc., San Diego, CA, USA). Over the three-year duration of the sequencing phase of the project, different instruments and read lengths were used: for each sample, either 100bp reads on three HiSeq2500 lanes; or 125bp reads on two HiSeq2500 lanes; or 150bp reads on a single HiSeq X lane. Each delivered genome had a minimum 15X coverage over at least 95% of the reference autosomes. Illumina performed the alignment to GRCh37 genome build and SNV/InDel calling using their Isaac software, while large deletions were called with their Manta and Canvas algorithms. The WGS data files were received at the University of Cambridge High Performance Computing Service (HPC) for further QC and processing by our Pipeline team.</p>
+        <p id="P28">For each sample, we estimated the sex karyotype and computed pair-wise kinship coefficients (full methods described in <sup><xref rid="R47" ref-type="bibr">47</xref></sup>), which allowed us to identify sample swaps and unintended duplicates, assign ethnicities, generate networks of closely related individuals (sometimes undeclared relatives from across different disease domains) and a maximal unrelated sample set (for the purposes of allele frequency estimation and control dataset in case-control analyses). Variants in the gVCF files were normalised and loaded into an HBase database, where Overall Pass Rate (OPR) was computed within each of the three read length batches, and the lowest of these OPR values (minOPR) assigned to each variant. The rare variant analyses presented here are based on SNVs/InDels with minOPR&gt;0.98. Variants were annotated with Sequence Ontology terms according to their predicted consequences, their frequencies in other genomic databases (gnomAD, UK10K, 1000 Genomes), if they have been associated with a disease according to the HGMD Pro database, and internal metrics (AN, AC, AF, OPR).</p>
+        <p id="P29">Large deletions (those &gt;50bp in length, defined by Illumina) were merged and analysed collectively, as described in<sup><xref rid="R38" ref-type="bibr">38</xref></sup>. Briefly, sample-level calls by the two algorithms, Manta (which uses read and mate-pair alignment information) and Canvas (which relies on read depth and is optimised for calls &gt;1kb in length), were combined according to a set of rules<sup><xref rid="R38" ref-type="bibr">38</xref></sup> to generate a high quality set for each sample (and a large number across the project was visually inspected to ensure reasonably high specificity). To exclude common deletions from further rare variant analyses, we included only those that were observed in fewer than 3% of the samples, as described previously<sup><xref rid="R39" ref-type="bibr">39</xref></sup>.</p>
+      </sec>
+      <sec id="S10">
+        <title>Diagnostic reporting</title>
+        <p id="P30">We screened all genes in the International Union of Immunological Societies (IUIS) 2015 classification for previously reported or likely pathogenic variants. SNVs and small InDels were filtered based on the following criteria: OPR&gt;0.95; having a protein-truncating consequence, gnomAD AF&lt;0.001 and internal AF&lt;0.01; or present in the HGMD Pro database as DM variant. Large deletions called by both Canvas and Manta algorithms, passing standard Illumina quality filters, overlapping at least one exon, and classified as rare by the SVH method were included in the analysis. In order to aid variant interpretation and consistency in reporting, phenotypes were translated into Human Phenotype Ontology (HPO) terms as much as possible. Multi-Disciplinary Team (MDT) then reviewed each variant for evidence of pathogenicity and contribution to the phenotype, and classified them according to the American College of Medical Genetics (ACMG) guidelines<sup><xref rid="R11" ref-type="bibr">11</xref></sup>. Only variants classified as Pathogenic or Likely Pathogenic were systematically reported, but individual rare (gnomAD AF&lt;0.001) or novel missense variants that BeviMed analysis (see below) highlighted as having a posterior probability of pathogenicity &gt;0.2 were additionally considered as Variants of Unknown Significance (VUS). If the MDT decided that they were likely to be pathogenic and contribute to the phenotype, they were also reported (<xref ref-type="supplementary-material" rid="SD2">Supplementary Table 2</xref>). All variants and breakpoints of large deletions reported in this study were confirmed by Sanger sequencing using standard protocols.</p>
+      </sec>
+      <sec id="S11">
+        <title>BeviMed</title>
+        <p id="P31">We used BeviMed<sup><xref rid="R4" ref-type="bibr">4</xref></sup> to evaluate the evidence for association, in genetically unrelated individuals, between case/control status and rare genetic variants in a locus. For each gene, we inferred a posterior probability of association (PPA) under Mendelian inheritance models (dominant and recessive), and different variant selection criteria ("moderate" and "high" impact variants based on functional consequences predicted by the Variant Effect Predictor<sup><xref rid="R40" ref-type="bibr">40</xref></sup>). We inferred a PPA across all association models and the mode of inheritance corresponding to the association model with the greatest posterior probability. We used MAF&lt;0.001 and CADD&gt;=10 as these were selection criteria for rare, likely pathogenic variants used in diagnostic reporting. Approximately 1% of all genes (276/31,350<sup><xref rid="R10" ref-type="bibr">10</xref></sup>) have previously been implicated as monogenic causes of PID, and we therefore assumed that a few hundred genes are causal of PID overall. We encoded this assumption conservatively, by assigning a prior probability of 0.01 to the association model for each gene. In addition, we used the default prior (mean=0.85) on the &#x201C;penetrance&#x201D; parameter, which represents disease risk for individuals carrying pathogenic configuration of alleles at a gene locus (see <sup><xref rid="R4" ref-type="bibr">4</xref></sup> for a detailed description of all parameters and their default values). We then gave all four combinations of inheritance model and variant selection criteria equal prior probability of association of 0.0025 (1/4 of 0.01). We used uniform priors to ensure that our results did not depend on any knowledge of previous gene or variant associations with disease. We obtained a BeviMed PPA for 31,350 genes in the human genome; the highest ranked genes are shown in <xref ref-type="fig" rid="F2">Fig. 2a</xref>, <xref ref-type="supplementary-material" rid="SD1">Supplementary Note 2</xref> and <xref ref-type="supplementary-material" rid="SD2">Supplementary Table 2</xref>. Overall, genes with BeviMed PPA&gt;0.1 were strongly enriched for known PID genes (odds ratio = 15.1, P = 3.1x10<sup>-8</sup> Fisher&#x2019;s Exact test), demonstrating that a statistical genetic association approach can identify genes causal for PID.</p>
+        <p id="P32">Conditional on the association model with the highest posterior probability, the posterior probability that each rare variant is pathogenic was also computed. We used a variant-level posterior probability of pathogenicity &gt;0.2 to select potentially pathogenic missense variants in known PID genes to report back. As detailed in Greene <italic>et al</italic>. (<xref ref-type="fig" rid="F1">Figure 1</xref> in <sup><xref rid="R4" ref-type="bibr">4</xref></sup>) the method was calibrated as part of a simulation study estimating positive predictive value (1-FDR) given a fixed level of power. We then examined the relationship between BeviMed rank and `known&#x2019; gene status in the top fifty genes reported; genes with the highest PPA were significantly enriched for known genes (P&lt;0.008 one-sided Wilcoxon rank-sum test). BeviMed&#x2019;s sensitivity in prioritizing genes as causal, even if variants exist in only a few cases, is demonstrated by the observation that of the 8 IUIS-defined causal PID genes in the top 50 (all with a BeviMed PPA&gt;0.2), 3 are driven by 2 or 3 cases, while 5 have between 4 and 16.</p>
+        <p id="P33">As allele frequency datasets for non-Europeans are much smaller than for Europeans, potential false positives may be induced by the unintentional inclusion of rare variants observed only in non-European populations<sup><xref rid="R41" ref-type="bibr">41</xref></sup>.Furthermore, whilst the BeviMed analysis was restricted to the set of cases and controls carefully filtered to minimise relatedness, it remains possible that some associations could be false positives due to residual population stratification. We addressed this by flagging variants whose prioritisation was dependent upon cases with non-European ancestry. In addition, where identical ultra-rare variants were shared between cases, we examined the possibility of cryptic relatedness by seeking direct evidence of shared genetic background (<xref ref-type="supplementary-material" rid="SD1">Supplementary Note 2</xref>). These procedures found that population stratification might contribute to the prioritization of 9 candidate genes among the top 25, as highlighted in <xref ref-type="fig" rid="F2">Fig. 2a</xref> and <xref ref-type="supplementary-material" rid="SD2">Supplementary Table 2</xref>. Six of these were novel candidates, but that 3 were known causes of PID indicated that population stratification does not always generate false positives &#x2013; and implicated genes should therefore be flagged rather than excluded from the list. This potential impact of population stratification underlines the importance of subsequent validation of prioritized genes in order to demonstrate causality.</p>
+        <p id="P34">The BeviMed probabilistic model, based on dominant and recessive inheritance involving a mixture of pathogenic and benign variants, differs from other popular frequentist methods such as SKAT, and is well-suited to the rare disease scenario. When trained on our dataset, SKAT and BeviMed both identified <italic>NKFB1</italic> as the gene with the strongest association signal, but BeviMed placed 8 IUIS 2017 PID genes in the top 50 results whilst SKAT placed 5, and <italic>ARPC1B</italic> was ranked 38th by BeviMed and 289th by SKAT (out of a total of 31,350 tested genes), consistent with the superiority of BeviMed over SKAT and related methods demonstrated in Greene <italic>et al</italic>.<sup><xref rid="R1" ref-type="bibr">1</xref></sup>.</p>
+      </sec>
+      <sec id="S12">
+        <title>Immunohistochemistry: podosome analysis</title>
+        <p id="P35">Frozen peripheral blood mononuclear cells (PBMCs) from healthy donors and patients were thawed and CD14<sup>+</sup> cells selected using magnetic beads (Miltenyi). 2 x 10<sup>5</sup> cells/ well in a 24 well plate were seeded on 10ug/ml fibronectin-coated cover slips (R&amp;D systems) in 500ul 20ng/ml macrophage colony stimulating factor (MCSF, Gibco) for 6 days to obtain monocyte-derived macrophages (MDMs). Cells were fixed with paraformaldehyde 4% (Thermo Fisher Scientific) for 10 minutes on ice followed by 8% for 20 minutes at room temperature, permeabilised with 0.1% triton (Sigma) for 5 minutes at room temperature and non-specific binding reduced by blocking with 5% BSA/PBS for 1 hour at room temperature. Cells were incubated with primary anti-vinculin antibody (Sigma 1:200) for 1 hour at room temperature, washed twice with PBS and incubated with secondary antibody conjugated to Alexa Fluor 488 (1:500 Life Technologies) and phalloidin-conjugated to Alexa Fluor 633 (1:200 Thermo Fisher Scientific) for one hour at room temperature. Cells were washed twice with PBS and cover slips mounted onto slides using mounting solution with DAPI for nuclear staining (ProLong Diamond Antifade Mountant with DAPI, Life Technologies) overnight. Slides were imaged using Zeiss 710 confocal microscope at 63x magnification and podosome analysis was carried out on at least 100 cells per sample from 10 fields of view.</p>
+      </sec>
+      <sec id="S13">
+        <title>Filtering strategy for candidate regulatory compound heterozygotes</title>
+        <p id="P36">Being underpowered<sup><xref rid="R42" ref-type="bibr">42</xref></sup> to detect single nucleotide variants affecting CREs, we limited our initial analysis to large deletions overlapping exon, promoter or &#x2018;super-enhancer&#x2019; CREs of known PID genes (<xref ref-type="fig" rid="F8">Extended Data Fig. 4</xref>). We selected uncommon (&lt;0.03 frequency NIHR-RD BioResource cohort<sup><xref rid="R38" ref-type="bibr">38</xref></sup>) large deletion events (&gt;50bp), occurring in PID index cases. We intersected these with a catalogue of of cis-regulatory elements linked to protein-coding genes, created by combining `super-enhancer&#x2019; and promoter (+/- 500bp window around any protein coding gene transcriptional start site) annotations with promoter capture Hi-C data across 17 primary haematopoietic cell types<sup><xref rid="R21" ref-type="bibr">21</xref></sup>. Finally, we filtered these events so that only those with linked genes, containing a potentially high impact (CADD&gt;20) rare (MAF&lt;0.001) coding variant, within a previously reported pathogenic gene (IUIS 2017), were taken forward. Events in <italic>ARCPC1B</italic>, <italic>LRBA</italic> and <italic>DOCK8</italic> were functionally validated. The LRBA cHET variants were confirmed to be in trans by sequencing the parents. Functional LRBA deficiency was demonstrated by impaired surface CTLA-4 expression on Treg cells (<xref ref-type="fig" rid="F8">Extended Data Fig. 4</xref>). In the absence of the patient&#x2019;s mother for sequencing, the DOCK8 variants were confirmed to be in trans by nanopore sequencing and phasing of merged long- and short-read data (see below and <xref ref-type="fig" rid="F9">Extended Data Fig. 5</xref>). Functional DOCK8 deficiency was confirmed by a typical clinical phenotype (severe immunodeficiency with prominent wart infection), together with characteristic impaired ex-vivo CD8+, but preserved CD4+, T cell proliferation. The need for rapid bone marrow transplantation has precluded further phenotypic analysis of this patient.</p>
+      </sec>
+      <sec id="S14">
+        <title>Phasing of <italic>DOCK8</italic> variants</title>
+        <p id="P37">In order to confirm the phase of two variants detected in the <italic>DOCK8</italic> gene of a single individual, chr9:g.306626-358548del and chr9:463519G&gt;A, long read sequencing was performed using the Oxford Nanopore Technologies PromethION platform. The DNA sample was prepared using the 1D ligation library prep kit (SQK-LSK109), and genomic libraries were sequenced using a R.9.4.1 PromethION flowcell. Raw signal data in FAST5 format was base called using Guppy (v2.3.5) to generate sequences in FASTQ format, which were then aligned against the GRCh37/hg19 human reference genome using minimap2 (v2.2). Average coverage was 14x and median read length was 4,558 &#xB1; 4,007. A high quality set of heterozygous genotypes for the sample was created by using only variants from the short read Illumina WGS data with a phred score of &lt;20 (probability of correct genotype &gt; 0.99). Haplotyping was then performed with Whatshap (v0.14.1) by using the long Nanopore reads to bridge across the informative genotypes from the short read data (<ext-link ext-link-type="uri" xlink:href="https://whatshap.readthedocs.io/en/latest/index.html">https://whatshap.readthedocs.io/en/latest/index.html</ext-link>). We obtained a single high confidence haplotype block spanning the large deletion and the rare missense variant and showing that they were in trans (<xref ref-type="fig" rid="F9">Extended data Fig. 5</xref>).</p>
+      </sec>
+      <sec id="S15">
+        <title>AD-PID GWAS</title>
+        <p id="P38">GWAS was performed both on the whole PID cohort (N cases = 886) and on a subset comprising AD-PID cases (N cases = 733); the results of the AD-PID analysis were less noisy, and had increased power to detect statistical associations despite a reduced sample size (<xref ref-type="fig" rid="F10">Extended Data Fig. 6</xref>). We used 9,225 unrelated samples from non-PID NBR-RD cohorts as controls.</p>
+        <p id="P39">Variants selected from a merged VCF file were filtered to include bi-allelic SNPs with overall MAF&gt;=0.05 and minOPR=1 (100% pass rate across all WGS data for over 13,000 NBR participants). We ran PLINK logistic association test under an additive model. We adjusted for read length to guard against technical differences in genotype calls across the samples sequenced using 100bp, 125bp and 150bp reads, as Illumina chemistries changed throughout the duration of the project. We also used sex and first 10 principal components from the ethnicity analysis as covariates, to mitigate against any population stratification effects. After filtering out SNPs with HWE p&lt;10<sup>-6</sup>, we were left with the total of 4,993,945 analysed SNPs. There was minimal genomic inflation of the test statistic (lambda = 1.022), suggesting population substructure and sample relatedness had been appropriately accounted for. Linear mixed model (LMM) analysis, as implemented in the BOLT-LMM package<sup><xref rid="R43" ref-type="bibr">43</xref></sup>, is an alternative method of association testing correcting for population stratification. It was used to confirm the observed associations (<xref rid="T3" ref-type="table">Extended Data Table 3</xref>). After genomic control correction<sup><xref rid="R44" ref-type="bibr">44</xref></sup> the only genome-wide significant (p&lt;5x10<sup>-8</sup>) signal was at the MHC locus, with several suggestive (p&lt;1x10<sup>-5</sup>) signals (<xref ref-type="fig" rid="F10">Extended Data Fig. 6</xref>). We repeated the analysis with more relaxed SNP filtering criteria using 0.005 &lt; MAF &lt; 0.05 and minOPR&gt;0.95 (<xref ref-type="fig" rid="F10">Extended Data Fig. 6</xref>). The only additional signal identified were the three <italic>TNFRSF13B</italic> variants shown in <xref ref-type="supplementary-material" rid="SD1">Supplementary Note 3</xref>.</p>
+        <p id="P40">We obtained summary statistics data from the Li et al. CVID Immunochip case-control study<sup><xref rid="R8" ref-type="bibr">8</xref></sup> and, after further genomic control correction (lambda = 1.039), performed a fixed effects meta-analysis on 95,417 variants shared with our AD-PID GWAS. Genome-wide significant (p&lt;5x10<sup>-8</sup>) signals were seen at the MHC and 16p13.13 loci, with several suggestive (p&lt;1x10<sup>-5</sup>) signals (<xref rid="T3" ref-type="table">Extended Data Table 3</xref>). After meta-analysis, we conditioned on the lead SNP in each of the genome-wide and suggestive loci by including it as an additional covariate in the logistic regression model in PLINK, to determine if the signal was driven by single or multiple hits at those loci. The only suggestion of multiple independent signals was at the MHC locus (<xref ref-type="fig" rid="F11">Extended Data Fig. 7</xref>).</p>
+      </sec>
+      <sec id="S16">
+        <title>MHC locus analyses</title>
+        <p id="P41">We imputed classical HLA alleles using the method implemented in the SNP2HLA v1.0.3 package<sup><xref rid="R45" ref-type="bibr">45</xref></sup>, which uses Beagle v3.0.4 for imputation and the HapMap CEU reference panel. We imputed allele dosages and best-guess genotypes of 2-digit and 4-digit classical HLA alleles, as well as amino acids of the MHC locus genes <italic>HLA-A</italic>, <italic>HLA-B</italic>, <italic>HLA-C</italic>, <italic>HLA-DRB1</italic>, <italic>HLA-DQA1</italic> and <italic>HLA-DQB1</italic>. We tested the association of both allele dosages and genotypes using the logistic regression implemented in PLINK, and obtained similar results. We then used the best-guess genotypes to perform the conditional analysis (see above), since conditioning is not implemented in PLINK in a model with allele dosages. We repeated the conditional analyses as described above. The results of the sequential conditioning on the two lead classical alleles and amino acids within the Class I and Class II regions are shown in <xref ref-type="fig" rid="F11">Extended Data Fig. 7</xref>.</p>
+      </sec>
+      <sec id="S17">
+        <title>Allele Specific Expression</title>
+        <p id="P42">RNA and gDNA were extracted from PBMCs using the AllPrep kit (Qiagen) as per the manufacturer&#x2019;s instructions. RNA was reverse transcribed to make cDNA using the SuperScript&#x2122; VILO&#x2122;cDNA synthesis kit with appropriate minus reverse transcriptase controls, as per the manufacturer&#x2019;s instructions. The region of interest in the gDNA and 1:10 diluted cDNA was amplified using Phusion (Thermo Fisher) and the following primers on a G-Storm thermal cycler with 30 seconds at 98&#xB0;C then 35 cycles of 98&#xB0;C 10 seconds, 60&#xB0;C 30 seconds, 72&#xB0;C 15 seconds.</p>
+        <sec id="S18">
+          <title>ARPC1B</title>
+          <p id="P43">The region of interest spanning the frameshift variant was amplified using the following primers: Forward: GGGTACATGGCGTCTGTTTC / Reverse: CACCAGGCTGTTGTCTGTGA</p>
+          <p id="P44">PCR products were run on a 3.5% agarose gel. Bands were cut out and product extracted using the QIA Quick Gel Extraction Kit (Qiagen), as per protocol. Expected products were confirmed by Sanger sequencing. 4ul fresh PCR product was used in a TOPO<sup>&#xAE;</sup>cloning reaction (Invitrogen) and used to transform One Shot&#x2122; TOP10 chemically competent E. coli. These were cultured overnight then spread on LB agar plates. Individual colonies were picked and genotyped. ARPC1B mRNA expression was assessed using a Taqman gene expression assay with 18S and EEF1A1 as control genes. Each sample was run in triplicate for each gene with a no template control. PCR was run on a LightCycler<sup>&#xAE;</sup> (Roche) with 2 mins 50&#xB0;C, 20 seconds 95&#xB0;C then 45 cycles of 95&#xB0;C 3 seconds, 60&#xB0;C 30 seconds.</p>
+        </sec>
+        <sec id="S19">
+          <title>PTPN2</title>
+          <p id="P45">PTPN2 ASE protocol is modified from above. RNA and genomic DNA were extracted from PBMCs using the AllPrep Kit (Qiagen). RNA was treated with Turbo DNAse (Thermo) and reverse transcribed to generate cDNA using the SuperScript IV VILO master mix (Thermo). The intronic region of interest in gDNA and cDNA was amplified by two nested PCR reactions using Phusion enzyme (Thermo). The primers (F1/R1) and nested primers (F2/R2) used were: Forward_1: aaagtctggagcaggcagag / Reverse_1: tgggggaactggttatgctttc Forward_2: ggagctatgatcacgccacatg / Reverse_2: atgctttctggttgggctgac</p>
+          <p id="P46">PCR products were run on a 1% agarose gel. Bands were cut out and product extracted using the QIA Quick Gel Extraction Kit (Qiagen), as per protocol. Expected products were confirmed by Sanger sequencing. 5ng fresh PCR product was used in a TOPO<sup>&#xAE;</sup>cloning reaction (Invitrogen) and used to transform One Shot&#x2122; TOP10 chemically competent E. coli. These were cultured overnight then spread on LB agar plates. Individual colonies were picked and genotyped. PTPN2 mRNA expression was assessed using a Taqman SNP genotyping assay and on a LightCycler (Roche).</p>
+        </sec>
+      </sec>
+      <sec id="S20">
+        <title>PAGE and Western Blot analysis</title>
+        <p id="P47">Samples were separated by SDS polyacrylamide gel electrophoresis and transferred onto a nitrocellulose membrane. Individual proteins were detected with antibodies p-STAT1, against STAT1, against SOCS1, against PTPN2 (Cell Signaling Technology, Inc. 3 Trask Lane, Danvers, MA 01923, USA), against ARPC1b (goat polyclonal antibodies, ThermoScientific, Rockford, IL, USA), against ARPC1a (rabbit polyclonal antibodies, Sigma, St Louis, USA) and against actin (mouse monoclonal antibody, Sigma). Secondary antibodies were either donkey-anti-goat-IgG IRDye 800CW, Goat-anti-mouse-IgG IRDye 800CW or Donkey-anti-rabbit-IgG IRDye 680CW (LI-COR Biosciences, Lincoln, NE, USA). Quantification of bound antibodies was performed on an Odyssey Infrared Imaging system (LI-COR Biosciences, Lincoln, NE, USA). Specifically, for IVNS1ABP, whole cell lysates of peripheral blood mononuclear cells were lysed on ice with LDS NuPAGE (Invitrogen) at a concentration of 10<sup>5</sup> cells per 15ul of LDS. Lysates were denatured at 70&#xB0;C for 10 minutes then cooled. Lysates were loaded run on Bis-Tris 4-12% Protein Gels (Invitrogen) then transferred to a PVDF membrane (Invitrogen) using iBlot 2 Dry Blotting System (Thermo Fisher Scientific). Membranes were blocked with 5% milk in 5% tris-buffered saline with 0.01% Tween-20 (TBST) for 1 hour at room temperature then incubated overnight with the primary antibodies anti-GAPDH (Cell Signaling Technology) and anti-IVNS1ABP (Atlas Antibodies). Membranes were then washed 3x with TBST at room temperature then incubated with secondary anti-rabbit HRP-conjugated antibody (Cell Signaling Technology) for 1 hour. Membranes were then washed 3x with TBST and 1x with phosphate buffered saline. Membranes were then exposed with Pierce ECL Western Blotting Substrate (Thermo Fischer Scientific) and developed with CL-XPosure Film (Thermo Fischer Scientific).</p>
+      </sec>
+      <sec id="S21">
+        <title>Flow cytometry</title>
+        <p id="P48">Peripheral blood mononuclear cells were prepared for analysis by density centrifugation using Histopaque-1077 (Sigma-Aldrich). The following antibodies were used for flow cytometry immunophenotyping: CD3 &#x2013; BV605 (Biolegend, San Diego, CA, USA), CD4 &#x2013; APC-eFluor780 (eBioscience, San Diego, CA,USA), CD8 &#x2013; BV650 (eBioscience, San Diego, CA,USA), CD25 &#x2013; PE (eBioscience, San Diego, CA,USA), CD127 &#x2013; APC (eBioscience, San Diego, CA,USA), CD45RA &#x2013; PerCP-Cy5.5(eBioscience, San Diego, CA,USA, CD19 &#x2013; BV450 (BD Bioscience, Franklin Lakes, NJ, USA), CD27 &#x2013; PE-Cy7 (eBioscience, San Diego, CA,USA, CD62L &#x2013; APC-eF780 (eBioscience, San Diego, CA,USA, CXCR3 &#x2013; FITC (Biolegend, San Diego, CA, USA), CXCR5 &#x2013; AF488 (Biolegend, San Diego, CA, USA), CCR7 &#x2013; PE (Biolegend, San Diego, CA, USA), PD-1 &#x2013; APC (eBioscience, San Diego, CA,USA), HLA-DR- eFluor450 (eBioscience, San Diego, CA, USA), IgD &#x2013; FITC (BD Bioscience, Franklin Lakes, NJ, USA). Flow cytometry analysis was performed on a BD LSRFortessa (BD Bioscience) with FACS Diva software (BD Bioscience) for acquisition, then analysis was performed with FlowJo software (LLC).</p>
+      </sec>
+      <sec id="S22">
+        <title>AD-PID GWAS Enrichment</title>
+        <p id="P49">Due to the size of the AD-PID cohort, we were unable to use LD-score regression<sup><xref rid="R46" ref-type="bibr">46</xref></sup> to assess genetic correlation between distinct and related traits. We therefore adapted the previous enrichment method `blockshifter`<sup><xref rid="R47" ref-type="bibr">47</xref></sup> in order to assess evidence for the enrichment of AD-PID association signals in a compendium of 9 GWAS European Ancestry summary statistics was assembled from publicly available data. We removed the MHC region from all downstream analysis [GRCh37 chr6:25-45Mb]. To adjust for linkage disequilibrium (LD), we split the genome into 1cM recombination blocks based on HapMap recombination frequencies <sup><xref rid="R48" ref-type="bibr">48</xref></sup>. For a given GWAS trait, for <italic>n</italic> variants within LD block <italic>b</italic> we used Wakefield&#x2019;s synthesis of asymptotic Bayes factors (aBF)<sup><xref rid="R49" ref-type="bibr">49</xref></sup> to compute the posterior probability that the <italic>i<sup>th</sup></italic> variant is causal (<italic>PPCV<sub>i</sub></italic>) under single causal variant assumptions<sup><xref rid="R50" ref-type="bibr">50</xref></sup> : <disp-formula id="FD1"><mml:math display="block" id="M1" overflow="scroll"><mml:mrow><mml:mtext>PPC</mml:mtext><mml:msub><mml:mtext>V</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>aB</mml:mtext><mml:msub><mml:mtext>F</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>&#x3C0;</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo>&#x3A3;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mtext>aB</mml:mtext><mml:msub><mml:mtext>F</mml:mtext><mml:mi>j</mml:mi></mml:msub><mml:msub><mml:mi>&#x3C0;</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mstyle><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula> Here <italic>&#x3C0;<sub>i</sub></italic> = <italic>&#x3C0;<sub>j</sub></italic> are flat prior probabilities for a randomly selected variant from the genome to be causal and we use the value 1x10<sup>-4 <xref rid="R51" ref-type="bibr">51</xref></sup>. We sum over these PPCV within an LD block, <italic>b</italic> to obtain the posterior probability that <italic>b</italic> contains a single causal variant (PPCB).</p>
+        <p id="P50">To compute enrichment for trait, <italic>t</italic> we convert PPCBs into a binary label by applying a threshold such that <italic>PPCB<sub>t</sub></italic> &gt; 0.95. We apply these block labels for trait <italic>t</italic>, to PPCBs (computed as described above) for our AD-PID cohort GWAS, using them to compute a non-parametric Wilcoxon rank sum statistic, W representing the enrichment. Whilst the aBF approach naturally adjusts for LD within a block, residual LD between blocks may exist. In order to adjust for this and other confounders (e.g. block size) we use a circularised permutation technique<sup><xref rid="R52" ref-type="bibr">52</xref></sup> to compute W<sub>null</sub>. To do this, for a given chromosome, we select recombination blocks, and circularise such that beginning of the first block adjoins the end of the last. Permutation proceeds by rotating the block labels, but maintaining AD-PID PPCB assignment. In this way many permutations of W<sub>null</sub> can be computed whilst conserving the overall block structure.</p>
+        <p id="P51">For each trait we used 10<sup>4</sup> permutations to compute adjusted Wilcoxon rank sum scores using <italic>wgsea</italic> [<ext-link ext-link-type="uri" xlink:href="https://github.com/chr1swallace/wgsea">https://github.com/chr1swallace/wgsea</ext-link>] R package. For detailed method description see <xref ref-type="supplementary-material" rid="SD1">Supplementary Note 4</xref>.</p>
+      </sec>
+      <sec id="S23">
+        <title>PID monogenic candidate gene prioritisation</title>
+        <p id="P52">We hypothesised, given the genetic overlap with antibody associated PID, that common regulatory variation, elucidated through association studies of immune-mediated disease, might prioritise genes harbouring damaging LOF variants underlying PID. Firstly, using summary statistics from our combined fixed effect meta-analysis of AD-PID, we compiled a list of densely genotyped ImmunoChip regions containing one or more variant where P&lt;1x10<sup>-5</sup>. Next, we downloaded ImmunoChip (IC) summary statistics from ImmunoBase (accessed 30/07/2018) for all 11 available studies. For each study we intersected PID suggestive regions, and used COGS (<ext-link ext-link-type="uri" xlink:href="https://github.com/ollyburren/rCOGS">https://github.com/ollyburren/rCOGS</ext-link>) in conjunction with promoter-capture Hi-C datasets for 17 primary cell lines<sup><xref rid="R21" ref-type="bibr">21</xref>,<xref rid="R47" ref-type="bibr">47</xref></sup> in order to prioritise genes. We filtered by COGS score to select protein coding genes with a COGS score &gt; 0.5, obtaining a list of 11 protein coding genes out of a total of 54 considered.</p>
+        <p id="P53">We further hypothesised that genes harbouring rare LOF variation causal for PID would be intolerant to variation. We thus downloaded pLI scores<sup><xref rid="R53" ref-type="bibr">53</xref></sup> and took the product between these and the COGS scores to compute an `overall&#x2019; prioritisation score across each trait and gene combination. We applied a final filter taking forward only those genes having an above average `overall&#x2019; score to obtain a final list of 6 candidate genes (<xref ref-type="fig" rid="F4">Fig. 4d</xref>). Finally, we filtered the cohort for damaging rare (gnomAD AF&lt;0.001) protein-truncating variants (frameshift, splice-site, nonsense) within these genes in order to identify individuals for functional follow up.</p>
+      </sec>
+      <sec id="S24">
+        <title>Statistical analyses</title>
+        <p id="P54">Statistical analyses were carried out using R (v3.3.3 &#x2013; &#x201C;Another Canoe&#x201D;) and Graphpad Prism (v7) unless otherwise stated. All common statistical tests are two-sided unless otherwise stated. No statistical methods were used to pre-determine sample size</p>
+      </sec>
+    </sec>
+    <sec sec-type="extended-data" id="S25">
+      <title>Extended Data</title>
+      <fig id="F5" orientation="portrait" position="anchor">
+        <label>Extended Data Figure 1</label>
+        <caption>
+          <title>Graphical abstract</title>
+        </caption>
+        <graphic xlink:href="EMS85907-f005"/>
+      </fig>
+      <fig id="F6" orientation="portrait" position="anchor">
+        <label>Extended Data Figure 2</label>
+        <caption>
+          <title>Genetic testing in the PID cohort prior to WGS recruitment, in sporadic versus familial cases.</title>
+          <p id="P55">Any type of genetic test is included, such as single exon/gene sequencing, MLPA, or targeted gene panel/exome sequencing. The information was supplied on the referral form and is likely an underestimate of the number of patients with additional genetic testing.</p>
+        </caption>
+        <graphic xlink:href="EMS85907-f006"/>
+      </fig>
+      <fig id="F7" orientation="portrait" position="anchor">
+        <label>Extended Data Figure 3</label>
+        <caption>
+          <title>BeviMed simulation study of Positive Predictive Value (PPV) with increasing disease cohort size.</title>
+          <p id="P56">We simulated genotypes at 25 rare variant sites in a hypothetical locus amongst 20,000 controls and a further 1,000, 2,000, 3,000, 4,000 or 5,000 cases. We simulated that 0.2%, 0.3%, 0.4% or 0.5% of the cases had the hypothetical locus as their causal locus. We distinguish between cases due to the hypothetical locus (CHLs) and cases due to other loci (COLs). The allele frequency of 20 variants was set to 1/10,000 amongst the cases and COLs. The allele frequency of the remaining 5 variants was set to zero amongst the controls and COLs. One of the five variants was assigned a heterozygous genotype amongst the CTLs at random. Thus, we represent a dominant disorder caused by variants with full penetrance. As inference is typically performed across thousands of loci, with only a small number being causal, we assumed a mixture of 100 to 1 non-causal to causal loci. In order to compute the PPV for a given threshold on the posterior probability of association (PPA), we computed PPAs for 10,000 datasets without permutation of the case/control labels and 10,000 further datasets with a permutation of the case/control labels. We then sampled 1,000 PPAs from the permuted set and 10 PPAs from the non-permuted set to compute the PPV obtained when the PP threshold was set to achieve 100% power. The mean over 2,000 repetitions of this procedure is shown on the y-axis. The x-axis shows the number of cases in a hypothetical cohort. As the number of cases increases from 1,000 to 5,000, the PPV increases above 87.5% irrespective of the proportion of cases with the same genetic aetiology. This demonstrates the utility of expanding the size of the PID case collection for detecting even very rare aetiologies resulting in the same broad phenotype as cases with different aetiologies. In practice, the PPV/power relationship may be much better, as the wealth of phenotypic information of the cases can allow subcategorization of cases to better approximate shared genetic aetiologies.</p>
+        </caption>
+        <graphic xlink:href="EMS85907-f007"/>
+      </fig>
+      <fig id="F8" orientation="portrait" position="anchor">
+        <label>Extended Data Figure 4</label>
+        <caption>
+          <title>Candidate cHET filtering strategy and <italic>LRBA</italic> patient.</title>
+          <p id="P57"><bold>(a)</bold> Filtering strategy to identify candidate compound heterozygous (cHET) pathogenic variants consisting of a rare coding variant in a PID-associated gene and a deletion of a cis-regulatory element for the same gene. <bold>(b)</bold> Regional plot of the compound heterozygous variants. Gene annotations for are taken from Ensembl Version 75, and the transcripts shown are those with mRNA identifiers in RefSeq (ENST00000357115 and ENST00000510413). The position of each variant relative to the gene transcript is shown by a red bar, with the longer bar indicating the extent of the deleted region. Variant coordinates are shown for the GRCh37 genome build. <bold>(c)</bold> Pedigree of LRBA patient demonstrating phase of the causal variants. <bold>(d)</bold> FACS dotplot of CTLA-4 and FoxP3 expression in LRBA cHET patient and a healthy control (representative of 2 independent experiments). Numbers in black are the percentage in each quadrant. Numbers in red are the MFI of CTLA-4 staining in FoxP3 -ve and FoxP3 +ve cells. <bold>(e)</bold> Normalised CTLA-4 expression, assessed as previously described in Hou <italic>et al</italic>. (Blood, 2017), in the LRBA cHET patient (n=1), healthy controls (n=8) and positive control CTLA-4 (n=4) and LRBA (n=3 deficient patients. Horizontal bars indicate mean +/- SEM.</p>
+        </caption>
+        <graphic xlink:href="EMS85907-f008"/>
+      </fig>
+      <fig id="F9" orientation="portrait" position="anchor">
+        <label>Extended Data Figure 5</label>
+        <caption>
+          <title><italic>DOCK8</italic> cHET patient.</title>
+          <p id="P58"><bold>(a)</bold> Regional plot of the compound heterozygous variants. Gene annotations for are taken from Ensembl Version 75, and the transcripts shown are those with mRNA identifiers in RefSeq (ENST00000432829 and ENST00000469391). The position of each variant relative to the gene transcript is shown by a red bar, with the longer bar indicating the extent of the deleted region. Variant coordinates are shown for the GRCh37 genome build. <bold>(b)</bold> Photographs of the extensive HPV associated wart infection in the <italic>DOCK8</italic> cHET patient. <bold>(c)</bold> cHET variant phasing. Top: cartoon representation of phasing using high quality heterozygous calls from short read WGS data and long-read nanopore sequencing data. Bottom panel: WGS and nanopore data from the <italic>DOCK8</italic> patient. The two variants (large deletion and missense substitution) are shown in the bottom track (orange), and a single phase block (green) that spans the entire region between the two variants confirmed them to be in-trans. <bold>(d)</bold> Dye-dilution proliferation assessment in response to phytohaemagglutinin (PHA) and anti-CD3/28 beads in CD4+ and CD8+ T cells in patient and control cells (representative of 2 independent experiments). Staining was performed with CFSE dye (Invitrogen, Carlsbad, CA, USA) with the same additional fluorochrome markers as described in the flow cytometry <xref ref-type="sec" rid="S7">methods</xref> section.</p>
+        </caption>
+        <graphic xlink:href="EMS85907-f009"/>
+      </fig>
+      <fig id="F10" orientation="portrait" position="anchor">
+        <label>Extended Data Figure 6</label>
+        <caption>
+          <title>Manhattan plots of (a) all-PID MAF&gt;5%, (b) AD-PID MAF&gt;5% and (c) AD-PID 0.5%&lt;MAF&lt;5% GWAS results.</title>
+          <p id="P59">Sample sizes: all-PID cases n=886; AD-PID cases n=733; controls n=9,225. Each point represents an individual SNP association P-value, adjusted for genomic inflation. Only signals with P&lt;1x10<sup>-2</sup> are shown. None of the SNPs in plot (c) appear in the results of the common variant GWAS in (b), and are therefore additional signals gained from a GWAS including variants of intermediate MAF. Red and blue lines represent genome-wide (P&lt;5x10<sup>-8</sup>) and suggestive (P&lt;1x10<sup>-5</sup>) associations, respectively. Note the additional genome-wide significant signal representing the <italic>TNFRSF13B</italic> locus, and several suggestive associations that only become apparent with variants in the 0.5% - 5% MAF range shown in (c). Suggestive loci are indicated by the rsID of the lead SNP in each chromosome. Note that lead SNPs in AD-PID GWAS (b) may differ from meta-analysis lead SNPs.</p>
+        </caption>
+        <graphic xlink:href="EMS85907-f010"/>
+      </fig>
+      <fig id="F11" orientation="portrait" position="anchor">
+        <label>Extended Data Figure 7</label>
+        <caption>
+          <title>MHC locus conditional analyses in AD-PID GWAS (cases n=733, controls n=9,225).</title>
+          <p id="P60"><bold>(a)</bold> Locuszoom association plots of AD-PID GWAS MHC locus initial (top) and conditional (middle, bottom) analyses results. The <italic>x</italic> and left <italic>y</italic> axes represent the chromosomal position and the -log10 of the association P-value, respectively. Each point represents an analysed SNP, with the lead SNP indicated by a purple diamond and all other points coloured according to the strength of their LD with the lead SNP. Purple lines represent HapMap CEU population recombination hotspots. The bottom panel shows a selection of genes in the region, with over 150 genes omitted. Top: association plot of the most significant signal rs1265053, which is in the Class I region and close to <italic>HLA-B</italic> and <italic>HLA-C</italic> genes. Middle: plot showing the association remaining upon conditioning on rs1265053, with the strongest signal rs9273841 mapping to the Class II region close to <italic>HLA-DRB1</italic> and <italic>HLA-DQA1</italic> genes. Bottom: plot showing the association signal remaining upon conditioning on both rs1265053 and rs9273841. <bold>(b,c)</bold> MHC locus conditional analyses of the classical HLA alleles <bold>(b)</bold> and amino acids of individual HLA genes <bold>(c)</bold>. Each point represents a single imputed classical allele or amino acid, with those marked in red indicating those added as covariates to the logistic regression model: the Class I signal (second row plots), the Class II signal (third row plots), and both Class I and Class II signals (bottom row plots). The HLA allele and amino acid shown in the bottom plots are those with the lowest P-value remaining after conditioning on both Class I and Class II signals; as there are no genome-wide significant signals remaining, the results suggest there are two independent signals at the MHC locus. <bold>(d)</bold> Protein modelling of two independent MHC locus signals: <italic>HLA-DRB1</italic> residue E71 and <italic>HLA-B</italic> residue N114 using PDB 1BX2 and PDB 4QRQ respectively. Protein is depicted in white, highlighted residue in red, and peptide is in green.</p>
+        </caption>
+        <graphic xlink:href="EMS85907-f011"/>
+      </fig>
+      <table-wrap id="T1" position="anchor" orientation="portrait">
+        <label>Extended Data Table 1</label>
+        <caption>
+          <title>ESID definition of PID subtypes.</title>
+          <p id="P61">Participants were defined phenotypically to the groups: primary antibody deficiency, CVID, CID, severe autoimmunity/immune dysregulation, autoinflammatory syndrome, phagocyte disorder, and unspecified PID according to the European Society for Immunodeficiencies (ESID) registry diagnostic criteria (<ext-link ext-link-type="uri" xlink:href="https://esid.org/Working-Parties/Registry-Working-Party/Diagnosis-criteria">https://esid.org/Working-Parties/Registry-Working-Party/Diagnosis-criteria</ext-link>).</p>
+        </caption>
+        <table frame="hsides" rules="groups">
+          <tbody>
+            <tr>
+              <td align="center" colspan="2" valign="top" rowspan="1">Primary antibody deficiency</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">At least 1 of the following 4: <list list-type="bullet" id="L1"><list-item><p id="P62">Recurrent or severe bacterial infections</p></list-item><list-item><p id="P63">Autoimmune phenomena (especially cytopenias)</p></list-item><list-item><p id="P64">Polyclonal lymphoproliferation</p></list-item><list-item><p id="P65">Affected family member</p></list-item></list> AND secondary causes of hypogammaglobulinaemia have been excluded (infection, protein loss, medication, malignancy)</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">AND at least one of the following: <list list-type="bullet" id="L2"><list-item><p id="P66">marked decrease of at least one of total IgG, IgG1, IgG2, IgG3, IgA or IgM levels</p></list-item><list-item><p id="P67">failure of IgG antibody response(s) to vaccines</p></list-item></list> AND no clinical signs of T-cell related disease<break/>AND does not fit any other definitions</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" colspan="2" valign="top" rowspan="1">Common Variable Immune Deficiency (CVID)</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">At least one of the following: <list list-type="bullet" id="L3"><list-item><p id="P68">increased susceptibility to infection</p></list-item><list-item><p id="P69">autoimmune manifestations</p></list-item><list-item><p id="P70">granulomatous disease</p></list-item><list-item><p id="P71">unexplained polyclonal lymphoproliferation</p></list-item><list-item><p id="P72">affected family member with antibody deficiency</p></list-item></list> AND marked decrease of IgG a nd marked decrease of IgA with or without low IgM levels (measured at least twice ; &lt;2S D of the normal levels for their age)<break/>AND secondary causes of hypogammaglobulinaemia have been excluded (infection, protein loss, medication, malignancy)</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">AND At at least one of the following: <list list-type="bullet" id="L4"><list-item><p id="P73">poor antibody response to vaccines (and/or absent isohaemagglutinins); i.e. absence of protective levels despite vaccination where defined</p></list-item><list-item><p id="P74">low switched memory low switched memory B cells (&lt;70% of age-related normal value)</p></list-item></list> AND diagnosis is established after the 4th year of life (but symptoms may be present before)<break/> AND no evidence of profound T-cell deficiency, defined as 2 out of the following (y=year of life): <list list-type="bullet" id="L5"><list-item><p id="P75">CD4 numbers/microliter: 2-6y &lt;300, 6-12y &lt;250, &gt;12y &lt;200</p></list-item><list-item><p id="P76">% naive CD4: 2-6y &lt;25%, 6-16y &lt;20%, &gt;16y &lt;10%</p></list-item><list-item><p id="P77">T cell proliferation absent</p></list-item></list></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" colspan="2" valign="top" rowspan="1">Combined Immune Deficiency (CID)</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">At least one of: <list list-type="bullet" id="L6"><list-item><p id="P78">at least one severe infection (requiring hospitalization)</p></list-item><list-item><p id="P79">one manifestation of immune dysregulation (autoimmunity, IBD, severe eczema, lymphoproliferation, granuloma)</p></list-item><list-item><p id="P80">malignancy</p></list-item><list-item><p id="P81">affected family member</p></list-item></list> AND HIV excluded</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">AND 2 of 4 T cell criteria fulfilled: <list list-type="bullet" id="L7"><list-item><p id="P82">reduced CD3 or CD4 or CD8 T cells (using age-related reference values)</p></list-item><list-item><p id="P83">reduced naive CD4 and/or CD8 T cells</p></list-item><list-item><p id="P84">elevated g/d T cells</p></list-item><list-item><p id="P85">reduced proliferation to mitogen or TCR stimulation</p></list-item></list></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" colspan="2" valign="top" rowspan="1">Severe Combined Immune Deficiency (SCID)</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">At least one of the following: <list list-type="bullet" id="L8"><list-item><p id="P86">invasive bacterial, viral or fungal/opportunistic infection</p></list-item><list-item><p id="P87">persistent diarrhoea and failure to thrive</p></list-item><list-item><p id="P88">affected family member</p></list-item></list> AND manifestation in the first year of life<break/>AND HIV excluded</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">AND 2 of 4 T cell criteria fulfilled:<list list-type="bullet" id="L9"><list-item><p id="P89">low or absent CD3 or CD4 or CD8 T cells</p></list-item><list-item><p id="P90">reduced naive CD4 and/or CD8 T cells</p></list-item><list-item><p id="P91">elevated g/d T cells</p></list-item><list-item><p id="P92">reduced or absent proliferation to mitogen or TCR stimulation</p></list-item></list></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" colspan="2" valign="top" rowspan="1">Severe autoimmunity / immune dysregulation</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">At least one of the following: <list list-type="bullet" id="L10"><list-item><p id="P93">autoimmune manifestations</p></list-item><list-item><p id="P94">lymphoproliferation</p></list-item><list-item><p id="P95">severe eczema</p></list-item><list-item><p id="P96">inflammatory bowel disease</p></list-item><list-item><p id="P97">granuloma</p></list-item><list-item><p id="P98">vasculitis</p></list-item><list-item><p id="P99">HLH-like disease</p></list-item></list> AND no evidence of B-cell deficiency (low B cell numbers, hypogammaglobulinaemia)</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">AND at least one numeric or functional abnormal finding upon immunological investigation<break/>AND no evidence of profound T-cell deficiency, defined as 2 out of the following (y=year of life): <list list-type="bullet" id="L11"><list-item><p id="P100">CD4 numbers/microliter: 0-6mo &lt;1000, 6mo-1y &lt;800, 1-2y &lt;500, 2-6y &lt;300, 6-12y &lt;250, &gt;12y&lt;200</p></list-item><list-item><p id="P101">% naive CD4: 0-2y &lt;30%, 2-6y &lt;25%, 6-16y &lt;20%, &gt;16y &lt;10%</p></list-item><list-item><p id="P102">T cell proliferation absent</p></list-item></list></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" colspan="2" valign="top" rowspan="1">Autoinflammatory syndrome</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">Recurrent fever (temperature &gt;38 degrees Celsius) having occurred on at least 6 occasions.<break/>AND exclusion of other known infective / inflammatory autoimmune disorders</td>
+              <td align="left" valign="top" rowspan="1" colspan="1">AND documented evidence of increased inflammatory markers (ESR/CRP)<break/>AND predominantly but not exclusively systemic symptoms</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" colspan="2" valign="top" rowspan="1">Phagocyte disorder</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">At least one of the following: <list list-type="bullet" id="L12"><list-item><p id="P103">deep seated infection due to bacteria and/or fungi</p></list-item><list-item><p id="P104">recurrent severe pneumonia</p></list-item><list-item><p id="P105">buccal and/or genital aphtous lesions or ulcerations</p></list-item><list-item><p id="P106">omphalitis</p></list-item><list-item><p id="P107">chronic inflammatory manifestations (colitis, fistula formation)</p></list-item><list-item><p id="P108">BCGitis or BCGosis</p></list-item></list></td>
+              <td align="left" valign="top" rowspan="1" colspan="1">AND normal to subnormal respiratory burst (NBT or DHR, assessed at least twice)</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" colspan="2" valign="top" rowspan="1">Unspecified PID</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" rowspan="1" colspan="1">At least one of the following <list list-type="bullet" id="L13"><list-item><p id="P109">At least one major infection</p></list-item><list-item><p id="P110">Abnormal course or frequency of minor infections</p></list-item><list-item><p id="P111">At least one manifestation of immune dysregulation</p></list-item><list-item><p id="P112">Failure to thrive</p></list-item></list></td>
+              <td align="left" valign="top" rowspan="1" colspan="1">AND at least one numeric or functional abnormal finding upon immunological investigation<break/>AND exclusion of secondary causes for immunological abnormalities (infection, protein loss, medication, pregnancy)<break/>AND does not fit any other definition</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="T2" position="anchor" orientation="portrait">
+        <label>Extended Data Table 2</label>
+        <caption>
+          <title>Description of the NIHR BioResource - Primary Immunodeficiency cohort.</title>
+          <p id="P113">High-level clinical description and relevant clinical features were provided by recruiting clinicians. Index cases are patients recruited as sporadic cases or probands in pedigrees, and determined to be genetically unrelated by pairwise comparisons of common SNP genotypes in the WGS data. Numbers in brackets refer to the percentage of index cases in each category. Total number of patients is the sum of index cases and any affected relatives sequenced in this study.</p>
+        </caption>
+        <table frame="hsides" rules="groups">
+          <thead>
+            <tr>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Clinical Description</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Index Cases</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Familial Disease</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Male</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Paediatric Disease Onset</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Antibody (IgG/A/M) Deficiency</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Auto-immune Features</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Low CD4+ T cells</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Malignancy</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Total Sequenced Patients</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">Antibody Defect</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">122</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">21<break/>(17)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">52<break/>(43)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">41<break/>(34)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">122<break/>(100)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">22<break/>(18)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">12<break/>(10)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7<break/>(6)</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">144</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">CVID</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">443</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">50<break/>(11)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">220<break/>(50)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">103<break/>(23)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">443<break/>(100)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">126<break/>(28)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">95<break/>(21)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">35<break/>(8)</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">469</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">CID</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">141</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">26<break/>(18)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">71<break/>(50)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">77<break/>(54)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">141<break/>(100)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">26<break/>(18)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">70<break/>(49)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">19<break/>(13)</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">156</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">SCID</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">12</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3<break/>(25)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">8<break/>(67)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">12<break/>(100)</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">10<break/>(83)</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">12</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">Phagocyte disorder</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">23</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3<break/>(13)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">8<break/>(35)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">12<break/>(52)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1<break/>(4)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3<break/>(13)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">4<break/>(17)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3<break/>(13)</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">27</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">Severe Auto-immunity</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">52</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">6<break/>(12)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">28<break/>(54)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">14<break/>(27)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">22<break/>(42)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">52<break/>(100)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">8<break/>(15)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">6<break/>(12)</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">53</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">Auto-inflamatory Syndrome</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">26</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3<break/>(12)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">11<break/>(42)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7<break/>(27)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3<break/>(12)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">19<break/>(73)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">6<break/>(23)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1<break/>(4)</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">27</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">Unspecified PID</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">67</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">7<break/>(11)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">27<break/>(42)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">18<break/>(28)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">1<break/>(2)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">2<break/>(3)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">3<break/>(5)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">4<break/>(6)</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">86</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">Total</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">886</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">119<break/>(13)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">425<break/>(48)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">284<break/>(32)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">733<break/>(83)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">250<break/>(28)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">208<break/>(23)</td>
+              <td align="center" valign="top" rowspan="1" colspan="1">75<break/>(8)</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">974</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="T3" position="anchor" orientation="landscape">
+        <label>Extended Data Table 3</label>
+        <caption>
+          <title>Genome-wide significant (P&lt;5x10<sup>-8</sup>) and suggestive (P&lt;1x10<sup>-5</sup>) signals in our AD-PID and Li <italic>et al</italic>. (Nat Comm, 2015) CVID GWAS meta-analysis.</title>
+          <p id="P114">The AD-PID WGS cohort included 733 cases and 9225 controls, whereas the CVID Immunochip cohort included 778 cases and 10999 controls. The total number of shared meta-analysed variants was 95417. P-values are adjusted for individual study genomic inflation factor lambda. The selection of genes from each locus used in COGS analysis is described in <xref ref-type="sec" rid="S7">Methods</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Note 3</xref>.</p>
+        </caption>
+        <table frame="hsides" rules="groups">
+          <thead>
+            <tr>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Locus</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Lead SNP</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Chr</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Position (GRCh37)</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Effect allele</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">OR AD-PID</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">P AD-PID</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">OR Li et al.</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">P Li et al.</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">OR Meta</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">P Meta</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Genes in COGS analysis</th>
+              <th align="center" valign="middle" rowspan="1" colspan="1">Nearest Gene (dist. to lead SNP, bp)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" colspan="13" rowspan="1">Genome-wide significant signals in MAF&gt;5% meta-analysis</td>
+            </tr>
+            <tr>
+              <td colspan="13" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">6p21.33</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">rs2517529</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">6</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">31076978</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">G</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.39</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.30x10<sup>-09</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.41</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.96x10<sup>-10</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.40</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.5x10<sup>-18</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">C6orf15 (2021)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">16p13.13</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">rs2286974</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">16</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">11114512</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">G</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0.77</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">6.23x10<sup>-06</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0.73</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">6.18x10<sup>-08</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0.75</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">2.2x10<sup>-12</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">PRM2, RMI2, PRM3, TNP2, SOCS1</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">CLEC16A (0)</td>
+            </tr>
+            <tr>
+              <td colspan="13" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" colspan="13" rowspan="1">Additional suggestive signals in MAF&gt;5% meta-analysis</td>
+            </tr>
+            <tr>
+              <td colspan="13" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">3p24.1</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">rs3806624</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">3</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">27764623</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">A</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.19</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">2.43x10<sup>-03</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.29</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">3.41x10<sup>-06</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.20</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">5.3x10<sup>-08</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">SLC4A7, TOP2B, SGOL1, NGLY1, OXSM, NEK10, EOMES, AZI2, CMC1, ZCWPW2</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">EOMES (416)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">18p11.21</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">rs80191532</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">18</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">12752868</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">T</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.47</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">9.14x10<sup>-07</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.18</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">5.06x10<sup>-02</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.30</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">9.3x10<sup>-07</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">SEH1L, RNMT, LDLRAD4, PTPN2, FAM210A</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">PSMG2 (27128)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1q31.3</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">rs12563449</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">198427282</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">T</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0.87</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">7.66x10<sup>-02</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0.56</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">2.13x10<sup>-08</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0.74</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.3x10<sup>-07</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">LHX9, NEK7, C1orf53</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">ATP6V1G3 (65069)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">11q24.3</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">rs10750403</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">11</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">128477472</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">C</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.17</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">4.07x10<sup>-03</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.21</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">5.13x10<sup>-04</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.20</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">7.0x10<sup>-06</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">ETS1</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">ETS1 (20018)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">14q13.2</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">rs11851820</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">14</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">35803517</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">T</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0.69</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.29x10<sup>-02</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0.15</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">2.47x10<sup>-08</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">0.54</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">7.1x10<sup>-06</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">NFKBIA</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">PSMA6 (16817)</td>
+            </tr>
+            <tr>
+              <td colspan="13" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" colspan="13" rowspan="1">Additional AD-PID genome-wide significant signal in MAF&gt;0.5% GWAS</td>
+            </tr>
+            <tr>
+              <td colspan="13" align="left" valign="top" rowspan="1">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" rowspan="1" colspan="1">17p11.2</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">rs34557412</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">17</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">16852187</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">G</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">4.04</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">1.37x10<sup>-12</sup></td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+              <td align="center" valign="middle" rowspan="1" colspan="1">TNFRSF13B (0)</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>Supplementary Information</label>
+        <media xlink:href="EMS85907-supplement-Supplementary_Information.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" xlink:type="simple" id="d39e3232" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>Supp Table 2</label>
+        <media xlink:href="EMS85907-supplement-Supp_Table_2.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet" orientation="portrait" xlink:type="simple" id="d39e3236" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3">
+        <label>Supp Table 1</label>
+        <media xlink:href="EMS85907-supplement-Supp_Table_1.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document" orientation="portrait" xlink:type="simple" id="d39e3240" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD4">
+        <label>Supp Table 3</label>
+        <media xlink:href="EMS85907-supplement-Supp_Table_3.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet" orientation="portrait" xlink:type="simple" id="d39e3244" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD5">
+        <label>Guide to supplementary files</label>
+        <media xlink:href="EMS85907-supplement-Guide_to_supplementary_files.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" xlink:type="simple" id="d39e3248" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD6">
+        <label>Supp Table 4</label>
+        <media xlink:href="EMS85907-supplement-Supp_Table_4.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet" orientation="portrait" xlink:type="simple" id="d39e3252" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD7">
+        <label>Supp Fig 1</label>
+        <media xlink:href="EMS85907-supplement-Supp_Fig_1.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" xlink:type="simple" id="d39e3256" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S26">
+      <title>Acknowledgements</title>
+      <p>Funding for the NIHR-BioResource was provided by the National Institute for Health Research (NIHR, grant number RG65966). We gratefully acknowledge the participation of all NIHR BioResource volunteers, and thank the NIHR BioResource centre and staff for their contribution. JEDT is supported by the MRC (RG95376 and MR/L006197/1). AJT is supported by the Wellcome Trust (104807/Z/14/Z) and the NIHR Biomedical Research Centre at Great Ormond Street Hospital for Children NHS Foundation Trust and University College London. KGCS is supported by the Medical Research Council (program grant MR/L019027) and is a Wellcome Investigator. AJC was supported by the Wellcome [091157/Z/10/Z], [107212/Z/15/Z], [100140/Z/12/Z], [203141/Z/16/Z]; JDRF [9-2011-253], [5-SRA-2015-130-A-N]; NIHR Oxford Biomedical Research Centre and the NIHR Cambridge Biomedical Research Centre. EE has received funding from the European Union Seventh Framework Programme (FP7-PEOPLE-2013-COFUND) under grant agreement no 609020- Scientia Fellows. ER is supported supported by the Wellcome Trust [201250/Z/16/Z]. DE is supported by the German Federal Ministry of Education and Research (BMBF) within the framework of the e:Med research and funding concept (SysInflame grant 01ZX1306A; GB-XMAP grant 01ZX1709) and funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany`s Excellence Strategy &#x2013; EXC 2167-390884018.</p>
+    </ack>
+    <fn-group>
+      <fn id="FN1">
+        <label>7</label>
+        <p id="P1">Current address: Medical Research Council Epidemiology Unit, University of Cambridge School of Clinical Medicine, Cambridge Biomedical Campus, Cambridge, UK.</p>
+      </fn>
+      <fn fn-type="con" id="FN5">
+        <p id="P115"><underline>Author Contributions:</underline> JEDT, ES, JS, ZZ, WR, NSG, PT, ER, AJC carried out experiments. HLA, OSB, JEDT, JHRF, DG, IS, CP, SVVD, ASJ, JM, JS, PAL, AGL, KM, EE, DE, SFJ, THK, ET performed computational analysis of the data. HLA, IS, CP, MB, CrS, RL, PJRM, JS, KES conducted sample and data processing. JEDT, ES, WR, MJT, RBS, PG, HEB, AW, SH, RL, MSB, KCG, DSK, AC, DE, AH, NC, SG, AH, SG, SJ, CaS, FB, SS, SOB, TWK, WHO, AJT recruited patients, provided clinical phenotype data and confirmed genetic diagnosis. All authors contributed to the analysis of the presented results. KGCS, JEDT, HLA, WR and OSB wrote the paper with input from all other authors. KGCS, WHO, AJT and TWK conceived and oversaw the research programme.</p>
+      </fn>
+      <fn fn-type="COI-statement" id="FN6">
+        <p id="P116">
+          <underline>Competing interests</underline>
+        </p>
+        <p id="P117">The authors declare no competing financial interests.</p>
+      </fn>
+      <fn id="FN7">
+        <p id="P118">
+          <bold>Ethics Declaration</bold>
+        </p>
+        <p id="P119">NBR-RD participants from the UK were consented under the East of England Cambridge South national research ethics committee (REC) reference 13/EE/0325. Participants recruited outside of the UK were consented by the recruiting clinicians under the ethics governance of their respective hospitals.</p>
+      </fn>
+      <fn id="FN8">
+        <p id="P120">
+          <bold>Data Availability</bold>
+        </p>
+        <p id="P121">WGS and phenotype data from participants is available from one of 3 data repositories determined by the informed consent of the participant. (1) Data from participants enrolled in the NIHR BioResource for the 100,000 Genomes Project&#x2013;Rare Diseases Pilot can be accessed via Genomics England Limited: <ext-link ext-link-type="uri" xlink:href="https://www.genomicsengland.co.uk/about-gecip/joining-research-community/">https://www.genomicsengland.co.uk/about-gecip/joining-research-community/</ext-link>. (2) data from the UK Biobank samples are available through a data release process overseen by UK Biobank (<ext-link ext-link-type="uri" xlink:href="https://www.ukbiobank.ac.uk/">https://www.ukbiobank.ac.uk/</ext-link>). (3) data from the remaining NIHR BioResource participants is available from the European Genome-phenome Archive (EGA) at the EMBL European Bioinformatics Institute (EGA accession code EGAD00001004523). Patients all fall into group (3) and controls into groups (1)-(3). Variants listed in <xref ref-type="supplementary-material" rid="SD3">Supplementary Table 1</xref> (diagnostic findings) have been submitted to ClinVar and are accessible under &#x201C;NIHR_Bioresource_Rare_Diseases_PID&#x201D;. Summary statistics are available via GWAS Catalog [Accession number granted upon acceptance of the manuscript].</p>
+      </fn>
+      <fn id="FN9">
+        <p id="P122">
+          <bold>Code Availability</bold>
+        </p>
+        <p id="P123">R code for running major analyses are available at <ext-link ext-link-type="uri" xlink:href="https://github.com/ollyburren/pid_thaventhiran_et_al">https://github.com/ollyburren/pid_thaventhiran_et_al</ext-link>.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="R1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gathmann</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clinical picture and treatment of 2212 patients with common variable immunodeficiency</article-title>
+          <source>J Allergy Clin Immunol</source>
+          <year>2014</year>
+          <volume>134</volume>
+          <fpage>116</fpage>
+          <lpage>126.e11</lpage>
+          <pub-id pub-id-type="pmid">24582312</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lenardo</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lo</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Lucas</surname>
+              <given-names>CL</given-names>
+            </name>
+          </person-group>
+          <article-title>Genomics of Immune Diseases and New Therapies</article-title>
+          <source>Annu Rev Immunol</source>
+          <year>2016</year>
+          <volume>34</volume>
+          <fpage>121</fpage>
+          <lpage>149</lpage>
+          <pub-id pub-id-type="pmid">26735698</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bousfiha</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The 2017 IUIS Phenotypic Classification for Primary Immunodeficiencies</article-title>
+          <source>J Clin Immunol</source>
+          <year>2018</year>
+          <volume>38</volume>
+          <fpage>129</fpage>
+          <lpage>143</lpage>
+          <pub-id pub-id-type="pmid">29226301</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greene</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Turro</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>A Fast Association Test for Identifying Pathogenic Variants Involved in Rare Diseases</article-title>
+          <source>Am J Hum Genet</source>
+          <year>2017</year>
+          <volume>101</volume>
+          <fpage>104</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="pmid">28669401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Casanova</surname>
+              <given-names>J-L</given-names>
+            </name>
+          </person-group>
+          <article-title>Human genetic basis of interindividual variability in the course of infection</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2015</year>
+          <volume>112</volume>
+          <fpage>E7118</fpage>
+          <lpage>27</lpage>
+          <pub-id pub-id-type="pmid">26621739</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Edgar</surname>
+              <given-names>JDM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The United Kingdom Primary Immune Deficiency (UKPID) Registry: report of the first 4 years&#x2019; activity 2008-2012</article-title>
+          <source>Clin Exp Immunol</source>
+          <year>2014</year>
+          <volume>175</volume>
+          <fpage>68</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="pmid">23841717</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pan-Hammarstr&#xF6;m</surname>
+              <given-names>Q</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Reexamining the role of TACI coding variants in common variable immunodeficiency and selective IgA deficiency</article-title>
+          <source>Nat Genet</source>
+          <year>2007</year>
+          <volume>39</volume>
+          <fpage>429</fpage>
+          <lpage>430</lpage>
+          <pub-id pub-id-type="pmid">17392797</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Association of CLEC16A with human common variable immunodeficiency disorder and role in murine B cells</article-title>
+          <source>Nat Commun</source>
+          <year>2015</year>
+          <volume>6</volume>
+          <comment>6804</comment>
+        </element-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shillitoe</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The United Kingdom Primary Immune Deficiency (UKPID) registry 2012 to 2017</article-title>
+          <source>Clin Exp Immunol</source>
+          <year>2018</year>
+          <volume>192</volume>
+          <fpage>284</fpage>
+          <lpage>291</lpage>
+          <pub-id pub-id-type="pmid">29878323</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bousfiha</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The 2015 IUIS Phenotypic Classification for Primary Immunodeficiencies</article-title>
+          <source>J Clin Immunol</source>
+          <year>2015</year>
+          <volume>35</volume>
+          <fpage>727</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="pmid">26445875</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richards</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology</article-title>
+          <source>Genet Med</source>
+          <year>2015</year>
+          <volume>17</volume>
+          <fpage>405</fpage>
+          <lpage>423</lpage>
+          <pub-id pub-id-type="pmid">25741868</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fromer</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Discovery and statistical genotyping of copy-number variation from whole-exome sequencing depth</article-title>
+          <source>Am J Hum Genet</source>
+          <year>2012</year>
+          <volume>91</volume>
+          <fpage>597</fpage>
+          <lpage>607</lpage>
+          <pub-id pub-id-type="pmid">23040492</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van de Veerdonk</surname>
+              <given-names>FL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>STAT1 Mutations in Autosomal Dominant Chronic Mucocutaneous Candidiasis</article-title>
+          <source>N Engl J Med</source>
+          <year>2011</year>
+          <volume>365</volume>
+          <fpage>54</fpage>
+          <lpage>61</lpage>
+          <pub-id pub-id-type="pmid">21714643</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Gain-of-function human STAT1 mutations impair IL-17 immunity and underlie chronic mucocutaneous candidiasis</article-title>
+          <source>J Exp Med</source>
+          <year>2011</year>
+          <volume>208</volume>
+          <fpage>1635</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="pmid">21727188</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Breuer</surname>
+              <given-names>O</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Autosomal dominant gain of function STAT1 mutation and severe bronchiectasis</article-title>
+          <source>Respir Med</source>
+          <year>2017</year>
+          <volume>126</volume>
+          <fpage>39</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="pmid">28427548</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toubiana</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Heterozygous STAT1 gain-of-function mutations underlie an unexpectedly broad clinical phenotype</article-title>
+          <source>Blood</source>
+          <year>2016</year>
+          <volume>127</volume>
+          <fpage>3154</fpage>
+          <pub-id pub-id-type="pmid">27114460</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fliegauf</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Haploinsufficiency of the NF-&#x3BA;B1 Subunit p50 in Common Variable Immunodeficiency</article-title>
+          <source>Am J Hum Genet</source>
+          <year>2015</year>
+          <volume>97</volume>
+          <fpage>389</fpage>
+          <lpage>403</lpage>
+          <pub-id pub-id-type="pmid">26279205</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuijpers</surname>
+              <given-names>TW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Combined immunodeficiency with severe inflammation and allergy caused by ARPC1B deficiency</article-title>
+          <source>J Allergy Clin Immunol</source>
+          <year>2017</year>
+          <volume>140</volume>
+          <fpage>273</fpage>
+          <lpage>277.e10</lpage>
+          <pub-id pub-id-type="pmid">27965109</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tuijnenburg</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss-of-function nuclear factor &#x3BA;B subunit 1 (NFKB1) variants are the most common monogenic cause of common variable immunodeficiency in Europeans</article-title>
+          <source>J Allergy Clin Immunol</source>
+          <year>2018</year>
+          <volume>142</volume>
+          <fpage>1285</fpage>
+          <lpage>1296</lpage>
+          <pub-id pub-id-type="pmid">29477724</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hnisz</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Super-Enhancers in the Control of Cell Identity and Disease</article-title>
+          <source>Cell</source>
+          <year>2013</year>
+          <volume>155</volume>
+          <fpage>934</fpage>
+          <lpage>947</lpage>
+          <pub-id pub-id-type="pmid">24119843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Javierre</surname>
+              <given-names>BM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lineage-Specific Genome Architecture Links Enhancers and Non-coding Disease Variants to Target Gene Promoters</article-title>
+          <source>Cell</source>
+          <year>2016</year>
+          <volume>167</volume>
+          <fpage>1369</fpage>
+          <lpage>1384.e19</lpage>
+          <pub-id pub-id-type="pmid">27863249</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kahr</surname>
+              <given-names>WHA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss of the Arp2/3 complex component ARPC1B causes platelet abnormalities and predisposes to inflammatory disease</article-title>
+          <source>Nat Commun</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <comment>14816</comment>
+        </element-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burns</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Cory</surname>
+              <given-names>GO</given-names>
+            </name>
+            <name>
+              <surname>Vainchenker</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Thrasher</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms of WASp-mediated hematologic and immunologic disease</article-title>
+          <source>Blood</source>
+          <year>2004</year>
+          <volume>104</volume>
+          <fpage>3454 LP</fpage>
+          <lpage>3462</lpage>
+          <pub-id pub-id-type="pmid">15308573</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Engelhardt</surname>
+              <given-names>KR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of Heterozygous Single- and Multi-exon Deletions in IL7R by Whole Exome Sequencing</article-title>
+          <source>J Clin Immunol</source>
+          <year>2017</year>
+          <volume>37</volume>
+          <fpage>42</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="pmid">27807805</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schepp</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Deficiency of Adenosine Deaminase 2 Causes Antibody Deficiency</article-title>
+          <source>J Clin Immunol</source>
+          <year>2016</year>
+          <volume>36</volume>
+          <fpage>179</fpage>
+          <lpage>186</lpage>
+          <pub-id pub-id-type="pmid">26922074</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salzer</surname>
+              <given-names>U</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in TNFRSF13B encoding TACI are associated with common variable immunodeficiency in humans</article-title>
+          <source>Nat Genet</source>
+          <year>2005</year>
+          <volume>37</volume>
+          <fpage>820</fpage>
+          <lpage>828</lpage>
+          <pub-id pub-id-type="pmid">16007087</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alexander</surname>
+              <given-names>WS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SOCS1 is a critical inhibitor of interferon gamma signaling and prevents the potentially fatal neonatal actions of this cytokine</article-title>
+          <source>Cell</source>
+          <year>1999</year>
+          <volume>98</volume>
+          <fpage>597</fpage>
+          <lpage>608</lpage>
+          <pub-id pub-id-type="pmid">10490099</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sobreira</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Schiettecatte</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Valle</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hamosh</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>GeneMatcher: A Matching Tool for Connecting Investigators with an Interest in the Same Gene</article-title>
+          <source>Hum Mutat</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>928</fpage>
+          <lpage>930</lpage>
+          <pub-id pub-id-type="pmid">26220891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Starr</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Liver degeneration and lymphoid deficiencies in mice lacking suppressor of cytokine signaling-1</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>1998</year>
+          <volume>95</volume>
+          <fpage>14395</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">9826711</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horino</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Suppressor of cytokine signaling-1 ameliorates dextran sulfate sodium-induced colitis in mice</article-title>
+          <source>Int Immunol</source>
+          <year>2008</year>
+          <volume>20</volume>
+          <fpage>753</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="pmid">18381351</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SOCS1 is a suppressor of liver fibrosis and hepatitis-induced carcinogenesis</article-title>
+          <source>J Exp Med</source>
+          <year>2004</year>
+          <volume>199</volume>
+          <fpage>1701</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">15197228</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bourdeau</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>TC-PTP-deficient bone marrow stromal cells fail to support normal B lymphopoiesis due to abnormal secretion of interferon-{gamma}</article-title>
+          <source>Blood</source>
+          <year>2007</year>
+          <volume>109</volume>
+          <fpage>4220</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">17234741</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>You-Ten</surname>
+              <given-names>KE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Impaired bone marrow microenvironment and immune function in T cell protein tyrosine phosphatase-deficient mice</article-title>
+          <source>J Exp Med</source>
+          <year>1997</year>
+          <volume>186</volume>
+          <fpage>683</fpage>
+          <lpage>93</lpage>
+          <pub-id pub-id-type="pmid">9271584</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wiede</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Sacirbegovic</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Leong</surname>
+              <given-names>YA</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Tiganis</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>PTPN2-deficiency exacerbates T follicular helper cell and B cell responses and promotes the development of autoimmunity</article-title>
+          <source>J Autoimmun</source>
+          <year>2017</year>
+          <volume>76</volume>
+          <fpage>85</fpage>
+          <lpage>100</lpage>
+          <pub-id pub-id-type="pmid">27658548</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Forbes</surname>
+              <given-names>LR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Jakinibs for the treatment of immune dysregulation in patients with gain-of-function signal transducer and activator of transcription 1 (STAT1) or STAT3 mutations</article-title>
+          <source>J Allergy Clin Immunol</source>
+          <year>2018</year>
+          <volume>142</volume>
+          <fpage>1665</fpage>
+          <lpage>1669</lpage>
+          <pub-id pub-id-type="pmid">30092289</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kilpinen</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Common genetic variation drives molecular heterogeneity in human iPSCs</article-title>
+          <source>Nature</source>
+          <year>2017</year>
+          <volume>546</volume>
+          <fpage>370</fpage>
+          <lpage>375</lpage>
+          <pub-id pub-id-type="pmid">28489815</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okada</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Meta-analysis identifies nine new loci associated with rheumatoid arthritis in the Japanese population</article-title>
+          <source>Nat Genet</source>
+          <year>2012</year>
+          <volume>44</volume>
+          <fpage>511</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">22446963</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <collab>The NIHR BioResource</collab>
+          <article-title>Whole-genome sequencing of rare disease patients in a national healthcare system</article-title>
+          <source>bioRxiv</source>
+          <year>2019</year>
+          <comment>507244</comment>
+          <pub-id pub-id-type="doi">10.1101/507244</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carss</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Comprehensive Rare Variant Analysis via Whole-Genome Sequencing to Determine the Molecular Pathology of Inherited Retinal Disease</article-title>
+          <source>Am J Hum Genet</source>
+          <year>2017</year>
+          <volume>100</volume>
+          <fpage>75</fpage>
+          <lpage>90</lpage>
+          <pub-id pub-id-type="pmid">28041643</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McLaren</surname>
+              <given-names>W</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Ensembl Variant Effect Predictor</article-title>
+          <source>Genome Biol</source>
+          <year>2016</year>
+          <volume>17</volume>
+          <fpage>122</fpage>
+          <pub-id pub-id-type="pmid">27268795</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mathieson</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>McVean</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential confounding of rare and common variants in spatially structured populations</article-title>
+          <source>Nat Genet</source>
+          <year>2012</year>
+          <volume>44</volume>
+          <fpage>243</fpage>
+          <lpage>246</lpage>
+          <pub-id pub-id-type="pmid">22306651</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Short</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>De novo mutations in regulatory elements in neurodevelopmental disorders</article-title>
+          <source>Nature</source>
+          <year>2018</year>
+          <volume>555</volume>
+          <fpage>611</fpage>
+          <lpage>616</lpage>
+          <pub-id pub-id-type="pmid">29562236</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loh</surname>
+              <given-names>P-R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Efficient Bayesian mixed-model analysis increases association power in large cohorts</article-title>
+          <source>Nat Genet</source>
+          <year>2015</year>
+          <volume>47</volume>
+          <fpage>284</fpage>
+          <pub-id pub-id-type="pmid">25642633</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Devlin</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Roeder</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Genomic Control for Association Studies</article-title>
+          <source>Biometrics</source>
+          <year>1999</year>
+          <volume>55</volume>
+          <fpage>997</fpage>
+          <lpage>1004</lpage>
+          <pub-id pub-id-type="pmid">11315092</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jia</surname>
+              <given-names>X</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Imputing amino acid polymorphisms in human leukocyte antigens</article-title>
+          <source>PLoS One</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <fpage>e64683</fpage>
+          <pub-id pub-id-type="pmid">23762245</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bulik-Sullivan</surname>
+              <given-names>BK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>LD Score regression distinguishes confounding from polygenicity in genome-wide association studies</article-title>
+          <source>Nat Genet</source>
+          <year>2015</year>
+          <volume>47</volume>
+          <fpage>291</fpage>
+          <lpage>5</lpage>
+          <pub-id pub-id-type="pmid">25642630</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burren</surname>
+              <given-names>OS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Chromosome contacts in activated T cells identify autoimmune disease candidate genes</article-title>
+          <source>Genome Biol</source>
+          <year>2017</year>
+          <volume>18</volume>
+          <fpage>165</fpage>
+          <pub-id pub-id-type="pmid">28870212</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <collab>The International HapMap Consortium</collab>
+          <etal/>
+          <article-title>A second generation human haplotype map of over 3.1 million SNPs</article-title>
+          <source>Nature</source>
+          <year>2007</year>
+          <volume>449</volume>
+          <fpage>851</fpage>
+          <lpage>61</lpage>
+          <pub-id pub-id-type="pmid">17943122</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wakefield</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Bayes factors for genome-wide association studies: comparison with <italic>P</italic> -values</article-title>
+          <source>Genet Epidemiol</source>
+          <year>2009</year>
+          <volume>33</volume>
+          <fpage>79</fpage>
+          <lpage>86</lpage>
+          <pub-id pub-id-type="pmid">18642345</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <collab>Wellcome Trust Case Control Consortium JB</collab>
+          <etal/>
+          <article-title>Bayesian refinement of association signals for 14 loci in 3 common diseases</article-title>
+          <source>Nat Genet</source>
+          <year>2012</year>
+          <volume>44</volume>
+          <fpage>1294</fpage>
+          <lpage>301</lpage>
+          <pub-id pub-id-type="pmid">23104008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R51">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Fine-mapping inflammatory bowel disease loci to single-variant resolution</article-title>
+          <source>Nature</source>
+          <year>2017</year>
+          <volume>547</volume>
+          <fpage>173</fpage>
+          <lpage>178</lpage>
+          <pub-id pub-id-type="pmid">28658209</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trynka</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Disentangling the Effects of Colocalizing Genomic Annotations to Functionally Prioritize Non-coding Variants within Complex-Trait Loci</article-title>
+          <source>Am J Hum Genet</source>
+          <year>2015</year>
+          <volume>97</volume>
+          <fpage>139</fpage>
+          <lpage>52</lpage>
+          <pub-id pub-id-type="pmid">26140449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R53">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lek</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Analysis of protein-coding genetic variation in 60,706 humans</article-title>
+          <source>Nature</source>
+          <year>2016</year>
+          <volume>536</volume>
+          <fpage>285</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="pmid">27535533</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <title>Description of the immunodeficiency cohort and disease associations in coding regions.</title>
+        <p><bold>(a)</bold> Number of index cases recruited under different phenotypic categories (red &#x2013; adult cases, blue &#x2013; paediatric cases, lighter shade &#x2013; sporadic (no family history of PID), darker shade - family history of PID). CVID &#x2013; Common variable immunodeficiency, CID &#x2013; combined immunodeficiency, and SCID &#x2013; severe combined immunodeficiency. <bold>(b)</bold> Number of index cases with malignancy, autoimmunity and CD4+ lymphopenia. (black bar &#x2013; total number of cases, blue bar - number of cases with AD-PID phenotype). <bold>(c)</bold> Number of patients with reported genetic findings subdivided by gene. Previously reported variants are those identified as immune disease-causing in the HGMD-Pro database.</p>
+      </caption>
+      <graphic xlink:href="EMS85907-f001"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <title>Discovery of novel PID genes in a large cohort WGS analysis.</title>
+        <p><bold>(a)</bold> BeviMed assessment of enrichment for candidate disease-causing variants in individual genes, in the PID cohort relative to the rest of the NBR-RD cohort (cases n=886, controls n= 9,284). The top 25 candidate genes are shown. Genes highlighted in yellow are those flagged as potentially confounded by population stratification (see <xref ref-type="supplementary-material" rid="SD1">Supplementary Note 2</xref>). Prioritized genes known to cause PID according to the International Union of Immunological Societies (IUIS) in 2015 (blue)<sup><xref rid="R10" ref-type="bibr">10</xref></sup> and 2017 (red)<sup><xref rid="R3" ref-type="bibr">3</xref></sup>. <bold>(b)</bold> Pedigrees of 3 unrelated kindreds with damaging <italic>IVNS1ABP</italic> variants and linear protein position of variants. <bold>(c)</bold> Western blot of IVNS1ABP and GAPDH in whole cell lysates of PBMCs. (Top) Representative blot from A.II.1 (P) and Control (C). For gel source data, see <xref ref-type="supplementary-material" rid="SD7">Supplementary Figure 1</xref>. (Bottom) Graph of relative IVNS1ABP normalized to GAPDH. (representative of 4 independent experiments). <bold>(d)</bold> Immunophenotyping of CD3+ T cells, CD4+, CD8+ T cells, and CD19+ B cells in C = healthy controls (n=20) and P = <italic>IVNS1ABP</italic> patients (n=4). <bold>(e)</bold> Assessment of CD127 and PD-1 expression in na&#xEF;ve T cells. (Left) Representative gating of na&#xEF;ve (CD45RA+ CD62L+) CD4+ T cells in a control and B.II.1.(Middle) FACS histograms of PD-1 and CD127 from controls and IVNS1ABP patients (B.II.1 and A.II.1). (Right) PD-1 and CD127 mean fluorescence intensity (MFI) values from controls (C, n=20) and patients (P, n=4). All tests two-sided Mann Whitney U. Lines present means, bars = S.E.M.</p>
+      </caption>
+      <graphic xlink:href="EMS85907-f002"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <title>Assessment of WGS data for regulatory region deletions that impact upon PID.</title>
+        <p><bold>(a)</bold> Genomic configuration of the <italic>ARPC1B</italic> gene locus highlighting the compound heterozygous gene variants. ExAC shows that the non-coding deletion is outside of the exome-targeted regions. <bold>(b)</bold> Pedigree of patient in (a) and co-segregation of <italic>ARPC1B</italic> genotype (wt &#x2013; wild-type, del &#x2013; deletion, fs &#x2013; frameshift). <bold>(c)</bold> Western blot of ARPC1A and ARPC1B in neutrophil and platelet lysates from the patient (P) and control (C, n=1). For gel source data, see <xref ref-type="supplementary-material" rid="SD7">Supplementary Figure 1</xref>. <bold>(d)</bold> Podosomes were identified by staining adherent, fixed monocyte-derived macrophages for vinculin, phalloidin and the nuclear stain DAPI. Quantification was performed by counting podosomes on at least 100 cells per sample from 10 fields of view at 60x magnification.</p>
+      </caption>
+      <graphic xlink:href="EMS85907-f003"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <title>Antibody deficiency (AD-PID) GWAS identifies common variants that mediate disease risk and suggests novel monogenic candidate genes.</title>
+        <p><bold>(a)</bold> A composite Manhattan plot for the AD-PID GWAS. Blue &#x2013; common variants (MAF&gt;0.05) analysed in this study (NBR-RD) only (cases n=773, controls n=9,225), red &#x2013; variants from fixed effects meta-analysis with data from Li <italic>et al</italic>. (cases n=1,511, controls n=20,224); and purple &#x2013; genome-wide significant low frequency (0.005&lt;MAF&lt;0.05) variants in <italic>TNFRSF13B</italic> locus. Loci of interest are labelled with putative causal protein coding gene names. <bold>(b)</bold> COGS prioritisation scores of candidate monogenic causes of PID using previous autoimmune targeted genotyping studies (<xref ref-type="supplementary-material" rid="SD6">Supplementary Table 4</xref>) across suggestive AD-PID loci (n=4). For clarity, only diseases prioritising one or more genes are shown. CEL &#x2013; coeliac disease, CRO- Crohn&#x2019;s disease, UC &#x2013; ulcerative colitis, MS &#x2013; multiple sclerosis, PBC &#x2013; primary biliary cirrhosis and T1D &#x2013; type 1 diabetes <bold>(c)</bold> Graph of relative pSTAT1 and SOCS1 in lysates made from 2 hour IFN-&#x3B3; treated T cell blasts from SOCS1 mutation patients and controls. (Lines present mean, error bars=S.E.M.) <bold>(d)</bold> The pedigree of the <italic>PTPN2</italic> mutation patient. Carriers of the rs2847297-G risk allele are indicated. <bold>(e)</bold> Simplified model of how SOCS1 and TC-PTP limit the phosphorylated-STAT1 triggered by interferon signalling. <bold>(f)</bold> Graph of relative PTPN2 and pSTAT1 from the indicated patients and controls, in lysates made from T cell blasts incubated &#xB1; IFN-&#x3B3; for 2 hours. (PTPN2 normalized to tubulin level, pSTAT1 normalised to STAT1 levels, representative of 2 independent experiments)</p>
+      </caption>
+      <graphic xlink:href="EMS85907-f004"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

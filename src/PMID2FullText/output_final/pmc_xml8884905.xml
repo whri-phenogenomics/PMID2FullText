@@ -1,0 +1,1490 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Clin Invest</journal-id>
+      <journal-id journal-id-type="iso-abbrev">J Clin Invest</journal-id>
+      <journal-id journal-id-type="publisher-id">J Clin Invest</journal-id>
+      <journal-title-group>
+        <journal-title>The Journal of Clinical Investigation</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0021-9738</issn>
+      <issn pub-type="epub">1558-8238</issn>
+      <publisher>
+        <publisher-name>American Society for Clinical Investigation</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35025765</article-id>
+      <article-id pub-id-type="pmc">8884905</article-id>
+      <article-id pub-id-type="publisher-id">147301</article-id>
+      <article-id pub-id-type="doi">10.1172/JCI147301</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>RECON syndrome is a genome instability disorder caused by mutations in the DNA helicase RECQL1</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abu-Libdeh</surname>
+            <given-names>Bassam</given-names>
+          </name>
+          <email>drbassam@hotmail.com</email>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0001-5766-659X</contrib-id>
+          <name>
+            <surname>Jhujh</surname>
+            <given-names>Satpal S.</given-names>
+          </name>
+          <email>s.s.jhujh@bham.ac.uk</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dhar</surname>
+            <given-names>Srijita</given-names>
+          </name>
+          <email>srijitadhar@gmail.com</email>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-0859-6286</contrib-id>
+          <name>
+            <surname>Sommers</surname>
+            <given-names>Joshua A.</given-names>
+          </name>
+          <email>sommersj@grc.nia.nih.gov</email>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Datta</surname>
+            <given-names>Arindam</given-names>
+          </name>
+          <email>Arindam.datta@nih.gov</email>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-2028-1068</contrib-id>
+          <name>
+            <surname>Longo</surname>
+            <given-names>Gabriel M.C.</given-names>
+          </name>
+          <email>longo@imb-mainz.de</email>
+          <xref rid="A4" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-0909-4341</contrib-id>
+          <name>
+            <surname>Grange</surname>
+            <given-names>Laura J.</given-names>
+          </name>
+          <email>LXG852@student.bham.ac.uk</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0001-8690-5828</contrib-id>
+          <name>
+            <surname>Reynolds</surname>
+            <given-names>John J.</given-names>
+          </name>
+          <email>j.j.reynolds@bham.ac.uk</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0001-8169-8735</contrib-id>
+          <name>
+            <surname>Cooke</surname>
+            <given-names>Sophie L.</given-names>
+          </name>
+          <email>s.l.cooke.1@bham.ac.uk</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-4504-0404</contrib-id>
+          <name>
+            <surname>McNee</surname>
+            <given-names>Gavin S.</given-names>
+          </name>
+          <email>G.McNee@bham.ac.uk</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hollingworth</surname>
+            <given-names>Robert</given-names>
+          </name>
+          <email>r.hollingworth@bham.ac.uk</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-3246-913X</contrib-id>
+          <name>
+            <surname>Woodward</surname>
+            <given-names>Beth L.</given-names>
+          </name>
+          <email>BLW472@student.bham.ac.uk</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-8144-7730</contrib-id>
+          <name>
+            <surname>Ganesh</surname>
+            <given-names>Anil N.</given-names>
+          </name>
+          <email>a.n.ganesh@bham.ac.uk</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Smerdon</surname>
+            <given-names>Stephen J.</given-names>
+          </name>
+          <email>S.J.Smerdon@bham.ac.uk</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nicolae</surname>
+            <given-names>Claudia M.</given-names>
+          </name>
+          <email>cnicolae@pennstatehealth.psu.edu</email>
+          <xref rid="A5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Durlacher-Betzer</surname>
+            <given-names>Karina</given-names>
+          </name>
+          <email>karina.durlacher@mail.huji.ac.il</email>
+          <xref rid="A6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Molho-Pessach</surname>
+            <given-names>Vered</given-names>
+          </name>
+          <email>rverem@hadassah.org.il</email>
+          <xref rid="A7" ref-type="aff">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-1160-3547</contrib-id>
+          <name>
+            <surname>Abu-Libdeh</surname>
+            <given-names>Abdulsalam</given-names>
+          </name>
+          <email>draabulibdeh@hotmail.com</email>
+          <xref rid="A1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Meiner</surname>
+            <given-names>Vardiella</given-names>
+          </name>
+          <email>vmeiner@hadassah.org.il</email>
+          <xref rid="A6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Moldovan</surname>
+            <given-names>George-Lucian</given-names>
+          </name>
+          <email>gmoldovan@pennstatehealth.psu.edu</email>
+          <xref rid="A5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-5065-3937</contrib-id>
+          <name>
+            <surname>Roukos</surname>
+            <given-names>Vassilis</given-names>
+          </name>
+          <email>V.Roukos@imb-mainz.de</email>
+          <xref rid="A4" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Harel</surname>
+            <given-names>Tamar</given-names>
+          </name>
+          <email>TamarHe@hadassah.org.il</email>
+          <xref rid="A6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-2676-4327</contrib-id>
+          <name>
+            <surname>Brosh</surname>
+            <given-names>Robert M.</given-names>
+            <suffix>Jr.</suffix>
+          </name>
+          <email>broshr@grc.nia.nih.gov</email>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-0960-3241</contrib-id>
+          <name>
+            <surname>Stewart</surname>
+            <given-names>Grant S.</given-names>
+          </name>
+          <email>g.s.stewart@bham.ac.uk</email>
+          <xref rid="A2" ref-type="aff">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Department of Pediatrics and Genetics, Makassed Hospital and Al-Quds Medical School, East Jerusalem, Palestine.</aff>
+      <aff id="A2"><label>2</label>Institute for Cancer and Genomic Sciences, University of Birmingham, Birmingham, United Kingdom.</aff>
+      <aff id="A3"><label>3</label>Translational Gerontology Branch, National Institute on Aging, NIH, Baltimore, Maryland, USA.</aff>
+      <aff id="A4"><label>4</label>Institute of Molecular Biology (IMB), Mainz, Germany.</aff>
+      <aff id="A5"><label>5</label>Department of Biochemistry and Molecular Biology, The Pennsylvania State University College of Medicine, Hershey, Pennsylvania, USA.</aff>
+      <aff id="A6"><label>6</label>Department of Genetics and</aff>
+      <aff id="A7"><label>7</label>Paediatric Dermatology Service, Department of Dermatology, Hadassah Medical Center, Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel.</aff>
+      <author-notes>
+        <corresp>Address correspondence to: Grant S. Stewart. Phone: 121.414.9168; Email: <email>g.s.stewart@bham.ac.uk</email>. Or to: Robert M. Brosh Jr. Phone: 410.558.8578; Email: <email>broshr@mail.nih.gov</email>. Or to: Tamar Harel. Phone: 972.2.6776329; Email: <email>tamarhe@hadassah.org.il</email>.</corresp>
+        <fn>
+          <p><bold>Authorship note:</bold> BAL, SSJ, SD, and JAS contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2022-03-01T12:00:00-0500">
+        <day>1</day>
+        <month>3</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date date-type="collection" publication-format="electronic" iso-8601-date="2022-03-01T12:00:00-0500">
+        <day>1</day>
+        <month>3</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date date-type="pub" publication-format="print" iso-8601-date="2022-03-01T12:00:00-0500">
+        <day>1</day>
+        <month>3</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>1</day>
+        <month>3</month>
+        <year>2022</year>
+      </pub-date>
+      <!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.-->
+      <volume>132</volume>
+      <issue>5</issue>
+      <elocation-id>e147301</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>8</day>
+          <month>1</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>11</day>
+          <month>1</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2022 Abu-Libdeh et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Abu-Libdeh et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p>This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit <ext-link xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="https://www.jci.org/articles/view/147301">This article is available online at https://www.jci.org/articles/view/147301</self-uri>
+      <abstract>
+        <p>Despite being the first homolog of the bacterial RecQ helicase to be identified in humans, the function of RECQL1 remains poorly characterized. Furthermore, unlike other members of the human RECQ family of helicases, mutations in RECQL1 have not been associated with a genetic disease. Here, we identify 2 families with a genome instability disorder that we have named RECON (RECql ONe) syndrome, caused by biallelic mutations in the <italic toggle="yes">RECQL</italic> gene. The affected individuals had short stature, progeroid facial features, a hypoplastic nose, xeroderma, and skin photosensitivity and were homozygous for the same missense mutation in RECQL1 (p.Ala459Ser), located within its zinc binding domain. Biochemical analysis of the mutant RECQL1 protein revealed that the p.A459S missense mutation compromised its ATPase, helicase, and fork restoration activity, while its capacity to promote single-strand DNA annealing was largely unaffected. At the cellular level, this mutation in RECQL1 gave rise to a defect in the ability to repair DNA damage induced by exposure to topoisomerase poisons and a failure of DNA replication to progress efficiently in the presence of abortive topoisomerase lesions. Taken together, RECQL1 is the fourth member of the RecQ family of helicases to be associated with a human genome instability disorder.</p>
+      </abstract>
+      <abstract abstract-type="graphical">
+        <p>
+<graphic xlink:href="jci-132-147301-g178.jpg" position="float"/>
+</p>
+      </abstract>
+      <kwd-group kwd-group-type="specialties">
+        <kwd>Cell Biology</kwd>
+        <kwd>Genetics</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="keywords">
+        <kwd>DNA repair</kwd>
+        <kwd>Genetic diseases</kwd>
+        <kwd>Genetic instability</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Great Ormond Street Hospital Charity</institution><institution-id>https://doi.org/10.13039/501100001279</institution-id></institution-wrap>
+</funding-source>
+          <award-id>V5019</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Deutsche Forschungsgemeinschaft</institution><institution-id>https://doi.org/10.13039/501100001659</institution-id></institution-wrap>
+</funding-source>
+          <award-id>393547839&#x2013;SFB 1361,402733153-SPP 2202,INST 247/845-1 FUGG</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>University of Birmingham</institution><institution-id>https://doi.org/10.13039/501100000855</institution-id></institution-wrap>
+</funding-source>
+          <award-id>N/A</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Cancer Research UK</institution><institution-id>https://doi.org/10.13039/501100000289</institution-id></institution-wrap>
+</funding-source>
+          <award-id>C17183/A23303</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>National Institute on Aging</institution><institution-id>https://doi.org/10.13039/100000049</institution-id></institution-wrap>
+</funding-source>
+          <award-id>1Z1AAG000741-19</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Cancer Research UK</institution><institution-id>https://doi.org/10.13039/501100000289</institution-id></institution-wrap>
+</funding-source>
+          <award-id>C17422/A25154</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Cancer Research UK</institution><institution-id>https://doi.org/10.13039/501100000289</institution-id></institution-wrap>
+</funding-source>
+          <award-id>C11497/A31309</award-id>
+        </award-group>
+        <funding-statement>SSJ is supported by a project grant funded by the Great Ormond Street Hospital Charity and Sparks</funding-statement>
+        <funding-statement>VR lab is supported by funding from the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)-Project-ID 393547839&#x2013;SFB 1361, Project-ID 402733153-SPP 2202 and the DFG Major Research Instrumentation Programme (INST 247/845-1 FUGG)</funding-statement>
+        <funding-statement>JJR is supported by the University of Birmingham</funding-statement>
+        <funding-statement>GSS, RH, GSM, SLC, AG are funded by a CR-UK Programme Grant (C17183/A23303)</funding-statement>
+        <funding-statement>SD, JAS, AD and RMB Jr. were supported in part by the NIH Intramural Research Program, National Institute on Aging (1Z1AAG000741-19)</funding-statement>
+        <funding-statement>LJG is supported by a joint funded University of Birmingham and CR-UK Ph.D studentship (C17422/A25154)</funding-statement>
+        <funding-statement>BLW is supported by a CR-UK Clinical Academic Training Programme award (C11497/A31309)</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p>DNA helicases are ubiquitous enzymes found in most uni- and multicellular organisms and function to unwind DNA in an ATP-dependent and direction-specific manner. The ability to unwind DNA is an essential step in many fundamental cellular processes, such as DNA replication, recombination, repair, and transcription. The RecQ family of helicases represents one of the most highly conserved groups of 3&#x2032;&#x2013;5&#x2032; DNA helicases and is named after the prototype <italic toggle="yes">Escherichia coli</italic> RecQ. Although bacteria and yeast only express one RecQ-type helicase, higher eukaryotes possess multiple homologs that are highly conserved. The RecQ helicase family has 5 known homologs in humans: RECQL (also known as RECQ1 or RECQL1), WRN, BLM, RECQL4, and RECQL5. Strikingly, biallelic mutations in 3 of 5 of these RecQ homologs &#x2014; <italic toggle="yes">WRN</italic>, <italic toggle="yes">BLM</italic>, and <italic toggle="yes">RECQL4</italic> &#x2014; have been associated with rare genetic disorders in humans, characterized by chromosomal instability and cancer predisposition (<xref rid="B1" ref-type="bibr">1</xref>, <xref rid="B2" ref-type="bibr">2</xref>). Notably, however, these genetic disorders are distinct, with each syndrome exhibiting a unique set of clinical and cellular features. This serves to highlight that although each of these enzymes is structurally and functionally related, they perform distinct tasks within the cell.</p>
+      <p><italic toggle="yes">WRN</italic> is mutated in Werner syndrome (WS), which is a progeroid syndrome associated with premature aging, type 2 diabetes, osteoporosis, cataracts, graying and loss of hair, skin atrophy, and cancer predisposition. Cells from individuals with WS characteristically undergo premature replicative senescence associated with increased telomere erosion and have been reported to be hypersensitive to replication stress&#x2013;inducing genotoxic agents, such as camptothecin (CPT), methylmethane sulfonate (MMS), and G-quadruplex (G4) stabilizers (<xref rid="B3" ref-type="bibr">3</xref>). In contrast, Bloom syndrome (BS), which is caused by mutations in <italic toggle="yes">BLM</italic>, is a developmental disorder that typically includes microcephaly, short stature, immunodeficiency, skin hyper- or hypopigmentation, photosensitivity, facial erythema, and an increased predisposition for developing cancer (<xref rid="B4" ref-type="bibr">4</xref>). The BLM helicase has been implicated in repairing DNA double-stranded breaks (DSBs), restarting damaged replication forks, and resolving homologous recombination (HR) intermediates, including those present in mitosis as a result of underreplicated DNA transiting through the cell cycle (<xref rid="B5" ref-type="bibr">5</xref>). Consequently, cells devoid of BLM are hypersensitive to replication stress&#x2013;inducing genotoxins such as camptothecin (CPT), hydroxyurea (HU), and aphidicolin (APH) and exhibit a characteristic increase in spontaneous sister chromatid exchanges (SCEs). Last, mutations in <italic toggle="yes">RECQL4</italic> have been associated with 3 distinct, albeit overlapping, genetic disorders: Rothmund-Thomson syndrome (RTS), RAPADILINO syndrome, and Baller-Gerold syndrome (BGS). While patients with these disorders display some unique clinical features, e.g., poikiloderma (RTS) or craniosynostosis (BGS), the vast majority of affected individuals exhibit a constellation of developmental abnormalities, such as growth retardation, aplastic/absent thumbs, aplastic/absent patellae, aplastic/absent bones in the forearms, skin hypo-/hyperpigmentation, cleft palate, and an increased predisposition for developing cancer (<xref rid="B6" ref-type="bibr">6</xref>). Unlike WRN or BLM, RECQL4 is a constitutive component of the replication machinery involved in regulating replication origin firing (<xref rid="B7" ref-type="bibr">7</xref>). However, RECQL4 has also been suggested to play a role in repairing oxidative base damage and DSBs by HR (<xref rid="B8" ref-type="bibr">8</xref>, <xref rid="B9" ref-type="bibr">9</xref>). Accordingly, cells lacking RECQL4 function are hypersensitive to both DSB- and replication stress&#x2013;inducing agents, e.g., ionizing radiation (IR), CPT, HU and H<sub>2</sub>O<sub>2</sub>.</p>
+      <p>Although RECQL1 was the first RecQ family helicase to be identified in humans, it remains the most functionally enigmatic (<xref rid="B10" ref-type="bibr">10</xref>). In vitro RECQL1 can unwind a variety of DNA structures in a 3&#x2032;&#x2013;5&#x2032; direction, particularly those with a 3&#x2032; ssDNA tail, e.g., replication fork structures. It can also catalyze branch migration of Holliday junctions and D-loops, unwind G4 structures, and promote single-strand DNA annealing (SSA). However, unlike other human RecQ helicases, it acts poorly to unwind RNA:DNA hybrids or displace Rad51 bound to ssDNA (<xref rid="B11" ref-type="bibr">11</xref>, <xref rid="B12" ref-type="bibr">12</xref>). Despite its demonstrated biochemical activities, mice devoid of this enzyme are phenotypically normal (<xref rid="B13" ref-type="bibr">13</xref>). To date, there are reports suggesting that RECQL1 is required to repair DSBs induced by IR, CPT, and etoposide (ETOP) (<xref rid="B13" ref-type="bibr">13</xref>, <xref rid="B14" ref-type="bibr">14</xref>), although the underlying mechanism is not clear. More recently, it has been proposed that a major function of RECQL1 is to promote the restart of stalled replication forks induced by the inhibition of topoisomerase 1 and that this activity is inhibited by poly-ADP-ribose polymerase 1 (PARP1), allowing the damaged forks time to repair (<xref rid="B14" ref-type="bibr">14</xref>). However, whether the role of RECQL1 in promoting the restart of reversed forks caused by abortive topoisomerase activity is solely dependent on PARP1 or whether RECQL1 plays a more fundamental role in this process remains to be clarified.</p>
+      <p>While <italic toggle="yes">RECQL</italic> has not been previously associated with a defined human chromosomal instability disorder, monoallelic germline mutations have been associated with a moderately increased risk of breast cancer (<xref rid="B15" ref-type="bibr">15</xref>, <xref rid="B16" ref-type="bibr">16</xref>). Interestingly, Sun et al. (<xref rid="B16" ref-type="bibr">16</xref>) identified two <italic toggle="yes">BRCA1/2</italic>-negative breast cancer families with missense variants in the zinc binding domain (ZBD) of RECQL1 (p.Arg455Cys and p.Met458Lys) that completely abolished its helicase activity. Moreover, functional analysis of conserved cysteine residues within this domain demonstrated that cysteine residues 453, 475, and 478 are critical for RECQL1 to hydrolyze ATP and unwind dsDNA but not to promote SSA (<xref rid="B17" ref-type="bibr">17</xref>). Combined, these observations serve to highlight the functional significance of the ZBD of RECQL1 and its importance in relation to its ability to act as a DNA helicase.</p>
+      <p>Here, we demonstrate that biallelic <italic toggle="yes">RECQL</italic> mutations are associated with a human genome instability syndrome, which we propose to name RECON (RECql ONe) syndrome. Notably, individuals from both affected, but seemingly unrelated, families carried a homozygous missense mutation (p.Ala459Ser, referred to as p.A459S) in the ZBD of RECQL1. Clinically, this <italic toggle="yes">RECQL</italic> mutation was associated with a distinct disorder characterized by striking progeroid facial features, a tiny, pinched nose, apparent skin photosensitivity, xeroderma, and slender, elongated thumbs. Functionally, the p.A459S mutation significantly compromised the ATPase/helicase activity of RECQL1 and modestly affected its ability to bind DNA. However, its capacity to promote SSA was unaffected. At the cellular level, this mutation gave rise to a modest defect in repairing abortive topoisomerase 1 (TOP1) and topoisomerase 2 (TOP2) cleavage complexes and a reduced ability to replicate in the presence of CPT- or ETOP-induced DNA damage. Furthermore, cells expressing the p.A459S mutant RECQL1 also failed to efficiently restart replication following exposure to HU and MMS, indicating that the role that RECQL1 plays in restarting damaged replication forks is not just limited to those associated with abortive TOP1/2 complexes. Taken together, these data suggest that, while it is not essential (<xref rid="B13" ref-type="bibr">13</xref>), RECQL1 has nonredundant functions with other RecQ helicases and that its loss compromises genome stability and normal embryonic development.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Clinical phenotype of individuals affected by RECQL1 mutations.</title>
+        <p>The proband of family A (family A, III-2) was a female evaluated at age 9 years, 8 months for short stature, dysmorphism, and dryness of the skin and eyes. She was the second of 5 children born to parents of Middle Eastern descent, who were double first cousins (<xref rid="F1" ref-type="fig">Figure 1A</xref>). The pregnancy and delivery were uncomplicated. The proband was born at term with a birth weight of approximately 3000 grams. Her developmental milestones, including motor, speech, and communication skills, were age appropriate. At 18 months of age, medical evaluation was sought, since her nose remained exceptionally small compared with the rest of her face, her eyes remained open while sleeping, and she had xerophthalmia (dry eyes) and xeroderma (dry skin) with scaling. Eruption of the proband&#x2019;s primary teeth was age appropriate, however, eruption of her permanent teeth was delayed. The parents reported that their child had photosensitivity. Physical examination of the girl at 9 years, 8 months revealed a height of 123.8 cm (<italic toggle="yes">z</italic> score, &#x2013;1.98), a weight of 22.5 kg (<italic toggle="yes">z</italic> score, &#x2013;2.05), and a head circumference of 50 cm (<italic toggle="yes">z</italic> score, &#x2013;1.64). A negative <italic toggle="yes">z</italic> score represents the number of standard deviations below the population mean for each clinical measurement. The proband&#x2019;s dysmorphic features included a round face, redness of eyes, a tiny, pinched nose with anteverted nares, prominent premaxilla, and a smooth philtrum (<xref rid="F1" ref-type="fig">Figure 1B</xref>). Her thumbs were slender and elongated, with hyperconvex nails. She had slight hyperextension of the elbows but no joint laxity in the fingers. The proband also had livedo reticularis and keratosis pilaris (<xref rid="T1" ref-type="table">Table 1</xref>).</p>
+        <p>A younger sister of the proband (family A, III-4), examined at 4 years of age, presented with similar clinical features. The pregnancy and delivery were uncomplicated, and the girl&#x2019;s developmental milestones were age appropriate. Physical examination revealed a height of 96.4 cm (<italic toggle="yes">z</italic> score, &#x2013;1.02), a weight of 13.9 cm (<italic toggle="yes">z</italic> score, &#x2013;1.05), and a head circumference of 47.8 cm (<italic toggle="yes">z</italic> score, &#x2013;1.18). She had dysmorphism including a somewhat aged (progeroid) appearance with little subcutaneous fat, red eyes, a tiny, pinched nose with anteverted nares, prominent premaxilla, and a smooth philtrum (<xref rid="F1" ref-type="fig">Figure 1B</xref>). Her thumbs were long and slender with proximal insertion, and she had mild hirsutism of the back. We noted minor joint laxity of the fingers (<xref rid="T1" ref-type="table">Table 1</xref>). The family history was also positive for 2 common adult first cousins of the parents who had similar clinical features. Unfortunately, these relatives were not available for genetic evaluation or a detailed medical workup.</p>
+        <p>The proband of family B (family B, III-4) was a female and the fourth of 6 children born to parents of Middle Eastern descent with no known consanguinity (<xref rid="F1" ref-type="fig">Figure 1A</xref>). She was referred for evaluation for the first time at the age of 5 years, 10 months for dysmorphism and dryness of skin. The pregnancy and delivery were uncomplicated. She was born at term, with a birth weight of 3500 grams. Her developmental milestones, including motor, speech, and communication skills, were age appropriate. Her other medical problems at that time were thrombocytopenia of undetermined cause and recurrent chest infections. The parents reported that their child was photosensitive. Physical examination revealed a height of 110 cm (<italic toggle="yes">z</italic> score, &#x2013;0.7), a weight of 13.5 kg (<italic toggle="yes">z</italic> score, &#x2013;3.4), and a head circumference of 47 cm (<italic toggle="yes">z</italic> score, &#x2013;2.9). Dysmorphic features included a mask senile-like face (progeroid), deep-set eyes, absent lower lid eyelashes, small ears with small, attached earlobes, a prominent nasal bridge with a tiny, pinched nose with hypoplastic alae nasi, prominent premaxilla, thin lips, and a smooth philtrum (<xref rid="F1" ref-type="fig">Figure 1B</xref>). The proband had bilateral arachnodactyly, and her thumbs were slender and elongated, with hyperconvex nails. She had hirsutism of the lower limbs, and we observed thin, dry skin (xeroderma) with areas of desquamation (scaling), mainly on exposed body parts, suggestive of photosensitivity. The proband had thin extremities with hypoplastic muscles and subcutaneous fat. Follow-up measurements at age 14 years, 9 months revealed a height of 138.4 cm (<italic toggle="yes">z</italic> score, &#x2013;3.59), a weight of 22.1 kg (<italic toggle="yes">z</italic> score, &#x2013;8.47), and a head circumference of 50.8 cm (<italic toggle="yes">z</italic> score, &#x2013;2.92) (<xref rid="T1" ref-type="table">Table 1</xref>). Neither family reported any history of breast cancer or other cancers. Genetic testing included chromosome analysis, chromosome breakage studies with diepoxybutane, and Sanger sequencing for mutations in <italic toggle="yes">ERCC6</italic> and <italic toggle="yes">ERCC8</italic>, all of which were normal.</p>
+      </sec>
+      <sec>
+        <title>Whole-exome sequencing identified a homozygous missense mutation of RECQL.</title>
+        <p>To identify the genetic cause of the disorder found in family A, we performed whole-exome sequencing on DNA from the proband (III-2) of family A. After exclusion of nonauthentic variants and inconsistent mutations, data mining identified a predicted pathogenic variant in <italic toggle="yes">RECQL</italic> (chr12:21626557[hg19]: NM_032941.2; c.1375G&gt;T; p.Ala459Ser &#x2014; referred to as p.A459S) as the primary candidate (<xref rid="F1" ref-type="fig">Figure 1C</xref>). This variant affects a highly conserved alanine residue (GERP score, 6.04) that lies within the ZBD of the RECQL1 protein (<xref rid="sd" ref-type="sec">Supplemental Figure 1</xref>, A&#x2013;C; supplemental material available online with this article; <ext-link xlink:href="https://doi.org/10.1172/JCI147301DS1" ext-link-type="uri">https://doi.org/10.1172/JCI147301DS1</ext-link>). Moreover, this variant is not found in the gnomAD or Greater Middle East (GME) variome databases, nor in our local databases of approximately 10,000 exomes. It is predicted to be pathogenic by several bioinformatics algorithms including combined annotation-dependent depletion (CADD) (score, 25.9), MutationTaster (score, 1.0), PolyPhen-2 (score, 0.846), and deleterious annotation of genetic variants using neural networks (DANN) (score, 0.9977). Notably, monoallelic alteration of the adjacent amino acid 458 (p.Met458Lys) has previously been linked with an increased predisposition for developing breast cancer. Moreover, functional studies of this mutation revealed that it significantly compromised the helicase activity of RECQL1 (<xref rid="B14" ref-type="bibr">14</xref>). Family B was identified because of the striking similarity of clinical features exhibited by the proband (III-4) and the 2 affected siblings from family A. Segregation analysis by Sanger sequencing of genomic DNA (gDNA) from both families confirmed segregation of this variant with the clinical phenotype (<xref rid="F1" ref-type="fig">Figure 1A</xref>). All 3 affected individuals (III-2 and III-4 from family A and III-4 from family B) were homozygous for this variant, whereas the available parents and 8 healthy siblings were either heterozygous or WT [the logarithm of the odds (LOD) score (&#x3B8; = 0) was <italic toggle="yes">Z</italic> = 3.311].</p>
+        <p>To determine what impact the p.A459S mutation had on RECQL1 protein stability, we performed Western blotting on whole-cell extracts generated from lymphoblastoid cell lines (LCLs) derived from RECQL1 patient III-2 from family A (RECQL1-P1-1) and RECQL1 patient III-4 from family B (RECQL1-P2). We observed no obvious differences in the expression of RECQL1 protein in LCLs from the 2 affected patients when compared with the expression of RECQL1 in LCLs from 2 normal individuals (<xref rid="sd" ref-type="sec">Supplemental Figure 1C</xref>). Moreover, the p.A459S mutant RECQL1 protein localized normally to the nucleus in the presence or absence of DNA damage and was still able to associate with PARP1, a known RECQL1 binding protein (ref. <xref rid="B14" ref-type="bibr">14</xref> and <xref rid="sd" ref-type="sec">Supplemental Figure 1</xref>, D&#x2013;F). Therefore, to gain insight into the pathogenesis of RECON syndrome, we used biochemical and cell biological approaches to study the effects of the p.A459S mutation on the enzymatic activity of RECQL1 and its roles in regulating the cellular DNA damage response.</p>
+      </sec>
+      <sec>
+        <title>RECQL1-A459S displays significantly reduced DNA unwinding activity on a preferred forked duplex DNA substrate.</title>
+        <p>Given that it had been previously shown that mutating the residue preceding alanine-459 (methionine-458) to a lysine abolished helicase activity (<xref rid="B16" ref-type="bibr">16</xref>), this prompted us to biochemically characterize RECQL1-A459S and compare its properties with WT RECQL1. Initially, recombinant WT RECQL1 and mutant RECQL1 were expressed and purified from insect cells to near homogeneity (<xref rid="F2" ref-type="fig">Figure 2A</xref>). Following this, using a 19 bp forked duplex as a substrate to measure its helicase activity, a simple protein titration of the WT and mutant RECQL1 proteins revealed that the p.A459S mutation substantially reduced its helicase activity. At a protein concentration of 2.5 nM, WT RECQL1 unwound nearly 60% of the DNA substrate compared with approximately 20% for mutant RECQL1 (<xref rid="F2" ref-type="fig">Figure 2, B and C</xref>). To ascertain whether the DNA unwinding by RECQL1-A459S was ATP dependent, we incubated the mutant protein with the 19 bp forked duplex DNA substrate in the presence or absence of ATP. As predicted, RECQL1-A459S failed to unwind the DNA substrate when ATP was absent, consistent with the behavior of WT RECQL1 (<xref rid="F2" ref-type="fig">Figure 2, D and E</xref>).</p>
+        <p>Kinetics analysis of RECQL1-dependent unwinding of the 19 bp forked DNA duplex showed a 2.6-fold reduction in the rate catalyzed by the p.A459S mutant compared with WT at a protein concentration of 0.3 nM (<xref rid="sd" ref-type="sec">Supplemental Figure 2</xref>, A&#x2013;C). Using a 4-fold greater concentration of RECQL1 protein (1.2 nM), the rate of helicase activity was reduced 4.8-fold for RECQL1-A459S (<xref rid="F2" ref-type="fig">Figure 2, F&#x2013;H</xref>), suggesting that the reduction in the unwinding rate on the short 19 bp forked duplex was in part protein concentration dependent.</p>
+        <p>RECQL1, like the other human RecQ helicases, shows significantly compromised helicase activity on longer duplex DNA substrates, suggesting that the enzyme lacks processivity (<xref rid="B18" ref-type="bibr">18</xref>, <xref rid="B19" ref-type="bibr">19</xref>). This led us to assess helicase-catalyzed DNA unwinding by the WT and mutant RECQL1 proteins on a longer 31 bp forked duplex DNA substrate. As shown in <xref rid="sd" ref-type="sec">Supplemental Figure 3</xref>, A and B, RECQL1-A459S displayed significantly reduced helicase activity on the 31 bp forked duplex compared with WT RECQL1. Approximately 3-fold less DNA substrate was unwound by RECQL1-A459S compared with WT RECQL1 at a protein concentration of 40 nM. This led us to perform a kinetics analysis of the WT and p.A459S RECQL1 proteins on the 31 bp forked duplex with 2 different concentrations of RECQL1. At a 30 nM RECQL1 concentration, we observed a 3.8-fold difference in the rate of unwinding (<xref rid="sd" ref-type="sec">Supplemental Figure 3</xref>, C&#x2013;E). We observed a similar reduction in the rate of unwinding by the p.A459S mutant at a RECQL1 protein concentration of 40 nM (<xref rid="sd" ref-type="sec">Supplemental Figure 3</xref>, F&#x2013;H).</p>
+        <p>Altogether, the findings from these helicase studies demonstrate that the p.A459S amino acid substitution in the ZBD of RECQL1 compromised its DNA unwinding activity, a result that was consistent with those of previous studies assessing the impact of other RECQL1 ZBD mutations on its helicase activity (<xref rid="B16" ref-type="bibr">16</xref>, <xref rid="B17" ref-type="bibr">17</xref>).</p>
+      </sec>
+      <sec>
+        <title>p.A459S RECQL1 poorly restores a replication fork from its regressed state.</title>
+        <p>Since RECQL1 has been previously shown to restore replication forks that have been regressed (<xref rid="B14" ref-type="bibr">14</xref>), we used a reversed fork structure (<xref rid="F3" ref-type="fig">Figure 3A</xref>) as a substrate in our in vitro RECQL1 enzymatic assays to assess whether the p.A459S mutation affected the ability of RECQL1 to remodel a reversed fork. Over a 30-minute time course, the p.A459S mutant RECQL1 consistently had a reduced ability to restore the replication fork compared with WT RECQL1 (<xref rid="F3" ref-type="fig">Figure 3, B and C</xref>). We observed as much as a 7-fold difference in fork restoration at the 5-minute time point and at least a 3.5-fold difference at later time points in the reaction (<xref rid="F3" ref-type="fig">Figure 3, B and C</xref>). Interestingly, we also observed a small but detectable amount of helicase activity using the reversed fork structure as a substrate (<xref rid="F3" ref-type="fig">Figure 3B</xref>), and this activity was also reduced by the p.A459S mutation. This indicates that the p.A459S mutation not only compromises the ability of RECQL1 to unwind forked duplex DNA structures but also to remodel reversed forks in vitro.</p>
+      </sec>
+      <sec>
+        <title>RECQL1-A459S retains SSA activity comparable to that of WT RECQL1.</title>
+        <p>Purified human recombinant RECQL1 protein is also known to display potent strand annealing activity (<xref rid="B19" ref-type="bibr">19</xref>). To determine whether this activity is also affected by the p.A459S mutation, we examined the ability of mutant and WT RECQL1 proteins to anneal 2 partially complementary oligonucleotides to form a 19 bp forked DNA duplex. These experiments were performed in the absence of ATP to prevent helicase-catalyzed unwinding of the annealed forked duplex, which would normally serve as a canonical substrate for the RECQL1 helicase activity. As shown in <xref rid="F3" ref-type="fig">Figure 3, D and E</xref>, the strand annealing activity of WT and mutant RECQL1 proteins was nearly identical over a range of protein concentrations, indicating that, despite the compromised helicase activity of RECQL1-A459S, its strand annealing activity remained intact.</p>
+      </sec>
+      <sec>
+        <title>RECQL1-A459S displays modestly reduced DNA substrate binding compared with WT RECQL1.</title>
+        <p>Given that RECQL1-A459S has reduced helicase but proficient strand annealing activity compared with WT RECQL1, we wanted to examine their relative DNA binding capacities using EMSA, a sensitive technique that allows both visual evidence and quantitative assessment of nucleic acid binding. Although RECQL1 binds to various DNA substrates, it has been shown to preferentially bind a forked DNA duplex molecule over single-stranded or fully duplexed DNA molecules (<xref rid="B11" ref-type="bibr">11</xref>, <xref rid="B19" ref-type="bibr">19</xref>). Therefore, we chose to study the DNA binding capabilities of WT and mutant RECQL1 proteins using the 19 bp forked duplex DNA substrate we had tested in the helicase assays. In this case, we omitted ATP or included ATP&#x3B3;S in the binding mixtures to prevent helicase activity. From these assays, we found that both mutant and WT RECQL1 proteins could bind the forked duplex DNA molecule, shifting the free radiolabeled DNA to 3 specific slower-migrating bands presumably representing the DNA substrate bound by monomeric and multimeric species (<xref rid="sd" ref-type="sec">Supplemental Figure 4</xref>, A and B). However, quantitative assessment of the DNA binding isotherm data from binding incubations conducted in the absence of ATP indicated a 1.5-fold greater apparent <italic toggle="yes">KD</italic> for RECQL1-A459S compared with WT RECQL1 (<xref rid="sd" ref-type="sec">Supplemental Figure 4A</xref>), suggesting a modest decrease in the affinity of RECQL1-A459S for the forked duplex DNA compared with WT RECQL1. We detected a similar increase of 1.4-fold in the <italic toggle="yes">KD</italic> value for RECQL1-A459S in the presence of ATP&#x3B3;S when compared with WT (<xref rid="sd" ref-type="sec">Supplemental Figure 4B</xref>).</p>
+        <p>To further study the apparent difference in DNA binding between WT RECQL1 and RECQL1-A459S, we performed DNA binding assays in which a competitor oligonucleotide was used as a challenging agent after preincubation of the RECQL1 protein with the radiolabeled forked duplex DNA molecule (<xref rid="sd" ref-type="sec">Supplemental Figure 5A</xref>). Both the mutant and WT RECQL1 proteins showed a similar reduction in DNA binding with an increasing concentration of unlabeled competitor (<xref rid="sd" ref-type="sec">Supplemental Figure 5</xref>, B and C), suggesting that the stability of the preformed forked duplex&#x2013;RECQL1 protein complex was similar for the WT and mutant forms of RECQL1.</p>
+      </sec>
+      <sec>
+        <title>Effect of the RECQL1-A459S mutation on kinetic parameters for ATP hydrolysis.</title>
+        <p>To determine the ability of RECQL1-A459S to bind and hydrolyze ATP, we conducted a series of ATPase assays to measure the turnover rate constant (k<sub>cat</sub>), the Michaelis constant (K<sub>m</sub>), and the maximum velocity (V<sub>max</sub>) for ATP hydrolysis. In kinetics assays with an ATP concentration of 1 mM, WT RECQL1 had a nearly 3-fold higher k<sub>cat</sub> for ATP hydrolysis in the presence of the M13mp18 ssDNA effector compared with RECQL1-A459S (<xref rid="T2" ref-type="table">Table 2</xref>). In ATPase assays at varying ATP concentrations, WT RECQL1 had a 3-fold greater maximum velocity (V<sub>max</sub>) and a 2-fold greater K<sub>m</sub> compared with RECQL1-A459S (<xref rid="T2" ref-type="table">Table 2</xref>), suggesting that the diminished turnover of ATP catalyzed by the RECQL1-A459S mutant was not reflected by reduced nucleotide binding.</p>
+      </sec>
+      <sec>
+        <title>RECQL1-A459S protein retains its ability to oligomerize.</title>
+        <p>To examine the effect of the RECQL1-A459S mutation on its ability to oligomerize, we performed size exclusion chromatography. As seen in previous studies (<xref rid="B20" ref-type="bibr">20</xref>, <xref rid="B21" ref-type="bibr">21</xref>), the WT RECQL1 protein eluted from the column in 2 distinct peaks in the absence of ATP (<xref rid="sd" ref-type="sec">Supplemental Figure 6</xref>). The RECQL1-A459S protein also eluted as 2 peaks at similar volumes, indicating that the mutant protein behaved similarly to the WT RECQL1 protein.</p>
+      </sec>
+      <sec>
+        <title>The hypomorphic p.A459S RECQL1 mutation causes a defect in the repair of abortive TOP1/2 lesions.</title>
+        <p>Since RECQL1 was previously shown to be important for the repair of DNA damage caused by poisoning TOP1/2 (<xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B22" ref-type="bibr">22</xref>), and since the p.A459S mutation significantly compromised the helicase activity of RECQL1 (this study), it was conceivable that cell lines derived from the affected patients would exhibit aberrant repair of DNA breaks induced by exposure to CPT or ETOP. To investigate this, a skin fibroblast cell line was derived from patient III-2 from family A (named RECQL1-P1-1), immortalized with hTERT, and complemented with either an empty vector or a vector expressing WT or p.A459S-mutant RECQL1. We verified the expression of the exogenous RECQL1 by Western blotting (<xref rid="sd" ref-type="sec">Supplemental Figure 7A</xref>). Following this, we exposed the cell lines to low-dose CPT or ETOP for a short period of time and then incubated them in drug-free media to allow time for repair to occur. To monitor DNA DSB induction and repair, we quantified 53BP1 foci over a 24-hour time course (<xref rid="F4" ref-type="fig">Figure 4A</xref> and <xref rid="sd" ref-type="sec">Supplemental Figure 7B</xref>). Consistent with a role for RECQL1 in the repair of TOP1/2-associated DSBs, patients&#x2019; cells expressing either the empty vector or the p.A459S-mutant RECQL1 had higher numbers of 53BP1 foci in cells throughout a 24-hour time course following exposure to CPT or ETOP than did cells expressing WT RECQL1, despite equal levels of DNA damage being induced in all 3 cell lines and no obvious differences in the cell-cycle profile observed throughout this time course (<xref rid="F4" ref-type="fig">Figure 4A</xref> and <xref rid="sd" ref-type="sec">Supplemental Figure 7C</xref>). Interestingly, even in the absence of DNA-damaging agents, cells containing the empty vector or expressing the p.A459S RECQL1 mutant exhibited higher numbers of spontaneous 53BP1 foci compared with cells expressing WT RECQL1 (<xref rid="F4" ref-type="fig">Figure 4A</xref> and <xref rid="sd" ref-type="sec">Supplemental Figure 7B</xref>). To further validate these observations, we quantified the formation of micronuclei as a marker of genome stability in all 3 cell lines, before and after exposure to CPT or ETOP. In keeping with the 53BP1 quantification results, cells containing the empty vector or expressing p.A459S-mutant RECQL1 exhibited significantly greater numbers of spontaneous and CPT- or ETOP-induced micronuclei than did their WT RECQL1&#x2013;expressing counterparts (<xref rid="F4" ref-type="fig">Figure 4B</xref>). Consistent with this, RECQL1 CRISPR-KO HeLa cells complemented with empty vector or mutant RECQL1 showed a similar increase in residual 53BP1 foci and micronuclei 24 hours after exposure to CPT or ETOP when compared with KO cells complemented with WT RECQL1 (<xref rid="sd" ref-type="sec">Supplemental Figure 8</xref>, A&#x2013;C). However, under the growth conditions used in this study, RECQL1-KO HeLa cells did not show significant hypersensitivity to either CPT or ETOP as assessed by a colony survival assay (<xref rid="sd" ref-type="sec">Supplemental Figure 8D, 8E</xref>), suggesting that more sensitive methods of measuring DNA damage repair are required to assess the impact of RECQL1 deficiency on genome stability.</p>
+        <p>To evaluate more directly what affect the p.A459S RECQL1 mutation had on DNA repair and genome stability, we quantified chromosome breakage by analysis of metaphase spreads from LCLs derived from patients RECQL1-P1-1 and RECQL1-P2. In keeping with our previous observations quantifying 53BP1 foci, the RECQL1-P1-1 and RECQL1-P2 LCLs had higher levels of spontaneous and CPT- or ETOP-induced chromosome breakage than did 2 normal LCLs. Notably, the chromosome breakage phenotype observed in the 2 RECQL1-mutant LCLs was comparable to that seen in a LCL derived from a patient with ataxia telangiectasia&#x2013;like disorder (ATLD) carrying a hypomorphic homozygous truncating mutation in <italic toggle="yes">MRE11A</italic> (<xref rid="B22" ref-type="bibr">22</xref>), following exposure to CPT, but was significantly lower than that seen in the ATLD cell line following exposure to ETOP (<xref rid="F4" ref-type="fig">Figure 4C</xref>). We observed a similar pattern when quantifying spontaneous and CPT- or ETOP-induced chromosome radial exchanges in these cell lines (<xref rid="sd" ref-type="sec">Supplemental Figure 9A</xref>). Importantly, both the increased spontaneous and CPT- or ETOP-induced chromosome breakages were also observed in fibroblasts from patient RECQL1-P1 and could be complemented by the expression of exogenous WT but not mutant A459S RECQL1 (<xref rid="F4" ref-type="fig">Figure 4D</xref>).</p>
+        <p>While the precise mechanism in which RECQL1 functions to mediate DSB repair is unclear, several reports have suggested that, like other RecQ helicases, RECQL1 regulates HR by affecting the interaction of the strand exchange protein Rad51 with DNA during repair (<xref rid="B13" ref-type="bibr">13</xref>, <xref rid="B23" ref-type="bibr">23</xref>). To ascertain whether the underlying DNA repair defect in patient-derived cell lines could be caused by aberrant regulation of Rad51, we exposed the isogenic complemented fibroblasts to CPT or ETOP and then fixed and stained them with antibodies against Rad51 and mitosin (a marker of S/G<sub>2</sub> cells). Quantification of Rad51 foci in S/G<sub>2</sub> cells by fluorescence microscopy revealed that, although the cells containing an empty vector or expressing mutant RECQL1 had higher levels of spontaneous Rad51 than did the cells complemented with WT RECQL1 (<xref rid="sd" ref-type="sec">Supplemental Figure 9B</xref>), we observed no difference between the 3 cell lines in the percentage of S/G<sub>2</sub> cells with more than 10 Rad51 foci following exposure to either CPT or ETOP at both early and late time points (<xref rid="sd" ref-type="sec">Supplemental Figure 9C</xref>). Consistent with the increased spontaneous Rad51 foci in the RECQL1-mutant fibroblasts, LCLs derived from both RECQL1-P1-1 and RECQL1-P2 exhibited a mild increase in spontaneous and DNA damage&#x2013;induced sister chromatid exchanges (<xref rid="sd" ref-type="sec">Supplemental Figure 9D</xref>). Similar observations were reported for <italic toggle="yes">Recql</italic>-KO mouse embryo fibroblasts exposed to ionizing radiation (<xref rid="B13" ref-type="bibr">13</xref>). Importantly, this phenotype was recapitulated in the RECQL1 CRISPR-KO HeLa cells and could be complemented by reexpression of WT but not p.A459S-mutant RECQL1 (<xref rid="sd" ref-type="sec">Supplemental Figure 9E</xref>). Taken together, these results suggest that the defective repair of CPT- or ETOP-induced DNA damage may arise because of defective DNA damage response (DDR) signaling and/or an inability of the replisome to progress past these lesions, resulting in the transiting of underreplicated DNA through the cell cycle to the following G<sub>1</sub> phase. To investigate the first possibility, LCLs from 2 normal individuals and the 2 affected RECQL1-mutant patients (RECQL-P1-1 and RECQL1-P2) were transiently exposed to CPT or ETOP, and, following the induction of DNA damage, early and late time points were set to examine the activation of the DDR by Western blotting using phosphorylated ATM (p-ATM), p-SMC1, p-Nbs1, p-Chk1, p-RPA2, and p-H2AX as markers. Despite some mild variability in the level of the DDR induced by CPT or ETOP, both RECQL1-mutant cell lines showed robust activation of the ATM-dependent DDR (<xref rid="sd" ref-type="sec">Supplemental Figure 10</xref>), suggesting that defective DDR signaling is not the underlying cause of compromised repair of CPT- or ETOP-induced DNA lesions in RECQL1-mutant cells.</p>
+      </sec>
+      <sec>
+        <title>An inability to repair TOP2-associated DSBs in cells derived from patients with RECON syndrome does not compromise the induction or repair of DSBs within the MLL locus.</title>
+        <p>It is known that TDP2, MRE11, and components of the NHEJ DSB repair pathway are critical for the repair of TOP2-induced DSBs, especially within the <italic toggle="yes">MLL</italic> locus, which frequently undergoes chromosomal translocation if misrepaired (<xref rid="B24" ref-type="bibr">24</xref>, <xref rid="B25" ref-type="bibr">25</xref>). Given the inability of cells from patients with RECON syndrome to efficiently repair ETOP-induced DSBs, we sought to investigate whether the hypomorphic p.A459S RECQL1 mutation present in these cells was associated with aberrant repair of DSBs within the <italic toggle="yes">MLL</italic> locus. Using C-Fusion 3D, a high-throughput imaging methodology to probe chromosomal breakage and rare translocations in single cells (<xref rid="B25" ref-type="bibr">25</xref>), we exposed 2 normal LCLs, LCLs from a patient with a TDP2 mutation, and the LCLs from 2 patients with RECON syndrome to ETOP and monitored <italic toggle="yes">MLL</italic> locus breakage and translocation to the <italic toggle="yes">ENL</italic> locus. Notably, while the TDP2 mutant LCL displayed a high frequency of breakage of the <italic toggle="yes">MLL</italic> gene locus and translocation to the <italic toggle="yes">ENL</italic> locus following exposure to ETOP, we did not observe this in either of the RECQL1-mutant LCLs (<xref rid="sd" ref-type="sec">Supplemental Figure 11</xref>, A and B). These results suggest that RECQL1 does not play a major role in the repair of TOP2-dependent DSBs located within the <italic toggle="yes">MLL</italic> locus.</p>
+      </sec>
+      <sec>
+        <title>Cells from patients with RECON syndrome exhibit a reduced ability to replicate in the presence of abortive topoisomerase lesions.</title>
+        <p>It was reported that RECQL1 is required to restart stalled replication forks following the pharmacological inhibition of TOP1 and that cells lacking RECQL1 activity accumulate reversed forks in the presence of CPT (<xref rid="B14" ref-type="bibr">14</xref>). To investigate the impact of the RECQL1 p.A459S mutation on replication, we carried out DNA fiber analysis using LCLs from the affected RECQL1 patients in the presence or absence of CPT or ETOP. Interestingly, even in the absence of exposure to genotoxins, both RECQL1 LCLs had an increase in spontaneously stalled forks indicative of higher levels of endogenous replication stress (<xref rid="F5" ref-type="fig">Figure 5A</xref>). Although our analysis cannot distinguish between stalled and reversed forks, as they would both give rise to CldU-only fibers, it is plausible that our observations are consistent with a previous study demonstrating that depletion of RECQL1 results in an increase in reversed forks, even in the absence of exogenously induced DNA damage (<xref rid="B26" ref-type="bibr">26</xref>, <xref rid="B27" ref-type="bibr">27</xref>). Following exposure to either CPT or ETOP, our DNA fiber analysis also revealed that both patient RECQL1-mutant cell lines were unable to efficiently replicate in the presence of abortive TOP1 or TOP2-induced DNA lesions, despite the lack of gross alterations in replication fork speed or new origin firing prior to treatment (<xref rid="F5" ref-type="fig">Figure 5C</xref> and <xref rid="sd" ref-type="sec">Supplemental Figure 12</xref>, A and B). Notably, both the spontaneous and CPT- or ETOP-induced replication phenotypes were also observed in the patient-derived fibroblasts and could be complemented by the expression of WT, but not mutant p.A459S, RECQL1 (<xref rid="F5" ref-type="fig">Figure 5, B and D</xref>, and <xref rid="sd" ref-type="sec">Supplemental Figure 12</xref>, C and D). Taken together, these data suggest that the clinically relevant p.A459S mutation in the RECQL1 ZBD, which perturbs its catalytic activity, compromises the ability of RECQL1 to restart reversed replication forks.</p>
+      </sec>
+      <sec>
+        <title>Cells from individuals with RECON syndrome exhibit a reduced ability to efficiently restart HU- and MMS-damaged replication forks.</title>
+        <p>It was previously determined that RECQL1, like other helicases such as WRN (<xref rid="B26" ref-type="bibr">26</xref>), DNA2 (<xref rid="B26" ref-type="bibr">26</xref>), and BLM (<xref rid="B28" ref-type="bibr">28</xref>), plays a role in promoting the restart of HU-stalled forks (<xref rid="B29" ref-type="bibr">29</xref>). To determine whether the cell lines derived from patients with RECON syndrome exhibit a global inability to restart replication forks that is not just restricted to forks stalled by abortive topoisomerase cleavage complexes, we performed DNA fiber analysis with RECQL-P1-1&#x2013;complemented fibroblasts following a transient exposure to high-dose HU. Interestingly, this analysis demonstrated that the p.A459S mutation significantly compromised the ability of replication forks transiently stalled by HU to restart efficiently (<xref rid="F6" ref-type="fig">Figure 6A</xref>). Importantly, this phenotype was also recapitulated in the RECQL1 CRISPR-KO HeLa cells complemented with either an empty vector or the p.A459S RECQL1 mutant (<xref rid="sd" ref-type="sec">Supplemental Figure 12E</xref>). Furthermore, we found that the efficiency of replication progression for those forks that did manage to restart following release from HU was also severely affected in the RECQL-P1-1 fibroblasts complemented with an empty vector or the p.A459S mutant compared with those complemented with WT RECQL1 (<xref rid="F6" ref-type="fig">Figure 6B</xref>). These data suggest that RECQL1 may be important for the restart of all types of stalled replication forks, irrespective of the causative DNA lesion. In keeping with this, the p.A459S mutant also compromised the ability of cells to restart replication in the presence of DNA alkylation damage induced by MMS exposure, accompanied by increased chromosome breakage and cell death (<xref rid="sd" ref-type="sec">Supplemental Figure 13</xref>).</p>
+        <p>Last, it has been suggested that RECQL1, in a manner similar to that of WRN and DNA2 (<xref rid="B26" ref-type="bibr">26</xref>), also functions to protect stalled forks from uncontrolled nucleolytic degradation. Therefore, to assess whether the inability of the p.A459S-mutant RECQL1 protein to efficiently restart HU-stalled forks is due to excessive fork degradation, we sequentially labeled the 3 isogenic complemented fibroblast cell lines with CldU and IdU and then exposed them to 4 mM HU for 5 hours. We then quantified replication fork stability by calculating the ratio of CldU- to IdU-labeled fibers. As shown in <xref rid="F6" ref-type="fig">Figure 6C</xref>, RECQL-P1-1 fibroblasts complemented with empty vector and the p.A459S exhibited a mild increase in replication fork degradation after prolonged exposure to HU that could be complemented following the expression of WT RECQL1. This suggests that the replication fork restart defect present in the cells derived from patients with RECON syndrome was not only due to an inability of the mutant RECQL1 to remodel reversed forks but also resulted from the degradation of stalled forks.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>Despite the cloning of <italic toggle="yes">RECQL</italic> over 25 years ago (<xref rid="B10" ref-type="bibr">10</xref>), the role that it plays within the cell to maintain genome stability remains relatively unclear. In contrast, functional insight into how other RecQ helicase family members, such as BLM, WRN, and RECQL4, protect the genome from deleterious DNA damage has been greatly facilitated by the identification of human disorders caused by mutations in these genes. However, even with the rapid advances in whole-exome/genome sequencing technology, mutations of the 2 remaining RecQ helicase genes (<italic toggle="yes">RECQL</italic> and <italic toggle="yes">RECQL5</italic>) have yet to be linked to an inherited chromosomal instability syndrome. Here, we describe the identification of a human chromosomal instability disorder, which we named RECON syndrome (RECql ONe), caused by biallelic missense mutations of <italic toggle="yes">RECQL</italic>. Notably, although it has been suggested that the function of RECQL1 may be redundant with other RecQ helicases such as BLM (<xref rid="B30" ref-type="bibr">30</xref>), the individuals affected by the RECQL1 p.A459S mutation exhibit a clinical phenotype distinct from that of BS, WS, and the 3 RECQL4-associated disorders, suggesting that RECQL1 is not redundant with WRN, BLM, or RECQL4 and has unique functions during human development.</p>
+      <p>Although individuals with BS or one of the RECQL4-associated disorders are clinically distinguishable, they do exhibit an overlap of symptoms, such as pre- and postnatal growth retardation, facial erythema that worsens upon sun exposure, poikiloderma, skin hypo- and hyperpigmentation, alopecia, and an increased predisposition for cancer, which is probably reflective of common cellular processes that the encoded proteins have been reported to take part in, e.g., DSB end-resection and DNA replication (<xref rid="B7" ref-type="bibr">7</xref>, <xref rid="B8" ref-type="bibr">8</xref>, <xref rid="B28" ref-type="bibr">28</xref>, <xref rid="B31" ref-type="bibr">31</xref>). In comparison with the clinical features of patients with BS, RTS, RAPADILINO, or BGS, those with RECON syndrome only share postnatal growth retardation, even though RECQL1 is also implicated in regulating DSB repair and processing replication intermediates (<xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B26" ref-type="bibr">26</xref>, <xref rid="B29" ref-type="bibr">29</xref>, <xref rid="B32" ref-type="bibr">32</xref>).</p>
+      <p>In contrast, individuals with BS can be differentiated by the presence of microcephaly, immunodeficiency, and type 2 diabetes, whereas patients with a RECQL4-associated disorder can be identified by absent or hypoplastic thumbs, radial ray defects, absent or hypoplastic patellae, limb malformations, cataracts, reduced bone density, anemia, neutropenia, and craniosynostosis.</p>
+      <p>It appears that the defining clinical features of RECON syndrome include skin photosensitivity, xeroderma, and a progeroid-like facial appearance with a tiny, pinched nose and prominent premaxilla. Interestingly, the progeroid-like facial appearance, growth retardation, and muscle wasting are somewhat reminiscent of WS, and although it is likely that the affected patients are currently too young to ascertain whether they have any other clinical signs of premature aging, it is tempting to speculate that this represents another progeroid syndrome (<xref rid="B33" ref-type="bibr">33</xref>, <xref rid="B34" ref-type="bibr">34</xref>).</p>
+      <p>Although it is apparent that the clinical phenotype exhibited by the affected individuals carrying <italic toggle="yes">RECQL</italic> mutations is relatively mild when compared with other RecQ-associated disorders, it should be noted that these individuals are not null for RECQL1 and that the severity of the resulting clinical symptoms is likely to be tempered by the presence of some residual protein function. In addition, it is possible that some of the features of the disease are specific to this particular <italic toggle="yes">RECQL</italic> mutation and/or were modified by the similar genetic background of the 2 affected families. As such, the range and severity of the clinical symptoms linked with RECQL1 dysfunction will only be properly determined following the identification of additional patients. In relation to this, it has been reported by 2 laboratories that heterozygous mutations of <italic toggle="yes">RECQL</italic> are associated with an increased risk of breast cancer (<xref rid="B15" ref-type="bibr">15</xref>, <xref rid="B16" ref-type="bibr">16</xref>), although this association has been disputed by several other groups (<xref rid="B35" ref-type="bibr">35</xref>, <xref rid="B36" ref-type="bibr">36</xref>). Interestingly, one of the identified breast cancer&#x2013;associated variants in <italic toggle="yes">RECQL</italic> altered the amino acid residue proximal to the RECON syndrome <italic toggle="yes">RECQL</italic> mutation. Despite this, none of the heterozygous carriers of the p.A459S mutation in either family A or B has reported developing breast cancer. Thus, it is plausible that this <italic toggle="yes">RECQL</italic> variant might not be associated with an increased cancer predisposition, albeit the carrier frequency for the p.A459S mutation is extremely low. However, since we have not directly compared the pathogenic impact of the syndrome and cancer-associated mutations of <italic toggle="yes">RECQL</italic> on its enzymatic activities and roles in regulating DNA replication, we acknowledge that it is difficult to make any conclusions regarding whether the p.A459S mutation may predispose individuals to breast cancer. As such, further studies to address the genotype-phenotype relationship linking the molecular, cellular, and clinical characteristics of individual RECQL1 mutations are warranted.</p>
+      <p>It has been suggested that the main function of RECQL1 is to promote the restart of reversed replication forks induced by abortive TOP1-cleavage complexes, which in turn is inhibited via an interaction of RECQL1 with PARP1 (<xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B26" ref-type="bibr">26</xref>). Interestingly, we detected a replication defect in cells from patients with RECON syndrome by DNA fiber analysis following the pharmacological inhibition of either TOP1 or TOP2, without a requirement to suppress PARP1 activity. This finding suggests that RECQL1 plays a more prominent role in regulating the restart of replication forks in the presence of abortive topoisomerase complexes than was perhaps thought and that this function is only partly dependent on PARP1.</p>
+      <p>The ability of RECQL1 to restart forks through branch migration of a reversed fork was shown to require its ATPase activity (<xref rid="B14" ref-type="bibr">14</xref>). While the p.A459S mutation lies outside the RECQL1 helicase domain, it has been previously demonstrated that mutating conserved cysteine residues within the ZBD compromises both its ATPase and DNA unwinding activities (<xref rid="B11" ref-type="bibr">11</xref>, <xref rid="B12" ref-type="bibr">12</xref>). In keeping with this, we have shown that the p.A459S mutation also substantially reduced the ATPase, DNA unwinding, and branch-migrating activities of RECQL1. Examination of the available crystal structures of human RECQL1 showed that the ZBD is spatially juxtaposed with the helicase ATP-binding cleft, which is located between the 2 N-terminal domains (<xref rid="F7" ref-type="fig">Figure 7A</xref>). Interestingly, A459 contacts F281 located within the linker region between the 2 helicase domains that appears to adopt 2 conformations in the GDP-bound structure (<xref rid="B37" ref-type="bibr">37</xref>), one of which packs directly against P114 within the P-loop/Walker A/Motif1 region. Since A459 itself forms part of a hydrophobic cluster within the ZBD core that is likely perturbed by mutation to a more polar and bulkier serine residue, the presence of the serine residue may affect the ability of F281 to adopt these different conformations, thus potentially offering a molecular explanation for the effects of the p.A459S mutation on both ATPase and helicase activity (<xref rid="F7" ref-type="fig">Figure 7, B and C</xref>). In a manner similar to the RECQL1 p.A459S mutation, disease-causing missense mutations in the ZBD of BLM also compromise its ATP hydrolysis and DNA-unwinding activities (<xref rid="B38" ref-type="bibr">38</xref>, <xref rid="B39" ref-type="bibr">39</xref>). However, unlike RECQL1, BLM also contains a helicase and RNase C-terminal (HRDC) domain, which is required for Holliday junction dissolution (<xref rid="B40" ref-type="bibr">40</xref>). Therefore, even though pathogenic missense mutations have been identified in the conserved ZBD of BLM and RECQL1, the functional impact and clinical consequences of these mutations are likely to be distinct, given the unique structural architecture of the respective RecQ helicases.</p>
+      <p>Taken together, it is likely that the replication defects we observed in cells from patients with RECON syndrome are attributed to an inability of RECQL1 to restart reversed forks due to compromised ATP-dependent helicase/branch migration activity. Fork reversal is thought to be a ubiquitous response to most types of replication stress and is essential for both the repair and restart of damaged replication forks. Therefore, if RECON syndrome represents a disease of failed replication restart, it is not clear why the clinical symptoms exhibited by the affected patients do not have more of a developmental component similar, for example, to that of patients with Schimke immuno-osseous dysplasia (SIOD), which is caused by mutations in the fork remodeling factor SMARCAL1 (<xref rid="B41" ref-type="bibr">41</xref>, <xref rid="B42" ref-type="bibr">42</xref>). This suggests that perhaps the fork restart function of RECQL1 is essential in some cell types but not in others or is restricted to a subset of forks.</p>
+      <p>Interestingly, in addition to RECQL1, other disease-associated DNA helicases involved in replication fork processing and homologous recombination, such as DNA2, WRN, BLM, FANCJ, and FANCM (<xref rid="B43" ref-type="bibr">43</xref>), have also been implicated in suppressing the nucleolytic degradation of stalled replication forks and promoting their restart once repaired. Notably, of these, the cellular replication response to CPT and HU damage in cells lacking WRN is most similar to that observed in RECON syndrome cells, i.e., both RECON syndrome and WS cells display increased fork degradation and a reduced efficiency with which replication can proceed in the presence of abortive TOP1 complexes or following HU exposure (<xref rid="B26" ref-type="bibr">26</xref>, <xref rid="B44" ref-type="bibr">44</xref>). The similar cellular phenotypes of WS and RECON cells may explain the progeroid-like features of both disorders. However, the increased severity of clinical symptoms exhibited by individuals with WS when compared with patients with RECON syndrome may arise as a consequence of loss of specific enzymatic activities and/or functions of the WRN protein, e.g., the exonuclease activity, that are not conserved in RECQL1. In this regard, it remains to be determined whether RECQL1 also plays a role in promoting telomeric replication by dissembling G-quadruplex structures or repairing oxidative damage in a manner similar to WRN.</p>
+      <p>In summary, we demonstrate that mutations in <italic toggle="yes">RECQL</italic> are the underlying cause of an inherited chromosomal instability syndrome that shares some clinical and cellular phenotypic similarities with WS. Thus, to our knowledge, RECQL1 represents the fourth RecQ helicase to be implicated in genetically inherited disease characterized by genome stability defects.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <p>Further information can be found in Supplemental Methods.</p>
+      <sec>
+        <title>Exome analysis.</title>
+        <p>We performed exome analysis using DNA extracted from whole blood of the proband in family A (<xref rid="F1" ref-type="fig">Figure 1A</xref>). Exonic sequences from DNA were enriched with the Agilent V5 Kit (Agilent Technologies). Sequences were generated on a HiSeq2500 (Illumina) as 125 bp paired-end runs. Read alignment and variant calling were performed with DNAnexus using default parameters with the human genome assembly hg19 (GRCh37) as a reference. Exome analysis of the proband yielded 60.95 million reads, with a mean coverage of 88.83&#xD7;.</p>
+      </sec>
+      <sec>
+        <title>Segregation analysis.</title>
+        <p>An amplicon containing the <italic toggle="yes">RECQL</italic> variant was amplified by conventional PCR of genomic DNA derived from the probands and all available parents and siblings. PCR amplicons were analyzed by Sanger sequencing. The genomic DNA primer sequences used for <italic toggle="yes">RECQL</italic> PCR amplification were as follows: <italic toggle="yes">RECQL</italic> forward, 5&#x2032;-TTAGCCTATAAAGGTTTACAAAACA-3&#x2032; and <italic toggle="yes">RECQL</italic> reverse, 5&#x2032;-GGTAATATTATGGCAGTTATAGGAAGC-3&#x2032;. The primers used to sequence <italic toggle="yes">RECQL</italic> cDNA were as follows: <italic toggle="yes">RECQL</italic> forward, 5&#x2032;-TGCAGGTCGAGATGACATGA-3&#x2032; and <italic toggle="yes">RECQL</italic> reverse, 5&#x2032;-AGCATGTTTGCAGCCTTCTTC-3&#x2032;.</p>
+      </sec>
+      <sec>
+        <title>Data availability.</title>
+        <p>The <italic toggle="yes">RECQL</italic> gene variant data are available in the NCBI&#x2019;s ClinVar archive (accession number SCV001364447.1).</p>
+      </sec>
+      <sec>
+        <title>Cell culture and generation of cell lines.</title>
+        <p>Dermal primary fibroblasts were grown from skin-punch biopsies and maintained in DMEM (Thermo Fisher Scientific) supplemented with 20% FCS, 5% <sc>l</sc>-glutamine, and 5% penicillin-streptomycin antibiotics (Merck). Primary fibroblasts were immortalized with a lentivirus expressing human telomerase reverse transcriptase (hTERT) that was generated by transfecting 293FT cells (Thermo Fisher Scientific) with the plasmids pLV-hTERT-IRES-hygro (Addgene no. 85140), psPax2 (Addgene no. 12260), and pMD2.G (Addgene no. 12259). Selection was performed using hygromycin (Thermo Fisher Scientific) at 70 &#x3BC;g/mL. All LCLs were routinely grown in RPMI-1640 (Thermo Fisher Scientific) supplemented with 10% FCS, 5% <sc>l</sc>-glutamine, and 5% penicillin-streptomycin. <italic toggle="yes">RECQL</italic>-KO HeLa cells were routinely grown in DMEM supplemented with 10% FCS, 5% <sc>l</sc>-glutamine, and 5% penicillin-streptomycin. Fibroblast and HeLa cell complementation was carried out using the pLVX-IRES-Neo lentiviral vector (Takara Bio) encoding 2xHA-tagged <italic toggle="yes">RECQL</italic>. All cell lines were routinely tested for mycoplasma.</p>
+      </sec>
+      <sec>
+        <title>Genotoxic agents.</title>
+        <p>Camptothecin (Merck), etoposide (Merck), hydroxyurea (MilliporeSigma), and methylmethane sulfonate (MilliporeSigma) were used as indicated.</p>
+      </sec>
+      <sec>
+        <title>Immunoblot analysis, immunoprecipitation, and antibodies.</title>
+        <p>Whole-cell extracts were prepared and subjected to immunoblotting as previously described (<xref rid="B23" ref-type="bibr">23</xref>). Immunoblotting was performed using antibodies against pS1981 ATM (AF1655) from R&amp;D Systems; ATM (A300-299A), pS824-KAP1 (A300-767A), KAP1 (A300-274A), pS966-SMC1 (A300-050A), SMC1 (A300-055A), pS4/S8-RPA2 (A300-245A), and RECQL1 (A300-450A) from Bethyl Laboratories; pS345-CHK1 (2341) from Cell Signaling Technology; CHK1 (sc-8408) and PARP1 (sc-8007) from Santa Cruz Biotechnology; H2A (07-146), &#x3B3;-H2AX (05-636), RPA2 (NA18), and HA (H9658) from Merck; pS343-NBS1 (47272) from Abcam; and Nbs1 (GTX70224) from GeneTex. Co-immunoprecipitation was carried out as previously described (<xref rid="B23" ref-type="bibr">23</xref>), with the exception that EDTA was excluded, and 250 units/mL benzonase (Merck) and 1.5 mM MgCl<sub>2</sub> were added to the lysis buffer. Anti-RECQL1 antibody (5 &#x3BC;g, A300-450A) or a nonspecific IgG (Dako) coupled with protein A agarose beads (GE Healthcare) were used to isolate protein complexes from 5 mg whole-cell extract.</p>
+      </sec>
+      <sec>
+        <title>Immunofluorescence microscopy.</title>
+        <p>Cells were seeded onto coverslips 24 hours before extraction and fixation. Cytochalasin B (2 &#x3BC;g/mL, MilliporeSigma) was added to the media for 24 hours to delete micronuclei. Cells were preextracted for 5 minutes on ice with ice-cold buffer (25 mM HEPES, pH 7.4, 50 mM NaCl, 1 mM EDTA, 3 mM MgCl<sub>2</sub>, 300 mM sucrose, and 0.5% Triton X-100) and then fixed with 4% paraformaldehyde for 10 minutes. Fixed cells were stained with primary antibodies against &#x3B3;-H2AX (Merck, 05-636), RAD51 (Merck, PC130), 53BP1 (Novus Biologicals, NB100-904), RECQL1 (Abcam, ab151501), and mitosin (BD Transduction Laboratories, 610768), with secondary antibodies conjugated to Alexa Fluor 488 and Alexa Fluor 594 (Life Technologies, Thermo Fisher Scientific), and then with DAPI (VectaLabs). Images were visualized using a Nikon Eclipse Ni microscope with NIS-Elements software (Nikon Instruments) and captured using a 100&#xD7; oil immersion objective.</p>
+      </sec>
+      <sec>
+        <title>DNA fiber&#x2013;spreading assay.</title>
+        <p>Cells were pulse-labeled with 25 &#x3BC;M CldU for 20 to 30 minutes, washed with PBS, pulse-labeled with 250 &#x3BC;M IdU with or without 50 nM CPT or 50 nM ETOP for 20 to 30 minutes, and then harvested. For replication restart experiments, cells were labeled with CldU, washed in warm PBS, and incubated in media containing 2 mM HU or 0.02% MMS for 2 hours or 20 minutes, respectively. Cells were washed again in warm PBS and then incubated with IdU for the indicated duration. DNA fiber analysis was carried out as previously described (<xref rid="B45" ref-type="bibr">45</xref>).</p>
+      </sec>
+      <sec>
+        <title>Metaphase spreads.</title>
+        <p>Giemsa-stained metaphase spreads were prepared as previously described (<xref rid="B45" ref-type="bibr">45</xref>). Briefly, Colcemid (KaryoMAX, Thermo Fisher Scientific) was added at a final concentration of 0.2 &#x3BC;g/mL for 3 hours. Cells were then harvested by trypsinization, subjected to hypotonic shock for 30 minutes at 37&#xB0;C in hypotonic buffer (10 mM KCl, 15% FCS), and fixed in 3:1 ethanol/acetic acid solution. Cells were dropped onto acetic acid&#x2013;humidified slides, stained for 15 minutes in a Giemsa-modified solution (Merck; 5% vol/vol in water), and washed in water for 5 minutes before visualization by light microscopy.</p>
+      </sec>
+      <sec>
+        <title>DNA helicase assays.</title>
+        <p>DNA helicase assays were performed as previously described (<xref rid="B19" ref-type="bibr">19</xref>). Briefly, reactions were carried out in a 20 &#x3BC;L volume with 20 mM Tris (pH 7.4), 10 mM KCl, 5 mM ATP, 5 mM MgCl<sub>2</sub>, 10% glycerol, and 80 ng/&#x3BC;L BSA for 15 minutes at 37&#xB0;C. Reaction mixtures containing a forked duplex DNA substrate (19 bp or 31 bp) were incubated with the indicated concentrations of WT RECQL1 or RECQL1-A459S helicase proteins. Reactions were quenched with an equal volume of 2&#xD7; stop dye (18 mM EDTA, 0.6% SDS, 25% glycerol, 0.4% bromophenol blue, 0.4% xylene cyanol, and 0.1 mg/mL proteinase K) and incubated for an additional 15 minutes at 37&#xB0;C to remove bound RECQL1 protein. Reaction products were resolved by electrophoresis on native 12% polyacrylamide gels at 200 V for 1.5 hours. Radiolabeled DNA products were visualized with a phosphoimager and quantified using ImageQuant software (Cytiva). For kinetics analysis of DNA unwinding, 19 bp or 31 bp forked duplex DNA substrates were incubated with the specified RECQL1 concentration and incubated for the indicated durations at 37&#xB0;C. The rates of helicase-catalyzed DNA unwinding were determined by linear regression analysis.</p>
+      </sec>
+      <sec>
+        <title>Strand annealing assays.</title>
+        <p>Strand annealing assays were performed as previously described (<xref rid="B19" ref-type="bibr">19</xref>). Briefly, the specified concentration of WT RECQL1 or RECQL1-A459S helicase protein was incubated with 0.5 nM each of 5&#x2032;-end radiolabeled oligonucleotide and partially complementary unlabeled oligonucleotide. Strand annealing reactions (20 &#x3BC;L) were carried out in helicase reaction buffer (20 mM Tris-HCl [pH 7.5], 10 mM KCl, 8 mM dithiothreitol, 5 mM MgCl<sub>2</sub>) and quenched by addition of an equal volume of 2&#xD7; stop dye (18 mM EDTA, 0.6% SDS, 25% glycerol, 0.4% bromophenol blue, 0.4% xylene cyanol and 0.1 mg/mL proteinase K) and incubated for an additional 15 minutes at 37 &#xB0;C to remove bound RECQL1 protein. Reaction products were electrophoresed on native 12% polyacrylamide gels at 200 V for 1.5 hours. Radiolabeled products were visualized and quantified as described above.</p>
+      </sec>
+      <sec>
+        <title>Fork restoration kinetics assay.</title>
+        <p>WT or A459S RECQL1 (20 nM) was incubated with 2 nM radiolabeled reversed fork substrate, 2 mM ATP, 15 mM phosphocreatine, and 30 u/mL creatine phosphokinase in reaction salts (35 mM Tris-HCl, pH 7.5, 20 mM KCl, 5 mM MgCl<sub>2</sub>, 0.1 mg/mL BSA, 2 mM DTT, 5% glycerol) in 100 &#x3BC;L reactions at 37&#xB0;C. Aliquots of 20 &#x3BC;L were removed at the indicated times and were quenched by the addition of 10 &#x3BC;L 3X stop buffer (1.2% SDS, 30% glycerol and proteinase K), followed by incubation for at least 10 minutes at room temperature. Separate reactions containing either a reversed fork and replication fork structure without RECQL1 were incubated for 30 minutes at 37 &#xB0;C followed by addition of the 3&#xD7; stop buffer. Samples were immediately loaded onto an 8% polyacrylamide 1&#xD7; TBE gel and electrophoresed for 4 hours at 200 V and 4&#xB0;C. Gels were exposed to a phosphoimager screen overnight and then imaged using a Typhoon FLA 9500 imager (Cytiva). Gel images were quantified using ImageQuant TL software (Cytiva), and raw data were processed using Microsoft Excel. The percentage fork restoration was calculated by dividing the volume of the replication fork band by the total volume at each time point and subtracting the percentage of the fork restored in the no-enzyme control from each time point. Data representing 3 replicates of the assay were averaged and graphed.</p>
+      </sec>
+      <sec>
+        <title>Study approval.</title>
+        <p>Written informed consent to publish clinical information and photographs of the affected individuals was obtained from the families prior to their involvement in this study, in accordance with the IRB-approved protocol 0306-10-HMO from the Hadassah Medical Center (Jerusalem, Israel). Further approval for this research was obtained from the West Midlands, Coventry, and Warwickshire Research Ethics Committee (Coventry, United Kingdom; REC: 20/WM/0098).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>TH, VMP, AAL, and BAL identified the patients with the RECQL1 mutation and provided clinical information and photographs of the affected individuals. TH and VM analyzed the whole-exome sequencing data. KDB performed segregation analysis and established patient-derived LCLs. SSJ, SLC, and AD performed DNA fiber analysis. LJG, JJR, and RH performed flow cytometric, SCE, and chromosome breakage analyses. BLW performed growth and cytotoxicity assays on LCLs. GSM performed chromatin fractionation and immunofluorescence. SJS performed structural modeling. CNM and GLM generated the RECQL1 CRISPR-KO HeLa cell line. GSS generated complemented cell lines, carried out immunofluorescence and co-immunoprecipitation studies, and performed Western blotting. SD and JAS purified recombinant RECQL1 and performed in vitro protein biochemical assays. SD and AD performed cell-based DNA damage sensitivity assays and the comet assay. ANG generated RECQL1 expression vectors. GMCL and VR carried out C-Fusion 3D high-throughput imaging. GSS, SSJ, and RMB planned and supervised the study and wrote the manuscript.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="sd">
+      <title>Supplementary Material</title>
+      <supplementary-material id="SD1" position="float" content-type="local-data">
+        <caption>
+          <title>Supplemental data</title>
+        </caption>
+        <media xlink:href="jci-132-147301-s176.pdf" id="d64e1247" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We would like to thank the parents and patients from the 2 families for taking part in this study and generously donating tissue samples. We would also like to thank Fay Stewart for help with statistical analysis. GSS, RH, GSM, SLC, AG are funded by a CR-UK Programme grant (C17183/A23303). SSJ is supported by a project grant funded by the Great Ormond Street Hospital Children&#x2019;s Charity and Sparks (V5019). LJG is supported by a joint funded University of Birmingham and CR-UK PhD studentship (C17422/A25154). BLW is supported by a CR-UK Clinical Academic Training Programme award (C11497/A31309). The VR laboratory is supported by funding from the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation, project IDs 393547839-SFB 1361 and 402733153-SPP 2202) and the DFG Major Research Instrumentation Programme (INST 247/845-1 FUGG). JJR is supported by the University of Birmingham. SD, JAS, AD, and RMB are supported in part by the NIH Intramural Research Program of the National Institute on Aging (1Z1AAG000741-19). A collaboration to study the identified <italic toggle="yes">RECQL</italic> variant was established via GeneMatcher (<xref rid="B46" ref-type="bibr">46</xref>).</p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p><bold>Conflict of interest:</bold> The authors have declared that no conflict of interest exists.</p>
+      </fn>
+      <fn>
+        <p><bold>Copyright:</bold> &#xA9; 2022, Abu-Libdeh et al. This is an open access article published under the terms of the Creative Commons Attribution 4.0 International License.</p>
+      </fn>
+      <fn>
+        <p><bold>Reference information:</bold><italic toggle="yes"> J Clin Invest</italic>. 2022;132(5):e147301.https://doi.org/10.1172/JCI147301.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Chu</surname><given-names>WK</given-names></name>
+<name><surname>Hickson</surname><given-names>ID</given-names></name>
+</person-group>
+          <article-title>RecQ helicases: multifunctional genome caretakers</article-title>
+          <source>Nat Rev Cancer</source>
+          <year>2009</year>
+          <volume>9</volume>
+          <issue>9</issue>
+          <fpage>644</fpage>
+          <lpage>654</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrc2682</pub-id>
+          <pub-id pub-id-type="pmid">19657341</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Croteau</surname><given-names>DL</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Human RecQ helicases in DNA repair, recombination, and replication</article-title>
+          <source>Annu Rev Biochem</source>
+          <year>2014</year>
+          <volume>83</volume>
+          <fpage>519</fpage>
+          <lpage>552</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-biochem-060713-035428</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4586249</pub-id>-->
+          <pub-id pub-id-type="pmid">24606147</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Oshima</surname><given-names>J</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Werner syndrome: clinical features, pathogenesis and potential therapeutic interventions</article-title>
+          <source>Ageing Res Rev</source>
+          <year>2017</year>
+          <volume>33</volume>
+          <fpage>105</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.arr.2016.03.002</pub-id>
+          <!--<pub-id pub-id-type="pmcid">5025328</pub-id>-->
+          <pub-id pub-id-type="pmid">26993153</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Cunniff</surname><given-names>C</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Bloom&#x2019;s syndrome: clinical spectrum, molecular pathogenesis, and cancer predisposition</article-title>
+          <source>Mol Syndromol</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <issue>1</issue>
+          <fpage>4</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1159/000452082</pub-id>
+          <!--<pub-id pub-id-type="pmcid">5260600</pub-id>-->
+          <pub-id pub-id-type="pmid">28232778</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Chan</surname><given-names>KL</given-names></name>
+<name><surname>Hickson</surname><given-names>ID</given-names></name>
+</person-group>
+          <article-title>New insights into the formation and resolution of ultra-fine anaphase bridges</article-title>
+          <source>Semin Cell Dev Biol</source>
+          <year>2011</year>
+          <volume>22</volume>
+          <issue>8</issue>
+          <fpage>906</fpage>
+          <lpage>912</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.semcdb.2011.07.001</pub-id>
+          <pub-id pub-id-type="pmid">21782962</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Dongliang</surname><given-names>M</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Human RecQL4 helicase plays multifaceted roles in the genomic stability of normal and cancer cells</article-title>
+          <source>Cancer Lett</source>
+          <year>2018</year>
+          <volume>413</volume>
+          <fpage>1</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.canlet.2017.10.021</pub-id>
+          <pub-id pub-id-type="pmid">29080750</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Sangrithi</surname><given-names>MN</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome</article-title>
+          <source>Cell</source>
+          <year>2005</year>
+          <volume>121</volume>
+          <issue>6</issue>
+          <fpage>887</fpage>
+          <lpage>898</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2005.05.015</pub-id>
+          <pub-id pub-id-type="pmid">15960976</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Lu</surname><given-names>H</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>RECQL4 promotes DNA end resection in repair of DNA double-strand breaks</article-title>
+          <source>Cell Rep</source>
+          <year>2016</year>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>161</fpage>
+          <lpage>173</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2016.05.079</pub-id>
+          <!--<pub-id pub-id-type="pmcid">5576896</pub-id>-->
+          <pub-id pub-id-type="pmid">27320928</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Schurman</surname><given-names>SH</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Direct and indirect roles of RECQL4 in modulating base excision repair capacity</article-title>
+          <source>Hum Mol Genet</source>
+          <year>2009</year>
+          <volume>18</volume>
+          <issue>18</issue>
+          <fpage>3470</fpage>
+          <lpage>3483</lpage>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddp291</pub-id>
+          <!--<pub-id pub-id-type="pmcid">2729667</pub-id>-->
+          <pub-id pub-id-type="pmid">19567405</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Seki</surname><given-names>M</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Molecular cloning of cDNA encoding human DNA helicase Q1 which has homology to Escherichia coli Rec Q helicase and localization of the gene at chromosome 12p12</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>1994</year>
+          <volume>22</volume>
+          <issue>22</issue>
+          <fpage>4566</fpage>
+          <lpage>4573</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/22.22.4566</pub-id>
+          <!--<pub-id pub-id-type="pmcid">308502</pub-id>-->
+          <pub-id pub-id-type="pmid">7527136</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Popuri</surname><given-names>V</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>The Human RecQ helicases, BLM and RECQ1, display distinct DNA substrate specificities</article-title>
+          <source>J Biol Chem</source>
+          <year>2008</year>
+          <volume>283</volume>
+          <issue>26</issue>
+          <fpage>17766</fpage>
+          <lpage>17776</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M709749200</pub-id>
+          <pub-id pub-id-type="pmid">18448429</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>NN</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Endogenous Bos taurus RECQL is predominantly monomeric and more active than oligomers</article-title>
+          <source>Cell Rep</source>
+          <year>2021</year>
+          <volume>36</volume>
+          <issue>10</issue>
+          <elocation-id>109688</elocation-id>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2021.109688</pub-id>
+          <pub-id pub-id-type="pmid">34496242</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Sharma</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>RECQL, a member of the RecQ family of DNA helicases, suppresses chromosomal instability</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2007</year>
+          <volume>27</volume>
+          <issue>5</issue>
+          <fpage>1784</fpage>
+          <lpage>1794</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.01620-06</pub-id>
+          <!--<pub-id pub-id-type="pmcid">1820448</pub-id>-->
+          <pub-id pub-id-type="pmid">17158923</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Berti</surname><given-names>M</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Human RECQ1 promotes restart of replication forks reversed by DNA topoisomerase I inhibition</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <year>2013</year>
+          <volume>20</volume>
+          <issue>3</issue>
+          <fpage>347</fpage>
+          <lpage>354</lpage>
+          <pub-id pub-id-type="doi">10.1038/nsmb.2501</pub-id>
+          <!--<pub-id pub-id-type="pmcid">3897332</pub-id>-->
+          <pub-id pub-id-type="pmid">23396353</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Cybulski</surname><given-names>C</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Germline <italic toggle="yes">RECQ</italic>L mutations are associated with breast cancer susceptibility</article-title>
+          <source>Nat Genet</source>
+          <year>2015</year>
+          <volume>47</volume>
+          <issue>6</issue>
+          <fpage>643</fpage>
+          <lpage>646</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.3284</pub-id>
+          <pub-id pub-id-type="pmid">25915596</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Sun</surname><given-names>J</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Mutations in RECQL gene are associated with predisposition to breast cancer</article-title>
+          <source>PLoS Genet</source>
+          <year>2015</year>
+          <volume>11</volume>
+          <issue>5</issue>
+          <elocation-id>e1005228</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1005228</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4422667</pub-id>-->
+          <pub-id pub-id-type="pmid">25945795</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Sami</surname><given-names>F</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Site-directed mutants of human RECQ1 reveal functional importance of the zinc binding domain</article-title>
+          <source>Mutat Res</source>
+          <year>2016</year>
+          <volume>790</volume>
+          <fpage>8</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mrfmmm.2016.05.005</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4967042</pub-id>-->
+          <pub-id pub-id-type="pmid">27248010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Cui</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Analysis of the unwinding activity of the dimeric RECQ1 helicase in the presence of human replication protein A</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2004</year>
+          <volume>32</volume>
+          <issue>7</issue>
+          <fpage>2158</fpage>
+          <lpage>2170</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkh540</pub-id>
+          <!--<pub-id pub-id-type="pmcid">407823</pub-id>-->
+          <pub-id pub-id-type="pmid">15096578</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Sharma</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Biochemical analysis of the DNA unwinding and strand annealing activities catalyzed by human RECQ1</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>280</volume>
+          <issue>30</issue>
+          <fpage>28072</fpage>
+          <lpage>28084</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M500264200</pub-id>
+          <pub-id pub-id-type="pmid">15899892</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Banerjee</surname><given-names>T</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Catalytic strand separation by RECQ1 is required for RPA-mediated response to replication stress</article-title>
+          <source>Curr Biol</source>
+          <year>2015</year>
+          <volume>25</volume>
+          <issue>21</issue>
+          <fpage>2830</fpage>
+          <lpage>2838</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cub.2015.09.026</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4631650</pub-id>-->
+          <pub-id pub-id-type="pmid">26455304</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Muzzolini</surname><given-names>L</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Different quaternary structures of human RECQ1 are associated with its dual enzymatic activity</article-title>
+          <source>PLoS Biol</source>
+          <year>2007</year>
+          <volume>5</volume>
+          <issue>2</issue>
+          <elocation-id>e20</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pbio.0050020</pub-id>
+          <!--<pub-id pub-id-type="pmcid">1769423</pub-id>-->
+          <pub-id pub-id-type="pmid">17227144</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Stewart</surname><given-names>GS</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>The DNA double-strand break repair gene hMRE11 is mutated in individuals with an ataxia-telangiectasia-like disorder</article-title>
+          <source>Cell</source>
+          <year>1999</year>
+          <volume>99</volume>
+          <issue>6</issue>
+          <fpage>577</fpage>
+          <lpage>587</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(00)81547-0</pub-id>
+          <pub-id pub-id-type="pmid">10612394</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Sharma</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Human RECQ1 is a DNA damage responsive protein required for genotoxic stress resistance and suppression of sister chromatid exchanges</article-title>
+          <source>PLoS One</source>
+          <year>2007</year>
+          <volume>110</volume>
+          <issue>7</issue>
+          <fpage>2390</fpage>
+          <lpage>2398</lpage>
+          <!--<pub-id pub-id-type="pmcid">2111050</pub-id>-->
+          <pub-id pub-id-type="pmid">18074021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Canela</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Topoisomerase II-induced chromosome breakage and translocation is determined by chromosome architecture and transcriptional activity</article-title>
+          <source>Mol Cell</source>
+          <year>2019</year>
+          <volume>75</volume>
+          <issue>2</issue>
+          <fpage>252</fpage>
+          <lpage>266</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2019.04.030</pub-id>
+          <!--<pub-id pub-id-type="pmcid">8170508</pub-id>-->
+          <pub-id pub-id-type="pmid">31202577</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Gothe</surname><given-names>HJ</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Spatial chromosome folding and active transcription drive DNA fragility and formation of oncogenic MLL translocations</article-title>
+          <source>Mol Cell</source>
+          <year>2019</year>
+          <volume>75</volume>
+          <issue>2</issue>
+          <fpage>267</fpage>
+          <lpage>283</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2019.05.015</pub-id>
+          <pub-id pub-id-type="pmid">31202576</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Thangavel</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>DNA2 drives processing and restart of reversed replication forks in human cells</article-title>
+          <source>J Cell Biol</source>
+          <year>2015</year>
+          <volume>208</volume>
+          <issue>5</issue>
+          <fpage>545</fpage>
+          <lpage>562</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201406100</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4347643</pub-id>-->
+          <pub-id pub-id-type="pmid">25733713</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Zellweger</surname><given-names>R</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Rad51-mediated replication fork reversal is a global response to genotoxic treatments in human cells</article-title>
+          <source>J Cell Biol</source>
+          <year>2015</year>
+          <volume>208</volume>
+          <issue>5</issue>
+          <fpage>563</fpage>
+          <lpage>579</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201406099</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4347635</pub-id>-->
+          <pub-id pub-id-type="pmid">25733714</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Davies</surname><given-names>SL</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Role for BLM in replication-fork restart and suppression of origin firing after replicative stress</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <year>2007</year>
+          <volume>14</volume>
+          <issue>7</issue>
+          <fpage>677</fpage>
+          <lpage>679</lpage>
+          <pub-id pub-id-type="doi">10.1038/nsmb1267</pub-id>
+          <pub-id pub-id-type="pmid">17603497</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Benedict</surname><given-names>B</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>The RECQL helicase prevents replication fork collapse during replication stress</article-title>
+          <source>Life Sci Alliance</source>
+          <year>2020</year>
+          <volume>3</volume>
+          <issue>10</issue>
+          <elocation-id>e202000668</elocation-id>
+          <pub-id pub-id-type="doi">10.26508/lsa.202000668</pub-id>
+          <!--<pub-id pub-id-type="pmcid">7441523</pub-id>-->
+          <pub-id pub-id-type="pmid">32820027</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>W</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Functional relation among RecQ family helicases RecQL1, RecQL5, and BLM in cell growth and sister chromatid exchange formation</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2003</year>
+          <volume>23</volume>
+          <issue>10</issue>
+          <fpage>3527</fpage>
+          <lpage>3535</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.23.10.3527-3535.2003</pub-id>
+          <!--<pub-id pub-id-type="pmcid">164753</pub-id>-->
+          <pub-id pub-id-type="pmid">12724411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Nimonkar</surname><given-names>AV</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>BLM-DNA2-RPA-MRN and EXO1-BLM-RPA-MRN constitute two DNA end resection machineries for human DNA break repair</article-title>
+          <source>Genes Dev</source>
+          <year>2011</year>
+          <volume>25</volume>
+          <issue>4</issue>
+          <fpage>350</fpage>
+          <lpage>362</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.2003811</pub-id>
+          <!--<pub-id pub-id-type="pmcid">3042158</pub-id>-->
+          <pub-id pub-id-type="pmid">21325134</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Parvathaneni</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Human RECQ1 interacts with Ku70/80 and modulates DNA end-joining of double-strand breaks</article-title>
+          <source>PLoS One</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <issue>5</issue>
+          <elocation-id>e62481</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0062481</pub-id>
+          <!--<pub-id pub-id-type="pmcid">3641083</pub-id>-->
+          <pub-id pub-id-type="pmid">23650516</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Schnabel</surname><given-names>F</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Premature aging disorders: a clinical and genetic compendium</article-title>
+          <source>Clin Genet</source>
+          <year>2021</year>
+          <volume>99</volume>
+          <issue>1</issue>
+          <fpage>3</fpage>
+          <lpage>28</lpage>
+          <pub-id pub-id-type="doi">10.1111/cge.13837</pub-id>
+          <pub-id pub-id-type="pmid">32860237</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Foo</surname><given-names>MXR</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Premature aging syndromes: From patients to mechanism</article-title>
+          <source>J Dermatol Sci</source>
+          <year>2019</year>
+          <volume>96</volume>
+          <issue>2</issue>
+          <fpage>58</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jdermsci.2019.10.003</pub-id>
+          <pub-id pub-id-type="pmid">31727429</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Bogdanova</surname><given-names>N</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Analysis of a <italic toggle="yes">RECQ</italic>L splicing mutation, c.1667_1667+3delAGTA, in breast cancer patients and controls from central Europe</article-title>
+          <source>Fam Cancer</source>
+          <year>2017</year>
+          <volume>16</volume>
+          <issue>2</issue>
+          <fpage>181</fpage>
+          <lpage>186</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10689-016-9944-y</pub-id>
+          <pub-id pub-id-type="pmid">27832498</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Li</surname><given-names>N</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Mutations in RECQL are not associated with breast cancer risk in an Australian population</article-title>
+          <source>Nat Genet</source>
+          <year>2018</year>
+          <volume>50</volume>
+          <issue>10</issue>
+          <fpage>1346</fpage>
+          <lpage>1348</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41588-018-0206-9</pub-id>
+          <pub-id pub-id-type="pmid">30224651</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Pike</surname><given-names>ACW</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Structure of the human RECQ1 helicase reveals a putative strand-separation pin</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2009</year>
+          <volume>106</volume>
+          <issue>4</issue>
+          <fpage>1039</fpage>
+          <lpage>1044</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0806908106</pub-id>
+          <!--<pub-id pub-id-type="pmcid">2628305</pub-id>-->
+          <pub-id pub-id-type="pmid">19151156</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Bahr</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Point mutations causing Bloom&#x2018;s syndrome abolish ATPase and DNA helicase activities of the BLM protein</article-title>
+          <source>Oncogene</source>
+          <year>1998</year>
+          <volume>17</volume>
+          <issue>20</issue>
+          <fpage>2565</fpage>
+          <lpage>2571</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.onc.1202389</pub-id>
+          <pub-id pub-id-type="pmid">9840919</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Neff</surname><given-names>NF</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>The DNA helicase activity of BLM is necessary for the correction of the genomic instability of bloom syndrome cells</article-title>
+          <source>Mol Biol Cell</source>
+          <year>1999</year>
+          <volume>10</volume>
+          <issue>3</issue>
+          <fpage>665</fpage>
+          <lpage>676</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.10.3.665</pub-id>
+          <!--<pub-id pub-id-type="pmcid">25194</pub-id>-->
+          <pub-id pub-id-type="pmid">10069810</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>L</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>The HRDC domain of BLM is required for the dissolution of double Holliday junctions</article-title>
+          <source>EMBO J</source>
+          <year>2005</year>
+          <volume>24</volume>
+          <issue>14</issue>
+          <fpage>2679</fpage>
+          <lpage>2687</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.emboj.7600740</pub-id>
+          <!--<pub-id pub-id-type="pmcid">1176466</pub-id>-->
+          <pub-id pub-id-type="pmid">15990871</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Boerkoel</surname><given-names>CF</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Mutant chromatin remodeling protein SMARCAL1 causes Schimke immuno-osseous dysplasia</article-title>
+          <source>Nat Genet</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <issue>2</issue>
+          <fpage>215</fpage>
+          <lpage>220</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng821</pub-id>
+          <pub-id pub-id-type="pmid">11799392</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Poole</surname><given-names>LA</given-names></name>
+<name><surname>Cortez</surname><given-names>D</given-names></name>
+</person-group>
+          <article-title>SMARCAL1 and telomeres: replicating the troublesome ends</article-title>
+          <source>Nucleus</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <issue>3</issue>
+          <fpage>270</fpage>
+          <lpage>274</lpage>
+          <pub-id pub-id-type="doi">10.1080/19491034.2016.1179413</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4991236</pub-id>-->
+          <pub-id pub-id-type="pmid">27355316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Tye</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>A fork in the road: where homologous recombination and stalled replication fork protection part ways</article-title>
+          <source>Semin Cell Dev Biol</source>
+          <year>2021</year>
+          <volume>113</volume>
+          <fpage>14</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.semcdb.2020.07.004</pub-id>
+          <!--<pub-id pub-id-type="pmcid">8082280</pub-id>-->
+          <pub-id pub-id-type="pmid">32653304</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Iannascoli</surname><given-names>C</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>The WRN exonuclease domain protects nascent strands from pathological MRE11/EXO1-dependent degradation</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2015</year>
+          <volume>43</volume>
+          <issue>20</issue>
+          <fpage>9788</fpage>
+          <lpage>9803</lpage>
+          <!--<pub-id pub-id-type="pmcid">4787784</pub-id>-->
+          <pub-id pub-id-type="pmid">26275776</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Higgs</surname><given-names>MR</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>BOD1L is required to suppress deleterious resection of stressed replication forks</article-title>
+          <source>Mol Cell</source>
+          <year>2015</year>
+          <volume>59</volume>
+          <issue>3</issue>
+          <fpage>462</fpage>
+          <lpage>477</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2015.06.007</pub-id>
+          <pub-id pub-id-type="pmid">26166705</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Sobreira</surname><given-names>N</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>GeneMatcher: a matching tool for connecting investigators with an interest in the same gene</article-title>
+          <source>Hum Mutat</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>928</fpage>
+          <lpage>930</lpage>
+          <pub-id pub-id-type="doi">10.1002/humu.22844</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4833888</pub-id>-->
+          <pub-id pub-id-type="pmid">26220891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Pike</surname><given-names>ACW</given-names></name>
+<etal>et al</etal>
+</person-group>
+          <article-title>Human RECQ1 helicase-driven DNA unwinding, annealing, and branch migration: insights from DNA complex structures</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2015</year>
+          <volume>112</volume>
+          <issue>14</issue>
+          <fpage>4286</fpage>
+          <lpage>4291</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1417594112</pub-id>
+          <!--<pub-id pub-id-type="pmcid">4394259</pub-id>-->
+          <pub-id pub-id-type="pmid">25831490</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <notes notes-type="version-changes">
+      <sec sec-type="version-changes">
+        <label>Version 1</label>
+        <title>01/13/2022</title>
+        <p>In-Press Preview</p>
+      </sec>
+      <sec sec-type="version-changes">
+        <label>Version 2</label>
+        <title>03/01/2022</title>
+        <p>Electronic publication</p>
+      </sec>
+    </notes>
+  </back>
+  <floats-group>
+    <fig position="float" id="F1">
+      <label>Figure 1</label>
+      <caption>
+        <title>Genealogy of patients with biallelic mutations of <italic toggle="yes">RECQL</italic>.</title>
+        <p>(<bold>A</bold>) Pedigree of the 2 families with identified mutations of <italic toggle="yes">RECQL</italic>. Patients III-2 and III-4 from family A and patient III-4 from family B are homozygous for the <italic toggle="yes">RECQL</italic> c.1375G&gt;T (NM_032941.2) mutation. Parents and unaffected siblings from both families were either heterozygous or WT. Where samples were available, the genotypes are shown (G/G, WT; G/T, heterozygote; T/T, homozygote). Patients II-3 and II-4 from family A were reported to have a clinical phenotype similar to that of patients III-2 and III-4. The black arrow indicates probands from whom cell lines were generated: patient III-2 from family A (RECQL1-P1-1) and patient III-4 from family B (RECQL1-P2). The small triangle indicates a pregnancy not carried to term. (<bold>B</bold>) Photographs of the affected patients from both families showing distinctive facial characteristics and slender, elongated thumbs. (<bold>C</bold>) Sequencing chromatograms showing the presence of the homozygous c.1375G&gt;T <italic toggle="yes">RECQL</italic> mutation in cDNA derived from the affected patients III-2 (family A) and III-4 (family B) and that the mother from family A (II-2) is heterozygous for the c.1375G&gt;T <italic toggle="yes">RECQL</italic> mutation. The WT <italic toggle="yes">RECQL</italic> sequence across the position of the mutation is shown.</p>
+      </caption>
+      <graphic xlink:href="jci-132-147301-g167" position="float"/>
+    </fig>
+    <fig position="float" id="F2">
+      <label>Figure 2</label>
+      <caption>
+        <title>The p.A459S mutation compromises RECQL1 helicase activity.</title>
+        <p>(<bold>A</bold>) SDS polyacrylamide gel stained with Coomassie showing recombinant human WT RECQL1 and RECQL1-A459S (500 ng each). mwt, molecular weight. (<bold>B</bold>) The specified RECQL1 concentrations were tested for unwinding a radiolabeled 19 bp forked duplex DNA substrate (0.5 nM) in 15 minutes. Representative gels are shown. The asterisk indicates a 5&#x2032; radiolabel on the 19 bp forked duplex DNA substrate. The black triangle indicates the heat-denatured DNA substrate control used as a marker for duplex unwinding. (<bold>C</bold>) Quantitation of DNA unwinding from 3 independent experiments, with the SEM shown. AUC: WT (mean &#xB1; SEM: 578.3 &#xB1; 8.01); A459S (mean &#xB1; SEM: 254.3 &#xB1; 18.63). WT versus A459S AUC: <italic toggle="yes">P</italic> &lt; 0.0001, by unpaired <italic toggle="yes">t</italic> test. (<bold>D</bold>) Representative gels showing analysis of helicase activity catalyzed by RECQL1 (2.5 nM) on a 19 bp forked DNA substrate in the presence or absence of 5 mM ATP. N.E., no enzyme. (<bold>E</bold>) Quantitation of DNA unwinding from 3 independent experiments, with the SEM shown. <sup>###</sup><italic toggle="yes">P</italic> &lt; 0.001, by unpaired <italic toggle="yes">t</italic> test.(<bold>F</bold>) Kinetics analyses of unwinding by WT RECQL1 or RECQL1-A459S. Representative gel images show analysis of reaction mixtures containing 1.3 nM WT RECQL1 or RECQL1-A459S helicase incubated with a 19 bp forked duplex DNA substrate for the indicated durations. (<bold>G</bold>) Quantitation of DNA unwinding from 3 independent experiments, with the SEM shown. (<bold>H</bold>) Quantitation of DNA unwinding showing a linear trendline and slope of unwinding from 3 independent experiments. The SEM is shown. AUC: WT (mean &#xB1; SEM: 830.3 &#xB1; 11.35); A459S (mean &#xB1; SEM: 316.1 &#xB1; 10.3). WT versus A459S AUC: <italic toggle="yes">P</italic> &lt; 0.0001, by unpaired <italic toggle="yes">t</italic> test.</p>
+      </caption>
+      <graphic xlink:href="jci-132-147301-g168" position="float"/>
+    </fig>
+    <fig position="float" id="F3">
+      <label>Figure 3</label>
+      <caption>
+        <title>The p.A459S mutation compromises the ability of RECQL1 to remodel reversed replication forks but not its ability to catalyze SSA.</title>
+        <p>(<bold>A</bold>) Depiction of the reversed and replication fork substrates used in this experiment. The black dot and &#x201C;X&#x201D; in the figure represent an isocytosine base and mismatched bases, respectively. These were added to minimize spontaneous conversion of the reversed fork into a replication fork. The asterisk indicates the 5&#x2032; end of the oligonucleotide that was radiolabeled with <sup>32</sup>P. (<bold>B</bold>) WT or A459S RECQL1 (20 nM) was incubated with 2 nM radiolabeled reversed fork substrate at 37&#xB0;C for the indicated durations. A radiolabeled replication fork (2 nM, black triangle) was included as a marker. A representative gel is shown. (<bold>C</bold>) Quantitation of DNA unwinding from 3 independent experiments, with the SEM shown. AUC: WT (mean &#xB1; SEM: 709.5 &#xB1; 35.23); A459S (mean &#xB1; SEM: 174.4 &#xB1; 23.91). WT versus A459S AUC: <italic toggle="yes">P</italic> &lt; 0.0002, by unpaired <italic toggle="yes">t</italic> test. (<bold>D</bold> and <bold>E</bold>) RECQL1 strand annealing activity was assessed by the formation of a 19 bp forked duplex DNA molecule from 2 partially complementary single-stranded oligonucleotides as a function of increasing RECQL1 concentration. (<bold>D</bold>) Two partially complementary oligonucleotides (1 radiolabeled at the 5&#x2032; end and the other unlabeled; 0.5 nM of each was incubated with the indicated concentrations of RECQL1 for 15 minutes at 37&#xB0;C in the absence of ATP). A 19 bp forked duplex was loaded as a marker. Representative gel images are shown. (<bold>E</bold>) Quantitation of strand annealing activity from 3 independent experiments, with the SEM shown.</p>
+      </caption>
+      <graphic xlink:href="jci-132-147301-g169" position="float"/>
+    </fig>
+    <fig position="float" id="F4">
+      <label>Figure 4</label>
+      <caption>
+        <title>Complementation of RECQL1-P1-1 fibroblasts with WT RECQL1 restores normal repair of DNA damage induced by CPT or ETOP.</title>
+        <p>(<bold>A</bold>) Quantification of 53BP1 foci in complemented patient RECQL1-P1-1 fibroblasts before and after treatment with 100 nM CPT (1 h) or 1 &#x3BC;M ETOP (30 min). 53BP1 foci in untreated cells and cells 24 hours after DNA damage induction were quantified in the G<sub>1</sub> phase only (mitosin negative) to assess the amount of replication damage induced by CPT or ETOP that had transited into the following cell cycle. 53BP1 foci in cells 1 to 12 hours after DNA damage induction were quantified in the S/G<sub>2</sub> phase only (mitosin positive) to monitor the kinetics of repair in damaged S/G<sub>2</sub>-phase cells. The mean of 3 independent experiments is shown with the SEM. A minimum of 300 cells were counted per time point. <sup>###</sup><italic toggle="yes">P</italic> &lt; 0.001, by 2-way ANOVA with Tukey&#x2019;s multiple-comparison test. (<bold>B</bold>) Micronuclei were quantified from cells described in <bold>A</bold>, before and 24 hours after exposure to CPT or ETOP. The mean of 3 independent experiments is shown with the SEM. A minimum of 500 cells were counted per time point. <sup>##</sup><italic toggle="yes">P</italic> &lt; 0.01 and <sup>###</sup><italic toggle="yes">P</italic> &lt; 0.001, by 2-way ANOVA with Tukey&#x2019;s multiple-comparison test. (<bold>C</bold> and <bold>D</bold>) Quantification of chromosome aberrations in (<bold>C</bold>) 2 normal LCLs, 2 RECQL-mutant LCLs, and an ATLD LCL and (<bold>D</bold>) complemented patient RECQL1-P1-1 fibroblasts before and 24 hours after chronic exposure to low-dose CPT (5 nM) or ETOP (50 nM). Chromosome aberrations include chromatid/chromosome gaps and breaks, chromatid/chromosome fragments, and chromosome radials and exchanges. Representative images of each type of aberration are shown. Data show the mean &#xB1; SEM of 3 independent experiments. A minimum of 50 metaphases were counted per cell line in each experiment. <sup>#</sup><italic toggle="yes">P</italic> &lt; 0.05, <sup>##</sup><italic toggle="yes">P</italic> &lt; 0.01, and <sup>###</sup><italic toggle="yes">P</italic> &lt; 0.001, by 2-way ANOVA with Tukey&#x2019;s multiple-comparison test (<bold>C</bold> and <bold>D</bold>).</p>
+      </caption>
+      <graphic xlink:href="jci-132-147301-g170" position="float"/>
+    </fig>
+    <fig position="float" id="F5">
+      <label>Figure 5</label>
+      <caption>
+        <title>Cells from a patient with RECON syndrome display a reduced efficiency of replication in the presence of TOP1/2 inhibitors.</title>
+        <p>(<bold>A</bold>) LCLs and (<bold>B</bold>) complemented RECQL1-P1-1 patient fibroblasts were sequentially labeled with CldU (red) and IdU (green) as shown. Stalled forks (red-only tracks) were quantified. The mean of 4 independent experiments is shown. A minimum of 200 forks were counted per condition. <sup>#</sup><italic toggle="yes">P</italic> &lt; 0.05 and <sup>##</sup><italic toggle="yes">P</italic> &lt; 0.01, by 1-way ANOVA with Tukey&#x2019;s multiple-comparison test. (<bold>C</bold>) LCLs and (<bold>D</bold>) complemented fibroblasts were sequentially labeled with CldU and IdU (with or without 50 nM CPT or ETOP) as shown. The length of the CldU and IdU tracks of dual-labeled DNA fibers (&gt;150 per condition) was measured, and the ratio of IdU/CldU track length was calculated, which represents the efficiency of replication in the presence or absence of CPT or ETOP. The median of 3 independent experiments is shown (red line). <sup>###</sup><italic toggle="yes">P</italic> &lt; 0.001, by Kruskal-Wallis test with Dunn&#x2019;s multiple comparison.</p>
+      </caption>
+      <graphic xlink:href="jci-132-147301-g171" position="float"/>
+    </fig>
+    <fig position="float" id="F6">
+      <label>Figure 6</label>
+      <caption>
+        <title>Cells from a patient with RECON syndrome exhibit reduced replication fork restart and increased replication fork degradation following exposure to HU.</title>
+        <p>(<bold>A</bold>). Complemented RECQL1-P1-1 patient fibroblasts were labeled with CldU and IdU following exposure to 2 mM HU as shown. Stalled forks were quantified. The mean of 3 independent experiments is shown. A minimum of 200 forks were counted per condition. <sup>##</sup><italic toggle="yes">P</italic> &lt; 0.001, by 1-way ANOVA with Tukey&#x2019;s multiple-comparison test. (<bold>B</bold>) Cells from <bold>A</bold> were labeled with CldU and IdU as shown in <bold>A</bold>. The IdU/CldU ratio was calculated for a minimum of 100 forks per condition from 3 independent repeats. The IdU/CldU ratio represents the efficiency of replication in the absence HU and the efficiency of replication fork restart following removal of HU. (<bold>C</bold>) Cells from <bold>A</bold> were labeled with CldU and IdU and then exposed to 4 mM HU as shown. The IdU/CldU ratio was calculated for a minimum of 100 forks per condition from 3 independent experiments. An IdU/CldU ratio of less than 1 indicates replication fork degradation. <sup>###</sup><italic toggle="yes">P</italic> &lt; 0.0001, by Kruskal-Wallis test with Dunn&#x2019;s multiple comparison (<bold>B</bold> and <bold>C</bold>).</p>
+      </caption>
+      <graphic xlink:href="jci-132-147301-g172" position="float"/>
+    </fig>
+    <fig position="float" id="F7">
+      <label>Figure 7</label>
+      <caption>
+        <title>Structural modeling of the RECQL1 p.A459S mutation.</title>
+        <p>(<bold>A</bold>) Overall structure of the RECQL1 monomer shown in a ribbons illustration, with the individual domains colored according to <xref rid="sd" ref-type="sec">Supplemental Figure 1A</xref>. The gray sphere represents the Zn<sup>2+</sup> ion within the ZBD, and the ADP is shown as sticks. (<bold>B</bold>) A459 forms part of an extended hydrophobic cluster involving W466 and M458 from the ZBD, M395 and Y359 from the helicase-C domain, and F281 from the helicase linker (cyan). (<bold>C</bold>) Two conformations of F281 within the helicase linker observed in the ADP-bound structure suggest a molecular basis for the dynamic coupling of structural perturbations in the ZBD to ATPase/helicase activity. The P-loop is highlighted in light pink. Conformation &#x201C;b&#x201D; of F281 stacks against the P144 pyrrolidine ring, while conformation &#x201C;a&#x201D; packs against A459. The figure was produced using PyMOL (<ext-link xlink:href="https://pymol.org/2/" ext-link-type="uri">https://pymol.org/2/</ext-link>) and coordinates from PDB accessions 2V1X and 2WWY (<xref rid="B37" ref-type="bibr">37</xref>, <xref rid="B47" ref-type="bibr">47</xref>).</p>
+      </caption>
+      <graphic xlink:href="jci-132-147301-g173" position="float"/>
+    </fig>
+    <table-wrap position="float" id="T2">
+      <label>Table 2</label>
+      <caption>
+        <title>Comparison of the k<sub>cat</sub> (s<sup>&#x2013;1</sup>), K<sub>m</sub> (&#x3BC;M), and V<sub>max</sub> (nM/s) for ATP hydrolysis by WT RECQL1 and RECQL1-A459S</title>
+      </caption>
+      <graphic xlink:href="jci-132-147301-g175" position="float"/>
+    </table-wrap>
+    <table-wrap position="float" id="T1">
+      <label>Table 1</label>
+      <caption>
+        <title>Clinical description of the patients with the <italic toggle="yes">RECQL</italic> mutation</title>
+      </caption>
+      <graphic xlink:href="jci-132-147301-g174" position="float"/>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

@@ -1,0 +1,1560 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group UK</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">32934225</article-id>
+      <article-id pub-id-type="pmc">7494853</article-id>
+      <article-id pub-id-type="publisher-id">18327</article-id>
+      <article-id pub-id-type="doi">10.1038/s41467-020-18327-6</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>NEMF mutations that impair ribosome-associated quality control are associated with neuromuscular disease</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Martin</surname>
+            <given-names>Paige B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Kigoshi-Tansho</surname>
+            <given-names>Yu</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sher</surname>
+            <given-names>Roger B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ravenscroft</surname>
+            <given-names>Gianina</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stauffer</surname>
+            <given-names>Jennifer E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kumar</surname>
+            <given-names>Rajesh</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yonashiro</surname>
+            <given-names>Ryo</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>M&#xFC;ller</surname>
+            <given-names>Tina</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Griffith</surname>
+            <given-names>Christopher</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Allen</surname>
+            <given-names>William</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pehlivan</surname>
+            <given-names>Davut</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Haral</surname>
+            <given-names>Tamar</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1618-9269</contrib-id>
+          <name>
+            <surname>Zenker</surname>
+            <given-names>Martin</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Howting</surname>
+            <given-names>Denise</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2748-9929</contrib-id>
+          <name>
+            <surname>Schanze</surname>
+            <given-names>Denny</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Faqeih</surname>
+            <given-names>Eissa A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3607-395X</contrib-id>
+          <name>
+            <surname>Almontashiri</surname>
+            <given-names>Naif A. M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff15">15</xref>
+          <xref ref-type="aff" rid="Aff16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Maroofian</surname>
+            <given-names>Reza</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff17">17</xref>
+          <xref ref-type="aff" rid="Aff18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2866-7777</contrib-id>
+          <name>
+            <surname>Houlden</surname>
+            <given-names>Henry</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff17">17</xref>
+          <xref ref-type="aff" rid="Aff18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mazaheri</surname>
+            <given-names>Neda</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff19">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Galehdari</surname>
+            <given-names>Hamid</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff19">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4113-6505</contrib-id>
+          <name>
+            <surname>Douglas</surname>
+            <given-names>Ganka</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff20">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Posey</surname>
+            <given-names>Jennifer E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6397-1910</contrib-id>
+          <name>
+            <surname>Ryan</surname>
+            <given-names>Monique</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff21">21</xref>
+          <xref ref-type="aff" rid="Aff22">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lupski</surname>
+            <given-names>James R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+          <xref ref-type="aff" rid="Aff23">23</xref>
+          <xref ref-type="aff" rid="Aff24">24</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Laing</surname>
+            <given-names>Nigel G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Joazeiro</surname>
+            <given-names>Claudio A. P.</given-names>
+          </name>
+          <address>
+            <email>c.joazeiro@zmbh.uni-heidelberg.de</email>
+          </address>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+          <xref ref-type="aff" rid="Aff25">25</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Cox</surname>
+            <given-names>Gregory A.</given-names>
+          </name>
+          <address>
+            <email>Greg.Cox@jax.org</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.249880.f</institution-id><institution-id institution-id-type="ISNI">0000 0004 0374 0039</institution-id><institution>The Jackson Laboratory, </institution></institution-wrap>Bar Harbor, ME USA </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.21106.34</institution-id><institution-id institution-id-type="ISNI">0000000121820794</institution-id><institution>The University of Maine, Graduate School of Biomedical Science and Engineering, </institution></institution-wrap>Orono, ME USA </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.7700.0</institution-id><institution-id institution-id-type="ISNI">0000 0001 2190 4373</institution-id><institution>Center for Molecular Biology of Heidelberg University (ZMBH), DKFZ-ZMBH Alliance, </institution></institution-wrap>Heidelberg, Germany </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.36425.36</institution-id><institution-id institution-id-type="ISNI">0000 0001 2216 9681</institution-id><institution>Department of Neurobiology &amp; Behavior, </institution><institution>Stony Brook University, </institution></institution-wrap>Stony Brook, NY USA </aff>
+        <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.36425.36</institution-id><institution-id institution-id-type="ISNI">0000 0001 2216 9681</institution-id><institution>Center for Nervous System Disorders, </institution><institution>Stony Brook University, </institution></institution-wrap>Stony Brook, NY USA </aff>
+        <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.1012.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 7910</institution-id><institution>Harry Perkins Institute of Medical Research, Centre for Medical Research, </institution><institution>University of Western Australia, </institution></institution-wrap>Nedlands, WA Australia </aff>
+        <aff id="Aff7"><label>7</label>Department of Molecular Medicine, Scripps Research, Jupiter, FL USA </aff>
+        <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.170693.a</institution-id><institution-id institution-id-type="ISNI">0000 0001 2353 285X</institution-id><institution>College of Medicine Pediatrics, </institution><institution>University of South Florida, </institution></institution-wrap>Tampa, FL USA </aff>
+        <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.429672.c</institution-id><institution-id institution-id-type="ISNI">0000 0004 0451 5300</institution-id><institution>Mission Fullerton Genetics Center, </institution><institution>Mission Health, </institution></institution-wrap>Asheville, NC USA </aff>
+        <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.39382.33</institution-id><institution-id institution-id-type="ISNI">0000 0001 2160 926X</institution-id><institution>Department of Molecular and Human Genetics, </institution><institution>Baylor College of Medicine, </institution></institution-wrap>Houston, TX USA </aff>
+        <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.39382.33</institution-id><institution-id institution-id-type="ISNI">0000 0001 2160 926X</institution-id><institution>Human Genome Sequencing Center, </institution><institution>Baylor College of Medicine, </institution></institution-wrap>Houston, TX USA </aff>
+        <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="GRID">grid.17788.31</institution-id><institution-id institution-id-type="ISNI">0000 0001 2221 2926</institution-id><institution>Department of Genetic and Metabolic Diseases, </institution><institution>Hadassah-Hebrew University Medical Center, </institution></institution-wrap>Jerusalem, Israel </aff>
+        <aff id="Aff13"><label>13</label><institution-wrap><institution-id institution-id-type="GRID">grid.5807.a</institution-id><institution-id institution-id-type="ISNI">0000 0001 1018 4307</institution-id><institution>Institute of Human Genetics, </institution><institution>Otto-von-Guericke University Magdeburg, </institution></institution-wrap>Magdeburg, Germany </aff>
+        <aff id="Aff14"><label>14</label><institution-wrap><institution-id institution-id-type="GRID">grid.415277.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 0593 1832</institution-id><institution>Department of Genetics, </institution><institution>King Fahad Medical City, </institution></institution-wrap>Riyadh, Saudi Arabia </aff>
+        <aff id="Aff15"><label>15</label><institution-wrap><institution-id institution-id-type="GRID">grid.412892.4</institution-id><institution-id institution-id-type="ISNI">0000 0004 1754 9358</institution-id><institution>The Center for Genetics and Inherited Diseases, </institution><institution>Taibah University, </institution></institution-wrap>Almadinah Almunwarah, Saudi Arabia </aff>
+        <aff id="Aff16"><label>16</label><institution-wrap><institution-id institution-id-type="GRID">grid.412892.4</institution-id><institution-id institution-id-type="ISNI">0000 0004 1754 9358</institution-id><institution>Faculty of Applied Medical Sciences, </institution><institution>Taibah University, </institution></institution-wrap>Almadinah Almunwarah, Saudi Arabia </aff>
+        <aff id="Aff17"><label>17</label><institution-wrap><institution-id institution-id-type="GRID">grid.83440.3b</institution-id><institution-id institution-id-type="ISNI">0000000121901201</institution-id><institution>Neurogenetics Laboratory, </institution><institution>UCL Queen Square Institute of Neurology, </institution></institution-wrap>London, UK </aff>
+        <aff id="Aff18"><label>18</label><institution-wrap><institution-id institution-id-type="GRID">grid.436283.8</institution-id><institution-id institution-id-type="ISNI">0000 0004 0612 2631</institution-id><institution>The National Hospital for Neurology and Neurosurgery, </institution></institution-wrap>London, UK </aff>
+        <aff id="Aff19"><label>19</label><institution-wrap><institution-id institution-id-type="GRID">grid.412504.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 0612 5699</institution-id><institution>Department of Genetics, Faculty of Science, </institution><institution>Shahid Chamran University of Ahvaz, </institution></institution-wrap>Ahvaz, Iran </aff>
+        <aff id="Aff20"><label>20</label><institution-wrap><institution-id institution-id-type="GRID">grid.428467.b</institution-id><institution>GeneDx, Inc, </institution></institution-wrap>Gaithsberg, MD USA </aff>
+        <aff id="Aff21"><label>21</label><institution-wrap><institution-id institution-id-type="GRID">grid.416107.5</institution-id><institution-id institution-id-type="ISNI">0000 0004 0614 0346</institution-id><institution>Department of Neurology, </institution><institution>The Royal Children&#x2019;s Hospital, </institution></institution-wrap>Melbourne, VIC Australia </aff>
+        <aff id="Aff22"><label>22</label><institution-wrap><institution-id institution-id-type="GRID">grid.1058.c</institution-id><institution-id institution-id-type="ISNI">0000 0000 9442 535X</institution-id><institution>Murdoch Children&#x2019;s Research Institute and University of Melbourne, </institution></institution-wrap>Melbourne, VIC Australia </aff>
+        <aff id="Aff23"><label>23</label><institution-wrap><institution-id institution-id-type="GRID">grid.39382.33</institution-id><institution-id institution-id-type="ISNI">0000 0001 2160 926X</institution-id><institution>Department of Pediatrics, </institution><institution>Baylor College of Medicine, </institution></institution-wrap>Houston, TX USA </aff>
+        <aff id="Aff24"><label>24</label><institution-wrap><institution-id institution-id-type="GRID">grid.416975.8</institution-id><institution-id institution-id-type="ISNI">0000 0001 2200 2638</institution-id><institution>Texas Children&#x2019;s Hospital, </institution></institution-wrap>Houston, TX USA </aff>
+        <aff id="Aff25"><label>25</label>Department of Molecular Medicine, Scripps Research, La Jolla, CA USA </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>15</day>
+        <month>9</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>15</day>
+        <month>9</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <volume>11</volume>
+      <elocation-id>4625</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>1</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>11</day>
+          <month>8</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2020</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">A hallmark of neurodegeneration is defective protein quality control. The E3 ligase Listerin (LTN1/Ltn1) acts in a specialized protein quality control pathway&#x2014;Ribosome-associated Quality Control (RQC)&#x2014;by mediating proteolytic targeting of incomplete polypeptides produced by ribosome stalling, and <italic>Ltn1</italic> mutation leads to neurodegeneration in mice. Whether neurodegeneration results from defective RQC and whether defective RQC contributes to human disease have remained unknown. Here we show that three independently-generated mouse models with mutations in a different component of the RQC complex, NEMF/Rqc2, develop progressive motor neuron degeneration. Equivalent mutations in yeast Rqc2 selectively interfere with its ability to modify aberrant translation products with C-terminal tails which assist with RQC-mediated protein degradation, suggesting a pathomechanism. Finally, we identify <italic>NEMF</italic> mutations expected to interfere with function in patients from seven families presenting juvenile neuromuscular disease. These uncover NEMF&#x2019;s role in translational homeostasis in the nervous system and implicate RQC dysfunction in causing neurodegeneration.</p>
+      </abstract>
+      <abstract id="Abs2" abstract-type="web-summary">
+        <p id="Par2">Defective protein quality control is a key feature of neurodegeneration. Here, the authors show that mutations in <italic>Nemf/NEMF</italic>, a component of the Ribosome-associated Quality Control complex, have a neurodegenerative effect in mice and may underlie neuromuscular disease in seven unrelated families.</p>
+      </abstract>
+      <kwd-group kwd-group-type="npg-subject">
+        <title>Subject terms</title>
+        <kwd>Mechanisms of disease</kwd>
+        <kwd>Disease genetics</kwd>
+        <kwd>Neurodegeneration</kwd>
+        <kwd>Neuromuscular disease</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000065</institution-id>
+              <institution>U.S. Department of Health &amp; Human Services | NIH | National Institute of Neurological Disorders and Stroke (NINDS)</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>NS102414</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Cox</surname>
+              <given-names>Gregory A.</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000971</institution-id>
+              <institution>Amyotrophic Lateral Sclerosis Association (ALS Association)</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>16-IIP-287</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Cox</surname>
+              <given-names>Gregory A.</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; The Author(s) 2020</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Introduction</title>
+      <p id="Par3">Ribosomes can stall during translation for a variety of reasons, such as the absence of termination codons followed by translation into the mRNA poly(A) tail (as in nonstop mRNA) or the deficiency of charged tRNAs<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>. Ribosome stalling is a critical problem, as it sequesters ribosomal subunits from the translation-competent pool and, in addition, gives rise to aberrant (incomplete) nascent polypeptide chains that are potentially toxic. In eukaryotes, stalled ribosomes are resolved by rescue factors that split the ribosomal subunits but leave the nascent chain still linked to tRNA, obstructing the exit tunnel in the 60S subunit<sup><xref ref-type="bibr" rid="CR3">3</xref>&#x2013;<xref ref-type="bibr" rid="CR5">5</xref></sup>. This nascent chain-tRNA/60S aberrant structure is recognized by nuclear export mediator factor (NEMF; Rqc2 in yeast). NEMF/Rqc2 facilitates the recruitment of the E3 ligase LTN1 (Ltn1 in yeast), which in turn ubiquitinates the nascent chain, leading to its proteasomal degradation<sup><xref ref-type="bibr" rid="CR6">6</xref>&#x2013;<xref ref-type="bibr" rid="CR12">12</xref></sup>. When ubiquitylation fails, Rqc2 additionally acts by catalyzing the C-terminal elongation of 60S-anchored nascent chains with untemplated Alanine and Threonine tails (CAT tails)<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. An Rqc2 homolog was also found to catalyze C-terminal tailing in bacteria, where the modification acts as a direct proteolysis signal&#x2014;a function that is likely to have evolved as early as in the Last Universal Common Ancestor<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. In eukaryotes, the biological functions of CAT tails are not fully understood, however recent evidence suggests that they can assist Ltn1 by exposing Lys residues that may be buried in the ribosomal exit tunnel for ubiquitylation<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>.</p>
+      <p id="Par4">We had previously reported that <italic>Ltn1</italic> mutation causes motor neuron degeneration in mice<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. Whether neurodegeneration results from defective RQC and whether defective RQC also contributes to human disease remains unknown. The findings that Ltn1/LTN1 and Rqc2/NEMF work closely in RQC predicted that, if the phenotype of <italic>Ltn1</italic>-mutant mouse is a consequence of faulty RQC, defective NEMF function might have a similar effect. Accordingly, here we describe two novel mouse models with different N-ethyl N-nitrosourea (ENU)-induced missense mutations in <italic>Nemf</italic>, as well as a genetically engineered NEMF-deficient model, which exhibit neurodegeneration and motor deficits. Functional analyses show that the ENU-equivalent mutations lead to altered CAT tail synthesis (&#x201C;CATylation&#x201D;) by yeast Rqc2. Finally, we describe nine cases from seven unrelated families with neuromuscular phenotypes harboring <italic>NEMF</italic> variants. Thus, our results provide evidence that NEMF functions in neuronal homeostasis and that its loss causes neurodegeneration and motor phenotypes in mice and humans. These findings, along with the previously described <italic>Ltn1</italic> mouse model<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, strongly point to RQC as a critical protein quality control pathway protecting neurons against degeneration.</p>
+    </sec>
+    <sec id="Sec2" sec-type="results">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>Mouse <italic>Nemf</italic> mutations result in progressive motor phenotypes</title>
+        <p id="Par5">Through independent ENU mutagenesis screens, two mouse lines with abnormal gait and muscle wasting were identified as carrying homozygous mutations in <italic>Nemf</italic>: C57BL/6J-<italic>Nemf</italic>
+<sup>R86S/R86S</sup> (nucleotide: A258T; protein: R86S) and C57BL/6J-<italic>Nemf</italic><sup>R487G/R487G</sup> (nucleotide: A1460G; protein: R487G) (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a, b</xref>). Henceforth, we refer to these homozygous mutant mice as R86S and R487G, respectively.<fig id="Fig1"><label>Fig. 1</label><caption><title>Mutations in mouse <italic>Nemf</italic> lead to deficits in body weight, motor function, and lifespan.</title><p><bold>a</bold>, <bold>b</bold> A 18-day-old R86S homozygous mutant (R86S; <bold>a</bold>) and 55-week-old R487G homozygous mutant (R487G; <bold>b</bold>) mice are smaller compared to wild-type (WT) littermates. <bold>c</bold> Body weight curves of male and female wild-type (orange squares), R487G (purple circles), and R86S mice (green triangles). Mean&#x2009;&#xB1;&#x2009;SD are indicated for each timepoint. Source data are provided as a source data file. <bold>d</bold> Kaplan&#x2013;Meier survival curves of males and females combined WT (orange line, <italic>n</italic>&#x2009;=&#x2009;33), R86S (green line, <italic>n</italic>&#x2009;=&#x2009;34; median survival: 20 days) and R487G (purple line, <italic>n</italic>&#x2009;=&#x2009;10; median survival 601 days) mice. Statistical analysis was performed by Log-rank (Mantel&#x2013;Cox) test with two-tailed <italic>p</italic> value reported R86S vs. WT: <italic>p</italic>&#x2009;&#x2264;&#x2009;0.0001 and R487G vs. WT: <italic>p</italic>&#x2009;=&#x2009;0.0074. <bold>e</bold> Motor function of 8-week-old WT (orange squares), R487G (purple circles), and R86S mice (green triangles) (<italic>n</italic>&#x2009;=&#x2009;16, 10, and 3, respectively) was measured by wire hang assay. Individual data points and mean&#x2009;&#xB1;&#x2009;SD are indicated. Statistical analysis was performed by Kruskal&#x2013;Wallis test followed by Dunn&#x2019;s multiple comparisons, R487G vs. WT: <italic>p</italic>&#x2009;=&#x2009;0.0712 (n.s.), R86S vs. WT: <italic>p</italic>&#x2009;=&#x2009;0.0018(**), R86S vs. R487G: <italic>p</italic>&#x2009;=&#x2009;0.1748. Source data are provided as a source data file. For growth curve (<bold>c</bold>) <italic>n</italic> per genotype per time-point: Male: WT (<italic>n</italic>&#x2009;=&#x2009;5, 6, 7, 6, 5 for weeks 1&#x2013;6, 7, 8, 20, 55), R86S (<italic>n</italic>&#x2009;=&#x2009;5, 4, 3 for weeks 1&#x2013;2, 3&#x2013;6, 7&#x2013;8), R487G (<italic>n</italic>&#x2009;=&#x2009;4, 6, 5, 3, 4, 5, 4 for weeks 2, 3, 4&#x2013;6, 7, 8, 20, 55). Female: WT (<italic>n</italic>&#x2009;=&#x2009;4, 3, 5, 4 3,4, 5 for weeks 1, 2, 3, 4, 5, 6, 8&#x2013;55), R86S (<italic>n</italic>&#x2009;=&#x2009;3, 5, 1 for weeks 1, 2, 3&#x2013;5), R487G (<italic>n</italic>&#x2009;=&#x2009;2, 5, 3, 4, 5, 4 for weeks 2, 3, 4, 5, 6&#x2013;20, 55).</p></caption><graphic xlink:href="41467_2020_18327_Fig1_HTML" id="d30e972"/></fig></p>
+        <p id="Par6">R86S mice appear normal at birth but by 2 weeks of age exhibit an overt motor phenotype that manifests as an abnormal waddle-like gait (Supplementary Movie&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>), as well as smaller body size (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>) with decreased growth rate thereafter (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1c</xref>). In comparison, R487G mice have less marked motor defect and growth reduction (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1b, c</xref>) and only by 10 weeks of age begin to display abnormal gait and hindlimb wasting (Supplementary Movie&#xA0;<xref rid="MOESM2" ref-type="media">2</xref>). Disease is progressive in both models. R86S mice die prematurely with a median lifespan of 20 days, with 20% of the animals living past 40 days, whereas R487G mice live past 2 years (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1d</xref>). Both +/R487G and +/R86S (heterozygous animals) have survival and growth rates similar to wild-type mice (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">1a, b</xref>).</p>
+        <p id="Par7">Since <italic>Nemf</italic> mutant mice exhibit abnormal gait, we further examined their motor function. Although the latency to fall in an inverted wire hang assay was comparable for wild-type and R86S mice at 2 weeks of age (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">2a</xref>), by 8 weeks surviving R86S mice were completely unable to perform the test (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1e</xref>). R487G mice also displayed shorter latency to fall compared to wild-type mice at 8 weeks (prior to overt phenotype onset) but did not exhibit further progression of the defect when examined at 55 weeks of age (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1e</xref>; Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">2c</xref>). Heterozygous +/R86S and +/R487G animals appeared unaffected at all observed timepoints (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">2a&#x2013;c</xref>).</p>
+      </sec>
+      <sec id="Sec4">
+        <title><italic>Nemf</italic> R86S and R487G mice exhibit neurogenic atrophy</title>
+        <p id="Par8">To determine the cause of impaired motor function in <italic>Nemf</italic> mutant mice, a histopathological examination of hindlimb muscle was performed. Tissue cross-sections revealed decreased muscle fiber size in the medial gastrocnemius (MG) muscle of 16- to 18-day-old R86S mice compared to wild-type animals (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">3a, b</xref>). Whereas the MG muscle of R487G mice appeared histologically normal at 2 weeks of age (not shown), by 55 weeks of age localized, nonuniform clusters of atrophied fibers, collagenous fibrosis, and fatty infiltration were observed (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">3c</xref>).</p>
+        <p id="Par9">To investigate the basis of the muscle atrophy, the integrity of neuromuscular junctions (NMJ) was analyzed (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a&#x2013;f</xref>), revealing denervation and fragmentation of postsynaptic terminals in 8-week-old R86S mice (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a, c, f</xref>). At the same timepoint, R487G exhibited more fully and partially occupied junctions than R86S mice (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b, f</xref>), correlating with the severity of their respective motor phenotypes. Nonetheless, NMJ occupancy was already decreased in R487G compared to wild-type mice at 8 weeks and denervation continued to progress with age (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2d&#x2013;f</xref>).<fig id="Fig2"><label>Fig. 2</label><caption><title><italic>Nemf</italic> ENU mutations cause progressive neuromuscular degeneration.</title><p><bold>a</bold>&#x2013;<bold>e</bold> Representative images of neuromuscular junction (NMJ) staining of medial gastrocnemius (MG) muscle from mice of indicated genotypes and ages. Tissues were stained for presynaptic vesicles (anti-SV2, green), neurofilaments (anti-neurofilament 2H3, green), and acetylcholine receptor (&#x3B1;-bungarotoxin, red). Unoccupied (arrow) and partially occupied (arrowhead) junctions are highlighted. Scale bar, 60&#x2009;&#xB5;m. Inset scale bar, 30&#x2009;&#xB5;m. <bold>f</bold> Quantification of fully innervated, partially innervated or denervated NMJs based on presynaptic and postsynaptic staining overlap. Eight-week-old WT, R487G and R86S mice (<italic>n</italic>&#x2009;=&#x2009;4, 5, and 3 respectively), and 55-week-old WT and R487G mice (<italic>n</italic>&#x2009;=&#x2009;4 and 3, respectively) were analyzed. By 8 weeks R487G or R86S mice compared to WT (****<italic>p</italic>&#x2009;&lt;&#x2009;0.0001), but were not different from one another (<italic>p</italic>&#x2009;=&#x2009;0.4391). Fifty-five weeks of age, R487G vs. WT (****<italic>p</italic>&#x2009;&lt;&#x2009;0.0001). Data are presented as mean percent occupancy value&#x2009;&#xB1;&#x2009;SD. Statistical analysis was performed by two-way ANOVA followed by Tukey&#x2019;s multiple comparison, for % fully occupied. <bold>g</bold>&#x2013;<bold>n</bold> Representative cross-sections of femoral nerve motor branches from mice of indicated genotypes and ages. Scale bar, 20&#x2009;&#xB5;m. <bold>o</bold> Total myelinated axon number in cross-section of WT and <italic>Nemf</italic> mutant mice at 8-week-old wild-type (WT), R487G and R86S mice (<italic>n</italic>&#x2009;=&#x2009;9, 7, and 4, respectively), and 55-week-old WT and R487G mice (<italic>n</italic>&#x2009;=&#x2009;6 and 4, respectively). Eight weeks (WT vs. R487G ****<italic>p</italic>&#x2009;&lt;&#x2009;0.0001, WT vs. R86S ****<italic>p</italic>&#x2009;&lt;&#x2009;0.0001 and R487G vs. R86S ***<italic>p</italic>&#x2009;=&#x2009;0.0005). Fifty-five weeks (WT vs. R487G ****<italic>p</italic>&#x2009;&lt;&#x2009;0.0001. R487G 8 weeks vs. 55 weeks <sup>n.s.</sup><italic>p</italic>&#x2009;=&#x2009;0.9767). <bold>p</bold> Myelinated axon number in cross-sections of L4 ventral roots of WT and <italic>Nemf</italic> ENU mice. Analysis of 8-week-old WT, R487G and R86S mice (<italic>n</italic>&#x2009;=&#x2009;5, 3, and 4, respectively), and 55-week-old WT and R487G mice (<italic>n</italic>&#x2009;=&#x2009;4 each). At 8 weeks of age R487G vs. WT *<italic>p</italic>&#x2009;=&#x2009;0.0136, R86S vs. WT ****<italic>p</italic>&#x2009;&lt;&#x2009;0.0001, R487G vs. R86S **<italic>p</italic>&#x2009;=&#x2009;0.0063, by 55 weeks of age R487G vs. WT ****<italic>p</italic>&#x2009;&lt;&#x2009;0.0001, R487G 8 weeks vs. R487G 55 weeks **<italic>p</italic>&#x2009;=&#x2009;0.0055. <bold>o</bold>, <bold>p</bold> Individual data points and mean&#x2009;&#xB1;&#x2009;SD are indicated. Statistical analysis was performed by one-way ANOVA followed by Tukey&#x2019;s multiple comparison (wild-type, orange squares; R487G, purple circles; R86S, green triangles). Source data for <bold>f</bold>, <bold>o</bold>, <bold>p</bold> are provided as a source data file.</p></caption><graphic xlink:href="41467_2020_18327_Fig2_HTML" id="d30e1165"/></fig></p>
+      </sec>
+      <sec id="Sec5">
+        <title>Mutant mice exhibit progressive axonal degeneration</title>
+        <p id="Par10">The loss of NMJs suggested that muscle atrophy of <italic>Nemf</italic> mutant mice had a neurogenic origin. To investigate this possibility, we assessed the extent of neuronal degeneration in <italic>Nemf</italic> mutants through the analysis of myelinated axons in the femoral nerve motor branch. At 2 weeks of age, the number of axons were comparable in wild-type and <italic>Nemf</italic> mice (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4a</xref>) with similar overall morphology and axonal diameter distribution suggesting that our findings do not reflect a developmental defect (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2g&#x2013;i</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4b, c</xref>). However, by 16&#x2013;18 days, R86S mice began to exhibit femoral motor myelinated axon loss (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4a, b</xref>), which by late end-stage (8 weeks of age) was further reduced (~30%) (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2j, l, o</xref>) with a shift in axon diameter distribution indicative of the largest fibers being most impacted (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4c</xref>). R487G mice also displayed a reduction of the largest diameter fibers at 8 weeks of age (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2k, o</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4c</xref>). Although no further age-related degeneration was observed in R487G animals (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2m&#x2013;o</xref>), an age-dependent shift in axon diameter distribution towards smaller fibers was observed (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4c</xref>). Heterozygous mice exhibited no axonal degeneration, even past 2 years of age; thus, both alleles appear to behave in a purely recessive manner (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4d</xref>).</p>
+        <p id="Par11">In contrast to peripheral neuropathies, characterized by loss of distal axons such as those in the femoral motor nerve, motor neuron disease can be evidenced by the loss of neuronal cell bodies and their proximal axons, such as the lumbar ventral root exiting from the spinal cord. To determine if mutations in <italic>Nemf</italic> cause a purely peripheral neuropathy or also degeneration of spinal motor axons, lumbar ventral roots (at the L4 level) were examined for cell body-proximal axon loss. As with the distal part of axons, both the R86S and R487G mice exhibited loss of proximal motor axons as early as 16&#x2013;18 days (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2p</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">5a, b</xref>). However, R487G also exhibited further reduction of proximal axons between 8 and 55 weeks of age (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2p</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">5c, d</xref>), while distal axons reached terminal degeneration by 8 weeks (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2o</xref>). These results suggest a neuronal dying-back mechanism, wherein the disease originates distally. Consistent with a recessive phenotype, proximal L4 ventral roots also show no difference in heterozygous animals (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">5e</xref>).</p>
+        <p id="Par12">Finally, we note that, although <italic>Nemf</italic> mutant mice exhibit axonal loss associated with motor phenotypes, the disease is not specific to the motor system as preliminary analyses of femoral sensory axons likewise showed a reduction in R86S (but not R487G) animals (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">6</xref>). Thus, the more severe R86S allele may also cause a sensorimotor neuropathy, similar to <italic>Ltn1</italic> mutant mice<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>.</p>
+      </sec>
+      <sec id="Sec6">
+        <title>NEMF-null mice exhibit an early onset neurologic phenotype</title>
+        <p id="Par13">Immunoblot analysis of brain and spinal cord extracts indicated that the NEMF ENU mutations did not markedly affect the steady-state levels of the mutant proteins compared to that of the wild-type (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">7</xref>). In order to assess whether the mutant proteins retain some function (i.e., whether they are hypomorphic), we analyzed mice harboring a putative NEMF-null allele. This allele, generated in the course of CRISPR genetic modifications, has a single nucleotide insertion causing a frameshift and premature termination (nucleotide: 296_297insT; protein: D100G<italic>fs</italic>X6, henceforth, D106*; Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8a</xref>). Accordingly, no full-length NEMF protein was detected in D106* mouse tissues (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref>). D106* exhibited more severe phenotypes than R86S or R487G mice, with an early deviation in growth and pre-wean lethality by postnatal day 11 (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3b&#x2013;d</xref>). Like R86S and R487G, heterozygous D106* mice appear unaffected, consistent with a recessive loss-of-function mechanism (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8b</xref> and data not shown). D106* mice exhibited a marked reduction in occupied NMJs in the MG at end-of-life (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8c&#x2013;e</xref>) along with a reduction in peripheral myelinated axons (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3e</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8f&#x2013;i</xref>). In addition, D106* mice display a respiratory distress phenotype at end-of-life, evident by decreased oxygen saturation (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8j</xref>) and phrenic nerve degeneration (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8k&#x2013;m</xref>). Thus, D106* exhibited earlier and more severe neuromuscular changes than R86S and R487G animals. Together, the above results suggest that, similar to the originally described <italic>Ltn1</italic> ENU mutation<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, the missense <italic>Nemf</italic> ENU mutations are hypomorphic and cause an age-dependent neurodegenerative phenotype, whereas the complete loss-of-function of either <italic>Ltn1</italic> or <italic>Nemf</italic> results in earlier and more severe phenotypes<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>.<fig id="Fig3"><label>Fig. 3</label><caption><title><italic>Nemf</italic> D106* mice display perinatal neurodegeneration and lethality.</title><p><bold>a</bold> Western blot analysis of brain lysates from 10-day-old wild-type (WT), and <italic>Nemf</italic> D106* hetero- and homozygous mice using anti-NEMF antibody, and anti-GAPDH antibody as loading control. <bold>b</bold> Eleven-day-old D106* homozygous mice are smaller than WT littermates. Mutant mice display wasting and are unable to upright themselves at this timepoint. <bold>c</bold> Body weight of WT (green circle, <italic>n</italic>&#x2009;=&#x2009;8 day 1, <italic>n</italic>&#x2009;=&#x2009;5 days 7 and 11) and D106* homozygous (purple circle, <italic>n</italic>&#x2009;=&#x2009;4 days 1 and 7, <italic>n</italic>&#x2009;=&#x2009;7 day 11) mice for WT vs. D106* at each 1, 7, and 11 days of age, respectively (n.s.<italic>p</italic>&#x2009;&gt;&#x2009;0.9999, ****<italic>p</italic>&#x2009;&lt;&#x2009;0.0001, ****<italic>p</italic>&#x2009;&lt;&#x2009;0.0001). Mean&#x2009;&#xB1;&#x2009;SD is indicated. Statistical analysis was performed by two-way ANOVA followed by Sidak&#x2019;s multiple comparison. <bold>d</bold> D106* mice have shortened lifespan. Kaplan&#x2013;Meier survival curves of D106* homozygous (purple line, <italic>n</italic>&#x2009;=&#x2009;9; median survival: 11 days) and WT (green line, <italic>n</italic>&#x2009;=&#x2009;9) mice <italic>p</italic>&#x2009;=&#x2009;0.0022. Statistical analysis was performed by Log-rank (Mantel&#x2013;Cox) test with two-tailed <italic>p</italic> value reported (<bold>e</bold>), myelinated axon numbers from whole cross-sections of femoral nerve motor branches in 9- to 11-day-old WT and D106* homozygous mice. For motor (WT: <italic>n</italic>&#x2009;=&#x2009;3; <italic>Nemf</italic> D106*: <italic>n</italic>&#x2009;=&#x2009;4, ****<italic>p</italic>&#x2009;&lt;&#x2009;0.0001) and sensory (WT: <italic>n</italic>&#x2009;=&#x2009;3; <italic>Nemf</italic> D106*: <italic>n</italic>&#x2009;=&#x2009;6, **<italic>p</italic>&#x2009;=&#x2009;0.0031). Individual data points and mean&#x2009;&#xB1;&#x2009;SD are indicated. Statistical analysis was performed by a two-sided unpaired <italic>t</italic> test. Source data for <bold>c</bold>, <bold>e</bold> are provided as a source data file.</p></caption><graphic xlink:href="41467_2020_18327_Fig3_HTML" id="d30e1414"/></fig></p>
+      </sec>
+      <sec id="Sec7">
+        <title>Mouse ENU mutations perturb CATylation activity of NEMF/Rqc2</title>
+        <p id="Par14">The observation that NEMF ENU mutant proteins are expressed at normal levels implied a defective function, so we next investigated the molecular consequences of those mutations. Notably, the R86S mutation maps to the NFACT-N domain&#x2014;which has been shown to mediate C-terminal tailing in organisms as divergent as yeast and bacteria<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>. The R86S mutation is in the vicinity of the universally conserved, catalytic residues D96 and R97 (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>). With regard to the R487G mutation, it maps to the structurally adjacent second coil motif, which is also likely to contribute to C-terminal tailing by assisting with A-site tRNA recruitment<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>.<fig id="Fig4"><label>Fig. 4</label><caption><title><italic>Nemf</italic> ENU mutations selectively affect the CATylation function of Rqc2.</title><p><bold>a</bold> Domain diagram and partial alignment of mouse NEMF and homologs&#x2014;human NEMF, fly Caliban, and yeast Rqc2. Sequences flanking residues affected by the ENU mutations are shown. Domains and motifs depicted: NFACT-N (N), helix&#x2013;hairpin&#x2013;helix (H), coiled-coil (cc), middle domain (M), NFACT-R (R), and NFACT-C (C). NEMF Arg86 and Arg487 mutated in <italic>Nemf</italic> ENU mice (* and red rectangles), and yeast Rqc2 Asp98 and Arg99 residues previously implicated in CAT tail synthesis (green rectangle) are indicated. <bold>b</bold> WT, <italic>ltn1&#x394;</italic>, or <italic>ltn1&#x394; rqc2&#x394;</italic> cells were transformed with the GFP-R12-RFP (GRR) stalling reporter and plasmids encoding Rqc2-FLAG WT, CATylation-deficient D98Y mutant, or ENU-equivalent mutants (R88S and K534G). Immunoblots: anti-GFP and anti-FLAG to monitor reporter and Rqc2 levels, respectively, and anti-Pgk1 as loading control. <bold>c</bold> Strains transformed with Rqc2-FLAG and the GRR stalling reporter, as indicated. Immunoblot anti-GFP monitored reporter modification and aggregation. <bold>d</bold> Wild-type (WT) and <italic>RQC2</italic>-deleted (<italic>rqc2&#x394;</italic>) cells were transformed with the GRR stalling reporter, and indicated Rqc2-FLAG constructs and analyzed as in &#x201C;<bold>b</bold>&#x201D;. <bold>e</bold> Kless-K2, -K27, or -K36 reporters (see Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8</xref>) expressed in <italic>rqc2&#x394;</italic> cells together with Rqc2-FLAG WT, the CATylation-deficient Rqc2 aaa mutant (Asp9, Asp98, and Arg99 mutated to Ala), or Rqc2-equivalent ENU mutants as indicated. Anti-HA and anti-FLAG blots monitored reporter and Rqc2 expression, respectively. <bold>f</bold> As in panel &#x201C;<bold>f</bold>&#x201D;. Quantification of reporter levels relative to the Pgk1 internal control from three biological replicates, individual values with means&#x2009;&#xB1;&#x2009;SEM. For each blot <bold>b</bold>&#x2013;<bold>e</bold> MW markers in kDa are indicated.</p></caption><graphic xlink:href="41467_2020_18327_Fig4_HTML" id="d30e1498"/></fig></p>
+        <p id="Par15">Since NEMF homologs are well conserved with regard to sequence, structure and function and robust assays for RQC activity are established in yeast, we utilized this model organism for mechanistic studies. Although mammalian NEMF could not functionally replace Rqc2 in yeast (unpublished observations), the residues affected by the ENU mutations in mice are also conserved in yeast (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">9</xref>) so the equivalent mutations were introduced in Rqc2 (R88S and K534G, respectively; Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>). The equivalent residue of NEMF&#x2019;s universally conserved D96 in yeast is D98 (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>), which was mutated to Tyr<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. Rqc2 R88S, K534G, and D98Y mutant levels were comparable to the wild-type protein (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b&#x2013;f</xref>).</p>
+        <p id="Par16">To investigate the effect of the ENU mutations in C-terminal tailing by Rqc2, we used Ltn1-deficient yeast, since, as previously reported, in <italic>ltn1</italic>&#x394; cells a ribosome stalling reporter became readily modified with CAT tails (as evidenced by the formation of a smeared band immediately above the unmodified reporter band; Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b, c</xref>, lanes 2)<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR17">17</xref></sup>. As also reported, CATylation was strictly dependent on Rqc2<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR16">16</xref>&#x2013;<xref ref-type="bibr" rid="CR18">18</xref></sup>: this modification was abolished in Ltn1- and Rqc2-double deficient cells (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b, c</xref>, lanes 3) and could be restored by expression of Rqc2 wild-type (lanes 4), but not by a rationally designed, CATylation-deficient D98Y mutant (lanes 5)<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. As predicted by the hypothesis, Rqc2 ENU mutants were also defective in CATylation in this assay, although only partially (lanes 6&#x2013;7). Furthermore, as indicated by the ratio of modified versus unmodified species, the Rqc2 R88S substitution caused a stronger defect in CAT tail formation in comparison to the K534G; this finding shows a striking correlation with the phenotypic severity of the respective mouse alleles (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b, c</xref>, lanes 6&#x2013;7).</p>
+        <p id="Par17">Importantly, additional functions of Rqc2 in RQC remained unaffected by the ENU mutations. As previously reported, levels of a ribosome stalling reporter were low in wild-type yeast due to Ltn1-mediated degradation<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d</xref>, lane 1 (anti-GFP)) and were increased in cells lacking Rqc2 (<italic>rqc2</italic>&#x394;; lane 2) likely due to less efficient Ltn1 binding<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR16">16</xref>&#x2013;<xref ref-type="bibr" rid="CR18">18</xref></sup>. Re-expression of wild-type Rqc2 (lane 3), or the &#x201C;ENU mutant&#x201D; Rqc2 proteins (lanes 5 and 6) rescued this <italic>rqc2</italic>&#x394; phenotype in an otherwise wild-type background, indicating that the mutant proteins are competent to bind to ribosomes and stabilize Ltn1 binding. Thus the ENU mutations appear to cause a selective defect in C-terminal tailing.</p>
+        <p id="Par18">To provide further evidence for the CATylation defect of Rqc2 ENU mutants, we analyzed expected consequences of impaired CATylation. For example, CAT tails are known to promote nascent chain aggregation when Ltn1-mediated ubiquitylation fails altogether<sup><xref ref-type="bibr" rid="CR16">16</xref>&#x2013;<xref ref-type="bibr" rid="CR18">18</xref></sup>. Accordingly, in <italic>ltn1</italic>&#x394; cells (or in <italic>ltn1</italic>&#x394; <italic>rqc2</italic>&#x394; cells expressing wild-type Rqc2), CAT tail-mediated aggregation of a ribosome stalling reporter was conspicuous (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4c</xref>). In this assay, both Rqc2 ENU mutants were likewise competent to mediate reporter aggregation in <italic>ltn1</italic>&#x394; <italic>rqc2</italic>&#x394; cells; however, consistent with these mutants&#x2019; decreased ability to make CAT tails, aggregates were formed to a lower extent compared to wild-type Rqc2. Similar observations were made when the formation of endogenous aggregates were monitored by using as a readout, the hsp40 Sis1, which becomes stably incorporated into CAT tail-dependent aggregates<sup><xref ref-type="bibr" rid="CR16">16</xref>&#x2013;<xref ref-type="bibr" rid="CR18">18</xref></sup> (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">10a</xref>).</p>
+        <p id="Par19">CATylation has been additionally implicated in facilitating Ltn1-mediated ubiquitylation<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. As expected, such a requirement was not evident in the results of the experiment shown in Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d</xref>, since the ribosome stalling reporter utilized in that experiment was rich in Lys residues and was predicted to present Lys for Ltn1-mediated ubiquitylation even in the absence of added CAT tails<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. We thus engineered an alternative reporter whose Ltn1-mediated ubiquitylation and degradation would be dependent on CAT tail synthesis, because the reporter lacked Lys residues (K-less) except at two positions buried deep within the ribosomal exit tunnel, located 2 residues N-terminal to the ribosome stalling sequence (Kless-K2; Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">10b</xref>). Consistent with a CAT tail requirement for degradation, Kless-K2 reporter levels (anti-HA) were indeed higher in <italic>rqc2</italic>&#x394; cells reconstituted with a CATylation-deficient Rqc2 mutant (Rqc2 aaa<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>) compared to Rqc2 wild-type (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4e, f</xref>). Notably, Kless-K2 levels were intermediate in cells expressing the Rqc2 ENU mutants consistent with those mutants&#x2019; partial CATylation defect. As controls, reporters with Lys residues either closer to the opening of the exit tunnel (Kless-K27) or predicted to be already exposed on the outside (Kless-K36) were also tested. As expected, the levels of these reporters in the presence of Rqc2 ENU mutants were low and comparable to the Rqc2 wild-type and aaa mutant (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4e, f</xref>). We additionally verified that all constructs were targeted for degradation in a Ltn1-dependent manner (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">10c</xref>). These results substantiate the model that CATylation can function to support Ltn1-mediated ubiquitylation and suggest that the Rqc2 ENU mutations interfere with the degradation of a subset of Ltn1 substrates that rely on CAT tails for ubiquitylation.</p>
+      </sec>
+      <sec id="Sec8">
+        <title><italic>NEMF</italic> variants are associated with juvenile neuromuscular disease</title>
+        <p id="Par20">Through collaboration facilitated by GeneMatcher<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>, nine patients from seven unrelated families with likely pathogenic variants in <italic>NEMF</italic> were identified. Seven patients harbored biallelic variants, an eighth patient harbored an inherited variant and a de novo variant (though the chromosomal phase is undetermined, i.e., whether the variants are in <italic>cis</italic> or <italic>trans</italic>) and the ninth patient harbored a single de novo missense variant. These patients display intellectual disability and/or early motor neuron disease phenotypes of varying severities and progression, summarized in Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>. Detailed clinical findings are available (Supplementary Note&#xA0;<xref rid="MOESM3" ref-type="media">1</xref>).<table-wrap id="Tab1"><label>Table 1</label><caption><p>Clinical features of affected individuals.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Family</th><th>AUS1</th><th>DEU1</th><th>DEU1</th><th>IRN1</th><th>SAU1</th><th>SAU1</th><th>USA1</th><th>USA2</th><th>USA3</th></tr></thead><tbody><tr><td>Individual</td><td>II:3</td><td>II:3</td><td>II:6</td><td>II:1</td><td>II:1</td><td>II:2</td><td>II:1</td><td>II:1</td><td>II:2</td></tr><tr><td>Age (years)</td><td>7&#x2009;+&#x2009;7&#x2009;mo</td><td>22</td><td>16</td><td>28</td><td>10&#x2009;+&#x2009;6&#x2009;mo</td><td>7</td><td>6&#x2009;+&#x2009;4&#x2009;mo</td><td>7&#x2009;+&#x2009;10&#x2009;mo</td><td>24</td></tr><tr><td>Sex</td><td>M</td><td>M</td><td>F</td><td>M</td><td>M</td><td>M</td><td>F</td><td>F</td><td>M</td></tr><tr><td>Age at onset (years)</td><td>1.5</td><td>2</td><td>1</td><td>1</td><td>2</td><td>2</td><td>1.7</td><td>2</td><td>17</td></tr><tr><td>ID/GDD</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>&#x2212;</td><td>+</td><td>&#x2212;</td></tr><tr><td>Speech delay</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td></tr><tr><td>Neuropathy (axonal)</td><td>+</td><td>+</td><td>+</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>+</td></tr><tr><td>Ataxia</td><td>+</td><td>+</td><td>+</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td></tr><tr><td>Distal muscle atrophy</td><td>+</td><td>+</td><td>+</td><td>+</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>+</td></tr><tr><td>Hypotonia</td><td>&#x2212;</td><td>&#x2212;</td><td>+</td><td>+</td><td>&#x2212;</td><td>&#x2212;</td><td>+</td><td>+</td><td>&#x2212;</td></tr><tr><td>Respiratory distress</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>+</td><td>&#x2212;</td><td>&#x2212;</td></tr><tr><td>Tremor</td><td>+</td><td>&#x2212;</td><td>&#x2212;</td><td>N/A</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>+</td></tr><tr><td>Abnormal brain imaging</td><td>N/A</td><td>+</td><td>&#x2212;</td><td>N/A</td><td>&#x2212;</td><td>&#x2212;</td><td>N/A</td><td>+</td><td>N/A</td></tr><tr><td>Kyphosis/Scoliosis</td><td>+</td><td>+</td><td>+</td><td>&#x2212;</td><td>&#x2212;</td><td>&#x2212;</td><td>+</td><td>&#x2212;</td><td>&#x2212;</td></tr></tbody></table><table-wrap-foot><p><italic>ID/GDD</italic> intellectual disability/global developmental delay; &#x2212; absent, + present, <italic>N/A</italic> not ascertained/not applicable.</p></table-wrap-foot></table-wrap></p>
+        <p id="Par21">An Australian case of consanguineous Syrian parents (AUS1-II:3, Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5a&#x2013;f</xref>) presented with axonal neuropathy and spastic paraplegia at 18 months of age; the individual has severe speech delay. Whole-genome sequencing (WGS) identified a homozygous nonsense variant in <italic>NEMF</italic> (c.2608C&#x2009;&gt;&#x2009;T, p.(Arg870*)). In a Turkish family, (DEU1, Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5a</xref>) with two individuals presenting with developmental delay and peripheral neuropathy in childhood, a homozygous nonsense variant in <italic>NEMF</italic> was identified (c.2014A&#x2009;&gt;&#x2009;T, p.(Lys672*)). In a Persian family (IRN1, Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5a</xref>), a proband presented with hypotonia, developmental delays and severe speech delay; WGS identified a homozygous frameshift variant in <italic>NEMF</italic> (c.2451delA; p.(Ser817<italic>fs</italic>*7)). In a Saudi Arabian family (SAU1, Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5a</xref>) with two individuals presenting with developmental delays, a homozygous frameshift variant in <italic>NEMF</italic> was identified (c.2871_2875dupTGTAG; p.(Asp959fs*2)). In a Caucasian proband (USA1-II:1, Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5a</xref>) presenting with gross developmental delay in the second year of life, two <italic>NEMF</italic> variants were identified: a maternally inherited nonsense variant (c.2011C&#x2009;&gt;&#x2009;T; p.(Arg671*)) and a de novo variant of the start codon (c.1A&#x2009;&gt;&#x2009;T; p.(Met1?)). Chromosomal phase could not be determined based on clinical NGS sequencing. In another Caucasian proband (USA2-II:1, Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5a</xref>), who presented with mild hypotonia and speech delays, biallelic <italic>NEMF</italic> variants were identified by exome sequencing: two maternally inherited missense variants (c.980G&#x2009;&gt;&#x2009;A;p.Arg327Gln and c.2777C&#x2009;&gt;&#x2009;T; p.Pro926Leu) and a paternally inherited frameshift variant (c.2768delA; p.Lys923Arg<italic>fs</italic>*27). A Caucasian proband (USA3-II:2, Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5a</xref>) who presented with axonal sensorimotor peripheral neuropathy at 17 years of age harbored a de novo missense variant in <italic>NEMF</italic> (c.1658T&#x2009;&gt;&#x2009;C, p.(Ile553Thr)). The variant is absent from gnomAD and predicted to be damaging by all protein prediction programs utilized (CADD &#x201C;score 28&#x201D;; MutationTaster, &#x201C;disease causing&#x201D;; PolyPhen-2, &#x201C;probably damaging&#x201D;; Provean, &#x201C;deleterious&#x201D;; SIFT, &#x201C;deleterious&#x201D;). The substituted p.(Ile553) is conserved through evolution including in yeast (Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">9</xref>). As a second disease-associated variant has yet to be identified, it is possible that the de novo p.(Ile553Thr) variant acts alone in a dominant-negative manner.<fig id="Fig5"><label>Fig. 5</label><caption><title>NEMF variants are associated with neuromuscular disease in humans.</title><p><bold>a</bold> Pedigrees of identified families having affected individuals and NEMF variants. &#x201C;&#x2212;&#x201D; indicates wild-type allele, &#x201C;+&#x201D; indicates variant allele, arrowhead indicates proband. Different font colors are used to facilitate visualization of the distribution of wild-type (&#x201C;&#x2212;&#x201D;) and unique mutant (&#x201C;+&#x201D;) alleles in the pedigrees. <bold>b</bold>&#x2013;<bold>f</bold> Clinical photography of 7-year-old subject AUS1-II:3. Asymmetric pectus excavatum, scoliosis (<bold>b</bold>), and characteristic adducted thumb posture are evident (<bold>c</bold>). Right foot showing surgical scars with residual equinovarus foot deformity and toe clawing (<bold>d</bold>). Images showing pectus excavatum, kyphoscoliosis, hip, and knee flexor contractures with distal muscle wasting and residual equinovarus foot posturing despite previous orthopedic surgery (<bold>e</bold>, <bold>f</bold>).</p></caption><graphic xlink:href="41467_2020_18327_Fig5_HTML" id="d30e2277"/></fig></p>
+        <p id="Par22">Thus, we present eight cases from six families with biallelic, likely pathogenic or pathogenic variants (based on American College of Medical Genetics (ACMG) guidelines<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>), and a ninth case with a milder phenotype carrying a de novo missense variant affecting a highly conserved residue. These findings suggest that variants in <italic>NEMF</italic> can cause neuropathy and motor dysfunction, sometimes associated with speech delay and intellectual disability.</p>
+      </sec>
+    </sec>
+    <sec id="Sec9" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par23">Our studies identify <italic>Nemf</italic> as a novel gene implicated in neurodegeneration and neuromuscular disease in mice and humans. Moreover, this finding, along with the previously described <italic>Ltn1</italic> mouse model<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, strongly point to RQC as a critical molecular pathway protecting neurons against degeneration. This suggests that the presence of variants in <italic>NEMF</italic> and other RQC factors (e.g., Listerin) should be examined in patients with related diseases.</p>
+      <p id="Par24">Our results indicate that patients with <italic>NEMF</italic> variants can additionally manifest intellectual disability, most notably speech delay. This conclusion is supported by a genome-wide association analysis which included <italic>NEMF</italic> variants among several genes potentially implicated in cognitive phenotypes<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>. Similarly, mutation of <italic>GTPBP2</italic>, a GTPase that mediates the splitting of stalled ribosomes upstream of RQC<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>, causes Jaberi&#x2013;Elahi syndrome<sup><xref ref-type="bibr" rid="CR23">23</xref>&#x2013;<xref ref-type="bibr" rid="CR25">25</xref></sup>, an early onset neurodegenerative disease characterized by dystonia, motor and sensory neuropathy, ataxia, and cognitive dysfunction. Future experiments will address the potential for cognitive dysfunction in <italic>Nemf</italic> mutant mice, although we anticipate that the interpretation of such analyses may be confounded by the presence of motor and sensory deficits.</p>
+      <p id="Par25">The observation that one patient (USA3-II:2) with a heterozygous variant and later onset peripheral neuropathy phenotype may suggest potential dominant-negative impacts from variants in <italic>NEMF</italic>. Future work will address potential modifiers and determine if this allele could dominantly cause disease in mouse models. Thus far, no motor or sensory peripheral degeneration has been observed in our heterozygous mouse&#xA0;models at one and a half years of age.</p>
+      <p id="Par26">The observations that Rqc2 homologs from bacteria to humans have high overall sequence and structural similarity and that residues specifically implicated in the C-terminal tailing modification are strictly conserved (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">9</xref>; refs. <sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>) strongly suggests that Rqc2 homologs across all domains of life share a fundamental role in mediating C-terminal tailing in RQC. In fact, this biochemical activity has been reported for a homolog as evolutionarily distant as <italic>B. subtilis</italic> RqcH<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>. Despite great progress made toward understanding this and other fundamental mechanisms in RQC<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>, new mammalian models have been lacking to establish the physiological relevance of the findings and to directly test predictions regarding molecular mechanisms of neurodegeneration. Our results now show that the neurodegeneration-causing mouse NEMF R86S and R487G mutations selectively interfered with yeast Rqc2&#x2019;s ability to mediate CAT tail synthesis, and that phenotypic severity is correlated with the extent of their reduction in CATylation activity, thus suggesting both a link between neurodegeneration and defective C-terminal tailing as well as a physiological role for this RQC mechanism in mammals.</p>
+    </sec>
+    <sec id="Sec10">
+      <title>Methods</title>
+      <sec id="Sec11">
+        <title>ENU Mutagenesis and mapping</title>
+        <p id="Par27">The B6J-<italic>Nemf</italic>
+<sup>R86S</sup> line was originally derived from an <italic>N</italic>-ethyl-<italic>N-</italic>nitrosourea mutagenesis screen for reproductive defects initiated at The Jackson Laboratory<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. Chemical mutagenesis was induced in a C57BL/6J background and mutagenized mice were subsequently outcrossed to C3HeB/FeJ (C3H). The line was then backcrossed to C57BL/6J for at least 10 generations to obtain the B6J-<italic>Nemf</italic>
+<sup>R86S</sup> (JAX Stock #19392) line used in this study. The mutation was mapped to a 4.6&#x2009;Mb interval in an F2 intercross (Chr. 12: 65486719-70085250&#x2009;bp, GRCm38) and the only exonic variant detected among 15 candidate genes analyzed was in the <italic>Nemf</italic> gene. The B6J-<italic>Nemf</italic>
+<sup>R487G</sup> line (JAX Stock #18870) was derived from an independent ENU mutagenesis screen for eye phenotypes in a C57BL/6J background, also at The Jackson Laboratory<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. Crossing heterozygous animals from each ENU allele produced affected offspring in an allelism test suggesting the two mutations were in the same gene. Both strains were mapped to Chr. 12 in F2 intercrosses<sup><xref ref-type="bibr" rid="CR26">26</xref>,<xref ref-type="bibr" rid="CR27">27</xref></sup> and each allele was backcrossed to C57BL/6J for at least ten generations to eliminate unlinked and distantly linked ENU-induced mutations as potential genetic confounds. A positive allelism test between <italic>Nemf</italic>
+<sup>R86S</sup> and <italic>Nemf</italic>
+<sup>R487G</sup> confirmed that the ENU-induced mutations were disease-causing and were not the result of an unknown, but tightly-linked alternate ENU mutation.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>CRISPR&#x2013;<italic>Cas9</italic> mutagenesis</title>
+        <p id="Par28">The <italic>Nemf</italic><sup>D106*</sup> strain (JAX Stock #34815) was obtained from a CRISPR&#x2013;Cas9 mutagenesis performed by cytoplasmic microinjection of C57BL/6J zygotes with <italic>Cas9</italic> mRNA and sgRNA targeting exon 4 of <italic>Nemf</italic>: 5&#x2032;-GCTTGGTGTGGACAGAATTG-3&#x2032;. Mosaic founder mice identified as carrying a mutation in the targeted region were backcrossed to C57BL/6J. Resulting N1 progeny identified as carrying the mutation were further backcrossed to C57BL/6J to establish the colony.</p>
+      </sec>
+      <sec id="Sec13">
+        <title>Mouse strains, husbandry, and genotyping</title>
+        <p id="Par29">All mouse husbandry and procedures were reviewed and approved by the Institutional Animal Care and Use Committee at The Jackson Laboratory were carried out according to the NIH Guide for Care and Use of Laboratory Animals (AUS# 01006). Mice were bred and maintained under standard conditions: an ambient room temperature of 69&#x2009;&#xB0;F, humidity at 42% and a 10/14&#x2009;h dark/light cycle. Tail or ear tissue was lysed in proteinase K at 55&#x2009;&#xB0;C overnight and extracted DNA was used to determine genotype. At The Jackson Laboratory, genotyping for B6J-<italic>Nemf</italic>
+<sup>R86S</sup> strain was performed via PCR using the following primers: forward primer specific to wild-type allele: 5&#x2032;-AACATTTGAAGAGTCGGGGA-3&#x2032;; forward primer specific to mutant allele: 5&#x2032;-AACATTTGAAGAGTCGGGGT-3&#x2032;; reverse primer common for both alleles: 5&#x2032;-GCAGGTGGATGGTAGCAACG-3&#x2032;. Similarly, for the genotyping of the B6J-<italic>Nemf</italic>
+<sup>R487G</sup> mice the following primers were used: forward primer specific to wild-type allele: 5&#x2032;-TGCTGCTAAAAAAACCCGGA-3&#x2032;; forward primer specific to mutant allele: 5&#x2032;-TGCTGCTAAAAAAACCCGGG-3&#x2032;; reverse primer common for both alleles: 5&#x2032;-AAAGCCCTTGCTGCAAAGCC-3&#x2032;. The following primers were used for the genotyping of B6J-<italic>Nemf</italic>
+<sup>D106*</sup> strain: forward primer: 5&#x2032;-CATGGTGAATGGAGAGAACC-3&#x2032;; reverse primer: 5&#x2032;-TTGATCCCAGCACTAGGGAG-3&#x2032;. D106* PCR product was Sanger sequenced and assessed via chromatogram.</p>
+      </sec>
+      <sec id="Sec14">
+        <title>Phenotypic and behavioral analyses</title>
+        <p id="Par30">Mice were weighed weekly from 7&#x2009;&#xB1;&#x2009;1 days of age to 8 weeks, unless indicated otherwise. Longer surviving animals were additionally weighed at 20 and 55 weeks. For the D106* mouse weight at weeks 1 and 1.5, it was determined that there were no sex differences on the phenotypes and therefore the data was presented as mixed sex, with similar numbers of males and females. Inverted wire hang assay was used to assess motor function. It was determined that there were no sex differences in phenotype and therefore the data was presented as mixed sex, with similar numbers of males and females: mice were placed on top of a wire mesh cage cover which was then inverted for a maximum of 60&#x2009;s, and the latency to fall was measured. Mice were allowed to rest for a minimum for 5&#x2009;min before repeating the test. The average of two tests was recorded per timepoint.</p>
+      </sec>
+      <sec id="Sec15">
+        <title>Analysis of myelinated axons</title>
+        <p id="Par31">Motor and sensory branches of the femoral nerve, L4 ventral roots or phrenic nerves were dissected and fixed overnight at 4&#x2009;&#xB0;C in 2% glutaraldehyde and 2% paraformaldehyde in 0.1&#x2009;M cacodylate buffer. Nerves were then post-fixed in 1% osmium tetroxide in 0.1&#x2009;M cacodylate buffer and embedded in Embed 812 Resin (Electron Microscopy Sciences, Hatfield, PA). Sections measuring 1&#x2009;&#xB5;m were cut on a Leica RM2265 rotary microtome with a diamond knife, baked onto a glass slide, and heat stained with 0.5% aqueous toluidine blue. For myelinated axon count and diameter analyses, images were captured using a Nikon Eclipse E600 microscope with 40&#xD7; and 100&#xD7; objectives. The total number of myelinated axons in each nerve was counted using an automated threshold method in ImageJ (v1.52p) with manual confirmation<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. With ImageJ software (v1.52p), the Threshold function was adjusted in order to only highlight axoplasm on whole nerve sections, and Analyze particle function was then used to quantify the number of myelinated axons and areas of each nerve. The diameter was determined from axonal area. It was determined that there were no sex differences in phenotype and therefore the data was presented as mixed sex, with similar numbers of males and females. Images of large nerves that could not be captured as a single image at 40&#xD7; magnification were generated as montages to show the whole nerve, using the ImageJ (v1.52p) Stitching Grid/Pairwise plugin<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>.</p>
+      </sec>
+      <sec id="Sec16">
+        <title>Histological analysis of gastrocnemius muscle</title>
+        <p id="Par32">Mice were euthanized and right hindlimb was extracted and post-fixed in Bouin&#x2019;s fixative. Whole hindlimbs were cross-sectioned through the middle portion of lower and upper legs. The sectioned tissues were then paraffin-embedded, sectioned, mounted, and stained with hematoxylin and eosin for light microscopic analysis according to standard histological procedures. Slides were scanned using a NanoZoomer 2.0 (Hamamatsu) at 40&#xD7; magnification. Representative images were taken from the MG region of the lower leg, using NDP.view2 software (U12388-21, Hamamatsu).</p>
+      </sec>
+      <sec id="Sec17">
+        <title>NMJ staining and occupancy analysis</title>
+        <p id="Par33">The MG muscle was dissected and fixed in freshly prepared 2% paraformaldehyde (Electron Microscopy Sciences) in phosphate-buffered saline (PBS) overnight. The samples were then incubated in blocking solution (2.5% bovine serum albumin (Sigma-Aldrich) and 1%Triton-X 100 (Sigma-Aldrich) in PBS) for 1&#x2009;h before they were gently teased apart and pressed between two glass slides using a binder clip for 15&#x2009;min at 4&#x2009;&#xB0;C. Samples were subsequently returned to the blocking solution, permeabilized overnight at 4&#x2009;&#xB0;C, and incubated with primary antibodies (1:500 mouse monoclonal IgG<sub>1</sub> anti-neurofilament 2H3 and 1:250 anti-SV2 (DSHB) in blocking buffer) overnight at 4&#x2009;&#xB0;C on a slow shaker. Samples were then washed at least 4 times for 15&#x2009;min in 1&#xD7; PBS and incubated overnight at 4&#x2009;&#xB0;C on a slow shaker with 1:500 Alexa-Fluor 488 goat anti-mouse IgG<sub>1</sub> and 1:1000 &#x3B1;-bungarotoxin conjugated with Alexa-Fluor 594 (Invitrogen, Carlsbad, CA) to stain for acetylcholine receptor (AChR). After incubation, samples were rinsed three times and washed at least four times for 15&#x2009;min each, mounted in 80% glycerol and imaged using an SP5 Leica confocal microscope. Occupancy of 50 or greater randomly selected NMJs was scored blinded to genotype on a Nikon E600 fluorescence microscope. Full occupancy of NMJ was defined as when presynaptic nerve staining fully overlaid with AChR, partial occupancy as when positive for AChR but only partially stained for presynaptic nerve, and denervation as when positive for AChR but negative for presynaptic nerve staining. It was determined that there were no sex differences in phenotype and therefore the data was presented as mixed sex, with similar numbers of males and females. Images were obtained on a Leica SP5 or SP8 laser-scanning confocal microscope with a 40&#xD7; or 63&#xD7; objective lens. Z stacks were collapsed into projected images and merged using FIJI (v1.52p)<sup><xref ref-type="bibr" rid="CR30">30</xref></sup> (NIH, <ext-link ext-link-type="uri" xlink:href="http://rsb.info.nih.goc/ij/">http://rsb.info.nih.goc/ij/</ext-link>).</p>
+      </sec>
+      <sec id="Sec18">
+        <title>Oxygen saturation measurements</title>
+        <p id="Par34">The MouseOx<sup>TM</sup> Pulse-oximeter (Starr Life Sciences, Oakmont PA) was used to measure SpO2 on 10- and 11-day-old D106* mice and unaffected littermates. It was determined that there were no sex differences in phenotype and therefore the data was presented as mixed sex, with similar numbers of males and females. Mice were measured in a darkened room and held until calm, before placing the extra-small collar probe on the neck with the reading window near the carotid artery. Readings were taken for approximately 2&#x2013;10&#x2009;min from each mouse. Readings were sorted by Excel spreadsheet and R, for readings that had no SpO2 error codes in a block.</p>
+      </sec>
+      <sec id="Sec19">
+        <title><italic>S. cerevisiae</italic> strains and constructs</title>
+        <p id="Par35">Strains used in this work are isogenic to BY4741<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. The GFP-Arg12-RFP (referred to as GRR) construct was a gift of J. Weissman (UCSF)<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. To generate Rqc2 constructs, the coding sequence of <italic>Saccharomyces cerevisiae RQC2</italic> was amplified by PCR with the 3&#xD7; FLAG epitope added at the C-terminus, and cloned into the YCplac111 vector (<italic>LEU2</italic> marker, <italic>CEN</italic>, and GPD promoter)<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. Point mutations were inserted by site directed mutagenesis or by gene synthesis. To generate the Rqc2 aaa mutant<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>, a gene fragment was synthesized to contain the first 181 amino acids of Rqc2 with D9A, D98A, and R99A mutations flanked with 5&#x2032; PstI and 3&#x2032; SpeI restriction sites (IDT). The gene fragment was subcloned into the Rqc2-3&#xD7; FLAG construct by digestion with SpeI and PstI followed by triple ligation. The Kless-K2, -K27, and -K36 reporters were generated by inverse PCR of the HA-Kless GFP-R12 construct<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> to introduce additional Lys-Ala-Gly-Lys (AAAGGTGCTAAA) sequences in amino acid positions 2, 27, and 36 N-terminal of the R12 stalling signal.</p>
+      </sec>
+      <sec id="Sec20">
+        <title>Protein expression analyses</title>
+        <p id="Par36">Yeast total soluble extracts were prepared from cells that were flash frozen in liquid nitrogen and lysed with glass beads under denaturing conditions. Protein quantitation was performed by the BCA method. Totally, 7.5&#x2013;30&#x2009;&#xB5;g of protein extract were resuspended in sample buffer (1% sodium dodecyl sulfate, 0.005% bromophenol blue, 5% glycerol, 50&#x2009;mM dithiothreitol, 50&#x2009;mM Tris-Cl (pH 6.8)) and incubated at 100&#x2009;&#xB0;C for 5&#x2009;min. Protein samples were run on Novex or Novus gels (Invitrogen), transferred onto polyvinylidene fluoride (PVDF) membrane and immunoblotted for anti-FLAG tag (M2, Sigma, 1:1000), anti-HA (3E10, Roche. 1:1000), anti-GFP (Roche clone 7.1 and 13.1, 1:1000), anti-Pgk1 (Invitrogen clone 22C5D8, 1:10,000) and anti-Sis1 (E. Craig<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>, 1:10,000-20,000). Blots corresponding to yeast work (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b&#x2013;e</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">10a, c</xref>) are available uncropped in Supplementary Figs.&#xA0;<xref rid="MOESM3" ref-type="media">11</xref> and <xref rid="MOESM3" ref-type="media">12</xref>.</p>
+        <p id="Par37">For mouse experiments, spinal cord and brain were collected immediately following cervical dislocation, snap-frozen in liquid nitrogen and stored at &#x2212;80&#x2009;&#xB0;C. Tissues were homogenized in lysis buffer (20&#x2009;mM Tris-HCl (pH7.5), 150&#x2009;mM NaCl, 5&#x2009;mM EDTA (pH8), protease inhibitor (Complete Protease Inhibitor Cocktail, Roche)) on TissueLyserII (Qiagen), incubated in 0.5% NP-40 for 30&#x2009;min at 4&#x2009;&#xB0;C, and precleared at 12,000 RCF for 20&#x2009;min. Protein concentrations were determined by BCA method. Protein samples were boiled in sample buffer and were run on ExpressPAGE gels (Gene Script), transferred onto PVDF membrane and immunoblotted with anti-NEMF (Proteintech, 11840-1-AP, 1:1000) and anti-GAPDH (14C10, Cell Signaling,1:20,000) antibodies. Immunoblots were developed using ECL reagent (Thermo Fisher, GE healthcare) and imaged in LAS 4000 Imager or on X-ray film. Uncropped blots from Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">7</xref> are available in Supplementary Figs.&#xA0;<xref rid="MOESM3" ref-type="media">11</xref> and <xref rid="MOESM3" ref-type="media">12</xref>.</p>
+      </sec>
+      <sec id="Sec21">
+        <title>Sequence alignment</title>
+        <p id="Par38">Amino acid sequences were aligned using CLUSTAL W(V2.1)<sup><xref ref-type="bibr" rid="CR32">32</xref></sup> and files were generated by Strap software (September 2012 version)<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. Sequence similarity was calculated using the Sequence Manipulation Suite(V2.0)<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Alignment plot was generated by PLALIGIN(V2.0)<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>.</p>
+      </sec>
+      <sec id="Sec22">
+        <title>Ethics approval</title>
+        <p id="Par39">The participants in this study were identified through the GeneMatcher database<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> where clinicians and researchers with variants in genes can identify groups with similar genotype/phenotype findings and collaborate. Informed consent was obtained from all individuals included in the study. Approval for the studies have been from the following: The Institutional Review Board (IRB) at Baylor College of Medicine (protocol number H-29697); considered IRB exempt at the University of South Florida and Mission Fullerton Genetics Center; The Australian Genomics Neuromuscular Disorders ethics committee approval from Melbourne Health (HREC/16/MH251); approval from the ethics commission of Otto-von-Guericke-Universit&#xE4;t and the Medizinischen Fakult&#xE4;t at Universit&#xE4;tsklinikum Magdeburg A.&#xF6;.R.; the IRB at The University college London; the IRB at King Fahad Medical City (IRB#19-512). The authors affirm that human research participants provided informed consent for the publication of the images in Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5b</xref>.</p>
+      </sec>
+      <sec id="Sec23">
+        <title>Patient DNA sequencing</title>
+        <sec id="Sec24">
+          <title>USA1 and USA2</title>
+          <p id="Par40">Exons and flanking splice junctions were captured from genomic DNA using the IDT xGen Exome Research Panel v1.0. Massively parallel sequencing (NextGen) was performed on an Illumina system with 100&#x2009;bp or greater paired-end reads. Reads were aligned to human genome build GRCh37/UCSC hg19, and analyzed for sequence variants using a custom-developed analysis tool. Whole-exome sequencing (WES) data for all sequenced family members was analyzed using GeneDx&#x2019;s XomeAnalyzer. This includes nucleotide and amino acid annotations, population frequencies (NHLBI Exome Variant Server, 1000 Genomes, and internal databases), in silico prediction tools, amino acid conservation scores, and mutation references. The identified variants were filtered based on inheritance patterns, variant type, gene lists of interest developed internally, phenotype, and population frequencies, as appropriate<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. The general assertion criteria for variant classification are publicly available on the GeneDx ClinVar submission page<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>.</p>
+          <p id="Par41">USA3Clinical exome sequencing was carried out at Baylor Genetics Laboratories as part of the clinical work up and his parents&#x2019; DNAs were sequenced at the Human Genome Sequencing Center at Baylor College of Medicine as part of the Baylor-Hopkins Center for Mendelian Genomics (BHCMG) research initiative. Briefly, genomic DNA underwent exome capture with Baylor College of Medicine Human Genome Sequencing Center core design (52&#x2009;Mb, Roche NimbleGen, RRID: nif-0000-31466), and were sequenced on the HiSeq platform (Illumina) with &#x223C;100&#xD7; depth of coverage. Using the Mercury in-house bioinformatics pipeline, sequence data was aligned and mapped to the human genome reference sequence (hg19)<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>.</p>
+        </sec>
+        <sec id="Sec25">
+          <title>AUS1</title>
+          <p id="Par42">Whole genome sequencing (Illumina HiSeq) of the proband was performed at Kinghorn Center for Clinical Genetics, Garvan Institute of Medical Research. Data were analyzed using the Seave bioinformatic analysis pipeline<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>.</p>
+        </sec>
+        <sec id="Sec26">
+          <title>DEU1</title>
+          <p id="Par43">WES was performed with leukocyte genomic DNA from both affected children using the capture library SureSelect<sup>XT</sup> Human All Exon v5 + UTRs (Agilent Technologies) for enrichment and sequencing on a Illumina HiSeq2500 instrument (2&#x2009;&#xD7;&#x2009;100&#x2009;bp, paired end run). The mean coverage of the target sequence was 50&#xD7;. The obtained sequence data was analyzed using the Varvis<sup>&#xAE;</sup> genomics platform v1.12.0 (Limbus Medical Technologies GmbH).</p>
+          <p id="Par44">IRN1: WES of proband&#x2019;s DNA was performed. Exomes were enriched with HiSeq 3000 to an average sequence depth of 91&#xD7;. Variants were called and annotated with ANNOVAR<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. In accordance with the recessive mode of inheritance, priority was given to rare biallelic functional variants with allele frequency &lt;0.001% in public databases, including 1000 Genomes project, NHLBI Exome Variant Server, Iranome. GME Varome and gnomAD as well as our in-house database consisting of 14,000 exomes. No plausible compound heterozygous or homozygous variants were identified in genes previously associated with neurological phenotypes.</p>
+        </sec>
+        <sec id="Sec27">
+          <title>SAU1</title>
+          <p id="Par45">Clinical Exome Sequencing (BGI Europe) was carried out using an Illumina HiSeq 4000 to an average depth of coverage of 150&#xD7; with automated adapter trimming of the fastq sequences. DNA sequence quality metrics were carried out using FASTQC version: 0.11.7. Alignment, quality filtering and variant identification were undertaken using commercially available algorithms. Human reference assemblies were aligned against GRCh37.p13. QIAGEN Clinical Insight&#x2014;Interpret software was used in sequence analysis and interpretation. Confirmatory Sanger test was performed for the index case as well as parent and two siblings.</p>
+        </sec>
+      </sec>
+      <sec id="Sec28">
+        <title>Statistics and reproducibility</title>
+        <p id="Par46">Statistical tests were performed using GraphPad&#x2019;s Prism (v7) software. A threshold of <italic>p</italic>&#x2009;&lt;&#x2009;0.05 was considered significant. Normality of distribution was determined using the Shapiro&#x2013;Wilk normality test with GraphPad&#x2019;s Prism (v7). For assays with data displayed with combined sex, it was determined that there were no sex-dependent differences in phenotype and similar numbers of males and females were used. Outliers were not removed from phenotypic data. Significance was determined using the test indicated in the figure legends. Results are presented as means&#x2009;&#xB1;&#x2009;SD, with individual data points where <italic>n</italic>&#x2009;&lt;&#x2009;10.</p>
+        <p id="Par47">For reproducibility, NMJs and axon counts were analyzed genotype blind. For the representative panels Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a&#x2013;e</xref> are associated with the data collected in Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2f</xref>. Representative images in Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2g&#x2013;n</xref> are associated with the data collected in Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2o</xref>. Representative image panel Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4b</xref> is associated with data collected in Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4a</xref>. Representative image panels Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">5b&#x2013;d</xref> are associated with the data collected in Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2p</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">5a</xref>. The representative image panel Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4k&#x2013;l</xref> is associated with data collected in Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">4j</xref>. The representative image panels Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8c, d</xref> are associated with the data collected in Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8e</xref>. The representative image panel in Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8f&#x2013;I</xref> are associated with data collected in Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3e</xref>. The representative image panels in Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8l, m</xref> are associated with data collected in Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">8k</xref>.</p>
+        <p id="Par48">Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">3a, b</xref> are representative of <italic>n</italic>&#x2009;=&#x2009;4 WT and <italic>n</italic>&#x2009;=&#x2009;4 R86S and Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">3c</xref> is representative of <italic>n</italic>&#x2009;=&#x2009;8 WT and <italic>n</italic>&#x2009;=&#x2009;4 R487G biological replicates. For yeast assays (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">10</xref>), once assay conditions were defined, experiments were independently replicated successfully at least 3 times and representative data are shown. For mouse protein assays (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM3" ref-type="media">7a, b</xref>), protein lysates of at least four mice for each strain and genotype and multiple organs were tested to confirm lack of NEMF expression. All attempts were successful.</p>
+      </sec>
+      <sec id="Sec29">
+        <title>Reporting summary</title>
+        <p id="Par49">Further information on research design is available in the&#xA0;<xref rid="MOESM6" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary information</title>
+      <sec id="Sec30">
+        <supplementary-material content-type="local-data" id="MOESM1">
+          <media xlink:href="41467_2020_18327_MOESM1_ESM.mov">
+            <caption>
+              <p>Supplementary Movie 1</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM2">
+          <media xlink:href="41467_2020_18327_MOESM2_ESM.mp4">
+            <caption>
+              <p>Supplementary Movie 2</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM3">
+          <media xlink:href="41467_2020_18327_MOESM3_ESM.pdf">
+            <caption>
+              <p>Supplementary Information</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM4">
+          <media xlink:href="41467_2020_18327_MOESM4_ESM.docx">
+            <caption>
+              <p>Peer Review File</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM5">
+          <media xlink:href="41467_2020_18327_MOESM5_ESM.pdf">
+            <caption>
+              <p>Description of Additional Supplementary Files</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM6">
+          <media xlink:href="41467_2020_18327_MOESM6_ESM.pdf">
+            <caption>
+              <p>Reporting Summary</p>
+            </caption>
+          </media>
+        </supplementary-material>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="App1">
+        <sec id="Sec31">
+          <title>Source data</title>
+          <p id="Par52">
+            <media position="anchor" xlink:href="41467_2020_18327_MOESM7_ESM.xlsx" id="MOESM7">
+              <caption>
+                <p>Source Data</p>
+              </caption>
+            </media>
+          </p>
+        </sec>
+      </app>
+    </app-group>
+    <fn-group>
+      <fn>
+        <p><bold>Peer review information</bold>
+<italic>Nature Communications</italic> thanks Elizabeth Fisher, Miriam Meisler, and other, anonymous, reviewers for their contributions to the peer review of this work. Peer review reports are available.</p>
+      </fn>
+      <fn>
+        <p><bold>Publisher&#x2019;s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+      <fn>
+        <p>These authors contributed equally: Paige B. Martin, Yu Kigoshi-Tansho.</p>
+      </fn>
+      <fn>
+        <p>These authors jointly supervised this work: Claudio A. P. Joazeiro, Gregory A. Cox.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <title>Supplementary information</title>
+      <p><bold>Supplementary information</bold> is available for this paper at 10.1038/s41467-020-18327-6.</p>
+    </sec>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank Pete Finger, David Schroeder, Christina Chiang, Erin Torti, and Anastasia Singalevich for technical assistance, ReproGenomics group (John Eppig, Mary Ann Handel, and Janice Pendola) for the R86S mouse, Patsy Nishina&#x2019;s Eye Mutant Resource for the R487G mouse, Charles (Sam) Umbaugh for comments on the paper, Jonathan Weissmann for the GRR construct and Elizabeth Craig for anti-Sis1 antibody. Supported by NIH-grants R01 NS102414 (G.A.C. and C.A.P.J.) and R01 NS075719 (C.A.P.J.) and R35 NS105078 (J.R.L.) from the National Institute of Neurologic Disorder and Stroke (NINDS), the Baylor Hopkins Center for Mendelian Genomics (UM1 HG006542), and ALS Association grant 16-IIP-287 (G.A.C.). NHGRI K08 HG008986 (J.E.P.) and Clinical Research Training Scholarship in Neuromuscular Disease partnered by the American Brain Foundation and Muscle Study Group (D.P.).</p>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Author contributions</title>
+      <p>G.A.C. and C.A.P.J. designed the project. P.B.M., Y.K.-T., J.E.S., R.K., R.B.S., D.P., T.H., D.S., T.M., G.R., D.H., R.M., H.H., and R.Y. performed the experiments. C.G., W.A., D.P., T.H., M.Z., G.D., E.A.F., N.A.M.A., N.M., H.G., J.E.P., M.R., N.G.L., and J.R.L. provided the clinical data. G.A.C., C.A.P.J., P.B.M., G.R., R.B.S., and Y.K.-T. wrote the paper. All authors commented on and endorsed the final version of the paper.</p>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Data availability</title>
+      <p>The data that support the findings of this study are available as source data in the data source file. Variant information will be available upon reasonable request and have been submitted to ClinVar (<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/clinvar/?term=NEMF%5Bgene%5D">https://www.ncbi.nlm.nih.gov/clinvar/?term=NEMF%5Bgene%5D</ext-link>)<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>, AnVil (<ext-link ext-link-type="uri" xlink:href="https://anvilproject.org/">https://anvilproject.org/</ext-link>) and the European Genome-phenome Archive (<ext-link ext-link-type="uri" xlink:href="https://www.ebi.ac.uk/ega/home">https://www.ebi.ac.uk/ega/home</ext-link>) for public access. Data for genetic matches with NEMF variants can be found on GeneMatcher<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> available to clinicians and researchers describing patients with variants of interest. The variant summary statistics work makes use of the following publicly available databases: ClinVar (<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/clinvar/?term=NEMF%5Bgene%5D">https://www.ncbi.nlm.nih.gov/clinvar/?term=NEMF%5Bgene%5D</ext-link>)<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>, Genome Aggregation database (Gnomad.V2.1.1, GRCh37/hg19; <ext-link ext-link-type="uri" xlink:href="https://gnomad.broadinstitute.org/">https://gnomad.broadinstitute.org/</ext-link>)<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>, Greater Middle East (GME) Variome (V1) (<ext-link ext-link-type="uri" xlink:href="http://igm.ucsd.edu/gme/">http://igm.ucsd.edu/gme/</ext-link>)<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>, Iranome (<ext-link ext-link-type="uri" xlink:href="http://www.iranome.ir/">http://www.iranome.ir/</ext-link>)<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>, and 1000 Genomes Project (<ext-link ext-link-type="uri" xlink:href="https://www.internationalgenome.org/1000-genomes-browsers">https://www.internationalgenome.org/1000-genomes-browsers</ext-link>)<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>.&#xA0;Source data are provided with this paper.</p>
+    </notes>
+    <notes id="FPar1" notes-type="COI-statement">
+      <title>Competing interests</title>
+      <p id="Par50">J.R.L. has stock ownership in 23andMe, is a paid consultant for Regeneron Pharmaceuticals, Novartis, and is a co-inventor on multiple United States and European patents related to molecular diagnostics for inherited neuropathies, eye diseases, and bacterial genomic fingerprinting. The Department of Molecular and Human Genetics at Baylor College of Medicine derives revenue from genetic testing offered at Baylor Genetics (<ext-link ext-link-type="uri" xlink:href="https://www.baylorgenetics.com//">https://www.baylorgenetics.com//</ext-link>). J.R.L. serves on the Scientific Advisory Board of Baylor Genetics. G.D. is an employee of GeneDx, Inc. The remaining authors declare no competing interests.</p>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Defenouillere</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Fromont-Racine</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The ribosome-bound quality control complex: from aberrant peptide clearance to proteostasis maintenance</article-title>
+          <source>Curr. Genet.</source>
+          <year>2017</year>
+          <volume>63</volume>
+          <fpage>997</fpage>
+          <lpage>1005</lpage>
+          <pub-id pub-id-type="pmid">28528489</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Joazeiro</surname>
+              <given-names>CAP</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms and functions of ribosome-associated protein quality control</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <year>2019</year>
+          <volume>20</volume>
+          <fpage>368</fpage>
+          <lpage>383</lpage>
+          <pub-id pub-id-type="pmid">30940912</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pisareva</surname>
+              <given-names>VP</given-names>
+            </name>
+            <name>
+              <surname>Skabkin</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Hellen</surname>
+              <given-names>CUT</given-names>
+            </name>
+            <name>
+              <surname>Pestova</surname>
+              <given-names>TV</given-names>
+            </name>
+            <name>
+              <surname>Pisarev</surname>
+              <given-names>AV</given-names>
+            </name>
+          </person-group>
+          <article-title>Dissociation by Pelota, Hbs1 and ABCE1 of mammalian vacant 80S ribosomes and stalled elongation complexes</article-title>
+          <source>EMBO J.</source>
+          <year>2011</year>
+          <volume>30</volume>
+          <fpage>1804</fpage>
+          <lpage>1817</lpage>
+          <pub-id pub-id-type="pmid">21448132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shao</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>von der Malsburg</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hegde</surname>
+              <given-names>RS</given-names>
+            </name>
+          </person-group>
+          <article-title>Listerin-dependent nascent protein ubiquitination relies on ribosome subunit dissociation</article-title>
+          <source>Mol. Cell</source>
+          <year>2013</year>
+          <volume>50</volume>
+          <fpage>637</fpage>
+          <lpage>648</lpage>
+          <pub-id pub-id-type="pmid">23685075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shoemaker</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Eyler</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Dom34:Hbs1 promotes subunit dissociation and peptidyl-tRNA drop-off to initiate no-go decay</article-title>
+          <source>Science</source>
+          <year>2010</year>
+          <volume>330</volume>
+          <fpage>369</fpage>
+          <lpage>372</lpage>
+          <pub-id pub-id-type="pmid">20947765</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bengtson</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Joazeiro</surname>
+              <given-names>CAP</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of a ribosome-associated E3 ubiquitin ligase in protein quality control</article-title>
+          <source>Nature</source>
+          <year>2010</year>
+          <volume>467</volume>
+          <fpage>470</fpage>
+          <lpage>473</lpage>
+          <pub-id pub-id-type="pmid">20835226</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brandman</surname>
+              <given-names>O</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A ribosome-bound quality control complex triggers degradation of nascent peptides and signals translation stress</article-title>
+          <source>Cell</source>
+          <year>2012</year>
+          <volume>151</volume>
+          <fpage>1042</fpage>
+          <lpage>1054</lpage>
+          <pub-id pub-id-type="pmid">23178123</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Defenouillere</surname>
+              <given-names>Q</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cdc48-associated complex bound to 60S particles is required for the clearance of aberrant translation products</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2013</year>
+          <volume>110</volume>
+          <fpage>5046</fpage>
+          <lpage>5051</lpage>
+          <pub-id pub-id-type="pmid">23479637</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lyumkis</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structural basis for translational surveillance by the large ribosomal subunit-associated protein quality control complex</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2014</year>
+          <volume>111</volume>
+          <fpage>15981</fpage>
+          <lpage>15986</lpage>
+          <pub-id pub-id-type="pmid">25349383</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shao</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Santhanam</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Hegde</surname>
+              <given-names>RS</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure and assembly pathway of the ribosome quality control complex</article-title>
+          <source>Mol. Cell</source>
+          <year>2015</year>
+          <volume>57</volume>
+          <fpage>433</fpage>
+          <lpage>444</lpage>
+          <pub-id pub-id-type="pmid">25578875</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shen</surname>
+              <given-names>PS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Rqc2p and 60 S ribosomal subunits mediate mRNA-independent elongation of nascent chains</article-title>
+          <source>Science</source>
+          <year>2015</year>
+          <volume>347</volume>
+          <fpage>75</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="pmid">25554787</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Verma</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Oania</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Kolawa</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <name>
+              <surname>Deshaies</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Cdc48/p97 promotes degradation of aberrant nascent polypeptides bound to the ribosome</article-title>
+          <source>Elife</source>
+          <year>2013</year>
+          <volume>2</volume>
+          <fpage>1</fpage>
+          <lpage>17</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lytvynenko</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Alanine tails signal proteolysis in bacterial ribosome-associated quality control</article-title>
+          <source>Cell</source>
+          <year>2019</year>
+          <volume>178</volume>
+          <fpage>76</fpage>
+          <lpage>90.e22</lpage>
+          <pub-id pub-id-type="pmid">31155236</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kostova</surname>
+              <given-names>KK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>CAT-tailing as a fail-safe mechanism for efficient degradation of stalled nascent polypeptides</article-title>
+          <source>Science</source>
+          <year>2017</year>
+          <volume>357</volume>
+          <fpage>414</fpage>
+          <lpage>417</lpage>
+          <pub-id pub-id-type="pmid">28751611</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chu</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A mouse forward genetics screen identifies LISTERIN as an E3 ubiquitin ligase involved in neurodegeneration</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2009</year>
+          <volume>106</volume>
+          <fpage>2097</fpage>
+          <lpage>2103</lpage>
+          <pub-id pub-id-type="pmid">19196968</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yonashiro</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Rqc2/Tae2 subunit of the ribosome-associated quality control (RQC) complex marks ribosome-stalled nascent polypeptide chains for aggregation</article-title>
+          <source>Elife</source>
+          <year>2016</year>
+          <volume>5</volume>
+          <fpage>1</fpage>
+          <lpage>16</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choe</surname>
+              <given-names>Y-J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Failure of RQC machinery causes protein aggregation and proteotoxic stress</article-title>
+          <source>Nature</source>
+          <year>2016</year>
+          <volume>531</volume>
+          <fpage>191</fpage>
+          <lpage>195</lpage>
+          <pub-id pub-id-type="pmid">26934223</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Defenouill&#xE8;re</surname>
+              <given-names>Q</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Rqc1 and ltn1 prevent c-terminal alanine-threonine tail (cat-tail)-induced protein aggregation by efficient recruitment of cdc48 on stalled 60s subunits</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2016</year>
+          <volume>291</volume>
+          <fpage>12245</fpage>
+          <lpage>12253</lpage>
+          <pub-id pub-id-type="pmid">27129255</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sobreira</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Schiettecatte</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Valle</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hamosh</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>GeneMatcher: a matching tool for connecting investigators with an interest in the same gene</article-title>
+          <source>Hum. Mutat.</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>928</fpage>
+          <lpage>930</lpage>
+          <pub-id pub-id-type="pmid">26220891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richards</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology</article-title>
+          <source>Genet. Med.</source>
+          <year>2015</year>
+          <volume>17</volume>
+          <fpage>405</fpage>
+          <lpage>424</lpage>
+          <pub-id pub-id-type="pmid">25741868</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anazi</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clinical genomics expands the morbid genome of intellectual disability and offers a high diagnostic yield</article-title>
+          <source>Mol. Psychiatry</source>
+          <year>2017</year>
+          <volume>22</volume>
+          <fpage>615</fpage>
+          <lpage>624</lpage>
+          <pub-id pub-id-type="pmid">27431290</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ishimura</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Ribosome stalling induced by mutation of a CNS-specific tRNA causes neurodegeneration</article-title>
+          <source>Science</source>
+          <year>2014</year>
+          <volume>345</volume>
+          <fpage>455</fpage>
+          <lpage>459</lpage>
+          <pub-id pub-id-type="pmid">25061210</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bertoli-Avella</surname>
+              <given-names>AM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Biallelic inactivating variants in the GTPBP2 gene cause a neurodevelopmental disorder with severe intellectual disability</article-title>
+          <source>Eur. J. Hum. Genet.</source>
+          <year>2018</year>
+          <volume>26</volume>
+          <fpage>592</fpage>
+          <lpage>598</lpage>
+          <pub-id pub-id-type="pmid">29449720</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carter</surname>
+              <given-names>MT</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clinical delineation of GTPBP2-associated neuro-ectodermal syndrome: Report of two new families and review of the literature</article-title>
+          <source>Clin. Genet.</source>
+          <year>2019</year>
+          <volume>95</volume>
+          <fpage>601</fpage>
+          <lpage>606</lpage>
+          <pub-id pub-id-type="pmid">30790272</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jaberi</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of mutation in GTPBP2 in patients of a family with neurodegeneration accompanied by iron deposition in the brain</article-title>
+          <source>Neurobiol. Aging</source>
+          <year>2015</year>
+          <volume>38</volume>
+          <fpage>216.e11</fpage>
+          <lpage>216.e18</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Handel</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Lessard</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Reinholdt</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Schimenti</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Eppig</surname>
+              <given-names>JJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutagenesis as an unbiased approach to identify novel contraceptive targets</article-title>
+          <source>Mol. Cell. Endocrinol.</source>
+          <year>2006</year>
+          <volume>250</volume>
+          <fpage>201</fpage>
+          <lpage>205</lpage>
+          <pub-id pub-id-type="pmid">16412559</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maddox</surname>
+              <given-names>DM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>An ENU-induced mutation in the Mertk gene (Mertk nmf12) leads to a slow form of retinal degeneration</article-title>
+          <source>Investig. Ophthalmol. Vis. Sci.</source>
+          <year>2011</year>
+          <volume>52</volume>
+          <fpage>4703</fpage>
+          <lpage>4709</lpage>
+          <pub-id pub-id-type="pmid">21436282</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bogdanik</surname>
+              <given-names>LP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss of the E3 ubiquitin ligase LRSAM1 sensitizes peripheral axons to degeneration in a mouse model of Charcot-Marie-Tooth disease</article-title>
+          <source>Dis. Model. Mech.</source>
+          <year>2013</year>
+          <volume>6</volume>
+          <fpage>780</fpage>
+          <lpage>792</lpage>
+          <pub-id pub-id-type="pmid">23519028</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Preibisch</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Saalfeld</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Tomancak</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Globally optimal stitching of tiled 3D microscopic image acquisitions</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>1463</fpage>
+          <lpage>1465</lpage>
+          <pub-id pub-id-type="pmid">19346324</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schneider</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Rasband</surname>
+              <given-names>WS</given-names>
+            </name>
+            <name>
+              <surname>Eliceiri</surname>
+              <given-names>KW</given-names>
+            </name>
+          </person-group>
+          <article-title>NIH Image to ImageJ: 25 years of image analysis</article-title>
+          <source>Nat. Methods</source>
+          <year>2012</year>
+          <volume>9</volume>
+          <fpage>671</fpage>
+          <lpage>675</lpage>
+          <pub-id pub-id-type="pmid">22930834</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yan</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Craig</surname>
+              <given-names>EA</given-names>
+            </name>
+          </person-group>
+          <article-title>The glycine-phenylalanine-rich region determines the specificity of the yeast Hsp40 Sis1</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>1999</year>
+          <volume>19</volume>
+          <fpage>7751</fpage>
+          <lpage>7758</lpage>
+          <pub-id pub-id-type="pmid">10523664</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Larkin</surname>
+              <given-names>MA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clustal W and Clustal X version 2.0</article-title>
+          <source>Bioinformatics</source>
+          <year>2007</year>
+          <volume>23</volume>
+          <fpage>2947</fpage>
+          <lpage>2948</lpage>
+          <pub-id pub-id-type="pmid">17846036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gille</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>F&#xE4;hling</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Weyand</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Wieland</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Gille</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Alignment-Annotator web server: rendering and annotating sequence alignments</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2014</year>
+          <volume>42</volume>
+          <fpage>3</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">24141096</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stothard</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>The Sequence Manipulation Suite: javascript programs for analysing and formating protein and DNA sequences</article-title>
+          <source>Biotechniques</source>
+          <year>2000</year>
+          <volume>28</volume>
+          <fpage>1102</fpage>
+          <lpage>1104</lpage>
+          <pub-id pub-id-type="pmid">10868275</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pearson</surname>
+              <given-names>WR</given-names>
+            </name>
+          </person-group>
+          <article-title>Flexible sequence similarity searching with the FASTA3 program package</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2000</year>
+          <volume>132</volume>
+          <fpage>185</fpage>
+          <lpage>219</lpage>
+          <pub-id pub-id-type="pmid">10547837</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Retterer</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clinical application of whole-exome sequencing across clinical indications</article-title>
+          <source>Genet. Med.</source>
+          <year>2016</year>
+          <volume>18</volume>
+          <fpage>696</fpage>
+          <lpage>704</lpage>
+          <pub-id pub-id-type="pmid">26633542</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Landrum</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ClinVar: improving access to variant interpretations and supporting evidence</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2018</year>
+          <volume>46</volume>
+          <fpage>D1062</fpage>
+          <lpage>D1067</lpage>
+          <pub-id pub-id-type="pmid">29165669</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pehlivan</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The genomics of arthrogryposis, a complex trait: candidate genes and further evidence for oligogenic inheritance</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2019</year>
+          <volume>105</volume>
+          <fpage>132</fpage>
+          <lpage>150</lpage>
+          <pub-id pub-id-type="pmid">31230720</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gayevskiy</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Roscioli</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Dinger</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Cowley</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Seave: a comprehensive web platform for storing and interrogating human genomic variation</article-title>
+          <source>Bioinformatics</source>
+          <year>2019</year>
+          <volume>35</volume>
+          <fpage>122</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="pmid">30561546</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hakonarson</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2010</year>
+          <volume>38</volume>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">19843612</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lek</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Analysis of protein-coding genetic variation in 60,706 humans</article-title>
+          <source>Nature</source>
+          <year>2016</year>
+          <volume>536</volume>
+          <fpage>285</fpage>
+          <lpage>291</lpage>
+          <pub-id pub-id-type="pmid">27535533</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scott</surname>
+              <given-names>EM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Characterization of Greater Middle Eastern genetic variation for enhanced disease gene discovery</article-title>
+          <source>Nat. Genet.</source>
+          <year>2016</year>
+          <volume>48</volume>
+          <fpage>1071</fpage>
+          <lpage>1076</lpage>
+          <pub-id pub-id-type="pmid">27428751</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fattahi</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Iranome: a catalog of genomic variations in the Iranian population</article-title>
+          <source>Hum. Mutat.</source>
+          <year>2019</year>
+          <volume>40</volume>
+          <fpage>1968</fpage>
+          <lpage>1984</lpage>
+          <pub-id pub-id-type="pmid">31343797</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR44">
+        <label>44.</label>
+        <mixed-citation publication-type="other">Weedon, M. N. et al. Exome sequencing identifies a DYNC1H1 mutation in a large pedigree with dominant axonal Charcot-Marie-Tooth disease. <italic>Am. J. Hum. Genet</italic>. 10.1016/j.ajhg.2011.07.002 (2011).</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

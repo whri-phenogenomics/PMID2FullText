@@ -1,0 +1,2322 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Clin Invest</journal-id>
+      <journal-id journal-id-type="iso-abbrev">J Clin Invest</journal-id>
+      <journal-id journal-id-type="publisher-id">J Clin Invest</journal-id>
+      <journal-title-group>
+        <journal-title>The Journal of Clinical Investigation</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0021-9738</issn>
+      <issn pub-type="epub">1558-8238</issn>
+      <publisher>
+        <publisher-name>American Society for Clinical Investigation</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">33164986</article-id>
+      <article-id pub-id-type="pmc">7685733</article-id>
+      <article-id pub-id-type="publisher-id">141455</article-id>
+      <article-id pub-id-type="doi">10.1172/JCI141455</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic>YIPF5</italic> mutations cause neonatal diabetes and microcephaly through endoplasmic reticulum stress</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-1437-7891</contrib-id>
+          <name>
+            <surname>De Franco</surname>
+            <given-names>Elisa</given-names>
+          </name>
+          <email>E.De-Franco@exeter.ac.uk</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-0234-8372</contrib-id>
+          <name>
+            <surname>Lytrivi</surname>
+            <given-names>Maria</given-names>
+          </name>
+          <email>mlytrivi@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-0165-2660</contrib-id>
+          <name>
+            <surname>Ibrahim</surname>
+            <given-names>Hazem</given-names>
+          </name>
+          <email>hazem.ibrahim@helsinki.fi</email>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Montaser</surname>
+            <given-names>Hossam</given-names>
+          </name>
+          <email>hossam.montaser@helsinki.fi</email>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wakeling</surname>
+            <given-names>Matthew N.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fantuzzi</surname>
+            <given-names>Federica</given-names>
+          </name>
+          <email>Federica.Fantuzzi@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Patel</surname>
+            <given-names>Kashyap</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Demarez</surname>
+            <given-names>C&#xE9;line</given-names>
+          </name>
+          <email>Celine.Demarez@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cai</surname>
+            <given-names>Ying</given-names>
+          </name>
+          <email>ying.cai@erasme.ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-3264-7912</contrib-id>
+          <name>
+            <surname>Igoillo-Esteve</surname>
+            <given-names>Mariana</given-names>
+          </name>
+          <email>migoillo@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cosentino</surname>
+            <given-names>Cristina</given-names>
+          </name>
+          <email>Cristina.Cosentino@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-1537-5548</contrib-id>
+          <name>
+            <surname>Lithovius</surname>
+            <given-names>V&#xE4;in&#xF6;</given-names>
+          </name>
+          <email>vaino.lithovius@helsinki.fi</email>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-3862-9237</contrib-id>
+          <name>
+            <surname>Vihinen</surname>
+            <given-names>Helena</given-names>
+          </name>
+          <email>helena.vihinen@helsinki.fi</email>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-4159-6934</contrib-id>
+          <name>
+            <surname>Jokitalo</surname>
+            <given-names>Eija</given-names>
+          </name>
+          <email>eija.jokitalo@helsinki.fi</email>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Laver</surname>
+            <given-names>Thomas W.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Johnson</surname>
+            <given-names>Matthew B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sawatani</surname>
+            <given-names>Toshiaki</given-names>
+          </name>
+          <email>toshiaki.sawatani@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shakeri</surname>
+            <given-names>Hadis</given-names>
+          </name>
+          <email>hadis.shakeri@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pachera</surname>
+            <given-names>Nathalie</given-names>
+          </name>
+          <email>Nathalie.Pachera@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0001-9946-235X</contrib-id>
+          <name>
+            <surname>Haliloglu</surname>
+            <given-names>Belma</given-names>
+          </name>
+          <email>belmahaliloglu26@hotmail.com</email>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ozbek</surname>
+            <given-names>Mehmet Nuri</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-9809-0977</contrib-id>
+          <name>
+            <surname>Unal</surname>
+            <given-names>Edip</given-names>
+          </name>
+          <email>edip76@yahoo.com</email>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Y&#x131;ld&#x131;r&#x131;m</surname>
+            <given-names>Ruken</given-names>
+          </name>
+          <email>rukmay21@hotmail.com</email>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Godbole</surname>
+            <given-names>Tushar</given-names>
+          </name>
+          <email>tusgod@gmail.com</email>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-6603-2983</contrib-id>
+          <name>
+            <surname>Yildiz</surname>
+            <given-names>Melek</given-names>
+          </name>
+          <email>melek_erbas@yahoo.com</email>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aydin</surname>
+            <given-names>Banu</given-names>
+          </name>
+          <email>bkucukemre@yahoo.com</email>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bilheu</surname>
+            <given-names>Angeline</given-names>
+          </name>
+          <email>angeline.bilheu@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Suzuki</surname>
+            <given-names>Ikuo</given-names>
+          </name>
+          <xref ref-type="aff" rid="A13">13</xref>
+          <xref ref-type="aff" rid="A14">14</xref>
+          <xref ref-type="aff" rid="A15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Flanagan</surname>
+            <given-names>Sarah E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vanderhaeghen</surname>
+            <given-names>Pierre</given-names>
+          </name>
+          <email>pierre.vanderhaeghen@kuleuven.vib.be</email>
+          <xref ref-type="aff" rid="A13">13</xref>
+          <xref ref-type="aff" rid="A14">14</xref>
+          <xref ref-type="aff" rid="A15">15</xref>
+          <xref ref-type="aff" rid="A16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sen&#xE9;e</surname>
+            <given-names>Val&#xE9;rie</given-names>
+          </name>
+          <email>valerie.senee@inserm.fr</email>
+          <xref ref-type="aff" rid="A17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-1538-0240</contrib-id>
+          <name>
+            <surname>Julier</surname>
+            <given-names>C&#xE9;cile</given-names>
+          </name>
+          <email>cecile.julier@inserm.fr</email>
+          <xref ref-type="aff" rid="A17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-4907-0635</contrib-id>
+          <name>
+            <surname>Marchetti</surname>
+            <given-names>Piero</given-names>
+          </name>
+          <email>piero.marchetti@med.unipi.it</email>
+          <xref ref-type="aff" rid="A18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eizirik</surname>
+            <given-names>Decio L.</given-names>
+          </name>
+          <email>deizirik@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A16">16</xref>
+          <xref ref-type="aff" rid="A19">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-7620-5526</contrib-id>
+          <name>
+            <surname>Ellard</surname>
+            <given-names>Sian</given-names>
+          </name>
+          <email>sian.ellard@nhs.net</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-8865-7060</contrib-id>
+          <name>
+            <surname>Saarim&#xE4;ki-Vire</surname>
+            <given-names>Jonna</given-names>
+          </name>
+          <email>Jonna.Saarimaki@helsinki.fi</email>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0001-9190-2496</contrib-id>
+          <name>
+            <surname>Otonkoski</surname>
+            <given-names>Timo</given-names>
+          </name>
+          <email>timo.otonkoski@helsinki.fi</email>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A20">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-5112-1692</contrib-id>
+          <name>
+            <surname>Cnop</surname>
+            <given-names>Miriam</given-names>
+          </name>
+          <email>mcnop@ulb.ac.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0001-5620-473X</contrib-id>
+          <name>
+            <surname>Hattersley</surname>
+            <given-names>Andrew T.</given-names>
+          </name>
+          <email>A.T.Hattersley@exeter.ac.uk</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Institute of Biomedical and Clinical Science, University of Exeter Medical School, Exeter, United Kingdom.</aff>
+      <aff id="A2"><label>2</label>ULB Center for Diabetes Research and</aff>
+      <aff id="A3"><label>3</label>Division of Endocrinology, Erasmus Hospital, Universit&#xE9; Libre de Bruxelles, Brussels, Belgium.</aff>
+      <aff id="A4"><label>4</label>Stem Cells and Metabolism Research Program, Faculty of Medicine, University of Helsinki, Helsinki, Finland.</aff>
+      <aff id="A5"><label>5</label>Endocrinology and Metabolism, Department of Medicine and Surgery, University of Parma, Parma, Italy.</aff>
+      <aff id="A6"><label>6</label>Electron Microscopy Unit, Institute of Biotechnology, University of Helsinki, Helsinki, Finland.</aff>
+      <aff id="A7"><label>7</label>Yeditepe University Hospital, Istanbul, Turkey.</aff>
+      <aff id="A8"><label>8</label>Gazi Ya&#x15F;argil Education and Research Hospital, Diyarbak&#x131;r, Turkey.</aff>
+      <aff id="A9"><label>9</label>Dicle University, Faculty of Medicine, Department of Pediatric Endocrinology, Diyarbak&#x131;r, Turkey.</aff>
+      <aff id="A10"><label>10</label>Harmony Health Hub, Nashik, India.</aff>
+      <aff id="A11"><label>11</label>Istanbul University, Istanbul Faculty of Medicine, Department of Pediatric Endocrinology, Istanbul, Turkey.</aff>
+      <aff id="A12"><label>12</label>Kanuni Sultan Suleyman Training and Research Hospital, Department of Pediatric Endocrinology, Istanbul, Turkey.</aff>
+      <aff id="A13"><label>13</label>Institute of Interdisciplinary Research (IRIBHM), ULB Neuroscience Institute, Universit&#xE9; Libre de Bruxelles, Brussels, Belgium.</aff>
+      <aff id="A14"><label>14</label>VIB-KU Leuven Center for Brain &amp; Disease Research, Leuven, Belgium.</aff>
+      <aff id="A15"><label>15</label>Department of Neurosciences, Leuven Brain Institute, KU Leuven, Leuven, Belgium.</aff>
+      <aff id="A16"><label>16</label>Welbio, Universit&#xE9; Libre de Bruxelles, Brussels, Belgium.</aff>
+      <aff id="A17"><label>17</label>Universit&#xE9; de Paris, Facult&#xE9; de M&#xE9;decine Paris&#x2013;Diderot, U958, Paris, France.</aff>
+      <aff id="A18"><label>18</label>Department of Clinical and Experimental Medicine, University of Pisa, Pisa, Italy.</aff>
+      <aff id="A19"><label>19</label>Indiana Biosciences Research Institute, Indianapolis, Indiana, USA.</aff>
+      <aff id="A20"><label>20</label>Children&#x2019;s Hospital, University of Helsinki and Helsinki University Hospital, Helsinki, Finland.</aff>
+      <author-notes>
+        <corresp>Address correspondence to: Andrew T. Hattersley, University of Exeter Medical School, RILD Building, Barrack Road, Exeter EX2 5DW, United Kingdom. Phone: 44.0.1392.40.8260; Email: <email>A.T.Hattersley@exeter.ac.uk</email>. Or to: Miriam Cnop, ULB Center for Diabetes Research, Universit&#xE9; Libre de Bruxelles CP-618, Route de Lennik 808, 1070 Brussels, Belgium. Phone: 32.2.555.63.05; Email: <email>mcnop@ulb.ac.be</email>. Or to: Timo Otonkoski, Stem Cells and Metabolism Research Program, Faculty of Medicine, University of Helsinki, Haartmaninkatu 8, 00290 Helsinki, Finland. Phone: 358.50.448.6392; Email: <email>timo.otonkoski@helsinki.fi</email>.</corresp>
+        <fn>
+          <p><bold>Authorship note:</bold> EDF, ML, HI, HM, MNW, and FF contributed equally to this work. TO, MC, and ATH contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2020-11-09T16:00:00-0500">
+        <day>9</day>
+        <month>11</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date date-type="collection" publication-format="electronic" iso-8601-date="2020-11-09T16:00:00-0500">
+        <day>9</day>
+        <month>11</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date date-type="pub" publication-format="print" iso-8601-date="2020-12-01T16:00:00-0500">
+        <day>1</day>
+        <month>12</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>9</day>
+        <month>11</month>
+        <year>2020</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+      <volume>130</volume>
+      <issue>12</issue>
+      <fpage>6338</fpage>
+      <lpage>6353</lpage>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>6</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>8</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2020 De Franco et al.</copyright-statement>
+        <copyright-year>2020</copyright-year>
+        <copyright-holder>De Franco et al.</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p><!--CREATIVE COMMONS-->This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="https://www.jci.org/articles/view/141455">This article is available online at https://www.jci.org/articles/view/141455</self-uri>
+      <abstract>
+        <p>Neonatal diabetes is caused by single gene mutations reducing pancreatic &#x3B2; cell number or impairing &#x3B2; cell function. Understanding the genetic basis of rare diabetes subtypes highlights fundamental biological processes in &#x3B2; cells. We identified 6 patients from 5 families with homozygous mutations in the <italic>YIPF5</italic> gene, which is involved in trafficking between the endoplasmic reticulum (ER) and the Golgi. All patients had neonatal/early-onset diabetes, severe microcephaly, and epilepsy. <italic>YIPF5</italic> is expressed during human brain development, in adult brain and pancreatic islets. We used 3 human &#x3B2; cell models (<italic>YIPF5</italic> silencing in EndoC-&#x3B2;H1 cells, <italic>YIPF5</italic> knockout and mutation knockin in embryonic stem cells, and patient-derived induced pluripotent stem cells) to investigate the mechanism through which <italic>YIPF5</italic> loss of function affects &#x3B2; cells. Loss of <italic>YIPF5</italic> function in stem cell&#x2013;derived islet cells resulted in proinsulin retention in the ER, marked ER stress, and &#x3B2; cell failure. Partial <italic>YIPF5</italic> silencing in EndoC-&#x3B2;H1 cells and a patient mutation in stem cells increased the &#x3B2; cell sensitivity to ER stress&#x2013;induced apoptosis. We report recessive <italic>YIPF5</italic> mutations as the genetic cause of a congenital syndrome of microcephaly, epilepsy, and neonatal/early-onset diabetes, highlighting a critical role of <italic>YIPF5</italic> in &#x3B2; cells and neurons. We believe this is the first report of mutations disrupting the ER-to-Golgi trafficking, resulting in diabetes.</p>
+      </abstract>
+      <abstract abstract-type="graphical">
+        <p>
+<graphic xlink:href="jci-130-141455-g465.jpg" position="float" orientation="portrait"/>
+</p>
+      </abstract>
+      <kwd-group kwd-group-type="specialties">
+        <kwd>Cell Biology</kwd>
+        <kwd>Genetics</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="keywords">
+        <kwd>Cell stress</kwd>
+        <kwd>Diabetes</kwd>
+        <kwd>Human stem cells</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>Diabetes UK</funding-source>
+          <award-id>19/005971</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>Wellcome Trust</institution>
+              <institution-id>https://doi.org/10.13039/100004440</institution-id>
+            </institution-wrap>
+          </funding-source>
+          <award-id>WT098395/Z/12/Z</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>Wellcome Trust</institution>
+              <institution-id>https://doi.org/10.13039/100004440</institution-id>
+            </institution-wrap>
+          </funding-source>
+          <award-id>105636/Z/14/Z</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>Horizon 2020</institution>
+              <institution-id>https://doi.org/10.13039/501100007601</institution-id>
+            </institution-wrap>
+          </funding-source>
+          <award-id>115797</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Welbio/FRFS</funding-source>
+          <award-id>WELBIO-CR-2019C-04</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Academy of Finland</funding-source>
+          <award-id>297466,312437</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>European Research Council</institution>
+              <institution-id>https://doi.org/10.13039/501100000781</institution-id>
+            </institution-wrap>
+          </funding-source>
+          <award-id>GENDEVOCORTEX</award-id>
+        </award-group>
+        <funding-statement>E.D.F. is a Diabetes UK RD Lawrence Fellow</funding-statement>
+        <funding-statement>A.T.H. and S.E. are the recipients of a Wellcome Trust Senior Investigator award</funding-statement>
+        <funding-statement>S.E.F. has a Sir Henry Dale Fellowship jointly funded by the Wellcome Trust and the Royal Society.</funding-statement>
+        <funding-statement>This work was supported by grants from the Fonds Erasme to M.L. and M.C., the Fondation ULB, the Fonds National de la Recherche Scientifique (FNRS), the Brussels Capital Region Innoviris project DiaType and the Francophone Foundation for Diabetes Research (FFRD, that is sponsored by the French Diabetes Federation, Abbott, Eli Lilly, Merck Sharp &amp; Dohme and Novo Nordisk) to M.C, and by the Innovative Medicines Initiative 2 Joint Undertaking under grant agreement No 115797 (INNODIA), receiving support from the Union&#x2019;s Horizon 2020 research and innovation programme and &#x201C;EFPIA&#x201D;, &#x2018;JDRF&#x201D; and &#x201C;The Leona M. and Harry B. Helmsley Charitable Trust&#x201D; (to P.M., D.L.E., T.O., M.C.).</funding-statement>
+        <funding-statement>D.L.E. is funded by Welbio/FRFS, Belgium</funding-statement>
+        <funding-statement>Work in the T.O. laboratory was funded by the Academy of Finland (grant nr. 297466 and the MetaStem Center of Excellence nr. 312437), The Sigrid Jus&#xE9;lius Foundation, The Novo Nordisk Foundation and the Helsinki University Hospital research funds.</funding-statement>
+        <funding-statement>Work in the P.V. lab was funded by the Belgian FRS/FNRS, the European Research Council (ERC Adv Grant GENDEVOCORTEX), the WELBIO Program of the Walloon Region, the AXA Research Fund, the Fondation ULB, the ERA-net &#x2018;Microkin&#x2019;, and the Vlaams Instituut voor Biotechnologie (VIB).</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p>Neonatal diabetes mellitus develops before 6 months of age and is caused by reduced pancreatic &#x3B2; cell number (reduced formation/increased destruction) or impaired &#x3B2; cell function. Previous studies have shown that neonatal diabetes is most likely caused by a mutation in a single gene, rather than being autoimmune type 1 diabetes (<xref rid="B1" ref-type="bibr">1</xref>, <xref rid="B2" ref-type="bibr">2</xref>). To date, 30 genetic causes have been described, which account for 82% of cases (<xref rid="B3" ref-type="bibr">3</xref>&#x2013;<xref rid="B9" ref-type="bibr">9</xref>). Additional clinical features are often present in patients with neonatal diabetes, with 18% of them having neurological symptoms (<xref rid="B3" ref-type="bibr">3</xref>). This is not surprising, as &#x3B2; cells and neurons have key genes and cellular functions in common (<xref rid="B10" ref-type="bibr">10</xref>, <xref rid="B11" ref-type="bibr">11</xref>).</p>
+      <p>Pathogenic variants in 11 genes (<italic>ABCC8</italic>, <italic>KCNJ11</italic>, <italic>CNOT1</italic>, <italic>EIF2AK3</italic>, <italic>SLC19A2</italic>, <italic>IER3IP1</italic>, <italic>PTF1A</italic>, <italic>NEUROD1</italic>, <italic>MNX1</italic>, <italic>WFS1</italic>, and <italic>NKX2-2</italic>) are known to cause neonatal diabetes with neurological features, ranging from developmental delay to structural abnormalities such as microcephaly (<xref rid="B3" ref-type="bibr">3</xref>, <xref rid="B4" ref-type="bibr">4</xref>). Recently, pathogenic variants in 3 genes (<italic>TRMT10A</italic> [ref. <xref rid="B12" ref-type="bibr">12</xref>], <italic>PPP1R15B</italic> [ref. <xref rid="B13" ref-type="bibr">13</xref>], and <italic>EIF2S3</italic> [refs. <xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B15" ref-type="bibr">15</xref>]) were reported to cause young- or adult-onset diabetes and microcephaly. The overlap between genes causing diabetes and neurological features highlights shared pathways that are critically important for development (<italic>CNOT1</italic>, <italic>PTF1A</italic>, <italic>NEUROD1</italic>, <italic>MNX1</italic>, and <italic>NKX2-2</italic>) and function (<italic>ABCC8</italic>, <italic>KCNJ11</italic>, <italic>EIF2AK3</italic>, <italic>SLC19A2</italic>, <italic>IER3IP1</italic>, <italic>WFS1</italic>, <italic>TRMT10A</italic>, <italic>PPP1R15B</italic>, <italic>EIF2S3</italic>) of both &#x3B2; cells and neurons.</p>
+      <p>One of the pathways known to be crucial for the function of both &#x3B2; and brain cells is the endoplasmic reticulum (ER) stress response. Pathogenic variants in 8 genes known to be involved in regulating the ER stress response have been found to cause diabetes (ranging from neonatal to adolescent/adult-onset diabetes), often associated with neurological features (<xref rid="B6" ref-type="bibr">6</xref>, <xref rid="B16" ref-type="bibr">16</xref>). The ER stress response is an adaptive pathway that is triggered when there is an imbalance in the ability of the ER to fold proteins and the cellular protein folding demand, leading to accumulation of unfolded or misfolded proteins in the ER. This can happen when a genetic mutation results in a wrongly folded protein that is unable to exit the ER, as happens with dominant <italic>INS</italic> mutations causing diabetes (<xref rid="B17" ref-type="bibr">17</xref>). ER stress can also be triggered when transport of folded proteins from the ER to the Golgi compartment is compromised (<xref rid="B18" ref-type="bibr">18</xref>, <xref rid="B19" ref-type="bibr">19</xref>). The ER stress response aims at slowing down translation of new proteins (through PERK-mediated eIF2&#x3B1; phosphorylation), while increasing the ER&#x2019;s protein folding ability. Mutations in 5 genes that dysregulate signaling in the PERK branch of the ER stress response cause &#x3B2; cell dysfunction and apoptosis by perturbing translational control.</p>
+      <p>Identifying the genes causing syndromic forms of neonatal diabetes that include neurological features can highlight pathways important for development and function of &#x3B2; cells and neurons, giving insights into the pathogenesis of more common diseases. In this study, we used genome sequencing to identify recessive pathogenic variants in <italic>YIPF5</italic> as the genetic cause of a congenital syndrome characterized by neonatal/early-onset diabetes, severe microcephaly, and epilepsy. Functional studies in human &#x3B2; cell models highlight the importance of ER-to-Golgi trafficking in &#x3B2; cells and neurons.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Genetic analysis.</title>
+        <p>Genome sequencing was performed for 2 unrelated probands diagnosed with neonatal diabetes, epilepsy, and severe microcephaly (patients I and II in <xref rid="T1" ref-type="table">Table 1</xref> and <xref ref-type="fig" rid="F1">Figure 1A</xref>) in whom mutations in known neonatal diabetes genes had been excluded. Since both patients were born to consanguineous (first cousins) parents and the phenotype was strikingly similar, we hypothesized that both were affected by the same autosomal recessive condition. We therefore focused our analysis on homozygous rare coding variants in shared genes.</p>
+        <p>Rare homozygous coding variants in 28 genes were identified in patient I, who had genome-wide homozygosity of 11.7% calculated from genome sequencing data. Patient II had genome-wide homozygosity of 6.9%, and rare homozygous coding variants were identified in 10 genes (see <xref ref-type="supplementary-material" rid="sd">Supplemental Tables 1 and 2</xref> and <xref ref-type="supplementary-material" rid="sd">Supplemental Figure 1A</xref>; supplemental material available online with this article; <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1172/JCI141455DS1">https://doi.org/10.1172/JCI141455DS1</ext-link>). The only gene in common in both individuals was <italic>YIPF5</italic>, with patient I being homozygous for a missense, p.(Ala181Val), and patient II harboring a homozygous in-frame deletion variant, p.(Lys106del).</p>
+        <p>Neither variant was listed in the gnomAD database (&gt;120,000 individuals [ref. <xref rid="B20" ref-type="bibr">20</xref>], accessed May 18, 2020), and both affect residues that are highly conserved across species (up to <italic>Saccharomyces cerevisiae</italic>). The p.(Ala181Val) amino acid change was predicted to be likely to affect protein function by 2 of 4 tools used to assess the effect of missense variants, Sorting Intolerant from Tolerant (SIFT) (<xref rid="B21" ref-type="bibr">21</xref>) and MutationTaster (<xref rid="B22" ref-type="bibr">22</xref>) (<xref ref-type="supplementary-material" rid="sd">Supplemental Table 3</xref>). Testing for the mutations in parental samples confirmed that the unaffected parents were heterozygous for the mutations.</p>
+        <p>To replicate this finding in a larger unselected cohort, we analyzed the coding regions and exon-intron boundaries of the <italic>YIPF5</italic> gene in a further 187 cases diagnosed with diabetes before the age of 12 months (10 also had microcephaly) who did not have a mutation in known monogenic diabetes genes. We identified 3 homozygous <italic>YIPF5</italic> missense mutations, p.(Ile98Ser), p.(Trp218Arg), and p.(Gly97Val), in 3 cases. Testing for the mutations in family members confirmed that the parents were all heterozygous for the mutations and that patient III&#x2019;s affected sister was also homozygous for the p.(Ile98Ser) variant (<xref ref-type="fig" rid="F1">Figure 1A</xref>). The 3 variants are not listed in gnomAD, affect residues that are conserved though species up to <italic>S</italic>. <italic>cerevisiae</italic>, and are predicted by 4 of 4 in silico tools &#x2014; Align GVGD (<xref rid="B23" ref-type="bibr">23</xref>), SIFT, PolyPhen-2 (<xref rid="B24" ref-type="bibr">24</xref>), and MutationTaster &#x2014; to be likely to affect YIPF5 protein (<xref ref-type="supplementary-material" rid="sd">Supplemental Table 3</xref>).</p>
+        <p>Protein domain analysis using CCTOP (<xref rid="B25" ref-type="bibr">25</xref>) predicted 3 of the variants, the p.(Gly97Val), p.(Ile98Ser), and p.(Lys106del), to affect residues located in the cytoplasmic domain, while the p.(Ala181Val) and p.(Trp218Arg) variants affect residues located in the third and fourth transmembrane domain, respectively (<xref ref-type="fig" rid="F1">Figure 1B</xref>). The nature and position of the variants are consistent with at least a partial loss of protein function.</p>
+      </sec>
+      <sec>
+        <title>Clinical evaluation.</title>
+        <p>The clinical features of the 6 patients are summarized in <xref rid="T1" ref-type="table">Table 1</xref>. All had severe microcephaly (median standard deviation score &#x2013;6.2, IQR &#x2013;6.5 to 6.1; <xref ref-type="supplementary-material" rid="sd">Supplemental Figure 1B</xref>), epilepsy diagnosed in the neonatal period (range 1&#x2013;7 months), and neonatal/early-onset diabetes (age at diagnosis range 4 weeks to 20 months) that was treated with a full replacement dose of insulin. For all 6 patients, the birth weight was low (median standard deviation score &#x2013;1.85 (&#x2013;1.99 to &#x2013;1.72)), consistent with reduced insulin secretion in utero.</p>
+        <p>Patient II died at the age of 1.3 years. There was a family history of 4 siblings (2 female and 2 male) diagnosed with neonatal diabetes, epilepsy, and microcephaly who had died in infancy. DNA was not available for these individuals.</p>
+        <p>Five individuals (II, IIIa, IIIb, IV, and V) were reported to have severe developmental delay, while neuromotor development was reported to be normal in patient I, who was 5 years of age at time of writing. No other clinical features were reported.</p>
+        <p>There was no significant family history of diabetes for any of the patients. Patient IV&#x2019;s father, who was diagnosed with type 2 diabetes and was being treated with oral hypoglycemic agents, was the only one of the patients&#x2019; parents to be affected with diabetes.</p>
+      </sec>
+      <sec>
+        <title>YIPF5 is expressed in human islets and brain.</title>
+        <p><italic>YIPF5</italic> mRNA expression was evaluated in human tissues by quantitative (qPCR). <italic>YIPF5</italic> was ubiquitously expressed, with abundant expression in pancreatic tissue, islets, &#x3B2; cells, and brain (<xref ref-type="fig" rid="F2">Figure 2A</xref>).</p>
+        <p>The expression pattern of <italic>YIPF5</italic> during brain development was examined by in situ hybridization in human fetal brain samples encompassing stages 12 to 21 gestational weeks (<xref ref-type="fig" rid="F2">Figure 2B</xref> and data not shown). This revealed significant broad expression of <italic>YIPF5</italic> in the developing cortex at all stages examined but most strikingly at 12 gestational weeks. Expression was found in both progenitor (ventricular zone) and neuronal (intermediate zone and cortical plate) compartments. Some selective expression could also be detected within the choroid plexus within the cerebral ventricles. No significant signal was observed with sense probes, confirming the specificity of the findings (<xref ref-type="fig" rid="F2">Figure 2B</xref>).</p>
+      </sec>
+      <sec>
+        <title>YIPF5 deficiency sensitizes human &#x3B2; cells to ER stress&#x2013;induced apoptosis.</title>
+        <p>To investigate the effect of YIPF5 loss in &#x3B2; cells, we established an in vitro model of YIPF5 deficiency using RNA interference in human EndoC-&#x3B2;H1 cells. <italic>YIPF5</italic> was efficiently silenced using 2 different siRNAs by 50%&#x2013;75% at the mRNA level (<xref ref-type="fig" rid="F3">Figure 3A</xref> and <xref ref-type="supplementary-material" rid="sd">Supplemental Figure 2</xref>) and by approximately 50% at the protein level (<italic>n</italic> = 2&#x2013;4).</p>
+        <p>YIPF5 depletion did not impact &#x3B2; cell function: glucose- and forskolin-stimulated insulin secretion was comparable in YIPF5-depleted and -competent EndoC-&#x3B2;H1 cells, as was insulin content (<xref ref-type="fig" rid="F3">Figure 3, B and C</xref>). Furthermore, YIPF5 depletion did not affect proliferation rates of EndoC-&#x3B2;H1 cells, assessed by Ki67 immunostaining (data not shown).</p>
+        <p>Survival of &#x3B2; cells was evaluated under basal condition and following exposure to the ER stressors brefeldin A (which blocks ER-to-Golgi transport) and thapsigargin (which inhibits the sarco/endoplasmic reticulum Ca<sup>2+</sup> ATPase [SERCA]). <italic>YIPF5</italic> knockdown did not significantly affect basal &#x3B2; cell survival, but YIPF5-depleted &#x3B2; cells were markedly sensitized to thapsigargin (<xref ref-type="fig" rid="F3">Figure 3D</xref>). This was confirmed by a second apoptosis assay that measures annexin V binding in real time, showing that thapsigargin induced more apoptosis in cells transfected with either <italic>YIPF5</italic> siRNA (<xref ref-type="fig" rid="F3">Figure 3E</xref>). Brefeldin A treatment markedly induced <italic>YIPF5</italic> mRNA expression in EndoC-&#x3B2;H1 cells and human islets (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 2, A and B</xref>); a trend for YIPF5 protein induction was seen in EndoC-&#x3B2;H1 cells (approximately 2-fold; <italic>n</italic> = 4). <italic>YIPF5</italic> silencing enhanced apoptosis in brefeldin-treated clonal &#x3B2; cells and human islets (<xref ref-type="fig" rid="F3">Figure 3, D and F</xref>), in keeping with the presumed function of YIPF5 in ER-to-Golgi trafficking.</p>
+      </sec>
+      <sec>
+        <title>YIPF5 deficiency increases human &#x3B2; cell ER stress signaling and induces proapoptotic proteins PUMA and DP5.</title>
+        <p>We next investigated whether YIPF5 deficiency affects ER stress signaling by measuring mRNA expression of <italic>CHOP</italic>, spliced <italic>XBP1</italic> (sXBP1), <italic>BiP</italic>, <italic>PDIA4</italic>, and <italic>HYOU1</italic>, which act in the 3 canonical branches of the ER stress response (downstream of PERK, IRE1, and ATF6, respectively). Time course experiments in EndoC-&#x3B2;H1 cells exposed to thapsigargin showed that <italic>YIPF5</italic> knockdown induced ER stress markers (<xref ref-type="fig" rid="F3">Figure 3G</xref> and <xref ref-type="supplementary-material" rid="sd">Supplemental Figure 2, C&#x2013;F</xref>). The induction was more pronounced for PERK- and ATF6-dependent markers, while the IRE1 target sXBP1 was induced to a lesser extent. In brefeldin-treated cells, <italic>YIPF5</italic> silencing also enhanced ER stress signaling (data not shown). Taken together, these results show that YIPF5 deficiency potentiates the ER stress response.</p>
+        <p>The BH3-only proteins PUMA (also known as BBC3), DP5 (also known as HRK), and BIM (also known as BCL2L11) activate apoptosis downstream of ER stress, playing a central role in &#x3B2; cell demise (<xref rid="B26" ref-type="bibr">26</xref>&#x2013;<xref rid="B29" ref-type="bibr">29</xref>). In time course experiments, <italic>DP5</italic> expression was induced by <italic>YIPF5</italic> silencing in thapsigargin-exposed (<xref ref-type="fig" rid="F3">Figure 3H</xref>) and brefeldin-exposed cells (data not shown). <italic>PUMA</italic> expression was also induced by <italic>YIPF5</italic> silencing (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 2G</xref>), while <italic>BIM</italic> expression was not altered.</p>
+        <p>In order to examine whether the induction of CHOP, a proapoptotic transcription factor in the PERK branch of the ER stress response, sensitizes YIPF5-deficient &#x3B2; cells to apoptosis, we double-knocked-down <italic>CHOP</italic> and <italic>YIPF5</italic> (<xref ref-type="fig" rid="F3">Figure 3I</xref> and <xref ref-type="supplementary-material" rid="sd">Supplemental Figure 2H</xref>). <italic>CHOP</italic> silencing protected YIPF5-depleted cells from thapsigargin (<xref ref-type="fig" rid="F3">Figure 3I</xref>), and similarly, <italic>DP5</italic> and <italic>YIPF5</italic> double knockdown (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 2I</xref>) partially protected &#x3B2; cells from thapsigargin-induced apoptosis (<xref ref-type="fig" rid="F3">Figure 3J</xref>).</p>
+      </sec>
+      <sec>
+        <title>Proinsulin accumulation, increased ER stress signaling, and reduced insulin content in YIPF5-knockout stem cell&#x2013;derived &#x3B2; cells.</title>
+        <p>To study the role of YIPF5 in the development and function of pancreatic &#x3B2; cells, we used CRISPR/Cas9 technology to generate a <italic>YIPF5</italic> knockout (KO) in the human embryonic stem cell (hESC) line H1. We deleted exon 3, which is common to all the <italic>YIPF5</italic> isoforms (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 3, A and B</xref>). The <italic>YIPF5</italic>-KO cell line expressed pluripotency markers as expected and showed a normal karyotype (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 4, A&#x2013;C</xref>) with no evidence of CRISPR-induced off-target indels (data not shown). In addition to the KO, we generated an isogenic YIPF5<sup>Ile98Ser</sup> mutation using CRISPR/Cpf1&#x2013;mediated homology-directed repair (HDR) (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 5</xref>). This is the same mutation present in the 2 siblings in family III, who were both diagnosed with diabetes after the age of 6 months. The H1 wild-type (WT), KO, and YIPF5<sup>Ile98Ser</sup> cells differentiated normally until the pancreatic endocrine stage. At this stage, proinsulin accumulation was evident in the KO &#x3B2; cells (<xref ref-type="fig" rid="F4">Figure 4A</xref> and <xref ref-type="supplementary-material" rid="sd">Supplemental Figure 6A</xref>). The percentage of cytoplasmic area stained for proinsulin per &#x3B2; cell of the KO was 5.5-fold higher than in their WT counterparts, while the percentage of insulin area was 70% less in the KO &#x3B2; cells (<xref ref-type="fig" rid="F4">Figure 4C</xref>). The YIPF5<sup>Ile98Ser</sup> &#x3B2; cells showed a much milder phenotype with 20% less insulin area and a 1.7-fold increase in proinsulin area compared with the WT; however, the differences were not statistically significant. A 15-fold increase was detected in the number of cells with high BiP immunoreactivity (INS<sup>+</sup>BiP<sup>hi</sup>) in the KO (<xref ref-type="fig" rid="F4">Figure 4, B and D</xref>; and <xref ref-type="supplementary-material" rid="sd">Supplemental Figure 6B</xref>), likely reflecting ER stress response triggered by proinsulin retention in the ER. Consistent with this, the KO cells showed significant induction of <italic>BiP</italic> and <italic>HYOU1</italic> mRNA expression at stage 7 of differentiation, but not of <italic>ATF6</italic>, <italic>XBP1s</italic>, and <italic>CHOP</italic> (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 7</xref>). <italic>INS</italic> mRNA expression was significantly reduced at stages 6 and 7 in the KO (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 7</xref>), although there was no difference in the percentage of INS<sup>+</sup> cells in the 3 cell lines (<xref ref-type="fig" rid="F4">Figure 4H</xref>). In the KO &#x3B2; cells, no increase in apoptosis was detected by TUNEL assay at stage 7, but the cells were more sensitive following exposure to chemical ER stressors, especially brefeldin A (<xref ref-type="fig" rid="F4">Figure 4E</xref>). Stem cell&#x2013;derived &#x3B2; cells of all 3 lines showed glucose-stimulated insulin secretion, but the absolute amount of secreted insulin was 50% lower in the KO cells (<xref ref-type="fig" rid="F4">Figure 4F</xref>), and cellular insulin content was reduced by 80% (<xref ref-type="fig" rid="F4">Figure 4G</xref>). Transmission electron microscopy was used to study the ultrastructure of the stem cell&#x2013;derived endocrine cells. The ER morphology identified by the studded ribosomes along its outer membrane showed a marked distension of the ER cisternae in all of the studied KO &#x3B2; cells, while the ER in &#x3B1; cells was not affected. ER dilation was observed in only a minority of the YIPF5<sup>Ile98Ser</sup> &#x3B2; cells (<xref ref-type="fig" rid="F4">Figure 4I</xref> and <xref ref-type="supplementary-material" rid="sd">Supplemental Figure 8</xref>).</p>
+      </sec>
+      <sec>
+        <title>Loss of &#x3B2; cell function after in vivo implantation.</title>
+        <p>Stage 7 islet-like aggregates differentiated from WT, KO, and YIPF5<sup>Ile98Ser</sup> H1 stem cells were implanted under the kidney capsule of immunocompromised NOD/SCID-&#x3B3; mice, and their function was monitored by measurement of the serum levels of human C-peptide. While the WT-implanted mice reached a level of 1 nM at 3 months, human C-peptide was barely detectable in the KO-implanted mice, consistent with impaired &#x3B2; cell function. Lower C-peptide levels were also recorded in the YIPF5<sup>Ile98Ser</sup>-implanted mice after 1, 2, and 3 months (<xref ref-type="fig" rid="F5">Figure 5A</xref>). Blood glucose levels in the WT-implanted mice dropped from 8 to 4 mM 3 months after implantation, reflecting glycemic regulation by transplanted human &#x3B2; cells, while no such effect was observed in the KO- or YIPF5<sup>Ile98Ser</sup>-implanted mice (<xref ref-type="fig" rid="F5">Figure 5B</xref>).</p>
+        <p>The grafts were retrieved for immunohistochemical analysis 3 months after implantation. Insulin- and glucagon-positive cells, which were the dominant cell types, were quantified. In the WT and YIPF5<sup>Ile98Ser</sup> grafts, 55% and 42% of the cells were insulin-positive, respectively. In contrast, glucagon-positive cells dominated in the KO grafts, where only 12% of the grafted cells were insulin-positive (<xref ref-type="fig" rid="F5">Figure 5, C and F</xref>). The mature &#x3B2; cells in the KO and YIPF5<sup>Ile98Ser</sup> grafts showed a 3.3- and 3-fold reduction, respectively, in the percentage of cytoplasmic insulin-positive area, and a 5.7- and 5.4-fold increase, respectively, in the proinsulin area (<xref ref-type="fig" rid="F5">Figure 5, D and G</xref>). The accumulated proinsulin colocalized with the ER proteins calreticulin, BiP, and GRP170 (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 9</xref>). The insulin-positive KO cells sustained high BiP expression in vivo, consistent with persistent ER stress. Grafts of YIPF5<sup>Ile98Ser</sup>-mutant aggregates also showed clear signs of increased ER stress when harvested at 3 months after implantation (<xref ref-type="fig" rid="F5">Figure 5, E and H</xref>). No difference was detected in the number of TUNEL<sup>+</sup> cells in the grafts (data not shown).</p>
+        <p><italic>&#x3B2; Cells from patients&#x2019; induced pluripotent stem cells</italic><italic>harboring the p.(Ile98Ser) mutation are sensitive to ER stress&#x2013;induced apoptosis</italic>. To further assess the impact of one of the <italic>YIPF5</italic> missense mutations in a directly patient-relevant model, we generated patients&#x2019; induced pluripotent stem cells (iPSCs) and differentiated them into pancreatic endocrine cells. PBMCs were obtained from patients IIIa and IIIb, who are both homozygous for the p.(Ile98Ser) mutation, and reprogrammed into iPSCs using Sendai virus. The 4 iPSC lines (2 from each patient) had normal karyotype, expressed pluripotency markers, lost the expression of the exogenous transgene vector, and successfully differentiated into the 3 germ layers in an embryoid body assay (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 10, A&#x2013;E</xref>). For one patient iPSC line, we corrected the mutation by CRISPR/Cpf1 and generated 2 isogenic control iPSC lines (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 5A</xref>). These corrected iPSCs had normal morphology and karyotype and expressed pluripotency markers (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 5, D&#x2013;F</xref>).</p>
+        <p>The <italic>YIPF5</italic> patients&#x2019; iPSCs differentiated into stage 7 islet cells with somewhat fewer insulin-positive cells and slightly more glucagon-expressing cells compared with healthy control or corrected iPSCs (<xref ref-type="fig" rid="F6">Figure 6, A and B</xref>). The expression of genes during differentiation was comparable between patients&#x2019; and control and corrected iPSC lines, with a trend for lower <italic>INS</italic> mRNA expression at stages 6 and 7 (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 11</xref>). The p.(Ile98Ser) mutation did not affect proinsulin and insulin content (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 12, A and B</xref>) nor glucose- and/or forskolin-stimulated insulin secretion (<xref ref-type="supplementary-material" rid="sd">Supplemental Figure 12C</xref>).</p>
+        <p>The viability of <italic>YIPF5</italic> patient &#x3B2; cells was less than that of healthy or corrected &#x3B2; cells (<xref ref-type="fig" rid="F6">Figure 6C</xref>). Similarly, caspase-3/7 activation tended to be higher in patients&#x2019; iPSC-&#x3B2; cells compared with corrected &#x3B2; cells (<italic>n</italic> = 2&#x2013;5; data not shown). Following 48&#x2013;72 hours of exposure to the ER stressor thapsigargin, tunicamycin, or brefeldin A, <italic>YIPF5</italic>-mutant cells tended to be more prone to undergo apoptosis (<xref ref-type="fig" rid="F6">Figure 6, C and D</xref>). Contrary to the <italic>YIPF5</italic>-KO H1 cells, ER stress signaling was not enhanced by the p.(Ile98Ser) mutation in patient iPSC- or hESC<sup>p.(Ile98Ser)</sup>-&#x3B2; cells under basal condition (<xref ref-type="fig" rid="F6">Figure 6E</xref>). Induction of <italic>CHOP</italic> and <italic>BiP</italic> mRNA expression upon tunicamycin exposure tended to be higher in patients&#x2019; &#x3B2; cells compared with healthy control and patient corrected &#x3B2; cells (<xref ref-type="fig" rid="F6">Figure 6E</xref>). In keeping with the results in YIPF5-depleted EndoC-&#x3B2;H1 cells, the proapoptotic BCL-2 family members DP5 and PUMA were induced in ER-stressed <italic>YIPF5</italic>-mutant cells (<xref ref-type="fig" rid="F6">Figure 6E</xref>). Taken together, our results demonstrate that the p.(Ile98Ser) <italic>YIPF5</italic> mutation does not compromise differentiation and function of &#x3B2; cells but affects cell survival by sensitizing them to ER stress&#x2013;induced apoptosis.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>We report 6 patients from 5 families with a congenital syndrome of neonatal/early-onset diabetes, severe microcephaly, and epilepsy caused by biallelic mutations in the <italic>YIPF5</italic> gene. Morphological and functional studies show that <italic>YIPF5</italic> is expressed during human brain development and in adult brain and pancreatic islets and that <italic>YIPF5</italic> deficiency reduces &#x3B2; cell survival by enhancing the ER stress response and sensitizing human &#x3B2; cells to ER stress&#x2013;induced apoptosis.</p>
+      <p>The clinical features identified in the 6 patients were very similar, with all of them having severe microcephaly and early-onset epilepsy. All had diabetes, with the age at diagnosis ranging from the neonatal period to early infancy. The disease severity was variable between families, with 5 affected individuals in family II dying in early infancy (the homozygous <italic>YIPF5</italic> mutation could be confirmed only in the proband, as DNA was not available from siblings), while patient I is reported to have normal neuromotor development at the age of 5 years and his epilepsy resolved at the age of 2 years. The missense mutation identified in patient I, p.(Ala181Val), was predicted to be tolerated by 2 of 4 in silico tools used, suggesting the possibility that this variant has a less severe effect on protein function. It is therefore possible that this phenotypic variability is directly linked to the severity of the mutation; however, our cohort of patients with homozygous <italic>YIPF5</italic> mutations is currently too small to allow accurate estimation of any genotype-phenotype relationship.</p>
+      <p>YIPF5 is a 5-span transmembrane protein (<xref ref-type="fig" rid="F1">Figure 1B</xref>) that cycles between the ER and the Golgi and localizes at ER exit sites, the ER-Golgi intermediate compartment, and part of the <italic>cis</italic>-Golgi (<xref rid="B30" ref-type="bibr">30</xref>&#x2013;<xref rid="B33" ref-type="bibr">33</xref>). Previous studies in HeLa cells have suggested that YIPF5 plays a role in cargo exit from the ER (<xref rid="B34" ref-type="bibr">34</xref>), resulting in protein overload, thereby triggering the ER stress response. This was consistent with data in yeast reporting delayed ER-to-Golgi transport when a dominant-negative form of the <italic>YIPF5</italic> ortholog <italic>Yip1A</italic> was overexpressed (<xref rid="B33" ref-type="bibr">33</xref>). Other studies did not detect delayed anterograde cargo transport when silencing <italic>YIPF5</italic> expression and instead found evidence for a role of YIPF5 in retrograde Golgi-to-ER transport (<xref rid="B30" ref-type="bibr">30</xref>, <xref rid="B31" ref-type="bibr">31</xref>). ER whorling and partial Golgi fragmentation have also been observed in in vitro models of YIPF5 depletion, suggesting a role of YIPF5 in ER and Golgi structure maintenance (<xref rid="B30" ref-type="bibr">30</xref>, <xref rid="B32" ref-type="bibr">32</xref>&#x2013;<xref rid="B34" ref-type="bibr">34</xref>).</p>
+      <p>The mutations identified in our patients affect different regions of the YIPF5 protein, 3 of them located in the cytoplasmic domain, which is likely to be important for interactions with other proteins, and the other 2 predicted to affect residues in the transmembrane domains. All these mutations are predicted to be deleterious; however, it is possible that function of the YIPF5 protein is not completely lost. <italic>YIPF5</italic> knockdown in HeLa cells has been previously reported to result in reorganization of the ER into stacked, concentric, whorl-like structures (<xref rid="B34" ref-type="bibr">34</xref>). The same group later investigated the effect of a comprehensive range of amino acid substitutions in YIPF5 (<xref rid="B35" ref-type="bibr">35</xref>). They reported that even single-residue substitutions of amino acids located in the third and fourth transmembrane domains (which include the p.Ala181 and p.Trp218 residues mutated in families I and IV) severely compromised protein stability. These results thereby support the likely pathogenicity of the p.(Ala181Val) and p.(Trp218Arg) variants we have identified, possibly through impaired protein stability. Dykstra et al. (<xref rid="B35" ref-type="bibr">35</xref>) identified 5 YIPF5 residues (3 cytoplasmic and 2 in the transmembrane domain) that, when mutated, resulted in ER whorl formation in HeLa cells. Among the residues investigated were p.Gly97 and p.Ile98, which are mutated in families III and V. Substitutions at these positions were not found to result in whorl formation in the study by Dykstra et al. (<xref rid="B35" ref-type="bibr">35</xref>). Consistent with this, we did not observe whorl formation in hESC<sup>p.(Ile98Ser)</sup>-&#x3B2; cells, supporting the previously suggested notion that whorl formation is uncoupled from other YIPF5 functions (<xref rid="B35" ref-type="bibr">35</xref>) and our hypothesis that the mutations identified in our patients do not completely abolish YIPF5 function. To try to account for this possibility in our functional experiments, we used a model of complete loss of function (complete KO in hESCs), as well as models of incomplete loss of function [50%&#x2013;75% knockdown in human EndoC-&#x3B2;H1 cells, iPSCs derived from 2 of the cases with the p.(Ile98Ser) mutation, and hESCs harboring the same homozygous p.(Ile98Ser) mutation].</p>
+      <p>In all 3 partial loss-of-function models, YIPF5 deficiency resulted in increased expression of ER stress markers upon treatment with the ER stressors thapsigargin, tunicamycin, and brefeldin A, with a tendency to increase apoptosis. In EndoC-&#x3B2;H1 cells, <italic>YIPF5</italic> expression was strongly upregulated by brefeldin A, which blocks ER-to-Golgi transport, suggesting that transcriptional induction of YIPF5 could be part of a compensatory mechanism to overcome the inhibition of trafficking. Further studies will be needed in order to elucidate which pathways regulate YIPF5 expression in response to ER stressors such as brefeldin A and whether Golgi stress response transcription factors such as CREB3 (<xref rid="B36" ref-type="bibr">36</xref>) and TFE3 (<xref rid="B37" ref-type="bibr">37</xref>) are involved. Taken together, our results support YIPF5&#x2019;s role in ER-to-Golgi transport and point toward YIPF5 loss sensitizing &#x3B2; cells to ER stress&#x2013;induced apoptosis. In HeLa cells, YIPF5 has been shown to interact with and promote IRE1 oligomerization and phosphorylation and enhance downstream XBP1 splicing upon tunicamycin exposure or infection with <italic>Brucella abortus</italic> (<xref rid="B38" ref-type="bibr">38</xref>). In HeLa and CaSki cells, another human cervical cancer cell line, YIPF5 constitutively activated IRE1 and PERK signaling, with YIPF5-depleted cells showing reduced IRE1 phosphorylation, lower PERK mRNA and protein expression, and less PERK phosphorylation and downstream signaling (<xref rid="B39" ref-type="bibr">39</xref>). These contrasting findings suggest that YIPF5 may impact ER stress and the ER stress response in a cell type&#x2013; and/or context-dependent manner.</p>
+      <p>As expected, the most striking phenotype was observed when the <italic>YIPF5</italic> gene was completely knocked out in hESCs. These KO &#x3B2; cells showed a strong increase in the proinsulin/insulin ratio, consistent with proinsulin not being transported into the Golgi, and triggered the ER stress response. Furthermore, transmission electron microscopy of YIPF5-KO &#x3B2; cells and &#x3B1; cells showed a pronounced ER distension in the KO &#x3B2; cells resulting from ER stress induced by proinsulin accumulation in the ER. In contrast, the ER in YIPF5-KO &#x3B1; cells was not affected, suggesting that YIPF5 is specifically essential for proinsulin trafficking from the ER in &#x3B2; cells.</p>
+      <p>The milder phenotype observed in patient-iPSC- and ESC<sup>p.(Ile98Ser)</sup>-derived &#x3B2; cells might indicate that the YIPF5 protein harboring the p.(Ile98Ser) mutation still maintains some residual activity, which is consistent with the 2 patients being diagnosed with diabetes in early infancy (rather than at birth) and having low but measurable C-peptide levels more than 10 years after diabetes diagnosis (<xref rid="T1" ref-type="table">Table 1</xref>). However, ESC<sup>p.(Ile98Ser)</sup>-derived islet-like aggregates showed a significant decrease in human C-peptide levels associated with increased proinsulin accumulation and signs of ER stress after implantation, demonstrating the evolution of cellular pathology with further maturation of the stem cell&#x2013;derived &#x3B2; cells. It is possible that the complete absence of YIPF5 protein leads to a more drastic phenotype, as seen in <italic>Yipf5</italic> knockout in mice, which is postnatally lethal (<xref rid="B40" ref-type="bibr">40</xref>). In addition, the human <italic>YIPF5</italic> gene appears to be intolerant to loss-of-function variants based on gnomAD gene constraints (pLI = 0.99), further supporting that loss-of-function variants are likely strongly deleterious in humans. More functional experiments and identification of further patients are needed to test these hypotheses.</p>
+      <p>YIPF5 is widely expressed across tissues (<xref ref-type="fig" rid="F2">Figure 2A</xref>). Our qPCR analysis detected abundant expression in pancreatic tissue, islets, &#x3B2; cells, and brain (<xref ref-type="fig" rid="F2">Figure 2A</xref>). Previous expression studies of swine <italic>YIPF5</italic> showed expression in adipose tissue and spleen, but low expression in intestine, liver, lung, muscle, and kidney; pancreatic tissue was not tested (<xref rid="B41" ref-type="bibr">41</xref>). While ubiquitously expressed in human tissues, (partial) <italic>YIPF5</italic> loss of function caused by the mutations results in a &#x3B2; cell&#x2013; and brain-specific phenotype in the patients, possibly pointing to YIPF5 cargo specificity; it will be of interest to examine this in future studies.</p>
+      <p>The <italic>YIPF5</italic> expression pattern we observed in human embryonic brain, showing high expression in progenitor and neuronal compartments of the developing cortex in addition to the choroid plexus within the cerebral ventricles, is consistent with <italic>YIPF5</italic> playing a role in neural progenitors and/or neurons during development of the cerebral cortex, which is mostly affected by primary microcephaly. The expression in the choroid plexus is in line with potential control of brain morphogenesis and size, as this structure was recently found to secrete important morphogens and growth factors during embryonic brain development (<xref rid="B42" ref-type="bibr">42</xref>, <xref rid="B43" ref-type="bibr">43</xref>). Physiological ER stress controls cortical neurogenesis (<xref rid="B44" ref-type="bibr">44</xref>), and sustained ER stress causes microcephaly by perturbing the normal generation and survival of projection neurons during cerebral cortex development (<xref rid="B44" ref-type="bibr">44</xref>, <xref rid="B45" ref-type="bibr">45</xref>). As an example, Zika virus infection has been shown to cause microcephaly by inducing ER stress; inhibition of PERK prevents microcephaly in Zika virus&#x2013;infected mouse embryos (<xref rid="B45" ref-type="bibr">45</xref>).</p>
+      <p>One potential explanation for YIPF5&#x2019;s essential role in &#x3B2; cell survival is its interaction with components of the COPII vesicle coat protein complex (sec23 and sec24) that mediates COPII-dependent export and the anterograde transport from the ER to the Golgi (<xref rid="B33" ref-type="bibr">33</xref>). This pathway plays a vital role in ER homeostasis and &#x3B2; cell survival, with inhibition of Sar1, which initiates COPII assembly, causing alterations in ER morphology and severe ER stress in &#x3B2; cells (<xref rid="B46" ref-type="bibr">46</xref>). Consistent with this, ER morphology was severely affected in <italic>YIPF5</italic>-KO hESC-&#x3B2; cells, but we did not observe the whorl-like structures described in <italic>YIPF5</italic>-deficient HeLa cells (<xref rid="B34" ref-type="bibr">34</xref>), suggesting that phenotypic specificity may be due to <italic>YIPF5</italic> cell-specific functions. The specific importance of YIPF5 for &#x3B2; cells is further supported by our observation that expression of ER stress markers in islet aggregates derived from <italic>YIPF5</italic>-KO hESCs was limited to the &#x3B2; cells, while &#x3B1; cells had normal glucagon expression and no ER stress. These data strongly suggest that while &#x3B2; cells are highly dependent on YIPF5 function, &#x3B1; cells appear to be able to survive without YIPF5.</p>
+      <p>While disruption of ER-to-Golgi trafficking is known to result in at least 10 different neurological disorders (<xref rid="B47" ref-type="bibr">47</xref>), its involvement in the etiology of diabetes has been less clear. Recently a truncating mutation in the <italic>TANGO1</italic> (<italic>MIA3</italic>) gene, encoding a protein involved in the export of bulky cargos from the ER to the Golgi, has been reported in one consanguineous family with a complex syndrome of dentinogenesis imperfecta, short stature, skeletal abnormalities, sensorineural hearing loss, and mild intellectual disability. All 4 affected individuals also had insulin-dependent diabetes, highlighting the importance of the mechanisms regulating cargo exit from the ER for &#x3B2; cell function (<xref rid="B48" ref-type="bibr">48</xref>). A &#x3B2; cell&#x2013;specific knockout of cTAGE5, a TANGO1-interacting protein, has been previously shown to impair proinsulin trafficking, induce ER stress, and cause impaired glucose tolerance in mice (<xref rid="B49" ref-type="bibr">49</xref>). Furthermore, impaired ER-to-Golgi trafficking may play a role in &#x3B2; cell dysfunction and death caused by environmental insults in type 2 diabetes, as exposure of &#x3B2; cells to the saturated free fatty acid palmitate reduces protein trafficking, thereby contributing to ER stress (<xref rid="B19" ref-type="bibr">19</xref>). The molecular mechanisms by which palmitate exerts these effects remain to be fully elucidated.</p>
+      <p>In conclusion, we report homozygous mutations in <italic>YIPF5</italic> as the genetic cause of an autosomal recessive syndrome characterized by microcephaly, epilepsy, and neonatal/early-onset diabetes. Functional studies show that <italic>YIPF5</italic> deficiency affects &#x3B2; cell function by enhancing ER stress and sensitizing human &#x3B2; cells to ER stress&#x2013;induced apoptosis. To the best of our knowledge, this is the first report of mutations in a gene affecting ER-to-Golgi trafficking resulting in diabetes by increasing &#x3B2; cell ER stress, uncovering a critical role of YIPF5 in the human &#x3B2; cell. Our findings highlight a biological pathway essential for &#x3B2; cells.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <p>Further information can be found in <xref ref-type="supplementary-material" rid="sd">Supplemental Methods</xref>.</p>
+      <sec>
+        <title>Patient cohort.</title>
+        <p>Patients with neonatal diabetes were recruited by their clinicians for molecular genetic analysis in the Exeter Molecular Genetics Laboratory.</p>
+      </sec>
+      <sec>
+        <title>Genetic analysis.</title>
+        <p>Genome sequencing was performed on DNA extracted from peripheral blood leukocytes of 2 probands diagnosed with neonatal diabetes, microcephaly, and epilepsy. Samples were sequenced on an Illumina HiSeq 2500 with a mean read depth of 38.3 for patient I and 33.6 for patient II. The sequencing data were analyzed using an approach based on the GATK best practice guidelines. GATK HaplotypeCaller (<ext-link ext-link-type="uri" xlink:href="https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller">https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller</ext-link>) was used to identify variants that were annotated using Alamut batch version 1.8 (Interactive Biosoftware), and variants that failed the QD2 VCF filter or had less than 5 reads supporting the variant allele were excluded. Copy number variants were called by SavvyCNV, which uses read depth to judge copy number states. SavvyVcfHomozygosity was used to identify large (&gt;3 Mb) homozygous regions in the genome sequencing data (<ext-link ext-link-type="uri" xlink:href="https://github.com/rdemolgen/SavvySuite">https://github.com/rdemolgen/SavvySuite</ext-link>).</p>
+        <p>Replication studies were performed in a cohort of 187 patients diagnosed with diabetes before age 12 months in whom the known genetic causes of neonatal diabetes had been excluded. Patients were analyzed using a targeted next-generation sequencing assay (<xref rid="B50" ref-type="bibr">50</xref>), which includes baits for known neonatal diabetes genes and additional candidate genes followed up from gene discovery, such as <italic>YIPF5</italic>, or by independent exome sequencing analysis. Variant confirmation and cosegregation in family members were performed by Sanger sequencing (see <xref ref-type="supplementary-material" rid="sd">Supplemental Table 4</xref> for primer sequence).</p>
+        <p>The bioinformatics tools SIFT, PolyPhen-2, MutationTaster, and Align GVGD were accessed through the Alamut software (Interactive Biosoftware) to predict the effect of variants on the YIPF5 protein.</p>
+      </sec>
+      <sec>
+        <title>Human &#x3B2; cell and islet culture and treatment.</title>
+        <p>Human insulin-producing EndoC-&#x3B2;H1 cells, provided by R. Scharfmann (Institut Cochin, Universit&#xE9; Paris Descartes, Paris, France), were cultured as previously described (<xref rid="B51" ref-type="bibr">51</xref>, <xref rid="B52" ref-type="bibr">52</xref>). EndoC-&#x3B2;H1 cells were exposed to 1 &#x3BC;M thapsigargin or 0.05 &#x3BC;g/mL brefeldin A in medium containing 2% FBS. All compounds were from Sigma-Aldrich. The vehicle DMSO was added to the control condition in all experiments.</p>
+        <p>Human islets from nondiabetic organ donors (<italic>n</italic> = 4, 2 female and 2 male donors; age 62 &#xB1; 9 years; BMI 27 &#xB1; 3 kg/m<sup>2</sup>; cause of death: 3 cerebral hemorrhage, 1 cardiovascular disease) were isolated by collagenase digestion and density gradient purification, and cultured as previously described (<xref rid="B53" ref-type="bibr">53</xref>). The percentage of &#x3B2; cells of the human islet preparations was 59% &#xB1; 5%, as determined by insulin immunofluorescence.</p>
+      </sec>
+      <sec>
+        <title>RNA interference.</title>
+        <p>YIPF5 was silenced using 2 siRNAs targeting different sequences of YIPF5 (si1 SI04182745 and si2 SI04344984, Qiagen). CHOP was silenced using SI3041633 (Qiagen) and DP5 using s194952 (Ambion). Allstar Negative Control siRNA (siCT, Qiagen) was used as negative control. This siRNA does not affect &#x3B2; cell gene expression, function, or viability (<xref rid="B54" ref-type="bibr">54</xref>). Transient transfection was performed using 30 nM siRNA and Lipofectamine RNAiMAX lipid reagent (Invitrogen/Life Technologies) as previously described (<xref rid="B54" ref-type="bibr">54</xref>). After overnight transfection, cells were cultured at least 8 hours before treatment.</p>
+      </sec>
+      <sec>
+        <title>RNA in situ hybridization.</title>
+        <p>In situ hybridization on human fetal brain tissue was performed using digoxigenin-labeled RNA probes (DIG RNA labeling kit, Roche) as previously described (<xref rid="B55" ref-type="bibr">55</xref>). The riboprobe template was designed to target the first 764 nucleotides of the 6 different splice variants of human YIPF5. The template was amplified by PCR using human YIPF5-specific primers: forward 5&#x2032;-ggtggt<bold>gagctc</bold>ATGCTGGCTATGACTAATC-3&#x2032;, reverse 5&#x2032;-ggtggt<bold>ggtacc</bold>AAATCTGCATGAGAG-3&#x2032;, in which SacI and KpnI restriction sites (highlighted in bold) were added to allow the directional cloning of the probe into pBluescript II SK(+) plasmid. Sense and antisense probes were generated by transcription of the KpnI or SacI linearized plasmid with T3 or T7 RNA polymerases, respectively.</p>
+      </sec>
+      <sec>
+        <title>Genome editing of hESCs and iPSCs.</title>
+        <p>For knocking out the <italic>YIPF5</italic> gene in H1 hESCs, the third exon was deleted using 2 CRISPR/Cas9 guides that were designed with Benchling (Biology Software, 2019) (G1.1 GGCTATGACTATTCGCAGCA and G1.2 GATGAGCCACCTTTATTAGA). The ribonucleoprotein (RNP) components (HiFi Cas9 protein, crRNA and tracrRNA) were purchased from Integrated DNA Technologies (IDT) and prepared based on the manufacturer&#x2019;s protocol. Two million cells were electroporated with the RNP complex using Neon Transfection System (1100 V, 20 milliseconds, 2 pulses, Thermo Fisher Scientific) and single-cell-cloned using limiting dilution. The sequence of the primers used to screen the formed colonies is provided in <xref ref-type="supplementary-material" rid="sd">Supplemental Table 5</xref>. The KO cell line was characterized for pluripotency using immunocytochemistry for OCT4, TRA1-60, and SSEA4, and for gene expression levels of <italic>OCT4</italic>, <italic>SOX2</italic>, and <italic>NANOG</italic> by qPCR.</p>
+        <p>CRISPR/Cpf1 was used to correct the mutation p.(Ile98Ser) in the patient iPSC line ULBi006.SA7 and to introduce the mutation p.(Ile98Ser) in WT H1 hESCs using homology-directed repair (HDR). An isogenic control for the patient iPSCs was generated using a 21-base guide, CCAGATGTGGTCAAAATTGCT, while the guide for introducing the mutation in H1 was CCAGATGTGGTCAAAATTGAT. The correction and mutation templates were generated as a 200-bp PCR amplicon using 110-base forward and reverse primers (see <xref ref-type="supplementary-material" rid="sd">Supplemental Table 5</xref> for sequence).</p>
+        <p>The templates were designed to introduce silent mutations to generate a restriction site to facilitate the screening of the clones using restriction enzymes. The restriction site for the correction template was PfeI, while BamHI was created for the mutation template. The RNP components (Alt-R A.s. Cpf1 Ultra and crRNA) were purchased from IDT and prepared based on the manufacturer&#x2019;s protocol. The cells were electroplated as mentioned before with 2 &#x3BC;g HDR template, then single-cell-sorted and screened using PCR (see <xref ref-type="supplementary-material" rid="sd">Supplemental Table 5</xref> for primer sequence), followed by enzyme restriction. Positive clones were confirmed using Sanger sequencing at Eurofins Genomics, and the sequences were aligned using Geneious Prime 2020.1.1. The top 3 off-target hits predicted by the online tool CRISPOR (<xref rid="B56" ref-type="bibr">56</xref>) were checked, and no off-target indels were found (see <xref ref-type="supplementary-material" rid="sd">Supplemental Table 5</xref> for primer sequence).</p>
+      </sec>
+      <sec>
+        <title>hESC culturing, differentiation into &#x3B2; cells, and chemical ER-stress induction.</title>
+        <p>The H1 hESCs were obtained from WiCell, Wisconsin Materials [provider scientist, Maike Sander, University of California; stock WA01 (H1)]. Differentiation of hESCs to pancreatic endocrine cells was performed using published protocols (<xref rid="B57" ref-type="bibr">57</xref>&#x2013;<xref rid="B59" ref-type="bibr">59</xref>) with further modifications. Cells were seeded at a density of 1.8 million cells per 3.5 cm well on Matrigel-coated plates with E8 medium containing 10 &#x3BC;M ROCK inhibitor. Differentiation was started 24 hours later and proceeded through a 7-stage differentiation protocol (stages 1&#x2013;4 in adherent culture, stage 5 in AggreWell [34421, Stemcell Technologies], and stages 6 and 7 in suspension culture). After 1 week of stage 7, 50 hESC-derived islet-like aggregates were transferred into a 12-well plate in 1 mL of stage 7 medium with brefeldin A (B5936, Sigma-Aldrich) at 1 &#x3BC;g/mL for 24 hours, thapsigargin (T9033, Sigma-Aldrich) and tunicamycin (T7765, Sigma-Aldrich) at 1 &#x3BC;M and 5 &#x3BC;g/mL, respectively, for 48 hours. DMSO was used as a vehicle control at 5 &#x3BC;L/mL. Aggregates were PFA-fixed for immunohistochemistry.</p>
+      </sec>
+      <sec>
+        <title>Transplantation of differentiated cells.</title>
+        <p>NOD/SCID-&#x3B3; mice (005557, The Jackson Laboratory) were obtained from SCANBUR and housed at Biomedicum Helsinki animal facility, on a 12-hour light/12-hour dark cycle and food ad libitum. Transplantations were performed on 3- to 9-month-old mice as described previously (<xref rid="B60" ref-type="bibr">60</xref>). Briefly, aggregates equivalent to approximately 3 million cells were loaded on PE-50 tubing and transplanted under the kidney capsule. Mice were anesthetized with isoflurane. Carprofen (5 mg/kg, subcutaneously; Rimadyl, Pfizer, Helsinki, Finland) and buprenorphine (0.05&#x2013;0.1 mg/kg, subcutaneously; Temgesic, RB Pharmaceuticals Ltd.) were used as analgesics during the operation and the following day. Mouse blood samples were collected monthly from the saphenous vein using heparinized capillary tubes. Plasma was separated by centrifugation at 5000 RCF for 5 minutes at room temperature.</p>
+      </sec>
+      <sec>
+        <title>PBMC reprogramming into iPSCs and iPSC quality control.</title>
+        <p>PBMCs from patients IIIa and IIIb were reprogrammed into iPSCs using Sendai virus. Cells were plated in RPMI with 10% FBS (Gibco) at 10<sup>6</sup> cells per well of a 6-well low-attachment plate (3471, Corning) and infected the next day with SeVdp (KOSM302L) vector (22MAT1411, National Institute of Advanced Industrial Science and Technology, Tokyo, Japan) at MOI 2 for 2 hours. Medium was refreshed with E6 medium (Gibco), and cells were transferred to Matrigel-coated plates (Corning BV, Life Sciences). From day 8, cells were cultured in E8 medium (Life Technologies) and medium was changed every second day. Emerging iPSC colonies were manually picked up. Vector removal was confirmed by reverse-transcriptase PCR with the following primers: 5&#x2032;-AGACCCTAAGAGGACGAAGACAGA-3&#x2032; and 5&#x2032;-ACTCCCATGGCGTAACTCCATAG-3&#x2032;. For the embryoid body assay, iPSCs reaching 60%&#x2013;70% confluence were detached with 0.5 mM EDTA (Life Technologies), resuspended in E8 medium containing 10 &#x3BC;M ROCK inhibitor (Stemcell Technologies), and transferred to super-low-attachment plate (Corning) on a rotating platform to form aggregates. The next day, embryoid bodies were resuspended in DMEM/F-12 medium (Gibco) containing Glutamax (Gibco), 10% KSR (Life Technologies), 1% NEAA (Thermo Fisher Scientific), 0.1 mM &#x3B2;-mercaptoethanol (Gibco), and 1% penicillin/streptomycin. Medium was changed every second day for 1 week. Embryoid bodies were plated on Matrigel-coated ICC chambers (15&#x2013;20 per well) for 2 weeks, with medium refreshed every second day, and fixed in PFA 4% for immunocytochemistry. For karyotyping, KaryoMax Colcemid solution (Gibco 15210) was added to 80% confluent iPSCs at a final concentration of 500 ng/mL for 3&#x2013;4 hours at 37&#xB0;C. Cells were washed with PBS, incubated in Trypsin/EDTA solution (R001100, Thermo Fisher Scientific) at room temperature for 2 minutes, detached, collected in DMEM/F-12 with 10% FBS (Gibco), centrifuged for 10 minutes at 300 <italic>g</italic>, and resuspended in 0.0075 M KCl. After 10 minutes of incubation, cells were centrifuged at 600 <italic>g</italic> for 10 minutes and resuspended in the fixative methanol/acetic acid 3:1 (Merck). After 20 minutes, cells were washed twice with the fixative and stored at 4&#xB0;C. Karyotyping was done at the Institute of Pathology and Genetics, Gosselies, Belgium.</p>
+      </sec>
+      <sec>
+        <title>iPSC culturing and differentiation into &#x3B2; cells.</title>
+        <p>iPSCs were cultured in Matrigel-coated plates (Corning) in E8 medium as previously described (<xref rid="B61" ref-type="bibr">61</xref>, <xref rid="B62" ref-type="bibr">62</xref>). Four <italic>YIPF5</italic> mutant cell lines (2 clones from each patient, namely, ULBi006.SA2 and ULBi006.SA7, ULBi007.BA2 and ULBi007.BA11) were used as well as a previously characterized control cell line (HEL115.6) (<xref rid="B63" ref-type="bibr">63</xref>). The differentiation into &#x3B2; cells was done as previously described (<xref rid="B62" ref-type="bibr">62</xref>, <xref rid="B63" ref-type="bibr">63</xref>). Cells were seeded at 2.5 &#xD7; 10<sup>6</sup> cells per 3.5 cm well in E8 medium containing 5 &#x3BC;M ROCK inhibitor (Stemcell Technologies). Differentiation was started 24 hours later. Until the pancreatic progenitor stage (stage 4), cells were differentiated in Matrigel-coated wells, after which they were plated in microwell plates at 900 cells per microwell (AggreWell) to form islet-like aggregates. The differentiation was continued in microwells. After 1 week of stage 7, aggregates were exposed to 1 &#x3BC;M thapsigargin, 5 &#x3BC;g/mL tunicamycin, or 0.01 &#x3BC;g/mL brefeldin A in stage 7 medium. DMSO was used as vehicle control.</p>
+      </sec>
+      <sec>
+        <title>Insulin content and secretion.</title>
+        <p>EndoC-&#x3B2;H1 cells were preincubated in DMEM containing 2.8 mM glucose for 24 hours, followed by incubation in glucose-free Krebs solution for 1 hour. Cells were then exposed to Krebs containing 0 mM or 20 mM glucose or 20 mM glucose plus 10 &#x3BC;M forskolin for 40 minutes. Insulin was measured in cell-free supernatants and acid-ethanol&#x2013;extracted cell lysates, the latter normalized for total protein content measured by Bradford dye method. Fifty hESC-derived stage 7 aggregates were washed twice with glucose-free Krebs buffer and preincubated on a rotating platform with 1 mL 3.3 mM glucose-containing Krebs buffer for 1 hour. Aggregates were incubated sequentially in 3.3 mM glucose, 20 mM glucose, and 3.3 mM plus 30 mM KCl for periods of 30 minutes. Supernatants were stored at &#x2212;80&#xB0;C for ELISA. Aggregates were lysed by sonication and acid-ethanol for determination of insulin and DNA contents. Insulin secretion results are presented as insulin released after cell mass normalization using DNA content of the &#x3B2; cell percentage assessed by FACS. Forty iPSC-derived stage 7 aggregates were washed with glucose-free Krebs buffer (Univercell Biosolutions) in low-adhesion plates (83.1836, Starstedt) and preincubated in 1.6 mM glucose Krebs for 30 minutes. Aggregates were exposed to 1.6 mM glucose, 16.7 mM glucose, or 16.7 mM glucose plus 10 &#x3BC;M forskolin for 1 hour. Hormone content was normalized for total protein content.</p>
+      </sec>
+      <sec>
+        <title>ELISA.</title>
+        <p>Human C-peptide, proinsulin, and insulin levels were measured from plasma samples and cell supernatants and lysates with Ultrasensitive C-peptide, proinsulin, and insulin ELISAs (all from Mercodia, Sweden) according to the manufacturer&#x2019;s instructions.</p>
+      </sec>
+      <sec>
+        <title>Statistics.</title>
+        <p>Statistical analyses were performed with GraphPad Prism (version 7.0c, GraphPad Software). Data points represent independent experiments. In secretion experiments, data points represent the average of biological duplicates. In the box plots, the median is shown by a horizontal line; 25th and 75th percentiles are at the bottom and top of the boxes; whiskers represent minimum and maximum values. In time course experiments, data are shown as mean &#xB1; SEM. For the EndoC-&#x3B2;1 and iPSC experiments, comparisons between groups were performed by paired 2-way ANOVA or mixed-model analysis (in case of a missing value), followed by 2-tailed <italic>t</italic> tests with the Bonferroni correction for multiple comparisons. For hESC experiments, the parametric unpaired 2-tailed <italic>t</italic> test and 1-way and 2-way ANOVA tests with the Bonferroni multiple-comparisons test were used to compare the sum of ranks. <italic>P</italic> values less than 0.05 were considered statistically significant.</p>
+      </sec>
+      <sec>
+        <title>Study approval.</title>
+        <p>The genetic study in the Exeter Molecular Genetics Laboratory was conducted in accordance with the Declaration of Helsinki, and all patients or their parents gave informed consent for genetic testing.</p>
+        <p>Human pancreata not suitable for clinical purposes were collected from nondiabetic, brain-dead organ donors after written informed consent from next of kin, and handled as described (<xref rid="B64" ref-type="bibr">64</xref>) with the approval of the Ethical Committee, University of Pisa.</p>
+        <p>The human fetal brain study was approved by the Ethics Committee of Erasmus Hospital, Universit&#xE9; Libre de Bruxelles. Written informed consent was given by the parents.</p>
+        <p>Mouse experiments were approved by the National Animal Experiment Board in Finland (ESAVI/14852/2018).</p>
+        <p>Patients&#x2019; PBMCs were obtained after written informed consent was given by patients or parents with approval by the Erasmus Hospital Ethics Committee (ref. P2008/313). Written informed consent for inclusion of patient photographs in scientific publications was collected by the referring clinicians from one parent of each patient.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Author contributions</title>
+      <p>EDF, ATH, SEF, SE, TO, and MC conceived the project. EDF, ML, HI, HM, FF, JSV, ATH, MC, TO, PM, and DLE planned the experiments. EDF, MBJ, SEF, CJ, VS, and KP analyzed the genetic data. MNW and TWL performed bioinformatics analysis for genome sequencing and targeted next-generation sequencing data. VL planned and conducted morphometric analyses. HV and EJ performed the electron microscopic analyses. ATH, BH, MNO, EU, RY, TG, MY, KP, and BA analyzed the clinical data. CD, YC, CC, TS, HS, and NP performed experiments in EndoC-&#x3B2;H1 cells and iPSCs-derived &#x3B2; cells. YC reprogrammed patient PBMCs into iPSCs. MIE, AB, IS, and PV performed in situ hybridization. EDF, ML, and HI wrote the first draft of the manuscript. All authors reviewed and improved the manuscript. The assignment of the authorship order for the first 6 authors is mainly chronological and reflects the equal contributions from the 3 research groups: EDF identified the causative gene in patients with neonatal diabetes and microcephaly, ML performed the first functional studies suggesting that ER stress may be the causative mechanism, HI and HM generated the genetically modified models and performed their functional studies, HI also generated the mutation correction in patient-derived iPSCs, MNW developed the genome sequencing and homozygosity mapping pipelines that allowed identification of the causative gene, and FF performed studies in patient-derived iPSCs.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="sd">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <caption>
+          <title>Supplemental data</title>
+        </caption>
+        <media mimetype="application" mime-subtype="pdf" xlink:href="jci-130-141455-s463.pdf" orientation="portrait" id="d39e1886" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank the families for participating in the study. We are also grateful to Rebecca Ward and Richard Caswell (University of Exeter Medical School), Isabelle Millard and Anyisha&#xEF; Musuaya (ULB Center for Diabetes Research), and Anne Degrave (Facult&#xE9; de M&#xE9;decine Paris-Diderot, Universit&#xE9; de Paris). Special thanks of gratitude to Jarkko Ustinov and Solja Eurola (Biomedicum Stem Cell Center, University of Helsinki) for excellent technical and experimental support. We thank Diego Balboa Alonso (Centre for Genomic Regulation, Barcelona) for professional guidance and support. EDF is a Diabetes UK RD Lawrence Fellow (19/005971). ATH and SE are the recipients of a Wellcome Trust Senior Investigator award (grant WT098395/Z/12/Z), and ATH is employed as a core member of staff within the National Institute for Health Research&#x2013;funded Exeter Clinical Research Facility and is an NIHR senior investigator. SEF has a Sir Henry Dale Fellowship jointly funded by the Wellcome Trust and the Royal Society (grant 105636/Z/14/Z). This work was supported by grants from the Fonds Erasme to ML and MC; grants from the Fondation ULB, the Fonds National de la Recherche Scientifique (FNRS), the Brussels Capital Region Innoviris project DiaType, and the Francophone Foundation for Diabetes Research (sponsored by the French Diabetes Federation, Abbott, Eli Lilly, Merck Sharp &amp; Dohme, and Novo Nordisk) to MC; and the Innovative Medicines Initiative 2 Joint Undertaking under grant agreement 115797 (INNODIA) and 945268 (INNODIA HARVEST). This Joint Undertaking receives support from the Union&#x2019;s Horizon 2020 research and innovation programme and the European Federation of Pharmaceutical Industries and Associations, JDRF, and the Leona M. and Harry B. Helmsley Charitable Trust (to PM, DLE, TO, and MC). DLE is funded by WELBIO/FRFS (WELBIO-CR-2019C-04), Belgium. Work in the TO laboratory was funded by the Academy of Finland (grant 297466 and MetaStem Center of Excellence grant 312437), the Sigrid Jus&#xE9;lius Foundation, the Novo Nordisk Foundation, and Helsinki University Hospital research funds. Work in the PV laboratory was funded by the Belgian FRS/FNRS, the European Research Council (ERC Adv Grant GENDEVOCORTEX), the WELBIO Program of the Walloon Region, the AXA Research Fund, the Fondation ULB, the ERA-NET MicroKin, and the Vlaams Instituut voor Biotechnologie (VIB).</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p><bold>Conflict of interest:</bold> The authors have declared that no conflict of interest exists.</p>
+      </fn>
+      <fn>
+        <p><bold>Copyright:</bold> &#xA9; 2020, De Franco et al. This is an open access article published under the terms of the Creative Commons Attribution 4.0 International License.</p>
+      </fn>
+      <fn>
+        <p><bold>Reference information:</bold><italic> J Clin Invest</italic>. 2020;130(12):6338&#x2013;6353.https://doi.org/10.1172/JCI141455.</p>
+      </fn>
+      <fn>
+        <p>See the related Commentary at <related-article related-article-type="commentary" id="d39e4635" ext-link-type="doi" xlink:href="10.1172/JCI142364"><italic>YIPF5</italic>&#xFEFF; mutations cause neonatal diabetes and microcephaly: progress for precision medicine and mechanistic understanding&#xFEFF;</related-article>.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Edghill</surname>
+              <given-names>EL</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>HLA genotyping supports a nonautoimmune etiology in patients diagnosed with diabetes under the age of 6 months</article-title>
+          <source>Diabetes</source>
+          <year>2006</year>
+          <volume>55</volume>
+          <issue>6</issue>
+          <fpage>1895</fpage>
+          <lpage>1898</lpage>
+          <pub-id pub-id-type="doi">10.2337/db06-0094</pub-id>
+          <pub-id pub-id-type="pmid">16731860</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Iafusco</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Permanent diabetes mellitus in the first year of life</article-title>
+          <source>Diabetologia</source>
+          <year>2002</year>
+          <volume>45</volume>
+          <issue>6</issue>
+          <fpage>798</fpage>
+          <lpage>804</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00125-002-0837-2</pub-id>
+          <pub-id pub-id-type="pmid">12107723</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Franco</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>The effect of early, comprehensive genomic testing on clinical care in neonatal diabetes: an international cohort study</article-title>
+          <source>Lancet</source>
+          <year>2015</year>
+          <volume>386</volume>
+          <issue>9997</issue>
+          <fpage>957</fpage>
+          <lpage>963</lpage>
+          <!--<pub-id pub-id-type="pmcid">4772451</pub-id>-->
+          <pub-id pub-id-type="doi">10.1016/S0140-6736(15)60098-8</pub-id>
+          <pub-id pub-id-type="pmid">26231457</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Franco</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Dominant ER stress-inducing <italic>WFS1</italic> mutations underlie a genetic syndrome of neonatal/infancy-onset diabetes, congenital sensorineural deafness, and congenital cataracts</article-title>
+          <source>Diabetes</source>
+          <year>2017</year>
+          <volume>66</volume>
+          <issue>7</issue>
+          <fpage>2044</fpage>
+          <lpage>2053</lpage>
+          <!--<pub-id pub-id-type="pmcid">5482085</pub-id>-->
+          <pub-id pub-id-type="doi">10.2337/db16-1296</pub-id>
+          <pub-id pub-id-type="pmid">28468959</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Franco</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>A specific CNOT1 mutation results in a novel syndrome of pancreatic agenesis and holoprosencephaly through impaired pancreatic and neurological development</article-title>
+          <source>Am J Hum Genet</source>
+          <year>2019</year>
+          <volume>104</volume>
+          <issue>5</issue>
+          <fpage>985</fpage>
+          <lpage>989</lpage>
+          <!--<pub-id pub-id-type="pmcid">6506862</pub-id>-->
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2019.03.018</pub-id>
+          <pub-id pub-id-type="pmid">31006513</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Franco</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>De novo mutations in <italic>EIF2B1</italic> affecting eIF2 signaling cause neonatal/early-onset diabetes and transient hepatic dysfunction</article-title>
+          <source>Diabetes</source>
+          <year>2020</year>
+          <volume>69</volume>
+          <issue>3</issue>
+          <fpage>477</fpage>
+          <lpage>483</lpage>
+          <!--<pub-id pub-id-type="pmcid">7100014</pub-id>-->
+          <pub-id pub-id-type="doi">10.2337/db19-1029</pub-id>
+          <pub-id pub-id-type="pmid">31882561</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Flanagan</surname>
+              <given-names>SE</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Activating germline mutations in STAT3 cause early-onset multi-organ autoimmune disease</article-title>
+          <source>Nat Genet</source>
+          <year>2014</year>
+          <volume>46</volume>
+          <issue>8</issue>
+          <fpage>812</fpage>
+          <lpage>814</lpage>
+          <!--<pub-id pub-id-type="pmcid">4129488</pub-id>-->
+          <pub-id pub-id-type="doi">10.1038/ng.3040</pub-id>
+          <pub-id pub-id-type="pmid">25038750</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johnson</surname>
+              <given-names>MB</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Recessively inherited <italic>LRBA</italic> mutations cause autoimmunity presenting as neonatal diabetes</article-title>
+          <source>Diabetes</source>
+          <year>2017</year>
+          <volume>66</volume>
+          <issue>8</issue>
+          <fpage>2316</fpage>
+          <lpage>2322</lpage>
+          <!--<pub-id pub-id-type="pmcid">5524180</pub-id>-->
+          <pub-id pub-id-type="doi">10.2337/db17-0040</pub-id>
+          <pub-id pub-id-type="pmid">28473463</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johnson</surname>
+              <given-names>MB</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Trisomy 21 is a cause of permanent neonatal diabetes that is autoimmune but not HLA associated</article-title>
+          <source>Diabetes</source>
+          <year>2019</year>
+          <volume>68</volume>
+          <issue>7</issue>
+          <fpage>1528</fpage>
+          <lpage>1535</lpage>
+          <!--<pub-id pub-id-type="pmcid">6609990</pub-id>-->
+          <pub-id pub-id-type="doi">10.2337/db19-0045</pub-id>
+          <pub-id pub-id-type="pmid">30962220</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Atouf</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Czernichow</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Scharfmann</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of neuronal traits in pancreatic beta cells. Implication of neuron-restrictive silencing factor/repressor element silencing transcription factor, a neuron-restrictive silencer</article-title>
+          <source>J Biol Chem</source>
+          <year>1997</year>
+          <volume>272</volume>
+          <issue>3</issue>
+          <fpage>1929</fpage>
+          <lpage>1934</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.272.3.1929</pub-id>
+          <pub-id pub-id-type="pmid">8999882</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Juan-Mateu</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Neuron-enriched RNA-binding proteins regulate pancreatic beta cell function and survival</article-title>
+          <source>J Biol Chem</source>
+          <year>2017</year>
+          <volume>292</volume>
+          <issue>8</issue>
+          <fpage>3466</fpage>
+          <lpage>3480</lpage>
+          <!--<pub-id pub-id-type="pmcid">5336178</pub-id>-->
+          <pub-id pub-id-type="doi">10.1074/jbc.M116.748335</pub-id>
+          <pub-id pub-id-type="pmid">28077579</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Igoillo-Esteve</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>tRNA methyltransferase homolog gene TRMT10A mutation in young onset diabetes and primary microcephaly in humans</article-title>
+          <source>PLoS Genet</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <issue>10</issue>
+          <elocation-id>e1003888</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">3814312</pub-id>-->
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1003888</pub-id>
+          <pub-id pub-id-type="pmid">24204302</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abdulkarim</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>A missense mutation in PPP1R15B causes a syndrome including diabetes, short stature, and microcephaly</article-title>
+          <source>Diabetes</source>
+          <year>2015</year>
+          <volume>64</volume>
+          <issue>11</issue>
+          <fpage>3951</fpage>
+          <lpage>3962</lpage>
+          <!--<pub-id pub-id-type="pmcid">4713904</pub-id>-->
+          <pub-id pub-id-type="doi">10.2337/db15-0477</pub-id>
+          <pub-id pub-id-type="pmid">26159176</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skopkova</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>EIF2S3 mutations associated with severe X-linked intellectual disability syndrome MEHMO</article-title>
+          <source>Hum Mutat</source>
+          <year>2017</year>
+          <volume>38</volume>
+          <issue>4</issue>
+          <fpage>409</fpage>
+          <lpage>425</lpage>
+          <!--<pub-id pub-id-type="pmcid">6267786</pub-id>-->
+          <pub-id pub-id-type="doi">10.1002/humu.23170</pub-id>
+          <pub-id pub-id-type="pmid">28055140</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stanik</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Neonatal hypoglycemia, early-onset diabetes and hypopituitarism due to the mutation in EIF2S3 gene causing MEHMO syndrome</article-title>
+          <source>Physiol Res</source>
+          <year>2018</year>
+          <volume>67</volume>
+          <issue>2</issue>
+          <fpage>331</fpage>
+          <lpage>337</lpage>
+          <pub-id pub-id-type="pmid">29303605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cnop</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Toivonen</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Igoillo-Esteve</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Salpea</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Endoplasmic reticulum stress and eIF2&#x3B1; phosphorylation: The Achilles heel of pancreatic &#x3B2; cells</article-title>
+          <source>Mol Metab</source>
+          <year>2017</year>
+          <volume>6</volume>
+          <issue>9</issue>
+          <fpage>1024</fpage>
+          <lpage>1039</lpage>
+          <!--<pub-id pub-id-type="pmcid">5605732</pub-id>-->
+          <pub-id pub-id-type="doi">10.1016/j.molmet.2017.06.001</pub-id>
+          <pub-id pub-id-type="pmid">28951826</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>St&#xF8;y</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Insulin gene mutations as a cause of permanent neonatal diabetes</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2007</year>
+          <volume>104</volume>
+          <issue>38</issue>
+          <fpage>15040</fpage>
+          <lpage>15044</lpage>
+          <!--<pub-id pub-id-type="pmcid">1986609</pub-id>-->
+          <pub-id pub-id-type="doi">10.1073/pnas.0707291104</pub-id>
+          <pub-id pub-id-type="pmid">17855560</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Hazama</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ishida</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Komori</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Nishimura</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Matsuo</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of PLD1 activity causes ER stress via regulation of COPII vesicle formation</article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <year>2017</year>
+          <volume>490</volume>
+          <issue>3</issue>
+          <fpage>895</fpage>
+          <lpage>900</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2017.06.137</pub-id>
+          <pub-id pub-id-type="pmid">28648601</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Preston</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Gurisik</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Bartley</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Laybutt</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Biden</surname>
+              <given-names>TJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Reduced endoplasmic reticulum (ER)-to-Golgi protein trafficking contributes to ER stress in lipotoxic mouse beta cells by promoting protein overload</article-title>
+          <source>Diabetologia</source>
+          <year>2009</year>
+          <volume>52</volume>
+          <issue>11</issue>
+          <fpage>2369</fpage>
+          <lpage>2373</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00125-009-1506-5</pub-id>
+          <pub-id pub-id-type="pmid">19727664</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Konrad</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>The mutational constraint spectrum quantified from variation in 141,456 humans</article-title>
+          <source>Nature</source>
+          <year>2020</year>
+          <volume>581</volume>
+          <issue>7809</issue>
+          <fpage>434</fpage>
+          <lpage>443</lpage>
+          <!--<pub-id pub-id-type="pmcid">7334197</pub-id>-->
+          <pub-id pub-id-type="doi">10.1038/s41586-020-2308-7</pub-id>
+          <pub-id pub-id-type="pmid">32461654</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vaser</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Adusumalli</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Leng</surname>
+              <given-names>SN</given-names>
+            </name>
+            <name>
+              <surname>Sikic</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>PC</given-names>
+            </name>
+          </person-group>
+          <article-title>SIFT missense predictions for genomes</article-title>
+          <source>Nat Protoc</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1038/nprot.2015.123</pub-id>
+          <pub-id pub-id-type="pmid">26633127</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schwarz</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>DN</given-names>
+            </name>
+            <name>
+              <surname>Schuelke</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Seelow</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>MutationTaster2: mutation prediction for the deep-sequencing age</article-title>
+          <source>Nat Methods</source>
+          <year>2014</year>
+          <volume>11</volume>
+          <issue>4</issue>
+          <fpage>361</fpage>
+          <lpage>362</lpage>
+          <pub-id pub-id-type="doi">10.1038/nmeth.2890</pub-id>
+          <pub-id pub-id-type="pmid">24681721</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tavtigian</surname>
+              <given-names>SV</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Comprehensive statistical study of 452 BRCA1 missense substitutions with classification of eight recurrent substitutions as neutral</article-title>
+          <source>J Med Genet</source>
+          <year>2006</year>
+          <volume>43</volume>
+          <issue>4</issue>
+          <fpage>295</fpage>
+          <lpage>305</lpage>
+          <!--<pub-id pub-id-type="pmcid">2563222</pub-id>-->
+          <pub-id pub-id-type="pmid">16014699</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Adzhubei</surname>
+              <given-names>IA</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>A method and server for predicting damaging missense mutations</article-title>
+          <source>Nat Methods</source>
+          <year>2010</year>
+          <volume>7</volume>
+          <issue>4</issue>
+          <fpage>248</fpage>
+          <lpage>249</lpage>
+          <!--<pub-id pub-id-type="pmcid">2855889</pub-id>-->
+          <pub-id pub-id-type="doi">10.1038/nmeth0410-248</pub-id>
+          <pub-id pub-id-type="pmid">20354512</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dobson</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Rem&#xE9;nyi</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Tusn&#xE1;dy</surname>
+              <given-names>GE</given-names>
+            </name>
+          </person-group>
+          <article-title>CCTOP: a Consensus Constrained TOPology prediction web server</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2015</year>
+          <volume>43</volume>
+          <issue>W1</issue>
+          <fpage>W408</fpage>
+          <lpage>W412</lpage>
+          <!--<pub-id pub-id-type="pmcid">4489262</pub-id>-->
+          <pub-id pub-id-type="doi">10.1093/nar/gkv451</pub-id>
+          <pub-id pub-id-type="pmid">25943549</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Colli</surname>
+              <given-names>ML</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Exposure to the viral by-product dsRNA or Coxsackievirus B5 triggers pancreatic beta cell apoptosis via a Bim / Mcl-1 imbalance</article-title>
+          <source>PLoS Pathog</source>
+          <year>2011</year>
+          <volume>7</volume>
+          <issue>9</issue>
+          <elocation-id>e1002267</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">3178579</pub-id>-->
+          <pub-id pub-id-type="doi">10.1371/journal.ppat.1002267</pub-id>
+          <pub-id pub-id-type="pmid">21977009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gurzov</surname>
+              <given-names>EN</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Signaling by IL-1beta+IFN-gamma and ER stress converge on DP5/Hrk activation: a novel mechanism for pancreatic beta-cell apoptosis</article-title>
+          <source>Cell Death Differ</source>
+          <year>2009</year>
+          <volume>16</volume>
+          <issue>11</issue>
+          <fpage>1539</fpage>
+          <lpage>1550</lpage>
+          <pub-id pub-id-type="doi">10.1038/cdd.2009.99</pub-id>
+          <pub-id pub-id-type="pmid">19629134</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gurzov</surname>
+              <given-names>EN</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>p53 up-regulated modulator of apoptosis (PUMA) activation contributes to pancreatic beta-cell apoptosis induced by proinflammatory cytokines and endoplasmic reticulum stress</article-title>
+          <source>J Biol Chem</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <issue>26</issue>
+          <fpage>19910</fpage>
+          <lpage>19920</lpage>
+          <!--<pub-id pub-id-type="pmcid">2888402</pub-id>-->
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.122374</pub-id>
+          <pub-id pub-id-type="pmid">20421300</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McKenzie</surname>
+              <given-names>MD</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Glucose induces pancreatic islet cell apoptosis that requires the BH3-only proteins Bim and Puma and multi-BH domain protein Bax</article-title>
+          <source>Diabetes</source>
+          <year>2010</year>
+          <volume>59</volume>
+          <issue>3</issue>
+          <fpage>644</fpage>
+          <lpage>652</lpage>
+          <!--<pub-id pub-id-type="pmcid">2828664</pub-id>-->
+          <pub-id pub-id-type="doi">10.2337/db09-1151</pub-id>
+          <pub-id pub-id-type="pmid">19959756</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>YIPF5 and YIF1A recycle between the ER and the Golgi apparatus and are involved in the maintenance of the Golgi structure</article-title>
+          <source>Exp Cell Res</source>
+          <year>2008</year>
+          <volume>314</volume>
+          <issue>19</issue>
+          <fpage>3427</fpage>
+          <lpage>3443</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.yexcr.2008.07.023</pub-id>
+          <pub-id pub-id-type="pmid">18718466</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kano</surname>
+              <given-names>F</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Yip1A regulates the COPI-independent retrograde transport from the Golgi complex to the ER</article-title>
+          <source>J Cell Sci</source>
+          <year>2009</year>
+          <volume>122</volume>
+          <issue>pt 13</issue>
+          <fpage>2218</fpage>
+          <lpage>2227</lpage>
+          <pub-id pub-id-type="pmid">19509059</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kranjc</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Dempsey</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Cagney</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Shields</surname>
+              <given-names>DC</given-names>
+            </name>
+            <name>
+              <surname>Simpson</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional characterisation of the YIPF protein family in mammalian cells</article-title>
+          <source>Histochem Cell Biol</source>
+          <year>2017</year>
+          <volume>147</volume>
+          <issue>4</issue>
+          <fpage>439</fpage>
+          <lpage>451</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00418-016-1527-3</pub-id>
+          <pub-id pub-id-type="pmid">27999994</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>BL</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>A membrane protein enriched in endoplasmic reticulum exit sites interacts with COPII</article-title>
+          <source>J Biol Chem</source>
+          <year>2001</year>
+          <volume>276</volume>
+          <issue>43</issue>
+          <fpage>40008</fpage>
+          <lpage>40017</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M106189200</pub-id>
+          <pub-id pub-id-type="pmid">11489904</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dykstra</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Pokusa</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Suhan</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>TH</given-names>
+            </name>
+          </person-group>
+          <article-title>Yip1A structures the mammalian endoplasmic reticulum</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2010</year>
+          <volume>21</volume>
+          <issue>9</issue>
+          <fpage>1556</fpage>
+          <lpage>1568</lpage>
+          <!--<pub-id pub-id-type="pmcid">2861614</pub-id>-->
+          <pub-id pub-id-type="doi">10.1091/mbc.e09-12-1002</pub-id>
+          <pub-id pub-id-type="pmid">20237155</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dykstra</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Ulengin</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Delrose</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>TH</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of discrete sites in Yip1A necessary for regulation of endoplasmic reticulum structure</article-title>
+          <source>PLoS One</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <issue>1</issue>
+          <elocation-id>e54413</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">3544793</pub-id>-->
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0054413</pub-id>
+          <pub-id pub-id-type="pmid">23342155</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reiling</surname>
+              <given-names>JH</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>A CREB3-ARF4 signalling pathway mediates the response to Golgi stress and susceptibility to pathogens</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2013</year>
+          <volume>15</volume>
+          <issue>12</issue>
+          <fpage>1473</fpage>
+          <lpage>1485</lpage>
+          <!--<pub-id pub-id-type="pmcid">3965854</pub-id>-->
+          <pub-id pub-id-type="doi">10.1038/ncb2865</pub-id>
+          <pub-id pub-id-type="pmid">24185178</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taniguchi</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>TFE3 is a bHLH-ZIP-type transcription factor that regulates the mammalian Golgi stress response</article-title>
+          <source>Cell Struct Funct</source>
+          <year>2015</year>
+          <volume>40</volume>
+          <issue>1</issue>
+          <fpage>13</fpage>
+          <lpage>30</lpage>
+          <pub-id pub-id-type="doi">10.1247/csf.14015</pub-id>
+          <pub-id pub-id-type="pmid">25399611</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taguchi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Yip1A, a novel host factor for the activation of the IRE1 pathway of the unfolded protein response during Brucella infection</article-title>
+          <source>PLoS Pathog</source>
+          <year>2015</year>
+          <volume>11</volume>
+          <issue>3</issue>
+          <elocation-id>e1004747</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">4350842</pub-id>-->
+          <pub-id pub-id-type="doi">10.1371/journal.ppat.1004747</pub-id>
+          <pub-id pub-id-type="pmid">25742138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taguchi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Horiuchi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kano</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Murata</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel prosurvival function of Yip1A in human cervical cancer cells: constitutive activation of the IRE1 and PERK pathways of the unfolded protein response</article-title>
+          <source>Cell Death Dis</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <issue>3</issue>
+          <elocation-id>e2718</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">5386543</pub-id>-->
+          <pub-id pub-id-type="doi">10.1038/cddis.2017.147</pub-id>
+          <pub-id pub-id-type="pmid">28358375</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dickinson</surname>
+              <given-names>ME</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>High-throughput discovery of novel developmental phenotypes</article-title>
+          <source>Nature</source>
+          <year>2016</year>
+          <volume>537</volume>
+          <issue>7621</issue>
+          <fpage>508</fpage>
+          <lpage>514</lpage>
+          <!--<pub-id pub-id-type="pmcid">5295821</pub-id>-->
+          <pub-id pub-id-type="doi">10.1038/nature19356</pub-id>
+          <pub-id pub-id-type="pmid">27626380</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>GY</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>SZ</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>CR</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular characterization of the encoding regions and tissue expression analyses for three novel porcine genes&#x2014;HNRPA1, YIPF5 and UB2D2</article-title>
+          <source>Mol Biol Rep</source>
+          <year>2008</year>
+          <volume>35</volume>
+          <issue>4</issue>
+          <fpage>519</fpage>
+          <lpage>526</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11033-007-9117-z</pub-id>
+          <pub-id pub-id-type="pmid">17610147</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lehtinen</surname>
+              <given-names>MK</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>The cerebrospinal fluid provides a proliferative niche for neural progenitor cells</article-title>
+          <source>Neuron</source>
+          <year>2011</year>
+          <volume>69</volume>
+          <issue>5</issue>
+          <fpage>893</fpage>
+          <lpage>905</lpage>
+          <!--<pub-id pub-id-type="pmcid">3085909</pub-id>-->
+          <pub-id pub-id-type="doi">10.1016/j.neuron.2011.01.023</pub-id>
+          <pub-id pub-id-type="pmid">21382550</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tiberi</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Vanderhaeghen</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>van den Ameele</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Cortical neurogenesis and morphogens: diversity of cues, sources and functions</article-title>
+          <source>Curr Opin Cell Biol</source>
+          <year>2012</year>
+          <volume>24</volume>
+          <issue>2</issue>
+          <fpage>269</fpage>
+          <lpage>276</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2012.01.010</pub-id>
+          <pub-id pub-id-type="pmid">22342580</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laguesse</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>A dynamic unfolded protein response contributes to the control of cortical neurogenesis</article-title>
+          <source>Dev Cell</source>
+          <year>2015</year>
+          <volume>35</volume>
+          <issue>5</issue>
+          <fpage>553</fpage>
+          <lpage>567</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.devcel.2015.11.005</pub-id>
+          <pub-id pub-id-type="pmid">26651292</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gladwyn-Ng</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Stress-induced unfolded protein response contributes to Zika virus-associated microcephaly</article-title>
+          <source>Nat Neurosci</source>
+          <year>2018</year>
+          <volume>21</volume>
+          <issue>1</issue>
+          <fpage>63</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41593-017-0038-4</pub-id>
+          <pub-id pub-id-type="pmid">29230053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fang</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>COPII-dependent ER export: a critical component of insulin biogenesis and &#x3B2;-cell ER homeostasis</article-title>
+          <source>Mol Endocrinol</source>
+          <year>2015</year>
+          <volume>29</volume>
+          <issue>8</issue>
+          <fpage>1156</fpage>
+          <lpage>1169</lpage>
+          <!--<pub-id pub-id-type="pmcid">4517999</pub-id>-->
+          <pub-id pub-id-type="doi">10.1210/me.2015-1012</pub-id>
+          <pub-id pub-id-type="pmid">26083833</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Stanford</surname>
+              <given-names>KR</given-names>
+            </name>
+            <name>
+              <surname>Kundu</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>ER-to-Golgi trafficking and its implication in neurological diseases</article-title>
+          <source>Cells</source>
+          <year>2020</year>
+          <volume>9</volume>
+          <issue>2</issue>
+          <elocation-id>E408</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">7073182</pub-id>-->
+          <pub-id pub-id-type="pmid">32053905</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lekszas</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Biallelic <italic>TANGO1</italic> mutations cause a novel syndromal disease due to hampered cellular collagen secretion</article-title>
+          <source>Elife</source>
+          <year>2020</year>
+          <volume>9</volume>
+          <elocation-id>e51319</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">7062462</pub-id>-->
+          <pub-id pub-id-type="pmid">32101163</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fan</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title><italic>cTAGE5</italic> deletion in pancreatic &#x3B2; cells impairs proinsulin trafficking and insulin biogenesis in mice</article-title>
+          <source>J Cell Biol</source>
+          <year>2017</year>
+          <volume>216</volume>
+          <issue>12</issue>
+          <fpage>4153</fpage>
+          <lpage>4164</lpage>
+          <!--<pub-id pub-id-type="pmcid">5716288</pub-id>-->
+          <pub-id pub-id-type="doi">10.1083/jcb.201705027</pub-id>
+          <pub-id pub-id-type="pmid">29133483</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ellard</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Improved genetic testing for monogenic diabetes using targeted next-generation sequencing</article-title>
+          <source>Diabetologia</source>
+          <year>2013</year>
+          <volume>56</volume>
+          <issue>9</issue>
+          <fpage>1958</fpage>
+          <lpage>1963</lpage>
+          <!--<pub-id pub-id-type="pmcid">3737433</pub-id>-->
+          <pub-id pub-id-type="pmid">23771172</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brozzi</surname>
+              <given-names>F</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>A combined &#x201C;omics&#x201D; approach identifies N-Myc interactor as a novel cytokine-induced regulator of IRE1 protein and c-Jun N-terminal kinase in pancreatic beta cells</article-title>
+          <source>J Biol Chem</source>
+          <year>2014</year>
+          <volume>289</volume>
+          <issue>30</issue>
+          <fpage>20677</fpage>
+          <lpage>20693</lpage>
+          <!--<pub-id pub-id-type="pmcid">4110279</pub-id>-->
+          <pub-id pub-id-type="doi">10.1074/jbc.M114.568808</pub-id>
+          <pub-id pub-id-type="pmid">24936061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ravassard</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>A genetically engineered human pancreatic &#x3B2; cell line exhibiting glucose-inducible insulin secretion</article-title>
+          <source>J Clin Invest</source>
+          <year>2011</year>
+          <volume>121</volume>
+          <issue>9</issue>
+          <fpage>3589</fpage>
+          <lpage>3597</lpage>
+          <!--<pub-id pub-id-type="pmcid">3163974</pub-id>-->
+          <pub-id pub-id-type="doi">10.1172/JCI58447</pub-id>
+          <pub-id pub-id-type="pmid">21865645</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Igoillo-Esteve</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Palmitate induces a pro-inflammatory response in human pancreatic islets that mimics CCL2 expression by beta cells in type 2 diabetes</article-title>
+          <source>Diabetologia</source>
+          <year>2010</year>
+          <volume>53</volume>
+          <issue>7</issue>
+          <fpage>1395</fpage>
+          <lpage>1405</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00125-010-1707-y</pub-id>
+          <pub-id pub-id-type="pmid">20369226</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moore</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Cunha</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Mulder</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Eizirik</surname>
+              <given-names>DL</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of RNA interference to investigate cytokine signal transduction in pancreatic beta cells</article-title>
+          <source>Methods Mol Biol</source>
+          <year>2012</year>
+          <volume>820</volume>
+          <fpage>179</fpage>
+          <lpage>194</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-1-61779-439-1_11</pub-id>
+          <pub-id pub-id-type="pmid">22131032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>IK</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Human-specific NOTCH2NL genes expand cortical neurogenesis through Delta/Notch regulation</article-title>
+          <source>Cell</source>
+          <year>2018</year>
+          <volume>173</volume>
+          <issue>6</issue>
+          <fpage>1370</fpage>
+          <lpage>1384.e16</lpage>
+          <!--<pub-id pub-id-type="pmcid">6092419</pub-id>-->
+          <pub-id pub-id-type="doi">10.1016/j.cell.2018.03.067</pub-id>
+          <pub-id pub-id-type="pmid">29856955</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56">
+        <label>56</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haeussler</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Evaluation of off-target and on-target scoring algorithms and integration into the guide RNA selection tool CRISPOR</article-title>
+          <source>Genome Biol</source>
+          <year>2016</year>
+          <volume>17</volume>
+          <issue>1</issue>
+          <elocation-id>148</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">4934014</pub-id>-->
+          <pub-id pub-id-type="doi">10.1186/s13059-016-1012-2</pub-id>
+          <pub-id pub-id-type="pmid">27380939</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57">
+        <label>57</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balboa</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Insulin mutations impair beta-cell development in a patient-derived iPSC model of neonatal diabetes</article-title>
+          <source>Elife</source>
+          <year>2018</year>
+          <volume>7</volume>
+          <elocation-id>e38519</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">6294552</pub-id>-->
+          <pub-id pub-id-type="pmid">30412052</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58">
+        <label>58</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pagliuca</surname>
+              <given-names>FW</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Generation of functional human pancreatic &#x3B2; cells in vitro</article-title>
+          <source>Cell</source>
+          <year>2014</year>
+          <volume>159</volume>
+          <issue>2</issue>
+          <fpage>428</fpage>
+          <lpage>439</lpage>
+          <!--<pub-id pub-id-type="pmcid">4617632</pub-id>-->
+          <pub-id pub-id-type="doi">10.1016/j.cell.2014.09.040</pub-id>
+          <pub-id pub-id-type="pmid">25303535</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59">
+        <label>59</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rezania</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Reversal of diabetes with insulin-producing cells derived in vitro from human pluripotent stem cells</article-title>
+          <source>Nat Biotechnol</source>
+          <year>2014</year>
+          <volume>32</volume>
+          <issue>11</issue>
+          <fpage>1121</fpage>
+          <lpage>1133</lpage>
+          <pub-id pub-id-type="doi">10.1038/nbt.3033</pub-id>
+          <pub-id pub-id-type="pmid">25211370</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60">
+        <label>60</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saarim&#xE4;ki-Vire</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>An activating STAT3 mutation causes neonatal diabetes through premature induction of pancreatic differentiation</article-title>
+          <source>Cell Rep</source>
+          <year>2017</year>
+          <volume>19</volume>
+          <issue>2</issue>
+          <fpage>281</fpage>
+          <lpage>294</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2017.03.055</pub-id>
+          <pub-id pub-id-type="pmid">28402852</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61">
+        <label>61</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Demine</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Schiavo</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Mar&#xED;n-Ca&#xF1;as</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Marchetti</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Cnop</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Eizirik</surname>
+              <given-names>DL</given-names>
+            </name>
+          </person-group>
+          <article-title>Pro-inflammatory cytokines induce cell death, inflammatory responses, and endoplasmic reticulum stress in human iPSC-derived beta cells</article-title>
+          <source>Stem Cell Res Ther</source>
+          <year>2020</year>
+          <volume>11</volume>
+          <issue>1</issue>
+          <elocation-id>7</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">6942385</pub-id>-->
+          <pub-id pub-id-type="doi">10.1186/s13287-019-1523-3</pub-id>
+          <pub-id pub-id-type="pmid">31900242</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62">
+        <label>62</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Igoillo-Esteve</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Exenatide induces frataxin expression and improves mitochondrial function in Friedreich ataxia</article-title>
+          <source>JCI Insight</source>
+          <year>2020</year>
+          <volume>5</volume>
+          <issue>2</issue>
+          <elocation-id>134221</elocation-id>
+          <!--<pub-id pub-id-type="pmcid">7098728</pub-id>-->
+          <pub-id pub-id-type="pmid">31877117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63">
+        <label>63</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cosentino</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal>et al</etal>
+          </person-group>
+          <article-title>Pancreatic &#x3B2;-cell tRNA hypomethylation and fragmentation link TRMT10A deficiency with diabetes</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2018</year>
+          <volume>46</volume>
+          <issue>19</issue>
+          <fpage>10302</fpage>
+          <lpage>10318</lpage>
+          <!--<pub-id pub-id-type="pmcid">6212784</pub-id>-->
+          <pub-id pub-id-type="doi">10.1093/nar/gky839</pub-id>
+          <pub-id pub-id-type="pmid">30247717</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B64">
+        <label>64</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marchetti</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Suleiman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Marselli</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Organ donor pancreases for the study of human islet cell histology and pathophysiology: a precious and valuable resource</article-title>
+          <source>Diabetologia</source>
+          <year>2018</year>
+          <volume>61</volume>
+          <issue>4</issue>
+          <fpage>770</fpage>
+          <lpage>774</lpage>
+          <!--<pub-id pub-id-type="pmcid">6449064</pub-id>-->
+          <pub-id pub-id-type="doi">10.1007/s00125-018-4546-x</pub-id>
+          <pub-id pub-id-type="pmid">29354869</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <notes notes-type="version-changes">
+      <sec sec-type="version-changes">
+        <label>Version 1</label>
+        <title>11/09/2020</title>
+        <p>Electronic publication</p>
+      </sec>
+      <sec sec-type="version-changes">
+        <label>Version 2</label>
+        <title>12/01/2020</title>
+        <p>Print issue publication</p>
+      </sec>
+    </notes>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <title>Identification of homozygous <italic>YIPF5</italic> mutations in 6 patients with neonatal diabetes, severe microcephaly, and epilepsy.</title>
+        <p>(<bold>A</bold>) Partial pedigrees and summary of clinical features of the 6 patients with homozygous <italic>YIPF5</italic> mutations. Age at diagnosis of diabetes and head circumference standard deviation below the mean are given in parentheses. (<bold>B</bold>) Schematic representation of the YIPF5 ER transmembrane protein using the CCTOP in silico predictor (<ext-link ext-link-type="uri" xlink:href="http://cctop.enzim.ttk.mta.hu/">http://cctop.enzim.ttk.mta.hu/</ext-link>). Note that there is uncertainty regarding YIPF5 transmembrane predictions and the position of the p.Trp218 residue is predicted to be cytoplasmic by UniProtKB (<ext-link ext-link-type="uri" xlink:href="https://www.uniprot.org/">https://www.uniprot.org/</ext-link>).</p>
+      </caption>
+      <graphic xlink:href="jci-130-141455-g456"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <title>YIPF5 is expressed in human pancreatic tissue and brain.</title>
+        <p>(<bold>A</bold>) YIPF5 mRNA expression was measured by qPCR in human tissues (<italic>n</italic> = 2&#x2013;3), EndoC-&#x3B2;H1 cells (<italic>n</italic> = 15), and human islets (<italic>n</italic> = 4) and normalized to the geometric mean of the reference genes ACTB, GAPDH, and OAZ1. (<bold>B</bold>) In situ hybridization of YIPF5 in human fetal cortex at gestational week 12. Expression is found in the ventricular zone (VZ), intermediate zone (IZ), and cortical plate (CP) as well choroid plexus (ch) (antisense probe, right). No signal was detected when the sense probe was used (negative control, left). Scale bar: 100 &#x3BC;m.</p>
+      </caption>
+      <graphic xlink:href="jci-130-141455-g457"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <title>YIPF5 deficiency does not affect insulin secretion but sensitizes &#x3B2; cells to ER stress&#x2013;induced apoptosis.</title>
+        <p>(<bold>A</bold>&#x2013;<bold>C</bold>) EndoC-&#x3B2;H1 cells were transfected with siRNA against <italic>YIPF5</italic> (si1) or control siRNA (siCT) for 48 hours and incubated with 0 or 20 mM glucose or 20 mM glucose plus 10 &#x3BC;M forskolin (FSK). (<bold>A</bold>) YIPF5 mRNA expression by qPCR. (<bold>B</bold>) Insulin content normalized for total protein content. (<bold>C</bold>) Insulin secretion expressed as percentage of total insulin content. (<bold>D</bold> and <bold>E</bold>) EndoC-&#x3B2;H1 cells were transfected with 2 siRNAs against YIPF5 (si1 and si2) or control siRNA (siCT) for 48 hours and exposed or not (CTL) to thapsigargin (Tha) for 40 hours or brefeldin A (BFA) for 16 hours (<italic>n</italic> = 4). Apoptosis was evaluated by staining with DNA-binding dyes (<italic>n</italic> = 4) (<bold>D</bold>) or luminescence produced by annexin V binding (RealTime-Glo Annexin V assay) at the indicated time points (<italic>n</italic> = 3) (<bold>E</bold>). Thapsigargin is presented by solid lines and nontreated cells by dashed lines. (<bold>F</bold>) Dispersed human islet cells were transfected with si1 or siCT for 48 hours and exposed or not to brefeldin A for 24 hours. Apoptosis was evaluated by staining with DNA-binding dyes (<italic>n</italic> = 4). (<bold>G</bold> and <bold>H</bold>) EndoC-&#x3B2;H1 cells were transfected with si1 or siCT for 48 hours and exposed to thapsigargin for the indicated times (<italic>n</italic> = 5&#x2013;6). CHOP (<bold>G</bold>) and DP5 (<bold>H</bold>) mRNA expression was measured by qPCR, normalized to &#x3B2;-actin (ACTB). (<bold>I</bold> and <bold>J</bold>) EndoC-&#x3B2;H1 cells were transfected with siCT or si1 and/or siRNA against CHOP (siCHOP) (<bold>I</bold>) or DP5 (siDP5) (<bold>J</bold>) and treated or not with thapsigargin for 40 hours (<italic>n</italic> = 5 and <italic>n</italic> = 8, respectively). Apoptosis was examined by DNA-binding dye. Individual symbols represent independent experiments, and box plots show the median by a horizontal line, 25th and 75th percentiles at the bottom and top of the boxes, and minimum and maximum values by whiskers. In time course experiments, data are shown as mean &#xB1; SEM. Paired 2-way ANOVA or mixed-model analysis (in case of missing values) followed by Bonferroni post hoc test. *<italic>P</italic> &lt; 0.05, **<italic>P</italic> &lt; 0.01, ***<italic>P</italic> &lt; 0.001 vs. siCT in respective condition; <sup>##</sup><italic>P</italic> &lt; 0.01, <sup>###</sup><italic>P</italic> &lt; 0.001 for treated vs. untreated cells; <sup>&#x2020;&#x2020;&#x2020;</sup><italic>P</italic> &lt; 0.001 as indicated.</p>
+      </caption>
+      <graphic xlink:href="jci-130-141455-g458"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <title>Proinsulin accumulation, increased ER stress signaling, and reduced insulin content in YIPF5-knockout stem cell&#x2013;derived &#x3B2; cells.</title>
+        <p>(<bold>A</bold>) Immunocytochemistry for proinsulin (PROINS) and insulin (INS) at stage 7 of in vitro differentiation for WT and YIPF5-KO cells. Scale bars: 25 &#x3BC;m. (<bold>B</bold>) Immunocytochemistry for BiP and insulin (INS) at stage 7 of in vitro differentiation. Scale bars: 25 &#x3BC;m. (<bold>C</bold>) Percentage of cytoplasmic area covered by proinsulin or insulin per insulin-positive cell (<italic>n</italic> = 3). (<bold>D</bold>) Percentage of INS<sup>+</sup>BiP<sup>hi</sup> cells per total number of INS<sup>+</sup> cells (<italic>n</italic> = 4&#x2013;8). (<bold>E</bold>) Percentage of apoptotic cells (INS<sup>+</sup>TUNEL<sup>+</sup>) per total number of INS<sup>+</sup> cells after treatment with vehicle (DMSO) and the ER stressors thapsigargin, tunicamycin, and brefeldin A (<italic>n</italic> = 3&#x2013;5). (<bold>F</bold>) Static glucose-stimulated insulin secretion at stage 7 normalized to micrograms DNA of &#x3B2; cells (<italic>n</italic> = 3&#x2013;7). (<bold>G</bold>) Insulin content of stage 7 differentiated cells normalized to micrograms DNA of &#x3B2; cells (<italic>n</italic> = 3&#x2013;8). (<bold>H</bold>) Percentage of INS<sup>+</sup> cells at week 2 of stage 7 (<italic>n</italic> = 3&#x2013;4). Statistical significance was assessed in <bold>C</bold>, <bold>D</bold>, <bold>G</bold>, and <bold>H</bold> by 1-way ANOVA test with Bonferroni correction, and in <bold>E</bold> and <bold>F</bold> by 2-way ANOVA test with Bonferroni correction. **<italic>P</italic> &lt; 0.01, ***<italic>P</italic> &lt; 0.001, ****<italic>P</italic> &lt; 0.0001. Error bars represent SD from the mean. (<bold>I</bold>) Transmission electron microscopy of WT, YIPF5-KO, and YIPF5<sup>Ile98Ser</sup> stage 7 cells showing the cytoplasmic area of &#x3B2; and &#x3B1; cells. Yellow arrowheads point at insulin granules, red arrowheads at glucagon granules, and green arrowheads at ER. Scale bars: 1 &#x3BC;m.</p>
+      </caption>
+      <graphic xlink:href="jci-130-141455-g459"/>
+    </fig>
+    <fig id="F5" orientation="portrait" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <title>Reduced C-peptide secretion and &#x3B2; cell numbers in implanted YIPF5 knockout and signs of YIPF5<sup>Ile98Ser</sup> &#x3B2; cell failure.</title>
+        <p>(<bold>A</bold>) Human C-peptide levels measured in mouse serum through 3 months after implantation (<italic>n</italic> = 3&#x2013;8). (<bold>B</bold>) Mouse blood glucose levels at 1 and 3 months after implantation (<italic>n</italic> = 3&#x2013;10). (<bold>C</bold>) Percentage of INS<sup>+</sup>GCG<sup>&#x2013;</sup> cells per the total number of INS<sup>+</sup> plus GCG<sup>+</sup> cells (<italic>n</italic> = 3&#x2013;5). (<bold>D</bold>) Percentage of cytoplasmic area covered by proinsulin or insulin in insulin-positive cells (<italic>n</italic> = 3&#x2013;4). (<bold>E</bold>) Percentage of INS<sup>+</sup>BiP<sup>hi</sup> cells per total number of INS<sup>+</sup> cells (<italic>n</italic> = 3&#x2013;6). (<bold>F</bold>&#x2013;<bold>H</bold>) Immunohistochemistry of grafts for glucagon (GCG) and insulin (INS) (<bold>F</bold>), proinsulin (PROINS) and insulin (INS) (<bold>G</bold>), and BiP and insulin (INS) (<bold>H</bold>) 3 months after implantation. Scale bars: 100 &#x3BC;m (<bold>F</bold>); 25 &#x3BC;m (<bold>G</bold>); 100 &#x3BC;m (<bold>H</bold>, left); 25 &#x3BC;m (<bold>H</bold>, right). Statistical significance was assessed by 2-way ANOVA test with Bonferroni correction in <bold>A</bold>, by multiple <italic>t</italic> test with Bonferroni correction in <bold>B</bold>, and by 1-way ANOVA test with Bonferroni correction in <bold>C</bold>&#x2013;<bold>E</bold>. *<italic>P</italic> &lt; 0.05, **<italic>P</italic> &lt; 0.01, ***<italic>P</italic> &lt; 0.001, ****<italic>P</italic> &lt; 0.00001. Error bars represent SD from the mean.</p>
+      </caption>
+      <graphic xlink:href="jci-130-141455-g460"/>
+    </fig>
+    <fig id="F6" orientation="portrait" position="float">
+      <label>Figure 6</label>
+      <caption>
+        <title>iPSCs from patients IIIa and IIIb differentiated into &#x3B2; cells are sensitive to ER stress&#x2013;induced apoptosis.</title>
+        <p>(<bold>A</bold>) Representative immunostaining of dispersed stage 7 aggregates stained for insulin (INS, green) and glucagon (GCG, red). Nuclei were visualized with DAPI (blue). (<bold>B</bold>) Quantification of immunostained cells (expressed as percent of total cells) in dispersed stage 7 control (<italic>n</italic> = 25) and patient cells (<italic>n</italic> = 11). Blue squares represent patient cells (2 patients, 2 iPSC lines for each); black circles and squares represent healthy control (1 iPSC line) and corrected patient cells (2 iPSC lines from 1 patient), respectively. (<bold>C</bold> and <bold>D</bold>) Apoptosis was assessed by staining with DNA-binding dyes in vehicle- (DMSO-)treated, thapsigargin-treated, and tunicamycin-treated control and corrected (<italic>n</italic> = 10) and patient (<italic>n</italic> = 6&#x2013;7) stage 7 aggregates (<bold>C</bold>) or by luminescence produced by annexin V binding in time course experiments (means &#xB1; SEM; <italic>n</italic> = 10 control and corrected lines and <italic>n</italic> = 5 patient lines) (<bold>D</bold>). (<bold>E</bold>) mRNA expression of CHOP, BiP, sXBP1, DP5, and PUMA assessed by qPCR in stage 7 aggregates from control and corrected (<italic>n</italic> = 4&#x2013;8, black) and patient cells (<italic>n</italic> = 5&#x2013;7, blue) exposed for 48 hours to vehicle (DMSO), thapsigargin, or tunicamycin. mRNA expression was normalized to the geometric mean of reference genes &#x3B2;-actin and GAPDH. The median is shown by a horizontal line in the box plots; 25th and 75th percentiles are at the bottom and top of the boxes; whiskers represent minimum and maximum values, and data points independent experiments. Comparisons were done by multiple <italic>t</italic> test followed by Bonferroni&#x2019;s correction for multiple comparisons (<bold>B</bold>), ANOVA followed by Bonferroni&#x2019;s correction for multiple comparisons (<bold>C</bold> and <bold>D</bold>), and paired-ratio <italic>t</italic> test (<bold>E</bold>). *<italic>P</italic> &lt; 0.05, **<italic>P</italic> &lt; 0.01, ***<italic>P</italic> &lt; 0.001 treatment vs. DMSO; <sup>#</sup><italic>P</italic> &lt; 0.05, <sup>##</sup><italic>P</italic> &lt; 0.01 vs. control and corrected cells as indicated.</p>
+      </caption>
+      <graphic xlink:href="jci-130-141455-g461"/>
+    </fig>
+    <table-wrap id="T1" orientation="portrait" position="float">
+      <label>Table 1</label>
+      <caption>
+        <title>Clinical features of patients with <italic>YIPF5</italic> mutations</title>
+      </caption>
+      <graphic xlink:href="jci-130-141455-g462"/>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

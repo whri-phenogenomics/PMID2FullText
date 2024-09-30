@@ -1,0 +1,984 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">28604674</article-id>
+      <article-id pub-id-type="pmc">5499207</article-id>
+      <article-id pub-id-type="pii">ncomms15824</article-id>
+      <article-id pub-id-type="doi">10.1038/ncomms15824</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Genetic diagnosis of Mendelian disorders via RNA sequencing</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kremer</surname>
+            <given-names>Laura S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+          <xref ref-type="author-notes" rid="n1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bader</surname>
+            <given-names>Daniel M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a3">3</xref>
+          <xref ref-type="aff" rid="a4">4</xref>
+          <xref ref-type="author-notes" rid="n1">*</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1875-6044</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mertes</surname>
+            <given-names>Christian</given-names>
+          </name>
+          <xref ref-type="aff" rid="a3">3</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1091-205X</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kopajtich</surname>
+            <given-names>Robert</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pichler</surname>
+            <given-names>Garwin</given-names>
+          </name>
+          <xref ref-type="aff" rid="a5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Iuso</surname>
+            <given-names>Arcangela</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Haack</surname>
+            <given-names>Tobias B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+          <xref ref-type="author-notes" rid="n2">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Graf</surname>
+            <given-names>Elisabeth</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schwarzmayr</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Terrile</surname>
+            <given-names>Caterina</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ko&#x148;a&#x159;&#xED;kov&#xE1;</surname>
+            <given-names>Eli&#x161;ka</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Repp</surname>
+            <given-names>Birgit</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kastenm&#xFC;ller</surname>
+            <given-names>Gabi</given-names>
+          </name>
+          <xref ref-type="aff" rid="a6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Adamski</surname>
+            <given-names>Jerzy</given-names>
+          </name>
+          <xref ref-type="aff" rid="a7">7</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9259-0199</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lichtner</surname>
+            <given-names>Peter</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Leonhardt</surname>
+            <given-names>Christoph</given-names>
+          </name>
+          <xref ref-type="aff" rid="a8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Funalot</surname>
+            <given-names>Benoit</given-names>
+          </name>
+          <xref ref-type="aff" rid="a9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Donati</surname>
+            <given-names>Alice</given-names>
+          </name>
+          <xref ref-type="aff" rid="a10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tiranti</surname>
+            <given-names>Valeria</given-names>
+          </name>
+          <xref ref-type="aff" rid="a11">11</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3584-7338</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lombes</surname>
+            <given-names>Anne</given-names>
+          </name>
+          <xref ref-type="aff" rid="a12">12</xref>
+          <xref ref-type="aff" rid="a13">13</xref>
+          <xref ref-type="aff" rid="a14">14</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9064-0399</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jardel</surname>
+            <given-names>Claude</given-names>
+          </name>
+          <xref ref-type="aff" rid="a12">12</xref>
+          <xref ref-type="aff" rid="a15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gl&#xE4;ser</surname>
+            <given-names>Dieter</given-names>
+          </name>
+          <xref ref-type="aff" rid="a16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Taylor</surname>
+            <given-names>Robert W.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ghezzi</surname>
+            <given-names>Daniele</given-names>
+          </name>
+          <xref ref-type="aff" rid="a11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mayr</surname>
+            <given-names>Johannes A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>R&#xF6;tig</surname>
+            <given-names>Agnes</given-names>
+          </name>
+          <xref ref-type="aff" rid="a9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Freisinger</surname>
+            <given-names>Peter</given-names>
+          </name>
+          <xref ref-type="aff" rid="a19">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Distelmaier</surname>
+            <given-names>Felix</given-names>
+          </name>
+          <xref ref-type="aff" rid="a20">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Strom</surname>
+            <given-names>Tim M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Meitinger</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gagneur</surname>
+            <given-names>Julien</given-names>
+          </name>
+          <xref ref-type="corresp" rid="c1">a</xref>
+          <xref ref-type="aff" rid="a3">3</xref>
+          <xref ref-type="aff" rid="a4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Prokisch</surname>
+            <given-names>Holger</given-names>
+          </name>
+          <xref ref-type="corresp" rid="c2">b</xref>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2379-6286</contrib-id>
+        </contrib>
+        <aff id="a1"><label>1</label><institution>Institute of Human Genetics, Helmholtz Zentrum M&#xFC;nchen</institution>, 85764 Neuherberg, <country>Germany</country></aff>
+        <aff id="a2"><label>2</label><institution>Institute of Human Genetics, Klinikum rechts der Isar, Technische Universit&#xE4;t M&#xFC;nchen</institution>, 81675 M&#xFC;nchen, <country>Germany</country></aff>
+        <aff id="a3"><label>3</label><institution>Department of Informatics, Technische Universit&#xE4;t M&#xFC;nchen</institution>, 85748 Garching, <country>Germany</country></aff>
+        <aff id="a4"><label>4</label><institution>Quantitative Biosciences Munich, Gene Center, Department of Biochemistry, Ludwig Maximilian Universit&#xE4;t M&#xFC;nchen</institution>, 81377 M&#xFC;nchen, <country>Germany</country></aff>
+        <aff id="a5"><label>5</label><institution>Department of Proteomics and Signal Transduction, Max-Planck Institute of Biochemistry</institution>, 82152 Martinsried, <country>Germany</country></aff>
+        <aff id="a6"><label>6</label><institution>Institute of Bioinformatics and Systems Biology, Helmholtz Zentrum M&#xFC;nchen</institution>, 85764 Neuherberg, <country>Germany</country></aff>
+        <aff id="a7"><label>7</label><institution>Institute of Experimental Genetics, Genome Analysis Center, Helmholtz Zentrum M&#xFC;nchen, German Research Center for Environmental Health</institution>, 85764 Neuherberg, <country>Germany</country></aff>
+        <aff id="a8"><label>8</label><institution>Neurop&#xE4;diatrie, Neonatologie</institution>, 78050 Villingen-Schwenningen, <country>Germany</country></aff>
+        <aff id="a9"><label>9</label><institution>INSERM U1163, Universit&#xE9; Paris Descartes&#x2014;Sorbonne Paris Cit&#xE9;, Institut Imagine</institution>, 75015 Paris, <country>France</country></aff>
+        <aff id="a10"><label>10</label><institution>Metabolic Unit, A. Meyer Children&#x2019;s Hospital</institution>, 50139 Florence, <country>Italy</country></aff>
+        <aff id="a11"><label>11</label><institution>Unit of Molecular Neurogenetics, Foundation IRCCS (Istituto di Ricovero e Cura a Carettere Scientifico) Neurological Institute &#x2018;Carlo Besta&#x2019;</institution>, 20126 Milan, <country>Italy</country></aff>
+        <aff id="a12"><label>12</label><institution>Inserm UMR 1016, Institut Cochin</institution>, 75014 Paris, <country>France</country></aff>
+        <aff id="a13"><label>13</label><institution>CNRS UMR 8104, Institut Cochin</institution>, 75014 Paris, <country>France</country></aff>
+        <aff id="a14"><label>14</label><institution>Universit&#xE9; Paris V Ren&#xE9; Descartes, Institut Cochin</institution>, 75014 Paris, <country>France</country></aff>
+        <aff id="a15"><label>15</label><institution>AP/HP, GHU Piti&#xE9;-Salp&#xEA;tri&#xE8;re, Service de Biochimie M&#xE9;tabolique</institution>, 75013 Paris, <country>France</country></aff>
+        <aff id="a16"><label>16</label><institution>Genetikum, Genetic Counseling and Diagnostics</institution>, 89231 Neu-Ulm, <country>Germany</country></aff>
+        <aff id="a17"><label>17</label><institution>Wellcome Centre for Mitochondrial Research, Institute of Neuroscience, Newcastle University</institution>, Newcastle upon Tyne NE2 4HH, <country>UK</country></aff>
+        <aff id="a18"><label>18</label><institution>Department of Pediatrics, Paracelsus Medical University</institution>, A-5020 Salzburg, <country>Austria</country></aff>
+        <aff id="a19"><label>19</label><institution>Department of Pediatrics, Klinikum Reutlingen</institution>, 72764 Reutlingen, <country>Germany</country></aff>
+        <aff id="a20"><label>20</label><institution>Department of General Pediatrics, Neonatology and Pediatric Cardiology, University Children&#x2019;s Hospital, Heinrich-Heine-University D&#xFC;sseldorf</institution>, 40225 D&#xFC;sseldorf, <country>Germany</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="c1">
+          <label>a</label>
+          <email>gagneur@in.tum.de</email>
+        </corresp>
+        <corresp id="c2">
+          <label>b</label>
+          <email>prokisch@helmholtz-muenchen.de</email>
+        </corresp>
+        <fn id="n1">
+          <label>*</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+        <fn id="n2">
+          <label>&#x2020;</label>
+          <p>Present address: Institute of Medical Genetics and Applied Genomics, University of T&#xFC;bingen, 72076 T&#xFC;bingen, Germany</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>12</day>
+        <month>06</month>
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>15824</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>12</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>04</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2017, The Author(s)</copyright-statement>
+        <copyright-year>2017</copyright-year>
+        <copyright-holder>The Author(s)</copyright-holder>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <!--author-paid-->
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Across a variety of Mendelian disorders, &#x223C;50&#x2013;75% of patients do not receive a genetic diagnosis by exome sequencing indicating disease-causing variants in non-coding regions. Although genome sequencing in principle reveals all genetic variants, their sizeable number and poorer annotation make prioritization challenging. Here, we demonstrate the power of transcriptome sequencing to molecularly diagnose 10% (5 of 48) of mitochondriopathy patients and identify candidate genes for the remainder. We find a median of one aberrantly expressed gene, five aberrant splicing events and six mono-allelically expressed rare variants in patient-derived fibroblasts and establish disease-causing roles for each kind. Private exons often arise from cryptic splice sites providing an important clue for variant prioritization. One such event is found in the complex I assembly factor TIMMDC1 establishing a novel disease-associated gene. In conclusion, our study expands the diagnostic tools for detecting non-exonic variants and provides examples of intronic loss-of-function variants with pathological relevance.</p>
+      </abstract>
+      <abstract abstract-type="web-summary">
+        <p>Genome sequencing alone fails to provide a genetic diagnosis for many Mendelian disorder patients. Here, the authors utilize RNA sequencing to complement genotyping of patients with a rare mitochondrial disease by detecting aberrant RNA expression, splicing and allele-specific expression.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p>Despite the revolutionizing impact of whole-exome sequencing (WES) on the molecular genetics of Mendelian disorders, &#x223C;50&#x2013;75% of the patients do not receive a genetic diagnosis after WES<xref ref-type="bibr" rid="b1">1</xref>. The disease-causing variants might be detected by WES but remain as variants of unknown significance (VUS, Methods section) or they are missed due to the inability to prioritize them. Many of these VUS are synonymous or non-coding variants that may affect RNA abundance or isoform but cannot be prioritized due to the poor understanding of regulatory sequence to date compared to coding sequence. Furthermore, WES covers only the 2% exonic regions of the genome. Accordingly, it is mostly blind to regulatory variants in non-coding regions that could affect RNA sequence and abundance. While the limitation of genome coverage is overcome by whole genome sequencing (WGS), prioritization and interpretation of variants identified by WGS is in turn limited by their amount<xref ref-type="bibr" rid="b2">2</xref><xref ref-type="bibr" rid="b3">3</xref><xref ref-type="bibr" rid="b4">4</xref>.</p>
+    <p>With RNA sequencing (RNA-seq), limitations of the sole genetic information can be complemented by directly probing variations in RNA abundance and in RNA sequence, including allele-specific expression and splice isoforms. At least three extreme situations can be directly interpreted to prioritize candidate disease-causing genes for a rare disorder. First, the expression level of a gene can lie outside its physiological range. Genes with expression outside their physical range can be identified as expression outliers, often using a stringent cutoff on expression variations, for instance using the <italic>Z</italic>-score<xref ref-type="bibr" rid="b5">5</xref> or statistics at the level of whole gene sets<xref ref-type="bibr" rid="b6">6</xref><xref ref-type="bibr" rid="b7">7</xref>. The genetic causes of such aberrant expression includes rare variants in the promoter<xref ref-type="bibr" rid="b8">8</xref> and enhancer but also in coding or intronic regions<xref ref-type="bibr" rid="b5">5</xref>. Second, RNA-seq can reveal extreme cases of allele-specific expression (mono-allelic expression (MAE)), whereby one allele is silenced, leaving only the other allele expressed. When assuming a recessive mode of inheritance, genes with a single heterozygous rare coding variant identified by WES or WGS analysis are not prioritized. However, MAE of such variants fits the recessive mode of inheritance assumption. Detection of MAE can thus help re-prioritizing heterozygous rare variants. Reasons for MAE can be genetic. A pilot study validated compound heterozygous variants within one gene as cause of TAR syndrome, where one allele is deleted and the other harbours a non-coding variant that reduces expression<xref ref-type="bibr" rid="b9">9</xref>. MAE can also have epigenetic causes such as X-chromosome inactivation or imprinting on autosomal genes, possibly by random choice<xref ref-type="bibr" rid="b10">10</xref><xref ref-type="bibr" rid="b11">11</xref>. Third, splicing of a gene can be affected. Aberrant splicing has long been recognized as a major cause of Mendelian disorders (reviewed in refs <xref ref-type="bibr" rid="b12">12</xref>, <xref ref-type="bibr" rid="b13">13</xref>, <xref ref-type="bibr" rid="b14">14</xref>). However, the prediction of splicing defects from genetic sequence is difficult because splicing involves a complex set of cis-regulatory elements that are not yet fully understood. Some of them can be deeply located in intronic sequences<xref ref-type="bibr" rid="b15">15</xref> and are thus not covered by WES. Hence, direct probing of splice isoforms by RNA-seq is important, and has led to the discovery of multiple splicing defects based on single gene studies: skipping of multiple exons (exon 45&#x2013;55)<xref ref-type="bibr" rid="b16">16</xref> and creation of a new exon by a deep intronic variant in <italic>DMD</italic><xref ref-type="bibr" rid="b17">17</xref>, intron retention in <italic>LMNA</italic> caused by a 5&#x2032; splice site variant<xref ref-type="bibr" rid="b18">18</xref>, and skipping of exon 7 in <italic>SMN1</italic> caused by a variant in a splicing factor binding site<xref ref-type="bibr" rid="b19">19</xref>. Altogether, RNA-seq promises to be an important complementary tool to facilitate molecular diagnosis of rare genetic disorders. However, no systematic study to date has been conducted to assess its power.</p>
+    <p>We considered investigating the power of RNA-sequencing for molecular diagnosis with a panel of patients diagnosed with a mitochondrial disorder for three reasons. First, mitochondrial diseases collectively represent one of the most frequent inborn errors of metabolism affecting 2 in 10,000 individuals<xref ref-type="bibr" rid="b20">20</xref>. Second, the broad range of unspecific clinical symptoms and the genetic diversity in mitochondrial diseases makes molecular diagnosis difficult and WES often results in VUS. As a consequence of the bi-genomic control of the energy-generating oxidative phosphorylation (OXPHOS) system, mitochondrial diseases may result from pathogenic mutations of the mitochondrial DNA or nuclear genome. More than 1,500 different nuclear genes encode mitochondrial proteins<xref ref-type="bibr" rid="b21">21</xref> and causal defects have been identified in &#x223C;300 genes and presumably more additional disease-associated genes still awaiting identification<xref ref-type="bibr" rid="b22">22</xref>. Third, since the diagnosis often relies on biochemical testing of a tissue sample, fibroblast cell lines are usually available from those patients. Moreover, for many patients, the disease mechanisms can be assayed in epidermal fibroblast cell lines even though the disease may manifest in different tissues<xref ref-type="bibr" rid="b23">23</xref>. This allows rapid demonstration of the necessary and sufficient role of candidate variants by perturbation and complementation assays<xref ref-type="bibr" rid="b24">24</xref>. This also indicates that disease-causing expression defects, if any, should be detectable in these cell lines.</p>
+    <p>Here, we establish an analysis pipeline to systematically detect RNA defects to complement genome-based molecular diagnosis. We find a median of one aberrantly expressed gene, five aberrant splicing events and six mono-allelically expressed rare variants in patient-derived fibroblasts and establish disease-causing roles for each kind. This leads to the molecular diagnosis of 10% of undiagnosed mitochondriopathy patients (5 out of 48) and yields candidate genes for 36 other patients. Systematic analysis of private exons shows that these often occur at locations where splicing is detectable at basal level in the population, providing an important clue for variant prioritization. Altogether, our study expands the tools for interpreting non-exonic variants and accelerating the genetic diagnosis of rare disorders.</p>
+    <sec disp-level="1">
+      <title>Results</title>
+      <sec disp-level="2">
+        <title>RNA sequencing on patient-derived fibroblasts</title>
+        <p>We performed RNA-seq on 105 fibroblast cell lines from patients with a suspected mitochondrial disease including 48 patients for which WES based variant prioritization did not yield a genetic diagnosis (<xref ref-type="fig" rid="f1">Fig. 1</xref>, Methods section, <xref ref-type="supplementary-material" rid="S1">Supplementary Table 1</xref>). After discarding lowly expressed genes, RNA-seq identified 12,680 transcribed genes (at least 10 reads in 5% of all samples, Methods section, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 1</xref>). We systematically prioritized genes with the following three strategies: (i) genes with aberrant expression level<xref ref-type="bibr" rid="b6">6</xref><xref ref-type="bibr" rid="b7">7</xref><xref ref-type="bibr" rid="b8">8</xref>, (ii) genes with aberrant splicing<xref ref-type="bibr" rid="b17">17</xref><xref ref-type="bibr" rid="b25">25</xref> and (iii) MAE of rare variants<xref ref-type="bibr" rid="b9">9</xref> (<xref ref-type="fig" rid="f1">Fig. 1</xref>) to estimate their disease association. All strategies are based on the comparison of one patient against the rest. We assumed the causal defects to differ between patients, which is reasonable for mitochondrial disorders with a diversity of &#x223C;300 known disease-causing genes (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 2</xref>). Therefore, the patients serve as good controls for each other.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Aberrant expression</title>
+        <p>Once normalized for technical biases, sex and biopsy site (<xref ref-type="supplementary-material" rid="S1">Supplementary Method 1</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1</xref>), the samples typically presented few aberrantly expressed genes (median of 1, 90% of the samples with &lt;10, <xref ref-type="fig" rid="f2">Fig. 2a</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 3</xref>) with a large effect (|<italic>Z</italic>-score|&gt;3) and significant differential expression (Hochberg adjusted <italic>P</italic> value&lt;0.05). Among the most aberrantly expressed genes across all samples, we found 2 genes encoding mitochondrial proteins, <italic>MGST1</italic> (one case) and <italic>TIMMDC1</italic> (two cases) to be significantly down-regulated (<xref ref-type="fig" rid="f2">Fig. 2b&#x2013;d</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2</xref>). For both genes, WES did not identify any variants in the respective patients, no variant is reported to be disease-associated and no case of potential bi-allelic rare variant is listed in our in-house database comprising more than 1,200 whole-exomes from mitochondrial patients and more than 15,000 whole-exomes available to us from different ongoing research projects. To evaluate the consequences of diminished RNA expression at the protein level, we performed quantitative proteomics in a total of 31 fibroblast cell lines (including these three patients, and further 17 undiagnosed and 11 diagnosed patients, <xref ref-type="supplementary-material" rid="S1">Supplementary Table 1</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 4 and 5</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Methods 2&#x2013;5</xref>) from a second aliquot of cells taken at the same time as the RNA-seq aliquot. Normalized RNA and protein expression levels showed a median rank correlation of 0.59, comparable to what has been previously reported<xref ref-type="bibr" rid="b26">26</xref><xref ref-type="bibr" rid="b27">27</xref> (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3</xref>). Patient #73804 showed &#x223C;2% of control MGST1 level whilst the lack of detection of TIMMDC1 in both patients (#35791 and #66744) confirmed an even stronger effect on protein expression, indicating loss of function (<xref ref-type="fig" rid="f2">Fig. 2e</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4</xref>). MGST1, a microsomal glutathione S-transferase, is involved in the oxidative stress defense<xref ref-type="bibr" rid="b28">28</xref>. Consequently, the loss of expression of MGST1 is not only a likely cause of the disease of this patient, who suffers from an infantile-onset neurodegenerative disorder similar to a recently published case with another defect in the reactive oxygen species defense system (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Note 1</xref>)<xref ref-type="bibr" rid="b29">29</xref>, but also suggests a treatment with antioxidants. Both TIMMDC1 patients presented with muscular hypotonia, developmental delay and neurological deterioration, which led to death in the first 3 years of life (<xref ref-type="supplementary-material" rid="S1">Supplementary Note 1</xref>). Consistent with the described function of TIMMDC1 as a respiratory chain complex I assembly factor<xref ref-type="bibr" rid="b30">30</xref><xref ref-type="bibr" rid="b31">31</xref>, we found isolated complex I deficiency in muscle (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2</xref>), and globally decreased levels of complex I subunits in fibroblasts by quantitative proteomics (<xref ref-type="fig" rid="f2">Fig. 2e</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2</xref>) and western blot (<xref ref-type="fig" rid="f2">Fig. 2f</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 10</xref>). Re-expression of <italic>TIMMDC1</italic> in these cells increased complex I subunit levels (<xref ref-type="fig" rid="f2">Fig. 2f</xref>). These results not only validate TIMMDC1-deficiency as disease causing but also provide compelling evidence for an important function of TIMMDC1 in complex I assembly.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Aberrant splicing</title>
+        <p>We identified aberrant splicing events by testing for differential splicing in each patient against the others, using an annotation-free algorithm able to detect splice sites <italic>de novo</italic> (Methods section, median of 5 abnormal events per sample, 90% with &lt;16, <xref ref-type="fig" rid="f3">Fig. 3a</xref>). Among the 175 aberrant spliced genes detected in the undiagnosed patients, the most abundant events were, apart from differential expression of isoforms, exon skipping followed by the creation of new exons (<xref ref-type="fig" rid="f3">Fig. 3b</xref>). Two genes encoding mitochondrial proteins, <italic>TIMMDC1</italic> and <italic>CLPP,</italic> which were among the 20 most significant genes, caught our attention (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 6</xref>). Out of 136 exon-junction reads overlapping the acceptor site of <italic>CLPP</italic> exon 6 for patient #58955, 82 (per cent spliced in ref. <xref ref-type="bibr" rid="b32">32</xref>, &#x3A8;=60%) skipped exon 5, and 14 (&#x3A8;=10%) showed a 3&#x2032;-truncated exon 5, in striking contrast to other samples (<xref ref-type="fig" rid="f3">Fig. 3c</xref>). The likely genetic cause of these two splice defects is a rare homozygous variant in exon 5 of <italic>CLPP</italic> affecting the last nucleotide of exon 5 (c.661G&gt;A, p.Glu221Lys 1.2 &#xD7; 10<sup>&#x2212;5</sup> frequency in the ExAC database<xref ref-type="bibr" rid="b33">33</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5</xref>). Both detected splice defects result in truncated CLPP and western blots corroborated the complete loss of full-length CLPP (<xref ref-type="supplementary-material" rid="S1">Supplementary Figs 5 and 11</xref>). Our WES variant filtering reported this variant as a VUS and classified <italic>CLPP</italic> as one among 30 other potentially bi-allelic affected candidate genes (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 7</xref>). Since the variant was of unknown significance, the patient remained without genetic diagnosis. The loss of function found by RNA-seq and confirmed by western blotting now highlights clinical relevance of the variant within <italic>CLPP</italic>. <italic>CLPP</italic> encodes a mitochondrial ATP-dependent endopeptidase<xref ref-type="bibr" rid="b34">34</xref> and CLPP-deficiency causes Perrault syndrome<xref ref-type="bibr" rid="b35">35</xref><xref ref-type="bibr" rid="b36">36</xref> (OMIM #601119) which is overlapping with the clinical presentation of the patient investigated here including microcephaly, deafness and severe psychomotor retardation (<xref ref-type="supplementary-material" rid="S1">Supplementary Note 1</xref>). Moreover, a study recently showed that Clpp&#x2212;/&#x2212; mice are deficient for complex IV expression<xref ref-type="bibr" rid="b37">37</xref>, in line with complex IV deficiency of this patient (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5</xref>).</p>
+        <p>Split read distribution indicated that both TIMMDC1-deficient patients expressed almost exclusively a <italic>TIMMDC1</italic> isoform with a new exon in intron 5 (<xref ref-type="fig" rid="f3">Fig. 3d</xref>). This new exon introduces a frameshift yielding a premature stop codon (p.Gly199_Thr200ins5*, <xref ref-type="fig" rid="f3">Fig. 3e</xref>). Moreover, this new exon contained a rare variant (c.596+2146A&gt;G) not listed in the 1,000 Genomes Project<xref ref-type="bibr" rid="b2">2</xref><xref ref-type="bibr" rid="b3">3</xref> (validated by Sanger sequencing, <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Method 6</xref>). WGS demonstrated that this variant is homozygous in both patients (<xref ref-type="fig" rid="f3">Fig. 3e</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Method 7</xref>), the only rare variant in this intron and close to the splice site (+6 of the new exon). We could not identify any rare variant in the promoter region or in any intron&#x2013;exon boundary of <italic>TIMMDC1</italic>. Additionally, when testing six prediction tools for splicing events, this deep intronic rare variant is predicted by SpliceAid2 (ref. <xref ref-type="bibr" rid="b38">38</xref>) to create multiple binding sites for splice enhancers. Together with the correctly predicted new acceptor and donor sites by SplicePort<xref ref-type="bibr" rid="b39">39</xref> (Feature generation algorithm score 0.112 and 1.308, respectively) this emphasizes the influence of this variant in the creation of the new exon. Besides, the four other tools predicted no significant change in splicing<xref ref-type="bibr" rid="b40">40</xref><xref ref-type="bibr" rid="b41">41</xref><xref ref-type="bibr" rid="b42">42</xref><xref ref-type="bibr" rid="b43">43</xref>. We further discovered an additional family in our in-house WGS database (consisting of 36 patients with a suspected mitochondrial disorder and 232 further patients with unrelated diseases) carrying the same homozygous intronic variant. In this family three affected siblings presented with similar clinical symptoms although without a diagnosis of a mitochondrial disorder (<xref ref-type="fig" rid="f3">Fig. 3e</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2</xref>). Two siblings died before the age of 10. A younger brother (#96687), now 6 years of age, presented with muscle hypotonia, failure to thrive and neurological impairment (<xref ref-type="supplementary-material" rid="S1">Supplementary Note 1</xref>), similar to the patients described above. Western blot analysis confirmed TIMMDC1-deficiency (<xref ref-type="fig" rid="f2">Fig. 2f</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 10</xref>) and impaired complex I assembly, which was restored after re-expression of <italic>TIMMDC1</italic> (<xref ref-type="fig" rid="f2">Fig. 2g</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 10</xref>). The discovery of the same intronic <italic>TIMMDC1</italic> variant in three unrelated families from three different ethnicities provides convincing evidence on the causality of this variant for the TIMMDC1 loss-of-function.</p>
+        <p>In almost all non-TIMMDC1-deficiency samples, we noticed a few split reads supporting inclusion of the new exon (<xref ref-type="fig" rid="f3">Fig. 3d</xref>), consistent with an earlier report that many cryptic splice sites are not entirely repressed but active at low levels<xref ref-type="bibr" rid="b44">44</xref>. We set out to quantify this phenomenon and to interrogate the frequency of private exons originating from weakly spliced exons, independent of their possible association with disease. Consequently, we modelled the distribution of &#x3A8; for the 1,603,042 splicing events detected genome-wide in 105 samples as a mixture of three components. The model classified splicing frequencies per splice site as strong (20%, with &#x3A8;&gt;5.3%), weak (16%, with 0.16%&lt;&#x3A8;&lt;5.3%), or background (64%, with &#x3A8;&lt;0.16%, Methods section, <xref ref-type="fig" rid="f3">Fig. 3f</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 6</xref>). Strikingly, the majority (70%, 4.4-fold more than by chance) of the 17 discovered private exons originated from weak splice sites (<xref ref-type="fig" rid="f3">Fig. 3f</xref>, bottom). These data confirm that weakly spliced cryptic exons are loci more susceptible to turn into strongly spliced sites than other intronic regions. These weak splicing events are usually dismissed as &#x2018;noise&#x2019; since they are only supported by few reads in a given sample. Our analysis shows that they can be detected as accumulation points across multiple individuals. Hence, these results suggest that the prioritization of deep intronic VUSs gained through WGS could be improved by annotating weak splice sites and their resulting cryptic exons.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Mono-allelic expression</title>
+        <p>As a third approach, we searched for MAE of rare variants. In median per sample, 35,521 heterozygous SNVs were detected by WES, of which 7,622 were sufficiently covered by RNA-seq to call MAE (more than 10 reads), 20 showed MAE (Hochberg adjusted <italic>P</italic> value&lt;0.05, allele frequency &#x2265;0.8), of which 6 were rare variants (minor allele frequency&lt;0.001, Methods section, <xref ref-type="fig" rid="f4">Fig. 4a</xref>, 90% of the samples had &lt;12 MAE of rare variants). Amongst the 18 rare mono-allelic expressed variants in patient #80256 was a VUS in <italic>ALDH18A1</italic> (c.1864C&gt;T, p.Arg622Trp, <xref ref-type="fig" rid="f4">Fig. 4b</xref>), encoding an enzyme involved in mitochondrial proline metabolism<xref ref-type="bibr" rid="b45">45</xref>. This VUS had been seen in WES compound heterozygous with a nonsense variant (c.1988C&gt;A, p.Ser663*, <xref ref-type="fig" rid="f4">Fig. 4b</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7</xref>). Variants in <italic>ALDH18A1</italic> had been reported to be associated with cutis laxa III (OMIM #138250)<xref ref-type="bibr" rid="b46">46</xref><xref ref-type="bibr" rid="b47">47</xref>, yet the patient did not present cutis laxa. Because of this inconsistent phenotype and the unknown significance of the non-synonymous variant, the variants in <italic>ALDH18A1</italic> were not regarded as disease causing. However, RNA-seq-based aberrant expression (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7</xref>) and MAE analysis prioritized <italic>ALDH18A1</italic> again. Validation by quantitative proteomics revealed severe reduction down to &#x223C;2% ALDH18A1 (<xref ref-type="fig" rid="f4">Fig. 4c</xref>), indicating that the rare MAE variant affects translation or protein stability. Metabolomics profile of blood plasma was in accordance with a defect in proline metabolism (<xref ref-type="fig" rid="f4">Fig. 4d</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Method 8</xref>) and the following changes in urea cycle. Patient fibroblasts showed a growth defect that was rescued by supplementation of proline, validating impaired proline metabolism as the underlying molecular cause (<xref ref-type="fig" rid="f4">Fig. 4e</xref>). Our experimental evidence strongly suggests that the two observed variants are pathogenic. Finally, a recent report<xref ref-type="bibr" rid="b48">48</xref> on <italic>ALDH18A1</italic> patients extended the phenotypic spectrum to spastic paraplegia without cutis laxa (OMIM #138250). Spastic paraplegia resembles the symptoms of our patient (<xref ref-type="supplementary-material" rid="S1">Supplementary Note 1</xref>), which validates these <italic>ALDH18A1</italic> mutations as disease-causing.</p>
+        <p>In another patient (#62346) we found borderline non-significant low expression of <italic>MCOLN1</italic> with 10 out of 11 reads expressing an intronic VUS (c.681-19A&gt;C, <xref ref-type="fig" rid="f4">Fig. 4f</xref>). This intronic variant was detected as part of a retained intron, which introduced a nonsense codon (p. Lys227_Leu228ins16*, <xref ref-type="fig" rid="f4">Fig. 4f</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8</xref>). When looking at the WES data we could additionally identify a heterozygous nonsense variant (c.832C&gt;T, p.Gln278*). The allele with the exonic nonsense mutation was not expressed, most likely due to nonsense-mediated decay. Mutations in <italic>MCOLN1</italic> are associated with mucolipidosis (OMIM #605248). The symptoms of the patient were initially suggestive for mucolipidosis, but none of the enzymatic tests available for mucolipidosis types 1, 2 and 3 revealed an enzyme deficiency in blood leucocytes (<xref ref-type="supplementary-material" rid="S1">Supplementary Note 1</xref>). Moreover, <italic>MCOLN1</italic> was missed by our WES variant filter since the intronic variant was not prioritized. Hence, the WES data could not be conclusive about <italic>MCOLN1</italic>. In contrast, the RNA-seq data demonstrated two loss-of-function alleles in <italic>MCOLN1</italic> and therefore established the genetic diagnosis.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>RNA defects in exome-diagnosed patients</title>
+        <p>Here, we included genetically diagnosed patients in our RNA-seq analysis pipeline to increase the power for the detection of aberrant expression and aberrant splicing in fibroblast cell lines. However, when evaluating the results for 40 diagnosed cases with WES and RNA-seq available (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 1</xref>), aberrant splicing detected 7 out of 8 cases with a causal splicing variant, MAE recovered 3 out of 6 patients with heterozygous missense variants compound with a stop or frameshift variant, and aberrant expression recovered 3 out of 4 homozygous stop variants. Counter-intuitively, only one of the 9 frame-shift variants did lead to a detectable RNA defect, that is, MAE of a near splice site intronic variant within a retained intron. The partial recovery of stop and frameshift variants may reflect incomplete nonsense mediated decay. For none of the 14 genes where missense variants were disease causing, a RNA defect could be detected with our pipeline. This is expected, since missense variants more likely affect protein function rather than RNA expression (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 2</xref>).</p>
+      </sec>
+    </sec>
+    <sec disp-level="1">
+      <title>Discussion</title>
+      <p>Altogether, our study demonstrates the utility of RNA-seq in combination with bioinformatics filtering criteria for molecular diagnosis by (i) discovering a new disease-associated gene, (ii) providing a diagnosis for 10% (5 of 48) of undiagnosed cases and (iii) identifying a limited number of strong candidates. We established a pipeline for the detection of aberrant expression, aberrant splicing and MAE of rare variants, that is able to detect significant outliers, with a median of 1, 5 and 6, respectively. Overall, for 36 patients our pipeline provides a strong candidate gene, that is, a known disease-causing or mitochondrial protein-encoding gene, like <italic>MGST1</italic> (<xref ref-type="fig" rid="f5">Fig. 5a</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 7</xref>). This manageable amount, similar to the median number of 16 genes with rare potentially bi-allelic variants detected by WES, allows manual inspection and validation by disease experts. While filtering by frequency is highly efficient when focusing on the coding region, frequency filtering is not as effective for intronic or intergenic variants identified by WGS. The loss-of-function character observed on RNA level thus improved interpretation of VUS identified by genotyping.</p>
+      <p>We focused our analysis on one sample preparation pipeline, which has several advantages. Based on our experience, expression outliers can only reliably be detected after extensive normalization process. This needs information about all technical details starting from the biopsy, growth of the cells, to the RNA extraction and library preparation. Usually not all this information is available in published data sets. For detecting aberrant splicing such as new exons, we would recommend not to mix different tissues because splicing can be tissue-specific. MAE is the most robust of all criteria in this respect because it only relies on read counts within a sample. Overall, we recommend not relying on a single sample being compared to public RNA-seq data sets. Instead, RNA-seq should be included in the pipeline of diagnostic centres to generate matching controls over time. The situation is similar for whole exome and WGS, where the control for platform-specific biases is important.</p>
+      <p>To our surprise, many newly diagnosed cases were caused by a defective splicing event, which caused loss of function (<xref ref-type="fig" rid="f5">Fig. 5b</xref>), confirming the increasing recognition of the role of splicing defects in both Mendelian<xref ref-type="bibr" rid="b49">49</xref><xref ref-type="bibr" rid="b50">50</xref> and common disorders<xref ref-type="bibr" rid="b25">25</xref>. In the case of <italic>TIMMDC1</italic>, the causal variant was intronic, and thus not covered by WES. Even when detected by WGS, such deep intronic variants are difficult to prioritize from the sequence information alone. Here, we showed that RNA-seq of large cohorts can provide important information about intronic positions that are particularly susceptible to affect splicing when mutated. We showed that private exons often arise from loci with weak splicing of &#x223C;1%. This suggests that rare variants affecting such cryptic splice sites are more likely to affect splicing and that these can be detected as positions with low yet consistent splicing. We reason that analysis of a RNA-seq compendium of healthy donors across multiple tissues such as GTEx (ref. <xref ref-type="bibr" rid="b51">51</xref>) could provide tissue-specific maps of cryptic splice sites useful for prioritizing intronic variants.</p>
+      <p>Genetic disorders typically show specificity to some tissues, some of which might not be easily accessible for RNA-sequencing. It is therefore natural to question whether transcriptome sequencing of an unaffected tissue can help diagnosis. Here, we performed RNA-seq on patient derived dermal fibroblast cell lines. The fibroblast cell lines are the byproducts of muscle biopsies routinely undertaken in the clinic to biochemically diagnose mitochondrial disorders with enzymatic assays. By using fibroblast cell lines we overcome the limited accessibility of the affected tissues, which in the case of mitochondrial disorders are often high energy demanding tissues like brain, heart, skeletal muscle or liver. It turns out that many genes with a mitochondrial function are expressed in most tissues<xref ref-type="bibr" rid="b52">52</xref>, including fibroblasts. Hence, extreme regulatory defects such as loss of expression or aberrant splicing of genes encoding mitochondrial proteins can be detected in fibroblasts, even though the physiological consequence on fibroblasts might be negligible. This property might be true for other diseases: the tissue-specific physiological consequence of a variant does not necessarily stem from tissue-specific expression of the gene harbouring the variant. In many cases, tissue-specificity might be due to environmental or cellular context, or from tissue-specific expression of further genes. Hence, tissue-specificity does not preclude RNA-seq of unaffected tissues from revealing the causative defect for a large number of patients. Moreover, non-affected tissues have the advantage that the regulatory consequences on other genes are limited and therefore the causal defects are more likely to stand out as outliers<xref ref-type="bibr" rid="b53">53</xref>.</p>
+      <p>Parallel to our effort, another study systematically investigated the usage of RNA-seq for molecular diagnosis with a similar sample size, using muscle biopsies from primary muscle disorder patients<xref ref-type="bibr" rid="b50">50</xref>. Analogously to our approach, not only exome sequencing-based VUS candidates were validated, but also new disease-causing mechanisms identified using RNA-seq data. Despite a few differences in the approach (expression outliers were not looked for, only samples of the affected tissues were considered and using samples of healthy donors as controls), the results are in line with ours whereby aberrant splicing also turns out to be a frequent disease-causing event. The success rate was even higher (35%), possibly because the diagnostic rate of primary muscle disorders is higher than for mitochondrial disorders. Also, in this case the affected tissue was always accessible and could be profiled. Therefore the chances were higher that the affected gene is expressed. Altogether, this complementary study confirms the relevance of using RNA-seq for diagnosis of Mendelian disorders.</p>
+      <p>In conclusion, we predict that RNA-seq will become an essential companion of genome sequencing to address undiagnosed cases of genetic disease.</p>
+    </sec>
+    <sec disp-level="1">
+      <title>Methods</title>
+      <sec disp-level="2">
+        <title>Study cohort</title>
+        <p>All individuals or their guardians gave written informed consent before undergoing evaluation and testing, in agreement with the Declaration of Helsinki and approved by the ethical committees of the centres participating in this study, where biological samples were obtained. All studies were completed according to local approval of the ethical committee of the Technical University of Munich. The study cohort is described in detail in <xref ref-type="supplementary-material" rid="S1">Supplementary Note 1</xref>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Exome sequencing</title>
+        <p>DNA from fibroblast cell lines was isolated from whole-cell lysates using the AllPrep DNA Mini Kit (Qiagen, Hilden, Germany) according to the manufacturer&#x2019;s protocol. Exonic regions were enriched using the SureSelect Human All Exon kit from Agilent (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 3</xref>) followed by sequencing as 100&#x2009;bp paired-end runs on an Illumina HiSeq2000 and Illumina HiSeq2500 (AG_50MB_v4 and AG_50MB_v5 exome kit samples) or as 76&#x2009;bp paired-end runs on the Illumina GAIIx (AG_38MB_v1 and AG_50MB_v3 exome kit samples)<xref ref-type="bibr" rid="b54">54</xref>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Exome alignment and variant prioritization</title>
+        <p>Read alignment to the human reference genome (UCSC Genome Browser build hg19) was done using Burrows-Wheeler Aligner<xref ref-type="bibr" rid="b55">55</xref> (v.0.7.5a). Single-nucleotide variants and small insertions and deletions (indels) were detected with SAMtools<xref ref-type="bibr" rid="b56">56</xref><xref ref-type="bibr" rid="b57">57</xref>(version 0.1.19). Variants with a quality score below 90, a genotype quality below 90, a mapping quality below 30, and a read coverage below 10 were discarded. The reported variants and small indels were annotated with the most severe entry by the Variant Effector Predictor<xref ref-type="bibr" rid="b58">58</xref> based on The Sequence Ontology term ranking<xref ref-type="bibr" rid="b59">59</xref>. The candidate variants for one patient are filtered to be rare, affect the protein sequence and potentially both alleles.</p>
+        <p>Variants are rare with a minor allele frequency &lt;0.001 within the ExAC database<xref ref-type="bibr" rid="b33">33</xref> and a frequency &lt;0.05 among our samples. Our filter considers variants to affect the protein, if they are a coding structural variant or their mutation type is one of ablation, deletion, frame-shift, incomplete, start lost, insertion, missense, splice, stop gain, stop retain, unstart and unstop. A potential biallelic effect can be caused by either a homozygous or at least two heterozygous variants in the same gene, whereas in latter case we assume that the heterozygous variants are on different alleles (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 9</xref>). This filter is designed for a recessive type disease model and does not account for a single heterozygous variant that could be disease causing in a dominant way.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Variant of unknown significance</title>
+        <p>&#x2018;A variation in a genetic sequence whose association with disease risk is unknown. Also called unclassified variant, variant of uncertain significance and VUS.&#x2019; (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cancer.gov/publications/dictionaries/genetics-dictionary?cdrid=556493">https://www.cancer.gov/publications/dictionaries/genetics-dictionary?cdrid=556493</ext-link>).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Cell culture</title>
+        <p>Primary patient fibroblast cell lines, normal human dermal fibroblasts (NHDF) from neonatal tissue (Lonza) and 293FT cells (Thermo Fisher Scientific) were cultured in high glucose DMEM (Life Technologies) supplemented with 10% FBS, 1% penicillin/streptomycin, and 200&#x2009;&#x3BC;M uridine at 37&#x2009;&#xB0;C and 5% CO<sub>2</sub>. All fibroblast cell lines have been tested negative for mycoplasma contamination.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>RNA sequencing</title>
+        <p>Non-strand specific, polyA-enriched RNA-seq was performed as described in ref. <xref ref-type="bibr" rid="b23">23</xref>: RNA was isolated from whole-cell lysates using the AllPrep RNA Kit (Qiagen) and RNA integrity number (RIN) was determined with the Agilent 2100 BioAnalyzer (RNA 6000 Nano Kit, Agilent). For library preparation, 1&#x2009;&#x3BC;g of RNA was poly(A) selected, fragmented and reverse transcribed with the Elute, Prime and Fragment Mix (Illumina). End repair, A-tailing, adaptor ligation and library enrichment were performed as described in the Low Throughput protocol of the TruSeq RNA Sample Prep Guide (Illumina). RNA libraries were assessed for quality and quantity with the Agilent 2100 BioAnalyzer and the Quant-iT PicoGreen dsDNA Assay Kit (Life Technologies). RNA libraries were sequenced as 100&#x2009;bp paired-end runs on an Illumina HiSeq2500 platform.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Processing of RNA sequencing files</title>
+        <p>RNA-seq reads were demultiplexed and mapped with STAR<xref ref-type="bibr" rid="b60">60</xref> (version 2.4.2a) to the hg19 genome assembly (UCSC Genome Browser build). In addition to the default parameters we detected gene fusions and increased sensitivity for novel splice junctions (chimSegmentMin=20, twopassMode=&#x2018;Basic&#x2019;). Analysis was restricted to the 27,682 UCSC Known Genes<xref ref-type="bibr" rid="b61">61</xref> (genome annotation version hg19) of chromosomes 1&#x2013;22, M, X or Y. Per gene, reads that are paired with mates from opposite strands and that overlapped completely within the gene on either strand orientation were counted using the summarizeOverlaps function of the R/Bioconductor GenomicAlignments<xref ref-type="bibr" rid="b62">62</xref> package (parameters: mode=intersectionStrict, singleEnd=FALSE, ignore.strand=TRUE and fragments=FALSE). If the 95th percentile of the coverage across all samples was below 10 reads the gene was considered &#x2018;not expressed&#x2019; and discarded from later analysis.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Computing RNA fold changes and differential expression</title>
+        <p>Before testing for differential expression between one patient of interest and all others, we controlled for technical batch effect, sex and biopsy site as inferred from the expression of <italic>hox</italic> genes (<xref ref-type="supplementary-material" rid="S1">Supplementary Method 1</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 8</xref>). We modelled the RNA-seq read counts <italic>K</italic><sub><italic>i,j</italic></sub> of gene <italic>i</italic> in sample <italic>j</italic> with a generalized linear model using the R/Bioconductor DESeq2 package<xref ref-type="bibr" rid="b63">63</xref><xref ref-type="bibr" rid="b64">64</xref>:</p>
+        <p>
+          <disp-formula id="eq1">
+            <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1273" xlink:href="ncomms15824-m1.jpg"/>
+          </disp-formula>
+        </p>
+        <p>
+          <disp-formula id="eq2">
+            <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1276" xlink:href="ncomms15824-m2.jpg"/>
+          </disp-formula>
+        </p>
+        <p>Where NB is the negative binomial distribution; <italic>&#x3B1;</italic><sub><italic>i</italic></sub> is a gene specific dispersion parameter; <italic>s</italic><sub><italic>j</italic></sub> is the size factor of sample <italic>j</italic>; <inline-formula id="d32e1294"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1295" xlink:href="ncomms15824-m3.jpg"/></inline-formula> is the intercept parameter for gene <italic>i</italic>. The value of <inline-formula id="d32e1301"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1302" xlink:href="ncomms15824-m4.jpg"/></inline-formula> is 1 for all RNA samples <italic>j</italic> of the patient of interest, thereby allowing for biological replicates, and 0 otherwise. The resulting vector <inline-formula id="d32e1307"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1308" xlink:href="ncomms15824-m5.jpg"/></inline-formula> represents the log<sub>2</sub> fold changes for one patient against all others. <italic>Z</italic>-scores were computed by dividing the fold changes by the s.d. of the normalized expression level of the respective gene. The <italic>P</italic> values corresponding to the <inline-formula id="d32e1320"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1321" xlink:href="ncomms15824-m6.jpg"/></inline-formula> were corrected for multiple testing using the Hochberg family-wise error rate method<xref ref-type="bibr" rid="b65">65</xref>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Detection of aberrant splicing</title>
+        <p>The LeafCutter<xref ref-type="bibr" rid="b66">66</xref> software was utilized to detect aberrant splicing. Each patient was tested against all others. To adjust LeafCutter to the rare disease setting, we modified the parameters to detect rare clusters, capture local gene fusion events and to detect junctions unique to a patient (minclureads=30; maxintronlen=500,000; mincluratio=1e-5, <xref ref-type="supplementary-material" rid="S1">Supplementary Data 9</xref>). Furthermore, one sample was tested against all other samples (min_samples_per_group=1; min_samples_per_intron=1). The resulting <italic>P</italic> values were corrected for multiple testing using a family-wise error rate approach<xref ref-type="bibr" rid="b65">65</xref>.</p>
+        <p>The significant splice events (Hochberg adjusted <italic>P</italic> value&lt;0.05) detected in the undiagnosed patients were visually classified as exon skipping, exon truncation, exon elongation, new exon, complex splicing (any other splicing event or a combination of the aforementioned ones) and false positives (<italic>n</italic>=73, <xref ref-type="fig" rid="f3">Fig. 3b</xref>). However, due to LeafCutter&#x2019;s restriction to split reads it is difficult to detect intron retention events, since no split-read is present in a perfect intron-retention scenario.</p>
+        <p>For further analysis, only reads spanning a splice junction, so called split reads, were extracted with a mapping quality of &gt;10 to reduce the false-positive rate due to mapping issues. Each splice site was annotated as belonging to the start or end of a known exon or to be entirely new. For the reference exon annotation the GENCODE release 24 based on GRCh37 was used<xref ref-type="bibr" rid="b67">67</xref>. The per cent spliced in (&#x3A8;) values<xref ref-type="bibr" rid="b32">32</xref> for the 3&#x2032; and 5&#x2032; sites were calculated as:</p>
+        <p>
+          <disp-formula id="eq7">
+            <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1359" xlink:href="ncomms15824-m7.jpg"/>
+          </disp-formula>
+        </p>
+        <p>where <italic>D</italic> is a donor site and <italic>A</italic> is an acceptor site. <italic>n(D,A)</italic> denotes the number of reads spanning the given junction. <italic>D&#x2032;</italic> and <italic>A&#x2032;</italic> represent all possible donor and acceptor sites, respectively.</p>
+        <p>Classification of splice sites into background, weak and strong was done by modelling the distribution of the &#x3A8;<sub>5</sub> and &#x3A8;<sub>3</sub>-values with three components. Identifiability of the three components was facilitated by considering three groups of junctions depending on previous annotation of splice sites: &#x2018;no side is annotated&#x2019;, &#x2018;one side is annotated&#x2019; and &#x2018;both sides are annotated&#x2019;. Specifically, the number of split reads <italic>n(D, A)</italic> of a junction conditioned on the total number of reads <italic>N</italic>(<italic>D</italic>, <italic>A</italic>)=&#x3A3;<sub><italic>A</italic>&#x2032;</sub><italic>n</italic> (<italic>D</italic>, <italic>A</italic>&#x2032;), for &#x3A8;<sub>5</sub>, and <italic>N</italic> (<italic>D</italic>, <italic>A</italic>)=&#x3A3;<sub><italic>D</italic>&#x2032;</sub><italic>n</italic> (<italic>D</italic>&#x2032;, <italic>A</italic>), for &#x3A8;<sub>3</sub>, was modelled as:</p>
+        <p>
+          <disp-formula id="eq8">
+            <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1443" xlink:href="ncomms15824-m8.jpg"/>
+          </disp-formula>
+        </p>
+        <p>where <italic>c</italic> is the component index, <italic>s</italic> the number of annotated sites and BetaBin the beta-binomial distribution. Hence, the components were modelled to have the same parameters <italic>&#x3B1;</italic><sub><italic>c</italic></sub>, <italic>&#x3B2;</italic><sub><italic>c</italic></sub> in all three groups but their mixing proportions <italic>&#x3C0;</italic><sub><italic>s,c</italic></sub> to be group-specific. Fitting was performed using the expectation-maximization algorithm. For the initial step, the data points were classified as background (&#x3A8;&lt;0.001), weak spliced (&#x3A8;&lt;0.1) and canonical (&#x3A8;&gt;=0.1). After convergence of the clustering the obtained parameters were used to estimate the probability for each junction side to belong to a given class.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Detection of mono-allelic expression</title>
+        <p>For MAE analysis only heterozygous single-nucleotide variants with only one alternative allele detected from exome sequencing data were used. The same quality filters were used as mentioned in the exome sequencing part, but no frequency filter was applied. To get allele counts from RNA-seq for the remaining variants the function pileLettersAt from the R/Bioconductor package GenomicAlignments<xref ref-type="bibr" rid="b62">62</xref> was used. The data were further filtered for variants with coverage of at least 10 reads on the transcriptome.</p>
+        <p>The DESeq2 package<xref ref-type="bibr" rid="b63">63</xref><xref ref-type="bibr" rid="b64">64</xref> was applied on the final variant set to estimate the significance of the allele-specific expression. Allele-specific expression was estimated on each heterozygous variant independently of others (that is, without phasing the variants). For each sample, a generalized linear model was fitted with the contrast of the coverage of one allele against the coverage of the other alleles. Specifically, we modelled <italic>K</italic><sub><italic>i,j</italic></sub> the number of reads of variant <italic>i</italic> in sample <italic>j</italic> as:</p>
+        <p>
+          <disp-formula id="eq9">
+            <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1496" xlink:href="ncomms15824-m9.jpg"/>
+          </disp-formula>
+        </p>
+        <p>
+          <disp-formula id="eq10">
+            <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1499" xlink:href="ncomms15824-m10.jpg"/>
+          </disp-formula>
+        </p>
+        <p>Where NB is the negative binomial distribution; the dispersion parameter <italic>&#x3B1;</italic> was fixed for all variants to <italic>&#x3B1;</italic>=0.05, which is approximately the average dispersion over all samples based on the gene-wise analysis; <italic>s</italic><sub><italic>j</italic></sub> is the size factor of each condition; <inline-formula id="d32e1514"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1515" xlink:href="ncomms15824-m11.jpg"/></inline-formula> is the intercept parameter for variant <italic>i</italic>. The value of <inline-formula id="d32e1521"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1522" xlink:href="ncomms15824-m12.jpg"/></inline-formula> is 1 for the alternative alleles and 0 otherwise. The resulting <inline-formula id="d32e1524"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1525" xlink:href="ncomms15824-m13.jpg"/></inline-formula> represents the log<sub>2</sub>-fold changes for the alternative allele against the reference allele. The independent filtering by DESeq2 was disabled (independentFiltering=FALSE) to keep the coverage outliers among the results. To classify a variant as mono-allelically expressed a cutoff of <inline-formula id="d32e1530"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1531" xlink:href="ncomms15824-m14.jpg"/></inline-formula> was used, which corresponds to an allele frequency &#x2265;0.8, and we filtered Benjamini-Hochberg adjusted <italic>P</italic> values to be &lt;0.05.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Transduction and transfection</title>
+        <p>Overexpression of <italic>TIMMDC1</italic> in fibroblast cell lines was performed by lentivirus-mediated expression of the full-length <italic>TIMMDC1</italic> cDNA (DNASU Plasmid Repository) using the ViraPower HiPerform Lentiviral TOPO Expression Kit (Thermo Fisher Scientific)<xref ref-type="bibr" rid="b68">68</xref>. <italic>TIMMDC1</italic> cDNA was cloned into the pLenti6.3/V5-TOPO expression vector and cotransfected into 293FT cells with the packaging plasmid mix using Lipofectamine 2000. After 24&#x2009;h, the transfection mix was replaced with high glucose DMEM supplemented with 10% FBS. After further 72&#x2009;h, the viral particle containing supernatant was collected and used for transduction of the fibroblast cell lines. Selection of stably expressing cells was performed using 5&#x2009;&#x3BC;g&#x2009;ml<sup>&#x2212;1</sup> Blasticidin (Thermo Fisher Scientific) for 2 weeks.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Immunoblotting</title>
+        <p>Total fibroblast cell lysates were subjected to whole protein quantification, separated on 4&#x2013;12% precast gels (Lonza) by SDS&#x2013;polyacrylamide gel electrophoresis (PAGE) electrophoresis and semi-dry transferred to polyvinylidene difluoride membranes (GE Healthcare Life Sciences). The membranes were blocked in 5% non-fat milk (Bio Rad) in TBS-T (150&#x2009;mM NaCl, 30&#x2009;mM Tris base, pH 7.4, 0.1% Tween 20) for 1&#x2009;h and immunoblotted using primary antibodies (1:1,000 dilution) against CLPP (Abcam, ab56455), MCOLN1 (Abcam, ab28508), MT-ND5 (Abcam, ab92624), NDUFA13 (Abcam, ab110240), NDUFB3 (Abcam, ab55526), NDUFB8 (Abcam, ab110242), TIMMDC1 (Abcam, ab171978) and UQCRC2 (Abcam, ab14745) for 1&#x2009;h at RT or ON at 4&#x2009;&#xB0;C. Signals were detected by incubation with horseradish peroxidase (HRP)-conjugated goat anti-rabbit and goat anti-mouse secondary antibodies (Jackson Immuno Research Laboratories, Code: 111-036-045 and Code: 115-036-062, respectively, 1:5,000 dilution) for 1&#x2009;h and visualized using ECL (GE Healthcare Life Sciences).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Blue native PAGE (BN-PAGE)</title>
+        <p>Fresh fibroblast cell pellets were resuspended in PBS supplemented with 0.25&#x2009;mM PMSF and 10&#x2009;U&#x2009;ml<sup>&#x2212;1</sup> DNAse I and solubilized using 2&#x2009;mg digitonin per mg protein. The mixture was incubated on ice for 15&#x2009;min followed by addition of 1&#x2009;ml PBS and subsequent centrifugation for 10&#x2009;min at 10,000<italic>g</italic> and 4&#x2009;&#xB0;C. The pellet was resuspended in 1x MB (750&#x2009;mM &#x3B5;-aminocaproic acid, 50&#x2009;mM bis-Tris, 0.5&#x2009;mM EDTA, pH 7.0) and subjected to whole-protein quantification. Membrane proteins were solubilized at a protein concentration of 2&#x2009;&#x3BC;g&#x2009;&#x3BC;l<sup>&#x2212;1</sup> using 0.5% (v/v) <italic>n</italic>-dodecyl-&#x3B2;-d-maltoside for 1&#x2009;h on ice and centrifuge for 30&#x2009;min at 10,000<italic>g</italic> at 4&#x2009;&#xB0;C. The supernatant was recovered and whole protein amount was quantified. Serva Blue G (SBG) was added to a final concentration of 0.25% (v/v) and 60&#x2009;&#x3BC;g protein were loaded on NativePAGE 4&#x2013;16% Bis-Tris gels (Thermo Fisher Scientific). Anode buffer contained 50&#x2009;mM Bis-Tris, pH 7.0, blue cathode buffer contained 15&#x2009;mM Bis-Tris, 50&#x2009;mM Tricine, pH 7.0, 0.02% SBG. Electrophoresis was started at 40&#x2009;V for 30&#x2009;min and continued at 130&#x2009;V until the front line proceeded 2/3 of the gel. Subsequently, blue cathode buffer was replaced by clear cathode buffer not containing SBG (15&#x2009;mM Bis-Tris, 50&#x2009;mM Tricine, pH 7.0). Proteins were wet transferred to polyvinylidene difluoride membranes and immunoblotted using primary antibodies against NDUFB8 (Abcam, ab110242, 1:1,000 dilution) to visualize complex I and UQCRC2 (Abcam, ab14745, 1:1,000 dilution) to visualize complex III. Incubation with secondary antibodies and detection was performed as described for immunoblotting.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Proline supplementation growth assay</title>
+        <p>We modified a method established earlier<xref ref-type="bibr" rid="b46">46</xref>. For the comparative growth assay, equal number of cells (<italic>n</italic>=250) from patient and control were seeded in 96-well plates and cultured in DMEM containing 10% of either normal or dialysed FBS. Medium with normal FBS contains small molecules, whereas medium with dialysed FBS is free of molecules with a molecular weight smaller than 10,000&#x2009;mw (Proline-free medium). To confirm the effect of Proline deprivation, DMEM containing dialysed FBS was supplemented with 100&#x2009;&#x3BC;M <sc>L</sc>-Proline to rescue the growth defect. After paraformaldehyde fixation, nuclei were stained with 4&#x2032;,6-diamidino-2-phenylindole and cell number was determined using a Cytation3 automated plate reader (BioTek, USA).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Data availability</title>
+        <p>All data and R scripts needed to reproduce paper figures are available online at our webserver (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://i12g-gagneurweb.in.tum.de/public/paper/mitoMultiOmics">https://i12g-gagneurweb.in.tum.de/public/paper/mitoMultiOmics</ext-link>). Additional data are available on request due to privacy or other restrictions.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1">
+      <title>Additional information</title>
+      <p><bold>How to cite this article:</bold> Kremer, L. S. <italic>et al</italic>. Genetic diagnosis of Mendelian disorders via RNA sequencing. <italic>Nat. Commun.</italic>
+<bold>8</bold>, 15824 doi: 10.1038/ncomms15824 (2017).</p>
+      <p><bold>Publisher&#x2019;s note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="S1">
+      <title>Supplementary Material</title>
+      <supplementary-material id="d32e18" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 1</title>
+          <p>RNA read count table.</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s1.txt"/>
+      </supplementary-material>
+      <supplementary-material id="d32e24" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 2</title>
+          <p>List of genes causing mitochondrial disorder.</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s2.txt"/>
+      </supplementary-material>
+      <supplementary-material id="d32e30" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 3</title>
+          <p>Sample annotation.</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s3.txt"/>
+      </supplementary-material>
+      <supplementary-material id="d32e36" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 4</title>
+          <p>Protein LFQ intensities as proteinGroups.txt file from MaxQuant.</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s4.zip"/>
+      </supplementary-material>
+      <supplementary-material id="d32e42" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 5</title>
+          <p>MaxQuant parameter file.</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s5.txt"/>
+      </supplementary-material>
+      <supplementary-material id="d32e48" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 6</title>
+          <p>Aberrant splicing events in undiagnosed patients.</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s6.txt"/>
+      </supplementary-material>
+      <supplementary-material id="d32e54" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 7</title>
+          <p>Candidate genes for undiagnosed patients for all 3 strategies.</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s7.txt"/>
+      </supplementary-material>
+      <supplementary-material id="d32e60" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 8</title>
+          <p>RNA sample annotation for read count normalization.</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s8.txt"/>
+      </supplementary-material>
+      <supplementary-material id="d32e66" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 9</title>
+          <p>Splice cluster read count table.</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s9.zip"/>
+      </supplementary-material>
+      <supplementary-material id="d32e72" content-type="local-data">
+        <caption>
+          <title>Supplementary Information</title>
+          <p>Supplementary Figures, Supplementary Tables, Supplementary Notes, Supplementary Methods and Supplementary References</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s10.pdf"/>
+      </supplementary-material>
+      <supplementary-material id="d32e78" content-type="local-data">
+        <caption>
+          <title>Peer Review File</title>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-s11.pdf"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We are grateful to the participating families. Further we thank Dr Lina Florentin for providing DNA samples of the parents of #35791. This study was supported by the German Bundesministerium f&#xFC;r Bildung und Forschung (BMBF) through the E-Rare project GENOMIT (01GM1603 and 01GM1207, H.P. and T.M., FWF I 920-B13 for J.A.M. and J41J11000420001 for D.G.), through the Juniorverbund in der Systemmedizin &#x2018;mitOmics&#x2019; (FKZ 01ZX1405A, D.M.B. and J.G., and FKZ 01ZX1405C, T.B.H.), and the DZHK (German Centre for Cardiovascular Research, L.S.K., T.M.). The study was furthermore supported by the Deutsche Forschungsgemeinschaft (German Research Foundation) within the framework of the Munich Cluster for Systems Neurology (EXC 1010 SyNergyDFG, T.M.) and a Fellowship through the Graduate School of Quantitative Biosciences Munich (QBM) supports D.M.B.. H.P., V.T. and J.A.M. are supported by EU FP7 Mitochondrial European Educational Training Project (317433). C.M., R.K., J.G. and H.P. are supported by EU Horizon2020 Collaborative Research Project SOUND (633974). R.W.T. is supported by the Wellcome Centre for Mitochondrial Research (203105/Z/16/Z) and the MRC Centre for Neuromuscular Diseases (G0601943). D.G. is supported by Telethon-Italy (GGP15041). We thank the Pierfranco and Luisa Mariani Foundation and the Cell lines and DNA Bank of Paediatric Movement Disorders and Mitochondrial Diseases of the Telethon Genetic Biobank Network (GTB09003).</p>
+    </ack>
+    <ref-list>
+      <ref id="b1">
+        <mixed-citation publication-type="journal"><name><surname>Wortmann</surname><given-names>S. B.</given-names></name>, <name><surname>Koolen</surname><given-names>D. A.</given-names></name>, <name><surname>Smeitink</surname><given-names>J. A.</given-names></name>, <name><surname>van den Heuvel</surname><given-names>L.</given-names></name> &amp; <name><surname>Rodenburg</surname><given-names>R. J.</given-names></name>
+<article-title>Whole exome sequencing of suspected mitochondrial patients in clinical practice</article-title>. <source>J. Inherit. Metab. Dis.</source>
+<volume>38</volume>, <fpage>437</fpage>&#x2013;<lpage>443</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25735936</pub-id></mixed-citation>
+      </ref>
+      <ref id="b2">
+        <mixed-citation publication-type="journal">1000 Genomes Project Consortium. <etal/>. <article-title>A global reference for human genetic variation</article-title>. <source>Nature</source>
+<volume>526</volume>, <fpage>68</fpage>&#x2013;<lpage>74</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26432245</pub-id></mixed-citation>
+      </ref>
+      <ref id="b3">
+        <mixed-citation publication-type="journal"><name><surname>Sudmant</surname><given-names>P. H.</given-names></name>
+<etal/>. <article-title>An integrated map of structural variation in 2,504 human genomes</article-title>. <source>Nature</source>
+<volume>526</volume>, <fpage>75</fpage>&#x2013;<lpage>81</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26432246</pub-id></mixed-citation>
+      </ref>
+      <ref id="b4">
+        <mixed-citation publication-type="journal"><name><surname>Taylor</surname><given-names>J. C.</given-names></name>
+<etal/>. <article-title>Factors influencing success of clinical genome sequencing across a broad spectrum of disorders</article-title>. <source>Nat. Genet.</source>
+<volume>47</volume>, <fpage>717</fpage>&#x2013;<lpage>726</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25985138</pub-id></mixed-citation>
+      </ref>
+      <ref id="b5">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>X.</given-names></name>
+<etal/>. <article-title>The impact of rare variation on gene expression across tissues</article-title>. <source>bioRxiv</source> doi:; DOI: <pub-id pub-id-type="doi">10.1101/074443</pub-id> (<year>2016</year>).</mixed-citation>
+      </ref>
+      <ref id="b6">
+        <mixed-citation publication-type="journal"><name><surname>Zeng</surname><given-names>Y.</given-names></name>
+<etal/>. <article-title>Aberrant gene expression in humans</article-title>. <source>PLoS Genet.</source>
+<volume>11</volume>, <fpage>1</fpage>&#x2013;<lpage>20</lpage> (<year>2015</year>).</mixed-citation>
+      </ref>
+      <ref id="b7">
+        <mixed-citation publication-type="journal"><name><surname>Guan</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>Exploiting aberrant mRNA expression in autism for gene discovery and diagnosis</article-title>. <source>Hum. Genet.</source>
+<volume>135</volume>, <fpage>1</fpage>&#x2013;<lpage>15</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26462918</pub-id></mixed-citation>
+      </ref>
+      <ref id="b8">
+        <mixed-citation publication-type="journal"><name><surname>Zhao</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>A burden of rare variants associated with extremes of gene expression in human peripheral blood</article-title>. <source>Am. J. Hum. Genet.</source>
+<volume>98</volume>, <fpage>299</fpage>&#x2013;<lpage>309</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26849112</pub-id></mixed-citation>
+      </ref>
+      <ref id="b9">
+        <mixed-citation publication-type="journal"><name><surname>Albers</surname><given-names>C. A.</given-names></name>
+<article-title>Compound inheritance of a low-frequency regulatory SNP and a rare null mutation in exon-junction complex subunit RBM8A causes TAR syndrome</article-title>. <source>Nat. Genet.</source>
+<volume>44</volume>, <fpage>435</fpage>&#x2013;<lpage>439</lpage> S1-2 (<year>2012</year>).<pub-id pub-id-type="pmid">22366785</pub-id></mixed-citation>
+      </ref>
+      <ref id="b10">
+        <mixed-citation publication-type="journal"><name><surname>Reinius</surname><given-names>B.</given-names></name> &amp; <name><surname>Sandberg</surname><given-names>R.</given-names></name>
+<article-title>Random monoallelic expression of autosomal genes: stochastic transcription and allele-level regulation</article-title>. <source>Nat. Rev. Genet.</source>
+<volume>16</volume>, <fpage>653</fpage>&#x2013;<lpage>664</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26442639</pub-id></mixed-citation>
+      </ref>
+      <ref id="b11">
+        <mixed-citation publication-type="journal"><name><surname>Eckersley-Maslin</surname><given-names>M. A.</given-names></name> &amp; <name><surname>Spector</surname><given-names>D. L.</given-names></name>
+<article-title>Random monoallelic expression: regulating gene expression one allele at a time</article-title>. <source>Trends Genet.</source>
+<volume>30</volume>, <fpage>237</fpage>&#x2013;<lpage>244</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24780084</pub-id></mixed-citation>
+      </ref>
+      <ref id="b12">
+        <mixed-citation publication-type="journal"><name><surname>Tazi</surname><given-names>J.</given-names></name>, <name><surname>Bakkour</surname><given-names>N.</given-names></name> &amp; <name><surname>Stamm</surname><given-names>S.</given-names></name>
+<article-title>Alternative splicing and disease</article-title>. <source>Biochim. Biophys. Acta</source>
+<volume>1792</volume>, <fpage>14</fpage>&#x2013;<lpage>26</lpage><fpage>2009</fpage>.</mixed-citation>
+      </ref>
+      <ref id="b13">
+        <mixed-citation publication-type="journal"><name><surname>Scotti</surname><given-names>M. M.</given-names></name> &amp; <name><surname>Swanson</surname><given-names>M. S.</given-names></name>
+<article-title>RNA mis-splicing in disease</article-title>. <source>Nat. Rev. Genet.</source>
+<volume>17</volume>, <fpage>19</fpage>&#x2013;<lpage>32</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26593421</pub-id></mixed-citation>
+      </ref>
+      <ref id="b14">
+        <mixed-citation publication-type="journal"><name><surname>Singh</surname><given-names>R. K.</given-names></name> &amp; <name><surname>Cooper</surname><given-names>T. A.</given-names></name>
+<article-title>Pre-mRNA splicing in disease and therapeutics</article-title>. <source>Trends Mol. Med.</source>
+<volume>18</volume>, <fpage>472</fpage>&#x2013;<lpage>482</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22819011</pub-id></mixed-citation>
+      </ref>
+      <ref id="b15">
+        <mixed-citation publication-type="journal"><name><surname>Xiong</surname><given-names>H. Y.</given-names></name>
+<etal/>. <article-title>The human splicing code reveals new insights into the genetic determinants of disease</article-title>. <source>Science</source>
+<volume>347</volume>, <fpage>1254806</fpage>&#x2013;<lpage>1254806</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25525159</pub-id></mixed-citation>
+      </ref>
+      <ref id="b16">
+        <mixed-citation publication-type="journal"><name><surname>Muntoni</surname><given-names>F.</given-names></name>, <name><surname>Torelli</surname><given-names>S.</given-names></name> &amp; <name><surname>Ferlini</surname><given-names>A.</given-names></name>
+<article-title>Dystrophin and mutations: one gene, several proteins, multiple phenotypes</article-title>. <source>Lancet Neurol.</source>
+<volume>2</volume>, <fpage>731</fpage>&#x2013;<lpage>740</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">14636778</pub-id></mixed-citation>
+      </ref>
+      <ref id="b17">
+        <mixed-citation publication-type="journal"><name><surname>Gonorazky</surname><given-names>H.</given-names></name>
+<etal/>. <article-title>RNAseq analysis for the diagnosis of muscular dystrophy</article-title>. <source>Ann. Clin. Transl. Neurol.</source>
+<volume>3</volume>, <fpage>55</fpage>&#x2013;<lpage>60</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26783550</pub-id></mixed-citation>
+      </ref>
+      <ref id="b18">
+        <mixed-citation publication-type="journal"><name><surname>Morel</surname><given-names>C. F.</given-names></name>
+<etal/>. <article-title>A LMNA splicing mutation in two sisters with severe dunnigan-type familial partial lipodystrophy type 2</article-title>. <source>J. Clin. Endocrinol. Metab.</source>
+<volume>91</volume>, <fpage>2689</fpage>&#x2013;<lpage>2695</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16636128</pub-id></mixed-citation>
+      </ref>
+      <ref id="b19">
+        <mixed-citation publication-type="journal"><name><surname>Qu</surname><given-names>Y.</given-names></name>
+<etal/>. <article-title>A rare variant (c.863G&amp;gt;T) in exon 7 of SMN1 disrupts mRNA splicing and is responsible for spinal muscular atrophy</article-title>. <source>Eur. J. Hum. Genet.</source>
+<volume>24</volume>, <fpage>864</fpage>&#x2013;<lpage>870</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26419278</pub-id></mixed-citation>
+      </ref>
+      <ref id="b20">
+        <mixed-citation publication-type="journal"><name><surname>Gorman</surname><given-names>G. S.</given-names></name>
+<etal/>. <article-title>Mitochondrial diseases</article-title>. <source>Nat. Rev. Dis. Primer</source>
+<volume>2</volume>, <fpage>16080</fpage> (<year>2016</year>).</mixed-citation>
+      </ref>
+      <ref id="b21">
+        <mixed-citation publication-type="journal"><name><surname>Elstner</surname><given-names>M.</given-names></name>, <name><surname>Andreoli</surname><given-names>C.</given-names></name> &amp; <name><surname>Ahting</surname><given-names>U.</given-names></name>
+<article-title>MitoP2: an integrative tool for the analysis of the mitochondrial proteome</article-title>. <source>Mol. Biotechnol.</source>
+<volume>40</volume>, <fpage>306</fpage>&#x2013;<lpage>315</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18780189</pub-id></mixed-citation>
+      </ref>
+      <ref id="b22">
+        <mixed-citation publication-type="journal"><name><surname>Mayr</surname><given-names>J. A.</given-names></name>
+<etal/>. <article-title>Spectrum of combined respiratory chain defects</article-title>. <source>J. Inherit. Metab. Dis.</source>
+<volume>38</volume>, <fpage>629</fpage>&#x2013;<lpage>640</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25778941</pub-id></mixed-citation>
+      </ref>
+      <ref id="b23">
+        <mixed-citation publication-type="journal"><name><surname>Haack</surname><given-names>T. B.</given-names></name>
+<etal/>. <article-title>ELAC2 mutations cause a mitochondrial RNA processing defect associated with hypertrophic cardiomyopathy</article-title>. <source>Am. J. Hum. Genet.</source>
+<volume>93</volume>, <fpage>211</fpage>&#x2013;<lpage>223</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23849775</pub-id></mixed-citation>
+      </ref>
+      <ref id="b24">
+        <mixed-citation publication-type="journal"><name><surname>Haack</surname><given-names>T. B.</given-names></name>
+<etal/>. <article-title>Exome sequencing identifies ACAD9 mutations as a cause of complex I deficiency</article-title>. <source>Nat. Genet.</source>
+<volume>42</volume>, <fpage>1131</fpage>&#x2013;<lpage>1134</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">21057504</pub-id></mixed-citation>
+      </ref>
+      <ref id="b25">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>Y. I.</given-names></name>
+<etal/>. <article-title>RNA splicing is a primary link between genetic variation and disease</article-title>. <source>Science</source>
+<volume>352</volume>, <fpage>600</fpage>&#x2013;<lpage>604</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27126046</pub-id></mixed-citation>
+      </ref>
+      <ref id="b26">
+        <mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>B.</given-names></name>
+<etal/>. <article-title>Proteogenomic characterization of human colon and rectal cancer</article-title>. <source>Nature</source>
+<volume>513</volume>, <fpage>382</fpage>&#x2013;<lpage>387</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25043054</pub-id></mixed-citation>
+      </ref>
+      <ref id="b27">
+        <mixed-citation publication-type="journal"><name><surname>Liu</surname><given-names>Y.</given-names></name>, <name><surname>Beyer</surname><given-names>A.</given-names></name> &amp; <name><surname>Aebersold</surname><given-names>R.</given-names></name>
+<article-title>On the dependency of cellular protein levels on mRNA abundance</article-title>. <source>Cell</source>
+<volume>165</volume>, <fpage>535</fpage>&#x2013;<lpage>550</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27104977</pub-id></mixed-citation>
+      </ref>
+      <ref id="b28">
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>K. K.</given-names></name>, <name><surname>Shimoji</surname><given-names>M.</given-names></name>, <name><surname>Hossain</surname><given-names>Q. S.</given-names></name>, <name><surname>Sunakawa</surname><given-names>H.</given-names></name> &amp; <name><surname>Aniya</surname><given-names>Y.</given-names></name>
+<article-title>Novel function of glutathione transferase in rat liver mitochondrial membrane: role for cytochrome c release from mitochondria</article-title>. <source>Toxicol. Appl. Pharmacol.</source>
+<volume>232</volume>, <fpage>109</fpage>&#x2013;<lpage>118</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18634816</pub-id></mixed-citation>
+      </ref>
+      <ref id="b29">
+        <mixed-citation publication-type="journal"><name><surname>Holzerova</surname><given-names>E.</given-names></name>
+<etal/>. <article-title>Human thioredoxin 2 deficiency impairs mitochondrial redox homeostasis and causes early-onset neurodegeneration</article-title>. <source>Brain</source>
+<volume>139</volume>, <fpage>346</fpage>&#x2013;<lpage>354</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26626369</pub-id></mixed-citation>
+      </ref>
+      <ref id="b30">
+        <mixed-citation publication-type="journal"><name><surname>Guarani</surname><given-names>V.</given-names></name>
+<etal/>. <article-title>TIMMDC1/C3orf1 functions as a membrane-embedded mitochondrial complex I assembly factor through association with the MCIA complex</article-title>. <source>Mol. Cell. Biol.</source>
+<volume>34</volume>, <fpage>847</fpage>&#x2013;<lpage>861</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24344204</pub-id></mixed-citation>
+      </ref>
+      <ref id="b31">
+        <mixed-citation publication-type="journal"><name><surname>Andrews</surname><given-names>B.</given-names></name>, <name><surname>Carroll</surname><given-names>J.</given-names></name>, <name><surname>Ding</surname><given-names>S.</given-names></name>, <name><surname>Fearnley</surname><given-names>I. M.</given-names></name> &amp; <name><surname>Walker</surname><given-names>J. E.</given-names></name>
+<article-title>Assembly factors for the membrane arm of human complex I</article-title>. <source>Proc. Natl Acad. Sci. USA</source>
+<volume>110</volume>, <fpage>18934</fpage>&#x2013;<lpage>18939</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24191001</pub-id></mixed-citation>
+      </ref>
+      <ref id="b32">
+        <mixed-citation publication-type="journal"><name><surname>Pervouchine</surname><given-names>D. D.</given-names></name>, <name><surname>Knowles</surname><given-names>D. G.</given-names></name> &amp; <name><surname>Guig</surname><given-names>R.</given-names></name>
+<article-title>Intron-centric estimation of alternative splicing from RNA-seq data</article-title>. <source>Bioinformatics</source>
+<volume>29</volume>, <fpage>273</fpage>&#x2013;<lpage>274</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23172860</pub-id></mixed-citation>
+      </ref>
+      <ref id="b33">
+        <mixed-citation publication-type="journal"><name><surname>Lek</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Analysis of protein-coding genetic variation in 60,706 humans</article-title>. <source>Nature</source>
+<volume>536</volume>, <fpage>285</fpage>&#x2013;<lpage>291</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27535533</pub-id></mixed-citation>
+      </ref>
+      <ref id="b34">
+        <mixed-citation publication-type="journal"><name><surname>Halperin</surname><given-names>T.</given-names></name>, <name><surname>Zheng</surname><given-names>B.</given-names></name>, <name><surname>Itzhaki</surname><given-names>H.</given-names></name>, <name><surname>Clarke</surname><given-names>A. K.</given-names></name> &amp; <name><surname>Adam</surname><given-names>Z.</given-names></name>
+<article-title>Plant mitochondria contain proteolytic and regulatory subunits of the ATP-dependent Clp protease</article-title>. <source>Plant Mol. Biol.</source>
+<volume>45</volume>, <fpage>461</fpage>&#x2013;<lpage>468</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11352464</pub-id></mixed-citation>
+      </ref>
+      <ref id="b35">
+        <mixed-citation publication-type="journal"><name><surname>Jenkinson</surname><given-names>E. M.</given-names></name>
+<etal/>. <article-title>Perrault syndrome is caused by recessive mutations in CLPP, encoding a mitochondrial ATP-dependent chambered protease</article-title>. <source>Am. J. Hum. Genet.</source>
+<volume>92</volume>, <fpage>605</fpage>&#x2013;<lpage>613</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23541340</pub-id></mixed-citation>
+      </ref>
+      <ref id="b36">
+        <mixed-citation publication-type="journal"><name><surname>Jenkinson</surname><given-names>E. M.</given-names></name>
+<etal/>. <article-title>Perrault syndrome: further evidence for genetic heterogeneity</article-title>. <source>J. Neurol.</source>
+<volume>259</volume>, <fpage>974</fpage>&#x2013;<lpage>976</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22037954</pub-id></mixed-citation>
+      </ref>
+      <ref id="b37">
+        <mixed-citation publication-type="journal"><name><surname>Szczepanowska</surname><given-names>K.</given-names></name>
+<etal/>. <article-title>CLPP coordinates mitoribosomal assembly through the regulation of ERAL1 levels</article-title>. <source>EMBO J.</source>
+<volume>35</volume>, <fpage>2566</fpage>&#x2013;<lpage>2583</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27797820</pub-id></mixed-citation>
+      </ref>
+      <ref id="b38">
+        <mixed-citation publication-type="journal"><name><surname>Piva</surname><given-names>F.</given-names></name>, <name><surname>Giulietti</surname><given-names>M.</given-names></name>, <name><surname>Burini</surname><given-names>A. B.</given-names></name> &amp; <name><surname>Principato</surname><given-names>G.</given-names></name>
+<article-title>SpliceAid 2: a database of human splicing factors expression data and RNA target motifs</article-title>. <source>Hum. Mutat.</source>
+<volume>33</volume>, <fpage>81</fpage>&#x2013;<lpage>85</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">21922594</pub-id></mixed-citation>
+      </ref>
+      <ref id="b39">
+        <mixed-citation publication-type="journal"><name><surname>Dogan</surname><given-names>R. I.</given-names></name>, <name><surname>Getoor</surname><given-names>L.</given-names></name>, <name><surname>Wilbur</surname><given-names>W. J.</given-names></name> &amp; <name><surname>Mount</surname><given-names>S. M.</given-names></name>
+<article-title>SplicePort--an interactive splice-site analysis tool</article-title>. <source>Nucleic Acids Res.</source>
+<volume>35</volume>, <fpage>W285</fpage>&#x2013;<lpage>W291</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17576680</pub-id></mixed-citation>
+      </ref>
+      <ref id="b40">
+        <mixed-citation publication-type="journal"><name><surname>Timmermans</surname><given-names>M. J. T. N.</given-names></name>
+<etal/>. <article-title>Why barcode? High-throughput multiplex sequencing of mitochondrial genomes for molecular systematics</article-title>. <source>Nucleic Acids Res.</source>
+<volume>38</volume>, <fpage>e197</fpage>&#x2013;<lpage>e197</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20876691</pub-id></mixed-citation>
+      </ref>
+      <ref id="b41">
+        <mixed-citation publication-type="journal"><name><surname>Desmet</surname><given-names>F.-O.</given-names></name>
+<etal/>. <article-title>Human Splicing Finder: an online bioinformatics tool to predict splicing signals</article-title>. <source>Nucleic Acids Res.</source>
+<volume>37</volume>, <fpage>e67</fpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19339519</pub-id></mixed-citation>
+      </ref>
+      <ref id="b42">
+        <mixed-citation publication-type="journal"><name><surname>Yeo</surname><given-names>G.</given-names></name>, <name><surname>Hoon</surname><given-names>S.</given-names></name>, <name><surname>Venkatesh</surname><given-names>B.</given-names></name> &amp; <name><surname>Burge</surname><given-names>C. B.</given-names></name>
+<article-title>Variation in sequence and organization of splicing regulatory elements in vertebrate genes</article-title>. <source>Proc. Natl Acad. Sci. USA</source>
+<volume>101</volume>, <fpage>15700</fpage>&#x2013;<lpage>15705</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15505203</pub-id></mixed-citation>
+      </ref>
+      <ref id="b43">
+        <mixed-citation publication-type="journal"><name><surname>Burge</surname><given-names>C.</given-names></name> &amp; <name><surname>Karlin</surname><given-names>S.</given-names></name>
+<article-title>Prediction of complete gene structures in human genomic DNA</article-title>. <source>J. Mol. Biol.</source>
+<volume>268</volume>, <fpage>78</fpage>&#x2013;<lpage>94</lpage> (<year>1997</year>).<pub-id pub-id-type="pmid">9149143</pub-id></mixed-citation>
+      </ref>
+      <ref id="b44">
+        <mixed-citation publication-type="journal"><name><surname>Kapustin</surname><given-names>Y.</given-names></name>
+<etal/>. <article-title>Cryptic splice sites and split genes</article-title>. <source>Nucleic Acids Res.</source>
+<volume>39</volume>, <fpage>5837</fpage>&#x2013;<lpage>5844</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21470962</pub-id></mixed-citation>
+      </ref>
+      <ref id="b45">
+        <mixed-citation publication-type="journal"><name><surname>Adams</surname><given-names>E.</given-names></name> &amp; <name><surname>Frank</surname><given-names>L.</given-names></name>
+<article-title>Metabolism of proline and the hydroxyprolines</article-title>. <source>Annu. Rev. Biochem.</source>
+<volume>49</volume>, <fpage>1005</fpage>&#x2013;<lpage>1061</lpage> (<year>1980</year>).<pub-id pub-id-type="pmid">6250440</pub-id></mixed-citation>
+      </ref>
+      <ref id="b46">
+        <mixed-citation publication-type="journal"><name><surname>Baumgartner</surname><given-names>M. R.</given-names></name>
+<etal/>. <article-title>Hyperammonemia with reduced ornithine, citrulline, arginine and proline: a new inborn error caused by a mutation in the gene encoding delta(1)-pyrroline-5-carboxylate synthase</article-title>. <source>Hum. Mol. Genet.</source>
+<volume>9</volume>, <fpage>2853</fpage>&#x2013;<lpage>2858</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">11092761</pub-id></mixed-citation>
+      </ref>
+      <ref id="b47">
+        <mixed-citation publication-type="journal"><name><surname>Fischer-Zirnsak</surname><given-names>B.</given-names></name>
+<etal/>. <article-title>Recurrent de novo mutations affecting residue Arg138 of pyrroline-5-carboxylate synthase cause a progeroid form of autosomal-dominant cutis laxa</article-title>. <source>Am. J. Hum. Genet.</source>
+<volume>97</volume>, <fpage>483</fpage>&#x2013;<lpage>492</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26320891</pub-id></mixed-citation>
+      </ref>
+      <ref id="b48">
+        <mixed-citation publication-type="journal"><name><surname>Coutelier</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Alteration of ornithine metabolism leads to dominant and recessive hereditary spastic paraplegia</article-title>. <source>Brain</source>
+<volume>138</volume>, <fpage>2191</fpage>&#x2013;<lpage>2205</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26026163</pub-id></mixed-citation>
+      </ref>
+      <ref id="b49">
+        <mixed-citation publication-type="journal"><name><surname>Sibley</surname><given-names>C. R.</given-names></name>, <name><surname>Blazquez</surname><given-names>L.</given-names></name> &amp; <name><surname>Ule</surname><given-names>J.</given-names></name>
+<article-title>Lessons from non-canonical splicing</article-title>. <source>Nat. Rev. Genet.</source>
+<volume>17</volume>, <fpage>407</fpage>&#x2013;<lpage>421</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27240813</pub-id></mixed-citation>
+      </ref>
+      <ref id="b50">
+        <mixed-citation publication-type="journal"><name><surname>Cummings</surname><given-names>B. B.</given-names></name>
+<etal/>. <article-title>Improving genetic diagnosis in Mendelian disease with transcriptome sequencing</article-title>. <source>Sci. Transl. Med</source>
+<volume>9</volume>, <fpage>eaal5209</fpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28424332</pub-id></mixed-citation>
+      </ref>
+      <ref id="b51">
+        <mixed-citation publication-type="journal"><name><surname>Gibson</surname><given-names>G.</given-names></name>
+<article-title>Human genetics. GTEx detects genetic effects</article-title>. <source>Science</source>
+<volume>348</volume>, <fpage>640</fpage>&#x2013;<lpage>641</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25953996</pub-id></mixed-citation>
+      </ref>
+      <ref id="b52">
+        <mixed-citation publication-type="journal"><name><surname>Vafai</surname><given-names>S. B.</given-names></name> &amp; <name><surname>Mootha</surname><given-names>V. K.</given-names></name>
+<article-title>Mitochondrial disorders as windows into an ancient organelle</article-title>. <source>Nature</source>
+<volume>491</volume>, <fpage>374</fpage>&#x2013;<lpage>383</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">23151580</pub-id></mixed-citation>
+      </ref>
+      <ref id="b53">
+        <mixed-citation publication-type="journal"><name><surname>Gagneur</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>Genotype-environment interactions reveal causal pathways that mediate genetic effects on phenotype</article-title>. <source>PLoS Genet.</source>
+<volume>9</volume>, <fpage>e1003803</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24068968</pub-id></mixed-citation>
+      </ref>
+      <ref id="b54">
+        <mixed-citation publication-type="journal"><name><surname>Mayr</surname><given-names>J. A.</given-names></name>
+<etal/>. <article-title>Lack of the mitochondrial protein acylglycerol kinase causes sengers syndrome</article-title>. <source>Am. J. Hum. Genet.</source>
+<volume>90</volume>, <fpage>314</fpage>&#x2013;<lpage>320</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22284826</pub-id></mixed-citation>
+      </ref>
+      <ref id="b55">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>H.</given-names></name> &amp; <name><surname>Durbin</surname><given-names>R.</given-names></name>
+<article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>. <source>Bioinformatics</source>
+<volume>25</volume>, <fpage>1754</fpage>&#x2013;<lpage>1760</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19451168</pub-id></mixed-citation>
+      </ref>
+      <ref id="b56">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>H.</given-names></name>
+<article-title>A statistical framework for SNP calling, mutation discovery, association mapping and population genetical parameter estimation from sequencing data</article-title>. <source>Bioinformatics</source>
+<volume>27</volume>, <fpage>2987</fpage>&#x2013;<lpage>2993</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21903627</pub-id></mixed-citation>
+      </ref>
+      <ref id="b57">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>H.</given-names></name>
+<etal/>. <article-title>The Sequence Alignment/Map format and SAMtools</article-title>. <source>Bioinformatics</source>
+<volume>25</volume>, <fpage>2078</fpage>&#x2013;<lpage>2079</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19505943</pub-id></mixed-citation>
+      </ref>
+      <ref id="b58">
+        <mixed-citation publication-type="journal"><name><surname>McLaren</surname><given-names>W.</given-names></name>
+<etal/>. <article-title>Deriving the consequences of genomic variants with the Ensembl API and SNP Effect Predictor</article-title>. <source>Bioinformatics</source>
+<volume>26</volume>, <fpage>2069</fpage>&#x2013;<lpage>2070</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20562413</pub-id></mixed-citation>
+      </ref>
+      <ref id="b59">
+        <mixed-citation publication-type="journal"><name><surname>Eilbeck</surname><given-names>K.</given-names></name>
+<etal/>. <article-title>The Sequence Ontology: a tool for the unification of genome annotations</article-title>. <source>Genome Biol.</source>
+<volume>6</volume>, <fpage>R44</fpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15892872</pub-id></mixed-citation>
+      </ref>
+      <ref id="b60">
+        <mixed-citation publication-type="journal"><name><surname>Dobin</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>STAR: ultrafast universal RNA-seq aligner</article-title>. <source>Bioinformatics</source>
+<volume>29</volume>, <fpage>15</fpage>&#x2013;<lpage>21</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23104886</pub-id></mixed-citation>
+      </ref>
+      <ref id="b61">
+        <mixed-citation publication-type="journal"><name><surname>Hsu</surname><given-names>F.</given-names></name>
+<etal/>. <article-title>The UCSC known genes</article-title>. <source>Bioinformatics</source>
+<volume>22</volume>, <fpage>1036</fpage>&#x2013;<lpage>1046</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16500937</pub-id></mixed-citation>
+      </ref>
+      <ref id="b62">
+        <mixed-citation publication-type="journal"><name><surname>Lawrence</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Software for computing and annotating genomic ranges</article-title>. <source>PLoS Comput. Biol.</source>
+<volume>9</volume>, <fpage>e1003118</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23950696</pub-id></mixed-citation>
+      </ref>
+      <ref id="b63">
+        <mixed-citation publication-type="journal"><name><surname>Anders</surname><given-names>S.</given-names></name> &amp; <name><surname>Huber</surname><given-names>W.</given-names></name>
+<article-title>DESeq: differential expression analysis for sequence count data</article-title>. <source>Genome Biol.</source>
+<volume>11</volume>, <fpage>R106</fpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20979621</pub-id></mixed-citation>
+      </ref>
+      <ref id="b64">
+        <mixed-citation publication-type="journal"><name><surname>Love</surname><given-names>M. I.</given-names></name>, <name><surname>Huber</surname><given-names>W.</given-names></name> &amp; <name><surname>Anders</surname><given-names>S.</given-names></name>
+<article-title>Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</article-title>. <source>Genome Biol.</source>
+<volume>15</volume>, <fpage>550</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25516281</pub-id></mixed-citation>
+      </ref>
+      <ref id="b65">
+        <mixed-citation publication-type="journal"><name><surname>Hochberg</surname><given-names>Y.</given-names></name>
+<article-title>A sharper bonferroni procedure for multiple tests of significance</article-title>. <source>Biometrika</source>
+<volume>75</volume>, <fpage>800</fpage>&#x2013;<lpage>802</lpage> (<year>1988</year>).</mixed-citation>
+      </ref>
+      <ref id="b66">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>Y. I.</given-names></name>, <name><surname>Knowles</surname><given-names>D. A.</given-names></name> &amp; <name><surname>Pritchard</surname><given-names>J. K.</given-names></name>
+<article-title>LeafCutter: annotation-free quantification of RNA splicing</article-title>. <source>bioRxiv</source> doi:; DOI: <pub-id pub-id-type="doi">10.1101/044107</pub-id> (<year>2016</year>).</mixed-citation>
+      </ref>
+      <ref id="b67">
+        <mixed-citation publication-type="journal"><name><surname>Harrow</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>GENCODE: the reference human genome annotation for The ENCODE Project</article-title>. <source>Genome Res.</source>
+<volume>22</volume>, <fpage>1760</fpage>&#x2013;<lpage>1774</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22955987</pub-id></mixed-citation>
+      </ref>
+      <ref id="b68">
+        <mixed-citation publication-type="journal"><name><surname>Van Haute</surname><given-names>L.</given-names></name>
+<etal/>. <article-title>Deficient methylation and formylation of mt-tRNA(Met) wobble cytosine in a patient carrying mutations in NSUN3</article-title>. <source>Nat. Commun.</source>
+<volume>7</volume>, <fpage>12039</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27356879</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p>The authors declare no competing financial interests.</p>
+      </fn>
+      <fn>
+        <p><bold>Author contributions</bold> T.M., J.G. and H.P. planned the project. J.G. and H.P. overviewed the research. H.P. designed the experiments. C.L., B.F., A.D., V.T., A.L., D.G., R.W.T., D.G., J.A.M., A.R., P.F., F.D. and T.M. reviewed the phenotypes, performed sample collection and biochemical analysis. L.S.K., D.M.B., C.M., T.M.S. and H.P. curated and analysed the data. J.G. devised the statistical analysis. L.S.K., R.K., A.I., C.T., E.K. and B.R. performed the cell biology experiments. L.S.K., R.K., E.G., T.S., P.L. and T.M.S. performed exome, genome and RNA-seq. L.S.K., R.K., T.B.H. and H.P. performed the exome analysis. L.S.K. and G.P. performed the quantitative proteomics experiments. L.S.K., G.K. and J.A. performed the metabolomics studies. L.S.K., D.M.B., C.M., J.G. and H.P. wrote the manuscript. L.S.K., D.M.B. and C.M. visualized the data. Critical revision of the manuscript was performed by all authors.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="f1">
+      <label>Figure 1</label>
+      <caption>
+        <title>Strategy for genetic diagnosis using RNA-seq.</title>
+        <p>The approach we followed started with RNA-seq of fibroblasts from unsolved WES patients. Three strategies to facilitate diagnosis were pursued: Detection of aberrant expression (for example, depletion), aberrant splicing (for example, exon creation) and MAE of the alternative allele (for example, A as alternative allele). Candidates were validated by proteomic measurements, lentiviral transduction of the wild-type (wt) allele or, in particular cases, by specific metabolic supplementation.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-f1"/>
+    </fig>
+    <fig id="f2">
+      <label>Figure 2</label>
+      <caption>
+        <title>RNA aberrant expression detection and validation.</title>
+        <p>(<bold>a</bold>) Aberrantly expressed genes (Hochberg corrected <italic>P</italic> value&lt;0.05 and |<italic>Z</italic>-score|&gt;3) for each patient fibroblasts. (<bold>b</bold>) Gene-wise RNA expression volcano plot of nominal <italic>P</italic> values (&#x2212;log<sub>10</sub>
+<italic>P</italic> value) against <italic>Z</italic>-scores of the patient #35791 compared against all other fibroblasts. <italic>Z</italic>-scores with absolute value &gt;5 are plotted at &#xB1;5, respectively. (<bold>c</bold>) Same as (<bold>b</bold>) for patient #73804. (<bold>d</bold>) Sample-wise RNA expression is ranked for the genes <italic>TIMMDC1</italic> (top) and <italic>MGST1</italic> (bottom). Samples with aberrant expression for the corresponding gene are highlighted in red (#35791, #66744, and #73804). (<bold>e</bold>) Gene-wise comparison of RNA and protein fold changes of patient #35791 compared to the average across the fibroblast cell lines of all other patients. Subunits of the mitochondrial respiratory chain complex I are highlighted (red squares). Reliably detected proteins that were not detected in this sample are shown separately with their corresponding RNA fold changes (points below solid horizontal line). (<bold>f</bold>) Western blot of TIMMDC1, NDUFA13, NDUFB3 and NDUFB8 protein in three fibroblast cell lines without (#62346, #91324, NHDF) and three with a variant in <italic>TIMMDC1</italic> (#35791, #66744 and #96687), and fibroblasts re<italic>-</italic>expressing <italic>TIMMDC1</italic> (&#x2018;-T&#x2019;) (#35791-T, #66744-T and #96687-T). UQCRC2 was used as loading control. CI, complex I subunit; CIII, complex III subunit; MW, molecular weight. (<bold>g</bold>) Blue native PAGE blot of the control fibroblasts re-expressing <italic>TIMMDC1</italic> (NHDF-T), the control fibroblasts (NHDF), patient fibroblasts (#96687) and patient fibroblast re-expressing <italic>TIMMDC1</italic> (#96687-T). Immunodecoration for complex I and complex III was performed using NDUFB8 and UQCRC2 antibodies, respectively. CI, complex I subunit; CIII, complex III subunit.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-f2"/>
+    </fig>
+    <fig id="f3">
+      <label>Figure 3</label>
+      <caption>
+        <title>Aberrant splicing detection and quantification.</title>
+        <p>(<bold>a</bold>) Aberrant splicing events (Hochberg corrected <italic>P</italic> value&lt;0.05) for all fibroblasts. (<bold>b</bold>) Aberrant splicing events (<italic>n</italic>=175) in undiagnosed patients (<italic>n</italic>=48) grouped by their splicing category after manual inspection. (<bold>c</bold>) <italic>CLPP</italic> Sashimi plot of exon skipping and truncation events in <italic>CLPP</italic>-affected and <italic>CLPP</italic>-unaffected fibroblasts (red and orange, respectively). The RNA coverage is given as the log<sub>10</sub> RPKM-value and the number of split reads spanning the given intron is indicated on the exon-connecting lines. At the bottom the gene model of the RefSeq annotation is depicted and the aberrantly spliced exon is coloured in red. (<bold>d</bold>) Same as in <bold>c</bold> for <italic>TIMMDC1</italic>. At the bottom the newly created exon is depicted in red within the RefSeq annotation track. (<bold>e</bold>) Coverage tracks (light red) for patients #35791, #66744, and #91324 based on RNA and WGS. For patient #91324 only WGS is available. The homozygous SNV c.596+2146A&gt;G is present in all coverage tracks (vertical orange bar). The top tracks show the genomic annotation: genomic position on chromosome 3, DNA sequence, amino acid translation (grey, stop codon in red), the RefSeq gene model (blue line), the predominant additional exon of <italic>TIMMDC1</italic> (blue rectangle) and the SNV annotation of the 1000 Genomes Project (each black bar represents one variant). (<bold>f</bold>) Per cent spliced in (&#x3A8;) distribution for different splicing classes and genes. Top: histogram of the genome-wide distribution of the 3&#x2032; and 5&#x2032; &#x3A8;-values based on all reads over all samples. Middle: The shaded horizontal bars represent the densities (black for high density) of the background, weak and strong splicing class, respectively (Methods section). Bottom: &#x3A8;-values of the predominant donor and acceptor splice sites of genes with private splice sites (that is, found predominant in at most two samples) computed over all other samples.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-f3"/>
+    </fig>
+    <fig id="f4">
+      <label>Figure 4</label>
+      <caption>
+        <title>Detection and validation of MAE of rare variants.</title>
+        <p>(<bold>a</bold>) Distribution of heterozygous single nucleotide variants (SNVs) across samples for different consecutive filtering steps. Heterozygous SNVs detected by exome sequencing (black), SNVs with RNA-seq coverage of at least 10 reads (grey), SNVs where the alternative allele is mono-allelically expressed (alternative allele frequency &gt;0.8 and Benjamini-Hochberg corrected <italic>P</italic> value &lt;0.05, blue), and the rare subset of those (ExAC minor allele frequency &lt;0.001, red). (<bold>b</bold>) Fold change between alternative (ALT+1) and reference (REF+1) allele read counts for the patient #80256 compared to total read counts per SNV within the sample. Points are coloured according to the groups defined in <bold>a</bold>. (<bold>c</bold>) Gene-wise comparison of RNA and protein fold changes of the patient #80256 compared to the average across the fibroblast cell lines of all other patients. The position of the gene <italic>ALDH18A1</italic> is highlighted. Reliably detected proteins that were not detected in this sample are shown separately with their corresponding RNA fold changes (points below solid horizontal line). (<bold>d</bold>) Relative intensity for metabolites of the proline biosynthesis pathway (inlet) for the patient #80256 and 16 healthy controls of matching age. Equi-tailed 95% interval (whiskers), 25th, 75th percentile (boxes) and median (bold horizontal line) are indicated. Data points belonging to the patient are highlighted (red circles, <italic>P</italic> values were computed using the Student&#x2019;s <italic>t</italic>-test). (<bold>e</bold>) Cell counts under different growth conditions for the NHDF and patient #80256. Both fibroblasts were grown in fetal bovine serum (FBS), dialysed FBS (without proline) and dialysed FBS with proline added. Boxplot as in <bold>d</bold>. <italic>P</italic> values are based on a two-sided Wilcoxon test. (<bold>f</bold>) Intron retention for <italic>MCOLN1</italic> in patient #62346. Tracks from top to bottom: genomic position on chromosome 19, amino acid translation (red for stop codons), RefSeq gene model, coverage of WES of patient #62346, RNA-seq based coverage for patients #62346 and #85153 (red and orange shading, respectively). SNVs are indicated by non-reference coloured bars with respect to the corresponding reference and alternative nucleotide.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-f4"/>
+    </fig>
+    <fig id="f5">
+      <label>Figure 5</label>
+      <caption>
+        <title>Characterization of diagnoses and variants causing aberrant splicing.</title>
+        <p>(<bold>a</bold>) Detection strategy and validation of genes with RNA defects in newly diagnosed patients, that is, <italic>TIMMDC1</italic> (<italic>n</italic>=2 patients), <italic>CLPP</italic>, <italic>ALDH18A1</italic> and <italic>MCOLN1</italic>, and one patient with a strong candidate, that is, <italic>MGST1</italic>. The median number (&#xB1;median absolute deviation) of candidate genes is given per detection strategies. Dotted check: identified by manual inspection (not statistically significant). (<bold>b</bold>) Schematic representation of variant causing splicing defects for <italic>TIMMDC1</italic> (top, new exon red box), <italic>CLPP</italic> (middle, exon skipping and truncation) and <italic>MCOLN1</italic> (bottom, intron retention). Variants are depicted by a red star.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms15824-f5"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

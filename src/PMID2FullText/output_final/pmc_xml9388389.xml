@@ -1,0 +1,2710 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Am J Hum Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Am J Hum Genet</journal-id>
+      <journal-title-group>
+        <journal-title>American Journal of Human Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0002-9297</issn>
+      <issn pub-type="epub">1537-6605</issn>
+      <publisher>
+        <publisher-name>Elsevier</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35931051</article-id>
+      <article-id pub-id-type="pmc">9388389</article-id>
+      <article-id pub-id-type="pii">S0002-9297(22)00267-1</article-id>
+      <article-id pub-id-type="doi">10.1016/j.ajhg.2022.06.014</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Germline thymidylate synthase deficiency impacts nucleotide metabolism and causes dyskeratosis congenita</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="au1">
+          <name>
+            <surname>Tummala</surname>
+            <given-names>Hemanth</given-names>
+          </name>
+          <email>h.tummala@qmul.ac.uk</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn1" ref-type="fn">12</xref>
+          <xref rid="cor1" ref-type="corresp">&#x2217;</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au2">
+          <name>
+            <surname>Walne</surname>
+            <given-names>Amanda</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn1" ref-type="fn">12</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au3">
+          <name>
+            <surname>Buccafusca</surname>
+            <given-names>Roberto</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au4">
+          <name>
+            <surname>Alnajar</surname>
+            <given-names>Jenna</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au5">
+          <name>
+            <surname>Szabo</surname>
+            <given-names>Anita</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au6">
+          <name>
+            <surname>Robinson</surname>
+            <given-names>Peter</given-names>
+          </name>
+          <xref rid="aff4" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au7">
+          <name>
+            <surname>McConkie-Rosell</surname>
+            <given-names>Allyn</given-names>
+          </name>
+          <xref rid="aff5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au8">
+          <name>
+            <surname>Wilson</surname>
+            <given-names>Meredith</given-names>
+          </name>
+          <xref rid="aff6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au9">
+          <name>
+            <surname>Crowley</surname>
+            <given-names>Suzanne</given-names>
+          </name>
+          <xref rid="aff7" ref-type="aff">7</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au10">
+          <name>
+            <surname>Kinsler</surname>
+            <given-names>Veronica</given-names>
+          </name>
+          <xref rid="aff8" ref-type="aff">8</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au11">
+          <name>
+            <surname>Ewins</surname>
+            <given-names>Anna-Maria</given-names>
+          </name>
+          <xref rid="aff9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au12">
+          <name>
+            <surname>Madapura</surname>
+            <given-names>Pradeepa M.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au13">
+          <name>
+            <surname>Patel</surname>
+            <given-names>Manthan</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au14">
+          <name>
+            <surname>Pontikos</surname>
+            <given-names>Nikolas</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au15">
+          <name>
+            <surname>Codd</surname>
+            <given-names>Veryan</given-names>
+          </name>
+          <xref rid="aff10" ref-type="aff">10</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au16">
+          <name>
+            <surname>Vulliamy</surname>
+            <given-names>Tom</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au17">
+          <name>
+            <surname>Dokal</surname>
+            <given-names>Inderjeet</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff11" ref-type="aff">11</xref>
+        </contrib>
+        <aff id="aff1"><label>1</label>Genomics and Child Health, Blizard Institute, Queen Mary University of London, Newark Street, London E1 2AT, UK</aff>
+        <aff id="aff2"><label>2</label>School of Physical and Chemical Sciences, Queen Mary University of London, Mile End, London E1 4NS, UK</aff>
+        <aff id="aff3"><label>3</label>Institute of Ophthalmology, Faculty of Brain Sciences, University College London, 11-43 Bath St, London EC1V 9EL, UK</aff>
+        <aff id="aff4"><label>4</label>The Jackson Laboratory for Genomic Medicine, 10 Discovery Dr., Farmington, CT 06032, USA</aff>
+        <aff id="aff5"><label>5</label>Division of Medical Genetics, Duke University Medical Center, USA</aff>
+        <aff id="aff6"><label>6</label>Department of Clinical Genetics, The Children&#x2019;s Hospital at Westmead, Sydney, Australia</aff>
+        <aff id="aff7"><label>7</label>Department of Paediatrics, St George&#x2019;s Healthcare NHS Trust, London, UK</aff>
+        <aff id="aff8"><label>8</label>Department of Paediatric Dermatology, Great Ormond Street Hospital, The Francis Crick Institute, London, UK</aff>
+        <aff id="aff9"><label>9</label>Haematology/Oncology Department, Royal Hospital for Sick Children, Glasgow, UK</aff>
+        <aff id="aff10"><label>10</label>Department of Cardiovascular Sciences, University of Leicester, Leicester, UK</aff>
+        <aff id="aff11"><label>11</label>Barts Health NHS Trust, London, UK</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1"><label>&#x2217;</label>Corresponding author <email>h.tummala@qmul.ac.uk</email></corresp>
+        <fn id="fn1">
+          <label>12</label>
+          <p id="ntpara0010">These authors contributed equally</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="pmc-release">
+        <day>05</day>
+        <month>8</month>
+        <year>2022</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+      <pub-date pub-type="ppub">
+        <day>04</day>
+        <month>8</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>05</day>
+        <month>8</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>109</volume>
+      <issue>8</issue>
+      <fpage>1472</fpage>
+      <lpage>1483</lpage>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>4</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>23</day>
+          <month>6</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2022 The Author(s)</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p>This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).</license-p>
+        </license>
+      </permissions>
+      <abstract id="abs0010">
+        <title>Summary</title>
+        <p>Dyskeratosis congenita (DC) is an inherited bone-marrow-failure disorder characterized by a triad of mucocutaneous features that include abnormal skin pigmentation, nail dystrophy, and oral leucoplakia. Despite the identification of several genetic variants that cause DC, a significant proportion of probands remain without a molecular diagnosis. In a cohort of eight independent DC-affected families, we have identified a remarkable series of heterozygous germline variants in the gene encoding thymidylate synthase (<italic>TYMS</italic>). Although the inheritance appeared to be autosomal recessive, one parent in each family had a wild-type <italic>TYMS</italic> coding sequence. Targeted genomic sequencing identified a specific haplotype and rare variants in the naturally occurring TYMS antisense regulator <italic>ENOSF1</italic> (enolase super family 1) inherited from the other parent. Lymphoblastoid cells from affected probands have severe TYMS deficiency, altered cellular deoxyribonucleotide triphosphate pools, and hypersensitivity to the TYMS-specific inhibitor 5-fluorouracil. These defects in the nucleotide metabolism pathway resulted in genotoxic stress, defective transcription, and abnormal telomere maintenance. Gene-rescue studies in cells from affected probands revealed that post-transcriptional epistatic silencing of <italic>TYMS</italic> is occurring via elevated <italic>ENOSF1</italic>. These cell and molecular abnormalities generated by the combination of germline digenic variants at the <italic>TYMS-ENOSF1</italic> locus represent a unique pathogenetic pathway for DC causation in these affected individuals, whereas the parents who are carriers of either of these variants in a singular fashion remain unaffected.</p>
+      </abstract>
+      <abstract abstract-type="graphical" id="abs0015">
+        <title>Graphical abstract</title>
+        <fig id="undfig1" position="anchor">
+          <graphic xlink:href="fx1"/>
+        </fig>
+      </abstract>
+      <abstract abstract-type="teaser" id="abs0020">
+        <p>A digenic inheritance pattern of variants occurring at the TYMS-ENOSF1 locus and segregating from parents to proband exert a post-transcriptional epistatic effect in causing severe thymidylate synthase deficiency and disease features of dyskeratosis congenita.</p>
+      </abstract>
+      <kwd-group id="kwrds0010">
+        <title>Keywords</title>
+        <kwd>TYMS</kwd>
+        <kwd>ENOSF1</kwd>
+        <kwd>gene epistasis</kwd>
+        <kwd>dyskeratosis congenita</kwd>
+        <kwd>nucleotide metabolism</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <p id="misc0010">Published: August 4, 2022</p>
+    </notes>
+  </front>
+  <body>
+    <sec id="sec1">
+      <title>Introduction</title>
+      <p id="p0015">A clinically diagnosed individual with dyskeratosis congenita (DC [MIM: <ext-link ext-link-type="omim" xlink:href="305000" id="intref0010">305000</ext-link>]) classically presents with a combination of muco-cutaneous features comprising abnormal skin pigmentation, nail dystrophy, and oral leucoplakia,<xref rid="bib1" ref-type="bibr"><sup>1</sup></xref> as initially described by Zinsser in 1910.<xref rid="bib2" ref-type="bibr"><sup>2</sup></xref> Bone-marrow failure, predisposition to cancer, and pulmonary abnormalities are reported to be major causes of death in DC-affected individuals. Inheritance of DC can be autosomal dominant, autosomal recessive, or X-linked recessive.</p>
+      <p id="p0020">A major subset of individuals (n&#xA0;= 17) with DC have variants in genes that have a principal role in telomere maintenance (<italic>DKC1</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="300126" id="intref0015">300126</ext-link>], <italic>TERC</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="602322" id="intref0020">602322</ext-link>], <italic>TERT</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="187270" id="intref0025">187270</ext-link>], <italic>NOP10</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="696471" id="intref0030">696471</ext-link>], <italic>NHP</italic>2 [MIM: <ext-link ext-link-type="omim" xlink:href="606470" id="intref0035">606470</ext-link>], <italic>TINF2</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="604319" id="intref0040">604319</ext-link>], <italic>WRAP53</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="612661" id="intref0045">612661</ext-link>], <italic>CTC1</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="613129" id="intref0050">613129</ext-link>], <italic>RTEL1</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="608833" id="intref0055">608833</ext-link>]<italic>, ACD</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="609377" id="intref0060">609377</ext-link>]<italic>, PARN</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="604212" id="intref0065">604212</ext-link>]<italic>, NAF1</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="617868" id="intref0070">617868</ext-link>]<italic>, STN1</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="6132128" id="intref0075">6132128</ext-link>]<italic>, MDM4</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="602704" id="intref0080">602704</ext-link>]<italic>, ZCCHC8</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="616381" id="intref0085">616381</ext-link>]<italic>, POT1</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="606478" id="intref0090">606478</ext-link>], and <italic>RPA1</italic> [MIM:<ext-link ext-link-type="omim" xlink:href="179835" id="intref0095">179835</ext-link>]).<xref rid="bib1" ref-type="bibr"><sup>1</sup></xref> Five of these genes encode components of the enzyme telomerase (<italic>TERC</italic>, telomerase RNA component; TERT, telomerase reverse transcriptase; DKC1, dyskerin pseudouridine synthase 1; NOP10, NOP10 ribonucleoprotein; or NHP2, NHP2 ribonucleoprotein) contributing to its catalytic function. Poly (A)-specific ribonuclease (PARN), zinc finger CCHC-type containing 8 (ZCCHC8), and nuclear assembly factor 1 ribonucleoprotein (NAF1) are involved in <italic>TERC</italic> maturation.<xref rid="bib3" ref-type="bibr">3</xref>, <xref rid="bib4" ref-type="bibr">4</xref>, <xref rid="bib5" ref-type="bibr">5</xref> TERF1-interacting nuclear factor 2 (TIN2), telomerase recruitment factor (ACD, also known as <italic>TPP1</italic>), and protection of telomeres 1 (POT1) are components of the shelterin complex that protects the telomeric DNA and is involved in telomerase recruitment and processivity.<xref rid="bib6" ref-type="bibr">6</xref>, <xref rid="bib7" ref-type="bibr">7</xref>, <xref rid="bib8" ref-type="bibr">8</xref> WD-repeat-containing antisense to TP53 (WRAP53) is important in telomerase trafficking.<xref rid="bib9" ref-type="bibr"><sup>9</sup></xref> Telomere replication complex component 1 (CTC1) and STN1 subunit of CST complex (STN1), subunits of the CST-complex-regulated C strand, fill in at telomere ends and further facilitate recruitment and docking of telomerase onto the telomere.<xref rid="bib10" ref-type="bibr"><sup>10</sup></xref><sup>,</sup><xref rid="bib11" ref-type="bibr"><sup>11</sup></xref> Regulator of telomere elongation helicase 1 (RTEL1) has a critical role in telomere replication and in dismantling the t loop at telomeres.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref>
+<italic>MDM4</italic>, which encodes a major negative regulator of P53 protein, has transcriptional control of genes involved in telomere biology.<xref rid="bib13" ref-type="bibr"><sup>13</sup></xref> Replication protein A 1(RPA1) is the largest subunit of the DNA replication protein complex that binds to single-stranded DNA and facilitates protein-protein interactions during DNA replication.<xref rid="bib14" ref-type="bibr"><sup>14</sup></xref> Although the major molecular function of these genes is in telomere maintenance, it is important to recognize their multifunctional roles. For example, dyskerin, NOP10, NHP2, PARN, and NAF1 are all involved in modification and processing of ribosomal RNA for ribosome biogenesis.</p>
+      <p id="p0025">In a subset of individuals with DC, germline defects are observed in genes whose major role is not in telomere maintenance. This includes germline nucleophosmin 1 (NPM1 [MIM: <ext-link ext-link-type="omim" xlink:href="164040" id="intref0100">164040</ext-link>]) variants that affect 2&#x2032;-O-methylation of rRNA and modulate translation<xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> and U6 small nuclear RNA biogenesis phosphodiesterase 1&#xA0;USB1 [MIM: <ext-link ext-link-type="omim" xlink:href="613276" id="intref0105">613276</ext-link>] that is involved in oligouridylation of U6 small nuclear RNA.<xref rid="bib16" ref-type="bibr"><sup>16</sup></xref><sup>,</sup><xref rid="bib17" ref-type="bibr"><sup>17</sup></xref> Given the considerable heterogeneity in the disease spectrum, the uncharacterized DC individuals held in the Dyskeratosis Congenita Registry in London might harbour constitutional mutations or variants in several genes. Here we report the first evidence of a digenic inheritance pattern in a series of individuals who come from eight unrelated families and have homogeneous DC features caused by germline variants in the <italic>TYMS-ENOSF1</italic> locus.</p>
+    </sec>
+    <sec id="sec2">
+      <title>Material and Methods</title>
+      <sec id="sec2.1">
+        <title>Sequencing and bioinformatics</title>
+        <p id="p0030">Genomic DNA was extracted from peripheral blood samples (Puregene, Qiagen). Exome data were processed and called jointly with a set of 2,500 whole-exome-sequenced internal control samples (UCL-ex consortium) and hg19 as a reference index (UCSC browser) according to the recommendations from the Genome Analysis Toolkit (GATK v3.2) to minimize artefactual batch effects.<xref rid="bib18" ref-type="bibr"><sup>18</sup></xref> All variants identified were validated by Sanger sequencing. We then targeted the genomic region corresponding to chr18: 623000&#x2013;716000 by using the Cell3 Target (Nonacus) custom kit to search for any additional variants that were not detected by the exome capture. The resultant targeted fragments were then sequenced on the Illumina MiSeq platform. Read alignment, variant calling, and annotation were performed with an in-house pipeline involving the Burrows Wheeler aligner, the Genome Analysis Tool kit, and ANNOVAR, respectively. We used IntaRNA version 2.4.1<xref rid="bib19" ref-type="bibr"><sup>19</sup></xref> to predict RNA-RNA interaction by using the computational pipeline previously described, and the accurate 2D interaction prediction was performed with RactIP.<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref></p>
+      </sec>
+      <sec id="sec2.2">
+        <title>Cell culture and treatments</title>
+        <p id="p0035">HeLa cells were cultured in Dulbecco&#x2019;s modified Eagle&#x2019;s medium (DMEM), and Epstein-Barr-virus-transformed lymphoblastoid lines (LCLs) were acquired from affected and unaffected individual blood samples and grown in RPMI1640. All culture media were supplemented with 10% (v/v) fetal bovine serum (FBS; HyClone),100 IU/mL penicillin, and 100&#xA0;mg/mL streptomycin (Invitrogen). Cells were maintained at 37&#xB0;C in a humidified incubator with 5% CO<sub>2</sub>. Cell cultures were supplemented with 5-flurouracil and hydroxyurea over a specified dose range (Sigma-Aldrich). After a 24&#xA0;h incubation at 37&#xB0;C, tetrazolium salt WST-1 dye (Merck Millipore) was added to the cell suspension, and the cells were analyzed on a plate reader at 450&#xA0;nM absorbance (Becton Dickinson). The lentiviral induction was performed with cDNAs encoding <italic>GFP</italic>, <italic>GFP</italic>-tagged <italic>TYMS</italic> (Origene), and <italic>ENOSF1</italic> shRNA (Santa Cruz Biotechnology), in control and probands&#x2019; cells by spinfection in the presence of polybrene (10&#xA0;&#x3BC;g/mL). 8 h after transduction, media were replaced, and cells were processed for downstream analysis 24&#xA0;h later.</p>
+      </sec>
+      <sec id="sec2.3">
+        <title>Immunoblotting and immunocytochemistry</title>
+        <p id="p0040">We prepared protein extracts by lysing washed cells in denaturing buffer (9&#xA0;M urea, 150&#xA0;mM 2-mercaptoethanol, and 50&#xA0;mM Tris-HCl [pH 7.3]) and subsequently sonicating them to shear genomic DNA. Total and phosphorylated forms of ATM, ATR, and DNA-PK were separated on 3%&#x2013;8% Tris glycine mini gels (Life Technologies). For all other proteins, 4%&#x2013;12% NuPAGE Bis-Tris mini gels (Life Technologies) were used. Gels were transferred onto PVDF membrane (GE Healthcare). Blotting was performed with primary antibodies (<xref rid="mmc1" ref-type="supplementary-material">Table&#xA0;S1</xref>), and the corresponding alkaline-phosphatase-conjugated secondary antibodies were supplied in the WesternBreeze chemiluminescent kit (Thermo Fisher). &#x3B1;&#x2212;tubulin, &#x3B2;-actin, and GAPDH antibodies were used as a loading control. For immunocytochemistry, normal and proband cells were subjected to cytospin on poly-D-lysine-coated slides (Sigma), fixed with 4% PFA, and permeabilized with 0.1% Triton X-100 (TX100) in PBS. Fixed cells were quenched in 50&#xA0;mM NH<sub>4</sub>Cl and blocked in 10% goat serum and 1% BSA in PBS containing 0.05% TX100 for 1 h. Cells were incubated with &#x3B3;-H2AX primary antibody followed by Alexa-Fluor-488-conjugated secondary antibody (Invitrogen) in blocking solution. Cells were washed three times in PBS containing 0.05% TX100 between primary and secondary antibody incubations and mounted with Vectashield containing DAPI (Vector Labs). A Zeiss LSM700 confocal microscope with ZEN software was used, and 63&#xD7; captured images were acquired.</p>
+      </sec>
+      <sec id="sec2.4">
+        <title>Quantification of mRNA levels by RT-PCR</title>
+        <p id="p0045">RNA was extracted from either whole blood or EBV-transformed LCLs. cDNA was prepared from total RNA by the use of Invitrogen Superscript IV according to manufacturer&#x2019;s instructions with 600&#xA0;ng input RNA from LCLs and 500&#xA0;ng input RNA from blood and was primed with an equal mix of anchored dT oligonucleotides and random hexamers unless stated otherwise. A pool of random control cDNAs was prepared and serially diluted to form a relative standard curve against which all samples were quantified. TaqMan probes used were <italic>TYMS</italic> (Hs00426586_m1), <italic>ENOSF1</italic> (Hs01106532_m1), <italic>TFRC</italic> (Hs00951083_m1), <italic>MCM6</italic> (Hs00962418_m1), <italic>TUBA1A</italic> (Hs00362387_m1), and <italic>TP53</italic> (Hs01034249_m1). All reactions were setup with TaqMan Fast Advanced Master Mix according to the manufacturer&#x2019;s instructions. For measuring <italic>TERC</italic> expression, KiCqStart primers (Merck) for <italic>TERC</italic>, <italic>ABL, ACTB</italic>, and <italic>GAPDH</italic> were used. The mature TERC pool was assessed in RNA extracted from LCLs and blood. In brief, separate cDNA pools were synthesized with anchored dT<sub>(20)</sub> oligonucleotides and random hexamers from the same sample. The mature <italic>TERC</italic> pools were calculated by comparison of the amounts of amplified <italic>TERC</italic> between these samples. Four replicates per sample were run on the Roche Lightcycler 480 system. All primers had an amplification efficiency between 90% and 100%. Each gene of interest (GOI)&#xA0;was normalized against the control gene(s), and the relative (n-fold) change between probands and controls was calculated unless stated otherwise.</p>
+      </sec>
+      <sec id="sec2.5">
+        <title>Isolation of polysome-associated mRNA</title>
+        <p id="p0050">This protocol was adapted as previously described<xref rid="bib21" ref-type="bibr"><sup>21</sup></xref> and modified accordingly. In brief, we prepared the cytoplasmic extracts by harvesting proband and control cells in ice-cold PBS containing 100&#xA0;&#x3BC;g/mL cycloheximide (Sigma). Cells were counted, and 100,000 cells were incubated with 800&#xA0;&#x3BC;L of RPMI medium containing 10% fetal bovine serum and 100&#xA0;&#x3BC;g/mL cycloheximide (Sigma) for 5&#xA0;min at 37&#xB0;C. After incubation, 200&#xA0;&#x3BC;L of N-hydroxysuccimide ester (DSP; 1&#xA0;mM; Pierce) was introduced as a cross-linking reagent and incubated for 5&#xA0;min at 37&#xB0;C followed by quenching with 1&#xA0;M Tris&#x2013;HCl (pH 7.4). The cells were washed twice by centrifugation at 1,000 r.p.m. for 3&#xA0;min and rinsed with ice-cold PBS containing 100&#xA0;&#x3BC;g/mL cycloheximide (Sigma). The final pellets were swollen for 20&#xA0;min in 500&#xA0;&#x3BC;L of low-salt buffer (LSB) (20&#xA0;mM HEPES [pH 7.4], 100&#xA0;mM KCl, and 2&#xA0;mM MgCl<sub>2</sub>) containing 1&#xA0;mM dithiothreitol and lysed by the addition of 500&#xA0;&#x3BC;L lysis buffer (1&#xD7; LSB containing 1.2% Triton X-100) (Sigma) followed by brief vortexing. One-tenth (70&#xA0;&#x3BC;L) of the above lysate was transferred to the Ig-coated beads, and incubation was carried out for 2&#xA0;h at 4&#xB0;C. After incubation with the HSP70/HSP73 antibody-conjugated magnetic beads, the polysome complexes containing translationally active mRNA transcripts were isolated and eluted from beads with the Array Pure Nanoscale RNA Purification Kit (Epicentre).</p>
+      </sec>
+      <sec id="sec2.6">
+        <title>Telomere length measurement</title>
+        <p id="p0055">Telomere lengths were measured either by the monochrome multiplex quantitative PCR (MMQPCR) method modified from Cawthon<xref rid="bib22" ref-type="bibr"><sup>22</sup></xref> or by FLOWFISH as supplied by Repeat Diagnostics.<xref rid="bib23" ref-type="bibr"><sup>23</sup></xref> For MMQPCR, in each well the amplified telomeric DNA (T)&#xA0;and a single-copy gene (S)&#xA0;were quantified against a standard curve obtained from the dilution of a reference DNA sample. The T/S ratio, obtained in triplicate for each sample, is directly proportional to the telomere length. This ratio was normalized to the T/S ratio of a second reference sample that was run on every plate to give a relative T/S ratio.</p>
+      </sec>
+      <sec id="sec2.7">
+        <title>Cellular dNTP analysis</title>
+        <p id="p0060">In brief, 10<sup>6</sup> cells were extracted with 1&#xA0;mL of ice-cold 60% methanol at 20&#xB0;C, followed by centrifugation at 16,000&#xA0;g for 30&#xA0;min. The supernatant was heat inactivated and vacuum-dried, then rehydrated in 80&#xA0;mL of water for cellular dNTP measurement by mass spectrometry as described previously.<xref rid="bib24" ref-type="bibr"><sup>24</sup></xref></p>
+      </sec>
+      <sec id="sec2.8">
+        <title>Cell-sensitivity assays</title>
+        <p id="p0065">Lymphoblastoid cells from affected probands (family 1 II-2; family 2 II-2; and family 3 II-1), parents, and controls were treated with serial doses of either 5-fluorouracil (5-FU) or hydroxyurea dissolved in DMSO at the indicated concentrations. Cell viability was assessed via neutral red-dye uptake by live cells. All chemicals were obtained from Enzo Life Sciences and Sigma Aldrich. All readings were normalized to the untreated sample. We calculated statistical significance by comparing the linear regression of the curves with GraphPad Prism 9 software.</p>
+      </sec>
+      <sec id="sec2.9">
+        <title>TRAP assay</title>
+        <p id="p0070">Cells (10<sup>5</sup>) were lysed in CHAPS buffer for 30&#xA0;min at a concentration of 3,000 cells/&#x3BC;L. The lysates were centrifuged at 14,000&#xA0;rpm for 20&#xA0;min at 4&#xB0;C. We then diluted 2&#xA0;&#x3BC;L of eluate in 50&#xA0;&#x3BC;L of PCR-TRAP reaction and subsequently performed quantification by running the PCR products in non-denaturing 20% TBE gels at 120&#xA0;V for 30&#xA0;min and then stained them with SYBR Gold nucleic acid gel stain (Thermo Fischer).</p>
+      </sec>
+      <sec id="sec2.10">
+        <title>Statistical analysis</title>
+        <p id="p0075">Statistical analysis was performed with GraphPad Prism software (version 9), and a p value &lt;0.05 was considered statistically significant. In line graphs, for each experimental dataset, we conducted a linear regression to determine the best-fit line describing the data from each independent experiment. The overall significance of cytotoxicity was determined with a one-way ANOVA and post-hoc Tukey&#x2019;s test on the slopes of the regression lines from each data set (n&#xA0;= 3 independent experiments performed in octuplicate). In scattered dot plots and bar graphs, a Mann-Whitney test was used for determining significant differences in between different cell lines.</p>
+      </sec>
+      <sec id="sec2.11">
+        <title>Study approval</title>
+        <p id="p0080">The affected individuals and families included in this study had all been recruited to the London Dyskeratosis Congenita registry. Blood samples and clinical information were collected at enrolment. All participants and their family members provided written informed consent in accordance with the declaration of Helsinki and the approval of our local research ethics committee (London [city and east] reference number 07/Q0603/5).</p>
+      </sec>
+    </sec>
+    <sec id="sec3">
+      <title>Results</title>
+      <sec id="sec3.1">
+        <title>Thymidylate synthase (TYMS) deficiency in affected individuals with germline <italic>TYMS</italic> variants</title>
+        <p id="p0085">Recent genome-wide association studies on distinct ethnic human populations have indicated several genes that are important regulators of telomere length.<xref rid="bib25" ref-type="bibr">25</xref>, <xref rid="bib26" ref-type="bibr">26</xref>, <xref rid="bib27" ref-type="bibr">27</xref>, <xref rid="bib28" ref-type="bibr">28</xref> We compiled a list of genes that were common to at least two of these studies and did not include any previously identified telomere-associated genes. We analyzed exomes of 189 DC probands for variants in these genes and identified six previously unreported heterozygous variants in the thymidylate synthase (<italic>TYMS</italic> [MIM: <ext-link ext-link-type="omim" xlink:href="188350" id="intref0110">188350</ext-link>; GenBank: <ext-link ext-link-type="uri" xlink:href="ncbi-n:NM_001071.4" id="intref0115">NM_001071.4</ext-link>]) in affected probands from six independent families (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>A); four of these variants were loss of function (LOF). Targeted sequencing of two additional families who had a strong phenotypic resemblance to the other families revealed that they also had LOF <italic>TYMS</italic> variants<italic>,</italic> one of which was seen in a previous family. This series of six LOF variants is a highly significant finding, given that there are only four LOF <italic>TYMS</italic> variants in the gnomAD database, which comprises more than 125,000 individuals (p&#xA0;&lt;&#xA0;0.000001: Chi squared with Yates&#x2019; correction). None of these individuals harboured unique variants in DC or DC-related genes as identified by exome analysis or a targeted gene panel that comprises 111 genes with known associations with bone-marrow failure (<xref rid="mmc1" ref-type="supplementary-material">Table&#xA0;S2</xref>). What was also remarkable was that despite the clinical heterogeneity of the genetically uncharacterized DC probands included in our exome series, the TYMS families had a consistent phenotype, characterized by an early onset of mucocutaneous features (abnormal skin pigmentation and nail dystrophy) that are the predominant clinical features of classic DC (<xref rid="fig1" ref-type="fig">Figures&#xA0;1</xref>B&#x2013;1E; <xref rid="tbl1" ref-type="table">Table&#xA0;1</xref>). All variants were verified by Sanger sequencing, and they appeared to affect highly conserved amino acid residues in TYMS (<xref rid="mmc1" ref-type="supplementary-material">Figures&#xA0;S1</xref> and&#xA0;<xref rid="mmc1" ref-type="supplementary-material">S2</xref>).<fig id="fig1"><label>Figure&#xA0;1</label><caption><p>TYMS deficiency in families affected by dyskeratosis congenita</p><p>(A) Pedigrees of proband families are as shown and indicate the presence of the <italic>TYMS</italic> variant in the heterozygous (+/&#x2212;) state. Black circles and squares denote affected probands.</p><p>(B&#x2013;E) Photographs of affected probands show some of the clinical features: sparse hair, nail dystrophy, abnormal skin pigmentation, and abnormal dentition.</p><p>(F) Lymphoblastoid cell lines from the probands and parents show reduced levels of <italic>TYMS</italic> expression compared to that in controls. All genes are normalized to <italic>MCM6</italic> and <italic>TFRC</italic>. Data represent means &#xB1; SD, n&#xA0;= 3, p values determined by one-way ANNOVA. Samples include cell lines from probands (families 1, 2, and 3) and parents (families 1 and 3) and are compared with unrelated controls.</p><p>(G and H) Reduced TYMS protein amounts in individual proband samples from three families are compared to those in parents and controls; &#x3B2;-actin is used as a loading control.</p><p>(I and J) 5-fluorouracil (5-FU) sensitivity demonstrating increased toxicity in lymphoblastoid cells from the probands compared to parents and a control.</p></caption><graphic xlink:href="gr1"/></fig><table-wrap position="float" id="tbl1"><label>Table&#xA0;1</label><caption><p>Genotype and clinical phenotype of DC probands with a pathogenic <italic>TYMS</italic> variant</p></caption><table frame="hsides" rules="groups"><thead><tr><th><bold>Family</bold></th><th><bold>1</bold></th><th><bold>2</bold></th><th><bold>3</bold></th><th colspan="2"><bold>4</bold></th><th><bold>5</bold></th><th><bold>6</bold></th><th><bold>7</bold></th><th colspan="2"><bold>8</bold></th></tr></thead><tbody><tr><td><italic>TYMS</italic> exonic variant</td><td>c.486_487<break/>delAA</td><td>c.486_487<break/>delAA</td><td>c.343C&gt;T</td><td>c.534_535<break/>insTG</td><td>c.534_535<break/>insTG</td><td>c.480A&gt;T</td><td>c.259G&gt;A</td><td>c.556+1G&gt;A</td><td>c.811C&gt;T</td><td>ND</td></tr><tr><td>Protein change</td><td>p.Arg163Ser<break/>fsTer3</td><td>p.Arg163Ser<break/>fsTer3</td><td>p.Arg115<break/>Ter</td><td>p.Met179<break/>Ter</td><td>p.Met179<break/>Ter</td><td>p.Gln160His</td><td>p.Glu87Lys</td><td>?</td><td>p.Arg271<break/>Ter</td><td>ND</td></tr><tr><td>CADD score</td><td>33</td><td>33</td><td>43</td><td>33</td><td>33</td><td>15.98</td><td>26.3</td><td>25.9</td><td>37</td><td>ND</td></tr><tr><td>Features</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Sex</td><td>M</td><td>M</td><td>M</td><td>M</td><td>F</td><td>F</td><td>M</td><td>M</td><td>F</td><td>F</td></tr><tr><td>Country/ethnic<break/>origin</td><td>UK</td><td>Italy</td><td>UK</td><td>UK</td><td>UK</td><td>USA</td><td>China</td><td>USA</td><td>Germany</td><td>Germany</td></tr><tr><td>Age at sampling (y)</td><td>2</td><td>2</td><td>3</td><td>0.8</td><td>1</td><td>26</td><td>3</td><td>4</td><td>27</td><td>25</td></tr><tr><td>Abnormalities in skin pigmentation</td><td>Y (1 y)</td><td>Y (birth)</td><td>Y (1 y)</td><td>Y (1 y)</td><td>Y (1 y)</td><td>Y (1 y)</td><td>Y (birth)</td><td>Y (1 y)</td><td>Y (6 y)</td><td>Y</td></tr><tr><td>Nail dystrophy</td><td>Y (1 y)</td><td>Y (birth)</td><td>Y (1 y)</td><td>Y (1 y)</td><td>Y</td><td>Y (5 y)</td><td>Y (2 y)</td><td>Y (2 y)</td><td>Y (6 y)</td><td>Y</td></tr><tr><td>Leukoplakia</td><td>Y</td><td>N</td><td>N</td><td>N</td><td>N</td><td>N</td><td>Y</td><td>N</td><td>Y</td><td>Y</td></tr><tr><td>Hair loss and thin eye<break/>lashes</td><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>?</td><td>Y</td><td>Y</td></tr><tr><td>Hematological<break/>abnormalities</td><td>N<xref rid="tblfn1" ref-type="table-fn">a</xref></td><td>N</td><td>N<xref rid="tblfn2" ref-type="table-fn">b</xref></td><td>Y<xref rid="tblfn3" ref-type="table-fn">c</xref></td><td>N</td><td>N</td><td>N<xref rid="tblfn4" ref-type="table-fn">d</xref></td><td>N</td><td>N</td><td>N</td></tr><tr><td>Immune defects</td><td>Y<xref rid="tblfn5" ref-type="table-fn">e</xref></td><td>Y<xref rid="tblfn6" ref-type="table-fn">f</xref></td><td>Y<xref rid="tblfn7" ref-type="table-fn">g</xref></td><td>Y<xref rid="tblfn8" ref-type="table-fn">h</xref></td><td>Y<xref rid="tblfn9" ref-type="table-fn">i</xref></td><td>?</td><td>N</td><td>Y<xref rid="tblfn10" ref-type="table-fn">j</xref></td><td>?</td><td>?</td></tr><tr><td>Other features</td><td>Y<xref rid="tblfn11" ref-type="table-fn">k</xref></td><td>Y<xref rid="tblfn12" ref-type="table-fn">l</xref></td><td>Y<xref rid="tblfn13" ref-type="table-fn">m</xref></td><td>Y<xref rid="tblfn14" ref-type="table-fn">n</xref></td><td>Y<xref rid="tblfn15" ref-type="table-fn">o</xref></td><td>Y<xref rid="tblfn16" ref-type="table-fn">p</xref></td><td>Y<xref rid="tblfn17" ref-type="table-fn">q</xref></td><td>Y<xref rid="tblfn18" ref-type="table-fn">r</xref></td><td>N</td><td>N</td></tr><tr><td>Telomere length (Flow-FISH centile)</td><td>&lt;1<sup>st</sup></td><td>ND</td><td>ND</td><td>1<sup>st</sup>&#x2013;10<sup>th</sup></td><td>ND</td><td>ND</td><td>&lt;1<sup>st</sup></td><td>ND</td><td>ND</td><td>ND</td></tr></tbody></table><table-wrap-foot><fn id="tblfn1"><label>a</label><p id="ntpara0015">Normal blood count but raised HbF (1.7%).</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn2"><label>b</label><p id="ntpara0020">Normal blood count but raised HbF (1.2%).</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn3"><label>c</label><p id="ntpara0025">Anemia (98 g/L); other blood counts normal.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn4"><label>d</label><p id="ntpara0030">Normal blood count but raised HbF (2.3%).</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn5"><label>e</label><p id="ntpara0035">Low IgM.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn6"><label>f</label><p id="ntpara0040">Low IgA and IgG.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn7"><label>g</label><p id="ntpara0045">Low IgM.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn8"><label>h</label><p id="ntpara0050">Low IgA.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn9"><label>i</label><p id="ntpara0055">Low IgA.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn10"><label>j</label><p id="ntpara0060">Low IgA.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn11"><label>k</label><p id="ntpara0065">Recurrent infections in first year, intrauterine growth restriction, gastro-oesophageal reflux, failure to thrive.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn12"><label>l</label><p id="ntpara0070">Reduction of fingerprints.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn13"><label>m</label><p id="ntpara0075">Recurrent infections in 1<sup>st</sup> year.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn14"><label>n</label><p id="ntpara0080">Short stature, recurrent respiratory and gastro-intestinal infections in first year.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn15"><label>o</label><p id="ntpara0085">Abnormal teeth.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn16"><label>p</label><p id="ntpara0090">Bilateral ptosis, tooth discolouration, intermediate increased response to mitomycin-C, basal carcinoma on the chest, squamous carcinoma and melanoma on the leg, severe response to topical 5-FU treatment.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn17"><label>q</label><p id="ntpara0095">Abnormal facies, dysphagia, microcephaly.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tblfn18"><label>r</label><p id="ntpara0100">Epiphora, small testes; short stature; F = female, M = male; Y = yes; N = no; ? = unknown; nd = not determined. CADD; combined annotation dependent depletion.</p></fn></table-wrap-foot></table-wrap></p>
+        <p id="p0090">Segregation analysis of all available additional family members (families 1&#x2013;5 only) showed that one parent who was asymptomatic for the disease also harbored the same <italic>TYMS</italic> exonic variant as their affected offspring, thereby excluding an autosomal-dominant pattern of disease inheritance. Quantitative RT-PCR analysis revealed a highly significant reduction in <italic>TYMS</italic> expression in the lymphoblastoid cells derived from affected probands of family 1 (II-2), 2 (II-2), and 3 (II-1) when compared to controls (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>F). The <italic>TYMS</italic> expression appears to be similar between the probands and the unaffected parents carrying either the <italic>TYMS</italic> variant (&#x201C;parent carrier,&#x201D; family 1 I-1; family 3 I-2) or the wild-type variant (&#x201C;wild-type parent,&#x201D; family 1 I-2; family 3 I-1) (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>F). The reduction of the <italic>TYMS</italic> RNA expression indicates the presence of a second genetic event in the &#x201C;wild-type parent&#x201D; cells. However, upon immunoblotting a stark reduction in TYMS protein level is observed in the cells of affected probands when compared to the parent carrier, wild-type parent, and the controls (<xref rid="fig1" ref-type="fig">Figures&#xA0;1</xref>G and 1H). Furthermore, cells from the affected probands displayed significant hypersensitivity when exposed to the known specific inhibitor of TYMS activity, 5-FU, in comparison to controls and both parents (<xref rid="fig1" ref-type="fig">Figures&#xA0;1</xref>I and 1J). These observations indicate the presence of another genetic variant (or variants) that could be inherited in an autosomal-recessive fashion from the wild-type parent and that has an impact on the overall TYMS expression.</p>
+      </sec>
+      <sec id="sec3.2">
+        <title>Altered nucleotide metabolism, impaired telomerase regulation, and genome instability are consequences of&#xA0;TYMS deficiency</title>
+        <p id="p0095">TYMS participates in the <italic>de novo</italic> nucleotide synthesis pathway by catalyzing the reductive methylation of deoxyuridine monophosphate (dUMP) to form deoxythymidine monophosphate (dTMP; <xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>A).<xref rid="bib29" ref-type="bibr"><sup>29</sup></xref> Analysis of cellular dNTP pool by mass spectrometry revealed an increase in the dUMP nucleotide pools accompanied by a decrease in the dTMP pool as a result of TYMS deficiency affecting the <italic>de novo</italic> pathway for nucleotide synthesis in proband 1&#x2019;s cells (<xref rid="fig2" ref-type="fig">Figures&#xA0;2</xref>B and 2C). We also noticed a substantial increase in the dTTP pool in the proband cells, indicating the activation of the salvage pathway (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>D). Furthermore, a stark increase in thymidine kinase 1 (TK1) amounts correlates with the observation of an increased cellular dTTP pool, whereas a reduction in other key proteins that are involved in initial steps of <italic>de novo</italic> dTMP synthesis is observed in cell lysates of the affected probands (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>E). It has been reported that either the depletion of <italic>de novo</italic> dTMP synthesis or the increase in the cellular dTTP pool, as observed in our affected proband cells, causes genome instability.<xref rid="bib30" ref-type="bibr"><sup>30</sup></xref><sup>,</sup><xref rid="bib31" ref-type="bibr"><sup>31</sup></xref><fig id="fig2"><label>Figure&#xA0;2</label><caption><p>TYMS deficiency impacts nucleotide metabolism, telomere maintenance, and genome instability in probands&#x2019; cells</p><p>(A) Schematic diagram showing the proteins involved in different stages (indicated by arrows) of <italic>de novo</italic> and salvage pathways for dTTP synthesis. Abbreviations are as follows: RRM, ribonucleotide reductase catalytic subunits M1 and M2; NDPK, nucleoside diphosphate kinase; TYMS, thymidylate synthase; and TK1, thymidine kinase 1.</p><p>(B&#x2013;D) The effect of TYMS deficiency on dNTP pools. Cells from both probands and the control were harvested for analysis of dUMP, dTMP, and dTTP pools. The scattered dot plot represents 1 million cells per dot in each set.</p><p>(E) Immunoblotting for key proteins in cell lysates of probands compared with unrelated controls. &#x3B2;-actin is used as a loading control.</p><p>(F) Relative telomere lengths of probands are reduced in comparison with those of controls. Age-adjusted T/S ratios analyzed by the MMqPCR method show that probands with TYMS variants have shorter telomere lengths. T/S ratios from probands with either <italic>TERC</italic> or <italic>TINF2</italic> variants are shown for comparison.</p><p>(G) Telomere length measurement by flow-FISH in probands from families 1, 4, and 6.</p><p>(H) Relative levels of telomerase activity in probands and age-matched control cells at passage 2 were determined by TRAP assay. &#x201C;IS&#x201D; indicates internal standard, and <sup>&#x2217;</sup> refers to the position of loading dye across the lanes.</p><p>(I) Oligo-dT<sub>(20)</sub>-primed mature <italic>TERC</italic> RNA transcripts are distinguished from random hexamer priming of cDNA acquired from RNA samples from lymphoblastoid cell lines of probands (box represents mean and whiskers represent standard deviation).</p><p>(J) Immunoblots showing levels of DNA-repair protein at steady state in cells from affected probands and controls. GAPDH is used to determine the loading control.</p><p>(K and L) Cell viability in cells from probands, parents, and a control in the presence of hydroxyurea.</p><p>(M) Immunoblots showing protein level after hydroxyurea treatment. &#x3B1;-tubulin is used as a loading control.</p><p>(N) A representative image of &#x3B3;H2AX staining in control and index proband cells 24&#xA0;h after release from hydroxyurea (HU) treatment. Images show DAPI-stained nuclei in blue and &#x3B3;H2AX in green. The scale bar represents 50&#xA0;&#x3BC;m.</p></caption><graphic xlink:href="gr2"/></fig></p>
+        <p id="p0100">Telomere length measurement by qPCR and the flow-FISH method revealed short telomere lengths between the first and tenth centiles (<xref rid="fig2" ref-type="fig">Figures&#xA0;2</xref>F and 2G) in the probands. We also observed that probands&#x2019; cells grew at a slower rate (<xref rid="mmc1" ref-type="supplementary-material">Figure&#xA0;S3</xref>) and demonstrated reduced levels of telomerase activity (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>H), and this decrease was accompanied by an increase in amounts of oligoadenylated immature <italic>TERC</italic> (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>I). The amounts of DKC1, TERT, and SMUG1, which regulate <italic>TERC</italic> stability, also appear to be reduced (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>J), whereas the amount of shelterin protein components (TIN2, TPP1, TRF1 and POT1; <xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>J), which protect telomeres, remained unchanged, indicating that defects in telomere length maintenance are a consequence of impaired telomerase regulation in these TYMS deficient probands as a result of altered nucleotide metabolism.</p>
+        <p id="p0105">Furthermore, an increase in the phosphorylation levels of proteins ATM, CHK1, CHK2, p53, p21 in the DNA-damage-response pathway (<xref rid="mmc1" ref-type="supplementary-material">Figure&#xA0;S4</xref>) and hypersensitivity to ribonucleotide reductase inhibitors such as hydroxyurea (<xref rid="fig2" ref-type="fig">Figures&#xA0;2</xref>K&#x2013;2L) were observed in the cells of TYMS-deficient probands. Time-course release after exposure to hydroxyurea did not sufficiently restore TYMS or RRM1 protein expression and led to further increase of p53 phosphorylation, p21 (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>M) and &#x3B3;-H2AX (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>N). Collectively, these results suggest that TYMS deficiency alters the cellular dNTP pools and thereby elevates the DNA-damage response and impairs telomerase regulation; both of these effects are considered to be cellular hallmarks of genetically characterized DC-affected probands.<xref rid="bib32" ref-type="bibr"><sup>32</sup></xref><sup>,</sup><xref rid="bib33" ref-type="bibr"><sup>33</sup></xref></p>
+      </sec>
+      <sec id="sec3.3">
+        <title>TYMS deficiency occurs via <italic>ENOSF1</italic>-mediated RNA silencing</title>
+        <p id="p0110">The severe TYMS deficiency and the hypersensitivity to both 5-FU and hydroxyurea observed in TYMS-deficient proband cells is clearly distinct from cellular characteristics in the parent carrier and the wild-type parent (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>I&#x2013;1J and <xref rid="fig2" ref-type="fig">2</xref>K&#x2013;2L). Moreover, TYMS expression appeared to fluctuate over passages at low levels in the proband cells when compared to control cells (<xref rid="mmc1" ref-type="supplementary-material">Figure&#xA0;S5</xref>A). In-cell RNA crosslinking and affinity capture of translating polysomes via HSP70 antibody revealed reduced binding of <italic>TYMS</italic> mRNA to actively translating ribosomes in cells from the affected proband (<xref rid="mmc1" ref-type="supplementary-material">Figures&#xA0;S5</xref>B and S5C). These results clearly demonstrate that reduced TYMS translation is occurring by post-transcriptional inhibition of <italic>TYMS</italic> mRNA binding to translating polysomes in affected proband cells.</p>
+        <p id="p0115"><italic>ENOSF1</italic> (enolase super family 1 [MIM: <ext-link ext-link-type="omim" xlink:href="607427" id="intref0120">607427</ext-link>]) has been shown to modify TYMS expression at the RNA level by acting as an antisense molecule to <italic>TYMS</italic>.<xref rid="bib34" ref-type="bibr"><sup>34</sup></xref><sup>,</sup><xref rid="bib35" ref-type="bibr"><sup>35</sup></xref>
+<italic>ENOSF1</italic> partially overlaps <italic>TYMS</italic> on chromosome 18 and is transcribed in the opposite direction to <italic>TYMS</italic>. 5-FU is a common treatment in cancer-affected individuals, and many reports demonstrate a pharmacogenetic link between several SNPs in the <italic>TYMS-ENOSF1</italic> locus<xref rid="bib36" ref-type="bibr"><sup>36</sup></xref> and the development of severe hand-foot syndrome.<xref rid="bib37" ref-type="bibr"><sup>37</sup></xref> These SNPs have reported associations with 5-FU toxicity that results in either the downregulation of <italic>TYMS</italic> or the upregulation of <italic>ENOSF1</italic> expression, or both. On the basis of the observation of 5-FU hypersensitivity in cells from the probands (<xref rid="fig1" ref-type="fig">Figures&#xA0;1</xref>I and 1J), we sequenced this genomic region (chr18: 623000&#x2013;716000) to screen for any additional germline variants as well as SNPs associated with 5-FU sensitivity.<xref rid="bib38" ref-type="bibr">38</xref>, <xref rid="bib39" ref-type="bibr">39</xref>, <xref rid="bib40" ref-type="bibr">40</xref> We observed three additional rare intronic <italic>ENOSF1</italic> variants that might affect <italic>ENOSF1</italic> expression and one <italic>TYMSOS</italic> (<italic>TYMS</italic> opposite strand) variant that were all inherited from the wild-type parent, (<xref rid="fig3" ref-type="fig">Figures&#xA0;3</xref>A and 3B, <xref rid="mmc1" ref-type="supplementary-material">Table&#xA0;S3</xref>). Although no report to date has described the effect of <italic>TYMSOS</italic> in modifying TYMS expression, the <italic>ENOSF1</italic> transcript has been shown to act as antisense RNA and inhibit TYMS expression. Furthermore, we also identified intronic variants in <italic>ENOSF1</italic> and <italic>TYMS</italic> in the affected probands of family 6 and family 8, respectively, where no parental DNA was unavailable (<xref rid="mmc1" ref-type="supplementary-material">Table&#xA0;S3</xref>). It is noteworthy that a common haplotype is shared by all the probands in families 1&#x2013;5 and that it is inherited from the parent who does not have the disease-specific <italic>TYMS</italic> variant. This &#x201C;<italic>C-A-ins&#x201D;</italic> haplotype (rs699517-rs2790-rs151264360) is associated with both reduced <italic>TYMS</italic> and increased <italic>ENOSF1</italic> expression as well as with severe hand-foot syndrome.<xref rid="bib37" ref-type="bibr"><sup>37</sup></xref> This observation of a defined background haplotype in combination with a loss-of-function variant causing severe TYMS deficiency has also been reported in an artificial loss of heterozygosity for the <italic>TYMS</italic> allele in a cancer-cell-line model.<xref rid="bib41" ref-type="bibr"><sup>41</sup></xref> This might help to explain the resultant cell phenotype hypersensitivity towards 5-FU in our index probands when compared to the parent carrier (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>J). One of the probands (family 5) who carried <italic>TYMS</italic> exonic missense variant (c.480A&gt;T [p.Gln160His]) has shown a severe adverse response to topical 5-FU when undergoing treatment for her squamous carcinoma and melanoma in her leg (<xref rid="tbl1" ref-type="table">Table&#xA0;1</xref>).<fig id="fig3"><label>Figure&#xA0;3</label><caption><p>Haplotype analysis and influence of <italic>ENOSF1</italic> variants on <italic>TYMS</italic> expression</p><p>(A) Inheritance of common polymorphisms and the variant of interest in the <italic>TYMS-ENOSF1</italic> locus in families I&#x2013;V. The &#x201C;<italic>C-A-ins&#x201D;</italic> haplotype in red highlights the common inherited allele from the wild-type parent. The relative position of the <italic>TYMS</italic>-specific allele is highlighted in green. na indicates that a sample was not available. A black-filled symbol indicates an affected individual; an open symbol indicates an unaffected individual; and a gray-filled symbol indicates an asymptomatic carrier of the <italic>TYMS</italic> exonic variant. The unique 28&#xA0;bp polymorphic 5&#x2032;-UTR tandem-repeat sequence that is known as the <italic>TYMS</italic> enhancer region (TSER; rs45445694) and the 6&#xA0;bp deletion in the 3&#x2032; UTR (rs151264360) are shown. The TSER with three polymorphic repeats (3R) has greater <italic>TYMS</italic> expression levels when compared than the two-repeat sequence (2R), and this is further modulated by the presence of SNP G or C (rs2853542) within the 2R when 3R is present.</p><p>(B) <italic>TYMS-ENOSF1</italic> genomic locus depicting polymorphisms (red arrows) and intronic variants identified in <italic>ENOSF1</italic> alleles (blue arrows) and the <italic>TYMSOS</italic> allele (black arrow) in individuals for whom parental samples were available. Exonic <italic>TYMS</italic> variants (green arrows) are from all probands in this study. An asterisk indicates a recurrent variant.</p><p>(C) <italic>ENOSF1/TYMS</italic> transcript ratio in control and proband cells as well as an unaffected heterozygote parent <italic>TYMS</italic> carrier as analyzed by qPCR.</p></caption><graphic xlink:href="gr3"/></fig></p>
+        <p id="p0120">We further evaluated <italic>ENOSF1</italic> RNA expression in cells from the probands and their unaffected heterozygous parents along with controls. This revealed a marked increase in the ratio of <italic>ENOSF1</italic> to <italic>TYMS</italic> expression in proband cells when compared to cells from parents and controls (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>C). This increase in <italic>ENOSF1</italic> expression also appears to be high over passages in the proband cells when compared to control cells (<xref rid="mmc1" ref-type="supplementary-material">Figure&#xA0;S5</xref>D). Lentiviral transduction of GFP-tagged <italic>TYMS</italic> cDNA revealed a clear rescue of endogenous TYMS expression, which ameliorated the <italic>ENOSF1</italic> antisense effect by outcompeting with ectopically expressed <italic>TYMS</italic> RNA in the proband cells (<xref rid="fig4" ref-type="fig">Figures&#xA0;4</xref>A and 4B). This rescue of endogenous TYMS protein appears to be dose dependent and consistent between two other independent transduction experiments in the proband cells (<xref rid="mmc1" ref-type="supplementary-material">Figures&#xA0;S6</xref>A and S6B). We mapped the RNA-RNA interaction region with two different tools, IntaRNA<xref rid="bib19" ref-type="bibr"><sup>19</sup></xref> and RactIP,<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref> and both identified a putative interaction region spanning nucleotides 564&#x2013;713 in <italic>TYMS</italic> and 4834&#x2013;4983 in <italic>ENOSF1,</italic> respectively (<xref rid="mmc1" ref-type="supplementary-material">Figures&#xA0;S6</xref>C and S6D). <italic>RNA</italic> secondary-structure prediction by RNAfold<xref rid="bib42" ref-type="bibr"><sup>42</sup></xref> revealed similar folding conformations between <italic>TYMS</italic> and <italic>ENOSF1</italic> RNA molecules and accurate base pairing as determined by IntaRNA and RactIP (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>C). Furthermore, silencing of <italic>ENOSF1</italic> by RNA interference revealed a clear rescue of endogenous TYMS at both the RNA and the protein level in the proband cells (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>D and 4E). This increase of endogenous <italic>TYMS</italic> expression in the cells of the probands in either fashion further revealed a mild or partial but not complete rescue of cell sensitivity to 5-FU (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>F). Thus, our results indicate a digenic epistatic relationship between <italic>TYMS</italic> and <italic>ENOSF1</italic> alleles, where a combination of linked SNPs together with additional rare variants results in increased expression of <italic>ENOSF1</italic> relative to <italic>TYMS.</italic> This leads to post-transcriptional inhibition of TYMS translation by <italic>ENOSF1</italic>-<italic>TYMS</italic> RNA-RNA interaction, causing severe TYMS deficiency and features of DC in these affected individuals.<fig id="fig4"><label>Figure&#xA0;4</label><caption><p>Post-transcriptional epistatic silencing of <italic>TYMS</italic> by elevated <italic>ENOSF1</italic> in cells of the affected probands</p><p>(A) RNA expression of <italic>TYMS</italic> and <italic>ENOSF1</italic> after rescue by a GFP-TYMS lentiviral particle. Expression is relative to the control-GFP in each proband.</p><p>(B) Immunoblotting of TYMS protein in control and proband cells transduced with lentivirus particles encoding GFP alone and GFP-tagged <italic>TYMS</italic> cDNA.</p><p>(C) The RNA secondary structures of both <italic>TYMS</italic> and <italic>ENOSF1</italic> in this RactIP predicted region is modelled with the RNAfold webserver under default parameters. The purple-colored dashed lines indicate base pairing of RNA residues between <italic>TYMS</italic> and <italic>ENOSF1</italic>.</p><p>(D) RNA expression of <italic>TYMS</italic> and <italic>ENOSF1</italic> after transduction with lentiviral particles encoding <italic>ENOSF1</italic> shRNA. Expression is relative to the control-GFP shRNA in each proband.</p><p>(E) Immunoblotting of TYMS protein in control and proband cells transduced with lentivirus particles encoding <italic>ENOSF1</italic> shRNA.</p><p>(F) Cellular sensitivity to 5-flurouracil (5-FU) in control and proband cells after transduction of lentivirus particles encoding <italic>ENOSF1 RNAi.</italic> For (A), (D), and (F), each experiment was performed in duplicate and analyzed in triplicate.</p></caption><graphic xlink:href="gr4"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="sec4">
+      <title>Discussion</title>
+      <p id="p0125">In this study we identified a cohort of pediatric DC individuals who have a homogeneous mucocutaneous phenotype and harbour previously unreported LOF, missense, and somewhat rare germline variants in the <italic>TYMS</italic> locus that overlaps with <italic>ENOSF1</italic> (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref> and <xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>). On the basis of the stark TYMS deficiency we observed in the cells of affected probands, we propose that a combined digenic effect of <italic>TYMS</italic> and <italic>ENOSF1</italic> variants modifies <italic>TYMS</italic> expression in triggering disease features in these affected individuals. The parents who are carriers of either of these variants (i.e., affecting only the maternal or paternal <italic>TYMS-ENOSF1</italic> locus) remain asymptomatic (<xref rid="mmc1" ref-type="supplementary-material">Table&#xA0;S3</xref>). These complex germline variants at the <italic>TYMS-ENOSF1</italic> locus introduce an epistatic effect of <italic>ENOSF1</italic> in misbalancing the <italic>TYMS</italic> allele. This epistatic molecular event represents a unique pathogenetic mechanism and provides an important step towards the genetic and molecular understanding of DC.</p>
+      <p id="p0130">Previously, a genetic linkage study on a large consanguineous Pakistani family, where affected members manifested clinical features of syndromic ectodermal dysplasia [ECTD (MIM: <ext-link ext-link-type="omim" xlink:href="616029" id="intref0125">616029</ext-link>)], has revealed a linkage candidate region on chromosome 18p11.32-p11.3, which includes the <italic>TYMS-ENOSF1</italic> locus.<xref rid="bib43" ref-type="bibr"><sup>43</sup></xref> However, further sequencing did not find that this region harbors any homozygous or biallelic variants segregating with the ECTD phenotype observed in this family. Because somatic features (hair, nails, teeth, and skin pigmentation) of ECTD individuals often overlap with DC,<xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> it is tempting to speculate that a combination of variants in this linkage region modify the status of <italic>TYMS</italic> and <italic>ENOSF1</italic> expression and cause ECTD- or DC-like features in this family.</p>
+      <p id="p0135">The relative increase in the ratio of <italic>ENOSF1</italic> to <italic>TYMS</italic> transcripts in three independent cell lines obtained from our affected probands (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>C) suggests that high <italic>ENOSF1</italic> expression reduces <italic>TYMS</italic> translation by inhibiting <italic>TYMS</italic> binding to translating ribosomes via an antisense mechanism (<xref rid="mmc1" ref-type="supplementary-material">Figures&#xA0;S5</xref>B and S5C). This result implies that it is the relative levels of these transcripts (high <italic>ENOSF1/TYMS</italic> ratio), which in turn determines the overall TYMS accumulation and the resulting DC phenotype. Specifically, the exonic <italic>TYMS</italic> variant on one parental chromosome leads to the reduction or absence of <italic>TYMS</italic> expression from that allele. Combined with increased expression of <italic>ENOSF1</italic> from the other parental chromosome, this leads to a further reduction from its <italic>cis TYMS</italic> locus, resulting in severe TYMS deficiency as observed in cells from our affected probands (<xref rid="fig1" ref-type="fig">Figures&#xA0;1</xref>G&#x2013;1H). The altered <italic>ENOSF1/TYMS</italic> ratio could also be the underlying basis of the severe hand-foot syndrome that is observed in a subset of cancer-affected individuals treated with 5-fluorouracil and related cancer drugs.</p>
+      <p id="p0140">As a molecular consequence of TYMS deficiency in the cells from probands, alteration in the nucleotide metabolism pathway caused an elevated DNA-damage response and induced the p53/p21 axis, affecting the expression of key proteins (DKC1, SMUG1, and TERT) that are involved in telomerase regulation (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>). These molecular events are considered senescence hallmarks that impair stem cell renewal.<xref rid="bib44" ref-type="bibr"><sup>44</sup></xref> In DC and the related inherited bone-marrow failure syndrome Fanconi anaemia, loss of the hematopoietic stem cell niche is accompanied by activation of the p53/p21 axis, inducing a replicative senescent phenotype.<xref rid="bib45" ref-type="bibr">45</xref>, <xref rid="bib46" ref-type="bibr">46</xref>, <xref rid="bib47" ref-type="bibr">47</xref> Furthermore, studies on transgenic mouse models of nucleotide deficiency reported that the fine-tuning of nucleotide metabolism pathways is required for resolution of replication stress and overcoming maturation defects of hematopoietic stem and progenitor cells <italic>in&#xA0;vivo</italic>.<xref rid="bib48" ref-type="bibr"><sup>48</sup></xref></p>
+      <p id="p0145">Nucleotide-metabolism disorders represent diverse clinical manifestations, including neurological, immunological, hematological, and renal impairments; adverse reactions to 5-FU therapy; and association with malignancies.<xref rid="bib49" ref-type="bibr"><sup>49</sup></xref> Bi-allelic <italic>DPYD, TK2</italic>, and <italic>TYMP</italic> variants that&#xA0;participate in the <italic>de novo</italic> synthesis pathway have been reported in individuals manifesting the neuro-gastrointestinal and skeletal-muscle aging disorder dihydropyramidine dehydrogenase deficiency (DYD [MIM: <ext-link ext-link-type="omim" xlink:href="274270" id="intref0130">274270</ext-link>]) and mitochondrial DNA depletion syndrome types 1 and 2 (MTDPS1 and 2 [MIM: <ext-link ext-link-type="omim" xlink:href="609560" id="intref0135">609560</ext-link>; MIM: <ext-link ext-link-type="omim" xlink:href="603041" id="intref0140">603041</ext-link>]).<xref rid="bib50" ref-type="bibr">50</xref>, <xref rid="bib51" ref-type="bibr">51</xref>, <xref rid="bib52" ref-type="bibr">52</xref></p>
+      <p id="p0150">Recently, bi-allelic <italic>DUT</italic> (deoxyuridine triphosphatase [MIM: <ext-link ext-link-type="omim" xlink:href="601266" id="intref0145">601266</ext-link>]) variants that hydrolyses dUTP to dUMP in the <italic>de novo</italic> synthesis pathway were reported in individuals with bone-marrow failure associated with diabetes.<xref rid="bib53" ref-type="bibr"><sup>53</sup></xref> In our exomes, we also identified probands who came from two independent families, had bi-allelic <italic>DUT</italic> variants, and presented with severe pancytopenia and mucocutaneous skin features (<xref rid="mmc1" ref-type="supplementary-material">Figure&#xA0;S7</xref>). The imbalance that occurs in dNTP pools as a result of variants in the aforementioned genes has been shown to affect mitochondrial DNA more adversely than nuclear DNA. In light of the previous observations that TYMS subcellular localization to mammalian mitochondria regulates the <italic>de novo</italic> synthesis pathway for faithful mitochondrial DNA replication,<xref rid="bib54" ref-type="bibr"><sup>54</sup></xref> it is possible that our reported probands with severe TYMS deficiency have some defects in mitochondrial function.</p>
+      <p id="p0155">In summary, our study provides evidence that germline variants at the <italic>TYMS-ENOSF1</italic> locus give rise to severe thymidylate synthase deficiency that disrupts the nucleotide metabolism pathway and that this disruption drives molecular features of genome instability and senescence in a homogenous cohort of DC individuals. These observations highlight the influence of nucleotide-metabolism genes in genome stability and demonstrate that digenic germline variants in both <italic>TYMS</italic> and <italic>ENOSF1</italic> can generate disease features of dyskeratosis congenita.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list id="cebib0010">
+      <title>References</title>
+      <ref id="bib1">
+        <label>1</label>
+        <element-citation publication-type="journal" id="sref1">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dokal</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Tummala</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Vulliamy</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inherited bone marrow failure in the pediatric patient</article-title>
+          <source>Blood</source>
+          <year>2022</year>
+          <pub-id pub-id-type="doi">10.1182/blood.2020006481</pub-id>
+          <comment>blood.2020006481</comment>
+        </element-citation>
+      </ref>
+      <ref id="bib2">
+        <label>2</label>
+        <element-citation publication-type="journal" id="sref2">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zinsser</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Atrophia Cutis Reticularis cum Pigmentations, Dystrophia Unguium et Leukoplakis oris (Poikioodermia atrophicans vascularis Jacobi.)</article-title>
+          <source>Ikonographia Dermatologica</source>
+          <volume>5</volume>
+          <year>1910</year>
+          <fpage>219</fpage>
+          <lpage>223</lpage>
+        </element-citation>
+      </ref>
+      <ref id="bib3">
+        <label>3</label>
+        <element-citation publication-type="journal" id="sref3">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tummala</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Walne</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Collopy</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Cardoso</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>de la Fuente</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lawson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Powell</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Foster</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mohammed</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Poly(A)-specific ribonuclease deficiency impacts telomere biology and causes dyskeratosis congenita</article-title>
+          <source>J.&#xA0;Clin. Invest.</source>
+          <volume>125</volume>
+          <year>2015</year>
+          <fpage>2151</fpage>
+          <lpage>2160</lpage>
+          <pub-id pub-id-type="doi">10.1172/jci78963</pub-id>
+          <pub-id pub-id-type="pmid">25893599</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib4">
+        <label>4</label>
+        <element-citation publication-type="journal" id="sref4">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gable</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Gaysinskaya</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Atik</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Talbot</surname>
+              <given-names>C.C.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Stanley</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Pugh</surname>
+              <given-names>E.W.</given-names>
+            </name>
+            <name>
+              <surname>Amat-Codina</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Schenk</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Arcasoy</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ZCCHC8, the nuclear exosome targeting component, is mutated in familial pulmonary fibrosis and is required for telomerase RNA maturation</article-title>
+          <source>Genes&#xA0;Dev.</source>
+          <volume>33</volume>
+          <year>2019</year>
+          <fpage>1381</fpage>
+          <lpage>1396</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.326785.119</pub-id>
+          <pub-id pub-id-type="pmid">31488579</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib5">
+        <label>5</label>
+        <element-citation publication-type="journal" id="sref5">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stanley</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Gable</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Carlile</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Hanumanthu</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Podlevsky</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Khalil</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>DeZern</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Rojas-Duran</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Applegate</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss-of-function mutations in the RNA biogenesis factor NAF1 predispose to pulmonary fibrosis-emphysema</article-title>
+          <source>Sci. Transl. Med.</source>
+          <volume>8</volume>
+          <year>2016</year>
+          <fpage>351ra107</fpage>
+          <pub-id pub-id-type="doi">10.1126/scitranslmed.aaf7837</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib6">
+        <label>6</label>
+        <element-citation publication-type="journal" id="sref6">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O'Connor</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Safari</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Xin</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Songyang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>A critical role for TPP1 and TIN2 interaction in high-order telomeric complex assembly</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>103</volume>
+          <year>2006</year>
+          <fpage>11874</fpage>
+          <lpage>11879</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0605303103</pub-id>
+          <pub-id pub-id-type="pmid">16880378</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib7">
+        <label>7</label>
+        <element-citation publication-type="journal" id="sref7">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nandakumar</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bell</surname>
+              <given-names>C.F.</given-names>
+            </name>
+            <name>
+              <surname>Weidenfeld</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Zaug</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Leinwand</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Cech</surname>
+              <given-names>T.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The TEL patch of telomere protein TPP1 mediates telomerase recruitment and processivity</article-title>
+          <source>Nature</source>
+          <volume>492</volume>
+          <year>2012</year>
+          <fpage>285</fpage>
+          <lpage>289</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature11648</pub-id>
+          <pub-id pub-id-type="pmid">23103865</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib8">
+        <label>8</label>
+        <element-citation publication-type="journal" id="sref8">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kelich</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Aramburu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>van der Vis</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Showe</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kossenkov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>van der Smagt</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Massink</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Schoemaker</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hennekam</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Veltkamp</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Telomere dysfunction implicates POT1 in patients with idiopathic pulmonary fibrosis</article-title>
+          <source>J.&#xA0;Exp. Med.</source>
+          <volume>219</volume>
+          <year>2022</year>
+          <fpage>e20211681</fpage>
+          <pub-id pub-id-type="doi">10.1084/jem.20211681</pub-id>
+          <pub-id pub-id-type="pmid">35420632</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib9">
+        <label>9</label>
+        <element-citation publication-type="journal" id="sref9">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Venteicher</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Abreu</surname>
+              <given-names>E.B.</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>McCann</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Terns</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Veenstra</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Terns</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Artandi</surname>
+              <given-names>S.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>A&#xA0;human telomerase holoenzyme protein required for Cajal&#xA0;body localization and telomere synthesis</article-title>
+          <source>Science</source>
+          <volume>323</volume>
+          <year>2009</year>
+          <fpage>644</fpage>
+          <lpage>648</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1165357</pub-id>
+          <pub-id pub-id-type="pmid">19179534</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib10">
+        <label>10</label>
+        <element-citation publication-type="journal" id="sref10">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Kasbek</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wright</surname>
+              <given-names>W.E.</given-names>
+            </name>
+            <name>
+              <surname>Price</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human CST has independent functions during telomere duplex replication and C-strand fill-in</article-title>
+          <source>Cell&#xA0;Rep.</source>
+          <volume>2</volume>
+          <year>2012</year>
+          <fpage>1096</fpage>
+          <lpage>1103</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2012.10.007</pub-id>
+          <pub-id pub-id-type="pmid">23142664</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib11">
+        <label>11</label>
+        <element-citation publication-type="journal" id="sref11">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simon</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Lev</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Weiss</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Rylova</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Eyal</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kol</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Barel</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Cesarkas</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Soudack</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in STN1 cause Coats plus syndrome and are associated with genomic and telomere defects</article-title>
+          <source>J.&#xA0;Exp. Med.</source>
+          <volume>213</volume>
+          <year>2016</year>
+          <fpage>1429</fpage>
+          <lpage>1440</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.20151618</pub-id>
+          <pub-id pub-id-type="pmid">27432940</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib12">
+        <label>12</label>
+        <element-citation publication-type="journal" id="sref12">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vannier</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Pavicic-Kaltenbrunner</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Petalcorin</surname>
+              <given-names>M.I.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Boulton</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>RTEL1 dismantles T loops and&#xA0;counteracts telomeric G4-DNA to maintain telomere integrity</article-title>
+          <source>Cell</source>
+          <volume>149</volume>
+          <year>2012</year>
+          <fpage>795</fpage>
+          <lpage>806</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2012.03.030</pub-id>
+          <pub-id pub-id-type="pmid">22579284</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib13">
+        <label>13</label>
+        <element-citation publication-type="journal" id="sref13">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toufektchan</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Lejour</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Durand</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Giri</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Draskovic</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Bardot</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Laplante</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Jaber</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Alter</surname>
+              <given-names>B.P.</given-names>
+            </name>
+            <name>
+              <surname>Londono-Vallejo</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Germline mutation of MDM4, a major p53 regulator, in a familial syndrome of defective telomere maintenance</article-title>
+          <source>Sci. Adv.</source>
+          <volume>6</volume>
+          <year>2020</year>
+          <fpage>eaay3511</fpage>
+          <pub-id pub-id-type="doi">10.1126/sciadv.aay3511</pub-id>
+          <pub-id pub-id-type="pmid">32300648</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib14">
+        <label>14</label>
+        <element-citation publication-type="journal" id="sref14">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharma</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sahoo</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Honda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Granger</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Goodings</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sanchez</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>K&#xFC;nstner</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Busch</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Beier</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pruett-Miller</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Gain-of-function mutations in RPA1 cause a syndrome with short telomeres and somatic genetic rescue</article-title>
+          <source>Blood</source>
+          <volume>139</volume>
+          <year>2022</year>
+          <fpage>1039</fpage>
+          <lpage>1051</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood.2021011980</pub-id>
+          <pub-id pub-id-type="pmid">34767620</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib15">
+        <label>15</label>
+        <element-citation publication-type="journal" id="sref15">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nachmani</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Bothmer</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Grisendi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mele</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bothmer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Monteleone</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Bester</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Germline NPM1 mutations lead to altered rRNA 2'-O-methylation and cause dyskeratosis congenita</article-title>
+          <source>Nat. Genet.</source>
+          <volume>51</volume>
+          <year>2019</year>
+          <fpage>1518</fpage>
+          <lpage>1529</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41588-019-0502-z</pub-id>
+          <pub-id pub-id-type="pmid">31570891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib16">
+        <label>16</label>
+        <element-citation publication-type="journal" id="sref16">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walne</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Collopy</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Cardoso</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ellison</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Plagnol</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Albayrak</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Albayrak</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kilic</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Pat&#xA0;roglu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Akar</surname>
+              <given-names>H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Marked overlap of four genetic syndromes with dyskeratosis congenita confounds clinical diagnosis</article-title>
+          <source>Haematologica</source>
+          <volume>101</volume>
+          <year>2016</year>
+          <fpage>1180</fpage>
+          <lpage>1189</lpage>
+          <pub-id pub-id-type="doi">10.3324/haematol.2016.147769</pub-id>
+          <pub-id pub-id-type="pmid">27612988</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib17">
+        <label>17</label>
+        <element-citation publication-type="journal" id="sref17">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hilcenko</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Simpson</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Finch</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Bowler</surname>
+              <given-names>F.R.</given-names>
+            </name>
+            <name>
+              <surname>Churcher</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Packman</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Shlien</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kirwan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Aberrant 3' oligoadenylation of spliceosomal U6 small nuclear RNA in poikiloderma with neutropenia</article-title>
+          <source>Blood</source>
+          <volume>121</volume>
+          <year>2013</year>
+          <fpage>1028</fpage>
+          <lpage>1038</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2012-10-461491</pub-id>
+          <pub-id pub-id-type="pmid">23190533</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib18">
+        <label>18</label>
+        <element-citation publication-type="journal" id="sref18">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pontikos</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Moghul</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Withington</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Blanco-Kelly</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Vulliamy</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>T.L.E.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Cipriani</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Fiorentino</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Phenopolis: an open platform for harmonization and analysis of genetic and phenotypic data</article-title>
+          <source>Bioinformatics</source>
+          <volume>33</volume>
+          <year>2017</year>
+          <fpage>2421</fpage>
+          <lpage>2423</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btx147</pub-id>
+          <pub-id pub-id-type="pmid">28334266</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib19">
+        <label>19</label>
+        <element-citation publication-type="journal" id="sref19">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wright</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Backofen</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>IntaRNA 2.0: enhanced and customizable prediction of RNA-RNA interactions</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>45</volume>
+          <year>2017</year>
+          <fpage>W435</fpage>
+          <lpage>W439</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkx279</pub-id>
+          <pub-id pub-id-type="pmid">28472523</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib20">
+        <label>20</label>
+        <element-citation publication-type="journal" id="sref20">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kato</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Asai</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Akutsu</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rtips: fast and accurate tools for RNA 2D structure prediction using integer programming</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>40</volume>
+          <year>2012</year>
+          <fpage>W29</fpage>
+          <lpage>W34</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gks412</pub-id>
+          <pub-id pub-id-type="pmid">22600734</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib21">
+        <label>21</label>
+        <element-citation publication-type="journal" id="sref21">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kudo</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Xi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ju</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Russo</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Ju</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Translational control analysis by translationally active RNA capture/microarray analysis (TrIP-Chip)</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>38</volume>
+          <year>2010</year>
+          <fpage>e104</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkq024</pub-id>
+          <pub-id pub-id-type="pmid">20123731</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib22">
+        <label>22</label>
+        <element-citation publication-type="journal" id="sref22">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cawthon</surname>
+              <given-names>R.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Telomere length measurement by a novel monochrome multiplex quantitative PCR method</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>37</volume>
+          <year>2009</year>
+          <fpage>e21</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkn1027</pub-id>
+          <pub-id pub-id-type="pmid">19129229</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib23">
+        <label>23</label>
+        <element-citation publication-type="journal" id="sref23">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baerlocher</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Vulto</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>de Jong</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Lansdorp</surname>
+              <given-names>P.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Flow cytometry and FISH to measure the average length of telomeres (flow FISH)</article-title>
+          <source>Nat. Protoc.</source>
+          <volume>1</volume>
+          <year>2006</year>
+          <fpage>2365</fpage>
+          <lpage>2376</lpage>
+          <pub-id pub-id-type="doi">10.1038/nprot.2006.263</pub-id>
+          <pub-id pub-id-type="pmid">17406480</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib24">
+        <label>24</label>
+        <element-citation publication-type="journal" id="sref24">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Aimiuwu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Klisovic</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Blum</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Grever</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Marcucci</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>K.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>A LC-MS/MS method for the analysis of intracellular nucleoside triphosphate levels</article-title>
+          <source>Pharm Res.</source>
+          <volume>26</volume>
+          <year>2009</year>
+          <fpage>1504</fpage>
+          <lpage>1515</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11095-009-9863-9</pub-id>
+          <pub-id pub-id-type="pmid">19291372</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib25">
+        <label>25</label>
+        <element-citation publication-type="journal" id="sref25">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Codd</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Allara</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Musicha</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kaptoge</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Stoma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hamby</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Braund</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Bountziouka</surname>
+              <given-names>V.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Polygenic basis and biomedical consequences of telomere length variation</article-title>
+          <source>Nat. Genet.</source>
+          <volume>53</volume>
+          <year>2021</year>
+          <fpage>1425</fpage>
+          <lpage>1433</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41588-021-00944-6</pub-id>
+          <pub-id pub-id-type="pmid">34611362</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib26">
+        <label>26</label>
+        <element-citation publication-type="journal" id="sref26">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Stoma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lotta</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Warner</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Albrecht</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Allione</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Arp</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Broer</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Buxton</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Da Silva Couto Alves</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genome-wide association analysis in humans links nucleotide metabolism to leukocyte telomere length</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <volume>106</volume>
+          <year>2020</year>
+          <fpage>389</fpage>
+          <lpage>404</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2020.02.006</pub-id>
+          <pub-id pub-id-type="pmid">32109421</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib27">
+        <label>27</label>
+        <element-citation publication-type="journal" id="sref27">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dorajoo</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Gurung</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Beckman</surname>
+              <given-names>K.B.</given-names>
+            </name>
+            <name>
+              <surname>Adams-Haduch</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yiamunaa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loci for human leukocyte telomere length in the Singaporean Chinese population and trans-ethnic genetic studies</article-title>
+          <source>Nat. Commun.</source>
+          <volume>10</volume>
+          <year>2019</year>
+          <fpage>2491</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41467-019-10443-2</pub-id>
+          <pub-id pub-id-type="pmid">31171785</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib28">
+        <label>28</label>
+        <element-citation publication-type="journal" id="sref28">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taub</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Conomos</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Keener</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Iyer</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Weinstock</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Yanek</surname>
+              <given-names>L.R.</given-names>
+            </name>
+            <name>
+              <surname>Lane</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Miller-Fleming</surname>
+              <given-names>T.W.</given-names>
+            </name>
+            <name>
+              <surname>Brody</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Raffield</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genetic determinants of telomere length from 109, 122 ancestrally diverse whole-genome sequences in TOPMed</article-title>
+          <source>Cell Genomics</source>
+          <volume>2</volume>
+          <year>2022</year>
+          <fpage>100084</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.xgen.2021.100084</pub-id>
+          <pub-id pub-id-type="pmid">35530816</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib29">
+        <label>29</label>
+        <element-citation publication-type="journal" id="sref29">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Samsonoff</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Reston</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>McKee</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>O'Connor</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Galivan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Maley</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Maley</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intracellular location of thymidylate synthase and its state of phosphorylation</article-title>
+          <source>J.&#xA0;Biol. Chem.</source>
+          <volume>272</volume>
+          <year>1997</year>
+          <fpage>13281</fpage>
+          <lpage>13285</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.272.20.13281</pub-id>
+          <pub-id pub-id-type="pmid">9148948</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib30">
+        <label>30</label>
+        <element-citation publication-type="journal" id="sref30">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blount</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Mack</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Wehr</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>MacGregor</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Hiatt</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wickramasinghe</surname>
+              <given-names>S.N.</given-names>
+            </name>
+            <name>
+              <surname>Everson</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Ames</surname>
+              <given-names>B.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Folate deficiency causes uracil misincorporation into human DNA and chromosome breakage: implications for cancer and neuronal damage</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>94</volume>
+          <year>1997</year>
+          <fpage>3290</fpage>
+          <lpage>3295</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.94.7.3290</pub-id>
+          <pub-id pub-id-type="pmid">9096386</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib31">
+        <label>31</label>
+        <element-citation publication-type="journal" id="sref31">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ke</surname>
+              <given-names>P.Y.</given-names>
+            </name>
+            <name>
+              <surname>Kuo</surname>
+              <given-names>Y.Y.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>Z.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of dTTP pool size by anaphase promoting complex/cyclosome is essential for the maintenance of genetic stability</article-title>
+          <source>Genes Dev.</source>
+          <volume>19</volume>
+          <year>2005</year>
+          <fpage>1920</fpage>
+          <lpage>1933</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1322905</pub-id>
+          <pub-id pub-id-type="pmid">16103219</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib32">
+        <label>32</label>
+        <element-citation publication-type="journal" id="sref32">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kirwan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Beswick</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Walne</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Hossain</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Casimir</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Vulliamy</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dokal</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dyskeratosis congenita and the DNA damage response</article-title>
+          <source>Br. J. Haematol.</source>
+          <volume>153</volume>
+          <year>2011</year>
+          <fpage>634</fpage>
+          <lpage>643</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2141.2011.08679.x</pub-id>
+          <pub-id pub-id-type="pmid">21477209</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib33">
+        <label>33</label>
+        <element-citation publication-type="journal" id="sref33">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pereboeva</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Westin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Patel</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Flaniken</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Lamb</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Klingelhutz</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA damage responses and oxidative stress in dyskeratosis congenita</article-title>
+          <source>PLoS One</source>
+          <volume>8</volume>
+          <year>2013</year>
+          <fpage>e76473</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0076473</pub-id>
+          <pub-id pub-id-type="pmid">24124565</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib34">
+        <label>34</label>
+        <element-citation publication-type="journal" id="sref34">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Dolnick</surname>
+              <given-names>B.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Detection of thymidylate synthase modulators by a novel screening assay</article-title>
+          <source>Mol. Pharmacol.</source>
+          <volume>63</volume>
+          <year>2003</year>
+          <fpage>167</fpage>
+          <lpage>173</lpage>
+          <pub-id pub-id-type="doi">10.1124/mol.63.1.167</pub-id>
+          <pub-id pub-id-type="pmid">12488549</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib35">
+        <label>35</label>
+        <element-citation publication-type="journal" id="sref35">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dolnick</surname>
+              <given-names>B.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning and characterization of a naturally occurring antisense RNA to human thymidylate synthase mRNA</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>21</volume>
+          <year>1993</year>
+          <fpage>1747</fpage>
+          <lpage>1752</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/21.8.1747</pub-id>
+          <pub-id pub-id-type="pmid">8493092</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib36">
+        <label>36</label>
+        <element-citation publication-type="journal" id="sref36">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schaerer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Froehlich</surname>
+              <given-names>T.K.</given-names>
+            </name>
+            <name>
+              <surname>Hamzic</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Offer</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Diasio</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Joerger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Amstutz</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Largiad&#xE8;r</surname>
+              <given-names>C.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel nomenclature for repeat motifs in the thymidylate synthase enhancer region and its relevance for pharmacogenetic studies</article-title>
+          <source>J.&#xA0;Pers. Med.</source>
+          <volume>10</volume>
+          <year>2020</year>
+          <fpage>181</fpage>
+          <pub-id pub-id-type="doi">10.3390/jpm10040181</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib37">
+        <label>37</label>
+        <element-citation publication-type="journal" id="sref37">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hamzic</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kummer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Froehlich</surname>
+              <given-names>T.K.</given-names>
+            </name>
+            <name>
+              <surname>Joerger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aebi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Palles</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Thomlinson</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Meulendijks</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Schellens</surname>
+              <given-names>J.H.M.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a-Gonz&#xE1;lez</surname>
+              <given-names>X.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Evaluating the role of ENOSF1 and TYMS variants as predictors in fluoropyrimidine-related toxicities: an IPD meta-analysis</article-title>
+          <source>Pharmacol. Res.</source>
+          <volume>152</volume>
+          <year>2020</year>
+          <fpage>104594</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.phrs.2019.104594</pub-id>
+          <pub-id pub-id-type="pmid">31838077</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib38">
+        <label>38</label>
+        <element-citation publication-type="journal" id="sref38">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horie</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Aiba</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Oguro</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hojo</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Takeishi</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional analysis and DNA polymorphism of the tandemly repeated sequences in the 5'-terminal regulatory region of the human gene for thymidylate synthase</article-title>
+          <source>Cell Struct. Funct.</source>
+          <volume>20</volume>
+          <year>1995</year>
+          <fpage>191</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="doi">10.1247/csf.20.191</pub-id>
+          <pub-id pub-id-type="pmid">7586009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib39">
+        <label>39</label>
+        <element-citation publication-type="journal" id="sref39">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawakami</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Salonga</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Danenberg</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Uetake</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Brabender</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Omura</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Danenberg</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Different lengths of a polymorphic repeat sequence in the thymidylate synthase gene affect translational efficiency but not its gene expression</article-title>
+          <source>Clin. Cancer Res.</source>
+          <volume>7</volume>
+          <year>2001</year>
+          <fpage>4096</fpage>
+          <lpage>4101</lpage>
+          <pub-id pub-id-type="pmid">11751507</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib40">
+        <label>40</label>
+        <element-citation publication-type="journal" id="sref40">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nief</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Morvan</surname>
+              <given-names>V.L.</given-names>
+            </name>
+            <name>
+              <surname>Robert</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Involvement of gene polymorphisms of thymidylate synthase in gene expression, protein activity and anticancer drug cytotoxicity using the NCI-60 panel</article-title>
+          <source>Eur. J. Cancer</source>
+          <volume>43</volume>
+          <year>2007</year>
+          <fpage>955</fpage>
+          <lpage>962</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejca.2006.12.012</pub-id>
+          <pub-id pub-id-type="pmid">17317154</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib41">
+        <label>41</label>
+        <element-citation publication-type="journal" id="sref41">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brody</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Hucl</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gallmeier</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Winter</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Kern</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>K.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genomic copy number changes affecting the thymidylate synthase (TYMS) gene in cancer: a model for patient classification to aid fluoropyrimidine therapy</article-title>
+          <source>Cancer Res.</source>
+          <volume>66</volume>
+          <year>2006</year>
+          <fpage>9369</fpage>
+          <lpage>9373</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.can-06-2165</pub-id>
+          <pub-id pub-id-type="pmid">17018589</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib42">
+        <label>42</label>
+        <element-citation publication-type="journal" id="sref42">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gruber</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Lorenz</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bernhart</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Neubock</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hofacker</surname>
+              <given-names>I.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Vienna RNA websuite</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>36</volume>
+          <year>2008</year>
+          <fpage>W70</fpage>
+          <lpage>W74</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkn188</pub-id>
+          <pub-id pub-id-type="pmid">18424795</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib43">
+        <label>43</label>
+        <element-citation publication-type="journal" id="sref43">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Habib</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ansar</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mattheisen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Shahid</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ali</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ahmad</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Betz</surname>
+              <given-names>R.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel locus for ectodermal dysplasia of hair, nail and skin pigmentation anomalies maps to chromosome 18p11.32-p11.31</article-title>
+          <source>PLoS One</source>
+          <volume>10</volume>
+          <year>2015</year>
+          <fpage>e0129811</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0129811</pub-id>
+          <pub-id pub-id-type="pmid">26115030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib44">
+        <label>44</label>
+        <element-citation publication-type="journal" id="sref44">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gorgoulis</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Alimonti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bennett</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Bischof</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Bishop</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Campisi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Collado</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Evangelou</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ferbeyre</surname>
+              <given-names>G.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cellular senescence: defining a path forward</article-title>
+          <source>Cell</source>
+          <volume>179</volume>
+          <year>2019</year>
+          <fpage>813</fpage>
+          <lpage>827</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2019.10.005</pub-id>
+          <pub-id pub-id-type="pmid">31675495</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib45">
+        <label>45</label>
+        <element-citation publication-type="journal" id="sref45">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Batista</surname>
+              <given-names>L.F.Z.</given-names>
+            </name>
+            <name>
+              <surname>Pech</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>F.L.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>H.N.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>K.T.</given-names>
+            </name>
+            <name>
+              <surname>Zaug</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Crary</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sebastiano</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Cherry</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Telomere shortening and loss of self-renewal in dyskeratosis congenita induced pluripotent stem cells</article-title>
+          <source>Nature</source>
+          <volume>474</volume>
+          <year>2011</year>
+          <fpage>399</fpage>
+          <lpage>402</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature10084</pub-id>
+          <pub-id pub-id-type="pmid">21602826</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib46">
+        <label>46</label>
+        <element-citation publication-type="journal" id="sref46">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Westin</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Aykin-Burns</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Buckingham</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Spitz</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>F.D.</given-names>
+            </name>
+            <name>
+              <surname>Klingelhutz</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The p53/p21(WAF/CIP) pathway mediates oxidative stress and senescence in dyskeratosis congenita cells with telomerase insufficiency</article-title>
+          <source>Antioxid. Redox Signal</source>
+          <volume>14</volume>
+          <year>2011</year>
+          <fpage>985</fpage>
+          <lpage>997</lpage>
+          <pub-id pub-id-type="doi">10.1089/ars.2010.3444</pub-id>
+          <pub-id pub-id-type="pmid">21087144</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib47">
+        <label>47</label>
+        <element-citation publication-type="journal" id="sref47">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ceccaldi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Parmar</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Mouly</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Delord</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Regairaz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pla</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vasquez</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.S.</given-names>
+            </name>
+            <name>
+              <surname>Pondarre</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Bone marrow failure in Fanconi anemia is triggered by an exacerbated p53/p21 DNA damage response that impairs hematopoietic stem and progenitor cells</article-title>
+          <source>Cell&#xA0;Stem Cell</source>
+          <volume>11</volume>
+          <year>2012</year>
+          <fpage>36</fpage>
+          <lpage>49</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.stem.2012.05.013</pub-id>
+          <pub-id pub-id-type="pmid">22683204</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib48">
+        <label>48</label>
+        <element-citation publication-type="journal" id="sref48">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Austin</surname>
+              <given-names>W.R.</given-names>
+            </name>
+            <name>
+              <surname>Armijo</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>D.O.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Hsieh</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nathanson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Herschman</surname>
+              <given-names>H.R.</given-names>
+            </name>
+            <name>
+              <surname>Phelps</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Witte</surname>
+              <given-names>O.N.</given-names>
+            </name>
+            <name>
+              <surname>Czernin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Radu</surname>
+              <given-names>C.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nucleoside salvage pathway kinases regulate hematopoiesis by linking nucleotide metabolism with replication stress</article-title>
+          <source>J.&#xA0;Exp. Med.</source>
+          <volume>209</volume>
+          <year>2012</year>
+          <fpage>2215</fpage>
+          <lpage>2228</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.20121061</pub-id>
+          <pub-id pub-id-type="pmid">23148236</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib49">
+        <label>49</label>
+        <element-citation publication-type="journal" id="sref49">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balasubramaniam</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Duley</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Christodoulou</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inborn errors of pyrimidine metabolism: clinical update and therapy</article-title>
+          <source>J.&#xA0;Inherit. Metab. Dis.</source>
+          <volume>37</volume>
+          <year>2014</year>
+          <fpage>687</fpage>
+          <lpage>698</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10545-014-9742-3</pub-id>
+          <pub-id pub-id-type="pmid">25030255</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib50">
+        <label>50</label>
+        <element-citation publication-type="journal" id="sref50">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vreken</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Van Kuilenburg</surname>
+              <given-names>A.B.P.</given-names>
+            </name>
+            <name>
+              <surname>Meinsma</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>van Gennip</surname>
+              <given-names>A.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of novel point mutations&#xA0;in the dihydropyrimidine dehydrogenase gene</article-title>
+          <source>J.&#xA0;Inherit. Metab. Dis.</source>
+          <volume>20</volume>
+          <year>1997</year>
+          <fpage>335</fpage>
+          <lpage>338</lpage>
+          <pub-id pub-id-type="doi">10.1023/a:1005357307122</pub-id>
+          <pub-id pub-id-type="pmid">9266349</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib51">
+        <label>51</label>
+        <element-citation publication-type="journal" id="sref51">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nishino</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Spinazzola</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hirano</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thymidine phosphorylase gene mutations in MNGIE, a human mitochondrial disorder</article-title>
+          <source>Science</source>
+          <volume>283</volume>
+          <year>1999</year>
+          <fpage>689</fpage>
+          <lpage>692</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.283.5402.689</pub-id>
+          <pub-id pub-id-type="pmid">9924029</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib52">
+        <label>52</label>
+        <element-citation publication-type="journal" id="sref52">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saada</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shaag</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mandel</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nevo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Eriksson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Elpeleg</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutant mitochondrial thymidine kinase in mitochondrial DNA depletion myopathy</article-title>
+          <source>Nat. Genet.</source>
+          <volume>29</volume>
+          <year>2001</year>
+          <fpage>342</fpage>
+          <lpage>344</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng751</pub-id>
+          <pub-id pub-id-type="pmid">11687801</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib53">
+        <label>53</label>
+        <element-citation publication-type="journal" id="sref53">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dos Santos</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Daures</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Philippi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Romero</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Marselli</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Marchetti</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Sen&#xE9;e</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Bacq</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Besse</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Baz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>dUTPase (DUT) is mutated in a novel monogenic syndrome with diabetes and bone marrow failure</article-title>
+          <source>Diabetes</source>
+          <volume>66</volume>
+          <year>2017</year>
+          <fpage>1086</fpage>
+          <lpage>1096</lpage>
+          <pub-id pub-id-type="doi">10.2337/db16-0839</pub-id>
+          <pub-id pub-id-type="pmid">28073829</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib54">
+        <label>54</label>
+        <element-citation publication-type="journal" id="sref54">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anderson</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Quintero</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Stover</surname>
+              <given-names>P.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of a de novo thymidylate biosynthesis pathway in mammalian mitochondria</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>108</volume>
+          <year>2011</year>
+          <fpage>15163</fpage>
+          <lpage>15168</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1103623108</pub-id>
+          <pub-id pub-id-type="pmid">21876188</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec id="app1">
+      <title>Web resources</title>
+      <p id="p0175">ClinVar, <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/clinvar/" id="intref0150">https://www.ncbi.nlm.nih.gov/clinvar/</ext-link></p>
+      <p id="p0180">Genome Aggregation database (gnomAD), <ext-link ext-link-type="uri" xlink:href="https://gnomad.broadinstitute.org/" id="intref0155">https://gnomad.broadinstitute.org</ext-link></p>
+      <p id="p0185">INTARNA prediction, <ext-link ext-link-type="uri" xlink:href="http://rna.informatik.uni-freiburg.de/IntaRNA/" id="intref0160">http://rna.informatik.uni-freiburg.de/IntaRNA/</ext-link></p>
+      <p id="p0190">Online Mendelian Inheritance in Man (OMIM), <ext-link ext-link-type="uri" xlink:href="http://www.omim.org" id="intref0165">http://www.omim.org</ext-link></p>
+      <p id="p0195">RNA secondary structure prediction, <ext-link ext-link-type="uri" xlink:href="http://rtips.dna.bio.keio.ac.jp/ractip/" id="intref0170">http://rtips.dna.bio.keio.ac.jp/ractip/</ext-link></p>
+    </sec>
+    <sec id="app3" sec-type="supplementary-material">
+      <title>Supplemental information</title>
+      <p id="p0205">
+<supplementary-material content-type="local-data" id="mmc1"><caption><title>Document S1. Tables&#xA0;S1&#x2013;S3 and Figures&#xA0;S1&#x2013;S7</title></caption><media xlink:href="mmc1.pdf"/></supplementary-material>
+<supplementary-material content-type="local-data" id="mmc2"><caption><title>Document S2. Article plus supplemental information</title></caption><media xlink:href="mmc2.pdf"/></supplementary-material>
+</p>
+    </sec>
+    <sec sec-type="data-availability" id="da0010">
+      <title>Data and code availability</title>
+      <p id="p0010">The published article includes all genomic variants analyzed during this study. The variant data have been submitted to the ClinVar database under accession numbers SCV002540636&#xA0;and SCV002540642.</p>
+    </sec>
+    <ack id="ack0010">
+      <title>Acknowledgments</title>
+      <p id="p0160">We would like to thank all the affected probands&#x2019; families for their participation in this study. We acknowledge financial support provided by <funding-source id="gs1"><institution-wrap><institution-id institution-id-type="doi">10.13039/100014013</institution-id><institution>UKRI</institution></institution-wrap></funding-source>/<funding-source id="gs2">MRC</funding-source> (MR/P018440/1) and <funding-source id="gs3"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100015570</institution-id><institution>Blood Cancer UK</institution></institution-wrap></funding-source> (14032). We would like to thank Patrick Shannon and Enrico Colombo for sending the samples from affected individuals.</p>
+      <sec id="sec5">
+        <title>Author contributions</title>
+        <p id="p0165">Conceptualization and investigation, H.T., A.W., T.V., and I.D.; methodology, H.T., A.W., J.A., R.B., P.M., M.P., and T.V.; data analysis, H.T., A.W., N.P., A.S., T.V., and I.D.; resources, P.R., A.M.R., M.W., S.C., A.M.E., V.K., V.C., T.V., and I.D.; writing&#x2014;original draft, HT; writing&#x2014;review and editing, HT, AW, TV, ID; Supervision and Funding acquisition, TV, ID.</p>
+      </sec>
+      <sec sec-type="COI-statement" id="sec6">
+        <title>Declaration of interests</title>
+        <p id="p0170">The authors declare no competing interest.</p>
+      </sec>
+    </ack>
+    <fn-group>
+      <fn id="app2" fn-type="supplementary-material">
+        <p id="p0200">Supplemental information can be found online at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajhg.2022.06.014" id="intref0175">https://doi.org/10.1016/j.ajhg.2022.06.014</ext-link>.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>
+</pmc-articleset>

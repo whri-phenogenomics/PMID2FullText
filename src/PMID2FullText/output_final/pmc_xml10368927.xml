@@ -1,0 +1,2891 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Mol Metab</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Mol Metab</journal-id>
+      <journal-title-group>
+        <journal-title>Molecular Metabolism</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2212-8778</issn>
+      <publisher>
+        <publisher-name>Elsevier</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">37429524</article-id>
+      <article-id pub-id-type="pmc">10368927</article-id>
+      <article-id pub-id-type="pii">S2212-8778(23)00101-1</article-id>
+      <article-id pub-id-type="doi">10.1016/j.molmet.2023.101767</article-id>
+      <article-id pub-id-type="publisher-id">101767</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Ube4A maintains metabolic homeostasis and facilitates insulin signaling <italic>in&#xA0;vivo</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="au1">
+          <name>
+            <surname>Mukherjee</surname>
+            <given-names>Sandip</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn1" ref-type="fn">6</xref>
+          <xref rid="fn2" ref-type="fn">7</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au2">
+          <name>
+            <surname>Chakraborty</surname>
+            <given-names>Molee</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn1" ref-type="fn">6</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au3">
+          <name>
+            <surname>Msengi</surname>
+            <given-names>Eliwaza N.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn1" ref-type="fn">6</xref>
+          <xref rid="fn3" ref-type="fn">8</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au4">
+          <name>
+            <surname>Haubner</surname>
+            <given-names>Jake</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au5">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Jinsong</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au6">
+          <name>
+            <surname>Jellinek</surname>
+            <given-names>Matthew J.</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au7">
+          <name>
+            <surname>Carlson</surname>
+            <given-names>Haley L.</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au8">
+          <name>
+            <surname>Pyles</surname>
+            <given-names>Kelly</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au9">
+          <name>
+            <surname>Ulmasov</surname>
+            <given-names>Barbara</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au10">
+          <name>
+            <surname>Lutkewitte</surname>
+            <given-names>Andrew J.</given-names>
+          </name>
+          <xref rid="aff4" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au11">
+          <name>
+            <surname>Carpenter</surname>
+            <given-names>Danielle</given-names>
+          </name>
+          <xref rid="aff5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au12">
+          <name>
+            <surname>McCommis</surname>
+            <given-names>Kyle S.</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au13">
+          <name>
+            <surname>Ford</surname>
+            <given-names>David A.</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au14">
+          <name>
+            <surname>Finck</surname>
+            <given-names>Brian N.</given-names>
+          </name>
+          <xref rid="aff4" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au15">
+          <name>
+            <surname>Neuschwander-Tetri</surname>
+            <given-names>Brent A.</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au16">
+          <name>
+            <surname>Chakraborty</surname>
+            <given-names>Anutosh</given-names>
+          </name>
+          <email>anutosh.chakraborty@health.slu.edu</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="cor1" ref-type="corresp">&#x2217;</xref>
+        </contrib>
+        <aff id="aff1"><label>1</label>Department of Pharmacology and Physiology, Saint Louis University School of Medicine, Saint Louis, MO, 63104, USA</aff>
+        <aff id="aff2"><label>2</label>Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, Saint Louis, MO, 63104, USA</aff>
+        <aff id="aff3"><label>3</label>Division of Gastroenterology and Hepatology, Saint Louis University School of Medicine, Saint Louis, MO, 63104, USA</aff>
+        <aff id="aff4"><label>4</label>Division of Geriatrics and Nutritional Science, Washington University School of Medicine, Saint Louis, MO, 63110, USA</aff>
+        <aff id="aff5"><label>5</label>Department of Pathology, Saint Louis University School of Medicine, Saint Louis, MO, 63104, USA</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1"><label>&#x2217;</label>Corresponding author. Saint Louis University School of Medicine, Department of Pharmacology and Physiology, M370, Schwitalla Hall, 1402 South Grand Blvd, Saint Louis, Missouri, 63104, USA. <email>anutosh.chakraborty@health.slu.edu</email></corresp>
+        <fn id="fn1">
+          <label>6</label>
+          <p id="ntpara0010">Authors contributed equally.</p>
+        </fn>
+        <fn id="fn2">
+          <label>7</label>
+          <p id="ntpara0015">Current address: Division of Geriatrics and Nutritional Science, Washington University School of Medicine, Saint Louis, MO, 63110.</p>
+        </fn>
+        <fn id="fn3">
+          <label>8</label>
+          <p id="ntpara0020">Current address: Department of Radiation Oncology, Washington University School of Medicine in St. Louis, MO, 63108.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="pmc-release">
+        <day>08</day>
+        <month>7</month>
+        <year>2023</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+      <pub-date pub-type="collection">
+        <month>9</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>08</day>
+        <month>7</month>
+        <year>2023</year>
+      </pub-date>
+      <volume>75</volume>
+      <elocation-id>101767</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>17</day>
+          <month>2</month>
+          <year>2023</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>21</day>
+          <month>6</month>
+          <year>2023</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>6</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2023 The Author(s)</copyright-statement>
+        <copyright-year>2023</copyright-year>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+          <license-p>This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).</license-p>
+        </license>
+      </permissions>
+      <abstract id="abs0010">
+        <sec>
+          <title>Objective</title>
+          <p>Defining the regulators of cell metabolism and signaling is essential to design new therapeutic strategies in obesity and NAFLD/NASH. E3 ubiquitin ligases control diverse cellular functions by ubiquitination-mediated regulation of protein targets, and thus their functional aberration is associated with many diseases. The E3 ligase Ube4A has been implicated in human obesity, inflammation, and cancer. However, its <italic>in&#xA0;vivo</italic> function is unknown, and no animal models are available to study this novel protein.</p>
+        </sec>
+        <sec>
+          <title>Methods</title>
+          <p>A whole-body Ube4A knockout (<italic>UKO</italic>) mouse model was generated, and various metabolic parameters were compared in chow- and high fat diet (HFD)-fed <italic>WT</italic> and <italic>UKO</italic> mice, and in their liver, adipose tissue, and serum. Lipidomics and RNA-Seq studies were performed in the liver samples of HFD-fed <italic>WT</italic> and <italic>UKO</italic> mice. Proteomic studies were conducted to identify Ube4A's targets in metabolism. Furthermore, a mechanism by which Ube4A regulates metabolism was identified.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>Although the body weight and composition of young, chow-fed <italic>WT</italic> and <italic>UKO</italic> mice are similar, the knockouts exhibit mild hyperinsulinemia and insulin resistance. HFD feeding substantially augments obesity, hyperinsulinemia, and insulin resistance in both sexes of <italic>UKO</italic> mice. HFD-fed white and brown adipose tissue depots of <italic>UKO</italic> mice have increased insulin resistance and inflammation and reduced energy metabolism. Moreover, <italic>Ube4A</italic> deletion exacerbates hepatic steatosis, inflammation, and liver injury in HFD-fed mice with increased lipid uptake and lipogenesis in hepatocytes. Acute insulin treatment resulted in impaired activation of the insulin effector protein kinase Akt in liver and adipose tissue of chow-fed <italic>UKO</italic> mice. We identified the Akt activator protein APPL1 as a Ube4A interactor. The K63-linked ubiquitination (K63-Ub) of Akt and APPL1, known to facilitate insulin-induced Akt activation, is impaired in <italic>UKO</italic> mice. Furthermore, Ube4A K63-ubiquitinates Akt <italic>in&#xA0;vitro</italic>.</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p>Ube4A is a novel regulator of obesity, insulin resistance, adipose tissue dysfunction and NAFLD, and preventing its downregulation may ameliorate these diseases.</p>
+        </sec>
+      </abstract>
+      <abstract abstract-type="author-highlights" id="abs0015">
+        <title>Highlights</title>
+        <p>
+          <list list-type="simple" id="ulist0010">
+            <list-item id="u0010">
+              <label>&#x2022;</label>
+              <p id="p0010">The U-box containing E3 ubiquitin ligase Ube4A is a novel regulator of metabolism.</p>
+            </list-item>
+            <list-item id="u0015">
+              <label>&#x2022;</label>
+              <p id="p0015">Deletion of <italic>Ube4A</italic> exacerbates high fat diet-induced obesity, hyperinsulinemia, and insulin resistance in both sexes of mice.</p>
+            </list-item>
+            <list-item id="u0020">
+              <label>&#x2022;</label>
+              <p id="p0020"><italic>Ube4A</italic> deletion augments hepatic steatosis and enhances lipid uptake and lipogenesis in hepatocytes.</p>
+            </list-item>
+            <list-item id="u0025">
+              <label>&#x2022;</label>
+              <p id="p0025">Ube4A facilitates insulin signaling by K63-ubiquitination of Akt and APPL1.</p>
+            </list-item>
+            <list-item id="u0030">
+              <label>&#x2022;</label>
+              <p id="p0030">Maintaining Ube4A's activity may ameliorate obesity, T2DM and NAFLD.</p>
+            </list-item>
+          </list>
+        </p>
+      </abstract>
+      <kwd-group id="kwrds0010">
+        <title>Keywords</title>
+        <kwd>Ube4A</kwd>
+        <kwd>Ubiquitination</kwd>
+        <kwd>Obesity</kwd>
+        <kwd>NAFLD</kwd>
+        <kwd>Insulin/Akt signaling</kwd>
+        <kwd>APPL1</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1">
+      <label>1</label>
+      <title>Introduction</title>
+      <p id="p0040">Obesity and type-2 diabetes mellitus (T2DM) are global health concerns as these diseases significantly increase the risk of other co-morbidities such as non-alcoholic fatty liver disease/steatohepatitis (NAFLD/NASH) and cardiovascular diseases [<xref rid="bib1" ref-type="bibr">[1]</xref>, <xref rid="bib2" ref-type="bibr">[2]</xref>, <xref rid="bib3" ref-type="bibr">[3]</xref>]. Obesity-induced insulin resistance and metabolic dysfunction in the adipose tissue upregulates inflammatory adipokines and downregulates metabolism-promoting adipokines [<xref rid="bib4" ref-type="bibr">4</xref>]. Moreover, the fat-storing ability of dysfunctional adipocytes is reduced, leading to an increase in serum levels of non-esterified fatty acids (NEFA) that are taken up by the liver [<xref rid="bib5" ref-type="bibr">5</xref>,<xref rid="bib6" ref-type="bibr">6</xref>]. In addition, obesity-induced hyperinsulinemia causes selective hepatic insulin resistance [<xref rid="bib1" ref-type="bibr">[1]</xref>, <xref rid="bib2" ref-type="bibr">[2]</xref>, <xref rid="bib3" ref-type="bibr">[3]</xref>] wherein both gluconeogenesis and <italic>de novo</italic> lipogenesis processes are increased in hepatocytes, contributing to hyperglycemia, lipotoxic stress, and steatohepatitis [<xref rid="bib1" ref-type="bibr">[1]</xref>, <xref rid="bib2" ref-type="bibr">[2]</xref>, <xref rid="bib3" ref-type="bibr">[3]</xref>,<xref rid="bib5" ref-type="bibr">[5]</xref>, <xref rid="bib6" ref-type="bibr">[6]</xref>, <xref rid="bib7" ref-type="bibr">[7]</xref>]. A complete knowledge of the mechanisms that regulate metabolism and insulin sensitivity in health and diseases is lacking.</p>
+      <p id="p0045">E3 ubiquitin ligases modulate various cellular functions by ubiquitinating target proteins. Aberrant activation of E3 ligases is associated with many diseases such as metabolic diseases, cancer, and neurodegeneration [<xref rid="bib8" ref-type="bibr">8</xref>]. In the process of protein ubiquitination, the ubiquitin-loaded E2 (E2-Ub) binds to the catalytic domain of an E3 ligase. The E3 ligase also interacts with the target protein <italic>via</italic> its substrate binding site and promotes transfer of Ub from E2 onto the targets. This process is repeated to transfer more Ub monomers to one of the seven lysine (K) residues (K6, K11, K27, K29, K33, K48 and K63) of the terminally attached Ub, forming distinct poly-Ub chains. Of these linkages, K48- and K63-linked-Ub (K48-Ub and K63-Ub) are well studied. K48-Ub primarily facilitates protein degradation <italic>via</italic> the ubiquitin proteasomal system (UPS), whereas K63-Ub mostly regulates activity, localization, and protein&#x2013;protein interaction of the targets [<xref rid="bib9" ref-type="bibr">9</xref>,<xref rid="bib10" ref-type="bibr">10</xref>]. In mammals, about 600&#x2013;700 E3 ligases are known that contain E2-binding RING- and HECT-domains, and many of these enzymes are well characterized [<xref rid="bib10" ref-type="bibr">10</xref>,<xref rid="bib11" ref-type="bibr">11</xref>]. A distinct family of E3 ligases contain the E2-binding U-box domain that resembles RING but lacks the Zn<sup>2+</sup>-coordinating residues [<xref rid="bib12" ref-type="bibr">12</xref>]. U-box E3 ligases are prevalent in plants where they regulate stress responses [<xref rid="bib13" ref-type="bibr">13</xref>]. Mammals only have seven U-box ligases, of which carboxy-terminus of HSC70 interacting protein (CHIP), pre-mRNA processing factor 19 (PRP19) and ubiquitin conjugation factor E4B (Ube4B) have been partially characterized. These ligases regulate protein quality control, DNA repair and apoptosis [<xref rid="bib14" ref-type="bibr">[14]</xref>, <xref rid="bib15" ref-type="bibr">[15]</xref>, <xref rid="bib16" ref-type="bibr">[16]</xref>, <xref rid="bib17" ref-type="bibr">[17]</xref>]. Moreover, neuron-specific expression of <italic>Ube4B</italic> has been shown to augment obesity and hepatic steatosis in mice [<xref rid="bib18" ref-type="bibr">18</xref>].</p>
+      <p id="p0050">Ube4A, a member of the mammalian U-box domain E3 ligase family, has been implicated in metabolic and gastrointestinal diseases, and cancer [<xref rid="bib19" ref-type="bibr">[19]</xref>, <xref rid="bib20" ref-type="bibr">[20]</xref>, <xref rid="bib21" ref-type="bibr">[21]</xref>, <xref rid="bib22" ref-type="bibr">[22]</xref>, <xref rid="bib23" ref-type="bibr">[23]</xref>, <xref rid="bib24" ref-type="bibr">[24]</xref>, <xref rid="bib25" ref-type="bibr">[25]</xref>]. Loss-of-stability mutations in <italic>Ube4A</italic> were identified in a population of obese and intellectually disabled subjects and the promoter region of <italic>Ube4A</italic> was found to be hypermethylated in severely obese children, indicting its downregulation in this disease [<xref rid="bib21" ref-type="bibr">21</xref>,<xref rid="bib22" ref-type="bibr">22</xref>]. Downregulation of <italic>Ube4A</italic> was also noted in the pancreatic islets of a population of diabetic patients [<xref rid="bib23" ref-type="bibr">23</xref>]. Moreover, Ube4A has also been identified as an intestinal autoantigen in Crohn's disease [<xref rid="bib24" ref-type="bibr">24</xref>].</p>
+      <p id="p0055">Cell biological and biochemical studies showed that Ube4A regulates various protein targets <italic>via</italic> ubiquitination. It facilitates degradation of the antiviral protein viperin and the tumor suppressor protein P53, the transcription factor nuclear factor erythroid 2 like 1 (NRF1) [<xref rid="bib26" ref-type="bibr">[26]</xref>, <xref rid="bib27" ref-type="bibr">[27]</xref>, <xref rid="bib28" ref-type="bibr">[28]</xref>]. Ube4A also mediates K63- and K48-Ub of proteins that facilitate DNA repair [<xref rid="bib29" ref-type="bibr">29</xref>]. However, <italic>in&#xA0;vivo</italic> functions of Ube4A are unknown, primarily due to lack of appropriate mouse models to study this novel protein. Thus, by generating whole-body <italic>Ube4A</italic> knockout (<italic>UKO</italic>) mice, here we investigated the impact of <italic>Ube4A</italic> deletion on the adverse metabolic effects of high fat diet (HFD) and sought to identify the mechanisms by which this novel E3 ligase regulates metabolism and insulin signaling.</p>
+    </sec>
+    <sec id="sec2">
+      <label>2</label>
+      <title>Methods</title>
+      <sec id="sec2.1">
+        <label>2.1</label>
+        <title>Animal studies</title>
+        <p id="p0060">All animal studies were approved (approval numbers: 2732 and 2739) by the Saint Louis University Institutional Animal Care and Use Committee (IACUC). Mice were housed at 23&#xA0;&#xB0;C under 12-hour light/dark cycles and fed ad libitum with free access to water and were in good health condition throughout the duration of treatment. Eight-week-old, chow-fed mice were fed HFD (Kcals: fat 61.6% carbohydrates 20.3% and protein 18.1%, details in the materials section) for 10 or 16 weeks as indicated. After the feeding period, mice were fasted for 5&#xA0;h followed by euthanasia by carbon dioxide asphyxiation. Serum and tissues were collected, weighed, and preserved following standard procedures for the assessment of various parameters [<xref rid="bib30" ref-type="bibr">[30]</xref>, <xref rid="bib31" ref-type="bibr">[31]</xref>, <xref rid="bib32" ref-type="bibr">[32]</xref>].</p>
+      </sec>
+      <sec id="sec2.2">
+        <label>2.2</label>
+        <title>Generation of <italic>UKO</italic> mice</title>
+        <p id="p0065">The <italic>Ube4A</italic> gene is in the chromosome 9 of <italic>Mus musculus</italic>. Using CRISPR/Cas9 technology [<xref rid="bib33" ref-type="bibr">33</xref>,<xref rid="bib34" ref-type="bibr">34</xref>], two <italic>LoxP</italic> sites were inserted at the 5&#x2032;- and 3&#x2032;-ends of the last three exons, encoding the U-Box domain of Ube4A. The insertions were confirmed by next generation sequencing. Joining of the 5&#x2032;- and 3&#x2032;-ends of the targeting locus generated two groups of C57BL6J mice: i) <italic>Ube4A-Flox (LoxP</italic> sites encompassing the targeting locus) and ii) <italic>UKO</italic> (complete deletion of the targeting locus of 9859 base pairs). Multiple lines of chimeric <italic>UKO</italic> mice were cross-bred with <italic>WT</italic> C57BL6J mice to obtain heterozygous <italic>Ube4A-Flox</italic> or <italic>UKO</italic> mice, which were inbred to generate respective homozygous lines. For genotyping, Ub1, Ub3 and Ub4 primers were used. The <italic>WT</italic> and <italic>UKO</italic> mice showed band sizes of 345 (Ub3-Ub4) and 482 (Ub1-Ub4) base pairs, respectively, and the <italic>UHet</italic> mice showed both bands. Both lines were confirmed by sequencing the genotyped bands. <italic>UKO</italic> mice on C57BL6J background and their age-matched <italic>WT</italic> littermates were used in this study. Primer sequences used were:</p>
+        <p id="p0070">Ub1 &#x2013; GTAAAATGCTTGCCACACAGACATGAGTG</p>
+        <p id="p0075">Ub3 - CCAGTCCAGGCATCTCATCAAGACATTTC</p>
+        <p id="p0080">Ub4 - CATGTTATGATGACCCCAGCCATGAAACG.</p>
+      </sec>
+      <sec id="sec2.3">
+        <label>2.3</label>
+        <title>Body weight and composition</title>
+        <p id="p0085">Weekly body weight was measured and fat, lean, and fluid mass of mice were measured before and after the HFD feeding using the Minispec LF-NMR (Brucker Optics) analyzer [<xref rid="bib30" ref-type="bibr">30</xref>].</p>
+      </sec>
+      <sec id="sec2.4">
+        <label>2.4</label>
+        <title>Glucose, insulin, and glucagon tolerance tests (GTT, ITT and GgTT)</title>
+        <p id="p0090">These tests were performed in male mice on the 4th, 6th<sup>,</sup> and 8th week of HFD-feeding, respectively to monitor the progress of insulin resistance and hyperglycemia. For GTT, glucose (2&#xA0;g/kg BW, i.p.) was injected in 16&#xA0;h-fasted animals. For ITT or GgTT, human insulin (0.75 U/kg BW, i.p.) or glucagon (15&#xA0;&#x3BC;g/kg BW, i.p.) was injected in 5&#xA0;h-fasted mice. In female mice, GTT and ITT were performed on the 12th and 14th week of HFD feeding. GTT was also performed in young (2-month-old), chow-fed, male and female mice. In all the experiments, blood glucose levels were measured by glucometer by puncturing tail veins of mice before and after the indicated time periods of injection [<xref rid="bib30" ref-type="bibr">30</xref>].</p>
+      </sec>
+      <sec id="sec2.5">
+        <label>2.5</label>
+        <title>Whole-body energy expenditure</title>
+        <p id="p0095">Energy expenditure was measured in a cohorts of male mice on the 6th week of HFD-feeding and in young (2-month-old), chow-fed mice following a published method [<xref rid="bib32" ref-type="bibr">32</xref>]. Mice were placed individually in metabolic cages at 23&#xA0;&#xB0;C with a precise thermostatic control in a Comprehensive Laboratory Monitoring System (CLAMS; Columbus Instruments) and were acclimatized for 2 days. Afterwards, oxygen consumption, (VO<sub>2</sub>), carbon dioxide release (VCO<sub>2</sub>), respiratory exchange ratio (RER), Energy expenditure (EE) and locomotor activity were measured for indicated time periods. VO<sub>2</sub> and EE were calculated with and without normalizing with lean mass. Average food intake was assessed by measuring the food before and after the study. The average daily intake of kcals per mouse was also calculated [<xref rid="bib30" ref-type="bibr">30</xref>].</p>
+      </sec>
+      <sec id="sec2.6">
+        <label>2.6</label>
+        <title>Tissue collection and assessment of metabolic and liver injury parameters</title>
+        <p id="p0100">Adipose tissue, liver and other tissues were isolated following standard procedures [<xref rid="bib30" ref-type="bibr">[30]</xref>, <xref rid="bib31" ref-type="bibr">[31]</xref>, <xref rid="bib32" ref-type="bibr">[32]</xref>]. Blood was collected from 4&#xA0;h-fasted mice by cardiac puncture, and serum was prepared following standard procedure. Serum TAG, NEFA, and total cholesterol were measured at the Mouse Metabolic Phenotyping Centers (MMPC), University of Cincinnati, College of Medicine Pathology &amp; Laboratory Medicine. Serum concentrations of insulin, AST and ALT were determined using commercial kits [<xref rid="bib30" ref-type="bibr">30</xref>]. TAG from liver was measured using a commercial assay kit after isolating liver lipids following a standard procedure [<xref rid="bib35" ref-type="bibr">35</xref>].</p>
+      </sec>
+      <sec id="sec2.7">
+        <label>2.7</label>
+        <title>Hematoxylin and Eosin (H&amp;E) staining and NAFLD feature scoring</title>
+        <p id="p0105">These studies were done following our previously published protocols [<xref rid="bib30" ref-type="bibr">30</xref>,<xref rid="bib32" ref-type="bibr">32</xref>]. NAFLD features were scored using a semiquantitative rodent scoring system [<xref rid="bib36" ref-type="bibr">36</xref>]. Hepatic steatosis and hypertrophy were scored as: 0 (&lt;5%), 1 (5%&#x2013;33%), 2 (33%&#x2013;66%), 3 (&gt;66%). Number of inflammatory foci/200 X field was also scored. The numbers shown in the table denote an average of the individual scores in N&#xA0;=&#xA0;5 mice/cohort.</p>
+      </sec>
+      <sec id="sec2.8">
+        <label>2.8</label>
+        <title>Sirius red staining and analysis of total collagen content</title>
+        <p id="p0110">Paraffin-embedded liver sections were stained with 0.1% Sirius Red in saturated picric acid for 2&#xA0;h. Slides were then washed in water, dehydrated with ethanol and xylene, and mounted. The degree of collagen accumulation was assessed by morphometric analysis, as we described previously [<xref rid="bib30" ref-type="bibr">30</xref>]. Briefly, about 15&#x2013;20 nonoverlapping images randomly selected from each liver section were captured at 20X magnification. The same threshold was applied to all images. Sirius Red staining was quantified by digital image analysis using ImageJ software (NIH). The amount of collagen in the <italic>UKO</italic> livers was expressed relative to the amount of collagen in corresponding <italic>WT</italic> control group.</p>
+      </sec>
+      <sec id="sec2.9">
+        <label>2.9</label>
+        <title>Lipidomics studies</title>
+        <p id="p0115">Lipids, extracted from liver tissues [<xref rid="bib37" ref-type="bibr">37</xref>], were spiked with an internal lipid standard mix that consists of phosphatidylcholine (20:0/20:0), phosphatidylethanolamine (14:0/14:0), sphingomyelin (d18:1/17:0), cholesteryl ester (17:0), ceramide (17:0), lysophosphatidylcholine (17:0), phosphatidylserine (14:0/14:0), triglyceride (17:0/17:0/17:0), phosphatidylglycerol (14:0/14:0) and diglyceride (20:0/20:0). Lipid extracts were dried under nitrogen and were dissolved in methanol: isopropanol (1:1) for lipidomic analysis. Lipids were separated on an Accucore C30 column (2.1&#xA0;&#xD7;&#xA0;150&#xA0;mm) at 35&#xA0;&#xB0;C. Mobile phase A had 60% acetonitrile, 40% water, 10&#xA0;mM ammonium formate and 0.1% formic acid. Mobile phase B was comprised of 90% isopropanol, 10% acetonitrile with 2&#xA0;mM ammonium formate, and 0.02% formic acid with a gradient. Untargeted lipidomics was performed using a Q-Exactive mass spectrometer (Thermo Scientific). Data-dependent mass spectrometry-mass spectrometry (ddMS<sup>2</sup>), the top 10 most abundant peaks from a full MS1 scan were acquired in both positive and negative ion modes. Full scan MS1 was performed with chromatogram peak width set at 7s, scan range 200&#x2013;1200 <italic>m</italic>/<italic>z</italic>, AGC target 1&#xA0;&#xD7;&#xA0;10<sup>6</sup>, resolution 70000, and maximum injection time 246&#xA0;ms. For ddMS2 negative ion analyses, parameters were resolution 17500, maximum injection time 54&#xA0;ms; AGC target 2&#xA0;&#xD7;&#xA0;10<sup>5</sup>; isolation window 1.0&#xA0;<italic>m/z</italic>; normalized collision energy (NCE) 20, 30, and 40; and dynamic exclusion at 10s. Similar parameters were used for positive ion mode ddMS2 analyses, except NCE was set to 20 and 40. Ions present in blank injections were excluded. MS data were analyzed using Xcalibur Qual Browser (Thermo Scientific). Untargeted LC-MS data were processed using LipidSearch 4.1 (Thermo Scientific) [<xref rid="bib38" ref-type="bibr">38</xref>]. Both positive and negative MSdd.raw (data-dependent) files were used for lipid identification. Peak areas were normalized to internal lipid standards for each lipid class. Only the lipid classes that were normalized to internal standards were selected for further analysis. Each identified lipid was manually validated by investigating MS/MS fragmentation, the compatible retention time for lipid class, and acceptable peak shape [<xref rid="bib39" ref-type="bibr">39</xref>]. Data scaling was set to autoscaling (mean-centered and divided by the standard deviation of each variable). The significant species were selected using the cut-off of 1.5-fold change and p-value &lt;0.05.</p>
+      </sec>
+      <sec id="sec2.10">
+        <label>2.10</label>
+        <title>RNA-Seq and quantitative RT-PCR (qRT-PCR) studies</title>
+        <p id="p0120">For RNA-Seq, total RNA samples were prepared, indexed, pooled, and sequenced on an Illumina NovoSeq [<xref rid="bib30" ref-type="bibr">30</xref>]. Gene expression was quantified using Kallisto [<xref rid="bib40" ref-type="bibr">40</xref>]. Differential gene expression analysis was performed using an R edgeR package with a raw gene count matrix and were normalized using the TMM (The trimmed mean of M-values) method. Differential expressions were examined using a negative binomial generalized linear model. <italic>p-values</italic> were reported with likelihood test. For Gene Set Enrichment Analysis (GSEA), genes were ranked based on fold changes and <italic>p-values</italic> derived from the edgeR analysis. Enrichment analysis was performed using an R package &#x201C;fgsea&#x201D; along with the MSigDB C2 V7.5.1 gene sets [<xref rid="bib41" ref-type="bibr">41</xref>]. qRT-PCR studies were done following a standard, SYBR green-based, &#x394;&#x394;Ct method, using our previously published protocol [<xref rid="bib30" ref-type="bibr">30</xref>].</p>
+      </sec>
+      <sec id="sec2.11">
+        <label>2.11</label>
+        <title>Primary hepatocyte isolation and hepatic glucose production assay</title>
+        <p id="p0125">Glucose production was assessed following a standard protocol [<xref rid="bib42" ref-type="bibr">42</xref>]. Briefly, primary hepatocytes from 8-week-old, chow fed <italic>WT</italic> and <italic>UKO</italic> male mice were isolated by perfusing the liver <italic>in situ</italic> with 1&#xA0;mg/ml collagenase <italic>via</italic> the portal vein [<xref rid="bib30" ref-type="bibr">30</xref>,<xref rid="bib42" ref-type="bibr">42</xref>]. Hepatocytes, counted and plated onto collagen coated 24-well plates (100,000 cells/well), were washed with PBS, and incubated with DMEM without glucose, glutamine, pyruvate, and phenol red. After 2&#xA0;h, the media was replaced with basal DMEM with glucagon (100&#xA0;ng/ml) and sodium pyruvate (5&#xA0;mM) for 3&#xA0;h. Thereafter, media was collected, and glucose concentration was assessed with a kit. Glucose levels are expressed as &#x3BC;g glucose/mg cell protein/h.</p>
+      </sec>
+      <sec id="sec2.12">
+        <label>2.12</label>
+        <title>Fatty acid oxidation and glycerolipid synthesis in hepatocytes</title>
+        <p id="p0130">Fatty acid oxidation in <italic>WT</italic> and <italic>UKO</italic> primary hepatocytes was measured by the production of [<sup>3</sup>H]<sub>2</sub>O from [<sup>3</sup>H]-palmitate [<xref rid="bib43" ref-type="bibr">43</xref>]. Briefly, PBS-washed primary hepatocytes (5&#xA0;&#xD7;&#xA0;10<sup>5</sup> cells/well in a 12-well plate) were incubated with 200&#xA0;&#x3BC;l of PBS containing [<sup>3</sup>H]-palmitate (10&#xA0;&#x3BC;Ci, bound to fatty acid free albumin - 125&#xA0;&#x3BC;M, palmitate:albumin 2:1 with carnitine - 100&#xA0;&#x3BC;M) for 2&#xA0;h. Afterwards, the media was collected and 200&#xA0;&#x3BC;l of cold 10% trichloroacetic acid was added. After centrifugation, the supernatant (350&#xA0;&#x3BC;l) was mixed with freshly prepared NaOH (6&#xA0;M&#x2212;55&#xA0;&#x3BC;l), loaded onto an ion-exchange resin column (DOWEX-400) and washed with 1.7&#xA0;ml of water. The eluate was counted in a liquid scintillation counter. Counts were normalized by the protein content per well and expressed as fold change.</p>
+        <p id="p0135">After removal of media for quantifying fatty acid oxidation, cell lysates were collected, resuspended in PBS (200&#xA0;&#x3BC;l), and lipids were extracted as described [<xref rid="bib37" ref-type="bibr">37</xref>]. Aliquots of the organic fraction dissolved in CHCl<sub>3</sub>/CH<sub>3</sub>OH (2/1: vol/vol) were applied to thin layer chromatography (TLC) with standards for TAG and DAG (TLC: solvent - Hexane: Diethyl ether: Acetic acid &#x2013; 80:20:1 vol/vol). After 30&#xA0;min, bands containing TAG and DAG were scraped from the TLC plate into scintillation vials and radioactivity was counted [<xref rid="bib44" ref-type="bibr">44</xref>]. Counts were normalized to the cellular protein content and expressed as fold change.</p>
+      </sec>
+      <sec id="sec2.13">
+        <label>2.13</label>
+        <title>Hepatic fatty acid uptake assay</title>
+        <p id="p0140">Hepatocytes (2.5&#xA0;&#xD7;&#xA0;10<sup>5</sup> cells/well) were serum starved for 2&#xA0;h, washed with Krebs Ringer buffer (KRB with 0.1% BSA) and incubated in KRB containing a radioactive mix ([<sup>3</sup>H]-oleic acid - 2&#xA0;&#x3BC;Ci/ml, oleate - 100&#xA0;&#x3BC;M and BSA - 200&#xA0;&#x3BC;M) for indicated time periods. Afterwards, cells were washed with KRB (+0.5% BSA) and 0.1&#xA0;M NaOH (1&#xA0;ml) was added. After 30&#xA0;min, radioactivity of the cell suspension (800&#xA0;&#x3BC;l) was counted and normalized with total protein. Data was presented as fold change, considering the average change in <italic>WT</italic>-5 min as 1 [<xref rid="bib45" ref-type="bibr">45</xref>].</p>
+      </sec>
+      <sec id="sec2.14">
+        <label>2.14</label>
+        <title>Mitochondrial oxygen consumption rate (OCR) in brown adipocytes</title>
+        <p id="p0145">Stromal vascular fractions (SVF), isolated from the brown adipose tissue (BAT) of 8-week-old mice, were cultured in DMEM/F12 containing FBS (10%) and penicillin/streptomycin and were differentiated to adipocytes using media containing insulin (5&#xA0;&#x3BC;g/ml), indomethacin (125&#xA0;&#x3BC;M), dexamethasone (2&#xA0;&#x3BC;g/ml), 3-isobutyl-1-methylxanthine (0.5&#xA0;mM), rosiglitazone (0.5&#xA0;&#x3BC;M), and 3,3&#x2032;,5-triiodo-<sc>l</sc>-thyronine (T3, 1&#xA0;nM). After 2 days, the media was replaced with a media containing insulin and T3, which was replaced every 2 days until full differentiation [<xref rid="bib32" ref-type="bibr">32</xref>]. OCR was measured in mature adipocytes in a Seahorse Extracellular Flux Analyzer in an XF assay medium supplemented with pyruvate (5&#xA0;mM) and glucose (2.5&#xA0;mM). After baseline measurements, 3 sequential injections were applied to the wells: oligomycin (complex V inhibitor, 1&#xA0;&#x3BC;g/ml), FCCP (uncoupler, 1&#xA0;&#x3BC;M), and antimycin A (complex III inhibitor, 0.8&#xA0;&#x3BC;M) combined with rotenone (complex I inhibitor, 3&#xA0;&#x3BC;M) [<xref rid="bib32" ref-type="bibr">32</xref>].</p>
+      </sec>
+      <sec id="sec2.15">
+        <label>2.15</label>
+        <title>Insulin signaling studies in mice, hepatocytes, and adipocytes</title>
+        <p id="p0150">Overnight (16&#xA0;h)fasted <italic>WT</italic> and <italic>UKO</italic> mice were injected once with human insulin (2U/kg BW, i.p.) or PBS. After 15&#xA0;min, mice were euthanized, and tissues were collected for immunoblot and immunoprecipitation studies. To test insulin signaling in primary cells, primary hepatocytes and SVF from BAT were isolated as described previously [<xref rid="bib30" ref-type="bibr">30</xref>,<xref rid="bib32" ref-type="bibr">32</xref>]. SVF was differentiated to adipocytes <italic>in&#xA0;vitro</italic> following previously published methods [<xref rid="bib32" ref-type="bibr">32</xref>]. Six hour-serum-starved hepatocytes and 16&#xA0;h-serum-starved BAT-adipocytes were treated with insulin (10&#xA0;nM) for indicated time periods, after which cells were lysed and proteins isolated and quantified. Proteins of interest were checked by immunoblotting.</p>
+      </sec>
+      <sec id="sec2.16">
+        <label>2.16</label>
+        <title>Immunoprecipitation and immunoblotting studies</title>
+        <p id="p0155">These studies were performed following our published protocols [<xref rid="bib30" ref-type="bibr">[30]</xref>, <xref rid="bib31" ref-type="bibr">[31]</xref>, <xref rid="bib32" ref-type="bibr">[32]</xref>]. For immunoblotting studies, tissues or cells were lysed in a lysis buffer (20&#xA0;mM Tris&#x2013;HCl, pH 7.4; 150&#xA0;mM NaCl; 1% Triton with protease and phosphatase inhibitors). Equal amounts (30&#xA0;&#x3BC;g) of total protein from the lysates were loaded on a 10% SDS-PAGE and proteins of interest were detected by immunoblotting. Although antibodies, used for immunoprecipitation, are standard validated commercial antibodies, prior validation experiments were done to confirm their specificity by comparing them with IgG-control antibodies. For immunoprecipitation studies, 3&#xA0;mg of total protein from mouse liver lysates were precleared with IgG-control antibodies and Protein A/G-agarose beads. The precleared lysates were incubated with primary antibodies for 16&#xA0;h. After that, the lysates were incubated with Protein A/G-agarose beads for 2&#xA0;h. Thereafter, beads were washed (3X) with the lysis buffer, and proteins were eluted by boiling the beads with LDS buffer. Proteins were resolved by 4&#x2013;20% SDS-PAGE. Immunoprecipitated and coimmunoprecipitated proteins were determined by appropriate antibodies. To detect K63-Ub modification of Akt and APPL1, the membranes at and above the immunoprecipitated proteins were incubated with a K63-Ub antibody. Protein bands were detected in a Bio-Rad Chemidoc Imaging System. Densitometric analyses of protein bands were performed using the ImageJ software. For phosphorylation analysis, the band-intensity of the phospho-protein was normalized against total level of the same protein. For total protein analysis, the band intensity was normalized against a loading control.</p>
+      </sec>
+      <sec id="sec2.17">
+        <label>2.17</label>
+        <title>Proteomic studies</title>
+        <p id="p0160">The Ube4A-interactome from BAT was identified using our published methods [<xref rid="bib30" ref-type="bibr">30</xref>]. Briefly, protein lysates were prepared from BAT tissue of young (2-month-old), chow-fed mice. Equal (2&#xA0;mg) amounts of protein were used for immunoprecipitation (after preclearing) with Ig-control or Ig-Ube4A antibodies. Proteins co-precipitated with both antibodies were identified by LC-MS/MS and proteins that are specifically co-precipitated with Ube4A were considered as putative Ube4A interactors.</p>
+      </sec>
+      <sec id="sec2.18">
+        <label>2.18</label>
+        <title>Immunofluorescence studies</title>
+        <p id="p0165"><italic>WT</italic> and <italic>UKO</italic> fibroblasts were plated on poly-<sc>d</sc>-lysine coated coverslips placed inside a 6-well cell culture plate and grown to 80% confluency. Serum starved (16&#xA0;h) cells were treated with PBS or insulin (10&#xA0;nM) for 15&#xA0;min. The cells were rinsed in 1xPBS immediately after the treatment, fixed in 4% PFA. Fixed cells were washed 3X in PBS and blocked (1&#xA0;h) with a blocking buffer (1xPBS/5% normal goat serum/0.3% Triton X-100). Cells were then incubated (16&#xA0;h) with p-AKT-S473 antibody (1:250) at 4&#xA0;&#xB0;C. After that, cells were washed 3X in PBS and incubated (1&#xA0;h) with a secondary antibody (Alexa Fluor 488, 1:1000&#xA0;+&#xA0;DAPI 1:1000) solution in the dark at room temperature. Thereafter, cells were washed 3X in PBS, and the coverslips were mounted on slides using Prolong Gold Antifade mounting media. Images were captured in a Confocal microscope (Leica SP8 TCS STED 3X) at 63X magnification.</p>
+      </sec>
+      <sec id="sec2.19">
+        <label>2.19</label>
+        <title>Cloning of Ube4A in various expression vectors and production of adenovirus (AV)</title>
+        <p id="p0170">All clones were used after sequence confirmation. The human Ube4A cDNA clone, purchased commercially, was PCR amplified and cloned into a GST-tagged mammalian and bacterial expression vectors pCMV-GST and pGEX-6P2 using <italic>SalI-NotI</italic> restriction sites [<xref rid="bib32" ref-type="bibr">32</xref>]. Human HA-ubiquitin (Ub) [<xref rid="bib46" ref-type="bibr">46</xref>] was also cloned into the pGEX-6P2 vector. Ube4A was cloned into an adenoviral vector using the AdEasy system [<xref rid="bib47" ref-type="bibr">47</xref>]. Briefly, the Ube4A cDNA was cloned into the pShuttle-CMV plasmid [<xref rid="bib48" ref-type="bibr">48</xref>] using the XbaI-HindIII restriction sites. BJ5183-Ad-1 bacterial cells, containing the necessary adenoviral genes, were transformed with the recombinant pShuttle-CMV&#xA0;+&#xA0;Ube4A plasmid. The recombinant adenoviral plasmid was purified and transfected to HEK293-Ad cells to produce the virus.</p>
+      </sec>
+      <sec id="sec2.20">
+        <label>2.20</label>
+        <title>Adenovirus (AV)-Ube4A overexpression in <italic>UKO</italic> fibroblasts and hepatocytes</title>
+        <p id="p0175">For AV transfection in primary hepatocytes, media was replaced with fresh complete DMEM 2&#xA0;h after plating. At this time, control-AV and Ube4A-AV treatments were done (10&#xA0;&#x3BC;l AV supernatant/well in a 6 well plate). Twenty-four hours later, cells were serum starved for 16&#xA0;h and treated with insulin (10&#xA0;nM) for the indicated time. Cells were then harvested, and proteins were isolated for immunoblotting studies. For primary fibroblasts, control-AV and Ube4A-AV were treated similarly for 48&#xA0;h. After that, cells were serum starved for 16&#xA0;h. Insulin treatment and downstream processing were done following the procedure described for hepatocytes.</p>
+      </sec>
+      <sec id="sec2.21">
+        <label>2.21</label>
+        <title>Ube4A overexpression and depletion in HEK293 cells</title>
+        <p id="p0180">HEK293 cells, at 85% confluency, were transfected with GST-control and GST-Ube4A plasmid constructs in 10&#xA0;cm dishes. Cells were lysed 48&#xA0;h post-transfection, APPL1 was immunoprecipitated and proteins of interest were detected by immunoblotting. For Ube4A depletion studies, 85% confluent HEK293 cells were transfected with control siRNA or Ube4A siRNA (100&#xA0;nM each). After 16&#xA0;h, cells were co-transfected with the same amount of siRNA and 10&#xA0;&#x3BC;g of pcDNA3 flag HA human Akt1 [<xref rid="bib49" ref-type="bibr">49</xref>] plasmid. After 24&#xA0;h, cells were lysed, and HA-Akt was immunoprecipitated with a HA-antibody magnetic bead conjugate. The immunoprecipitated proteins were extracted from the beads by heating the samples at 95&#xA0;&#xB0;C with the LDS buffer and &#x3B2;-mercaptoethanol and resolved in a 4&#x2013;20% SDS-PAGE.</p>
+      </sec>
+      <sec id="sec2.22">
+        <label>2.22</label>
+        <title>Purification of recombinant full length (FL) and U-box deleted (&#x394;U-box) Ube4A and HA-ubiquitin (Ub)</title>
+        <p id="p0185">GST-tagged FL-Ube4A, &#x394;U-box-Ube4A and HA-Ub containing pGEX-6P2 plasmids were transformed separately into the <italic>E.&#xA0;coli</italic> strain BL21 (DE3). Recombinant proteins were purified by slightly modifying a published method [<xref rid="bib29" ref-type="bibr">29</xref>]. Recombinant proteins were either eluted from the beads and detached from the GST-tag using the elution buffer (50&#xA0;mM Tris pH 7.4, 150&#xA0;mM NaCl and PreScission protease) or were kept as GST-tagged proteins on the beads, depending on the requirements. Purified soluble proteins were stored at&#xA0;&#x2212;80&#xA0;&#xB0;C. Proteins on beads were kept at 4&#xA0;&#xB0;C and were used fresh in the experiments.</p>
+      </sec>
+      <sec id="sec2.23">
+        <label>2.23</label>
+        <title><italic>In&#xA0;vitro</italic> ubiquitination assay</title>
+        <p id="p0190">The reaction mixture contained recombinant proteins (Ub - 800&#xA0;ng; E1/Uba1 - 350&#xA0;ng; E2/UbcH5a [<xref rid="bib50" ref-type="bibr">50</xref>] - 500&#xA0;ng; GST-Ube4A &#x2013; 70&#xA0;ng, &#x394;U-box Ube4A &#x2013; 140&#xA0;ng, and Akt &#x2013; 300&#xA0;ng), Tris-Cl (25&#xA0;mM, pH 7.4), NaCl (50&#xA0;mM), Mg-ATP (5&#xA0;mM), and dithiothreitol (DTT &#x2013; 1&#xA0;mM). GST-Ube4A or &#x394;Ubox-Ube4A was immobilized on glutathione-agarose beads. The reaction mixture was incubated for 4&#xA0;h at 37&#xA0;&#xB0;C. After that, the mixture was separated from Ube4A/&#x394;U-box-Ube4A-beads by low centrifugation. The supernatant was carefully removed, mixed with Laemmli buffer, and set to boil at 95&#xA0;&#xB0;C for 4&#xA0;min. K63-Ub and AKT were detected by immunoblotting analysis.</p>
+      </sec>
+      <sec id="sec2.24">
+        <label>2.24</label>
+        <title>Statistics</title>
+        <p id="p0195">Exploratory experiments were used to determine sample size with ample statistical power. Animals were excluded if they showed any signs of sickness. Numbers of mice (<italic>n</italic>) used in experiments are indicated in the legends. Immunoblots were quantified using ImageJ software (NIH). Data are presented as mean&#xA0;&#xB1;&#xA0;s.e.m within dot plots. Each symbol represents an individual sample. For multiple comparisons, one-way or two-way ANOVA with Holm-&#x160;id&#xE1;k multiple comparison test and for 2 independent data sets, Two-tailed unpaired Student's <italic>t</italic>-test were used. Area under curve analysis and statistical significance was calculated in GraphPad Prism, 8.2.1.</p>
+      </sec>
+    </sec>
+    <sec id="sec3">
+      <label>3</label>
+      <title>Results</title>
+      <p id="p0200"><bold><italic>Ube4A</italic> deletion does not alter body weight but causes mild insulin resistance in young, chow-fed mice:</bold><italic>UKO</italic> mice were generated on a C57BL6J background by CRISPR/Cas9-mediated targeting of U-box and 3&#x2032;-UTR of the <italic>Ube4A</italic> locus in chromosome 9 (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>A). Genotyping and DNA sequencing confirmed deletion of the targeted locus (<xref rid="appsec1" ref-type="sec">Figs.&#xA0;S1A and B</xref>). Among metabolic tissues, Ube4A is highly expressed in the gonadal adipose tissue (GWAT) and liver in young (2-month-old), chow-fed mice (<xref rid="fig1" ref-type="fig">Figures&#xA0;1</xref>B and <xref rid="appsec1" ref-type="sec">S1C</xref>). Ube4A protein is absent in tissues from <italic>UKO</italic> mice (<xref rid="fig1" ref-type="fig">Figs.&#xA0;1</xref>B and <xref rid="appsec1" ref-type="sec">S1D</xref>). <italic>UKO</italic> mice are viable, fertile, active and do not exhibit any noticeable health concerns.<fig id="fig1"><label>Figure&#xA0;1</label><caption><p><bold><italic>Ube4A</italic> deletion does not alter body weight but causes mild insulin resistance in young, chow-fed mice</bold>.</p><p>A. CRISPR/Cas9-mediated targeting of the U-Box and part of the 3&#x2032;-UTR of the <italic>Ube4A</italic> locus in the mouse chromosome 9.</p><p>B. Expression levels of the Ube4A protein in tissues of young, chow-fed, <italic>WT</italic> and <italic>UKO</italic> mice. Figure&#xA0;represents data from N&#xA0;=&#xA0;3 mice.</p><p>C. Body weight of young, chow-fed male mice (n&#xA0;=&#xA0;13/cohort).</p><p>D. Body composition of young, chow-fed male mice (n&#xA0;=&#xA0;6/cohort).</p><p>E. Raw values of the GTT in young, chow-fed male mice (n&#xA0;=&#xA0;6/cohort).</p><p>F. Area under curve (AUC) values of the GTT (% initial) (n&#xA0;=&#xA0;6/cohort).</p><p>G. Serum insulin levels in 5&#xA0;h-fasted, young, chow-fed male mice (N&#xA0;=&#xA0;6/cohort).</p><p>H. Body weight of young, chow-fed female mice (n&#xA0;=&#xA0;8/cohort).</p><p>I. Body composition (fat, lean and fluid mass) of young, chow-fed female mice (n&#xA0;=&#xA0;5/cohort).</p><p>J. Raw values of the GTT in young, chow-fed female mice (n&#xA0;=&#xA0;6&#x2013;10/cohort).</p><p>K. AUC values of the GTT (% initial) in young, chow-fed female mice (n&#xA0;=&#xA0;6&#x2013;10/cohort).</p><p>L. Serum insulin levels in 5&#xA0;h-fasted young, chow-fed female mice (N&#xA0;=&#xA0;6/cohort).</p></caption><alt-text id="alttext0045">Figure&#xA0;1</alt-text><graphic xlink:href="gr1"/></fig></p>
+      <p id="p0205">Young, chow-fed male <italic>WT</italic> and <italic>UKO</italic> mice exhibit similar body weights and composition (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>C,D). Fasting (16&#xA0;h) blood glucose levels are also similar in both genotypes (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S1E</xref>, time 0). However, the clearance of injected glucose (glucose tolerance test, GTT) is slightly slower in male <italic>UKO</italic> mice (<xref rid="fig1" ref-type="fig">Figures. 1</xref>E,F and <xref rid="appsec1" ref-type="sec">S1E</xref>). Conversely, serum insulin levels are significantly higher in the <italic>UKO</italic> mice (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>G).</p>
+      <p id="p0210">Characterization of young, chow-fed female mice obtained similar results. In general, body weight of female mice are slightly lower than male mice although no genotype specific differences in body weight or composition are observed in females ((<xref rid="fig1" ref-type="fig">Figure&#xA0;1,H,I</xref>). However, like males, female <italic>UKO</italic> mice also exhibit slightly diminished uptake of exogenous glucose (GTT) despite the presence of higher levels of insulin in their serum (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>J-L and <xref rid="appsec1" ref-type="sec">S1F</xref>). These results suggest that <italic>Ube4A</italic> deletion causes mild hyperinsulinemia and insulin resistance in both sexes of young, chow-fed mice.</p>
+      <p id="p0215"><bold><italic>Ube4A</italic> deletion augments HFD-induced obesity and insulin resistance in male mice:</bold> Mild hyperinsulinemia and modest reduction in glucose uptake was observed in young, chow-fed <italic>UKO</italic> mice, which prompted us to test whether HFD feeding aggravates these traits in the knockouts. To examine this, male <italic>WT</italic> and <italic>UKO</italic> mice were fed a HFD (60% kcals from fat) for 10 weeks [<xref rid="bib31" ref-type="bibr">31</xref>,<xref rid="bib32" ref-type="bibr">32</xref>]. Interestingly, HFD-fed <italic>UKO</italic> mice gain body weight faster than the <italic>WT</italic> littermates (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>A&#x2013;C). HFD feeding augments increase in total and percent (of total body mass) fat mass in <italic>UKO</italic> mice compared to <italic>WT</italic> mice (<xref rid="fig2" ref-type="fig">Figures&#xA0;2</xref>D and <xref rid="appsec1" ref-type="sec">S2A</xref>). Total lean mass is increased in <italic>UKO</italic> mice, although the percentage lean mass is similar in both genotypes (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>D,E). Fluid mass, a minor component of the total body mass, is slightly higher in the knockouts (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>D,E). Thus, male <italic>UKO</italic> mice are prone to HFD-induced weight gain primarily due to increased fat mass.<fig id="fig2"><label>Figure&#xA0;2</label><caption><p><bold><italic>Ube4A</italic> deletion augments HFD-induced obesity and insulin resistance in male mice</bold>.</p><p>A-B. Weekly body weight and weight gain of HFD-fed male mice (n&#xA0;=&#xA0;13/cohort).</p><p>C. Representative image of HFD-fed male mice after conclusion of the study.</p><p>D-E. Total and percent (over total body weight) body composition of HFD-fed male mice (N&#xA0;=&#xA0;6/cohort).</p><p>F. Raw values of the GTT in HFD-fed male mice (n&#xA0;=&#xA0;9/cohort). GTT was performed in 4-week-HFD-fed mice.</p><p>E. AUC values of the rate (percent of 0 time point) of decrease in blood glucose levels in a GTT in HFD-fed male mice (n&#xA0;=&#xA0;9/cohort).</p><p>G. Serum insulin levels in 5&#xA0;h-fasted male mice after 10-week of HFD feeding (n&#xA0;=&#xA0;6/cohort).</p><p>H. Rate (percent of 0 time point) of decrease in blood glucose levels in an insulin tolerance test (ITT) in HFD-fed male mice (n&#xA0;=&#xA0;8/cohort). ITT was performed in 6-week-HFD-fed mice.</p><p>I. AUC values of the ITT presented in <xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>H (n&#xA0;=&#xA0;9/cohort).</p><p>sJ. Rate (percent of 0 time point) of increase in blood glucose levels in a glucagon tolerance test (GgTT) in HFD-fed male mice (n&#xA0;=&#xA0;9/cohort). GgTT was performed in 8-week-HFD-fed mice.</p><p>K. AUC values of the GgTT presented in <xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>J (n&#xA0;=&#xA0;9/cohort).</p><p>L-N. Serum levels of TAG, NEFA and total cholesterol in HFD-fed male mice.</p><p>The number of mice (n) used are presented as individual datapoints. Mean&#xA0;&#xB1;&#xA0;s.e.m. shown within dot plots. For multiple comparisons, two-way ANOVA with Holm-&#x160;id&#xE1;k multiple comparison test and for two independent data sets, Two-tailed unpaired Student's t-test. &#x2217;P&#xA0;&lt;&#xA0;0.05, &#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.01, &#x2217;&#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.001, &#x2217;&#x2217;&#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.0001.</p></caption><alt-text id="alttext0050">Figure&#xA0;2</alt-text><graphic xlink:href="gr2"/></fig></p>
+      <p id="p0220">Next, we tracked the progression of hyperglycemia in HFD-fed mice. HFD feeding exacerbates glucose intolerance in <italic>UKO</italic> mice (<xref rid="fig2" ref-type="fig">Figures&#xA0;2</xref>F,G and <xref rid="appsec1" ref-type="sec">S2A,B</xref>, assessed on the 4th week of HFD). Serum insulin levels (measured in 10-week-HFD-fed mice after euthanasia) were substantially higher in <italic>UKO</italic> mice (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>H). Moreover, exogenous insulin treatment (insulin tolerance test, ITT, performed on the 6th week of HFD) reduces blood glucose concentrations much less efficiently in HFD-fed <italic>UKO</italic> mice (1.5%) compared to <italic>WT</italic> controls (20%) (<xref rid="fig2" ref-type="fig">Figures&#xA0;2</xref>I,J and <xref rid="appsec1" ref-type="sec">S2C</xref>). The injected concentrations of glucose and insulin in GTT and ITT were normalized to body weight of mice. Thus, it is conceivable that part of the observed changes in GTT could arise due to administration of more glucose in the HFD-fed knockout cohorts [<xref rid="bib51" ref-type="bibr">51</xref>]. However, hyperinsulinemia or even higher concentration of injected insulin (normalized to body weight) in ITT failed to decrease blood glucose levels in HFD-fed <italic>UKO</italic> mice. Furthermore, chow-fed <italic>UKO</italic> mice, despite receiving the same concentration of glucose as <italic>WT</italic> mice, exhibit impaired glucose uptake (<xref rid="fig1" ref-type="fig">Figure&#xA0;1</xref>E,J). These results together suggest that insulin sensitivity is impaired in <italic>UKO</italic> mice.</p>
+      <p id="p0225">Conversely, HFD-fed <italic>UKO</italic> mice are hypersensitive to glucagon-induced hepatic glucose production, evidenced by augmented increase in blood glucose levels in the knockouts following glucagon injection (glucagon tolerance test, GgTT, evaluated on the 8th week of HFD) (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>K,L and S2D). Accordingly, glucose production is increased in hepatocytes isolated from chow-fed, young, <italic>UKO</italic> mice, suggesting Ube4A regulates glucagon signaling in a cell autonomous manner (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S2E</xref>). HFD-induced increases in serum levels of other metabolites such as TAG and NEFA are higher in male <italic>UKO</italic> mice whereas cholesterol levels are similar in both genotypes (<xref rid="fig2" ref-type="fig">Figure&#xA0;2</xref>M&#x2212;O). HFD feeding upregulates <italic>Ube4A</italic> expression in GWAT and liver (<xref rid="appsec1" ref-type="sec">Figs.&#xA0;S2F and G</xref>), indicating that Ube4A may be having a protective role in the early stage of obesity and insulin resistance.</p>
+      <p id="p0230"><bold><italic>Ube4A</italic> deletion exacerbates HFD-induced hepatic steatosis and liver injury in male mice due to increased fatty acid uptake, lipogenesis, and lipid droplet stabilization:</bold> Due to high expression of Ube4A in metabolic tissues, especially in liver and adipose tissue, these tissues were thoroughly characterized in HFD-fed male <italic>UKO</italic> mice after euthanasia (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>, <xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>). Ten weeks of HFD feeding caused hepatomegaly to a greater extent in <italic>UKO</italic> mice compared to <italic>WT</italic> mice (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>A,B). HFD feeding for 10&#x2013;12 weeks has been shown to cause only mild hepatomegaly in male <italic>WT</italic> mice [<xref rid="bib52" ref-type="bibr">52</xref>,<xref rid="bib53" ref-type="bibr">53</xref>], which is in line with our observation (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>A,B). Liver triglyceride levels are higher in <italic>UKO</italic> compared to <italic>WT</italic> mice (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>C). Histology and NAFLD feature scoring detected substantially more macro- and micro-steatosis, hepatocyte hypertrophy, and inflammatory foci in <italic>UKO</italic> livers compared to <italic>WT</italic> controls (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>D,E). Untargeted lipidomic analyses showed that multiple glycerolipid species of intrahepatic TAG and DAG (diacylglycerol) are increased in <italic>UKO</italic> livers (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>F,G and <xref rid="appsec1" ref-type="sec">Table&#xA0;S1</xref>). Serum levels of the liver injury markers, aspartate, and alanine aminotransferase (AST and ALT) are also higher in male <italic>UKO</italic> mice (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>H).<fig id="fig3"><label>Figure&#xA0;3</label><caption><p><bold><italic>Ube4A</italic> deletion exacerbates HFD-induced hepatic steatosis and liver injury in male mice with increased fatty acid uptake, lipogenesis, and lipid droplet stabilization</bold>.</p><p>A. Weight of liver in HFD-fed male mice (N&#xA0;=&#xA0;8/cohort).</p><p>B. Representative image of liver of HFD-fed male mice.</p><p>C. Liver triglyceride (TAG) levels in HFD-fed male mice (N&#xA0;=&#xA0;4/cohort).</p><p>D. Representative images of liver histology in HFD-fed male mice. Images were taken at 4X (left panel, scale bar: 250&#xA0;&#x3BC;m) and 40X (right panel, scale bar: 25&#xA0;&#x3BC;m) magnifications.</p><p>E. Average values of NAFLD feature scores in HFD-fed male mouse livers (N&#xA0;=&#xA0;5/cohort).</p><p>F. Volcano plot from the lipidomics study in HFD-fed male mouse livers (N&#xA0;=&#xA0;5/cohort).</p><p>G. Species of TAG and DAG in HFD-fed male WT and <italic>UKO</italic> livers (N&#xA0;=&#xA0;5/cohort).</p><p>H. Serum levels of AST and ALT in HFD-fed male mice (N&#xA0;=&#xA0;8/cohort).</p><p>I&#x2013;N. Relative mRNA expression of lipogenic genes and transcription factors in HFD-fed male mice (N&#xA0;=&#xA0;6/cohort).</p><p>O. Uptake of [<sup>3</sup>H]-oleate in hepatocytes under basal conditions (N&#xA0;=&#xA0;4, experimental replicates from N&#xA0;=&#xA0;3 male mice/cohort).</p><p>P. Incorporation of [<sup>3</sup>H]-palmitate into TAG in hepatocytes (N&#xA0;=&#xA0;12 experimental replicates from N&#xA0;=&#xA0;4 male mice/cohort).</p><p>Q-R. Inflammatory and fibrogenic gene expression in HFD-fed male mice (N&#xA0;=&#xA0;6/cohort).</p><p>S-T. Representative images (20X, scale bar: 100&#xA0;&#x3BC;M) of Sirius-Red staining in HFD-fed mouse livers. For quantification, the mean value of <italic>WT</italic> was set as 1 (n&#xA0;=&#xA0;5/cohort).</p><p>The number of mice (n) are presented as individual datapoints. Mean&#xA0;&#xB1;&#xA0;s.e.m. shown within dot plots. For multiple comparisons, two-way ANOVA with Holm-&#x160;id&#xE1;k multiple comparison test and for two independent data sets, Two-tailed unpaired Student's t-test. &#x2217;P&#xA0;&lt;&#xA0;0.05, &#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.01, &#x2217;&#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.001, &#x2217;&#x2217;&#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.0001.</p></caption><alt-text id="alttext0055">Figure&#xA0;3</alt-text><graphic xlink:href="gr3"/></fig><fig id="fig4"><label>Figure&#xA0;4</label><caption><p><bold>HFD-fed male <italic>UKO</italic> mice exhibit increased adipose tissue metabolic dysfunction</bold>.</p><p>A. Representative histological images (20X, scale bar: 100&#xA0;&#x3BC;m) of GWAT of HFD-fed mice. Arrows indicate crown-like structures.</p><p>B. Relative mRNA levels of M1 and M2 macrophage markers in the GWAT of HFD-fed male mice (N&#xA0;=&#xA0;6/cohort).</p><p>C. Serum AdipoQ levels in HFD-fed male mice (N&#xA0;=&#xA0;6/cohort). Serum samples were denatured and run on a denatured SDS-PAGE to detect monomeric AdipoQ.</p><p>D. Representative histological images (20X, scale bar: 100&#xA0;&#x3BC;m) of HFD-fed mouse BAT.</p><p>E. Relative mRNA expression of the thermogenic machinery in the BAT of HFD-fed male mice (N&#xA0;=&#xA0;5&#x2013;6/cohort).</p><p>F. Levels of UCP1 protein in the BAT of HFD-fed male mice (N&#xA0;=&#xA0;6&#x2013;7/cohort).</p><p>G. EE (whole mouse) in HFD-fed mice (N&#xA0;=&#xA0;6/cohort).</p><p>H. EE (normalized by lean mass) in HFD-fed mice (N&#xA0;=&#xA0;6/cohort).</p><p>I. RER in HFD-fed mice (N&#xA0;=&#xA0;6/cohort).</p><p>J-K. Average daytime and nighttime activity in chow- and HFD-fed mice (N&#xA0;=&#xA0;6&#x2013;7/cohort).</p><p>L. Average daily caloric intake in chow- and HFD-fed mice (N&#xA0;=&#xA0;6&#x2013;7/cohort).</p><p>The number of mice (n) used are presented as individual datapoints. Mean&#xA0;&#xB1;&#xA0;s.e.m. shown within dot plots. For multiple comparisons, two-way ANOVA with Holm-&#x160;id&#xE1;k multiple comparison test and for two independent data sets, Two-tailed unpaired Student's t-test. &#x2217;P&#xA0;&lt;&#xA0;0.05, &#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.01, &#x2217;&#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.001, &#x2217;&#x2217;&#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.0001.</p></caption><alt-text id="alttext0060">Figure&#xA0;4</alt-text><graphic xlink:href="gr4"/></fig></p>
+      <p id="p0235">Ube4A, through its E3 ubiquitin ligase activity, may alter stability and activity of transcription factors, which could change the expression of metabolic and other genes. Thus, to determine the pathways that are altered in the HFD-fed liver by <italic>Ube4A</italic> deletion, RNA-Seq and confirmatory qRT-PCR studies were performed. Genes involved in lipid metabolism and injury are altered in HFD-fed male <italic>UKO</italic> livers (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S3A</xref> and <xref rid="appsec1" ref-type="sec">Tables&#xA0;S2 and 3</xref>). qRT-PCR experiments confirmed that genes involved in lipid uptake (e.g., <italic>Cd36</italic>), lipid storage (e.g., <italic>Cidea, Plin2 and Plin3</italic>) and lipogenesis <italic>(</italic>e.g., <italic>Acaca, Acly, Fasn, Agpat1, Dgat1</italic> and <italic>Mogat1 and 2)</italic> pathways and the lipogenic transcription factors (e.g., <italic>Ppar&#x3B3;</italic> and <italic>ChREBP</italic>) are upregulated in the knockout livers (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>I-N). Consequently, <italic>UKO</italic> hepatocytes take up fatty acids and incorporate them into TAG more efficiently than <italic>WT</italic> hepatocytes <italic>in&#xA0;vitro</italic> (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>O,P). Although genes encoding the mitochondrial energy oxidation pathway are generally downregulated (e.g., <italic>Cox7a2L</italic> and <italic>Atp5L</italic>) in the livers of HFD-fed knockouts, Ube4A does not appear to regulate fatty acid oxidation in hepatocytes <italic>in&#xA0;vitro</italic> (<xref rid="appsec1" ref-type="sec">Figs.&#xA0;S3B and C</xref> and <xref rid="appsec1" ref-type="sec">Tables&#xA0;S2 and 3</xref>).</p>
+      <p id="p0240">Chronic intrahepatic fat accumulation is associated with inflammation in NAFLD [<xref rid="bib1" ref-type="bibr">1</xref>,<xref rid="bib3" ref-type="bibr">3</xref>]. The inflammatory genes (e.g., <italic>Cd11c and TNF&#x3B1;</italic>) and pathways are upregulated in HFD-fed <italic>UKO</italic> livers (<xref rid="fig3" ref-type="fig">Figures&#xA0;3</xref>Q and <xref rid="appsec1" ref-type="sec">S3A</xref> and <xref rid="appsec1" ref-type="sec">Tables&#xA0;S2 and 3</xref>). TNF&#x3B1; is upregulated at the protein levels in the <italic>UKO</italic> livers, evidenced by increased expression of its transmembrane form (<xref rid="appsec1" ref-type="sec">Figs.&#xA0;S3D and E</xref>). Besides generating the soluble, secretory form of TNF&#x3B1;, the transmembrane form can directly promote inflammatory responses by functioning as a ligand of the TNF&#x3B1; receptor of adjacent cells [<xref rid="bib54" ref-type="bibr">54</xref>]. Expression of the macrophage marker <italic>F4/80</italic> is largely similar in the liver of both genotypes (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S3F</xref>). Perhaps immune cells other than macrophages such as neutrophils, T cells, B cells and dendritic cells, also known to accumulate in NAFLD livers [<xref rid="bib55" ref-type="bibr">55</xref>], contribute to the inflammation observed in the <italic>UKO</italic> livers. Moreover, substantial upregulation of genes and pathways involved in hepatic stellate cell activation and fibrogenesis (e.g., <italic>Col1a1</italic>, <italic>Col3a1</italic>, <italic>Spp1</italic>, <italic>Acta2</italic>, <italic>Timp1</italic> and <italic>Timp3</italic>) are observed in <italic>UKO</italic> livers (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>R, <xref rid="appsec1" ref-type="sec">Fig.&#xA0;S3A</xref> and <xref rid="appsec1" ref-type="sec">Tables&#xA0;S2 and 3</xref>). Accordingly, &#x223C;40% of <italic>UKO</italic> mice show moderate fibrosis (<xref rid="fig3" ref-type="fig">Figure&#xA0;3</xref>S,T). Thus, <italic>Ube4A</italic> deletion exacerbates HFD-induced hepatic steatosis and liver injury in mice.</p>
+      <p id="p0245"><bold>HFD-fed male <italic>UKO</italic> mice exhibit increased adipose tissue metabolic dysfunction:</bold> Whole-body <italic>Ube4A</italic> deletion aggravates metabolic dysfunction in adipose tissue. The GWAT of HFD-fed <italic>UKO</italic> mice accumulates more crown-like structures (indicative of inflammatory macrophage accumulation) and exhibit increased expression of total (<italic>F4/80</italic>) and pro-inflammatory macrophage (<italic>Cd11c, Tnf&#x3B1;</italic>) markers (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>A,B). In contrast, expression of the anti-inflammatory and insulin-sensitizing macrophage marker <italic>Cd163</italic> is reduced in the knockouts (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>B). Levels of the insulin-sensitizing adipokine, adiponectin (AdipoQ), are also substantially diminished in serum and GWAT of <italic>UKO</italic> mice (<xref rid="fig4" ref-type="fig">Figures&#xA0;4</xref>C and <xref rid="appsec1" ref-type="sec">S4A-C</xref>). BAT depots of HFD-fed <italic>UKO</italic> mice accumulate more fat and express reduced levels of genes that promote energy expenditure (EE) and thermogenesis including the uncoupling protein 1 (UCP1) (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>D&#x2013;F and <xref rid="appsec1" ref-type="sec">Fig.&#xA0;S4D</xref>). However, <italic>WT</italic> and <italic>UKO</italic> BAT-adipocytes (differentiated <italic>in&#xA0;vitro</italic> from stromal vascular fractions - SVF) exhibit similar OCR profiles, indicating Ube4A may not directly influence energy metabolism in healthy BAT-adipocytes in a cell autonomous manner under the tested conditions (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S4E</xref>).</p>
+      <p id="p0250">To test whether dysfunction of metabolic tissues alters energy expenditure (EE) in <italic>UKO</italic> mice, CLAMS studies were conducted in chow- and HFD-fed animals. Raw (whole mouse) values of oxygen consumption (VO<sub>2</sub>) and EE are similar in young, chow-fed <italic>WT</italic> and <italic>UKO</italic> male mice (<xref rid="appsec1" ref-type="sec">Figs.&#xA0;S4F&#x2013;H</xref>). The conclusion is same even when these values were normalized to lean mass, the largest contributor of EE (<xref rid="appsec1" ref-type="sec">Figs.&#xA0;S4I&#x2013;K</xref>). Respiratory exchange ratio (RER) is marginally lower in young, chow-fed <italic>UKO</italic> mice (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S4L</xref>). HFD-fed <italic>WT</italic> and <italic>UKO</italic> mice also exhibit similar raw (whole mouse) values of VO<sub>2</sub> and EE (<xref rid="fig4" ref-type="fig">Figures&#xA0;4</xref>G and <xref rid="appsec1" ref-type="sec">S4M,N</xref>). However, in this case, lean mass-normalized values of VO<sub>2</sub> and EE are significantly lower in <italic>UKO</italic> mice (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>H and <xref rid="appsec1" ref-type="sec">Fig.&#xA0;S4O</xref>,P). HFD-fed <italic>UKO</italic> mice exhibit slightly higher nighttime RER (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>I). Metabolic dysfunction in HFD-fed <italic>UKO</italic> mice may also arise from reduced locomotor activity as HFD feeding reduces activity in <italic>UKO</italic> but not in <italic>WT</italic> mice, especially during nighttime (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>J,K). Total energy intake is similar in young, chow-fed <italic>WT</italic> and <italic>UKO</italic> mice (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>L - chow). Raw values of total energy intake are slightly increased in HFD-fed knockouts, although it is slightly lower in the knockouts when normalized to total body weight (<xref rid="fig4" ref-type="fig">Figure&#xA0;4</xref>L - HFD and <xref rid="appsec1" ref-type="sec">Fig.&#xA0;S4Q</xref>). Thus, HFD-fed male <italic>UKO</italic> mice exhibit increased adipose tissue dysfunction, and reduced energy disposal and activity<italic>.</italic></p>
+      <p id="p0255"><bold>In female <italic>UKO</italic> mice, HFD feeding aggravates obesity, insulin resistance, hepatic steatosis, and liver injury:</bold> The current understanding of sex differences in obesity and NAFLD/NASH is insufficient and most mouse studies are conducted in male mice due to a markedly attenuated dysmetabolic phenotype in female mice fed a HFD. Therefore, we tested whether <italic>Ube4A</italic> deletion impacts HFD-induced metabolic parameters in female mice. Generally, HFD-fed WT C57BL6/J female mice exhibit milder insulin resistance and NAFLD compared to male mice. For example, the initial rate of HFD-induced weight gain (up to 4 weeks) in male mice was found to be faster than female mice [<xref rid="bib31" ref-type="bibr">31</xref>]. Moreover, 16 weeks of high fat and high fructose containing diet induced hyperinsulinemia, insulin resistance, hepatic TAG accumulation and liver injury to a higher extent in male mice compared to female mice [<xref rid="bib56" ref-type="bibr">56</xref>]. We observed that 8-week-HFD-fed female and 4-week-HFD-fed male <italic>WT</italic> mice exhibit similar glucose tolerance profiles, indicating that HFD-fed female mice take longer time to become insulin resistant compared to male mice (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S5A</xref>, male-data is from <xref rid="appsec1" ref-type="sec">Fig.&#xA0;S2B</xref>). Thus, to induce a full spectrum of metabolic dysfunction in female mice, we fed the HFD to female mice for 16 weeks.</p>
+      <p id="p0260">HFD-induced gain in body weight is greater in the female knockouts due to increased (total and percent) fat mass (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>A&#x2013;C and <xref rid="appsec1" ref-type="sec">Figs.&#xA0;S5B and C</xref>). Although total lean mass is increased, percent lean mass is decreased in HFD-fed female <italic>UKO</italic> mice. Total but not percent fluid mass is increased in female <italic>UKO</italic> mice (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>A&#x2013;C and <xref rid="appsec1" ref-type="sec">Figs.&#xA0;S5B and C</xref>). Thus, increased fat but not lean or fluid mass corresponds to increased body weight in female knockouts. HFD caused hyperinsulinemia and insulin resistance to a greater extent in female <italic>UKO</italic> mice than <italic>WT</italic> mice. Serum insulin concentration is increased in HFD-fed female <italic>UKO</italic> mice (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>D). Moreover, HFD-fed female knockouts exhibit reduced clearance of blood glucose in GTT and ITT (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>E&#x2013;H and <xref rid="appsec1" ref-type="sec">Figs.&#xA0;S5D and E</xref>). Serum levels of TAG and cholesterol are significantly higher in female <italic>UKO</italic> mice, and NEFA is mildly increased in the knockouts in this condition (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>I&#x2013;K).<fig id="fig5"><label>Figure&#xA0;5</label><caption><p><bold>In female <italic>UKO</italic> mice, HFD feeding aggravates obesity, insulin resistance, hepatic steatosis, and liver injury</bold>.</p><p>A. Weekly body weight in female mice (n&#xA0;=&#xA0;8/cohort).</p><p>B. Representative image of HFD-fed mice.</p><p>C. Percent body composition of mice after 16 weeks of HFD-feeding (n&#xA0;=&#xA0;6/cohort).</p><p>D. Serum insulin levels in 5&#xA0;h-fasted mice after 16 weeks of HFD-feeding (n&#xA0;=&#xA0;6/cohort).</p><p>E. Raw values of the GTT in HFD-fed mice (n&#xA0;=&#xA0;8/cohort). GTT was performed in 12-week-HFD-fed mice.</p><p>F. AUC values of the GTT (% initial) in HFD-fed mice (n&#xA0;=&#xA0;8/cohort).</p><p>G. Rate (percent of 0 time point) of decrease in blood glucose levels in an ITT in HFD-fed mice (n&#xA0;=&#xA0;6/cohort). ITT was performed in 14-week-HFD-fed mice.</p><p>H. AUC values of the ITT presented in <xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>G (n&#xA0;=&#xA0;6/cohort).</p><p>I&#x2013;K. Serum levels of TAG, NEFA and total cholesterol and in HFD-fed mice (n&#xA0;=&#xA0;5/cohort).</p><p>L. Weight of liver in HFD-fed mice (n&#xA0;=&#xA0;6/cohort).</p><p>M. Representative images of liver histology from HFD-fed mice. Images were taken at 4X (left panel, scale bar: 250&#xA0;&#x3BC;m) and 40X (right panel, scale bar: 25&#xA0;&#x3BC;m) magnifications.</p><p>N. Average values of NAFLD feature scores in HFD-fed mouse livers (N&#xA0;=&#xA0;5/cohort).</p><p>O. Species of TAG in HFD-fed mouse livers (N&#xA0;=&#xA0;5/cohort).</p><p>P-Q. Representative images (20X, scale bar: 100&#xA0;&#x3BC;M) of Sirius-Red staining in HFD-fed mouse livers. For quantification, the mean value of <italic>WT</italic> was set as 1 (n&#xA0;=&#xA0;5/cohort).</p><p>R. Serum levels of AST and ALT in HFD-fed mice (N&#xA0;=&#xA0;8/cohort).</p><p>The number of mice (n) used are presented as individual datapoints. Mean&#xA0;&#xB1;&#xA0;s.e.m. shown within dot plots. For multiple comparisons, two-way ANOVA with Holm-&#x160;id&#xE1;k multiple comparison test and for two independent data sets, Two-tailed unpaired Student's t-test. &#x2217;P&#xA0;&lt;&#xA0;0.05, &#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.01, &#x2217;&#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.001, &#x2217;&#x2217;&#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.0001.</p></caption><alt-text id="alttext0065">Figure&#xA0;5</alt-text><graphic xlink:href="gr5"/></fig></p>
+      <p id="p0265">HFD feeding leads to robust hepatomegaly and steatosis in female <italic>UKO</italic> but not in <italic>WT</italic> mice (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>L,M). NAFLD feature scoring showed that macro- and micro-steatosis, hepatocyte hypertrophy, and the inflammatory foci are substantially increased in female <italic>UKO</italic> livers (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>N). Untargeted lipidomics revealed increased levels of TAG species in the female <italic>UKO</italic> livers (<xref rid="fig5" ref-type="fig">Figures&#xA0;5</xref>O and <xref rid="appsec1" ref-type="sec">S5F</xref> and <xref rid="appsec1" ref-type="sec">Table&#xA0;S4</xref>). Surprisingly, some species of DAG and phosphatidyserine (PS) are decreased in female <italic>UKO</italic> livers (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S5G</xref>). As was observed in males, hepatic collagen content is mildly increased in female <italic>UKO</italic> livers (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>P,Q). Increased serum levels of AST and ALT in female <italic>UKO</italic> mice suggest that HFD feeding caused liver injury in the knockouts to a greater extent than <italic>WT</italic> mice (<xref rid="fig5" ref-type="fig">Figure&#xA0;5</xref>R). <italic>Ube4A</italic> deletion also enhances lipid accumulation in various adipose tissue depots of female mice (<xref rid="appsec1" ref-type="sec">Figs.&#xA0;S5H&#x2013;J</xref>). Thus, HFD feeding aggravates obesity, insulin resistance, hepatic steatosis, and liver injury in female <italic>UKO</italic> mice.</p>
+      <p id="p0270"><bold>Ube4A mediates insulin signaling <italic>via</italic> K63-Ub of Akt and APPL1:</bold> The above results establish that Ube4A maintains metabolic homeostasis and insulin sensitivity presumably by ubiquitinating multiple proteins in key metabolic pathways. Here, we focused on the insulin signaling pathway as deletion of <italic>Ube4A</italic> impairs this process even in young, chow-fed mice. Insulin enhances glucose uptake and reduces gluconeogenesis and the protein kinase Akt is a major effector in this pathway [<xref rid="bib31" ref-type="bibr">31</xref>]. Insulin activates Akt <italic>via</italic> its membrane translocation and subsequent phosphorylation at threonine 308 (T308) and serine 473 (S473) by phosphoinositide-dependent kinase (PDK1) and mammalian target of rapamycin complex 2 (mTORC2), although the S473 phosphorylation can be partially insulin-independent [<xref rid="bib57" ref-type="bibr">57</xref>,<xref rid="bib58" ref-type="bibr">58</xref>]. Stimulatory phosphorylation of Akt (S473) is diminished in liver and adipose tissue of HFD-fed knockouts (<xref rid="fig6" ref-type="fig">Figures&#xA0;6</xref>A&#x2013;B and <xref rid="appsec1" ref-type="sec">S6A,B</xref>). Acute insulin treatment enhances Akt phosphorylation (S473 and T308) in the liver of young, chow-fed <italic>WT</italic> but to a much lower level in <italic>UKO</italic> mice (<xref rid="fig6" ref-type="fig">Figure&#xA0;6</xref>C&#x2013;E). Insulin-induced augmentation of phosphorylation of the Akt targets FOXO1 (Forkhead Box O1, regulates gluconeogenesis) and AS160 (Akt substrate of 160&#xA0;kDa, regulates glucose uptake) are also diminished in the insulin-treated <italic>UKO</italic> liver (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S6C</xref>). Furthermore, insulin-induced Akt phosphorylation is impaired in <italic>UKO</italic> primary hepatocytes and fibroblasts <italic>in&#xA0;vitro</italic> (<xref rid="fig6" ref-type="fig">Figure&#xA0;6</xref>F&#x2013;I). Immunofluorescence studies further indicated that insulin-induced S473 phosphorylation of membrane- and cytosol-Akt are decreased in <italic>UKO</italic> fibroblasts (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S6D</xref>). Conversely, adenovirus (AV)-mediated overexpression of Ube4A restores insulin-induced Akt phosphorylation in fibroblasts and hepatocytes (<xref rid="fig6" ref-type="fig">Figure&#xA0;6</xref>J,K).<fig id="fig6"><label>Figure&#xA0;6</label><caption><p><bold>Ube4A mediates insulin signaling <italic>via</italic> K63-Ub of Akt and APPL1</bold>.</p><p>A-B. Stimulatory phosphorylation (S473) of Akt in the liver of HFD-fed mice (N&#xA0;=&#xA0;4/cohort).</p><p>C-E. Acute insulin-induced stimulatory phosphorylation of Akt (S473 and T308) in the liver of young, chow-fed mice. Quantification of 3 independent experiments is shown.</p><p>F-G. Acute insulin-induced stimulatory phosphorylation of Akt (S473 and T308) in hepatocytes <italic>in&#xA0;vitro</italic>. Quantification of 3 independent experiments is shown.</p><p>H&#x2013;I. Acute insulin-induced stimulatory phosphorylation of Akt (S473 and T308) in primary fibroblasts <italic>in&#xA0;vitro</italic>. Quantification of 3 independent experiments is shown.</p><p>J-K. Effects of adenovirus (AV)-mediated overexpression of Ube4A on acute insulin-induced stimulatory phosphorylation of Akt (S473 and T308) in primary fibroblasts and hepatocytes. In fibroblasts, the Akt-T308 antibody detected a non-specific band at a lower molecular weight, which did not respond to insulin.</p><p>L-M. K63-Ub of Akt in the liver of untreated and acute insulin-treated young, chow-fed mice. Data represents 3 independent experiments.</p><p>N. Ube4A (FL)-mediated K63-Ub of Akt <italic>in&#xA0;vitro</italic>. Ube4A-&#x394;U-box was used as a negative control. Data represents at least 3 independent experiments.</p><p>O. Top panel: LC-MS/MS-based identification of the exclusive unique spectrum counts of immunoprecipitated Ube4A and co-immunoprecipitated APPL1 from the BAT of young, chow-fed <italic>WT</italic> mice. Ig-control samples did not show any spectrum. Bottom panel: LC-MS/MS-based identification of the APPL1 peptides in the above experiment.</p><p>P-Q. Acute insulin-induced K63-Ub of APPL1 and APPL1-Akt binding in the liver of <italic>UKO</italic> mice. K63-Ub was detected in immunoprecipitated APPL1. Co-precipitated Akt was detected by immunoblotting in APPL1-immunoprecipitated samples. Data represents 3 independent experiments.</p><p>Each figure represents the conclusion from at least three independent experiments. Mean&#xA0;&#xB1;&#xA0;s.e.m. shown within dot plots. For multiple comparisons, two-way ANOVA with Holm-&#x160;id&#xE1;k multiple comparison test and for 2 independent data sets, Two-tailed unpaired Student's t-test. &#x2217;P&#xA0;&lt;&#xA0;0.05, &#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.01, &#x2217;&#x2217;&#x2217;P&#xA0;&lt;&#xA0;0.001.</p></caption><alt-text id="alttext0070">Figure&#xA0;6</alt-text><graphic xlink:href="gr6"/></fig></p>
+      <p id="p0275">We next sought to determine the mechanisms by which Ube4A facilitates Akt activation. Insulin and other growth factors stimulate various E3 ubiquitin ligases that modify Akt <italic>via</italic> K63-Ub, which facilitates its membrane translocation, phosphorylation, and activation [<xref rid="bib59" ref-type="bibr">59</xref>,<xref rid="bib60" ref-type="bibr">60</xref>]. Ube4A is known to regulate function of proteins <italic>via</italic> K63-Ub [<xref rid="bib29" ref-type="bibr">29</xref>]. Therefore, we hypothesized that Ube4A activates Akt <italic>via</italic> K63-Ub modification of this kinase. Insulin stimulates K63-Ub modification of Akt in the liver of young, chow-fed, <italic>WT</italic> mice (<xref rid="fig6" ref-type="fig">Figure&#xA0;6</xref>L). However, this modification is decreased in the liver of insulin-treated <italic>UKO</italic> littermates (<xref rid="fig6" ref-type="fig">Figure&#xA0;6</xref>L,M). Moreover, <italic>Ube4A</italic> depletion (siRNA) reduces K63-Ub of overexpressed (HA-Akt) in HEK293 cells under basal conditions (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S6E</xref>). Furthermore, bacterially purified full length, active (FL) Ube4A but not the catalytically inactive enzyme (&#x394;U-box) K63-ubiquitinates recombinant Akt <italic>in&#xA0;vitro</italic> (<xref rid="fig6" ref-type="fig">Figures&#xA0;6</xref>N and <xref rid="appsec1" ref-type="sec">S6F</xref>).</p>
+      <p id="p0280">Signaling and proteomic studies in BAT from young, chow-fed mice provided additional mechanistic insights into this process. Like liver and hepatocytes, insulin-induced Akt activation is severely impaired in BAT tissues of <italic>UKO</italic> mice <italic>in&#xA0;vivo</italic> and <italic>UKO</italic> BAT-SVF-adipocytes <italic>in&#xA0;vitro</italic> (Figure, S6G-I). To detect the Ube4A-interacome <italic>in&#xA0;vivo</italic>, proteins immunoprecipitated from BAT lysates with the Ube4A antibody and a control antibody were detected by liquid chromatography-tandem mass spectrometry (LC-MS/MS). The Ube4A-interactome (proteins that were co-precipitated with the Ube4A antibody but not with the control antibody) contains several proteins that regulate cell metabolism and signaling. The APPL1 (adaptor protein phosphotyrosine interacting with PH-domain and leucine zipper 1) protein, which enhances insulin/Akt and adiponectin signaling [<xref rid="bib61" ref-type="bibr">61</xref>,<xref rid="bib62" ref-type="bibr">62</xref>], was among the top hits (<xref rid="fig6" ref-type="fig">Figure&#xA0;6</xref>O). Insulin-induced Akt activation requires K63-Ub modification of APPL1, which increases its binding with Akt, leading to membrane translocation, phosphorylation, and activation of the kinase [<xref rid="bib61" ref-type="bibr">61</xref>,<xref rid="bib63" ref-type="bibr">63</xref>]. Therefore, we assessed K63-Ub modification of APPL1 in the <italic>UKO</italic> liver tissue. Insulin enhances K63-Ub of APPL1 and its binding with Akt in the liver of young, chow-fed <italic>WT</italic> but these processes are substantially hampered in <italic>UKO</italic> mice (<xref rid="fig6" ref-type="fig">Figure&#xA0;6</xref>P,Q). Conversely, overexpression of GST-Ube4A increases these endogenous processes in HEK293 cells under basal conditions (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S6J</xref>). These results strongly suggest that Ube4A is a bona fide E3 ubiquitin ligase of both Akt and APPL1, which K63-ubiquitinates these proteins upon insulin treatment, leading to the activation of Akt to promote insulin signaling.</p>
+    </sec>
+    <sec id="sec4">
+      <label>4</label>
+      <title>Discussion</title>
+      <p id="p0285">We discovered that the U-box domain containing E3 ubiquitin ligase Ube4A is a novel regulator of metabolism and insulin signaling. Whole-body <italic>Ube4A</italic> deletion does not alter body weight but causes mild hyperinsulinemia and impairment in glucose uptake in young, chow-fed mice. HFD feeding aggravates insulin resistance in the knockouts and the HFD-fed <italic>UKO</italic> mice also exhibit increased obesity, adipocyte dysfunction, hepatic steatosis, and liver injury (<xref rid="fig7" ref-type="fig">Figure&#xA0;7</xref>A). Thus, <italic>UKO</italic> mice could be used as a model to rapidly develop obesity, insulin resistance and NAFLD. Removal of <italic>Ube4A</italic> reduces insulin signaling in metabolic tissues and cells of young, chow-fed mice, indicating that metabolic dysfunction in <italic>UKO</italic> mice is caused at least partly by augmented insulin resistance. Mechanistically, Ube4A mediates K63-Ub modification of Akt and APPL1, promotes insulin-induced Akt activation whereas <italic>Ube4A</italic> deletion reduces K63-Ub modification of these proteins, leading to insulin resistance (<xref rid="fig7" ref-type="fig">Figure&#xA0;7</xref>B).<fig id="fig7"><label>Figure&#xA0;7</label><caption><p><bold>Ube4A maintains metabolic homeostasis by mediating insulin signaling</bold>.</p><p>A. Whole-body <italic>Ube4A</italic> deletion causes mild hyperinsulinemia and moderate impairment in glucose uptake in young, chow-fed mice. Moreover, HFD feeding develops severe insulin resistance in the knockouts. HFD-fed <italic>UKO</italic> mice also exhibit increased obesity, adipocyte dysfunction, hepatic steatosis, and liver injury.</p><p>B. In <italic>WT</italic> conditions, Ube4A mediates K63-Ub of Akt and APPL1, leading to Akt activation and insulin-induced metabolic effects. In <italic>UKO</italic> mice, K63-Ub of these proteins is disrupted, affecting insulin signaling and metabolism. Solid and open arrows indicate fully and partially active processes, respectively.</p></caption><alt-text id="alttext0075">Figure&#xA0;7</alt-text><graphic xlink:href="gr7"/></fig></p>
+      <p id="p0290">Ube4A is ubiquitously expressed in mice with its highest expression in the liver [<xref rid="bib19" ref-type="bibr">19</xref>]. Both previous and current studies identified minimal expression of Ube4A in the mouse skeletal muscle, whereas in fetal humans, Ube4A is highly expressed in this tissue [<xref rid="bib20" ref-type="bibr">20</xref>]. Ube4A is also expressed in the brain [<xref rid="bib19" ref-type="bibr">19</xref>,<xref rid="bib20" ref-type="bibr">20</xref>] (and this study). Thus, our study is in line with previous studies with additional information on Ube4A's expression in adipose tissue and pancreas. Based on the tissue expression profiles of Ube4A, the broad range of the observed phenotypes such as hyperinsulinemia, adipose tissue metabolic dysfunction, inflammation, activation of hepatic fibrogenic pathways, mild hyperphagia and reduced activity in HFD-fed <italic>UKO</italic> mice suggest that Ube4A may directly regulate functions of key metabolic tissues. Future studies will determine the effects of cell-specific <italic>Ube4A</italic> deletion on obesity, insulin resistance and NAFLD. For example, impact of hepatocyte-specific <italic>Ube4A</italic> deletion on NAFLD/NASH, adipocyte-specific <italic>Ube4A</italic> deletion on adipokine secretion and cold or &#x3B2;3 adrenergic receptor mediated thermogenesis with indirect effects on liver injury and pancreatic endocrine cell-specific deletion of <italic>Ube4A</italic> on insulin and/or glucagon secretion and signaling will be explored.</p>
+      <p id="p0295">Both sexes of HFD-fed <italic>UKO</italic> mice exhibit substantially increased metabolic dysfunction and liver injury, although a few notable sex-specific differences were also observed. For example, decreased liver concentrations of some species of DAG and phosphatidyserine (PS) species and increased serum levels of cholesterol were observed specifically in female <italic>UKO</italic> mice. Lipid species, stereoisomers, or subcellular compartmentalization of DAGs exert distinct metabolic functions [<xref rid="bib64" ref-type="bibr">64</xref>,<xref rid="bib65" ref-type="bibr">65</xref>]. PS, an abundant membrane lipid, is essential for cell growth and survival while exofacial membrane-PS facilitates clearing of apoptotic cells [<xref rid="bib66" ref-type="bibr">66</xref>]. PS, synthesized in the endoplasmic reticulum (ER), is transferred to mitochondria [<xref rid="bib66" ref-type="bibr">66</xref>]. Interestingly, deficient transfer of PS between these organelles induces ER stress, NASH, and liver cancer in mice [<xref rid="bib67" ref-type="bibr">67</xref>]. Thus, decreased PS may hamper clearing of apoptotic hepatocytes, induce ER stress, and aggravate liver injury in the female <italic>UKO</italic> mice [<xref rid="bib66" ref-type="bibr">66</xref>]. Sex-specific differences in serum cholesterol may arise due to alterations in cholesterol synthesis, uptake, and/or lipoprotein metabolism in male and female <italic>UKO</italic> mice. A thorough comparison of all the metabolic parameters in both sexes of <italic>WT</italic> and <italic>UKO</italic> mice, fed chow, HFD or other forms of unhealthy diets (high fat, high fructose, high cholesterol etc.) for the same duration, is necessary to obtain direct comprehensive knowledge about sex-specific metabolic functions of Ube4A.</p>
+      <p id="p0300">Akt regulates growth and metabolism <italic>via</italic> multiple mechanisms [<xref rid="bib68" ref-type="bibr">68</xref>]. Akt-mediated hepatocyte survival reduces liver injury [<xref rid="bib69" ref-type="bibr">69</xref>]. Moreover, it regulates brown fat organogenesis and thermogenesis <italic>via</italic> isoform- and cell specific-mechanisms [<xref rid="bib70" ref-type="bibr">70</xref>,<xref rid="bib71" ref-type="bibr">71</xref>]. APPL1 also has pleiotropic effects on metabolism [<xref rid="bib72" ref-type="bibr">72</xref>]. APPL1's interaction with the adiponectin receptor mediates adiponectin signaling, which is crucial for metabolic health [<xref rid="bib62" ref-type="bibr">62</xref>]. Adiponectin expression and secretion are severely diminished in HFD-fed <italic>UKO</italic> mice (this study). Therefore, impaired Akt and APPL1 activities may cause metabolic dysfunction <italic>via</italic> other mechanisms in addition to impacting insulin signaling. Whether K63-Ub regulates Akt's survival functions and APPL1-mediated adiponectin signaling in metabolic tissues will be assessed in future studies.</p>
+      <p id="p0305">Further studies are required to obtain additional insights on the molecular mechanisms by which Ube4A regulates metabolism. The E3 ligases TRAF6 and SKP2-SCF mediate K63-Ub modification of Akt and/or APPL1 [<xref rid="bib59" ref-type="bibr">59</xref>,<xref rid="bib60" ref-type="bibr">60</xref>,<xref rid="bib63" ref-type="bibr">63</xref>]. Ube4A can function as an E4 ligase to increase the length of ubiquitin chains on proteins, initiated by other E3 ligases [<xref rid="bib29" ref-type="bibr">29</xref>]. Therefore, Ube4A may independently polyubiquitinate APPL1 and Akt <italic>in&#xA0;vivo</italic> and/or it may polyubiquitinate these proteins following their ubiquitination by TRAF6 and SKP2-SCF. Moreover, K63-Ub activates TRAF6 [<xref rid="bib73" ref-type="bibr">73</xref>]. Thus, Ube4A may also activate Akt <italic>via</italic> this mechanism. Ube4A is localized in cytosol and nucleus [<xref rid="bib20" ref-type="bibr">20</xref>,<xref rid="bib29" ref-type="bibr">29</xref>], but it's <italic>in&#xA0;vivo</italic> targets in these compartments are unknown. We observed alterations in energy metabolic, inflammatory and fibrogenic genes in the <italic>UKO</italic> liver, suggesting that Ube4A may regulate relevant transcription factors <italic>via</italic> ubiquitination. Ube4A-interacting transcription factors and regulators, identified by the LC-MS/MS studies, will be validated to obtain further insights into its mechanism of actions.</p>
+      <p id="p0310">Downregulation of <italic>Ube4A</italic> is associated with human obesity and diabetes [<xref rid="bib21" ref-type="bibr">[21]</xref>, <xref rid="bib22" ref-type="bibr">[22]</xref>, <xref rid="bib23" ref-type="bibr">[23]</xref>], which may be consistent with our observation that deletion of <italic>Ube4A</italic> in mice promotes obesity and insulin resistance, especially when fed a HFD. We also observed that <italic>Ube4A</italic> is upregulated in 10-week-HFD-fed mice. Whether preventing Ube4A downregulation or increasing its expression might prevent or delay progression of metabolic disease still needs to be established. In pre-clinical mouse studies, levels of mRNA do not always correlate with protein expression, and protein levels often do not always correspond to functional consequences. Thus, future studies will be directed at determining activity, post-translational modifications, localization, and protein interactions of Ube4A in multiple tissues from patients with various stages of NAFLD and other diseases as well as healthy control subjects to obtain a more comprehensive understanding of the role of this novel protein in metabolism and metabolic diseases.</p>
+    </sec>
+    <sec id="sec5">
+      <label>5</label>
+      <title>Conclusions</title>
+      <p id="p0315">This study revealed that Ube4A protects mice from developing obesity, insulin resistance and NAFLD and determined the mechanism by which it contributes to normal insulin signaling. Thus, preventing the loss of Ube4A activity may prevent or reverse metabolic diseases.</p>
+    </sec>
+    <sec id="sec6">
+      <title>Author contributions</title>
+      <p id="p0320">A.C. conceived, outlined, and directed the project, and provided critical inputs throughout the study; M.C. generated <italic>UKO</italic> mice from chimeras and maintained mouse colonies; S.M., M.C. and E.N.M. performed majority of the experiments; J.H., M.J.J., H.L.C., K.P., B.U., A.J.L., D.C., and K.S.M. also performed experiments; K.S.M. shared reagents; A.C., S.M., M.C., E.N.M. and J.H. analyzed majority of the data; J.Z. analyzed RNA-Seq data; B.N-T., B.U. and D.C. analyzed and quantified liver histology data; D.A.F. directed the lipidomics study and analyzed the data; B.N.F., S.M. and A.J.L. analyzed lipid uptake, lipid oxidation and lipogenesis data; A.C. prepared final figures and wrote the manuscript. All the authors provided critical comments and approved the manuscript prior to submission. A.C. finalized the manuscript and submitted it to the journal.</p>
+    </sec>
+    <sec sec-type="COI-statement">
+      <title>Declaration of competing interest</title>
+      <p id="p0240u">B.T. has been an advisor or consultant for Alimentiv, Allergan, Allysta, Alnylam, Amgen, Arrowhead, Axcella, Boehringer Ingelheim, BMS, Coherus, Cymabay, Enanta, Fortress, Genfit, Gilead, High Tide, HistoIndex, Innovo, Intercept, Ionis, LG Chem, Lipocine, Madrigal, Medimmune, Merck, Mirum, NGM, NovoNordisk, Novus Therapeutics, pHPharma, Sagimet, Target RWE, 89Bio; he has stock options in HepGene; he has institutional research grants from Allergan, BMS, Cirius, Enanta, Genfit, Gilead, Intercept, Madrigal, NGM. B.N.F is a shareholder and a member of the Scientific Advisory Board for Cirius Therapeutics. The other authors do not have any conflict of interest.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list id="cebib0010">
+      <title>References</title>
+      <ref id="bib1">
+        <label>1</label>
+        <element-citation publication-type="journal" id="sref1">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chakravarthy</surname>
+              <given-names>M.V.</given-names>
+            </name>
+            <name>
+              <surname>Neuschwander-Tetri</surname>
+              <given-names>B.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The metabolic basis of nonalcoholic steatohepatitis</article-title>
+          <source>Endocrinol Diabetes Metab</source>
+          <volume>3</volume>
+          <year>2020</year>
+          <object-id pub-id-type="publisher-id">e00112</object-id>
+          <pub-id pub-id-type="doi">10.1002/edm2.112</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib2">
+        <label>2</label>
+        <element-citation publication-type="journal" id="sref2">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loomba</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Friedman</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Shulman</surname>
+              <given-names>G.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms and disease consequences of nonalcoholic fatty liver disease</article-title>
+          <source>Cell</source>
+          <volume>184</volume>
+          <year>2021</year>
+          <fpage>2537</fpage>
+          <lpage>2564</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2021.04.015</pub-id>
+          <pub-id pub-id-type="pmid">33989548</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib3">
+        <label>3</label>
+        <element-citation publication-type="journal" id="sref3">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Friedman</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Neuschwander-Tetri</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Rinella</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sanyal</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms of NAFLD development and therapeutic strategies</article-title>
+          <source>Nat Med</source>
+          <volume>24</volume>
+          <year>2018</year>
+          <fpage>908</fpage>
+          <lpage>922</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41591-018-0104-9</pub-id>
+          <pub-id pub-id-type="pmid">29967350</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib4">
+        <label>4</label>
+        <element-citation publication-type="journal" id="sref4">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kusminski</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Bickel</surname>
+              <given-names>P.E.</given-names>
+            </name>
+            <name>
+              <surname>Scherer</surname>
+              <given-names>P.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeting adipose tissue in the treatment of obesity-associated diabetes</article-title>
+          <source>Nat Rev Drug Discov</source>
+          <volume>15</volume>
+          <year>2016</year>
+          <fpage>639</fpage>
+          <lpage>660</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrd.2016.75</pub-id>
+          <pub-id pub-id-type="pmid">27256476</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib5">
+        <label>5</label>
+        <element-citation publication-type="journal" id="sref5">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brown</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Goldstein</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Selective versus total insulin resistance: a pathogenic paradox</article-title>
+          <source>Cell Metabol</source>
+          <volume>7</volume>
+          <year>2008</year>
+          <fpage>95</fpage>
+          <lpage>96</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2007.12.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib6">
+        <label>6</label>
+        <element-citation publication-type="journal" id="sref6">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vatner</surname>
+              <given-names>D.F.</given-names>
+            </name>
+            <name>
+              <surname>Majumdar</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Kumashiro</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Petersen</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Rahimi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gattu</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Insulin-independent regulation of hepatic triglyceride synthesis by fatty acids</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>112</volume>
+          <year>2015</year>
+          <fpage>1143</fpage>
+          <lpage>1148</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1423952112</pub-id>
+          <pub-id pub-id-type="pmid">25564660</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib7">
+        <label>7</label>
+        <element-citation publication-type="journal" id="sref7">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fuchs</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sanyal</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lipotoxicity in NASH</article-title>
+          <source>J&#xA0;Hepatol</source>
+          <volume>56</volume>
+          <year>2012</year>
+          <fpage>291</fpage>
+          <lpage>293</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhep.2011.05.019</pub-id>
+          <pub-id pub-id-type="pmid">21741924</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib8">
+        <label>8</label>
+        <element-citation publication-type="journal" id="sref8">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Popovic</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vucic</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Dikic</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ubiquitination in disease pathogenesis and treatment</article-title>
+          <source>Nat Med</source>
+          <volume>20</volume>
+          <year>2014</year>
+          <fpage>1242</fpage>
+          <lpage>1253</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm.3739</pub-id>
+          <pub-id pub-id-type="pmid">25375928</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib9">
+        <label>9</label>
+        <element-citation publication-type="journal" id="sref9">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Chao</surname>
+              <given-names>J.I.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>K63-linked ubiquitination in kinase activation and cancer</article-title>
+          <source>Front Oncol</source>
+          <volume>2</volume>
+          <year>2012</year>
+          <fpage>5</fpage>
+          <pub-id pub-id-type="doi">10.3389/fonc.2012.00005</pub-id>
+          <pub-id pub-id-type="pmid">22649774</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib10">
+        <label>10</label>
+        <element-citation publication-type="journal" id="sref10">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Rape</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The ubiquitin code</article-title>
+          <source>Annu Rev Biochem</source>
+          <volume>81</volume>
+          <year>2012</year>
+          <fpage>203</fpage>
+          <lpage>229</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-biochem-060310-170328</pub-id>
+          <pub-id pub-id-type="pmid">22524316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib11">
+        <label>11</label>
+        <element-citation publication-type="journal" id="sref11">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berndsen</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Wolberger</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>New insights into ubiquitin E3 ligase mechanism</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <volume>21</volume>
+          <year>2014</year>
+          <fpage>301</fpage>
+          <lpage>307</lpage>
+          <pub-id pub-id-type="doi">10.1038/nsmb.2780</pub-id>
+          <pub-id pub-id-type="pmid">24699078</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib12">
+        <label>12</label>
+        <element-citation publication-type="journal" id="sref12">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Patterson</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>A&#xA0;new gun in town: the U box is a ubiquitin ligase domain</article-title>
+          <source>Sci STKE 2002</source>
+          <year>2002</year>
+          <fpage>pe4</fpage>
+          <pub-id pub-id-type="doi">10.1126/stke.2002.116.pe4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib13">
+        <label>13</label>
+        <element-citation publication-type="journal" id="sref13">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trenner</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Monaghan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Saeed</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Quint</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Shabek</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Trujillo</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evolution and functions of plant U-box proteins: from protein quality control to signaling</article-title>
+          <source>Annu Rev Plant Biol</source>
+          <volume>73</volume>
+          <year>2022</year>
+          <fpage>93</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-arplant-102720-012310</pub-id>
+          <pub-id pub-id-type="pmid">35226816</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib14">
+        <label>14</label>
+        <element-citation publication-type="journal" id="sref14">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paul</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>M.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>A&#xA0;CHIPotle in physiology and disease</article-title>
+          <source>Int J Biochem Cell Biol</source>
+          <volume>58</volume>
+          <year>2015</year>
+          <fpage>37</fpage>
+          <lpage>52</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocel.2014.10.027</pub-id>
+          <pub-id pub-id-type="pmid">25448416</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib15">
+        <label>15</label>
+        <element-citation publication-type="journal" id="sref15">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Idrissou</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mar&#xE9;chal</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The PRP19 ubiquitin ligase, standing at the cross-roads of mRNA processing and genome stability</article-title>
+          <source>Cancers</source>
+          <volume>14</volume>
+          <year>2022</year>
+          <pub-id pub-id-type="doi">10.3390/cancers14040878</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib16">
+        <label>16</label>
+        <element-citation publication-type="journal" id="sref16">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Antoniou</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Lagopati</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Balourdas</surname>
+              <given-names>D.I.</given-names>
+            </name>
+            <name>
+              <surname>Nikolaou</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Papalampros</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vasileiou</surname>
+              <given-names>P.V.S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The role of E3, E4 ubiquitin ligase (UBE4B) in human pathologies</article-title>
+          <source>Cancers</source>
+          <volume>12</volume>
+          <year>2019</year>
+          <pub-id pub-id-type="doi">10.3390/cancers12010062</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib17">
+        <label>17</label>
+        <element-citation publication-type="journal" id="sref17">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaneko-Oshikawa</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yoshikawa</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Matsumoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yada</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mammalian E4 is required for cardiac development and maintenance of the nervous system</article-title>
+          <source>Mol Cell Biol</source>
+          <volume>25</volume>
+          <year>2005</year>
+          <fpage>10953</fpage>
+          <lpage>10964</lpage>
+          <pub-id pub-id-type="doi">10.1128/mcb.25.24.10953-10964.2005</pub-id>
+          <pub-id pub-id-type="pmid">16314518</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib18">
+        <label>18</label>
+        <element-citation publication-type="journal" id="sref18">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Susaki</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kaneko-Oshikawa</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Miyata</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tabata</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Oike</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Increased E4 activity in mice leads to ubiquitin-containing aggregates and degeneration of hypothalamic neurons resulting in obesity</article-title>
+          <source>J&#xA0;Biol Chem</source>
+          <volume>285</volume>
+          <year>2010</year>
+          <fpage>15538</fpage>
+          <lpage>15547</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.105841</pub-id>
+          <pub-id pub-id-type="pmid">20190229</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib19">
+        <label>19</label>
+        <element-citation publication-type="journal" id="sref19">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hatakeyama</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yada</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Matsumoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ishida</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Nakayama</surname>
+              <given-names>K.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>U&#xA0;box proteins as a new family of ubiquitin-protein ligases</article-title>
+          <source>J&#xA0;Biol Chem</source>
+          <volume>276</volume>
+          <year>2001</year>
+          <fpage>33111</fpage>
+          <lpage>33120</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M102755200</pub-id>
+          <pub-id pub-id-type="pmid">11435423</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib20">
+        <label>20</label>
+        <element-citation publication-type="journal" id="sref20">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Contino</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Amati</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pucci</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pontieri</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Pichiorri</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Novelli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Expression analysis of the gene encoding for the U-box-type ubiquitin ligase UBE4A in human tissues</article-title>
+          <source>Gene</source>
+          <volume>328</volume>
+          <year>2004</year>
+          <fpage>69</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.gene.2003.11.017</pub-id>
+          <pub-id pub-id-type="pmid">15019985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib21">
+        <label>21</label>
+        <element-citation publication-type="journal" id="sref21">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Melo</surname>
+              <given-names>U.S.</given-names>
+            </name>
+            <name>
+              <surname>Bonner</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kent Lloyd</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Moshiri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Willis</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lanoue</surname>
+              <given-names>L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Biallelic UBE4A loss-of-function variants cause intellectual disability and global developmental delay</article-title>
+          <source>Genet Med</source>
+          <volume>23</volume>
+          <year>2021</year>
+          <fpage>661</fpage>
+          <lpage>668</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41436-020-01047-z</pub-id>
+          <pub-id pub-id-type="pmid">33420346</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib22">
+        <label>22</label>
+        <element-citation publication-type="journal" id="sref22">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Garratt</surname>
+              <given-names>E.S.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Barton</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genome-wide methylation analysis identifies differentially methylated CpG loci associated with severe obesity in childhood</article-title>
+          <source>Epigenetics</source>
+          <volume>10</volume>
+          <year>2015</year>
+          <fpage>995</fpage>
+          <lpage>1005</lpage>
+          <pub-id pub-id-type="doi">10.1080/15592294.2015.1080411</pub-id>
+          <pub-id pub-id-type="pmid">26646899</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib23">
+        <label>23</label>
+        <element-citation publication-type="journal" id="sref23">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vinod</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Patankar</surname>
+              <given-names>J.V.</given-names>
+            </name>
+            <name>
+              <surname>Sachdev</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Frank</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Graier</surname>
+              <given-names>W.F.</given-names>
+            </name>
+            <name>
+              <surname>Kratky</surname>
+              <given-names>D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>MiR-206 is expressed in pancreatic islets and regulates glucokinase activity</article-title>
+          <source>Am J Physiol Endocrinol Metab</source>
+          <volume>311</volume>
+          <year>2016</year>
+          <fpage>E175</fpage>
+          <lpage>E185</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpendo.00510.2015</pub-id>
+          <pub-id pub-id-type="pmid">27221121</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib24">
+        <label>24</label>
+        <element-citation publication-type="journal" id="sref24">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sakiyama</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fujita</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tsubouchi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Autoantibodies against ubiquitination factor E4A (UBE4A) are associated with severity of Crohn's disease</article-title>
+          <source>Inflamm Bowel Dis</source>
+          <volume>14</volume>
+          <year>2008</year>
+          <fpage>310</fpage>
+          <lpage>317</lpage>
+          <pub-id pub-id-type="doi">10.1002/ibd.20328</pub-id>
+          <pub-id pub-id-type="pmid">18069675</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib25">
+        <label>25</label>
+        <element-citation publication-type="journal" id="sref25">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caren</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Holmstrand</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sjoberg</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Martinsson</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The two human homologues of yeast UFD2 ubiquitination factor, UBE4A and UBE4B, are located in common neuroblastoma deletion regions and are subject to mutations in tumours</article-title>
+          <source>Eur J Cancer</source>
+          <volume>42</volume>
+          <year>2006</year>
+          <fpage>381</fpage>
+          <lpage>387</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejca.2005.09.030</pub-id>
+          <pub-id pub-id-type="pmid">16386891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib26">
+        <label>26</label>
+        <element-citation publication-type="journal" id="sref26">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Miao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Targeting UBE4A revives viperin protein in epithelium to enhance host antiviral defense</article-title>
+          <source>Mol Cell</source>
+          <year>2019</year>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2019.11.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib27">
+        <label>27</label>
+        <element-citation publication-type="journal" id="sref27">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xie</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PTBP3 modulates P53 expression and promotes colorectal cancer cell proliferation by maintaining UBE4A mRNA stability</article-title>
+          <source>Cell Death Dis</source>
+          <volume>13</volume>
+          <year>2022</year>
+          <fpage>128</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41419-022-04564-8</pub-id>
+          <pub-id pub-id-type="pmid">35136024</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib28">
+        <label>28</label>
+        <element-citation publication-type="journal" id="sref28">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zou</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Huo</surname>
+              <given-names>X.Y.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>UBE4A catalyzes NRF1 ubiquitination and facilitates DDI2-mediated NRF1 cleavage</article-title>
+          <source>Biochim Biophys Acta Gene Regul Mech</source>
+          <volume>1866</volume>
+          <year>2023</year>
+          <object-id pub-id-type="publisher-id">194937</object-id>
+          <pub-id pub-id-type="doi">10.1016/j.bbagrm.2023.194937</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib29">
+        <label>29</label>
+        <element-citation publication-type="journal" id="sref29">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baranes-Bachar</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Levy-Barda</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Oehler</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Reid</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Soria-Bretones</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Voss</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The ubiquitin E3/E4 ligase UBE4A adjusts protein ubiquitylation and accumulation at sites of DNA damage, facilitating double-strand break repair</article-title>
+          <source>Mol Cell</source>
+          <volume>69</volume>
+          <year>2018</year>
+          <fpage>866</fpage>
+          <lpage>878.e7</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2018.02.002</pub-id>
+          <pub-id pub-id-type="pmid">29499138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib30">
+        <label>30</label>
+        <element-citation publication-type="journal" id="sref30">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mukherjee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chakraborty</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ulmasov</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>McCommis</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Carpenter</surname>
+              <given-names>D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Pleiotropic actions of IP6K1 mediate hepatic metabolic dysfunction to promote nonalcoholic fatty liver disease and steatohepatitis</article-title>
+          <source>Mol Metabol</source>
+          <volume>54</volume>
+          <year>2021</year>
+          <object-id pub-id-type="publisher-id">101364</object-id>
+          <pub-id pub-id-type="doi">10.1016/j.molmet.2021.101364</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib31">
+        <label>31</label>
+        <element-citation publication-type="journal" id="sref31">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chakraborty</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Koldobskiy</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Bello</surname>
+              <given-names>N.T.</given-names>
+            </name>
+            <name>
+              <surname>Maxwell</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Potter</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Juluri</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Inositol pyrophosphates inhibit Akt signaling, thereby regulating insulin sensitivity and weight gain</article-title>
+          <source>Cell</source>
+          <volume>143</volume>
+          <year>2010</year>
+          <fpage>897</fpage>
+          <lpage>910</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2010.11.032</pub-id>
+          <pub-id pub-id-type="pmid">21145457</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib32">
+        <label>32</label>
+        <element-citation publication-type="journal" id="sref32">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Ghoshal</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rodrigues</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Asterian</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kamenecka</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Adipocyte-specific deletion of Ip6k1 reduces diet-induced obesity by enhancing AMPK-mediated thermogenesis</article-title>
+          <source>J&#xA0;Clin Invest</source>
+          <volume>126</volume>
+          <year>2016</year>
+          <fpage>4273</fpage>
+          <lpage>4288</lpage>
+          <pub-id pub-id-type="doi">10.1172/jci85510</pub-id>
+          <pub-id pub-id-type="pmid">27701146</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib33">
+        <label>33</label>
+        <element-citation publication-type="journal" id="sref33">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sentmanat</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Peters</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Florian</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Connelly</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Pruett-Miller</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A&#xA0;survey of validation strategies for CRISPR-Cas9 editing</article-title>
+          <source>Sci Rep</source>
+          <volume>8</volume>
+          <year>2018</year>
+          <fpage>888</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-19441-8</pub-id>
+          <pub-id pub-id-type="pmid">29343825</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib34">
+        <label>34</label>
+        <element-citation publication-type="journal" id="sref34">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Modzelewski</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Willis</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Lloyd</surname>
+              <given-names>K.C.K.</given-names>
+            </name>
+            <name>
+              <surname>Wood</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient mouse genome engineering by CRISPR-EZ technology</article-title>
+          <source>Nat Protoc</source>
+          <volume>13</volume>
+          <year>2018</year>
+          <fpage>1253</fpage>
+          <lpage>1274</lpage>
+          <pub-id pub-id-type="doi">10.1038/nprot.2018.012</pub-id>
+          <pub-id pub-id-type="pmid">29748649</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib35">
+        <label>35</label>
+        <element-citation publication-type="journal" id="sref35">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Rimbert</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Palmer</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Toyohara</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>F.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>GPR146 deficiency protects against hypercholesterolemia and atherosclerosis</article-title>
+          <source>Cell</source>
+          <volume>179</volume>
+          <year>2019</year>
+          <fpage>1276</fpage>
+          <lpage>1288.e14</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2019.10.034</pub-id>
+          <pub-id pub-id-type="pmid">31778654</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib36">
+        <label>36</label>
+        <element-citation publication-type="journal" id="sref36">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Menke</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Driessen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Koek</surname>
+              <given-names>G.H.</given-names>
+            </name>
+            <name>
+              <surname>Lindeman</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Stoop</surname>
+              <given-names>R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Establishment of a general NAFLD scoring system for rodent models and comparison to human liver pathology</article-title>
+          <source>PLoS One</source>
+          <volume>9</volume>
+          <year>2014</year>
+          <object-id pub-id-type="publisher-id">e115922</object-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0115922</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib37">
+        <label>37</label>
+        <element-citation publication-type="journal" id="sref37">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bligh</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Dyer</surname>
+              <given-names>W.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A&#xA0;rapid method of total lipid extraction and purification</article-title>
+          <source>Can J Biochem Physiol</source>
+          <volume>37</volume>
+          <year>1959</year>
+          <fpage>911</fpage>
+          <lpage>917</lpage>
+          <pub-id pub-id-type="doi">10.1139/o59-099</pub-id>
+          <pub-id pub-id-type="pmid">13671378</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib38">
+        <label>38</label>
+        <element-citation publication-type="journal" id="sref38">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Contrepois</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Mahmoudi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ubhi</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Papsdorf</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hornburg</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Brunet</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cross-platform comparison of untargeted and targeted lipidomics approaches on aging mouse plasma</article-title>
+          <source>Sci Rep</source>
+          <volume>8</volume>
+          <year>2018</year>
+          <object-id pub-id-type="publisher-id">17747</object-id>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-35807-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib39">
+        <label>39</label>
+        <element-citation publication-type="journal" id="sref39">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Breitkopf</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Ricoult</surname>
+              <given-names>S.J.H.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Peake</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Manning</surname>
+              <given-names>B.D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A&#xA0;relative quantitative positive/negative ion switching method for untargeted lipidomics via high resolution LC-MS/MS from any biological source</article-title>
+          <source>Metabolomics</source>
+          <volume>13</volume>
+          <year>2017</year>
+          <pub-id pub-id-type="doi">10.1007/s11306-016-1157-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib40">
+        <label>40</label>
+        <element-citation publication-type="journal" id="sref40">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bray</surname>
+              <given-names>N.L.</given-names>
+            </name>
+            <name>
+              <surname>Pimentel</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Melsted</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Pachter</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Near-optimal probabilistic RNA-seq quantification</article-title>
+          <source>Nat Biotechnol</source>
+          <volume>34</volume>
+          <year>2016</year>
+          <fpage>525</fpage>
+          <lpage>527</lpage>
+          <pub-id pub-id-type="doi">10.1038/nbt.3519</pub-id>
+          <pub-id pub-id-type="pmid">27043002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib41">
+        <label>41</label>
+        <element-citation publication-type="journal" id="sref41">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robinson</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>McCarthy</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Smyth</surname>
+              <given-names>G.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>edgeR: a Bioconductor package for differential expression analysis of digital gene expression data</article-title>
+          <source>Bioinformatics</source>
+          <volume>26</volume>
+          <year>2010</year>
+          <fpage>139</fpage>
+          <lpage>140</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btp616</pub-id>
+          <pub-id pub-id-type="pmid">19910308</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib42">
+        <label>42</label>
+        <element-citation publication-type="journal" id="sref42">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCommis</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>McDonald</surname>
+              <given-names>W.G.</given-names>
+            </name>
+            <name>
+              <surname>Colca</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Kletzien</surname>
+              <given-names>R.F.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss of mitochondrial pyruvate Carrier 2 in the liver leads to defects in gluconeogenesis and Compensation via pyruvate-alanine cycling</article-title>
+          <source>Cell Metabol</source>
+          <volume>22</volume>
+          <year>2015</year>
+          <fpage>682</fpage>
+          <lpage>694</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2015.07.028</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib43">
+        <label>43</label>
+        <element-citation publication-type="journal" id="sref43">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Djouadi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Bonnefont</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Munnich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bastin</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of fatty acid oxidation in human muscle mitochondria and myoblasts</article-title>
+          <source>Mol Genet Metabol</source>
+          <volume>78</volume>
+          <year>2003</year>
+          <fpage>112</fpage>
+          <lpage>118</lpage>
+          <pub-id pub-id-type="doi">10.1016/s1096-7192(03)00017-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib44">
+        <label>44</label>
+        <element-citation publication-type="journal" id="sref44">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaibori</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kwon</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Oda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kamiyama</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kitamura</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Okumura</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hepatocyte growth factor stimulates synthesis of lipids and secretion of lipoproteins in rat hepatocytes</article-title>
+          <source>Hepatology</source>
+          <volume>27</volume>
+          <year>1998</year>
+          <fpage>1354</fpage>
+          <lpage>1361</lpage>
+          <pub-id pub-id-type="doi">10.1002/hep.510270523</pub-id>
+          <pub-id pub-id-type="pmid">9581691</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib45">
+        <label>45</label>
+        <element-citation publication-type="journal" id="sref45">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>El-Maghrabi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Stahl</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Abumrad</surname>
+              <given-names>N.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Opposite regulation of CD36 ubiquitination by fatty acids and insulin: effects on fatty acid uptake</article-title>
+          <source>J&#xA0;Biol Chem</source>
+          <volume>283</volume>
+          <year>2008</year>
+          <fpage>13578</fpage>
+          <lpage>13585</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M800008200</pub-id>
+          <pub-id pub-id-type="pmid">18353783</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib46">
+        <label>46</label>
+        <element-citation publication-type="journal" id="sref46">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kamitani</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kito</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>H.P.</given-names>
+            </name>
+            <name>
+              <surname>Yeh</surname>
+              <given-names>E.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of NEDD8, a developmentally down-regulated ubiquitin-like protein</article-title>
+          <source>J&#xA0;Biol Chem</source>
+          <volume>272</volume>
+          <year>1997</year>
+          <fpage>28557</fpage>
+          <lpage>28562</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.272.45.28557</pub-id>
+          <pub-id pub-id-type="pmid">9353319</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib47">
+        <label>47</label>
+        <element-citation publication-type="journal" id="sref47">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCommis</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Douglas</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Krenz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Baines</surname>
+              <given-names>C.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cardiac-specific hexokinase 2 overexpression attenuates hypertrophy by increasing pentose phosphate pathway flux</article-title>
+          <source>J&#xA0;Am Heart Assoc</source>
+          <volume>2</volume>
+          <year>2013</year>
+          <object-id pub-id-type="publisher-id">e000355</object-id>
+          <pub-id pub-id-type="doi">10.1161/jaha.113.000355</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib48">
+        <label>48</label>
+        <element-citation publication-type="journal" id="sref48">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>da Costa</surname>
+              <given-names>L.T.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kinzler</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Vogelstein</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>A&#xA0;simplified system for generating recombinant adenoviruses</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>95</volume>
+          <year>1998</year>
+          <fpage>2509</fpage>
+          <lpage>2514</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.95.5.2509</pub-id>
+          <pub-id pub-id-type="pmid">9482916</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib49">
+        <label>49</label>
+        <element-citation publication-type="journal" id="sref49">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsieh</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Bo</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Manola</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Vazquez</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Bare</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Khvorova</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A&#xA0;library of siRNA duplexes targeting the phosphoinositide 3-kinase pathway: determinants of gene silencing for use in cell-based screens</article-title>
+          <source>Nucleic Acids Res</source>
+          <volume>32</volume>
+          <year>2004</year>
+          <fpage>893</fpage>
+          <lpage>901</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkh238</pub-id>
+          <pub-id pub-id-type="pmid">14769947</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib50">
+        <label>50</label>
+        <element-citation publication-type="journal" id="sref50">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Pei</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>TRIM24 facilitates antiviral immunity through mediating K63-linked TRAF3 ubiquitination</article-title>
+          <source>J&#xA0;Exp Med</source>
+          <volume>217</volume>
+          <year>2020</year>
+          <pub-id pub-id-type="doi">10.1084/jem.20192083</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib51">
+        <label>51</label>
+        <element-citation publication-type="journal" id="sref51">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ayala</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Samuel</surname>
+              <given-names>V.T.</given-names>
+            </name>
+            <name>
+              <surname>Morton</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Obici</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Croniger</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Shulman</surname>
+              <given-names>G.I.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Standard operating procedures for describing and performing metabolic tests of glucose homeostasis in mice</article-title>
+          <source>Dis Model Mech</source>
+          <volume>3</volume>
+          <year>2010</year>
+          <fpage>525</fpage>
+          <lpage>534</lpage>
+          <pub-id pub-id-type="doi">10.1242/dmm.006239</pub-id>
+          <pub-id pub-id-type="pmid">20713647</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib52">
+        <label>52</label>
+        <element-citation publication-type="journal" id="sref52">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kieronska-Rudek</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Proniewski</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Suraj-Pra&#x17C;mowska</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Czamara</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Marczyk</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>In&#xA0;vivo magnetic resonance imaging-based detection of heterogeneous endothelial response in thoracic and abdominal aorta to short-term high-fat diet ascribed to differences in perivascular adipose tissue in mice</article-title>
+          <source>J&#xA0;Am Heart Assoc</source>
+          <volume>9</volume>
+          <year>2020</year>
+          <object-id pub-id-type="publisher-id">e016929</object-id>
+          <pub-id pub-id-type="doi">10.1161/jaha.120.016929</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib53">
+        <label>53</label>
+        <element-citation publication-type="journal" id="sref53">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hussain</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yadav</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Bose</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Daesiho-tang is an effective herbal formulation in attenuation of obesity in mice through alteration of gene expression and modulation of intestinal microbiota</article-title>
+          <source>PLoS One</source>
+          <volume>11</volume>
+          <year>2016</year>
+          <object-id pub-id-type="publisher-id">e0165483</object-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0165483</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib54">
+        <label>54</label>
+        <element-citation publication-type="journal" id="sref54">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horiuchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mitoma</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Harashima</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tsukamoto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shimoda</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transmembrane TNF-alpha: structure, function and interaction with anti-TNF agents</article-title>
+          <source>Rheumatology</source>
+          <volume>49</volume>
+          <year>2010</year>
+          <fpage>1215</fpage>
+          <lpage>1228</lpage>
+          <pub-id pub-id-type="doi">10.1093/rheumatology/keq031</pub-id>
+          <pub-id pub-id-type="pmid">20194223</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib55">
+        <label>55</label>
+        <element-citation publication-type="journal" id="sref55">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huby</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gautier</surname>
+              <given-names>E.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immune cell-mediated features of non-alcoholic steatohepatitis</article-title>
+          <source>Nat Rev Immunol</source>
+          <volume>22</volume>
+          <year>2022</year>
+          <fpage>429</fpage>
+          <lpage>443</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41577-021-00639-3</pub-id>
+          <pub-id pub-id-type="pmid">34741169</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib56">
+        <label>56</label>
+        <element-citation publication-type="journal" id="sref56">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ganz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Csak</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Szabo</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>High fat diet feeding results in gender specific steatohepatitis and inflammasome activation</article-title>
+          <source>World J Gastroenterol</source>
+          <volume>20</volume>
+          <year>2014</year>
+          <fpage>8525</fpage>
+          <lpage>8534</lpage>
+          <pub-id pub-id-type="doi">10.3748/wjg.v20.i26.8525</pub-id>
+          <pub-id pub-id-type="pmid">25024607</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib57">
+        <label>57</label>
+        <element-citation publication-type="journal" id="sref57">
+          <person-group person-group-type="author">
+            <name>
+              <surname>White</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Kahn</surname>
+              <given-names>C.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Insulin action at a molecular level - 100 years of progress</article-title>
+          <source>Mol Metabol</source>
+          <volume>52</volume>
+          <year>2021</year>
+          <object-id pub-id-type="publisher-id">101304</object-id>
+          <pub-id pub-id-type="doi">10.1016/j.molmet.2021.101304</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib58">
+        <label>58</label>
+        <element-citation publication-type="journal" id="sref58">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Petersen</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Shulman</surname>
+              <given-names>G.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms of insulin action and insulin resistance</article-title>
+          <source>Physiol Rev</source>
+          <volume>98</volume>
+          <year>2018</year>
+          <fpage>2133</fpage>
+          <lpage>2223</lpage>
+          <pub-id pub-id-type="doi">10.1152/physrev.00063.2017</pub-id>
+          <pub-id pub-id-type="pmid">30067154</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib59">
+        <label>59</label>
+        <element-citation publication-type="journal" id="sref59">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>W.L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Campos</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Lamothe</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The E3 ligase TRAF6 regulates Akt ubiquitination and activation</article-title>
+          <source>Science</source>
+          <volume>325</volume>
+          <year>2009</year>
+          <fpage>1134</fpage>
+          <lpage>1138</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1175065</pub-id>
+          <pub-id pub-id-type="pmid">19713527</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib60">
+        <label>60</label>
+        <element-citation publication-type="journal" id="sref60">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chan</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.F.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>W.L.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Skp2-SCF E3 ligase regulates Akt ubiquitination, glycolysis, herceptin sensitivity, and tumorigenesis</article-title>
+          <source>Cell</source>
+          <volume>149</volume>
+          <year>2012</year>
+          <fpage>1098</fpage>
+          <lpage>1111</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2012.02.065</pub-id>
+          <pub-id pub-id-type="pmid">22632973</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib61">
+        <label>61</label>
+        <element-citation publication-type="journal" id="sref61">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>K.K.</given-names>
+            </name>
+            <name>
+              <surname>Iglesias</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sweeney</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>APPL1 potentiates insulin-mediated inhibition of hepatic glucose production and alleviates diabetes via Akt activation in mice</article-title>
+          <source>Cell Metabol</source>
+          <volume>9</volume>
+          <year>2009</year>
+          <fpage>417</fpage>
+          <lpage>427</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2009.03.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib62">
+        <label>62</label>
+        <element-citation publication-type="journal" id="sref62">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Kikani</surname>
+              <given-names>C.K.</given-names>
+            </name>
+            <name>
+              <surname>Riojas</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Langlais</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ramos</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>APPL1 binds to adiponectin receptors and mediates adiponectin signalling and function</article-title>
+          <source>Nat Cell Biol</source>
+          <volume>8</volume>
+          <year>2006</year>
+          <fpage>516</fpage>
+          <lpage>523</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb1404</pub-id>
+          <pub-id pub-id-type="pmid">16622416</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib63">
+        <label>63</label>
+        <element-citation publication-type="journal" id="sref63">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>K.K.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>TRAF6-mediated ubiquitination of APPL1 enhances hepatic actions of insulin by promoting the membrane translocation of Akt</article-title>
+          <source>Biochem J</source>
+          <volume>455</volume>
+          <year>2013</year>
+          <fpage>207</fpage>
+          <lpage>216</lpage>
+          <pub-id pub-id-type="doi">10.1042/bj20130760</pub-id>
+          <pub-id pub-id-type="pmid">23909487</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib64">
+        <label>64</label>
+        <element-citation publication-type="journal" id="sref64">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eichmann</surname>
+              <given-names>T.O.</given-names>
+            </name>
+            <name>
+              <surname>Lass</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>DAG tales: the multiple faces of diacylglycerol--stereochemistry, metabolism, and signaling</article-title>
+          <source>Cell Mol Life Sci</source>
+          <volume>72</volume>
+          <year>2015</year>
+          <fpage>3931</fpage>
+          <lpage>3952</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-015-1982-3</pub-id>
+          <pub-id pub-id-type="pmid">26153463</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib65">
+        <label>65</label>
+        <element-citation publication-type="journal" id="sref65">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Finck</surname>
+              <given-names>B.N.</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does diacylglycerol accumulation in fatty liver disease cause hepatic insulin resistance?</article-title>
+          <source>BioMed Res Int</source>
+          <volume>2015</volume>
+          <year>2015</year>
+          <object-id pub-id-type="publisher-id">104132</object-id>
+          <pub-id pub-id-type="doi">10.1155/2015/104132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib66">
+        <label>66</label>
+        <element-citation publication-type="journal" id="sref66">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kay</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Fairn</surname>
+              <given-names>G.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distribution, dynamics and functional roles of phosphatidylserine within the cell</article-title>
+          <source>Cell Commun Signal</source>
+          <volume>17</volume>
+          <year>2019</year>
+          <fpage>126</fpage>
+          <pub-id pub-id-type="doi">10.1186/s12964-019-0438-z</pub-id>
+          <pub-id pub-id-type="pmid">31615534</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib67">
+        <label>67</label>
+        <element-citation publication-type="journal" id="sref67">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hern&#xE1;ndez-Alvarez</surname>
+              <given-names>M.I.</given-names>
+            </name>
+            <name>
+              <surname>Sebasti&#xE1;n</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vives</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ivanova</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bartoccioni</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kakimoto</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Deficient endoplasmic reticulum-mitochondrial phosphatidylserine transfer causes liver disease</article-title>
+          <source>Cell</source>
+          <volume>177</volume>
+          <year>2019</year>
+          <fpage>881</fpage>
+          <lpage>895.e17</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2019.04.010</pub-id>
+          <pub-id pub-id-type="pmid">31051106</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib68">
+        <label>68</label>
+        <element-citation publication-type="journal" id="sref68">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schultze</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Jensen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hemmings</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Tschopp</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Niessen</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Promiscuous affairs of PKB/AKT isoforms in metabolism</article-title>
+          <source>Arch Physiol Biochem</source>
+          <volume>117</volume>
+          <year>2011</year>
+          <fpage>70</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="doi">10.3109/13813455.2010.539236</pub-id>
+          <pub-id pub-id-type="pmid">21214427</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib69">
+        <label>69</label>
+        <element-citation publication-type="journal" id="sref69">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Jing</surname>
+              <given-names>Z.T.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>S.X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>W.N.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>X.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PI3K/AKT inhibitors aggravate death receptor-mediated hepatocyte apoptosis and liver injury</article-title>
+          <source>Toxicol Appl Pharmacol</source>
+          <volume>381</volume>
+          <year>2019</year>
+          <object-id pub-id-type="publisher-id">114729</object-id>
+          <pub-id pub-id-type="doi">10.1016/j.taap.2019.114729</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib70">
+        <label>70</label>
+        <element-citation publication-type="journal" id="sref70">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanchez-Gurmaches</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Martinez Calejman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Guertin</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Brown fat organogenesis and maintenance requires AKT1 and AKT2</article-title>
+          <source>Mol Metabol</source>
+          <volume>23</volume>
+          <year>2019</year>
+          <fpage>60</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molmet.2019.02.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib71">
+        <label>71</label>
+        <element-citation publication-type="journal" id="sref71">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sostre-Col&#xF3;n</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Uehara</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Garcia Whitlock</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Gavin</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Ishibashi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Potthoff</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Hepatic AKT orchestrates adipose tissue thermogenesis via FGF21-dependent and -independent mechanisms</article-title>
+          <source>Cell Rep</source>
+          <volume>35</volume>
+          <year>2021</year>
+          <object-id pub-id-type="publisher-id">109128</object-id>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2021.109128</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib72">
+        <label>72</label>
+        <element-citation publication-type="journal" id="sref72">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deepa</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>L.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>APPL1: role in adiponectin signaling and beyond</article-title>
+          <source>Am J Physiol Endocrinol Metab</source>
+          <volume>296</volume>
+          <year>2009</year>
+          <fpage>E22</fpage>
+          <lpage>E36</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpendo.90731.2008</pub-id>
+          <pub-id pub-id-type="pmid">18854421</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib73">
+        <label>73</label>
+        <element-citation publication-type="journal" id="sref73">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Talreja</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Samavati</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>K63-Linked polyubiquitination on TRAF6 regulates LPS-mediated MAPK activation, Cytokine production, and bacterial clearance in toll-like receptor 7/8 primed murine macrophages</article-title>
+          <source>Front Immunol</source>
+          <volume>9</volume>
+          <year>2018</year>
+          <fpage>279</fpage>
+          <pub-id pub-id-type="doi">10.3389/fimmu.2018.00279</pub-id>
+          <pub-id pub-id-type="pmid">29515583</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec id="appsec1" sec-type="supplementary-material">
+      <label>Appendix A</label>
+      <title>Supplementary data</title>
+      <p id="p0335">The following are the Supplementary data to this article:<supplementary-material content-type="local-data" id="mmc1"><caption><title>Multimedia component 1</title></caption><media xlink:href="mmc1.pdf"><alt-text>Multimedia component 1</alt-text></media></supplementary-material><supplementary-material content-type="local-data" id="mmc2"><caption><title>Multimedia component 2</title></caption><media xlink:href="mmc2.pdf"><alt-text>Multimedia component 2</alt-text></media></supplementary-material><supplementary-material content-type="local-data" id="mmc3"><caption><title>Multimedia component 3</title></caption><media xlink:href="mmc3.docx"><alt-text>Multimedia component 3</alt-text></media></supplementary-material><supplementary-material content-type="local-data" id="mmc4"><caption><title>Multimedia component 4</title></caption><media xlink:href="mmc4.xlsx"><alt-text>Multimedia component 4</alt-text></media></supplementary-material><supplementary-material content-type="local-data" id="mmc5"><caption><title>Multimedia component 5</title></caption><media xlink:href="mmc5.xls"><alt-text>Multimedia component 5</alt-text></media></supplementary-material><supplementary-material content-type="local-data" id="mmc6"><caption><title>Multimedia component 6</title></caption><media xlink:href="mmc6.xlsx"><alt-text>Multimedia component 6</alt-text></media></supplementary-material><supplementary-material content-type="local-data" id="mmc7"><caption><title>Multimedia component 7</title></caption><media xlink:href="mmc7.xlsx"><alt-text>Multimedia component 7</alt-text></media></supplementary-material></p>
+    </sec>
+    <sec sec-type="data-availability" id="da0010">
+      <title>Data availability</title>
+      <p id="p0035">Data will be made available on request.</p>
+    </sec>
+    <ack id="ack0010">
+      <title>Acknowledgements</title>
+      <p id="p0330">This research was funded by the <funding-source id="gs1"><institution-wrap><institution-id institution-id-type="doi">10.13039/100000002</institution-id><institution>NIH</institution></institution-wrap></funding-source> grants R01DK103746 and R01DK132162; and startup fund, <funding-source id="gs31">Liver Center Grant</funding-source>, and President Research Grant from <funding-source id="gs30">Saint Louis University (SLU)</funding-source> to Anutosh Chakraborty. It was also supported by <funding-source id="gs4"><institution-wrap><institution-id institution-id-type="doi">10.13039/100000002</institution-id><institution>NIH</institution></institution-wrap></funding-source> shared instrumentation grant S10OD025246 to David Ford and <funding-source id="gs6"><institution-wrap><institution-id institution-id-type="doi">10.13039/100011620</institution-id><institution>Saint Louis University Liver Center</institution></institution-wrap></funding-source> support for Barbara Ulmasov. Work in the Finck lab was funded by <funding-source id="gs7"><institution-wrap><institution-id institution-id-type="doi">10.13039/100000002</institution-id><institution>NIH</institution></institution-wrap></funding-source> grants R01DK117657 and R01DK104995. The Core services of the <funding-source id="gs8">Diabetes Research Center</funding-source> (P30 DK020579), <funding-source id="gs32">Digestive Diseases Research Cores Center</funding-source> (P30 DK052574), and the <funding-source id="gs33">Nutrition Obesity Research Center</funding-source> (P30 DK56341) at the <funding-source id="gs34">Washington University School of Medicine</funding-source> also supported this work. We thank the Washington University Proteomics Shared Resource (WU-PSR) (R. Reid Townsend MD. Ph.D., director). The expert technical assistance of Petra Erdmann-Gilmore, Yiling Mi, and Rose Connors is gratefully acknowledged. WU-PSR is supported in part by the <funding-source id="gs11"><institution-wrap><institution-id institution-id-type="doi">10.13039/100019793</institution-id><institution>WU</institution></institution-wrap></funding-source>
+<funding-source id="gs12"><institution-wrap><institution-id institution-id-type="doi">10.13039/100007930</institution-id><institution>Institute of Clinical and Translational Sciences</institution></institution-wrap></funding-source> (<funding-source id="gs13"><institution-wrap><institution-id institution-id-type="doi">10.13039/100006108</institution-id><institution>NCATS</institution></institution-wrap></funding-source> UL1 TR000448), the <funding-source id="gs35">Mass Spectrometry Research Resource</funding-source> (NIGMS P41 GM103422), and the Siteman <funding-source id="gs15">Comprehensive Cancer Center</funding-source> Support Grant (NCI P30 CA091842). We thank Mike White, Monica Sentmanat and other members of the Genome engineering and iPSC Center and Transgenic, Knockout and Microinjection core facilities at the Washington University in Saint Louis for generating the <italic>Ube4A-Flox</italic> and <italic>UKO</italic> mouse lines. We thank the Genome Technology Access Center (GTAC) at the McDonnell Genome Institute at Washington University in Saint Louis for the RNA-Seq studies. The Center is partially supported by <funding-source id="gs17"><institution-wrap><institution-id institution-id-type="doi">10.13039/100000054</institution-id><institution>NCI</institution></institution-wrap></funding-source>
+<funding-source id="gs18">Cancer Center</funding-source> Support Grant #P30 CA91842 to the <funding-source id="gs19"><institution-wrap><institution-id institution-id-type="doi">10.13039/100014571</institution-id><institution>Siteman Cancer Center</institution></institution-wrap></funding-source>. We also thank Dr. Nada Abumrad's lab for sharing the protocol for fatty acid uptake assay. We thank Dr. Grant Kolar and Caroline Murphy at the histology core facility for preparing the histology slides; Kathleen Donovan and colleagues from Comparative Medicine for helping with mouse maintenance; Dhruv Nagesh, Rashini Jayawardene and Ameya Padakanti for their assistance in protein purification and generating Ube4A constructs; and all members of the Department of Pharmacology and Physiology for their support. Serum levels of TAG, NEFA and cholesterol were measured at the Mouse Metabolic Phenotyping Centers (MMPC), University of Cincinnati, College of Medicine Pathology &amp; Laboratory Medicine. pCDNA-HA-Ub, pShuttle-CMV and pcDNAflag-HA-Akt1 plasmids were purchased from Addgene (Yeh, Vogelstein and Sellers labs, respectively). The schematic models (<xref rid="fig7" ref-type="fig">Figure&#xA0;7</xref>) were created with <ext-link ext-link-type="uri" xlink:href="http://Biorender.com" id="intref0010">Biorender.com</ext-link>.</p>
+    </ack>
+    <fn-group>
+      <fn id="appsec2" fn-type="supplementary-material">
+        <label>Appendix A</label>
+        <p id="p0340">Supplementary data to this article can be found online at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.molmet.2023.101767" id="intref0015">https://doi.org/10.1016/j.molmet.2023.101767</ext-link>.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,1767 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" dtd-version="1.3">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Med</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Med</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Medicine</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1078-8956</issn>
+      <issn pub-type="epub">1546-170X</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group US</publisher-name>
+        <publisher-loc>New York</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36928819</article-id>
+      <article-id pub-id-type="pmc">10033407</article-id>
+      <article-id pub-id-type="publisher-id">2211</article-id>
+      <article-id pub-id-type="doi">10.1038/s41591-023-02211-z</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Genetic association analysis of 77,539 genomes reveals rare disease etiologies</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Greene</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <collab>Genomics England Research Consortium</collab>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pirri</surname>
+            <given-names>Daniela</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Frudd</surname>
+            <given-names>Karen</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sackey</surname>
+            <given-names>Ege</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Al-Owain</surname>
+            <given-names>Mohammed</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7228-9542</contrib-id>
+          <name>
+            <surname>Giese</surname>
+            <given-names>Arnaud P. J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ramzan</surname>
+            <given-names>Khushnooda</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Riaz</surname>
+            <given-names>Sehar</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+          <xref ref-type="aff" rid="Aff9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0293-8070</contrib-id>
+          <name>
+            <surname>Yamanaka</surname>
+            <given-names>Itaru</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Boeckx</surname>
+            <given-names>Nele</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thys</surname>
+            <given-names>Chantal</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8527-5027</contrib-id>
+          <name>
+            <surname>Gelb</surname>
+            <given-names>Bruce D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+          <xref ref-type="aff" rid="Aff13">13</xref>
+          <xref ref-type="aff" rid="Aff14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Brennan</surname>
+            <given-names>Paul</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hartill</surname>
+            <given-names>Verity</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff16">16</xref>
+          <xref ref-type="aff" rid="Aff17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Harvengt</surname>
+            <given-names>Julie</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8344-7507</contrib-id>
+          <name>
+            <surname>Kosho</surname>
+            <given-names>Tomoki</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff19">19</xref>
+          <xref ref-type="aff" rid="Aff20">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mansour</surname>
+            <given-names>Sahar</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+          <xref ref-type="aff" rid="Aff21">21</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Masuno</surname>
+            <given-names>Mitsuo</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff22">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ohata</surname>
+            <given-names>Takako</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff23">23</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stewart</surname>
+            <given-names>Helen</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff24">24</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Taibah</surname>
+            <given-names>Khalid</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff25">25</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Turner</surname>
+            <given-names>Claire L. S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff26">26</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Imtiaz</surname>
+            <given-names>Faiqa</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8645-4761</contrib-id>
+          <name>
+            <surname>Riazuddin</surname>
+            <given-names>Saima</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+          <xref ref-type="aff" rid="Aff9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Morisaki</surname>
+            <given-names>Takayuki</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+          <xref ref-type="aff" rid="Aff27">27</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2190-1356</contrib-id>
+          <name>
+            <surname>Ostergaard</surname>
+            <given-names>Pia</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3703-9518</contrib-id>
+          <name>
+            <surname>Loeys</surname>
+            <given-names>Bart L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+          <xref ref-type="aff" rid="Aff28">28</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Morisaki</surname>
+            <given-names>Hiroko</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+          <xref ref-type="aff" rid="Aff29">29</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2914-4502</contrib-id>
+          <name>
+            <surname>Ahmed</surname>
+            <given-names>Zubair M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+          <xref ref-type="aff" rid="Aff9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0981-8672</contrib-id>
+          <name>
+            <surname>Birdsey</surname>
+            <given-names>Graeme M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Freson</surname>
+            <given-names>Kathleen</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mumford</surname>
+            <given-names>Andrew</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff30">30</xref>
+          <xref ref-type="aff" rid="Aff31">31</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1820-6563</contrib-id>
+          <name>
+            <surname>Turro</surname>
+            <given-names>Ernest</given-names>
+          </name>
+          <address>
+            <email>ernest.turro@mssm.edu</email>
+          </address>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+          <xref ref-type="aff" rid="Aff14">14</xref>
+          <xref ref-type="aff" rid="Aff32">32</xref>
+          <xref ref-type="aff" rid="Aff33">33</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.5335.0</institution-id><institution-id institution-id-type="ISNI">0000000121885934</institution-id><institution>Department of Medicine, </institution><institution>University of Cambridge, </institution></institution-wrap>Cambridge, UK </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.59734.3c</institution-id><institution-id institution-id-type="ISNI">0000 0001 0670 2351</institution-id><institution>Mindich Child Health and Development Institute, </institution><institution>Icahn School of Medicine at Mount Sinai, </institution></institution-wrap>New York, NY USA </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.7445.2</institution-id><institution-id institution-id-type="ISNI">0000 0001 2113 8111</institution-id><institution>National Heart and Lung Institute, </institution><institution>Imperial College London, </institution></institution-wrap>London, UK </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.83440.3b</institution-id><institution-id institution-id-type="ISNI">0000000121901201</institution-id><institution>University College London Institute of Ophthalmology, </institution><institution>University College London, </institution></institution-wrap>London, UK </aff>
+        <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.264200.2</institution-id><institution-id institution-id-type="ISNI">0000 0000 8546 682X</institution-id><institution>Molecular and Clinical Sciences Institute, </institution><institution>St. George&#x2019;s University of London, </institution></institution-wrap>London, UK </aff>
+        <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.415310.2</institution-id><institution-id institution-id-type="ISNI">0000 0001 2191 4301</institution-id><institution>Department of Medical Genomics, Centre for Genomic Medicine, </institution><institution>King Faisal Specialist Hospital &amp; Research Centre, </institution></institution-wrap>Riyadh, Saudi Arabia </aff>
+        <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.411024.2</institution-id><institution-id institution-id-type="ISNI">0000 0001 2175 4264</institution-id><institution>Department of Otorhinolaryngology Head and Neck Surgery, School of Medicine, </institution><institution>University of Maryland, </institution></institution-wrap>Baltimore, MD USA </aff>
+        <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.415310.2</institution-id><institution-id institution-id-type="ISNI">0000 0001 2191 4301</institution-id><institution>Department of Clinical Genomics, Centre for Genomic Medicine, </institution><institution>King Faisal Specialist Hospital &amp; Research Centre, </institution></institution-wrap>Riyadh, Saudi Arabia </aff>
+        <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.411024.2</institution-id><institution-id institution-id-type="ISNI">0000 0001 2175 4264</institution-id><institution>Department of Biochemistry and Molecular Biology, School of Medicine, </institution><institution>University of Maryland, </institution></institution-wrap>Baltimore, MD USA </aff>
+        <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.410796.d</institution-id><institution-id institution-id-type="ISNI">0000 0004 0378 8307</institution-id><institution>Department of Bioscience and Genetics, </institution><institution>National Cerebral and Cardiovascular Center, </institution></institution-wrap>Osaka, Japan </aff>
+        <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.5284.b</institution-id><institution-id institution-id-type="ISNI">0000 0001 0790 3681</institution-id><institution>Center for Medical Genetics, </institution><institution>Antwerp University Hospital/University of Antwerp, </institution></institution-wrap>Antwerp, Belgium </aff>
+        <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="GRID">grid.5596.f</institution-id><institution-id institution-id-type="ISNI">0000 0001 0668 7884</institution-id><institution>Department of Cardiovascular Sciences, Center for Molecular and Vascular Biology, </institution><institution>KU Leuven, </institution></institution-wrap>Leuven, Belgium </aff>
+        <aff id="Aff13"><label>13</label><institution-wrap><institution-id institution-id-type="GRID">grid.59734.3c</institution-id><institution-id institution-id-type="ISNI">0000 0001 0670 2351</institution-id><institution>Department of Pediatrics, </institution><institution>Icahn School of Medicine at Mount Sinai, </institution></institution-wrap>New York, NY USA </aff>
+        <aff id="Aff14"><label>14</label><institution-wrap><institution-id institution-id-type="GRID">grid.59734.3c</institution-id><institution-id institution-id-type="ISNI">0000 0001 0670 2351</institution-id><institution>Department of Genetics and Genomic Sciences, </institution><institution>Icahn School of Medicine at Mount Sinai, </institution></institution-wrap>New York, NY USA </aff>
+        <aff id="Aff15"><label>15</label><institution-wrap><institution-id institution-id-type="GRID">grid.420004.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 0444 2244</institution-id><institution>Northern Genetics Service, </institution><institution>Newcastle upon Tyne Hospitals National Health Service Trust International Centre for Life, </institution></institution-wrap>Newcastle upon Tyne, UK </aff>
+        <aff id="Aff16"><label>16</label><institution-wrap><institution-id institution-id-type="GRID">grid.415967.8</institution-id><institution-id institution-id-type="ISNI">0000 0000 9965 1030</institution-id><institution>Department of Clinical Genetics, Chapel Allerton Hospital, </institution><institution>Leeds Teaching Hospitals National Health Service Trust, </institution></institution-wrap>Leeds, UK </aff>
+        <aff id="Aff17"><label>17</label><institution-wrap><institution-id institution-id-type="GRID">grid.9909.9</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8403</institution-id><institution>Leeds Institute of Medical Research, </institution><institution>University of Leeds, </institution></institution-wrap>Leeds, UK </aff>
+        <aff id="Aff18"><label>18</label><institution-wrap><institution-id institution-id-type="GRID">grid.411374.4</institution-id><institution-id institution-id-type="ISNI">0000 0000 8607 6858</institution-id><institution>Centre for Medical Genetics, </institution><institution>Centre Hospitalier Universitaire de Li&#xE8;ge, </institution></institution-wrap>Li&#xE8;ge, Belgium </aff>
+        <aff id="Aff19"><label>19</label><institution-wrap><institution-id institution-id-type="GRID">grid.263518.b</institution-id><institution-id institution-id-type="ISNI">0000 0001 1507 4692</institution-id><institution>Department of Medical Genetics, </institution><institution>Shinshu University School of Medicine, </institution></institution-wrap>Nagano, Japan </aff>
+        <aff id="Aff20"><label>20</label><institution-wrap><institution-id institution-id-type="GRID">grid.412568.c</institution-id><institution-id institution-id-type="ISNI">0000 0004 0447 9995</institution-id><institution>Center for Medical Genetics, </institution><institution>Shinshu University Hospital, </institution></institution-wrap>Nagano, Japan </aff>
+        <aff id="Aff21"><label>21</label><institution-wrap><institution-id institution-id-type="GRID">grid.264200.2</institution-id><institution-id institution-id-type="ISNI">0000 0000 8546 682X</institution-id><institution>South West Thames Regional Genetics Service, </institution><institution>St. George&#x2019;s University Hospitals National Health Service Foundation Trust, </institution></institution-wrap>London, UK </aff>
+        <aff id="Aff22"><label>22</label><institution-wrap><institution-id institution-id-type="GRID">grid.415106.7</institution-id><institution-id institution-id-type="ISNI">0000 0004 0641 4861</institution-id><institution>Department of Medical Genetics, </institution><institution>Kawasaki Medical School Hospital, </institution></institution-wrap>Okayama, Japan </aff>
+        <aff id="Aff23"><label>23</label><institution-wrap><institution-id institution-id-type="GRID">grid.416827.e</institution-id><institution-id institution-id-type="ISNI">0000 0000 9413 4421</institution-id><institution>Okinawa Chubu Hospital, </institution></institution-wrap>Okinawa, Japan </aff>
+        <aff id="Aff24"><label>24</label><institution-wrap><institution-id institution-id-type="GRID">grid.410556.3</institution-id><institution-id institution-id-type="ISNI">0000 0001 0440 1440</institution-id><institution>Oxford University Hospitals National Health Service Foundation Trust, </institution></institution-wrap>Oxford, UK </aff>
+        <aff id="Aff25"><label>25</label>Ear Nose and Throat Medical Centre, Riyadh, Saudi Arabia </aff>
+        <aff id="Aff26"><label>26</label><institution-wrap><institution-id institution-id-type="GRID">grid.416118.b</institution-id><institution>Peninsula Clinical Genetics Service, </institution><institution>Royal Devon &amp; Exeter Hospital, </institution></institution-wrap>Exeter, UK </aff>
+        <aff id="Aff27"><label>27</label><institution-wrap><institution-id institution-id-type="GRID">grid.26999.3d</institution-id><institution-id institution-id-type="ISNI">0000 0001 2151 536X</institution-id><institution>Division of Molecular Pathology and Department of Internal Medicine, Institute of Medical Science, </institution><institution>The University of Tokyo, </institution></institution-wrap>Tokyo, Japan </aff>
+        <aff id="Aff28"><label>28</label><institution-wrap><institution-id institution-id-type="GRID">grid.10417.33</institution-id><institution-id institution-id-type="ISNI">0000 0004 0444 9382</institution-id><institution>Department of Human Genetics, </institution><institution>Radboud University Medical Center, </institution></institution-wrap>Nijmegen, the Netherlands </aff>
+        <aff id="Aff29"><label>29</label><institution-wrap><institution-id institution-id-type="GRID">grid.413411.2</institution-id><institution>Department of Medical Genetics, </institution><institution>Sakakibara Heart Institute, </institution></institution-wrap>Tokyo, Japan </aff>
+        <aff id="Aff30"><label>30</label><institution-wrap><institution-id institution-id-type="GRID">grid.5337.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 7603</institution-id><institution>School of Cellular and Molecular Medicine, </institution><institution>University of Bristol, </institution></institution-wrap>Bristol, UK </aff>
+        <aff id="Aff31"><label>31</label>South West National Health Service Genomic Medicine Service Alliance, Bristol, UK </aff>
+        <aff id="Aff32"><label>32</label><institution-wrap><institution-id institution-id-type="GRID">grid.5335.0</institution-id><institution-id institution-id-type="ISNI">0000000121885934</institution-id><institution>Department of Haematology, </institution><institution>University of Cambridge, Cambridge Biomedical Campus, </institution></institution-wrap>Cambridge, UK </aff>
+        <aff id="Aff33"><label>33</label><institution-wrap><institution-id institution-id-type="GRID">grid.59734.3c</institution-id><institution-id institution-id-type="ISNI">0000 0001 0670 2351</institution-id><institution>Charles Bronfman Institute for Personalized Medicine, </institution><institution>Icahn School of Medicine at Mount Sinai, </institution></institution-wrap>New York, NY USA </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>16</day>
+        <month>3</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>16</day>
+        <month>3</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <year>2023</year>
+      </pub-date>
+      <volume>29</volume>
+      <issue>3</issue>
+      <fpage>679</fpage>
+      <lpage>688</lpage>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>10</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>6</day>
+          <month>1</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2023</copyright-statement>
+        <license>
+          <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">The genetic etiologies of more than half of rare diseases remain unknown. Standardized genome sequencing and phenotyping of large patient cohorts provide an opportunity for discovering the unknown etiologies, but this depends on efficient and powerful analytical methods. We built a compact database, the &#x2018;Rareservoir&#x2019;, containing the rare variant genotypes and phenotypes of 77,539 participants sequenced by the 100,000 Genomes Project. We then used the Bayesian genetic association method BeviMed to infer associations between genes and each of 269 rare disease classes assigned by clinicians to the participants. We identified 241 known and 19 previously unidentified associations. We validated associations with <italic>ERG</italic>, <italic>PMEPA1</italic> and <italic>GPR156</italic> by searching for pedigrees in other cohorts and using bioinformatic and experimental approaches. We provide evidence that (1) loss-of-function variants in the Erythroblast Transformation Specific (ETS)-family transcription factor encoding gene <italic>ERG</italic> lead to primary lymphoedema, (2) truncating variants in the last exon of transforming growth factor-&#x3B2; regulator <italic>PMEPA1</italic> result in Loeys&#x2013;Dietz syndrome and (3) loss-of-function variants in <italic>GPR156</italic> give rise to recessive congenital hearing impairment. The Rareservoir provides a lightweight, flexible and portable system for synthesizing the genetic and phenotypic data required to study rare disease cohorts with tens of thousands of participants.</p>
+      </abstract>
+      <abstract id="Abs2" abstract-type="web-summary">
+        <p id="Par2">A flexible and compact database containing rare variant genotypes and phenotypes of 77,539 participants sequenced by the 100,000 Genomes Project enables the identification of new disease-causing genes.</p>
+      </abstract>
+      <kwd-group kwd-group-type="npg-subject">
+        <title>Subject terms</title>
+        <kwd>Genetics</kwd>
+        <kwd>Genetics research</kwd>
+        <kwd>Computational platforms and environments</kwd>
+        <kwd>Next-generation sequencing</kwd>
+        <kwd>Disease genetics</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution>Cambridge BHF Centre of Research Excellence [RE/18/1/34212] and Wellcome Collaborative Award 219506/Z/19/Z</institution>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution>BHF Project grant PG/17/33/32990</institution>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution>Swiss National Science Foundation grant CRSII5_177191</institution>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution>King Salman Center for Disability Research # 85722</institution>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution>MRC/NIHR Clinical Academic Research Partnership MR/V037617/1</institution>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution>Medical Research Council grant MR/P011543/1 and British Heart Foundation grant RG/17/7/33217</institution>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution>NIDCD/NIH R01DC016295</institution>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution>BHF Project grants PG/20/16/35047 &amp; PG/17/33/32990</institution>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution>KULeuven BOF grant C14/19/096, FWO grant G072921N</institution>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; Springer Nature America, Inc. 2023</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1">
+      <title>Main</title>
+      <p id="Par3">Collectively, rare diseases affect 1 in 20 people<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>, but fewer than half of the approximately 10,000 cataloged rare diseases have a resolved genetic etiology<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. Standardized genome sequencing (GS) of large, phenotypically diverse collections of patients with rare diseases enables etiological discovery across a wide range of pathologies<sup><xref ref-type="bibr" rid="CR3">3</xref>&#x2013;<xref ref-type="bibr" rid="CR5">5</xref></sup> while boosting genetic diagnostic rates for patients. The 100,000 Genomes Project (100KGP), the largest GS study of patients with rare diseases to date, sequenced 34,523 UK National Health Service patients with rare diseases and 43,016 of their unaffected relatives. The linked genetic and phenotypic data of 100KGP participants were then made available to researchers through a web portal called the Genomics England Research Environment. The scale and complexity of such large GS datasets and the hierarchical nature of patient phenotype coding<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> induce numerous bioinformatic and statistical challenges. Most importantly, the full genotype data from GS studies of tens of thousands of individuals are typically stored in unmodifiable files many terabytes in size, leading to high storage and processing costs. Recently developed frameworks, such as Hail<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> and OpenCGA<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, afford greater flexibility. However, they are designed to capture genotypes for variants across the full minor allele frequency (MAF) spectrum, from rare (MAF&#x2009;&lt;&#x2009;0.1%) to common (MAF&#x2009;&gt;&#x2009;5%) variants. To accommodate large numbers of genotypes, they depend on distributed storage systems and require numerous software packages, hindering deployment. We developed a database schema, the &#x2018;Rareservoir&#x2019;, for working with rare variant genotypes and patient phenotypes flexibly and efficiently. We deployed a Rareservoir only 5.5&#x2009;GB in size of 100KGP data and applied the Bayesian statistical method BeviMed<sup><xref ref-type="bibr" rid="CR9">9</xref></sup> to identify genetic associations between coding genes and each of the 269 rare disease classes assigned to patients by clinicians. Of the previously unknown associations that we identified, we followed up the most plausible subset in confirmatory analytical and experimental work.</p>
+    </sec>
+    <sec id="Sec2" sec-type="results">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>The Rareservoir</title>
+        <p id="Par4">Relational databases (RDBs) provide a unified, centralized structure for storing, querying and modifying data of multiple underlying types. In principle, an RDB could provide a convenient foundation for the analysis of genotypes, variants, genes, participants and statistical results, but they cannot accommodate tables of the scale required to store exome or genome-wide genotypes in a moderately sized cohort. An RDB can, however, accommodate a sparse representation of genotypes corresponding to rare variants only, which encompass almost all variants having a large effect on rare disease risk. We developed an RDB schema, the Rareservoir, and complementary build procedure for the analysis of rare diseases, which by default, stores genotypes corresponding to variants for which all population-specific MAFs are likely to be &lt;0.1%. This reduces the number of stored genotypes in a large study by about 99% (Extended Data Fig. <xref rid="Fig5" ref-type="fig">1</xref>). The Rareservoir encodes variants as 64-bit integers (&#x2018;RSVR IDs&#x2019;) (Extended Data Fig. <xref rid="Fig6" ref-type="fig">2</xref>), which can represent 99.3% of variants encountered in practice without loss of information. RSVR IDs occupy a single column and increase numerically with respect to genomic position, allowing fast location-based queries within a simple database structure. To support the build process of a Rareservoir, we developed a complementary software package called &#x2018;rsvr&#x2019; (Extended Data Figs. <xref rid="Fig6" ref-type="fig">2</xref> and <xref rid="Fig7" ref-type="fig">3</xref>). The package includes tools to annotate variants with MAF information from control databases (for example, gnomAD<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>), pathogenicity scores (for example, combined annotation-dependent depletion (CADD) scores<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>) and predicted Sequence Ontology (SO)<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> consequences with respect to a set of transcripts. We use a 64-bit integer (&#x2018;CSQ ID&#x2019;) to record the consequences for interacting variant/transcript pairs, where each bit encodes one of the possible consequences, ordered by severity. Encoding the consequences in this way is efficient and enables succinct queries that threshold or sort based on severity of impact. The Rareservoir also contains a table with genetically derived data for each sample (including ancestry, sex and membership of a maximal set of unrelated participants) and a table of &#x2018;case sets&#x2019; storing the rare disease classes assigned to each participant.</p>
+      </sec>
+      <sec id="Sec4">
+        <title>BeviMed infers 241 known and 19 unknown genetic associations</title>
+        <p id="Par5">We built a Rareservoir, 5.5&#x2009;GB in size, containing 11.9 million rare exonic and splicing single-nucleotide variants (SNVs) and short insertions or deletions (indels) affecting canonical transcripts of protein-coding genes in Ensembl v.104 (ref. <sup><xref ref-type="bibr" rid="CR13">13</xref></sup>) from a merged variant call format file (VCF) containing genotype calls for 77,539 participants, including 29,741 probands, in the Rare Diseases Main Programme of the 100KGP (Data Release v.13) (Extended Data Fig. <xref rid="Fig8" ref-type="fig">4</xref>). During enrollment to the 100KGP, expert clinicians used the clinical characteristics of each affected participant to assign them to one or more of 220 &#x2018;Specific Diseases&#x2019;. The Specific Diseases are hierarchically arranged into 88 &#x2018;Disease Sub Groups&#x2019;, each of which belongs to 1 of 20 &#x2018;Disease Groups&#x2019;. Whereas the eligibility criteria for many Specific Diseases aligned to the same or closely related rare diseases, for others such as &#x2018;Intellectual disability&#x2019;, the criteria were broader and encompassed diverse genetic etiologies. We generated 269 analytical case sets corresponding to all distinct Specific Diseases and Disease Sub Groups, ranging in size from 5,809 to one proband, and stored them in the Rareservoir (Fig. <xref rid="Fig1" ref-type="fig">1a</xref> and Extended Data Figs. <xref rid="Fig9" ref-type="fig">5</xref> and <xref rid="Fig10" ref-type="fig">6</xref>). We included these two levels of the phenotyping hierarchy to account for heterogeneity in presentation or diagnosis among cases sharing the same genetic etiology, with the aim of boosting power to identify statistical genetic associations.<fig id="Fig1"><label>Fig. 1</label><caption><title>BeviMed analysis of the 100KGP.</title><p><bold>a</bold>, Bars showing the size of each case set used for the genetic association analyses grouped by Disease Group and coloured by type (Disease Sub Group or Specific Disease). Case sets smaller than five are shown as having size 4 to comply with the 100KGP policy on limiting participant identifiability. The names and sizes of the case sets for an exemplar Disease Sub Group, &#x2018;Cardiovascular disorders&#x2019;, are shown. <bold>b</bold>, BeviMed PPAs&#x2009;&gt;&#x2009;0.95 arranged by Disease Group. Only the strongest association for each gene within a Disease Group is shown. Associations are colored by their PanelApp evidence level (green, amber or red). Associations that were mapped to PanelApp by manual review, rather than using our automatic matching algorithm, are marked with an asterisk (<xref rid="MOESM2" ref-type="media">Source Data Fig. 1</xref>). Previously unidentified associations are shown in grey. The shape of the points shows whether the association was with a Disease Sub Group (squares) or Specific Disease (circles).</p><p><xref rid="MOESM2" ref-type="media">Source data</xref></p></caption><graphic xlink:href="41591_2023_2211_Fig1_HTML" id="d32e1044"/></fig></p>
+        <p id="Par6">Using the Bayesian statistical method BeviMed<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>, we obtained a posterior probability of association (PPA) between each of the 19,663 protein-coding genes and each of the 269 rare disease classes. BeviMed computes posterior probabilities over a baseline model of no association and competing association models, each of which assumes a particular mode of inheritance (MOI; dominant or recessive) and consequence class of etiological variant (in this study, high impact, moderate impact or 5&#x2032; untranslated region (UTR)). The PPA is obtained by summing the posterior probabilities over all association models. The association model with the greatest posterior probability (the modal model) determines the inferred MOI and class of etiological variant. Conditional on an association model, BeviMed models the pathogenicity of each included rare variant. In the model, participants with at least one pathogenic allele (under a dominant MOI) or at least as many pathogenic alleles as the ploidy (under a recessive MOI) have a pathogenic configuration of alleles, which determines their risk of case status. For each rare disease class, we selected a set of unrelated cases based on pedigree information provided by the 100KGP and compared them with participants not in the case set who belonged to different pedigrees and to a maximal set of unrelated participants, also provided by the 100KGP. To account for correlation between case sets, we only recorded the association for each gene having the highest PPA within a given Disease Group. Using a significance threshold of PPA&#x2009;&gt;&#x2009;0.95, we identified 260 significant associations, 241 of which were documented by the PanelApp gene panel database<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>, an expert-curated and annotated resource containing gene lists with high, medium or low levels of prior supporting evidence of causality for rare diseases (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). Of the 241 known associations that we identified, 43 (17.8%) were with Disease Sub Groups. For example, within each of the nine known genes associated with the Disease Sub Group &#x2018;Posterior segment abnormalities&#x2019;, the set of cases explained by variants with a conditional posterior probability of pathogenicity &gt;&#x2009;0.8 comprised participants encompassing multiple Specific Diseases (Extended Data Fig. <xref rid="Fig11" ref-type="fig">7</xref>). This demonstrates that participants with different Specific Diseases belonging to the same Disease Sub Group sometimes share defects in the same gene, which confirms that treating Disease Sub Groups, not just Specific Diseases, as case sets boosts statistical power.</p>
+        <p id="Par7">Of the 241 associations identified as previously known according to PanelApp, 237 (98.3%) had an inferred MOI that was consistent with the MOIs listed for the relevant gene. Of these, the consistent MOI was found in the matched panel (223 associations), in the notes for the matched panel (5 associations) or in the MOIs listed for an alternative relevant panel (9 associations) in PanelApp (Source Data Fig. <xref rid="MOESM2" ref-type="media">1</xref>). This provided independent evidence that the genetic associations we labeled as known (without reference to MOI information) are genuinely supported by evidence in the literature, further demonstrating the accuracy of BeviMed&#x2019;s inference. Of the four known associations with an inferred MOI that was incongruous with PanelApp, two had supporting evidence for the inferred MOI in the literature that was absent from PanelApp: <italic>EDA</italic> with dominant &#x2018;Ectodermal dysplasia without a known gene mutation&#x2019;<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> and <italic>AICDA</italic> with dominant &#x2018;Primary immunodeficiency&#x2019;<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. The two associations with an MOI that was unsupported in the literature were between <italic>UCHL1</italic> and dominant &#x2018;Inherited optic neuropathies&#x2019; and between <italic>SLC39A8</italic> and dominant &#x2018;Intellectual disability&#x2019;.</p>
+        <p id="Par8">Among 5,253 of the probands included in our analysis, the table of clinically reported variants available from the 100KGP Rare Diseases Main Programme at the time of this study comprised 4,907 distinct variants that had been classified as pathogenic or likely pathogenic in 1,863 genes. For 855 of these genes, etiological variants had been reported for only one family, suggesting that many genes that are etiological in the 100KGP are not identifiable by statistical association. Nevertheless, across the 260 associations identified by BeviMed, 2,536 distinct rare variants had a posterior probability of pathogenicity &gt;&#x2009;0.8 conditional on the modal model and were observed as part of a pathogenic configuration of alleles in a case (Source Data Fig. <xref rid="MOESM2" ref-type="media">1</xref>). Interestingly, among the subset of 2,485 variants contributing to the 241 known associations, only 1,604 featured in the table of clinically reported variants.</p>
+        <p id="Par9">We found 19 previously unidentified genetic associations. To select a shortlist for further investigation, we assigned a plausibility score (range 0&#x2013;3) based on three sources of additional evidence (Table <xref rid="Tab1" ref-type="table">1</xref>). First, we considered evidence of purifying selection from gnomAD v.2.1.1. Any dominant associations with high-impact variants in a gene having a probability of loss-of-function intolerance (pLI) &gt;0.9 or with moderate-impact variants in a gene having a <italic>Z</italic> score&#x2009;&gt;2 were considered to be supported by population genetic metrics of purifying selection. To avoid disadvantaging recessive associations, which are unlikely to leave a detectable signature of purifying selection in gnomAD even if genuine, they were considered to be supported by default. Second, we considered cosegregation data: any association for which variants having a posterior probability of pathogenicity conditional on the modal model &gt;0.8 tracked with case status in at least three additional family members and for which no affected relatives lacked the pertinent variants were considered to be supported by cosegregation. Third, we performed a comprehensive review of the literature for each gene and made a subjective assessment of whether an association was supported by biological function or previously known disease associations for related genes. In total, three genetic associations had a plausibility score of three and were, therefore, investigated further by gathering additional experimental evidence and looking for replication in other sequenced rare disease collections.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Plausibility scoring of the 19 previously unknown genetic associations identified by BeviMed</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Gene</th><th>Case set</th><th>Level</th><th>Cases</th><th>Controls</th><th>Variant class</th><th>MOI</th><th>pLI</th><th><italic>Z</italic></th><th>Cosegregation evidence</th><th>Biological function and existing disease associations</th><th>Score</th><th>Replication</th></tr></thead><tbody><tr><td><italic>ERG</italic></td><td>Primary lymphoedema</td><td>SD</td><td>94</td><td>55,400</td><td>High</td><td>Dom</td><td><bold>0.96</bold></td><td>2.53</td><td><bold>Cosegregation in 2 affected and 1 unaffected relatives (mosaicism in 1 affected parent)</bold></td><td><bold>ETS-family transcription factor ERG is a critical regulator of endothelial lineage specification, vascular development, angiogenesis, and endothelial homeostasis</bold><sup><xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup></td><td>3</td><td>Internal (case enrolled for a different SD)</td></tr><tr><td><italic>GPR156</italic></td><td>Congenital hearing impairment</td><td>SD</td><td>510</td><td>54,739</td><td>High</td><td><bold>Rec</bold></td><td>0</td><td>1.04</td><td><bold>Cosegregation in 2 affected and 4 unaffected relatives</bold></td><td><bold>G protein-coupled receptor that regulates hair cell orientation in mechanosensory epithelia including in murine auditory epithelium</bold><sup><xref ref-type="bibr" rid="CR33">33</xref></sup></td><td>3</td><td>Riyadh</td></tr><tr><td><italic>PMEPA1</italic></td><td>FTAAD</td><td>SD</td><td>574</td><td>54,858</td><td>High</td><td>Dom</td><td><bold>0.94</bold></td><td>1.21</td><td><bold>Cosegregation in 3 affected relatives and distinctive phenotypic features</bold></td><td><bold>Negative regulator of TGF&#x3B2; signaling</bold><sup><xref ref-type="bibr" rid="CR28">28</xref></sup><bold>; aberrant TGF&#x3B2; signaling is implicated in multiple Mendelian aortopathies</bold><sup><xref ref-type="bibr" rid="CR29">29</xref></sup></td><td>3</td><td>100KGP pilot, Antwerp, Tokyo</td></tr><tr><td><italic>FMN1</italic></td><td>Congenital hearing impairment</td><td>SD</td><td>510</td><td>54,738</td><td>High</td><td><bold>Rec</bold></td><td>0</td><td>-1.53</td><td>Cosegregation in 2 unaffected relatives.</td><td><bold>Formin family protein involved in linear actin and microtubule polymerization</bold><sup><xref ref-type="bibr" rid="CR44">44</xref></sup><bold>; pathogenic variants in the formin DIAPH1 cause hearing loss via cytoskeletal disruption in auditory stereocilia</bold><sup><xref ref-type="bibr" rid="CR45">45</xref></sup></td><td>2</td><td/></tr><tr><td><italic>LRRC7</italic></td><td>Intellectual disability</td><td>SD</td><td>5,529</td><td>46,401</td><td>High</td><td>Dom</td><td><bold>1.00</bold></td><td>3.60</td><td/><td><bold>Brain-specific scaffold protein in postsynaptic densities</bold><sup><xref ref-type="bibr" rid="CR37">37</xref></sup><bold>; LRRC7-inactivated mice have a neurobehavioral phenotype</bold><sup><xref ref-type="bibr" rid="CR38">38</xref></sup></td><td>2</td><td/></tr><tr><td><italic>TUFT1</italic></td><td>Epidermolysis bullosa</td><td>SD</td><td>32</td><td>55,459</td><td>High</td><td><bold>Rec</bold></td><td>0</td><td>0.90</td><td><bold>Cosegregation in 1 affected and 4 unaffected relatives</bold></td><td>Acidic protein that mediates dental enamel mineralisation.</td><td>2</td><td/></tr><tr><td><italic>USP33</italic></td><td>Extreme early-onset hypertension</td><td>SD</td><td>182</td><td>55,305</td><td>High</td><td>Dom</td><td>0.86</td><td><bold>2.10</bold></td><td/><td><bold>Deubiquitinating enzyme implicated in multiple cellular processes, including regulation of expression of the &#x3B2;2-adrenergic receptor</bold><sup><xref ref-type="bibr" rid="CR39">39</xref></sup><bold>, a critical regulator of circulatory function and blood pressure</bold><sup><xref ref-type="bibr" rid="CR41">41</xref></sup></td><td>2</td><td/></tr><tr><td><italic>ARPC3</italic></td><td>Charcot-Marie-Tooth disease</td><td>SD</td><td>549</td><td>54,856</td><td>Moderate</td><td>Dom</td><td>0.22</td><td>0.39</td><td/><td><bold>Component of the Arp2/3 complex that regulates polymerization of F-actin, abundant in axonal neurofilaments; multiple Mendelian axonal filamentopathies manifest as Charcot-Marie-Tooth disease</bold><sup><xref ref-type="bibr" rid="CR42">42</xref></sup><bold>, and</bold>
+<bold><italic>Arpc3</italic></bold><bold>-inactivation in mice causes axon dysfunction</bold><sup><xref ref-type="bibr" rid="CR43">43</xref></sup></td><td>1</td><td/></tr><tr><td><italic>KRT14</italic></td><td>Young-onset tumor syndromes</td><td>DSG</td><td>256</td><td>55,207</td><td>Moderate</td><td><bold>Rec</bold></td><td>0</td><td>0.84</td><td>Cosegregation in 2 unaffected relatives</td><td>Component of keratin intermediate filaments in epithelial cells; pathogenic variants cause Epidermolysis bullosa simplex (Dom/Rec), dermatopathia pigmentosa reticularis (Dom), and Naegeli-Franceschetti-Jadassohn syndrome (Dom)</td><td>1</td><td/></tr><tr><td><italic>MPPE1</italic></td><td>Primary ciliary dyskinesia</td><td>SD</td><td>105</td><td>55,360</td><td>High</td><td><bold>Rec</bold></td><td>0</td><td>0.35</td><td>Cosegregation in 2 unaffected relatives</td><td>Metallophosphoesterase required for transport of glycosylphosphatidylinositol-anchor proteins from the endoplasmic reticulum to the Golgi</td><td>1</td><td/></tr><tr><td><italic>PKMYT1</italic></td><td>Single autosomal recessive mutation in rare disease</td><td>SD</td><td>51</td><td>55,429</td><td>Moderate</td><td><bold>Rec</bold></td><td>0.22</td><td>0.07</td><td>Cosegregation in 2 unaffected relatives</td><td>Serine/threonine protein kinase that is a negative regulator of cell entry into mitosis</td><td>1</td><td/></tr><tr><td><italic>RAB35</italic></td><td>Familial hypercholesterolemia</td><td>SD</td><td>469</td><td>55,033</td><td>High</td><td>Dom</td><td><bold>0.98</bold></td><td>2.36</td><td>Cosegregation in 1 affected relative</td><td>Small GTP-binding proteins that are a regulator of endosomal transport and function</td><td>1</td><td/></tr><tr><td><italic>RAB3A</italic></td><td>Hereditary ataxia</td><td>SD</td><td>905</td><td>54,504</td><td>Moderate</td><td>Dom</td><td>0.95</td><td><bold>2.32</bold></td><td/><td>Small GTP-binding proteins that regulate exocytosis and secretion; although abundant in brain synaptic vesicles, <italic>Rab3A</italic>-inactivated mice have no neuromuscular phenotype<sup><xref ref-type="bibr" rid="CR46">46</xref></sup></td><td>1</td><td/></tr><tr><td><italic>SERPINB3</italic></td><td>Autosomal recessive congenital ichthyosis</td><td>SD</td><td>46</td><td>55,437</td><td>Moderate</td><td><bold>Rec</bold></td><td>0</td><td>-1.66</td><td>Cosegregation in 2 unaffected relatives</td><td>Cysteine endopeptidase inhibitor implicated in autocrine/paracrine signaling and cell protein metabolism</td><td>1</td><td/></tr><tr><td><italic>WWOX</italic></td><td>Gastrointestinal disorders</td><td>DSG</td><td>59</td><td>55,413</td><td>Moderate</td><td><bold>Rec</bold></td><td>0</td><td>-4.44</td><td>Co-segregation in 1 unaffected relative</td><td>Short-chain dehydrogenase/reductase that acts as a tumor suppressor and apoptosis regulator; pathogenic variants cause developmental and epileptic encephalopathy 28 and spinocerebellar ataxia 12</td><td>1</td><td/></tr><tr><td><italic>FAM222B</italic></td><td>Ultra-rare undescribed monogenic disorders</td><td>SD</td><td>1,205</td><td>53,681</td><td>Moderate</td><td>Dom</td><td>0.29</td><td>0.42</td><td/><td>Uncharacterized nucleosomal protein</td><td>0</td><td/></tr><tr><td><italic>INSL4</italic></td><td>Rod Dysfunction Syndrome</td><td>SD</td><td>58</td><td>55,425</td><td>Moderate</td><td>Dom</td><td>0</td><td>-1.43</td><td/><td>Insulin-like growth factor implicated in trophoblast and bone development</td><td>0</td><td/></tr><tr><td><italic>RPL10A</italic></td><td>Milroy disease</td><td>SD</td><td>20</td><td>55,470</td><td>High</td><td>Dom</td><td>0.85</td><td>2.06</td><td/><td>Component of the large ribosomal subunit that mediates protein translation</td><td>0</td><td/></tr><tr><td><italic>SRP9</italic></td><td>Ductal plate malformation</td><td>SD</td><td>54</td><td>55,445</td><td>High</td><td>Dom</td><td>0.42</td><td>1.13</td><td/><td>Component of the signal recognition particle that targets secretory proteins to the endoplasmic reticulum</td><td>0</td><td/></tr></tbody></table><table-wrap-foot><p>Each row corresponds to a genetic association between a gene and a case set in the 100KGP Main Programme without prior supporting evidence in PanelApp. Each column gives additional information for each association. Cells contributing to the final score are shown in bold. Rows are sorted by score in descending order, and the genes corresponding to associations with a score of three are <italic>ERG</italic>, <italic>GPR156</italic> and <italic>PMEPA1</italic>. The level of the case set in the disease label hierarchy (Disease Sub Group (DSG), Specific Disease (SD)), the class of variants and the MOI corresponding to the model with the greatest posterior probability are shown (dominant (Dom), recessive (Rec)). A recessive association contributes one point to the score. A pLI&#x2009;&gt;&#x2009;0.9 contributes one point to the score providing the inferred class of etiological variants is high-impact variants. A <italic>Z</italic> score&#x2009;&gt;&#x2009;2 contributes one point to the score providing the inferred class of etiological variants is moderate-impact variants. Evidence of cosegregation in three or more relatives in the 100KGP data contributes one point to the score (including mosaicism supported by two or more reads containing the alternate allele). Prior evidence of a relevant biological function or disease association contributes one point to the score. The &#x2018;Replication&#x2019; column specifies cohorts in which additional cases were confirmed.</p></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="Sec5">
+        <title>Variants in <italic>ERG</italic> are responsible for primary lymphoedema</title>
+        <p id="Par10">BeviMed identified a dominant genetic association between high-impact variants in <italic>ERG</italic> and the Specific Disease &#x2018;Primary lymphoedema&#x2019;, a group of genetic conditions caused by abnormal development of lymphatic vessels or failure of lymphatic function<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. Three such variants were responsible for the high PPA, with locations ranging from codon 182 to 463 on the canonical Ensembl transcript ENST00000288319.12. One of the probands had two unaffected parents without the variant allele&#x2014;one sequenced by the 100KGP and the other by Sanger sequencing&#x2014;suggesting that the truncating heterozygous variant had appeared de novo. A participant in a fourth family who had been enrolled to the 100KGP for an unrelated condition also carried a predicted loss-of-function variant in <italic>ERG</italic>. Upon manual chart review, this participant had features associated with this unrelated condition but additional features consistent with primary lymphoedema, providing internal replication within the discovery cohort (Fig. <xref rid="Fig2" ref-type="fig">2a</xref>).<fig id="Fig2"><label>Fig. 2</label><caption><title>Loss-of-function variants in <italic>ERG</italic> are responsible for primary lymphoedema.</title><p><bold>a</bold>, Pedigrees for the four probands with loss-of-function variants in the canonical transcript of <italic>ERG</italic>, ENST00000288319.12. Hom. ref., homozygous reference. <bold>b</bold>, Truncated bar chart showing the distribution of the number of reads supporting the p.S182Afs*22 alternate allele in the 100KGP. The embedded windows show the read pileups at this position in the two affected members of the family with the variant encoding p.S182Afs*22 (het., heterozygous genotype call). The reads supporting the reference allele are in blue and those supporting the variant allele are in red. <bold>c</bold>, Schematic showing the effects of each variant at the cDNA and amino acid level and on the protein product with respect to the canonical transcript. PNT, pointed domain; ETS, Erythroblast Transformation Specific DNA binding domain; AA, amino acid. <bold>d</bold>, Reverse transcription PCR amplification of ERG mRNA in HDLECs relative to HUVECs. Data are normalized to GAPDH. Statistical significance was assessed using a two-sided Student&#x2019;s <italic>t</italic> test. NS, not significant (<italic>P</italic>&#x2009;=&#x2009;0.39). <bold>e</bold>, Immunoblot (representative of two replicates) of HUVEC and HDLEC protein lysates identified several bands corresponding to ERG isoforms expressed at similar intensities in both cell types. <bold>f</bold>, Immunofluorescence microscopy (representative of three replicates) of HDLECs shows ERG (green) nuclear colocalization with the lymphatic endothelial cell nuclear marker PROX1 (violet) and the nuclear marker DAPI (blue). HDLEC junctions are shown using an antibody to VE-cadherin (yellow). Scale bar, 50&#x2009;&#xB5;m. <bold>g</bold>, En face immunofluorescence confocal microscopy (representative of five replicates) of mouse ear skin. Vessels are stained with antibodies to the lymphatic marker PROX1 (violet) and ERG (green). Scale bar, 100&#x2009;&#xB5;m. <bold>h</bold>, Exemplar immunofluorescence microscopy image of HEK293 cells overexpressing wild-type <italic>ERG</italic> and the p.T224Rfs*15 variant <italic>ERG</italic>. Cells were stained for ERG (green) and nuclear marker DAPI (blue). Scale bars, 20&#x2009;&#x3BC;m. The brightness is optimized for print. <bold>i</bold>, Dot plot of the estimated proportion of ERG not overlapping the nuclear marker DAPI in each of a set of immunofluorescence microscopy images of HEK293 cells overexpressing different <italic>ERG</italic> cDNAs (20 replicates for the wild type (WT), 17 replicates per tested mutant). The estimated proportions were significantly higher in each of the variants compared with WT: <italic>P</italic>&#x2009;=&#x2009;1.52&#x2009;&#xD7;&#x2009;10<sup>&#x2212;11</sup>, 4.10&#x2009;&#xD7;&#x2009;10<sup>&#x2212;13</sup> and 3.03&#x2009;&#xD7;&#x2009;10<sup>&#x2212;5</sup> for each of p.S182Afs*22, p.T224Rfs*15 and p.A447Cfs*19, respectively (two-sided Student&#x2019;s <italic>t</italic> tests).</p><p><xref rid="MOESM3" ref-type="media">Source data</xref></p></caption><graphic xlink:href="41591_2023_2211_Fig2_HTML" id="d32e2119"/></fig></p>
+        <p id="Par11">The affected father of the proband with the variant encoding p.S182Afs*22 was called homozygous for the reference allele, initially suggesting a lack of cosegregation of the variant with the disease in that pedigree. However, a review of the GS read alignments for the father revealed that 2 of the 48 reads overlapping that position supported the alternative allele. Specifically, these reads contained a deletion of a single G within the central poly-G tract of the motif &#x2018;AGCTGGGGGTGAG&#x2019;. To assess whether this could be the result of erroneous sequencing, we counted the number of such reads in the 77,539 genomes in the 100KGP and found that the proband and the father were the only two with more than one such read. This indicated that these reads in the father were unlikely to be erroneous but instead, that he was mosaic (Fig. <xref rid="Fig2" ref-type="fig">2b</xref>), consistent with the observation that his lymphoedema became clinically apparent over two decades later than his daughter, indicating milder disease. A further 130 samples collected through the 100KGP had a single read containing the deletion. This number was consistent with observations in the 80 other exonic loci that contain the same 13-base pair (bp) motif (mean 99.67 samples, range 4&#x2013;149 samples), suggesting that, rather than being mosaic, the 130 samples contained individual sequencing errors. Furthermore, none of the participants who gave these samples had been assigned the Specific Disease &#x2018;Primary lymphoedema&#x2019;.</p>
+        <p id="Par12"><italic>ERG</italic> encodes a critical transcriptional regulator of blood vessel endothelial cell gene expression<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> that is essential for normal vascular development<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. However, little is known about the contribution of ERG to lymphatic development or how primary lymphoedema could arise from loss-of-function <italic>ERG</italic> variants that affect different parts of the ERG protein (Fig. <xref rid="Fig2" ref-type="fig">2c</xref>). Total cellular expression of ERG detected by real-time quantitative polymerase chain reaction (PCR) in purified RNA and by immunoblotting of protein extracts was the same in primary human dermal lymphatic endothelial cell (HDLECs) as human umbilical vein endothelial cell (HUVEC) (Fig. <xref rid="Fig2" ref-type="fig">2d,e</xref>, respectively). Moreover, immunofluorescence microscopy of cultured HDLECs showed that ERG expression colocalized with the lymphatic endothelial cell nuclear marker PROX1 (Fig. <xref rid="Fig2" ref-type="fig">2f</xref>), a finding confirmed in vivo by immunostaining whole mounts of ear skin from mice at 3 weeks after birth (Fig. <xref rid="Fig2" ref-type="fig">2g</xref>). The positions of the p.S182Afs*22 and p.T224Rfs*15 variants suggest nonsense-mediated decay and haploinsufficiency as a possible disease mechanism. The other two variants, however, are located in the final exon of ERG and may, therefore, evade nonsense-mediated decay. We studied both types of variant in more detail to explore potential disease mechanisms. In HEK293 cells, which do not express endogenous ERG, overexpression of wild-type ERG cDNA recapitulated the nuclear expression pattern observed in the HDLEC and mouse ear skin models. However, overexpression of ERG mutant cDNAs resulted in mislocalization of ERG outside of the nucleus, in the cytosol (Fig. <xref rid="Fig2" ref-type="fig">2h,i</xref> and Extended Data Fig. <xref rid="Fig12" ref-type="fig">8</xref>), preventing it from binding to DNA and exerting its function as a transcription factor<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>. Together, these data confirm high levels of ERG expression within the nuclei of the lymphatic endothelium consistent with a transcription regulatory function during lymphangiogenesis. They also suggest that in the primary lymphoedema cases, defective lymphangiogenesis may result from reduced ERG availability in the nucleus because of either haploinsufficiency resulting from nonsense-mediated decay or mislocalization.</p>
+      </sec>
+      <sec id="Sec6">
+        <title>Variants in <italic>PMEPA1</italic> result in Loeys&#x2013;Dietz syndrome</title>
+        <p id="Par13">BeviMed identified a dominant genetic association between high-impact variants in <italic>PMEPA1</italic> and the Specific Disease &#x2018;Familial thoracic aortic aneurysm disease&#x2019; (FTAAD). The variant with the highest conditional probability of pathogenicity was an insertion of one cytosine within a seven-cytosine stretch in the last exon of the canonical Ensembl transcript ENST00000341744.8. This variant, which is predicted to induce a p.S209Qfs*3 frameshift, was observed in three FTAAD pedigrees of European ancestry in the 100KGP discovery cohort. We replicated the association in three additional collections of cases. First, the same variant was identified independently in eight affected members of three pedigrees of Japanese ancestry in a separate Japanese patient group. Second, a single-cytosine deletion within the same polycytosine stretch as the previous variant, and encoding p.S209Afs*61, was found in an FTAAD case enrolled in a separate collection of 2,793 participants in the 100KGP Pilot Programme. Lastly, we identified a family in Belgium wherein the affected members carried a 5-bp deletion in the same stretch of polycytosines inducing a frameshift two residues upstream of the other two variants (p.P207Qfs*3).</p>
+        <p id="Par14">All pedigrees exhibited dominant inheritance of aortic aneurysm disease with incomplete penetrance and skeletal features including pectus deformity, scoliosis and arachnodactyly with complete penetrance, which cosegregated with the respective variants in genotyped participants (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>). To assess whether <italic>PMEPA1</italic> families affected by FTAAD form a phenotypically distinct subgroup, we analyzed the Human Phenotype Ontology (HPO) terms assigned to the 593 FTAAD families in both programs of the 100KGP. Using a permutation-based method<sup><xref ref-type="bibr" rid="CR22">22</xref>,<xref ref-type="bibr" rid="CR23">23</xref></sup> based on the semantic similarity measure of Resnik et al.<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>, we found that the four 100KGP <italic>PMEPA1</italic> families were significantly more similar to each other than to other FTAAD families chosen at random (<italic>P</italic>&#x2009;=&#x2009;5.7&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup>). To characterize the <italic>PMEPA1</italic> phenotype in greater detail, we compared the prevalence of each of the HPO terms in the minimal set of terms present in at least three of the four families with the prevalence in the other FTAAD families. We identified four HPO terms related to the musculoskeletal system that were significantly enriched (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>), echoing the phenotypic characteristics of the syndromic aortopathy Loeys&#x2013;Dietz syndrome<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR26">26</xref></sup>.<fig id="Fig3"><label>Fig. 3</label><caption><title>Truncating variants in <italic>PMEPA1</italic> result in Loeys&#x2013;Dietz syndrome.</title><p><bold>a</bold>, Pedigrees for the three probands in the 100KGP (discovery cohort) heterozygous for the frameshift insertion predicting p.S209Qfs*3 and probands from replication cohorts, including one from the 100KGP Pilot Programme heterozygous for the frameshift deletion predicting p.S209Afs*61, three of Japanese ancestry heterozygous for p.S209Qfs*3 and one Belgian pedigree heterozygous for a frameshift deletion encoding p.P207Qfs*3. All variant consequences are shown with respect to the canonical transcript of <italic>PMEPA1</italic>, ENST00000341744.8. <bold>b</bold>, HPO terms present in at least three of the four <italic>PMEPA1</italic> FTAAD families, excluding redundant terms within each level of frequency, alongside their frequency in four <italic>PMEPA1</italic> FTAAD families and the other 589 unexplained FTAAD families. Terms are ordered by <italic>P</italic> values obtained by a Fisher exact test of association between the term&#x2019;s presence in an FTAAD family and whether the family is one of the four <italic>PMEPA1</italic> families. Terms were declared significant (indicated by an asterisk) or not significant (NS) by comparing their Fisher test <italic>P</italic> values and rank with a null distribution of equivalent pairs obtained by permutation (10,000 replicates). For each rank, the <italic>P</italic> value of the term on the fifth percentile was used as an upper bound for declaring an association significant, provided all terms at higher ranks were also significant. The <italic>P</italic> values for each term were as follows: &#x2018;Dolichocephaly&#x2019;, <italic>P</italic>&#x2009;=&#x2009;2.9&#x2009;&#xD7;&#x2009;10<sup>&#x2212;4</sup>; &#x2018;Abnormal axial skeleton morphology&#x2019;, <italic>P</italic>&#x2009;=&#x2009;6.7&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup>; &#x2018;Striae distensae&#x2019;, <italic>P</italic>&#x2009;=&#x2009;0.013; &#x2018;Pes planus&#x2019;, <italic>P</italic>&#x2009;=&#x2009;0.014; &#x2018;Ascending tubular aorta aneurysm&#x2019;, <italic>P</italic>&#x2009;=&#x2009;0.62. <bold>c</bold>, Graph showing <italic>PMEPA1</italic> and genes with high evidence (green) of association with FTAAD in PanelApp. Edges connect genes where the string-db v.11.5<sup><xref ref-type="bibr" rid="CR27">27</xref></sup> confidence score for physical interactions between corresponding proteins was &gt;0.6. Genes known to be associated with Loeys&#x2013;Dietz syndrome are highlighted in blue. <italic>PMEPA1</italic> is highlighted yellow. <bold>d</bold>, Schematic showing the effects of each variant at the cDNA and amino acid level and on the protein product.</p></caption><graphic xlink:href="41591_2023_2211_Fig3_HTML" id="d32e2298"/></fig></p>
+        <p id="Par15">To understand the molecular mechanisms underlying this defect, we examined the protein&#x2013;protein interactions<sup><xref ref-type="bibr" rid="CR27">27</xref></sup> for <italic>PMEPA1</italic> and the complete set of high-confidence genes in the &#x2018;Thoracic aortic aneurysm or dissection&#x2019; PanelApp panel. <italic>PMEPA1</italic> encodes a negative regulator of transforming growth factor-&#x3B2; (TGF&#x3B2;) signaling<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>, a pathway previously implicated in multiple aortopathies, including Loeys&#x2013;Dietz syndrome<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. The genes underlying known forms of Loeys&#x2013;Dietz syndrome encode part of a tightly interacting subgroup of proteins in the TGF&#x3B2; pathway, in which there is a direct interaction between the proteins encoded by <italic>SMAD2</italic>, <italic>SMAD3</italic> and <italic>PMEPA1</italic> (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>). As the two candidate variants occur in the last exon of the transcript, they are likely to evade nonsense-mediated decay<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. However, their truncating effects are predicted to remove a PPxY interaction motif while leaving the SMAD interaction motif intact (Fig. <xref rid="Fig3" ref-type="fig">3d</xref>), possibly affecting binding between PMEPA1 and SMAD2/3 and altering TGF&#x3B2; signaling through a gain-of-function mechanism.</p>
+      </sec>
+      <sec id="Sec7">
+        <title>Variants in <italic>GPR156</italic> lead to recessive congenital hearing loss</title>
+        <p id="Par16">BeviMed identified a recessive genetic association between high-impact variants in <italic>GPR156</italic> and the Specific Disease &#x2018;Congenital hearing impairment&#x2019;. Two high-impact variants in <italic>GPR156</italic> were responsible for the strong evidence of association: a 1-bp insertion predicting p.S207Vfs*113 and a 1-bp insertion predicting p.P718Lfs*86 with respect to the canonical Ensembl transcript ENST00000464295.6. One family contained two affected siblings who were both homozygous for the p.S207Vfs*113 variant inherited from heterozygous parents. In a second family, there were also two affected siblings, in this case compound heterozygous for the same p.S207Vfs*113 variant that was maternally inherited and a different p.P718Lfs*86 variant that was paternal. Using GeneMatcher<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>, we identified a third pedigree from Saudi Arabia with biallelic truncating variants in <italic>GPR156</italic>. This consanguineous pedigree contained four siblings with hearing impairment, all of whom were homozygous for a variant predicting p.S642Afs*162 (Fig. <xref rid="Fig4" ref-type="fig">4a</xref>). The eight affected individuals in these three families all had congenital nonsyndromic bilateral sensorineural hearing loss (see Extended Data Fig. <xref rid="Fig13" ref-type="fig">9</xref> for illustrative audiograms).<fig id="Fig4"><label>Fig. 4</label><caption><title>Loss-of-function variants in <italic>GPR156</italic> give rise to recessive congenital hearing loss.</title><p><bold>a</bold>, Schematic of the three pedigrees with cases homozygous or compound heterozygous for loss-of-function variants in the canonical transcript of <italic>GPR156</italic>, ENST00000464295.6. Blank symbols indicate individuals with an unknown genotype. <bold>b</bold>, Histograms of expression log fold changes for different sets of genes in mouse hair cells compared with surrounding cells: all mouse genes (left) and mouse genes homologous to their human counterparts in the &#x2018;Hearing loss&#x2019; PanelApp panel, stratified by whether they had a stereocilia-related Gene Ontology (GO) term (that is, a term whose name contained &#x2018;stereocilia&#x2019; or &#x2018;stereocilium&#x2019; or the descendant of such a term) (right). The log fold change for <italic>Gpr156</italic> is shown as a horizontal line. <bold>c</bold>, Maximum intensity projections of confocal Z stacks in the organ of Corti and vestibular system of a P10 wild-type mouse immunostained with GPR156 antibody (green) and counterstained with phalloidin (red). Top row, overview of the organ of Corti and vestibular system. Middle and bottom rows, magnified images of outer hair cells and inner hair cells, respectively. No stereociliary bundle staining was observed. The punctate staining observed in the organ of Corti was absent or significantly decreased in the utricle of the vestibular system. Scale bars, 10&#x2009;&#x3BC;m (each image is representative of three replicates). <bold>d</bold>, Schematic showing the effects of each variant at the cDNA and amino acid level and on the protein product. <bold>e</bold>, Exemplar western blot taken from three replicates of GPR156&#x2013;GFP using anti-GPR156 antibody in untransfected Cos7 cells (Cos7); Cos7 cells transfected with the wild-type construct (WT); and Cos7 cells transfected with the constructs containing each of the mutant alleles p.S642Afs*162 (S642), p.P718Lfs*86 (P718) and p.S207Vfs*113 (S207).</p><p><xref rid="MOESM4" ref-type="media">Source data</xref></p></caption><graphic xlink:href="41591_2023_2211_Fig4_HTML" id="d32e2404"/></fig></p>
+        <p id="Par17"><italic>GPR156</italic> encodes probable G protein-coupled receptor 156, which has sequence homology to the class C GABAB receptors<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. Although previously designated as an orphan receptor, <italic>GPR156</italic> has recently been identified as a critical regulator of stereocilia orientation on hair cells of the auditory epithelium and other mechanosensory tissues<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. Its expression is highly restricted to hair cells in the inner ear<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Disruption of stereocilia is a common pathogenic mechanism underlying many human Mendelian hearing loss disorders<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>, and the overexpression of <italic>GPR156</italic> in hair cells relative to surrounding cells was commensurate with the overexpression of the 21 genes currently implicated in hearing impairment having a Gene Ontology term relating to stereocilia (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>). By immunostaining of the Corti and vestibular system from wild-type mice, we found that GPR156 strongly colocalizes with actin at the apical surface of the outer and inner hair cells of the organ of Corti (Fig. <xref rid="Fig4" ref-type="fig">4c</xref>).</p>
+        <p id="Par18">The p.S207Vfs*113 variant is located in the sixth of 10 exons of <italic>GPR156</italic> and therefore, predicts absent expression through nonsense-mediated decay of the <italic>GPR156</italic> mRNA. In contrast, the p.S642Afs*162 and p.P718Lfs*86 variants both occur within the final <italic>GPR156</italic> exon and likely result in expression of abnormal GPR156 with an altered amino acid sequence and premature truncation of the cytoplasmic tail (Fig. <xref rid="Fig4" ref-type="fig">4d</xref>). To determine the effect of the variants on protein expression, we transfected Cos7 cells, which do not express <italic>GPR156</italic> endogenously, with constructs containing cDNAs for wild-type <italic>GPR156</italic> or <italic>GPR156</italic> containing each of the three mutant alleles, tagged with a green fluorescent protein (GFP) reporter. While cells transfected with wild-type sequence expressed GPR156&#x2013;GFP fusion protein robustly, cells transfected with the mutant constructs either did not express the protein appreciably or exhibited markedly reduced expression, suggesting that all three of the truncated proteins are degraded (Fig. <xref rid="Fig4" ref-type="fig">4e</xref>). These data suggest that the biallelic chain truncating variants in <italic>GPR156</italic> cause a congenital hearing loss by preventing expression of GPR156 protein, thereby disrupting stereocilia formation in the auditory epithelium.</p>
+      </sec>
+    </sec>
+    <sec id="Sec8" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par19">The standardization of GS within a health care system, together with powerful frameworks for genetic and phenotypic data processing and statistical analysis, promises to advance the resolution of the remaining unknown etiologies of rare diseases. We have developed a lightweight and easily deployable RDB, the Rareservoir, for genetic analysis of rare diseases using approaches such as BeviMed. In one unified analysis, we identified 260 associations, of which 241 had been published previously in a body of work spanning several decades of genetics research. Our results give an upper bound on the false discovery rate of 7.3%. In contrast, a recent analysis of 57,000 samples in the 100KGP reported 249 known and 579 previously unidentified associations<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>, giving an upper bound on the false discovery rate of 70%, which suggests that our analytical approach has a greater specificity for a given sensitivity. The associations spanned 86 disease classes across a wide range of organ systems. Interestingly, only 64% of the variants contributing substantially to the known associations were present in the table of clinically reported variants available at the time of this study. This suggests that, as cohorts grow larger, the results of statistical inference could help guide the clinical reporting process. The case sets we used in our genetic association analysis were based on the formal disease classifications used by the 100KGP. Some of the case sets, such as &#x2018;Intellectual disability&#x2019; (5,529 probands), are particularly large and likely to be highly genetically heterogeneous, potentially limiting the power of our analyses. Careful partitioning of heterogeneous case sets using individual-level HPO terms<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> has the potential to boost power. Of the 19 previously unidentified associations, we shortlisted, replicated and validated three. These three etiologies involve genes that had not previously been implicated in any of these human diseases. The remaining 16 associations include further plausible hypotheses. For example, <italic>LRRC7</italic>, which we identified to be associated with intellectual disability, encodes a brain-specific protein in postsynaptic densities<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>, and LRRC7-deficient mice exhibit a neurobehavioral phenotype<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. <italic>USP33</italic>, which we found to be associated with early-onset hypertension, encodes a deubiquitinating enzyme implicated in regulating expression of the &#x3B2;2-adrenergic receptor regulation<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. These and other candidates will require replication and validation before they can be considered causative genes.</p>
+      <p id="Par20">The present study has several limitations. First, approximately 82% of the participants in the 100KGP are of European ancestry. While this percentage is in line with the proportion of residents in England and Wales reporting their ethnic group as white in the 2011 UK census (86%), its large magnitude constrains power to identify causative variants specific to other ancestry groups. Second, of the 269 case sets analyzed, 28 contained fewer than five probands, limiting power to identify the causes of the corresponding disease classes and highlighting the need for continued enrollment of patients with ultra-rare disorders. Third, we have only considered SNVs and indels in coding genes. The exploration of structural variants and of rare variation in noncoding genes and in regulatory elements of the genome may help identify further etiologies. Lastly, we focused our attention on monogenic models of rare disorders, even though the genetic etiologies of certain rare diseases may be polygenic. In addition, important variation in clinical presentation of monogenic disorders may be explained by polygenic effects. These limitations point toward multiple promising avenues of future research to uncover the remaining unknown genetic determinants of rare diseases.</p>
+    </sec>
+    <sec id="Sec9">
+      <title>Methods</title>
+      <sec id="Sec10">
+        <title>Motivation for developing a sparse RDB</title>
+        <p id="Par21">Computational approaches for discovering the etiologies of rare diseases typically depend on the analysis of a heterogeneous set of files, each of which can be very large and follow a distinct convention. Genotypes, for example, are ordinarily stored in VCFs containing data for one sample or for multiple samples. In the latter case, the data are usually distributed in files covering many different &#x2018;chunks&#x2019; of the reference genome. Variant-level information, such as consequence predictions or pathogenicity scores, is typically encoded in strings that require extensive parsing to decode, either from within the VCFs containing the genotypes or in separate files. Modifying genotype or annotation files (for example, to incorporate newly generated data) requires rewriting files in their entirety. Phenotype data, pedigree data and the results of statistical inference are stored in a further set of files. Consequently, analyses are often burdensome to conduct and prone to error. Frameworks, such as Hail<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> and OpenCGA<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, afford greater flexibility, but they depend on the centrally organized deployment of a distributed storage system, hindering usability and portability.</p>
+        <p id="Par22">RDBs are widely used, mature technologies, well known for their speed, reliability, flexibility, structure and extensibility. In the context of rare diseases, an RDB can in principle render the modification, combination and addition of data on samples, variants, genes and other entities efficient, reliable and straightforward to implement using a single query language. Unfortunately, the performance of RDBs degrades substantially when the number of records in a table reaches several billion, and the number of genotypes in a cohort the size of the 100KGP easily surpasses this threshold. However, the MAFs of pathogenic variants with strong effects on rare disease risk are typically kept below 1/1,000 by negative selection, and the proportion of nonhomozygous reference genotypes for variants within that MAF stratum is only about 1% of the total (Extended Data Fig. <xref rid="Fig5" ref-type="fig">1</xref>). Consequently, it is possible to construct a compact RDB that includes virtually all the pathogenic variants even in a large cohort such as the 100KGP. This provides an opportunity for exploiting the benefits of a single unified RDB containing the nonhomozygous genotypes of rare variants upon which to conduct the entirety of the etiological discovery process. Furthermore, it provides a natural foundation for developing web applications for the multidisciplinary review of genetic, phenotypic, statistical and other data.</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Rareservoir</title>
+        <p id="Par23">The Rareservoir is an RDB schema and a complementary software package rsvr for working with rare disease data. The database stores data including rare variant genotypes, variant annotations, phenotypes, sample information and pedigrees (Extended Data Fig. <xref rid="Fig5" ref-type="fig">1</xref>), but it can be extended arbitrarily. A Rareservoir is built through a series of steps from a set of input data and parameters (Extended Data Fig. <xref rid="Fig7" ref-type="fig">3</xref>). The &#x2018;bcftools&#x2019; program<sup><xref ref-type="bibr" rid="CR47">47</xref></sup> extracts (&#x2018;bcftools view&#x2019;) and normalizes (&#x2018;bcftools norm&#x2019;) variants from either a set of single-sample genome variant call format files (gVCFs) or from a merged VCF. In all steps of the procedure, variants are encoded as RSVR IDs using the &#x2018;rsvr enc&#x2019; tool. Merged VCFs typically contain cohort-wide variant quality information in the FILTER column, which can be used to select variants for processing. However, this is not readily obtained from single gVCFs. To address this, we developed the &#x2018;rsvr depth&#x2019; tool, which computes variant quality pass rates at all positions in the genome based on a random subsample of gVCFs. If the input is a merged VCF, an internal (that is, within-VCF) allele frequency threshold is applied with bcftools to filter out internally common variants. If the input is a set of single-sample gVCFs, internally common variants are filtered out in two steps, for computational efficiency. First, a set of variants that are statistically almost certain to be common based on a random sample of gVCFs is identified&#x2014;by default, the variants for which a one-sided binomial test under the null hypothesis that the MAF&#x2009;=&#x2009;0.01 is rejected at a significance level of 10<sup>&#x2212;6</sup> (done using the &#x2018;rsvr tabulate&#x2019; tool). Second, all gVCFs are read sequentially, filtering out the variants identified in the previous step (using the &#x2018;rsvr mix&#x2019; tool) and those for which the pass rates identified with &#x2018;rsvr depth&#x2019; do not meet the threshold. Retained genotypes are then loaded into a temporary genotype table in the database in order to apply the final internal allele frequency filter by executing an SQL &#x2018;DELETE&#x2019; statement. These variants are then annotated with gnomAD &#x2018;probabilistic minor allele frequency&#x2019; (PMAF) scores<sup><xref ref-type="bibr" rid="CR3">3</xref></sup> using the &#x2018;rsvr pmaf&#x2019; tool. The PMAF score is calculated with respect to a given allele frequency threshold <italic>t</italic> by evaluating a binomial test (at a significance threshold of 0.05) on the observed frequency of the variant under the null hypothesis that the variant has an allele frequency of <italic>t</italic>. If in any gnomAD population, the null is rejected for <italic>t</italic>&#x2009;=&#x2009;0.001 and the allele count is at least two, the score is set to zero. If the null is rejected for <italic>t</italic>&#x2009;=&#x2009;0.0001, the score is set to one. If the null is not rejected, the score is set to two. Finally, if the variant is absent from gnomAD, the score is set to three. For the nonpseudoautosomal dominant regions of chromosome X, only allele counts for males are used in calculations. Variants are then additionally annotated with their CADD phred scores using the &#x2018;rsvr ann&#x2019; program and loaded into the VARIANT table. At this point, variants in the VARIANT and GENOTYPE table that have a PMAF score of zero may be deleted because they are unlikely to be involved in rare diseases. We then annotate the retained variants with predicted transcript consequences for a given set of transcripts specified in a Gene Transfer Format file. The 100KGP Rareservoir uses Ensembl v.104 canonical transcripts with a protein-coding biotype, of which &gt;90% are MANE (Matched Annotation from National Center for Biotechnology Information (NCBI) and European Bioinformatics Institute (EBI))<sup><xref ref-type="bibr" rid="CR48">48</xref></sup> transcripts. The &#x2018;rsvr seqfx&#x2019; program determines a set of SO terms for each interacting transcript&#x2013;variant pair and encodes them as a CSQ ID, which is added to the CONSEQUENCE table. This table can also hold Loss-Of-Function Transcript Effect Estimator (LOFTEE) scores<sup><xref ref-type="bibr" rid="CR10">10</xref></sup> corresponding to a transcript&#x2013;variant pair. Note that, as LOFTEE scores on the Genomics England Research Environment correspond to Ensembl v.99 transcripts, we mapped Ensembl v.104 canonical transcripts to the most similar v.99 transcripts having an identical coding sequence in order to obtain the LOFTEE scores for the 100KGP Rareservoir, finding a match for &gt;98% of transcripts. The contents of the Gene Transfer Format file are also imported into the database to create tables of transcript features (FEATURE), transcripts (TX) and genes (GENE). Optionally, VARIANT, GENOTYPE and CONSEQUENCE may be filtered for RSVR IDs that have CSQ IDs meeting particular criteria: for instance, to retain only variants with protein-coding consequences. The SAMPLE table of metadata and genetic statistics for each sample represented in the input VCF(s) must then be added to the database, including mandatory columns containing the ID, sex, family and an indicator of inclusion in the maximal unrelated set of samples in the database. The VARIANT, GENOTYPE and CONSEQUENCE tables are indexed by RSVR ID to support fast lookups by genomic location. The SAMPLE table and GENOTYPE table are indexed by sample ID, allowing fast lookups by sample. The CONSEQUENCE, TX and GENE tables are indexed by transcript and gene ID, allowing fast lookups of variants based on gene/transcript-specific consequences. If sample phenotypes have been encoded using phenotypic terms (for example, International Classification of Diseases 10 (ICD10) codes or HPO terms), terms from the relevant coding systems can be added to a generic PHENOTYPE table mapping code IDs to descriptions, and codes assigned to samples can be added to the SAMPLE_PHENOTYPE table. Disease labels may be added to the CASE_SET table. The majority of the compute time required for building the database is taken by reading the genotype data from the input VCFs, which may be executed in parallel over separate regions against a merged VCF or over single gVCFs. The rsvr tool, implemented in C++, executes rapidly, with &#x2018;rsvr seqfx&#x2019; capable of assigning CSQ IDs for all Ensembl v.104 canonical transcripts to all variants (over 685&#x2009;M) in gnomAD v.3.0 in under 40&#x2009;min on a single core. The 100KGP Rareservoir, which is stored in an SQLite database, returns complex gene-specific queries in under 1&#x2009;s. For example, (1) a table with 628 rows containing the moderate- and high-impact variants with a PMAF score &#x2265;1 in <italic>TTN</italic> along with the corresponding consequence predictions and CADD scores takes 0.57&#x2009;s; (2) a table with 1,498 rows containing, for each variant, the samples and genotypes for individuals who carry an alternate allele takes 0.61&#x2009;s; and (3) a classification for each of the 77,539 participants into proband with the Specific Disease &#x2018;Dilated cardiomyopathy&#x2019;, relative of such a proband, unrelated control, or relative of a control takes 0.65&#x2009;s. Specific details on implementation of the workflow, code for encoding data as SQL statements compatible with Rareservoir and the mapping between bits in the 64-bit CSQ ID and each SO term assigned by rsvr seqfx can be found in the rsvr software package (see the code availability). Software packages rsvr 1.0, bcftools 1.9 and perl 5 were used to build the 100KGP Rareservoir.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>Encoding RSVR IDs</title>
+        <p id="Par24">SNVs and indels may be encoded as 64-bit integers called RSVR IDs. To compute an RSVR ID for a given variant, the following expression is evaluated:<disp-formula id="Equa"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c \times 2^{58} + p \times 2^{30} + \left| r \right| \times 2^{24} + \left| a \right| \times 2^{18} + \mathop {\sum}\limits_{{\mathrm{i}} = 1}^{\left| A \right|} {A_{\mathrm{i}} \times 4^{{\mathrm{i}} - 1}} ,$$\end{document}</tex-math><mml:math id="M2"><mml:mrow><mml:mi>c</mml:mi><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>58</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mi>p</mml:mi><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>30</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mfenced close="&#x2223;" open="&#x2223;"><mml:mrow><mml:mi>r</mml:mi></mml:mrow></mml:mfenced><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>24</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mfenced close="&#x2223;" open="&#x2223;"><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:mfenced><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>18</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:munderover accent="false" accentunder="false"><mml:mrow><mml:mo>&#x2211;</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mfenced close="&#x2223;" open="&#x2223;"><mml:mrow><mml:mi>A</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="41591_2023_2211_Article_Equa.gif" position="anchor"/></alternatives></disp-formula>where <italic>c</italic> is the chromosome number (using 23, 24 and 25, respectively, to represent chromosomes X, Y and MT); <italic>p</italic> is the position; and |<italic>r</italic>| and |<italic>a</italic>| are the lengths of the reference and alternate alleles, respectively. <italic>A</italic> is a sequence identical to the alternate allele, <italic>a</italic>, when its length is less than 10 and otherwise, equal to the first five followed by the last four elements of <italic>a</italic>. In the summation, nucleotides are assigned values A&#x2009;=&#x2009;0, C&#x2009;=&#x2009;1, G&#x2009;=&#x2009;2 and T&#x2009;=&#x2009;3. The expression evaluates to integers that can be represented using 63 bits, setting the most significant bit to zero when encoding as 64-bit integers. The chromosome, position, reference, alternate allele lengths and alternate allele bases are thereby encoded, respectively, by the subsequent 5, 28, 6, 6 and 18 bits (with 2 bits per base for the alternate allele). This procedure and its inverse are implemented in the &#x2018;rsvr enc&#x2019; and &#x2018;rsvr dec&#x2019; programs, respectively. The reference and alternate alleles of input variants are first normalized by removing any redundant identical sequence from the starts and then, the ends. The proportion of variants in gnomAD 3.0 weighted by allele count that can be encoded losslessly is 99.3%, while 99.8% can be represented by a distinct RSVR ID. The full variant information corresponding to any encountered ambiguous RSVR ID may be stored in full in an additional table. Structural variants that can be represented by a position and length may also be encoded using distinct 64-bit RSVR IDs alongside SNVs and indels by setting the most significant bit to one and subsequently, encoding the type of structural variant using 2 bits (deletion 0, duplication 1, inversion 2, insertion 3), the chromosome using 5 bits (as done for SNVs and indels), and the start and length consecutively using 28 bits.</p>
+      </sec>
+      <sec id="Sec13">
+        <title>Genetic association analysis of 100KGP data</title>
+        <p id="Par25">We constructed a Rareservoir in the Genomics England Research Environment containing the PASSing<sup><xref ref-type="bibr" rid="CR49">49</xref></sup> variants in the merged VCF of 77,539 consented participants in the 100KGP Rare Diseases Programme. This Rareservoir only included variants with a PMAF&#x2009;&gt;&#x2009;0 according to GnomAD v.3.0, an internal MAF&#x2009;&lt;&#x2009;0.002 and at least one predicted consequence on a canonical transcript in Ensembl v.104. Variants with a greater MAF are unlikely to be highly penetrant for diseases eligible for inclusion in the 100KGP and are likely to have, at most, small effects on risk, making them challenging to validate. Variants with a median genotype quality &lt;35 and SNVs with a CADD Phred score &lt;10 were also excluded from the analyses.</p>
+        <p id="Par26">For each of the 269 rare disease classes (Extended Data Figs. <xref rid="Fig9" ref-type="fig">5</xref> and <xref rid="Fig10" ref-type="fig">6</xref>), we applied the BeviMed<sup><xref ref-type="bibr" rid="CR9">9</xref></sup> association test to rare variants extracted from the Rareservoir database in each of the 19,663 canonical transcripts belonging to a gene with a &#x2018;protein_coding&#x2019; biotype. The analysis was carried out using R 3.6.2, making use of functionality from packages Matrix 1.2&#x2013;18, dplyr 0.8.5, bit64 0.9&#x2013;7, bit 1.1&#x2013;14, DBI 1.1.0, RSQLite 2.1.4 and BeviMed 5.7. The case set for a given disease class and gene was constructed by selecting one case from each pedigree containing at least one person affected with the disease class. For the purposes of the association analysis, participants were labeled &#x2018;explained&#x2019; by a given gene if they had variants in that gene classified as &#x2018;pathogenic_variant&#x2019; or &#x2018;likely_pathogenic_variant&#x2019; in the &#x2018;gmc_exit_questionnaire&#x2019; table in the Genomics England Research Environment. To boost power, we used this information to reassign cases that were explained by variants in a different gene to the control group.</p>
+        <p id="Par27">Using BeviMed, we performed a Bayesian comparison of a baseline model of no association and each of six association models defined by an MOI and a class of etiological variant.<list list-type="order"><list-item><p id="Par28">No association (prior probability 0.99)</p></list-item><list-item><p id="Par29">Dominant association with &#x2018;high&#x2019;-impact variants having a PMAF&#x2009;&#x2265;&#x2009;2 (that is, corresponding to a target MAF&#x2009;&lt;&#x2009;0.01%; prior probability 0.002475)</p></list-item><list-item><p id="Par30">Dominant association with &#x2018;moderate&#x2019;-impact variants having a PMAF&#x2009;&#x2265;&#x2009;2 (prior probability 0.002475)</p></list-item><list-item><p id="Par31">Dominant association with &#x2018;5&#x2032; UTR&#x2019; variants having a PMAF&#x2009;&#x2265;&#x2009;2 (prior probability 0.00005)</p></list-item><list-item><p id="Par32">Recessive association with &#x2018;high&#x2019;-impact variants having a PMAF&#x2009;&#x2265;&#x2009;1 (that is, corresponding to a target MAF&#x2009;&lt;&#x2009;0.1%; prior probability 0.002475)</p></list-item><list-item><p id="Par33">Recessive association with &#x2018;moderate&#x2019;-impact variants having a PMAF&#x2009;&#x2265;&#x2009;1 (prior probability 0.002475)</p></list-item><list-item><p id="Par34">Recessive association with 5&#x2032; UTR variants having a PMAF&#x2009;&#x2265;&#x2009;1 (prior probability 0.00005)</p></list-item></list></p>
+        <p id="Par35">Thus, the overall prior probability of association was 0.01, and there was an equal prior probability of dominant and recessive inheritance. The PPA was the sum of the posterior probabilities of models 2&#x2013;7. We imposed a stricter PMAF threshold under a dominant MOI than under a recessive MOI because ceteris paribus, dominant variants are under stronger negative selection than recessive variants. The three groups of variants were selected as follows.<list list-type="bullet"><list-item><p id="Par36">5&#x2032; UTR variants: those with a 5_prime_UTR_variant consequence</p></list-item><list-item><p id="Par37">High-impact variants: those with any consequence amongst start_lost, stop_lost, frameshift_variant, stop_gained, splice_donor_variant or splice_acceptor_variant, excluding variants with a &#x2018;low-confidence&#x2019; LOFTEE score<sup><xref ref-type="bibr" rid="CR10">10</xref></sup></p></list-item><list-item><p id="Par38">Moderate-impact variants: those with any consequence amongst start_lost, stop_lost, frameshift_variant, stop_gained, splice_donor_variant or splice_acceptor_variant, missense_variant or inframe_deletion</p></list-item></list></p>
+        <p id="Par39">The rationale for embedding variants from the high-impact class in the moderate-impact class is that both types of variant are capable of inducing a loss of function. The prior on the probability that a modeled rare variant is pathogenic, conditional on either the association model mediated by 5&#x2032; UTR variants or the association model mediated by moderate-impact variants, was set to Beta(2,8). This encodes a prior conditional expectation that 20% of rare variants are pathogenic, which is well suited to missense and 5&#x2032; UTR variants. However, we specified a distribution with a greater mean for the high-impact models. Specifically, the prior on the probability that a modeled high-impact variant is pathogenic was set to Beta(3,1), which reflects a prior conditional expectation that 75% of rare variants are pathogenic because loss-of-function variants tend to be functionally equivalent to each other. BeviMed reports the posterior probability that each variant is pathogenic conditional on the MOI and the class of etiological variant. The methodology is described in further detail in the original BeviMed publication<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>.</p>
+        <p id="Par40">We applied the following postprocessing of BeviMed results with a PPA&#x2009;&gt;&#x2009;0.95.<list list-type="bullet"><list-item><p id="Par41">We reran BeviMed including all samples (that is, with relatives of cases and controls). Associations for which the analysis with all samples caused the PPA to fall below 0.9 were filtered out due to conflicting evidence for the association within families.</p></list-item><list-item><p id="Par42">We reran BeviMed after removing variants absent from affected relatives of the cases. Associations for which this removal caused the PPA to drop below 0.25 were filtered out because they depended on variants that were not shared by affected cases within families.</p></list-item><list-item><p id="Par43">To guard against false positives due to incorrect pedigree data, population structure or cryptic relatedness, we applied the following algorithm. We obtained the distribution of the number of rare variants in the Rareservoir shared by pairs of individuals within each assigned ancestry in the 100KGP. The top percentile in each of these distributions was used to indicate potential relatedness between participants in the same population. We reran BeviMed after removing cases so as to ensure that no more than one case from any set of potentially related cases sharing a variant was included in the analysis. Associations for which this analysis caused the PPA to fall below 0.25 were filtered out.</p></list-item></list></p>
+        <p id="Par44">To account for correlation between case sets, for each gene, we removed all but the most strongly associated disease class within each disease group before reporting the 260 associations remaining. Without the postprocessing, the number of reported associations would have been 302. Conditional on the modal model underlying each of the 260 associations, we recorded the variants with a posterior probability of pathogenicity &gt;0.8 accounting for at least one case in the 100KGP.</p>
+      </sec>
+      <sec id="Sec14">
+        <title>PanelApp annotation</title>
+        <p id="Par45">Significant associations were colored according to PanelApp<sup><xref ref-type="bibr" rid="CR14">14</xref></sup> (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>) evidence levels for panel&#x2013;gene relations (green for high evidence, amber for moderate evidence and red for low evidence) for panels of type &#x2018;Rare Disease 100K&#x2019;, which are organized hierarchically by Disease Sub Group and Disease Group, or of type &#x2018;GMS Rare Disease&#x2019;. Given an association between a gene and a case set (corresponding either to a Specific Disease or to a Disease Sub Group), we searched for panels that contained the gene and had the same name as the case set (ignoring case). If such a match was not found, we searched for panels that contained the gene and that belonged to a Disease Sub Group with the same name as the Disease Sub Group of the case set. When this matching rule generated multiple matches, we selected the panel(s) with the highest evidence. If multiple panels still remained, we selected the panel with the smallest number of genes. Associations for which no matching panel in PanelApp could be found were inspected manually to assess whether PanelApp contained an alternative suitable panel (marked with an asterisk in Fig. <xref rid="Fig1" ref-type="fig">1b</xref>).</p>
+      </sec>
+      <sec id="Sec15">
+        <title>Shortlisting previously unidentified genetic associations for validation</title>
+        <p id="Par46">Several sources of independent evidence were used to shortlist significant associations for validation. For each source, a score of one was awarded if the evidence was supportive and zero otherwise. Scores were then added over the different sources and used to rank the associations. Associations for which at least three sources of evidence were supportive were taken forward for further investigation. The sources of evidence and qualifying criteria for being considered supportive are listed below. Note that here we refer to variants that had a probability of pathogenicity &gt;0.8 conditional on the modal model as &#x2018;probably pathogenic&#x2019;.<list list-type="bullet"><list-item><p id="Par47">Counting cosegregating pedigree members. The pedigrees harboring pathogenic configurations of probably pathogenic alleles were checked for cosegregation between genotype and affection status. This evidence counted as supportive for associations for which all such pedigrees demonstrated cosegregation and there were at least three additional relatives who had not been included in the association analysis but for whom there was cosegregation. Note that Binary Alignment and Map (BAM) files for the affected members of pedigrees who were called homozygous reference for probably pathogenic variants were checked for evidence of mosaicism to guard against the possibility that they were falsely portraying a lack of cosegregation.</p></list-item><list-item><p id="Par48">pLI and <italic>Z</italic> scores. pLI and <italic>Z</italic> scores for depletion of missense variants were obtained from the gnomAD v.2.2.1 browser<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. pLI&#x2009;&gt;&#x2009;0.9 for associations in which high-impact variants were most strongly associated was counted as supportive, whilst <italic>Z</italic> scores &gt;2 for associations in which moderate-impact variants were most strongly associated were counted as supportive.</p></list-item><list-item><p id="Par49">Recessive association. Population genetic metrics of purifying selection (pLI scores and <italic>Z</italic> scores) are sensitive to depletion of high-impact variants and missense variants, respectively. They are, therefore, useful measures to corroborate dominant associations. However, these metrics have low sensitivity to identify the signatures of selection against recessive diseases because isolated pathogenic variants in heterozygous form do not lead to a reduction in reproductive fitness. To avoid disadvantaging recessive associations identified by BeviMed, they were assigned a contribution of one point to the score.</p></list-item><list-item><p id="Par50">Literature review. A comprehensive literature review assessing the gene&#x2019;s role (if any) in biological processes relevant to the disease, other diseases and a survey of model organisms was undertaken and determined to be either supportive or not.</p></list-item></list></p>
+      </sec>
+      <sec id="Sec16">
+        <title><italic>ERG</italic>: primary endothelial cell culture</title>
+        <p id="Par51">Single-donor primary HDLECs (Promocell) were cultured in Endothelial Cell Growth Medium MV2 (Promocell). Pooled donor HUVECs (Lonza) were grown in Endothelial Cell Growth Media-2 (Lonza). HUVECs and HDLECs were grown on 1% (vol/vol) gelatin and used between passages 3 and 5.</p>
+      </sec>
+      <sec id="Sec17">
+        <title><italic>ERG</italic>: real-time PCR</title>
+        <p id="Par52">HUVECs and HDLECs were grown to confluency in a pregelatinized six-well dish. Total RNA was isolated using the RNeasy Mini Kit (Qiagen), and 1&#x2009;&#xB5;g of total RNA was transcribed into cDNA using Superscript III Reverse Transcriptase (Thermo Fisher Scientific). Quantitative real-time PCR was performed using PerfCTa SYBR Green FastMix (Quanta Biosciences) on a Bio-Rad CFX96 System. Gene expression values of ERG in HUVECs and HDLECs were normalized to GAPDH expression and compared using the &#x394;&#x394;C<sub>T</sub> method. The following oligonucleotides were used: ERG, 5&#x2032;-GGAGTGGGCGGTGAAAGA-3&#x2032; and 5&#x2032;-AAGGATGTCGGCGTTGTAGC-3&#x2032;; GAPDH, 5&#x2032;-CAAGGTCATCCATGACAACTTTG-3&#x2032; and 5&#x2032;-GGGCCATCCACAGTCTTCTG-3&#x2032;.</p>
+      </sec>
+      <sec id="Sec18">
+        <title><italic>ERG</italic>: immunoblotting analysis</title>
+        <p id="Par53">Immunoblotting was performed according to standard conditions. Proteins were labeled with the following primary antibodies: rabbit anti-human ERG antibody (1:1,000; ab133264; Abcam) and mouse anti-human GAPDH (1:10,000; MAB374; Millipore). Primary antibodies were detected using fluorescently labeled secondary antibodies: goat anti-rabbit IgG DyLight 680 and goat anti-mouse IgG Dylight 800 (Thermo Scientific). Detection of fluorescence intensity was performed using an Odyssey CLx imaging system (Li-COR Biosciences, Lincoln) and Odyssey v.4 software.</p>
+      </sec>
+      <sec id="Sec19">
+        <title><italic>ERG</italic>: immunofluorescence analysis of endothelial cells and mouse tissues</title>
+        <p id="Par54">Confluent cultures of HUVECs and HDLECs were fixed with 4% (wt/vol) paraformaldehyde for 15&#x2009;min and permeabilized with 0.5% (vol/vol) Triton X-100 before incubation with 3% BSA (wt/vol) in phosphate buffered saline (PBS) containing the following primary antibodies: goat anti-human PROX1 antibody (1:100; AF2727; R&amp;D Systems), rabbit anti-human ERG antibody (1:100; ab92513; Abcam) and mouse anti-human VE-cadherin (1:100; 555661; BD Biosciences). Secondary antibody incubation was carried out in 3% BSA (wt/vol) in PBS using the following antibodies: donkey anti-goat IgG Alexa Fluor-488 (1:1,000; A-11055), donkey anti-rabbit IgG Alexa Fluor-555 (1:1,000; A-31572) and donkey anti-mouse Alexa Fluor-594 (1:1,000; A-21203). All secondary antibodies were from Thermo Fisher Scientific. Nuclei were visualized using DAPI (Sigma-Aldrich). Confocal microscopy was carried out on a Carl Zeiss LSM 780 confocal laser scanning microscope with Zen 3.2 software. All animal experiments were conducted with ethical approval from Imperial College London under UK Home Office Project Licence PEDBB1586 in compliance with the UK Animals (Scientific Procedures) Act of 1986. Ear tissue was collected from euthanized 3-week-old male and female C57BL/6J mice and fixed in 4% (wt/vol) paraformaldehyde at room temperature for 2&#x2009;h. Tissue was then washed with PBS followed by a blocking and permeabilization step using 3% (wt/vol) milk in phosphate-buffered saline solution containing 0.3% (vol/vol) Triton X-100 (PBST) for 1&#x2009;h at room temperature. The following primary antibodies were used for immunofluorescence staining: goat anti-human PROX1 antibody (1:100; AF2727; R&amp;D Systems) and rabbit anti-human ERG antibody (1:100; ab92513; Abcam). Primary antibodies were incubated at 4&#x2009;&#xB0;C overnight in 3% (wt/vol) milk in PBST. The following day, tissues were washed three times with PBST over the course of 2&#x2009;h at room temperature. Tissues were incubated with secondary antibodies at room temperature for 2&#x2009;h in 3% milk (wt/vol) in PBST. Primary antibodies were detected using fluorescently labeled secondary antibodies: donkey anti-goat IgG Alexa Fluor-488 (1:400; A-11055; Thermo Fisher Scientific) and donkey anti-rabbit IgG Alexa Fluor-555 (A-31572; Thermo Fisher Scientific). Stained samples were mounted onto glass slides using Fluoromount G (Thermo Fisher Scientific). Images were acquired using a Zeiss LSM 780 confocal laser scanning microscope with Zen v.3.2 software. All confocal images represent maximum intensity projection of Z stacks of single tiles.</p>
+      </sec>
+      <sec id="Sec20">
+        <title><italic>ERG</italic>: subcloning and overexpression in HEK293 cells</title>
+        <p id="Par55">We subcloned <italic>ERG</italic> (ENST00000288319.12) from HUVECs into the mammalian expression vector pcDNA3.1 (Thermo Fisher). <italic>ERG</italic> variants were generated by site-directed mutagenesis using the Quikchange Lightning kit (Agilent) using the wild-type <italic>ERG</italic> cDNA as the template. Expression of wild-type and mutant <italic>ERG</italic> was carried out using polyethylenimine (Sigma-Aldrich) transfection reagent in HEK293 cells grown in Dulbecco&#x2019;s Modified Eagle Medium (DMEM) (Thermo Fisher) with 10% (vol/vol) FBS. After 24&#x2009;h, cells were fixed with 4% (wt/vol) paraformaldehyde for 15&#x2009;min and permeabilized with 0.5% (vol/vol) Triton X-100 before incubation with 3% BSA (wt/vol) in PBS containing mouse monoclonal anti-ERG antibody (1:100; sc-376293; Santa Cruz Biotechnology). Secondary antibody incubation was carried out in 3% BSA (wt/vol) in PBS using donkey anti-mouse Alexa Fluor-488 (1:1,000; A-21202; Thermo Fisher). Nuclei were visualized using DAPI (Sigma-Aldrich). Confocal microscopy was carried out on a Carl Zeiss LSM780 confocal laser scanning microscope with Zen 3.2 software.</p>
+      </sec>
+      <sec id="Sec21">
+        <title><italic>ERG</italic>: estimation of nuclear and nonnuclear ERG in HEK293 cells</title>
+        <p id="Par56">Each image was read into a pair of channel-specific 1,024&#x2009;&#xD7;&#x2009;1,024 matrices in R v.4.2.1 using the readCzi function from the readCzi R package v.0.2.0. A pixel was declared to contain a nuclear region if the intensity in the blue channel exceeded 60% of the 95th percentile of blue intensities across all pixels above background (identified as exceeding 1.35&#x2009;&#xD7;&#x2009;10<sup>&#x2212;2</sup> by visual inspection of bimodal intensity histograms). A pixel was declared to contain ERG if the intensity in the green channel exceeded 30% of the 95th percentile of the green intensities within the pixels previously declared to be nuclear. To fill in intranuclear gaps, any nonnuclear pixels adjacent to at least five nuclear pixels were declared nuclear. The estimated proportion of ERG that was cytosolic in an image was set to the number of ERG pixels that did not overlap nuclear pixels divided by the number of ERG pixels.</p>
+      </sec>
+      <sec id="Sec22">
+        <title><italic>GPR156</italic>: western blots</title>
+        <p id="Par57">We subcloned <italic>GPR156</italic> from human brain cDNA into EGFP-N2 vector. The three mutant <italic>GPR156</italic> constructs were generated by mutagenesis using the QuickChange kit (Stratagene) and wild-type GPR156&#x2013;GFP as a template. For expression analysis, the wild type and mutant constructs were transfected in COS7 cells grown in DMEM (Gibco) with 10% FBS. Transfections were performed with Lipofectamine 2000 reagent (Life Technologies). Cells were harvested 48&#x2009;h after transfection; lysed in buffer containing 1% 3-[(3-cholamidopropyl)dimethylammonio]-1-propane sulfonate (CHAPS), 100&#x2009;mM NaCl and 25&#x2009;mM N-2-hydroxyethylpiperazine-N-2-ethane sulfonic acid (HEPES), pH&#x2009;7.4; and clarified by centrifugation at 18,407<italic>g</italic>. Lysates (20&#x2009;&#x3BC;g) were run on a 4&#x2013;20% sodium dodecyl sulfate&#x2013;polyacrylamide gel electrophoresis (SDS-PAGE) gel. The membrane was blocked with 5% milk, incubated with anti-GPR156 (1:200) and developed with horseradish peroxidase (HRP)-conjugated secondary (sheep anti-rabbit) antibody (1:1,000). Comparable loading was checked by stripping and reprobing the blots with anti-GAPDH (1:500) antibody (Santa Cruz Biotechnology).</p>
+      </sec>
+      <sec id="Sec23">
+        <title><italic>GPR156</italic>: whole-mount immunostaining of GPR156 in mouse inner ears</title>
+        <p id="Par58">All the animal work was approved by the University of Maryland, Baltimore Institutional Animal Care and use Committee (IACUC 420002). Inner ears were dissected from C57BL/6J mice with a postnatal age of 10 days and fixed in 4% paraformaldehyde in PBS overnight. For whole-mount immunostaining, the cochleae were microdissected and were subjected to blocking for 1&#x2009;h with 10% normal goat serum in PBS containing 0.25% Triton X-100, followed by overnight incubation at 4&#x2009;&#xB0;C with anti-GPR156 antibody (1:200; PA5-23857; Thermo Fisher) in 3% normal goat serum with PBS. F-actin was decorated using phalloidin (1:300). Confocal images were acquired from a Zeiss LSM710 confocal microscope, and images were processed using ImageJ v.1.53t software.</p>
+      </sec>
+      <sec id="Sec24">
+        <title>Ethics</title>
+        <p id="Par59">The 100,000 Genomes project was approved by East of England&#x2013;Cambridge Central Research Ethics Committee ref:20/EE/0035. Only participants who provided written informed consent for their data to be used for research were included in the analyses. The study at the University of Maryland was approved by the institutional review board (RAC no. 2100001), and written informed consent was obtained by clinicians at King Faisal Hospital in Saudi Arabia from the participating individuals. The study of the Japanese ancestry pedigrees bearing <italic>PMEPA1</italic> truncating alleles was approved by the Institutional Review Board of the National Cerebral and Cardiovascular Centre (M14-020) and Sakakibara Heart Institute (16&#x2013;035), and written informed consent was obtained from the participating individuals.</p>
+      </sec>
+      <sec id="Sec25">
+        <title>Reporting summary</title>
+        <p id="Par60">Further information on research design is available in the <xref rid="MOESM1" ref-type="media">Nature Portfolio Reporting Summary</xref> linked to this article.</p>
+      </sec>
+    </sec>
+    <sec id="Sec26" sec-type="materials|methods">
+      <title>Online content</title>
+      <p id="Par61">Any methods, additional references, Nature Portfolio reporting summaries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contributions and competing interests; and statements of data and code availability are available at 10.1038/s41591-023-02211-z.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary information</title>
+      <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="41591_2023_2211_MOESM1_ESM.pdf"><caption><p>Reporting Summary</p></caption></media></supplementary-material>
+</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="App1">
+        <sec id="Sec27">
+          <title>Extended data</title>
+          <p id="Par66">
+<fig id="Fig5"><label>Extended Data Fig. 1</label><caption><title>Reduction in the number of genotypes stored per sample.</title><p>For 100 randomly chosen 100KGP participants belonging to each ancestry group (taken from amongst those with an inferred probability &gt;0.9 of belonging): <bold>a</bold>, boxplots showing the distribution of the number of non-homozygous reference PASSing genotypes for variants on chromosomes 1&#x2013;22 and X which meet the default Rareservoir MAF filtering criteria (that is a PMAF score &gt;0 using gnomAD v3.0 and internal MAF&#x2009;&lt;&#x2009;0.002); <bold>b</bold>, boxplots showing the distribution of the proportion of all PASSing non-homozygous reference genotypes that meet the default Rareservoir MAF filtering criteria. In both plots, the lower, centre and upper lines respectively indicate the lower quartile, median and upper quartile. Whiskers are drawn up to the most extreme points that are less than 1.5&#xD7; the interquartile range away from the nearest quartile.</p></caption><graphic position="anchor" xlink:href="41591_2023_2211_Fig5_ESM" id="d32e3102"/></fig>
+</p>
+          <p id="Par67">
+<fig id="Fig6"><label>Extended Data Fig. 2</label><caption><title>General schematic of the database build procedure and contents.</title><p>Variants are extracted from VCF files, filtered on internal cohort allele frequency, encoded as 64-bit RSVR IDs and loaded into a table containing the corresponding genotypes. The variants are annotated with scores reflecting their predicted deleteriousness (in this case, CADD scores) and probabilistic minor allele frequency scores (PMAF) from gnomAD. The consequences of each variant with respect to a reference set of transcripts are generated and loaded into a table. Sample information including pedigree membership and membership of a maximal set of unrelated participants is loaded into a table. The case groupings for case/control association analyses are stored in a table.</p></caption><graphic position="anchor" xlink:href="41591_2023_2211_Fig6_ESM" id="d32e3116"/></fig>
+</p>
+          <p id="Par68">
+<fig id="Fig7"><label>Extended Data Fig. 3</label><caption><title>Detailed schematic of the database build procedure.</title><p>Variants may be imported to a Rareservoir from either single gVCF files or a merged VCF file, following the procedures indicated by red and blue arrows respectively.</p></caption><graphic position="anchor" xlink:href="41591_2023_2211_Fig7_ESM" id="d32e3130"/></fig>
+</p>
+          <p id="Par69">
+<fig id="Fig8"><label>Extended Data Fig. 4</label><caption><title>Schematic showing the variant data in the 100KGP Main Programme Rareservoir.</title><p>The number of variant/transcript pairs, the distribution of CADD scores and a breakdown of gnomAD frequency classes is shown for each annotated SO term in the context of the structure of the ontology.</p></caption><graphic position="anchor" xlink:href="41591_2023_2211_Fig8_ESM" id="d32e3144"/></fig>
+</p>
+          <p id="Par70">
+<fig id="Fig9"><label>Extended Data Fig. 5</label><caption><title>The 269 case sets, Disease Groups A&#x2013;I.</title><p>The names and sizes of the case sets used for the genetic association analyses, grouped by Disease Group and coloured by type (Disease Sub Group or Specific Disease). Disease Sub Groups with only one Specific Disease were excluded to avoid repeating identical analyses. Case sets smaller than 5 are labelled &#x2018;&lt;5&#x2019; and shown as having size 4 to comply with 100KGP policy on limiting participant identifiability. For legibility, only Disease Groups starting with the letters A&#x2013;I are shown here.</p></caption><graphic position="anchor" xlink:href="41591_2023_2211_Fig9_ESM" id="d32e3158"/></fig>
+</p>
+          <p id="Par71">
+<fig id="Fig10"><label>Extended Data Fig. 6</label><caption><title>The 269 case sets, Disease Groups M&#x2013;Z.</title><p>An extension of Extended Data Fig. <xref rid="Fig9" ref-type="fig">5</xref> showing the case sets in Disease Groups starting with the letters M&#x2013;Z.</p></caption><graphic position="anchor" xlink:href="41591_2023_2211_Fig10_ESM" id="d32e3175"/></fig>
+</p>
+          <p id="Par72">
+<fig id="Fig11"><label>Extended Data Fig. 7</label><caption><title>Breakdown of cases attributable to associations with &#x2018;Posterior segment abnormalities&#x2019; by Specific Disease.</title><p>For each gene associated with the Disease Sub Group &#x2018;Posterior segment abnormalities&#x2019;, a bar plot showing the number of cases having each of the different Specific Diseases who have an inferred pathogenic configuration of alleles in the gene. This example illustrates that sets of cases with the same etiological gene may be assigned different Specific Diseases. Consequently, pooling cases within Disease Sub Group can boost power.</p></caption><graphic position="anchor" xlink:href="41591_2023_2211_Fig11_ESM" id="d32e3189"/></fig>
+</p>
+          <p id="Par73">
+<fig id="Fig12"><label>Extended Data Fig. 8</label><caption><title>Microscopy images of HEK293 cells overexpressing ERG.</title><p>Exemplar immunofluorescence microscopy images of HEK293 cells overexpressing wild type ERG (from 20 replicates) and each of the p.S182Afs*22, p.T224Rfs*15 and p.A447Cfs*19 variants of ERG (each from 17 replicates). Cells were stained for ERG (green) and nuclear marker DAPI (blue). Scale bar, 20&#x3BC;m.</p></caption><graphic position="anchor" xlink:href="41591_2023_2211_Fig12_ESM" id="d32e3203"/></fig>
+</p>
+          <p id="Par74">
+<fig id="Fig13"><label>Extended Data Fig. 9</label><caption><title>Illustrative audiograms for <italic>GPR156</italic> cases.</title><p>Air and bone conduction audiograms for the two affected daughters of the family with compound heterozygous <italic>GPR156</italic> truncating alleles.</p></caption><graphic position="anchor" xlink:href="41591_2023_2211_Fig13_ESM" id="d32e3223"/></fig>
+</p>
+        </sec>
+        <sec id="Sec29">
+          <title>Source data</title>
+          <p id="Par76">
+<media position="anchor" xlink:href="41591_2023_2211_MOESM2_ESM.xlsx" id="MOESM2"><label>Source Data Fig. 1</label><caption><p>Sheet 1 shows a table of associations shown in Fig. <xref rid="Fig1" ref-type="fig">1b</xref> annotated with BeviMed PPAs (PPA), the level of the case set in the disease label hierarchy (Level), the inferred variant class and MOI for the association, the matched PanelApp panel for the association, the method that was used to find the match (Match method, either &#x2018;Automatic&#x2019; or &#x2018;Manual&#x2019;), the associated evidence level for the match and the notes on the consistency between the MOI listed by PanelApp for the association and the inferred MOI (MOI match comment). Sheet 2 shows a table of variants having a probability of pathogenicity &gt;0.8 conditional on the modal model and forming a pathogenic configuration of alleles in at least one case. While these variants contributed to the reported statistical associations, they have not been individually scrutinized according to ACMG guidelines.</p></caption></media>
+<media position="anchor" xlink:href="41591_2023_2211_MOESM3_ESM.jpg" id="MOESM3"><label>Source Data Fig. 2</label><caption><p>Uncropped western blot images corresponding to Fig. <xref rid="Fig2" ref-type="fig">2e</xref>.</p></caption></media>
+<media position="anchor" xlink:href="41591_2023_2211_MOESM4_ESM.jpg" id="MOESM4"><label>Source Data Fig. 4</label><caption><p>Uncropped western blot images corresponding to Fig. <xref rid="Fig4" ref-type="fig">4e</xref>.</p></caption></media>
+</p>
+        </sec>
+      </app>
+    </app-group>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <sec id="FPar1">
+        <title>Extended data</title>
+        <p id="Par62">is available for this paper at 10.1038/s41591-023-02211-z.</p>
+      </sec>
+      <sec id="FPar2" sec-type="supplementary-material">
+        <title>Supplementary information</title>
+        <p id="Par63">The online version contains supplementary material available at 10.1038/s41591-023-02211-z.</p>
+      </sec>
+    </sec>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This research was made possible through access to the data and findings generated by the 100,000 Genomes Project. The 100,000 Genomes Project is managed by Genomics England Limited (a wholly owned company of the Department of Health and Social Care). The 100,000 Genomes Project is funded by the National Institute for Health Research and National Health Service (NHS) England. The Wellcome Trust, Cancer Research UK and the Medical Research Council have also funded research infrastructure. The 100,000 Genomes Project uses data provided by patients and collected by the National Health Service as part of their care and support. GS was performed by Illumina at Illumina Laboratory Services and was overseen by Genomics England. We thank all NHS clinicians who have contributed clinical phenotype data to the 100,000 Genomes Rare Diseases Programme and all staff at Genomics England who have contributed to the sequencing, maintenance of the research environment and assembly of the standard bioinformatic files that were required for our analyses. We thank the participants of the rare diseases program who made this research possible. We are grateful to V. Keeley for providing access to paternal DNA (<italic>ERG</italic>), F. Elmslie for inviting a patient to the clinic (<italic>ERG</italic>) and T. Jaworek for technical assistance (<italic>GPR156</italic>). D.G. was supported by the Cambridge British Heart Foundation (BHF) Centre of Research Excellence (RE/18/1/34212) and the Wellcome Collaborative (219506/Z/19/Z). V.H. was supported by an Medical Research Council (MRC)/National Institute for Health and Care Research Clinical Academic Research Partnership (MR/V037617/1). G.M.B. and K. Frudd were funded by BHF (PG/17/33/32990). G.M.B. and D.P. were funded by BHF (PG/20/16/35047). E.S. was supported by the Swiss Federal National Fund for Scientific Research (CRSII5_177191/1). S.M. and P.O. were supported by the MRC (MR/P011543/1) and BHF (RG/17/7/33217). K. Freson was supported by Katholieke Universiteit (KU) Leuven Special Research Fund (BOF) (C14/19/096) and Research Foundation &#x2013; Flanders (G072921N). Work at the University of Maryland, Baltimore was supported by the National Institute on Deafness and Other Communication Disorders/National Institutes of Health (R01DC016295 to Z.M.A.). M.A.-O., F.I. and K.R. were supported by the King Salman Center for Disability Research (85722). E.T. was supported by the Mindich Child Health and Development Institute, the Charles Bronfman Institute for Personalized Medicine and the Lowy Foundation USA.</p>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Author contributions</title>
+      <p>D.G. developed software, conducted analyses and cowrote the paper. G.E.R.C. provided genetic and phenotypic data and access to the Genomics England Research Environment. C.T. performed experiments and interpreted results. B.D.G. provided biological interpretation and feedback on the manuscript. K. Freson designed and supervised experiments, provided biological interpretation and contributed to writing the paper. A.M. provided clinical oversight, provided biological interpretation and contributed to writing the paper. E.T. oversaw the study and cowrote the paper. The following contributions relate to the three gene-specific vignettes. For <italic>ERG</italic>, D.P., K. Frudd and E.S. performed experiments and interpreted results. S.M. and C.L.S.T. provided additional clinical information. P.O. coordinated validation and contributed to writing the paper. G.M.B. designed and supervised experiments and contributed to writing the paper. For <italic>PMEPA1</italic>, I.Y. and N.B. conducted experiments and interpreted results. P.B., V.H., J.H., T.K., M.M. and T.O. provided clinical information. T.M. and B.L.L. oversaw clinical and experimental studies. H.M. recruited the Japanese cases, conducted experiments, interpreted and analyzed results, and oversaw genetic studies. For <italic>GPR156</italic>, H.S. provided additional clinical information for the compound heterozygous family. K.T. clinically evaluated and recruited the p.S642Afs*162 family. A.P.J.G., K.R. and S. Riaz conducted experiments and interpreted results. M.A.-O. assisted with experiments, interpreted results and contributed clinical information. S. Riazuddin, F.I. and Z.M.A. designed and supervised experiments, analyzed results and provided reagents and tools.</p>
+    </notes>
+    <notes notes-type="peer-review">
+      <title>Peer review</title>
+      <sec id="FPar3">
+        <title>Peer review information</title>
+        <p id="Par64"><italic>Nature Medicine</italic> thanks the anonymous reviewers for their contribution to the peer review of this work. Primary Handling Editor: Saheli Sadanand, in collaboration with the <italic>Nature Medicine</italic> team.</p>
+      </sec>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Data availability</title>
+      <p>Genetic and phenotypic data for the 100KGP study participants are available through the Genomics England Research Environment via the application at <ext-link ext-link-type="uri" xlink:href="https://www.genomicsengland.co.uk/join-a-gecip-domain">https://www.genomicsengland.co.uk/join-a-gecip-domain</ext-link>. PanelApp gene panels and evidence of associations were obtained using the PanelApp application programming interface (<ext-link ext-link-type="uri" xlink:href="https://panelapp.genomicsengland.co.uk/api/docs/">https://panelapp.genomicsengland.co.uk/api/docs/</ext-link>) on the 20 October 2021. CADD v.1.5 (<ext-link ext-link-type="uri" xlink:href="https://cadd.gs.washington.edu/">https://cadd.gs.washington.edu/</ext-link>), gnomAD v.3.0 (<ext-link ext-link-type="uri" xlink:href="https://gnomad.broadinstitute.org/">https://gnomad.broadinstitute.org/</ext-link>) and Ensembl v.104 (<ext-link ext-link-type="uri" xlink:href="http://may2021.archive.ensembl.org/index.html">http://may2021.archive.ensembl.org/index.html</ext-link>) were used for variant annotation. <xref rid="Sec29" ref-type="sec">Source data</xref> are provided with this paper.</p>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Code availability</title>
+      <p>The rsvr tool and Rareservoir schema are available from <ext-link ext-link-type="uri" xlink:href="https://github.com/turrogroup/rsvr">https://github.com/turrogroup/rsvr</ext-link>.</p>
+    </notes>
+    <notes id="FPar4" notes-type="COI-statement">
+      <title>Competing interests</title>
+      <p id="Par65">The authors declare no competing interests.</p>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boycott</surname>
+              <given-names>KM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>International cooperation to enable the diagnosis of all rare genetic diseases</article-title>
+          <source>Am. J. Hum. Genet</source>
+          <year>2017</year>
+          <volume>100</volume>
+          <fpage>695</fpage>
+          <lpage>705</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2017.04.003</pub-id>
+          <pub-id pub-id-type="pmid">28475856</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferreira</surname>
+              <given-names>CR</given-names>
+            </name>
+          </person-group>
+          <article-title>The burden of rare diseases</article-title>
+          <source>Am. J. Med Genet A</source>
+          <year>2019</year>
+          <volume>179</volume>
+          <fpage>885</fpage>
+          <lpage>892</lpage>
+          <pub-id pub-id-type="doi">10.1002/ajmg.a.61124</pub-id>
+          <pub-id pub-id-type="pmid">30883013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Turro</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Whole-genome sequencing of patients with rare diseases in a national health system</article-title>
+          <source>Nature</source>
+          <year>2020</year>
+          <volume>583</volume>
+          <fpage>96</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41586-020-2434-2</pub-id>
+          <pub-id pub-id-type="pmid">32581362</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Q</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Rare variant contribution to human disease in 281,104 UK Biobank exomes</article-title>
+          <source>Nature</source>
+          <year>2021</year>
+          <volume>597</volume>
+          <fpage>527</fpage>
+          <lpage>532</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41586-021-03855-y</pub-id>
+          <pub-id pub-id-type="pmid">34375979</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaplanis</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Evidence for 28 genetic disorders discovered by combining healthcare and research data</article-title>
+          <source>Nature</source>
+          <year>2020</year>
+          <volume>586</volume>
+          <fpage>757</fpage>
+          <lpage>762</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41586-020-2832-5</pub-id>
+          <pub-id pub-id-type="pmid">33057194</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greene</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Turro</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Phenotype similarity regression for identifying the genetic determinants of rare diseases</article-title>
+          <source>Am. J. Hum. Genet</source>
+          <year>2016</year>
+          <volume>98</volume>
+          <fpage>490</fpage>
+          <lpage>499</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2016.01.008</pub-id>
+          <pub-id pub-id-type="pmid">26924528</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <mixed-citation publication-type="other">Hail Team. Hail 0.2. <ext-link ext-link-type="uri" xlink:href="https://github.com/hail-is/hail">https://github.com/hail-is/hail</ext-link> (2022).</mixed-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lopez</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>HGVA: the Human Genome Variation Archive</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2017</year>
+          <volume>45</volume>
+          <fpage>W189</fpage>
+          <lpage>W194</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkx445</pub-id>
+          <pub-id pub-id-type="pmid">28535294</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greene</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Turro</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>A fast association test for identifying pathogenic variants involved in rare diseases</article-title>
+          <source>Am. J. Hum. Genet</source>
+          <year>2017</year>
+          <volume>101</volume>
+          <fpage>104</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2017.05.015</pub-id>
+          <pub-id pub-id-type="pmid">28669401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karczewski</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The mutational constraint spectrum quantified from variation in 141,456 humans</article-title>
+          <source>Nature</source>
+          <year>2020</year>
+          <volume>581</volume>
+          <fpage>434</fpage>
+          <lpage>443</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41586-020-2308-7</pub-id>
+          <pub-id pub-id-type="pmid">32461654</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rentzsch</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Schubach</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Shendure</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kircher</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>CADD-Splice-improving genome-wide variant effect prediction using deep learning-derived splice scores</article-title>
+          <source>Genome Med.</source>
+          <year>2021</year>
+          <volume>13</volume>
+          <fpage>31</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13073-021-00835-9</pub-id>
+          <pub-id pub-id-type="pmid">33618777</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eilbeck</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Sequence Ontology: a tool for the unification of genome annotations</article-title>
+          <source>Genome Biol.</source>
+          <year>2005</year>
+          <volume>6</volume>
+          <fpage>R44</fpage>
+          <pub-id pub-id-type="doi">10.1186/gb-2005-6-5-r44</pub-id>
+          <pub-id pub-id-type="pmid">15892872</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Howe</surname>
+              <given-names>KL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Ensembl 2021</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2021</year>
+          <volume>49</volume>
+          <fpage>D884</fpage>
+          <lpage>D891</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkaa942</pub-id>
+          <pub-id pub-id-type="pmid">33137190</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin</surname>
+              <given-names>AR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PanelApp crowdsources expert knowledge to establish consensus diagnostic gene panels</article-title>
+          <source>Nat. Genet.</source>
+          <year>2019</year>
+          <volume>51</volume>
+          <fpage>1560</fpage>
+          <lpage>1565</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41588-019-0528-2</pub-id>
+          <pub-id pub-id-type="pmid">31676867</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Korber</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Fleischer</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Maier-Wohlfart</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>No evidence for preferential X-chromosome inactivation as the main cause of divergent phenotypes in sisters with X-linked hypohidrotic ectodermal dysplasia</article-title>
+          <source>Orphanet J. Rare Dis.</source>
+          <year>2021</year>
+          <volume>16</volume>
+          <fpage>98</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13023-021-01735-2</pub-id>
+          <pub-id pub-id-type="pmid">33622384</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kasahara</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Hyper-IgM syndrome with putative dominant negative mutation in activation-induced cytidine deaminase</article-title>
+          <source>J. Allergy Clin. Immunol.</source>
+          <year>2003</year>
+          <volume>112</volume>
+          <fpage>755</fpage>
+          <lpage>760</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0091-6749(03)01860-8</pub-id>
+          <pub-id pub-id-type="pmid">14564357</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin-Almedina</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mortimer</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Ostergaard</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Development and physiological functions of the lymphatic system: insights from human genetic studies of primary lymphedema</article-title>
+          <source>Physiol. Rev.</source>
+          <year>2021</year>
+          <volume>101</volume>
+          <fpage>1809</fpage>
+          <lpage>1871</lpage>
+          <pub-id pub-id-type="doi">10.1152/physrev.00006.2020</pub-id>
+          <pub-id pub-id-type="pmid">33507128</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gordon</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Update and audit of the St George&#x2019;s classification algorithm of primary lymphatic anomalies: a clinical and molecular approach to diagnosis</article-title>
+          <source>J. Med Genet.</source>
+          <year>2020</year>
+          <volume>57</volume>
+          <fpage>653</fpage>
+          <lpage>659</lpage>
+          <pub-id pub-id-type="doi">10.1136/jmedgenet-2019-106084</pub-id>
+          <pub-id pub-id-type="pmid">32409509</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalna</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The transcription factor ERG regulates super-enhancers associated with an endothelial-specific gene expression program</article-title>
+          <source>Circ. Res.</source>
+          <year>2019</year>
+          <volume>124</volume>
+          <fpage>1337</fpage>
+          <lpage>1349</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.118.313788</pub-id>
+          <pub-id pub-id-type="pmid">30892142</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shah</surname>
+              <given-names>AV</given-names>
+            </name>
+            <name>
+              <surname>Birdsey</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Randi</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of endothelial homeostasis, vascular development and angiogenesis by the transcription factor ERG</article-title>
+          <source>Vasc. Pharm.</source>
+          <year>2016</year>
+          <volume>86</volume>
+          <fpage>3</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.vph.2016.05.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoesel</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sequence-function correlations and dynamics of ERG isoforms. ERG8 is the black sheep of the family</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2016</year>
+          <volume>1863</volume>
+          <fpage>205</fpage>
+          <lpage>218</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbamcr.2015.10.023</pub-id>
+          <pub-id pub-id-type="pmid">26554849</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Westbury</surname>
+              <given-names>SK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Human phenotype ontology annotation and cluster analysis to unravel genetic defects in 707 cases with unexplained bleeding and platelet disorders</article-title>
+          <source>Genome Med.</source>
+          <year>2015</year>
+          <volume>7</volume>
+          <fpage>36</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13073-015-0151-5</pub-id>
+          <pub-id pub-id-type="pmid">25949529</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greene</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Turro</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>ontologyX: a suite of R packages for working with ontological data</article-title>
+          <source>Bioinformatics</source>
+          <year>2017</year>
+          <volume>33</volume>
+          <fpage>1104</fpage>
+          <lpage>1106</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btw763</pub-id>
+          <pub-id pub-id-type="pmid">28062448</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Resnik</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Semantic similarity in a taxonomy: an information-based measure and its application to problems of ambiguity in natural language</article-title>
+          <source>J. Artif. Intell. Res.</source>
+          <year>1999</year>
+          <volume>11</volume>
+          <fpage>95</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.1613/jair.514</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ciurica</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Arterial tortuosity</article-title>
+          <source>Hypertension</source>
+          <year>2019</year>
+          <volume>73</volume>
+          <fpage>951</fpage>
+          <lpage>960</lpage>
+          <pub-id pub-id-type="doi">10.1161/HYPERTENSIONAHA.118.11647</pub-id>
+          <pub-id pub-id-type="pmid">30852920</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loeys</surname>
+              <given-names>BL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A syndrome of altered cardiovascular, craniofacial, neurocognitive and skeletal development caused by mutations in TGFBR1 or TGFBR2</article-title>
+          <source>Nat. Genet.</source>
+          <year>2005</year>
+          <volume>37</volume>
+          <fpage>275</fpage>
+          <lpage>281</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng1511</pub-id>
+          <pub-id pub-id-type="pmid">15731757</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szklarczyk</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>STRING v11: protein-protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2019</year>
+          <volume>47</volume>
+          <fpage>D607</fpage>
+          <lpage>D613</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gky1131</pub-id>
+          <pub-id pub-id-type="pmid">30476243</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>TMEPAI, a transmembrane TGF-beta-inducible protein, sequesters Smad proteins from active participation in TGF-beta signaling</article-title>
+          <source>Mol. Cell.</source>
+          <year>2010</year>
+          <volume>37</volume>
+          <fpage>123</fpage>
+          <lpage>134</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2009.10.028</pub-id>
+          <pub-id pub-id-type="pmid">20129061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Creamer</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Bramel</surname>
+              <given-names>EE</given-names>
+            </name>
+            <name>
+              <surname>MacFarlane</surname>
+              <given-names>EG</given-names>
+            </name>
+          </person-group>
+          <article-title>Insights on the pathogenesis of aneurysm through the study of hereditary aortopathies</article-title>
+          <source>Genes (Basel)</source>
+          <year>2021</year>
+          <volume>12</volume>
+          <fpage>183</fpage>
+          <pub-id pub-id-type="doi">10.3390/genes12020183</pub-id>
+          <pub-id pub-id-type="pmid">33514025</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thermann</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Binary specification of nonsense codons by splicing and cytoplasmic translation</article-title>
+          <source>EMBO J.</source>
+          <year>1998</year>
+          <volume>17</volume>
+          <fpage>3484</fpage>
+          <lpage>3494</lpage>
+          <pub-id pub-id-type="doi">10.1093/emboj/17.12.3484</pub-id>
+          <pub-id pub-id-type="pmid">9628884</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sobreira</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Schiettecatte</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Valle</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hamosh</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>GeneMatcher: a matching tool for connecting investigators with an interest in the same gene</article-title>
+          <source>Hum. Mutat.</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>928</fpage>
+          <lpage>930</lpage>
+          <pub-id pub-id-type="doi">10.1002/humu.22844</pub-id>
+          <pub-id pub-id-type="pmid">26220891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ellaithy</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez-Maeso</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Logothetis</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Levitz</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural and biophysical mechanisms of class C G protein-coupled receptor function</article-title>
+          <source>Trends Biochem. Sci.</source>
+          <year>2020</year>
+          <volume>45</volume>
+          <fpage>1049</fpage>
+          <lpage>1064</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tibs.2020.07.008</pub-id>
+          <pub-id pub-id-type="pmid">32861513</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kindt</surname>
+              <given-names>KS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>EMX2-GPR156-Gai reverses hair cell orientation in mechanosensory epithelia</article-title>
+          <source>Nat. Commun.</source>
+          <year>2021</year>
+          <volume>12</volume>
+          <fpage>2861</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41467-021-22997-1</pub-id>
+          <pub-id pub-id-type="pmid">34001891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scheffer</surname>
+              <given-names>DI</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Corey</surname>
+              <given-names>DP</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>ZY</given-names>
+            </name>
+          </person-group>
+          <article-title>Gene expression by mouse inner ear hair cells during development</article-title>
+          <source>J. Neurosci.</source>
+          <year>2015</year>
+          <volume>35</volume>
+          <fpage>6366</fpage>
+          <lpage>6380</lpage>
+          <pub-id pub-id-type="doi">10.1523/JNEUROSCI.5126-14.2015</pub-id>
+          <pub-id pub-id-type="pmid">25904789</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miyoshi</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Human deafness-associated variants alter the dynamics of key molecules in hair cell stereocilia F-actin cores</article-title>
+          <source>Hum. Genet</source>
+          <year>2022</year>
+          <volume>141</volume>
+          <fpage>363</fpage>
+          <lpage>382</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00439-021-02304-0</pub-id>
+          <pub-id pub-id-type="pmid">34232383</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smedley</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>100,000 Genomes pilot on rare-disease diagnosis in health care - preliminary report</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>2021</year>
+          <volume>385</volume>
+          <fpage>1868</fpage>
+          <lpage>1880</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJMoa2035790</pub-id>
+          <pub-id pub-id-type="pmid">34758253</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thalhammer</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Trinidad</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Burlingame</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Schoepfer</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Densin-180: revised membrane topology, domain structure and phosphorylation status</article-title>
+          <source>J. Neurochem.</source>
+          <year>2009</year>
+          <volume>109</volume>
+          <fpage>297</fpage>
+          <lpage>302</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1471-4159.2009.05951.x</pub-id>
+          <pub-id pub-id-type="pmid">19187442</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chong</surname>
+              <given-names>CH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lrrc7 mutant mice model developmental emotional dysregulation that can be alleviated by mGluR5 allosteric modulation</article-title>
+          <source>Transl. Psychiatry</source>
+          <year>2019</year>
+          <volume>9</volume>
+          <fpage>244</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41398-019-0580-9</pub-id>
+          <pub-id pub-id-type="pmid">31582721</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berthouze</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Venkataramanan</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Shenoy</surname>
+              <given-names>SK</given-names>
+            </name>
+          </person-group>
+          <article-title>The deubiquitinases USP33 and USP20 coordinate beta2 adrenergic receptor recycling and resensitization</article-title>
+          <source>EMBO J.</source>
+          <year>2009</year>
+          <volume>28</volume>
+          <fpage>1684</fpage>
+          <lpage>1696</lpage>
+          <pub-id pub-id-type="doi">10.1038/emboj.2009.128</pub-id>
+          <pub-id pub-id-type="pmid">19424180</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Birdsey</surname>
+              <given-names>GM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The endothelial transcription factor ERG promotes vascular stability and growth through Wnt/Beta-catenin signaling</article-title>
+          <source>Dev. Cell</source>
+          <year>2015</year>
+          <volume>32</volume>
+          <fpage>82</fpage>
+          <lpage>96</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.devcel.2014.11.016</pub-id>
+          <pub-id pub-id-type="pmid">25584796</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Motiejunaite</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Amar</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Vidal-Petiot</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Adrenergic receptors and cardiovascular effects of catecholamines</article-title>
+          <source>Ann. Endocrinol. (Paris)</source>
+          <year>2021</year>
+          <volume>82</volume>
+          <fpage>193</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ando.2020.03.012</pub-id>
+          <pub-id pub-id-type="pmid">32473788</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Munoz-Lasso</surname>
+              <given-names>DC</given-names>
+            </name>
+            <name>
+              <surname>Roma-Mateo</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Pallardo</surname>
+              <given-names>FV</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez-Cabo</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Much more than a scaffold: cytoskeletal proteins in neurological disorders</article-title>
+          <source>Cells</source>
+          <year>2020</year>
+          <volume>9</volume>
+          <fpage>358</fpage>
+          <pub-id pub-id-type="doi">10.3390/cells9020358</pub-id>
+          <pub-id pub-id-type="pmid">32033020</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zuchero</surname>
+              <given-names>JB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>CNS myelin wrapping is driven by actin disassembly</article-title>
+          <source>Dev. Cell</source>
+          <year>2015</year>
+          <volume>34</volume>
+          <fpage>152</fpage>
+          <lpage>167</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.devcel.2015.06.011</pub-id>
+          <pub-id pub-id-type="pmid">26166300</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>DeWard</surname>
+              <given-names>AD</given-names>
+            </name>
+            <name>
+              <surname>Eisenmann</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Matheson</surname>
+              <given-names>SF</given-names>
+            </name>
+            <name>
+              <surname>Alberts</surname>
+              <given-names>AS</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of formins in human disease</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2010</year>
+          <volume>1803</volume>
+          <fpage>226</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbamcr.2009.11.006</pub-id>
+          <pub-id pub-id-type="pmid">19941910</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR45">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ninoyu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The integrity of cochlear hair cells is established and maintained through the localization of Dia1 at apical junctional complexes and stereocilia</article-title>
+          <source>Cell Death Dis.</source>
+          <year>2020</year>
+          <volume>11</volume>
+          <fpage>536</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41419-020-02743-z</pub-id>
+          <pub-id pub-id-type="pmid">32678080</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR46">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geppert</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The role of Rab3A in neurotransmitter release</article-title>
+          <source>Nature</source>
+          <year>1994</year>
+          <volume>369</volume>
+          <fpage>493</fpage>
+          <lpage>497</lpage>
+          <pub-id pub-id-type="doi">10.1038/369493a0</pub-id>
+          <pub-id pub-id-type="pmid">7911226</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR47">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Sequence Alignment/Map format and SAMtools</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>2078</fpage>
+          <lpage>2079</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btp352</pub-id>
+          <pub-id pub-id-type="pmid">19505943</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR48">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morales</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A joint NCBI and EMBL-EBI transcript set for clinical genomics and research</article-title>
+          <source>Nature</source>
+          <year>2022</year>
+          <volume>604</volume>
+          <fpage>310</fpage>
+          <lpage>315</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41586-022-04558-8</pub-id>
+          <pub-id pub-id-type="pmid">35388217</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR49">
+        <label>49.</label>
+        <mixed-citation publication-type="other">Genomics England Research Consortium. Variant QC for 100,000 Genomes Project merged VCF files. <ext-link ext-link-type="uri" xlink:href="https://re-docs.genomicsengland.co.uk/site_qc/">https://re-docs.genomicsengland.co.uk/site_qc/</ext-link> (2022).</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

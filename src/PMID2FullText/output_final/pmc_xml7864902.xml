@@ -1,0 +1,2067 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group UK</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">33547280</article-id>
+      <article-id pub-id-type="pmc">7864902</article-id>
+      <article-id pub-id-type="publisher-id">21053</article-id>
+      <article-id pub-id-type="doi">10.1038/s41467-021-21053-2</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Impaired eIF5A function causes a Mendelian disorder that is partially rescued in model systems by spermidine</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6746-0103</contrib-id>
+          <name>
+            <surname>Faundes</surname>
+            <given-names>V&#xED;ctor</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6173-0988</contrib-id>
+          <name>
+            <surname>Jennings</surname>
+            <given-names>Martin D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1046-9884</contrib-id>
+          <name>
+            <surname>Crilly</surname>
+            <given-names>Siobhan</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Legraie</surname>
+            <given-names>Sarah</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Withers</surname>
+            <given-names>Sarah E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cuvertino</surname>
+            <given-names>Sara</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Davies</surname>
+            <given-names>Sally J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Douglas</surname>
+            <given-names>Andrew G. L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fry</surname>
+            <given-names>Andrew E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+          <xref ref-type="aff" rid="Aff9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Harrison</surname>
+            <given-names>Victoria</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Amiel</surname>
+            <given-names>Jeanne</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+          <xref ref-type="aff" rid="Aff12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lehalle</surname>
+            <given-names>Daphn&#xE9;</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6382-4678</contrib-id>
+          <name>
+            <surname>Newman</surname>
+            <given-names>William G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Newkirk</surname>
+            <given-names>Patricia</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ranells</surname>
+            <given-names>Judith</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8906-7580</contrib-id>
+          <name>
+            <surname>Splitt</surname>
+            <given-names>Miranda</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3664-0707</contrib-id>
+          <name>
+            <surname>Cross</surname>
+            <given-names>Laura A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff16">16</xref>
+          <xref ref-type="aff" rid="Aff17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Saunders</surname>
+            <given-names>Carol J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff18">18</xref>
+          <xref ref-type="aff" rid="Aff19">19</xref>
+          <xref ref-type="aff" rid="Aff20">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8317-5003</contrib-id>
+          <name>
+            <surname>Sullivan</surname>
+            <given-names>Bonnie R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff16">16</xref>
+          <xref ref-type="aff" rid="Aff17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Granadillo</surname>
+            <given-names>Jorge L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff21">21</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9300-8399</contrib-id>
+          <name>
+            <surname>Gordon</surname>
+            <given-names>Christopher T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+          <xref ref-type="aff" rid="Aff12">12</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Kasher</surname>
+            <given-names>Paul R.</given-names>
+          </name>
+          <address>
+            <email>paul.kasher@manchester.ac.uk</email>
+          </address>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8593-2418</contrib-id>
+          <name>
+            <surname>Pavitt</surname>
+            <given-names>Graham D.</given-names>
+          </name>
+          <address>
+            <email>graham.pavitt@manchester.ac.uk</email>
+          </address>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8527-2210</contrib-id>
+          <name>
+            <surname>Banka</surname>
+            <given-names>Siddharth</given-names>
+          </name>
+          <address>
+            <email>siddharth.banka@manchester.ac.uk</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff13">13</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.5379.8</institution-id><institution-id institution-id-type="ISNI">0000000121662407</institution-id><institution>Division of Evolution &amp; Genomic Sciences, School of Biological Sciences, Faculty of Biology, Medicine and Health, </institution><institution>University of Manchester, </institution></institution-wrap>Manchester, UK </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.443909.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 0385 4466</institution-id><institution>Laboratorio de Gen&#xE9;tica y Enfermedades Metab&#xF3;licas, Instituto de Nutrici&#xF3;n y Tecnolog&#xED;a de los Alimentos (INTA), </institution><institution>Universidad de Chile, </institution></institution-wrap>Santiago, Chile </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.5379.8</institution-id><institution-id institution-id-type="ISNI">0000000121662407</institution-id><institution>Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, </institution><institution>University of Manchester, </institution></institution-wrap>Manchester, UK </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.5379.8</institution-id><institution-id institution-id-type="ISNI">0000000121662407</institution-id><institution>Manchester Academic Health Science Centre, </institution><institution>University of Manchester, </institution></institution-wrap>Manchester, UK </aff>
+        <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.5379.8</institution-id><institution-id institution-id-type="ISNI">0000000121662407</institution-id><institution>Division of Neuroscience &amp; Experimental Psychology, School of Biological Sciences, Faculty of Biology, Medicine and Health, </institution><institution>University of Manchester, </institution></institution-wrap>Manchester, UK </aff>
+        <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.241103.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 0169 7725</institution-id><institution>Institute of Medical Genetics, </institution><institution>University Hospital of Wales, </institution></institution-wrap>Cardiff, UK </aff>
+        <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.415216.5</institution-id><institution-id institution-id-type="ISNI">0000 0004 0641 6277</institution-id><institution>Wessex Clinical Genetics Service, </institution><institution>Princess Anne Hospital, </institution></institution-wrap>Southampton, UK </aff>
+        <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.123047.3</institution-id><institution-id institution-id-type="ISNI">0000000103590315</institution-id><institution>Human Development and Health, Faculty of Medicine, University of Southampton, </institution><institution>Southampton General Hospital, </institution></institution-wrap>Southampton, UK </aff>
+        <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.5600.3</institution-id><institution-id institution-id-type="ISNI">0000 0001 0807 5670</institution-id><institution>Division of Cancer and Genetics, School of Medicine, </institution><institution>Cardiff University, </institution></institution-wrap>Cardiff, UK </aff>
+        <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.412134.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 0593 9113</institution-id><institution>Department of Genetics, AP-HP, </institution><institution>H&#xF4;pital Necker Enfants Malades, </institution></institution-wrap>Paris, France </aff>
+        <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.462336.6</institution-id><institution>1Laboratory of Embryology and Genetics of Human Malformations, INSERM UMR 1163, </institution><institution>Institut Imagine, </institution></institution-wrap>Paris, France </aff>
+        <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="GRID">grid.462336.6</institution-id><institution>Paris Descartes-Sorbonne Paris Cit&#xE9; University, Institut Imagine, </institution></institution-wrap>Paris, France </aff>
+        <aff id="Aff13"><label>13</label><institution-wrap><institution-id institution-id-type="GRID">grid.500208.f</institution-id><institution>Manchester Centre for Genomic Medicine, St Mary&#x2019;s Hospital, Manchester University NHS Foundation Trust, </institution><institution>Health Innovation Manchester, </institution></institution-wrap>Manchester, UK </aff>
+        <aff id="Aff14"><label>14</label>Division of Genetics and Metabolism, Department of Pediatrics, University of South Florida, Tampa, FL UK </aff>
+        <aff id="Aff15"><label>15</label>Northern Genetics Service, Institute of Genetic Medicine, Newcastle upon Tyne, UK </aff>
+        <aff id="Aff16"><label>16</label><institution-wrap><institution-id institution-id-type="GRID">grid.239559.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 0415 5050</institution-id><institution>Division of Clinical Genetics, Children&#x2019;s Mercy, </institution></institution-wrap>Kansas City, MO USA </aff>
+        <aff id="Aff17"><label>17</label>Department of Pediatrics, University of Missour&#x2014;Kansas City, Kansas City, MO USA </aff>
+        <aff id="Aff18"><label>18</label><institution-wrap><institution-id institution-id-type="GRID">grid.239559.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 0415 5050</institution-id><institution>Center for Pediatric Genomic Medicine Children&#x2019;s Mercy, </institution></institution-wrap>Kansas City, MO USA </aff>
+        <aff id="Aff19"><label>19</label><institution-wrap><institution-id institution-id-type="GRID">grid.266756.6</institution-id><institution-id institution-id-type="ISNI">0000 0001 2179 926X</institution-id><institution>School of Medicine, </institution><institution>University of Missouri&#x2013;Kansas City, </institution></institution-wrap>Kansas City, MO USA </aff>
+        <aff id="Aff20"><label>20</label><institution-wrap><institution-id institution-id-type="GRID">grid.239559.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 0415 5050</institution-id><institution>Department of Pathology and Laboratory Medicine, </institution><institution>Children&#x2019;s Mercy, </institution></institution-wrap>Kansas City, MO USA </aff>
+        <aff id="Aff21"><label>21</label><institution-wrap><institution-id institution-id-type="GRID">grid.4367.6</institution-id><institution-id institution-id-type="ISNI">0000 0001 2355 7002</institution-id><institution>Division of Genetics and Genomic Medicine, Department of Pediatrics, </institution><institution>Washington University School of Medicine, </institution></institution-wrap>St. Louis, MO USA </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>5</day>
+        <month>2</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>5</day>
+        <month>2</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <volume>12</volume>
+      <elocation-id>833</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>3</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>7</day>
+          <month>10</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2021</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">The structure of proline prevents it from adopting an optimal position for rapid protein synthesis. Poly-proline-tract (PPT) associated ribosomal stalling is resolved by highly conserved eIF5A, the only protein to contain the amino acid hypusine. We show that de novo heterozygous <italic>EIF5A</italic> variants cause a disorder characterized by variable combinations of developmental delay, microcephaly, micrognathia and dysmorphism. Yeast growth assays, polysome profiling, total/hypusinated eIF5A levels and PPT-reporters studies reveal that the variants impair eIF5A function, reduce eIF5A-ribosome interactions and impair the synthesis of PPT-containing proteins. Supplementation with 1&#x2009;mM spermidine partially corrects the yeast growth defects, improves the polysome profiles and restores expression of PPT reporters. In zebrafish, knockdown <italic>eif5a</italic> partly recapitulates the human phenotype that can be rescued with 1&#x2009;&#xB5;M spermidine supplementation. In summary, we uncover the role of eIF5A in human development and disease, demonstrate the mechanistic complexity of <italic>EIF5A</italic>-related disorder and raise possibilities for its treatment.</p>
+      </abstract>
+      <abstract id="Abs2" abstract-type="web-summary">
+        <p id="Par2">eIF5A is critical for protein synthesis but has not yet been associated with congenital human disease. Here, the authors show that EIF5A variants cause a Mendelian disorder via reduced eIF5A-ribosome interactions and this phenotype is partially corrected by spermidine supplementation in yeast and zebrafish.</p>
+      </abstract>
+      <kwd-group kwd-group-type="npg-subject">
+        <title>Subject terms</title>
+        <kwd>Ribosomal proteins</kwd>
+        <kwd>Disease genetics</kwd>
+        <kwd>Functional genomics</kwd>
+        <kwd>Neurodevelopmental disorders</kwd>
+      </kwd-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; The Author(s) 2021</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Introduction</title>
+      <p id="Par3">Proline is a unique amino acid as its amine nitrogen is bonded to two, instead of one, carbon atoms with a distinctive rigid cyclic structure that prevents it from adopting an optimal position required for rapid protein synthesis<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. The presence of proline, either as a peptidyl donor or an acceptor, impedes the rate of peptide bond formation by the ribosome, an inhibitory effect that becomes progressively stronger, to the extent that three or more consecutive prolines provoke ribosome stalling<sup><xref ref-type="bibr" rid="CR2">2</xref>&#x2013;<xref ref-type="bibr" rid="CR4">4</xref></sup>. In eukaryotic cells, ribosomal stalling is resolved by the Eukaryotic Translation Initiation Factor 5A (eIF5A), which is critical for the synthesis of peptide bonds between consecutive proline residues<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>. Notably, the frequency of poly-proline tracts (PPTs) is higher in evolutionarily new proteins and of all tandem amino acid repeats, only the proline repeat frequency correlates with functional complexity of eukaryotic organisms<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. eIF5A1 (hereafter eIF5A) and its normally undetectable paralogue eIF5A2 are the only human proteins that contain the amino acid hypusine, a post-translationally modified lysine at position 50 (K50)<sup><xref ref-type="bibr" rid="CR2">2</xref>&#x2013;<xref ref-type="bibr" rid="CR4">4</xref></sup>. Hypusine is synthesised from spermidine, a polyamine, via two sequential enzymatic steps involving highly conserved deoxyhypusine synthase (DHPS) and deoxyhypusine hydroxylase (DOHH) enzymes<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. Hypusinated eIF5A stabilises P-tRNA that facilitates peptide bond formation at stalled ribosomes<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>. Other functions of eIF5A include recognition of the correct start codon<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup>, global protein synthesis elongation and termination<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup>, promoting the elongation of many non-poly-proline-specific tripeptide sequences, and eliciting nonsense-mediated decay (NMD)<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. It is essential for cell viability and growth in both simple<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup> and complex<sup><xref ref-type="bibr" rid="CR3">3</xref></sup> organisms. Somatic overexpression of <italic>EIF5A</italic> has unfavourable prognostic implications in several cancers, including pancreatic, lung, hepatocellular, bladder, and colorectal carcinomas<sup><xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR14">14</xref></sup>. However, no human phenotype has been previously attributed to germline <italic>EIF5A</italic> variants.</p>
+      <p id="Par4">Here, we demonstrate that de novo heterozygous <italic>EIF5A</italic> variants cause a previously undescribed syndrome characterised by variable combinations of developmental delay, microcephaly, micrognathia, congenital malformations and dysmorphism. These variants likely result in the loss of eIF5A function through distinct mechanisms and lead to impaired interaction between eIF5A and ribosomes. Both functional and phenotypic consequences of impaired eIF5A activity are partially rescued by spermidine supplementation in yeast and zebrafish models.</p>
+    </sec>
+    <sec id="Sec2" sec-type="results">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>Germline variants in <italic>EIF5A</italic> cause a previously undescribed craniofacial-neurodevelopmental disorder</title>
+        <p id="Par5">In an individual with intellectual disability, congenital microcephaly, micrognathia and clinical suspicion of a Kabuki syndrome (MIM # 147920)-like condition<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, we identified a de novo heterozygous frameshift variant in <italic>EIF5A</italic> (c.324dupA, p.R109Tfs*8) by trio whole-exome sequencing (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a&#x2013;c</xref>, Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>, individual #3, and Supplementary Note&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). <italic>EIF5A</italic> has four protein-coding transcripts, but ENST00000336458/NM_001970.5 (Uniprot P63241) is preferentially, widely and most highly expressed in all adult human tissues<sup><xref ref-type="bibr" rid="CR16">16</xref>&#x2013;<xref ref-type="bibr" rid="CR18">18</xref></sup>. Only one truncating variant has been recorded in gnomAD, a variant sequence database of &gt;140,000 control individuals, in this transcript (gnomAD o/e<sub>LoF</sub>&#x2009;=&#x2009;0.11; pLI&#x2009;=&#x2009;0.74)<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Also, the GeVIR metrics (GeVIR AD&#x2009;=&#x2009;4.38; VIRLoF AD&#x2009;=&#x2009;2.21) add supportive evidence that <italic>EIF5A</italic> is highly likely to be associated with autosomal dominant disease<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. Hence, we concluded that the <italic>EIF5A</italic> variant identified in individual #3 was significant. Through Matchmaker Exchange<sup><xref ref-type="bibr" rid="CR21">21</xref></sup> and GeneMatcher<sup><xref ref-type="bibr" rid="CR22">22</xref></sup> we identified six additional individuals with nonsense or missense de novo <italic>EIF5A</italic> variants (c.143C&gt;A, p.T48N; c.316G&gt;A, p.G106R; c.325C&gt;G, p.R109G; c.325C&gt;T, pR109*; c.343C&gt;T, p.P115S; c.364G&gt;A, p.E122K). The missense variants are located in one of the most constrained coding regions of the human genome (&gt;99th percentile)<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>, and affect residues that are highly evolutionarily conserved (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1b, c</xref>). In silico modelling of missense variants (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1d</xref>) onto the structure of yeast eIF5A in complex with the 60S ribosome (PDB entry 5GAK)<sup><xref ref-type="bibr" rid="CR24">24</xref></sup> shows that the missense variants affect surface-exposed residues. T48 is adjacent to the hypusinated lysine 50, G106 and R109 residues are close to the ribosomal protein uL1 and E122 is close to the P-site tRNA. In contrast, P115 has no clear intermolecular interactions. Although the individuals were identified via their genotypes, on reverse phenotyping<sup><xref ref-type="bibr" rid="CR25">25</xref></sup> their clinical features showed remarkable convergence. All patients were affected by variable degrees of developmental delay and/or intellectual disability, microcephaly (either absolute or relative) and overlapping facial dysmorphisms (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>, Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref> and Supplementary Note&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). Notably, four individuals in this cohort were clinically suspected to have either a Kabuki syndrome-like or a mandibulofacial dysostosis (MIM #154400)-like condition (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref> and Supplementary Note&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). <italic>eif5a/Eif5a</italic> mRNA is highly expressed in <italic>Danio rerio</italic> (hereafter zebrafish)<sup><xref ref-type="bibr" rid="CR26">26</xref></sup> and <italic>Mus musculus</italic><sup><xref ref-type="bibr" rid="CR27">27</xref></sup> (hereafter mouse) embryos in structures that form the brain and mouth, thus corresponding with the most significantly impacted structures in the affected individuals. Overall, these results are strongly indicative of the frameshift, nonsense and missense <italic>EIF5A</italic> variants being causal for the phenotypes of the affected individuals.<fig id="Fig1"><label>Fig. 1</label><caption><title>Heterozygous variants in <italic>EIF5A</italic> cause a novel craniofacial-neurodevelopmental disorder.</title><p><bold>a</bold> Individuals with de novo heterozygous missense (individuals 1, 2, 4 and 7) or frameshift (individual 3) <italic>EIF5A</italic> variants display similar facial dysmorphism, microcephaly and micrognathia. Photographs of individuals 5 and 6 are not available. <bold>b</bold> The missense <italic>EIF5A</italic> variants affect highly conserved residues. Evolutionary conservation of residues affected by variants (delimited by yellow rectangles) is shown in five species. BLOSUM62 scores are depicted in purple scale (dark purple&#x2009;=&#x2009;completely conserved, light purple&#x2009;=&#x2009;relatively conserved, white&#x2009;=&#x2009;not conserved). Lysine (K) 50 is hypusinated (Hyp). <bold>c</bold> The <italic>EIF5A</italic> variants are novel and located in the functional sites and domains of eIF5A. Top: hypusine site (HS) is the orange bar between residues 48 and 55 (InterPro entry P63241), and the OB fold domain is the cyan bar between residues 83 and 150 (InterPro entry P63241). Bottom: the location and the minor allele frequencies (MAF) of high quality non-flagged missense variants (yellow triangles) and a protein-truncating variant (p.N28Mfs*64, magenta line) seen only in controls of gnomAD v2.1.1 for the transcript ENST00000336458. <bold>d</bold> In silico modelling of missense variants supports their deleterious nature. Variants are indicated as red spheres at the surface of yeast eIF5A (semi-transparent gold) with hypusinated K51 (human K50, <italic>h</italic>K50) (black spheres) shown bound to the yeast 60S ribosomal subunit E site (grey secondary structures only, with uL1 in blue), with adjacent P-site (green) and A-site (pink) tRNAs (PDB entry 5gak). Note that T48 (yeast T49, <italic>y</italic>T49) is in proximity to the hypusinated <italic>h</italic>K50; <italic>h</italic>G106 (yG107) and <italic>h</italic>R109 (<italic>y</italic>K110<italic>)</italic> are close to uL1 and <italic>h</italic>E122 (<italic>y</italic>S123) is close to the P-site tRNA. <bold>e</bold> The mutant <italic>EIF5A</italic> transcript with the truncating variant is not expressed. The mRNA levels in lymphoblastoid cells from individual 3 compared to control 1 (healthy female) and control 2 (healthy male) are shown relative to <italic>GAPDH</italic> (2<sup>&#x2212;&#x394;CT</sup> method). Each data point corresponds to one technical replicates, and the bars show the mean&#x2009;+&#x2009;SEM. Two-sided <italic>P</italic> values were determined by unpaired <italic>t</italic>-test.</p></caption><graphic xlink:href="41467_2021_21053_Fig1_HTML" id="d32e974"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>Phenotypes of patients with <italic>EIF5A</italic> variants.</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2">Characteristics</th><th colspan="7">Individual</th></tr><tr><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr></thead><tbody><tr><td>Sex (age)<sup>a</sup></td><td>F (6.9&#x2009;y)</td><td>F (8.4&#x2009;y)</td><td>F (8.4&#x2009;y)</td><td>M (18.3&#x2009;y)</td><td>M (8 mo)</td><td>M (4&#x2009;y)</td><td>F (16.4&#x2009;y)</td></tr><tr><td>Genomic position<sup>b</sup></td><td>17:7213097</td><td>17:7214714</td><td>17:7214722</td><td>17:7214723</td><td>17:7214723</td><td>17:7214741</td><td>17:7214762</td></tr><tr><td>cDNA<sup>c</sup> protein consequence<sup>d</sup></td><td>c.143C&gt;A p.T48N</td><td>c.316G&gt;A p.G106R</td><td>c.324dupA p.R109Tfs*8</td><td>c.325C&gt;G p.R109G</td><td>c.325C&gt;T p.R109*</td><td>c.343C&gt;T p.P115S</td><td>c.364G&gt;A p.E122K</td></tr><tr><td>Inheritance/zygosity</td><td>DN Het</td><td>DN Het</td><td>DN Het</td><td>DN Het</td><td>DN Het</td><td>DN Het</td><td>DN Het</td></tr><tr><td colspan="8">Perinatal history</td></tr><tr><td>&#xA0;&#x2003;Congenital microcephaly</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Unknown</td><td>No</td><td>No</td><td>Unknown</td></tr><tr><td>&#xA0;&#x2003;IUGR</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr><tr><td>&#xA0;&#x2003;Feeding difficulties</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>&#xA0;&#x2003;Other</td><td>No</td><td>Cardiac anomalies</td><td><p>Cardiac anomalies</p><p>Cleft palate</p></td><td>Hypotonia</td><td><p>Cardiac anomalies</p><p>Hypotonia</p></td><td>No</td><td>Foetal ascites</td></tr><tr><td>DD/ID</td><td>Moderate/severe</td><td>Moderate</td><td>Mild</td><td>Moderate</td><td>Moderate</td><td>Mild/Moderate</td><td>Moderate</td></tr><tr><td>CNS anomalies</td><td>No</td><td>No</td><td>No</td><td>Peritrigonal hyperintensities</td><td>No</td><td>Left lateral ventriculomegaly</td><td>No</td></tr><tr><td colspan="8">Physical anomalies</td></tr><tr><td>&#xA0;&#x2003;Heart</td><td>No</td><td>Yes</td><td>Yes</td><td>Unknown</td><td>Yes</td><td>Unknown</td><td>Unknown</td></tr><tr><td>&#xA0;&#x2003;Craniofacial</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>&#xA0;&#x2003;Other</td><td>Hemivertebrae (L3)</td><td>No</td><td>No</td><td><p>Cryptorchidism</p><p> Pes planus</p></td><td>No</td><td>No</td><td><p>Toe contractures</p><p>Small toenails</p><p>Pes planus</p></td></tr><tr><td colspan="8">Growth parameters</td></tr><tr><td>&#xA0;&#x2003;Height (SD)</td><td>N (0.53)</td><td>SS (&#x2212;2.82)</td><td>N (0.86)</td><td>N (&#x2212;0.45)</td><td>N (&#x2212;1.45)</td><td>N (+1 SD),</td><td>SS (&#x2212;2.59)</td></tr><tr><td>&#xA0;&#x2003;Weight (SD)</td><td>OW (2)</td><td>LW (&#x2212;2.28)</td><td>N (&#x2212;0.41)</td><td>N (0.06)</td><td>LW (&#x2212;3.14)</td><td>N (&#x2212;0.09 SD)</td><td>N (&#x2212;0.69)</td></tr><tr><td>&#xA0;&#x2003;HC (SD)</td><td>Mi (&#x2212;3)</td><td>Mi (&#x2212;7.47)</td><td>Mi (&#x2212;2.11)</td><td>Mi (&#x2212;2.62)</td><td>N (&#x2212;0.45)</td><td>N (&#x2212;1.09)</td><td>Mi (&#x2212;1.94)</td></tr><tr><td colspan="8">Facial dysmorphisms</td></tr><tr><td>&#xA0;&#x2003;Broad eyebrows</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td></tr><tr><td>&#x2003;Abn. supraorbital ridges</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr><tr><td>&#x2003;Epi/telecanthus</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>&#x2003;Bulbous nasal tip</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr><tr><td>&#x2003;Thin upper lip</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>&#x2003;Micrognathia</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td></tr><tr><td>&#x2003;Low set ears</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>&#x2003;Other</td><td>Lower eyelid hypoplasia</td><td>Hypertelorism</td><td>No</td><td>Prominent long ears</td><td>Plagiocephaly Sparse scalp hair Frontal bossing Downslanting PF Cupped ears</td><td>Long PF hypoplastic ala nasi</td><td>Deep-set eyes Abn. lower eyelids Small ears</td></tr><tr><td colspan="8">Other medical issues</td></tr><tr><td>&#x2003;Joint hypermobility</td><td>No</td><td>No</td><td>Yes</td><td>Yes</td><td>N/A</td><td>No</td><td>Yes</td></tr><tr><td>&#x2003;Eye anomalies</td><td>Yes</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td></tr><tr><td>&#x2003;Others</td><td>No</td><td>Constipation Gastroesophageal reflux Gastrostomy</td><td>Conductive deafness Premature thelarche</td><td>Constipation</td><td>Dysphagia Gastrostomy Failure to thrive</td><td>Hypotonia Flat feet</td><td>Autism ADHD Delayed puberty Nasal polyps</td></tr><tr><td>Initial clinical suspicion</td><td>Mandibulofacial dysostosis&#xA0;like</td><td>Kabuki syndrome like</td><td>Kabuki syndrome like</td><td>Kabuki syndrome like</td><td>Mowat Wilson&#xA0;like</td><td>None</td><td>None</td></tr></tbody></table><table-wrap-foot><p><italic>Abn</italic> abnormal, <italic>ADHD</italic> attention deficit hyperactivity disorder, <italic>CNS</italic> central nervous system, <italic>DD</italic> developmental delay, <italic>HC</italic> head circumference, <italic>Het h</italic>eterozygous, <italic>ID</italic> intellectual disability, <italic>IUGR</italic> intra-uterine growth retardation, <italic>LW l</italic>ow weight, <italic>Mi</italic> microcephaly, <italic>N</italic> within normal ranges, <italic>N/A</italic> not applicable, <italic>OW</italic> overweight, <italic>PF</italic> palpebral fissures, <italic>SD</italic> standard deviation, <italic>SS</italic> short stature.</p><p><sup>a</sup>At last examination.</p><p><sup>b</sup>According to hg19.</p><p><sup>c</sup>GenBank reference NM_001970.5, Ensembl reference ENST00000336458.</p><p><sup>d</sup>UniProtKB reference P63241-1.</p></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="Sec4">
+        <title><italic>EIF5A</italic> variants impair eIF5A function</title>
+        <p id="Par6">Peripheral blood mononuclear cells obtained from Individual 3, with the <italic>EIF5A</italic> frameshift variant c.324dupA, and two healthy controls were transformed by Epstein-Barr virus into lymphoblastoid cell lines (LCLs). Blood samples from other affected individuals were not available. The <italic>EIF5A</italic> mRNA level in LCLs was significantly reduced in Individual 3 (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1e</xref>) and the transcript with c.324dupA was not detected (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>), suggesting NMD of the mutant transcript.</p>
+        <p id="Par7">The <italic>Saccharomyces cerevisiae</italic> (yeast) and human eIF5A share a very high degree of conservation (62% identity/92% similar) (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1b</xref>) and well-established assays to investigate eIF5A function in yeast are available<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup>. We synthesised a human <italic>EIF5A</italic> cDNA (<italic>h</italic>eIF5A hereafter) optimised for yeast codon usage, and added the 5&#x2032; and 3&#x2032; control regions of the yeast homologue of <italic>EIF5A</italic> (known as <italic>TIF51A</italic> or <italic>HYP2</italic>, <italic>y</italic>eIF5A hereafter) (Supplementary Note&#xA0;<xref rid="MOESM1" ref-type="media">2</xref> and Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). Introduction of this construct on a centromeric plasmid using standard techniques in a yeast strain in which both <italic>TIF51A</italic> and <italic>TIF51B</italic> (a second <italic>y</italic>eIF5A gene that is transcribed only in anaerobic conditions<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>) are deleted (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>) restored its growth potential similar to the wild-type <italic>y</italic>eIF5A (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>, rows 1 and 3). This confirmed that the synthetic <italic>h</italic>eIF5A can replace <italic>y</italic>eIF5A functions in line with previous reports<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>.<fig id="Fig2"><label>Fig. 2</label><caption><title>EIF5A variants impair eIF5A function, its interaction with ribosome and synthesis of proteins with poly-proline tracts.</title><p><bold>a</bold> Variants p.T48N and p.G106R affect yeast growth. Representative serial dilution growth assay of yeast strains for human eIF5A (<italic>h</italic>eIF5A) and its variants, compared to the growth of strains with WT yeast eIF5A (<italic>y</italic>eIF5A) or the thermosensitive <italic>y</italic>eIF5A-S149P after 2 days. Eighteen replicates per temperature were performed. <bold>b</bold> Variant p.T48N reduces eIF5A hypusination, whereas p.G106R and p.E122K decrease eIF5A levels. eIF5A expression (left) and hypusination (Hyp; right) among yeast strains with missense <italic>h</italic>eIF5A variants, grown at 30&#x2009;&#xB0;C in synthetic complete (SC) liquid medium. Each data point corresponds to one biological replicate, which was controlled as stated in the &#x2018;Methods' (see Eq. (<xref rid="Equ1" ref-type="">1</xref>)), and the bars show the mean&#x2009;+&#x2009;SEM. Two-sided <italic>P</italic> values were determined by unpaired <italic>t</italic>-test. Full uncropped images of gel blots are shown in Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">9</xref>. <bold>c</bold> Missense mutants decrease eIF5A interaction with ribosome. Polysome profiles of yeast expressing either <italic>h</italic>eIF5A-WT or missense variants, grown at 30&#x2009;&#xB0;C in SC medium. Corresponding western blot analyses of eIF5A, hypusine, and the ribosomal proteins uS3 and uL29 probed across gradient fractions for each polysome profile are presented beneath. Polysome-to-monosome (P/M) and 60/80S ratios for the <italic>A</italic><sub>260</sub> traces are given, calculated by comparing the areas under the 80S and polysome peaks. In addition, the fraction of total eIF5A signal associated with the 80S (western blot lane 6) is given. Full uncropped images of gel blots are shown in Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">10</xref>. One profile was performed. <bold>d</bold> Missense mutants decrease synthesis of reporters with poly-proline tracts. Comparison of Ldb17 (left graph) and Eap1 (right graph) poly-proline-containing reporter expression in <italic>h</italic>eIF5A yeast strains grown at 30&#x2009;&#xB0;C in SCGal medium. Data presentation and statistical treatment as described for panel <bold>b</bold>. Full uncropped images of gel blots are shown in Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">11</xref>. <bold>e</bold> Genes with the highest numbers of prolines match the initial clinical suspicion for studied individuals. Enrichment of PPTs in MAGs. For each MAG the number of PPTs (<italic>X-</italic>axis) is plotted against the number of prolines in the longest PPT (<italic>Y</italic>-axis). MAG circle size represents the total number of prolines in PPTs in each protein. The &#x2018;top 10&#x2019; ranked MAGs are named. Heterozygous loss-of-function variants in <italic>SF3B4</italic> and <italic>KMT2D</italic> (both underlined) cause acrofacial dysostosis 1, Nager type (a subtype of mandibulofacial dysostosis, MIM #154400) and Kabuki syndrome 1 (MIM #147920), respectively, which overlap with the initial clinical suspicions in individual 1, and for individuals 2 to 4, respectively.</p></caption><graphic xlink:href="41467_2021_21053_Fig2_HTML" id="d32e2013"/></fig></p>
+        <p id="Par8">Next, we performed site-directed mutagenesis to create <italic>h</italic>eIF5A constructs with the p.T48N, p.G106R, p.R109Tfs*8 and p.E122K variants in centromeric plasmids (Supplementary Tables&#xA0;<xref rid="MOESM1" ref-type="media">1</xref> and <xref rid="MOESM1" ref-type="media">2</xref>). The individuals with the p.R109G, p.R109* and p.P115S variants were identified after experiments for other variants were concluded and, therefore, these variants were not included in the functional studies. Yeast colonies expressing the <italic>h</italic>eIF5A-R109Tfs*8 as the sole source of eIF5A could not be obtained after ten days of growth, and across multiple plasmid shuffling experiments (Supplementary Figs.&#xA0;<xref rid="MOESM1" ref-type="media">2</xref> and <xref rid="MOESM1" ref-type="media">3</xref>). Western blotting (WB) using a monoclonal anti-human eIF5A and an anti-hypusinated eIF5A antibody (hereafter hypusine) of pre-shuffled <italic>h</italic>eIF5A-R109Tfs*8 strains co-expressing <italic>h</italic>eIF5A-WT revealed that p.R109Tfs*8 was poorly expressed, and even when expressed in high-copy it was very poorly hypusinated (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">4</xref>). The poor expression of this mutant in yeast is consistent with our inability to detect this protein in LCLs from individual 3. In contrast, the three missense mutations each supported yeast growth as the sole source of eIF5A showing that they retain sufficient eIF5A function for cell viability. The <italic>h</italic>eIF5A-T48N and <italic>h</italic>eIF5A-G106R yeast cells exhibited slow growth (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>, rows 4 and 5), similar to a previously characterised temperature-sensitive mutant <italic>y</italic>eIF5A-S149P mutant (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>, row 2)<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup>. No significant difference was observed between growth of <italic>h</italic>eIF5A-E122K and <italic>h</italic>eIF5A-WT (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>, rows 6). These results indicate that the p.T48N and p.G106R variants result in partial loss of eIF5A function, and p.R109Tfs*8 variant results in complete loss of viability. However, the impact of the p.E122K variant remained uncertain.</p>
+      </sec>
+      <sec id="Sec5">
+        <title><italic>EIF5A</italic> variants reduce eIF5A&#x2013;ribosome interaction through different mechanisms</title>
+        <p id="Par9">Next, we asked if the missense variants affected interaction of <italic>h</italic>eIF5A with ribosomes through polysome profiling (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">5</xref>). All missense variants that were tested, including the p.E122K variant, exhibited aberrant polysome profiles, with elevated polysome-to-monosome (P/M) ratios and an increase in the free 60S peak heights and the 60&#x2009;S/80S ratios (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>), consistent with a global translation elongation defect<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup>. Probing for eIF5A and hypusine across polysome fractions revealed that WT eIF5A has ribosome-free (lanes 1&#x2013;2 in Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>) and 80S (lane 6 in Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>) peaks. In contrast, each missense mutant showed a reduction in the 80S ribosome fraction (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>), indicating a reduction in ribosome binding by each mutant eIF5A, consistent with the idea that impaired eIF5A&#x2013;ribosome interactions impact translation elongation of each mutant.</p>
+        <p id="Par10">To explore possible mechanisms for the reduction in ribosome binding of missense variants, we performed WB. In cells expressing <italic>h</italic>eIF5A-T48N, levels of total eIF5A were normal, but levels of hypusination were reduced, suggesting that the p.T48N impairs hypusination of the adjacent K50 residue. As hypusination is necessary for eIF5A function, reduced hypusination may contribute to the observed reduction in ribosome association. In contrast, total levels of eIF5A were modestly reduced in <italic>h</italic>eIF5A-G106R and <italic>h</italic>eIF5A-E122K cells, while hypusination was unaffected (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b</xref>). Overall, these results indicated that <italic>EIF5A</italic> variants reduce eIF5A&#x2013;ribosome interaction, likely through different mechanisms.</p>
+      </sec>
+      <sec id="Sec6">
+        <title><italic>EIF5A</italic> variants impair synthesis of proteins with PPTs</title>
+        <p id="Par11">Next, we examined if impaired eIF5A function impacted on translation of specific mRNAs. Because eIF5A is especially critical for the optimal synthesis of proteins containing PPTs<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup>, we studied expression of two previously described PPT reporters&#x2014;a haemagglutinin (HA)-tagged Ldb17 with a single long PPT of nine consecutive prolines and HA-Eap1 with three shorter PPTs (Supplementary Tables&#xA0;<xref rid="MOESM1" ref-type="media">1</xref> and <xref rid="MOESM1" ref-type="media">3</xref> and Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2d</xref>)<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>. As these reporters require expression with galactose as a carbon source, we first evaluated whether levels of eIF5A and hypusination in these cell growth conditions were consistent with our previous findings. Here in both of the slow-growing mutants (p.T48N and p.G106R) expression of eIF5A was lower than WT. As previously, hypusination was consistently low for p.T48N (Supplementary Figs.&#xA0;<xref rid="MOESM1" ref-type="media">6</xref> and <xref rid="MOESM1" ref-type="media">7</xref>). By WB of total cell extracts we observed decreased levels of both PPT reporters for the p.T48N and p.G106R alleles (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2d</xref>). Although levels of Ldb17 in the p.E122K variant were typically lower than in WT cells, this did not reach statistical significance (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2d</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">7</xref>). Hence, the human eIF5A variants impair the synthesis of proteins containing PPTs in yeast.</p>
+      </sec>
+      <sec id="Sec7">
+        <title>Human microcephaly-associated genes (MAGs) are enriched for PPTs</title>
+        <p id="Par12">Next, we explored if impaired synthesis of proteins with PPTs could help explain microcephaly, which was the most consistent feature of our patients. To study this, we prepared a catalogue of all known human MAGs according to OMIM and assessed their PPT content<sup><xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR30">30</xref></sup> (Supplementary Data&#xA0;<xref rid="MOESM4" ref-type="media">1</xref>). We observed that 198/685 (28.9%) MAGs and 4366/17981 (24.2%) of all other human protein-coding genes have &#x2265;1 PPT [<italic>&#x3C7;</italic><sup>2</sup> 7.64; OR&#x2009;=&#x2009;1.27; 95% CI 1.07&#x2013;1.5; <italic>P</italic>&#x2009;=&#x2009;0.0057]). Next we ranked MAGs according to their proline content in PPTs (Supplementary Data&#xA0;<xref rid="MOESM4" ref-type="media">1</xref> and Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2e</xref>). <italic>KMT2D</italic> was ranked as #1 in this list. Loss-of-function <italic>KMT2D</italic> variants cause Kabuki syndrome<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>, which was the clinically suspected diagnosis in three individuals. <italic>SF3B4</italic>, variants in which cause acrofacial dysostosis 1, Nager type<sup><xref ref-type="bibr" rid="CR32">32</xref></sup> (phenotypic overlap with the clinical suspicion in individual 1), was ranked #5 (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref> and Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2e</xref>).</p>
+      </sec>
+      <sec id="Sec8">
+        <title>Spermidine partially rescues impaired eIF5A function in yeast</title>
+        <p id="Par13">Polyamines contribute to the efficiency and fidelity of protein synthesis, and spermidine may overcome absence of eIF5A to some extent to promote peptide synthesis<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. Furthermore, DHPS mediated transfer of a 4-aminobutyl moiety from a polyamine, spermidine, to K50 is the first step in formation of active hypusinated eIF5A<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Previous work has demonstrated that spermidine promotes longevity in yeast, whereas depletion of polyamines has a deleterious effect<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. We therefore reasoned that spermidine supplementation could potentially overcome the effects of impaired eIF5A function. In addition, because p.T48N hypusination was reduced, it may indicate that polyamine concentrations were limiting for hypusination in our growth conditions. We screened the effect of supplementing growth medium with different concentrations of spermidine on yeast growth, as measured by the rate of colony formation (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">8</xref>). One millimolar spermidine partially corrected the growth defects of p.T48N and p.G106R cells (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref>). As a growth phenotype was not observed in yeast expressing the p.E122K variant, this assay was uninformative for this allele. Higher spermidine concentrations had progressively deleterious effects impairing the growth of all strains (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">8</xref>).<fig id="Fig3"><label>Fig. 3</label><caption><title>Spermidine partially rescues impaired eIF5A function phenotypes in yeast.</title><p><bold>a</bold> Spermidine rescues growth of p.T48N and p.G106R strains. Growth of yeast strains for the human eIF5A (<italic>h</italic>eIF5A) and the missense variants in minimum media supplemented with 0 (Untreated), 1 and 2&#x2009;mM of spermidine at 30&#x2009;&#xB0;C. Eighteen replicates per temperature were performed. <bold>b</bold> Spermidine increases the interaction of <italic>h</italic>eIF5A-T48N and <italic>h</italic>eIF5A-G106R with ribosomes. Polysome profiles of <italic>h</italic>eIF5A-WT, <italic>h</italic>eIF5A-T48N and <italic>h</italic>eIF5A-G106R grown at 30&#x2009;&#xB0;C in SC with 1&#x2009;mM spermidine. Corresponding western blot analyses as described in the legend to Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>. Full uncropped images of gel blots are shown in Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">12</xref>. One profile was performed. <bold>c</bold> Spermidine increases the synthesis of Ldb17 reporter in both p.T48N and p.G106R strains. Comparison of Ldb17 (left graph), total eIF5A (middle graph) and hypusinated eIF5A (right graph) among <italic>h</italic>eIF5A yeast strains, grown at 30&#x2009;&#xB0;C in SCGal with and without 1&#x2009;mM spermidine. Data presentation and statistics as described in the legend to Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2b</xref>. Full uncropped images of gel blots are shown in Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">13</xref>.</p></caption><graphic xlink:href="41467_2021_21053_Fig3_HTML" id="d32e2310"/></fig></p>
+        <p id="Par14">Next, we performed polysome profiling of WT, p.T48N and p.G106R cells in the presence of 1&#x2009;mM spermidine. Spermidine treatment improved the global polysome profiles for both mutant strains with no impact on <italic>h</italic>eIF5A-WT (compare Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3b</xref> with Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>). We observed full or partial restoration of <italic>h</italic>eIF5A interaction with the 80S ribosome in p.T48N and p.G106R cells, respectively (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3b</xref>). Furthermore, 1&#x2009;mM spermidine restored expression of PPT reporter in both growth-rescued mutants (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3c</xref>, left graph). However, improved growth and protein synthesis was not explained by improved eIF5A expression levels or by enhanced hypusination of p.T48N mutant eIF5A (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3c</xref>, middle and right graph). These results suggest that spermidine can rescue and/or bypass impaired eIF5A functions in protein synthesis independent of its role as a substrate for hypusination of eIF5A K50 (ref. <sup><xref ref-type="bibr" rid="CR33">33</xref></sup>).</p>
+      </sec>
+      <sec id="Sec9">
+        <title>Spermidine partially rescues phenotypes of impaired eIF5A function in a zebrafish model</title>
+        <p id="Par15">We next investigated if spermidine can rescue the impact of loss of eIF5A function in a developing vertebrate model. Zebrafish <italic>eif5a</italic> shares a high degree of conservation with its human orthologue (74% identity, 86% similarity) (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1b</xref>). Previous studies have demonstrated that morpholino-mediated knockdown of <italic>eif5a</italic> or transient overexpression of human <italic>EIF5A</italic> can cause microcephaly in zebrafish larvae<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. We used a validated and published splice site morpholino (MO)<sup><xref ref-type="bibr" rid="CR36">36</xref></sup> to knockdown <italic>eif5a</italic> in fertilised nacre<sup><xref ref-type="bibr" rid="CR37">37</xref></sup> zebrafish eggs, which were incubated in a standard, spermidine-free medium. The resulting larvae were fixed and cartilage was stained at 77&#x2009;h post-fertilisation (hpf). In line with the human disorder phenotypes, we measured the distance between irises (translating to head circumference and therefore serving as a model for microcephaly) and the length of mandible cartilages (translating to mandibular growth and therefore serving as a model for micrognathia) (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>, left and right photographs, respectively). Although we did not recapitulate the previously described microcephaly phenotype<sup><xref ref-type="bibr" rid="CR36">36</xref></sup> (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b</xref>, c, left graph), the <italic>eif5a</italic> MO induced micrognathia in zebrafish larvae (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b</xref>, c, right graph). Next, we explored the effects on zebrafish of supplementation with 10-fold dilutions (from 1&#x2009;mM to 0.1&#x2009;&#xB5;M) of spermidine. One hundred micromolar or higher concentrations killed larvae before fixation. Supplementation with 1&#x2009;&#xB5;M spermidine resulted in partial rescue of micrognathia when compared to control MO (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b</xref>, <xref rid="Fig4" ref-type="fig">c</xref>, right graph), demonstrating that spermidine supplementation can rescue this developmental defect by bypassing loss of eIF5A. Thus, endogenous concentrations of spermidine within the yolk are not sufficient to overcome loss of eIF5A and spermidine supplementation is likely able to promote peptide synthesis to rescue this developmental defect<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>.<fig id="Fig4"><label>Fig. 4</label><caption><title>Knockdown of <italic>eif5a</italic> in zebrafish embryos induces micrognathia, which can be partially rescued by spermidine.</title><p><bold>a</bold> Measurement of iris distance was used for assessing head size (left photograph), and both Meckel&#x2019;s (M) plus both palatoquadrate (Pq) cartilages for mandible assessment (right photograph). <bold>b</bold> Spermidine partially rescues micrognathia. Representative images of alcian blue-stained zebrafish larvae injected with 400&#x2009;pg (1&#x2009;nL) of either control or <italic>eif5a</italic> MOs. Larvae were incubated at 28&#x2009;&#xB0;C for 3&#x2009;h in standard E3 embryo medium (SE3EM) and then transferred to either fresh SE3EM or fresh SE3EM plus 1&#x2009;&#xB5;M spermidine at 28&#x2009;&#xB0;C, and processed after 77&#x2009;h post-fertilisation. <bold>c</bold> Quantification of measurements shown in panel <bold>a</bold>. Each data point corresponds to one fish, the longer horizontal line represents the median, whereas the shorter horizontal lines are the 25th and 75th percentiles. <italic>P</italic> values were determined by Kruskal Wallis test with multiple comparisons. <italic>P</italic> values for comparisons against control MO injected fish are provided when less than 0.05.</p></caption><graphic xlink:href="41467_2021_21053_Fig4_HTML" id="d32e2433"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="Sec10" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par16"><italic>EIF5A</italic> is a unique and critical gene for synthesis of proteins, especially those with PPTs. It is highly intolerant to variation, but so far no human condition caused by variants in this gene has been identified. We define a previously undescribed human disorder caused by heterozygous <italic>EIF5A</italic> variants. This is supported by high constraint for deleterious <italic>EIF5A</italic> variants in population databases, the de novo nature of all the variants described here, their absence from population databases along with high evolutionary conservation and the phenotypic similarity of patients ascertained via their genotypes (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a&#x2013;c</xref>). The disorder can be caused by protein truncating or missense variants. Of note, the codon encoding Arg109 was impacted in three out of seven cases. In humans, this amino acid is encoded by a CpG including codon (CGA) that may be prone to methylation, deamination and CG-TA transition, each of which could explain clustering of the mutations seen in this study<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. The phenotype of the condition consists of variable degrees of developmental delay, intellectual disability, microcephaly and craniofacial dysmorphism, including micrognathia (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>, Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref> and Supplementary Note&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). Although both <italic>EIF5A</italic> and <italic>EIF5A2</italic> are hypusinated and widely expressed in adult human tissues, the expression of the former is ~20-fold higher in brain structures than the latter<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. While <italic>Eif5a</italic><sup><italic>gt/gt</italic></sup> mice are embryonically lethal<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>, <italic>Eif5a2</italic><sup>&#x2212;/&#x2212;</sup> mice are viable and display normal development<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. Therefore, <italic>EIF5A2</italic> expression may not be sufficient to compensate the loss of <italic>EIF5A</italic> function<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. Pathogenic variants in eIF2B subunits (<italic>EIF2B1</italic>, <italic>EIF2B2</italic>, <italic>EIF2B3</italic>, <italic>EIF2B4</italic> and <italic>EIF2B5</italic>; MIM #603896)<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>, <italic>EIF2S3</italic> (MIM #300148)<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>, <italic>EIF3F</italic> (MIM # 618295)<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>, <italic>EIF4E</italic> (MIM #615091)<sup><xref ref-type="bibr" rid="CR43">43</xref>&#x2013;<xref ref-type="bibr" rid="CR45">45</xref></sup> and <italic>EIF4G1</italic> (MIM #614251)<sup><xref ref-type="bibr" rid="CR46">46</xref></sup> have been previously described to cause distinct neurological disorders. Our findings add to this list of translation factors implicated in human developmental disorders.</p>
+      <p id="Par17">Yeast growth assays showed the deleterious nature of the truncating and p.T48N and p.G106R missense <italic>EIF5A</italic> variants (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2a</xref>). Our results with the truncating variant are concordant with a previous study that demonstrated that deletion of either eIF5A amino- or carboxy-termini were lethal in yeast<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. For all studied missense variants, including the E122K variant, the polysome profiles were abnormal further indicating their deleterious nature. More specifically, the higher P/M ratios typically indicate a reduction in translation elongation rates or pausing of ribosomes causing &#x2018;traffic jams&#x2019; on individual mRNAs leading to increased ribosome accumulation on mRNAs. The increase in the free 60S peak heights and the 60S/80S ratios (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>) suggests that <italic>EIF5A</italic> missense variants may result in delay of 60S joining during initiation, or reduce the stability of 80S complexes. Both defects are consistent with the known functions of eIF5A in stimulating the first peptide bond formation and later during elongation and demonstrate clearly that each eIF5A missense mutation impacts protein synthesis globally<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>.</p>
+      <p id="Par18">Absence of the mutant transcript with the c.324dupA variant and lower level of <italic>EIF5A</italic> mRNA levels in the LCLs of individual 3 suggest haploinsufficiency as the underlying mechanism for the protein truncating variant. This is supported by phenotypic overlap of intellectual disability, microcephaly and retrognathia in patients with 17p13.1 microdeletions that encompass <italic>EIF5A</italic><sup><xref ref-type="bibr" rid="CR47">47</xref></sup>. Notably, the minimum critical region of this 17p13.1 microdeletion syndrome includes 17 protein-coding genes and its main phenotypic driver has not been resolved. Our observations suggest that haploinsufficiency of <italic>EIF5A</italic> could be responsible for the phenotype of 17p13.1 microdeletion syndrome.</p>
+      <p id="Par19">The loss of function of the <italic>EIF5A</italic> missense variants is likely to be due to different mechanisms. The observation of reduced hypusination in cells expressing the p.T48N variant suggests that this variant impairs hypusination of the adjacent K50 residue. Other missense mutations changing residues adjacent to K50 also have reduced hypusination<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>, consistent with the idea that they impair interactions with DHPS and/or DOHH enzymes responsible for hypusination. This is also supported by our spermidine supplementation experiment (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3</xref>) that showed no improvement of p.T48N hypusination, indicating that spermidine levels are not a limiting factor for hypusination of this mutant. The DHPS molecular structure indicates that the surface surrounding its active site tunnel is highly acidic<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>, while the eIF5A surface region around K50 has a complementary positive charged. In silico modelling (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1d</xref>) of the variant structure suggests T48N modestly increases the positive charge, but if or how this affects DHPS or DOHH interactions with eIF5A will require further experimentation. Reduction of total eIF5A levels in mutant cells (Figs.&#xA0;<xref rid="Fig2" ref-type="fig">2b</xref> and <xref rid="Fig3" ref-type="fig">3c</xref>) could be indicative of reduced protein or mRNA stability, but reduced protein levels per se are unlikely sufficient to explain the mutant phenotype. Instead our polysomal profile results are indicative of reduced interaction of eIF5A with ribosomes (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2c</xref>) as the common mechanism in the yeast model. As we did not have access to patient cells we could not test mRNA and protein expression levels or functional changes in individuals with the missense variants. Therefore, we cannot rule out that other mechanisms such as abnormal splicing or mRNA degradation may contribute to the disorder in individuals with missense <italic>EIF5A</italic> variants. Identification of more individuals in the future with disease-causing variants in this gene will be of great interest to uncover the underlying mechanisms.</p>
+      <p id="Par20">We demonstrated that the loss of eIF5A function resulting from the variants has a deleterious impact on synthesis of proteins with PPT (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2d</xref>). The reduction was statistically significant for p.T48N and p.G106R variants. Although we did observe a reduction for the p.E122K variant, it did not reach statistical significance. In all our assays p.E122K was the least affected mutant. This is consistent with the milder individual phenotype of the patient harbouring this variant (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref> and Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a</xref>). Human <italic>KMT2D</italic> and <italic>SF3B4</italic> are two MAGs that encode proteins with one of the highest number of PPTs (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2e</xref>). Interestingly, the phenotypes resulting from their loss of function resemble that of the individuals with <italic>EIF5A</italic> variants. From these data we surmise that impaired synthesis of proteins enriched in PPTs such as <italic>KMT2D</italic> and <italic>SF3B4</italic> may underlie the phenotype(s) caused by defective eIF5A. Genes encoding the highest level of polyprolines display a strong association with biological processes such as actin/cytoskeletal-associated functions, RNA splicing/turnover, DNA binding/transcription and cell signalling<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. Notably, variants in actin-encoding genes are known to cause human developmental disorders with microcephaly<sup><xref ref-type="bibr" rid="CR49">49</xref>&#x2013;<xref ref-type="bibr" rid="CR51">51</xref></sup>. Similarly mandibular and craniofacial features of spliceosomal disorders overlap with patients described here<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>. Other possible lines of investigation could also be explored. For example, eIF5A regulates pancreatic cancer metastasis by modulating expression of RhoA and ROCK<sup><xref ref-type="bibr" rid="CR53">53</xref></sup>. Germline variants in several Rho-GTPases cause developmental disorders with microcephaly<sup><xref ref-type="bibr" rid="CR54">54</xref>,<xref ref-type="bibr" rid="CR55">55</xref></sup>. Recently it was shown that hypusinated eIF5A promotes the efficient expression of a subset of mitochondrial proteins involved in the TCA cycle and oxidative phosphorylation<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. Exploring the effects of these mutations on synthesis of mitochondrial proteins and function could be an interesting avenue. Additionally, eIF5A has functions in translation termination<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup> that we did not explore in this study but which may contribute to this developmental disorder. The importance of eIF5A in neurodevelopment is further emphasised by the recent identification of DHPS deficiency in patients with a neurodevelopmental disorder with seizures and speech and walking impairment (MIM # 618480)<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>. The role of eIF5A in normal brain and craniofacial development has never been examined before to the best of our knowledge and the mechanism of how impaired eIF5A results in abnormal neurodevelopment will need to be studied in the future.</p>
+      <p id="Par21">We demonstrated partial rescue of impaired eIF5A function and its resultant phenotypes in yeast and zebrafish models by spermidine (Figs.&#xA0;<xref rid="Fig3" ref-type="fig">3</xref>a&#x2013;c and <xref rid="Fig4" ref-type="fig">4c&#x2013;d</xref>). In yeast, spermidine rescued ribosome association defect and improved the polysome profile and PPT synthesis of the tested mutants. These effects are all consistent with rescuing eIF5A function. However, the molecular mechanism that underlies the rescue remains unclear. As eIF5A expression and hypusination was not increased by spermidine supplement (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3c</xref>), it appears spermidine is not acting via hypusination alone. In agreement with this idea, eIF5A-80S ribosome interaction was enhanced by spermidine (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3b</xref>). How spermidine could boost remaining eIF5A function is not clear. As spermidine rescued transient knockdown of <italic>eif5a</italic> in zebrafish, it may act similarly to the yeast model, or independently of eIF5A. Of note, our zebrafish model was based on transient knockdown of <italic>eif5a</italic>, and stable germline mutants will need to be studied to resolve these questions in the future. Importantly, spermidine supplementation has been shown to be safe and well tolerated in mice and humans<sup><xref ref-type="bibr" rid="CR58">58</xref></sup>. It promotes longevity in yeast<sup><xref ref-type="bibr" rid="CR35">35</xref></sup> and may extend the lifespan of mice and humans<sup><xref ref-type="bibr" rid="CR59">59</xref>,<xref ref-type="bibr" rid="CR60">60</xref></sup>. Higher spermidine intake has been shown to be linked to lower mortality in humans<sup><xref ref-type="bibr" rid="CR61">61</xref></sup>. It has also been shown to protect against &#x3B1;-synuclein neurotoxicity in fruit flies<sup><xref ref-type="bibr" rid="CR62">62</xref></sup> and its levels are important for memory-retrieval<sup><xref ref-type="bibr" rid="CR63">63</xref></sup> and age-related memory-associated brain structures in rodents<sup><xref ref-type="bibr" rid="CR64">64</xref></sup>. There is a growing interest in using spermidine as a therapeutic agent in conditions such as cognitive decline<sup><xref ref-type="bibr" rid="CR65">65</xref></sup>. Although the effects of spermidine may be independent of its role in the synthesis of hypusinated eIF5A, our results raise the interesting possibility of a potential future therapy for individuals with <italic>EIF5A</italic> variant-associated disease.</p>
+      <p id="Par22">In summary, we have defined a potentially treatable previously undescribed human Mendelian disorder caused by <italic>EIF5A</italic> mutations that result in reduced eIF5A&#x2013;ribosome interactions via mutation-specific mechanisms. The phenotypes are likely explained by impaired synthesis of specific PPT-rich proteins. These findings uncover the role of eIF5A, and proteins with PPTs, in human brain and craniofacial development. Our findings open the avenue for future studies to identify the specific &#x2018;hard to synthesise&#x2019; proteins, and the biological processes, most dependant on eIF5A function.</p>
+    </sec>
+    <sec id="Sec11">
+      <title>Methods</title>
+      <sec id="Sec12">
+        <title>Ascertainment and exome sequencing analyses</title>
+        <p id="Par23">Seven individuals from seven unrelated families with heterozygous, de novo, variants in <italic>EIF5A</italic> were included in this study after informed consents were obtained. The Central Manchester, Cambridge South, and the Republic of Ireland RECs approved this study (02/CM/238, 10/H0305/83 and GEN/284/12, respectively). Informed consent for research studies from patients or their legal representatives was obtained in all cases. The authors affirm that human research participants provided informed consent for publication of the images in Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1</xref>. The patients were followed up by clinical geneticists from France, the United Kingdom, and the USA. Variants were identified by trio whole-exome sequencing for the detection of an undiagnosed neurodevelopmental disorder associated with multiple congenital anomalies, following published methodology for sample and library preparation, sequencing data production, analysis and interpretation<sup><xref ref-type="bibr" rid="CR66">66</xref>&#x2013;<xref ref-type="bibr" rid="CR69">69</xref></sup>. For the interpretation process we also considered the impact of variants on the preferentially expressed transcript according to the GTEx project<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> and the canonical protein according to UniProtKB<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>, and the tolerance of the gene to variation according to gnomAD<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> scores, considering only high-quality non-flagged variants present in the &#x2018;only controls' subset of this database. We considered variants in constrained coding regions only (percentile&#x2009;&gt;&#x2009;90) according to Havrilla, et al.<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>. The clinical observations were gathered through the Matchmaker Exchange<sup><xref ref-type="bibr" rid="CR21">21</xref></sup> and GeneMatcher<sup><xref ref-type="bibr" rid="CR22">22</xref></sup> initiatives.</p>
+        <p id="Par24">DNA samples from affected individual 3 and her parents, as well as informed consent, were obtained for PCR and Sanger sequencing confirmation. PCR was performed using primers 5&#x2032;-AATGGCAGGAGAGGGTGTTT-3&#x2032; and 5&#x2032;-TGCAGGTTCAGAGGATCACT-3&#x2032; and the GoTaq&#xAE; Hot Start Green Master Mix 2x (PROMEGA). PCR products were purified using an AxyPrep&#x2122; Mag PCR Clean-Up kit (Axygen) and sequenced with a BigDye&#xAE; Terminator v3.1 Cycle Sequencing kit (Applied Biosystems) on an ABI 3730xl DNA sequencer (Applied Biosystems). The resulting ABI files were examined using the Genome Assembly Program version 4.8b1. Similar Sanger sequencing methods were used to confirm the presence of the <italic>EIF5A</italic> variant in individual 1, and its absence in her parents.</p>
+      </sec>
+      <sec id="Sec13">
+        <title>In silico analysis of variants and MAGs</title>
+        <p id="Par25">The evolutionary conservation analysis of the residues affected by missense variants was performed using the eIF5A canonical protein sequence from <italic>Homo sapiens</italic> (UniProtKB entry P63241), <italic>Mus musculus</italic> (UniProtKB entry P63242), <italic>Gallus gallus</italic> (UniProtKB entry Q09121), <italic>Danio rerio</italic> (UniProtKB entry Q6NX89, zebrafish hereafter), <italic>Drosophila melanogaster</italic> (UniProtKB entry Q9GU68) and <italic>Saccharomyces cerevisiae</italic> (UniProtKB entry P23301, yeast hereafter) using the ClustalWS alignment in Jalview<sup><xref ref-type="bibr" rid="CR70">70</xref></sup> Version 2. 2.10.5. These residues were modelled in the yeast 60S ribosomal subunit with A-site tRNA, P-site tRNA and eIF5A (PDB entry 5GAK) using Chimera<sup><xref ref-type="bibr" rid="CR71">71</xref></sup> 1.12.</p>
+        <p id="Par26">We searched for all genes associated with microcephaly (MAG) deposited in OMIM until 6 February 2018 using the search criteria &#x2018;microcephaly (Entries with: gene map locus; Prefixes: +, #; Retrieve: gene map)&#x2019;. Data were then merged between the OMIM search and the proline content of the human proteome analysed by Morgan and Rubenstein<sup><xref ref-type="bibr" rid="CR30">30</xref></sup> and depicted in Supplementary Data&#xA0;<xref rid="MOESM4" ref-type="media">1</xref>.</p>
+      </sec>
+      <sec id="Sec14">
+        <title>Gene, variants, morpholinos and plasmid synthesis and expression</title>
+        <p id="Par27">A yeast expression plasmid for human eIF5A (<italic>h</italic>eIF5A-WT) was designed to express the human canonical protein sequence, but using the yeast optimised codon usage and placed in the context of the yeast <italic>TIF51A</italic> (<italic>y</italic>eIF5A) 5&#x2032; and 3&#x2032; regions. This was commercially synthesised (Epoch Life Sciences) and cloned into a pUC19 vector (Supplementary Note&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>), resulting in plasmid pAV2578 (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). The gene was subsequently excised using <italic>Xho</italic>I and <italic>Spe</italic>I and cloned into <italic>Sal</italic>I-and-<italic>Spe</italic>I digested single-copy-number (sc) <italic>LEU2</italic> (YCplac111), <italic>URA3</italic> (YCplac33) and high-copy-number (hc) <italic>LEU2</italic> YEplac181 vectors, generating plasmids pAV2580, pAV2592 and pAV2593 (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). The <italic>h</italic>eIF5A sequence was verified by Sanger sequencing at Eurofins Genomics using the M13 reverse primer.</p>
+        <p id="Par28">The variants p.T48N, p.G106R, p.R109Tfs*8 and p.E122K, detected in individuals 1&#x2013;3 and 7, respectively, were created through site-directed mutagenesis using primers (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>), the sc pAV2580 plasmid, and the QuikChange Site-Directed Mutagenesis Kit (Agilent Technologies), following the manufacturer&#x2019;s instructions. An hc version of p.R109Tfs*8 was created in pAV2593. The resulting plasmids pAV2584[<italic>h</italic>eIF5A-T48N], pAV2585[<italic>h</italic>eIF5A-G106R], sc pAV2586[<italic>h</italic>eIF5A-R109Tfs*8], pAV2587[<italic>h</italic>eIF5A-E122K] and hc pAV2590[<italic>h</italic>eIF5A-R109Tfs*8 <italic>LEU2</italic>] (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>) were verified by Sanger sequencing as above.</p>
+        <p id="Par29">For genetic knockdown of the <italic>eif5a</italic> gene in zebrafish, an <italic>eif5a</italic> splice site morpholino (MO) was synthesised (Gene Tools, Philomath, OR) for inhibition of the <italic>eif5a</italic> gene (5&#x2032;-AACCCTATCCAAACATTACCTTTGC-3&#x2032;) as previously published<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. A standard control MO (5&#x2032;-CCTCTTACCTCAGTTACAATTTATA-3&#x2032;) by Gene Tools was also used.</p>
+      </sec>
+      <sec id="Sec15">
+        <title>Leucocyte transformation and harvesting</title>
+        <p id="Par30">Peripheral blood mononuclear cells from one healthy, adult female (Control 1), one healthy, adult male (Control 2), and Individual 3 were transformed by Epstein-Barr virus into LCLs following a published protocol<sup><xref ref-type="bibr" rid="CR72">72</xref></sup>. While five million LCLs from Individual 3 were harvested from five cell culture flasks under standard conditions, another five million LCLs from the same individual and number of flasks were treated for 6&#x2009;h with 200&#x2009;&#xB5;g/mL of puromycin before harvesting, and both type of samples were kept at &#x2212;80&#x2009;&#xB0;C before RNA extraction.</p>
+      </sec>
+      <sec id="Sec16">
+        <title>Yeast strain construction and growth assays</title>
+        <p id="Par31">The J696 haploid yeast strain deleted for both yeast eIF5A (<italic>y</italic>eIF5A) genes and whose growth is supported by a plasmid bearing <italic>y</italic>eIF5A (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>), as well as the <italic>y</italic>eIF5A plasmids C3287 (pAV2569), C3288 (pAV2571) and C3294 (pAV2565), and hc PPT reporter plasmids C4351 (pAV2566) and C4353 (pAV2570) (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>) were kindly provided by Thomas E. Dever, Laboratory of Gene Regulation and Development, National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, USA<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup>.</p>
+        <p id="Par32">To study the effect of <italic>h</italic>eIF5A-WT and the variants in yeast, a series of yeast strains was created by transformation and plasmid shuffling of the plasmids described in Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref> into strain J696 to generate the strains described in Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>.</p>
+        <p id="Par33">To analyse the effect on yeast growth, <italic>h</italic>eIF5A-WT and its variants, strains GP7439 and GP7443 diploid for <italic>y</italic>eIF5A gene, and hybrid strains, GP7441, GP7447, GP7448, GP7449 and GP7450 containing one <italic>y</italic>eIF5A copy and one <italic>h</italic>eIF5A copy (or <italic>y</italic>eIF5A control) were patched on minimal SD&#x2009;+&#x2009;tryptophan medium, and replica-printed to SD+tryptophan+uracil+5-fluoro-orotic acid plates to select for loss of the WT <italic>y</italic>eIF5A and create haploid strains GP7440, GP7446, GP7444, GP7455, GP7474 and GP7456 each bearing a different <italic>h</italic>eIF5A or <italic>y</italic>eIF5A plasmid as the sole source of eIF5A. Strains were 10-fold serially diluted and spotted on appropriate selective media&#x2009;&#xB1;&#x2009;spermidine at indicated concentrations to record growth phenotypes.</p>
+      </sec>
+      <sec id="Sec17">
+        <title>Protein extraction and WB</title>
+        <p id="Par34">To study the effect of variants on humanised eIF5A synthesis and hypusination, strains GP7444, GP7455, GP7456 and GP7474 were grown in synthetic complete minus leucine (SC&#x2212;LEU) medium, and strains GP7469, GP7482, GP7484 and GP7485 were grown in synthetic complete minus leucine and uracil (SC&#x2212;LEU&#x2212;URA) medium to mid-log phase at 30&#x2009;&#xB0;C. To study the effect of variants on synthesis of HA-tagged Ldb17 and Eap1 reporters, all strains between GP7490 and GP7493 and between GP7500 and GP7503 were grown in SC drop-out medium containing dextrose (0.4%) and galactose (2%) (SCGal-LEU-URA) for 24&#x2009;h at 30&#x2009;&#xB0;C to induce expression of the PPT reporters. Spermidine (1&#x2009;mM) was added to media where indicated.</p>
+        <p id="Par35">Ten OD<sub>600</sub> units of cells of each strain were harvested, washed and resuspended with 10% trichloroacetic acid, and broken with acid-washed glass beads (Sigma-Aldrich) in a bead-beater (Biospec Products) twice for 45&#x2009;s. These cell extracts were then centrifugated at 20,000<italic>g</italic> and the pellets resuspended in acetone twice. All these procedures were carried out at 4&#x2009;&#xB0;C. After a final centrifugation, pellets were dried 10&#x2009;min at 37&#x2009;&#xB0;C and solubilised in a protease inhibitor buffer (100&#x2009;mM Tris-HCl [pH 8.0], 1% SDS, 1&#x2009;mM EDTA, 1&#x2009;mM PMSF and 1 cOmplete&#x2122; protease inhibitor tablet [Roche]) during 1&#x2009;h at 37&#x2009;&#xB0;C. Then, NuPAGE&#xAE; LDS Sample Buffer 4&#xD7; (Invitrogen) and &#x3B2;-mercaptoethanol were added to the extracts, which were subsequently boiled at 95&#x2009;&#xB0;C during 5&#x2009;min and cooled immediately. After a final spin at 4&#x2009;&#xB0;C, supernatants were harvested and electrophoresis was carried out using 9&#x2013;12&#x2009;&#xB5;L of protein extracts, NuPAGE&#x2122; 4&#x2013;12% Bis-Tris gels (Invitrogen) and NuPAGE&#x2122; MOPS SDS 20&#xD7; running buffer (Invitrogen) during 50&#x2009;min at 200&#x2009;V. The Precision Plus Protein&#x2122; All Blue Prestained Protein Standard (Bio-Rad Laboratories Ltd, UK) was used as a molecular weight marker. Gels were blotted onto Amersham&#x2122; Protan&#x2122; 0.45&#x2009;&#xB5;m nitrocellulose membranes (General Electric Healthcare), and using Whatman&#x2122; 3&#x2009;mm Chr chromatography paper (General Electric Healthcare), NuPAGE&#x2122; 20&#xD7; transfer buffer (Invitrogen), and XCell&#x2122; Blot module (Invitrogen) during 1&#x2009;h at 30&#x2009;V. After blocking non-specific binding, the membranes were incubated overnight at 4&#x2009;&#xB0;C with specific mouse anti-eIF5A (1:10,000; BD Biosciences, #611977), rabbit anti-hypusine (1:1,000; EMD Millipore, #ABS1064), mouse anti-Pab1 (1:5000; EnCor Biotechnology, #MCA-1G1), mouse anti-HA.11 (1:4000; BioLegend, #901513) or chicken anti-eIF2&#x3B1; (1:500; Cambridge Research Biochemicals, custom designed). Then, the membranes were incubated with a corresponding secondary fluorescent labelled donkey anti-chicken (P/N: 926-32218), and goat anti-rabbit (P/N: 926-32211) or anti-mouse antibodies (P/N: 926-32350) (IRDye&#xAE; 800CW; LI-COR Biosciences) and the signal was developed using a LI-COR Odyssey&#xAE; CLx Imaging System (LI-COR Biosciences) using default parameters. The area of every band was selected to fit it to the best curve of fluorescence.</p>
+        <p id="Par36">The precise epitope recognised by the commercial eIF5A monoclonal antibody is not known. It was raised to a protein 58&#x2013;154 and our work shows it cross-reacts with the R109Tfs*8 mutant (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">4</xref>), implying its epitope is between 58 and 108. As the antibody cross-reacts with all mutant forms tested here we assume that G106 is not part of its binding site on eIF5A. Pab1 encoding the yeast polyA-binding protein was used as a loading control for most assays. However, Ldb17 with HA tag and Pab1 co-migrate in SDS-PAGE gels and some residual fluorescence remained for both proteins after stripping. Therefore, eIF2&#x3B1; antibodies were used as a loading control for blots for experiments using Ldb17-HA-expressing strains. Full scans of representative western blots shown in Figs.&#xA0;<xref rid="Fig2" ref-type="fig">2</xref>b, d and <xref rid="Fig3" ref-type="fig">3c</xref> are depicted in Supplementary Figs.&#xA0;<xref rid="MOESM1" ref-type="media">9</xref>, <xref rid="MOESM1" ref-type="media">11</xref> and <xref rid="MOESM1" ref-type="media">13</xref>.</p>
+      </sec>
+      <sec id="Sec18">
+        <title>Polysome profile analysis</title>
+        <p id="Par37">The GP7444, GP7455, GP7456 and GP7474 strains were grown to mid-log phase at 30&#x2009;&#xB0;C in 80&#x2009;ml of SC-LEU medium&#x2009;&#xB1;&#x2009;spermidine (1&#x2009;mM). Fifty millimolar of formaldehyde was added followed immediately by 15&#x2009;ml of pre-made frozen media droplets. We used formaldehyde treatment to stabilise polysomes and bound factors rather than cycloheximide, because the latter has been found to enhance eIF5A&#x2013;ribosome interactions<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. Cross-linking was then carried out on ice water for 1&#x2009;h before quenching with glycine (final concentration of 100&#x2009;mM). Whole-cell extracts were prepared by bead beating in lysis buffer (20&#x2009;mM HEPES, 2&#x2009;mM magnesium acetate, 100&#x2009;mM potassium acetate, 0.5&#x2009;mM DTT), clarified (10,000<italic>g</italic> 10&#x2009;min) and separated on 15&#x2013;50% sucrose gradients by centrifugation at 40,000&#x2009;r.p.m. for 2.5&#x2009;h using a SW41 Beckman rotor. Gradients were fractionated while scanning at <italic>A</italic><sub>254</sub> to visualise the indicated ribosomal species. Polysome-to-monosome (P/M) and 60S/80S ratios were calculated by comparing the areas under the 60S, 80S and polysome peaks. Gradient fractions were TCA precipitated and underwent western blot analysis using antibodies as described above as well as Rps3(uS3) (1:50,000) and Rpl35(uL29) (1:10,000) rabbit polyclonal antibodies (a kind gift from Dr Martin Pool, University of Manchester). Full scans of representative western blots shown in Figs.&#xA0;<xref rid="Fig2" ref-type="fig">2</xref>c and <xref rid="Fig3" ref-type="fig">3b</xref> are depicted in Supplementary Figs.&#xA0;<xref rid="MOESM1" ref-type="media">10</xref> and 12, respectively.</p>
+      </sec>
+      <sec id="Sec19">
+        <title>RNA extraction and quantitative real-time PCR (qRT-PCT)</title>
+        <p id="Par38">Total RNA was extracted using RNeasy Mini kit (Qiagen) according to the manufacturer&#x2019;s protocol from one million LCLs of Control 1 and Control 2 each, and from one million, untreated LCLs and one million puromycin-treated LCLs of Individual 3. RNA concentration was measured using a NanoDrop 2000 spectrophotometer (Thermo Scientific). RNA was reverse transcribed with random hexamer primers (Promega) to generate cDNA using the M-MLV Reverse Transcriptase kit (Promega) according to the manufacturer&#x2019;s protocol. qRT-PCR reactions were performed on a Bio-Rad CFX394 Real Time system (Bio-Rad) using Power SYBR Green PCR Master mix (Applied Biosystems) and the forward 5&#x2032;-GCCATGTAAGATCGTCGAGA-3&#x2032; and reverse 5&#x2032;-GGAGCAGTGATAGGTACCCA-3&#x2032; <italic>EIF5A</italic> primers (Sigma-Aldrich). The level of <italic>EIF5A</italic> mRNA was evaluated using a relative quantification approach (2&#x2212;&#x394;CT method) with human <italic>GAPDH</italic> and its primers 5&#x2032;-ATGGGGAAGGTGAAGGTCG-3&#x2032; and 5&#x2032;-TAAAAGCAGCCCTGGTGACC-3&#x2032; as the internal reference. To detect if the frameshift-encoding transcript is expressed, we performed bidirectional Sanger sequencing of Individual 3&#x2019;s <italic>EIF5A</italic> cDNA, obtained from both untreated and puromycin-treated LCLs, using the aforementioned forward primer and reverse 5&#x2032;-GCCTTGATTGCAACAGCTGC-3&#x2032; primer, as previously described.</p>
+      </sec>
+      <sec id="Sec20">
+        <title>Zebrafish knockdown, staining and imaging</title>
+        <p id="Par39">Zebrafish husbandry was approved by The University of Manchester Ethical Review Board and all experiments were performed in accordance with UK Home Office regulations (PPL P132EB6D7). Four hundred picograms (in 1&#x2009;nL) of either the <italic>eif5a</italic> or control MOs were injected into 25&#x2013;75 fertilised nacre embryos per condition, at the single-cell stage. Injected embryos were incubated at 28&#x2009;&#xB0;C in standard E3 embryo medium (SE3EM) until 3 hpf and then split into two groups, one of them only in SE3EM and the other one in SE3EM plus Spermidine (85558; Sigma-Aldrich) to a final concentration of 1&#x2009;&#xB5;M. Both groups were incubated at 28&#x2009;&#xB0;C until 77 hpf, without renewing the media.</p>
+        <p id="Par40">At 77 hpf, larvae were terminated using 4% MS222 and fixed for 1&#x2009;h with 2% paraformaldehyde, and then stained using a two-colour acid-free bone and cartilage staining protocol<sup><xref ref-type="bibr" rid="CR73">73</xref></sup>. Stained larvae groups were blinded to a manipulator, mounted into 4% methylcellulose and imaged using a DFC7000 T Camera (Leica) coupled to a M165 FC Microscope (Leica) using &#xD7;10 objective and LASX image capture software (version 3.4.2; Leica). Head size and mandibles were measured as depicted in Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref> using ImageJ software (version 1.52j).</p>
+      </sec>
+      <sec id="Sec21">
+        <title>Statistics</title>
+        <p id="Par41">All statistics were calculated with either GraphPad Prism 8.3.0 (GraphPad Software) or SPSS v25 (IBM) and all experiments were carried out using three biological (yeast and zebrafish analyses) or technical (Individual 3&#x2019;s <italic>EIF5A</italic> RNA expression) replicates. Chi-square was performed to study the association between content of PPTs and MAGs. Signals of WBs from yeast extracts were normalised to the mean signal across each blot for each antibody and for loading variance between lanes using similarly normalised control antibody signals as follows in Eq. (<xref rid="Equ1" ref-type="">1</xref>):<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{ab}}\;{ {ratio}} = \frac{{{ {Tab}}}}{{{{Mean}}\;{ {Tab}}}}/\frac{{{ {Cab}}}}{{{ {Mean}}\;{ {Cab}}}} = \frac{{{{Tab}} \times {{Mean}}\;{{Cab}}}}{{{{Mean}}\;{{Tab}} \times {{Cab}}}},$$\end{document}</tex-math><mml:math id="M2"><mml:mi>a</mml:mi><mml:mi>b</mml:mi><mml:mspace width="0.16em"/><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mspace width="0.16em"/><mml:mi>T</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:mfrac><mml:mo>/</mml:mo><mml:mfrac><mml:mrow><mml:mi>C</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mspace width="0.16em"/><mml:mi>C</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mi>M</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mspace width="0.16em"/><mml:mi>C</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mspace width="0.16em"/><mml:mi>T</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mi>C</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:math><graphic xlink:href="41467_2021_21053_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where Tab is the test antibody and Cab the control antibody. For hypusine quantification, eIF5A was used as its control antibody. Unpaired <italic>t</italic>-test against control samples was performed for western blots from yeast extracts and for Individual 3 <italic>EIF5A</italic> RNA expression. These results were depicted using bar plots, which represent the&#x2009;mean (average) plus standard error of the mean with overlaid data points representing independent experiments. Kruskal Wallis test with multiple comparisons was performed for zebrafish analyses. These results were depicted using dot plots and the longer horizontal line represents the median, whereas the shorter horizontal lines are the 25th and 75th percentiles. A <italic>P</italic> value below 0.05 was considered significant, which is given at the top of each graph, where relevant.</p>
+      </sec>
+      <sec id="Sec22">
+        <title>Reporting summary</title>
+        <p id="Par42">Further information on research design is available in the&#xA0;<xref rid="MOESM5" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary information</title>
+      <sec id="Sec23">
+        <supplementary-material content-type="local-data" id="MOESM1">
+          <media xlink:href="41467_2021_21053_MOESM1_ESM.pdf">
+            <caption>
+              <p>Supplementary Information</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM2">
+          <media xlink:href="41467_2021_21053_MOESM2_ESM.pdf">
+            <caption>
+              <p>Peer Review File</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM3">
+          <media xlink:href="41467_2021_21053_MOESM3_ESM.pdf">
+            <caption>
+              <p>Description of Additional Supplementary Files</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM4">
+          <media xlink:href="41467_2021_21053_MOESM4_ESM.xlsx">
+            <caption>
+              <p>Supplementary Data 1</p>
+            </caption>
+          </media>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="MOESM5">
+          <media xlink:href="41467_2021_21053_MOESM5_ESM.pdf">
+            <caption>
+              <p>Reporting Summary</p>
+            </caption>
+          </media>
+        </supplementary-material>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="App1">
+        <sec id="Sec24">
+          <title>Source data</title>
+          <p id="Par45">
+            <media position="anchor" xlink:href="41467_2021_21053_MOESM6_ESM.zip" id="MOESM6">
+              <caption>
+                <p>Source Data</p>
+              </caption>
+            </media>
+          </p>
+        </sec>
+      </app>
+    </app-group>
+    <fn-group>
+      <fn>
+        <p><bold>Peer review information</bold>
+<italic>Nature Communications</italic> thanks the anonymous reviewers for their contributions to the peer review of this work. Peer review reports are available.</p>
+      </fn>
+      <fn>
+        <p><bold>Publisher&#x2019;s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <title>Supplementary information</title>
+      <p>The online version contains supplementary material available at 10.1038/s41467-021-21053-2.</p>
+    </sec>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We are thankful to all the individuals and their families for taking part in the study. We thank Tom Dever (National Institutes of Health, USA) and Beth Grayhack (University of Rochester Medical Center, USA) for kind gifts of plasmids and yeast strains used in this study, as well as Martin Pool (University of Manchester, UK) for the gift of antibodies to ribosomal proteins. We are thankful to the Deciphering Developmental Disorders (DDD) study for the invaluable collaboration. The DDD Study (Cambridge South REC approval 10/H0305/83 and the Republic of Ireland REC GEN/284/12) presents independent research commissioned by the Health Innovation Challenge Fund (grant number HICF-1009-003), a parallel funding partnership between the Wellcome Trust and the Department of Health and the Wellcome Trust Sanger Institute (grant number WT098051). The views expressed in this publication are those of the author(s) and not necessarily those of the Wellcome Trust, BBSRC or the Department of Health. The research team acknowledges the support of the National Institute for Health Research, through the Comprehensive Clinical Research Network, UK. V.F. acknowledges to CONICYT, Chile&#x2019;s National Commission for Scientific and Technological Research, for its scholarship support (grant number 72160007). V.F., W.G.N. and S.B. acknowledge to the Kabuki Research Fund at Manchester University NHS Foundation Trust. W.G.N. acknowledges support from Action Medical Research (GN2494), and the Manchester NIHR Biomedical Research Centre (IS-BRC-1215-20007). G.D.P. and M.D.J. acknowledge to Biotechnology and Biological Sciences Research Council (BBSRC), UK, for its financial support (grant BB/N014049/1). P.R.K and S. Crilly were supported by the Stroke Association (TSA LECT 2017/02) and the NC3Rs (NC/N002598/1). J.A. and C.T.G. were supported by the Agence Nationale de la Recherche (CranioRespiro project and &#x2018;Investissements d&#x2019;avenir' program (ANR-10-IAHU-01)) and MSDAvenir (DevoDecode project).</p>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Author contributions</title>
+      <p>S.B. conceived the project. S.B., G.D.P., P.R.K, W.G.N., V.F. and M.D.J. designed the study. S.J.D., A.G.L.D., A.E.F., V.H., J.A., D.L., P.N., J.R., M.S., L.A.C., C.J.S., B.R.S., J.L.G. and C.T.G provided patients&#x2019; phenotypes and collected samples. V.F. performed compilation of patients&#x2019; clinical data, in silico analysis of variants, association of PPT with MAGs, Sanger sequencing confirmation, synthesis of gene, variants and yeast plasmids, cell transformations, yeast growth assays and western blots. M.D.J. performed polysome fractionation and western blot analysis. S.L., S. Crilly and S.E.W. performed zebrafish injections, staining and imaging. S. Cuvertino performed RNA extraction, expression analysis and sequencing of cDNA, and western blot of human samples. V.F., S.B., G.D.P., P.R.K. and M.D.J. wrote the manuscript. All authors reviewed, edited and approved the final manuscript.</p>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Data availability</title>
+      <p>All relevant data supporting the key findings of this study are available within the article and its Supplementary Information files or from the corresponding author upon reasonable request.&#xA0;<xref rid="Sec24" ref-type="sec">Source data</xref> are provided with this paper.</p>
+    </notes>
+    <notes id="FPar1" notes-type="COI-statement">
+      <title>Competing interests</title>
+      <p id="Par43">The authors declare no competing interests.</p>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Melnikov</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Molecular insights into protein synthesis with proline residues</article-title>
+          <source>EMBO Rep.</source>
+          <year>2016</year>
+          <volume>17</volume>
+          <fpage>1776</fpage>
+          <lpage>1784</lpage>
+          <pub-id pub-id-type="doi">10.15252/embr.201642943</pub-id>
+          <pub-id pub-id-type="pmid">27827794</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saini</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Eyler</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Dever</surname>
+              <given-names>TE</given-names>
+            </name>
+          </person-group>
+          <article-title>Hypusine-containing protein eIF5A promotes translation elongation</article-title>
+          <source>Nature</source>
+          <year>2009</year>
+          <volume>459</volume>
+          <fpage>118</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature08034</pub-id>
+          <pub-id pub-id-type="pmid">19424157</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nishimura</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>SB</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>MH</given-names>
+            </name>
+          </person-group>
+          <article-title>Essential role of eIF5A-1 and deoxyhypusine synthase in mouse embryonic development</article-title>
+          <source>Amino Acids</source>
+          <year>2012</year>
+          <volume>42</volume>
+          <fpage>703</fpage>
+          <lpage>710</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00726-011-0986-z</pub-id>
+          <pub-id pub-id-type="pmid">21850436</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Turpaev</surname>
+              <given-names>KT</given-names>
+            </name>
+          </person-group>
+          <article-title>Translation factor eIF5A, modification with hypusine and role in regulation of gene expression. eIF5A as a target for pharmacological iterventions</article-title>
+          <source>Biochemistry (Mosc.)</source>
+          <year>2018</year>
+          <volume>83</volume>
+          <fpage>863</fpage>
+          <lpage>873</lpage>
+          <pub-id pub-id-type="doi">10.1134/S0006297918080011</pub-id>
+          <pub-id pub-id-type="pmid">30208826</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gutierrez</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>eIF5A promotes translation of polyproline motifs</article-title>
+          <source>Mol. Cell</source>
+          <year>2013</year>
+          <volume>51</volume>
+          <fpage>35</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2013.04.021</pub-id>
+          <pub-id pub-id-type="pmid">23727016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jan</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Mandal</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mandal</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>MH</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide analyses and functional classification of proline repeat-rich proteins: potential role of eIF5A in eukaryotic evolution</article-title>
+          <source>PLoS ONE</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <fpage>e111800</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0088784</pub-id>
+          <pub-id pub-id-type="pmid">25364902</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Nishimura</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Zanelli</surname>
+              <given-names>CF</given-names>
+            </name>
+            <name>
+              <surname>Valentini</surname>
+              <given-names>SR</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional significance of eIF5A and its hypusine modification in eukaryotes</article-title>
+          <source>Amino Acids</source>
+          <year>2010</year>
+          <volume>38</volume>
+          <fpage>491</fpage>
+          <lpage>500</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00726-009-0408-7</pub-id>
+          <pub-id pub-id-type="pmid">19997760</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ivanov</surname>
+              <given-names>IP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Polyamine control of translation elongation regulates start site selection on antizyme inhibitor mRNA via ribosome queuing</article-title>
+          <source>Mol. Cell</source>
+          <year>2018</year>
+          <volume>70</volume>
+          <fpage>254</fpage>
+          <lpage>264 e6</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2018.03.015</pub-id>
+          <pub-id pub-id-type="pmid">29677493</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Manjunath</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Suppression of ribosomal pausing by eIF5A is necessary to maintain the fidelity of start codon selection</article-title>
+          <source>Cell Rep.</source>
+          <year>2019</year>
+          <volume>29</volume>
+          <fpage>3134</fpage>
+          <lpage>3146.e6</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2019.10.129</pub-id>
+          <pub-id pub-id-type="pmid">31801078</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schuller</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>CC-C</given-names>
+            </name>
+            <name>
+              <surname>Dever</surname>
+              <given-names>TE</given-names>
+            </name>
+            <name>
+              <surname>Buskirk</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>eIF5A functions globally in translation elongation and termination</article-title>
+          <source>Mol. Cell</source>
+          <year>2017</year>
+          <volume>66</volume>
+          <fpage>194</fpage>
+          <lpage>205.e5</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2017.03.003</pub-id>
+          <pub-id pub-id-type="pmid">28392174</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pelechano</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Alepuz</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>eIF5A facilitates translation termination globally and promotes the elongation of many non polyproline-specific tripeptide sequences</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2017</year>
+          <volume>45</volume>
+          <fpage>7326</fpage>
+          <lpage>7338</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkx479</pub-id>
+          <pub-id pub-id-type="pmid">28549188</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoque</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Regulation of gene expression by translation factor eIF5A: hypusine-modified eIF5A enhances nonsense-mediated mRNA decay in human cells</article-title>
+          <source>Translation (Austin)</source>
+          <year>2017</year>
+          <volume>5</volume>
+          <fpage>e1366294</fpage>
+          <pub-id pub-id-type="pmid">29034140</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mathews</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Hershey</surname>
+              <given-names>JW</given-names>
+            </name>
+          </person-group>
+          <article-title>The translation factor eIF5A and human cancer</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2015</year>
+          <volume>1849</volume>
+          <fpage>836</fpage>
+          <lpage>844</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbagrm.2015.05.002</pub-id>
+          <pub-id pub-id-type="pmid">25979826</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>EIF5A regulates proliferation and chemoresistance in pancreatic cancer through the sHH signalling pathway</article-title>
+          <source>J. Cell. Mol. Med.</source>
+          <year>2019</year>
+          <volume>23</volume>
+          <fpage>2678</fpage>
+          <lpage>2688</lpage>
+          <pub-id pub-id-type="doi">10.1111/jcmm.14167</pub-id>
+          <pub-id pub-id-type="pmid">30761741</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Banka</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>How genetically heterogeneous is Kabuki syndrome?: MLL2 testing in 116 patients, review and analyses of mutation and phenotypic spectrum</article-title>
+          <source>Eur. J. Hum. Genet.</source>
+          <year>2012</year>
+          <volume>20</volume>
+          <fpage>381</fpage>
+          <lpage>388</lpage>
+          <pub-id pub-id-type="doi">10.1038/ejhg.2011.220</pub-id>
+          <pub-id pub-id-type="pmid">22126750</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <mixed-citation publication-type="other">GTEx Consortium. Human genomics. The Genotype-Tissue Expression (GTEx) pilot analysis: multitissue gene regulation in humans. <italic>Science</italic><bold>348</bold>, 648&#x2013;660 (2015).</mixed-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cunningham</surname>
+              <given-names>F</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Ensembl 2019</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2019</year>
+          <volume>47</volume>
+          <fpage>D745</fpage>
+          <lpage>D751</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gky1113</pub-id>
+          <pub-id pub-id-type="pmid">30407521</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <mixed-citation publication-type="other">Breuza, L. et al. The UniProtKB guide to the human proteome. <italic>Database (Oxford)</italic><bold>2016</bold>, bav120 (2016).</mixed-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karczewski</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The mutational constraint spectrum quantified from variation in 141,456 humans</article-title>
+          <source>Nature</source>
+          <year>2020</year>
+          <volume>581</volume>
+          <fpage>434</fpage>
+          <lpage>443</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41586-020-2308-7</pub-id>
+          <pub-id pub-id-type="pmid">32461654</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abramovs</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Brass</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Tassabehji</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>GeVIR is a continuous gene-level metric that uses variant distribution patterns to prioritize disease candidate genes</article-title>
+          <source>Nat. Genet.</source>
+          <year>2019</year>
+          <volume>52</volume>
+          <fpage>35</fpage>
+          <lpage>39</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41588-019-0560-2</pub-id>
+          <pub-id pub-id-type="pmid">31873297</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Philippakis</surname>
+              <given-names>AA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Matchmaker Exchange: a platform for rare disease gene discovery</article-title>
+          <source>Hum. Mutat.</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>915</fpage>
+          <lpage>921</lpage>
+          <pub-id pub-id-type="doi">10.1002/humu.22858</pub-id>
+          <pub-id pub-id-type="pmid">26295439</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sobreira</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Schiettecatte</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Valle</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hamosh</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>GeneMatcher: a matching tool for connecting investigators with an interest in the same gene</article-title>
+          <source>Hum. Mutat.</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>928</fpage>
+          <lpage>930</lpage>
+          <pub-id pub-id-type="doi">10.1002/humu.22844</pub-id>
+          <pub-id pub-id-type="pmid">26220891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Havrilla</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Pedersen</surname>
+              <given-names>BS</given-names>
+            </name>
+            <name>
+              <surname>Layer</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Quinlan</surname>
+              <given-names>AR</given-names>
+            </name>
+          </person-group>
+          <article-title>A map of constrained coding regions in the human genome</article-title>
+          <source>Nat. Genet</source>
+          <year>2019</year>
+          <volume>51</volume>
+          <fpage>88</fpage>
+          <lpage>95</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41588-018-0294-6</pub-id>
+          <pub-id pub-id-type="pmid">30531870</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structure of the hypusinylated eukaryotic translation factor eIF-5A bound to the ribosome</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2016</year>
+          <volume>44</volume>
+          <fpage>1944</fpage>
+          <lpage>1951</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkv1517</pub-id>
+          <pub-id pub-id-type="pmid">26715760</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>de Goede</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Role of reverse phenotyping in interpretation of next generation sequencing data and a review of INPP5E related disorders</article-title>
+          <source>Eur. J. Paediatr. Neurol.</source>
+          <year>2016</year>
+          <volume>20</volume>
+          <fpage>286</fpage>
+          <lpage>295</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejpn.2015.11.012</pub-id>
+          <pub-id pub-id-type="pmid">26748598</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mastracci</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Robertson</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Mirmira</surname>
+              <given-names>RG</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>Polyamine biosynthesis is critical for growth and differentiation of the pancreas</article-title>
+          <source>Sci. Rep.</source>
+          <year>2015</year>
+          <volume>5</volume>
+          <fpage>13269</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep13269</pub-id>
+          <pub-id pub-id-type="pmid">26299433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parreiras-e-Silva</surname>
+              <given-names>LT</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Evidences of a role for eukaryotic translation initiation factor 5A (eIF5A) in mouse embryogenesis and cell differentiation</article-title>
+          <source>J. Cell Physiol.</source>
+          <year>2010</year>
+          <volume>225</volume>
+          <fpage>500</fpage>
+          <lpage>505</lpage>
+          <pub-id pub-id-type="doi">10.1002/jcp.22229</pub-id>
+          <pub-id pub-id-type="pmid">20458750</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cano</surname>
+              <given-names>VS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutational analyses of human eIF5A-1&#x2013;identification of amino acid residues critical for eIF5A activity and hypusine modification</article-title>
+          <source>FEBS J.</source>
+          <year>2008</year>
+          <volume>275</volume>
+          <fpage>44</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1742-4658.2007.06172.x</pub-id>
+          <pub-id pub-id-type="pmid">18067580</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amberger</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Bocchini</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Schiettecatte</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>AF</given-names>
+            </name>
+            <name>
+              <surname>Hamosh</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>OMIM.org: Online Mendelian Inheritance in Man (OMIM(R)), an online catalog of human genes and genetic disorders</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2015</year>
+          <volume>43</volume>
+          <fpage>D789</fpage>
+          <lpage>D798</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gku1205</pub-id>
+          <pub-id pub-id-type="pmid">25428349</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morgan</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Rubenstein</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Proline: the distribution, frequency, positioning, and common functional roles of proline and polyproline sequences in the human proteome</article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <fpage>e53785</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0053785</pub-id>
+          <pub-id pub-id-type="pmid">23372670</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ng</surname>
+              <given-names>SB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Exome sequencing identifies MLL2 mutations as a cause of Kabuki syndrome</article-title>
+          <source>Nat. Genet.</source>
+          <year>2010</year>
+          <volume>42</volume>
+          <fpage>790</fpage>
+          <lpage>793</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.646</pub-id>
+          <pub-id pub-id-type="pmid">20711175</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bernier</surname>
+              <given-names>FP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Haploinsufficiency of SF3B4, a component of the pre-mRNA spliceosomal complex, causes Nager syndrome</article-title>
+          <source>Am. J. Hum. Genet</source>
+          <year>2012</year>
+          <volume>90</volume>
+          <fpage>925</fpage>
+          <lpage>933</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2012.04.004</pub-id>
+          <pub-id pub-id-type="pmid">22541558</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shin</surname>
+              <given-names>BS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Amino acid substrates impose polyamine, eIF5A, or hypusine requirement for peptide synthesis</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2017</year>
+          <volume>45</volume>
+          <fpage>8392</fpage>
+          <lpage>8402</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkx532</pub-id>
+          <pub-id pub-id-type="pmid">28637321</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chattopadhyay</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Tabor</surname>
+              <given-names>CW</given-names>
+            </name>
+            <name>
+              <surname>Tabor</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Spermidine but not spermine is essential for hypusine biosynthesis and growth in <italic>Saccharomyces cerevisiae</italic>: spermine is converted to spermidine in vivo by the FMS1-amine oxidase</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2003</year>
+          <volume>100</volume>
+          <fpage>13869</fpage>
+          <lpage>13874</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1835918100</pub-id>
+          <pub-id pub-id-type="pmid">14617780</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eisenberg</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Induction of autophagy by spermidine promotes longevity</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2009</year>
+          <volume>11</volume>
+          <fpage>1305</fpage>
+          <lpage>1314</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb1975</pub-id>
+          <pub-id pub-id-type="pmid">19801973</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carvalho</surname>
+              <given-names>CM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dosage changes of a segment at 17p13.1 lead to intellectual disability and microcephaly as a result of complex genetic interaction of multiple genes</article-title>
+          <source>Am. J. Hum. Genet</source>
+          <year>2014</year>
+          <volume>95</volume>
+          <fpage>565</fpage>
+          <lpage>578</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2014.10.006</pub-id>
+          <pub-id pub-id-type="pmid">25439725</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>White</surname>
+              <given-names>RM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Transparent adult zebrafish as a tool for in vivo transplantation analysis</article-title>
+          <source>Cell Stem Cell</source>
+          <year>2008</year>
+          <volume>2</volume>
+          <fpage>183</fpage>
+          <lpage>189</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.stem.2007.11.002</pub-id>
+          <pub-id pub-id-type="pmid">18371439</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cooper</surname>
+              <given-names>DN</given-names>
+            </name>
+            <name>
+              <surname>Mort</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Stenson</surname>
+              <given-names>PD</given-names>
+            </name>
+            <name>
+              <surname>Ball</surname>
+              <given-names>EV</given-names>
+            </name>
+            <name>
+              <surname>Chuzhanova</surname>
+              <given-names>NA</given-names>
+            </name>
+          </person-group>
+          <article-title>Methylation-mediated deamination of 5-methylcytosine appears to give rise to mutations causing human inherited disease in CpNpG trinucleotides, as well as in CpG dinucleotides</article-title>
+          <source>Hum. Genomics</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <fpage>406</fpage>
+          <pub-id pub-id-type="doi">10.1186/1479-7364-4-6-406</pub-id>
+          <pub-id pub-id-type="pmid">20846930</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>P&#xE4;llmann</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Biological relevance and therapeutic potential of the hypusine modification system</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2015</year>
+          <volume>290</volume>
+          <fpage>18343</fpage>
+          <lpage>18360</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M115.664490</pub-id>
+          <pub-id pub-id-type="pmid">26037925</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leegwater</surname>
+              <given-names>PA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Subunits of the translation initiation factor eIF2B are mutant in leukoencephalopathy with vanishing white matter</article-title>
+          <source>Nat. Genet.</source>
+          <year>2001</year>
+          <volume>29</volume>
+          <fpage>383</fpage>
+          <lpage>388</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng764</pub-id>
+          <pub-id pub-id-type="pmid">11704758</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borck</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>eIF2gamma mutation that disrupts eIF2 complex integrity links intellectual disability to impaired translation initiation</article-title>
+          <source>Mol. Cell</source>
+          <year>2012</year>
+          <volume>48</volume>
+          <fpage>641</fpage>
+          <lpage>646</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2012.09.005</pub-id>
+          <pub-id pub-id-type="pmid">23063529</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin</surname>
+              <given-names>HC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Quantifying the contribution of recessive coding variation to developmental disorders</article-title>
+          <source>Science</source>
+          <year>2018</year>
+          <volume>362</volume>
+          <fpage>1161</fpage>
+          <lpage>1164</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.aar6731</pub-id>
+          <pub-id pub-id-type="pmid">30409806</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gkogkas</surname>
+              <given-names>CG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Autism-related deficits via dysregulated eIF4E-dependent translational control</article-title>
+          <source>Nature</source>
+          <year>2013</year>
+          <volume>493</volume>
+          <fpage>371</fpage>
+          <lpage>377</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature11628</pub-id>
+          <pub-id pub-id-type="pmid">23172145</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Neves-Pereira</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Deregulation of EIF4E: a novel mechanism for autism</article-title>
+          <source>J. Med. Genet.</source>
+          <year>2009</year>
+          <volume>46</volume>
+          <fpage>759</fpage>
+          <lpage>765</lpage>
+          <pub-id pub-id-type="doi">10.1136/jmg.2009.066852</pub-id>
+          <pub-id pub-id-type="pmid">19556253</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR45">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Santini</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Exaggerated translation causes synaptic and behavioural aberrations associated with autism</article-title>
+          <source>Nature</source>
+          <year>2013</year>
+          <volume>493</volume>
+          <fpage>411</fpage>
+          <lpage>415</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature11782</pub-id>
+          <pub-id pub-id-type="pmid">23263185</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR46">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chartier-Harlin</surname>
+              <given-names>MC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Translation initiator EIF4G1 mutations in familial Parkinson disease</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2011</year>
+          <volume>89</volume>
+          <fpage>398</fpage>
+          <lpage>406</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2011.08.009</pub-id>
+          <pub-id pub-id-type="pmid">21907011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR47">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeesman</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Microdeletion in distal 17p13.1: a recognizable phenotype with microcephaly, distinctive facial features, and intellectual disability</article-title>
+          <source>Am. J. Med. Genet. A</source>
+          <year>2012</year>
+          <volume>158A</volume>
+          <fpage>1832</fpage>
+          <lpage>1836</lpage>
+          <pub-id pub-id-type="doi">10.1002/ajmg.a.35508</pub-id>
+          <pub-id pub-id-type="pmid">22753084</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR48">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Umland</surname>
+              <given-names>TC</given-names>
+            </name>
+            <name>
+              <surname>Wolff</surname>
+              <given-names>EC</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>A new crystal structure of deoxyhypusine synthase reveals the configuration of the active enzyme and of an enzyme&#xB7;NAD&#xB7;inhibitor ternary complex</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>28697</fpage>
+          <lpage>28705</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M404095200</pub-id>
+          <pub-id pub-id-type="pmid">15100216</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR49">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Riviere</surname>
+              <given-names>JB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>De novo mutations in the actin genes ACTB and ACTG1 cause Baraitser-Winter syndrome</article-title>
+          <source>Nat. Genet.</source>
+          <year>2012</year>
+          <volume>44</volume>
+          <fpage>440</fpage>
+          <lpage>444</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.1091</pub-id>
+          <pub-id pub-id-type="pmid">22366783</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR50">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cuvertino</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ACTB loss-of-function mutations result in a pleiotropic developmental disorder</article-title>
+          <source>Am. J. Hum. Genet</source>
+          <year>2017</year>
+          <volume>101</volume>
+          <fpage>1021</fpage>
+          <lpage>1033</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2017.11.006</pub-id>
+          <pub-id pub-id-type="pmid">29220674</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR51">
+        <label>51.</label>
+        <mixed-citation publication-type="other">Latham, S. L. et al. Variants in exons 5 and 6 of ACTB cause syndromic thrombocytopenia. <italic>Nat. Commun.</italic><bold>9</bold>, 4250 (2018).</mixed-citation>
+      </ref>
+      <ref id="CR52">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lehalle</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A review of craniofacial disorders caused by spliceosomal defects</article-title>
+          <source>Clin. Genet.</source>
+          <year>2015</year>
+          <volume>88</volume>
+          <fpage>405</fpage>
+          <lpage>415</lpage>
+          <pub-id pub-id-type="doi">10.1111/cge.12596</pub-id>
+          <pub-id pub-id-type="pmid">25865758</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR53">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujimura</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Eukaryotic translation initiation factor 5A (EIF5A) regulates pancreatic cancer metastasis by modulating RhoA and Rho-associated kinase (ROCK) protein expression levels</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2015</year>
+          <volume>290</volume>
+          <fpage>29907</fpage>
+          <lpage>29919</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M115.687418</pub-id>
+          <pub-id pub-id-type="pmid">26483550</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR54">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reijnders</surname>
+              <given-names>MRF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>RAC1 missense mutations in developmental disorders with diverse phenotypes</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2017</year>
+          <volume>101</volume>
+          <fpage>466</fpage>
+          <lpage>477</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2017.08.007</pub-id>
+          <pub-id pub-id-type="pmid">28886345</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR55">
+        <label>55.</label>
+        <mixed-citation publication-type="other">Zamboni, V. et al. Rho GTPases in intellectual disability: from genetics to therapeutic opportunities. <italic>Int. J. Mol. Sci</italic>. <bold>19</bold>, 1821 (2018).</mixed-citation>
+      </ref>
+      <ref id="CR56">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Puleston</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Polyamines and eIF5A hypusination modulate mitochondrial respiration and macrophage activation</article-title>
+          <source>Cell Metab.</source>
+          <year>2019</year>
+          <volume>30</volume>
+          <fpage>352</fpage>
+          <lpage>363.e8</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2019.05.003</pub-id>
+          <pub-id pub-id-type="pmid">31130465</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR57">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ganapathi</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Recessive rare variants in deoxyhypusine synthase, an enzyme involved in the synthesis of hypusine, are associated with a neurodevelopmental disorder</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2019</year>
+          <volume>104</volume>
+          <fpage>287</fpage>
+          <lpage>298</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2018.12.017</pub-id>
+          <pub-id pub-id-type="pmid">30661771</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR58">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schwarz</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Safety and tolerability of spermidine supplementation in mice and older adults with subjective cognitive decline</article-title>
+          <source>Aging (Albany NY)</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <fpage>19</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="doi">10.18632/aging.101354</pub-id>
+          <pub-id pub-id-type="pmid">29315079</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR59">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eisenberg</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cardioprotection and lifespan extension by the natural polyamine spermidine</article-title>
+          <source>Nat. Med.</source>
+          <year>2016</year>
+          <volume>22</volume>
+          <fpage>1428</fpage>
+          <lpage>1438</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm.4222</pub-id>
+          <pub-id pub-id-type="pmid">27841876</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR60">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Madeo</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Eisenberg</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Pietrocola</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Kroemer</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Spermidine in health and disease</article-title>
+          <source>Science</source>
+          <year>2018</year>
+          <volume>359</volume>
+          <fpage>eaan2788</fpage>
+          <pub-id pub-id-type="doi">10.1126/science.aan2788</pub-id>
+          <pub-id pub-id-type="pmid">29371440</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR61">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kiechl</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Higher spermidine intake is linked to lower mortality: a prospective population-based study</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2018</year>
+          <volume>108</volume>
+          <fpage>371</fpage>
+          <lpage>380</lpage>
+          <pub-id pub-id-type="doi">10.1093/ajcn/nqy102</pub-id>
+          <pub-id pub-id-type="pmid">29955838</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR62">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buttner</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Spermidine protects against alpha-synuclein neurotoxicity</article-title>
+          <source>Cell Cycle</source>
+          <year>2014</year>
+          <volume>13</volume>
+          <fpage>3903</fpage>
+          <lpage>3908</lpage>
+          <pub-id pub-id-type="doi">10.4161/15384101.2014.973309</pub-id>
+          <pub-id pub-id-type="pmid">25483063</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR63">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tiboldi</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Hippocampal polyamine levels and transglutaminase activity are paralleling spatial memory retrieval in the C57BL/6J mouse</article-title>
+          <source>Hippocampus</source>
+          <year>2012</year>
+          <volume>22</volume>
+          <fpage>1068</fpage>
+          <lpage>1074</lpage>
+          <pub-id pub-id-type="doi">10.1002/hipo.22016</pub-id>
+          <pub-id pub-id-type="pmid">22467251</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR64">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Gupta</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Jing</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Age-related changes in polyamines in memory-associated brain structures in rats</article-title>
+          <source>Neuroscience</source>
+          <year>2008</year>
+          <volume>155</volume>
+          <fpage>789</fpage>
+          <lpage>796</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neuroscience.2008.06.033</pub-id>
+          <pub-id pub-id-type="pmid">18621105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR65">
+        <label>65.</label>
+        <mixed-citation publication-type="other">Wirth, M. et al. Effects of spermidine supplementation on cognition and biomarkers in older adults with subjective cognitive decline (SmartAge)&#x2014;study protocol for a randomized controlled trial. <italic>Alzheimers Res. Ther.</italic><bold>11</bold>, 36 (2019).</mixed-citation>
+      </ref>
+      <ref id="CR66">
+        <label>66.</label>
+        <mixed-citation publication-type="other">Deciphering Developmental Disorders Study. Prevalence and architecture of de novo mutations in developmental disorders. <italic>Nature</italic><bold>542</bold>, 433&#x2013;438 (2017).</mixed-citation>
+      </ref>
+      <ref id="CR67">
+        <label>67.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Faundes</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Histone lysine methylases and semethylases in the landscape of human developmental disorders</article-title>
+          <source>Am. J. Hum. Genet</source>
+          <year>2018</year>
+          <volume>102</volume>
+          <fpage>175</fpage>
+          <lpage>187</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2017.11.013</pub-id>
+          <pub-id pub-id-type="pmid">29276005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR68">
+        <label>68.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Retterer</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clinical application of whole-exome sequencing across clinical indications</article-title>
+          <source>Genet. Med.</source>
+          <year>2016</year>
+          <volume>18</volume>
+          <fpage>696</fpage>
+          <lpage>704</lpage>
+          <pub-id pub-id-type="doi">10.1038/gim.2015.148</pub-id>
+          <pub-id pub-id-type="pmid">26633542</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR69">
+        <label>69.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gordon</surname>
+              <given-names>ChristopherT</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in Endothelin 1 cause recessive auriculocondylar syndrome and dominant isolated question-mark ears</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2013</year>
+          <volume>93</volume>
+          <fpage>1118</fpage>
+          <lpage>1125</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2013.10.023</pub-id>
+          <pub-id pub-id-type="pmid">24268655</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR70">
+        <label>70.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Waterhouse</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Procter</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Clamp</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Barton</surname>
+              <given-names>GJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Jalview Version 2&#x2014;a multiple sequence alignment editor and analysis workbench</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>1189</fpage>
+          <lpage>1191</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btp033</pub-id>
+          <pub-id pub-id-type="pmid">19151095</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR71">
+        <label>71.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pettersen</surname>
+              <given-names>EF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>UCSF Chimera&#x2014;a visualization system for exploratory research and analysis</article-title>
+          <source>J. Comput. Chem.</source>
+          <year>2004</year>
+          <volume>25</volume>
+          <fpage>1605</fpage>
+          <lpage>1612</lpage>
+          <pub-id pub-id-type="doi">10.1002/jcc.20084</pub-id>
+          <pub-id pub-id-type="pmid">15264254</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR72">
+        <label>72.</label>
+        <mixed-citation publication-type="other">Frisan, T., Levitsky, V. &amp; Masucci, M. in <italic>Epstein-Barr Virus Protocols</italic> (eds. Wilson, J. B. &amp; May, G. H. W.) 125&#x2013;127 (Humana Press, Totowa, NJ, 2001).</mixed-citation>
+      </ref>
+      <ref id="CR73">
+        <label>73.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walker</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Kimmel</surname>
+              <given-names>CB</given-names>
+            </name>
+          </person-group>
+          <article-title>A two-color acid-free cartilage and bone stain for zebrafish larvae</article-title>
+          <source>Biotech. Histochem.</source>
+          <year>2007</year>
+          <volume>82</volume>
+          <fpage>23</fpage>
+          <lpage>28</lpage>
+          <pub-id pub-id-type="doi">10.1080/10520290701333558</pub-id>
+          <pub-id pub-id-type="pmid">17510811</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

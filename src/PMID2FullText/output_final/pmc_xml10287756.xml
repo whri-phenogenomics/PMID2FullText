@@ -1,0 +1,1236 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" dtd-version="1.3">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group UK</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">37349293</article-id>
+      <article-id pub-id-type="pmc">10287756</article-id>
+      <article-id pub-id-type="publisher-id">39272</article-id>
+      <article-id pub-id-type="doi">10.1038/s41467-023-39272-0</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Inherited <italic>ARPC5</italic> mutations cause an actinopathy impairing cell motility and disrupting cytokine signaling</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nunes-Santos</surname>
+            <given-names>Cristiane J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2154-3966</contrib-id>
+          <name>
+            <surname>Kuehn</surname>
+            <given-names>HyeSun</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0089-7551</contrib-id>
+          <name>
+            <surname>Boast</surname>
+            <given-names>Brigette</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hwang</surname>
+            <given-names>SuJin</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9971-0760</contrib-id>
+          <name>
+            <surname>Kuhns</surname>
+            <given-names>Douglas B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stoddard</surname>
+            <given-names>Jennifer</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Niemela</surname>
+            <given-names>Julie E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fink</surname>
+            <given-names>Danielle L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7688-1439</contrib-id>
+          <name>
+            <surname>Pittaluga</surname>
+            <given-names>Stefania</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abu-Asab</surname>
+            <given-names>Mones</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9482-1066</contrib-id>
+          <name>
+            <surname>Davies</surname>
+            <given-names>John S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5377-4753</contrib-id>
+          <name>
+            <surname>Barr</surname>
+            <given-names>Valarie A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kawai</surname>
+            <given-names>Tomoki</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Delmonte</surname>
+            <given-names>Ottavia M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1771-4523</contrib-id>
+          <name>
+            <surname>Bosticardo</surname>
+            <given-names>Marita</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Garofalo</surname>
+            <given-names>Mary</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carneiro-Sampaio</surname>
+            <given-names>Magda</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Somech</surname>
+            <given-names>Raz</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff10">10</xref>
+          <xref ref-type="aff" rid="Aff11">11</xref>
+          <xref ref-type="aff" rid="Aff12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gharagozlou</surname>
+            <given-names>Mohammad</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3397-9716</contrib-id>
+          <name>
+            <surname>Parvaneh</surname>
+            <given-names>Nima</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Samelson</surname>
+            <given-names>Lawrence E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fleisher</surname>
+            <given-names>Thomas A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Puel</surname>
+            <given-names>Anne</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff14">14</xref>
+          <xref ref-type="aff" rid="Aff15">15</xref>
+          <xref ref-type="aff" rid="Aff16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8335-0262</contrib-id>
+          <name>
+            <surname>Notarangelo</surname>
+            <given-names>Luigi D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5240-3555</contrib-id>
+          <name>
+            <surname>Boisson</surname>
+            <given-names>Bertrand</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff14">14</xref>
+          <xref ref-type="aff" rid="Aff15">15</xref>
+          <xref ref-type="aff" rid="Aff16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Casanova</surname>
+            <given-names>Jean-Laurent</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff14">14</xref>
+          <xref ref-type="aff" rid="Aff15">15</xref>
+          <xref ref-type="aff" rid="Aff16">16</xref>
+          <xref ref-type="aff" rid="Aff17">17</xref>
+          <xref ref-type="aff" rid="Aff18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Derfalvi</surname>
+            <given-names>Beata</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff19">19</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5550-9678</contrib-id>
+          <name>
+            <surname>Rosenzweig</surname>
+            <given-names>Sergio D.</given-names>
+          </name>
+          <address>
+            <email>srosenzweig@cc.nih.gov</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.94365.3d</institution-id><institution-id institution-id-type="ISNI">0000 0001 2297 5165</institution-id><institution>Immunology Service, Department of Laboratory Medicine, Clinical Center, </institution><institution>National Institutes of Health, </institution></institution-wrap>Bethesda, MD USA </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.418021.e</institution-id><institution-id institution-id-type="ISNI">0000 0004 0535 8394</institution-id><institution>Neutrophil Monitoring Laboratory, Applied/Developmental Research Directorate, </institution><institution>Frederick National Laboratory for Cancer Research, </institution></institution-wrap>Frederick, MD USA </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.94365.3d</institution-id><institution-id institution-id-type="ISNI">0000 0001 2297 5165</institution-id><institution>Laboratory of Pathology, Center for Cancer Research, National Cancer Institute, </institution><institution>National Institutes of Health, </institution></institution-wrap>Bethesda, MD USA </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.94365.3d</institution-id><institution-id institution-id-type="ISNI">0000 0001 2297 5165</institution-id><institution>Electron Microscopy Laboratory, Biological Imaging Core, National Eye Institute, </institution><institution>National Institutes of Health, </institution></institution-wrap>Bethesda, MD USA </aff>
+        <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.418158.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 0534 4718</institution-id><institution>Predictive Toxicology Department of Safety Assessment, Genentech, </institution></institution-wrap>South San Francisco, CA USA </aff>
+        <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.94365.3d</institution-id><institution-id institution-id-type="ISNI">0000 0001 2297 5165</institution-id><institution>Laboratory of Cellular and Molecular Biology, Center for Cancer Research, National Cancer Institute, </institution><institution>National Institutes of Health, </institution></institution-wrap>Bethesda, MD USA </aff>
+        <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.94365.3d</institution-id><institution-id institution-id-type="ISNI">0000 0001 2297 5165</institution-id><institution>Laboratory of Clinical Immunology and Microbiology, National Institute of Allergy and Infectious Diseases, </institution><institution>National Institutes of Health, </institution></institution-wrap>Bethesda, MD USA </aff>
+        <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.94365.3d</institution-id><institution-id institution-id-type="ISNI">0000 0001 2297 5165</institution-id><institution>Laboratory of Host Defenses, National Institute of Allergy and Infectious Diseases, </institution><institution>National Institutes of Health, </institution></institution-wrap>Bethesda, MD USA </aff>
+        <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.411074.7</institution-id><institution-id institution-id-type="ISNI">0000 0001 2297 2036</institution-id><institution>Children&#x2019;s Hospital, </institution><institution>Hospital das Cl&#xED;nicas da Faculdade de Medicina da Universidade de S&#xE3;o Paulo (HC-FMUSP), </institution></institution-wrap>S&#xE3;o Paulo, Brazil </aff>
+        <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.460042.4</institution-id><institution>Pediatric Department A and Immunology Service, </institution><institution>Edmond and Lily Safra Children&#x2019;s Hospital, </institution></institution-wrap>Tel Hashomer, Israel </aff>
+        <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.480487.7</institution-id><institution-id institution-id-type="ISNI">0000 0004 5906 4762</institution-id><institution>The Jeffrey Modell Foundation Israeli Network for Primary Immunodeficiency, </institution></institution-wrap>New York, NY USA </aff>
+        <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="GRID">grid.12136.37</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 0546</institution-id><institution>Sheba Medical Center, Affiliated to the Sackler Faculty of Medicine, </institution><institution>Tel Aviv University, </institution></institution-wrap>Tel Aviv, Israel </aff>
+        <aff id="Aff13"><label>13</label><institution-wrap><institution-id institution-id-type="GRID">grid.411705.6</institution-id><institution-id institution-id-type="ISNI">0000 0001 0166 0922</institution-id><institution>Division of Allergy and Clinical Immunology, Department of Pediatrics, Children&#x2019;s Medical Centre, </institution><institution>University of Medical Sciences, </institution></institution-wrap>Tehran, Iran </aff>
+        <aff id="Aff14"><label>14</label><institution-wrap><institution-id institution-id-type="GRID">grid.134907.8</institution-id><institution-id institution-id-type="ISNI">0000 0001 2166 1519</institution-id><institution>St. Giles Laboratory of Human Genetics of Infectious Diseases, Rockefeller Branch, </institution><institution>The Rockefeller University, </institution></institution-wrap>New York, NY USA </aff>
+        <aff id="Aff15"><label>15</label><institution-wrap><institution-id institution-id-type="GRID">grid.412134.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 0593 9113</institution-id><institution>Laboratory of Human Genetics of Infectious Diseases, Necker Branch, INSERM U1163, </institution><institution>Necker Hospital for Sick Children, </institution></institution-wrap>Paris, France </aff>
+        <aff id="Aff16"><label>16</label><institution-wrap><institution-id institution-id-type="GRID">grid.462336.6</institution-id><institution>Universit&#xE9; Paris Cit&#xE9;, </institution><institution>Imagine Institute, </institution></institution-wrap>Paris, France </aff>
+        <aff id="Aff17"><label>17</label><institution-wrap><institution-id institution-id-type="GRID">grid.412134.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 0593 9113</institution-id><institution>Department of Pediatrics, </institution><institution>Necker Hospital for Sick Children, AP-HP, </institution></institution-wrap>Paris, France </aff>
+        <aff id="Aff18"><label>18</label><institution-wrap><institution-id institution-id-type="GRID">grid.413575.1</institution-id><institution-id institution-id-type="ISNI">0000 0001 2167 1581</institution-id><institution>Howard Hughes Medical Institute, </institution></institution-wrap>New York, NY USA </aff>
+        <aff id="Aff19"><label>19</label><institution-wrap><institution-id institution-id-type="GRID">grid.414870.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 0351 6983</institution-id><institution>Department of Pediatrics, Division of Immunology, </institution><institution>Dalhousie University and IWK Health Center, </institution></institution-wrap>Halifax, NS Canada </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>22</day>
+        <month>6</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>22</day>
+        <month>6</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2023</year>
+      </pub-date>
+      <volume>14</volume>
+      <elocation-id>3708</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>12</day>
+          <month>12</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>2</day>
+          <month>6</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; This is a U.S. Government work and not under copyright protection in the US; foreign copyright protection may apply 2023</copyright-statement>
+        <license>
+          <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">We describe the first cases of germline biallelic null mutations in ARPC5, part of the Arp2/3 actin nucleator complex, in two unrelated patients presenting with recurrent and severe infections, early-onset autoimmunity, inflammation, and dysmorphisms. This defect compromises multiple cell lineages and functions, and when protein expression is reestablished in-vitro, the Arp2/3 complex conformation and functions are rescued. As part of the pathophysiological evaluation, we also show that interleukin (IL)&#x2212;6 signaling is distinctively impacted in this syndrome. Disruption of IL-6 classical but not trans-signaling highlights their differential roles in the disease and offers perspectives for therapeutic molecular targets.</p>
+      </abstract>
+      <abstract id="Abs2" abstract-type="web-summary">
+        <p id="Par2">Mutations that impact the function of the Arp2/3 complex are known to cause inborn errors of immunity. Here the authors describe biallelic null mutations in the ARPC5 subunit of Arp2/3 that disrupt actin function and cytokine signaling, causing infections, autoimmunity, inflammation and dysmorphisms.</p>
+      </abstract>
+      <kwd-group kwd-group-type="npg-subject">
+        <title>Subject terms</title>
+        <kwd>Immunological deficiency syndromes</kwd>
+        <kwd>Inflammatory diseases</kwd>
+        <kwd>Cell migration</kwd>
+        <kwd>Interleukins</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000002</institution-id>
+              <institution>U.S. Department of Health &amp; Human Services | National Institutes of Health (NIH)</institution>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; Springer Nature Limited 2023</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Introduction</title>
+      <p id="Par3">Novel monogenic defects that result in dysregulation of the actin cytoskeleton are increasingly recognized to underlie human inborn errors of immunity (IEI)<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>. Actin-related protein 2/3 complex subunit 5 (ARPC5) is part of the ubiquitously expressed Arp2/3 complex, an actin nucleator involved in multiple cellular processes including cell movement, vesicle trafficking, and receptor endocytosis. This complex is composed of seven subunits: actin-related protein 2 and 3 (Arp2 and Arp3) and actin-related protein complex subunits 1&#x2013;5, two of which exist in 2 isoforms encoded by paralogous genes (ARPC1A, ARPC1B, ARPC2, ARPC3, ARPC4, ARPC5, and ARPC5L)<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. Germline mutations disrupting several proteins that interact with the Arp2/3 complex are known causes of IEI, including Wiskott-Aldrich syndrome protein (WASP)<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR6">6</xref></sup>. So far, only <italic>ARPC1B</italic> mutations affecting the Arp2/3 complex have been described to cause a combined immunodeficiency with bacterial and viral infections, vasculitis, eczema, allergies, autoimmunity, bleeding tendency, and failure to thrive<sup><xref ref-type="bibr" rid="CR7">7</xref>&#x2013;<xref ref-type="bibr" rid="CR11">11</xref></sup>. Herein, we report germline biallelic null mutations in <italic>ARPC5</italic> generating actin dysfunction and cytokine dysregulation, particularly interleukin (IL)&#x2212;6-mediated signaling, and presenting with a complex phenotype of increased susceptibility to infections, autoimmunity, inflammation, and dysmorphisms.</p>
+    </sec>
+    <sec id="Sec2" sec-type="results">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>Case reports</title>
+        <p id="Par4">Patient 1 (P1) was the eldest daughter born to healthy consanguineous parents of Lebanese descent (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a&#x2013;c</xref> and &#xA0;<xref rid="Fig2" ref-type="fig">2</xref>). She was born at 41 weeks gestation with intrauterine growth restriction. P1 became symptomatic within the first months of life with gastrointestinal and respiratory tract bleeding, hepatosplenomegaly, Evans syndrome (autoimmune hemolytic anemia and thrombocytopenia) and neutrophilia. Her clinical course was remarkable for respiratory tract complications including recurrent/severe viral, bacterial, and fungal infections, pulmonary alveolar proteinosis and pneumatoceles; eczema; juvenile dermatomyositis-like focal myositis; delayed wound healing; recurrent episodes of paralytic ileus; celiac disease; hepatitis; minimal change disease nephropathy; short stature, facial dysmorphisms and scoliosis. Multiple autoantibodies were detected at various timepoints of her life; acute phase reactants, particularly C-reactive protein (CRP), were persistently elevated. Immunosuppressive and immunomodulatory treatments (e.g., steroids, rituximab, and high dose intravenous immunoglobulins) were used with partial and unsustained success. At 15 years of age, she died after a sudden episode of hemoptysis and hematochezia; an autopsy was not performed. Biospecimens from P1 were available for research studies.<fig id="Fig1"><label>Fig. 1</label><caption><title>ARPC5 deficiency &#x2013; description and phenotype.</title><p><bold>a</bold> Family pedigrees from patients with <italic>ARPC5</italic> variants. Arrows point to the patients studied (P1 in Family 1, P2 in Family 2); Roman numerals indicate generations. <bold>b</bold> Table depicting the main clinical and laboratory findings in P1 and P2. Negative symbols (&#x2212;) denote absence; crosses, from (+) to (+++) indicate less to more severe phenotypes, respectively. <bold>c</bold> Patient 1 images. In the left image, a standing radiograph of P1 shows biconvex thoracolumbar scoliosis with convex right thoracic spinal curvature and convex left thoracolumbar spinal curvature; a right upper lobe pneumatocele is also identified. In the right images (upper, middle and lower, respectively), lung ground glass opacities, multiple abdominal scars product of abnormal wound healing, and right sided myositis of the thigh, are also detected.</p></caption><graphic xlink:href="41467_2023_39272_Fig1_HTML" id="d32e764"/></fig><fig id="Fig2"><label>Fig. 2</label><caption><title>Single-cell analysis data of peripheral blood mononuclear cells (PBMC) from patient 1 (P1) and a healthy control (HC).</title><p>Plots on the left show uniform manifold approximation and projection (UMAP) visualization of PBMC clusters. B lymphocytes were excluded from further analysis as P1 had been treated with anti-CD20 prior to sample collection. Bar graphs show the distribution of PBMC subpopulations in each sample, defined by surface protein markers using the BD Rhapsody platform. Top up- and down-regulated genes in PBMC subsets of P1 relative to HC are shown in the table. CM central memory, EM effector memory, FC expression fold change, NK natural killer, TEMRA terminally differentiated effector memory T cells re-expressing CD45RA.</p></caption><graphic xlink:href="41467_2023_39272_Fig2_HTML" id="d32e775"/></fig></p>
+        <p id="Par5">Patient 2 (P2) was the youngest daughter born to healthy consanguineous Iranian parents (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a, b</xref>). She became symptomatic since early in life when she presented with omphalitis. Her clinical course was remarkable for respiratory tract complications including severe/recurrent bacterial infections and pneumatoceles as well as skin infections, poor wound healing, multifocal aseptic bone lesions, and scoliosis. Neurodevelopmental delay, spasticity and brain atrophy were also evidenced. Acute phase reactants were persistently elevated. At the age of one year, she died because of progressive neurologic and respiratory disease; an autopsy was not performed. Cells from P2 were not available for research studies. P2&#x2019;s elder sister presented with severe, invasive bacterial infections (i.e., <italic>Staphylococcus aureus</italic> and <italic>Pseudomonas aeruginosa</italic>) since the neonatal period; hepatosplenomegaly and hematochezia were also present, but no neurologic manifestations were observed. The patient died at six months of age due to progressive perineal necrotic infectious complications; an autopsy was not performed. Biospecimens from this patient were not available for testing.</p>
+      </sec>
+      <sec id="Sec4">
+        <title>P1 and P2 detailed clinical descriptions are available as a&#xA0;<xref rid="MOESM1" ref-type="media">Supplementary Note</xref></title>
+        <p id="Par6">Clinical laboratory evaluation on P1 and P2 revealed anemia and elevated white blood cell counts, including neutrophilia, and lympho-monocytosis (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1b</xref>, Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). P1&#x2019;s extended analysis showed inverted CD4/CD8 ratios, with increased number of terminally differentiated CD8+ T cells and decreased number of T regulatory cells (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2</xref>, Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">2</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). B cells (prior to anti-CD20 treatment) were increased, with high frequency of age-associated B cells, a subset linked to autoimmunity<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">2</xref> and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>). NK cells fell within normal ranges, but NKT cells were elevated. These mononuclear cell changes were complemented by transcriptional/functional defects as determined by single cell differentially expressed gene analysis (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2</xref>, Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>). T-cell proliferation was normal in response to phytohemagglutinin and T-cell receptor (TCR) stimulation (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). Specific antibody responses to recall protein were normal but unsustained to polysaccharide antigens (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). B cells proliferated normally upon various stimulating conditions (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>). IgG, IgA, and IgM serum levels were normal/high in P1 and P2; IgE was elevated in P2 (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>).</p>
+      </sec>
+      <sec id="Sec5">
+        <title>Candidate variant selection</title>
+        <p id="Par7">Whole exome sequencing trio analysis was performed in two families with unknown genetic diseases and phenotypic similarities (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1a&#x2013;c</xref>). Among the candidate variants (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>), a homozygous nonsense variant in <italic>ARPC5</italic> (NM_005717 c.23C&gt;A p.S8*) in P1 and a homozygous frameshift variant in <italic>ARPC5</italic> (NM_005717 c.11_12insTG, p.T5Afs*47) in P2 were Sanger confirmed and prioritized. These variants had Combined Annotation Dependent Depletion (CADD) scores of 38 and 24.4, respectively, and were not found in the Genome Aggregation Database (gnomAD v2.1.1) (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">4</xref>)<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. <italic>ARPC5</italic> encodes ARPC5, a component of the Arp2/3 complex. A homozygous missense variant in <italic>BRINP2</italic> (NM_021165 c.184C&gt;T, p.R62W; CADD score of 30; not found in gnomAD) was also detected in P2, and possibly associated with her neurologic manifestations.</p>
+      </sec>
+      <sec id="Sec6">
+        <title>Mutant ARPC5 biochemical and functional studies</title>
+        <p id="Par8">While the mutant <italic>ARPC5</italic> mRNA was detected (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">5</xref>), expression of ARPC5 was not detected in peripheral blood mononuclear cells (PBMC), T-cell blasts, and fibroblasts from P1 (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">6</xref>). N-terminus truncated proteins, resulting from alternative transcription initiation sites were not detected either. The heterozygous parents showed intermediate expression levels of ARPC5. Immunoblotting of the other Arp2/3 complex subunits revealed reduced expression of ARPC1A and ARPC1B in P1 (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3a</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">6</xref>). ARPC5 expression was found to be normal in two patients with ARPC1B deficiency (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">6</xref>). Formation of Arp2/3 complexes was quantitatively and qualitatively impaired in P1. Arp2/3 complexes containing ARPC5 were not present in P1 but were detected in HC fibroblasts lysates. Arp2/3 complexes containing ARPC2 were present in P1 at lower expression levels and with higher electrophoretic mobility relative to HC (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3b</xref>).<fig id="Fig3"><label>Fig. 3</label><caption><title>Mutant ARPC5 biochemical studies.</title><p><bold>a</bold> Western blotting analysis of patient 1 (P1), her parents, and healthy controls (HC) T-cell blasts lysates with antibodies specific to Arp2/3 complex subunits, as indicated. Vinculin and &#x3B2;-tubulin were used as loading controls. <bold>b</bold> Western blotting analysis of cell extracts from P1&#x2019;s and HC&#x2019;s fibroblasts after native gel electrophoresis. ARPC5- or ARPC2-specific antibodies were used to probe the Arp2/3 complex; GAPDH was used as a loading control. Blots in this figure are representative of at least two independent experiments. The numbers below the western blotting images (<bold>a</bold> and <bold>b</bold>) represent protein expression levels, quantitatively measured in relation to healthy controls, after normalization to the loading control. Healthy controls&#x2019; average value was set at 10. PAGE polyacrylamide gel electrophoresis. Source data are provided as a Source Data file.</p></caption><graphic xlink:href="41467_2023_39272_Fig3_HTML" id="d32e921"/></fig></p>
+        <p id="Par9">Immunofluorescence microscopy evaluation of P1&#x2019;s early adherent fibroblasts revealed a high number of filopodia (elongated, finger-like actin protrusions), whereas HC cells predominantly formed lamellipodia (flat, sheet-like actin projections) (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>). Continuous impedance monitoring of P1&#x2019;s fibroblasts showed lower spreading speed compared to HC&#x2019;s cells (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4a</xref>). Treatment of HC&#x2019;s fibroblasts with the Arp2/3 inhibitor CK-666 resulted in reduced spreading capacity mimicking P1&#x2019;s fibroblasts behavior (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">7</xref>). A similar pattern of aberrant spreading characterized by enrichment of filopodia and absence of lamellipodia was observed in P1&#x2019;s neutrophils (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">8</xref>, and Supplementary Movie&#xA0;<xref rid="MOESM3" ref-type="media">1</xref>). Real-time sequential imaging revealed that P1&#x2019;s cells covered a smaller area over time compared to HC&#x2019;s neutrophils (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4b</xref>). Cell motility was assessed in P1&#x2019;s fibroblasts via a time course wound healing assay. P1&#x2019;s fibroblasts were slower than HC&#x2019;s cells to close the in-vitro wound gap (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4c</xref>). Migration of neutrophils was assessed in response to N-formylmethionyl-leucyl-phenylalanine (fMLF). Directed migration was severely impaired in P1&#x2019;s neutrophils, as no cells were able to complete migration during the observation period, unlike HC&#x2019;s cells (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4d</xref> and Supplementary Movie&#xA0;<xref rid="MOESM4" ref-type="media">2</xref>).<fig id="Fig4"><label>Fig. 4</label><caption><title>Mutant ARPC5 functional studies.</title><p><bold>a</bold> Fibroblasts from patient 1 (P1) and a healthy control (HC) were seeded on a retronectin-coated surface and fixed after 20&#x2009;min. Actin protrusions were assessed via immunofluorescent staining with phalloidin. Adhesion and spreading of fibroblasts were monitored via real-time, impedance-based cell assay (graph). Impedance values are reported as cell index (CI). Curves represent the mean CI value with individual replicate data shown as dots. <bold>b</bold> Light microscopy images from P1 and HC neutrophils. The scale bars indicate 10&#x2009;&#xB5;m. The area over time covered by P1&#x2019;s neutrophils compared to HC is shown in the graph. Curves represent the mean (&#xB1;standard deviation) area from 5 to 6 cells. <bold>c</bold> Wound healing assay conducted with P1&#x2019;s and HC&#x2019;s fibroblasts. The gap length shown at 0&#x2009;h corresponds to 0.94&#x2009;mm. <bold>d</bold> Neutrophil chemotaxis in response to N-formylmethionyl-leucyl-phenylalanine (fMLF). The cells were incubated for 1&#x2009;h and images were captured every 30&#x2009;s. Single cell migration traces of ten randomly selected cells are shown. The position of each cell was anchored at the origin at t&#x2009;=&#x2009;0. All results in this figure are representative of at least two independent experiments. Source data are provided as a Source Data file.</p></caption><graphic xlink:href="41467_2023_39272_Fig4_HTML" id="d32e976"/></fig></p>
+      </sec>
+      <sec id="Sec7">
+        <title>Wild-type ARPC5 expression rescued abnormal findings</title>
+        <p id="Par10">Wild-type (WT) ARPC5 expression was rescued in P1&#x2019;s fibroblasts via plasmid transfection or lentiviral transduction. Expression of WT ARPC5 restored ARPC5 protein expression and increased ARPC1A and ARPC1B expression levels compared to empty vector-transfected P1&#x2019;s cells (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5a</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">9</xref>). Expression of WT ARPC5 also recovered expression of ARPC5- and ARPC2-containing Arp2/3 complexes, which exhibited similar electrophoretic mobility to HC (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5b</xref>).<fig id="Fig5"><label>Fig. 5</label><caption><title>Rescue of defective functions by expression of wild-type ARPC5.</title><p><bold>a</bold> Protein expression by immunoblotting of individual Arp2/3 complex subunits in lysates from P1&#x2019;s fibroblasts transiently transfected (efficiency 20&#x2013;40%) with empty vector or a plasmid encoding wild-type (WT) <italic>ARPC5</italic>. Vinculin was used as a loading control. <bold>b</bold> Western blotting analysis after native gel electrophoresis of cell extracts from P1&#x2019;s and healthy control&#x2019;s (HC) fibroblasts expressing WT ARPC5 by lentiviral transduction. ARPC5- or ARPC2-specific antibodies were used to probe the Arp2/3 complex. GAPDH was used as a loading control. <bold>c</bold> Immunofluorescence images of representative fibroblasts from P1 transfected with WT <italic>ARPC5</italic> (left column) versus cells transfected with empty vector (right column). Cells were seeded on a retronectin-coated surface and fixed after 120&#x2009;min. <bold>d</bold> Real-time, impedance-based monitoring of P1&#x2019;s <italic>ARPC5</italic>-rescued fibroblasts versus <italic>ARPC5</italic> mock-transduced cells. Impedance values are reported as cell index (CI). Curves represent the mean (&#xB1;standard deviation) cell index value from four technical replicates. <bold>e</bold> Wound healing assay with WT <italic>ARPC5</italic>-rescued fibroblasts from P1 (middle column) and mock-transduced P1 cells (right column), HC cells were used as controls (left column). The gap length shown at 0&#x2009;h corresponds to 0.94&#x2009;mm. All results in this figure are representative of at least two independent experiments. The numbers below the western blotting images represent protein expression levels relative to WT <italic>ARPC5</italic>-rescued P1 fibroblasts (<bold>a</bold>) or HC fibroblasts (<bold>b</bold>), after normalization to the loading control. PAGE polyacrylamide gel electrophoresis. Source data are provided as a Source Data file.</p></caption><graphic xlink:href="41467_2023_39272_Fig5_HTML" id="d32e1041"/></fig></p>
+        <p id="Par11">ARPC5 staining localized to the nucleus, to scattered dots throughout the cytoplasm, and to the edge of the plasma membrane on rescued cells, compatible with expected ARPC5 subcellular localization<sup><xref ref-type="bibr" rid="CR14">14</xref>&#x2013;<xref ref-type="bibr" rid="CR16">16</xref></sup> (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5c</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">9</xref>). The adhesion and spreading pattern measured by impedance monitoring improved in wild-type ARPC5 expressing cells (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5d</xref>). Restored lamellipodia formation and wound healing could also be detected in ARPC5-rescued cells (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5c</xref>, e, and Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">9</xref>). Altogether, these findings confirmed disease causality for <italic>ARPC5</italic> mutations.</p>
+      </sec>
+      <sec id="Sec8">
+        <title>Clinical phenotype, IL-6 signaling and molecular targeting</title>
+        <p id="Par12">P1 (and to some extent P2, despite her young age) presented with clinical features resembling both <italic>STAT3</italic> dominant-negative (DN; Job&#x2019;s syndrome) and <italic>STAT3</italic> gain-of-function (GOF) mutations. While P1&#x2019;s facial dysmorphism, eczema, bacterial -<italic>Staphylococcus aureus</italic>- and fungal -<italic>Candida</italic> spp., <italic>Aspergillus fumigatus</italic>- pneumonias, poor wound healing, pneumatoceles, and scoliosis were suggestive of a Job&#x2019;s-like syndrome; her short stature, skin manifestations, autoimmune cytopenia -Coombs+ autoimmune hemolytic anemia, thrombocytopenia-, celiac disease, autoimmune endocrinopathies -hypothyroidism-, and autoimmune hepatitis were suggestive of a STAT3 GOF-like phenotype. When her cytokine responses to IL-2, IL-4, IL-7, IL-21, interferon (IFN)&#x3B1; and IFN&#x3B3; were evaluated in T cells and monocytes, no abnormalities were detected (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">10</xref>). Other T-cell functions such as TCR rearrangement, signaling, and microcluster formation were normal in P1&#x2019;s T-cell blasts (Supplementary Figs.&#xA0;<xref rid="MOESM1" ref-type="media">11</xref>&#x2013;<xref rid="MOESM1" ref-type="media">14</xref>). TCR signaling and migration were also normal in CRISPR/Cas9 generated <italic>ARPC5</italic>-knockout Jurkat cells (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">15</xref>). However, signaling through IL-6, primarily dependent on STAT3 and to a lesser extent on STAT1, was markedly diminished. Phosphorylation of STAT3 in response to in-vitro IL-6 stimulation was nearly absent in P1&#x2019;s CD4+ T cells yet was present in response to IL-21 (Fig.&#xA0;<xref rid="Fig6" ref-type="fig">6a</xref>). When the expression of cell surface IL-6 receptor complex (IL-6RC) components IL-6R&#x3B1; and gp130 were evaluated, very low levels of IL-6R&#x3B1; were detected, while gp130 expression was mildly reduced (Fig.&#xA0;<xref rid="Fig6" ref-type="fig">6b</xref>). When IL-6RC signaling was tested in P1&#x2019;s fibroblasts, response to IL-6 was also nearly absent, while gp130-dependent/IL-6R&#x3B1;-independent responses to oncostatin-M and IL-11 were fully preserved (Fig.&#xA0;<xref rid="Fig6" ref-type="fig">6c</xref>). Treatment of healthy controls&#x2019; CD4+ T cells with CK-666 resulted in a reduction of ~21% in the surface expression of IL-6R&#x3B1;, and a 1.4-fold increase in soluble IL-6R&#x3B1; when compared to the vehicle treated samples (Fig.&#xA0;<xref rid="Fig6" ref-type="fig">6d</xref>), suggesting that the actin defect was indeed contributing to the impaired IL-6R&#x3B1; surface&#xA0;expression levels. The levels of transcription for both membrane-bound IL-6R&#x3B1; and soluble IL-6R&#x3B1; were not affected by treatment with CK-666 (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">16</xref>). As P1 had consistently elevated CRP levels, a known IL-6-dependent readout<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, we hypothesized that trans-signaling, an alternative model to IL-6 classical signaling reliant on the soluble form of IL-6R&#x3B1;<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>, was likely enhanced. While a clinical serum cytokine panel showed modest elevation of IL-6 (29.48&#x2009;pg/mL, within 85&#x2013;97.5% of normal distribution), we found markedly increased levels of both soluble IL-6R&#x3B1; (sIL-6R&#x3B1;) and sIL-6R&#x3B1; complexed with IL-6 in P1&#x2019;s plasma (Fig.&#xA0;<xref rid="Fig7" ref-type="fig">7a</xref>). When tested in-vitro, P1&#x2019;s CD4+ T cells and fibroblasts were able to phosphorylate STAT3 in response to an IL-6/IL-6R&#x3B1; fusion protein, known as hyper-IL6<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> (Figs.&#xA0;<xref rid="Fig6" ref-type="fig">6c</xref> and&#xA0;<xref rid="Fig7" ref-type="fig">7b</xref>). Such response could be controlled by pre-treatment of cells with anti-IL-6R&#x3B1; (tocilizumab) or soluble gp130Fc<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> (Fig.&#xA0;<xref rid="Fig7" ref-type="fig">7b</xref>). P1 died before in vivo IL-6 modulation could be explored.<fig id="Fig6"><label>Fig. 6</label><caption><title>Interleukin-6 signaling.</title><p><bold>a</bold> Histograms showing signal transducer and activator of transcription 3 (STAT3) phosphorylation by flow cytometric analysis of P1&#x2019;s and healthy control&#x2019;s (HC) CD4+ T cells after short-term in-vitro cytokine stimulation. Data are representative from three independent experiments. <bold>b</bold> Expression of the cell surface IL-6 receptor complex components (IL-6R&#x3B1; and gp130) in P1&#x2019;s and HC&#x2019;s CD4+ T cells, by flow cytometry. Data are representative from three independent experiments. <bold>c</bold> STAT3 signaling in P1 and HC evaluated by immunoblotting of fibroblasts lysates in response to short-term in-vitro stimulation with gp130-family cytokines (IL-6, IL-11, and oncostatin-M [OSM]) and hyper IL-6. Data are representative from two independent experiments. <bold>d</bold> Enriched CD4 T cells were treated either with a vehicle (DMSO) or Arp2/3 complex inhibitor CK-666 (100&#x2009;mM) for 22&#x2009;h. Flow analysis was used to evaluate the surface expression of IL-6R&#x3B1;. The supernatants of the same samples treated with CK-666 were collected, and the Luminex assay was utilized to determine the concentration of soluble IL-6R&#x3B1;. The IL-6R&#x3B1; expression levels were calculated relative to the vehicle treated controls. Data are expressed as mean&#x2009;+&#x2009;standard deviation (SD) from five different healthy controls. Source data are provided as a Source Data file.</p></caption><graphic xlink:href="41467_2023_39272_Fig6_HTML" id="d32e1173"/></fig><fig id="Fig7"><label>Fig. 7</label><caption><title>Interleukin-6 molecular targeting.</title><p><bold>a</bold> Plasma levels of soluble IL-6R&#x3B1; measured by Luminex assay (top panel) and soluble complexed IL-6/IL-6R&#x3B1; measured by ELISA (bottom panel) in patient 1 (P1) and five healthy controls (HC). Results are shown as mean&#x2009;+&#x2009;SEM. Data generated from two independent experiments, performed in duplicate each time. <bold>b</bold> IL-6 trans-signaling modulation in P1&#x2019;s CD4+ T cells. P1&#x2019;s cells were pretreated with soluble gp130Fc (1&#x2009;&#xB5;g/mL) or tocilizumab (10&#x2009;&#xB5;g/mL) for 90&#x2009;min. A subset of cells was left untreated to serve as control. Then, cells were stimulated with hyper IL-6 (100&#x2009;ng/mL) for 20&#x2009;min. A subset of cells was not stimulated to serve as baseline. Sequentially, phosphorylation of STAT3 was measured by flow cytometry (upper panel). The bar graph shows soluble gp130Fc and tocilizumab pretreatment effect on STAT3 phosphorylation in response to hyper IL-6 stimulation compared to untreated (&#x2212;), stimulated cells (lower panel). This experiment was conducted once. Source data are provided as a Source Data file.</p></caption><graphic xlink:href="41467_2023_39272_Fig7_HTML" id="d32e1189"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="Sec9" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par13">Herein we describe two unrelated patients with a previously undescribed IEI associated with germline biallelic null mutations in <italic>ARPC5</italic>. The patients presented with recurrent and severe infections, early-onset autoimmunity, inflammation, and dysmorphisms. In addition, we show how ARPC5-dependent actin disruption can impact IL-6 signaling, that can be considered as a therapeutic molecular target for this disease.</p>
+      <p id="Par14">Genetically, ARPC5 deficiency is inherited in an autosomal recessive manner with no evidence of haploinsufficiency (i.e., heterozygous parents were asymptomatic); while clinical penetrance seems complete (i.e., both individuals with biallelic mutations were symptomatic), more patients will have to be described to fully confirm disease penetrance and expressivity.</p>
+      <p id="Par15">We demonstrated that ARPC5 expression was lost in patient cells, resulting in lower expression of interacting proteins ARPC1B and ARPC1A, but not of other Arp2/3 complex components. The dependence of ARPC1 isoforms on ARPC5 levels has been previously shown in HeLa cells<sup><xref ref-type="bibr" rid="CR21">21</xref></sup> and is now confirmed in human disease. In contrast, ARPC1B deficiency does not seem to affect ARPC5 expression levels, suggesting that ARPC5 deficiency might have a broader impact on biology and disease. Moreover, depletion of ARPC1B levels in the patient with ARPC5 deficiency supports the phenotypic overlaps between the two diseases<sup><xref ref-type="bibr" rid="CR7">7</xref>&#x2013;<xref ref-type="bibr" rid="CR11">11</xref></sup>.</p>
+      <p id="Par16">Functionally, the Arp2/3 complex is recognized by its unique ability to nucleate actin filaments at an angle from a preexisting filament, resulting in a branched network of polymerized actin<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. Branched actin is the predominant form of actin organization in lamellipodia, podosomes and invadopodia, all required but not indispensable for cell motility<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>. Experimental disruption of the Arp2/3 complex results in abrogation of lamellipodial structures with enrichment of filopodia, as confirmed in P1&#x2019;s fibroblasts and neutrophils<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR24">24</xref></sup>. Similarly defective actin distribution patterns have been documented in platelets, neutrophils, and T cells from patients with ARPC1B deficiency<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR10">10</xref></sup>, as well as in patients with HEM-1 deficiency<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>, a protein required to activate the Arp2/3 complex to generate lamellipodia<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>.</p>
+      <p id="Par17">We showed that fibroblast migration was impaired in ARPC5 deficiency. This finding correlated with the poor and delayed wound healing experienced by our patients. Impaired wound healing was also observed with in-vitro testing of murine <italic>Arpc3</italic><sup>&#x2212;/&#x2212;</sup> fibroblasts<sup><xref ref-type="bibr" rid="CR24">24</xref></sup> and <italic>Arpc5</italic>-silenced rat smooth muscle cells<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. Interestingly, migration of fibroblasts from a patient with ARPC1B deficiency was unaffected<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, suggesting that not all Arp2/3-related defects behave as phenocopies in the same cell lineage and function. Moreover, while fibroblast defects are certainly contributing to the wound healing defect, they are unlikely to be the only cause: the hyperinflammatory state and impaired neutrophil migration, both seen in other PID/IEI with impaired wound healing, must be considered as other likely responsible factors<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR28">28</xref></sup>.</p>
+      <p id="Par18">Thrombocytopenia in ARPC5 deficiency is probably another multifactorial complication in this disease. Despite peripheral blood thrombocytopenia, bone marrow biopsies on P1 never showed increased megakaryocytes but did present with dysplastic features, similarly to what was reported in patients with ARPC1B deficiency<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>, which is also markedly diminished in ARPC5 deficiency. Her persistent hepatosplenomegaly and broad autoimmunity profile may have also potentially contributed to platelet sequestration and thrombocytopenia.</p>
+      <p id="Par19">Although quantitatively decreased and qualitatively altered, the assembly of Arp2/3 complexes was not completely abrogated in the context of ARPC5 deficiency. The same was seen in platelet lysates from patients with ARPC1B deficiency<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> and likely contribute to the non-embryonic lethality of these genotypes<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>. Whether Arp2/3 complex integrity in these scenarios is maintained by alternative isoforms of ARPC1 (as reported by Leung et al.)<sup><xref ref-type="bibr" rid="CR29">29</xref></sup> and ARPC5, or by non-canonical conformations of the complex lacking these subunits<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>, is yet to be established. Of note, different compositions of the Arp2/3 complex have been shown to nucleate actin with distinct efficiency and to present variable stability. Specific combinations of the complex are likely suited to particular physiologic processes<sup><xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR30">30</xref></sup>. In this setting, Faessler et al., very recently reported how murine and rat ArpC5 subunit isoforms (i.e., Arpc5 and Arpc5L) can alternatively and differently regulate particular Arp2/3-dependant functions. Interestingly, some differences became evident between human vs. rodent species as ARPC5 deficiency in our work does not seem to affect ARPC5L accumulation, while ArpC5 deficiency consistently increased the ArpC5L levels likely affecting the functions dependent on each type of Arp2/3 complexes<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. Not surprisingly, the data presented here showed that depriving cells of the ARPC5 subunit resulted in dysregulation of several but not all Arp2/3-dependent functions. Altogether, these features help to explain why signaling through IL-6R&#x3B1; but not all surface-expressed cytokine receptors are affected by ARPC5 deficiency. Interestingly, in depth analysis of the impact of ARPC5 deficiency on other T-cell functions failed to detect deleterious consequences as previously demonstrated in ARPC1B deficiency<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR31">31</xref></sup>.</p>
+      <p id="Par20">Despite the inherent limitations of studying rare diseases with small number of patients<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>, we showed that two unrelated patients carrying biallelic null mutations in <italic>ARPC5</italic> suffered from a previously unreported disease. While the association between ARPC5 deficiency and CNS or other syndromic manifestations will be further clarified as more patients are described, we efficiently proved that the ARPC5 protein was not expressed, Arp2/3 complex formation was impaired, and subsequently different actin-related functions were variably affected in specific cell lineages in this disease. Rescue of ARPC5 expression reestablished Arp2/3 complex conformation and function. As part of the clinical-pathophysiological evaluation, we also showed that the IL-6 pathway was distinctively impacted in this disease. IL-6 signaling was tested, trans-signaling seemed to have a critical role in the disease and offered a molecular target for treatment. This work emphasizes the importance of studying rare genetic diseases through rigorous methodological criteria to unveil the underlying pathophysiology mechanism and potential therapeutic opportunities.</p>
+    </sec>
+    <sec id="Sec10">
+      <title>Methods</title>
+      <sec id="Sec11">
+        <title>Patients and samples</title>
+        <p id="Par21">The patients&#x2019; legal representatives provided informed consent at their respective institutions, in accordance with the Declaration of Helsinki, under protocols approved by local institutional review boards at the Rockefeller University, and/or National Institutes of Health (NIH)/National Institute of Allergy and Infectious Diseases (NIAID) protocol 10-I-0216; ClinicalTrials.gov Identifier: NCT01222741. The patients&#x2019; legal representatives consented to the publication of medical information and images related to the cases. Samples from Patient 1&#x2019;s family were collected at several time points between 2019 and 2021 at Dalhousie University, Halifax, Nova Scotia, Canada and sent to NIH for genetic and functional studies; Patient 2&#x2019;s family samples were collected at different timepoints between 2012 and 2013 at the Children&#x2019;s Medical Center, Tehran, Iran and sent to the Rockefeller University for genetic testing. Blood samples and biopsies from patients, family members, and healthy donors were obtained following standard of care under approved protocols by the National Institutes of Health institutional review board.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>Whole exome sequencing (WES) and filtering of candidate variants</title>
+        <p id="Par22">WES was performed using genomic DNA extracted from PBMCs using the Illumina&#x2013;IDT Exome Enrichment Kit and HiSeq 2500 instrument according to the manufacturer&#x2019;s protocols. To prioritize genetic variants, we filtered the results to include only novel or rare and potentially functional non-synonymous, nonsense, indel, intronic and splicing variants, using tools in the Ensembl Variant Effect Predictor (VEP; <ext-link ext-link-type="uri" xlink:href="https://useast.ensembl.org/info/docs/tools/vep/index.html">https://useast.ensembl.org/info/docs/tools/vep/index.html</ext-link>) and ANNOVAR package (annovar.openbioinformatics.org), including gene/amino acid annotation (refGene), allele frequencies (gnomAD, NCBI dbSNP), functional prediction scores (SIFT, PolyPhen2, LRT, MutationAssessor, MutationTaster,PROVEAN, MetaSVM, MetaLR,REVEL, CADD, DANN, FATHMM, fathmm-MKL, GenoCanyon), conservation scores (GERP++, SiPhy), and genotype/phenotype correlation databases (InterVar, ClinVar, COSMIC). Variants in segmental duplication regions were excluded. We used Genedistiller 2 (<ext-link ext-link-type="uri" xlink:href="http://www.genedistiller.org/">http://www.genedistiller.org/</ext-link>) to identify genes associated with immune response. Finally, variants were finally prioritized based on clinical correlation.</p>
+      </sec>
+      <sec id="Sec13">
+        <title>Sanger sequencing</title>
+        <p id="Par23">Selected next-generation sequencing results were confirmed and carrier testing was performed by Sanger sequencing. Genomic DNA was PCR-amplified using M13-tagged specific variant-flanking primers, and the PCR products were subjected to Sanger sequencing using M13-primers and the BigDye Terminator v1.1 Cycle Sequencing Kit (Applied Biosystems, Cat. 4337452) according to the manufacturer&#x2019;s protocol. The Sanger sequencing data was analyzed using DNAStar Lasergene 16 SeqMan.</p>
+      </sec>
+      <sec id="Sec14">
+        <title>Single cell RNA sequencing (scRNA-Seq)</title>
+        <p id="Par24">We performed a targeted scRNA-seq approach using the BD Rhapsody Single Cell Analysis Systems (BD Biosciences). PBMC from a patient with ARPC5 deficiency (P1) and a healthy control (HC) were labeled with sample tags (BD Human Single Cell Multiplexing Kit) and AbSeq antibodies (CD1c, CD3, CD4, CD5, CD8, CD11c, CD14, CD16, CD18, CD19, CD20, CD21, CD23, CD24, CD25, CD27, CD28, CD31, CD38, CD40, CD44, CD45RA, CD45RO, CD56, CD62L, CD123, CD127, CD134, CD137, CD161, CD183, CD185, CD186, CD196, CD197, CD272, CD278, CD279, CD303, CD314, CD337, CD357, CD366, HLA-DR, IgD, IgM, TCR&#x3B1;&#x3B2;, TCR&#x3B3;&#x3B4;, V&#x3B1;24-J&#x3B1;18) and counted. Single-cell capture was performed using the BD Rhapsody Express following manufacturer&#x2019;s instructions. The libraries were pooled and sequenced on NovaSeq 6000 S2 as a dual index pair-end run. Fastq files were processed using BD&#x2019;s Rhapsody analysis pipeline on the Seven Bridges Platform using default parameters, the GRCh38-PhiX-gencodev29 reference genome, and the gencodev29-20181205 transcriptome annotation. Processed data (molecules per gene per cell based on DBEC error correction) were analyzed using BD SeqGeq v1.8 and the Seurat plug-in to perform dimensionality reduction (UMAP) and differential analysis output for selected cell subsets (CD4+ T cells, CD8+ T cells, NK cells, NKT cells, classical monocytes [CD14+, CD16&#x2212;], intermediate monocytes [CD14+, CD16+], and non-classical monocytes [CD14<sup>dim</sup>, CD16+]). The differential analysis expression ratios were uploaded to the Ingenuity Pathway Analysis server (QIAGEN, IPA) and converted to expression fold changes. To identify clusters of diseases or biological functions that are predicted to increase or decrease similarly across different datasets, IPA core analyses of the fold changes for the subsets were compared using the Diseases and Functions Heat Map (filtered by z-score &gt;2).</p>
+      </sec>
+      <sec id="Sec15">
+        <title>Cell culture</title>
+        <p id="Par25">PBMC were isolated from whole blood via density gradient centrifugation using Ficoll-Paque Plus (GE Healthcare, Cat. 17144002). PBMC and Jurkat T cells (Clone E6-1, ATCC, Cat. TIB-152) were cultured in RPMI-1640 medium (Gibco, Cat. 61870036) with 10% fetal bovine serum (FBS), 2&#x2009;mM L-glutamine, 100&#x2009;U/mL penicillin, and 100&#x2009;&#xB5;g/mL streptomycin at 37&#x2009;&#xB0;C in a humidified 5% CO<sub>2</sub> incubator. T-cell blasts were generated via stimulation of PBMC with soluble anti-CD3 (1&#x2009;&#xB5;g/mL, Invitrogen, Cat. 16003785) and anti-CD28 (1&#x2009;&#xB5;g/mL, Invitrogen, Cat. 16028985) antibodies plus IL-2 (10&#x2009;ng/mL, Peprotech, Cat. 20002). IL-2 was added every 2&#x2013;3 days and cells were harvested after 7&#x2013;10 days. Raji B cells were grown in IMDM media (Gibco, Cat. 31980030) with 10% heat inactivated FBS, 1% Penicillin-Streptomycin, 1% NEAA (non-essential amino acid supplement) and 1% Glutamax. Neutrophils were isolated from heparinized blood by discontinuous gradient centrifugation using Ficoll-Paque Premium (GE Healthcare, Cat. 17544202). Contaminating red blood cells were removed by 3% dextran (Government Scientific Source, Inc.,551002508007, Pharmaceutical quality, MW 250,000) followed by two hypotonic lysis of 33&#x2009;mM NaCl. Re-equilibration solution (267&#x2009;mM NaCl) was added within 30&#x2009;s of each lysis to normalize osmolarity<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. Dermal fibroblasts from P1 and HC were obtained from skin punch biopsies following standard procedures. Immortalized fibroblasts cell lines were generated using a human telomerase reverse transcriptase (hTERT) cell immortalization kit (Alstem, Cat. CILV02) following manufacturer&#x2019;s protocol. Fibroblasts were cultured in DMEM medium supplemented with 10% FBS, 2 mM L-glutamine, 100&#x2009;U/mL penicillin, and 100&#x2009;&#xB5;g/mL streptomycin (Gibco) at 37&#x2009;&#xB0;C in a humidified 5% CO<sub>2</sub> incubator. Cells were routinely tested for mycoplasma contamination.</p>
+      </sec>
+      <sec id="Sec16">
+        <title>Western blotting</title>
+        <p id="Par26">For Arp2/3 complex or individual Arp2/3 complex subunits protein expression studies, cells under resting condition were used. For signal transducer and activator of transcription 3 (STAT3) phosphorylation analysis, overnight serum-starved fibroblasts, under resting condition or stimulated for 15&#x2009;min with either IL-6 (Peprotech, Cat. 20006), IL-6/IL-6R alpha protein chimera (Hyper IL-6, R&amp;D Systems, Cat. 8954SR), IL-11 (Peprotech, Cat. 20011), or Oncostatin-M (Peprotech, Cat. 20010), all at 100&#x2009;ng/mL, were used. For T-cell receptor (TCR) activation studies, 1&#x2009;h serum-starved T-cell blasts, under resting condition or stimulated for 1 or 10&#x2009;min with Dynabeads human T-activator CD3/CD28 (Gibco, Cat. 11131D) were used. Cell extracts were prepared in lysis buffer (50&#x2009;mM Tris pH 7.4, 150&#x2009;mM NaCl, 2&#x2009;mM EDTA, 0.5% Triton X-100, and 0.5% NP40) with protease and phosphatase inhibitor cocktail (Sigma, Cat. PPC1010) on ice for 30&#x2009;min. Samples were adjusted to have matching concentrations of total protein. Except for native Arp2/3 complex analyses, all other western blotting experiments were conducted under denaturing conditions in which cell lysates were boiled in the presence of NuPAGE LDS sample buffer (Invitrogen, Cat. NP0007) and NuPAGE sample reducing agent (Invitrogen, Cat. NP0004). Then, 5&#x2013;10&#x2009;&#xB5;g of total protein from cell lysates were loaded into NuPAGE 4 to 12%, Bis-Tris, 1.0&#x2013;1.5&#x2009;mm, protein gels (Invitrogen, Cat. NP0323) for SDS-PAGE electrophoresis. Subsequently, proteins were transferred to a nitrocellulose membrane using the Trans-blot turbo transfer system (Bio-Rad, Cat. 1704150). For native Arp2/3 complex analyses, NativePAGE sample buffer (Invitrogen, Cat. BN2003) and NativePAGE 5% G-250 sample additive (Invitrogen, Cat. BN2004) were added to cell extracts, without heating, and 2&#x2009;&#xB5;g of total protein from cell extracts were loaded into NativePAGE 4 to 16%, Bis-Tris, 1.0&#x2009;mm, protein gels (Invitrogen, Cat. BN2112BX10) for blue native PAGE electrophoresis following manufacturer&#x2019;s protocol. Subsequently, proteins were transferred to a PVDF membrane using the iBlot transfer system (Invitrogen). All membranes were blocked in 5% (wt/vol) of nonfat dry milk (Cell Signaling Technology, Cat. 9999) in 1X Tris-buffered saline with 0.1% Tween 20 (TBS-T, Cell Signaling Technology, Cat. 9997), incubated with indicated primary antibodies (see list below) diluted in 5% (wt/vol) of nonfat dry milk in 1X TBS-T, washed in 1X TBS-T, and incubated with appropriate secondary antibodies labeled with horseradish peroxidase (Jackson ImmunoResearch, Cat. 111035003 or 115035003) diluted in 5% (wt/vol) of nonfat dry milk in 1X TBS-T. Protein bands were detected by chemiluminescence (Thermo Scientific, Cat. 32209, 34075, or 34095). Images were acquired using the C-Digit Blot scanner (LI-COR) and visualized in the Image Studio software (LI-COR). The following primary antibodies were used: anti-Arp2 (Abcam, Cat. ab128934); anti-Arp3 (Abcam, Cat. ab151729); anti-ARPC1A (Sigma-Aldrich, Cat. HPA004334); anti-ARPC1B (Sigma-Aldrich, Cat. HPA004832); anti-ARPC2 (Sigma-Aldrich, Cat. HPA008352); anti-ARPC3 (Sigma-Aldrich, Cat. HPA006550); anti-ARPC4 (Sigma-Aldrich, Cat. SAB2106287); anti-ARPC5 (Synaptic Systems, Cat. 305011); anti-ARPC5L (Abcam, Cat. ab169763); anti-phospho-STAT3 (Santa Cruz, Cat. sc-8059); anti-STAT3 (Santa Cruz, Cat. sc-482); anti-phospho-Zap-70 (Tyr319)/Syk (Tyr352) (Cell Signaling Technology, Cat. 2717); anti-Zap-70 (Cell Signaling Technology, Cat. 3165); anti-phospho-LAT (Tyr220) (Cell Signaling Technology, Cat. 3584); anti-phospho-PLC&#x3B3;1 (Tyr783) (Cell Signaling Technology, Cat. 14008); anti- PLC&#x3B3;1 (Cell Signaling Technology, Cat. 2822); anti-phospho-p44/42 MAPK (Erk1/2) (Thr202/Tyr204) (Cell Signaling Technology, Cat. 4377); anti-p44/42 MAPK (Erk1/2) (Cell Signaling Technology, Cat. 4695); anti-phospho-NF-&#x3BA;B p65 (Ser536) (Cell Signaling Technology, Cat. 3033); anti-NF-&#x3BA;B p65 (Cell Signaling Technology, Cat. 8242); anti-&#x3B2;-Actin (Cell Signaling Technology, Cat. 4970); anti- &#x3B2;-tubulin (Cell Signaling Technology, Cat. 2128); anti-GAPDH (Cell Signaling Technology, Cat. 2118); anti-Vinculin (Santa Cruz, Cat. sc-73614).</p>
+      </sec>
+      <sec id="Sec17">
+        <title>Fluorescence microscopy of fibroblasts</title>
+        <p id="Par27">P1&#x2019;s or HC&#x2019;s fibroblasts were seeded in 6-well plates pre-coated with RetroNectin (Takara, Cat. T100B) in complete DMEM medium and allowed to spread in a humidified incubator at 37&#x2009;&#xB0;C with 5% CO<sub>2</sub>. After specified times, cells were washed in phosphate-buffered saline (PBS), fixed in 4% paraformaldehyde for 15&#x2009;min, washed again, then permeabilized in 0.1% Triton X-100 in PBS for 10&#x2009;min and blocked (10% FBS and 0.1% Triton X-100 in PBS) for 30&#x2009;min. Cells were then incubated in blocking buffer with either Alexa Fluor 488 Phalloidin (Invitrogen, Cat. A12379), mouse anti-HA (Cell Signaling technology, Cat. 2367), or rabbit anti-Flag (Cell Signaling Technology, Cat. 14793&#x2009;S) antibodies. Next, cells were washed in PBS. Samples stained with anti-HA and anti-Flag antibodies were incubated for 1&#x2009;h with Alexa Fluor 594 or Alexa Fluor 568-conjugated secondary antibodies in blocking buffer (Invitrogen, Cat. A11072 and A21069). After washes, all samples were incubated with DAPI (Cell Signaling Technology, Cat. 4083) in PBS, for 10&#x2009;min. Samples were washed twice in PBS and ready for imaging. Filopodia formation was best visualized 20&#x2009;min after cell seeding and lamellipodia formation 120&#x2009;min after cell seeding; therefore, those time points were selected for imaging. Images were collected using a ZOE fluorescent cell imager (Bio-Rad).</p>
+      </sec>
+      <sec id="Sec18">
+        <title>Real-time cell analysis of adhesion and spreading</title>
+        <p id="Par28">The rate and magnitude of adherence of fibroblasts was measured with the xCELLigence RTCA MP (Agilent, Santa Clara, CA). Briefly, E-plates 96 (Agilent, Santa Clara, CA) were background normalized after equilibrating the wells with 100&#x2009;&#xB5;L of complete media for 30&#x2009;min. Following this step, 1&#x2009;&#xD7;&#x2009;10<sup>4</sup> HC&#x2019;s or P1&#x2019;s fibroblasts were seeded and immediately placed onto the xCELLigence RTCA MP machine at 37&#x2009;&#xB0;C with 5% CO<sub>2</sub> to begin recording impedance every 1&#x2013;2&#x2009;min for 5&#x2009;h and every 15&#x2009;min thereafter. Impedance values were converted into the cell index by the RTCA software (Agilent, Santa Clara, CA) and plotted over time using the GraphPad Prism software version 8.3.0 (GraphPad, LLC). To measure spreading of neutrophils, isolated polymorphonuclear neutrophils (1&#x2009;&#xD7;&#x2009;10<sup>6</sup> cells/ml in 20&#x2009;&#xB5;L HBSS with Ca<sup>2+</sup> and Mg<sup>2+</sup> buffer (Gibco, Cat. 14025134) were added on the center of microscope slide. A coverslip was placed over the cells and digital images were captured at five second intervals for 600&#x2009;s. The area and perimeter of the cells were measured using Infinity Analyze software (Lumenera, version 5.0.3).</p>
+      </sec>
+      <sec id="Sec19">
+        <title>Cell migration assays</title>
+        <p id="Par29">Fibroblasts migration was assessed with a wound healing (scratch) assay. Fibroblasts were seeded in a 12-well plate and serum-starved overnight. The next day, a scratch in the cell monolayer was generated with a pipette tip (20&#x2009;&#x3BC;l tip, tip width 0.94&#x2009;mm, Thermo Scientific Art tips). Cells were washed 2x in PBS and from then on cultured in DMEM supplemented with 2% FBS and 2 mM L-glutamine. Cells were imaged right after scratching (t&#x2009;=&#x2009;0), at 8&#x2009;h, and 24&#x2009;h after the scratch was made. Images were captured with a Lionheart FX Automated Live Cell Imager (Agilent BioTeK) using a 4&#xD7; objective with the high contrast brightfield accessory. To improve visualization, digital phase contrast processing was applied to entire images using Gen5 Image+ software (Agilent BioTeK). Neutrophil chemotaxis was monitored across a 260&#x2009;&#xB5;m platform separating the &#x201C;cell&#x201D; well from the &#x201C;chemoattractant&#x201D; well using the EZ-TAXIScan (Effector Cell Institute, Tokyo, Japan). Isolated neutrophils (5&#x2009;&#xD7;&#x2009;10<sup>3</sup> cells in 1.0&#x2009;&#xB5;l) were added to the &#x201C;cell&#x201D; well of the EZ-TAXIScan and 1.0&#x2009;&#xB5;l of either buffer (0.1% BSA in RPMI, 20&#x2009;mM HEPES) or 5&#x2009;&#xD7;&#x2009;10<sup>&#x2212;8&#x2009;</sup>M fMLF (N-formylmethionyl-leucyl-phenylalanine, Sigma-Aldrich, Cat. F3506) was added to the opposing &#x201C;chemoattractant&#x201D; well. Digital images of the migrating PMNs were captured every 30&#x2009;s for 1&#x2009;h. Images were converted to stacks using the ImageJ software (version 1.53t; NIH). Ten randomly selected cells were electronically traced using the ImageJ plug-in, MTrackJ and the sequential positional coordinates of individual migrating cells were determined as a function of time. The tracks of individual migrating cells were reconstructed and plotted with the position of each cell anchored at the origin at t&#x2009;=&#x2009;0. Since data were collected with time and position, multiple parameters could be derived &#x2013; overall distance, directed distance (parallel to the chemoattractant, random distance (orthogonal to the chemoattractant), overall velocity, directed and random velocity vectors, and time-to-event analysis (number of cells completing migration and elapsed time). To assess migration in Jurkat cells, 5&#x2009;&#xD7;&#x2009;10<sup>5</sup> wild-type (WT) or <italic>ARPC5</italic>-KO cells were suspended in 100&#x2009;&#x3BC;L of RPMI 1640 media supplemented with 10% FBS (RPMI complete). The cells were loaded into 5.0 &#x3BC;m Transwell inserts (Corning) which were placed onto 24-well plates containing 450&#x2009;&#x3BC;L of RPMI complete with or without 800&#x2009;ng/mL CXCL12 (Peprotech). After 3&#x2009;h of incubation at 37&#x2009;&#xB0;C, cells that had migrated to the lower chamber were collected and counted using an automatic cell counter (Countess II FL, ThermoFisher Scientific). Results were calculated as percentage of cells that had migrated out of total input cells.</p>
+      </sec>
+      <sec id="Sec20">
+        <title>Rescue of wild-type <italic>ARPC5</italic> expression</title>
+        <p id="Par30">WT <italic>ARPC5</italic> expression was rescued in P1&#x2019;s fibroblasts via plasmid transfection or lentiviral transduction. P1&#x2019;s fibroblasts were transfected with pCMV3-ARPC5-C-HA plasmid (Sino Biological, Cat. HG16494-CY) or mock-transfected (transient; transfection efficiency 20&#x2013;40%) with empty vector using Amaxa Human Dermal Fibroblast Nucleofector Kit (Lonza, Cat. VPD-1001), program U-023, following manufacturer&#x2019;s protocol. For lentiviral transduction, 1.5&#x2009;&#xD7;&#x2009;10<sup>5</sup> fibroblasts were seeded in a 6-well plate and cultured in a humidified incubator at 37&#x2009;&#xB0;C with 5% CO<sub>2</sub> overnight. Then, P1&#x2019;s cells were infected with pLenti-ARPC5-C-Myc-DDK-P2A-Puro viral particles (Origene, Cat. RC212631L3V) or control particles of pLenti-C-Myc-DDK-P2A-Puro (OriGene, Cat. PS100092V) at a multiplicity of infection (MOI) of 10, in the presence of polybrene (8&#x2009;&#xB5;g/mL). HC cells were infected with control particles following the same procedure. Next, cells were centrifuged at 1500&#x2009;&#xD7;&#x2009;<italic>g</italic> for 1&#x2009;h. Media was exchanged the following day.</p>
+      </sec>
+      <sec id="Sec21">
+        <title>Flow cytometry</title>
+        <p id="Par31">For identification of surface proteins, single-cell suspensions of washed PBMC were stained with fluorochrome-conjugated antibodies (see list below) for 30&#x2009;min at 4&#x2009;&#xB0;C. Then, cells were washed with stain buffer (BD Biosciences, Cat. 554656) twice and were ready for acquisition. For detection of the intracellular proteins FOXP3 and T-bet, cells were fixed and permeabilized before staining, using the FOXP3/transcription factor staining buffer set (Invitrogen, Cat. 00552300), following manufacturer&#x2019;s recommendations. For STAT phosphorylation assays, PBMC with or without cytokine stimulation were surface stained with APC anti-CD4 antibody (BD Biosciences, Cat. 555349). Stimulated samples were incubated at 37&#x2009;&#xB0;C for 20&#x2009;min with either IL-2 (10&#x2009;ng/mL, Peprotech, Cat. 20002), IL-4 (10&#x2009;ng/mL, Peprotech, Cat. 20004), IL-6 (10&#x2009;ng/mL, Peprotech, Cat. 20006), IL-7 (10&#x2009;ng/mL, Peprotech, Cat. 20007), IL-15 (100&#x2009;ng/mL, Peprotech, Cat. 20015), IL-21 (50&#x2009;ng/mL, Peprotech, Cat. 20021), IFN&#x3B1; (10&#x2009;ng/mL, Cell Signaling Technology, Cat. 8927), IFN&#x3B3; (10&#x2009;ng/mL, Peprotech, Cat. 30002), or IL-6/IL-6R alpha protein chimera (Hyper IL-6, 100&#x2009;ng/mL, R&amp;D Systems, Cat. 8954SR). Next, cells were washed, fixed with BD Cytofix fixation buffer (BD Biosciences, Cat. BD554655), washed again, then permeabilized with BD Phosflow Perm Buffer III (BD Biosciences, Cat.558050). After washing, cells were stained with phospho-specific antibodies (see list below) for 1&#x2009;h on ice. After two additional washes, cells were ready for acquisition. For STAT phosphorylation assays, monocytes were gated by FSC/SSC. All samples were acquired with BD FACSCanto II flow cytometer (BD Biosciences) using BD FACSDiva software. Further analyses of flow cytometry data were conducted in FlowJo v10.7.1 software (BD Biosciences). The following fluorochrome-conjugated antibodies were used: PE anti-IL-6R&#x3B1; (Biolegend, Cat. 352804); APC anti-gp130 (Biolegend, Cat. 362006); APC-eFluor 780 anti-CD45 (Invitrogen, Cat. 47045942); APC-H7 anti-CD3 (BD Biosciences, Cat. 560176); BV510 anti-CD3 (BD Biosciences, Cat. 564713); Pacific Blue anti-CD3 (Biolegend, Cat. 344824); FITC anti-CD3 (Invitrogen, Cat. MHCD03014); PE-Cy7 anti-CD3 (BD Biosciences. Cat. 341091); APC anti-CD4 antibody (BD Biosciences, Cat. 555349); BV421 anti-CD4 (BD Biosciences, Cat. 565997); PE-Cy7 anti-CD4 (Biolegend, Cat. 300512); PerCP anti-CD4 (Invitrogen, Cat. MHCD0431); PerCP anti-CD4 (BD Biosciences, Cat. 566924); APC anti-CD8 (Invitrogen, Cat. MHCD0805); APC-R700 anti-CD8 (BD Biosciences, Cat. 565165); FITC anti-CD8 (BD Biosciences, Cat. 555366); FITC anti-CD45RA (Beckman Coulter, Cat. IM0584U); APC anti-CD62L (BD Biosciences, Cat. 559772); PE anti-CD25 (BD Biosciences, Cat. 555432); PE anti-CD25 (BD Biosciences, Cat. 341009); APC anti-FOXP3 (Invitrogen, Cat. 17477742); APC anti-CD19 (Invitrogen, Cat. 17019842); APC anti-CD19 (BD Biosciences, Cat. 555415); BB515 anti-CD19 (BD Biosciences, Cat. 564456); BV510 anti-CD19 (BD Biosciences, Cat. 562947); BV605 anti-CD20 (Biolegend, Cat. 302334); PE anti-CD21 (BD Biosciences, Cat. 557327); PE-Cy7 anti-CD21 (BD Biosciences, Cat. 561374); PE anti-CD24 (Invitrogen, Cat. 12024742); APC-R700 CD38 (BD Biosciences, Cat. 659118); BV421 anti-CD27 (BD Biosciences, Cat. 562513); FITC anti-Kappa (BD Biosciences, Cat. 643774); PE anti-Lambda (BD Biosciences, Cat. 642924); PerCP/Cy5.5 anti-IgM (Biolegend, Cat. 314512); PE-Cy7 anti-CD11c (Invitrogen, Cat. 25011642); PerCP/Cy5.5 anti-T-bet (Biolegend, Cat. 644805); FITC anti-CD14 (Invitrogen, Cat. MHCD1401); FITC anti-CD3/ PE anti-CD16+ CD56 (BD Biosciences, Cat. 340042); PE anti-Flag (Biolegend, Cat. 637310); Alexa Fluor 488 anti-STAT1 (pY701) (BD Biosciences, Cat. 612596); Pacific Blue anti-STAT3 (pY705) (BD Biosciences, Cat. 560312); Pacific Blue anti-STAT5 (pY694) (BD Biosciences, Cat. 560311); Alexa Fluor 488 anti-STAT6 (pY641) (BD Biosciences, Cat. 612600).</p>
+      </sec>
+      <sec id="Sec22">
+        <title>Inhibitors</title>
+        <p id="Par32">The Arp2/3 complex inhibitor I (CK-666, CAS 442633-00-3) was purchased from Milipore Sigma (Cat. 182515). Anti-IL6R antibody (rhPM-1 [tocilizumab]) was purchased from Novus Biologicals (Cat. NBP2-75192). Recombinant Human gp130 Fc Chimera Protein was purchased from R&amp;D Systems (Cat. 671-GP).</p>
+      </sec>
+      <sec id="Sec23">
+        <title>Quantification of IL-6 and IL-6R&#x3B1; proteins</title>
+        <p id="Par33">Whole blood samples collected into sodium heparin tubes were centrifuged for 15&#x2009;min at 2000&#x2009;&#xD7;&#x2009;<italic>g</italic> for plasma separation. Plasma levels of soluble IL-6R&#x3B1; were measured with Human premixed multi-analyte kit (R&amp;D Systems, Cat. LXSAHM03) using the Luminex 100/200 system (Luminex). Plasma levels of soluble IL-6R&#x3B1; complexed with IL-6 were measured with Human IL-6/IL-6R alpha complex DuoSet ELISA (R&amp;D Systems, Cat. DY8139-05) following manufacturer&#x2019;s instructions.</p>
+        <p id="Par34">For detection of soluble IL-6R&#x3B1; in CK-666 treated samples, CD4 cells were enriched by EasySep Human CD4 cell enrichment kit (Stemcell Technology, 19052). The enriched CD4 T cells (2&#x2009;&#xD7;&#x2009;10<sup>5</sup> cells/100&#x2009;&#x3BC;L) were either treated with vehicle control (DMSO) or CK-666 (100&#x2009;&#x3BC;M) for 22&#x2009;h. The supernatants were collected and soluble IL-6R&#x3B1; was assessed by Luminex assay (R&amp;D).</p>
+      </sec>
+      <sec id="Sec24">
+        <title>Reporting summary</title>
+        <p id="Par35">Further information on research design is available in the&#xA0;<xref rid="MOESM5" ref-type="media">Nature Portfolio Reporting Summary</xref> linked to this article.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary information</title>
+      <sec id="Sec25">
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="41467_2023_39272_MOESM1_ESM.pdf"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2"><media xlink:href="41467_2023_39272_MOESM2_ESM.pdf"><caption><p>Description of Additional Supplementary Files</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3"><media xlink:href="41467_2023_39272_MOESM3_ESM.pptx"><caption><p>Supplementary Movie 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4"><media xlink:href="41467_2023_39272_MOESM4_ESM.pptx"><caption><p>Supplementary Movie 2</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM5"><media xlink:href="41467_2023_39272_MOESM5_ESM.pdf"><caption><p>Reporting Summary</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM6"><media xlink:href="41467_2023_39272_MOESM6_ESM.pdf"><caption><p>Peer Review File</p></caption></media></supplementary-material>
+</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="App1">
+        <sec id="Sec26">
+          <title>Source data</title>
+          <p id="Par39">
+<media position="anchor" xlink:href="41467_2023_39272_MOESM7_ESM.xlsx" id="MOESM7"><caption><p>Source Data</p></caption></media>
+</p>
+        </sec>
+      </app>
+    </app-group>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <title>Supplementary information</title>
+      <p>The online version contains supplementary material available at 10.1038/s41467-023-39272-0.</p>
+    </sec>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This work was supported by the Intramural Research Program, National Institutes of Health Clinical Center and National Institute of Allergy and Infectious Diseases (to S.D.R.)&#xA0;and in part by federal funds from the National Cancer Institute, NIH, under Contract No. 75N91019D00024 (to&#xA0;D.B.K.). The content of this publication does not necessarily reflect the views or policies of the Department of Health and Human Services, nor does mention of trade names, commercial products, or organizations imply endorsement by the U.S. Government. The Laboratory of Human Genetics of Infectious Diseases is supported by the Howard Hughes Medical Institute, the Rockefeller University, the St. Giles Foundation, the National Institutes of Health (NIH) (R01 AI127564-06&#xA0;to J.L.C.&#xA0;and A.P., R21AI159728 to B.Boi.&#xA0;&amp; P01AI061093&#xA0;to J.L.C.), the National Center for Advancing Translational Sciences (NCATS), NIH Clinical and Translational Science Award (CTSA) program (UL1TR001866), the French National Research Agency (ANR) under the &#x201C;Investments for the Future&#x201D; program (ANR-10-IAHU-01), the Integrative Biology of Emerging Infectious Diseases Laboratory of Excellence (ANR-10-LABX-62-IBEID&#xA0;to J.L.C.), the French Foundation for Medical Research (FRM) (EQU201903007798&#xA0;to J.L.C.), the Square Foundation, Grandir - Fonds de solidarit&#xE9; pour l&#x2019;enfance, Institut National de la Sant&#xE9; et de la Recherche M&#xE9;dicale (INSERM) and the University of Paris Cit&#xE9;. We acknowledge Drs. Andrew Issekutz and Dimas Mateos-Corral for their involvement in the care of P1.</p>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Author contributions</title>
+      <p>C.J.N.S., H.S.K., B.Boa., S.H., D.B.K., J.S., J.E.N., D.L.F., J.S.D., V.A.B., T.K., O.M.D., and M.B. designed and performed experiments. L.E.S., T.A.F., A.P., L.D.N., B.Boi., J.L.C., B.D., and S.D.R. supervised experiments. S.P. reviewed pathology slides. M.A.A. analyzed electron microscopy data. M.Ga. obtained informed consent from study participants. M.C.S., R.S., M.Gh., N.P., and B.D., provided patient samples and clinical information. C.J.N.S. wrote the first draft of the manuscript. All authors contributed to the final version of the manuscript. C.J.N.S. and S.D.R. planned and supervised the study.</p>
+    </notes>
+    <notes notes-type="peer-review">
+      <title>Peer review</title>
+      <sec id="FPar1">
+        <title>Peer review information</title>
+        <p id="Par36"><italic>Nature Communications</italic> thanks Florian Schur and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. A peer review file is available.</p>
+      </sec>
+    </notes>
+    <notes notes-type="funding-information">
+      <title>Funding</title>
+      <p>Open Access funding provided by the National Institutes of Health (NIH).</p>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Data availability</title>
+      <p>Whole exome sequencing datasets generated and analyzed during the current study are available in NCBI&#x2019;s Sequence Read Archive with accession no. <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA889418">PRJNA889418</ext-link>. Single-cell RNA sequencing raw and processed data have been deposited in NCBI&#x2019;s GEO data repository with accession no. <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE215451">GSE215451</ext-link>. T-cell receptor &#x3B2; sequencing data have been deposited in the ImmuneACCESS database [10.21417/CJNS2023NC].&#xA0;<xref rid="Sec26" ref-type="sec">Source data</xref> are provided with this paper.</p>
+    </notes>
+    <notes id="FPar2" notes-type="COI-statement">
+      <title>Competing interests</title>
+      <p id="Par37">The authors declare no competing interests.</p>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tangye</surname>
+              <given-names>SG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Human inborn errors of the actin cytoskeleton affecting immunity: way beyond WAS and WIP</article-title>
+          <source>Immunol. Cell. Biol.</source>
+          <year>2019</year>
+          <volume>97</volume>
+          <fpage>389</fpage>
+          <lpage>402</lpage>
+          <pub-id pub-id-type="doi">10.1111/imcb.12243</pub-id>
+          <pub-id pub-id-type="pmid">30779216</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sprenkeler</surname>
+              <given-names>EGG</given-names>
+            </name>
+            <name>
+              <surname>Webbers</surname>
+              <given-names>SDS</given-names>
+            </name>
+            <name>
+              <surname>Kuijpers</surname>
+              <given-names>TW</given-names>
+            </name>
+          </person-group>
+          <article-title>When actin is not actin&#x2019; like It should: a new category of distinct primary immunodeficiency disorders</article-title>
+          <source>J. Innate. Immun.</source>
+          <year>2021</year>
+          <volume>13</volume>
+          <fpage>3</fpage>
+          <lpage>25</lpage>
+          <pub-id pub-id-type="doi">10.1159/000509717</pub-id>
+          <pub-id pub-id-type="pmid">32846417</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goley</surname>
+              <given-names>ED</given-names>
+            </name>
+            <name>
+              <surname>Welch</surname>
+              <given-names>MD</given-names>
+            </name>
+          </person-group>
+          <article-title>The ARP2/3 complex: an actin nucleator comes of age</article-title>
+          <source>Nat. Rev. Mol. Cell. Biol.</source>
+          <year>2006</year>
+          <volume>7</volume>
+          <fpage>713</fpage>
+          <lpage>726</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm2026</pub-id>
+          <pub-id pub-id-type="pmid">16990851</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rotty</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Bear</surname>
+              <given-names>JE</given-names>
+            </name>
+          </person-group>
+          <article-title>New insights into the regulation and cellular functions of the ARP2/3 complex</article-title>
+          <source>Nat. Rev. Mol. Cell. Biol.</source>
+          <year>2013</year>
+          <volume>14</volume>
+          <fpage>7</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm3492</pub-id>
+          <pub-id pub-id-type="pmid">23212475</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Derry</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Ochs</surname>
+              <given-names>HD</given-names>
+            </name>
+            <name>
+              <surname>Francke</surname>
+              <given-names>U</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation of a novel gene mutated in Wiskott-Aldrich syndrome</article-title>
+          <source>Cell.</source>
+          <year>1994</year>
+          <volume>78</volume>
+          <fpage>635</fpage>
+          <lpage>644</lpage>
+          <pub-id pub-id-type="doi">10.1016/0092-8674(94)90528-2</pub-id>
+          <pub-id pub-id-type="pmid">8069912</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cook</surname>
+              <given-names>SA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>HEM1 deficiency disrupts mTORC2 and F-actin control in inherited immunodysregulatory disease</article-title>
+          <source>Science.</source>
+          <year>2020</year>
+          <volume>369</volume>
+          <fpage>202</fpage>
+          <lpage>207</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.aay5663</pub-id>
+          <pub-id pub-id-type="pmid">32647003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kahr</surname>
+              <given-names>WH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss of the Arp2/3 complex component ARPC1B causes platelet abnormalities and predisposes to inflammatory disease</article-title>
+          <source>Nat. Commun.</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <fpage>14816</fpage>
+          <pub-id pub-id-type="doi">10.1038/ncomms14816</pub-id>
+          <pub-id pub-id-type="pmid">28368018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuijpers</surname>
+              <given-names>TW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Combined immunodeficiency with severe inflammation and allergy caused by ARPC1B deficiency</article-title>
+          <source>J. Allergy. Clin. Immunol.</source>
+          <year>2017</year>
+          <volume>140</volume>
+          <fpage>273</fpage>
+          <lpage>277.e10</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jaci.2016.09.061</pub-id>
+          <pub-id pub-id-type="pmid">27965109</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Somech</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Disruption of thrombocyte and T lymphocyte development by a mutation in ARPC1B</article-title>
+          <source>J. Immunol.</source>
+          <year>2017</year>
+          <volume>199</volume>
+          <fpage>4036</fpage>
+          <lpage>4045</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.1700460</pub-id>
+          <pub-id pub-id-type="pmid">29127144</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brigida</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>T-cell defects in patients with ARPC1B germline mutations account for combined immunodeficiency</article-title>
+          <source>Blood.</source>
+          <year>2018</year>
+          <volume>132</volume>
+          <fpage>2362</fpage>
+          <lpage>2374</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2018-07-863431</pub-id>
+          <pub-id pub-id-type="pmid">30254128</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Volpi</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A combined immunodeficiency with severe infections, inflammation, and allergy caused by ARPC1B deficiency</article-title>
+          <source>J. Allergy. Clin. Immunol.</source>
+          <year>2019</year>
+          <volume>143</volume>
+          <fpage>2296</fpage>
+          <lpage>2299</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jaci.2019.02.003</pub-id>
+          <pub-id pub-id-type="pmid">30771411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cancro</surname>
+              <given-names>MP</given-names>
+            </name>
+          </person-group>
+          <article-title>Age-associated B cells</article-title>
+          <source>Annu. Rev. Immunol.</source>
+          <year>2020</year>
+          <volume>38</volume>
+          <fpage>315</fpage>
+          <lpage>340</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-immunol-092419-031130</pub-id>
+          <pub-id pub-id-type="pmid">31986068</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karczewski</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The mutational constraint spectrum quantified from variation in 141,456 humans</article-title>
+          <source>Nature.</source>
+          <year>2020</year>
+          <volume>581</volume>
+          <fpage>434</fpage>
+          <lpage>443</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41586-020-2308-7</pub-id>
+          <pub-id pub-id-type="pmid">32461654</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zahn-Zabal</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The neXtProt knowledgebase in 2020: data, tools and usability improvements</article-title>
+          <source>Nucleic. Acids. Res.</source>
+          <year>2020</year>
+          <volume>48</volume>
+          <fpage>D328</fpage>
+          <lpage>D334</lpage>
+          <pub-id pub-id-type="pmid">31724716</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Millard</surname>
+              <given-names>TH</given-names>
+            </name>
+            <name>
+              <surname>Behrendt</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Launay</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>F&#xFC;tterer</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Machesky</surname>
+              <given-names>LM</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and characterisation of a novel human isoform of Arp2/3 complex subunit p16-ARC/ARPC5</article-title>
+          <source>Cell. Motil. Cytoskeleton.</source>
+          <year>2003</year>
+          <volume>54</volume>
+          <fpage>81</fpage>
+          <lpage>90</lpage>
+          <pub-id pub-id-type="doi">10.1002/cm.10087</pub-id>
+          <pub-id pub-id-type="pmid">12451597</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>F&#xE4;&#xDF;ler</surname>
+              <given-names>F</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ArpC5 isoforms regulate Arp2/3 complex-dependent protrusion through differential Ena/VASP positioning</article-title>
+          <source>Sci. Adv.</source>
+          <year>2023</year>
+          <volume>9</volume>
+          <fpage>eadd6495</fpage>
+          <pub-id pub-id-type="doi">10.1126/sciadv.add6495</pub-id>
+          <pub-id pub-id-type="pmid">36662867</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ngwa</surname>
+              <given-names>DN</given-names>
+            </name>
+            <name>
+              <surname>Pathak</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Agrawal</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>IL-6 regulates induction of C-reactive protein gene expression by activating STAT3 isoforms</article-title>
+          <source>Mol. Immunol.</source>
+          <year>2022</year>
+          <volume>146</volume>
+          <fpage>50</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molimm.2022.04.003</pub-id>
+          <pub-id pub-id-type="pmid">35430542</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rose-John</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>IL-6 trans-signaling via the soluble IL-6 receptor: importance for the pro-inflammatory activities of IL-6</article-title>
+          <source>Int. J. Biol. Sci.</source>
+          <year>2012</year>
+          <volume>8</volume>
+          <fpage>1237</fpage>
+          <lpage>1247</lpage>
+          <pub-id pub-id-type="doi">10.7150/ijbs.4989</pub-id>
+          <pub-id pub-id-type="pmid">23136552</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rakemann</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The designer cytokine hyper-interleukin-6 is a potent activator of STAT3-dependent gene transcription in vivo and in vitro</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1999</year>
+          <volume>274</volume>
+          <fpage>1257</fpage>
+          <lpage>1266</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.274.3.1257</pub-id>
+          <pub-id pub-id-type="pmid">9880494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rose-John</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Therapeutic targeting of IL-6 trans-signaling</article-title>
+          <source>Cytokine.</source>
+          <year>2021</year>
+          <volume>144</volume>
+          <fpage>155577</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.cyto.2021.155577</pub-id>
+          <pub-id pub-id-type="pmid">34022535</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abella</surname>
+              <given-names>JV</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Isoform diversity in the Arp2/3 complex determines actin filament dynamics</article-title>
+          <source>Nat. Cell. Biol.</source>
+          <year>2016</year>
+          <volume>18</volume>
+          <fpage>76</fpage>
+          <lpage>86</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb3286</pub-id>
+          <pub-id pub-id-type="pmid">26655834</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schaks</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Giannone</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Rottner</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Actin dynamics in cell migration</article-title>
+          <source>Essays. Biochem.</source>
+          <year>2019</year>
+          <volume>63</volume>
+          <fpage>483</fpage>
+          <lpage>495</lpage>
+          <pub-id pub-id-type="doi">10.1042/EBC20190015</pub-id>
+          <pub-id pub-id-type="pmid">31551324</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Arp2/3 is critical for lamellipodia and response to extracellular matrix cues but is dispensable for chemotaxis</article-title>
+          <source>Cell.</source>
+          <year>2012</year>
+          <volume>148</volume>
+          <fpage>973</fpage>
+          <lpage>987</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2011.12.034</pub-id>
+          <pub-id pub-id-type="pmid">22385962</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suraneni</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Arp2/3 complex is required for lamellipodia extension and directional fibroblast cell migration</article-title>
+          <source>J. Cell, Biol.</source>
+          <year>2012</year>
+          <volume>197</volume>
+          <fpage>239</fpage>
+          <lpage>251</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.201112113</pub-id>
+          <pub-id pub-id-type="pmid">22492726</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Innocenti</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>New insights into the formation and the function of lamellipodia and ruffles in mesenchymal cell migration</article-title>
+          <source>Cell. Adh. Migr.</source>
+          <year>2018</year>
+          <volume>12</volume>
+          <fpage>401</fpage>
+          <lpage>416</lpage>
+          <pub-id pub-id-type="pmid">29513145</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silverman-Gavrila</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Rear polarization of the microtubule-organizing center in neointimal smooth muscle cells depends on PKC&#x3B1;, ARPC5, and RHAMM</article-title>
+          <source>Am. J. Pathol.</source>
+          <year>2011</year>
+          <volume>178</volume>
+          <fpage>895</fpage>
+          <lpage>910</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajpath.2010.10.001</pub-id>
+          <pub-id pub-id-type="pmid">21281821</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Seger</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Modern management of chronic granulomatous disease</article-title>
+          <source>Br. J. Haematol.</source>
+          <year>2008</year>
+          <volume>140</volume>
+          <fpage>255</fpage>
+          <lpage>266</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2141.2007.06880.x</pub-id>
+          <pub-id pub-id-type="pmid">18217895</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hinze</surname>
+              <given-names>CH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Leukocyte adhesion deficiency type 1 presenting with recurrent pyoderma gangrenosum and flaccid scarring</article-title>
+          <source>Pediatr. Dermatol.</source>
+          <year>2010</year>
+          <volume>27</volume>
+          <fpage>500</fpage>
+          <lpage>503</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1525-1470.2010.01260.x</pub-id>
+          <pub-id pub-id-type="pmid">20807363</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <mixed-citation publication-type="other">Leung, G. et al. ARPC1B binds WASP to control actin polymerization and curtail tonic signaling in B cells. <italic>JCI Insight</italic><bold>6</bold>, e149376 (2021).</mixed-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pizarro-Cerd&#xE1;</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Chorev</surname>
+              <given-names>DS</given-names>
+            </name>
+            <name>
+              <surname>Geiger</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Cossart</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>The diverse family of Arp2/3 complexes</article-title>
+          <source>Trends. Cell. Biol.</source>
+          <year>2017</year>
+          <volume>27</volume>
+          <fpage>93</fpage>
+          <lpage>100</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tcb.2016.08.001</pub-id>
+          <pub-id pub-id-type="pmid">27595492</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Randzavola</surname>
+              <given-names>LO</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss of ARPC1B impairs cytotoxic T lymphocyte maintenance and cytolytic activity</article-title>
+          <source>J. Clin. Invest.</source>
+          <year>2019</year>
+          <volume>129</volume>
+          <fpage>5600</fpage>
+          <lpage>5614</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI129388</pub-id>
+          <pub-id pub-id-type="pmid">31710310</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Casanova</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Conley</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Seligman</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Abel</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Notarangelo</surname>
+              <given-names>LD</given-names>
+            </name>
+          </person-group>
+          <article-title>Guidelines for genetic studies in single patients: lessons from primary immunodeficiencies</article-title>
+          <source>J. Exp. Med.</source>
+          <year>2014</year>
+          <volume>211</volume>
+          <fpage>2137</fpage>
+          <lpage>2149</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.20140520</pub-id>
+          <pub-id pub-id-type="pmid">25311508</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuhns</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Priel</surname>
+              <given-names>DAL</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zarember</surname>
+              <given-names>KA</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation and functional analysis of human neutrophils</article-title>
+          <source>Curr. Protoc. Immunol.</source>
+          <year>2015</year>
+          <volume>111</volume>
+          <fpage>7.23.1</fpage>
+          <lpage>7.23.16</lpage>
+          <pub-id pub-id-type="doi">10.1002/0471142735.im0723s111</pub-id>
+          <pub-id pub-id-type="pmid">26528633</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

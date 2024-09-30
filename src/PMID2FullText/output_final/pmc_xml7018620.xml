@@ -1,0 +1,845 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">9502015</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">8791</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Med</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat. Med.</journal-id>
+      <journal-title-group>
+        <journal-title>Nature medicine</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1078-8956</issn>
+      <issn pub-type="epub">1546-170X</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">31959991</article-id>
+      <article-id pub-id-type="pmc">7018620</article-id>
+      <article-id pub-id-type="doi">10.1038/s41591-019-0730-x</article-id>
+      <article-id pub-id-type="manuscript">NIHMS1546020</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A human ciliopathy reveals essential functions for NEK10 in airway mucociliary clearance</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chivukula</surname>
+            <given-names>Raghu R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref rid="CR1" ref-type="corresp">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Montoro</surname>
+            <given-names>Daniel T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Leung</surname>
+            <given-names>Hui Min</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Jason</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shamseldin</surname>
+            <given-names>Hanan E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Taylor</surname>
+            <given-names>Martin S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dougherty</surname>
+            <given-names>Gerard W.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zariwala</surname>
+            <given-names>Maimoona A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carson</surname>
+            <given-names>Johnny</given-names>
+          </name>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Daniels</surname>
+            <given-names>Leigh Anne</given-names>
+          </name>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sears</surname>
+            <given-names>Patrick</given-names>
+          </name>
+          <xref ref-type="aff" rid="A14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Black</surname>
+            <given-names>Katharine E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hariri</surname>
+            <given-names>Lida P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Almogarri</surname>
+            <given-names>Ibrahim</given-names>
+          </name>
+          <xref ref-type="aff" rid="A15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Frenkel</surname>
+            <given-names>Evgeni M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vinarsky</surname>
+            <given-names>Vladimir</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Omran</surname>
+            <given-names>Heymut</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Knowles</surname>
+            <given-names>Michael R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A14">14</xref>
+          <xref ref-type="aff" rid="A16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tearney</surname>
+            <given-names>Guillermo J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref ref-type="aff" rid="A7">7</xref>
+          <xref ref-type="aff" rid="A9">9</xref>
+          <xref ref-type="aff" rid="A17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Alkuraya</surname>
+            <given-names>Fowzan S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+          <xref rid="CR1" ref-type="corresp">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sabatini</surname>
+            <given-names>David M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Division of Pulmonary and Critical Care Medicine, Department of Medicine, Massachusetts General Hospital, Boston, MA, USA.</aff>
+      <aff id="A2"><label>2</label>Whitehead Institute for Biomedical Research, Cambridge, MA, USA.</aff>
+      <aff id="A3"><label>3</label>Howard Hughes Medical Institute, Department of Biology, Massachusetts Institute of Technology, Cambridge, MA, USA.</aff>
+      <aff id="A4"><label>4</label>Broad Institute of Harvard and Massachusetts Institute of Technology, Cambridge, MA, USA.</aff>
+      <aff id="A5"><label>5</label>Koch Institute for Integrative Cancer Research, Department of Biology, Massachusetts Institute of Technology Cambridge, MA, USA.</aff>
+      <aff id="A6"><label>6</label>Wellman Center for Photomedicine, Massachusetts General Hospital, Boston, MA, USA.</aff>
+      <aff id="A7"><label>7</label>Harvard Medical School, Boston, MA, USA.</aff>
+      <aff id="A8"><label>8</label>Department of Genetics, King Faisal Specialist Hospital and Research Center, Riyadh, Saudi Arabia.</aff>
+      <aff id="A9"><label>9</label>Department of Pathology, Massachusetts General Hospital, Boston, MA, USA.</aff>
+      <aff id="A10"><label>10</label>Department of General Pediatrics, University Children&#x2019;s Hospital Muenster, Germany.</aff>
+      <aff id="A11"><label>11</label>Department of Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.</aff>
+      <aff id="A12"><label>12</label>Department of Pediatrics, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.</aff>
+      <aff id="A13"><label>13</label>Division of Pulmonary Diseases and Critical Care Medicine, Department of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.</aff>
+      <aff id="A14"><label>14</label>Cystic Fibrosis/Pulmonary Research and Treatment Center, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.</aff>
+      <aff id="A15"><label>15</label>Department of Pediatrics, King Faisal Specialist Hospital and Research Center, Riyadh, Saudi Arabia.</aff>
+      <aff id="A16"><label>16</label>Marsico Lung Institute, University of North Carolina, Chapel Hill, NC, USA.</aff>
+      <aff id="A17"><label>17</label>Harvard-MIT Division of Health Sciences and Technology, Cambridge, MA, USA.</aff>
+      <author-notes>
+        <fn fn-type="con" id="FN1">
+          <p id="P1">Author contributions</p>
+          <p id="P2">R.R.C. initiated the project, phenotyped the index proband, designed and performed all experiments except as detailed herewith, analyzed data, prepared figures, and wrote the manuscript. D.T.M assisted with designing and performing cell culture, IF, and FACS experiments, analyzed data, and edited the manuscript. H.M.L. performed &#x3BC;OCT experiments, analyzed data, and prepared figures. J.Y. assisted with molecular cloning, site-directed mutagenesis, and cell culture and edited the manuscript. H.E.S. performed whole exome sequencing and linkage analysis on kindreds 1-3. M.S.T. acquired clinical histopathology images and prepared figures. G.W.D. performed sequencing, molecular biology, and HSVM analysis on kindred 4. M.A.Z. led molecular analysis of kindred 5. J.C. performed and interpreted kindred 5 ciliary EM and HSVM. L.A.D. identified kindred 5 patients and provided clinical data. P.S. performed HSVM. K.E.B. and L.P.H. assisted with obtaining proband 1 clinical samples. I.A. identified bronchiectasis kindreds 2 and 3. E.M.F. assisted with analysis of phosphoproteomics data. V.V. assisted with IF experiments, analyzed data, and edited the manuscript. H.O. supervised and led kindred 4 analyses. M.R.K. supervised and led kindred 5 molecular analysis and clinical phenotyping. G.J.T. supervised &#x3BC;OCT experiments and analyzed data. F.S.A. supervised whole exome sequencing and linkage analysis of kindreds 1-3, analyzed genetics data, and edited the manuscript. D.M.S. supervised the project, designed experiments, and edited the manuscript.</p>
+        </fn>
+        <corresp id="CR1"><label>&#x2020;</label><italic>Corresponding authors;</italic><email>raghu@wi.mit.edu</email>, <email>falkuraya@kfshrc.edu.sa</email></corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>9</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>20</day>
+        <month>1</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>2</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>20</day>
+        <month>7</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>26</volume>
+      <issue>2</issue>
+      <fpage>244</fpage>
+      <lpage>251</lpage>
+      <!--elocation-id from pubmed: 10.1038/s41591-019-0730-x-->
+      <permissions>
+        <license>
+          <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<uri xlink:type="simple" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+        </license>
+      </permissions>
+    </article-meta>
+  </front>
+  <body>
+    <p id="P3">Mucociliary clearance, the physiological process by which mammalian conducting airways expel pathogens and unwanted surface materials from the respiratory tract, depends on the coordinated function of multiple specialized cell types including basal stem cells, mucus-secreting goblet cells, motile ciliated cells, CFTR-rich ionocytes, and immune cells<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref></sup>. Bronchiectasis, a syndrome of pathological airway dilation associated with impaired mucociliary clearance, may occur sporadically or with Mendelian inheritance, such as in cystic fibrosis (CF), primary ciliary dyskinesia (PCD), and select immunodeficiencies<sup><xref rid="R3" ref-type="bibr">3</xref></sup>. Prior studies have identified mutations affecting ciliary structure and nucleation in PCD<sup><xref rid="R4" ref-type="bibr">4</xref></sup>, but the regulation of mucociliary transport remains incompletely understood and therapeutic targets for modulating it are lacking. Herein we identify a bronchiectasis syndrome caused by inactivating mutations in <italic>NEK10</italic>, a protein kinase with previously unknown <italic>in vivo</italic> function in mammals. Genetically modified primary human airway cultures establish <italic>NEK10</italic> as a ciliated-cell specific kinase whose activity regulates the motile ciliary proteome to promote ciliary length and mucociliary transport, but which is dispensable for normal ciliary number, radial structure, and beat frequency. Together, these data identify a novel and likely targetable signaling axis which controls motile ciliary function in humans and has potential implications for other respiratory disorders characterized by impaired mucociliary clearance.</p>
+    <p id="P4">A 31-year-old consanguineous woman was evaluated for idiopathic respiratory failure characterized by neonatal respiratory distress and recurrent bacterial sinopulmonary infections (<xref rid="F5" ref-type="fig">Extended Data Fig. 1a</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 1</xref>). Chest imaging demonstrated extensive pan-lobar bronchiectasis without heterotaxy and nasal biopsies revealed normal ciliary radial ultrastructure (<xref rid="F1" ref-type="fig">Fig. 1a</xref>&#x2013;<xref rid="F1" ref-type="fig">1b</xref>). Cystic fibrosis and immunodeficiency were ruled out after extensive clinical and genetic testing. Similar but milder findings were present in 2 siblings (<xref rid="F5" ref-type="fig">Extended Data Fig. 1a</xref>&#x2013;<xref rid="F5" ref-type="fig">1b</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 1</xref>), strongly suggestive of autosomal recessive inheritance. Whole exome sequencing of affected individuals unexpectedly revealed homozygous intronic splice site mutations (NM_152534:c.1230+5G&gt;C, &#x201C;<italic>NEK10</italic><sup><italic>G&gt;C</italic></sup>&#x201D; hereafter) in <italic>NEK10</italic>, a serine/threonine kinase homologous to <italic>Aspergillus nidulans</italic> nimA (&#x201C;never in mitosis a&#x201D;) but not previously implicated in human disease<sup><xref rid="R5" ref-type="bibr">5</xref></sup> (<xref rid="F1" ref-type="fig">Fig. 1c</xref>). The functions of mammalian NEKs remain incompletely characterized; several, including NEK2 and NEK5/6/7/9 function like their fungal ortholog by regulating the cell cycle through phosphorylation of centrosome components and the mitotic spindle<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. Mutations in NEK1 and NEK8 cause polycystic kidney phenotypes in mice<sup><xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R8" ref-type="bibr">8</xref></sup>, in line with a role in regulation of primary cilia. Recent reports have proposed roles for NEK10 in cancer cell DNA damage response<sup><xref rid="R9" ref-type="bibr">9</xref></sup> and in teleost fish nervous system and body axis specification<sup><xref rid="R10" ref-type="bibr">10</xref></sup> but, to date, no published work suggests any roles for NEKs in the respiratory system.</p>
+    <p id="P5">To begin to study the effects of <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> in the lung, we isolated and cultured control and proband bronchial epithelial cells (&#x201C;HBECs&#x201D;) obtained at the time of bilateral lung transplantation. Although <italic>NEK10</italic> mRNA was robustly expressed in airway tissue it was essentially undetectable both in <italic>NEK10</italic><sup><italic>WT</italic></sup> and <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> HBECs, suggesting its expression might be restricted to mature airway cells (<xref rid="F1" ref-type="fig">Fig. 1d</xref>). We therefore differentiated control and patient-derived HBECs at an air-liquid interface (ALI), a well-validated method for generating airway epithelium <italic>in vitro</italic><sup><xref rid="R11" ref-type="bibr">11</xref></sup>. Unexpectedly, both control and mutant ALI samples demonstrated robust <italic>NEK10</italic> mRNA expression (<xref rid="F1" ref-type="fig">Fig. 1d</xref>, <xref rid="F5" ref-type="fig">Extended Data Fig. 1c</xref>) despite immunoblotting evidence that <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> encodes a loss of function allele (<xref rid="F1" ref-type="fig">Fig. 1e</xref>, <xref rid="F5" ref-type="fig">Extended Data Fig. 1d</xref>). To elucidate the mechanism by which <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> impairs protein expression we sequenced full-length cDNAs from mutant ALI, revealing the mutation-dependent in-frame insertion of 7 amino acids which we suspected rendered NEK10 unstable (<xref rid="F1" ref-type="fig">Fig. 1f</xref>). To test this hypothesis we expressed epitope-tagged NEK10 constructs in HEK293T cells and found, as in ALI cultures, that the mutant protein was severely under-expressed - supporting a destabilizing effect of <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> causing loss-of-function (<xref rid="F1" ref-type="fig">Fig. 1g</xref>).</p>
+    <p id="P6">These findings led us to wonder whether NEK10 mutations might underlie other cases of unexplained bronchiectasis. Indeed, further sequencing revealed 6 additional patients from 4 families harboring homozygous <italic>NEK10</italic> mutation and exhibiting bronchiectasis (<xref rid="F5" ref-type="fig">Extended Data Fig. 1e</xref>&#x2013;<xref rid="F5" ref-type="fig">1o</xref>). The first, an 11-year-old girl, had homozygous c.1869dupT mutation resulting in frameshift and premature stop (His624Serfs*4). The second, a 15-year-old girl, had homozygous c.2243C&gt;T mutation causing substitution of leucine for a highly conserved proline (Pro748Leu) within the kinase domain. The third, a 23-year-old woman, had homozygous c.1373+1G&gt;T mutation causing exon skipping, frameshift, and premature stop (Cys437Thrfs*9). The fourth, fifth, and sixth were siblings with homozygous c.2317C&gt;T mutation resulting in mutation of a highly conserved arginine to cysteine (Arg773Cys). Notably, clinical assays revealed normal nasal ciliary ultrastructure by EM, normal nasal nitric oxide (nNO) levels, no evidence of heterotaxy, and only very subtle abnormalities by clinical high-speed video-microscopy (HSVM) in all tested individuals, suggesting such patients might escape detection during standard PCD evaluation<sup><xref rid="R12" ref-type="bibr">12</xref></sup> (<xref rid="SD1" ref-type="supplementary-material">Supplementary Table 1</xref>). Linkage analysis incorporating kindreds 1&#x2013;3 yielded a single, highly significant genome-wide linkage signal (pLOD 5.2), defining a 7.3Mb interval which includes the <italic>NEK10</italic> locus (<xref rid="F1" ref-type="fig">Fig. 1h</xref>). Conversely, healthy individuals with biallelic inactivating NEK10 mutation are completely absent from publicly available variant databases<sup><xref rid="R13" ref-type="bibr">13</xref></sup>. Together, these data provide strong genetic and clinical evidence that <italic>NEK10</italic> represents a novel and <italic>bona fide</italic> autosomal recessive bronchiectasis locus.</p>
+    <p id="P7">Given NEK roles in cell cycle regulation, we initially hypothesized that NEK10 is required for the specification of one or more cell types involved in mucociliary clearance. Quantitative reverse-transcriptase PCR (qRT-PCR) revealed that <italic>NEK10</italic> is robustly induced during airway epithelial differentiation, coincident with the acquisition of markers for ciliated and secretory cells and the depletion of stem cell markers (<xref rid="F6" ref-type="fig">Extended Data Fig. 2a</xref>&#x2013;<xref rid="F6" ref-type="fig">2d</xref>). However, <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> cultures induced and repressed these markers with identical kinetics as control and produced similar numbers of secretory, goblet, and multiciliated cells (MCCs, <xref rid="F6" ref-type="fig">Extended Data Fig. 2e</xref>&#x2013;<xref rid="F6" ref-type="fig">2f</xref>). These data suggested NEK10 might instead function specifically within one of the specialized cells important for mucociliary clearance. To elucidate its expression domain, we generated ALI cultures in which eGFP is expressed under the control of the <italic>NEK10</italic> promoter (<italic>NEK10</italic>:eGFP), which we found directs expression within a subset of ALI cells in a differentiation-dependent manner (<xref rid="F6" ref-type="fig">Extended Data Fig. 2g</xref>&#x2013;<xref rid="F6" ref-type="fig">2i</xref>). FACS-purified GFP+ cells from mature <italic>NEK10</italic>:eGFP ALI revealed a 149-fold enrichment of the MCC marker <italic>FOXJ1</italic><sup><xref rid="R14" ref-type="bibr">14</xref></sup> with reciprocal depletion of secretory and basal cell marker transcripts (<xref rid="F2" ref-type="fig">Fig. 2a</xref>), while confocal imaging confirmed GFP positivity restricted to cells harboring apical cilia (<xref rid="F2" ref-type="fig">Fig. 2b</xref>). Conversely, FACS-purified ciliated cells from <italic>FOXJ1</italic>:eGFP ALI enriched <italic>NEK10</italic> 152-fold (<xref rid="F6" ref-type="fig">Extended Data Fig. 2h</xref>&#x2013;<xref rid="F6" ref-type="fig">2i</xref>, <xref rid="F2" ref-type="fig">Fig. 2a</xref>). These findings establish <italic>NEK10</italic> as a ciliated cell-specific gene in human airway induced during, but dispensable for, differentiation of this cell type.</p>
+    <p id="P8">To explore what functional roles NEK10 plays in MCCs, we imaged live ALI cultures with high-framerate phase contrast microscopy, exposing a striking reduction in overall ciliary motion in <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> cultures (<xref rid="F2" ref-type="fig">Fig. 2c</xref>, <xref rid="F7" ref-type="fig">Extended Data Fig. 3a</xref>, <xref rid="SD2" ref-type="supplementary-material">Supplementary Movie 1</xref>). Given this abnormality we performed advanced MCC functional phenotyping using micro-optical coherence tomography (&#x3BC;OCT), a state of the art high-resolution live imaging technique capable of quantitatively interrogating multiple ciliary parameters<sup><xref rid="R15" ref-type="bibr">15</xref></sup>. Unlike control cultures, which robustly transport polystyrene beads added to the apical ALI surface, we noted near-absence of mucociliary transport (MCT) in <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> ALI (<xref rid="F2" ref-type="fig">Fig. 2d</xref>, <xref rid="F7" ref-type="fig">Extended Data Fig. 3b</xref>, <xref rid="SD3" ref-type="supplementary-material">Supplementary Movie 2</xref>), as well as reduction in depth of the periciliary liquid layer (PCL, <xref rid="F2" ref-type="fig">Fig. 2e</xref>). We were surprised to measure normal ciliary beat frequency in mutant ALI (<xref rid="F7" ref-type="fig">Extended Data Fig. 3c</xref>), again suggesting a mode of dysfunction distinct from classical PCD. While these data suggested a causative role for <italic>NEK10</italic> loss-of-function in MCC dysfunction, they could not rule out that secondary genetic or acquired changes in proband-derived cells were in fact responsible<sup><xref rid="R16" ref-type="bibr">16</xref></sup>. We therefore generated CRISPR/Cas9-mediated NEK10 loss-of-function ALI cultures (&#x201C;<italic>NEK10</italic><sup><italic>KO</italic></sup>&#x201D; hereafter) by genetically disrupting the NEK10 locus in wild-type HBECs. Immunoblotting confirmed efficient depletion of NEK10 while live microscopy of <italic>NEK10</italic><sup><italic>KO</italic></sup> ALI revealed, as in <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup>, a dramatic reduction in ciliary motion (<xref rid="F2" ref-type="fig">Fig. 2f</xref>, <xref rid="F7" ref-type="fig">Extended Data Fig. 3d</xref>&#x2013;<xref rid="F7" ref-type="fig">3e</xref>). We also subjected <italic>NEK10</italic><sup><italic>KO</italic></sup> ALI to &#x3BC;OCT imaging and found severe reduction in maximal particle transport velocity and thinning of the PCL, again without change in CBF (<xref rid="F2" ref-type="fig">Fig. 2g</xref>&#x2013;<xref rid="F2" ref-type="fig">2h</xref>, <xref rid="F7" ref-type="fig">Extended Data Fig. 3f</xref>).</p>
+    <p id="P9">Given a recent report of catalysis-independent roles for NEKs<sup><xref rid="R17" ref-type="bibr">17</xref></sup>, we sought to understand whether kinase activity <italic>per se</italic> is necessary for NEK10 function in MCCs. We therefore generated <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> ALI with <italic>FOXJ1</italic> promoter-driven re-expression of NEK10<sup>WT</sup> or, alternatively, point mutants predicted to inactivate<sup><xref rid="R18" ref-type="bibr">18</xref></sup> (NEK10<sup>K548R</sup>) or putatively hyperactivate (NEK10<sup>S684D</sup>, NEK10<sup>Y590A</sup>) activity based on prior studies of paralogous NEK kinases<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R19" ref-type="bibr">19</xref>,<xref rid="R20" ref-type="bibr">20</xref></sup>. Despite sub-physiological expression of transduced NEK10 variants, live microscopy demonstrated a striking increase in motility upon expression of NEK10<sup>S684D</sup>, partial rescue with NEK10<sup>WT</sup> and NEK10<sup>Y590A</sup>, but no effect with catalytic-dead NEK10<sup>K548R</sup> (<xref rid="F7" ref-type="fig">Extended Data Fig. 3g</xref>&#x2013;<xref rid="F7" ref-type="fig">3i</xref>). &#x3BC;OCT demonstrated that CBF was again unaffected by NEK10 status but that particle transport was significantly increased upon expression of NEK10<sup>S684D</sup> (<xref rid="F2" ref-type="fig">Fig. 2i</xref>, <xref rid="F7" ref-type="fig">Extended Data Fig. 3j</xref>). These data led us to ask whether ectopic activation of NEK10 signaling in wildtype ALI cultures could augment mucociliary transport to supraphysiological levels. Indeed, expression of NEK10<sup>WT</sup> or NEK10<sup>S684D</sup> under the control of the FOXJ1 promoter significantly increased transport velocity compared to catalytic-dead NEK10<sup>K548R</sup>, a phenotype also reproduced with the more transcriptionally active NEK10 promoter (<xref rid="F2" ref-type="fig">Fig. 2j</xref>). Together, these data establish (1) a ciliated cell-specific NEK10 kinase activity requirement for effective airway mucociliary transport, (2) that NEK10 activity is constrained by the serine 684 activation loop residue, and (3) that potentiating NEK10 activity may represent a strategy for augmenting mucociliary transport.</p>
+    <p id="P10">We next turned our attention to understanding the mechanisms by which NEK10 regulates MCC function. To evaluate whether mutant MCCs harbor some physical abnormality we employed imaging flow cytometry (IFC), which allows the capture of thousands of single cells for statistically robust morphology analysis<sup><xref rid="R21" ref-type="bibr">21</xref></sup>. After gating singlet MCCs from <italic>NEK10</italic>:eGFP ALI (<xref rid="F8" ref-type="fig">Extended Data Fig. 4a</xref>&#x2013;<xref rid="F8" ref-type="fig">4b</xref>) we measured per-cell ciliary area as well as ciliary zone thickness, revealing a clear and statistically significant reduction in both parameters in mutant MCCs (<xref rid="F3" ref-type="fig">Fig. 3a</xref>&#x2013;<xref rid="F3" ref-type="fig">3c</xref>). Representative single cells corroborated this finding, demonstrating a hypoplastic ciliary layer in <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> MCCs (<xref rid="F3" ref-type="fig">Fig. 3d</xref>). To validate this finding using an orthogonal method, we subjected <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> ALI to confocal IF against acetylated &#x3B1;-tubulin. We again found mutant ALI harbored strikingly abnormal, hypoplastic-appearing cilia (<xref rid="F3" ref-type="fig">Fig. 3e</xref>). <italic>NEK10</italic><sup><italic>KO</italic></sup> ALI phenocopied this morphology while NEK10<sup>S684D</sup>-complemented <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> ALI reversed it (<xref rid="F8" ref-type="fig">Extended Data Fig. 4c</xref>&#x2013;<xref rid="F8" ref-type="fig">4d</xref>), indicating this phenotype is specifically attributable to NEK10 kinase activity. As previously described human mutations<sup><xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R23" ref-type="bibr">23</xref></sup> are known to impair the nucleation and density of motile cilia, we evaluated MCC basal body density by IF, but found no reduction to account for the <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> phenotype (<xref rid="F3" ref-type="fig">Fig. 3f</xref>). In light of links between planar cell polarity (PCP) and ciliogenesis<sup><xref rid="R24" ref-type="bibr">24</xref></sup>, we also confirmed that NEK10 activity is dispensable for MCC planar polarization (<xref rid="F3" ref-type="fig">Fig. 3g</xref>). Finally, in order to validate ALI culture findings in human patients, we compared airway tissue from the explanted lungs of the proband with airway from non-bronchiectatic as well as end-stage CF patients. As in ALI cultures (<xref rid="F8" ref-type="fig">Extended Data Fig. 4e</xref>), histological analysis revealed ciliary hypoplasia only in NEK10 mutant airway (<xref rid="F3" ref-type="fig">Fig. 3h</xref>) &#x2013; indicating this phenotype does not reflect a non-specific consequence of severe bronchiectasis and suggesting that NEK10 deficiency produces short motile cilia <italic>in vivo</italic>, a previously undescribed human genetic phenotype.</p>
+    <p id="P11">As the size of motile cilia limits their structural analysis by light microscopy, we next subjected ALI preparations to 3 complementary modes of electron microscopic (EM) analysis. Scanning electron microscopy (SEM) of intact ALI, like IF, revealed <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> and <italic>NEK10</italic><sup><italic>KO</italic></sup> ALI to harbor morphologically abnormal cilia of heterogeneous length with excess mucus accumulation (<xref rid="F4" ref-type="fig">Fig. 4a</xref>, <xref rid="F9" ref-type="fig">Extended Data Fig. 5a</xref>). EM imaging of sectioned ALI cultures revealed an evident decrease in ciliary length in <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> ALI (<xref rid="F4" ref-type="fig">Fig. 4b</xref>), but not undocked centrioles as in ciliary aplasia syndromes or ciliary tip &#x201C;ballooning&#x201D; as reported with certain intraflagellar transport (IFT) defects<sup><xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R23" ref-type="bibr">23</xref></sup>. In order to precisely quantitate this length defect, we biochemically isolated axonemes from ALI cultures<sup><xref rid="R25" ref-type="bibr">25</xref></sup> (<xref rid="F9" ref-type="fig">Extended Data Fig. 5b</xref>) and subjected these preparations to negative stain EM followed by measurement of individual cilia. Isolated <italic>NEK10</italic><sup><italic>G&gt;C</italic></sup> cilia were indeed short (<xref rid="F4" ref-type="fig">Fig. 4c</xref>&#x2013;<xref rid="F4" ref-type="fig">4d</xref>, 7.86&#xB1;1.06&#x3BC;m <italic>vs.</italic> 6.24&#xB1;1.26&#x3BC;m), providing at least a partial basis for ciliary transport failure based on biophysical models for mucociliary transport which include ciliary length as a critical parameter in force generation<sup><xref rid="R26" ref-type="bibr">26</xref>&#x2013;<xref rid="R28" ref-type="bibr">28</xref></sup>.</p>
+    <p id="P12">In order to explore the biochemical functions of NEK10 in airway epithelium, we next performed iron-enrichment proteomics<sup><xref rid="R29" ref-type="bibr">29</xref></sup> (LC-IMAC MS<sup>2</sup>), identifying a set of depleted phosphopeptides upon NEK10 inactivation in ALI (<xref rid="F9" ref-type="fig">Extended Data Fig. 5c</xref>). Gene ontology analysis<sup><xref rid="R30" ref-type="bibr">30</xref>,<xref rid="R31" ref-type="bibr">31</xref></sup> revealed these depleted peptides to be highly enriched for ciliary motility and axonemal assembly genes, suggesting a large complement of ciliary proteins are dysregulated upon NEK10 loss (<xref rid="F9" ref-type="fig">Extended Data Fig. 5d</xref>). To test this hypothesis directly, we analyzed the effects of NEK10 deletion on the set of proteins previously proteomically identified in airway cilia<sup><xref rid="R32" ref-type="bibr">32</xref></sup>, exposing a striking and highly significant depletion of such ciliary phosphopeptides (median log<sub>2</sub> fold change &#x2212;1.06 (sgNEK10b), &#x2212;0.771 (sgNEK10c), <xref rid="F4" ref-type="fig">Fig. 4e</xref>). Notably, while we observed similar findings upon analysis of peptides mapping to annotated PCD genes, we saw little to no depletion of peptides from non-PCD ciliopathy genes, consistent with NEK10 specifically regulating motile ciliogenesis (<xref rid="F9" ref-type="fig">Extended Data Fig. 5e</xref>&#x2013;<xref rid="F9" ref-type="fig">5f</xref>). Peptides from virtually all classes of motile ciliary genes were depleted in <italic>NEK10</italic><sup><italic>KO</italic></sup> ALI (<xref rid="F4" ref-type="fig">Fig. 4f</xref>) including axonemal motors, IFT components, central pair constituents, and ciliary length control proteins - indicating that a diverse array of the ciliary proteome is directly or indirectly dysregulated upon NEK10 loss and providing a rich data set for future efforts to dissect its target network.</p>
+    <p id="P13">In summary, here we describe a novel human disease caused by NEK10 deficiency and characterized by pathologically short motile cilia as evidenced by multiple orthogonal assays in physiologically-relevant human airway preparations. In light of <italic>NEK10&#x2019;</italic>s highly cell-type restricted expression in our own data and that of recently generated cell atlases<sup><xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R34" ref-type="bibr">34</xref></sup> as well as the absence of extra-respiratory phenotypes in our patients, this gene does not appear essential for primary ciliogenesis in humans as has been previously proposed<sup><xref rid="R10" ref-type="bibr">10</xref></sup>, instead likely specifically controlling MCC function. Indeed, as protozoan beating cilia<sup><xref rid="R35" ref-type="bibr">35</xref></sup> and flagella<sup><xref rid="R36" ref-type="bibr">36</xref>&#x2013;<xref rid="R38" ref-type="bibr">38</xref></sup> length are regulated by distant <italic>NEK</italic> homologs, analogous pathways likely operate in metazoan MCCs to tune ciliary function to physiological needs. While the central role of NEK10 in potentiating mucociliary clearance is clear from our study, the mechanistic basis for this activity remains to be fully elucidated as our current proteomic data cannot unambiguously distinguish direct phosphorylation effects from secondary protein abundance changes. We are optimistic that future work will clarify the full repertoire of direct and indirect NEK10 targets in ciliated cells.</p>
+    <p id="P14">In parallel with these scientific insights, our work has potential implications for the diagnosis and treatment of bronchiectasis. In particular, the identification of multiple NEK10-mutant kindreds in whom ciliary EM, nNO, and HSVM are all essentially normal suggests standard algorithms for exonerating PCD may fail to capture such patients and others with mechanistically similar motile ciliopathies. Indeed, as prior studies have suggested ciliary shortening (for example due to smoking<sup><xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R39" ref-type="bibr">39</xref></sup>) may play a role in impaired mucociliary clearance <italic>in vivo</italic>, our results suggest this relatively subtle histological abnormality should be more regularly evaluated for in patients with otherwise unexplained mucus clearance deficiencies, as it may be more common than currently appreciated. Finally, as this report is the first directly implicating a kinase mutation in ciliary dyskinesia, it opens the door both to understanding new regulatory networks in ciliated cells and, based on this understanding, to potentially targeting this signaling axis in more common diseases of mucociliary clearance where promotion of mucociliary transport may be therapeutically beneficial<sup><xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R40" ref-type="bibr">40</xref></sup>.</p>
+    <sec id="S1">
+      <title>Methods</title>
+      <sec id="S2">
+        <title>Whole exome sequencing and clinical phenotyping</title>
+        <p id="P15">Clinical WES was performed on kindreds 1&#x2013;3 by the Molecular Diagnostics Laboratory of the King Faisal Specialist Hospital and Research Center (KFSHRC). Exome enrichment was performed using the Agilent SureSelect Target Enrichment workflow prior to high-throughput sequencing on the Illumina HiSeq 2500 system. Greater than 30X coverage of 95% of the target regions was obtained for all samples. Exome sequences were mapped to the UCSC hg19 reference sequence with a custom pipeline and interrogated for variants incorporating databases customized to Arab populations. Sequencing of proband siblings and additional kindreds was performed under a protocol approved by the KFSHRC IRB (REC#2121053). Sequencing and analysis of kindred 4 was performed under a protocol approved by University Children&#x2019;s Hospital Muenster IRB AZ 2015&#x2013;104-f-S. Sequencing and analysis of kindred 5 was performed under a protocol approved by UNC Chapel Hill IRBs 05&#x2013;2979 and 13&#x2013;2348.</p>
+      </sec>
+      <sec id="S3">
+        <title>Human bronchial epithelial cell (HBEC) and air-liquid interface (ALI) tissue culture</title>
+        <p id="P16">Control human samples were obtained from discarded lung allografts under a protocol approved by the Partners Human Research Committee (IRB #2012P001079). Proband samples were obtained at the time of bilateral lung transplantation under a protocol approved by the Partners Human Research Committee (IRB #2013P002332) with informed consent obtained prior to organ explantation. Airway cells were obtained as previously described<sup><xref rid="R41" ref-type="bibr">41</xref></sup>. Briefly, bronchial tube sections were rinsed in MEM supplemented with DTT and DNAse I prior to overnight incubation in MEM supplemented with pronase, DNAse I, antibiotics, and antifungals. Epithelial sheets were further dissociated with Accutase and plated into PneumaCult Ex-Plus expansion media (StemCell Technologies #05040). All plates were pre-coated with sterile-filtered, laminin-rich conditioned media (DMEM + 10% FBS) of the 804G rat bladder cell line to promote HBEC adhesion. HBECs were used between passage 2 and 5 for experiments and were dissociated for sub-culturing with TrypLE Select (Gibco 12563011). ALI cultures were established using 24-well (Corning 3470) or 6-well (Corning 3412) plates coated with 804G-conditioned media. At confluence, apical media was removed and basolateral media was changed to PneumaCult ALI (StemCell Technologies #05001) for 4 to 6 weeks of differentiation (&#x201C;mature ALI&#x201D;), except where stated otherwise in the text. Media was exchanged every 48 hours and cultures were washed with PBS weekly beginning on ALI day 14 on a plate shaker at 600rpm x2.</p>
+      </sec>
+      <sec id="S4">
+        <title>Quantitative reverse transcription polymerase chain reaction (qRT-PCR)</title>
+        <p id="P17">Total RNA was extracted with Trizol reagent (Invitrogen) according to the manufacturer&#x2019;s protocol before first strand cDNA synthesis with the SuperScript VILO system (Invitrogen). Quantitative PCR was performed using PowerUp SYBR Green reagent (ABI) on an ABI QuantStudio6 instrument. All analyses were performed with standard curve-based quantitation and normalization to 18S rRNA abundance. 2-tailed Student&#x2019;s t-test was performed for analysis of statistical significance. qRT-PCT primer sequences available in <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 2</xref> and were designed using Primer3Plus software to span exon-exon junctions in all cases.</p>
+      </sec>
+      <sec id="S5">
+        <title>Immunoblotting</title>
+        <p id="P18">Protein lysates were prepared in lysis buffer containing 1% Triton X-100, 10 mM &#x3B2;-glycerol phosphate, 10 mM pyrophosphate, 40 mM HEPES pH 7.4, 2.5 mM MgCl<sub>2</sub>, and one mini tablet of EDTA-free protease inhibitor (Roche) per 10mL. Lysates were subjected to SDS-PAGE electrophoresis and transferred to PVDF membranes before immunoblotting with the indicated antibodies. Primary antibodies and working dilutions were as follows: rabbit anti-NEK10 (Sigma HPA038941, lot R35857, 1:1000), mouse anti-NEK10 (Sigma WH0152110M1, lot 09058&#x2013;1C9, 1:1000), rabbit anti-GAPDH (Abcam ab9485, 1:2500), mouse anti-FLAG M2 (Sigma F1804, lot SLBS3530V, 1:1000), rabbit anti-Raptor (Millipore 09&#x2013;217, lot 3236353, 1:1000), mouse anti-&#x3B2;-actin (Santa Cruz sc-47778, lot K1718, 1:1000), mouse anti-acetylated &#x3B1;-tubulin (Sigma T7451, 1:1000). Secondary antibodies and dilutions were as follows: HRP-conjugated anti-rabbit IgG (Cell Signaling Technologies #7074, 1:3000), HRP-conjugated anti-mouse IgG (Cell Signaling Technologies #7076, 1:3000).</p>
+      </sec>
+      <sec id="S6">
+        <title>NEK10 cDNA cloning</title>
+        <p id="P19">Total RNA was extracted with Trizol reagent according to the manufacturer&#x2019;s protocol before reverse transcription with the SuperScript IV system (Invitrogen) using oligo-dT priming. Full-length NEK10 cDNAs were amplified with Platinum SuperFi polymerase (Invitrogen), cloned into pCR-Blunt II-TOPO (Invitrogen) according to the manufacturer&#x2019;s protocol, and individual clones sequenced completely. Consensus control and NEK10<sup>G&gt;C</sup> sequences cloned from each genotype were utilized for further experiments as indicated in the text. Cloning primers available in <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 2</xref>.</p>
+      </sec>
+      <sec id="S7">
+        <title>Linkage analysis</title>
+        <p id="P20">Genomic DNA was extracted from whole blood using a standard protocol. Genome-wide genotypes were obtained using an Affymetrix Axiom SNP Chip platform (Affymetrix, Santa Clara, CA) following the manufacturer&#x2019;s instructions. Blocks of homozygosity were identified using AutoSNPa (<ext-link ext-link-type="uri" xlink:href="http://dna.leeds.ac.uk/autosnpa/">dna.leeds.ac.uk/autosnpa/</ext-link>). Linkage analysis was performed on the SNP genotypes using the Allegro component of EasyLinkage software<sup><xref rid="R42" ref-type="bibr">42</xref></sup>. Statistical significance was assessed using a genome-wide LOD threshold of 3.3, corresponding to a type I error of 5%.</p>
+      </sec>
+      <sec id="S8">
+        <title>Immunofluorescence microscopy (IF)</title>
+        <p id="P21">ALI samples were washed in PBS, fixed for 15 minutes in 4% paraformaldehyde (PFA), washed thrice in PBS, and cut free from their plastic supports. For centrin staining only, samples were fixed instead in ice-cold methanol for 15 minutes at &#x2212;20&#xBA;C but otherwise processed identically. ALI membranes were then blocked (5% donkey serum + 0.3% Triton X-100) for 1 hour at room temperature before incubation with the indicated primary antibodies overnight at 37&#xBA;C in dilution buffer (1% BSA + 0.3% Triton X-100). Membranes were washed 4 times in wash buffer (PBS + 0.1% Triton X-100) before probing with fluorophore conjugated secondary antibodies for 1 hour at 37&#xBA;C in dilution buffer. DAPI was added to the secondary antibody solution for nuclear counterstaining. Membranes were washed 4 additional times in wash buffer and once in PBS before mounting in Fluoromount-G (Southern Biotech). Confocal images were obtained with an Olympus FV10i confocal laser-scanning microscope with a 60&#xD7; oil objective.</p>
+        <p id="P22">The following primary antibodies were used: mouse anti-acetyl-&#x3B1;-tubulin (gift from J. Rajagopal, Sigma T6793, 1:1000), mouse anti-MUC5AC (gift from J. Rajagopal, ThermoFisher MS-145, lot 145p1709c, 1:500), goat anti-CCSP (gift from B. Stripp, no lot data (non-commercial), 1:5000), chicken anti-KRT5 (gift from J. Rajagopal, Biolegend 905901, 1:500), rabbit anti-CETN1 (gift from I. Cheeseman, no lot data (non-commercial), 1:5000), rabbit anti-VANGL1 (gift from J. Rajagopal, Sigma HPA025235, lot c101664, 1:500). All secondary antibodies were Alexa Fluor conjugates used at 1:500 dilution (Life Technologies): gt anti-chicken 488 (A-11039, lot 1599396), dk anti-mouse 488 (A-21202, lot TF271737), dk anti-rabbit 488 (A-21206, lot TI271741), dk anti-mouse 594 (R37115), dk anti-rabbit 594 (R37119, lot TI271728).</p>
+        <p id="P23">Assessment of SCGB1A1-, MUC5AC-, and acetyl-&#x3B1;-tubulin-positive area was performed using automated scripts for object segmentation in ImageJ using the FIJI implementation<sup><xref rid="R43" ref-type="bibr">43</xref></sup> and null hypothesis testing was performed using the 2-tailed Student&#x2019;s t-test. KRT5-positive area could not be quantitated as basal cells form an essentially contiguous layer. Centrin puncta were quantitated using automated scripts in ImageJ/FIJI which counted local maxima within ciliated cells. Basal body density was then calculated by dividing total puncta by cell number. Source code for scripts available on request. Null hypothesis testing was performed using the 2-tailed Student&#x2019;s t-test.</p>
+      </sec>
+      <sec id="S9">
+        <title>Lentivirus cloning, production, and HBEC infection</title>
+        <p id="P24"><italic>NEK10</italic>:eGFP and <italic>FOXJ1</italic>:eGFP vectors were generated by amplifying the respective promoter regions from human genomic DNA and, using NEBuilder Gibson assembly (New England Biolabs), replacing the existing CMV promoter of the pLJM1 construct (Addgene #19319). The putative <italic>NEK10</italic> promoter was identified as a conserved ~1.6kb region bounding the <italic>NEK10</italic> transcription start site and harboring epigenetic marks consistent with promoter function. The <italic>FOXJ1</italic> promoter sequence was cloned using a previously described<sup><xref rid="R14" ref-type="bibr">14</xref></sup> region as a guide. Gibson assembly was also used to generate <italic>FOXJ1</italic> promoter-driven lentiviral expression vectors by replacing the pLJC2 vector (Addgene #87974) CMV promoter. NEK10 mutants were generated using a site-directed mutagenesis strategy followed by Gibson assembly into the aforementioned FOXJ1-driven expression vectors. Cas9/sgRNA-expressing lentiviral vectors were generated using the pLentiCRISPRv2 vector (Addgene #52961). Briefly, guide RNAs targeting NEK10 or the AAVS1 control locus were selected from our previously published<sup><xref rid="R44" ref-type="bibr">44</xref></sup> guide library (Addgene #1000000100), synthesized from annealed DNA oligonucleotides, cloned into BsmbI-digested pLentiCRISPRv2 vector, screened, and sequenced to confirm identity. Cloning primers available in <xref rid="SD1" ref-type="supplementary-material">Supplementary Table 2</xref>.</p>
+        <p id="P25">Lentiviruses were produced as follows: HEK293T cells were transfected with lentiviral constructs and viral packaging plasmids psPAX2 (Addgene #12260) and pCMV-VSVG (Addgene #8454) using the X-tremeGeneHP reagent (Sigma). Viral supernatants were harvested and concentrated using the Lenti-X concentrator system (Takara) prior to use for HBEC infection. Low-passage HBECs were infected with concentrated lentivirus and, 48h later, selected with 1&#x3BC;g/ml puromycin for an additional 48 hours before ALI culture seeding.</p>
+      </sec>
+      <sec id="S10">
+        <title>Fluorescence-activated cell sorting (FACS)</title>
+        <p id="P26">Mature ALI cultures were washed with PBS and incubated in TrypLE Select (Gibco) for 1 hour at 37&#xBA;C to liberate single cells. Cells were strained through a 70um cell strainer to remove clumps and debris, washed in 1X PBS, and resuspended in a buffer containing 1% FBS, 1mM EDTA, and 25mM HEPES. Sorting was performed using a BD FACS Aria (BD Biosciences) running FACS Diva software and analysis was performed using FlowJo (version 10) software. GFP-positive cells were sorted after gating (<xref rid="F6" ref-type="fig">Extended Data Fig. 2i</xref>) on viable (by exclusion of vital dye) singlets (by FSC/SSC) and harvested for RNA isolation in Trizol.</p>
+      </sec>
+      <sec id="S11">
+        <title>ALI live phase contrast imaging</title>
+        <p id="P27">Mature ALI transwells were removed from their media to glass-bottomed tissue culture dishes and imaged under 40X objective magnification with phase contrast optics at 30 frames per second for a total of 300 frames using a Zeiss Z1 AxioObserver inverted microscope. The resulting 8-bit monochrome videos were processed in ImageJ/FIJI as follows: each 300 frame stack was duplicated and a new 299 frame stack (the &#x201C;difference stack&#x201D;) generated by subtracting the (<italic>n+1</italic>)th frame from the <italic>n</italic>th frame. The mean of every pixel in the difference stack was then calculated and the resultant data output to a single TIF file visually representing the average pixel intensity change over the course of video, a surrogate for motion. This TIF file was pseudocolored using the &#x201C;fire&#x201D; lookup table to yield the final processed images. Data collected in a single experimental imaging session is displayed with identical brightness/contrast thresholds to allow direct visual comparison between experimental conditions. Source code for scripts available on request. For quantitation, mean intensity of TIF files were extracted in ImageJ, normalized per imaging session, and reported as relative intensity levels. Null hypothesis testing was performed using the 2-tailed Student&#x2019;s t-test.</p>
+      </sec>
+      <sec id="S12">
+        <title>Micro-optical coherence tomography (&#x3BC;OCT)</title>
+        <p id="P28">&#x3BC;OCT was performed and analyzed as previously described<sup><xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R45" ref-type="bibr">45</xref></sup>. In brief, periciliary liquid layer (PCL) depth and ciliary beat frequency (CBF) were directly assessed via cross-sectional images of the airway epithelium with high resolution (~1&#x3BC;m) and high acquisition speed (20,480 Hz A-line rate resulting in 40 frames/s at 512 A-lines per frame across 1mm lateral range). Quantitative analysis of images was performed in FIJI/ImageJ. To establish CBF, previously published custom code in Matlab (Mathworks) was used to quantify Fourier-transformed reflectance modulations of beating cilia. PCL depth was characterized directly by geometric measurement of the respective layers. For measurement of mucociliary transport (MCT), native mucus was washed away completely with PBS and 0.5&#x3BC;m polystyrene beads (Invitrogen F8813) were added to the apical ALI surface prior to imaging. Particle tracking was performed using MosaicSuite in ImageJ<sup><xref rid="R46" ref-type="bibr">46</xref></sup> and the resulting particle tracks analyzed in Matlab. Particles included for analysis were within 90&#x3BC;m of the epithelial surface, present for at least 20 frames (0.5s), and had a velocity vector within 10&#xBA; of horizontal. Hypothesis testing was performed by Mann Whitney U-test or, when necessary to control for environmental (temperature, humidity, etc.) and instrument changes between imaging sessions, by linear mixed effects model.</p>
+      </sec>
+      <sec id="S13">
+        <title>Imaging flow cytometry</title>
+        <p id="P29">Single cells were generated from mature ALI as above, fixed in 2% PFA, and resuspended in PBS before analysis on an ImageStream<sup>X</sup> MkII instrument (Amnis). The gating strategy was as follows: Starting with unclipped events using a centroid X gate, we obtained in-focus cells using a gradient RMS gate. We next employed a liberal area vs. aspect ratio gate (R1) to exclude clumps, followed by an area vs. GFP intensity plot to gate on GFP+ cells (R2), followed by a GFP morphology mask vs aspect ratio gate (R3) to exclude GFP doublets, and followed again by a final doublet removal step again gated on brightfield (R4). We finally gated on R6, cells with a minimal mean pixel value of 45 in the GFP channel. This strategy yielded 4,108 imaged single cells from NEK10<sup>WT</sup> and 3,513 imaged single cells from NEK10<sup>G&gt;C</sup> ALI samples. From this parent population of unclipped, singlet, in-focus, GFP-positive cells we defined masks of whole cells and GFP-positive cell bodies. Major axis difference was calculated by subtracting the major axis of the GFP mask from the whole cell mask, and area difference was likewise calculated by subtracting the GFP mask area from the whole cell mask area. Null hypothesis testing was performed using the 2-tailed Student&#x2019;s t-test. For gallery images, we selected representative images centered on the medians of the indicated populations.</p>
+      </sec>
+      <sec id="S14">
+        <title>Clinical histopathology</title>
+        <p id="P30">Age-matched patients who underwent pneumonectomy (cases 1&#x2013;3) or lobectomy (case 4) at Massachusetts General Hospital between 2018&#x2013;2019 were identified and their H&amp;E stained clinical slides photographed in compliance with IRB 2016P001475. Well-preserved and well-oriented airway was photographed at 400x magnification and processed identically for all panels.</p>
+      </sec>
+      <sec id="S15">
+        <title>Scanning, scanning/transmission electron microscopy (SEM, STEM), negative stain EM</title>
+        <p id="P31">ALI cultures were washed in PBS, fixed in 2%PFA/2.5% glutaraldehyde/0.1M sodium cacodylate for 15 minutes at room temperature, fixed in fresh fixative for 1 hour at 4&#xBA;C, washed thrice in 0.1M sodium cacodylate, dehydrated, then sputter coated with gold. SEM images were acquired on a Zeiss Crossbeam 540 using secondary electron imaging. STEM samples were prepared identically before resin embedding, ultrathin section cutting, and imaging on a Zeiss Crossbeam 540 operating in STEM mode. For negative stain EM, samples were adsorbed onto 200 mesh carbon film copper grids for 1 min, rinsed for 30 sec with distilled water, then stained with 2% uranyl acetate for 1 min, again washed with distilled water, and imaged on a Zeiss Crossbeam 540. Resultant micrographs were analyzed in FIJI/ImageJ where individual cilia were measured; null hypothesis testing was performed using the 2-tailed Student&#x2019;s t-test.</p>
+      </sec>
+      <sec id="S16">
+        <title>Ciliary isolation</title>
+        <p id="P32">Cilia were purified according to a previously published protocol with minor modifications<sup><xref rid="R25" ref-type="bibr">25</xref></sup>. Mature ALI cultures were washed thrice in PBS before the addition of pre-chilled deciliation buffer (10mM Tris pH 7.5, 50mM NaCl, 10mM CaCl<sub>2</sub>, 1mM EDTA, 7mM &#x3B2;-mercaptoethanol, 0.1% Triton X-100, 1X Roche completeMINI protease inhibitor cocktail) and 1 minute of vigorous rocking at 4&#xBA;C. Supernatants, containing cilia, were removed to pre-chilled 1.5mL tubes and a second aliquot of deciliation buffer applied for 1 minute. Supernatants were then pooled and centrifuged 1min at 1000x<italic>g</italic> to pellet debris. Supernatants were carefully removed and centrifuged 5min at 12,000x<italic>g</italic> to pellet axonemes. Ciliary preparations were resuspended in chilled resuspension buffer (300mM HEPES pH 7.3, 250mM NaCl, 50mM MgSO<sub>4</sub>, 10mM EGTA, 1mM EDTA, 10mM DTT, 1X Roche completeMINI protease inhibitor cocktail) before use for EM or immunoblotting. De-ciliated ALI cultures were harvested in lysis buffer (composition as above) and used for immunoblotting.</p>
+      </sec>
+      <sec id="S17">
+        <title>Phosphoproteomics and analysis</title>
+        <p id="P33">ALI cultures were grown to maturity, washed in PBS, and lysed in urea lysis buffer containing: 20 mM HEPES (pH 8.0), 9.0 M urea, 1 mM sodium orthovanadate (activated), 2.5 mM sodium pyrophosphate, and 1 mM &#xDF;-glycerol-phosphate. Lysates were protease-digested prior to phosphopeptide enrichment using immobilized metal ion affinity chromatography (Fe-IMAC). Eluted peptides were then subjected to LC-MS/MS Analysis using an Orbitrap-Fusion Lumos (ESI-HCD dissociation) and the resulting spectra analyzed with the Thermo Scientific Proteome Discoverer implementation of the SEQUEST algorithm<xref rid="R47" ref-type="bibr">47</xref>. Each biological sample was run in duplicate injections. Searches were performed against the most recent update of the Uniprot Homo sapiens database with mass accuracy of +/&#x2212;50ppm for precursor ions and 0.02Da for product ions. Results were filtered with mass accuracy of +/&#x2212;5ppm on precursor ions and presence of the intended motif. This dataset yielded 56,540 redundant modified peptide assignments to 14,805 modified sites. Data were normalized by median offset correction based on all the relative abundance values in the data set and expressed as log<sub>2</sub> fold changes for analysis. Publicly available data sets were used to establish gene lists for the motile ciliary proteome<sup><xref rid="R32" ref-type="bibr">32</xref></sup>, PCD genes<sup><xref rid="R12" ref-type="bibr">12</xref></sup> (with Online Mendelian Inheritance in Man, OMIM<sup>&#xAE;</sup>. Johns Hopkins University, Baltimore, MD. MIM Number: 244400: 05/30/2019. <ext-link ext-link-type="uri" xlink:href="https://omim.org/">https://omim.org/</ext-link>), non-PCD ciliopathy genes<sup><xref rid="R48" ref-type="bibr">48</xref></sup>, axonemal dyneins and assembly factors (HGNC sets &#x201C;Dyneins, axonemal&#x201D; and &#x201C;Axonemal dynein assembly factors&#x201D;), kinesins (HGNC set &#x201C;Kinesins&#x201D;), intraflagellar transport<sup><xref rid="R49" ref-type="bibr">49</xref></sup>, radial spoke apparatus (HGNC RSPH gene family), central pair complex<sup><xref rid="R50" ref-type="bibr">50</xref>&#x2013;<xref rid="R52" ref-type="bibr">52</xref></sup>, and ciliary length control<sup><xref rid="R53" ref-type="bibr">53</xref>&#x2013;<xref rid="R59" ref-type="bibr">59</xref></sup>. Gene ontology (GO) analysis was performed using published methods<sup><xref rid="R30" ref-type="bibr">30</xref>,<xref rid="R31" ref-type="bibr">31</xref></sup> utilizing the PANTHER overrepresentation test against the GO Ontology database (2019&#x2013;10-08 release) and the &#x201C;GO Biological Process Complete&#x201D; annotation data set <italic>via</italic> publicly-available online interface.</p>
+      </sec>
+      <sec id="S18">
+        <title>Statistics and Reproducibility</title>
+        <p id="P34"><xref rid="F1" ref-type="fig">Fig. 1</xref>: <bold>d</bold>, Statistical test: 2-tailed homoscedastic Student&#x2019;s t-test. Exact <italic>p-values</italic> for comparisons of 5&#x2019;, 3&#x2019; and upstream amplicons 0.77, 0.65, 0.99, respectively. <xref rid="F6" ref-type="fig">Extended Data Fig. 2</xref>: <bold>e, f,</bold> 2-tailed homoscedastic Student&#x2019;s t-test. Exact <italic>p-</italic>values for comparisons of Scgb1a1, Muc5ac, and Ac-&#x3B1;-tubulin 0.14, 0.21, 0.80, respectively. <xref rid="F2" ref-type="fig">Fig. 2</xref>: <bold>d,</bold> Statistical test: Linear mixed effects model (fixed effect: MCT, random effect: &#x3BC;OCT instrument session), exact <italic>p</italic>= 0.0252. <bold>e,</bold> Linear mixed effects model (fixed effect: PCL, random effect: &#x3BC;OCT instrument session), exact <italic>p</italic>= 0.0059. <bold>g,</bold> Statistical test: Mann-Whitney U test, exact <italic>p</italic>-values all &lt;0.0001 (minimum calculable by software). <bold>h,</bold> Statistical test: Mann-Whitney U test, exact <italic>p</italic>-values= 0.0286, 0.0159, 0.0095 for sgNEK10a, sgNEK10b, and sgNEK10c, respectively. <bold>i,</bold> Statistical test: Mann-Whitney U test, exact <italic>p</italic>-values= 0.0086, 0.8967, &lt;0.0001 for NEK10<sup>WT</sup>, NEK10<sup>K548R</sup>, NEK10<sup>S684D</sup>, respectively. <xref rid="F7" ref-type="fig">Extended Data Fig. 3</xref>: <bold>a,</bold> Statistical test: 2-tailed homoscedastic Student&#x2019;s t-test. Exact <italic>p</italic>-value 0.00048. <bold>c,</bold> Statistical test: Linear mixed effects model (fixed effect: CBF, random effect: &#x3BC;OCT instrument session), exact <italic>p</italic>-value= 0.1109. <bold>e</bold>, Statistical test: 2-tailed homoscedastic Student&#x2019;s t-test, exact <italic>p-</italic>values 0.0085, 0.0006, 0.0014 for sgNEK10a, sgNEK10b, and sgNEK10c, respectively. <bold>f</bold>, Statistical test: Mann-Whitney U test, exact <italic>p</italic>-values= 0.0535, 0.3947, 0.0112 for sgNEK10a, sgNEK10b, and sgNEK10c, respectively. <bold>h,</bold> Statistical test: 2-tailed homoscedastic Student&#x2019;s t-test, exact <italic>p-</italic>values = 0.1374, 0.4176, 0.1688, 0.0220 for NEK10<sup>WT</sup>, NEK10<sup>K548R</sup>, NEK10<sup>Y590A</sup>, NEK10<sup>S684D</sup> respectively. <bold>j</bold>, Statistical test: Mann-Whitney U test, exact <italic>p</italic>-values= 0.3429, 0.4857, 0.8857 for NEK10<sup>WT</sup>, NEK10<sup>K548R</sup>, NEK10<sup>S684D</sup> respectively. <xref rid="F3" ref-type="fig">Fig. 3</xref>: <bold>b,</bold> Statistical test: 2-tailed homoscedastic Student&#x2019;s t-test, exact <italic>p-</italic>value = 1.802&#xD7;10<sup>&#x2212;124</sup>. <bold>c,</bold> Statistical test: 2-tailed homoscedastic Student&#x2019;s t-test, exact <italic>p-</italic>value = 0.0000 (minimum calculable by Microsoft Excel). <xref rid="F4" ref-type="fig">Fig. 4</xref>: <bold>d,</bold> Statistical test: 2-tailed homoscedastic Student&#x2019;s t-test, exact <italic>p-</italic>value 3.005&#xD7;10<sup>&#x2212;19</sup>. <xref rid="F9" ref-type="fig">Extended Data Fig. 5</xref>: <bold>d,</bold> Statistical test: Fisher&#x2019;s Exact with false discovery rates listed for multiple hypothesis correction, <italic>p</italic>-values in table.</p>
+      </sec>
+      <sec sec-type="data-availability" id="S19">
+        <title>Data availability statement</title>
+        <p id="P35">Sequence data supporting the findings of this study have been deposited in NCBI GenBank, accession numbers MK806425 and MK806426 (embargoes released at publication). The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE partner repository with the dataset identifier PXD016600 (embargo released at publication)<sup><xref rid="R60" ref-type="bibr">60</xref></sup>. Plasmids pLRC1-NEK10p:NEK10&#x2013;3XFLAG and pLRC1-FOXJ1p:NEK10&#x2013;3XFLAG available for review and distribution at publication through Addgene (<ext-link ext-link-type="uri" xlink:href="http://www.addgene.org/">http://www.addgene.org</ext-link>, plasmid numbers 137030, 137031). All other data and code are provided within the paper or supplementary information. Raw data are included for statistical inputs (.xlsx form) and uncropped immunoblots (.pdf form) corresponding to <xref rid="F1" ref-type="fig">Figures 1</xref>&#x2013;<xref rid="F4" ref-type="fig">4</xref> and <xref rid="F6" ref-type="fig">Extended Data Figures 2</xref>, <xref rid="F7" ref-type="fig">3</xref>, and <xref rid="F9" ref-type="fig">5</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="extended-data" id="S20">
+      <title>Extended Data</title>
+      <fig id="F5" orientation="portrait" position="anchor">
+        <label>Extended Data Fig. 1:</label>
+        <caption>
+          <title>Recurrent NEK10 mutations in familial bronchiectasis</title>
+          <p id="P36"><bold>a,</bold> pedigree indicating affected siblings (filled), proband (&#x201C;p&#x201D;), and subjects from whom genomic DNA was available for analysis (asterisks). <bold>b,</bold> chest computed tomography (CT) of siblings &#x201C;a&#x201D; and &#x201C;b&#x201D; from panel (<bold>a</bold>), arrows indicate regions of bronchiectatic lung. <bold>c,</bold> RefSeq-annotated NEK10 variants annotated with transcription start sites, transcript sizes, predicted protein molecular weights, and exon-exon junctions assayed by qRT-PCR in (<bold>1d</bold>). <bold>d,</bold> immunoblotting against indicated NEK10 epitopes; HBEC bands are non-specific, full-length 133kDa NEK10 protein indicated with dashed box, representative of 3 experiments. <bold>e,</bold> pedigree of kindred 2, asterisks denote family members from whom genomic DNA was available; dashed line indicates consanguinity by shared tribal ancestry, Sanger sequencing trace confirming c.1869dupT. <bold>f,</bold> chest radiograph of proband 2, arrow highlights bronchiectasis. <bold>g,</bold> pedigree of kindred 3; dashed line indicates consanguinity by shared geographical ancestry, Sanger sequencing trace confirming c.2243C&gt;T. <bold>h,</bold> CT from proband 3 demonstrating cystic (green arrow) and cylindrical (red arrow) bronchiectasis. <bold>i,</bold> pedigree of kindred 4; Sanger sequencing trace confirming c.1371+1G&gt;T. <bold>j,</bold> CT from proband 4 indicating right middle lobe (red arrow) and left lower lobe (green arrow) bronchiectasis. <bold>k,</bold> proband 4 nasal biopsy TEM demonstrating normal radial ciliary ultrastructure, scale bar 200nm. <bold>l,</bold> pedigree of kindred 5; dashed line indicates consanguinity by shared tribal ancestry, Sanger sequencing trace confirming c.2317C&gt;T. <bold>m,</bold> CTs of affected siblings in <bold>(l)</bold> demonstrating bronchiectasis. <bold>n-o,</bold> nasal biopsy TEM of affected siblings in <bold>(l),</bold> scale bars 1&#x3BC;m (<bold>n</bold>), 200nm (<bold>o</bold>).</p>
+        </caption>
+        <graphic xlink:href="nihms-1546020-f0005"/>
+      </fig>
+      <fig id="F6" orientation="portrait" position="anchor">
+        <label>Extended Data Fig. 2:</label>
+        <caption>
+          <title>NEK10 loss does not detectably alter airway epithelial differentiation</title>
+          <p id="P37"><bold>a,</bold> 18S rRNA-normalized relative NEK10 expression during ALI differentiation; n=1 ALI culture per timepoint. <bold>b-d</bold>, 18S rRNA-normalized relative expression of ciliated cell markers FOXJ1, DNAH5 (<bold>b</bold>), secretory cell marker SCGB1A1 (<bold>c</bold>), and basal cell marker KRT5 (<bold>d</bold>); n=1 ALI culture per timepoint. <bold>e-f,</bold> whole-mount immunofluorescence microscopy against SCGB1A1 (<bold>e,</bold> upper panel), goblet cell marker MUC5AC (<bold>e</bold>, lower panel), KRT5 (<bold>f</bold>, upper panel), ciliated cell marker acetylated-&#x3B1;-tubulin (<bold>f</bold>, lower panel); scale bars 100&#x3BC;m; bar graphs indicate fraction of surface epithelium occupied by marker-positive cells, n=4 per condition representative of 6 ALI differentiations, mean &#xB1;S.D. <bold>g,</bold> schematic depiction of bioinformatic NEK10 promoter (red) identification using indicated UCSC genome browser (hg19) tracks: CpG islands, H3K27-Ac, DNAse I hypersensitivity clusters, transcription factor (TF) chromatin immunoprecipitation sequencing (ChIP-seq). <bold>h,</bold> live GFP imaging of ALI cultures of the indicated genotypes and maturity, representative of 3 independent ALI differentiations; scale bars 200&#x3BC;m. <bold>i,</bold> gating strategy for FACS sorting of GFP-labeled ALI cultures, numbers indicate percentage gated cells per population.</p>
+        </caption>
+        <graphic xlink:href="nihms-1546020-f0006"/>
+      </fig>
+      <fig id="F7" orientation="portrait" position="anchor">
+        <label>Extended Data Fig. 3:</label>
+        <caption>
+          <title>Functional consequences of NEK10 activity manipulation</title>
+          <p id="P38"><bold>a,</bold> quantitation of analysis in (<xref rid="F2" ref-type="fig">Fig. 2c</xref>), mean &#xB1;S.D. <bold>b,</bold> kymographs of &#x3BC;OCT-based particle tracking from mature ALI, representative of 3 independent ALI differentiations. <bold>c,</bold> CBF (&#x3BC;OCT) of mature ALI of the indicated genotypes, n=27 (NEK10<sup>WT</sup>), 22 (NEK10<sup>G&gt;C</sup>) pooled from 3 independent ALI differentiations, mean &#xB1;S.E.M. <bold>d,</bold> immunoblotting of mature ALI lysates after CRISPR/Cas9-mediated gene editing with the indicated sgRNAs, representative of 2 experiments; short (S) versus long (L) exposures indicated. <bold>e,</bold> quantitation of analysis in (<xref rid="F2" ref-type="fig">Fig. 2f</xref>), mean &#xB1;S.D. <bold>f,</bold> CBF of mature ALI edited with the indicated sgRNAs, n=8 per condition pooled from 3 independent ALI differentiations, mean &#xB1;S.E.M. <bold>g,</bold> immunoblotting of mature ALI lysates transduced with the indicated cDNAs, representative of 2 experiments; short (S) versus long (L) exposures indicated. <bold>h,</bold> quantitation of analysis in (<bold>i</bold>), mean &#xB1;S.D. <bold>i,</bold> pseudocolored video microscopy of mature ALI transduced with the indicated cDNAs, representative fields from 3 independent ALI differentiations, scale bars 50&#x3BC;m. <bold>j,</bold> CBF of mature ALI transduced with the indicated cDNAs, n=4 per condition pooled from 3 independent ALI differentiations, mean &#xB1;S.E.M. *p&#x2264;0.05, **p&#x2264;0.01, ****p&#x2264;0.0001.</p>
+        </caption>
+        <graphic xlink:href="nihms-1546020-f0007"/>
+      </fig>
+      <fig id="F8" orientation="portrait" position="anchor">
+        <label>Extended Data Fig. 4:</label>
+        <caption>
+          <title>Experimental manipulation of NEK10 activity alters ciliated cell morphology</title>
+          <p id="P39"><bold>a,</bold> gating strategy for imaging flow cytometry analysis of MCCs. <bold>b,</bold> representative images and masking data of cells in <bold>(a)</bold>, demonstrating ability to generate single NEK10:eGFP+ ciliated cells for analysis. <bold>c,</bold> confocal maximum intensity projections of mature ALI edited with the indicated sgRNAs after IF against Ac-&#x3B1;-tubulin, scale bars 25&#x3BC;m, representative of 2 independent ALI differentiations. <bold>d,</bold> confocal maximum intensity projections of mature ALI transduced with the indicated cDNAs after IF against Ac-&#x3B1;-tubulin, scale bars 25&#x3BC;m, representative of 2 independent ALI differentiations. <bold>e,</bold> H&amp;E stained mature ALI samples of the indicated genotypes after sectioning orthogonal to the epithelial surface, representative of 3 independent ALI differentiations.</p>
+        </caption>
+        <graphic xlink:href="nihms-1546020-f0008"/>
+      </fig>
+      <fig id="F9" orientation="portrait" position="anchor">
+        <label>Extended Data Fig. 5:</label>
+        <caption>
+          <title>Structural and proteomic abnormalities in NEK10-deficient airway epithelium</title>
+          <p id="P40"><bold>a,</bold> SEM of mature ALI edited with the indicated sgRNAs, scale bars 100&#x3BC;m (upper panels) and 1&#x3BC;m (lower panels), representative of 2 independent ALI differentiations. <bold>b,</bold> immunoblotting against the indicated proteins from lysates generated from purified cilia (lanes 2, 4) or remaining de-ciliated mature ALI (lanes 1, 3), representative of 2 experiments. <bold>c</bold>, cumulative distribution of phosphopeptides by log<sub>2</sub> fold change between indicated conditions, solid (sgNEK10b) and dashed (sgNEK10c) red lines illustrate population of depleted phosphopeptides upon NEK10 deletion. <bold>d,</bold> table of gene ontology classes enriched among genes (<italic>n</italic>=395) whose peptides are depleted &gt;1.5 fold (log<sub>2</sub>) after targeting with sgNEK10b, enrichment level, <italic>p</italic>-values, and false discovery rates (FDR) indicated. <bold>e,</bold> cumulative distribution of phosphopeptides by log<sub>2</sub> fold change, previously validated PCD in red and all other detected proteins in black, as in (4e). <bold>f</bold>, cumulative distribution of phosphopeptides by log<sub>2</sub> fold change, previously validated non-PCD ciliopathy loci in red and all other detected proteins in black, as in (<bold>4e</bold>).</p>
+        </caption>
+        <graphic xlink:href="nihms-1546020-f0009"/>
+      </fig>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM1">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>1</label>
+        <media xlink:href="NIHMS1546020-supplement-1.pdf" orientation="portrait" xlink:type="simple" id="d36e1791" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>Sup_Vid1</label>
+        <media xlink:href="NIHMS1546020-supplement-Sup_Vid1.avi" orientation="portrait" xlink:type="simple" id="d36e1795" position="anchor" mimetype="video"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3">
+        <label>Sup_Vid2</label>
+        <media xlink:href="NIHMS1546020-supplement-Sup_Vid2.avi" orientation="portrait" xlink:type="simple" id="d36e1799" position="anchor" mimetype="video"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S21">
+      <title>Acknowledgements</title>
+      <p id="P41">We are grateful to the patients and family members who participated in this research. We thank J. Rajagopal for advice and reagents, B. Stripp (Cedars-Sinai) and I. Cheeseman (Whitehead Institute for Biomedical Research) for antibodies as cited in methods, the Koch Institute Nanomaterials core for electron microscopy services, S. Mordecai for advice and assistance with IFC, H. Zheng for assistance with statistical methods, M. Mino-Kenudson for pulmonary pathology assistance, KFSHRC genotyping and sequencing core facilities for technical help, M. Manion and the US PCD foundation for support, L. Ostrowski for assistance in ciliary motility studies, K. Sullivan and N. Capps for patient coordination and specimen collection, V. Madden, J. Stonebraker, R. Pace and K. Burns for technical assistance, H. Dang and H. Namkoong for bioinformatics assistance, and A. Lee and members of the Sabatini laboratory for critical reading of the manuscript.</p>
+      <p id="P42">This work was supported by grants from the NIH: T32HL116275 (to R.R.C), T32CA009216 (to M.S.T.), U54HL096458 and UL1TR000083 (to M.R.K., M.A.Z., M.L.D., P.R.S.), R01HL071798 (to M.R.K., M.L.D., M.A.Z.), R01HL117836-01 (to M.R.K., M.L.D., M.A.Z.), R01CA129105 and R37AI047389 (to D.M.S.). Additional funding support provided by Massachusetts General Hospital Department of Medicine Pathways program (to R.R.C) and by KSCDR and SHGP (to F.S.A.). The Amnis ImageStream<sup>X</sup> MkII was purchased using an NIH Shared Instrumentation Grant 1S10OD012027-01A1 to Massachusetts General Hospital. D.M.S. is an investigator of the Howard Hughes Medical Institute and an American Cancer Society Research Professor.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement" id="FN2">
+        <p id="P43">Competing Interests Statement</p>
+        <p id="P44">The authors declare the following competing interests:</p>
+        <p id="P45">Provisional patent application in process: <italic>Applicants</italic>: Massachusetts General Hospital, Whitehead Institute for Biomedical Research, Massachusetts Institute of Technology; <italic>Inventors</italic>: Raghu R. Chivukula, David M. Sabatini; <italic>Specific aspects covered:</italic> Therapeutic augmentation of NEK10 signaling in disorders of mucociliary clearance.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>Main Text References</title>
+      <ref id="R1">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><name><surname>Tilley</surname><given-names>AE</given-names></name>, <name><surname>Walters</surname><given-names>MS</given-names></name>, <name><surname>Shaykhiev</surname><given-names>R</given-names></name> &amp; <name><surname>Crystal</surname><given-names>RG</given-names></name>
+<article-title>Cilia Dysfunction in Lung Disease</article-title>. <source>Annu. Rev. Physiol</source>
+<volume>77</volume>, <fpage>379</fpage>&#x2013;<lpage>406</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25386990</pub-id></mixed-citation>
+      </ref>
+      <ref id="R2">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><name><surname>Montoro</surname><given-names>DT</given-names></name>
+<etal/>
+<article-title>A revised airway epithelial hierarchy includes CFTR-expressing ionocytes</article-title>. <source>Nature</source>
+<volume>560</volume>, <fpage>319</fpage>&#x2013;<lpage>324</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30069044</pub-id></mixed-citation>
+      </ref>
+      <ref id="R3">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><name><surname>Gould</surname><given-names>CM</given-names></name>, <name><surname>Freeman</surname><given-names>AF</given-names></name> &amp; <name><surname>Olivier</surname><given-names>KN</given-names></name>
+<article-title>Genetic Causes of Bronchiectasis</article-title>. <source>Clinics in Chest Medicine</source>
+<volume>33</volume>, <fpage>249</fpage>&#x2013;<lpage>263</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22640844</pub-id></mixed-citation>
+      </ref>
+      <ref id="R4">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><name><surname>Zariwala</surname><given-names>MA</given-names></name>, <name><surname>Knowles</surname><given-names>MR</given-names></name> &amp; <name><surname>Omran</surname><given-names>H</given-names></name>
+<article-title>Genetic defects in ciliary structure and function</article-title>. <source>Annu. Rev. Physiol</source>
+<volume>69</volume>, <fpage>423</fpage>&#x2013;<lpage>450</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17059358</pub-id></mixed-citation>
+      </ref>
+      <ref id="R5">
+        <label>5.</label>
+        <mixed-citation publication-type="web"><source>Online Mendelian Inheritance in Man, OMIM</source>. <comment><ext-link ext-link-type="uri" xlink:href="http://omim.org">omim.org</ext-link> Available at</comment>: <comment><ext-link ext-link-type="uri" xlink:href="https://www.omim.org/">https://www.omim.org/</ext-link>.</comment> (<date-in-citation>Accessed: 11 November 2019</date-in-citation>)</mixed-citation>
+      </ref>
+      <ref id="R6">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><name><surname>Moniz</surname><given-names>L</given-names></name>, <name><surname>Dutt</surname><given-names>P</given-names></name>, <name><surname>Haider</surname><given-names>N</given-names></name> &amp; <name><surname>Stambolic</surname><given-names>V</given-names></name>
+<article-title>Nek family of kinases in cell cycle, checkpoint control and cancer</article-title>. <source>Cell Division 2011</source>
+<volume>6</volume>:<fpage>1</fpage>
+<comment>6</comment>, <comment>18</comment> (<year>2011</year>).</mixed-citation>
+      </ref>
+      <ref id="R7">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><name><surname>Thiel</surname><given-names>C</given-names></name>
+<etal/>
+<article-title>NEK1 Mutations Cause Short-Rib Polydactyly Syndrome Type Majewski</article-title>. <source>The American Journal of Human Genetics</source>
+<volume>88</volume>, <fpage>106</fpage>&#x2013;<lpage>114</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21211617</pub-id></mixed-citation>
+      </ref>
+      <ref id="R8">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><name><surname>Smith</surname><given-names>LA</given-names></name>
+<etal/>
+<article-title>Development of polycystic kidney disease in juvenile cystic kidney mice: insights into pathogenesis, ciliary abnormalities, and common features with human disease</article-title>. <source>J. Am. Soc. Nephrol</source>
+<volume>17</volume>, <fpage>2821</fpage>&#x2013;<lpage>2831</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16928806</pub-id></mixed-citation>
+      </ref>
+      <ref id="R9">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><name><surname>Moniz</surname><given-names>LS</given-names></name> &amp; <name><surname>Stambolic</surname><given-names>V</given-names></name>
+<article-title>Nek10 mediates G2/M cell cycle arrest and MEK autoactivation in response to UV irradiation</article-title>. <source>Mol Cell Biol</source>
+<volume>31</volume>, <fpage>30</fpage>&#x2013;<lpage>42</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">20956560</pub-id></mixed-citation>
+      </ref>
+      <ref id="R10">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><name><surname>Porpora</surname><given-names>M</given-names></name>
+<etal/>
+<article-title>Counterregulation of cAMP-directed kinase activities controls ciliogenesis</article-title>. <source>Nat Comms</source>
+<volume>9</volume>, <fpage>1224</fpage> (<year>2018</year>).</mixed-citation>
+      </ref>
+      <ref id="R11">
+        <label>11.</label>
+        <mixed-citation publication-type="book"><name><surname>Fulcher</surname><given-names>ML</given-names></name>, <name><surname>Gabriel</surname><given-names>S</given-names></name>, <name><surname>Burns</surname><given-names>KA</given-names></name>, <name><surname>Yankaskas</surname><given-names>JR</given-names></name> &amp; <name><surname>Randell</surname><given-names>SH</given-names></name> in <source>Human Cell Culture Protocols</source>
+<volume>107</volume>, <fpage>183</fpage>&#x2013;<lpage>206</lpage> (<publisher-name>Humana Press</publisher-name>, <year>2005</year>).</mixed-citation>
+      </ref>
+      <ref id="R12">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><name><surname>MD</surname><given-names>MRK</given-names></name>, <name><surname>PhD</surname><given-names>MZ</given-names></name> &amp; <name><surname>MD</surname><given-names>ML</given-names></name>
+<article-title>Primary Ciliary Dyskinesia</article-title>. <source>Clinics in Chest Medicine</source>
+<volume>37</volume>, <fpage>449</fpage>&#x2013;<lpage>461</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27514592</pub-id></mixed-citation>
+      </ref>
+      <ref id="R13">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><name><surname>Karczewski</surname><given-names>KJ</given-names></name>
+<etal/>
+<article-title>Variation across 141,456 human exomes and genomes reveals the spectrum of loss-of-function intolerance across human protein-coding genes</article-title>. <source>bioRxiv</source>
+<volume>49</volume>, <fpage>531210</fpage> (<year>2019</year>).</mixed-citation>
+      </ref>
+      <ref id="R14">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><name><surname>Ostrowski</surname><given-names>LE</given-names></name>, <name><surname>Hutchins</surname><given-names>JR</given-names></name>, <name><surname>Zakel</surname><given-names>K</given-names></name> &amp; <name><surname>O&#x2019;Neal</surname><given-names>WK</given-names></name>
+<article-title>Targeting expression of a transgene to the airway surface epithelium using a ciliated cell-specific promoter</article-title>. <source>Mol. Ther</source>
+<volume>8</volume>, <fpage>637</fpage>&#x2013;<lpage>645</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">14529837</pub-id></mixed-citation>
+      </ref>
+      <ref id="R15">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><name><surname>Liu</surname><given-names>L</given-names></name>
+<etal/>
+<article-title>Method for Quantitative Study of Airway Functional Microanatomy Using Micro-Optical Coherence Tomography</article-title>. <source>PLoS ONE</source>
+<volume>8</volume>, <fpage>e54473</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23372732</pub-id></mixed-citation>
+      </ref>
+      <ref id="R16">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><name><surname>Knowles</surname><given-names>MR</given-names></name>, <name><surname>Daniels</surname><given-names>LA</given-names></name>, <name><surname>Davis</surname><given-names>SD</given-names></name>, <name><surname>Zariwala</surname><given-names>MA</given-names></name> &amp; <name><surname>Leigh</surname><given-names>MW</given-names></name>
+<article-title>Primary Ciliary Dyskinesia. Recent Advances in Diagnostics, Genetics, and Characterization of Clinical Disease</article-title>. <source>Am. J. Respir. Crit. Care Med</source>. <volume>188</volume>, <fpage>913</fpage>&#x2013;<lpage>922</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23796196</pub-id></mixed-citation>
+      </ref>
+      <ref id="R17">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><name><surname>He</surname><given-names>Y</given-names></name>, <name><surname>Zeng</surname><given-names>MY</given-names></name>, <name><surname>Yang</surname><given-names>D</given-names></name>, <name><surname>Motro</surname><given-names>B</given-names></name> &amp; <name><surname>Nu&#xF1;ez</surname><given-names>G</given-names></name>
+<article-title>NEK7 is an essential mediator of NLRP3 activation downstream of potassium efflux</article-title>. <source>Nature</source>
+<volume>530</volume>, <fpage>354</fpage>&#x2013;<lpage>357</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26814970</pub-id></mixed-citation>
+      </ref>
+      <ref id="R18">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><name><surname>Carrera</surname><given-names>AC</given-names></name>, <name><surname>Alexandrov</surname><given-names>K</given-names></name> &amp; <name><surname>Roberts</surname><given-names>TM</given-names></name>
+<article-title>The conserved lysine of the catalytic domain of protein kinases is actively involved in the phosphotransfer reaction and not required for anchoring ATP</article-title>. <source>PNAS</source>
+<volume>90</volume>, <fpage>442</fpage>&#x2013;<lpage>446</lpage> (<year>1993</year>).<pub-id pub-id-type="pmid">8421674</pub-id></mixed-citation>
+      </ref>
+      <ref id="R19">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><name><surname>Moniz</surname><given-names>L</given-names></name>
+<source>Characterization of NimA-related Kinase 10 (NEK10): A Role in Checkpoint Control</source>. (<year>2010</year>).</mixed-citation>
+      </ref>
+      <ref id="R20">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><name><surname>Richards</surname><given-names>MW</given-names></name>
+<etal/>
+<article-title>An Autoinhibitory Tyrosine Motif in the Cell-Cycle-Regulated Nek7 Kinase Is Released through Binding of Nek9</article-title>. <source>Mol Cell</source>
+<volume>36</volume>, <fpage>560</fpage>&#x2013;<lpage>570</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19941817</pub-id></mixed-citation>
+      </ref>
+      <ref id="R21">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><name><surname>Doan</surname><given-names>M</given-names></name>
+<etal/>
+<article-title>Diagnostic Potential of Imaging Flow Cytometry</article-title>. <source>Trends in Biotechnology</source>
+<volume>36</volume>, <fpage>649</fpage>&#x2013;<lpage>652</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29395345</pub-id></mixed-citation>
+      </ref>
+      <ref id="R22">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><name><surname>Wallmeier</surname><given-names>J</given-names></name>
+<etal/>
+<article-title>Mutations in CCNO result in congenital mucociliary clearance disorder with reduced generation of multiple motile cilia</article-title>. <source>Nat Genet</source>
+<volume>46</volume>, <fpage>646</fpage>&#x2013;<lpage>651</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24747639</pub-id></mixed-citation>
+      </ref>
+      <ref id="R23">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><name><surname>Boon</surname><given-names>M</given-names></name>
+<etal/>
+<article-title>MCIDAS mutations result in a mucociliary clearance disorder with reduced generation of multiple motile cilia</article-title>. <source>Nat Comms</source>
+<volume>5</volume>, <fpage>4418</fpage> (<year>2014</year>).</mixed-citation>
+      </ref>
+      <ref id="R24">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><name><surname>Vladar</surname><given-names>EK</given-names></name>, <name><surname>Nayak</surname><given-names>JV</given-names></name>, <name><surname>Milla</surname><given-names>CE</given-names></name> &amp; <name><surname>Axelrod</surname><given-names>JD</given-names></name>
+<article-title>Airway epithelial homeostasis and planar cell polarity signaling depend on multiciliated cell differentiation</article-title>. <source>JCI Insight</source>
+<volume>1</volume>, <fpage>183</fpage> (<year>2016</year>).</mixed-citation>
+      </ref>
+      <ref id="R25">
+        <label>25.</label>
+        <mixed-citation publication-type="book"><name><surname>Ostrowski</surname><given-names>LE</given-names></name> in <source>Cell Biology</source> (ed. <name><surname>Celis</surname><given-names>JE</given-names></name>) <fpage>99</fpage>&#x2013;<lpage>102</lpage> (<publisher-name>Elsevier</publisher-name>, <year>2005</year>).</mixed-citation>
+      </ref>
+      <ref id="R26">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><name><surname>Leopold</surname><given-names>PL</given-names></name>, <name><surname>O&#x2019;Mahony</surname><given-names>MJ</given-names></name>, <name><surname>Lian</surname><given-names>XJ</given-names></name>, <name><surname>Tilley</surname><given-names>AE</given-names></name> &amp; <name><surname>Crystal</surname><given-names>RG</given-names></name>
+<article-title>Smoking Is Associated with Shortened Airway Cilia</article-title>. <source>PLoS ONE</source>
+<volume>4</volume>, <fpage>e8157</fpage> (<year>2009</year>).<pub-id pub-id-type="pmid">20016779</pub-id></mixed-citation>
+      </ref>
+      <ref id="R27">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><name><surname>Oltean</surname><given-names>A</given-names></name>, <name><surname>Schaffer</surname><given-names>AJ</given-names></name>, <name><surname>Bayly</surname><given-names>PV</given-names></name> &amp; <name><surname>Brody</surname><given-names>SL</given-names></name>
+<article-title>Quantifying Ciliary Dynamics during Assembly Reveals Stepwise Waveform Maturation in Airway Cells</article-title>. <source>Am. J. Respir. Cell Mol. Biol</source>
+<volume>59</volume>, <fpage>511</fpage>&#x2013;<lpage>522</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29851510</pub-id></mixed-citation>
+      </ref>
+      <ref id="R28">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><name><surname>Bottier</surname><given-names>M</given-names></name>, <name><surname>Thomas</surname><given-names>KA</given-names></name>, <name><surname>Dutcher</surname><given-names>SK</given-names></name> &amp; <name><surname>Bayly</surname><given-names>PV</given-names></name>
+<article-title>How Does Cilium Length Affect Beating?</article-title>
+<source>Biophysical Journal</source>
+<volume>116</volume>, <fpage>1292</fpage>&#x2013;<lpage>1304</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">30878201</pub-id></mixed-citation>
+      </ref>
+      <ref id="R29">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><name><surname>Block</surname><given-names>H</given-names></name>
+<etal/>
+<article-title>Chapter 27 Immobilized-Metal Affinity Chromatography (IMAC): A Review</article-title>. <source>Methods in Enzymology</source>
+<volume>463</volume>, <fpage>439</fpage>&#x2013;<lpage>473</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19892187</pub-id></mixed-citation>
+      </ref>
+      <ref id="R30">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><name><surname>Ashburner</surname><given-names>M</given-names></name>
+<etal/>
+<article-title>Gene Ontology: tool for the unification of biology</article-title>. <source>Nat Genet</source>
+<volume>25</volume>, <fpage>25</fpage>&#x2013;<lpage>29</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10802651</pub-id></mixed-citation>
+      </ref>
+      <ref id="R31">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><collab>The Gene Ontology Consortium</collab>. <article-title>The Gene Ontology Resource: 20 years and still GOing strong</article-title>. <source>Nucleic Acids Res</source>
+<volume>47</volume>, <fpage>D330</fpage>&#x2013;<lpage>D338</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">30395331</pub-id></mixed-citation>
+      </ref>
+      <ref id="R32">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><name><surname>Ostrowski</surname><given-names>LE</given-names></name>
+<etal/>
+<article-title>A Proteomic Analysis of Human Cilia Identification of Novel Components</article-title>. <source>Mol Cell Proteomics</source>
+<volume>1</volume>, <fpage>451</fpage>&#x2013;<lpage>465</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">12169685</pub-id></mixed-citation>
+      </ref>
+      <ref id="R33">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><name><surname>Vieira Braga</surname><given-names>FA</given-names></name>
+<etal/>
+<article-title>A cellular census of human lungs identifies novel cell states in health and in asthma</article-title>. <source>Nat. Med</source>. <volume>25</volume>, <fpage>1153</fpage>&#x2013;<lpage>1163</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31209336</pub-id></mixed-citation>
+      </ref>
+      <ref id="R34">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><collab>Tabula Muris Consortium</collab>
+<etal/>
+<article-title>Single-cell transcriptomics of 20 mouse organs creates a Tabula Muris</article-title>. <source>Nature</source>
+<volume>562</volume>, <fpage>367</fpage>&#x2013;<lpage>372</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30283141</pub-id></mixed-citation>
+      </ref>
+      <ref id="R35">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><name><surname>Wloga</surname><given-names>D</given-names></name>
+<etal/>
+<article-title>Members of the NIMA-related Kinase Family Promote Disassembly of Cilia by Multiple Mechanisms</article-title>. <source>Molecular Biology of the Cell</source>
+<volume>17</volume>, <fpage>2799</fpage>&#x2013;<lpage>2810</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16611747</pub-id></mixed-citation>
+      </ref>
+      <ref id="R36">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><name><surname>Bradley</surname><given-names>BA</given-names></name> &amp; <name><surname>Quarmby</surname><given-names>LM</given-names></name>
+<article-title>A NIMA-related kinase, Cnk2p, regulates both flagellar length and cell size in Chlamydomonas</article-title>. <source>J Cell Sci</source>
+<volume>118</volume>, <fpage>3317</fpage>&#x2013;<lpage>3326</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16030138</pub-id></mixed-citation>
+      </ref>
+      <ref id="R37">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><name><surname>Hilton</surname><given-names>LK</given-names></name>, <name><surname>Gunawardane</surname><given-names>K</given-names></name>, <name><surname>Kim</surname><given-names>JW</given-names></name>, <name><surname>Schwarz</surname><given-names>MC</given-names></name> &amp; <name><surname>Quarmby</surname><given-names>LM</given-names></name>
+<article-title>The Kinases LF4 and CNK2 Control Ciliary Length by Feedback Regulation of Assembly and Disassembly Rates</article-title>. <source>Current Biology</source>
+<volume>23</volume>, <fpage>2208</fpage>&#x2013;<lpage>2214</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24184104</pub-id></mixed-citation>
+      </ref>
+      <ref id="R38">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><name><surname>Lin</surname><given-names>H</given-names></name>
+<etal/>
+<article-title>A NIMA-Related Kinase Suppresses the Flagellar Instability Associated with the Loss of Multiple Axonemal Structures</article-title>. <source>PLOS Genetics</source>
+<volume>11</volume>, <fpage>e1005508</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26348919</pub-id></mixed-citation>
+      </ref>
+      <ref id="R39">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><name><surname>Hessel</surname><given-names>J</given-names></name>
+<etal/>
+<article-title>Intraflagellar Transport Gene Expression Associated with Short Cilia in Smoking and COPD</article-title>. <source>PLoS ONE</source>
+<volume>9</volume>, <fpage>e85453</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24465567</pub-id></mixed-citation>
+      </ref>
+      <ref id="R40">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>Z-G</given-names></name>
+<etal/>
+<article-title>Aberrant epithelial remodeling with impairment of cilia architecture in non-cystic fibrosis bronchiectasis</article-title>. <source>Journal of Thoracic Disease</source>
+<volume>10</volume>, <fpage>1753</fpage>&#x2013;<lpage>1764</lpage><comment>&#x2013;1764</comment> (<year>2018</year>).<pub-id pub-id-type="pmid">29707330</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <ref-list>
+      <title>Methods-only References</title>
+      <ref id="R41">
+        <label>41.</label>
+        <mixed-citation publication-type="book"><name><surname>Neuberger</surname><given-names>T</given-names></name>, <name><surname>Burton</surname><given-names>B</given-names></name>, <name><surname>Clark</surname><given-names>H</given-names></name> &amp; <name><surname>Van Goor</surname><given-names>F</given-names></name> in <source>Cystic Fibrosis</source>
+<fpage>39</fpage>&#x2013;<lpage>54</lpage> (<publisher-name>Humana Press</publisher-name>, <year>2011</year>). doi:<pub-id pub-id-type="doi">10.1007/978-1-61779-117-8_4</pub-id></mixed-citation>
+      </ref>
+      <ref id="R42">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><name><surname>Hoffmann</surname><given-names>K</given-names></name> &amp; <name><surname>Lindner</surname><given-names>TH</given-names></name>
+<article-title>easyLINKAGE-Plus&#x2014;automated linkage analyses using large-scale SNP data</article-title>. <source>Bioinformatics</source>
+<volume>21</volume>, <fpage>3565</fpage>&#x2013;<lpage>3567</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16014370</pub-id></mixed-citation>
+      </ref>
+      <ref id="R43">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><name><surname>Schindelin</surname><given-names>J</given-names></name>
+<etal/>
+<article-title>Fiji: an open-source platform for biological-image analysis</article-title>. <source>Nat. Methods</source>
+<volume>9</volume>, <fpage>676</fpage>&#x2013;<lpage>682</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22743772</pub-id></mixed-citation>
+      </ref>
+      <ref id="R44">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>T</given-names></name>
+<etal/>
+<article-title>Identification and characterization of essential genes in the human genome</article-title>. <source>Science</source>
+<volume>350</volume>, <fpage>1096</fpage>&#x2013;<lpage>1101</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26472758</pub-id></mixed-citation>
+      </ref>
+      <ref id="R45">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><name><surname>Liu</surname><given-names>L</given-names></name>
+<etal/>
+<article-title>Imaging the subcellular structure of human coronary atherosclerosis using micro-optical coherence tomography</article-title>. <source>Nat. Med</source>
+<volume>17</volume>, <fpage>1010</fpage>&#x2013;<lpage>1014</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21743452</pub-id></mixed-citation>
+      </ref>
+      <ref id="R46">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><name><surname>Sbalzarini</surname><given-names>IF</given-names></name> &amp; <name><surname>Koumoutsakos</surname><given-names>P</given-names></name>
+<article-title>Feature point tracking and trajectory analysis for video imaging in cell biology</article-title>. <source>J. Struct. Biol</source>
+<volume>151</volume>, <fpage>182</fpage>&#x2013;<lpage>195</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16043363</pub-id></mixed-citation>
+      </ref>
+      <ref id="R47">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><name><surname>Eng</surname><given-names>JK</given-names></name>, <name><surname>McCormack</surname><given-names>AL</given-names></name> &amp; <name><surname>Yates</surname><given-names>JR</given-names></name>
+<article-title>An approach to correlate tandem mass spectral data of peptides with amino acid sequences in a protein database</article-title>. <source>J Am Soc Mass Spectrom</source>
+<volume>5</volume>, <fpage>976</fpage>&#x2013;<lpage>989</lpage> (<year>1994</year>).<pub-id pub-id-type="pmid">24226387</pub-id></mixed-citation>
+      </ref>
+      <ref id="R48">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><name><surname>Reiter</surname><given-names>JF</given-names></name> &amp; <name><surname>Leroux</surname><given-names>MR</given-names></name>
+<article-title>Genes and molecular pathways underpinning ciliopathies</article-title>. <source>Nat Rev Mol Cell Biol</source>
+<volume>18</volume>, <fpage>533</fpage>&#x2013;<lpage>547</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28698599</pub-id></mixed-citation>
+      </ref>
+      <ref id="R49">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><name><surname>Ishikawa</surname><given-names>H</given-names></name> &amp; <name><surname>Marshall</surname><given-names>WF</given-names></name>
+<article-title>Ciliogenesis: building the cell&#x2019;s antenna</article-title>. <source>Nat Rev Mol Cell Biol</source>
+<volume>12</volume>, <fpage>222</fpage>&#x2013;<lpage>234</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21427764</pub-id></mixed-citation>
+      </ref>
+      <ref id="R50">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><name><surname>Teves</surname><given-names>ME</given-names></name>, <name><surname>Gude</surname><given-names>DRN</given-names></name>, <name><surname>Zhang</surname><given-names>Z</given-names></name> &amp; <name><surname>Strauss</surname><given-names>JF</given-names></name>
+<article-title>Mammalian axoneme central pair complex proteins: Broader roles revealed by gene knockout phenotypes</article-title>. <source>Cytoskeleton</source>
+<volume>73</volume>, <fpage>3</fpage>&#x2013;<lpage>22</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26785425</pub-id></mixed-citation>
+      </ref>
+      <ref id="R51">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><name><surname>Osinka</surname><given-names>A</given-names></name>
+<etal/>
+<article-title>Ciliary Proteins: Filling the Gaps. Recent Advances in Deciphering the Protein Composition of Motile Ciliary Complexes</article-title>. <source>Cells</source>
+<volume>8</volume>, <fpage>730</fpage> (<year>2019</year>).</mixed-citation>
+      </ref>
+      <ref id="R52">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhao</surname><given-names>L</given-names></name>, <name><surname>Hou</surname><given-names>Y</given-names></name>, <name><surname>Picariello</surname><given-names>T</given-names></name>, <name><surname>Craige</surname><given-names>B</given-names></name> &amp; <name><surname>Witman</surname><given-names>GB</given-names></name>
+<article-title>Proteome of the central apparatus of a ciliary axoneme</article-title>. <source>J Cell Biol</source>
+<volume>218</volume>, <fpage>2051</fpage>&#x2013;<lpage>2070</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31092556</pub-id></mixed-citation>
+      </ref>
+      <ref id="R53">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><name><surname>Tammana</surname><given-names>TVS</given-names></name>, <name><surname>Tammana</surname><given-names>D</given-names></name>, <name><surname>Diener</surname><given-names>DR</given-names></name> &amp; <name><surname>Rosenbaum</surname><given-names>J</given-names></name>
+<article-title>Centrosomal protein CEP104 (Chlamydomonas FAP256) moves to the ciliary tip during ciliary assembly</article-title>. <source>J Cell Sci</source>
+<volume>126</volume>, <fpage>5018</fpage>&#x2013;<lpage>5029</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23970417</pub-id></mixed-citation>
+      </ref>
+      <ref id="R54">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><name><surname>Niwa</surname><given-names>S</given-names></name>
+<etal/>
+<article-title>KIF19A Is a Microtubule-Depolymerizing Kinesin for Ciliary Length Control</article-title>. <source>Dev. Cell</source>
+<volume>23</volume>, <fpage>1167</fpage>&#x2013;<lpage>1175</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">23168168</pub-id></mixed-citation>
+      </ref>
+      <ref id="R55">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><name><surname>Lai</surname><given-names>CK</given-names></name>
+<etal/>
+<article-title>Functional characterization of putative cilia genes by high-content analysis</article-title>. <source>Molecular Biology of the Cell</source>
+<volume>22</volume>, <fpage>1104</fpage>&#x2013;<lpage>1119</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21289087</pub-id></mixed-citation>
+      </ref>
+      <ref id="R56">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><name><surname>Vasudevan</surname><given-names>KK</given-names></name>
+<etal/>
+<article-title>Kinesin-13 regulates the quantity and quality of tubulin inside cilia</article-title>. <source>Molecular Biology of the Cell</source>
+<volume>26</volume>, <fpage>478</fpage>&#x2013;<lpage>494</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25501369</pub-id></mixed-citation>
+      </ref>
+      <ref id="R57">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><name><surname>Piao</surname><given-names>T</given-names></name>
+<etal/>
+<article-title>A microtubule depolymerizing kinesin functions during both flagellar disassembly and flagellar assembly in Chlamydomonas</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A</source>
+<volume>106</volume>, <fpage>4713</fpage>&#x2013;<lpage>4718</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19264963</pub-id></mixed-citation>
+      </ref>
+      <ref id="R58">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>L</given-names></name>
+<etal/>
+<article-title>Flagellar regeneration requires cytoplasmic microtubule depolymerization and kinesin-13</article-title>. <source>Journal of Cell Science</source>
+<volume>126</volume>, <fpage>1531</fpage>&#x2013;<lpage>1540</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23418346</pub-id></mixed-citation>
+      </ref>
+      <ref id="R59">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><name><surname>Broekhuis</surname><given-names>JR</given-names></name>, <name><surname>Verhey</surname><given-names>KJ</given-names></name> &amp; <name><surname>Jansen</surname><given-names>G</given-names></name>
+<article-title>Regulation of Cilium Length and Intraflagellar Transport by the RCK-Kinases ICK and MOK in Renal Epithelial Cells</article-title>. <source>PLoS ONE</source>
+<volume>9</volume>, <fpage>e108470</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25243405</pub-id></mixed-citation>
+      </ref>
+      <ref id="R60">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><name><surname>Perez-Riverol</surname><given-names>Y</given-names></name>
+<etal/>
+<article-title>The PRIDE database and related tools and resources in 2019: improving support for quantification data</article-title>. <source>Nucleic Acids Res</source>
+<volume>47</volume>, <fpage>D442</fpage>&#x2013;<lpage>D450</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">30395289</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Fig. 1:</label>
+      <caption>
+        <title>Familial bronchiectasis associated with NEK10 loss-of-function</title>
+        <p id="P46"><bold>a,</bold> Chest computed tomography (CT) imaging of proband 1 upon clinical presentation. Dashed line indicates level of cross-sectional imaging in right panel. Arrows highlight cystic bronchiectatic destruction of lung. <bold>b,</bold> transmission electron micrograph of proband 1 nasal biopsy specimen demonstrating normal radial ciliary ultrastructure, scale bars indicate 100nm. <bold>c,</bold> schematic depiction of 3&#x2019; terminus of NEK10 exon 15 and following intron, Sanger sequencing traces highlight G&gt;C point mutation (red nucleotide) and high degree of conservation (red dashed box). <bold>d,</bold> 18S rRNA-normalized relative expression of indicated amplicons; n=3 independent lung tissue donors (controls), n=5 independently isolated lung regions (NEK10<sup>G&gt;C</sup>), n=3 independently isolated HBEC lines for NEK10<sup>G&gt;C</sup>, n=1 for remaining samples, mean &#xB1;S.D. <bold>e,</bold> immunoblotting against the indicated proteins from cultured HBECs and ALI, NEK10 immunogen indicated, representative of 3 experiments. <bold>f,</bold> schematic representation of NEK10 cDNA sequencing results from indicated genotypes, common (yellow) and NEK10<sup>G&gt;C</sup> specific (red) residues indicated, canonical and cryptic splice donor motifs highlighted. <bold>g,</bold> immunoblotting after transient transfection of HEK293T cells with the indicated cDNAs, representative of 2 experiments. <bold>h,</bold> results of genome-wide linkage analysis incorporating individuals (n=15) highlighted with asterisks in (<xref rid="F5" ref-type="fig">Extended Data Fig. 1a</xref>, <xref rid="F5" ref-type="fig">1e</xref>, <xref rid="F5" ref-type="fig">1g</xref>), peak bounded by marker SNPs rs13072262 and rs17798444, red line indicates LOD 3.3, equivalent to genome-wide p&lt;0.05. Images in (<bold>c</bold>) and (<bold>f</bold>) generated from UCSC genome browser hg19 assembly (<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu">http://genome.ucsc.edu</ext-link>).</p>
+      </caption>
+      <graphic xlink:href="nihms-1546020-f0001"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Fig. 2:</label>
+      <caption>
+        <title>NEK10 is a ciliated cell-specific gene required for effective mucociliary transport</title>
+        <p id="P47"><bold>a,</bold> 18S rRNA-normalized relative expression of indicated transcripts from FACS-sorted ALI cells; dashed line indicates expression level from unsorted mature ALI. <bold>b,</bold> confocal immunofluorescence of GFP in ciliated cells in NEK10p:eGFP ALI, representative of 2 independent ALI differentiations, scale bar 10&#x3BC;m. <bold>c,</bold> pseudocolored video microscopy of ALI of the indicated genotypes, representative of 3 independent ALI differentiations, scale bars 50&#x3BC;m. <bold>d,</bold> MCT (&#x3BC;OCT) of mature ALI of the indicated genotypes, n=485 (NEK10<sup>WT</sup>), 180 (NEK10<sup>G&gt;C</sup>) pooled from 3 independent ALI differentiations, plot indicates median (center line), 25<sup>th</sup>/75<sup>th</sup> percentiles (box), 10<sup>th</sup>/90<sup>th</sup> (whiskers) percentiles, and remaining points (open circles). <bold>e,</bold> PCL (&#x3BC;OCT) of ALI of the indicated genotypes, n=11 (NEK10<sup>WT</sup>), 12 (NEK10<sup>G&gt;C</sup>) pooled from 3 independent ALI differentiations, mean &#xB1;S.E.M. <bold>f,</bold> pseudocolored video microscopy of CRISPR/Cas9-edited ALI, representative fields from 3 independent ALI differentiations, scale bars 50&#x3BC;m. <bold>g,</bold> MCT of CRISPR/Cas9-edited ALI, n=361 (sgAAVS1), 131 (sgNEK10a), 59 (sgNEK10b), 104 (sgNEK10c) pooled from 3 independent ALI differentiations, plotted as in (<bold>g</bold>). <bold>h,</bold> PCL of CRISPR/Cas9-edited ALI, n=4 (sgAAVS1), 4 (sgNEK10a), 5 (sgNEK10b), 6 (sgNEK10c) pooled from 3 independent ALI differentiations, mean &#xB1;S.E.M. <bold>i,</bold> MCT of NEK10<sup>G&gt;C</sup> ALI expressing the indicated cDNAs, n=71 (no cDNA), 254 (NEK10<sup>WT</sup>), 129 (NEK10<sup>K548R</sup>), 1081 (NEK10<sup>S684D</sup>), pooled from 3 independent ALI differentiations, mean &#xB1;S.E.M. <bold>j,</bold> MCT of NEK10<sup>WT</sup> ALI expressing the indicated cDNAs, n=1385 (FOXJ1:NEK10<sup>K548R</sup>), 1624 (FOXJ1:NEK10<sup>WT</sup>), 728 (FOXJ1:NEK10<sup>S684D</sup>), 401 (NEK10:NEK10<sup>K548R</sup>), 426 (NEK10:NEK10<sup>WT</sup>) pooled from 3 independent ALI differentiations, plotted as in (<bold>g</bold>). *p&#x2264;0.05, **p&#x2264;0.01, ****p&#x2264;0.0001</p>
+      </caption>
+      <graphic xlink:href="nihms-1546020-f0002"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Fig. 3:</label>
+      <caption>
+        <title>Morphologically abnormal ciliated cells in NEK10-deficient airway</title>
+        <p id="P48"><bold>a,</bold> schematic masking workflow for IFC morphological analysis. <bold>b,</bold> histogram of ciliary zone thickness of mature ALI MCCs of the indicated genotypes, n=4108 (NEK10<sup>WT</sup>), 3513 (NEK10<sup>G&gt;C</sup>), shaded bars indicate medians &#xB1;0.25&#x3BC;m. <bold>c,</bold> histogram of ciliary area of mature ALI MCCs of the indicated genotypes, n=4108 (NEK10<sup>WT</sup>), 3513 (NEK10<sup>G&gt;C</sup>). <bold>d,</bold> single cell images taken from the shaded regions in (<bold>b</bold>), scale bars 7&#x3BC;m. <bold>e,</bold> confocal maximum intensity projections (MIPs) of ALI of the indicated genotype and maturity following IF against Ac-&#x3B1;-tubulin, representative of 3 independent ALI differentiations, scale bars 25&#x3BC;m (left 4 panels) and 10&#x3BC;m (right 2 panels). <bold>f,</bold> confocal MIPs of mature ALI after IF against basal body marker centrin, dashed boxes mark full resolution regions in middle panels, scale bars 10&#x3BC;m (left 2 panels) and 1&#x3BC;m (middle 2 panels); column graph: centrin puncta per &#x3BC;m<xref rid="R2" ref-type="bibr">2</xref> (mean &#xB1;S.D.) of ciliated cell surface area, n=71 cells and 10,855 puncta (NEK10<sup>WT</sup>), 38 cells and 5,369 puncta (NEK10<sup>G&gt;C</sup>) pooled from 4 independent ALI differentiations. <bold>g,</bold> confocal MIPs of mature ALI after IF against PCP marker Vangl1, dashed boxes mark full resolution regions in right panel, scale bars 10&#x3BC;m (left panels) and 2.5&#x3BC;m (right panels), representative of 3 independent ALI differentiations. <bold>h,</bold> hematoxylin/eosin stained human large airway tissue; upper 3 samples taken from lung explants during transplantation for end-stage bronchiectasis due to the indicated etiologies, 4<sup>th</sup> sample from patient undergoing resection for an unrelated diagnosis, scale bars 5&#x3BC;m. ****p&#x2264;0.0001.</p>
+      </caption>
+      <graphic xlink:href="nihms-1546020-f0003"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Fig. 4:</label>
+      <caption>
+        <title>NEK10 regulates ciliary length through widespread effects on the ciliary proteome</title>
+        <p id="P49"><bold>a,</bold> SEM of mature ALI of the indicated genotype, dashed boxes mark full resolution regions in right panel, scale bars 10&#x3BC;m (left panels) or 1&#x3BC;m (right panels), representative of 3 independent ALI differentiations. <bold>b,</bold> STEM of mature ALI of the indicated genotype after embedding and sectioning orthogonal to the epithelial surface, tick marks spaced at 1&#x3BC;m, representative of 3 independent ALI differentiations. <bold>c,</bold> representative negative stain EM grids prepared from purified cilia of the indicated genotypes, red scale bar indicates 1&#x3BC;m, representative of 2 independent ALI differentiations. <bold>d,</bold> histogram of ciliary length from purified cilia of the indicated genotypes, n=101 (NEK10<sup>WT</sup>), 102 (NEK10<sup>G&gt;C</sup>) pooled from 2 independent ALI differentiations; inset: box-and-whisker plot of these data, center-line indicates median, box bounds 25<sup>th</sup> and 75<sup>th</sup> percentile, whiskers indicate 1.5*IQR, circles indicate outliers. <bold>e,</bold> cumulative distribution of phosphopeptides by log<sub>2</sub> fold change, previously identified motile ciliary proteins in red, all other detected proteins in black, sgNEK10b and sgNEK10c are independently targeting guide RNAs validated in (<xref rid="F7" ref-type="fig">Extended Data Fig. 3d</xref>). <bold>f,</bold> Table of ciliary genes by functional class with phosphopeptides depleted &#x2265;2-fold upon NEK10 deletion. ****p&#x2264;0.0001</p>
+      </caption>
+      <graphic xlink:href="nihms-1546020-f0004"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

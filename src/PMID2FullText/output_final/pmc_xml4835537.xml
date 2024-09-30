@@ -1,0 +1,1108 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">27080313</article-id>
+      <article-id pub-id-type="pmc">4835537</article-id>
+      <article-id pub-id-type="pii">ncomms11253</article-id>
+      <article-id pub-id-type="doi">10.1038/ncomms11253</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic>CCNF</italic> mutations in amyotrophic lateral sclerosis and frontotemporal dementia</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Williams</surname>
+            <given-names>Kelly L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+          <xref ref-type="aff" rid="a3">3</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6319-9473</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Topp</surname>
+            <given-names>Simon</given-names>
+          </name>
+          <xref ref-type="aff" rid="a4">4</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5200-3284</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Shu</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Smith</surname>
+            <given-names>Bradley</given-names>
+          </name>
+          <xref ref-type="aff" rid="a4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fifita</surname>
+            <given-names>Jennifer A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Warraich</surname>
+            <given-names>Sadaf T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Katharine Y.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Farrawell</surname>
+            <given-names>Natalie</given-names>
+          </name>
+          <xref ref-type="aff" rid="a5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vance</surname>
+            <given-names>Caroline</given-names>
+          </name>
+          <xref ref-type="aff" rid="a4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hu</surname>
+            <given-names>Xun</given-names>
+          </name>
+          <xref ref-type="aff" rid="a4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chesi</surname>
+            <given-names>Alessandra</given-names>
+          </name>
+          <xref ref-type="aff" rid="a6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Leblond</surname>
+            <given-names>Claire S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a7">7</xref>
+          <xref ref-type="aff" rid="a8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lee</surname>
+            <given-names>Albert</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a9">9</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5156-0567</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rayner</surname>
+            <given-names>Stephanie L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sundaramoorthy</surname>
+            <given-names>Vinod</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dobson-Stone</surname>
+            <given-names>Carol</given-names>
+          </name>
+          <xref ref-type="aff" rid="a11">11</xref>
+          <xref ref-type="aff" rid="a12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Molloy</surname>
+            <given-names>Mark P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>van Blitterswijk</surname>
+            <given-names>Marka</given-names>
+          </name>
+          <xref ref-type="aff" rid="a13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dickson</surname>
+            <given-names>Dennis W.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a13">13</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7189-7917</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Petersen</surname>
+            <given-names>Ronald C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Graff-Radford</surname>
+            <given-names>Neill R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Boeve</surname>
+            <given-names>Bradley F.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Murray</surname>
+            <given-names>Melissa E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a13">13</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7379-2545</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pottier</surname>
+            <given-names>Cyril</given-names>
+          </name>
+          <xref ref-type="aff" rid="a13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Don</surname>
+            <given-names>Emily</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Winnick</surname>
+            <given-names>Claire</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>McCann</surname>
+            <given-names>Emily P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hogan</surname>
+            <given-names>Alison</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Daoud</surname>
+            <given-names>Hussein</given-names>
+          </name>
+          <xref ref-type="aff" rid="a7">7</xref>
+          <xref ref-type="aff" rid="a8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Levert</surname>
+            <given-names>Annie</given-names>
+          </name>
+          <xref ref-type="aff" rid="a7">7</xref>
+          <xref ref-type="aff" rid="a8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dion</surname>
+            <given-names>Patrick A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a7">7</xref>
+          <xref ref-type="aff" rid="a8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mitsui</surname>
+            <given-names>Jun</given-names>
+          </name>
+          <xref ref-type="aff" rid="a16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ishiura</surname>
+            <given-names>Hiroyuki</given-names>
+          </name>
+          <xref ref-type="aff" rid="a16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Takahashi</surname>
+            <given-names>Yuji</given-names>
+          </name>
+          <xref ref-type="aff" rid="a16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Goto</surname>
+            <given-names>Jun</given-names>
+          </name>
+          <xref ref-type="aff" rid="a16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kost</surname>
+            <given-names>Jason</given-names>
+          </name>
+          <xref ref-type="aff" rid="a17">17</xref>
+          <xref ref-type="aff" rid="a18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gellera</surname>
+            <given-names>Cinzia</given-names>
+          </name>
+          <xref ref-type="aff" rid="a19">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gkazi</surname>
+            <given-names>Athina Soragia</given-names>
+          </name>
+          <xref ref-type="aff" rid="a4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Miller</surname>
+            <given-names>Jack</given-names>
+          </name>
+          <xref ref-type="aff" rid="a4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stockton</surname>
+            <given-names>Joanne</given-names>
+          </name>
+          <xref ref-type="aff" rid="a20">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Brooks</surname>
+            <given-names>William S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a11">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Boundy</surname>
+            <given-names>Karyn</given-names>
+          </name>
+          <xref ref-type="aff" rid="a21">21</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Polak</surname>
+            <given-names>Meraida</given-names>
+          </name>
+          <xref ref-type="aff" rid="a22">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mu&#xF1;oz-Blanco</surname>
+            <given-names>Jos&#xE9; Luis</given-names>
+          </name>
+          <xref ref-type="aff" rid="a23">23</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Esteban-P&#xE9;rez</surname>
+            <given-names>Jes&#xFA;s</given-names>
+          </name>
+          <xref ref-type="aff" rid="a24">24</xref>
+          <xref ref-type="aff" rid="a25">25</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>R&#xE1;bano</surname>
+            <given-names>Alberto</given-names>
+          </name>
+          <xref ref-type="aff" rid="a26">26</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hardiman</surname>
+            <given-names>Orla</given-names>
+          </name>
+          <xref ref-type="aff" rid="a27">27</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Morrison</surname>
+            <given-names>Karen E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a20">20</xref>
+          <xref ref-type="aff" rid="a28">28</xref>
+          <xref ref-type="aff" rid="a29">29</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ticozzi</surname>
+            <given-names>Nicola</given-names>
+          </name>
+          <xref ref-type="aff" rid="a30">30</xref>
+          <xref ref-type="aff" rid="a31">31</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Silani</surname>
+            <given-names>Vincenzo</given-names>
+          </name>
+          <xref ref-type="aff" rid="a30">30</xref>
+          <xref ref-type="aff" rid="a31">31</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>de Belleroche</surname>
+            <given-names>Jacqueline</given-names>
+          </name>
+          <xref ref-type="aff" rid="a32">32</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Glass</surname>
+            <given-names>Jonathan D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a22">22</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kwok</surname>
+            <given-names>John B. J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a11">11</xref>
+          <xref ref-type="aff" rid="a12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guillemin</surname>
+            <given-names>Gilles J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8105-4470</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chung</surname>
+            <given-names>Roger S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tsuji</surname>
+            <given-names>Shoji</given-names>
+          </name>
+          <xref ref-type="aff" rid="a16">16</xref>
+          <xref ref-type="aff" rid="a33">33</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Brown</surname>
+            <given-names>Robert H.</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <xref ref-type="aff" rid="a18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Garc&#xED;a-Redondo</surname>
+            <given-names>Alberto</given-names>
+          </name>
+          <xref ref-type="aff" rid="a24">24</xref>
+          <xref ref-type="aff" rid="a25">25</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rademakers</surname>
+            <given-names>Rosa</given-names>
+          </name>
+          <xref ref-type="aff" rid="a13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Landers</surname>
+            <given-names>John E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gitler</surname>
+            <given-names>Aaron D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a6">6</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8603-1526</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rouleau</surname>
+            <given-names>Guy A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a7">7</xref>
+          <xref ref-type="aff" rid="a8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cole</surname>
+            <given-names>Nicholas J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yerbury</surname>
+            <given-names>Justin J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a5">5</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2528-7039</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Atkin</surname>
+            <given-names>Julie D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shaw</surname>
+            <given-names>Christopher E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nicholson</surname>
+            <given-names>Garth A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+          <xref ref-type="aff" rid="a3">3</xref>
+          <xref ref-type="aff" rid="a34">34</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Blair</surname>
+            <given-names>Ian P.</given-names>
+          </name>
+          <xref ref-type="corresp" rid="c1">a</xref>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <aff id="a1"><label>1</label><institution>Department of Biomedical Sciences, Faculty of Medicine and Health Sciences, Macquarie University</institution>, Sydney, New South Wales 2109, <country>Australia</country></aff>
+        <aff id="a2"><label>2</label><institution>Northcott Neuroscience Laboratory, ANZAC Research Institute</institution>, Sydney, New South Wales 2139, <country>Australia</country></aff>
+        <aff id="a3"><label>3</label><institution>Sydney Medical School, University of Sydney</institution>, Sydney, New South Wales 2006, <country>Australia</country></aff>
+        <aff id="a4"><label>4</label><institution>Medical Research Council Centre for Neurodegeneration Research, Department of Clinical Neuroscience, Institute of Psychiatry, King's College London</institution>, London SE5 8AF, <country>UK</country></aff>
+        <aff id="a5"><label>5</label><institution>Illawarra Health and Medical Research Institute, School of Biological Sciences, University of Wollongong</institution>, Wollongong, New South Wales 2522, <country>Australia</country></aff>
+        <aff id="a6"><label>6</label><institution>Department of Genetics, Stanford University School of Medicine</institution>, Stanford, California 94305, <country>USA</country></aff>
+        <aff id="a7"><label>7</label><institution>Montreal Neurological Institute and Hospital, Department of Neurology and Neurosurgery, McGill University</institution>, Montreal, Qu&#xE9;bec, <country>Canada</country> H3A 2B4</aff>
+        <aff id="a8"><label>8</label><institution>Pathology and Cellular Biology Department, Montreal University</institution>, Montreal, QC H3T 1J4 Qu&#xE9;bec, <country>Canada</country></aff>
+        <aff id="a9"><label>9</label><institution>Australian Proteome Analysis Facility, Macquarie University</institution>, Sydney, New South Wales 2109, <country>Australia</country></aff>
+        <aff id="a10"><label>10</label><institution>Department of Biochemistry, La Trobe University</institution>, Melbourne, Victoria 3086, <country>Australia</country></aff>
+        <aff id="a11"><label>11</label><institution>Neuroscience Research Australia, Randwick</institution>, Sydney, New South Wales 2031, <country>Australia</country></aff>
+        <aff id="a12"><label>12</label><institution>School of Medical Sciences, University of New South Wales, Kensington</institution>, Sydney, New South Wales 2052, <country>Australia</country></aff>
+        <aff id="a13"><label>13</label><institution>Department of Neuroscience, Mayo Clinic Florida</institution>, Jacksonville, Florida 32224, <country>USA</country></aff>
+        <aff id="a14"><label>14</label><institution>Department of Neurology, Mayo Clinic Rochester</institution>, Rochester, Minneapolis 55905, <country>USA</country></aff>
+        <aff id="a15"><label>15</label><institution>Department of Neurology, Mayo Clinic Florida</institution>, Jacksonville, Florida, 32224, <country>USA</country></aff>
+        <aff id="a16"><label>16</label><institution>Medical Genome Center, The University of Tokyo Hospital, The University of Tokyo</institution>, Tokyo 113-8655, <country>Japan</country></aff>
+        <aff id="a17"><label>17</label><institution>Worcester Polytechnic Institute</institution>, Worcester, Massachusetts 01609, <country>USA</country></aff>
+        <aff id="a18"><label>18</label><institution>Department of Neurology, University of Massachusetts Medical School</institution>, Worcester, Massachusetts 01605, <country>USA</country></aff>
+        <aff id="a19"><label>19</label><institution>Unit of Genetics of Neurodegenerative and Metabolic Diseases, Fondazione IRCCS Istituto Neurologico &#x2018;Carlo Besta'</institution>, 20133 Milan, <country>Italy</country></aff>
+        <aff id="a20"><label>20</label><institution>School of Clinical and Experimental Medicine, College of Medical and Dental Sciences, University of Birmingham</institution>, Birmingham B15 2TT, <country>UK</country></aff>
+        <aff id="a21"><label>21</label><institution>The Queen Elizabeth Hospital</institution>, Woodville South, South Australia 5011, <country>Australia</country></aff>
+        <aff id="a22"><label>22</label><institution>Department of Neurology, Emory University</institution>, Atlanta, Georgia 30322, <country>USA</country></aff>
+        <aff id="a23"><label>23</label><institution>Unidad de ELA, Instituto de Investigaci&#xF3;n Hospital Gregorio Mara&#xF1;&#xF3;n de Madrid</institution>, Sermas 28007, <country>Spain</country></aff>
+        <aff id="a24"><label>24</label><institution>Unidad de ELA, Instituto de Investigaci&#xF3;n Hospital 12 de Octubre de Madrid</institution>, Sermas 28041, <country>Spain</country></aff>
+        <aff id="a25"><label>25</label><institution>Centro de Investigaci&#xF3;n Biom&#xE9;dica en Red de Enfermedades Raras (CIBERER U-723)</institution>, Madrid 28029, <country>Spain</country></aff>
+        <aff id="a26"><label>26</label><institution>Banco de Tejidos, Centro Alzheimer&#x2014;Fundaci&#xF3;n Reina Sofia, Fundaci&#xF3;n CIEN</institution>, Madrid 28071, <country>Spain</country></aff>
+        <aff id="a27"><label>27</label><institution>Academic Unit of Neurology, Trinity Biomedical Sciences Institute, Trinity College Dublin</institution>, Dublin 2, <country>Republic of Ireland</country></aff>
+        <aff id="a28"><label>28</label><institution>Queen Elizabeth Hospital, University Hospitals Birmingham NHS Foundation Trust</institution>, Birmingham B15 2TH, <country>UK</country></aff>
+        <aff id="a29"><label>29</label><institution>Faculty of Medicine, University of Southampton</institution>, Southampton SO17 1BJ, <country>UK</country></aff>
+        <aff id="a30"><label>30</label><institution>Department of Neurology and Laboratory of Neuroscience, IRCCS Istituto Auxologico Italiano</institution>, 20149 Milan, <country>Italy</country></aff>
+        <aff id="a31"><label>31</label><institution>Department of Pathophysiology and Transplantation, &#x2018;Dino Ferrari' Center&#x2014;Universit&#xE0; degli Studi di Milano</institution>, 20122 Milan, <country>Italy</country></aff>
+        <aff id="a32"><label>32</label><institution>Neurogenetics Group, Division of Brain Sciences, Imperial College London, Hammersmith Hospital Campus</institution>, London W12 0NN, <country>UK</country></aff>
+        <aff id="a33"><label>33</label><institution>Department of Neurology, Graduate School of Medicine, The University of Tokyo</institution>, Tokyo 113-8655, <country>Japan</country></aff>
+        <aff id="a34"><label>34</label><institution>Molecular Medicine Laboratory, Concord Hospital</institution>, New South Wales 2139, <country>Australia</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="c1">
+          <label>a</label>
+          <email>ian.blair@mq.edu.au</email>
+        </corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>15</day>
+        <month>04</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2016</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>11253</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>08</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>07</day>
+          <month>03</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2016, Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <copyright-holder>Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-holder>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <!--author-paid-->
+          <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) are overlapping, fatal neurodegenerative disorders in which the molecular and pathogenic basis remains poorly understood. Ubiquitinated protein aggregates, of which TDP-43 is a major component, are a characteristic pathological feature of most ALS and FTD patients. Here we use genome-wide linkage analysis in a large ALS/FTD kindred to identify a novel disease locus on chromosome 16p13.3. Whole-exome sequencing identified a <italic>CCNF</italic> missense mutation at this locus. Interrogation of international cohorts identified additional novel <italic>CCNF</italic> variants in familial and sporadic ALS and FTD. Enrichment of rare protein-altering <italic>CCNF</italic> variants was evident in a large sporadic ALS replication cohort. <italic>CCNF</italic> encodes cyclin F, a component of an E3 ubiquitin&#x2013;protein ligase complex (SCF<sup>Cyclin F</sup>). Expression of mutant <italic>CCNF</italic> in neuronal cells caused abnormal ubiquitination and accumulation of ubiquitinated proteins, including TDP-43 and a SCF<sup>Cyclin F</sup> substrate. This implicates common mechanisms, linked to protein homeostasis, underlying neuronal degeneration.</p>
+      </abstract>
+      <abstract abstract-type="web-summary">
+        <p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="i1" xlink:href="ncomms11253-i1.jpg"/>Ian Blair and colleagues use genome-wide linkage analysis and whole exome sequencing to identify mutations in the <italic>CCNF</italic> gene in large cohorts of amyotrophic lateral sclerosis and frontotemporal dementia patients. In addition to validating the mutations in international cohorts, the authors also show that mutant <italic>CCNF</italic> gene product affects ubiquitination and protein degradation in cultured cells.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p>Amyotrophic lateral sclerosis (ALS) is a late-onset fatal disorder characterized by the progressive degeneration of upper and lower motor neurons. Approximately 10% of ALS cases have a positive family history (familial ALS) and appear clinically indistinguishable from sporadic ALS cases. Mutations in several genes including <italic>SOD1</italic>, <italic>TARDBP</italic>, <italic>FUS</italic>, <italic>UBQLN2</italic>, <italic>PFN1</italic>, <italic>OPTN</italic>, <italic>VCP</italic>, <italic>MATR3</italic>, <italic>TUBA4A</italic> and <italic>C9ORF72</italic> account for approximately two-thirds of familial ALS and 5% of sporadic ALS cases<xref ref-type="bibr" rid="b1">1</xref><xref ref-type="bibr" rid="b2">2</xref><xref ref-type="bibr" rid="b3">3</xref><xref ref-type="bibr" rid="b4">4</xref><xref ref-type="bibr" rid="b5">5</xref><xref ref-type="bibr" rid="b6">6</xref><xref ref-type="bibr" rid="b7">7</xref><xref ref-type="bibr" rid="b8">8</xref><xref ref-type="bibr" rid="b9">9</xref><xref ref-type="bibr" rid="b10">10</xref><xref ref-type="bibr" rid="b11">11</xref>. Other ALS families are not linked to known loci and the cause of most sporadic ALS also remains unknown. Upto 15% of ALS patients are also diagnosed with frontotemporal dementia (FTD) and segregation of both ALS and FTD may be seen within families, particularly those with mutations in <italic>C9ORF72</italic> (refs <xref ref-type="bibr" rid="b7">7</xref>, <xref ref-type="bibr" rid="b8">8</xref>).</p>
+    <p>The aetiology of ALS remains poorly understood but recent ALS gene discoveries are providing insight into pathological disease mechanisms and are critical to the development of <italic>in vitro</italic> and <italic>in vivo</italic> models to study pathogenesis. Coupling linkage analysis with next-generation sequencing provides a powerful approach for the identification of novel ALS genes. Here we use this approach to discover a pathogenic <italic>CCNF</italic> mutation in a large ALS-FTD family. Additional <italic>CCNF</italic> mutations were identified in diverse international familial ALS and FTD cohorts. Significant enrichment of novel and rare protein-altering variants in <italic>CCNF</italic> was observed in a replication cohort of sporadic ALS cases relative to controls. A hallmark pathological feature of most ALS and FTD cases is the presence of abnormally ubiquitinated proteins, particularly TDP-43, in neuronal cytoplasmic inclusions<xref ref-type="bibr" rid="b12">12</xref>. We demonstrated that mutant cyclin F, encoded by <italic>CCNF</italic>, resulted in abnormal ubiquitination and accumulation of ubiquitinated proteins, including TDP-43.</p>
+    <sec disp-level="1">
+      <title>Results</title>
+      <sec disp-level="2">
+        <title>Linkage mapping implicates a new ALS locus on chromosome 16</title>
+        <p>To identify novel ALS loci, we performed two independent genome-wide scans for linkage in an Australian multi-generational family (FALS10, historically of UK ancestry) comprising 10 individuals with ALS and/or FTD (<xref ref-type="fig" rid="f1">Fig. 1a</xref>). The family displays autosomal dominant inheritance of disease and mutations in all known ALS genes were excluded. The first genome-wide scan for linkage, which used 10&#x2009;K Affymetrix single-nucleotide polymorphism (SNP) arrays, implicated candidate loci with maximum multipoint LOD scores &gt;1.9 but &lt;3, on chromosomes 11p15.4-p14.3, 16p13.3-p12.3 and 20p13-p12.2, respectively (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1b</xref>). The second genome-wide scan for linkage, which used 539 microsatellite markers, generated LOD scores &gt;3.0 at a single candidate region on chromosome 16 (maximum genome-wide two-point LOD score of 3.16, <italic>&#x3B8;</italic>=0, at D16S3065) that overlapped the chromosome 16 interval identified by the initial, SNP-based, linkage scan (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1a</xref>). Fine mapping and recombinant haplotype analysis using a dense coverage of microsatellite markers spanning the chromosome 16 interval refined the minimal candidate region to 7.5&#x2009;Mb on chromosome 16p13.3 flanked by D16S521 and D16S418, with a maximum two-point LOD score of 3.24, <italic>&#x3B8;</italic>=0, at D16S3082 (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 1</xref>). Multipoint linkage analysis of the 7.5&#x2009;Mb disease haplotype indicated LOD scores &gt;3 across the entire linked disease interval (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1c</xref>). In summary, unbiased genome-wide linkage analysis in family FALS10 identified a single novel familial ALS/FTD locus on chromosome 16p13.3.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>A missense mutation in <italic>CCNF</italic> in a large ALS/FTD family</title>
+        <p>Four family members with ALS or FTD (FALS10, individuals II:10, II:13, III:1 and III:15) were chosen for whole-exome sequencing. The mean read depth for these patients was &#xD7; 119.3, with an average of 6.01 &#xD7; 10<sup>9</sup> base pairs sequenced per individual. To identify candidate mutations, exome sequence variants were annotated and filtered (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 2</xref>) using the following criteria: the variant was present in four affected family members, resulted in altered amino-acid sequence, and was absent from public SNP databases including dbSNP137, the 1000 Genomes Project (&gt;0.001 frequency, October 2011 release), the NHLBI Exome Sequencing Project (ESP) exome variant server (6,503 sequenced human exomes), and ExAC database (&gt;0.001 frequency). Of the two variants that remained following filtering, one was located within the linked region on chromosome 16p13.3 and the other lies in a region on chromosome 22 that was excluded by linkage analysis (LOD scores &lt;&#x2212;2 for multiple flanking markers). The variant in the linked region lies in the <italic>CCNF</italic> gene, leads to an A to G substitution at position 1,861 of the coding DNA (c.1861A&gt;G) and results in an amino-acid substitution of serine with glycine at codon 621 at the protein level (p.S621G). Sanger sequencing of 29 family members demonstrated segregation of the mutation in all affected family members for whom DNA was available (three ALS and one FTD). We also genotyped the offspring of other ALS patients for whom DNA was unavailable (deceased), and demonstrated segregation of the mutation in a further three patients (that is, obligate carriers, <xref ref-type="fig" rid="f1">Fig. 1a,b</xref>). As such, we have shown segregation of the <italic>CCNF</italic> c.1861A&gt;G mutation in seven ALS patients from family FALS10. The mutation was present in four at-risk family members (three &lt;40 years, one &lt;60 years). This variant was absent from 1,831 control individuals recruited from the same population. This variant is present in the ExAC database as a singleton (MAF=8.629 &#xD7; 10<sup>&#x2212;6</sup>). It is important to note that the ExAC database also includes other reported ALS/FTD mutations as singletons (including <italic>SOD1</italic>, <italic>FUS</italic> and <italic>GRN</italic>). Here unbiased whole-exome sequencing in family FALS10 identified two novel missense variants as candidate pathogenic mutations, one of which lies within the novel linked locus on chromosome 16p13.3 and segregated with disease.</p>
+      </sec>
+      <sec disp-level="2">
+        <title><italic>CCNF</italic> variants in ALS/FTD from diverse geographic populations</title>
+        <p>To determine whether mutations in <italic>CCNF</italic> are present in other ALS and FTD patients, we used targeted sequencing, whole-exome sequencing or whole-genome sequencing in the following discovery cohorts: index cases from 75 Australian ALS families, 159 UK ALS families, 108 USA ALS families, 100 Canadian ALS families, 99 Italian ALS families, 32 Japanese ALS families, 30 Spanish ALS families, 16 Irish ALS families, 283 Japanese sporadic ALS cases, 168 French-Canadian sporadic ALS cases, 26 USA sporadic ALS cases, 49 USA ALS trios, 99 USA FTD (FTLD-TDP) cases, 43 Australian FTD families and 29 Australian sporadic FTD cases. In familial ALS and/or FTD patients, we identified five additional novel missense mutations in <italic>CCNF</italic> (<xref ref-type="table" rid="t1">Table 1</xref>). In sporadic ALS and/or FTD patients, we found 19 protein-altering variants in <italic>CCNF</italic> (missense, nonsense and frameshift), including seven novel variants (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 4</xref>). Sanger sequencing confirmed all novel <italic>CCNF</italic> variants. Most of the novel variants substitute amino acids that are highly conserved across species (<xref ref-type="fig" rid="f1">Fig. 1d</xref>). All variants were examined in large control cohorts and data sets including: dbSNP; NHLBI ESP Exome Variant Server, 1000 Genomes Project, ExAC, the Japanese Human Genetic Variation Database and 967 Australian control exomes (of European ancestry). Selected variants were also tested in population-specific control cohorts from the UK, USA, Canada and Japan. None of the familial mutations or novel sporadic variants were present in genotyped controls and were absent from the public databases (<xref ref-type="table" rid="t1">Table 1</xref>). The average age of disease onset in familial ALS cases with a <italic>CCNF</italic> mutation is 55.3&#xB1;8.0 (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 3</xref>). Detailed clinical descriptions are provided in the <xref ref-type="supplementary-material" rid="S1">Supplemental Information</xref>. No clear relationship was evident between the location of mutations and clinical phenotype. Familial ALS/FTD mutations in <italic>CCNF</italic> were present in the overall cohorts from these diverse geographic populations at frequencies ranging from 0.6 to 3.3%, which is comparable to the frequency of mutations in <italic>TARDBP</italic> (which encodes TDP-43) and <italic>FUS</italic> that have been reported in familial ALS cohorts<xref ref-type="bibr" rid="b13">13</xref>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Enrichment of rare protein-altering variants in sporadic ALS</title>
+        <p>To further evaluate whether rare protein-altering <italic>CCNF</italic> variants are associated with sporadic ALS, we examined an independent replication cohort of cases and controls. <italic>CCNF</italic> variants were identified in 611 Australian sporadic ALS cases and 1,424 cases from the ALS Data Browser data set. For the control data set, we used rare <italic>CCNF</italic> variants from the ExAC database (MAF &lt;0.0001). Variants were subject to analysis if they were considered functional (nonsense, missense or frameshift) and passed quality filtres (described in Methods). Fisher's exact test revealed an enrichment of rare protein-altering variants in <italic>CCNF</italic> among sporadic ALS patients (1.39%) compared with controls (0.67%), <italic>P</italic>=6.58 &#xD7; 10<sup>&#x2212;4</sup>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>UPS dysfunction and ubiquitination of TDP-43</title>
+        <p><italic>CCNF</italic> (also called <italic>FBXO1</italic>) encodes the 786 amino-acid cyclin F protein (<xref ref-type="fig" rid="f1">Fig. 1c</xref>). Cyclin F is a member of the cyclin protein family, but unlike most cyclins, it does not bind or activate a cyclin dependent kinase (CDK)<xref ref-type="bibr" rid="b14">14</xref>. Cyclin F is also a member of the F-box protein family characterized by an F-box motif that binds directly to SKP1, which in turn recruits CUL1 to form a SCF (SKP1-CUL1-F-box protein) E3 ubiquitin&#x2013;protein ligase complex (SCF<sup>Cyclin F</sup>)<xref ref-type="bibr" rid="b15">15</xref><xref ref-type="bibr" rid="b16">16</xref>. E3s mediate the ubiquitination and proteasomal degradation of target proteins and are an integral component of the ubiquitin proteasome system (UPS).</p>
+        <p>Aberrant misfolded proteins are targeted for disposal by protein degradation pathways including the UPS and autophagic&#x2013;lysosomal system, both of which are components of the complex network that maintains protein homeostasis (proteostasis). The accumulation of neuronal protein aggregates in ALS patients implicates dysfunction of the proteostasis network through inappropriate or inadequate response to aberrant proteins<xref ref-type="bibr" rid="b17">17</xref>. As a ubiquitin&#x2013;protein ligase, cyclin F catalyses the transfer of activated ubiquitin to target proteins<xref ref-type="bibr" rid="b15">15</xref>. To investigate whether the ALS/FTD-associated variants in cyclin F lead to proteostasis dysfunction, we used the UPS reporter, GFP<sup>u</sup>, that consists of a 16 amino-acid degron (CL1, a specific substrate for the UPS), fused to the carboxyl terminus of green fluorescent protein (GFP)<xref ref-type="bibr" rid="b18">18</xref>. The degron sequence ensures rapid degradation of the GFP fusion through ubiquitin-mediated pathways, and the accumulation of this GFP reporter indicates UPS impairment. We confirmed that GFP<sup>u</sup> signal correlates with UPS function in a motor neuron-like cell line (NSC-34) by inhibiting proteasome function using either the chemical inhibitor MG132, or expression of a mutant huntingtin exon 1 fragment containing an expanded polyQ sequence previously shown to inhibit the proteasome<xref ref-type="bibr" rid="b19">19</xref> (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2</xref>). Next, we co-transfected the NSC-34 cell line with GFP<sup>u</sup> and either mutant cyclin F or wild-type cyclin F (<xref ref-type="supplementary-material" rid="S1">Supplementary Table 4</xref>). Significantly higher levels of GFP<sup>u</sup> fluorescence were observed for cyclin F with ALS/FTD-associated variants, indicating UPS dysfunction (<xref ref-type="fig" rid="f2">Fig. 2a</xref>). This effect was independent of cyclin F expression levels (<xref ref-type="fig" rid="f2">Fig. 2b</xref>). To examine whether the significant accumulation of GFP<sup>u</sup> arose from the loss of proteasome activity or occurred upstream of the proteasome, we used two separate ubiquitin-independent small peptide 20S proteasome activity assays. These demonstrated that the UPS dysfunction was not due to altered proteolysis in the proteasome (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3</xref>), consistent instead with the dysfunction stemming from abnormal ubiquitination or transport to the proteasome, mechanisms that are mediated, in part, by cyclin F. Consistent with these observations, western blotting confirmed the presence of significantly more ubiquitinated proteins in neuronal cell lines expressing mutant cyclin F (<xref ref-type="fig" rid="f3">Fig. 3a,b</xref>). Collectively our data suggest that ALS/FTD-associated variants in <italic>CCNF</italic> modify the activity of SCF<sup>Cyclin F</sup> resulting in overaccumulation of ubiquitinated proteins. To specifically demonstrate this, we found higher levels of the known SCF<sup>Cyclin F</sup> target, RRM2 (<xref ref-type="fig" rid="f3">Fig. 3a,b</xref>), including higher levels of ubiquitinated RRM2 (<xref ref-type="fig" rid="f3">Fig. 3c</xref>), in neuronal cells expressing mutant cyclin F. Notably, we also observed substantially elevated levels of ubiquitinated TDP-43 in neuronal cells expressing mutant cyclin F (<xref ref-type="fig" rid="f3">Fig. 3c</xref>).</p>
+      </sec>
+    </sec>
+    <sec disp-level="1">
+      <title>Discussion</title>
+      <p>We performed whole-genome linkage analysis and whole-exome sequencing in one of the largest ALS/FTD pedigrees to be described in recent years. ALS/FTD was significantly linked to a single locus encompassing <italic>CCNF</italic> and exome sequencing identified a single <italic>CCNF</italic> mutation that segregated with seven affected family members. We extended mutation discovery and rare variant analysis to ALS/FTD cohorts from diverse geographic populations, most of European ancestry. Analysis in a replication cohort showed a significant enrichment of novel and rare protein-altering <italic>CCNF</italic> variants in sporadic ALS patients. This suggests that aberrant cyclin F plays a role in both familial and sporadic ALS pathogenesis. Diagnosis of primary lateral sclerosis (PLS, an upper motor neuron disease) in a mutation carrier suggests that the spectrum of <italic>CCNF</italic>-linked motor neuron disease is wider than ALS.</p>
+      <p>Neuronal accumulations of ubiquitinated TDP-43 are a major pathological feature of almost all ALS cases, and the majority of FTD cases. However, the mechanisms responsible for TDP-43 ubiquitination are poorly understood. We demonstrated that ALS/FTD-associated variants in <italic>CCNF</italic> are responsible for abnormal increases in ubiquitination of TDP-43 and may to be responsible for wider changes in protein homeostasis. Further studies can now commence to confirm whether <italic>CCNF</italic> mutations lead to aberrant misfolded proteins and the accumulation of neuronal protein aggregates in ALS and FTD patients.</p>
+      <p>Abnormal protein homeostasis has been hypothesized to play a role in ALS pathogenesis. Convincing genetic linkage to familial ALS has also been shown for <italic>UBQLN2</italic>, which encodes ubiquilin 2, a protein that physically associates with ubiquitin ligases and proteasomes to mediate protein degradation<xref ref-type="bibr" rid="b14">14</xref>. Ubiquilin-2-positive neuronal inclusions are seen in affected motor neurons of some ALS and ALS/FTD patients, and ALS-linked mutations in ubiquilin 2 have also been shown to impair protein degradation mediated by the UPS<xref ref-type="bibr" rid="b4">4</xref><xref ref-type="bibr" rid="b20">20</xref>. Several other molecules that are functionally linked with cellular protein degradation pathways have also been associated with ALS (reviewed by Ling <italic>et al</italic>.<xref ref-type="bibr" rid="b17">17</xref>). Putative ALS-associated variants have been described in <italic>SQSTM1</italic>/p62, a ubiquitin binding protein with roles in protein degradation via the proteasome and autophagy. Interestingly, one of these <italic>SQSTM1</italic>/p62 variants and two cyclin F mutations described here, lie in a PEST sequence, a domain that is thought to act as a signal peptide for protein degradation<xref ref-type="bibr" rid="b21">21</xref>. ALS mutations have also been described in OPTN, an autophagic adaptor protein that binds substrates targeted for degradation and delivers them to autophagosomes<xref ref-type="bibr" rid="b6">6</xref>. OPTN-linked pathogenic mechanisms remain to be determined. A <italic>VCP</italic> mutation linked to inclusion body myopathy with Paget's disease of the bone and frontotemporal dementia (IBMPFD) impairs ER-associated degradation of ubiquitinated proteins from the ER<xref ref-type="bibr" rid="b22">22</xref>. <italic>VCP</italic> mutations have also been described in ALS cases but the mechanisms by which these lead to motor neuron degeneration remain unclear<xref ref-type="bibr" rid="b10">10</xref>. There is also evidence that defects in molecules functionally related to cyclin F play a role in other neurodegenerative diseases. Mutations in the related F-box only protein 7 gene (<italic>FBXO7</italic>) cause autosomal recessive, early-onset, parkinsonian-pyramidal syndrome and lead to decreased stability of the FBXO7 protein<xref ref-type="bibr" rid="b23">23</xref>. Similar to cyclin F, the F-box motif of FBXO7 interacts directly with Skp1 to form the SCF E3 ubiquitin&#x2013;protein ligase complex<xref ref-type="bibr" rid="b15">15</xref>. Furthermore, around 10% of early-onset Parkinson's disease cases are caused by mutations in <italic>PARK2</italic>, which encodes Parkin, an E3-ubiquitin ligase. Parkin mutations impair degradation of its substrates, leading to accumulation of toxic products and eventually cell death<xref ref-type="bibr" rid="b24">24</xref>.</p>
+      <p>The known ALS proteins TDP-43 and FUS are capable of assembling into stress granules in response to oxidative stress and environmental insults, a process that is accelerated by ALS-linked mutations (reviewed by Li <italic>et al</italic>.<xref ref-type="bibr" rid="b25">25</xref>). Indeed, stress granules have been described as the crucibles of ALS pathogenesis<xref ref-type="bibr" rid="b25">25</xref>. Stress granules play a role in messenger RNA homeostasis and form during cellular stress, presumably to halt translation of non-essential transcripts. TIA-1, a messenger RNA-binding protein, translocates from the nucleus to seed stress granule formation in the cytoplasm. It was recently demonstrated that TIA-1 knockdown in mouse spinal cord and cerebellum led to marked and consistent increase in the expression of <italic>CCNF</italic><xref ref-type="bibr" rid="b26">26</xref>.</p>
+      <p>Like most known ALS-linked molecules, it remains to be determined whether the functional consequences of <italic>CCNF</italic> mutations lead to a toxic gain of function or dominant-negative loss of function or haploinsufficiency. We found one <italic>CCNF</italic> frameshift variant (p.L372fs) that did not segregate with disease, suggesting that a dominant toxic gain of function may be required for mutant <italic>CCNF</italic> pathogenicity.</p>
+      <p>Segregation of the mutation with disease was clearly established in the large discovery family but could not be determined for other familial mutations in the discovery cohort due to the absence of DNA from other affected family members. This is now typical for familial ALS/FTD cohort studies, as almost all extended kindreds have been solved, leaving only single probands. We cannot conclusively determine that the additional novel familial <italic>CCNF</italic> mutations are the sole cause of disease, however, most substitute highly conserved residues and led to UPS dysfunction <italic>in vitro</italic>. Further resequencing of <italic>CCNF</italic> is warranted in other ALS and FTD cohorts, particularly those of European ancestry. Our data suggest that mutation of the encoded E3 ubiquitin ligase caused abnormal ubiquitination, implicating that common mechanisms, linked to protein homeostasis, underlie neurodegeneration in ALS and FTD. Additional functional studies, including animal models, can now commence to assess the pathogenic mechanism, and identify the targets of the mutant SCF<sup>Cyclin F</sup> complex. These target molecules may, in turn, be considered candidate ALS and FTD genes.</p>
+    </sec>
+    <sec disp-level="1">
+      <title>Methods</title>
+      <sec disp-level="2">
+        <title>Participants and samples</title>
+        <p>Patients, family members and unrelated controls were recruited under informed written consent as approved by the institutional review boards of Macquarie University, King's College London, Imperial College London, University of Massachusetts at Worcester, Stanford University, Emory University, McGill University Health Center, University of New South Wales, Mayo Clinic, Queen Elizabeth Hospital (South Birmingham Research Ethics Committee), Beaumont Hospital, Hospital Universitario 12 de Octubre, Fundaci&#xF3;n CIEN, IRCCS Istituto Auxologico Italiano and Fondazione IRCCS Istituto Neurologico &#x2018;C. Besta', and the University of Tokyo. Patients were diagnosed with definite or probable ALS according to El Escorial criteria<xref ref-type="bibr" rid="b27">27</xref>. Patients had previously been screened for mutations/expansions in known ALS genes including <italic>TARDBP</italic>, <italic>SOD1</italic>, <italic>FUS</italic>, <italic>UBQLN2</italic>, <italic>OPTN</italic>, <italic>VCP</italic>, <italic>PFN1</italic> and <italic>C9ORF72.</italic> Formalin-fixed, paraffin-embedded cervical spinal cord sections from Australian patients and neurologically normal controls were provided by New South Wales Tissue Resource Centre (Sydney, Australia).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Genetic linkage analysis</title>
+        <p>Genomic DNA was extracted from peripheral blood using standard protocols. For SNP-based genetic linkage analysis, genotyping was undertaken using the Affymetrix GeneChip Mapping 10Kv2.0 XbaI Array containing 10,204 SNP markers following the manufacturer's instructions and apparatus (Affymetrix, Santa Clara, CA, USA). The raw microarray feature intensities were processed using the Affymetrix Genotyping Tools software package (GCOS/GTYPE) to derive SNP genotypes, marker order and linear chromosomal location. Parametric multipoint linkage analysis of SNP data was performed using Merlin v1.1 with intermarker distances obtained from the Marshfield (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://research.marshfieldclinic.org/">http://research.marshfieldclinic.org/</ext-link>) and deCODE (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.decode.com/">http://www.decode.com/</ext-link>) sex-averaged SNP linkage maps.</p>
+        <p>For microsatellite-based genetic linkage analysis, genotyping was performed by deCODE genetics using 539 microsatellite markers spaced at an average of 8&#x2009;cM. Two-point and multipoint linkage analysis was performed using the FASTLINK v4.1 program of the easyLINKAGE v5.08 package<xref ref-type="bibr" rid="b28">28</xref><xref ref-type="bibr" rid="b29">29</xref> and graphed using R package lodplot v1.2. All available family members were used for analysis. Parameters for linkage analysis included autosomal dominant inheritance, age-dependent penetrance (0&#x2013;30 years, 1%; 31&#x2013;40 years, 30%; 41&#x2013;50 years, 50%; 51&#x2013;60 years, 70%; 61&#x2013;70 years, 85%, &gt;70 years, 90%), a disease allele frequency of 0.0001, equal male and female recombination, and equal marker allele frequencies. For fine mapping across the chr16p13.3 haplotype, control allele frequencies and, where available, CEPH allele frequencies were used to calculate two-point and multipoint LOD scores. Multipoint linkage analysis was performed under three penetrance models including the age-dependent penetrance classes described above, as well as 100 and 70% disease penetrance.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Sequencing and mutation analysis</title>
+        <p>Exomes were captured using TruSeq Exome Enrichment kit or Agilent SureSelectXT Human All Exon V4. Paired-end sequencing was performed using the Illumina HiSeq2000 instrument.</p>
+        <p><italic>CCNF</italic> exons were sequenced using Fluidigm Access Array target enrichment and the MiSeq sequencing platform (Illumina). Amplicon primers were designed using the Fluidigim D3 Design Studio to produce 150&#x2009;bp amplicons targeting the exons of <italic>CCNF</italic>.</p>
+        <p>Validation and analysis of the <italic>CCNF</italic> mutations was performed by direct DNA sequencing following PCR amplification of coding exons (NM_001761). PCR products were Sanger sequenced using Big-Dye terminator sequencing and an ABI 3730XL DNA analyser (Applied Biosystems).</p>
+        <p>SNP genotyping in control individuals was performed using a custom TaqMan SNP genotyping assay according to the manufacturer's instructions (Life Technologies) and analysed using a Viia 7 real-time PCR system (Life Technologies).</p>
+        <p>Control exome data from 967 neurologically healthy individuals of predominantly Western European descent obtained from the Diamantina Institute, University of Queensland (Diamantina Australian Control Collection).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Bioinformatics</title>
+        <p>Sequencing reads generated by the Illumina platform were aligned to the hg19 human genome assembly using BWA v0.6.1 (ref. <xref ref-type="bibr" rid="b30">30</xref>), variants were called using SAMtools v0.1.16 (ref. <xref ref-type="bibr" rid="b31">31</xref>) and annotated using ANNOVAR<xref ref-type="bibr" rid="b32">32</xref>. Annotated variants were compared among affected family members and controls using R v3.1.1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.R-project.org/">http://www.R-project.org/</ext-link>)<xref ref-type="bibr" rid="b33">33</xref>. Filtering of variants was performed using dbSNP (releases 131, 132, 134 and 137; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/SNP/">https://www.ncbi.nlm.nih.gov/SNP/</ext-link>), 1000 Genomes Project (Nov 2010 release; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.1000genomes.org/">http://www.1000genomes.org/</ext-link>) and the ESP exome variant server (ESP6500 data release; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://evs.gs.washington.edu/EVS/">http://evs.gs.washington.edu/EVS/</ext-link>).</p>
+        <p>Sequence reads generated by MiSeq were mapped to the hg19 human genome assembly using BWA<xref ref-type="bibr" rid="b30">30</xref>. GATK<xref ref-type="bibr" rid="b34">34</xref><xref ref-type="bibr" rid="b35">35</xref><xref ref-type="bibr" rid="b36">36</xref> was applied to mapped reads for realigning and recalibration of base quality scores and variant calling. ANNOVAR<xref ref-type="bibr" rid="b32">32</xref> was used for annotation of variants.</p>
+        <p>Quality filters for rare variant enrichment analysis include read depth &#x2A7E;10 in &gt;75% of all samples and genotype quality &gt;20.</p>
+        <p>Conservation of cyclin F orthologues was examined by aligning sequences from a variety of species (Entrez protein database; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://ncbi.nlm.nih.gov">http://ncbi.nlm.nih.gov</ext-link>) using Clustal Omega (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/Tools/msa/clustalo/">http://www.ebi.ac.uk/Tools/msa/clustalo/</ext-link>).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Plasmids and cloning</title>
+        <p>Expression constructs comprising wild type and mutant <italic>CCNF</italic> cDNA fused with an N-terminal mCherry were developed using pmCherry-C1-<italic>CCNF</italic> (Addgene, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.addgene.org/32975/">https://www.addgene.org/32975/</ext-link>) and Q5 Site-Directed Mutagenesis kit (NEB) according to the manufacturer's protocol. All constructs were verified by DNA sequencing.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Antibodies</title>
+        <p>The following primary antibodies were used in this study: rabbit polyclonal anti-cyclin F (cat # sc-952, Santa Cruz Biotechnology), mouse monoclonal anti-TDP-43 antibody (cat # H00023435-M01, Abnova), rabbit polyclonal anti-ubiquitin (Dako), mouse monoclonal anti-RRM2 (cat # ab57653, Abcam), anti-&#x3B2; actin (cat # A5441 [AC-15], Sigma-Aldrich). All antibodies were commercially sourced and validated according to the antibody data sheets.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Cell lines</title>
+        <p>Mouse NSC-34 (neuroblastoma/motor neuron-enriched primary spinal cord hybrid) cells were provided by Prof Neil Cashman, University of Toronto. Mouse neuroblastoma Neuro-2a cells, and human neuroblastoma SH-SY5Y cells were from the ATCC repository (ATCC Product Nos. CCL-131 and CRL-2266).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Confocal microscopy</title>
+        <p>Confocal fluorescence imaging was performed using a Leica DM6000 upright laser-scanning confocal microscope with Leica application suite advanced fluorescence software. Images were acquired with a &#xD7; 63 (1.4 numerical aperture) oil-immersion objective. Images were acquired using sequential mode to avoid crosstalk between two dyes. Immunohistochemistry imaging was performed with a Zeiss Axio Imager 2 with ZEN pro program, using a &#xD7; 40 objective.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Cell culture and transfection for UPS assays</title>
+        <p>NSC-34 cells were maintained in DMEM (Sigma Aldrich) containing 100&#x2009;U&#x2009;ml<sup>&#x2212;1</sup> penicillin, 100&#x2009;mg&#x2009;ml<sup>&#x2212;1</sup> streptomycin and 10% (v/v) heat-inactivated fetal bovine serum (Sigma Aldrich). Cells were maintained in a humidified 37&#x2009;&#xB0;C incubator with 5% CO<sub>2</sub>. For the UPS assay and Enzo proteasome assay, NSC-34 cells were plated at a density of 50,000 cells per well in six-well plate. For the Abcam proteasome assay, NSC-34 cells were plated at a density of 2,000 cells per well in 96-plate well plate. Transfections were carried out using Lipofectamine LTX (Life Technologies) according to manufacturer's protocol. Transfections included 2.5&#x2009;&#x3BC;g DNA for the UPS assay, 5&#x2009;&#x3BC;g DNA for the Enzo proteasome assay or 0.1&#x2009;&#x3BC;g DNA for the Abcam proteasome assay.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Ubiquitinated protein immunoprecipitation</title>
+        <p>Co-transfected Neuro-2a cells were lysed and total protein was extracted with sonication (10&#x2009;s, Setting 3, Branson Sonifier 450) in extraction buffer (1% (v/v) Nonidet P-40 in TBS (50&#x2009;mM Tris-HCl, pH 7.5, 150&#x2009;mM NaCl) with protease inhibitor cocktail). Cellular debris was pelleted at 18,000<italic>g</italic> (30&#x2009;min at 4&#x2009;&#xB0;C). Protein concentration was estimated using the BCA Protein Assay Reagent (Pierce Biotechnology). Typically, 3&#x2009;&#x3BC;g of anti-ubiquitin (Dako) per 500&#x2009;&#x3BC;g of protein extract was used for immunoprecipitations. Protein A/G magnetic beads (Pierce Biotechnology) were used to capture the antibody:protein complex. Immunoprecipitates were washed with TBS+1% (v/v) NP-40 (3 &#xD7; ) to remove non-specifically bound proteins, and then resuspended in 1 &#xD7; LDS buffer with 50&#x2009;mM DTT, and heated at 95&#x2009;&#xB0;C for 10&#x2009;min.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>UPS reporter assay and 20S proteasome activity assay</title>
+        <p>For the UPS reporter assay, NSC-34 cells were cultured in six-well plates for 24&#x2009;h, followed by co-transfection with a UPS-specific degron GFP<sup>u</sup> and cyclin F constructs. The GFP<sup>u</sup> reporter contains a CL1 sequence which signals ubiquitination and degradation by the proteasome<xref ref-type="bibr" rid="b18">18</xref><xref ref-type="bibr" rid="b37">37</xref>. The resulting GFP signal is a reporter for rate of protein degradation in the cell. Cells were collected 48&#x2009;h post transfection by trypsin and resuspended in PBS (Sigma-Aldrich). In order to show the sensitivity of GFP<sup>u</sup> construct, cells were either transfected with GFP<sup>u</sup> for 24&#x2009;h followed by MG132 (Calbiochem) treatment at various doses for a further 24&#x2009;h or co-transfected with GFPu and mCherry with or without MG132, or lastly co-transfected with GFP<sup>u</sup> and either Httex125Q or Httex146Q and incubated for 48&#x2009;h. The fluorescent intensity GFP in collected cells was analysed using flow cytometry Becton Dickinson LSR II. At least 50,000 cells per treatment were collected. Data were gated on mCherry-positive cells with an excitation at 541&#x2009;nm and an emission at 575&#x2009;nm. The geometric mean of the GFP signal from this population was collected with an excitation at 488&#x2009;nm and an emission at 520&#x2009;nm. Data were from three independent experiments.</p>
+        <p>The proteasome enzymatic activity of cyclin F was measured using either a 20S proteasome assay kit from Enzo Life Sciences or Abcam following the manufacturer's instructions. For the Enzo Life Sciences proteasome activity kit, NSC-34 cells were transfected wild-type pmCherry-C1-CCNF or mutant pmCherry-C1-CCNF in six-well plates and protein extract was generated by freeze&#x2013;thaw lysis 48&#x2009;h post-transfection. Protein concentration was measured by BCA protein assay (Thermo Scientific) and equal amount of protein was used in the assay. The proteasome activity was measured by hydrolysis of a fluorogenic peptide substrate Suc&#x2013;Leu&#x2013;Leu&#x2013;Val&#x2013;Tyr&#x2013;AMC (AMC: 7-amino-4-methylcoumarin). The substrate is cleaved by the 20S proteasome and the release of free AMC fluorophore is used as an indication of proteolytic activity. The fluorescent signal was measured by FLUOstar OPTIMA fluorescence plate reader (BMG Labtech) with an excitation at 360&#x2009;nm and an emission at 460&#x2009;nm. The data were collected at 2-min interval for 50&#x2009;min. For the Abcam proteasome activity kit, NSC-34 cells were transfected with wild-type pmCherry-C1-CCNF or mutant pmCherry-C1-CCNF in 96-well plates for 48&#x2009;h. A proteasome substrate Leu&#x2013;Leu&#x2013;Val&#x2013;Tyr&#x2013;R110 was added directly to the cells and incubated at 37&#x2009;&#xB0;C for 1&#x2009;h. The substrate is cleaved by the 20S proteasome and the fluorescent signal generated from the cleavage is used as an indication of proteolytic activity. The fluorescent signal was measured by FLUOstar OPTIMA fluorescence plate reader (BMG Labtech) with an excitation at 490&#x2009;nm and an emission at 525&#x2009;nm.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Statistical analysis of <italic>in vitro</italic> assays</title>
+        <p>All statistical analyses were performed using GraphPad Prism Software. Two-tail unpaired Student's <italic>t</italic>-tests (<italic>P</italic>&lt;0.05) were used for grouped GFP<sup>u</sup> data (wild-type, cyclin F mutation (familial and sporadic)). One-way analysis of variance with Dunnett's multiple comparison tests were used for comparison of GFPu levels in the presence of cyclin F variants, with wild type. Statistical analyses of other <italic>in vitro</italic> assays were performed using two-tailed unpaired Student's <italic>t</italic>-tests (<italic>P</italic>&lt;0.05). All values were mean&#xB1;s.e.m. The data met the assumptions of each specific statistical test. Variance was similar between groups. Sample size was chosen based on results from pilot studies.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1">
+      <title>Additional information</title>
+      <p><bold>How to cite this article:</bold> Williams, K. L. <italic>et al</italic>. <italic>CCNF</italic> mutations in amyotrophic lateral sclerosis and frontotemporal dementia. <italic>Nat. Commun.</italic> 7:11253 doi: 10.1038/ncomms11253 (2016).</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="S1">
+      <title>Supplementary Material</title>
+      <supplementary-material id="d33e18" content-type="local-data">
+        <caption>
+          <title>Supplementary Information</title>
+          <p>Supplementary Figures 1-4, Supplementary Tables 1-4 and Supplementary Note 1</p>
+        </caption>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms11253-s1.pdf"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank C. Cecere and M. Edwards for their assistance in compiling family information, Paul Leo, Emma Duncan and Matthew Brown for access to exome data from the Diamantina Australian Control Collection, Michael Simpson for the assembling and variant calling of the UK exome data and M. Hallupp for technical assistance. This work was funded by the Motor Neurone Disease Research Institute of Australia (grants to I.P.B. and J.D.A. and a Bill Gole fellowship to K.L.W.), National Health and Medical Research Council of Australia (1004670, 1107644, 1095215, 1092023, 1003032, 1034816, 1006141, 1030513 and 630428), The Snow Foundation, European Community's Seventh Framework programme (FP7/2007&#x2013;2013) under the grant agreement number 259867, Medical Research Council, Motor Neuron Disease Association (UK), Heaton-Ellis Trust, NIH/NINDS (1DP2OD0044171, R01 NS065317, P50 AG016574, R01 NS076471, R01 AG026251, P50 NS72187, P01 AG03949, R01NS073873, 1R01NS050557 and RC2-NS070-342), ALS Therapy Alliance, ALS Association, the Milton Safenowitz Post-Doctoral Fellowship for ALS research from the ALS Association (to M.v B.), the Mangurian Foundation, CurePSP, Project ALS, P2ALS, Angel Fund, Pierre L. de Bourgknecht ALS Research Foundation, Al-Athel ALS Research Foundation, CIHR (208973), MDA (153959), ARC Discovery Early Career Award (DE120102840), Fondo de Investigaci&#xF3;n Sanitaria of Spain (EC08/00049; PI10/00092), FUNDELA (Spanish foundation for the development of ALS research), Mireia Barneda project &#x2018;No llores, no te rindas', Midlands Neuroscience Teaching and Research Fund, and AriSLA (co-financed with support of &#x2018;5 &#xD7; 1,000'&#x2014;Healthcare research of the Ministry of Health, grants EXOMEFALS 2009, NOVALS 2012).</p>
+    </ack>
+    <ref-list>
+      <ref id="b1">
+        <mixed-citation publication-type="journal"><name><surname>Rosen</surname><given-names>D. R.</given-names></name>
+<etal/>. <article-title>Mutations in Cu/Zn superoxide dismutase gene are associated with familial amyotrophic lateral sclerosis</article-title>. <source>Nature</source>
+<volume>362</volume>, <fpage>59</fpage>&#x2013;<lpage>62</lpage> (<year>1993</year>).<pub-id pub-id-type="pmid">8446170</pub-id></mixed-citation>
+      </ref>
+      <ref id="b2">
+        <mixed-citation publication-type="journal"><name><surname>Sreedharan</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>TDP-43 mutations in familial and sporadic amyotrophic lateral sclerosis</article-title>. <source>Science</source>
+<volume>319</volume>, <fpage>1668</fpage>&#x2013;<lpage>1672</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18309045</pub-id></mixed-citation>
+      </ref>
+      <ref id="b3">
+        <mixed-citation publication-type="journal"><name><surname>Vance</surname><given-names>C.</given-names></name>
+<etal/>. <article-title>Mutations in FUS, an RNA processing protein, cause familial amyotrophic lateral sclerosis type 6</article-title>. <source>Science</source>
+<volume>323</volume>, <fpage>1208</fpage>&#x2013;<lpage>1211</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19251628</pub-id></mixed-citation>
+      </ref>
+      <ref id="b4">
+        <mixed-citation publication-type="journal"><name><surname>Deng</surname><given-names>H. X.</given-names></name>
+<etal/>. <article-title>Mutations in UBQLN2 cause dominant X-linked juvenile and adult-onset ALS and ALS/dementia</article-title>. <source>Nature</source>
+<volume>477</volume>, <fpage>211</fpage>&#x2013;<lpage>215</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21857683</pub-id></mixed-citation>
+      </ref>
+      <ref id="b5">
+        <mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>C. H.</given-names></name>
+<etal/>. <article-title>Mutations in the profilin 1 gene cause familial amyotrophic lateral sclerosis</article-title>. <source>Nature</source>
+<volume>488</volume>, <fpage>499</fpage>&#x2013;<lpage>503</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22801503</pub-id></mixed-citation>
+      </ref>
+      <ref id="b6">
+        <mixed-citation publication-type="journal"><name><surname>Maruyama</surname><given-names>H.</given-names></name>
+<etal/>. <article-title>Mutations of optineurin in amyotrophic lateral sclerosis</article-title>. <source>Nature</source>
+<volume>465</volume>, <fpage>223</fpage>&#x2013;<lpage>226</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20428114</pub-id></mixed-citation>
+      </ref>
+      <ref id="b7">
+        <mixed-citation publication-type="journal"><name><surname>DeJesus-Hernandez</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Expanded GGGGCC hexanucleotide repeat in noncoding region of C9ORF72 causes chromosome 9p-linked FTD and ALS</article-title>. <source>Neuron</source>
+<volume>72</volume>, <fpage>245</fpage>&#x2013;<lpage>256</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21944778</pub-id></mixed-citation>
+      </ref>
+      <ref id="b8">
+        <mixed-citation publication-type="journal"><name><surname>Renton</surname><given-names>A. E.</given-names></name>
+<etal/>. <article-title>A hexanucleotide repeat expansion in C9ORF72 is the cause of chromosome 9p21-linked ALS-FTD</article-title>. <source>Neuron</source>
+<volume>72</volume>, <fpage>257</fpage>&#x2013;<lpage>268</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21944779</pub-id></mixed-citation>
+      </ref>
+      <ref id="b9">
+        <mixed-citation publication-type="journal"><name><surname>Johnson</surname><given-names>J. O.</given-names></name>
+<etal/>. <article-title>Exome Sequencing Reveals VCP Mutations as a Cause of Familial ALS</article-title>. <source>Neuron</source>
+<volume>68</volume>, <fpage>857</fpage>&#x2013;<lpage>864</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">21145000</pub-id></mixed-citation>
+      </ref>
+      <ref id="b10">
+        <mixed-citation publication-type="journal"><name><surname>Johnson</surname><given-names>J. O.</given-names></name>
+<etal/>. <article-title>Mutations in the Matrin 3 gene cause familial amyotrophic lateral sclerosis</article-title>. <source>Nat.Neurosci.</source>
+<volume>17</volume>, <fpage>664</fpage>&#x2013;<lpage>666</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24686783</pub-id></mixed-citation>
+      </ref>
+      <ref id="b11">
+        <mixed-citation publication-type="journal"><name><surname>Smith</surname><given-names>B. N.</given-names></name>
+<etal/>. <article-title>Exome-wide rare variant analysis identifies TUBA4A mutations associated with familial ALS</article-title>. <source>Neuron</source>
+<volume>84</volume>, <fpage>324</fpage>&#x2013;<lpage>331</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25374358</pub-id></mixed-citation>
+      </ref>
+      <ref id="b12">
+        <mixed-citation publication-type="journal"><name><surname>Neumann</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Ubiquitinated TDP-43 in frontotemporal lobar degeneration and amyotrophic lateral sclerosis</article-title>. <source>Science</source>
+<volume>314</volume>, <fpage>130</fpage>&#x2013;<lpage>133</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">17023659</pub-id></mixed-citation>
+      </ref>
+      <ref id="b13">
+        <mixed-citation publication-type="journal"><name><surname>Robberecht</surname><given-names>W.</given-names></name> &amp; <name><surname>Philips</surname><given-names>T.</given-names></name>
+<article-title>The changing scene of amyotrophic lateral sclerosis</article-title>. <source>Nat. Rev. Neurosci.</source>
+<volume>14</volume>, <fpage>248</fpage>&#x2013;<lpage>264</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23463272</pub-id></mixed-citation>
+      </ref>
+      <ref id="b14">
+        <mixed-citation publication-type="journal"><name><surname>D'Angiolella</surname><given-names>V.</given-names></name>
+<etal/>. <article-title>SCF(Cyclin F) controls centrosome homeostasis and mitotic fidelity through CP110 degradation</article-title>. <source>Nature</source>
+<volume>466</volume>, <fpage>138</fpage>&#x2013;<lpage>142</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20596027</pub-id></mixed-citation>
+      </ref>
+      <ref id="b15">
+        <mixed-citation publication-type="journal"><name><surname>Bai</surname><given-names>C.</given-names></name>
+<etal/>. <article-title>SKP1 connects cell cycle regulators to the ubiquitin proteolysis machinery through a novel motif, the F-box</article-title>. <source>Cell</source>
+<volume>86</volume>, <fpage>263</fpage>&#x2013;<lpage>274</lpage> (<year>1996</year>).<pub-id pub-id-type="pmid">8706131</pub-id></mixed-citation>
+      </ref>
+      <ref id="b16">
+        <mixed-citation publication-type="journal"><name><surname>D'Angiolella</surname><given-names>V.</given-names></name>, <name><surname>Esencay</surname><given-names>M.</given-names></name> &amp; <name><surname>Pagano</surname><given-names>M.</given-names></name>
+<article-title>A cyclin without cyclin-dependent kinases: cyclin F controls genome stability through ubiquitin-mediated proteolysis</article-title>. <source>Trends Cell Biol.</source>
+<volume>23</volume>, <fpage>135</fpage>&#x2013;<lpage>140</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23182110</pub-id></mixed-citation>
+      </ref>
+      <ref id="b17">
+        <mixed-citation publication-type="journal"><name><surname>Ling</surname><given-names>S. C.</given-names></name>, <name><surname>Polymenidou</surname><given-names>M.</given-names></name> &amp; <name><surname>Cleveland</surname><given-names>D. W.</given-names></name>
+<article-title>Converging mechanisms in ALS and FTD: disrupted RNA and protein homeostasis</article-title>. <source>Neuron</source>
+<volume>79</volume>, <fpage>416</fpage>&#x2013;<lpage>438</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23931993</pub-id></mixed-citation>
+      </ref>
+      <ref id="b18">
+        <mixed-citation publication-type="journal"><name><surname>Bence</surname><given-names>N. F.</given-names></name>, <name><surname>Sampat</surname><given-names>R. M.</given-names></name> &amp; <name><surname>Kopito</surname><given-names>R. R.</given-names></name>
+<article-title>Impairment of the ubiquitin-proteasome system by protein aggregation</article-title>. <source>Science</source>
+<volume>292</volume>, <fpage>1552</fpage>&#x2013;<lpage>1555</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11375494</pub-id></mixed-citation>
+      </ref>
+      <ref id="b19">
+        <mixed-citation publication-type="journal"><name><surname>Duennwald</surname><given-names>M. L.</given-names></name> &amp; <name><surname>Lindquist</surname><given-names>S.</given-names></name>
+<article-title>Impaired ERAD and ER stress are early and specific events in polyglutamine toxicity</article-title>. <source>Genes Dev.</source>
+<volume>22</volume>, <fpage>3308</fpage>&#x2013;<lpage>3319</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">19015277</pub-id></mixed-citation>
+      </ref>
+      <ref id="b20">
+        <mixed-citation publication-type="journal"><name><surname>Williams</surname><given-names>K. L.</given-names></name>
+<etal/>. <article-title>UBQLN2/ubiquilin 2 mutation and pathology in familial amyotrophic lateral sclerosis</article-title>. <source>Neurobiol. Aging</source>
+<volume>33</volume>, <fpage>2527 e2523</fpage>&#x2013;<lpage>2527</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22717235</pub-id></mixed-citation>
+      </ref>
+      <ref id="b21">
+        <mixed-citation publication-type="journal"><name><surname>Fecto</surname><given-names>F.</given-names></name>
+<etal/>. <article-title>SQSTM1 mutations in familial and sporadic amyotrophic lateral sclerosis</article-title>. <source>Arch. Neurol.</source>
+<volume>68</volume>, <fpage>1440</fpage>&#x2013;<lpage>1446</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">22084127</pub-id></mixed-citation>
+      </ref>
+      <ref id="b22">
+        <mixed-citation publication-type="journal"><name><surname>Weihl</surname><given-names>C. C.</given-names></name>
+<article-title>Valosin containing protein associated fronto-temporal lobar degeneration: clinical presentation, pathologic features and pathogenesis</article-title>. <source>Curr. Alzheimer Res.</source>
+<volume>8</volume>, <fpage>252</fpage>&#x2013;<lpage>260</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21222596</pub-id></mixed-citation>
+      </ref>
+      <ref id="b23">
+        <mixed-citation publication-type="journal"><name><surname>Zhao</surname><given-names>T.</given-names></name>
+<etal/>. <article-title>Loss of nuclear activity of the FBXO7 protein in patients with parkinsonian-pyramidal syndrome (PARK15)</article-title>. <source>PLoS ONE</source>
+<volume>6</volume>, <fpage>e16983</fpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21347293</pub-id></mixed-citation>
+      </ref>
+      <ref id="b24">
+        <mixed-citation publication-type="journal"><name><surname>Bandopadhyay</surname><given-names>R.</given-names></name> &amp; <name><surname>de Belleroche</surname><given-names>J.</given-names></name>
+<article-title>Pathogenesis of Parkinson's disease: emerging role of molecular chaperones</article-title>. <source>Trends Mol. Med.</source>
+<volume>16</volume>, <fpage>27</fpage>&#x2013;<lpage>36</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20036196</pub-id></mixed-citation>
+      </ref>
+      <ref id="b25">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>Y. R.</given-names></name>
+<etal/>. <article-title>Stress granules as crucibles of ALS pathogenesis</article-title>. <source>J. Cell Biol.</source>
+<volume>201</volume>, <fpage>361</fpage>&#x2013;<lpage>372</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23629963</pub-id></mixed-citation>
+      </ref>
+      <ref id="b26">
+        <mixed-citation publication-type="journal"><name><surname>Heck</surname><given-names>M. V.</given-names></name>
+<etal/>. <article-title>Dysregulated expression of lipid storage and membrane dynamics factors in Tia1 knockout mouse nervous tissue</article-title>. <source>Neurogenetics</source>
+<volume>15</volume>, <fpage>135</fpage>&#x2013;<lpage>144</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24659297</pub-id></mixed-citation>
+      </ref>
+      <ref id="b27">
+        <mixed-citation publication-type="journal"><name><surname>Brooks</surname><given-names>B. R.</given-names></name>, <name><surname>Miller</surname><given-names>R. G.</given-names></name>, <name><surname>Swash</surname><given-names>M.</given-names></name> &amp; <name><surname>Munsat</surname><given-names>T. L.</given-names></name>
+<article-title>El Escorial revisited: revised criteria for the diagnosis of amyotrophic lateral sclerosis</article-title>. <source>Amyotroph. Lateral Scler. Other Motor Neuron Disord</source>
+<volume>1</volume>, <fpage>293</fpage>&#x2013;<lpage>299</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">11464847</pub-id></mixed-citation>
+      </ref>
+      <ref id="b28">
+        <mixed-citation publication-type="journal"><name><surname>Lathrop</surname><given-names>G. M.</given-names></name> &amp; <name><surname>Lalouel</surname><given-names>J. M.</given-names></name>
+<article-title>Easy calculations of lod scores and genetic risks on small computers</article-title>. <source>Am. J. Hum. Genet.</source>
+<volume>36</volume>, <fpage>460</fpage>&#x2013;<lpage>465</lpage> (<year>1984</year>).<pub-id pub-id-type="pmid">6585139</pub-id></mixed-citation>
+      </ref>
+      <ref id="b29">
+        <mixed-citation publication-type="journal"><name><surname>Lindner</surname><given-names>T. H.</given-names></name> &amp; <name><surname>Hoffmann</surname><given-names>K.</given-names></name>
+<article-title>easyLINKAGE: a PERL script for easy and automated two-/multi-point linkage analyses</article-title>. <source>Bioinformatics</source>
+<volume>21</volume>, <fpage>405</fpage>&#x2013;<lpage>407</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15347576</pub-id></mixed-citation>
+      </ref>
+      <ref id="b30">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>H.</given-names></name> &amp; <name><surname>Durbin</surname><given-names>R.</given-names></name>
+<article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>. <source>Bioinformatics</source>
+<volume>25</volume>, <fpage>1754</fpage>&#x2013;<lpage>1760</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19451168</pub-id></mixed-citation>
+      </ref>
+      <ref id="b31">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>H.</given-names></name>
+<etal/>. <article-title>The sequence alignment/map format and SAMtools</article-title>. <source>Bioinformatics</source>
+<volume>25</volume>, <fpage>2078</fpage>&#x2013;<lpage>2079</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19505943</pub-id></mixed-citation>
+      </ref>
+      <ref id="b32">
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>K.</given-names></name>, <name><surname>Li</surname><given-names>M.</given-names></name> &amp; <name><surname>Hakonarson</surname><given-names>H.</given-names></name>
+<article-title>ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</article-title>. <source>Nucleic Acids Res.</source>
+<volume>38</volume>, <fpage>e164</fpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20601685</pub-id></mixed-citation>
+      </ref>
+      <ref id="b33">
+        <mixed-citation publication-type="other">R Core Team. R: A language and environment for statistical computing (R Foundation for Statistical Computing, Vienna, Austria, 2014).</mixed-citation>
+      </ref>
+      <ref id="b34">
+        <mixed-citation publication-type="journal"><name><surname>McKenna</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>. <source>Genome Res.</source>
+<volume>20</volume>, <fpage>1297</fpage>&#x2013;<lpage>1303</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20644199</pub-id></mixed-citation>
+      </ref>
+      <ref id="b35">
+        <mixed-citation publication-type="journal"><name><surname>DePristo</surname><given-names>M. A.</given-names></name>
+<etal/>. <article-title>A framework for variation discovery and genotyping using next-generation DNA sequencing data</article-title>. <source>Nat. Genet.</source>
+<volume>43</volume>, <fpage>491</fpage>&#x2013;<lpage>498</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21478889</pub-id></mixed-citation>
+      </ref>
+      <ref id="b36">
+        <mixed-citation publication-type="journal"><name><surname>Van der Auwera</surname><given-names>G. A.</given-names></name>
+<etal/>. <article-title>From FastQ data to high confidence variant calls: the Genome Analysis Toolkit best practices pipeline</article-title>. <source>Curr. Protoc. Bioinformatics</source>
+<volume>43</volume>, <fpage>11.10.1</fpage>&#x2013;<lpage>11.10.33</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">25431634</pub-id></mixed-citation>
+      </ref>
+      <ref id="b37">
+        <mixed-citation publication-type="journal"><name><surname>Bence</surname><given-names>N. F.</given-names></name>, <name><surname>Bennett</surname><given-names>E. J.</given-names></name> &amp; <name><surname>Kopito</surname><given-names>R. R.</given-names></name>
+<article-title>Application and analysis of the GFPu family of ubiquitin-proteasome system reporters</article-title>. <source>Methods Enzymol.</source>
+<volume>399</volume>, <fpage>481</fpage>&#x2013;<lpage>490</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16338377</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><bold>Author contributions</bold> K.L.W., S.T., S.Y., X.H., V.S., A.G-R., N.J.C., J.J.Y., J.D.A. and I.P.B designed research. K.L.W., S.Y., X.H., V.S., J.A.F., S.T.W., K.Y.Z., N.F., B.S., A.C., C.S.L., C.D-S., C.W., E.D. and M.vB performed the experiments. W.S.B., K.B., J.D.G., N.T., V.S., A.G-R., O.H., K.M., S.T., R.H.B., G.A.R., C.E.S. and G.A.N collected clinical information and samples. All authors contributed to the data analysis. K.L.W. and I.P.B. wrote the manuscript with input from all of the authors.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="f1">
+      <label>Figure 1</label>
+      <caption>
+        <title><italic>CCNF</italic> mutations in ALS-FTD identified following genetic linkage analysis and exome sequencing.</title>
+        <p>(<bold>a</bold>) Pedigree of family FALS10. All family members from whom DNA was available for genotyping are indicated by either wild type (WT) for <italic>CCNF</italic>, or by mutation in <italic>CCNF</italic> (&#x2018;S621G'). Individuals with ALS are represented by a black-filled symbol, individuals with FTD by a grey-filled symbol. Arrows indicate samples used for exome sequencing. (<bold>b</bold>) Sequence traces of WT and c.1861A&gt;G mutation identified in family FALS10. (<bold>c</bold>) Diagrammatic representation of cyclin F protein and the location of novel mutations identified in this study. Cyclin F contains three functional modules within its protein structure. The F-box domain forms a &#x2018;pseudocatalytic' module, the two cyclin domains form the substrate recruitment module and the C terminus contains both a nuclear localization signal (NLS) and a PEST sequence (short stretch of amino acids enriched in proline, glutamic acid, serine and threonine) that form the regulatory module<xref ref-type="bibr" rid="b16">16</xref>. (<bold>d</bold>) Multiple sequence alignment of cyclin F across species showing evolutionary conservation of the substituted amino-acid residues (indicated by arrows). Sequences include NP_001752.2 (human), NP_001252844.1 (chimpanzee), NP_031660.3 (mouse), NP_001093944.1 (rat), NP_001092340.1 (cow), NP_001079901.1 (frog) and NP_996931.1 (zebrafish).</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms11253-f1"/>
+    </fig>
+    <fig id="f2">
+      <label>Figure 2</label>
+      <caption>
+        <title>Mutant cyclin F impairs ubiquitin-mediated proteasomal degradation.</title>
+        <p>NSC-34 cells were co-transfected with GFP<sup>u</sup> and either wild type or mutant cyclin F, tagged with mCherry. GFP<sup>u</sup> fluorescence intensity was analysed by flow cytometry 48&#x2009;h post transfection. (<bold>a</bold>) Plot of GFP<sup>u</sup> fluorescence intensity following flow cytometry. A significantly higher level of GFP<sup>u</sup> fluorescence was observed in cells expressing novel cyclin F mutations (blue data points) when compared with those expressing wt <italic>CCNF</italic> (red data points) WT v FALS/FTD <italic>P</italic>=0.0017, d.f.=11; WT v SALS/FTD <italic>P</italic>=0.001, d.f.=7; two-tailed unpaired Student's <italic>t</italic>-test). (<bold>b</bold>) The higher level of GFP<sup>u</sup> fluorescence was independent of the level of cyclin F as quantified using mCherry signal&#x2014;R-squared=0.13. Red dashed lines represent the WT mean. Data are represented as mean,&#xB1;s.e.m. <italic>n</italic>=3 (<italic>n</italic> is one experiment consisting of the mean of 50,000 cells); **<italic>P</italic>&lt;0.01. d.f., degrees of freedom.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms11253-f2"/>
+    </fig>
+    <fig id="f3">
+      <label>Figure 3</label>
+      <caption>
+        <title>Increased ubiquitinated proteins in neuronal cell lines expressing mutant cyclin F.</title>
+        <p>NSC-34 and Neuro-2a cells were transfected with wild-type or mutant cyclin F (p.S621G) expression constructs, and cells were collected after 24&#x2009;h. (<bold>a</bold>,<bold>b</bold>) Cells transfected with mutant cyclin F (p.S621G) show increased levels (normalized to transfected cyclin F-mCherry) of ubiquitinated proteins and a known cyclin F&#x2013;SCF complex target, RRM2 (Neuro-2a: Ubiq/cyclin F, <italic>P</italic>=0.025; RRM2/cyclin F, <italic>P</italic>=0.020. NSC-34: Ubiq/cyclin F, <italic>P</italic>=0.032; RRM2/cyclin F, <italic>P</italic>=0.023; two-tailed unpaired Student's <italic>t</italic>-test). (<bold>c</bold>) Immunoprecipitation (IP) of ubiquitinated proteins from transfected Neuro-2a cells (wild-type and mutant cyclin F (p.S621G)) show elevated levels of ubiquitinated RRM2 and TDP-43 in neuronal cells expressing mutant cyclin F. Full-length blots are presented in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4</xref>. Data are represented as mean&#xB1;s.e.m. <italic>n</italic>=3; *<italic>P</italic>&lt;0.05.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms11253-f3"/>
+    </fig>
+    <table-wrap position="float" id="t1">
+      <label>Table 1</label>
+      <caption>
+        <title>ALS and/or FTD mutations in <italic>CCNF</italic>.</title>
+      </caption>
+      <table frame="hsides" rules="groups" border="1">
+        <colgroup>
+          <col align="left"/>
+          <col align="left"/>
+          <col align="center"/>
+          <col align="left"/>
+          <col align="left"/>
+          <col align="left"/>
+        </colgroup>
+        <thead valign="bottom">
+          <tr>
+            <th align="left" valign="top" charoff="50">
+              <bold>Amino-acid change</bold>
+            </th>
+            <th align="left" valign="top" charoff="50">
+              <bold>Nucleotide change</bold>
+            </th>
+            <th align="center" valign="top" charoff="50">
+              <bold>Exon</bold>
+            </th>
+            <th align="left" valign="top" charoff="50">
+              <bold>Cohort</bold>
+            </th>
+            <th align="left" valign="top" charoff="50">
+              <bold>Control samples (Sanger and exome)</bold>
+            </th>
+            <th align="left" valign="top" charoff="50">
+              <bold>Public database MAF</bold>
+            </th>
+          </tr>
+        </thead>
+        <tbody valign="top">
+          <tr>
+            <td colspan="6" align="center" valign="top" charoff="50">
+              <italic>Familial</italic>
+            </td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;p.S3G</td>
+            <td align="left" valign="top" charoff="50">7A&gt;G</td>
+            <td align="center" valign="top" charoff="50">1</td>
+            <td align="left" valign="top" charoff="50">1/99 US FTLD-ALS</td>
+            <td align="left" valign="top" charoff="50">0/1038 US controls0/657 AU controls0/967 AU control exomes</td>
+            <td align="left" valign="top" charoff="50">Absent</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;p.K97R</td>
+            <td align="left" valign="top" charoff="50">290A&gt;G</td>
+            <td align="center" valign="top" charoff="50">4</td>
+            <td align="left" valign="top" charoff="50">1/159 UK FALS</td>
+            <td align="left" valign="top" charoff="50">0/897 UK controls0/967 AU control exomes</td>
+            <td align="left" valign="top" charoff="50">Absent</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;p.S195R</td>
+            <td align="left" valign="top" charoff="50">585T&gt;G</td>
+            <td align="center" valign="top" charoff="50">6</td>
+            <td align="left" valign="top" charoff="50">1/30 SP FALS</td>
+            <td align="left" valign="top" charoff="50">0/967 AU control exomes</td>
+            <td align="left" valign="top" charoff="50">Absent</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;p.S509P</td>
+            <td align="left" valign="top" charoff="50">1525T&gt;C</td>
+            <td align="center" valign="top" charoff="50">13</td>
+            <td align="left" valign="top" charoff="50">1/99 IT FALS1/168 CA SALS</td>
+            <td align="left" valign="top" charoff="50">0/361 CA controls0/967 AU control exomes</td>
+            <td align="left" valign="top" charoff="50">Absent</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;p.S621G</td>
+            <td align="left" valign="top" charoff="50">1861A&gt;G</td>
+            <td align="center" valign="top" charoff="50">16</td>
+            <td align="left" valign="top" charoff="50">1/75 AU FALS</td>
+            <td align="left" valign="top" charoff="50">0/864 AU Sanger controls0/967 AU control exomes</td>
+            <td align="left" valign="top" charoff="50">Absent<xref ref-type="fn" rid="t1-fn3">*</xref></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;p.I772T</td>
+            <td align="left" valign="top" charoff="50">2315T&gt;C</td>
+            <td align="center" valign="top" charoff="50">17</td>
+            <td align="left" valign="top" charoff="50">1/159 UK FALS</td>
+            <td align="left" valign="top" charoff="50">0/897 UK controls0/967 AU control exomes</td>
+            <td align="left" valign="top" charoff="50">Absent</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#xA0;</td>
+            <td>&#xA0;</td>
+            <td>&#xA0;</td>
+            <td>&#xA0;</td>
+            <td>&#xA0;</td>
+            <td>&#xA0;</td>
+          </tr>
+          <tr>
+            <td colspan="6" align="center" valign="top" charoff="50">
+              <italic>Sporadic</italic>
+            </td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;p.T181I</td>
+            <td align="left" valign="top" charoff="50">542C&gt;T</td>
+            <td align="center" valign="top" charoff="50">6</td>
+            <td align="left" valign="top" charoff="50">1/283 JA SALS</td>
+            <td align="left" valign="top" charoff="50">0/514 JA controls0/967 AU control exomes</td>
+            <td align="left" valign="top" charoff="50">Absent<xref ref-type="fn" rid="t1-fn3">*</xref></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;p.R392T</td>
+            <td align="left" valign="top" charoff="50">1175G&gt;C</td>
+            <td align="center" valign="top" charoff="50">11</td>
+            <td align="left" valign="top" charoff="50">1/99 US FTLD</td>
+            <td align="left" valign="top" charoff="50">0/1038 US controls0/967 AU control exomes</td>
+            <td align="left" valign="top" charoff="50">Absent</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;p.T543I</td>
+            <td align="left" valign="top" charoff="50">1628C&gt;T</td>
+            <td align="center" valign="top" charoff="50">15</td>
+            <td align="left" valign="top" charoff="50">1/283 JA SALS</td>
+            <td align="left" valign="top" charoff="50">0/514 JA controls0/967 AU control exomes</td>
+            <td align="left" valign="top" charoff="50">Absent</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">&#x2003;p.E624K</td>
+            <td align="left" valign="top" charoff="50">1870G&gt;A</td>
+            <td align="center" valign="top" charoff="50">16</td>
+            <td align="left" valign="top" charoff="50">1/49 US SALS trios</td>
+            <td align="left" valign="top" charoff="50">0/801 AU Sanger controls0/967 AU control exomes</td>
+            <td align="left" valign="top" charoff="50">Absent<xref ref-type="fn" rid="t1-fn3">*</xref></td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="t1-fn1">
+          <p>ALS, Amyotrophic lateral sclerosis; AU, Australian; CA, Canadian; ESP, Exome Sequencing Project; IT, Italian; MAF, minor allele frequency; SP, Spanish; UK, United Kingdom; US, USA.</p>
+        </fn>
+        <fn id="t1-fn2">
+          <p><italic>CCNF</italic> accession NM_001761. Data were mined from whole exome or genome sequence data and validated by Sanger sequencing. Public databases include dbSNP; NHLBI ESP Exome Variant Server and 1000 Genomes Project.</p>
+        </fn>
+        <fn id="t1-fn3">
+          <p><sup>*</sup>Variant was present as a singleton in ExAC, frequency of 8.6 &#xD7; 10<sup>&#x2212;6</sup>.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

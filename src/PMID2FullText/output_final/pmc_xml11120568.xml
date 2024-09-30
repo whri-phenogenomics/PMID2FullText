@@ -1,0 +1,1375 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="review-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Cells</journal-id><journal-id journal-id-type="iso-abbrev">Cells</journal-id><journal-id journal-id-type="publisher-id">cells</journal-id><journal-title-group><journal-title>Cells</journal-title></journal-title-group><issn pub-type="epub">2073-4409</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38786040</article-id><article-id pub-id-type="pmc">11120568</article-id><article-id pub-id-type="doi">10.3390/cells13100818</article-id><article-id pub-id-type="publisher-id">cells-13-00818</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Protein Quality Control of NKCC2 in Bartter Syndrome and Blood Pressure Regulation</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2167-5766</contrib-id><name><surname>Laghmani</surname><given-names>Kamel</given-names></name><xref rid="af1-cells-13-00818" ref-type="aff">1</xref><xref rid="af2-cells-13-00818" ref-type="aff">2</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Dube</surname><given-names>Prabhatchandra</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-cells-13-00818"><label>1</label>Centre de Recherche des Cordeliers, INSERM, Sorbonne Universit&#xE9;, Universit&#xE9; de Paris, F-75006 Paris, France; <email>kamel.laghmani@crc.jussieu.fr</email></aff><aff id="af2-cells-13-00818"><label>2</label>CNRS, ERL8228, F-75006 Paris, France</aff><pub-date pub-type="epub"><day>10</day><month>5</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>5</month><year>2024</year></pub-date><volume>13</volume><issue>10</issue><elocation-id>818</elocation-id><history><date date-type="received"><day>01</day><month>4</month><year>2024</year></date><date date-type="rev-recd"><day>03</day><month>5</month><year>2024</year></date><date date-type="accepted"><day>09</day><month>5</month><year>2024</year></date></history><permissions><copyright-statement>&#xA9; 2024 by the author.</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Mutations in NKCC2 generate antenatal Bartter syndrome type 1 (type 1 BS), a life-threatening salt-losing nephropathy characterized by arterial hypotension, as well as electrolyte abnormalities. In contrast to the genetic inactivation of NKCC2, inappropriate increased NKCC2 activity has been associated with salt-sensitive hypertension. Given the importance of NKCC2 in salt-sensitive hypertension and the pathophysiology of prenatal BS, studying the molecular regulation of this Na-K-2Cl cotransporter has attracted great interest. Therefore, several studies have addressed various aspects of NKCC2 regulation, such as phosphorylation and post-Golgi trafficking. However, the regulation of this cotransporter at the pre-Golgi level remained unknown for years. Similar to several transmembrane proteins, export from the ER appears to be the rate-limiting step in the cotransporter&#x2019;s maturation and trafficking to the plasma membrane. The most compelling evidence comes from patients with type 5 BS, the most severe form of prenatal BS, in whom NKCC2 is not detectable in the apical membrane of thick ascending limb (TAL) cells due to ER retention and ER-associated degradation (ERAD) mechanisms. In addition, type 1 BS is one of the diseases linked to ERAD pathways. In recent years, several molecular determinants of NKCC2 export from the ER and protein quality control have been identified. The aim of this review is therefore to summarize recent data regarding the protein quality control of NKCC2 and to discuss their potential implications in BS and blood pressure regulation.</p></abstract><kwd-group><kwd>kidney</kwd><kwd>NKCC2</kwd><kwd>protein quality control</kwd><kwd>ERAD</kwd><kwd>MAGE-D2</kwd><kwd>trafficking</kwd><kwd>Bartter syndrome</kwd><kwd>CKD</kwd><kwd>hypertension</kwd></kwd-group><funding-group><award-group><funding-source>INSERM</funding-source></award-group><award-group><funding-source>ANR</funding-source><award-id>ANR-17-CE14-0040-Pheno2Geno</award-id></award-group><funding-statement>This work was supported by grants from INSERM, and by ANR grant ANR-17-CE14-0040-Pheno2Geno.</funding-statement></funding-group></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="sec1-cells-13-00818">
+      <title>1. Introduction</title>
+      <p>NKCC2 is a member of the superfamily of cation-coupled chloride cotransporters (CCCs), which is composed of three Na<sup>+</sup>-dependent chloride cotransporters (NKCC1, NKCC2, and NCC) and at least four Na<sup>+</sup>-independent K<sup>+</sup>-Cl<sup>&#x2212;</sup> cotransporters (KCC1-4) [<xref rid="B1-cells-13-00818" ref-type="bibr">1</xref>]. All members of this SLC12A family share the same hydropathy profile, with twelve transmembrane domains and two cytoplasmic N-terminal and C-terminal tails [<xref rid="B1-cells-13-00818" ref-type="bibr">1</xref>]. In contrast, to the widely expressed basolateral Na-K-2Cl isoform NKCC1 [<xref rid="B1-cells-13-00818" ref-type="bibr">1</xref>,<xref rid="B2-cells-13-00818" ref-type="bibr">2</xref>], NKCC2 is specifically expressed at the apical side of kidney TAL cells. This kidney-specific Na-K-2Cl cotransporter is considered the master player of NaCl reabsorption in the TAL, a key nephron segment responsible for the reabsorption of nearly 30% of filtered NaCl [<xref rid="B3-cells-13-00818" ref-type="bibr">3</xref>,<xref rid="B4-cells-13-00818" ref-type="bibr">4</xref>]. Sodium and chloride entering the TAL cells through NKCC2 exit these cells at the basolateral membrane via the Na<sup>+</sup>/K<sup>+</sup>-ATPase and Cl<sup>&#x2013;</sup> channels (CLC-KB), respectively [<xref rid="B4-cells-13-00818" ref-type="bibr">4</xref>,<xref rid="B5-cells-13-00818" ref-type="bibr">5</xref>]. In contrast to Na and Cl reabsorption, potassium carried into the cell through NKCC2 is recycled into the lumen via ROMK to preserve the correct functioning of the cotransporter [<xref rid="B4-cells-13-00818" ref-type="bibr">4</xref>]. Notably, this luminal K recycling generates a positive transepithelial voltage that promotes the absorption of Na<sup>+</sup>, Ca<sup>2+</sup>, and Mg<sup>2+</sup> through the paracellular pathway [<xref rid="B4-cells-13-00818" ref-type="bibr">4</xref>]. Moreover, given that the TAL is impermeable to water, Na-Cl absorption in this segment of the nephron mediated by NKCC2 represents the central element in the generation of the osmotic gradient that is required for the urinary concentrating mechanism [<xref rid="B6-cells-13-00818" ref-type="bibr">6</xref>]. As a result, even subtle modifications in cotransporter transport activity, directly related to the protein itself or its regulators, may have a major impact on several kidney functions. Indeed, mutations in NKCC2 lead to type 1 BS, a serious renal disorder usually diagnosed prenatally by the detection of polyhydramnios due to fetal polyuria, salt wasting, and electrolyte abnormalities [<xref rid="B1-cells-13-00818" ref-type="bibr">1</xref>,<xref rid="B7-cells-13-00818" ref-type="bibr">7</xref>]. In contrast to the genetic loss of function of NKCC2, an inappropriate increase in NKCC2 transport activity has been linked to salt-sensitive hypertension [<xref rid="B8-cells-13-00818" ref-type="bibr">8</xref>,<xref rid="B9-cells-13-00818" ref-type="bibr">9</xref>]. Accordingly, furosemide and bumetanide, two pharmacologic inhibitors of NKCC2, are widely used as loop diuretics to lower blood pressure (BP) in hypertensive patients [<xref rid="B10-cells-13-00818" ref-type="bibr">10</xref>]. All of these data highlight the fundamental role of NKCC2 in electrolyte homeostasis and BP control in normal physiology and the pathogenesis of BS. In recent years, efforts to better characterize NKCC2 function and regulation have revealed that it is essential to elucidate the underlying mechanisms and respective protein networks governing NKCC2 expression at the molecular level to elucidate the pathophysiology of type 1 BS and explore new options to improve the available treatments for this salt-losing tubulopathy and salt-sensitive hypertension. Virtually all previous reviews on the molecular regulation of this cotransporter have focused primarily on the post-Golgi regulation of NKCC2, notably by subcellular redistribution (endocytosis and exocytosis) and phosphorylation [<xref rid="B11-cells-13-00818" ref-type="bibr">11</xref>,<xref rid="B12-cells-13-00818" ref-type="bibr">12</xref>,<xref rid="B13-cells-13-00818" ref-type="bibr">13</xref>,<xref rid="B14-cells-13-00818" ref-type="bibr">14</xref>,<xref rid="B15-cells-13-00818" ref-type="bibr">15</xref>,<xref rid="B16-cells-13-00818" ref-type="bibr">16</xref>]. The present article is the first review that focuses on the protein quality control of NKCC2, particularly the ER quality control (QC) of the cotransporter, and discusses its relevance to salt-losing tubulopathy and blood pressure regulation.</p>
+    </sec>
+    <sec id="sec2-cells-13-00818">
+      <title>2. NKCC2 Expression in Mammalian Cells: It Is All about Protein Quality Control</title>
+      <p>The cDNA encoding NKCC2 was identified in 1994 by two different groups [<xref rid="B17-cells-13-00818" ref-type="bibr">17</xref>,<xref rid="B18-cells-13-00818" ref-type="bibr">18</xref>]. Additionally, it was revealed that there are three splice variants of NKCC2, named NKCC2-A, NKCC2-B, and NKCC2-F [<xref rid="B18-cells-13-00818" ref-type="bibr">18</xref>]. NKCC2F is expressed exclusively in the medullary TAL [<xref rid="B19-cells-13-00818" ref-type="bibr">19</xref>,<xref rid="B20-cells-13-00818" ref-type="bibr">20</xref>,<xref rid="B21-cells-13-00818" ref-type="bibr">21</xref>]. NKCC2A was found in both medullary and cortical TAL and macula densa (MD) cells [<xref rid="B19-cells-13-00818" ref-type="bibr">19</xref>,<xref rid="B20-cells-13-00818" ref-type="bibr">20</xref>,<xref rid="B21-cells-13-00818" ref-type="bibr">21</xref>]. NKCC2B is expressed primarily in MD cells and the cortical portion [<xref rid="B19-cells-13-00818" ref-type="bibr">19</xref>,<xref rid="B20-cells-13-00818" ref-type="bibr">20</xref>,<xref rid="B21-cells-13-00818" ref-type="bibr">21</xref>]. Of note, considering the pivotal role of NKCC2 in NaCl reabsorption in the TAL, especially in the countercurrent multiplier system, NKCC2-F seems to be more important than NKCC2-A and NKCC2-B [<xref rid="B20-cells-13-00818" ref-type="bibr">20</xref>,<xref rid="B22-cells-13-00818" ref-type="bibr">22</xref>]. In support of this idea, NKCC2 knock-out mice die shortly after birth due to severe polyuria [<xref rid="B23-cells-13-00818" ref-type="bibr">23</xref>], whereas NKCC2B and NKCC2A null mice were viable and exhibited only very wild phenotypes [<xref rid="B24-cells-13-00818" ref-type="bibr">24</xref>,<xref rid="B25-cells-13-00818" ref-type="bibr">25</xref>].</p>
+      <p>Despite the cloning and identification of NKCC2 cDNA since the mid-1990s, efforts to achieve the functional expression of NKCC2 protein in cultured mammalian cells have failed for over a decade, and regulatory characterizations of NKCC2 proteins have been limited to Xenopus laevis oocytes [<xref rid="B26-cells-13-00818" ref-type="bibr">26</xref>]. Therefore, our knowledge of the molecular regulation of protein QC and the membrane trafficking of wild-type (WT) NKCC2 and its mutants in mammalian cells, particularly through protein-protein interactions, has remained very poor for years. Interestingly, unlike full-length NKCC2, immunoreactive proteins could be detected by Western blotting in cells transiently transfected with NKCC2 deprived of the first 105 AAs of its N-terminus [<xref rid="B18-cells-13-00818" ref-type="bibr">18</xref>]. Additionally, it was also possible to express an NKCC1-NKCC2 chimera in which the first 104 amino acids of NKCC2 were substituted with the equivalent region from NKCC1 [<xref rid="B27-cells-13-00818" ref-type="bibr">27</xref>,<xref rid="B28-cells-13-00818" ref-type="bibr">28</xref>]. Based on these observations, we postulated that the proximal region of the NKCC2 N-terminal tail plays a crucial role in protein QC and thus in the stability of the cotransporter protein. Consistent with this notion, several studies reported that tagging the N-terminus of certain proteins blocked their degradation, very likely by preventing the N-terminal ubiquitination pathway [<xref rid="B29-cells-13-00818" ref-type="bibr">29</xref>,<xref rid="B30-cells-13-00818" ref-type="bibr">30</xref>,<xref rid="B31-cells-13-00818" ref-type="bibr">31</xref>]. Hence, we anticipated that it would be possible to express NKCC2 protein by tagging its N-terminal domain, notably with Myc or GFP. Using this strategy, my group was the first to be able to stably express NKCC2 protein (NKCC2-F) in several cultured mammalian cells, such as MKTAL cells, OKP cells, and HEK cells [<xref rid="B9-cells-13-00818" ref-type="bibr">9</xref>,<xref rid="B32-cells-13-00818" ref-type="bibr">32</xref>,<xref rid="B33-cells-13-00818" ref-type="bibr">33</xref>,<xref rid="B34-cells-13-00818" ref-type="bibr">34</xref>], providing us, therefore, with a powerful tool to study and understand the molecular mechanisms underlying the biogenesis and regulation of the cotransporter in kidney cells. This powerful heterologous expression system allowed us to particularly study the protein QC of the cotransporter, especially during its transit through the endoplasmic reticulum (ER).</p>
+    </sec>
+    <sec id="sec3-cells-13-00818">
+      <title>3. Molecular Determinants of NKCC2 ER Export</title>
+      <p>To enable the TAL to make appropriate adaptations to physiological or pathological challenges, NKCC2 must function properly and therefore must be correctly and sufficiently trafficked to the plasma membrane. Since it is a transmembrane protein, the appropriate forward trafficking of NKCC2 to the cell surface begins when the cotransporter protein is inserted in the ER, and then continues through the Golgi and post-Golgi networks. The tightly controlled delivery of membrane proteins to the cell surface is dictated by specific targeting motifs within the protein. Multiple ER exit motifs, such as adjacent hydrophobic residues (FF, FY, LL, IL, or YYM) and diacid codes, or a combination of several sorting signals, have been identified within the cytoplasmic carboxy terminus of numerous transmembrane proteins [<xref rid="B35-cells-13-00818" ref-type="bibr">35</xref>,<xref rid="B36-cells-13-00818" ref-type="bibr">36</xref>]. Moreover, several genetic disorders are caused by COOH-terminal mutations [<xref rid="B37-cells-13-00818" ref-type="bibr">37</xref>,<xref rid="B38-cells-13-00818" ref-type="bibr">38</xref>]. Consistent with this, type 1 BS mutations D918fs, N984fs, and Y998X, within the carboxy-terminal tail of NKCC2, are not functional because they are not delivered at the plasma membrane because they are retained in the ER [<xref rid="B33-cells-13-00818" ref-type="bibr">33</xref>]. Hence, we took advantage of the existence of naturally occurring mutants, deleting the distal region of the NKCC2 COOH-terminal tail to determine the ER key exit motif(s) of the cotransporter.</p>
+      <sec id="sec3dot1-cells-13-00818">
+        <title>3.1. Di-Leucine-like Motifs</title>
+        <p>To identify the ER exit signals(s) of NKCC2, we focused on the region downstream from Y998X, the most distal natural mutation identified in the carboxy-terminal tail of NKCC2 (<xref rid="cells-13-00818-f001" ref-type="fig">Figure 1</xref>), as the key sequence governing the export of NKCC2 from the ER. Using progressive truncations and mutagenesis studies in this region, we demonstrated that <sup>1038</sup>LL<sup>1039</sup>,<sup>1048</sup>LI<sup>1049</sup>, and <sup>1081</sup>LLV<sup>1083</sup> hydrophobic motifs are required for NKCC2 exit from the ER (<xref rid="cells-13-00818-f001" ref-type="fig">Figure 1</xref>), independently of the expression system (OKP and HEK cells) [<xref rid="B33-cells-13-00818" ref-type="bibr">33</xref>,<xref rid="B39-cells-13-00818" ref-type="bibr">39</xref>]. Mutating these motifs to alanine residues prevented ER exit and the subsequent surface expression of NKCC2 [<xref rid="B33-cells-13-00818" ref-type="bibr">33</xref>,<xref rid="B39-cells-13-00818" ref-type="bibr">39</xref>]. Importantly, among all analyzed di-leucine-like motifs that are present downstream from Y998X (<xref rid="cells-13-00818-f001" ref-type="fig">Figure 1</xref>), only those required for NKCC2 ER exit are remarkably highly conserved among SLC12A family members, strongly suggesting that they may function as common ER export signals for all CCCs. In support of this notion, mutating the trihydrophobic motif (LLI) within the C-terminal of NCC, the corresponding <sup>1081</sup>LLV<sup>1083</sup> motif of NKCC2, also prevented the ER exit of this structurally related renal Na-Cl cotransporter [<xref rid="B33-cells-13-00818" ref-type="bibr">33</xref>]. These results are particularly interesting given that CCCs are involved in several pathologies such as Bartter, Gitelman, and Anderman syndromes [<xref rid="B1-cells-13-00818" ref-type="bibr">1</xref>,<xref rid="B40-cells-13-00818" ref-type="bibr">40</xref>]. These results therefore open the possibility that the loss of these highly conserved evolutionary hydrophobic motifs could contribute to the development of several pathologies linked not only to kidney function but also to processes in which other members of the CCC family are involved, such as neuronal functions [<xref rid="B40-cells-13-00818" ref-type="bibr">40</xref>,<xref rid="B41-cells-13-00818" ref-type="bibr">41</xref>].</p>
+      </sec>
+      <sec id="sec3dot2-cells-13-00818">
+        <title>3.2. Di-Acidic Codes</title>
+        <p>Although the highly conserved hydrophobic motifs described above are required for NKCC2 exit from the ER, and thus may serve as ER export signals, one cannot rule out the possibility that they may also provide sites for interaction of the cotransporter with the cellular machinery that assists the protein in reaching a folding state competent for transport out of the ER. In line with this alternative, mutating the ILLV motif within the NKCC1-COOH-terminus [<xref rid="B46-cells-13-00818" ref-type="bibr">46</xref>], which contains the corresponding <sup>1081</sup>LLV<sup>1083</sup> motif of NKCC2, causes the misfolding and protein aggregation of this basolateral Na-K-2Cl cotransporter. Consequently, this prompted us to further closely analyze the distal region of the NKCC2 C-terminal tail to check for the presence of a pure ER export signal. Interestingly, this sequence analysis unveiled the presence of consensus di-acidic (D/E-X-D/E) motifs, <sup>1019</sup>DAELE<sup>1023</sup>, located downstream from Y998X (<xref rid="cells-13-00818-f001" ref-type="fig">Figure 1</xref>). In contrast to di-leucine-like motifs, di-acidic codes are generally considered pure ER export signals. Importantly, the triple mutation of the D, E, and E residues of <sup>1019</sup>DAELE<sup>1023</sup> to <sup>1019</sup>AAALA<sup>1023</sup> prevented the ER exit of NKCC2, therefore abolishing its complex glycosylation and cell surface expression [<xref rid="B47-cells-13-00818" ref-type="bibr">47</xref>]. Given that di-acidic codes are implicated in the ER export of cargo proteins via the COPII budding machinery, the effect of overexpressing Sar1<sup>H79G</sup>, a dominant negative form of the small Sar1 GTPase, was studied. Sar GTPase is the initiator of COPII-coated vesicle formation. Importantly, in cells overexpressing Sar1<sup>H79G</sup>, NKCC2 proteins failed to reach the plasma membrane because they were trapped in the ER, clearly demonstrating the requirement of COP-II machinery for the ER export of the cotransporter [<xref rid="B47-cells-13-00818" ref-type="bibr">47</xref>]. Collectively, these results revealed that the ER export of NKCC2 is COP-II-dependent and is controlled by a combination of several sorting signals, including highly conserved hydrophobic motifs and di-acidic exit codes. It should be noted that these different sorting motifs may operate coordinately or independently to ensure the proper delivery of NKCC2 to the cell surface. Based on these observations, we proposed that any mutation in NKCC2 that interferes with these sorting signals and/or the COP-II interaction with the cotransporter could constitute the molecular basis of type 1 BS under such circumstances.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cells-13-00818">
+      <title>4. ERAD Components of NKCC2</title>
+      <p>ER QC is the process that tightly controls newly synthesized membrane and secretory proteins in the ER and prevents them from being transferred to the Golgi network before being properly folded [<xref rid="B48-cells-13-00818" ref-type="bibr">48</xref>,<xref rid="B49-cells-13-00818" ref-type="bibr">49</xref>,<xref rid="B50-cells-13-00818" ref-type="bibr">50</xref>]. The ER accomplishes this function through molecular chaperones, which are capable of recognizing protein-folding defects [<xref rid="B51-cells-13-00818" ref-type="bibr">51</xref>]. Permanently misfolded proteins are trapped in the ER before being targeted for ER-associated protein degradation (EARD) in the cytoplasm [<xref rid="B48-cells-13-00818" ref-type="bibr">48</xref>,<xref rid="B49-cells-13-00818" ref-type="bibr">49</xref>,<xref rid="B50-cells-13-00818" ref-type="bibr">50</xref>]. The ERAD machinery is therefore devoted to the clearance of unwanted misfolded proteins, as the accumulation of misfolded protein aggregates in the ER can have detrimental effects on cellular health [<xref rid="B49-cells-13-00818" ref-type="bibr">49</xref>]. Similar to several other membrane proteins with complex topologies, such ENaC [<xref rid="B52-cells-13-00818" ref-type="bibr">52</xref>] and CFTR [<xref rid="B53-cells-13-00818" ref-type="bibr">53</xref>], the vast majority of newly synthesized (around 70%) NKCC2 proteins are targeted for ERAD [<xref rid="B39-cells-13-00818" ref-type="bibr">39</xref>]. NKCC2 maturation is a relatively slow and inefficient process, strongly suggesting that export from the ER constitutes the rate-limiting step in the NKCC2 journey to the cell surface. Accordingly, identifying NKCC2 binding partners in the ER is crucial to elucidate the molecular pathway by which the cotransporter is subject to QC. To uncover NKCC2 interactors, we opted for a yeast two-hybrid system (Y2H) approach and used a series of baits covering the predicted NKCC2 COOH terminus to screen a human kidney cDNA expression library [<xref rid="B32-cells-13-00818" ref-type="bibr">32</xref>]. This strategy allowed us to unveil the identity of several components of NKCC2 quality control. </p>
+      <sec id="sec4dot1-cells-13-00818">
+        <title>4.1. Interaction with OS9 and AUP1</title>
+        <p>Using Y2H, the ER-lectin OS9 (Osteosarcoma amplified 9) and AUP1 (Ancient Ubiquitous Protein 1) were identified as novel interactors in the NKCC2 COOH terminus (<xref rid="cells-13-00818-f001" ref-type="fig">Figure 1</xref>) [<xref rid="B44-cells-13-00818" ref-type="bibr">44</xref>,<xref rid="B45-cells-13-00818" ref-type="bibr">45</xref>]. This is of great importance because interaction between AUP1 and OS9 has been reported [<xref rid="B54-cells-13-00818" ref-type="bibr">54</xref>], opening, therefore, the possibility for a tripartite complex between these two proteins and NKCC2. The main function of OS9 remained unclear until human OS9 was reported to be implicated in ER-to-Golgi transport and the ERAD of misfolded glycoproteins [<xref rid="B55-cells-13-00818" ref-type="bibr">55</xref>,<xref rid="B56-cells-13-00818" ref-type="bibr">56</xref>,<xref rid="B57-cells-13-00818" ref-type="bibr">57</xref>,<xref rid="B58-cells-13-00818" ref-type="bibr">58</xref>]. Similarly, while initial reports described AUP1 as a cytosolic protein with a role in integrin signaling [<xref rid="B52-cells-13-00818" ref-type="bibr">52</xref>], more recent studies have revealed that AUP1 is localized to the ER membrane and plays a crucial role in the ERAD system, in particular by promoting the polyubiquitination of proteins [<xref rid="B47-cells-13-00818" ref-type="bibr">47</xref>,<xref rid="B53-cells-13-00818" ref-type="bibr">53</xref>,<xref rid="B54-cells-13-00818" ref-type="bibr">54</xref>]. Given AUP1&#x2019;s hairpin topology in the ER membrane, with the N and C tails of the protein facing the cytosol [<xref rid="B59-cells-13-00818" ref-type="bibr">59</xref>], and that OS9 might be present at both the luminal and cytoplasmic sides of the ER [<xref rid="B55-cells-13-00818" ref-type="bibr">55</xref>,<xref rid="B60-cells-13-00818" ref-type="bibr">60</xref>], an interaction between these proteins and NKCC2 at the cytoplasmic surface of the ER is conceivable. Using two different kidney cell lines (HEK and OKP cells), we provided evidence that both OS9 and AUP1 interact with the ER-resident form of NKCC2, which is coherent with a potential role in the ERAD of the cotransporter [<xref rid="B44-cells-13-00818" ref-type="bibr">44</xref>,<xref rid="B45-cells-13-00818" ref-type="bibr">45</xref>]. Accordingly, OS9 and AUP1 overexpression decreased the stability and the maturation of NKCC2, whereas their knockdown produced the opposite effect. Mutating NKCC2 <italic toggle="yes">N</italic>-glycosylation sites or inhibiting mannose-trimming with kifunensine completely abolished the effects of OS9 and AUP1 on NKCC2, indicating that the enhanced degradation of the cotransporter is <italic toggle="yes">N</italic>-glycan-dependent. Importantly, AUP1 and OS9 influences on immature NKCC2 were also abrogated by MG132, suggesting that OS9 and AUP1 target the core glycosylated form of NKCC2 to the proteasome-dependent ERAD pathway [<xref rid="B44-cells-13-00818" ref-type="bibr">44</xref>,<xref rid="B45-cells-13-00818" ref-type="bibr">45</xref>]. Furthermore, in the presence of MG132, the increase in NKCC2 protein amount upon the inhibition of endogenous AUP1 was associated with a striking decrease in polyubiquitinated NKCC2 species, demonstrating that AUP1 enhances cotransporter ERAD by promoting its polyubiquitination [<xref rid="B44-cells-13-00818" ref-type="bibr">44</xref>]. Notably, although the effects of AUP1 and OS9 on NKCC2 were similar, they were not additive, strongly suggesting that both proteins work on the same molecular pathway to regulate the ERAD of NKCC2. However, one cannot predict at this stage whether they interact sequentially or simultaneously with the cotransporter. Indeed, one alternative possibility is that, similar to Hsp40 and Hsp70 [<xref rid="B51-cells-13-00818" ref-type="bibr">51</xref>], we may also have a substrate (here, NKCC2) transfer from OS9 to AUP1, or vice versa. Regardless of the nature of AUP1&#x2019;s and OS9&#x2019;s cooperation to control NKCC2 expression, it is tempting to speculate that NKCC2 regulation by these two binding partners may also take place in native TAL cells and thereby contribute to the chronic adaptations of the cotransporter. In support of such a possible mechanism of NKCC2 regulation, patients with an abnormal increase in the level of uromodulin, a protein partner of NKCC2, developed furosemide-sensitive salt-dependent hypertension due to an inappropriate increase in the cotransporter&#x2019;s protein expression [<xref rid="B9-cells-13-00818" ref-type="bibr">9</xref>]. Analogously, modulations of AUP1 or OS9 protein levels could also alter NKCC2 abundance and function in vivo. In this regard, both proteins are upregulated during ER stress and promote the ERAD of glycoproteins under these conditions [<xref rid="B58-cells-13-00818" ref-type="bibr">58</xref>,<xref rid="B61-cells-13-00818" ref-type="bibr">61</xref>]. Overexpression studies of AUP1 and OS9 may therefore mimic their upregulation under circumstances of ER stress in kidney cells, for example, in chronic high dietary salt intake and aging, during which NKCC2 is downregulated [<xref rid="B62-cells-13-00818" ref-type="bibr">62</xref>,<xref rid="B63-cells-13-00818" ref-type="bibr">63</xref>,<xref rid="B64-cells-13-00818" ref-type="bibr">64</xref>,<xref rid="B65-cells-13-00818" ref-type="bibr">65</xref>]. Accordingly, the upregulation of AUP1 and/or OS9 might participate in cotransporter downregulation through the ubiquitin&#x2013;proteasome system (UPS), especially under ER stress circumstances [<xref rid="B64-cells-13-00818" ref-type="bibr">64</xref>,<xref rid="B65-cells-13-00818" ref-type="bibr">65</xref>]. In this regard, it should be noted that the role of the UPS in the regulation of BP, in particular by regulating sodium transporters in the kidney, is now well documented [<xref rid="B66-cells-13-00818" ref-type="bibr">66</xref>].</p>
+      </sec>
+      <sec id="sec4dot2-cells-13-00818">
+        <title>4.2. Interaction with STCH and Hsp70</title>
+        <p>In addition to AUP1 and OS9, the Y2H screening identified the stress 70 protein chaperone (STCH), a constitutively expressed member of the Heat shock protein 70 (Hsp70) family, as a novel NKCC2-interacting protein [<xref rid="B42-cells-13-00818" ref-type="bibr">42</xref>]. Similar to AUP1 and OS9, the idea of the possible involvement of STCH in the ERAD of NKCC2 emerged from the fact that the interaction recruited only the immature and ER-resident forms of NKCC2. STCH overexpression and knock-down studies in OKP and HEK cells revealed that STCH indeed enhances the ERAD of the cotransporter. Unexpectedly, unlike AUP1 and OS9, the STCH effect on NKCC2 was not completely abolished upon proteasome inhibition by MG132 [<xref rid="B42-cells-13-00818" ref-type="bibr">42</xref>]. The complete recovery of NKCC2 protein levels after STCH overexpression was only achieved by the simultaneous presence of MG132 and chloroquine, a lysosomal inhibitor, thus revealing the requirement of the lysosome for the elimination of misfolded NKCC2 in these situations [<xref rid="B42-cells-13-00818" ref-type="bibr">42</xref>]. The necessity of additional and complementary ER QC pathways, defined as ER-associated lysosome degradation (ERLAD) pathways, gradually emerged, as some misfolded proteins escape the ERAD system [<xref rid="B67-cells-13-00818" ref-type="bibr">67</xref>,<xref rid="B68-cells-13-00818" ref-type="bibr">68</xref>]. Also, some misfolded ER clients form aggregates that are not suitable for classical ERAD, and therefore their removal from the ER relies on the lysosomal alternative via autophagic or non-autophagic pathways. In this regard, Hsp70 chaperones are thought to have a dual role in protein degradation by being involved in the clearance of misfolded proteins via the proteasome and lysosome pathways [<xref rid="B69-cells-13-00818" ref-type="bibr">69</xref>,<xref rid="B70-cells-13-00818" ref-type="bibr">70</xref>]. Fittingly, STCH, a constituent of the Hsp70 system, is here implicated in the efficient removal of unwanted NKCC2 proteins via these two complementary pathways (<xref rid="cells-13-00818-f002" ref-type="fig">Figure 2</xref>). Hence, in addition to the ERAD machinery, the characterization of ERLAD as an alternative pathway for NKCC2 degradation opens new avenues in studying the molecular mechanisms underlying the protein QC of NKCC2.</p>
+        <p>These findings on STCH are the first demonstrating its direct involvement in the ERAD of misfolded proteins [<xref rid="B42-cells-13-00818" ref-type="bibr">42</xref>]. Given that the stress-inducible member of the Hsp70 family Hsp-70-1, commonly known as Hsp70, is also implicated in the ERAD system [<xref rid="B69-cells-13-00818" ref-type="bibr">69</xref>,<xref rid="B71-cells-13-00818" ref-type="bibr">71</xref>,<xref rid="B72-cells-13-00818" ref-type="bibr">72</xref>], the STCH effect was compared with that of Hsp70 on NKCC2 biogenesis. Similar to STCH, Hsp70 binds only to the ER-resident form of NKCC2. However, STCH and Hsp70 were found to exert opposite effects on the cotransporter. Indeed, while STCH enhances NKCC2 ER retention and degradation, Hsp70 promotes the maturation of the cotransporter (<xref rid="cells-13-00818-f002" ref-type="fig">Figure 2</xref>). Regarding this, it is important to mention that in the context of cellular stress, Hsp70 preferentially promotes the correct folding and stabilization of newly synthesized proteins [<xref rid="B73-cells-13-00818" ref-type="bibr">73</xref>]. In contrast, it exerts the opposite effects under non-stress conditions [<xref rid="B73-cells-13-00818" ref-type="bibr">73</xref>]. This is of great interest because the exogenous overexpression of membrane proteins (such as NKCC2) generates ER stress, which is thereby coherent with the Hsp70 protective role during the ERAD of the cotransporter in these circumstances. Of note, while the relevance of STCH and Hsp70 interaction with NKCC2 in TAL physiology remains to be determined, it remains plausible to anticipate that changes in their expression in vivo may have an impact on the cotransporter&#x2019;s abundance and function. For instance, several studies have reported that the chronic infusion of angiotensin II, a model of salt-sensitive hypertension, induces the expression of Hsp70 in renal cells, which can contribute thereby to the upregulation of NKCC2 observed under the same conditions [<xref rid="B74-cells-13-00818" ref-type="bibr">74</xref>,<xref rid="B75-cells-13-00818" ref-type="bibr">75</xref>,<xref rid="B76-cells-13-00818" ref-type="bibr">76</xref>].</p>
+      </sec>
+      <sec id="sec4dot3-cells-13-00818">
+        <title>4.3. Interaction with Golgi ManIA</title>
+        <p>Intriguingly, the Y2H screening followed by a co-immunoprecipitation assay revealed that Golgi alpha1,2-mannosidase IA (ManIA) is also an interactor of the high-mannose glycosylated form of NKCC2 [<xref rid="B43-cells-13-00818" ref-type="bibr">43</xref>]. ManIA is a type II transmembrane protein with a cytoplasmic N-terminus tail and a luminal COOH-terminus [<xref rid="B77-cells-13-00818" ref-type="bibr">77</xref>]. Since ManIA was identified as an interactor of the C-terminal tail of NKCC2, its association with the cotransporter likely involves its cytoplasmic N-terminus tail. Moreover, given that the interaction of the proteins engages only the core glycosylated form of NKCC2 and that ManIA is localized either in the Golgi and/or in the ER [<xref rid="B78-cells-13-00818" ref-type="bibr">78</xref>,<xref rid="B79-cells-13-00818" ref-type="bibr">79</xref>,<xref rid="B80-cells-13-00818" ref-type="bibr">80</xref>], one can postulate that the primary site of the interaction is the ER. Nevertheless, since the N-glycan of glycoproteins at the entrance to the Golgi complex is still of high-mannose-type, an interaction of NKCC2 with ManIA in the cis-Golgi network is also conceivable. Importantly, co-localization experiments revealed that the principal site of interaction of NKCC2 with ManIA is the cis-Golgi network, regardless of the heterologous protein expression system used (OKP and HEK cells) [<xref rid="B43-cells-13-00818" ref-type="bibr">43</xref>]. Remarkably, overexpression and siRNA studies unveiled that, similar to AUP1 and OS9, ManIA targets immature NKCC2 to the proteasome-dependent ERAD pathway [<xref rid="B43-cells-13-00818" ref-type="bibr">43</xref>]. Notably, deleting the cytoplasmic tail of ManIA, which is presumably the essential domain of interaction with NKCC2, inhibited ManIA binding and abrogated its impact on the cotransporter&#x2019;s maturation. Furthermore, deleting the catalytic domain of ManIA completely prevented its influence on the fate of NKCC2 [<xref rid="B43-cells-13-00818" ref-type="bibr">43</xref>]. Collectively, these data accumulate evidence that Golgi ManIA promotes efficient ER retention and the associated degradation of misfolded NKCC2 proteins. They are in line with the notion that the Golgi apparatus serves also as an important protein QC checkpoint [<xref rid="B81-cells-13-00818" ref-type="bibr">81</xref>]. Hence, the results described above are consistent with a model whereby, through Golgi-ManIA, cis-Golgi QC serves as an additional checkpoint for the protein QC of NKCC2 by promoting the retention, recycling, and proteasome-dependent ERAD of misfolded NKCC2 proteins that initially escape surveillance within the ER (<xref rid="cells-13-00818-f002" ref-type="fig">Figure 2</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="sec5-cells-13-00818">
+      <title>5. Plasma Membrane Quality Control of NKCC2</title>
+      <p>To preserve protein homeostasis, eukaryote cells rely on multiple and successive QC mechanisms, including ER QC, Golgi QC, and plasma membrane QC [<xref rid="B81-cells-13-00818" ref-type="bibr">81</xref>]. Under certain circumstances, particularly under conditions of ER stress, these different QC pathways must cooperate to efficiently remove unwanted and harmful proteins. NKCC2 is no exception, and therefore, besides ER and Golgi QC, NKCC2 is also subject to a quality control process at the plasma membrane. In an elegant study using native TAL cells, Ares, G. provided evidence that surface NKCC2 protein is constitutively ubiquitinated and regulated by the proteasome pathway, a process that is stimulated by cGMP [<xref rid="B82-cells-13-00818" ref-type="bibr">82</xref>]. This is of particular interest because cGMP is an important regulator of NaCl in the TAL by decreasing NKCC2 cell surface expression [<xref rid="B83-cells-13-00818" ref-type="bibr">83</xref>]. Interestingly, cGMP-induced NKCC2 ubiquitination and degradation require a cullin-RING ligase (CRL) complex. Inhibiting CRL complex regulators, such as Nedd8 and CAND1, affects cGMP-dependent NKCC2 ubiquitination, and thereby the cell surface expression of the cotransporter. In support of the UPS-mediated regulation of NKCC2, and thereby in relation to BP control, Wu et al. provided also evidence for the role of UPS in the regulation of NKCC2 abundance during high salt intake [<xref rid="B64-cells-13-00818" ref-type="bibr">64</xref>]. Indeed, using CYP4F2 transgenic mice, they reported that 20-HETE and high salt intake synergistically diminish NKCC2 protein expression via the Nedd4-2-mediated ubiquitin-proteasome pathway, and thereby regulate natriuresis and BP [<xref rid="B64-cells-13-00818" ref-type="bibr">64</xref>].</p>
+    </sec>
+    <sec id="sec6-cells-13-00818">
+      <title>6. Molecular Basis of Bartter Syndrome Type 1</title>
+      <p>As mentioned above, type 1 BS is a serious kidney disorder caused by inactivating mutations in NKCC2. The presenting features of this inherited tubulopathy include polyhydramnios secondary to polyuria, polydipsia, growth retardation, massive salt wasting generating hypotension, hypokalemic metabolic alkalosis, hypercalciuria, and nephrocalcinosis [<xref rid="B84-cells-13-00818" ref-type="bibr">84</xref>,<xref rid="B85-cells-13-00818" ref-type="bibr">85</xref>]. To date, BS is a treatable disease, but still incurable. Furthermore, in the long term, the prognosis of BS is dominated by the possibility of chronic renal failure. Therefore, in-depth investigations into the molecular mechanisms underlying NKCC2 expression in renal cells are paramount to elucidate the pathophysiology of BS1 and to upgrade treatments for the disease. Incontestably, only the analysis of NKCC2 mutants in renal cells would make it possible to clearly and definitively determine their cellular fate.</p>
+      <sec id="sec6dot1-cells-13-00818">
+        <title>6.1. Molecular Pathogenic Mechanisms of NKCC2 Mutations</title>
+        <p>To date, more than 63 mutations in NKCC2 have been described in BS individuals, with highly variable phenotypic expression and clinical severity [<xref rid="B84-cells-13-00818" ref-type="bibr">84</xref>]. Despite this, only seven type 1 BS1 mutations have so far been studied in mammalian cells. Three of these mutations are the truncating mutations (D918fs, N984fs, and Y998X) discussed above. In this section, I will focus on the molecular pathogenic mechanisms of NKCC2 missense mutations.</p>
+        <p>Using our heterologous expression system (OKP and HEK cells), we recently examined the effect of four NKCC2 missense mutations (E368G, Y477N, A508T, and A628D) on NKCC2 transport function and processing [<xref rid="B86-cells-13-00818" ref-type="bibr">86</xref>]. We observed an altered transport activity with these NKCC2 variants, thus explaining the defect in TAL NaCl reabsorption in patients carrying these mutations [<xref rid="B86-cells-13-00818" ref-type="bibr">86</xref>]. In general, there are several mechanisms by which mutations could impair NKCC2 transport activity, such as impaired protein synthesis, disturbed protein processing, enhanced protein degradation, defective insertion into the plasma membrane, and an alteration of the functional properties of the cotransporter. Our data unveiled that all NKCC2 variants are not expressed at the cell surface because they are retained in the ER. Moreover, treatment with proteasome and lysosome inhibitors failed to restore the loss of the complex-glycosylated and mature forms of NKCC2, thus further ruling out the possibility that the Golgi apparatus processes NKCC2 mutants [<xref rid="B86-cells-13-00818" ref-type="bibr">86</xref>]. As mentioned above, we proposed abnormal NKCC2 maturation as a common type 1 BS mechanism associated with mutations such as D918fs, N984fs, and Y998X, depriving NKCC2 of its COOH terminus. The results obtained with NKCC2 missense mutations further supported the notion that, although other molecular mechanisms may contribute to the development of type 1 BS, ER retention and ER-associated protein degradation seem to be the major mechanisms underlying the disease. Importantly, similar to WT NKCC2, the ERAD of NKCC2 mutants is also mediated by the ER lectin OS9, AUP1, STCH, and ManIA [<xref rid="B42-cells-13-00818" ref-type="bibr">42</xref>,<xref rid="B43-cells-13-00818" ref-type="bibr">43</xref>,<xref rid="B44-cells-13-00818" ref-type="bibr">44</xref>,<xref rid="B86-cells-13-00818" ref-type="bibr">86</xref>]. More importantly, these specific constituents of NKCC2 ERAD machinery had a more profound effect on the cotransporter&#x2019;s folding mutants when compared to WT NKCC2. These results strongly suggest, therefore, that during the disease state, OS9, AUP1, STCH, and ManIA work in concert, sequentially, or simultaneously to efficiently eliminate harmful misfolded NKCC2 proteins and aggregates, thereby protecting TAL cells from proteotoxicity.</p>
+      </sec>
+      <sec id="sec6dot2-cells-13-00818">
+        <title>6.2. Rescuing NKCC2 Mutants: Potential Strategies</title>
+        <p>The results described above demonstrate that type 1 BS is one of the diseases associated with the ERAD pathway. The absence of functional activity and cell surface expression of these mutants is very likely secondary to folding defects and, thereby, to ER retention and degradation mechanisms. Given that all the studied mutations did not concern the active site of the cotransporter, a therapeutic strategy allowing the correction of the abnormal folding and trafficking of these NKCC2 mutants could allow the pharmacological treatment of the disease. Thus, we attempted to rectify the processing defect of NKCC2 mutants using chemical and molecular chaperones. The results were promising given that it was possible to rescue, at least partially, the maturation of NKCC2 folding mutants by chemical chaperones, in particular by glycerol, and to a lesser extent by the ER stress reliever 4-PBA [<xref rid="B86-cells-13-00818" ref-type="bibr">86</xref>]. Unfortunately, the observed effects on the mature and functional form of NKCC2 mutants were weak, and it was therefore not possible to completely rescue the expression of the cotransporter [<xref rid="B86-cells-13-00818" ref-type="bibr">86</xref>]. Similarly, OS9 knockdown massively increased the expression of NKCC2&#x2019;s immature form but failed to rescue the mature form of the cotransporter [<xref rid="B86-cells-13-00818" ref-type="bibr">86</xref>]. In this regard, numerous studies on the CFTR &#x394;F5408 mutant, which is responsible for cystic fibrosis, have accumulated evidence that the strategy of combining multiple compounds is very successful in fully rescuing the processing of CFTR mutants [<xref rid="B87-cells-13-00818" ref-type="bibr">87</xref>,<xref rid="B88-cells-13-00818" ref-type="bibr">88</xref>,<xref rid="B89-cells-13-00818" ref-type="bibr">89</xref>]. Accordingly, more intensive investigations are needed to fully rescue NKCC2 mutants, very likely by testing combinations of several chemical chaperones and/or the simultaneous siRNA of several molecular chaperones, such as Golgi ManIA, STCH, OS9, and AUP1.</p>
+      </sec>
+    </sec>
+    <sec id="sec7-cells-13-00818">
+      <title>7. Molecular Mechanisms of Bartter Syndrome Type 5</title>
+      <p>Phenotypically, BS is divided into two subgroups: antenatal BS (aBS) and classical BS. aBS is considered the most severe form of the disease, characterized by polyhydramnios and prematurity due to severe fetal polyuria [<xref rid="B85-cells-13-00818" ref-type="bibr">85</xref>]. Genotypically, in addition to type 1 BS, four other types of the disease due to mutations in ROMK (type 2), ClCKB (type 3), Barttin (type 4), and MAGE-D2 (type 5) have been described [<xref rid="B85-cells-13-00818" ref-type="bibr">85</xref>]. Type 5 BS is the most severe form of the disease, as illustrated by its high mortality due to a very early onset of severe polyhydramnios and extreme prematurity [<xref rid="B90-cells-13-00818" ref-type="bibr">90</xref>]. Type 5 BS is also called transient aBS because patients with this disease show a complete resolution of symptoms at the end of the pregnancy or just after birth [<xref rid="B90-cells-13-00818" ref-type="bibr">90</xref>]. In this section, I will focus on type 5 BS, the most recent and severe form of aBS, and the implications of NKCC2 in the disease.</p>
+      <sec id="sec7dot1-cells-13-00818">
+        <title>7.1. MAGE-D2: A Key Modulator of NKCC2 Biogenesis</title>
+        <p>Despite the identification of several forms of BS, at least one-fifth of patients with aBS and hypercalciuria, the signature symptom of NKCC2 dysfunction, remained without a genetic explanation for decades [<xref rid="B85-cells-13-00818" ref-type="bibr">85</xref>,<xref rid="B91-cells-13-00818" ref-type="bibr">91</xref>]. This led to the hypothesis of the involvement of indirect mechanisms underlying the disease, for example, the mutation of a regulatory protein of NKCC2 that could alter its trafficking toward the plasma membrane and its transport activity, thus inducing in the patient a phenotype similar to type 1 BS. Additionally, a transient form of aBS has been described, but its molecular basis remained unknown for years.</p>
+        <p>In the context of identifying novel molecular pathways responsible for aBS, whole-exome sequencing analysis was performed in a family in which three pregnancies with male offspring were complicated by transient aBS. This led to the identification of mutations in the MAGE-D2 (melanoma-associated antigen D2) gene, which correlated with the disease [<xref rid="B90-cells-13-00818" ref-type="bibr">90</xref>]. MAGE-D2 encodes melanoma-associated antigen D2 and maps to the X chromosome. In total, nine different mutations in MAGE-D2 were identified in the initial report [<xref rid="B90-cells-13-00818" ref-type="bibr">90</xref>]. Following this initial study, Legrand et al. reported that MAGE-D2 mutations were the cause of at least 9% of cases in a French cohort containing 171 families of patients with aBS [<xref rid="B92-cells-13-00818" ref-type="bibr">92</xref>]. Since then, the MAGE-D2 gene has been systematically included in the genetic screening of severe clinical forms of aBS [<xref rid="B93-cells-13-00818" ref-type="bibr">93</xref>,<xref rid="B94-cells-13-00818" ref-type="bibr">94</xref>].</p>
+        <p>The phenotypic overlap between type 1 BS and type 5 BS suggested a defect in NKCC2 expression in patients carrying MAGE-D2 mutations. In support of this, immunohistochemistry analysis revealed that NKCC2 was not detectable at the TAL apical membrane of a stillborn fetus carrying a MAGE-D2 mutation due to the ER retention of the cotransporter. These findings again support the notion that the ER export from the ER constitutes the limiting and crucial step in the forward trafficking of NKCC2 to the apical membrane. However, a defect in NKCC2 expression cannot alone explain the severity of the disease. This led to the analysis of NCC expression, which is the key actor in NaCl reabsorption in the distal tubule. NKCC2 and NCC belong to the same family of CCCs, and are often regulated by the same molecular mechanisms [<xref rid="B1-cells-13-00818" ref-type="bibr">1</xref>]. Importantly, NCC was also not detected at the apical membrane of the distal tubule in patients carrying MAGE-D2 mutations, due to ER retention. Simultaneous defects in NKCC2 and NCC expression could therefore explain, at least in part, the severity of aBS in patients with MAGE-D2 mutations.</p>
+      </sec>
+      <sec id="sec7dot2-cells-13-00818">
+        <title>7.2. Molecular Basis of the Transient Nature of BS Type 5</title>
+        <p>To elucidate the mechanisms underlying NKCC2 regulation by MAGE-D2, in vitro studies were conducted in HEK cells. These experiments revealed that MAGE-D2 knock-down reduces the stability and maturation of the cotransporter, while its overexpression produces the opposite effect [<xref rid="B90-cells-13-00818" ref-type="bibr">90</xref>]. Furthermore, the overexpression of MAGE-D2 increased the membrane expression and transport activity of NKCC2. Interestingly, the magnitude of the increase in the NKCC2 cell surface level by MAGE-D2 exceeded that observed on the stability and maturation of the cotransporter, thus opening the possibility for the implication of MAGE-D2 in the regulation of NKCC2 post-Golgi trafficking. Collectively, these data strongly suggest therefore that (1) MAGE-D2 plays a protective role against the ERAD of NKCC2 and (2) MAGE-D2 may regulate NKCC2 post-Golgi trafficking.</p>
+        <p>To further explore the molecular pathways involved in MAGE-D2&#x2019;s effects on NKCC2 and NCC, the MAGE-D2 interactome was analyzed. This proteomic approach revealed that MAGE-D2 is a specific interactor of Hsp40 [<xref rid="B90-cells-13-00818" ref-type="bibr">90</xref>]. Interestingly, a more recent report also unveiled the interaction of MAGE-D2 with Hsp70 [<xref rid="B95-cells-13-00818" ref-type="bibr">95</xref>], which is an Hsp40 cochaperone and a protector of NKCC2 against ERAD [<xref rid="B42-cells-13-00818" ref-type="bibr">42</xref>]. Consequently, Hsp70 and Hsp40 are very likely to cooperate with MAGE-D2 to protect NKCC2 against the ERAD system. In addition to Hsp70 and Hsp40, MAGE-D2 also interacts specifically with GNAS (Gs&#x3B1;) [<xref rid="B90-cells-13-00818" ref-type="bibr">90</xref>]. This interaction is also very important because total cellular NKCC2 protein abundance was decreased in GNAS knockout mice [<xref rid="B96-cells-13-00818" ref-type="bibr">96</xref>], strongly suggesting that Gs&#x3B1; is also a key regulator of NKCC2 protein stability. Moreover, since cAMP is an enhancer of cell surface expression and the transport activity of NKCC2 and NCC [<xref rid="B15-cells-13-00818" ref-type="bibr">15</xref>,<xref rid="B97-cells-13-00818" ref-type="bibr">97</xref>], Gs&#x3B1; may also be implicated in the regulation of NKCC2 and NCC post-Golgi trafficking by MAGE-D2.</p>
+        <p>Regarding the transient character of the disease, one possibility is that, via its interaction with Hsp40/Hsp70 and/or Gs&#x3B1;, MAGE-D2 safeguards the cotransporters against cellular stress, which is very likely activated by the tissue hypoxia physiologically present in the fetal kidney during the first trimesters of pregnancy, and which resolves around 30 weeks of gestation alongside a spontaneous resolution of salt loss. The correction of tissue hypoxia at the end of pregnancy and/or during the postnatal period would thus contribute to the restoration of the expression of NKCC2 and NCC. At the same time, an increase in cAMP synthesis at the end of pregnancy and/or during the postnatal period could also contribute to the restoration of these two cotransporters&#x2019; expressions. Importantly, and in support of this possible scenario, Seaayfan et al. demonstrated recently that in hypoxic conditions, MAGE-D2 is required for the appropriate induction of HIF&#x3B1;, for the expression of Gs&#x3B1; at the cell surface, and thereby for activation of the cAMP pathway [<xref rid="B98-cells-13-00818" ref-type="bibr">98</xref>,<xref rid="B99-cells-13-00818" ref-type="bibr">99</xref>]. These results thus explain, at least in part, the transient nature of BS5, given that the salt transporters involved, NKCC2 and NCC, are activated by cAMP.</p>
+      </sec>
+    </sec>
+    <sec id="sec8-cells-13-00818">
+      <title>8. Phenotype Variability in Carriers of NKCC2 Mutations</title>
+      <p>Although the diagnosis of type 1 BS is usually made in the perinatal period, several reports have described patients in whom the disease was diagnosed only during puberty, demonstrating phenotypic variability in this renal tubular disorder [<xref rid="B100-cells-13-00818" ref-type="bibr">100</xref>,<xref rid="B101-cells-13-00818" ref-type="bibr">101</xref>,<xref rid="B102-cells-13-00818" ref-type="bibr">102</xref>]. Intriguingly, it was also reported that some heterozygous NKCC2 mutations in otherwise healthy individuals are, actually, protective against hypertension [<xref rid="B103-cells-13-00818" ref-type="bibr">103</xref>]. However, the functional characterization of those variants addressed by two independent groups that focused only on NKCC2-A revealed some discrepancies between their findings [<xref rid="B104-cells-13-00818" ref-type="bibr">104</xref>,<xref rid="B105-cells-13-00818" ref-type="bibr">105</xref>]. Consequently, the molecular mechanisms underlying NKCC2 regulation under these conditions are not fully understood. More importantly, the molecular basis of the phenotypic variability in carriers of NKCC2 mutations remains unknown. Given that the TAL principally expresses NKCC2-A and NKCC2-F, we raised the hypothesis that distinct NKCC2 mutations can differentially compromise the expression of these NKCC2 variants, providing therefore, at least in part, a rationale for the variability in symptoms seen in individuals who are carriers of NKCC2 mutations (29&#x2013;33). Importantly, our results could support this idea by revealing, for instance, that NKCC2A-P348L exhibits only a partial loss of complex glycosylation, whereas NKCC2F-P348L exhibits only an immature form and is trapped in the ER [<xref rid="B106-cells-13-00818" ref-type="bibr">106</xref>]. Therefore, these data validate our hypothesis that physiological and pathophysiological challenges may differentially regulate the protein quality control of NKCC2 variants and, therefore, the processing of cotransporter mutants is governed by individual mutant-specific mechanisms. Elucidating how a specific challenge preferentially affects NKCC2 isoform A or F could provide new insights into the processes governing protein transport and their function relevant to kidney health and disease, in particular in Bartter syndrome and BP regulation.</p>
+    </sec>
+    <sec sec-type="conclusions" id="sec9-cells-13-00818">
+      <title>9. Conclusions and Perspectives</title>
+      <p>The data and observations mentioned above are consistent with a model (<xref rid="cells-13-00818-f002" ref-type="fig">Figure 2</xref>) whereby (1) di-acidic codes and hydrophobic di-leucine-like motifs dictate the ER exit of correctly folded NKCC2 via the COPII machinery; (2) the ER-lectin OS9 promotes the ER retention of the cotransporter and enhances its ER-associated degradation via the proteasome; (3) AUP1, an interactor of OS9, cooperates with the latter to promote the efficient ERAD of NKCC2 by enhancing its polyubiquitination; (4) STCH plays a dual function in the efficient clearance of misfolded NKCC2 proteins via the proteasomal and lysosomal pathways; (5) Golgi ManIA contributes to the efficient ERAD of the cotransporter by retaining in the cis-Golgi network misfolded NKCC2 proteins that have escaped ERQC, especially under ER stress conditions, and returning them to the ER; (6) in contrast to OS9, AUP1, ManIA, and STCH, Hsp70 protects NKCC2 against the ERAD system and improves its maturation; (7) Very likely through interaction with Hsp70 and its cochaperone Hsp40, MAGE-D2 promotes NKCC2 biogenesis. Further extensive studies are required to unveil the precise molecular mechanisms behind this model. Moreover, NKCC2 proteins at the plasma membrane are also modulated by the UPS system, a mode of regulation requiring a cullin-RING ligase complex [<xref rid="B83-cells-13-00818" ref-type="bibr">83</xref>]. In this regard, a better understanding of the molecular mechanisms underlying the plasma membrane QC of NKCC2, in particular by identifying the E3 ubiquitin ligases involved in the regulation of the cotransporter&#x2019;s cell surface expression, could pave the way to the discovery of new and specific loop diuretics for the treatment of hypertension. Moreover, given that changes in NKCC2 expression occur with several chronic ER stress and hypertensive conditions, such as diabetes mellitus, obesity, and aging [<xref rid="B65-cells-13-00818" ref-type="bibr">65</xref>,<xref rid="B107-cells-13-00818" ref-type="bibr">107</xref>,<xref rid="B108-cells-13-00818" ref-type="bibr">108</xref>], changes in NKCC2-interacting proteins, in particular under ER stress conditions, could have an impact on the cotransporter&#x2019;s abundance and function, and thereby on chronic kidney adaptations, especially the regulation of BP. Future research will benefit from the identification and characterization of additional regulators of NKCC2 and determine their physiological relevance in vivo by moving beyond studies using cell lines to more physiologically relevant conditions, particularly the use of transgenic animals, to unveil the protein interaction networks and processes governing NKCC2 protein expression and function in renal health and disease.</p>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The author declares no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-13-00818">
+        <label>1.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gamba</surname><given-names>G.</given-names></name>
+</person-group><article-title>Molecular physiology and pathophysiology of electroneutral cation-chloride cotransporters</article-title><source>Physiol. Rev.</source><year>2005</year><volume>85</volume><fpage>423</fpage><lpage>493</lpage><pub-id pub-id-type="doi">10.1152/physrev.00011.2004</pub-id><pub-id pub-id-type="pmid">15788703</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B2-cells-13-00818">
+        <label>2.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Delpire</surname><given-names>E.</given-names></name>
+<name><surname>Rauchman</surname><given-names>M.I.</given-names></name>
+<name><surname>Beier</surname><given-names>D.R.</given-names></name>
+<name><surname>Hebert</surname><given-names>S.C.</given-names></name>
+<name><surname>Gullans</surname><given-names>S.R.</given-names></name>
+</person-group><article-title>Molecular cloning and chromosome localization of a putative basolateral Na(<sup>+</sup>)-K(<sup>+</sup>)-2Cl<sup>&#x2212;</sup> cotransporter from mouse inner medullary collecting duct (mIMCD-3) cells</article-title><source>J. Biol. Chem.</source><year>1994</year><volume>269</volume><fpage>25677</fpage><lpage>25683</lpage><pub-id pub-id-type="doi">10.1016/S0021-9258(18)47302-4</pub-id><pub-id pub-id-type="pmid">7929272</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B3-cells-13-00818">
+        <label>3.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Russell</surname><given-names>J.</given-names></name>
+</person-group><article-title>Sodium-potassium-chloride cotransport</article-title><source>Physiol. Rev.</source><year>2000</year><volume>80</volume><fpage>211</fpage><lpage>276</lpage><pub-id pub-id-type="doi">10.1152/physrev.2000.80.1.211</pub-id><pub-id pub-id-type="pmid">10617769</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B4-cells-13-00818">
+        <label>4.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mount</surname><given-names>D.B.</given-names></name>
+</person-group><article-title>Thick ascending limb of the loop of Henle</article-title><source>Clin. J. Am. Soc. Nephrol.</source><year>2014</year><volume>9</volume><fpage>1974</fpage><lpage>1986</lpage><pub-id pub-id-type="doi">10.2215/cjn.04480413</pub-id><pub-id pub-id-type="pmid">25318757</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B5-cells-13-00818">
+        <label>5.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hennings</surname><given-names>J.C.</given-names></name>
+<name><surname>Andrini</surname><given-names>O.</given-names></name>
+<name><surname>Picard</surname><given-names>N.</given-names></name>
+<name><surname>Paulais</surname><given-names>M.</given-names></name>
+<name><surname>Huebner</surname><given-names>A.K.</given-names></name>
+<name><surname>Cayuqueo</surname><given-names>I.K.</given-names></name>
+<name><surname>Bignon</surname><given-names>Y.</given-names></name>
+<name><surname>Keck</surname><given-names>M.</given-names></name>
+<name><surname>Corni&#xE8;re</surname><given-names>N.</given-names></name>
+<name><surname>B&#xF6;hm</surname><given-names>D.</given-names></name>
+<etal/>
+</person-group><article-title>The ClC-K2 Chloride Channel Is Critical for Salt Handling in the Distal Nephron</article-title><source>J. Am. Soc. Nephrol.</source><year>2017</year><volume>28</volume><fpage>209</fpage><lpage>217</lpage><pub-id pub-id-type="doi">10.1681/asn.2016010085</pub-id><pub-id pub-id-type="pmid">27335120</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B6-cells-13-00818">
+        <label>6.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sands</surname><given-names>J.M.</given-names></name>
+<name><surname>Layton</surname><given-names>H.E.</given-names></name>
+</person-group><article-title>The physiology of urinary concentration: An update</article-title><source>Semin. Nephrol.</source><year>2009</year><volume>29</volume><fpage>178</fpage><lpage>195</lpage><pub-id pub-id-type="doi">10.1016/j.semnephrol.2009.03.008</pub-id><pub-id pub-id-type="pmid">19523568</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B7-cells-13-00818">
+        <label>7.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Simon</surname><given-names>D.B.</given-names></name>
+<name><surname>Karet</surname><given-names>F.E.</given-names></name>
+<name><surname>Hamdan</surname><given-names>J.M.</given-names></name>
+<name><surname>DiPietro</surname><given-names>A.</given-names></name>
+<name><surname>Sanjad</surname><given-names>S.A.</given-names></name>
+<name><surname>Lifton</surname><given-names>R.P.</given-names></name>
+</person-group><article-title>Bartter&#x2019;s syndrome, hypokalaemic alkalosis with hypercalciuria, is caused by mutations in the Na-K-2Cl cotransporter NKCC2</article-title><source>Nat. Genet.</source><year>1996</year><volume>13</volume><fpage>183</fpage><lpage>188</lpage><pub-id pub-id-type="doi">10.1038/ng0696-183</pub-id><pub-id pub-id-type="pmid">8640224</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B8-cells-13-00818">
+        <label>8.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Aviv</surname><given-names>A.</given-names></name>
+<name><surname>Hollenberg</surname><given-names>N.K.</given-names></name>
+<name><surname>Weder</surname><given-names>A.</given-names></name>
+</person-group><article-title>Urinary potassium excretion and sodium sensitivity in blacks</article-title><source>Hypertension</source><year>2004</year><volume>43</volume><fpage>707</fpage><lpage>713</lpage><pub-id pub-id-type="doi">10.1161/01.HYP.0000120155.48024.6f</pub-id><pub-id pub-id-type="pmid">14967834</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B9-cells-13-00818">
+        <label>9.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Trudu</surname><given-names>M.</given-names></name>
+<name><surname>Janas</surname><given-names>S.</given-names></name>
+<name><surname>Lanzani</surname><given-names>C.</given-names></name>
+<name><surname>Debaix</surname><given-names>H.</given-names></name>
+<name><surname>Schaeffer</surname><given-names>C.</given-names></name>
+<name><surname>Ikehata</surname><given-names>M.</given-names></name>
+<name><surname>Citterio</surname><given-names>L.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Trevisani</surname><given-names>F.</given-names></name>
+<name><surname>Ristagno</surname><given-names>G.</given-names></name>
+<etal/>
+</person-group><article-title>Common noncoding UMOD gene variants induce salt-sensitive hypertension and kidney damage by increasing uromodulin expression</article-title><source>Nat. Med.</source><year>2013</year><volume>19</volume><fpage>1655</fpage><lpage>1660</lpage><pub-id pub-id-type="doi">10.1038/nm.3384</pub-id><pub-id pub-id-type="pmid">24185693</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B10-cells-13-00818">
+        <label>10.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gamba</surname><given-names>G.</given-names></name>
+</person-group><article-title>Molecular biology of distal nephron sodium transport mechanisms</article-title><source>Kidney Int.</source><year>1999</year><volume>56</volume><fpage>1606</fpage><lpage>1622</lpage><pub-id pub-id-type="doi">10.1046/j.1523-1755.1999.00712.x</pub-id><pub-id pub-id-type="pmid">10504517</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B11-cells-13-00818">
+        <label>11.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Castrop</surname><given-names>H.</given-names></name>
+<name><surname>Schiessl</surname><given-names>I.M.</given-names></name>
+</person-group><article-title>Physiology and pathophysiology of the renal Na-K-2Cl cotransporter (NKCC2)</article-title><source>Am. J. Physiol. Renal Physiol.</source><year>2014</year><volume>307</volume><fpage>F991</fpage><lpage>F1002</lpage><pub-id pub-id-type="doi">10.1152/ajprenal.00432.2014</pub-id><pub-id pub-id-type="pmid">25186299</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B12-cells-13-00818">
+        <label>12.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Schiessl</surname><given-names>I.M.</given-names></name>
+<name><surname>Castrop</surname><given-names>H.</given-names></name>
+</person-group><article-title>Regulation of NKCC2 splicing and phosphorylation</article-title><source>Curr. Opin. Nephrol. Hypertens.</source><year>2015</year><volume>24</volume><fpage>457</fpage><lpage>462</lpage><pub-id pub-id-type="doi">10.1097/MNH.0000000000000150</pub-id><pub-id pub-id-type="pmid">26125642</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B13-cells-13-00818">
+        <label>13.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gamba</surname><given-names>G.</given-names></name>
+</person-group><article-title>Regulation of NKCC2 activity by SPAK truncated isoforms</article-title><source>Am. J. Physiol. Renal Physiol.</source><year>2014</year><volume>306</volume><fpage>F49</fpage><lpage>F50</lpage><pub-id pub-id-type="doi">10.1152/ajprenal.00559.2013</pub-id><pub-id pub-id-type="pmid">24173353</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B14-cells-13-00818">
+        <label>14.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Caceres</surname><given-names>P.S.</given-names></name>
+<name><surname>Ortiz</surname><given-names>P.A.</given-names></name>
+</person-group><article-title>Molecular regulation of NKCC2 in blood pressure control and hypertension</article-title><source>Curr. Opin. Nephrol. Hypertens.</source><year>2019</year><volume>28</volume><fpage>474</fpage><lpage>480</lpage><pub-id pub-id-type="doi">10.1097/mnh.0000000000000531</pub-id><pub-id pub-id-type="pmid">31313674</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B15-cells-13-00818">
+        <label>15.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ares</surname><given-names>G.R.</given-names></name>
+<name><surname>Caceres</surname><given-names>P.S.</given-names></name>
+<name><surname>Ortiz</surname><given-names>P.A.</given-names></name>
+</person-group><article-title>Molecular regulation of NKCC2 in the thick ascending limb</article-title><source>Am. J. Physiol. Renal Physiol.</source><year>2011</year><volume>301</volume><fpage>F1143</fpage><lpage>F1159</lpage><pub-id pub-id-type="doi">10.1152/ajprenal.00396.2011</pub-id><pub-id pub-id-type="pmid">21900458</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B16-cells-13-00818">
+        <label>16.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Carmosino</surname><given-names>M.</given-names></name>
+<name><surname>Procino</surname><given-names>G.</given-names></name>
+<name><surname>Svelto</surname><given-names>M.</given-names></name>
+</person-group><article-title>Na<sup>+</sup>-K<sup>+</sup>-2Cl<sup>&#x2212;</sup> cotransporter type 2 trafficking and activity: The role of interacting proteins</article-title><source>Biol. Cell</source><year>2012</year><volume>104</volume><fpage>201</fpage><lpage>212</lpage><pub-id pub-id-type="doi">10.1111/boc.201100049</pub-id><pub-id pub-id-type="pmid">22211456</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B17-cells-13-00818">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Hebert</surname><given-names>S.C.</given-names></name>
+<name><surname>Gamba</surname><given-names>G.</given-names></name>
+</person-group>
+          <article-title>Molecular cloning and characterization of the renal diuretic-sensitive electroneutral sodium-(potassium)-chloride cotransporters</article-title>
+          <source>Clin. Investig.</source>
+          <year>1994</year>
+          <volume>72</volume>
+          <fpage>692</fpage>
+          <lpage>694</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00212991</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cells-13-00818">
+        <label>18.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Payne</surname><given-names>J.A.</given-names></name>
+<name><surname>Forbush</surname><given-names>B.</given-names><suffix>3rd</suffix></name>
+</person-group><article-title>Alternatively spliced isoforms of the putative renal Na-K-Cl cotransporter are differentially distributed within the rabbit kidney</article-title><source>Proc. Natl. Acad. Sci. USA</source><year>1994</year><volume>91</volume><fpage>4544</fpage><lpage>4548</lpage><pub-id pub-id-type="doi">10.1073/pnas.91.10.4544</pub-id><pub-id pub-id-type="pmid">7514306</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B19-cells-13-00818">
+        <label>19.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Igarashi</surname><given-names>P.</given-names></name>
+<name><surname>Vanden Heuvel</surname><given-names>G.B.</given-names></name>
+<name><surname>Payne</surname><given-names>J.A.</given-names></name>
+<name><surname>Forbush</surname><given-names>B.</given-names><suffix>3rd</suffix></name>
+</person-group><article-title>Cloning, embryonic expression, and alternative splicing of a murine kidney-specific Na-K-Cl cotransporter</article-title><source>Am. J. Physiol.</source><year>1995</year><volume>269</volume><fpage>F405</fpage><lpage>F418</lpage><pub-id pub-id-type="pmid">7573490</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B20-cells-13-00818">
+        <label>20.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Marcoux</surname><given-names>A.A.</given-names></name>
+<name><surname>Tremblay</surname><given-names>L.E.</given-names></name>
+<name><surname>Slimani</surname><given-names>S.</given-names></name>
+<name><surname>Fiola</surname><given-names>M.J.</given-names></name>
+<name><surname>Mac-Way</surname><given-names>F.</given-names></name>
+<name><surname>Garneau</surname><given-names>A.P.</given-names></name>
+<name><surname>Isenring</surname><given-names>P.</given-names></name>
+</person-group><article-title>Molecular characteristics and physiological roles of Na(<sup>+</sup>)-K(<sup>+</sup>)-Cl(<sup>&#x2212;</sup>) cotransporter 2</article-title><source>J. Cell Physiol.</source><year>2021</year><volume>236</volume><fpage>1712</fpage><lpage>1729</lpage><pub-id pub-id-type="doi">10.1002/jcp.29997</pub-id><pub-id pub-id-type="pmid">32776569</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B21-cells-13-00818">
+        <label>21.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Castrop</surname><given-names>H.</given-names></name>
+<name><surname>Schnermann</surname><given-names>J.</given-names></name>
+</person-group><article-title>Isoforms of renal Na-K-2Cl cotransporter NKCC2: Expression and functional significance</article-title><source>Am. J. Physiol. Renal Physiol.</source><year>2008</year><volume>295</volume><fpage>F859</fpage><lpage>F866</lpage><pub-id pub-id-type="doi">10.1152/ajprenal.00106.2008</pub-id><pub-id pub-id-type="pmid">18495801</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B22-cells-13-00818">
+        <label>22.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Itoh</surname><given-names>K.</given-names></name>
+<name><surname>Izumi</surname><given-names>Y.</given-names></name>
+<name><surname>Inoue</surname><given-names>T.</given-names></name>
+<name><surname>Inoue</surname><given-names>H.</given-names></name>
+<name><surname>Nakayama</surname><given-names>Y.</given-names></name>
+<name><surname>Uematsu</surname><given-names>T.</given-names></name>
+<name><surname>Fukuyama</surname><given-names>T.</given-names></name>
+<name><surname>Yamazaki</surname><given-names>T.</given-names></name>
+<name><surname>Yasuoka</surname><given-names>Y.</given-names></name>
+<name><surname>Makino</surname><given-names>T.</given-names></name>
+<etal/>
+</person-group><article-title>Expression of three isoforms of Na-K-2Cl cotransporter (NKCC2) in the kidney and regulation by dehydration</article-title><source>Biochem. Biophys. Res. Commun.</source><year>2014</year><volume>453</volume><fpage>356</fpage><lpage>361</lpage><pub-id pub-id-type="doi">10.1016/j.bbrc.2014.09.089</pub-id><pub-id pub-id-type="pmid">25265491</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B23-cells-13-00818">
+        <label>23.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Takahashi</surname><given-names>N.</given-names></name>
+<name><surname>Chernavvsky</surname><given-names>D.R.</given-names></name>
+<name><surname>Gomez</surname><given-names>R.A.</given-names></name>
+<name><surname>Igarashi</surname><given-names>P.</given-names></name>
+<name><surname>Gitelman</surname><given-names>H.J.</given-names></name>
+<name><surname>Smithies</surname><given-names>O.</given-names></name>
+</person-group><article-title>Uncompensated polyuria in a mouse model of Bartter&#x2019;s syndrome</article-title><source>Proc. Natl. Acad. Sci. USA</source><year>2000</year><volume>97</volume><fpage>5434</fpage><lpage>5439</lpage><pub-id pub-id-type="doi">10.1073/pnas.090091297</pub-id><pub-id pub-id-type="pmid">10779555</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B24-cells-13-00818">
+        <label>24.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Oppermann</surname><given-names>M.</given-names></name>
+<name><surname>Mizel</surname><given-names>D.</given-names></name>
+<name><surname>Kim</surname><given-names>S.M.</given-names></name>
+<name><surname>Chen</surname><given-names>L.</given-names></name>
+<name><surname>Faulhaber-Walter</surname><given-names>R.</given-names></name>
+<name><surname>Huang</surname><given-names>Y.</given-names></name>
+<name><surname>Li</surname><given-names>C.</given-names></name>
+<name><surname>Deng</surname><given-names>C.</given-names></name>
+<name><surname>Briggs</surname><given-names>J.</given-names></name>
+<name><surname>Schnermann</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group><article-title>Renal function in mice with targeted disruption of the A isoform of the Na-K-2Cl co-transporter</article-title><source>J. Am. Soc. Nephrol.</source><year>2007</year><volume>18</volume><fpage>440</fpage><lpage>448</lpage><pub-id pub-id-type="doi">10.1681/asn.2006091070</pub-id><pub-id pub-id-type="pmid">17215439</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B25-cells-13-00818">
+        <label>25.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Oppermann</surname><given-names>M.</given-names></name>
+<name><surname>Mizel</surname><given-names>D.</given-names></name>
+<name><surname>Huang</surname><given-names>G.</given-names></name>
+<name><surname>Li</surname><given-names>C.</given-names></name>
+<name><surname>Deng</surname><given-names>C.</given-names></name>
+<name><surname>Theilig</surname><given-names>F.</given-names></name>
+<name><surname>Bachmann</surname><given-names>S.</given-names></name>
+<name><surname>Briggs</surname><given-names>J.</given-names></name>
+<name><surname>Schnermann</surname><given-names>J.</given-names></name>
+<name><surname>Castrop</surname><given-names>H.</given-names></name>
+</person-group><article-title>Macula densa control of renin secretion and preglomerular resistance in mice with selective deletion of the B isoform of the Na,K,2Cl co-transporter</article-title><source>J. Am. Soc. Nephrol.</source><year>2006</year><volume>17</volume><fpage>2143</fpage><lpage>2152</lpage><pub-id pub-id-type="doi">10.1681/asn.2006040384</pub-id><pub-id pub-id-type="pmid">16807402</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B26-cells-13-00818">
+        <label>26.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mount</surname><given-names>D.B.</given-names></name>
+</person-group><article-title>Membrane trafficking and the regulation of NKCC2</article-title><source>Am. J. Physiol. Renal Physiol.</source><year>2006</year><volume>290</volume><fpage>F606</fpage><lpage>F607</lpage><pub-id pub-id-type="doi">10.1152/ajprenal.00410.2005</pub-id><pub-id pub-id-type="pmid">16461758</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B27-cells-13-00818">
+        <label>27.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Isenring</surname><given-names>P.</given-names></name>
+<name><surname>Jacoby</surname><given-names>S.C.</given-names></name>
+<name><surname>Forbush</surname><given-names>B.</given-names><suffix>3rd</suffix></name>
+</person-group><article-title>The role of transmembrane domain 2 in cation transport by the Na-K-Cl cotransporter</article-title><source>Proc. Natl. Acad. Sci. USA</source><year>1998</year><volume>95</volume><fpage>7179</fpage><lpage>7184</lpage><pub-id pub-id-type="doi">10.1073/pnas.95.12.7179</pub-id><pub-id pub-id-type="pmid">9618559</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B28-cells-13-00818">
+        <label>28.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Isenring</surname><given-names>P.</given-names></name>
+<name><surname>Jacoby</surname><given-names>S.C.</given-names></name>
+<name><surname>Payne</surname><given-names>J.A.</given-names></name>
+<name><surname>Forbush</surname><given-names>B.</given-names><suffix>3rd</suffix></name>
+</person-group><article-title>Comparison of Na-K-Cl cotransporters. NKCC1, NKCC2, and the HEK cell Na-L-Cl cotransporter</article-title><source>J. Biol. Chem.</source><year>1998</year><volume>273</volume><fpage>11295</fpage><lpage>11301</lpage><pub-id pub-id-type="doi">10.1074/jbc.273.18.11295</pub-id><pub-id pub-id-type="pmid">9556622</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B29-cells-13-00818">
+        <label>29.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mikalsen</surname><given-names>T.</given-names></name>
+<name><surname>Johannessen</surname><given-names>M.</given-names></name>
+<name><surname>Moens</surname><given-names>U.</given-names></name>
+</person-group><article-title>Sequence- and position-dependent tagging protects extracellular-regulated kinase 3 protein from 26S proteasome-mediated degradation</article-title><source>Int. J. Biochem. Cell Biol.</source><year>2005</year><volume>37</volume><fpage>2513</fpage><lpage>2520</lpage><pub-id pub-id-type="doi">10.1016/j.biocel.2005.06.007</pub-id><pub-id pub-id-type="pmid">16084751</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B30-cells-13-00818">
+        <label>30.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Fajerman</surname><given-names>I.</given-names></name>
+<name><surname>Schwartz</surname><given-names>A.L.</given-names></name>
+<name><surname>Ciechanover</surname><given-names>A.</given-names></name>
+</person-group><article-title>Degradation of the Id2 developmental regulator: Targeting via N-terminal ubiquitination</article-title><source>Biochem. Biophys. Res. Commun.</source><year>2004</year><volume>314</volume><fpage>505</fpage><lpage>512</lpage><pub-id pub-id-type="doi">10.1016/j.bbrc.2003.12.116</pub-id><pub-id pub-id-type="pmid">14733935</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B31-cells-13-00818">
+        <label>31.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Breitschopf</surname><given-names>K.</given-names></name>
+<name><surname>Bengal</surname><given-names>E.</given-names></name>
+<name><surname>Ziv</surname><given-names>T.</given-names></name>
+<name><surname>Admon</surname><given-names>A.</given-names></name>
+<name><surname>Ciechanover</surname><given-names>A.</given-names></name>
+</person-group><article-title>A novel site for ubiquitination: The N-terminal residue, and not internal lysines of MyoD, is essential for conjugation and degradation of the protein</article-title><source>EMBO J.</source><year>1998</year><volume>17</volume><fpage>5964</fpage><lpage>5973</lpage><pub-id pub-id-type="doi">10.1093/emboj/17.20.5964</pub-id><pub-id pub-id-type="pmid">9774340</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B32-cells-13-00818">
+        <label>32.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Benziane</surname><given-names>B.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Defontaine</surname><given-names>N.</given-names></name>
+<name><surname>Zaarour</surname><given-names>N.</given-names></name>
+<name><surname>Cheval</surname><given-names>L.</given-names></name>
+<name><surname>Bourgeois</surname><given-names>S.</given-names></name>
+<name><surname>Klein</surname><given-names>C.</given-names></name>
+<name><surname>Froissart</surname><given-names>M.</given-names></name>
+<name><surname>Blanchard</surname><given-names>A.</given-names></name>
+<name><surname>Paillard</surname><given-names>M.</given-names></name>
+<etal/>
+</person-group><article-title>NKCC2 surface expression in mammalian cells: Down-regulation by novel interaction with aldolase B</article-title><source>J. Biol. Chem.</source><year>2007</year><volume>282</volume><fpage>33817</fpage><lpage>33830</lpage><pub-id pub-id-type="doi">10.1074/jbc.M700195200</pub-id><pub-id pub-id-type="pmid">17848580</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B33-cells-13-00818">
+        <label>33.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zaarour</surname><given-names>N.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Defontaine</surname><given-names>N.</given-names></name>
+<name><surname>Mordasini</surname><given-names>D.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group><article-title>A highly conserved motif at the COOH terminus dictates endoplasmic reticulum exit and cell surface expression of NKCC2</article-title><source>J. Biol. Chem.</source><year>2009</year><volume>284</volume><fpage>21752</fpage><lpage>21764</lpage><pub-id pub-id-type="doi">10.1074/jbc.M109.000679</pub-id><pub-id pub-id-type="pmid">19535327</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B34-cells-13-00818">
+        <label>34.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zaarour</surname><given-names>N.</given-names></name>
+<name><surname>Defontaine</surname><given-names>N.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Azroyan</surname><given-names>A.</given-names></name>
+<name><surname>Cheval</surname><given-names>L.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group><article-title>Secretory carrier membrane protein 2 regulates exocytic insertion of NKCC2 into the cell membrane</article-title><source>J. Biol. Chem.</source><year>2011</year><volume>286</volume><fpage>9489</fpage><lpage>9502</lpage><pub-id pub-id-type="doi">10.1074/jbc.M110.166546</pub-id><pub-id pub-id-type="pmid">21205824</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B35-cells-13-00818">
+        <label>35.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Delisle</surname><given-names>B.P.</given-names></name>
+<name><surname>Anson</surname><given-names>B.D.</given-names></name>
+<name><surname>Rajamani</surname><given-names>S.</given-names></name>
+<name><surname>January</surname><given-names>C.T.</given-names></name>
+</person-group><article-title>Biology of cardiac arrhythmias: Ion channel protein trafficking</article-title><source>Circ. Res.</source><year>2004</year><volume>94</volume><fpage>1418</fpage><lpage>1428</lpage><pub-id pub-id-type="doi">10.1161/01.RES.0000128561.28701.ea</pub-id><pub-id pub-id-type="pmid">15192037</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B36-cells-13-00818">
+        <label>36.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ma</surname><given-names>D.</given-names></name>
+<name><surname>Zerangue</surname><given-names>N.</given-names></name>
+<name><surname>Lin</surname><given-names>Y.F.</given-names></name>
+<name><surname>Collins</surname><given-names>A.</given-names></name>
+<name><surname>Yu</surname><given-names>M.</given-names></name>
+<name><surname>Jan</surname><given-names>Y.N.</given-names></name>
+<name><surname>Jan</surname><given-names>L.Y.</given-names></name>
+</person-group><article-title>Role of ER export signals in controlling surface potassium channel numbers</article-title><source>Science</source><year>2001</year><volume>291</volume><fpage>316</fpage><lpage>319</lpage><pub-id pub-id-type="doi">10.1126/science.291.5502.316</pub-id><pub-id pub-id-type="pmid">11209084</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B37-cells-13-00818">
+        <label>37.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Haardt</surname><given-names>M.</given-names></name>
+<name><surname>Benharouga</surname><given-names>M.</given-names></name>
+<name><surname>Lechardeur</surname><given-names>D.</given-names></name>
+<name><surname>Kartner</surname><given-names>N.</given-names></name>
+<name><surname>Lukacs</surname><given-names>G.L.</given-names></name>
+</person-group><article-title>C-terminal Truncations Destabilize the Cystic Fibrosis Transmembrane Conductance Regulator without Impairing Its Biogenesis: A NOVEL CLASS OF MUTATION*</article-title><source>J. Biol. Chem.</source><year>1999</year><volume>274</volume><fpage>21873</fpage><lpage>21877</lpage><pub-id pub-id-type="doi">10.1074/jbc.274.31.21873</pub-id><pub-id pub-id-type="pmid">10419506</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B38-cells-13-00818">
+        <label>38.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Theos</surname><given-names>A.C.</given-names></name>
+<name><surname>Berson</surname><given-names>J.F.</given-names></name>
+<name><surname>Theos</surname><given-names>S.C.</given-names></name>
+<name><surname>Herman</surname><given-names>K.E.</given-names></name>
+<name><surname>Harper</surname><given-names>D.C.</given-names></name>
+<name><surname>Tenza</surname><given-names>D.</given-names></name>
+<name><surname>Sviderskaya</surname><given-names>E.V.</given-names></name>
+<name><surname>Lamoreux</surname><given-names>M.L.</given-names></name>
+<name><surname>Bennett</surname><given-names>D.C.</given-names></name>
+<name><surname>Raposo</surname><given-names>G.</given-names></name>
+<etal/>
+</person-group><article-title>Dual loss of ER export and endocytic signals with altered melanosome morphology in the silver mutation of Pmel17</article-title><source>Mol. Biol. Cell</source><year>2006</year><volume>17</volume><fpage>3598</fpage><lpage>3612</lpage><pub-id pub-id-type="doi">10.1091/mbc.e06-01-0081</pub-id><pub-id pub-id-type="pmid">16760433</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B39-cells-13-00818">
+        <label>39.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zaarour</surname><given-names>N.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Defontaine</surname><given-names>N.</given-names></name>
+<name><surname>Zhu</surname><given-names>Y.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group><article-title>Multiple evolutionarily conserved Di-leucine like motifs in the carboxyl terminus control the anterograde trafficking of NKCC2</article-title><source>J. Biol. Chem.</source><year>2012</year><volume>287</volume><fpage>42642</fpage><lpage>42653</lpage><pub-id pub-id-type="doi">10.1074/jbc.M112.399162</pub-id><pub-id pub-id-type="pmid">23105100</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B40-cells-13-00818">
+        <label>40.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Delpire</surname><given-names>E.</given-names></name>
+<name><surname>Mount</surname><given-names>D.B.</given-names></name>
+</person-group><article-title>Human and murine phenotypes associated with defects in cation-chloride cotransport</article-title><source>Annu. Rev. Physiol.</source><year>2002</year><volume>64</volume><fpage>803</fpage><lpage>843</lpage><pub-id pub-id-type="doi">10.1146/annurev.physiol.64.081501.155847</pub-id><pub-id pub-id-type="pmid">11826289</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B41-cells-13-00818">
+        <label>41.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Delpire</surname><given-names>E.</given-names></name>
+</person-group><article-title>Cation-Chloride Cotransporters in Neuronal Communication</article-title><source>News. Physiol. Sci.</source><year>2000</year><volume>15</volume><fpage>309</fpage><lpage>312</lpage><pub-id pub-id-type="doi">10.1152/physiologyonline.2000.15.6.309</pub-id><pub-id pub-id-type="pmid">11390932</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B42-cells-13-00818">
+        <label>42.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bakhos-Douaihy</surname><given-names>D.</given-names></name>
+<name><surname>Seaayfan</surname><given-names>E.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Komhoff</surname><given-names>M.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group><article-title>Differential Effects of STCH and Stress-Inducible Hsp70 on the Stability and Maturation of NKCC2</article-title><source>Int. J. Mol. Sci.</source><year>2021</year><volume>22</volume><elocation-id>2207</elocation-id><pub-id pub-id-type="doi">10.3390/ijms22042207</pub-id><pub-id pub-id-type="pmid">33672238</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B43-cells-13-00818">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Seaayfan</surname><given-names>E.</given-names></name>
+<name><surname>Bakhos-Douaihy</surname><given-names>D.</given-names></name>
+<name><surname>Frachon</surname><given-names>N.</given-names></name>
+<name><surname>K&#xF6;mhoff</surname><given-names>M.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group>
+          <article-title>Golgi Alpha1,2-Mannosidase IA Promotes Efficient Endoplasmic Reticulum-Associated Degradation of NKCC2</article-title>
+          <source>Cells</source>
+          <year>2022</year>
+          <volume>11</volume>
+          <elocation-id>101</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/cells11010101</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-cells-13-00818">
+        <label>44.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Frachon</surname><given-names>N.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Seaayfan</surname><given-names>E.</given-names></name>
+<name><surname>Chelbi</surname><given-names>L.</given-names></name>
+<name><surname>Bakhos-Douaihy</surname><given-names>D.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group><article-title>AUP1 Regulates the Endoplasmic Reticulum-Associated Degradation and Polyubiquitination of NKCC2</article-title><source>Cells</source><year>2024</year><volume>13</volume><elocation-id>389</elocation-id><pub-id pub-id-type="doi">10.3390/cells13050389</pub-id><pub-id pub-id-type="pmid">38474353</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B45-cells-13-00818">
+        <label>45.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Seaayfan</surname><given-names>E.</given-names></name>
+<name><surname>Defontaine</surname><given-names>N.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Zaarour</surname><given-names>N.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group><article-title>OS9 Protein Interacts with Na-K-2Cl Co-transporter (NKCC2) and Targets Its Immature Form for the Endoplasmic Reticulum-associated Degradation Pathway</article-title><source>J. Biol. Chem.</source><year>2016</year><volume>291</volume><fpage>4487</fpage><lpage>4502</lpage><pub-id pub-id-type="doi">10.1074/jbc.M115.702514</pub-id><pub-id pub-id-type="pmid">26721884</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B46-cells-13-00818">
+        <label>46.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Nezu</surname><given-names>A.</given-names></name>
+<name><surname>Parvin</surname><given-names>M.N.</given-names></name>
+<name><surname>Turner</surname><given-names>R.J.</given-names></name>
+</person-group><article-title>A Conserved Hydrophobic Tetrad near the C Terminus of the Secretory Na+-K+-2Cl- Cotransporter (NKCC1) Is Required for Its Correct Intracellular Processing</article-title><source>J. Biol. Chem.</source><year>2009</year><volume>284</volume><fpage>6869</fpage><lpage>6876</lpage><pub-id pub-id-type="doi">10.1074/jbc.M804302200</pub-id><pub-id pub-id-type="pmid">19129177</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B47-cells-13-00818">
+        <label>47.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bakhos-Douaihy</surname><given-names>D.</given-names></name>
+<name><surname>Seaayfan</surname><given-names>E.</given-names></name>
+<name><surname>Frachon</surname><given-names>N.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>K&#xF6;mhoff</surname><given-names>M.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group><article-title>Diacidic Motifs in the Carboxyl Terminus Are Required for ER Exit and Translocation to the Plasma Membrane of NKCC2</article-title><source>Int. J. Mol. Sci.</source><year>2022</year><volume>23</volume><elocation-id>12761</elocation-id><pub-id pub-id-type="doi">10.3390/ijms232112761</pub-id><pub-id pub-id-type="pmid">36361553</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B48-cells-13-00818">
+        <label>48.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ellgaard</surname><given-names>L.</given-names></name>
+<name><surname>Helenius</surname><given-names>A.</given-names></name>
+</person-group><article-title>Quality control in the endoplasmic reticulum</article-title><source>Nat. Rev. Mol. Cell Biol.</source><year>2003</year><volume>4</volume><fpage>181</fpage><lpage>191</lpage><pub-id pub-id-type="doi">10.1038/nrm1052</pub-id><pub-id pub-id-type="pmid">12612637</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B49-cells-13-00818">
+        <label>49.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hwang</surname><given-names>J.</given-names></name>
+<name><surname>Qi</surname><given-names>L.</given-names></name>
+</person-group><article-title>Quality Control in the Endoplasmic Reticulum: Crosstalk between ERAD and UPR pathways</article-title><source>Trends Biochem. Sci.</source><year>2018</year><volume>43</volume><fpage>593</fpage><lpage>605</lpage><pub-id pub-id-type="doi">10.1016/j.tibs.2018.06.005</pub-id><pub-id pub-id-type="pmid">30056836</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B50-cells-13-00818">
+        <label>50.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ruggiano</surname><given-names>A.</given-names></name>
+<name><surname>Foresti</surname><given-names>O.</given-names></name>
+<name><surname>Carvalho</surname><given-names>P.</given-names></name>
+</person-group><article-title>Quality control: ER-associated degradation: Protein quality control and beyond</article-title><source>J. Cell Biol.</source><year>2014</year><volume>204</volume><fpage>869</fpage><lpage>879</lpage><pub-id pub-id-type="doi">10.1083/jcb.201312042</pub-id><pub-id pub-id-type="pmid">24637321</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B51-cells-13-00818">
+        <label>51.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kotler</surname><given-names>J.L.M.</given-names></name>
+<name><surname>Street</surname><given-names>T.O.</given-names></name>
+</person-group><article-title>Mechanisms of Protein Quality Control in the Endoplasmic Reticulum by a Coordinated Hsp40-Hsp70-Hsp90 System</article-title><source>Annu. Rev. Biophys.</source><year>2023</year><volume>52</volume><fpage>509</fpage><lpage>524</lpage><pub-id pub-id-type="doi">10.1146/annurev-biophys-111622-091309</pub-id><pub-id pub-id-type="pmid">37159299</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B52-cells-13-00818">
+        <label>52.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Staub</surname><given-names>O.</given-names></name>
+<name><surname>Gautschi</surname><given-names>I.</given-names></name>
+<name><surname>Ishikawa</surname><given-names>T.</given-names></name>
+<name><surname>Breitschopf</surname><given-names>K.</given-names></name>
+<name><surname>Ciechanover</surname><given-names>A.</given-names></name>
+<name><surname>Schild</surname><given-names>L.</given-names></name>
+<name><surname>Rotin</surname><given-names>D.</given-names></name>
+</person-group><article-title>Regulation of stability and function of the epithelial Na+ channel (ENaC) by ubiquitination</article-title><source>EMBO J.</source><year>1997</year><volume>16</volume><fpage>6325</fpage><lpage>6336</lpage><pub-id pub-id-type="doi">10.1093/emboj/16.21.6325</pub-id><pub-id pub-id-type="pmid">9351815</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B53-cells-13-00818">
+        <label>53.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jensen</surname><given-names>T.J.</given-names></name>
+<name><surname>Loo</surname><given-names>M.A.</given-names></name>
+<name><surname>Pind</surname><given-names>S.</given-names></name>
+<name><surname>Williams</surname><given-names>D.B.</given-names></name>
+<name><surname>Goldberg</surname><given-names>A.L.</given-names></name>
+<name><surname>Riordan</surname><given-names>J.R.</given-names></name>
+</person-group><article-title>Multiple proteolytic systems, including the proteasome, contribute to CFTR processing</article-title><source>Cell</source><year>1995</year><volume>83</volume><fpage>129</fpage><lpage>135</lpage><pub-id pub-id-type="doi">10.1016/0092-8674(95)90241-4</pub-id><pub-id pub-id-type="pmid">7553864</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B54-cells-13-00818">
+        <label>54.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Klemm</surname><given-names>E.J.</given-names></name>
+<name><surname>Spooner</surname><given-names>E.</given-names></name>
+<name><surname>Ploegh</surname><given-names>H.L.</given-names></name>
+</person-group><article-title>Dual role of ancient ubiquitous protein 1 (AUP1) in lipid droplet accumulation and endoplasmic reticulum (ER) protein quality control</article-title><source>J. Biol. Chem.</source><year>2011</year><volume>286</volume><fpage>37602</fpage><lpage>37614</lpage><pub-id pub-id-type="doi">10.1074/jbc.M111.284794</pub-id><pub-id pub-id-type="pmid">21857022</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B55-cells-13-00818">
+        <label>55.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Litovchick</surname><given-names>L.</given-names></name>
+<name><surname>Friedmann</surname><given-names>E.</given-names></name>
+<name><surname>Shaltiel</surname><given-names>S.</given-names></name>
+</person-group><article-title>A selective interaction between OS-9 and the carboxyl-terminal tail of meprin beta</article-title><source>J. Biol. Chem.</source><year>2002</year><volume>277</volume><fpage>34413</fpage><lpage>34423</lpage><pub-id pub-id-type="doi">10.1074/jbc.M203986200</pub-id><pub-id pub-id-type="pmid">12093806</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B56-cells-13-00818">
+        <label>56.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>Y.</given-names></name>
+<name><surname>Fu</surname><given-names>X.</given-names></name>
+<name><surname>Gaiser</surname><given-names>S.</given-names></name>
+<name><surname>K&#xF6;ttgen</surname><given-names>M.</given-names></name>
+<name><surname>Kramer-Zucker</surname><given-names>A.</given-names></name>
+<name><surname>Walz</surname><given-names>G.</given-names></name>
+<name><surname>Wegierski</surname><given-names>T.</given-names></name>
+</person-group><article-title>OS-9 regulates the transit and polyubiquitination of TRPV4 in the endoplasmic reticulum</article-title><source>J. Biol. Chem.</source><year>2007</year><volume>282</volume><fpage>36561</fpage><lpage>36570</lpage><pub-id pub-id-type="doi">10.1074/jbc.M703903200</pub-id><pub-id pub-id-type="pmid">17932042</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B57-cells-13-00818">
+        <label>57.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jansen</surname><given-names>B.J.</given-names></name>
+<name><surname>Eleveld-Trancikova</surname><given-names>D.</given-names></name>
+<name><surname>Sanecka</surname><given-names>A.</given-names></name>
+<name><surname>van Hout-Kuijer</surname><given-names>M.</given-names></name>
+<name><surname>Hendriks</surname><given-names>I.A.</given-names></name>
+<name><surname>Looman</surname><given-names>M.G.</given-names></name>
+<name><surname>Leusen</surname><given-names>J.H.</given-names></name>
+<name><surname>Adema</surname><given-names>G.J.</given-names></name>
+</person-group><article-title>OS9 interacts with DC-STAMP and modulates its intracellular localization in response to TLR ligation</article-title><source>Mol. Immunol.</source><year>2009</year><volume>46</volume><fpage>505</fpage><lpage>515</lpage><pub-id pub-id-type="doi">10.1016/j.molimm.2008.06.032</pub-id><pub-id pub-id-type="pmid">18952287</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B58-cells-13-00818">
+        <label>58.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Alcock</surname><given-names>F.</given-names></name>
+<name><surname>Swanton</surname><given-names>E.</given-names></name>
+</person-group><article-title>Mammalian OS-9 is upregulated in response to endoplasmic reticulum stress and facilitates ubiquitination of misfolded glycoproteins</article-title><source>J. Mol. Biol.</source><year>2009</year><volume>385</volume><fpage>1032</fpage><lpage>1042</lpage><pub-id pub-id-type="doi">10.1016/j.jmb.2008.11.045</pub-id><pub-id pub-id-type="pmid">19084021</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B59-cells-13-00818">
+        <label>59.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Stevanovic</surname><given-names>A.</given-names></name>
+<name><surname>Thiele</surname><given-names>C.</given-names></name>
+</person-group><article-title>Monotopic topology is required for lipid droplet targeting of ancient ubiquitous protein 1[S]</article-title><source>J. Lipid Res.</source><year>2013</year><volume>54</volume><fpage>503</fpage><lpage>513</lpage><pub-id pub-id-type="doi">10.1194/jlr.M033852</pub-id><pub-id pub-id-type="pmid">23197321</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B60-cells-13-00818">
+        <label>60.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bernasconi</surname><given-names>R.</given-names></name>
+<name><surname>Pertel</surname><given-names>T.</given-names></name>
+<name><surname>Luban</surname><given-names>J.</given-names></name>
+<name><surname>Molinari</surname><given-names>M.</given-names></name>
+</person-group><article-title>A dual task for the Xbp1-responsive OS-9 variants in the mammalian endoplasmic reticulum: Inhibiting secretion of misfolded protein conformers and enhancing their disposal</article-title><source>J. Biol. Chem.</source><year>2008</year><volume>283</volume><fpage>16446</fpage><lpage>16454</lpage><pub-id pub-id-type="doi">10.1074/jbc.M802272200</pub-id><pub-id pub-id-type="pmid">18417469</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B61-cells-13-00818">
+        <label>61.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Su</surname><given-names>R.</given-names></name>
+<name><surname>Yin</surname><given-names>J.</given-names></name>
+<name><surname>Ruan</surname><given-names>X.</given-names></name>
+<name><surname>Chen</surname><given-names>Y.</given-names></name>
+<name><surname>Wan</surname><given-names>P.</given-names></name>
+<name><surname>Luo</surname><given-names>Z.</given-names></name>
+</person-group><article-title>Featured interactome of homocysteine-inducible endoplasmic reticulum protein uncovers novel binding partners in response to ER stress</article-title><source>Comput. Struct. Biotechnol. J.</source><year>2023</year><volume>21</volume><fpage>4478</fpage><lpage>4487</lpage><pub-id pub-id-type="doi">10.1016/j.csbj.2023.09.006</pub-id><pub-id pub-id-type="pmid">37736299</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B62-cells-13-00818">
+        <label>62.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mori</surname><given-names>T.</given-names></name>
+<name><surname>Cowley</surname><given-names>A.W.</given-names><suffix>Jr.</suffix></name>
+</person-group><article-title>Renal oxidative stress in medullary thick ascending limbs produced by elevated NaCl and glucose</article-title><source>Hypertension</source><year>2004</year><volume>43</volume><fpage>341</fpage><lpage>346</lpage><pub-id pub-id-type="doi">10.1161/01.HYP.0000113295.31481.36</pub-id><pub-id pub-id-type="pmid">14718354</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B63-cells-13-00818">
+        <label>63.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Brown</surname><given-names>M.K.</given-names></name>
+<name><surname>Naidoo</surname><given-names>N.</given-names></name>
+</person-group><article-title>The endoplasmic reticulum stress response in aging and age-related diseases</article-title><source>Front. Physiol.</source><year>2012</year><volume>3</volume><fpage>263</fpage><pub-id pub-id-type="doi">10.3389/fphys.2012.00263</pub-id><pub-id pub-id-type="pmid">22934019</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B64-cells-13-00818">
+        <label>64.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>J.</given-names></name>
+<name><surname>Liu</surname><given-names>X.</given-names></name>
+<name><surname>Lai</surname><given-names>G.</given-names></name>
+<name><surname>Yang</surname><given-names>X.</given-names></name>
+<name><surname>Wang</surname><given-names>L.</given-names></name>
+<name><surname>Zhao</surname><given-names>Y.</given-names></name>
+</person-group><article-title>Synergistical effect of 20-HETE and high salt on NKCC2 protein and blood pressure via ubiquitin-proteasome pathway</article-title><source>Hum. Genet.</source><year>2012</year><volume>132</volume><fpage>179</fpage><lpage>187</lpage><pub-id pub-id-type="doi">10.1007/s00439-012-1238-3</pub-id><pub-id pub-id-type="pmid">23104236</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B65-cells-13-00818">
+        <label>65.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tian</surname><given-names>Y.</given-names></name>
+<name><surname>Riazi</surname><given-names>S.</given-names></name>
+<name><surname>Khan</surname><given-names>O.</given-names></name>
+<name><surname>Klein</surname><given-names>J.D.</given-names></name>
+<name><surname>Sugimura</surname><given-names>Y.</given-names></name>
+<name><surname>Verbalis</surname><given-names>J.G.</given-names></name>
+<name><surname>Ecelbarger</surname><given-names>C.A.</given-names></name>
+</person-group><article-title>Renal ENaC subunit, Na-K-2Cl and Na-Cl cotransporter abundances in aged, water-restricted F344 x Brown Norway rats</article-title><source>Kidney Int.</source><year>2006</year><volume>69</volume><fpage>304</fpage><lpage>312</lpage><pub-id pub-id-type="doi">10.1038/sj.ki.5000076</pub-id><pub-id pub-id-type="pmid">16408120</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B66-cells-13-00818">
+        <label>66.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yamazaki</surname><given-names>O.</given-names></name>
+<name><surname>Hirohama</surname><given-names>D.</given-names></name>
+<name><surname>Ishizawa</surname><given-names>K.</given-names></name>
+<name><surname>Shibata</surname><given-names>S.</given-names></name>
+</person-group><article-title>Role of the Ubiquitin Proteasome System in the Regulation of Blood Pressure: A Review</article-title><source>Int. J. Mol. Sci.</source><year>2020</year><volume>21</volume><elocation-id>5358</elocation-id><pub-id pub-id-type="doi">10.3390/ijms21155358</pub-id><pub-id pub-id-type="pmid">32731518</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B67-cells-13-00818">
+        <label>67.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>De Leonibus</surname><given-names>C.</given-names></name>
+<name><surname>Cinque</surname><given-names>L.</given-names></name>
+<name><surname>Settembre</surname><given-names>C.</given-names></name>
+</person-group><article-title>Emerging lysosomal pathways for quality control at the endoplasmic reticulum</article-title><source>FEBS Lett.</source><year>2019</year><volume>593</volume><fpage>2319</fpage><lpage>2329</lpage><pub-id pub-id-type="doi">10.1002/1873-3468.13571</pub-id><pub-id pub-id-type="pmid">31388984</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B68-cells-13-00818">
+        <label>68.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Fregno</surname><given-names>I.</given-names></name>
+<name><surname>Fasana</surname><given-names>E.</given-names></name>
+<name><surname>Bergmann</surname><given-names>T.J.</given-names></name>
+<name><surname>Raimondi</surname><given-names>A.</given-names></name>
+<name><surname>Loi</surname><given-names>M.</given-names></name>
+<name><surname>Solda</surname><given-names>T.</given-names></name>
+<name><surname>Galli</surname><given-names>C.</given-names></name>
+<name><surname>D&#x2019;Antuono</surname><given-names>R.</given-names></name>
+<name><surname>Morone</surname><given-names>D.</given-names></name>
+<name><surname>Danieli</surname><given-names>A.</given-names></name>
+<etal/>
+</person-group><article-title>ER-to-lysosome-associated degradation of proteasome-resistant ATZ polymers occurs via receptor-mediated vesicular transport</article-title><source>EMBO J.</source><year>2018</year><volume>37</volume><fpage>e99259</fpage><pub-id pub-id-type="doi">10.15252/embj.201899259</pub-id><pub-id pub-id-type="pmid">30076131</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B69-cells-13-00818">
+        <label>69.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rosenzweig</surname><given-names>R.</given-names></name>
+<name><surname>Nillegoda</surname><given-names>N.B.</given-names></name>
+<name><surname>Mayer</surname><given-names>M.P.</given-names></name>
+<name><surname>Bukau</surname><given-names>B.</given-names></name>
+</person-group><article-title>The Hsp70 chaperone network</article-title><source>Nat. Rev. Mol. Cell Biol.</source><year>2019</year><volume>20</volume><fpage>665</fpage><lpage>680</lpage><pub-id pub-id-type="doi">10.1038/s41580-019-0133-3</pub-id><pub-id pub-id-type="pmid">31253954</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B70-cells-13-00818">
+        <label>70.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Radons</surname><given-names>J.</given-names></name>
+</person-group><article-title>The human HSP70 family of chaperones: Where do we stand?</article-title><source>Cell Stress Chaperones</source><year>2016</year><volume>21</volume><fpage>379</fpage><lpage>404</lpage><pub-id pub-id-type="doi">10.1007/s12192-016-0676-6</pub-id><pub-id pub-id-type="pmid">26865365</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B71-cells-13-00818">
+        <label>71.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Donnelly</surname><given-names>B.F.</given-names></name>
+<name><surname>Needham</surname><given-names>P.G.</given-names></name>
+<name><surname>Snyder</surname><given-names>A.C.</given-names></name>
+<name><surname>Roy</surname><given-names>A.</given-names></name>
+<name><surname>Khadem</surname><given-names>S.</given-names></name>
+<name><surname>Brodsky</surname><given-names>J.L.</given-names></name>
+<name><surname>Subramanya</surname><given-names>A.R.</given-names></name>
+</person-group><article-title>Hsp70 and Hsp90 multichaperone complexes sequentially regulate thiazide-sensitive cotransporter endoplasmic reticulum-associated degradation and biogenesis</article-title><source>J. Biol. Chem.</source><year>2013</year><volume>288</volume><fpage>13124</fpage><lpage>13135</lpage><pub-id pub-id-type="doi">10.1074/jbc.M113.455394</pub-id><pub-id pub-id-type="pmid">23482560</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B72-cells-13-00818">
+        <label>72.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kim Chiaw</surname><given-names>P.</given-names></name>
+<name><surname>Hantouche</surname><given-names>C.</given-names></name>
+<name><surname>Wong</surname><given-names>M.J.H.</given-names></name>
+<name><surname>Matthes</surname><given-names>E.</given-names></name>
+<name><surname>Robert</surname><given-names>R.</given-names></name>
+<name><surname>Hanrahan</surname><given-names>J.W.</given-names></name>
+<name><surname>Shrier</surname><given-names>A.</given-names></name>
+<name><surname>Young</surname><given-names>J.C.</given-names></name>
+</person-group><article-title>Hsp70 and DNAJA2 limit CFTR levels through degradation</article-title><source>PLoS ONE</source><year>2019</year><volume>14</volume><elocation-id>e0220984</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0220984</pub-id><pub-id pub-id-type="pmid">31408507</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B73-cells-13-00818">
+        <label>73.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Seo</surname><given-names>J.H.</given-names></name>
+<name><surname>Park</surname><given-names>J.H.</given-names></name>
+<name><surname>Lee</surname><given-names>E.J.</given-names></name>
+<name><surname>Vo</surname><given-names>T.T.</given-names></name>
+<name><surname>Choi</surname><given-names>H.</given-names></name>
+<name><surname>Kim</surname><given-names>J.Y.</given-names></name>
+<name><surname>Jang</surname><given-names>J.K.</given-names></name>
+<name><surname>Wee</surname><given-names>H.J.</given-names></name>
+<name><surname>Lee</surname><given-names>H.S.</given-names></name>
+<name><surname>Jang</surname><given-names>S.H.</given-names></name>
+<etal/>
+</person-group><article-title>ARD1-mediated Hsp70 acetylation balances stress-induced protein refolding and degradation</article-title><source>Nat. Commun.</source><year>2016</year><volume>7</volume><fpage>12882</fpage><pub-id pub-id-type="doi">10.1038/ncomms12882</pub-id><pub-id pub-id-type="pmid">27708256</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B74-cells-13-00818">
+        <label>74.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ishizaka</surname><given-names>N.</given-names></name>
+<name><surname>Aizawa</surname><given-names>T.</given-names></name>
+<name><surname>Ohno</surname><given-names>M.</given-names></name>
+<name><surname>Usui Si</surname><given-names>S.</given-names></name>
+<name><surname>Mori</surname><given-names>I.</given-names></name>
+<name><surname>Tang</surname><given-names>S.S.</given-names></name>
+<name><surname>Ingelfinger</surname><given-names>J.R.</given-names></name>
+<name><surname>Kimura</surname><given-names>S.</given-names></name>
+<name><surname>Nagai</surname><given-names>R.</given-names></name>
+</person-group><article-title>Regulation and localization of HSP70 and HSP25 in the kidney of rats undergoing long-term administration of angiotensin II</article-title><source>Hypertension</source><year>2002</year><volume>39</volume><fpage>122</fpage><lpage>128</lpage><pub-id pub-id-type="doi">10.1161/hy1201.096818</pub-id><pub-id pub-id-type="pmid">11799090</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B75-cells-13-00818">
+        <label>75.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Parra</surname><given-names>G.</given-names></name>
+<name><surname>Quiroz</surname><given-names>Y.</given-names></name>
+<name><surname>Salazar</surname><given-names>J.</given-names></name>
+<name><surname>Bravo</surname><given-names>Y.</given-names></name>
+<name><surname>Pons</surname><given-names>H.</given-names></name>
+<name><surname>Chavez</surname><given-names>M.</given-names></name>
+<name><surname>Johnson</surname><given-names>R.J.</given-names></name>
+<name><surname>Rodriguez-Iturbe</surname><given-names>B.</given-names></name>
+</person-group>
+          <article-title>Experimental induction of salt-sensitive hypertension is associated with lymphocyte proliferative response to HSP70: New strategies to prevent cardiovascular risk in chronic kidney disease</article-title>
+          <source>Kidney Int.</source>
+          <year>2008</year>
+          <volume>74</volume>
+          <fpage>S55</fpage>
+          <lpage>S59</lpage>
+          <pub-id pub-id-type="doi">10.1038/ki.2008.513</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B76-cells-13-00818">
+        <label>76.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Lins</surname><given-names>B.B.</given-names></name>
+<name><surname>Casare</surname><given-names>F.A.M.</given-names></name>
+<name><surname>Fontenele</surname><given-names>F.F.</given-names></name>
+<name><surname>Gon&#xE7;alves</surname><given-names>G.L.</given-names></name>
+<name><surname>Oliveira-Souza</surname><given-names>M.</given-names></name>
+</person-group>
+          <article-title>Long-Term Angiotensin II Infusion Induces Oxidative and Endoplasmic Reticulum Stress and Modulates Na<sup>+</sup> Transporters Through the Nephron</article-title>
+          <source>Front. Physiol.</source>
+          <year>2021</year>
+          <volume>12</volume>
+          <pub-id pub-id-type="doi">10.3389/fphys.2021.642752</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B77-cells-13-00818">
+        <label>77.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tempel</surname><given-names>W.</given-names></name>
+<name><surname>Karaveg</surname><given-names>K.</given-names></name>
+<name><surname>Liu</surname><given-names>Z.J.</given-names></name>
+<name><surname>Rose</surname><given-names>J.</given-names></name>
+<name><surname>Wang</surname><given-names>B.C.</given-names></name>
+<name><surname>Moremen</surname><given-names>K.W.</given-names></name>
+</person-group><article-title>Structure of mouse Golgi alpha-mannosidase IA reveals the molecular basis for substrate specificity among class 1 (family 47 glycosylhydrolase) alpha1,2-mannosidases</article-title><source>J. Biol. Chem.</source><year>2004</year><volume>279</volume><fpage>29774</fpage><lpage>29786</lpage><pub-id pub-id-type="doi">10.1074/jbc.M403065200</pub-id><pub-id pub-id-type="pmid">15102839</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B78-cells-13-00818">
+        <label>78.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bieberich</surname><given-names>E.</given-names></name>
+<name><surname>Bause</surname><given-names>E.</given-names></name>
+</person-group><article-title>Man9-mannosidase from human kidney is expressed in COS cells as a Golgi-resident type II transmembrane N-glycoprotein</article-title><source>Eur. J. Biochem.</source><year>1995</year><volume>233</volume><fpage>644</fpage><lpage>649</lpage><pub-id pub-id-type="doi">10.1111/j.1432-1033.1995.644_2.x</pub-id><pub-id pub-id-type="pmid">7588811</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B79-cells-13-00818">
+        <label>79.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bieberich</surname><given-names>E.</given-names></name>
+<name><surname>Treml</surname><given-names>K.</given-names></name>
+<name><surname>Volker</surname><given-names>C.</given-names></name>
+<name><surname>Rolfs</surname><given-names>A.</given-names></name>
+<name><surname>Kalz-Fuller</surname><given-names>B.</given-names></name>
+<name><surname>Bause</surname><given-names>E.</given-names></name>
+</person-group><article-title>Man9-mannosidase from pig liver is a type-II membrane protein that resides in the endoplasmic reticulum. cDNA cloning and expression of the enzyme in COS 1 cells</article-title><source>Eur. J. Biochem.</source><year>1997</year><volume>246</volume><fpage>681</fpage><lpage>689</lpage><pub-id pub-id-type="doi">10.1111/j.1432-1033.1997.t01-1-00681.x</pub-id><pub-id pub-id-type="pmid">9219526</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B80-cells-13-00818">
+        <label>80.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Velasco</surname><given-names>A.</given-names></name>
+<name><surname>Hendricks</surname><given-names>L.</given-names></name>
+<name><surname>Moremen</surname><given-names>K.W.</given-names></name>
+<name><surname>Tulsiani</surname><given-names>D.R.</given-names></name>
+<name><surname>Touster</surname><given-names>O.</given-names></name>
+<name><surname>Farquhar</surname><given-names>M.G.</given-names></name>
+</person-group><article-title>Cell type-dependent variations in the subcellular distribution of alpha-mannosidase I and II</article-title><source>J. Cell Biol.</source><year>1993</year><volume>122</volume><fpage>39</fpage><lpage>51</lpage><pub-id pub-id-type="doi">10.1083/jcb.122.1.39</pub-id><pub-id pub-id-type="pmid">8314846</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B81-cells-13-00818">
+        <label>81.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sun</surname><given-names>Z.</given-names></name>
+<name><surname>Brodsky</surname><given-names>J.L.</given-names></name>
+</person-group><article-title>Protein quality control in the secretory pathway</article-title><source>J. Cell Biol.</source><year>2019</year><volume>218</volume><fpage>3171</fpage><lpage>3187</lpage><pub-id pub-id-type="doi">10.1083/jcb.201906047</pub-id><pub-id pub-id-type="pmid">31537714</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B82-cells-13-00818">
+        <label>82.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ares</surname><given-names>G.R.</given-names></name>
+</person-group><article-title>Ubiquitination of NKCC2 by the cullin-RING E3 ubiquitin ligase family in the thick ascending limb of the loop of Henle</article-title><source>Am. J. Physiol. Renal Physiol.</source><year>2023</year><volume>324</volume><fpage>F315</fpage><lpage>F328</lpage><pub-id pub-id-type="doi">10.1152/ajprenal.00079.2022</pub-id><pub-id pub-id-type="pmid">36727946</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B83-cells-13-00818">
+        <label>83.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ares</surname><given-names>G.R.</given-names></name>
+</person-group><article-title>cGMP induces degradation of NKCC2 in the thick ascending limb via the ubiquitin-proteasomal system</article-title><source>Am. J. Physiol. Renal Physiol.</source><year>2019</year><volume>316</volume><fpage>F838</fpage><lpage>F846</lpage><pub-id pub-id-type="doi">10.1152/ajprenal.00287.2018</pub-id><pub-id pub-id-type="pmid">30810355</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B84-cells-13-00818">
+        <label>84.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Cunha</surname><given-names>T.D.S.</given-names></name>
+<name><surname>Heilberg</surname><given-names>I.P.</given-names></name>
+</person-group>
+          <article-title>Bartter syndrome: Causes, diagnosis, and treatment</article-title>
+          <source>Int. J. Nephrol. Renov. Dis.</source>
+          <year>2018</year>
+          <volume>11</volume>
+          <fpage>291</fpage>
+          <lpage>301</lpage>
+          <pub-id pub-id-type="doi">10.2147/ijnrd.S155397</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B85-cells-13-00818">
+        <label>85.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Komhoff</surname><given-names>M.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group><article-title>Pathophysiology of antenatal Bartter&#x2019;s syndrome</article-title><source>Curr. Opin. Nephrol. Hypertens.</source><year>2017</year><volume>26</volume><fpage>419</fpage><lpage>425</lpage><pub-id pub-id-type="doi">10.1097/MNH.0000000000000346</pub-id><pub-id pub-id-type="pmid">28598867</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B86-cells-13-00818">
+        <label>86.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Shaukat</surname><given-names>I.</given-names></name>
+<name><surname>Bakhos-Douaihy</surname><given-names>D.</given-names></name>
+<name><surname>Zhu</surname><given-names>Y.</given-names></name>
+<name><surname>Seaayfan</surname><given-names>E.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Frachon</surname><given-names>N.</given-names></name>
+<name><surname>Weber</surname><given-names>S.</given-names></name>
+<name><surname>Komhoff</surname><given-names>M.</given-names></name>
+<name><surname>Vargas-Poussou</surname><given-names>R.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group><article-title>New insights into the role of endoplasmic reticulum-associated degradation in Bartter Syndrome Type 1</article-title><source>Hum. Mutat.</source><year>2021</year><volume>42</volume><fpage>947</fpage><lpage>968</lpage><pub-id pub-id-type="doi">10.1002/humu.24217</pub-id><pub-id pub-id-type="pmid">33973684</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B87-cells-13-00818">
+        <label>87.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Amaral</surname><given-names>M.D.</given-names></name>
+<name><surname>Farinha</surname><given-names>C.M.</given-names></name>
+</person-group><article-title>Rescuing mutant CFTR: A multi-task approach to a better outcome in treating cystic fibrosis</article-title><source>Curr. Pharm. Des.</source><year>2013</year><volume>19</volume><fpage>3497</fpage><lpage>3508</lpage><pub-id pub-id-type="doi">10.2174/13816128113199990318</pub-id><pub-id pub-id-type="pmid">23331027</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B88-cells-13-00818">
+        <label>88.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Brown</surname><given-names>C.R.</given-names></name>
+<name><surname>Hong-Brown</surname><given-names>L.Q.</given-names></name>
+<name><surname>Biwersi</surname><given-names>J.</given-names></name>
+<name><surname>Verkman</surname><given-names>A.S.</given-names></name>
+<name><surname>Welch</surname><given-names>W.J.</given-names></name>
+</person-group><article-title>Chemical chaperones correct the mutant phenotype of the delta F508 cystic fibrosis transmembrane conductance regulator protein</article-title><source>Cell Stress Chaperones</source><year>1996</year><volume>1</volume><fpage>117</fpage><lpage>125</lpage><pub-id pub-id-type="doi">10.1379/1466-1268(1996)001&lt;0117:CCCTMP&gt;2.3.CO;2</pub-id><pub-id pub-id-type="pmid">9222597</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B89-cells-13-00818">
+        <label>89.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Grove</surname><given-names>D.E.</given-names></name>
+<name><surname>Rosser</surname><given-names>M.F.</given-names></name>
+<name><surname>Ren</surname><given-names>H.Y.</given-names></name>
+<name><surname>Naren</surname><given-names>A.P.</given-names></name>
+<name><surname>Cyr</surname><given-names>D.M.</given-names></name>
+</person-group><article-title>Mechanisms for rescue of correctable folding defects in CFTRDelta F508</article-title><source>Mol. Biol. Cell</source><year>2009</year><volume>20</volume><fpage>4059</fpage><lpage>4069</lpage><pub-id pub-id-type="doi">10.1091/mbc.E08-09-0929</pub-id><pub-id pub-id-type="pmid">19625452</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B90-cells-13-00818">
+        <label>90.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+<name><surname>Beck</surname><given-names>B.B.</given-names></name>
+<name><surname>Yang</surname><given-names>S.S.</given-names></name>
+<name><surname>Seaayfan</surname><given-names>E.</given-names></name>
+<name><surname>Wenzel</surname><given-names>A.</given-names></name>
+<name><surname>Reusch</surname><given-names>B.</given-names></name>
+<name><surname>Vitzthum</surname><given-names>H.</given-names></name>
+<name><surname>Priem</surname><given-names>D.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Bergmann</surname><given-names>K.</given-names></name>
+<etal/>
+</person-group><article-title>Polyhydramnios, Transient Antenatal Bartter&#x2019;s Syndrome, and MAGED2 Mutations</article-title><source>N. Engl. J. Med.</source><year>2016</year><volume>374</volume><fpage>1853</fpage><lpage>1863</lpage><pub-id pub-id-type="doi">10.1056/NEJMoa1507629</pub-id><pub-id pub-id-type="pmid">27120771</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B91-cells-13-00818">
+        <label>91.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Komhoff</surname><given-names>M.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group><article-title>MAGED2: A novel form of antenatal Bartter&#x2019;s syndrome</article-title><source>Curr. Opin. Nephrol. Hypertens.</source><year>2018</year><volume>27</volume><fpage>323</fpage><lpage>328</lpage><pub-id pub-id-type="doi">10.1097/MNH.0000000000000422</pub-id><pub-id pub-id-type="pmid">29677005</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B92-cells-13-00818">
+        <label>92.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Legrand</surname><given-names>A.</given-names></name>
+<name><surname>Treard</surname><given-names>C.</given-names></name>
+<name><surname>Roncelin</surname><given-names>I.</given-names></name>
+<name><surname>Dreux</surname><given-names>S.</given-names></name>
+<name><surname>Bertholet-Thomas</surname><given-names>A.</given-names></name>
+<name><surname>Broux</surname><given-names>F.</given-names></name>
+<name><surname>Bruno</surname><given-names>D.</given-names></name>
+<name><surname>Decramer</surname><given-names>S.</given-names></name>
+<name><surname>Deschenes</surname><given-names>G.</given-names></name>
+<name><surname>Djeddi</surname><given-names>D.</given-names></name>
+<etal/>
+</person-group><article-title>Prevalence of Novel MAGED2 Mutations in Antenatal Bartter Syndrome</article-title><source>Clin. J. Am. Soc. Nephrol.</source><year>2018</year><volume>13</volume><fpage>242</fpage><lpage>250</lpage><pub-id pub-id-type="doi">10.2215/CJN.05670517</pub-id><pub-id pub-id-type="pmid">29146702</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B93-cells-13-00818">
+        <label>93.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yan</surname><given-names>X.</given-names></name>
+<name><surname>Hu</surname><given-names>Y.</given-names></name>
+<name><surname>Zhang</surname><given-names>X.</given-names></name>
+<name><surname>Gao</surname><given-names>X.</given-names></name>
+<name><surname>Zhao</surname><given-names>Y.</given-names></name>
+<name><surname>Peng</surname><given-names>H.</given-names></name>
+<name><surname>Ouyang</surname><given-names>L.</given-names></name>
+<name><surname>Zhang</surname><given-names>C.</given-names></name>
+</person-group><article-title>Identification of a novel intronic mutation of MAGED2 gene in a Chinese family with antenatal Bartter syndrome</article-title><source>BMC Med. Genom.</source><year>2024</year><volume>17</volume><elocation-id>23</elocation-id><pub-id pub-id-type="doi">10.1186/s12920-024-01797-8</pub-id><pub-id pub-id-type="pmid">38238844</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B94-cells-13-00818">
+        <label>94.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ma</surname><given-names>M.</given-names></name>
+<name><surname>Zhang</surname><given-names>M.</given-names></name>
+<name><surname>Zhou</surname><given-names>Y.</given-names></name>
+<name><surname>Yao</surname><given-names>F.</given-names></name>
+<name><surname>Wei</surname><given-names>M.</given-names></name>
+<name><surname>Li</surname><given-names>Z.</given-names></name>
+<name><surname>Qiu</surname><given-names>Z.</given-names></name>
+</person-group><article-title>A novel MAGED2 variant in a Chinese preterm newborn with transient antenatal Bartter&#x2019;s syndrome with 4&#x2009;years follow-up</article-title><source>BMC Nephrol.</source><year>2021</year><volume>22</volume><elocation-id>408</elocation-id><pub-id pub-id-type="doi">10.1186/s12882-021-02553-1</pub-id><pub-id pub-id-type="pmid">34895150</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B95-cells-13-00818">
+        <label>95.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Shi</surname><given-names>X.</given-names></name>
+<name><surname>Liu</surname><given-names>C.</given-names></name>
+<name><surname>Zheng</surname><given-names>W.</given-names></name>
+<name><surname>Cao</surname><given-names>X.</given-names></name>
+<name><surname>Li</surname><given-names>W.</given-names></name>
+<name><surname>Zhang</surname><given-names>D.</given-names></name>
+<name><surname>Zhu</surname><given-names>J.</given-names></name>
+<name><surname>Zhang</surname><given-names>X.</given-names></name>
+<name><surname>Chen</surname><given-names>Y.</given-names></name>
+</person-group>
+          <article-title>Proteomic Analysis Revealed the Potential Role of MAGE-D2 in the Therapeutic Targeting of Triple-Negative Breast Cancer</article-title>
+          <source>Mol. Cell Proteom.</source>
+          <year>2024</year>
+          <volume>23</volume>
+          <fpage>100703</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.mcpro.2023.100703</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B96-cells-13-00818">
+        <label>96.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ecelbarger</surname><given-names>C.A.</given-names></name>
+<name><surname>Yu</surname><given-names>S.</given-names></name>
+<name><surname>Lee</surname><given-names>A.J.</given-names></name>
+<name><surname>Weinstein</surname><given-names>L.S.</given-names></name>
+<name><surname>Knepper</surname><given-names>M.A.</given-names></name>
+</person-group><article-title>Decreased renal Na-K-2Cl cotransporter abundance in mice with heterozygous disruption of the G(s)alpha gene</article-title><source>Am. J. Physiol.</source><year>1999</year><volume>277</volume><fpage>F235</fpage><lpage>F244</lpage><pub-id pub-id-type="pmid">10444578</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B97-cells-13-00818">
+        <label>97.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>de Jong</surname><given-names>J.C.</given-names></name>
+<name><surname>Willems</surname><given-names>P.H.</given-names></name>
+<name><surname>van den Heuvel</surname><given-names>L.P.</given-names></name>
+<name><surname>Knoers</surname><given-names>N.V.</given-names></name>
+<name><surname>Bindels</surname><given-names>R.J.</given-names></name>
+</person-group><article-title>Functional expression of the human thiazide-sensitive NaCl cotransporter in Madin-Darby canine kidney cells</article-title><source>J. Am. Soc. Nephrol.</source><year>2003</year><volume>14</volume><fpage>2428</fpage><lpage>2435</lpage><pub-id pub-id-type="doi">10.1097/01.ASN.0000089832.52063.F5</pub-id><pub-id pub-id-type="pmid">14514720</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B98-cells-13-00818">
+        <label>98.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Seaayfan</surname><given-names>E.</given-names></name>
+<name><surname>Nasrah</surname><given-names>S.</given-names></name>
+<name><surname>Quell</surname><given-names>L.</given-names></name>
+<name><surname>Kleim</surname><given-names>M.</given-names></name>
+<name><surname>Weber</surname><given-names>S.</given-names></name>
+<name><surname>Meyer</surname><given-names>H.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+<name><surname>K&#xF6;mhoff</surname><given-names>M.</given-names></name>
+</person-group><article-title>MAGED2 Is Required under Hypoxia for cAMP Signaling by Inhibiting MDM2-Dependent Endocytosis of G-Alpha-S</article-title><source>Cells</source><year>2022</year><volume>11</volume><elocation-id>2546</elocation-id><pub-id pub-id-type="doi">10.3390/cells11162546</pub-id><pub-id pub-id-type="pmid">36010623</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B99-cells-13-00818">
+        <label>99.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Seaayfan</surname><given-names>E.</given-names></name>
+<name><surname>Nasrah</surname><given-names>S.</given-names></name>
+<name><surname>Quell</surname><given-names>L.</given-names></name>
+<name><surname>Radi</surname><given-names>A.</given-names></name>
+<name><surname>Kleim</surname><given-names>M.</given-names></name>
+<name><surname>Schermuly</surname><given-names>R.T.</given-names></name>
+<name><surname>Weber</surname><given-names>S.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+<name><surname>K&#xF6;mhoff</surname><given-names>M.</given-names></name>
+</person-group><article-title>Reciprocal Regulation of MAGED2 and HIF-1&amp;alpha; Augments Their Expression under Hypoxia: Role of cAMP and PKA Type II</article-title><source>Cells</source><year>2022</year><volume>11</volume><elocation-id>3424</elocation-id><pub-id pub-id-type="doi">10.3390/cells11213424</pub-id><pub-id pub-id-type="pmid">36359819</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B100-cells-13-00818">
+        <label>100.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bettinelli</surname><given-names>A.</given-names></name>
+<name><surname>Ciarmatori</surname><given-names>S.</given-names></name>
+<name><surname>Cesareo</surname><given-names>L.</given-names></name>
+<name><surname>Tedeschi</surname><given-names>S.</given-names></name>
+<name><surname>Ruffa</surname><given-names>G.</given-names></name>
+<name><surname>Appiani</surname><given-names>A.C.</given-names></name>
+<name><surname>Rosini</surname><given-names>A.</given-names></name>
+<name><surname>Grumieri</surname><given-names>G.</given-names></name>
+<name><surname>Mercuri</surname><given-names>B.</given-names></name>
+<name><surname>Sacco</surname><given-names>M.</given-names></name>
+<etal/>
+</person-group><article-title>Phenotypic variability in Bartter syndrome type I</article-title><source>Pediatr. Nephrol.</source><year>2000</year><volume>14</volume><fpage>940</fpage><lpage>945</lpage><pub-id pub-id-type="doi">10.1007/pl00013418</pub-id><pub-id pub-id-type="pmid">10975303</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B101-cells-13-00818">
+        <label>101.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pressler</surname><given-names>C.A.</given-names></name>
+<name><surname>Heinzinger</surname><given-names>J.</given-names></name>
+<name><surname>Jeck</surname><given-names>N.</given-names></name>
+<name><surname>Waldegger</surname><given-names>P.</given-names></name>
+<name><surname>Pechmann</surname><given-names>U.</given-names></name>
+<name><surname>Reinalter</surname><given-names>S.</given-names></name>
+<name><surname>Konrad</surname><given-names>M.</given-names></name>
+<name><surname>Beetz</surname><given-names>R.</given-names></name>
+<name><surname>Seyberth</surname><given-names>H.W.</given-names></name>
+<name><surname>Waldegger</surname><given-names>S.</given-names></name>
+</person-group><article-title>Late-onset manifestation of antenatal Bartter syndrome as a result of residual function of the mutated renal Na<sup>+</sup>-K<sup>+</sup>-2Cl<sup>&#x2212;</sup> co-transporter</article-title><source>J. Am. Soc. Nephrol.</source><year>2006</year><volume>17</volume><fpage>2136</fpage><lpage>2142</lpage><pub-id pub-id-type="doi">10.1681/asn.2005101071</pub-id><pub-id pub-id-type="pmid">16807401</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B102-cells-13-00818">
+        <label>102.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yamazaki</surname><given-names>H.</given-names></name>
+<name><surname>Nozu</surname><given-names>K.</given-names></name>
+<name><surname>Narita</surname><given-names>I.</given-names></name>
+<name><surname>Nagata</surname><given-names>M.</given-names></name>
+<name><surname>Nozu</surname><given-names>Y.</given-names></name>
+<name><surname>Fu</surname><given-names>X.J.</given-names></name>
+<name><surname>Matsuo</surname><given-names>M.</given-names></name>
+<name><surname>Iijima</surname><given-names>K.</given-names></name>
+<name><surname>Gejyo</surname><given-names>F.</given-names></name>
+</person-group><article-title>Atypical phenotype of type I Bartter syndrome accompanied by focal segmental glomerulosclerosis</article-title><source>Pediatr. Nephrol.</source><year>2009</year><volume>24</volume><fpage>415</fpage><lpage>418</lpage><pub-id pub-id-type="doi">10.1007/s00467-008-0999-3</pub-id><pub-id pub-id-type="pmid">18830715</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B103-cells-13-00818">
+        <label>103.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ji</surname><given-names>W.</given-names></name>
+<name><surname>Foo</surname><given-names>J.N.</given-names></name>
+<name><surname>O&#x2019;Roak</surname><given-names>B.J.</given-names></name>
+<name><surname>Zhao</surname><given-names>H.</given-names></name>
+<name><surname>Larson</surname><given-names>M.G.</given-names></name>
+<name><surname>Simon</surname><given-names>D.B.</given-names></name>
+<name><surname>Newton-Cheh</surname><given-names>C.</given-names></name>
+<name><surname>State</surname><given-names>M.W.</given-names></name>
+<name><surname>Levy</surname><given-names>D.</given-names></name>
+<name><surname>Lifton</surname><given-names>R.P.</given-names></name>
+</person-group><article-title>Rare independent mutations in renal salt handling genes contribute to blood pressure variation</article-title><source>Nat. Genet.</source><year>2008</year><volume>40</volume><fpage>592</fpage><lpage>599</lpage><pub-id pub-id-type="doi">10.1038/ng.118</pub-id><pub-id pub-id-type="pmid">18391953</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B104-cells-13-00818">
+        <label>104.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Monette</surname><given-names>M.Y.</given-names></name>
+<name><surname>Rinehart</surname><given-names>J.</given-names></name>
+<name><surname>Lifton</surname><given-names>R.P.</given-names></name>
+<name><surname>Forbush</surname><given-names>B.</given-names></name>
+</person-group><article-title>Rare mutations in the human Na-K-Cl cotransporter (NKCC2) associated with lower blood pressure exhibit impaired processing and transport function</article-title><source>Am. J. Physiol. Renal Physiol.</source><year>2011</year><volume>300</volume><fpage>F840</fpage><lpage>F847</lpage><pub-id pub-id-type="doi">10.1152/ajprenal.00552.2010</pub-id><pub-id pub-id-type="pmid">21209010</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B105-cells-13-00818">
+        <label>105.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Acuna</surname><given-names>R.</given-names></name>
+<name><surname>Martinez-de-la-Maza</surname><given-names>L.</given-names></name>
+<name><surname>Ponce-Coria</surname><given-names>J.</given-names></name>
+<name><surname>Vazquez</surname><given-names>N.</given-names></name>
+<name><surname>Ortal-Vite</surname><given-names>P.</given-names></name>
+<name><surname>Pacheco-Alvarez</surname><given-names>D.</given-names></name>
+<name><surname>Bobadilla</surname><given-names>N.A.</given-names></name>
+<name><surname>Gamba</surname><given-names>G.</given-names></name>
+</person-group><article-title>Rare mutations in SLC12A1 and SLC12A3 protect against hypertension by reducing the activity of renal salt cotransporters</article-title><source>J. Hypertens.</source><year>2011</year><volume>29</volume><fpage>475</fpage><lpage>483</lpage><pub-id pub-id-type="doi">10.1097/HJH.0b013e328341d0fd</pub-id><pub-id pub-id-type="pmid">21157372</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B106-cells-13-00818">
+        <label>106.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Seaayfan</surname><given-names>E.</given-names></name>
+<name><surname>Demaretz</surname><given-names>S.</given-names></name>
+<name><surname>Defontaine</surname><given-names>N.</given-names></name>
+<name><surname>Laghmani</surname><given-names>K.</given-names></name>
+</person-group>
+          <article-title>Rare Mutations in NKCC2 Gene Associated with Protection From Hypertension Differentially Regulate NKCC2 Isoforms A and F</article-title>
+          <source>J. Am. Soc. Nephrol.</source>
+          <year>2014</year>
+          <volume>25</volume>
+          <fpage>660A</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B107-cells-13-00818">
+        <label>107.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Eizirik</surname><given-names>D.c.L.</given-names></name>
+<name><surname>Cardozo</surname><given-names>A.K.</given-names></name>
+<name><surname>Cnop</surname><given-names>M.</given-names></name>
+</person-group><article-title>The Role for Endoplasmic Reticulum Stress in Diabetes Mellitus</article-title><source>Endocr. Rev.</source><year>2008</year><volume>29</volume><fpage>42</fpage><lpage>61</lpage><pub-id pub-id-type="doi">10.1210/er.2007-0015</pub-id><pub-id pub-id-type="pmid">18048764</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B108-cells-13-00818">
+        <label>108.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sakai</surname><given-names>K.</given-names></name>
+<name><surname>Yamazaki</surname><given-names>O.</given-names></name>
+<name><surname>Ishizawa</surname><given-names>K.</given-names></name>
+<name><surname>Tamura</surname><given-names>Y.</given-names></name>
+<name><surname>Wang</surname><given-names>Q.</given-names></name>
+<name><surname>Ueno</surname><given-names>M.</given-names></name>
+<name><surname>Hayama</surname><given-names>Y.</given-names></name>
+<name><surname>Fujigaki</surname><given-names>Y.</given-names></name>
+<name><surname>Shibata</surname><given-names>S.</given-names></name>
+</person-group><article-title>Upregulation of renal Na&#x2013;K&#x2013;2Cl cotransporter 2 in obese diabetes mellitus via a vasopressin receptor 2-dependent pathway</article-title><source>Biochem. Biophys. Res. Commun.</source><year>2020</year><volume>524</volume><fpage>710</fpage><lpage>715</lpage><pub-id pub-id-type="doi">10.1016/j.bbrc.2020.01.142</pub-id><pub-id pub-id-type="pmid">32035616</pub-id>
+</element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig position="float" id="cells-13-00818-f001">
+      <label>Figure 1</label>
+      <caption>
+        <p>Sorting signals and binding partners of NKCC2 at the ER. To identify NKCC2 binding partners involved in the protein QC of the cotransporter, we previously used the Y2H system for the screening of a human cDNA library using three regions of the NKCC2 COOH terminus as bait [<xref rid="B32-cells-13-00818" ref-type="bibr">32</xref>]. While STCH and ManIA bind to the proximal region of the NKCC2 C-terminal tail [<xref rid="B42-cells-13-00818" ref-type="bibr">42</xref>,<xref rid="B43-cells-13-00818" ref-type="bibr">43</xref>], AUP1 interacts with the intermediate region [<xref rid="B44-cells-13-00818" ref-type="bibr">44</xref>]. OS9 binds to both the intermediate [<xref rid="B44-cells-13-00818" ref-type="bibr">44</xref>] and distal regions of the NKCC2 carboxy-terminal tail [<xref rid="B45-cells-13-00818" ref-type="bibr">45</xref>]. To identify the ER export signals of NKCC2, we focused on the region downstream from the Y998X mutant that harbors several di-leucine-like motifs and consensus di-acidic (D/E-X-D/E) codes. The motifs required for ER export from the ER are in red.</p>
+      </caption>
+      <graphic xlink:href="cells-13-00818-g001" position="float"/>
+    </fig>
+    <fig position="float" id="cells-13-00818-f002">
+      <label>Figure 2</label>
+      <caption>
+        <p>Molecular determinants of NKCC2 ER exit and protein quality control of NKCC2. ER export from the ER of correctly folded NKCC2 proteins is COPII COPII-dependent and requires a combination of multiple sorting signals such as di-acidic codes and di-leucine-like motifs. OS9 promotes the ER retention of misfolded NKCC2 proteins and their degradation by the proteasome pathway. AUP1 enhances the proteasome-dependent ERAD of NKCC2 by promoting its polyubiquitination. Besides the proteasome pathway, STCH promotes NKCC2 ERAD via the lysosome pathway. Through Golgi ManIA, Golgi QC serves as an additional checkpoint to remove misfolded NKCC2 proteins that escaped ER QC surveillance by capturing them at the Cis-Golgi network and delivering them back to the ER. Hsp70 protects NKCC2 against ERAD and promotes its maturation. Finally, MAGE-D2 promotes NKCC2 biogenesis, most likely through its interaction with Hsp70 and/or its cochaperone Hsp40.</p>
+      </caption>
+      <graphic xlink:href="cells-13-00818-g002" position="float"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

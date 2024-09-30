@@ -1,0 +1,1001 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosgen</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-7390</issn>
+      <issn pub-type="epub">1553-7404</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, CA USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">29590114</article-id>
+      <article-id pub-id-type="pmc">5891075</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pgen.1007297</article-id>
+      <article-id pub-id-type="publisher-id">PGENETICS-D-17-02217</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Enzymology</subject>
+              <subj-group>
+                <subject>Enzymes</subject>
+                <subj-group>
+                  <subject>Phosphatases</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Proteins</subject>
+              <subj-group>
+                <subject>Enzymes</subject>
+                <subj-group>
+                  <subject>Phosphatases</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Otorhinolaryngology</subject>
+            <subj-group>
+              <subject>Otology</subject>
+              <subj-group>
+                <subject>Hearing Disorders</subject>
+                <subj-group>
+                  <subject>Deafness</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Head</subject>
+              <subj-group>
+                <subject>Ears</subject>
+                <subj-group>
+                  <subject>Inner Ear</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Head</subject>
+              <subj-group>
+                <subject>Ears</subject>
+                <subj-group>
+                  <subject>Inner Ear</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Experimental Organism Systems</subject>
+            <subj-group>
+              <subject>Model Organisms</subject>
+              <subj-group>
+                <subject>Mouse Models</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Model Organisms</subject>
+            <subj-group>
+              <subject>Mouse Models</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Experimental Organism Systems</subject>
+            <subj-group>
+              <subject>Animal Models</subject>
+              <subj-group>
+                <subject>Mouse Models</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Biological Tissue</subject>
+              <subj-group>
+                <subject>Ganglia</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Biological Tissue</subject>
+              <subj-group>
+                <subject>Ganglia</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Cell Biology</subject>
+            <subj-group>
+              <subject>Cellular Types</subject>
+              <subj-group>
+                <subject>Animal Cells</subject>
+                <subj-group>
+                  <subject>Neurons</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Neuroscience</subject>
+            <subj-group>
+              <subject>Cellular Neuroscience</subject>
+              <subj-group>
+                <subject>Neurons</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Cell Biology</subject>
+            <subj-group>
+              <subject>Cellular Types</subject>
+              <subj-group>
+                <subject>Animal Cells</subject>
+                <subj-group>
+                  <subject>Neurons</subject>
+                  <subj-group>
+                    <subject>Afferent Neurons</subject>
+                    <subj-group>
+                      <subject>Outer Hair Cells</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Neuroscience</subject>
+            <subj-group>
+              <subject>Cellular Neuroscience</subject>
+              <subj-group>
+                <subject>Neurons</subject>
+                <subj-group>
+                  <subject>Afferent Neurons</subject>
+                  <subj-group>
+                    <subject>Outer Hair Cells</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Genetic Loci</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Mutations in Diphosphoinositol-Pentakisphosphate Kinase PPIP5K2 are associated with hearing loss in human and mouse</article-title>
+        <alt-title alt-title-type="running-head">PPIP5K2 is essential for hearing in human and mouse</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-2323-0004</contrib-id>
+          <name>
+            <surname>Yousaf</surname>
+            <given-names>Rizwan</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Data curation</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gu</surname>
+            <given-names>Chunfang</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Data curation</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Methodology</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ahmed</surname>
+            <given-names>Zubair M.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Khan</surname>
+            <given-names>Shaheen N.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Resources</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff004">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Friedman</surname>
+            <given-names>Thomas B.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Resources</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff005">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Riazuddin</surname>
+            <given-names>Sheikh</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Data curation</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff006">
+            <sup>6</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shears</surname>
+            <given-names>Stephen B.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Validation</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8645-4761</contrib-id>
+          <name>
+            <surname>Riazuddin</surname>
+            <given-names>Saima</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Data curation</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Methodology</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Validation</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor001">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff001"><label>1</label>
+<addr-line>Laboratory of Molecular Genetics, Department of Otorhinolaryngology-Head &amp; Neck Surgery, School of Medicine University of Maryland, Baltimore, MD, United States of America</addr-line></aff>
+      <aff id="aff002"><label>2</label>
+<addr-line>Signal Transduction Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, NC, United States of America</addr-line></aff>
+      <aff id="aff003"><label>3</label>
+<addr-line>Laboratory of Neurogenetics and Regenerative Medicine, Department of Otorhinolaryngology-Head &amp; Neck Surgery, School of Medicine University of Maryland, Baltimore, MD, United States of America</addr-line></aff>
+      <aff id="aff004"><label>4</label>
+<addr-line>National Center for Excellence in Molecular Biology, University of the Punjab, Lahore, Pakistan</addr-line></aff>
+      <aff id="aff005"><label>5</label>
+<addr-line>Section on Human Genetics, Laboratory of Molecular Genetics, National Institute on Deafness and Other Communication Disorders, National Institutes of Health, Bethesda, MD, United States of America</addr-line></aff>
+      <aff id="aff006"><label>6</label>
+<addr-line>Shaheed Zulfiqar Ali Bhutto Medical University, Pakistan Institute of Medical Sciences, Islamabad, Pakistan</addr-line></aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Avraham</surname>
+            <given-names>Karen B.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Tel Aviv University, ISRAEL</addr-line>
+      </aff>
+      <author-notes>
+        <fn fn-type="COI-statement" id="coi001">
+          <p>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <corresp id="cor001">* E-mail: <email>sriazuddin@som.umaryland.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>28</day>
+        <month>3</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>3</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>14</volume>
+      <issue>3</issue>
+      <elocation-id>e1007297</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>9</day>
+          <month>11</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>6</day>
+          <month>3</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <license xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">
+          <license-p>This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0</ext-link> public domain dedication.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:href="pgen.1007297.pdf"/>
+      <abstract>
+        <p>Autosomal recessive nonsyndromic hearing loss is a genetically heterogeneous disorder. Here, we report a severe-to-profound sensorineural hearing loss locus, <italic>DFNB100</italic> on chromosome 5q13.2-q23.2. Exome enrichment followed by massive parallel sequencing revealed a c.2510G&gt;A transition variant in <italic>PPIP5K2</italic> that segregated with DFNB100-associated hearing loss in two large apparently unrelated Pakistani families. PPIP5Ks enzymes interconvert 5-IP7 and IP8, two key members of the inositol pyrophosphate (PP-IP) cell-signaling family. Their actions at the interface of cell signaling and bioenergetic homeostasis can impact many biological processes. The c.2510G&gt;A transition variant is predicted to substitute a highly invariant arginine residue with histidine (p.Arg837His) in the phosphatase domain of PPIP5K2. Biochemical studies revealed that the p.Arg837His variant reduces the phosphatase activity of PPIP5K2 and elevates its kinase activity. We found that in mouse inner ear, PPIP5K2 is expressed in the cochlear and vestibular sensory hair cells, supporting cells and spiral ganglion neurons. Mice homozygous for a targeted deletion of the <italic>Ppip5k2</italic> phosphatase domain exhibit degeneration of cochlear outer hair cells and elevated hearing thresholds. Our demonstration that PPIP5K2 has a role in hearing in humans indicates that PP-IP signaling is important to hair cell maintenance and function within inner ear.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author summary</title>
+        <p>Exome sequencing coupled with homozygosity mapping was used to identify a missense variant [c.2510G&gt;A; p.(Arg837His)] in PPIP5K2 at the <italic>DFNB100</italic> locus that is associated with nonsyndromic, prelingual sensorineural deafness in two large consanguineous Pakistani families. PPIP5Ks are pivotal enzymes for regulating inositol pyrophosphate (PP-IP) turnover. Biochemical analyses revealed that, compared to wild type human PPIP5K2, the PPIP5K2<sup>R837H</sup> variant exhibited lower phosphatase activity and higher kinase activity, indicating that it promotes increased metabolic flux from 5-IP7 to IP8 <italic>in vivo</italic>. In rodent inner ears, PPIP5K2 immunoreactivity was observed in the cochlear and vestibular hair cells, supporting cells, and spiral ganglion neurons. Mouse mutants homozygous for the targeted deletion of <italic>Ppip5k2</italic> phosphatase domain exhibit degeneration of cochlear outer hair cells and progressive hearing loss. Our work provides the first description of any amino acid variant of PPIP5K2 that is both functionally-significant and associates with a human disorder. The &#x2018;futile cycling&#x2019; of the kinase/phosphatase activity of PPIP5K2 makes inner ear function particularly susceptible to even minor changes in the phosphatase activity of PPIP5K2. We have shown that a pathogenic variant in <italic>PPIP5K2</italic> is associated with hearing loss in humans. Thus, PPIP5K2 is given new clinical significance by our observations.</p>
+      </abstract>
+      <funding-group>
+        <award-group id="award001">
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000055</institution-id>
+              <institution>National Institute on Deafness and Other Communication Disorders</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>R56DC011803-07</award-id>
+          <principal-award-recipient>
+            <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8645-4761</contrib-id>
+            <name>
+              <surname>Riazuddin</surname>
+              <given-names>Saima</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+        <award-group id="award002">
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000055</institution-id>
+              <institution>National Institute on Deafness and Other Communication Disorders</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>R01DC016295</award-id>
+          <principal-award-recipient>
+            <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-2323-0004</contrib-id>
+            <name>
+              <surname>Yousaf</surname>
+              <given-names>Rizwan</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+        <award-group id="award003">
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000055</institution-id>
+              <institution>National Institute on Deafness and Other Communication Disorders</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>DC000039-20</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Friedman</surname>
+              <given-names>Thomas B.</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+        <award-group id="award004">
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000066</institution-id>
+              <institution>National Institute of Environmental Health Sciences</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>ES080046-28</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Shears</surname>
+              <given-names>Stephen B.</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+        <funding-statement>This research was supported in part by Intramural Research Program of the NIH, at NIDCD (DC000039-20 to TBF), at NIEHS (ES080046-28 to SBS), and by NIH/NIDCD/ research grants R56DC011803-07 to SR and R01DC016295 to ZMA. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="0"/>
+        <page-count count="20"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>PLOS Publication Stage</meta-name>
+          <meta-value>vor-update-to-uncorrected-proof</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>Publication Update</meta-name>
+          <meta-value>2018-04-09</meta-value>
+        </custom-meta>
+        <custom-meta id="data-availability">
+          <meta-name>Data Availability</meta-name>
+          <meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <title>Data Availability</title>
+      <p>All relevant data are within the paper and its Supporting Information files.</p>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec001">
+      <title>Introduction</title>
+      <p>Hearing loss (HL) is a heterogeneous neurosensory deficiency that occurs at all ages with varying severities, affecting 1 in 500 newborns and &gt;360 million people worldwide [<xref rid="pgen.1007297.ref001" ref-type="bibr">1</xref>]. Many forms of HL are inherited, and ~400 syndromic forms occur with linked medical comorbidities. Genetically complex non-syndromic recessively inherited HL (NSRHL) comprises ~75% of hereditary deafness [<xref rid="pgen.1007297.ref002" ref-type="bibr">2</xref>]. RNA profiling studies revealed expression of 18,133 genes in the organ of Corti (OC) hair and supporting cells [<xref rid="pgen.1007297.ref003" ref-type="bibr">3</xref>], underscoring the complexity of inner ear development and function. Elucidating the roles of each of these genes by conventional methods would require generating mouse or other animal models for each. By contrast, genetic studies of human families segregating HL has significantly helped in overcoming the barriers of sheer scale, functional redundancy, and non-essential roles of some genes. Discovering a variant associated with human deafness rules out functional redundancy at least in the auditory system. Genetic and functional studies of the deafness associated proteins have been pivotal in elucidating various molecular networks essential for hearing [<xref rid="pgen.1007297.ref004" ref-type="bibr">4</xref>&#x2013;<xref rid="pgen.1007297.ref006" ref-type="bibr">6</xref>].</p>
+      <p>Here, we describe two large consanguineous Pakistani families segregating NSRHL that we associate with a missense variant [p.(Arg837His)] in the PPIP5K2 (E.C. 2.7.1.155). PPIP5Ks are enzymes that interconvert 5-IP7 and IP8, two key members of the inositol pyrophosphate (PP-IP) cell-signaling family [<xref rid="pgen.1007297.ref007" ref-type="bibr">7</xref>]. Humans express two PPIP5K enzymes, PPIP5K1 (160 kDa) and PPIP5K2 (138 kDa) [<xref rid="pgen.1007297.ref008" ref-type="bibr">8</xref>]. These are large enzymes that contain a kinase domain that phosphorylates 5-IP7 to IP8, and a separate phosphatase domain that dephosphorylates IP8 back to IP7. Little is known concerning how these competing reactions are coordinated. Nevertheless, PPIP5Ks regulate the levels of PP-IPs, which impact endocytosis, vesicle trafficking, apoptosis, spermatogenesis, secretion of insulin from pancreatic &#x3B2; cells, and DNA repair [<xref rid="pgen.1007297.ref009" ref-type="bibr">9</xref>&#x2013;<xref rid="pgen.1007297.ref011" ref-type="bibr">11</xref>]. IP8 is also a sensor of extracellular inorganic phosphate [<xref rid="pgen.1007297.ref008" ref-type="bibr">8</xref>] and regulates bioenergetic homeostasis [<xref rid="pgen.1007297.ref012" ref-type="bibr">12</xref>].</p>
+      <p>Our <italic>in vitro</italic> biochemical studies indicate that the p.Arg837His deafness-associated variant of PPIP5K2 has reduced phosphatase activity and increased kinase activity. As a consequence, the variant has the capacity to synthesize more of the IP8 signal <italic>in vivo</italic>. An elevated cellular production of IP8 can be recapitulated in mice harboring a homozygous deletion of the phosphatase domain of PPIP5K2, thereby unmasking higher kinase activity. These animals exhibited degeneration of cochlear outer hair cells and progressive hearing loss. To the best of our knowledge, this is the first study demonstrating the necessity of PP-IP metabolism for inner ear development and hearing function.</p>
+    </sec>
+    <sec sec-type="results" id="sec002">
+      <title>Results</title>
+      <sec id="sec003">
+        <title>Families PKDF041 and PKDF751 have prelingual profound HL</title>
+        <p>Two large apparently unrelated families PKDF041 and PKDF751 segregating NSRHL were enrolled from Punjab province of Pakistan (<xref ref-type="fig" rid="pgen.1007297.g001">Fig 1A and 1B</xref>). Affected individuals of both families have prelingual bilateral severe to profound sensorineural hearing loss (<xref ref-type="fig" rid="pgen.1007297.g001">Fig 1C and 1D</xref>). According to family history no hearing was noted since birth in all of the affected individuals. Tympanometry of three of the affected [V:2 (19 yrs), V:3 (23 yrs), V:5 (26 yrs)], and one normal hearing individual (V:7; 22 yrs) of family PKDF751 revealed no abnormalities of the tympanic membrane or middle ear. However, these affected individuals (V:2, V:3, V:5) failed a transient evoked otoacoustic emission test, which is indicative of defective outer hair cell function. Romberg and tandem gait tests did not reveal any overt vestibular dysfunction in affected individuals of both families. Funduscopy examinations of affected individuals of PKDF041, V:5 (42 years), VI:3 (16 years), VI:4 (10 years) and VI:5 (20 years) revealed no evidence of retinitis pigmentosa. In addition, ERG a- and b-waves amplitudes for the affected individuals [V:5 (42 yrs), V:7 (30 yrs)] of PKDF041, were normal [<xref rid="pgen.1007297.ref013" ref-type="bibr">13</xref>], further excluding a retinal degeneration phenotype.</p>
+        <fig id="pgen.1007297.g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007297.g001</object-id>
+          <label>Fig 1</label>
+          <caption>
+            <title>Pedigrees of families segregating DFNB100 deafness and representative pure-tone audiograms.</title>
+            <p>(A, B) Squares and circles denote male and female family members, respectively. Filled symbols represent affected individuals. (C) Pure tone air conduction thresholds for family PKDF041 individuals VI:2 (9 yo male), and V:5 (42 yo male). Individual VI:2 hearing thresholds were within normal range, while individual V:5 had profound HL in both ears. Right ear air conduction: O; Left ear air conduction: X. (D) Pure tone air conduction thresholds for family PKDF751 individuals V:2 (23 yo female) revealed profound HL in both ears. In contrast, individual V:7 (20 yo male) had hearing threshold within normal range.</p>
+          </caption>
+          <graphic xlink:href="pgen.1007297.g001"/>
+        </fig>
+      </sec>
+      <sec id="sec004">
+        <title>Linkage analysis mapped a new deafness locus, <italic>DFNB100</italic> on chromosome 5q</title>
+        <p>Linkage analysis of NSRHL segregating in family PKDF041 with STR markers across the genome, previously revealed linkage to <italic>DFNB49</italic> locus on chromosome 5, with a maximum two-point lod score (Zmax) of 4.44 (&#x3B8; = 0) for marker <italic>D5S2055</italic> [<xref rid="pgen.1007297.ref013" ref-type="bibr">13</xref>]. Subsequently, mutations in <italic>TRIC</italic> were identified as the cause of <italic>DFNB49</italic>-linked HL [<xref rid="pgen.1007297.ref014" ref-type="bibr">14</xref>, <xref rid="pgen.1007297.ref015" ref-type="bibr">15</xref>]. Full sequencing of <italic>TRIC</italic> in the genomic DNA from two affected individuals from the PKDF041 family along with a normal hearing sibling did not reveal any pathogenic variants, suggesting there is an additional gene in the PKDF041 linkage interval in which a pathogenic variant is associated with deafness.</p>
+        <p>Subsequently, genome wide linkage analysis in DNA samples from a second family, PKDF751, revealed a large region of homozygosity shared among the affected individuals on human chromosome 5q12.2-q23.3, which completely overlaps with the linkage interval defined by family PKDF041 (<xref ref-type="supplementary-material" rid="pgen.1007297.s001">S1 Fig</xref>). Similar to family PKDF041, mutation in the protein coding exons, non-coding exons or in the splice junctions of <italic>TRIC</italic> were not detected in the affected individuals of family PKDF751. Therefore, the HUGO nomenclature committee assigned the <italic>DFNB100</italic> designation for the locus defined by families PKDF041 and PKDF751 (<xref ref-type="supplementary-material" rid="pgen.1007297.s001">S1 Fig</xref>). Besides <italic>TRIC</italic>, other candidate genes include <italic>OCLN</italic>, <italic>SHROOM1</italic>, <italic>GPR98</italic>, <italic>KCNN2</italic> and <italic>SLC12A2</italic> (<xref ref-type="supplementary-material" rid="pgen.1007297.s001">S1 Fig</xref>) [<xref rid="pgen.1007297.ref016" ref-type="bibr">16</xref>&#x2013;<xref rid="pgen.1007297.ref021" ref-type="bibr">21</xref>]. However, sequencing of all these genes did not reveal a potentially pathogenic variant among the affected individuals of families PKDF041 and PKDF751. Rather than continue hierarchical sequencing of candidate genes based on function or expression in the inner ear, we employed an exome sequencing approach to identify a mutant variant responsible for deafness at the <italic>DFNB100</italic> locus.</p>
+      </sec>
+      <sec id="sec005">
+        <title>A missense variant in <italic>PPIP5K2</italic> is associated with DFNB100-deafness</title>
+        <p>To enrich and capture coding regions, we used genomic DNA samples from one affected individual and one unaffected control from family PKDF751, and performed massively parallel sequencing of the exome. Copy number variants (CNVs) analysis did not reveal any indels (&#x2265;50bp) associated with deafness within <italic>DFNB100</italic> linkage interval. Our filtering of the exome sequencing data revealed three genes with predicted pathogenic changes within DFNB100 linkage interval (<xref ref-type="supplementary-material" rid="pgen.1007297.s007">S1 Table</xref>). Sanger sequencing revealed a single point mutation (c.2510G&gt;A) in the <italic>PPIP5K2</italic> gene (NCBI RefSeq NM_001276277) segregating with HL in family PKDF751 (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2A</xref>), which is predicted to replace an evolutionarily-conserved arginine with histidine at residue 837 (NP_001263206; <xref ref-type="fig" rid="pgen.1007297.g002">Fig 2B</xref>, <xref ref-type="supplementary-material" rid="pgen.1007297.s008">S2 Table</xref>). Sanger sequencing of all coding and non-coding exons of <italic>PPIP5K2</italic> in the DNA samples from family PKDF041 confirmed association of the same c.2510G&gt;A variant with deafness. SNPs linked to <italic>PPIP5K2</italic> were genotyped in affected individuals of the PKDF041 and PKDF751 families, and the flanking haplotype was consistent with a founder effect for c.2510G&gt;A variant (<xref ref-type="supplementary-material" rid="pgen.1007297.s009">S3 Table</xref>). We did not detect this variant in 180 ethnically-matched Pakistani control samples, nor in small publicly-available databases (1000 Genome [<xref rid="pgen.1007297.ref022" ref-type="bibr">22</xref>], or NHLBI_EP [<xref rid="pgen.1007297.ref023" ref-type="bibr">23</xref>]). At present, the c.2510G&gt;A variant of <italic>PPIP5K2</italic> is at a low frequency (0.000146) in the ExAC database [<xref rid="pgen.1007297.ref024" ref-type="bibr">24</xref>], and thus c.2510G&gt;A is not a common polymorphism.</p>
+        <fig id="pgen.1007297.g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007297.g002</object-id>
+          <label>Fig 2</label>
+          <caption>
+            <title>Point mutation in <italic>PPIP5K2</italic> is associated with DFNB100 hearing loss (HL).</title>
+            <p>(A) Nucleotide sequence chromatograms of selected region of <italic>PPIP5K2</italic> exon 21 from homozygous WT (normal) and affected individuals harboring c.2510G&gt;A [p.(Arg837His)] mutation segregating in DFNB100 families. (B) The human <italic>PPIP5K2</italic> gene has 33 exons. Alternate splicing of <italic>PPIP5K2</italic> gives rise to many different transcripts that are predicted to affect the composition of the non-catalytic intrinsically disordered region (IDR). The non-coding 5&#x2019; and 3&#x2019; UTRs are gray rectangles while sequences encoding the kinase, phosphatase (pase) and IDR domains, and other coding regions of exons are denoted by orange, light green, dark green, and black boxes, respectively. The nucleotide and amino acid variants of <italic>PPIP5K2</italic> are also shown. The blue bar under the phosphatase domain indicates the antigenic region of the commercially available polyclonal antibodies. (C) Schematic representation of PPIP5Ks biochemical function. Arrows indicate direction of the reaction. (D) PPIP5K2 amino acid conservation from eleven vertebrates and one non-vertebrate (Drosophila). Conserved amino acids are shaded in gray, while the p.Arg837 amino acid affected due to c.2510G&gt;A variant, identified in our DFNB100 families, is noted with an arrow head. (E) The phosphatase activities of FLAG-tagged WT PPIP5K2 (21.5 &#xB1; 1.5 nmol/mg protein/min) and PPIP5K2<sup>R837H</sup> (16.9 &#xB1; 2.1 nmol/mg protein/min) were determined as described in the Methods section (*p&lt;0.05, n = 5; mean &#xB1; SE). (F) The kinase activities of FLAG-tagged WT PPIP5K2 (0.9 &#xB1; 0.21 nmol/mg protein/min) and PPIP5K2<sup>R837H</sup> (1.44 &#xB1; 0.29 nmol/mg protein/min) were determined as described in the Methods Section (*p&lt;0.03, n = 5; mean &#xB1; SE).</p>
+          </caption>
+          <graphic xlink:href="pgen.1007297.g002"/>
+        </fig>
+      </sec>
+      <sec id="sec006">
+        <title>The PPIP5K2<sup>R837H</sup> variant modifies the catalytic activities of the enzyme</title>
+        <p>Human <italic>PPIP5K2</italic> encodes at least eleven alternatively spliced isoforms, all of which are affected by the p.(Arg837His) substitution identified in the two DFNB100 HL families (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2B</xref>). PPIP5K2 has three distinct functional regions: a kinase domain, a phosphatase domain and an intrinsically disordered region that may mediate protein-protein interactions (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2B</xref>). The Arg837His substitution is located in the phosphatase domain (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2C</xref>). Human PPIP5Ks is a mutually competitive kinase and phosphatase that interconverts PP-IPs (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2C</xref>). <italic>In silico</italic> analyses predict that the p.Arg837His residue is likely of structural and/or functional importance (<xref ref-type="supplementary-material" rid="pgen.1007297.s008">S2 Table</xref>). Indeed, Arg837 is conserved throughout the animal kingdom (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2D</xref>), and lies nine residues C-terminal to a conserved histidine residue that is catalytically-essential for IP8 phosphatase activity in a yeast orthologue of PPIP5K2 [<xref rid="pgen.1007297.ref025" ref-type="bibr">25</xref>]. Thus, p.Arg837 is a candidate for binding the negatively charged PP-IP substrate. The substitution of histidine would be less effective in this role as its side chain is less polar at physiological pH [<xref rid="pgen.1007297.ref026" ref-type="bibr">26</xref>]. Another possibility is that p.Arg837 acts in a structurally-stabilizing salt bridge, which could be disrupted by substitution with His [<xref rid="pgen.1007297.ref027" ref-type="bibr">27</xref>].</p>
+        <p>To pursue these ideas, we first assayed directly the impact of the p.Arg837His variant upon the phosphatase activity of PPIP5K2 <italic>in vitro</italic>, using recombinant, FLAG-tagged WT and PPIP5K2<sup>R837H</sup> which were expressed in HEK293 cells and then immuno-affinity purified (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2E</xref>). The IP8 phosphatase activity of the PPIP5K2<sup>R837H</sup> protein was reduced by 21% (*p&lt; 0.05) as compared to the WT protein (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2E</xref>). PPIP5K2 interconverts 5-IP7 to IP8 through the actions of mutually competing phosphatase and kinase domains. Thus, we hypothesized based upon the <italic>in vitro</italic> kinase assays of 5-IP7 phosphorylation that PPIP5K2<sup>R837H</sup> protein would accumulate more IP8 than WT PPIP5K2. That proposal presumes that a potentially higher level of accumulation of IP8 by the PPIP5K2<sup>R837H</sup> protein is not negated by an increased rate of IP8 dephosphorylation. However, that self-correction did not occur. Assays that used PPIP5K2<sup>R837H</sup> accumulated 60% higher levels of IP8 compared to assays that contained WT protein (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2F</xref>). The proportionately higher effect of the p.Arg837His variant upon the kinase activity may reflect an impact upon conformational coupling between the two domains [<xref rid="pgen.1007297.ref008" ref-type="bibr">8</xref>], in addition to the reduction in phosphatase activity. Note that, <italic>in vitro</italic>, the phosphatase and kinase domains of PPIP5K2 can also be shown to interconvert IP6 and 1-IP7 [<xref rid="pgen.1007297.ref012" ref-type="bibr">12</xref>]. However, these particular reactions proceed relatively slowly [<xref rid="pgen.1007297.ref012" ref-type="bibr">12</xref>]; their general biological significance is in doubt, especially as levels of 1-IP7 in mammalian cells are virtually undetectable [<xref rid="pgen.1007297.ref011" ref-type="bibr">11</xref>].</p>
+      </sec>
+      <sec id="sec007">
+        <title><italic>Ppip5k2</italic> is ubiquitously expressed in mice</title>
+        <p>Our analysis by real-time PCR showed <italic>Ppip5k2</italic> and <italic>Ppip5k1</italic> to be widely expressed in mouse tissues, including inner ear (<xref ref-type="fig" rid="pgen.1007297.g003">Fig 3A</xref>, <xref ref-type="supplementary-material" rid="pgen.1007297.s003">S3A Fig</xref>). Transcriptome analysis indicates that <italic>Ppip5k2</italic> is the major <italic>Ppip5k</italic> gene to be expressed in the mouse cochlear and vestibular sensory hair cells, supporting cells as well as in ganglion neurons, while levels of <italic>Ppip5k1</italic> expression in these cells are up to 100-fold lower (gEAR, SHIELD) [<xref rid="pgen.1007297.ref028" ref-type="bibr">28</xref>]. Similarly, PPIP5K2 immunoreactivity, assessed using an antibody directed against a region within the phosphatase domain (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2B</xref>), was observed in all these cell types at various developmental stages (<xref ref-type="fig" rid="pgen.1007297.g003">Fig 3</xref>). Moreover, all three layers of the stria vascularis (marginal, intermediate and basal cells) exhibited PPIP5K2 immunoreactivity (<xref ref-type="fig" rid="pgen.1007297.g003">Fig 3B and 3C</xref>). The distribution of PPIP5K1 immunoreactivity within the inner ear, assessed using isoform-specific antibodies (<xref ref-type="supplementary-material" rid="pgen.1007297.s002">S2 Fig</xref>), exhibited an almost identical expression profile to that of PPIP5K2 (<xref ref-type="supplementary-material" rid="pgen.1007297.s003">S3B&#x2013;S3E Fig</xref>).</p>
+        <fig id="pgen.1007297.g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007297.g003</object-id>
+          <label>Fig 3</label>
+          <caption>
+            <title>PPIP5K2 localized in sensory and non-sensory cells of mouse inner ear.</title>
+            <p>(A) Expression of <italic>Ppip5k2</italic> in adult (P150) mice, normalized against <italic>Gapdh</italic> (&#x394;CT) and <italic>Ppip5k1</italic> expression (&#x394;&#x394;CT). (B) Cross-section through one of the coils of inner ear showing diffuse cytoplasmic immunolabeling of PPIP5K2 throughout the cochlear duct, including spiral ganglion neurons (SG), organ of Corti (OC), and stria vascularis (SV). (C) Expression of PPIP5K2 persists at the ages tested in WT mice, from early postnatal day P16, up to 9 months of age. Scale bars: 100&#x3BC;m (panel A), and 20&#x3BC;m (panel C).</p>
+          </caption>
+          <graphic xlink:href="pgen.1007297.g003"/>
+        </fig>
+      </sec>
+      <sec id="sec008">
+        <title>Disruption of murine <italic>Ppip5k2</italic> promotes auditory deficit and hair cell degeneration</title>
+        <p>To determine the role of PPIP5K2 in the inner ear, we obtained a mouse from the Knockout Mouse Phenotyping Program (KOMP) that has a gene trap cassette with a LacZ reporter in the intron between exons 13 and 14 of <italic>Ppip5k2</italic> (<xref ref-type="fig" rid="pgen.1007297.g004">Fig 4A</xref>). The gene trap leads to the translation of a protein in which the N-terminal kinase domain is intact, but the adjoining phosphatase domain is truncated to just 84 residues (<xref ref-type="fig" rid="pgen.1007297.g004">Fig 4A</xref>), which is insufficient to encode phosphatase activity [<xref rid="pgen.1007297.ref029" ref-type="bibr">29</xref>, <xref rid="pgen.1007297.ref030" ref-type="bibr">30</xref>]. To study the impact upon the enzymatic properties of the protein product of the targeted allele, we prepared a recombinant, C-terminally truncated human PPIP5K2 (PPIP5K2<sup>1-466</sup>). This is equivalent to the murine protein that is expected to be expressed by the <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic> allele. The shorter human protein converted 5-IP7 to IP8 at a 23-fold higher rate than that catalyzed by the kinase domain of the full-length human PPIP5K2 (<xref ref-type="fig" rid="pgen.1007297.g004">Fig 4B</xref>). We therefore named the murine allele as <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic>.</p>
+        <fig id="pgen.1007297.g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007297.g004</object-id>
+          <label>Fig 4</label>
+          <caption>
+            <title><italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice exhibit late onset high-frequency progressive HL.</title>
+            <p>(A) Schematic of the <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic> allele (left), and resulting truncated PPIP5K2 protein (right) with a truncated (only the first 82 residues) of the histidine acid phosphatase motif (HP). (B) The kinase activities of FLAG-tagged WT (0.9 &#xB1; 0.21) and PPIP5K2<sup>1-466</sup> (20.3 &#xB1; 1.0), which has kinase and HP motif but no phosphatase activity, and corresponds to the protein expressed by the mouse <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic> allele (*p&lt;0.001, n = 5; mean &#xB1; SE). (C) Levels of IP6, IP7 and IP8 were determined by HPLC in <italic>PPIP5K1/2</italic> double knockout (DKO) HEK293 cells transfected with various <italic>PPIP5K2</italic> constructs. Bar graphs display mean &#xB1; SE (n = 6, except PPIP5K2<sup>1-466</sup> n = 5). IP7/IP6 ratio in DKO cells (0.057 &#xB1; 0.009, n = 6), DKO cells transfected with FLAG-tagged WT (0.05 &#xB1; 0.006), PPIP5K2<sup>R837H</sup> (0.048 &#xB1; 0.006) and PPIP5K2<sup>1-466</sup> (0.028 &#xB1; 0.0029; *p&lt;0.011). Shown also IP8/IP6 ratio (*p&lt;0.023) in DKO cells (0 &#xB1; 0), cells transfected with FLAG-tagged WT (0.0049 &#xB1; 0.0012), PPIP5K2<sup>H837R</sup> (0.0051 &#xB1; 0.0014) and PPIP5K2<sup>1-466</sup> (0.028 &#xB1; 0.008) constructs. (D) Average click and pure tone-evoked ABR thresholds (dB SPL) in <italic>Ppip5k2</italic><sup><italic>+/+</italic></sup>, <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic>, and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> at different time points (P60, P90, P120, P150) were assessed (n = 7; mean &#xB1; SEM). Raised mean ABR thresholds at 32 kHz were detected as early as P60 in <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice and continued to increase with age. At P120 and P150, the <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice had profound HL at higher frequencies [24 kHz (**p&lt;0.001) and 32 kHz]. Also, <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic> mice exhibited elevated hearing thresholds loss at higher frequencies [24 kHz (*p&lt;0.05) and 32 kHz]. These results suggest impaired PPIP5K2 function in mouse is associated with late onset high-frequency progressive HL. However, as anticipated, due to age-related hearing loss in mice on a C57BL/6 genetic background, the ABR thresholds at 32 kHz were also elevated in WT mice at P120 and P150.</p>
+          </caption>
+          <graphic xlink:href="pgen.1007297.g004"/>
+        </fig>
+        <p>It is impractical to assay the impact of the <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic> allele upon PP-IPs <italic>in vivo</italic>, due to PP-IPs sub- to low-micromolar levels, and the relative insensitivity of mass assays for these molecules. Instead, we used [<sup>3</sup>H]-inositol radiolabeled <italic>PPIP5K</italic><sup>-/-</sup> HEK293 cells [<xref rid="pgen.1007297.ref012" ref-type="bibr">12</xref>], as a host for over-expression of either WT human PPIP5K2 or the truncated PPIP5K2<sup>1-466</sup> mutant. The latter supported the synthesis of 4-fold (n = 3) higher cellular IP8 levels than those sustained by the WT protein (<xref ref-type="fig" rid="pgen.1007297.g004">Fig 4C</xref>), despite the expression level of truncated PPIP5K2<sup>1-466</sup> being much lower than that of WT PPIP5K2 (<xref ref-type="supplementary-material" rid="pgen.1007297.s004">S4 Fig</xref>). Based on these findings, we conclude that the <italic>Ppip5k2</italic> mutant mice likely expresses a &#x201C;hyper kinase&#x201D; activity. Note that the changes in cellular levels of IP7 and IP8 resulting from over-expression of PPIP5K2<sup>R837H</sup> in <italic>PPIP5K</italic><sup>-/-</sup> HEK293 cells [<xref rid="pgen.1007297.ref012" ref-type="bibr">12</xref>] were similar to those observed after over-expression of WT PPIP5K2 (<xref ref-type="fig" rid="pgen.1007297.g004">Fig 4C</xref>). The catalytic differences between these particular enzymes are less prominent (<xref ref-type="fig" rid="pgen.1007297.g002">Fig 2E and 2F</xref>), making it harder to detect their differential impact upon PP-IP turnover in intact cells. PP-IP levels will also be influenced by cell-type dependent differences in expression of other PP-IP kinases and phosphatases.</p>
+        <p>In <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice, we observed a significant upregulation of <italic>Ppip5k1</italic> message in several tissues at P150, including a nearly 3-fold elevation in the inner ear (<xref ref-type="supplementary-material" rid="pgen.1007297.s003">S3F Fig</xref>). Any increased expression of <italic>Ppip5k1</italic> can be predicted to further enhance the synthesis of IP8 [<xref rid="pgen.1007297.ref012" ref-type="bibr">12</xref>]. However, the metabolic consequences of this effect are likely minor in the inner ear, where relative levels of <italic>Ppip5k1</italic> are 100-fold less than those of <italic>Ppip5k2</italic> (see above).</p>
+        <p>To characterize inner ear function, we measured auditory-evoked brainstem responses (ABR) in <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/ K</italic></sup><italic>^</italic> and WT mice at various developmental stages (<xref ref-type="supplementary-material" rid="pgen.1007297.s005">S5 Fig</xref>). No statistically significant difference in hearing thresholds was observed in <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/ K</italic></sup><italic>^</italic> as compare to WT at postnatal day 60 (P60), when tested for broad band clicks as well as pure tone burst of frequencies 8, 16, and 24 kHz (<xref ref-type="fig" rid="pgen.1007297.g004">Fig 4D</xref>). However, <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice had slightly elevated, but not statistically significant, thresholds at 32 kHz compared to WT mice (<xref ref-type="fig" rid="pgen.1007297.g004">Fig 4D</xref>, top left). The difference progressively increased with age. At P90, the threshold at 32 kHz of <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice were statistically significantly (p&lt;0.05) elevated as compare to WT (<xref ref-type="fig" rid="pgen.1007297.g004">Fig 4D</xref>, top right). At P120 and P150, significantly (p&lt;0.001) higher threshold was observed at 24 kHz as well in <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> (<xref ref-type="fig" rid="pgen.1007297.g004">Fig 4D</xref>, bottom), which suggest progression of hearing loss from base towards middle cochlear turn. The <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic> mice at P150 also exhibited significantly higher threshold (p &lt; 0.05) at 24 kHz, which suggest that reduced amount of WT protein is also not sufficient to maintain hearing function in older mice. As anticipated, considering the C57BL/6 genetic background, which is susceptible to age-related HL [<xref rid="pgen.1007297.ref031" ref-type="bibr">31</xref>, <xref rid="pgen.1007297.ref032" ref-type="bibr">32</xref>], at P120 and P150, the thresholds for 32 kHz were observed to be elevated in both genotypes. We also compared the ABR wave I amplitudes and latencies in control and <italic>Ppip5k2</italic>
+<sup><italic>K</italic></sup><italic>^</italic> mutant mice (<xref ref-type="fig" rid="pgen.1007297.g005">Fig 5</xref>). Significant reduction in wave I amplitudes at higher frequency (24kHz) was observed in older homozygous mutant mice. Overall, ABR auditory data from mice are consistent with the conclusion that elevated PPIP5K2 kinase activity is a causal factor for inherited auditory defects, although the deficit in the <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice is less severe than that observed in humans homozygous for the p.(Arg837His) substitution.</p>
+        <fig id="pgen.1007297.g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007297.g005</object-id>
+          <label>Fig 5</label>
+          <caption>
+            <title><italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice exhibit late onset high-frequency decline in ABR wave I amplitudes.</title>
+            <p>Average pure tone-evoked ABR wave I amplitudes and latencies in <italic>Ppip5k2</italic><sup><italic>+/+</italic></sup>, <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic>, and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> at different time points (P60, P90, P120, P150) were assessed (n = 7; mean &#xB1; SEM). Significantly reduced wave I amplitudes at 24KHz were detected at P120 in <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice (*p &lt; 0.01). At P150 both the homozygous and heterozygous <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic> mice had significantly reduced wave I amplitudes at 24KHz mice (**p &lt; 0.05). These results suggest impaired late onset auditory neuronal function in PPIP5K2 mutant mice.</p>
+          </caption>
+          <graphic xlink:href="pgen.1007297.g005"/>
+        </fig>
+        <p>To determine whether the auditory deficit in <italic>Ppip5k2</italic>
+<sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice was secondary to hair cell loss, spiral ganglion degeneration or stria vascularis atrophy, we analyzed whole mounts preparations as well as serial sections of the cochlear tissue at P150 (<xref ref-type="fig" rid="pgen.1007297.g006">Fig 6</xref>). The cytoarchitecture and morphology of the cochlea in <italic>Ppip5k2</italic>
+<sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice appear normal at P150. No obvious degeneration of inner (IHCs) and outer (OHCs) hair cells was observed in the apical and middle cochlear turn (<xref ref-type="fig" rid="pgen.1007297.g006">Fig 6</xref>). However, consistent with high frequency hearing loss observed at P150, a greater degree of degeneration of OHCs in the basal coil was evident in <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic> and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice (<xref ref-type="fig" rid="pgen.1007297.g006">Fig 6</xref>). Although no difference was observed in the number of IHCs, a statistically significant (p&lt;0.01) reduction in OHCs was observed in the basal turn (<xref ref-type="fig" rid="pgen.1007297.g005">Fig 5B</xref>). No obvious indications of stria vascularis atrophy or spiral ganglion neuron degeneration were found in <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/ K</italic></sup><italic>^</italic> mice at P150 (<xref ref-type="supplementary-material" rid="pgen.1007297.s006">S6 Fig</xref>). Thus, the degeneration of OHCs is likely contributing to the progressive, high frequency hearing deficit in these <italic>Ppip5k2</italic>
+<sup><italic>K^/K^</italic></sup> mice. Overall, our data indicate that genetic perturbation of PP-IP turnover has consequences for cellular signaling that promotes an auditory deficit, in both humans and mice.</p>
+        <fig id="pgen.1007297.g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007297.g006</object-id>
+          <label>Fig 6</label>
+          <caption>
+            <title><italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic> mice exhibit late onset degeneration of OHCs in the basal cochlear turn, which detects high frequency sound.</title>
+            <p>(A) Confocal images of the organ of Corti, labeled with antisera against MYO7A, a hair cell marker, at the apical, middle and basal turns of the cochlea in <italic>Ppip5k2</italic><sup><italic>+/+</italic></sup>, <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic>, and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice at P150. In WT mice, the position of dead OHCs are marked with asterisks (*), observed only in the basal turn. In contrast, significantly higher number of OHCs were missing in <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic>, and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice, which correlates with the high-frequency HL observed in these mice. Scale bar: 20&#x3BC;m. (B) Inner hair cells and outer hair cells were quantified in <italic>Ppip5k2</italic><sup><italic>+/+</italic></sup>, <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic>, and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice at P150. For quantification purposes, organ of Corti were isolated from three different mice of each genotype, and the hair cells were counted in 200&#x3BC;m stretches of apical, middle and basal coil regions. No significant difference was observed for the number of IHCs. Whereas in the case of OHC number (mean &#xB1; SEM), a statistically significant (*p&lt;0.05, **p&lt;0.01) decrease in OHCs were observed in the basal coil of <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic>, and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice, which coincide with the high-frequency HL observed at this age in both genotypes.</p>
+          </caption>
+          <graphic xlink:href="pgen.1007297.g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions" id="sec009">
+      <title>Discussion</title>
+      <p>This study points to the importance of PP-IP signaling and the role of the bifunctional PP-IP kinase/phosphatase, PPIP5K2, for normal mammalian inner ear function. This conclusion is based upon a novel single variant [c.2510G&gt;A, p. (Arg837His)] in the <italic>PPIP5K2</italic> gene that we associated with autosomal recessive, nonsyndromic, prelingual sensorineural deafness. Biochemical analyses revealed that, compared to WT human PPIP5K2, the PPIP5K2<sup>R837H</sup> variant exhibited lower phosphatase activity and higher kinase activity, indicating it promotes increased metabolic flux from 5-IP7 to IP8 <italic>in vivo</italic>. The availability of a gene-trap murine model for elevated PPIP5K2 kinase activity is consistent with the association of p.(Arg837His) with an auditory deficit.</p>
+      <p>Humans who are homozygous for the c.2510G&gt;A variant failed transient evoked otoacoustic emission tests, indicating an outer hair cell functional defect. Thus, it is significant that, in the <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice, we found that hearing loss is associated with selective degeneration of cochlear outer hair cells. How might the latter phenomenon be promoted by elevated IP8 levels? One possibility is that hair cell loss is due to apoptosis, since previous work has shown that increased PP-IP synthesis is pro-apoptotic [<xref rid="pgen.1007297.ref033" ref-type="bibr">33</xref>]. Another possibility emerges from recent work showing that loss of outer hair cells can result from bioenergetic imbalance [<xref rid="pgen.1007297.ref034" ref-type="bibr">34</xref>]; the latter could also result from perturbation to PP-IP turnover and signaling [<xref rid="pgen.1007297.ref011" ref-type="bibr">11</xref>, <xref rid="pgen.1007297.ref012" ref-type="bibr">12</xref>]. Deficits in vesicle trafficking and endocytosis might affect the function of the inner hair cell ribbon synapse [<xref rid="pgen.1007297.ref035" ref-type="bibr">35</xref>, <xref rid="pgen.1007297.ref036" ref-type="bibr">36</xref>], and thus contribute to hearing loss observed in the <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic> mice.</p>
+      <p>It is intriguing that the hearing deficit in the <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice is less severe than that observed in humans homozygous for the p.(Arg837His) variant. Perhaps in mice there is greater functional redundancy of PPIP5K2 with other proteins. The particular susceptibility of humans to a single arginine-to-histidine substitution in PPIP5K2 may also reflect genetic or environmental factors. Elucidation of the causes of this dissimilarity may reveal molecular or cellular pathways for potential interventions to prevent HL in DFNB100 families. Future studies with mice in which the <italic>Ppip5k2</italic> gene is targeted on a genetic background resistant to age-related HL, may also help in deciphering the roles of PP-IPs in development, maintenance and function of sensory cells in the inner ear.</p>
+      <p>PPIP5Ks are pivotal enzymes for regulating PP-IP turnover. Their actions at the interface of cell signaling and bioenergetic homeostasis can impact many biological processes [<xref rid="pgen.1007297.ref011" ref-type="bibr">11</xref>]. Yet surprisingly, as far as we are aware, our work provides the first description of any amino acid variant in either PPIP5K1 or PPIP5K2 that is both functionally-significant and associates with a human disorder. Two candidate single nucleotide polymorphisms, <italic>rs35671301</italic> (p.Ser419Ala) and <italic>rs17155147</italic> (p.Thr1267Met), in human PPIP5K2 were reported to be enriched in individuals with autism spectrum disorder [<xref rid="pgen.1007297.ref037" ref-type="bibr">37</xref>, <xref rid="pgen.1007297.ref038" ref-type="bibr">38</xref>]. However, in those studies, there is no empirical or <italic>in silico</italic> evidence that either amino-acid replacement might alter affect protein function. Thus, PPIP5K2 is given new clinical significance by our observations.</p>
+      <p>In conclusion, the identification of the PPIP5K2 variant as a risk factor for deafness raises the possibility that there may be other variants in its coding sequence that exhibit a similar hearing deficit. Moreover, our study reinforces the concept that studies into PP-IP turnover and signaling are relevant to human health and well-being.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="sec010">
+      <title>Materials and methods</title>
+      <sec id="sec011">
+        <title>Family enrollment and clinical evaluation</title>
+        <p>This study was conducted under IRB-approved protocols, by IRB committees at University of Maryland School of Medicine (UMSOM), USA (HP-00059851), National Centre of Excellence in Molecular Biology, Lahore, Pakistan (FWA00001758), and the National Institutes Health, USA (Combined Neuroscience Blue Panel IRB; OH-93-N-016), and in accord with the Declaration of Helsinki for the release of clinical information, family history, and blood draw. Written informed consent was obtained from all adult participants and parents of minor subjects. Genomic DNA was extracted from blood samples. Clinical histories were obtained for all the individuals of families PKDF041 and PKDF751. A general physical examination was performed to evaluate general health. Pure tone audiometry tests for air and bone conduction were performed at frequencies from 250 to 8,000 Hz. Tympanometry and otoacoustic emission tests were performed to assess middle ear and cochlear function. Vestibular function was evaluated by testing tandem gait ability and by using the Romberg test.</p>
+      </sec>
+      <sec id="sec012">
+        <title>Exome sequencing and segregation analysis</title>
+        <p>Exome sequencing on the genomic DNA of one affected individual of family PKDF751 was performed and analyzed as described previously [<xref rid="pgen.1007297.ref039" ref-type="bibr">39</xref>].</p>
+        <p>We used the XHMM and CoNIFER methods [<xref rid="pgen.1007297.ref040" ref-type="bibr">40</xref>, <xref rid="pgen.1007297.ref041" ref-type="bibr">41</xref>] to call CNV events in WES data. The segregation of the candidate variants in participating member of family PKDF751 was performed through Sanger sequencing. Primers were designed with Primer3 software, and used to amplify exons as well as flanking introns and untranslated regions (<xref ref-type="supplementary-material" rid="pgen.1007297.s010">S4 Table</xref>).</p>
+      </sec>
+      <sec id="sec013">
+        <title><italic>Ppip5k2</italic> gene-trap mouse model</title>
+        <p>All experiments were approved by the Animal Care and Use Committees at the University of Maryland, School of Medicine in accordance with the National Institutes of Health (NIH) Guide for the Care and Use of Laboratory Animals. The <italic>B6N(Cg)-Ppip5k2</italic><sup><italic>tm1a(EUCOMM)Wtsi/J</italic></sup> strain was generated by KOMP. In this study, we designated this strain as <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic> due to its intact kinase domain. The <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic> mice had a gene-trap cassette downstream of exon 13, which is expected to cause premature truncation.</p>
+      </sec>
+      <sec id="sec014">
+        <title>Protein expression and purification</title>
+        <p>Lipofectamine 3000 (Life Technologies) was used to transiently transfect HEK293 cells with pDest515 plasmids hosting cDNAs encoding Flag-tagged versions of either full-length PPIP5K2 (isoform 11; accession number NM_001345875), PPIP5K2 p.Arg837His (PPIP5K2<sup>R837H</sup>) or a truncated version of PPIP5K2 containing residues 1 to 466 (PPIP5K2<sup>1-466</sup>). The mutations were created using a Q5 site-directed mutagenesis kit (New England Biolabs). The primers used are as follows (mutagenic codons underlined): R837H mutation, forward: GTCTATTCTT<underline><bold>CAC</bold></underline>TATGGTGCCTTATG; reverse: AGCAAAGAATGTACATGAC. Truncation (stop codon insertion), forward: <underline><bold>TAG</bold></underline>GTCATTTTTCTGGAATAAATCG; reverse: <underline><bold>TTA</bold></underline>CTCTAATACAGTCTTAAGTTG. All mutations were confirmed by sequencing.</p>
+        <p>In some experiments, the wild type (WT) and mutant PPIP5K2 constructs were expressed in <italic>PPIP5K</italic><sup>-/-</sup> HEK293 cells that had been radiolabeled by growing them in media containing [<sup>3</sup>H]-inositol. Cellular levels of [<sup>3</sup>H]IP7 and [<sup>3</sup>H]IP8 were determined by HPLC [<xref rid="pgen.1007297.ref012" ref-type="bibr">12</xref>].</p>
+        <p>For the purification of WT and mutant PPIP5K2 proteins, the HEK293 cells hosting the various constructs were harvested 16&#x2013;20 hr after transfection and lysed in ice-cold buffer containing 10 mM HEPES, 130 mM NaCl, 1% Triton X-100, 10 mM NaF, 10 mM Na<sub>2</sub>HPO<sub>4</sub>, 10 mM Na pyrophosphate and protease inhibitor cocktail (Roche). All subsequent steps were performed on ice in an anaerobic chamber (Bactron CAT180). The FLAG-tagged PPIP5K2 proteins were immunopurified using FLAG M2 affinity gel (Sigma). Purified FLAG-PPIP5K2 proteins were analyzed by SDS-PAGE and stained with Coomassie Blue. Densitometry analysis (ImageJ) was used to calculate the amounts of PPIP5K2 loaded onto the gel, by reference to additional lanes loaded with known amounts of the human recombinant PPIP5K2 kinase domain.</p>
+      </sec>
+      <sec id="sec015">
+        <title>Phosphatase and kinase assays</title>
+        <p>All enzyme assays were performed using physiologically relevant substrate concentrations at 37&#xB0;C; the extent of substrate conversion was up to 30%. IP8 phosphatase activities were determined using approximately 70 ng of purified, WT or mutant PPIP5K2s in 30 min incubations with100 ul of assay buffer containing 1 mM Na<sub>2</sub>EDTA, 50 mM KCl, 20 mM HEPES pH 7.2, 2 mM MgCl<sub>2</sub>, 0.5 mg/ml BSA and 1 &#x3BC;M [<sup>3</sup>H]IP8. The 5-IP7 kinase activities were determined using approximately 35 ng of these proteins in 90 min incubations with 100 ul of assay buffer containing 1 mM Na<sub>2</sub>EDTA, 50 mM KCl, 20 mM HEPES pH 7.2, 7 mM MgCl<sub>2</sub>, 5 mM ATP, 0.5 mg/ml BSA and 1 &#x3BC;M 5-[<sup>3</sup>H]IP7. All assays were then acid-quenched, neutralized, and HPLC was used to determine the degree of metabolism [<xref rid="pgen.1007297.ref012" ref-type="bibr">12</xref>].</p>
+      </sec>
+      <sec id="sec016">
+        <title>Confocal imaging</title>
+        <p>Inner ear tissues were harvested from temporal bones of the WT and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic> mice, fixed and processed for immunostaining as previously described [<xref rid="pgen.1007297.ref042" ref-type="bibr">42</xref>]. The following primary antibodies were used in our studies: anti-Myosin VIIa (1:200; Proteus BioSciences, Ramona, CA), anti-PPIP5K2 (1:200; Stock# ab87054, Abcam, Cambridge, MA) and anti-PPIP5K1 (1:200; Novus Biologicals, Littleton, CO). Samples were mounted using ProLong Gold antifade reagent (Life Technologies, Carlsbad, CA) and imaged using an LSM 510 DUO confocal microscope (Zeiss Microimaging Inc., Thornwood, NY) with a &#xD7;63, 1.4 N.A. oil immersion objective.</p>
+      </sec>
+      <sec id="sec017">
+        <title>Assessment of hearing function</title>
+        <p>Briefly, mice were anesthetized with an IP injection of ketamine/xylazine mix at 80&#x2013;100 mg/kg and 10&#x2013;12.5 mg/kg, body weight respectively. ABR recordings were performed using a TDT RZ6/BioSigRZ system along with RA4PA preamplifier/digitizer. The system was calibrated between 4&#x2013;40KHz frequency range from 90 to 5 db using the ACO Pacific type 7016 microphone. For simultaneous recording from both ears, two open filed speakers were placed 10 cm apart from each ear. Two electrodes were placed behind each ear. The reference was placed at the base of the skull, whereas the ground was placed at the base of the tail. Mice were tested at broad band clicks and pure tone frequencies of 8, 16, 24, and 32 kHz for ABRs (n = 7 per genotype at each time point). All the stimuli were tested from 90 dB SPL to10 dB SPL in 5 dB decrements, with a total of 512 responses averaged at each level. Results are displayed as a mean and standard error of the mean (SEM). When no ABR signals were observed at 90db, for calculation purposes, mice were assigned a threshold of 95db. Statistical significance was determined using a 2-way ANOVA. A Bonferroni correction was performed to adjust for multiple statistical tests.</p>
+      </sec>
+      <sec id="sec018">
+        <title>RNA extraction and quantitative real-time PCR</title>
+        <p>The whole inner ear was isolated from P150 WT and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice using the RiboPure RNA isolation kit (Life Technologies, Grand Island, NY). cDNA was prepared using an oligo-dT primer and SMARTScribe Reverse Transcriptase enzymes (Clontech, Mountain View, CA). To determine the differential expression of <italic>Ppip5k1</italic>, SYBRGreen based real-time primers were designed using Integrated DNA Technologies online PrimeTime qPCR assay design tool. The real-time PCR assays were performed in triplicate using an ABI StepOnePlus Real-Time thermal cycler (ABI, Foster City, CA). CT values were normalized using <italic>Gapdh</italic> as an endogenous control, and fold changes of <italic>Ppip5k1</italic> transcripts in different tissues were calculated using 2^-&#x394;&#x394;Ct standard formula. An expression with a 2-fold change and with a P-value less than 0.05 based on a Student&#x2019;s t-test analysis was considered significant.</p>
+      </sec>
+      <sec id="sec019">
+        <title>Web resources</title>
+        <p>The URLs for data presented herein are as follows:</p>
+        <p>NHLBI Exome Sequencing Project (Exome Variant Server), <ext-link ext-link-type="uri" xlink:href="http://evs.gs.washington.edu/EVS/">http://evs.gs.washington.edu/EVS/</ext-link></p>
+        <p>Primer3, <ext-link ext-link-type="uri" xlink:href="http://frodo.wi.mit.edu/primer3">http://frodo.wi.mit.edu/primer3</ext-link></p>
+        <p>PrimeTime qPCR assay design tool, <ext-link ext-link-type="uri" xlink:href="http://www.idtdna.com/Scitools/Applications/RealTimePCR/">http://www.idtdna.com/Scitools/Applications/RealTimePCR/</ext-link></p>
+        <p>gEAR, <ext-link ext-link-type="uri" xlink:href="http://umgear.org/">http://umgear.org</ext-link></p>
+        <p>SHIELD (Shared Harvard Inner-Ear Laboratory Database) <ext-link ext-link-type="uri" xlink:href="https://shield.hms.harvard.edu/">https://shield.hms.harvard.edu/</ext-link></p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="sec020">
+      <title>Supporting information</title>
+      <supplementary-material content-type="local-data" id="pgen.1007297.s001">
+        <label>S1 Fig</label>
+        <caption>
+          <title>The <italic>DFNB100</italic> locus on chromosome 5q13.2-q23.2.</title>
+          <p>Centromeric region of human chromosome 5q includes three deafness loci <italic>DFNB100</italic>, <italic>DFNB49</italic>, <italic>USH2C</italic>. Regions of homozygosity for each DFNB100 family are represented by vertical lines while a bar at the ends of vertical lines indicate meiotic recombinations. Note that linkage region of <italic>DFNB100</italic> overlaps with <italic>DFNB49</italic> and <italic>USH2C</italic> linkage intervals. Location of STR markers are based on the human Marshfield genetic map. Some candidate genes are also shown.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1007297.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007297.s002">
+        <label>S2 Fig</label>
+        <caption>
+          <title>Anti-PPIP5K2 and anti-PPIP5K1 antibodies validations.</title>
+          <p>Although we cannot rule out <italic>in vivo</italic> cross reactivity. However, <italic>in vitro</italic> both antibodies are protein-specific. (A) Immunofluorescence signal of anti-PPIP5K2 antibody coincides with the signal produced by GFP-tagged WT PPIP5K2 (top panel), and p.Arg837His variant harboring PPIP5K2 (middle panel) expressed in COS7 cells. No cross-reactivity of this antibody was detected with fluorescently tagged PPIP5K1 (bottom panel). (B) Similarly, immunofluorescence signal of anti-PPIP5K1 antibody coincides with the signal produced by GFP-tagged PPIP5K1, but not with fluorescently tagged PPIP5K2 expressed in COS7 cells. (C) The anti-PPIP5K2 antibody was further tested by western blot analysis in HEK293 cells lysate transfected with EGFP vector, GFP-tagged WT and mutant PPIP5K2 expression constructs. The anti-PPIP5K2 antibody detected the specific bands of sizes corresponding to full-length PPIP5K2 ~140 kDa. Anti-GFP antibodies were used as loading control. (D) Specificity of the anti-PPIP5K2 antibodies were further validated by western blot on whole protein lysates from heart, kidney and liver tissues from <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic> and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice. Protein products of expected size were observed in the heart and liver samples from <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic> mice, which were absent in lysates from the <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice tissues.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1007297.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007297.s003">
+        <label>S3 Fig</label>
+        <caption>
+          <title>Murine PPIP5K1 and PPIP5K2 have similar expression profiles.</title>
+          <p>(A) The expression of <italic>Ppip5k1</italic> is detectable in all the organs tested by real-time qPCR. Expression was normalized against the house-keeping gene <italic>Gapdh</italic> (&#x394;CT) and shown relative to expression in liver (&#x394;&#x394;CT). (B) Cross-section through one of the coils of inner ear showing diffuse cytoplasmic immunolabeling of PPIP5K1 throughout the cochlear duct, including the organ of Corti (C), spiral ganglion neurons (D), and stria vascularis (E). PPIP5K1 expression pattern in the cochlear tissue is very similar, but is relatively weaker than PPIP5K2. Scale bars: 100&#x3BC;m (panel B), and 10&#x3BC;m (panels C-E). (F) In <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice, <italic>Ppip5k1</italic> expression is upregulated, with more than two-fold increase in the inner ear, when compared with expression for same tissue type from WT mice. For each tissue sample <italic>Ppip5k1</italic> expression was normalized to <italic>Gapdh</italic> and shown as fold change relative to WT expression.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1007297.s003.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007297.s004">
+        <label>S4 Fig</label>
+        <caption>
+          <title>SDS-PAGE gel showing the purified recombinant PPIP5K2<sup>WT</sup>, PPIP5K2<sup>R837H</sup> and PPIP5K2<sup>1-466</sup> proteins used for functional studies.</title>
+          <p>Arrows indicate the position of the various PPIP5Ks and also standards used for quantifying the proteins.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1007297.s004.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007297.s005">
+        <label>S5 Fig</label>
+        <caption>
+          <title>Representative ABR wave forms from control and mutant mice at various developmental stages.</title>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1007297.s005.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007297.s006">
+        <label>S6 Fig</label>
+        <caption>
+          <title>No obvious degeneration of spiral ganglion neurons or stria vascularis was observed in <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic> and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice at P150.</title>
+          <p>(A) Cochlear cross-section of <italic>Ppip5k2</italic><sup><italic>+/+</italic></sup>, <italic>Ppip5k2</italic><sup><italic>+/K</italic></sup><italic>^</italic>, and <italic>Ppip5k2</italic><sup><italic>K</italic></sup><italic>^</italic><sup><italic>/K</italic></sup><italic>^</italic> mice exhibit no gross difference between genotypes. (B) Histological analysis of the apical (left panel), middle (middle panel) and basal turns (right panel) of the cochlea from P150 mice show no apparent spiral ganglion neurons or stria vascularis degeneration in all three cochlear turns. Scale bar: 200&#x3BC;m.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1007297.s006.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007297.s007">
+        <label>S1 Table</label>
+        <caption>
+          <title>Whole exome sequencing filtration scheme.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pgen.1007297.s007.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007297.s008">
+        <label>S2 Table</label>
+        <caption>
+          <title>Bioinformatics evaluation of deafness-associated variants found in <italic>PPIP5K2</italic>.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pgen.1007297.s008.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007297.s009">
+        <label>S3 Table</label>
+        <caption>
+          <title>SNP genotypes in 1,885,410 bp flanking <italic>PPIP5K2</italic> variant.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pgen.1007297.s009.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007297.s010">
+        <label>S4 Table</label>
+        <caption>
+          <title>Primer sequences used to amplify and sequence human <italic>PPIP5K2</italic> coding exons and splice junctions.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pgen.1007297.s010.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We are grateful to the participants in this study. We thank Drs. Arnaud Giese and Elodie Richard for their technical assistance and discussion of the results.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pgen.1007297.ref001">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Morton</surname><given-names>CC</given-names></name>, <name><surname>Nance</surname><given-names>WE</given-names></name>. <article-title>Newborn hearing screening&#x2014;a silent revolution</article-title>. <source>N Engl J Med</source>. <year>2006</year>;<volume>354</volume>(<issue>20</issue>):<fpage>2151</fpage>&#x2013;<lpage>64</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMra050700">10.1056/NEJMra050700</ext-link></comment> .<pub-id pub-id-type="pmid">16707752</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref002">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Duman</surname><given-names>D</given-names></name>, <name><surname>Tekin</surname><given-names>M</given-names></name>. <article-title>Autosomal recessive nonsyndromic deafness genes: a review</article-title>. <source>Front Biosci (Landmark Ed)</source>. <year>2012</year>;<volume>17</volume>:<fpage>2213</fpage>&#x2013;<lpage>36</lpage>. ; PubMed Central PMCID: PMCPMC3683827.<pub-id pub-id-type="pmid">22652773</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref003">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Scheffer</surname><given-names>DI</given-names></name>, <name><surname>Shen</surname><given-names>J</given-names></name>, <name><surname>Corey</surname><given-names>DP</given-names></name>, <name><surname>Chen</surname><given-names>ZY</given-names></name>. <article-title>Gene Expression by Mouse Inner Ear Hair Cells during Development</article-title>. <source>J Neurosci</source>. <year>2015</year>;<volume>35</volume>(<issue>16</issue>):<fpage>6366</fpage>&#x2013;<lpage>80</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1523/JNEUROSCI.5126-14.2015">10.1523/JNEUROSCI.5126-14.2015</ext-link></comment> ; PubMed Central PMCID: PMCPMC4405555.<pub-id pub-id-type="pmid">25904789</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref004">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Ahmed</surname><given-names>ZM</given-names></name>, <name><surname>Frolenkov</surname><given-names>GI</given-names></name>, <name><surname>Riazuddin</surname><given-names>S</given-names></name>. <article-title>Usher proteins in inner ear structure and function</article-title>. <source>Physiol Genomics</source>. <year>2013</year>;<volume>45</volume>(<issue>21</issue>):<fpage>987</fpage>&#x2013;<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1152/physiolgenomics.00135.2013">10.1152/physiolgenomics.00135.2013</ext-link></comment> ; PubMed Central PMCID: PMCPMC3841788.<pub-id pub-id-type="pmid">24022220</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref005">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Dror</surname><given-names>AA</given-names></name>, <name><surname>Avraham</surname><given-names>KB</given-names></name>. <article-title>Hearing impairment: a panoply of genes and functions</article-title>. <source>Neuron</source>. <year>2010</year>;<volume>68</volume>(<issue>2</issue>):<fpage>293</fpage>&#x2013;<lpage>308</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuron.2010.10.011">10.1016/j.neuron.2010.10.011</ext-link></comment> .<pub-id pub-id-type="pmid">20955936</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref006">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Pepermans</surname><given-names>E</given-names></name>, <name><surname>Petit</surname><given-names>C</given-names></name>. <article-title>The tip-link molecular complex of the auditory mechano-electrical transduction machinery</article-title>. <source>Hearing research</source>. <year>2015</year>;<volume>330</volume>(<issue>Pt A</issue>):<fpage>10</fpage>&#x2013;<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.heares.2015.05.005">10.1016/j.heares.2015.05.005</ext-link></comment> .<pub-id pub-id-type="pmid">26049141</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref007">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Shears</surname><given-names>SB</given-names></name>. <article-title>Diphosphoinositol polyphosphates: metabolic messengers?</article-title>
+<source>Mol Pharmacol</source>. <year>2009</year>;<volume>76</volume>(<issue>2</issue>):<fpage>236</fpage>&#x2013;<lpage>52</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1124/mol.109.055897">10.1124/mol.109.055897</ext-link></comment> ; PubMed Central PMCID: PMCPMC2713120.<pub-id pub-id-type="pmid">19439500</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref008">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Gu</surname><given-names>C</given-names></name>, <name><surname>Nguyen</surname><given-names>HN</given-names></name>, <name><surname>Hofer</surname><given-names>A</given-names></name>, <name><surname>Jessen</surname><given-names>HJ</given-names></name>, <name><surname>Dai</surname><given-names>X</given-names></name>, <name><surname>Wang</surname><given-names>H</given-names></name>, <etal>et al</etal>
+<article-title>The Significance of the Bifunctional Kinase/Phosphatase Activities of Diphosphoinositol Pentakisphosphate Kinases (PPIP5Ks) for Coupling Inositol Pyrophosphate Cell Signaling to Cellular Phosphate Homeostasis</article-title>. <source>The Journal of biological chemistry</source>. <year>2017</year>;<volume>292</volume>(<issue>11</issue>):<fpage>4544</fpage>&#x2013;<lpage>55</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/jbc.M116.765743">10.1074/jbc.M116.765743</ext-link></comment> ; PubMed Central PMCID: PMC5377771.<pub-id pub-id-type="pmid">28126903</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref009">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Andersen</surname><given-names>JL</given-names></name>, <name><surname>Kornbluth</surname><given-names>S</given-names></name>. <article-title>The tangled circuitry of metabolism and apoptosis</article-title>. <source>Molecular cell</source>. <year>2013</year>;<volume>49</volume>(<issue>3</issue>):<fpage>399</fpage>&#x2013;<lpage>410</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.molcel.2012.12.026">10.1016/j.molcel.2012.12.026</ext-link></comment> ; PubMed Central PMCID: PMCPMC3801185.<pub-id pub-id-type="pmid">23395270</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref010">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Bhandari</surname><given-names>R</given-names></name>, <name><surname>Juluri</surname><given-names>KR</given-names></name>, <name><surname>Resnick</surname><given-names>AC</given-names></name>, <name><surname>Snyder</surname><given-names>SH</given-names></name>. <article-title>Gene deletion of inositol hexakisphosphate kinase 1 reveals inositol pyrophosphate regulation of insulin secretion, growth, and spermiogenesis</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>. <year>2008</year>;<volume>105</volume>(<issue>7</issue>):<fpage>2349</fpage>&#x2013;<lpage>53</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.0712227105">10.1073/pnas.0712227105</ext-link></comment> ; PubMed Central PMCID: PMCPMC2268139.<pub-id pub-id-type="pmid">18268345</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref011">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Shears</surname><given-names>SB</given-names></name>. <article-title>Intimate connections: Inositol pyrophosphates at the interface of metabolic regulation and cell signaling</article-title>. <source>J Cell Physiol</source>. <year>2017</year>
+<comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jcp.26017">10.1002/jcp.26017</ext-link></comment> .<pub-id pub-id-type="pmid">28542902</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref012">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Gu</surname><given-names>C</given-names></name>, <name><surname>Nguyen</surname><given-names>HN</given-names></name>, <name><surname>Ganini</surname><given-names>D</given-names></name>, <name><surname>Chen</surname><given-names>Z</given-names></name>, <name><surname>Jessen</surname><given-names>HJ</given-names></name>, <name><surname>Gu</surname><given-names>Z</given-names></name>, <etal>et al</etal>
+<article-title>Knockout of 5-InsP7 kinase activity transforms the HCT116 colon cancer cell line into a hypermetabolic, growth-inhibited phenotype</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>. <year>2017</year>;In press.</mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref013">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Ramzan</surname><given-names>K</given-names></name>, <name><surname>Shaikh</surname><given-names>RS</given-names></name>, <name><surname>Ahmad</surname><given-names>J</given-names></name>, <name><surname>Khan</surname><given-names>SN</given-names></name>, <name><surname>Riazuddin</surname><given-names>S</given-names></name>, <name><surname>Ahmed</surname><given-names>ZM</given-names></name>, <etal>et al</etal>
+<article-title>A new locus for nonsyndromic deafness DFNB49 maps to chromosome 5q12.3-q14.1</article-title>. <source>Hum Genet</source>. <year>2005</year>;<volume>116</volume>(<issue>1&#x2013;2</issue>):<fpage>17</fpage>&#x2013;<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00439-004-1205-8">10.1007/s00439-004-1205-8</ext-link></comment> .<pub-id pub-id-type="pmid">15538632</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref014">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Nayak</surname><given-names>G</given-names></name>, <name><surname>Varga</surname><given-names>L</given-names></name>, <name><surname>Trincot</surname><given-names>C</given-names></name>, <name><surname>Shahzad</surname><given-names>M</given-names></name>, <name><surname>Friedman</surname><given-names>PL</given-names></name>, <name><surname>Klimes</surname><given-names>I</given-names></name>, <etal>et al</etal>
+<article-title>Molecular genetics of MARVELD2 and clinical phenotype in Pakistani and Slovak families segregating DFNB49 hearing loss</article-title>. <source>Hum Genet</source>. <year>2015</year>;<volume>134</volume>(<issue>4</issue>):<fpage>423</fpage>&#x2013;<lpage>37</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00439-015-1532-y">10.1007/s00439-015-1532-y</ext-link></comment> ; PubMed Central PMCID: PMCPMC4561550.<pub-id pub-id-type="pmid">25666562</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref015">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Riazuddin</surname><given-names>S</given-names></name>, <name><surname>Ahmed</surname><given-names>ZM</given-names></name>, <name><surname>Fanning</surname><given-names>AS</given-names></name>, <name><surname>Lagziel</surname><given-names>A</given-names></name>, <name><surname>Kitajiri</surname><given-names>S</given-names></name>, <name><surname>Ramzan</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>Tricellulin is a tight-junction protein necessary for hearing</article-title>. <source>American journal of human genetics</source>. <year>2006</year>;<volume>79</volume>(<issue>6</issue>):<fpage>1040</fpage>&#x2013;<lpage>51</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/510022">10.1086/510022</ext-link></comment> ; PubMed Central PMCID: PMC1698716.<pub-id pub-id-type="pmid">17186462</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref016">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Delpire</surname><given-names>E</given-names></name>, <name><surname>Lu</surname><given-names>J</given-names></name>, <name><surname>England</surname><given-names>R</given-names></name>, <name><surname>Dull</surname><given-names>C</given-names></name>, <name><surname>Thorne</surname><given-names>T</given-names></name>. <article-title>Deafness and imbalance associated with inactivation of the secretory Na-K-2Cl co-transporter</article-title>. <source>Nat Genet</source>. <year>1999</year>;<volume>22</volume>(<issue>2</issue>):<fpage>192</fpage>&#x2013;<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/9713">10.1038/9713</ext-link></comment> .<pub-id pub-id-type="pmid">10369265</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref017">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Dixon</surname><given-names>MJ</given-names></name>, <name><surname>Gazzard</surname><given-names>J</given-names></name>, <name><surname>Chaudhry</surname><given-names>SS</given-names></name>, <name><surname>Sampson</surname><given-names>N</given-names></name>, <name><surname>Schulte</surname><given-names>BA</given-names></name>, <name><surname>Steel</surname><given-names>KP</given-names></name>. <article-title>Mutation of the Na-K-Cl co-transporter gene Slc12a2 results in deafness in mice</article-title>. <source>Hum Mol Genet</source>. <year>1999</year>;<volume>8</volume>(<issue>8</issue>):<fpage>1579</fpage>&#x2013;<lpage>84</lpage>. .<pub-id pub-id-type="pmid">10401008</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref018">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Etournay</surname><given-names>R</given-names></name>, <name><surname>Zwaenepoel</surname><given-names>I</given-names></name>, <name><surname>Perfettini</surname><given-names>I</given-names></name>, <name><surname>Legrain</surname><given-names>P</given-names></name>, <name><surname>Petit</surname><given-names>C</given-names></name>, <name><surname>El-Amraoui</surname><given-names>A</given-names></name>. <article-title>Shroom2, a myosin-VIIa- and actin-binding protein, directly interacts with ZO-1 at tight junctions</article-title>. <source>J Cell Sci</source>. <year>2007</year>;<volume>120</volume>(<issue>Pt 16</issue>):<fpage>2838</fpage>&#x2013;<lpage>50</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1242/jcs.002568">10.1242/jcs.002568</ext-link></comment> .<pub-id pub-id-type="pmid">17666436</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref019">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Kitajiri</surname><given-names>S</given-names></name>, <name><surname>Katsuno</surname><given-names>T</given-names></name>, <name><surname>Sasaki</surname><given-names>H</given-names></name>, <name><surname>Ito</surname><given-names>J</given-names></name>, <name><surname>Furuse</surname><given-names>M</given-names></name>, <name><surname>Tsukita</surname><given-names>S</given-names></name>. <article-title>Deafness in occludin-deficient mice with dislocation of tricellulin and progressive apoptosis of the hair cells</article-title>. <source>Biol Open</source>. <year>2014</year>;<volume>3</volume>(<issue>8</issue>):<fpage>759</fpage>&#x2013;<lpage>66</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1242/bio.20147799">10.1242/bio.20147799</ext-link></comment> ; PubMed Central PMCID: PMCPMC4133728.<pub-id pub-id-type="pmid">25063198</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref020">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Murthy</surname><given-names>V</given-names></name>, <name><surname>Maison</surname><given-names>SF</given-names></name>, <name><surname>Taranda</surname><given-names>J</given-names></name>, <name><surname>Haque</surname><given-names>N</given-names></name>, <name><surname>Bond</surname><given-names>CT</given-names></name>, <name><surname>Elgoyhen</surname><given-names>AB</given-names></name>, <etal>et al</etal>
+<article-title>SK2 channels are required for function and long-term survival of efferent synapses on mammalian outer hair cells</article-title>. <source>Mol Cell Neurosci</source>. <year>2009</year>;<volume>40</volume>(<issue>1</issue>):<fpage>39</fpage>&#x2013;<lpage>49</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.mcn.2008.08.011">10.1016/j.mcn.2008.08.011</ext-link></comment> ; PubMed Central PMCID: PMCPMC2661972.<pub-id pub-id-type="pmid">18848895</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref021">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Weston</surname><given-names>MD</given-names></name>, <name><surname>Luijendijk</surname><given-names>MW</given-names></name>, <name><surname>Humphrey</surname><given-names>KD</given-names></name>, <name><surname>Moller</surname><given-names>C</given-names></name>, <name><surname>Kimberling</surname><given-names>WJ</given-names></name>. <article-title>Mutations in the VLGR1 gene implicate G-protein signaling in the pathogenesis of Usher syndrome type II</article-title>. <source>American journal of human genetics</source>. <year>2004</year>;<volume>74</volume>(<issue>2</issue>):<fpage>357</fpage>&#x2013;<lpage>66</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/381685">10.1086/381685</ext-link></comment> ; PubMed Central PMCID: PMCPMC1181933.<pub-id pub-id-type="pmid">14740321</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref022">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><collab>Genomes Project C</collab>, <name><surname>Auton</surname><given-names>A</given-names></name>, <name><surname>Brooks</surname><given-names>LD</given-names></name>, <name><surname>Durbin</surname><given-names>RM</given-names></name>, <name><surname>Garrison</surname><given-names>EP</given-names></name>, <name><surname>Kang</surname><given-names>HM</given-names></name>, <etal>et al</etal>
+<article-title>A global reference for human genetic variation</article-title>. <source>Nature</source>. <year>2015</year>;<volume>526</volume>(<issue>7571</issue>):<fpage>68</fpage>&#x2013;<lpage>74</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature15393">10.1038/nature15393</ext-link></comment> ; PubMed Central PMCID: PMCPMC4750478.<pub-id pub-id-type="pmid">26432245</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref023">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Fu</surname><given-names>W</given-names></name>, <name><surname>O'Connor</surname><given-names>TD</given-names></name>, <name><surname>Jun</surname><given-names>G</given-names></name>, <name><surname>Kang</surname><given-names>HM</given-names></name>, <name><surname>Abecasis</surname><given-names>G</given-names></name>, <name><surname>Leal</surname><given-names>SM</given-names></name>, <etal>et al</etal>
+<article-title>Analysis of 6,515 exomes reveals the recent origin of most human protein-coding variants</article-title>. <source>Nature</source>. <year>2013</year>;<volume>493</volume>(<issue>7431</issue>):<fpage>216</fpage>&#x2013;<lpage>20</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature11690">10.1038/nature11690</ext-link></comment> ; PubMed Central PMCID: PMC3676746.<pub-id pub-id-type="pmid">23201682</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref024">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Karczewski</surname><given-names>KJ</given-names></name>, <name><surname>Weisburd</surname><given-names>B</given-names></name>, <name><surname>Thomas</surname><given-names>B</given-names></name>, <name><surname>Solomonson</surname><given-names>M</given-names></name>, <name><surname>Ruderfer</surname><given-names>DM</given-names></name>, <name><surname>Kavanagh</surname><given-names>D</given-names></name>, <etal>et al</etal>
+<article-title>The ExAC browser: displaying reference data information from over 60 000 exomes</article-title>. <source>Nucleic acids research</source>. <year>2017</year>;<volume>45</volume>(<issue>D1</issue>):<fpage>D840</fpage>&#x2013;<lpage>D5</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/nar/gkw971">10.1093/nar/gkw971</ext-link></comment> ; PubMed Central PMCID: PMCPMC5210650.<pub-id pub-id-type="pmid">27899611</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref025">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>H</given-names></name>, <name><surname>Nair</surname><given-names>VS</given-names></name>, <name><surname>Holland</surname><given-names>AA</given-names></name>, <name><surname>Capolicchio</surname><given-names>S</given-names></name>, <name><surname>Jessen</surname><given-names>HJ</given-names></name>, <name><surname>Johnson</surname><given-names>MK</given-names></name>, <etal>et al</etal>
+<article-title>Asp1 from Schizosaccharomyces pombe binds a [2Fe-2S](2+) cluster which inhibits inositol pyrophosphate 1-phosphatase activity</article-title>. <source>Biochemistry</source>. <year>2015</year>;<volume>54</volume>(<issue>42</issue>):<fpage>6462</fpage>&#x2013;<lpage>74</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/acs.biochem.5b00532">10.1021/acs.biochem.5b00532</ext-link></comment> ; PubMed Central PMCID: PMC4641441.<pub-id pub-id-type="pmid">26422458</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref026">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Mangold</surname><given-names>M</given-names></name>, <name><surname>Rolland</surname><given-names>L</given-names></name>, <name><surname>Costanzo</surname><given-names>F</given-names></name>, <name><surname>Sprik</surname><given-names>M</given-names></name>, <name><surname>Sulpizi</surname><given-names>M</given-names></name>, <name><surname>Blumberger</surname><given-names>J</given-names></name>. <article-title>Absolute pKa Values and Solvation Structure of Amino Acids from Density Functional Based Molecular Dynamics Simulation</article-title>. <source>J Chem Theory Comput</source>. <year>2011</year>;<volume>7</volume>(<issue>6</issue>):<fpage>1951</fpage>&#x2013;<lpage>61</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/ct100715x">10.1021/ct100715x</ext-link></comment> .<pub-id pub-id-type="pmid">26596456</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref027">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Bosshard</surname><given-names>HR</given-names></name>, <name><surname>Marti</surname><given-names>DN</given-names></name>, <name><surname>Jelesarov</surname><given-names>I</given-names></name>. <article-title>Protein stabilization by salt bridges: concepts, experimental approaches and clarification of some misunderstandings</article-title>. <source>J Mol Recognit</source>. <year>2004</year>;<volume>17</volume>(<issue>1</issue>):<fpage>1</fpage>&#x2013;<lpage>16</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmr.657">10.1002/jmr.657</ext-link></comment> .<pub-id pub-id-type="pmid">14872533</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref028">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Shen</surname><given-names>J</given-names></name>, <name><surname>Scheffer</surname><given-names>DI</given-names></name>, <name><surname>Kwan</surname><given-names>KY</given-names></name>, <name><surname>Corey</surname><given-names>DP</given-names></name>. <article-title>SHIELD: an integrative gene expression database for inner ear research</article-title>. <source>Database: the journal of biological databases and curation</source>. <year>2015</year>;<volume>2015</volume>:<fpage>bav071</fpage>
+<comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/database/bav071">10.1093/database/bav071</ext-link></comment> ; PubMed Central PMCID: PMC4513695.<pub-id pub-id-type="pmid">26209310</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref029">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Gokhale</surname><given-names>NA</given-names></name>, <name><surname>Zaremba</surname><given-names>A</given-names></name>, <name><surname>Shears</surname><given-names>SB</given-names></name>. <article-title>Receptor-dependent compartmentalization of PPIP5K1, a kinase with a cryptic polyphosphoinositide binding domain</article-title>. <source>The Biochemical journal</source>. <year>2011</year>;<volume>434</volume>(<issue>3</issue>):<fpage>415</fpage>&#x2013;<lpage>26</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/BJ20101437">10.1042/BJ20101437</ext-link></comment> ; PubMed Central PMCID: PMCPMC3962999.<pub-id pub-id-type="pmid">21222653</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref030">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>H</given-names></name>, <name><surname>Falck</surname><given-names>JR</given-names></name>, <name><surname>Hall</surname><given-names>TM</given-names></name>, <name><surname>Shears</surname><given-names>SB</given-names></name>. <article-title>Structural basis for an inositol pyrophosphate kinase surmounting phosphate crowding</article-title>. <source>Nat Chem Biol</source>. <year>2011</year>;<volume>8</volume>(<issue>1</issue>):<fpage>111</fpage>&#x2013;<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nchembio.733">10.1038/nchembio.733</ext-link></comment> ; PubMed Central PMCID: PMCPMC3923263.<pub-id pub-id-type="pmid">22119861</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref031">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Johnson</surname><given-names>KR</given-names></name>, <name><surname>Erway</surname><given-names>LC</given-names></name>, <name><surname>Cook</surname><given-names>SA</given-names></name>, <name><surname>Willott</surname><given-names>JF</given-names></name>, <name><surname>Zheng</surname><given-names>QY</given-names></name>. <article-title>A major gene affecting age-related hearing loss in C57BL/6J mice</article-title>. <source>Hearing research</source>. <year>1997</year>;<volume>114</volume>(<issue>1&#x2013;2</issue>):<fpage>83</fpage>&#x2013;<lpage>92</lpage>. .<pub-id pub-id-type="pmid">9447922</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref032">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Keithley</surname><given-names>EM</given-names></name>, <name><surname>Canto</surname><given-names>C</given-names></name>, <name><surname>Zheng</surname><given-names>QY</given-names></name>, <name><surname>Fischel-Ghodsian</surname><given-names>N</given-names></name>, <name><surname>Johnson</surname><given-names>KR</given-names></name>. <article-title>Age-related hearing loss and the ahl locus in mice</article-title>. <source>Hearing research</source>. <year>2004</year>;<volume>188</volume>(<issue>1&#x2013;2</issue>):<fpage>21</fpage>&#x2013;<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0378-5955(03)00365-4">10.1016/S0378-5955(03)00365-4</ext-link></comment> ; PubMed Central PMCID: PMC2858220.<pub-id pub-id-type="pmid">14759567</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref033">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Nagata</surname><given-names>E</given-names></name>, <name><surname>Luo</surname><given-names>HR</given-names></name>, <name><surname>Saiardi</surname><given-names>A</given-names></name>, <name><surname>Bae</surname><given-names>BI</given-names></name>, <name><surname>Suzuki</surname><given-names>N</given-names></name>, <name><surname>Snyder</surname><given-names>SH</given-names></name>. <article-title>Inositol hexakisphosphate kinase-2, a physiologic mediator of cell death</article-title>. <source>The Journal of biological chemistry</source>. <year>2005</year>;<volume>280</volume>(<issue>2</issue>):<fpage>1634</fpage>&#x2013;<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/jbc.M409416200">10.1074/jbc.M409416200</ext-link></comment> .<pub-id pub-id-type="pmid">15533939</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref034">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Hill</surname><given-names>K</given-names></name>, <name><surname>Yuan</surname><given-names>H</given-names></name>, <name><surname>Wang</surname><given-names>X</given-names></name>, <name><surname>Sha</surname><given-names>SH</given-names></name>. <article-title>Noise-Induced Loss of Hair Cells and Cochlear Synaptopathy Are Mediated by the Activation of AMPK</article-title>. <source>J Neurosci</source>. <year>2016</year>;<volume>36</volume>(<issue>28</issue>):<fpage>7497</fpage>&#x2013;<lpage>510</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1523/JNEUROSCI.0782-16.2016">10.1523/JNEUROSCI.0782-16.2016</ext-link></comment> ; PubMed Central PMCID: PMCPMC4945669.<pub-id pub-id-type="pmid">27413159</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref035">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Moser</surname><given-names>T</given-names></name>, <name><surname>Brandt</surname><given-names>A</given-names></name>, <name><surname>Lysakowski</surname><given-names>A</given-names></name>. <article-title>Hair cell ribbon synapses</article-title>. <source>Cell Tissue Res</source>. <year>2006</year>;<volume>326</volume>(<issue>2</issue>):<fpage>347</fpage>&#x2013;<lpage>59</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00441-006-0276-3">10.1007/s00441-006-0276-3</ext-link></comment> ; PubMed Central PMCID: PMCPMC4142044.<pub-id pub-id-type="pmid">16944206</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref036">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Moser</surname><given-names>T</given-names></name>, <name><surname>Predoehl</surname><given-names>F</given-names></name>, <name><surname>Starr</surname><given-names>A</given-names></name>. <article-title>Review of hair cell synapse defects in sensorineural hearing impairment</article-title>. <source>Otol Neurotol</source>. <year>2013</year>;<volume>34</volume>(<issue>6</issue>):<fpage>995</fpage>&#x2013;<lpage>1004</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MAO.0b013e3182814d4a">10.1097/MAO.0b013e3182814d4a</ext-link></comment> .<pub-id pub-id-type="pmid">23628789</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref037">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Chapman</surname><given-names>NH</given-names></name>, <name><surname>Nato</surname><given-names>AQ</given-names><suffix>Jr.</suffix></name>, <name><surname>Bernier</surname><given-names>R</given-names></name>, <name><surname>Ankenman</surname><given-names>K</given-names></name>, <name><surname>Sohi</surname><given-names>H</given-names></name>, <name><surname>Munson</surname><given-names>J</given-names></name>, <etal>et al</etal>
+<article-title>Whole exome sequencing in extended families with autism spectrum disorder implicates four candidate genes</article-title>. <source>Hum Genet</source>. <year>2015</year>;<volume>134</volume>(<issue>10</issue>):<fpage>1055</fpage>&#x2013;<lpage>68</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00439-015-1585-y">10.1007/s00439-015-1585-y</ext-link></comment> ; PubMed Central PMCID: PMCPMC4578871.<pub-id pub-id-type="pmid">26204995</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref038">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Cukier</surname><given-names>HN</given-names></name>, <name><surname>Dueker</surname><given-names>ND</given-names></name>, <name><surname>Slifer</surname><given-names>SH</given-names></name>, <name><surname>Lee</surname><given-names>JM</given-names></name>, <name><surname>Whitehead</surname><given-names>PL</given-names></name>, <name><surname>Lalanne</surname><given-names>E</given-names></name>, <etal>et al</etal>
+<article-title>Exome sequencing of extended families with autism reveals genes shared across neurodevelopmental and neuropsychiatric disorders</article-title>. <source>Mol Autism</source>. <year>2014</year>;<volume>5</volume>(<issue>1</issue>):<fpage>1</fpage>
+<comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/2040-2392-5-1">10.1186/2040-2392-5-1</ext-link></comment> ; PubMed Central PMCID: PMCPMC3896704.<pub-id pub-id-type="pmid">24410847</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref039">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Simon</surname><given-names>M</given-names></name>, <name><surname>Richard</surname><given-names>EM</given-names></name>, <name><surname>Wang</surname><given-names>X</given-names></name>, <name><surname>Shahzad</surname><given-names>M</given-names></name>, <name><surname>Huang</surname><given-names>VH</given-names></name>, <name><surname>Qaiser</surname><given-names>TA</given-names></name>, <etal>et al</etal>
+<article-title>Mutations of human NARS2, encoding the mitochondrial asparaginyl-tRNA synthetase, cause nonsyndromic deafness and Leigh syndrome</article-title>. <source>PLoS Genet</source>. <year>2015</year>;<volume>11</volume>(<issue>3</issue>):<fpage>e1005097</fpage>
+<comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pgen.1005097">10.1371/journal.pgen.1005097</ext-link></comment> ; PubMed Central PMCID: PMCPMC4373692.<pub-id pub-id-type="pmid">25807530</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref040">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Plagnol</surname><given-names>V</given-names></name>, <name><surname>Curtis</surname><given-names>J</given-names></name>, <name><surname>Epstein</surname><given-names>M</given-names></name>, <name><surname>Mok</surname><given-names>KY</given-names></name>, <name><surname>Stebbings</surname><given-names>E</given-names></name>, <name><surname>Grigoriadou</surname><given-names>S</given-names></name>, <etal>et al</etal>
+<article-title>A robust model for read count data in exome sequencing experiments and implications for copy number variant calling</article-title>. <source>Bioinformatics</source>. <year>2012</year>;<volume>28</volume>(<issue>21</issue>):<fpage>2747</fpage>&#x2013;<lpage>54</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/bts526">10.1093/bioinformatics/bts526</ext-link></comment> ; PubMed Central PMCID: PMC3476336.<pub-id pub-id-type="pmid">22942019</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref041">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Krumm</surname><given-names>N</given-names></name>, <name><surname>Sudmant</surname><given-names>PH</given-names></name>, <name><surname>Ko</surname><given-names>A</given-names></name>, <name><surname>O'Roak</surname><given-names>BJ</given-names></name>, <name><surname>Malig</surname><given-names>M</given-names></name>, <name><surname>Coe</surname><given-names>BP</given-names></name>, <etal>et al</etal>
+<article-title>Copy number variation detection and genotyping from exome sequence data</article-title>. <source>Genome research</source>. <year>2012</year>;<volume>22</volume>(<issue>8</issue>):<fpage>1525</fpage>&#x2013;<lpage>32</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/gr.138115.112">10.1101/gr.138115.112</ext-link></comment> ; PubMed Central PMCID: PMC3409265.<pub-id pub-id-type="pmid">22585873</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007297.ref042">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Giese</surname><given-names>APJ</given-names></name>, <name><surname>Tang</surname><given-names>YQ</given-names></name>, <name><surname>Sinha</surname><given-names>GP</given-names></name>, <name><surname>Bowl</surname><given-names>MR</given-names></name>, <name><surname>Goldring</surname><given-names>AC</given-names></name>, <name><surname>Parker</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>CIB2 interacts with TMC1 and TMC2 and is essential for mechanotransduction in auditory hair cells</article-title>. <source>Nat Commun</source>. <year>2017</year>;<volume>8</volume>(<issue>1</issue>):<fpage>43</fpage>
+<comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41467-017-00061-1">10.1038/s41467-017-00061-1</ext-link></comment> ; PubMed Central PMCID: PMCPMC5491523.<pub-id pub-id-type="pmid">28663585</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

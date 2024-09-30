@@ -1,0 +1,742 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Gen Med</journal-id><journal-id journal-id-type="iso-abbrev">Int J Gen Med</journal-id><journal-id journal-id-type="publisher-id">ijgm</journal-id><journal-title-group><journal-title>International Journal of General Medicine</journal-title></journal-title-group><issn pub-type="epub">1178-7074</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39070220</article-id><article-id pub-id-type="pmc">11283268</article-id><article-id pub-id-type="publisher-id">465411</article-id><article-id pub-id-type="doi">10.2147/IJGM.S465411</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Identification and Validation of Diagnostic Model Based on Angiogenesis- and Epithelial Mesenchymal Transition-Related Genes in Myocardial Infarction</article-title><alt-title alt-title-type="running-authors">Li et al</alt-title><alt-title alt-title-type="running-title">Li et al</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Li</surname><given-names>Zhengmei</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Shiai</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Yin</surname><given-names>Xunli</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Tao</surname><given-names>Dong</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Xuebing</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Junli</given-names></name><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>School of Radiology, Shandong First Medical University &amp; Shandong Academy of Medical Sciences</institution>, <addr-line>Taian</addr-line>, <addr-line>Shandong</addr-line>, <country>People&#x2019;s Republic of China</country></aff><aff id="aff0002"><label>2</label><institution>Department of Cardiovascular Medicine, The Seventh People&#x2019;s Hospital of Jinan</institution>, <addr-line>Jinan</addr-line>, <addr-line>Shandong</addr-line>, <country>People&#x2019;s Republic of China</country></aff><aff id="aff0003"><label>3</label><institution>Department of Emergency Medicine, The Second Affiliated Hospital of Shandong First Medical University</institution>, <addr-line>Taian</addr-line>, <addr-line>Shandong</addr-line>, <country>People&#x2019;s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Junli Zhang, Email tyfyzjl@163.com</corresp></author-notes><pub-date pub-type="epub"><day>23</day><month>7</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>17</volume><fpage>3239</fpage><lpage>3255</lpage><history><date date-type="received"><day>23</day><month>5</month><year>2024</year></date><date date-type="accepted"><day>03</day><month>7</month><year>2024</year></date></history><permissions><copyright-statement>&#xA9; 2024 Li et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Li et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution &#x2013; Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Background</title><p>Myocardial infarction (MI) is a chronic cardiovascular disease. This study aims to discern potentially angiogenesis- and epithelial mesenchymal transition (EMT)-related genes as biomarkers for MI diagnosis through bioinformatics.</p></sec><sec><title>Methods</title><p>All datasets and angiogenesis- and EMT-related genes were collected from the public database. The differentially expressed genes (DEGs) of MI and MI-related genes were acquired. DEGs, MI-related genes, and angiogenesis- and EMT-related genes were intersected to obtain hub genes. Functional enrichment, immune microenvironment, and transcription factors (TFs)-hub genes regulatory network analysis were performed. The diagnostic markers and models were developed and validated. Drug prediction and molecular docking were performed. Finally, diagnostic markers expressions were validated using RT-qPCR.</p></sec><sec><title>Results</title><p>A total of 224 angiogenesis- and EMT-related genes, 2,897 DEGs, 1,217 MI-related genes, and 9 hub genes were acquired. The immune infiltration levels of plasma cells, T cells CD4 memory activated, monocytes, macrophages M0, mast cells resting, and neutrophils were higher in patients with MI. LRPAP1, COLGALT1, QSOX1, THBD, VCAN, PLOD1, and PLAUR as the diagnostic markers were identified and used to construct diagnostic models, which can distinguish MI from controls well. Then, 9 drugs were screened, and the binding energies ranged from &#x2212;7.08 to &#x2212;5.21 kcal/mol. RT-qPCR results showed that the expression of LRPAP1, PLAUR, and PLOD1 was significantly increased in the MI group.</p></sec><sec><title>Conclusion</title><p>The 7 diagnostic markers may play potential roles in MI and could contribute to improved future diagnostics.</p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>myocardial infarction</kwd><kwd>angiogenesis</kwd><kwd>epithelial mesenchymal transition</kwd><kwd>diagnostic markers</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>funding</institution></institution-wrap>
+</funding-source></award-group><funding-statement>There is no funding to report.</funding-statement></funding-group><counts><fig-count count="9"/><ref-count count="72"/><page-count count="17"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Myocardial infarction (MI) represents the most severe form of coronary artery disease, characterized by ischemic necrosis of the myocardium due to the sudden interruption of blood flow.<xref rid="cit0001" ref-type="bibr">1</xref>,<xref rid="cit0002" ref-type="bibr">2</xref> MI remains a predominant global cause of mortality and disability, posing a significant threat to human health.<xref rid="cit0003" ref-type="bibr">3</xref> In China, the mortality rate of MI in 2020 was 78.65/100,000 in rural areas and 60.29/100,000 in urban areas.<xref rid="cit0004" ref-type="bibr">4</xref> According to the atherosclerosis risk in communities&#x2019; study, the annual incidence of MI is approximately 805,000.<xref rid="cit0005" ref-type="bibr">5</xref> The gold standard of MI diagnosis is elevated serum cardiac troponin.<xref rid="cit0006" ref-type="bibr">6</xref> Additionally, lactate dehydrogenase, creatine kinase (CK)-MB, myoglobin, and myosin-binding protein C can be considered biomarkers of MI.<xref rid="cit0006" ref-type="bibr">6</xref> The prognosis of MI patients has significantly improved with advancements in percutaneous coronary intervention and antithrombotic therapy.<xref rid="cit0007" ref-type="bibr">7</xref> However, the incidence of MI has not declined but increased in older individuals.<xref rid="cit0008" ref-type="bibr">8</xref> Timely and effective revascularization of patients with MI reduces mortality and improves prognosis.<xref rid="cit0009" ref-type="bibr">9</xref></p>
+      <p>MI induces substantial damage to coronary microcirculation, resulting in vascular disintegration and capillary thinning within the infarcted area.<xref rid="cit0010" ref-type="bibr">10</xref> Cardiac repair consists of two phases: an inflammatory phase and a repair phase. Starting with sterile inflammation and immune cell infiltration, it is followed by inflammatory regression, fibroblast proliferation, scar formation, and angiogenic response.<xref rid="cit0011" ref-type="bibr">11</xref> These responses coordinate to achieve efficient microvascular perfusion in cardiac remodeling, ensuring subsequent repair and function recovery.<xref rid="cit0012" ref-type="bibr">12</xref> Angiogenesis is mainly accomplished by endothelial cells (ECs).<xref rid="cit0013" ref-type="bibr">13</xref> Additionally, cardiomyocytes, macrophages, fibroblasts, and monocytes are also involved in the process of angiogenesis.<xref rid="cit0013" ref-type="bibr">13</xref> In mice after MI, the capillary network was markedly expanded on day 7.<xref rid="cit0014" ref-type="bibr">14</xref> Furthermore, epicardium participates in cardiac remodeling and angiogenesis after MI through epithelial mesenchymal transition (EMT), converting endocardial cells to fibroblasts.<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> In the heart failure model, cardiomyocytes exhibited an EMT-like regenerative response that promotes cardiac regeneration.<xref rid="cit0017" ref-type="bibr">17</xref> Single-cell RNA sequencing demonstrated that ECs transiently displayed a mesenchymal gene expression state from days 3 to 7, returning to baseline levels at day 14.<xref rid="cit0018" ref-type="bibr">18</xref> Although both EMT and angiogenesis play important roles in MI, the pathophysiology among MI, EMT, and angiogenesis remains unknown.</p>
+      <p>In this study, the differentially expressed genes (DEGs), angiogenesis- and EMT-related genes, and MI-related genes were acquired, followed by overlapping to acquire hub genes. Then, functional enrichment, immune infiltrated analysis, and regulatory network construction were performed. Additionally, the diagnostic markers and models were obtained, and the performance of models was evaluated. Furthermore, potential target drugs were predicted. Finally, the blood samples were collected to validate the expression of diagnostic markers. This work may provide new directions in the diagnosis and treatment of MI.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Data Collection and Processing</title>
+        <p>MI is defined as the death of myocardial cells due to prolonged ischemia.<xref rid="cit0019" ref-type="bibr">19</xref> In clinical settings, elevated levels of cardiac troponin or CK-MB are diagnostic indicators of MI.<xref rid="cit0020" ref-type="bibr">20</xref> The keywords &#x201C;myocardial infarction&#x201D; and &#x201C;homo sapiens&#x201D; were searched in the Gene Expression Omnibus (GEO) database (<underline><ext-link xlink:href="https://www.ncbi.nlm.nih.gov/GEO/" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/GEO/</ext-link></underline>), and four datasets, GSE59867, GSE62646, GSE123342, and GSE28454, were included in this study. Among these, GSE59867 (46 controls and 111 MI samples) and GSE62646 (14 controls and 28 MI samples) datasets were utilized as the training set, while GSE123342 (22 controls and 67 MI samples) and GSE28454 (76 MI samples) datasets were employed as the validation set. The samples in the training set were peripheral blood mononuclear cells (PBMC), whereas the GSE123342 and GSE28454 datasets comprised whole blood samples and monocytes, respectively. Then, the GSE59867 and GSE62646 datasets were merged, and the batch effects were removed using the &#x201C;combat&#x201D; function from the &#x201C;sva&#x201D; package in R software (version 3.5.3). Additionally, angiogenesis- and EMT-related genes were obtained from the MSigDB (<underline><ext-link xlink:href="https://www.gsea-msigdb.org/gsea/msigdb/" ext-link-type="uri">https://www.gsea-msigdb.org/gsea/msigdb/</ext-link></underline>).</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>DEGs Analysis</title>
+        <p>The &#x201C;limma&#x201D; package in R was used to acquire the DEGs between controls and MI patients. The DEGs with false discovery rate (FDR) &lt;0.01 were considered statistically significant. The volcano plot and heatmap were generated to visualize the results through the &#x201C;ggplot&#x201D; and &#x201C;pheatmap&#x201D; packages in R, respectively.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Weighted Gene Co-Expression Network Analysis (WGCNA)</title>
+        <p>To construct a scale-free gene co-expression network, the top 25% of genes were selected for subsequent analysis using the &#x201C;WGCNA&#x201D; package in R. First, the &#x201C;hclust&#x201D; function was employed to cluster samples to remove abnormal samples. Subsequently, the &#x201C;pickSoftThreshold&#x201D; function was utilized to select an optimal soft thresholding power to construct a scale-free topology. The degree was set as 0.90. Then, the adjacency matrix was generated based on the eigengene and followed by its transformation into a topological overlap matrix (TOM) and its corresponding 1-TOM. Genes were clustered according to their expression patterns. Next, modules were divided using the default &#x201C;cutreeDynamic&#x201D; function. The modules with a dissimilarity degree of less than 0.25 were combined. Subsequently, the module eigengene (ME) was calculated using the &#x201C;moduleEigengenes&#x201D; function, and the correlation between modules and MI was analyzed using the Pearson analysis. Finally, modules related to MI were identified as hub modules, and MI-related genes were selected based on the following criteria: |gene significance (GS)| &gt;0.4 and |module membership (MM)| &gt;0.6.</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Identification of Hub Genes and Functional Enrichment Analysis</title>
+        <p>The DEGs in patients with MI, MI-related genes in WGCNA analysis, and angiogenesis- and EMT-related genes were intersected to obtain the intersection genes. Subsequently, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis were conducted for intersection genes using the David database (<underline><ext-link xlink:href="https://david.ncifcrf.gov/" ext-link-type="uri">https://david.ncifcrf.gov/</ext-link></underline>).<xref rid="cit0021" ref-type="bibr">21</xref>,<xref rid="cit0022" ref-type="bibr">22</xref> The terms with p-value &lt;0.05 were considered statistically significant. The distribution of intersection genes on chromosomes was explored using the &#x201C;Rcircos&#x201D; package in R. Following this, the regulatory relationships among intersection genes were explored using the STRING database (<underline><ext-link xlink:href="https://cn.string-db.org/" ext-link-type="uri">https://cn.string-db.org/</ext-link></underline>), and the hub genes were identified based on their expression levels in both training sets and the GSE123342 dataset.<xref rid="cit0023" ref-type="bibr">23</xref></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Immune Microenvironment Analysis</title>
+        <p>The immune infiltration levels of 22 immune cells were calculated based on their gene expression matrix using the &#x201C;CIBERSORT&#x201D; algorithm.<xref rid="cit0024" ref-type="bibr">24</xref> The difference in 22 immune cells between controls and MI patients was assessed using the Wilcoxon test, and the results were visualized through the bar plot. Then, the correlation between hub genes and differential immune cells was investigated through the Pearson analysis.</p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Construction of Transcription Factors (TFs)-Hub Genes Regulatory Network</title>
+        <p>The TFs associated with hub genes were predicted using the Cistrome DataBase (Cistrome DB, <underline><ext-link xlink:href="http://genemania.org" ext-link-type="uri">http://genemania.org</ext-link></underline>).<xref rid="cit0025" ref-type="bibr">25</xref>,<xref rid="cit0026" ref-type="bibr">26</xref> The top 20 TFs were selected based on their regulatory potential scores. Then, the MI-related TFs were determined after intersecting between the top 20 TFs and DEGs. Finally, the TFs-hub genes network was constructed using Cytoscape software.</p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Construction of Diagnostic Models Using Machine Learning</title>
+        <p>Firstly, the least absolute shrinkage and selection operator (LASSO) regression analysis was used to select feature genes from hub genes through the &#x201C;glmnet&#x201D; package in R in the training set. Secondly, feature genes were ranked according to their mean decrease accuracy using the &#x201C;randomForest&#x201D; package in R. Using the random forest (RF) algorithm and 10-fold cross-validation, the optimal number of genes was determined. Finally, RF and support vector machine (SVM) classification models were created using the &#x201C;randomForest&#x201D; and &#x201C;e1071&#x201D; packages in R, respectively. The diagnostic ability of two classification models was evaluated in both the training set and the GSE123342 dataset using the receiver operating characteristic (ROC) curve generated via the &#x201C;pROC&#x201D; package in R. The area under the curve (AUC) value was used to quantify the performance of models.</p>
+      </sec>
+      <sec id="s0002-s2008">
+        <title>Drug Prediction and Molecular Docking</title>
+        <p>The DGIdb database (<underline><ext-link xlink:href="https://dgidb.org/" ext-link-type="uri">https://dgidb.org/</ext-link></underline>) was utilized to select candidate drugs associated with genes in diagnostic models. The binding activity was calculated through molecular docking. The 3D structures of target proteins were obtained from the RCSB PDB (<underline><ext-link xlink:href="http://www.rcsb.org/pdb/home/home.do" ext-link-type="uri">http://www.rcsb.org/pdb/home/home.do</ext-link></underline>), while 3D structures of drugs were downloaded from the PubChem (<underline><ext-link xlink:href="https://pubchem.ncbi.nlm.nih.gov/" ext-link-type="uri">https://pubchem.ncbi.nlm.nih.gov/</ext-link></underline>).<xref rid="cit0027" ref-type="bibr">27</xref>,<xref rid="cit0028" ref-type="bibr">28</xref> Hydrogenation and other pre-processing of proteins and drugs were performed using AutoDockTools, followed by molecular docking.<xref rid="cit0029" ref-type="bibr">29</xref> In this study, the binding energies with &lt;-5.0 kJ/mol indicated strong binding activity.<xref rid="cit0030" ref-type="bibr">30</xref> The molecular docking results were visualized by the PyMol software.<xref rid="cit0031" ref-type="bibr">31</xref></p>
+      </sec>
+      <sec id="s0002-s2009">
+        <title>Real-Time qPCR (RT-qPCR) Analysis</title>
+        <p>A total of 11 blood samples were collected from 6 patients with stable coronary artery disease (CAD) served as controls and 5 patients with MI for RT-qPCR. The clinical information and disease history of all samples are displayed in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=465411.docx" ext-link-type="uri">Supplementary Table 1</ext-link></underline>. Total RNA was extracted using HiPure Liquid RNA/miRNA Kit (Magen) following the manufacturer&#x2019;s instructions. Then, FastQuant cDNA First Strand cDNA Synthesis Kit (Tiangen) was used to perform mRNA reverse transcription. SuperReal PreMix Plus (SYBB Green, Tiangen) was utilized for qRT-PCR according to the manufacturer&#x2019;s instructions. Finally, the results were measured using the ABI 7300 real-time PCR instrument (BIOER), and the relative mRNA expression levels were calculated by the 2<sup>&#x2212;&#x394;&#x394;Ct</sup> method with GAPDH and &#x3B2;-actin as the internal references. The synthesis of primers was completed by Biomed, and the sequences are shown in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=465411.docx" ext-link-type="uri">Supplementary Table 2</ext-link></underline>.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Data Processing and GSEA Analysis</title>
+        <p>After removing the batch effect, 60 controls and 139 MI samples in the training sets were obtained. A total of 24 angiogenesis-related genes, 188 EMT-related genes, and 12 common genes were acquired. To assess expression levels of angiogenesis- and EMT-related genes in MI, the gene set enrichment analysis (GSEA) was conducted using GSEA software. The Results showed that angiogenesis- and EMT-related genes were significantly enriched in patients with MI (<xref rid="f0001" ref-type="fig">Figure 1A</xref> and <xref rid="f0001" ref-type="fig">B</xref>).
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>GSEA analysis. GSEA analysis showed that angiogenesis- (<bold>A</bold>) and EMT-related genes (<bold>B</bold>) were up-regulated in MI samples.</p></caption><graphic xlink:href="IJGM-17-3239-g0001" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Identification of DEGs and MI-Related Genes</title>
+        <p>Compared with controls, a total of 2,897 DEGs, including 1,279 up-regulated and 1,618 down-regulated, were identified in MI patients (<xref rid="f0002" ref-type="fig">Figure 2A</xref> and <xref rid="f0002" ref-type="fig">B</xref>). WGCNA was carried out to identify the MI-related genes in the training sets. The power &#x3B2; = 22 was used to construct the scale-free network (<xref rid="f0002" ref-type="fig">Figure 2C</xref>). A total of 7 modules were clustered with gene count in each module &#x2265;50 and divergence &#x2265;0.25 (<xref rid="f0002" ref-type="fig">Figure 2D</xref> and <xref rid="f0002" ref-type="fig">E</xref>). Six modules were significantly associated with MI, and modules with |correlation| &#x2265;0.5 were used for further analysis, including blue, green, magenta, brown, and grey models (<xref rid="f0002" ref-type="fig">Figure 2F</xref>). With |GS| &gt;0.4 and |MM| &gt;0.6, a total of 1,217 MI-related genes were obtained: 207 genes were identified in the blue module, 295 in the green module, 63 in the magenta module, 542 in the brown module, and 110 in the grey module. (<xref rid="f0002" ref-type="fig">Figure 2G&#x2013;K</xref>).
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>WGCNA. (<bold>A</bold> and <bold>B</bold>) Volcano plot (<bold>A</bold>) and heatmap (<bold>B</bold>) of DEGs between MI and control samples. (<bold>C</bold>) Scale Independence and mean connectivity analysis. (<bold>D</bold>) A cluster dendrogram of 7 modules. (<bold>E</bold>) Clustering of module eigengene. (<bold>F</bold>) The module trait relationship. (<bold>G</bold>&#x2013;<bold>K</bold>) Scatter plots of gene significance for MI vs the module membership in the blue (<bold>G</bold>), green (<bold>H</bold>), magenta (<bold>I</bold>), brown (<bold>J</bold>), and grey (<bold>K</bold>) modules.</p></caption><graphic xlink:href="IJGM-17-3239-g0002" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Identification of Hub Genes and Function Analysis</title>
+        <p>The 2,897 DEGs, 36 angiogenesis-related genes, 200 EMT-related genes, and 1,217 MI-related genes were intersected to obtain 16 intersection genes, including LRPAP1, THBD, TIMP1, VCAN, CAPG, FSTL3, ITGB1, LGALS1, LRP1, PLAUR, PLOD1, PLOD3, QSOX1, TGFBI, TGFBR3, and COLGALT1 (<xref rid="f0003" ref-type="fig">Figure 3A</xref>). GO analysis revealed that these 16 intersection genes were involved in various processes, including negative regulation of metallopeptidase activity, positive regulation of beta-amyloid clearance, peptidyl-lysine hydroxylation, myoblast differentiation, positive regulation of neuroblast proliferation, receptor internalization, and positive regulation of protein localization to the plasma membrane (<xref rid="f0003" ref-type="fig">Figure 3B</xref>). KEGG analysis indicated that PLOD3, PLOD1, and COLGALT1 were mainly involved in the lysine degradation and other types of O-glycan biosynthesis pathways, and the lysine degradation was displayed in <xref rid="f0003" ref-type="fig">Figure 3C</xref>.
+<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>Identification of intersection genes. (<bold>A</bold>) Venn analysis of intersection genes among DEGs, angiogenesis- and EMT-related genes, and MI-related genes. (<bold>B</bold>) GO analysis of intersection genes. (<bold>C</bold>) Lysine degradation pathway.</p></caption><graphic xlink:href="IJGM-17-3239-g0003" content-type="print-only" position="float"/></fig></p>
+        <p>The locations of 16 intersection genes on chromosomes are displayed in <xref rid="f0004" ref-type="fig">Figure 4A</xref>. PPI results showed that the degree of TIMP1 was the highest, interacting with 6 genes, among 19 interacting pairs (<xref rid="f0004" ref-type="fig">Figure 4B</xref>). There are 4 gene pairs with interaction scores above 0.95 in all interaction relationships, including LRP1 and LRPAP1, COLGALT1 and PLOD3, COLGALT1 and PLOD1, and PLOD1 and PLOD3 (<xref rid="f0004" ref-type="fig">Figure 4B</xref>). Considering that TIMP1 was located on the X chromosome and has the highest degree in the PPI network, the relationship between TIMP1 and gender in MI was explored in the GSE28454 dataset, which included monocyte samples from patients with MI at 6 h, 72 h, and 90 days. We found that the expression of TIMP1 was significantly increased in females at 6h and 72 h compared to male patients (<xref rid="f0004" ref-type="fig">Figure 4C</xref>). Furthermore, the expression levels of 16 intersection genes in the training sets and GSE123342 dataset were displayed in <xref rid="f0004" ref-type="fig">Figure 4D&#x2013;E</xref>. The expression of CAPG, COLGALT1, LRPAP1, PLAUR, PLOD1, QSOX1, THBD, TIMP1, and VCAN was significantly up-regulated in MI samples compared with the control group in both two datasets. Hence, the above 9 genes were identified as the hub genes.
+<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>Identification of hub genes. (<bold>A</bold>) The locations of intersection genes on the chromosome. (<bold>B</bold>) The PPI network of intersection genes. (<bold>C</bold>) The expression levels of TIMP1 gene at three time points in the GSE28454 dataset between MI and control samples. (<bold>D</bold> and <bold>E</bold>) The expression of intersection gene in the training sets (<bold>D</bold>) and GSE123342 dataset (<bold>E</bold>) between MI and control samples. *p &lt;0.05; **p &lt;0.01; ****p &lt;0.0001; ns, no significance.</p></caption><graphic xlink:href="IJGM-17-3239-g0004" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Correlation Analysis Between Immune Cells and Hub Genes</title>
+        <p>The results showed that patients with MI had higher immune infiltration levels of plasma cells, T cells CD4 memory activated, monocytes, macrophages M0, mast cells resting, and neutrophils, while T cells CD8, T cells CD4 native, T cells CD4 memory resting, NK cells resting, T cells regulatory (Tregs), macrophages M2, and eosinophil were enriched in the control group (<xref rid="f0005" ref-type="fig">Figure 5A</xref>). Next, the correlation between 13 immune cells and 9 hub genes was analyzed (<xref rid="f0005" ref-type="fig">Figure 5B</xref>). Plasma cells, monocytes, and neutrophils were significantly correlated with all hub genes. VCAN showed the highest positive correlation with monocytes at 0.76, followed by PLAUR and monocytes at 0.7. In addition, the highest negative correlation was observed between T cells CD8 and VCAN, which was &#x2212;0.59.
+<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Microenvironment analysis. (<bold>A</bold>) The abundance of each immune infiltration cell in MI and control samples. (<bold>B</bold>) Heatmap of the correlation between immune cells and hub genes. *p &lt;0.05; **p &lt;0.01; ***p &lt;0.001; ****p &lt;0.0001; ns, no significance.</p></caption><graphic xlink:href="IJGM-17-3239-g0005" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Construction of TFs-Hub Genes Regulated Network</title>
+        <p>A total of 118 TFs associated with 9 hub genes were obtained, and then they were intersected with the DEGs to acquire 22 MI-related TFs (<xref rid="f0006" ref-type="fig">Figure 6A</xref>). The expression of 22 MI-related TFs was exhibited in <xref rid="f0006" ref-type="fig">Figure 6B</xref>. Then, the TFs-hub genes regulated network was constructed (<xref rid="f0006" ref-type="fig">Figure 6C</xref>). Among 37 regulatory relationship pairs, THBD and TIMP1 were regulated by 6 different TFs, while RELA TF regulated 6 hub genes.
+<fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p>Construction of TFs-hub genes network. (<bold>A</bold>) The intersection between the DEGs and TFs. (<bold>B</bold>) The expression levels of MI-related TFs between MI and control groups. (<bold>C</bold>) TFs-hub genes network. Orange and blue represent hub genes and TFs, respectively. ****p &lt;0.0001.</p></caption><graphic xlink:href="IJGM-17-3239-g0006" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2006">
+        <title>Construction of Diagnostic Model for Predicting MI</title>
+        <p>A total of 7 diagnostic genes were acquired in the training set using LASSO regression analysis (<xref rid="f0007" ref-type="fig">Figure 7A</xref>). The results of mean decreasing precision and 10-fold cross-validation showed that the highest accuracy was achieved when the number of genes was seven (<xref rid="f0007" ref-type="fig">Figure 7B&#x2013;D</xref>), including LRPAP1, COLGALT1, QSOX1, THBD, VCAN, PLOD1, and PLAUR. The heatmaps were used to visualize the expression levels of these genes (<xref rid="f0007" ref-type="fig">Figure 7E</xref>). The correlation results indicated that seven diagnostic genes were significantly correlated with each other, with COLGALT1 and QSOX1 having the strongest correlation of 0.89 (<xref rid="f0007" ref-type="fig">Figure 7F</xref>). Then, the SVM and RF classification models were constructed based on 7 diagnostic genes. The AUC of SVM and RF were 0.952 and 0.928, respectively in the training set (<xref rid="f0007" ref-type="fig">Figure 7G</xref> and <xref rid="f0007" ref-type="fig">H</xref>). In the SVM model, sensitivity and specificity were 87.8% and 96.7%, respectively, while the RF model showed 84.9% and 91.7% for sensitivity and specificity. In the GSE123342 dataset, these two classification models also distinguished patients with MI from the control group (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=465411.docx" ext-link-type="uri">Supplementary Figure 1</ext-link></underline>).
+<fig position="float" id="f0007" fig-type="figure"><label>Figure 7</label><caption><p>Construction of diagnostic model. (<bold>A</bold>) The optimal lambda value was acquired by LASSO regression analysis. (<bold>B</bold>) Accuracy values at different gene numbers. (<bold>C</bold>) The AUC values at different gene numbers. (<bold>D</bold>) The mean decrease accuracy of 7 diagnostic genes. (<bold>E</bold>) Heatmap of 7 diagnostic genes in training set. (<bold>F</bold>) The correlation analysis among 7 diagnostic genes. (<bold>G</bold> and <bold>H</bold>) ROC analysis of SVM (<bold>G</bold>) and RF (<bold>H</bold>) diagnostic models in training datasets. ***p &lt;0.001.</p></caption><graphic xlink:href="IJGM-17-3239-g0007" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2007">
+        <title>Drugs Predicting and Molecular Docking</title>
+        <p>A total of 9 drugs for seven diagnostic genes were obtained from the DGIdb database (<xref rid="f0008" ref-type="fig">Figure 8A</xref>). Among these drugs, 5 drugs may target THBD gene, 3 drugs may target PLAUR gene, and 1 drug may target VCAN gene. However, other genes were not matched to the drug. The lowest binding energy of THBD and cilostazol was &#x2212;7.08 kcal/mol by binding THR-17 amino acid residues with 2 hydrogen bonds (<xref rid="f0008" ref-type="fig">Figure 8B</xref>). The binding energy of THBD and simvastatin was &#x2212;6.01 kcal/mol by binding TYR-27 and GLY-26 amino acid residues with 2 hydrogen bonds (<xref rid="f0008" ref-type="fig">Figure 8C</xref>). The binding energy of THBD and warfarin was &#x2212;5.44 kcal/mol by binding THR-17 and GLN-1 amino acid residues with 3 hydrogen bonds (<xref rid="f0008" ref-type="fig">Figure 8D</xref>). The binding energy of THBD and curcumins was &#x2212;6.35 kcal/mol by binding THR-17, GLN-1, PRO-24, and LEU-29 amino acid residues with 4 hydrogen bonds (<xref rid="f0008" ref-type="fig">Figure 8E</xref>). The binding energy of PLAUR and urokinase was &#x2212;5.21 kcal/mol by binding THR-8, VAL-41, and GLU-39 amino acid residues with 5 hydrogen bonds (<xref rid="f0008" ref-type="fig">Figure 8F</xref>).
+<fig position="float" id="f0008" fig-type="figure"><label>Figure 8</label><caption><p>Drugs predicting and molecular docking. (<bold>A</bold>) Sankey diagram of predicted drugs. (<bold>B</bold>&#x2013;<bold>E</bold>) THBD and cilostazol (<bold>B</bold>), simvastatin (<bold>C</bold>), warfarin (<bold>D</bold>), and curcumins (<bold>E</bold>) molecular docking, respectively. (<bold>F</bold>) PLAUR and urokinase molecular docking.</p></caption><graphic xlink:href="IJGM-17-3239-g0008" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2008">
+        <title>RT-qPCR Validation</title>
+        <p>The expression levels of 7 diagnostic genes were validated by RT-qPCR (<xref rid="f0009" ref-type="fig">Figure 9</xref>). Compared with the control group, the expression of all diagnostic genes was increased in the MI group. Remarkably, the expression of LRPAP1, PLAUR, and PLOD1 was significantly increased in the MI group (<xref rid="f0009" ref-type="fig">Figure 9B&#x2013;D</xref>).
+<fig position="float" id="f0009" fig-type="figure"><label>Figure 9</label><caption><p>RT-qPCR analysis. (<bold>A</bold>&#x2013;<bold>G</bold>) The expression levels of COLGALT1 (<bold>A</bold>), LRPAP1 (<bold>B</bold>), PLAUR (<bold>C</bold>), PLOD1 (<bold>D</bold>), QSOX1 (<bold>E</bold>), THBD (<bold>F</bold>), and VCAN (<bold>G</bold>). *P &lt;0.05.</p></caption><graphic xlink:href="IJGM-17-3239-g0009" content-type="print-only" position="float"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>MI is pathologically characterized by the death of myocardial cells resulting from prolonged ischemia, which is related to high mortality.<xref rid="cit0020" ref-type="bibr">20</xref>,<xref rid="cit0032" ref-type="bibr">32</xref> Angiogenesis and EMT participate in the repair process after MI by rebuilding microvascular circulation.<xref rid="cit0033" ref-type="bibr">33</xref>,<xref rid="cit0034" ref-type="bibr">34</xref> However, the molecular mechanism between MI, angiogenesis, and EMT is not clear. Chen et al reported that PI3K/Akt/mTOR, Notch, Wnt/&#x3B2;-catenin, Hippo, Sonic Hedgehog, and JAK/STAT signaling pathways are key targets for post-MI angiogenesis regulation.<xref rid="cit0035" ref-type="bibr">35</xref> HIF-1&#x3B1;, eNOS, VEGF-A, and FOXO, as the downstream effectors for PI3K/Akt/mTOR signaling pathway, participated in generation and maintenance of blood vessels in post-MI.<xref rid="cit0035" ref-type="bibr">35</xref> In MI model rats, the overexpression of notch intracellular domain, which serves as a core component of the Notch signaling pathway, promoted angiogenesis.<xref rid="cit0036" ref-type="bibr">36</xref> In addition, activated Notch enhanced PI3K/Akt signaling in adult myocardium after MI.<xref rid="cit0037" ref-type="bibr">37</xref> In MI, the Wnt/&#x3B2;-catenin pathway is activated in endothelial cells, leading to their mesenchymal transformation and the generation of bipotential mesenchymal cells, which may be involved in angiogenesis.<xref rid="cit0038" ref-type="bibr">38</xref> In a mouse model of ischemic heart failure post-MI, knock out Hippo pathway component Salvador induced angiogenesis.<xref rid="cit0039" ref-type="bibr">39</xref> Elevated expression of Sonic hedgehog during myocardial ischemia activates endothelial progenitor cells and induces angiogenesis and expression of angiogenic factors.<xref rid="cit0040" ref-type="bibr">40</xref> In mice with cardiomyocyte-specific deletion of STAT3, the reduced myocardial capillary density was observed at four months of age.<xref rid="cit0041" ref-type="bibr">41</xref> Additionally, these mice showed increased susceptibility to myocardial infarction and larger infarct sizes.<xref rid="cit0041" ref-type="bibr">41</xref> Hence, establishing a multi-gene risk model for MI based on angiogenesis and EMT can facilitate timely and targeted therapeutic interventions in clinical practice for MI patients.</p>
+      <p>In this study, we aimed to explore angiogenesis- and EMT-related diagnostic biomarkers in patients with MI through bioinformatics analysis. A total of 9 hub genes were identified and then the diagnostic models consisting of 7 hub genes were constructed and validated, which can distinguish patients with MI from control group.</p>
+      <p>COLGACT1 is a member of the collagen beta (1-O) galactosyltransferase family, and their variants might be responsible for cerebral small vessel disease.<xref rid="cit0042" ref-type="bibr">42</xref> Gelsolin-like actin-capping protein (CAPG), belonging to the gelsolin superfamily, plays a role in cell migration.<xref rid="cit0043" ref-type="bibr">43</xref> In the post-ischemic heart, decellularized extracellular matrix (dECM) hydrogels therapy could promote cardiomyocyte vascularization through down-regulating CAPG expression.<xref rid="cit0044" ref-type="bibr">44</xref> LRPAP1 is a molecular chaperone protein that regulates low-density lipoprotein receptor (LDLR) function.<xref rid="cit0045" ref-type="bibr">45</xref> Yu et al reported that LDLR variants could reduce the risk of premature MI in Han Chinese.<xref rid="cit0046" ref-type="bibr">46</xref> Additionally, MI showed a linear correlation with the number of &#x201C;cholesterol-years&#x201D;, as an indicator of cumulative exposure to low-density lipoprotein cholesterol.<xref rid="cit0047" ref-type="bibr">47</xref> The urokinase plasminogen activator receptor (PLAUR) is a member of the plasminogen activation system and serves as a valuable diagnostic indicator for atherosclerosis, which is the cause of MI.<xref rid="cit0048" ref-type="bibr">48</xref>,<xref rid="cit0049" ref-type="bibr">49</xref> Procollagen-lysine, 2-oxoglutarate 5-dioxygenase 1 (PLOD1) encodes a lysyl hydroxylase 1 (LH1) and is vital for maintaining stability in collagen fibrils by supporting intermolecular cross-links.<xref rid="cit0050" ref-type="bibr">50</xref> In the abdominal aortic aneurysm model, knock-out PLOD1 exacerbated the inflammatory response and vascular smooth muscle cell apoptosis.<xref rid="cit0051" ref-type="bibr">51</xref> Quiescin sulfhydryl oxidase 1 (QSOX1), as a sulfhydry1 oxidase, plays a role in cellular growth and extracellular matrix remodeling and could act as a new independent marker of left ventricular dysfunction after MI.<xref rid="cit0052" ref-type="bibr">52</xref> Thrombomodulin (THBD) acts as an anticoagulant transmembrane factor, reducing the formation of thrombin.<xref rid="cit0053" ref-type="bibr">53</xref> Wenzel et al showed that endogenous THBD played a protective role in the ischemic brain through mediating angiogenesis.<xref rid="cit0054" ref-type="bibr">54</xref> In heart failure, Xin-shu-bao, a cardioprotective drug, alleviated heart failure through THBD/ARRB1/FGF1/STIM1 signaling.<xref rid="cit0055" ref-type="bibr">55</xref> Tissue inhibitor of metalloproteinases 1 (TIMP1) had been related to maintain the homeostatic balance of the myocardial extracellular matrix (ECM).<xref rid="cit0056" ref-type="bibr">56</xref> The expression of TIMP1 was increased after MI in pigs in the treatment of extracorporeal cardiac shock, along with up-regulation of angiogenesis and angiogenic factor.<xref rid="cit0057" ref-type="bibr">57</xref> Versican (VCAN) is a chondroitin sulfate proteoglycan, constituting a component of the ECM originating from cardiac fibroblasts.<xref rid="cit0058" ref-type="bibr">58</xref> In adult mice after MI, the increasing of VCAN facilitated cardiomyocyte proliferation and cardiac recovery.<xref rid="cit0059" ref-type="bibr">59</xref> In our study, the 9 hub genes (CAPG, COLGALT1, LRPAP1, PLAUR, PLOD1, QSOX1, THBD, TIMP1, and VCAN) were obtained, and their expression was increased in patients with MI. Except for CAPG and TIMP1, diagnostic model consisting of other genes could distinguish MIs from controls well. Hence, we speculated that these genes may play a potential role in cardiac recovery after MI and may be candidate biomarkers.</p>
+      <p>After MI, the innate and adaptive immune responses were activated, and T and B cells were recruited.<xref rid="cit0060" ref-type="bibr">60</xref> B cells have an impact on inflammation and repair following MI.<xref rid="cit0061" ref-type="bibr">61</xref> Kyaw et al reported that dying cardiomyocytes could release a signal to activate B cells, leading to an increase in plasma cells, which secreted IgG and accelerated recurrent MI.<xref rid="cit0061" ref-type="bibr">61</xref> Activated CD4 T cells enhanced wound healing and heart recovering in mice after MI.<xref rid="cit0062" ref-type="bibr">62</xref> Monocytes, macrophages, and neutrophils play key roles in regulating myocardial healing.<xref rid="cit0062" ref-type="bibr">62</xref> Monocytes are precursor cells to macrophages.<xref rid="cit0063" ref-type="bibr">63</xref> In the early phase of MI, the number of cardiac monocyte and macrophage cells with a proinflammatory phenotype increases rapidly, followed by a shift to a reparative phenotype involved in the deposition of scar tissue.<xref rid="cit0063" ref-type="bibr">63</xref> Neutrophils were recruited within hours after the onset of MI, leading to acute tissue injury, whereas, during the process of infarct healing, they promoted cardiac recovery by influencing macrophage polarization.<xref rid="cit0064" ref-type="bibr">64</xref> Consistent with previous studies, our data suggested that the immune infiltration levels of plasma cells, T cells CD4 memory activated, monocytes, macrophages M0, mast cells resting, and neutrophils were higher in patients with MI than controls, indicating that these cells may exert a potential role in cardiac repair after MI.</p>
+      <p>Urokinase is a widely used intravenous thrombolytic in clinical practice.<xref rid="cit0065" ref-type="bibr">65</xref> Administering intravenous urokinase for coronary artery thrombolysis in patients with MI contributes to reducing infarct size.<xref rid="cit0066" ref-type="bibr">66</xref> Triple antiplatelet therapy with cilostazol demonstrates superior early clinical outcomes compared to P2Y12 inhibitor dual antiplatelet therapy, recommended in guidelines for treating ischemic events in MI.<xref rid="cit0067" ref-type="bibr">67</xref> Curcumin, derived from curcuma longa, is a phenolic compound.<xref rid="cit0068" ref-type="bibr">68</xref> Curcumin could prompt angiogenesis through enhancing endothelial progenitor cell function in hindlimb ischemia mice with diabetes.<xref rid="cit0069" ref-type="bibr">69</xref> Rahnavard et al reported cardioprotective effect of curcumin in rats after MI.<xref rid="cit0070" ref-type="bibr">70</xref> Simvastatin improves ventricular remodeling through the TGF &#x3B2;1 signaling pathway in post-MI rats.<xref rid="cit0071" ref-type="bibr">71</xref> Long-term therapy with warfarin can decrease the risk of death and reinfarction followed with MI.<xref rid="cit0072" ref-type="bibr">72</xref> In our study, a total of 9 drugs were acquired for THBD, PLAUR, and VCAN genes, and molecular docking results showed that THBD has low binding energies with cilostazol, curcumin, simvastatin, and warfarin. The binding energy between PLAUR and urokinase was &#x2212;5.21 kcal/mol. All these results indicated that these genes may be potentially therapeutic targets in MI.</p>
+      <p>However, some limitations in this study should be noticed. First, all data were downloaded from public databases, lacking larger-sample datasets to validate. Second, experiments in vitro and in vivo need to be performed to validate these results in this study. Finally, the small size of MI samples was collected for RT-qPCR of diagnostic genes, which may affect the accuracy of the results.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p>In summary, we obtained 7 diagnostic biomarkers (COLGALT1, LRPAP1, PLAUR, PLOD1, QSOX1, THBD, and VCAN) in patients with MI based on the angiogenesis- and EMT-related genes using bioinformatic analysis. Microenvironment analysis showed that these genes were correlated with the immune response. Additionally, diagnostic models were constructed and exhibited good diagnostic performance. Finally, therapeutic drugs were predicted, indicated that these genes may be potentially therapeutic targets in MI. Our findings could provide candidate biomarkers and offer potential treatment targets for MI.</p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0006">
+      <title>Abbreviations</title>
+      <p>MI, Myocardial infarction; EMT, epithelial mesenchymal transition; DEGs, differentially expressed genes; TFs, transcription factors; ECs, endothelial cells; GEO, Gene Expression Omnibus; PBMC, peripheral blood mononuclear cells; FDR, false discovery rate; TOM, topological overlap matrix; ME, module eigengene; GS, gene significance; MM, module membership; GO, Gene Ontology; KEGG, Kyoto Encyclopedia of Genes and Genomes; RF, random forest; SVM, support vector machine; ROC, receiver operating characteristic; AUC, area under the curve; CAD, coronary artery disease; GSEA, gene set enrichment analysis; CAPG, actin-capping protein; dECM, decellularized extracellular matrix; LDLR, low-density lipoprotein receptor; PLAUR, plasminogen activator receptor; PLOD1, Procollagen-lysine, 2-oxoglutarate 5-dioxygenase 1; LH1, lysyl hydroxylase 1; QSOX1, Quiescin sulfhydryl oxidase 1; THBD, Thrombomodulin; TIMP1, Tissue inhibitor of metalloproteinases 1; ECM, extracellular matrix; VCAN, Versican.</p>
+    </sec>
+    <sec sec-type="data-availability" id="s0007">
+      <title>Data Sharing Statement</title>
+      <p>The data in this study are available from the corresponding author upon reasonable request.</p>
+    </sec>
+    <sec id="s0008">
+      <title>Ethics Approval and Consent to Participate</title>
+      <p>This study was approved by the ethics committee of The Second Affiliated Hospital of Shandong First Medical University (2023-H-172) and was carried out in compliance with the principles of the Declaration of Helsinki. Each individual signed the informed consent.</p>
+    </sec>
+    <sec id="s0009">
+      <title>Author Contributions</title>
+      <p>All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis, and interpretation, or all these areas; took part in drafting, revising, or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0010">
+      <title>Disclosure</title>
+      <p>The authors declare no competing interests in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gossage</surname>
+<given-names>JR</given-names></string-name>. <article-title>Acute myocardial infarction. Reperfusion strategies</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>1994</year>;<volume>106</volume>(<issue>6</issue>):<fpage>1851</fpage>&#x2013;<lpage>1866</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.106.6.1851</pub-id><pub-id pub-id-type="pmid">7988212</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Reed</surname>
+<given-names>GW</given-names></string-name>, <string-name><surname>Rossi</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Cannon</surname>
+<given-names>CP</given-names></string-name>. <article-title>Acute myocardial infarction</article-title>. <source><italic toggle="yes">Lancet</italic></source>. <year>2017</year>;<volume>389</volume>(<issue>10065</issue>):<fpage>197</fpage>&#x2013;<lpage>210</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s0140-6736(16)30677-8</pub-id><pub-id pub-id-type="pmid">27502078</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ramachandra</surname>
+<given-names>CJA</given-names></string-name>, <string-name><surname>Hernandez-Resendiz</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Crespo-Avilan</surname>
+<given-names>GE</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>YH</given-names></string-name>, <string-name><surname>Hausenloy</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Mitochondria in acute myocardial infarction and cardioprotection</article-title>. <source><italic toggle="yes">EBioMedicine</italic></source>. <year>2020</year>;<volume>57</volume>:<fpage>102884</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ebiom.2020.102884</pub-id><pub-id pub-id-type="pmid">32653860</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liyuan</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Zeng</surname>
+<given-names>WW</given-names></string-name>, <string-name><surname>Jing</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Shengshou</surname>
+<given-names>H</given-names></string-name>. <article-title>Summary of the China Cardiovascular Health and Disease Report 2022</article-title>. <source><italic toggle="yes">Chin J Intervent Cardiol</italic></source>. <year>2023</year>;<volume>07</volume>:<fpage>485</fpage>&#x2013;<lpage>508</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tsao</surname>
+<given-names>CW</given-names></string-name>, <string-name><surname>Aday</surname>
+<given-names>AW</given-names></string-name>, <string-name><surname>Almarzooq</surname>
+<given-names>ZI</given-names></string-name>, et al. <article-title>Heart Disease and Stroke Statistics-2023 Update: a Report From the American Heart Association</article-title>. <source><italic toggle="yes">Circulation</italic></source>. <year>2023</year>;<volume>147</volume>(<issue>8</issue>):<fpage>e93</fpage>&#x2013;<lpage>e621</lpage>. doi:<pub-id pub-id-type="doi">10.1161/cir.0000000000001123</pub-id><pub-id pub-id-type="pmid">36695182</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Pan</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>An</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Tan</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>L</given-names></string-name>. <article-title>Diagnostic and prognostic biomarkers for myocardial infarction</article-title>. <source><italic toggle="yes">Front Cardiovas Med</italic></source>. <year>2020</year>;<volume>7</volume>:<fpage>617277</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fcvm.2020.617277</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xiang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Shen</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Tang</surname>
+<given-names>B</given-names></string-name>. <article-title>Identification and validation of senescence-related genes in circulating endothelial cells of patients with acute myocardial infarction</article-title>. <source><italic toggle="yes">Origin Res</italic></source>. <year>2022</year>;<volume>9</volume>. doi:<pub-id pub-id-type="doi">10.3389/fcvm.2022.1057985</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jortveit</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Pripp</surname>
+<given-names>AH</given-names></string-name>, <string-name><surname>Lang&#xF8;rgen</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Halvorsen</surname>
+<given-names>S</given-names></string-name>. <article-title>Incidence, risk factors and outcome of young patients with myocardial infarction</article-title>. <source><italic toggle="yes">Heart</italic></source>. <year>2020</year>;<volume>106</volume>(<issue>18</issue>):<fpage>1420</fpage>&#x2013;<lpage>1426</lpage>. doi:<pub-id pub-id-type="doi">10.1136/heartjnl-2019-316067</pub-id><pub-id pub-id-type="pmid">32111640</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cohen</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Gensini</surname>
+<given-names>GF</given-names></string-name>, <string-name><surname>Maritz</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Prospective evaluation of clinical outcomes after acute ST-elevation myocardial infarction in patients who are ineligible for reperfusion therapy: preliminary results from the TETAMI registry and randomized trial</article-title>. <source><italic toggle="yes">Circulation</italic></source>. <year>2003</year>;<volume>108</volume>(<issue>16 Suppl 1</issue>):<fpage>Iii14</fpage>&#x2013;<lpage>Iii21</lpage>. doi:<pub-id pub-id-type="doi">10.1161/01.Cir.0000091832.74006.1c</pub-id><pub-id pub-id-type="pmid">14605015</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Reboll</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Korf-Klingebiel</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wollert</surname>
+<given-names>KC</given-names></string-name>. <article-title>Angiogenesis after acute myocardial infarction</article-title>. <source><italic toggle="yes">Cardiovasc Res</italic></source>. <year>2020</year>;<volume>117</volume>(<issue>5</issue>):<fpage>1257</fpage>&#x2013;<lpage>1273</lpage>. doi:<pub-id pub-id-type="doi">10.1093/cvr/cvaa287</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Prabhu</surname>
+<given-names>SD</given-names></string-name>, <string-name><surname>Frangogiannis</surname>
+<given-names>NG</given-names></string-name>. <article-title>The biological basis for cardiac repair after myocardial infarction: from inflammation to fibrosis</article-title>. <source><italic toggle="yes">Circ res</italic></source>. <year>2016</year>;<volume>119</volume>(<issue>1</issue>):<fpage>91</fpage>&#x2013;<lpage>112</lpage>. doi:<pub-id pub-id-type="doi">10.1161/circresaha.116.303577</pub-id><pub-id pub-id-type="pmid">27340270</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>S&#xE1;nchez-Alonso</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Alcaraz-Serna</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>S&#xE1;nchez-Madrid</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Alfranca</surname>
+<given-names>A</given-names></string-name>. <article-title>Extracellular vesicle-mediated immune regulation of tissue remodeling and angiogenesis after myocardial infarction</article-title>. <source><italic toggle="yes">Front Immunol</italic></source>. <year>2018</year>;<volume>9</volume>:<fpage>2799</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fimmu.2018.02799</pub-id><pub-id pub-id-type="pmid">30555478</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mart&#xED;n-B&#xF3;rnez</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Falc&#xF3;n</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Morrugares</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>New insights into the reparative angiogenesis after myocardial infarction</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source>. <year>2023</year>;<volume>24</volume>(<issue>15</issue>). doi:<pub-id pub-id-type="doi">10.3390/ijms241512298</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dub&#xE9;</surname>
+<given-names>KN</given-names></string-name>, <string-name><surname>Thomas</surname>
+<given-names>TM</given-names></string-name>, <string-name><surname>Munshaw</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Rohling</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Riley</surname>
+<given-names>PR</given-names></string-name>, <string-name><surname>Smart</surname>
+<given-names>N</given-names></string-name>. <article-title>Recapitulation of developmental mechanisms to revascularize the ischemic heart</article-title>. <source><italic toggle="yes">JCI Insight</italic></source>. <year>2017</year>;<volume>2</volume>(<issue>22</issue>). doi:<pub-id pub-id-type="doi">10.1172/jci.insight.96800</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Blom</surname>
+<given-names>JN</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>MY</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Feng</surname>
+<given-names>Q</given-names></string-name>. <article-title>Inhibition of intraflagellar transport protein-88 promotes epithelial-to-mesenchymal transition and reduces cardiac remodeling post-myocardial infarction</article-title>. <source><italic toggle="yes">Eur J Pharmacol</italic></source>. <year>2022</year>;<volume>933</volume>:<fpage>175287</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ejphar.2022.175287</pub-id><pub-id pub-id-type="pmid">36150531</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Lui</surname>
+<given-names>KO</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>B</given-names></string-name>. <article-title>Reassessing endothelial-to-mesenchymal transition in cardiovascular diseases</article-title>. <source><italic toggle="yes">Nat Rev Cardiol</italic></source>. <year>2018</year>;<volume>15</volume>(<issue>8</issue>):<fpage>445</fpage>&#x2013;<lpage>456</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41569-018-0023-y</pub-id><pub-id pub-id-type="pmid">29748594</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Aharonov</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Shakked</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Umansky</surname>
+<given-names>KB</given-names></string-name>, et al. <article-title>ERBB2 drives YAP activation and EMT-like processes during cardiac regeneration</article-title>. <source><italic toggle="yes">Nat Cell Biol</italic></source>. <year>2020</year>;<volume>22</volume>(<issue>11</issue>):<fpage>1346</fpage>&#x2013;<lpage>1356</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41556-020-00588-4</pub-id><pub-id pub-id-type="pmid">33046882</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tombor</surname>
+<given-names>LS</given-names></string-name>, <string-name><surname>John</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Glaser</surname>
+<given-names>SF</given-names></string-name>, et al. <article-title>Single cell sequencing reveals endothelial plasticity with transient mesenchymal activation after myocardial infarction</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>681</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-021-20905-1</pub-id><pub-id pub-id-type="pmid">33514719</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>DeFilippis</surname>
+<given-names>AP</given-names></string-name>, <string-name><surname>Chapman</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Mills</surname>
+<given-names>NL</given-names></string-name>, et al. <article-title>Assessment and treatment of patients with type 2 myocardial infarction and acute nonischemic myocardial injury</article-title>. <source><italic toggle="yes">Circulation</italic></source>. <year>2019</year>;<volume>140</volume>(<issue>20</issue>):<fpage>1661</fpage>&#x2013;<lpage>1678</lpage>. doi:<pub-id pub-id-type="doi">10.1161/circulationaha.119.040631</pub-id><pub-id pub-id-type="pmid">31416350</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Thygesen</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Alpert</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>White</surname>
+<given-names>HD</given-names></string-name>. <article-title>Universal definition of myocardial infarction</article-title>. <source><italic toggle="yes">J Am Coll Cardiol</italic></source>. <year>2007</year>;<volume>50</volume>(<issue>22</issue>):<fpage>2173</fpage>&#x2013;<lpage>2195</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jacc.2007.09.011</pub-id><pub-id pub-id-type="pmid">18036459</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sherman</surname>
+<given-names>BT</given-names></string-name>, <string-name><surname>Hao</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Qiu</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>DAVID: a web server for functional enrichment analysis and functional annotation of gene lists (2021 update)</article-title>. <source><italic toggle="yes">Nucleic Acids Res</italic></source>. <year>2022</year>;<volume>50</volume>(<issue>W1</issue>):<fpage>W216</fpage>&#x2013;<lpage>W221</lpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gkac194</pub-id><pub-id pub-id-type="pmid">35325185</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang da</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Sherman</surname>
+<given-names>BT</given-names></string-name>, <string-name><surname>Lempicki</surname>
+<given-names>RA</given-names></string-name>. <article-title>Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</article-title>. <source><italic toggle="yes">Nat Protocols</italic></source>. <year>2009</year>;<volume>4</volume>(<issue>1</issue>):<fpage>44</fpage>&#x2013;<lpage>57</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nprot.2008.211</pub-id><pub-id pub-id-type="pmid">19131956</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Szklarczyk</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kirsch</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Koutrouli</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest</article-title>. <source><italic toggle="yes">Nucleic Acids Res</italic></source>. <year>2023</year>;<volume>51</volume>(<issue>D1</issue>):<fpage>D638</fpage>&#x2013;<lpage>D646</lpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gkac1000</pub-id><pub-id pub-id-type="pmid">36370105</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Newman</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Green</surname>
+<given-names>MR</given-names></string-name>, et al. <article-title>Robust enumeration of cell subsets from tissue expression profiles</article-title>. <source><italic toggle="yes">Nature Methods</italic></source>. <year>2015</year>;<volume>12</volume>(<issue>5</issue>):<fpage>453</fpage>&#x2013;<lpage>457</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nmeth.3337</pub-id><pub-id pub-id-type="pmid">25822800</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mei</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Qin</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>Q</given-names></string-name>, et al. <article-title>Cistrome Data Browser: a data portal for ChIP-Seq and chromatin accessibility data in human and mouse</article-title>. <source><italic toggle="yes">Nucleic Acids Res</italic></source>. <year>2017</year>;<volume>45</volume>(<issue>D1</issue>):<fpage>D658</fpage>&#x2013;<lpage>D662</lpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gkw983</pub-id><pub-id pub-id-type="pmid">27789702</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zheng</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Wan</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Mei</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Cistrome Data Browser: expanded datasets and new tools for gene regulatory analysis</article-title>. <source><italic toggle="yes">Nucleic Acids Res</italic></source>. <year>2019</year>;<volume>47</volume>(<issue>D1</issue>):<fpage>D729</fpage>&#x2013;<lpage>D735</lpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gky1094</pub-id><pub-id pub-id-type="pmid">30462313</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Burley</surname>
+<given-names>SK</given-names></string-name>, <string-name><surname>Bhikadiya</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bi</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>RCSB Protein Data Bank (RCSB.org): delivery of experimentally-determined PDB structures alongside one million computed structure models of proteins from artificial intelligence/machine learning</article-title>. <source><italic toggle="yes">Nucleic Acids Res</italic></source>. <year>2023</year>;<volume>51</volume>(<issue>D1</issue>):<fpage>D488</fpage>&#x2013;<lpage>D508</lpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gkac1077</pub-id><pub-id pub-id-type="pmid">36420884</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kim</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Cheng</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>PubChem 2023 update</article-title>. <source><italic toggle="yes">Nucleic Acids Res</italic></source>. <year>2023</year>;<volume>51</volume>(<issue>D1</issue>):<fpage>D1373</fpage>&#x2013;<lpage>D1380</lpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gkac956</pub-id><pub-id pub-id-type="pmid">36305812</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>El-Hachem</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Haibe-Kains</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Khalil</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kobeissy</surname>
+<given-names>FH</given-names></string-name>, <string-name><surname>Nemer</surname>
+<given-names>G</given-names></string-name>. <article-title>AutoDock and AutoDockTools for Protein-Ligand Docking: beta-Site Amyloid Precursor Protein Cleaving Enzyme 1(BACE1) as a Case Study</article-title>. <source><italic toggle="yes">Methods Mol Biol</italic></source>. <year>2017</year>;<volume>1598</volume>:<fpage>391</fpage>&#x2013;<lpage>403</lpage>. doi:<pub-id pub-id-type="doi">10.1007/978-1-4939-6952-4_20</pub-id><pub-id pub-id-type="pmid">28508374</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Lou</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>J</given-names></string-name>. <article-title>Uncovering the mechanism of the effects of Pien-Tze-Huang on liver cancer using network pharmacology and molecular docking</article-title>. <source><italic toggle="yes">Evid Based Complement Alternat Med</italic></source>. <year>2020</year>;<volume>2020</volume>:<fpage>4863015</fpage>. doi:<pub-id pub-id-type="doi">10.1155/2020/4863015</pub-id><pub-id pub-id-type="pmid">32963562</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Baugh</surname>
+<given-names>EH</given-names></string-name>, <string-name><surname>Lyskov</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Weitzner</surname>
+<given-names>BD</given-names></string-name>, <string-name><surname>Gray</surname>
+<given-names>JJ</given-names></string-name>. <article-title>Real-time PyMOL visualization for Rosetta and PyRosetta</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2011</year>;<volume>6</volume>(<issue>8</issue>):<fpage>e21931</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0021931</pub-id><pub-id pub-id-type="pmid">21857909</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fan</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Lactate promotes endothelial-to-mesenchymal transition via Snail1 lactylation after myocardial infarction</article-title>. <source><italic toggle="yes">Sci Adv</italic></source>. <year>2023</year>;<volume>9</volume>(<issue>5</issue>):<fpage>eadc9465</fpage>. doi:<pub-id pub-id-type="doi">10.1126/sciadv.adc9465</pub-id><pub-id pub-id-type="pmid">36735787</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>R&#xED;os-Navarro</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Hueso</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>D&#xED;az</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Role of antiangiogenic VEGF-A(165)b in angiogenesis and systolic function after reperfused myocardial infarction</article-title>. <source><italic toggle="yes">Rev esp cardiologia</italic></source>. <year>2021</year>;<volume>74</volume>(<issue>2</issue>):<fpage>131</fpage>&#x2013;<lpage>139</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.rec.2020.03.013</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gonz&#xE1;lez-Iglesias</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Nieto</surname>
+<given-names>MA</given-names></string-name>. <article-title>Proliferation and EMT trigger heart repair</article-title>. <source><italic toggle="yes">Nat Cell Biol</italic></source>. <year>2020</year>;<volume>22</volume>(<issue>11</issue>):<fpage>1291</fpage>&#x2013;<lpage>1292</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41556-020-00594-6</pub-id><pub-id pub-id-type="pmid">33046883</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>L</given-names></string-name>. <article-title>Pioneering therapies for post-infarction angiogenesis: insight into molecular mechanisms and preclinical studies</article-title>. <source><italic toggle="yes">Biomed Pharmacothe</italic></source>. <year>2023</year>;<volume>166</volume>:<fpage>115306</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.biopha.2023.115306</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhou</surname>
+<given-names>XL</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>RR</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Notch signaling promotes angiogenesis and improves cardiac function after myocardial infarction</article-title>. <source><italic toggle="yes">J Cell Biochem</italic></source>. <year>2018</year>;<volume>119</volume>(<issue>8</issue>):<fpage>7105</fpage>&#x2013;<lpage>7112</lpage>. doi:<pub-id pub-id-type="doi">10.1002/jcb.27032</pub-id><pub-id pub-id-type="pmid">29737557</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gude</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>Emmanuel</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>W</given-names></string-name>, et al. <article-title>Activation of Notch-mediated protective signaling in the myocardium</article-title>. <source><italic toggle="yes">Circ Res</italic></source>. <year>2008</year>;<volume>102</volume>(<issue>9</issue>):<fpage>1025</fpage>&#x2013;<lpage>1035</lpage>. doi:<pub-id pub-id-type="doi">10.1161/circresaha.107.164749</pub-id><pub-id pub-id-type="pmid">18369158</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Aisagbonhi</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Rai</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ryzhov</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Atria</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Feoktistov</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Hatzopoulos</surname>
+<given-names>AK</given-names></string-name>. <article-title>Experimental myocardial infarction triggers canonical Wnt signaling and endothelial-to-mesenchymal transition</article-title>. <source><italic toggle="yes">Dis Models Mech</italic></source>. <year>2011</year>;<volume>4</volume>(<issue>4</issue>):<fpage>469</fpage>&#x2013;<lpage>483</lpage>. doi:<pub-id pub-id-type="doi">10.1242/dmm.006510</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Leach</surname>
+<given-names>JP</given-names></string-name>, <string-name><surname>Heallen</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Hippo pathway deficiency reverses systolic heart failure after infarction</article-title>. <source><italic toggle="yes">Nature</italic></source>. <year>2017</year>;<volume>550</volume>(<issue>7675</issue>):<fpage>260</fpage>&#x2013;<lpage>264</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nature24045</pub-id><pub-id pub-id-type="pmid">28976966</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Signaling pathways and targeted therapy for myocardial infarction</article-title>. <source><italic toggle="yes">Sig Transd Target Ther</italic></source>. <year>2022</year>;<volume>7</volume>(<issue>1</issue>):<fpage>78</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41392-022-00925-z</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hilfiker-Kleiner</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Hilfiker</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Fuchs</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Signal transducer and activator of transcription 3 is required for myocardial capillary growth, control of interstitial matrix deposition, and heart protection from ischemic injury</article-title>. <source><italic toggle="yes">Circ Res</italic></source>. <year>2004</year>;<volume>95</volume>(<issue>2</issue>):<fpage>187</fpage>&#x2013;<lpage>195</lpage>. doi:<pub-id pub-id-type="doi">10.1161/01.Res.0000134921.50377.61</pub-id><pub-id pub-id-type="pmid">15192020</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Miyatake</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Schneeberger</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Koyama</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Biallelic COLGALT1 variants are associated with cerebral small vessel disease</article-title>. <source><italic toggle="yes">Ann Neurol</italic></source>. <year>2018</year>;<volume>84</volume>(<issue>6</issue>):<fpage>843</fpage>&#x2013;<lpage>853</lpage>. doi:<pub-id pub-id-type="doi">10.1002/ana.25367</pub-id><pub-id pub-id-type="pmid">30412317</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ma</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Long</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>H</given-names></string-name>. <article-title>Super-enhancer-associated gene CAPG promotes AML progression</article-title>. <source><italic toggle="yes">Commun Biol</italic></source>. <year>2023</year>;<volume>6</volume>(<issue>1</issue>):<fpage>622</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s42003-023-04973-1</pub-id><pub-id pub-id-type="pmid">37296281</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Senyo</surname>
+<given-names>S</given-names></string-name>. <article-title>Abstract P387: deceasing tissue stiffness improves the efficacy of extracellular matrix-based therapy for myocardial infarction</article-title>. <source><italic toggle="yes">Circ Res</italic></source>. <year>2021</year>;<volume>129</volume>(<issue>1</issue>):<fpage>AP387</fpage>&#x2013;<lpage>AP387</lpage>. doi:<pub-id pub-id-type="doi">10.1161/res.129.suppl_1.P387</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>J</given-names></string-name>. <article-title>Lrpap1 deficiency leads to myopia through TGF-&#x3B2;-induced apoptosis in zebrafish</article-title>. <source><italic toggle="yes">Cell Commun Signaling</italic></source>. <year>2022</year>;<volume>20</volume>(<issue>1</issue>):<fpage>162</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12964-022-00970-9</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Pu</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>W</given-names></string-name>. <article-title>P808Association between genetic variants in PCSK9/APOB/LDLR and premature myocardial infarction in Han Chinese</article-title>. <source><italic toggle="yes">Eur Heart J</italic></source>. <year>2018</year>;<volume>39</volume>(<issue>1</issue>). doi:<pub-id pub-id-type="doi">10.1093/eurheartj/ehy564.P808</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dyrbus</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Niedziela</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Banach</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Cholesterol-Years and the risk of the first MI</article-title>. <source><italic toggle="yes">Eur Heart J</italic></source>. <year>2023</year>;<volume>44</volume>(<issue>2</issue>). doi:<pub-id pub-id-type="doi">10.1093/eurheartj/ehad655.1366</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zheng</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Fu</surname>
+<given-names>J</given-names></string-name>. <article-title>PLAUR as a potential biomarker associated with immune infiltration in bladder urothelial carcinoma</article-title>. <source><italic toggle="yes">J Inflamm Res</italic></source>. <year>2021</year>;<volume>14</volume>:<fpage>4629</fpage>&#x2013;<lpage>4641</lpage>. doi:<pub-id pub-id-type="doi">10.2147/jir.S326559</pub-id><pub-id pub-id-type="pmid">34552345</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dai</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>Y</given-names></string-name>. <article-title>Comprehensive analysis of the diagnostic and therapeutic value of the hypoxia-related gene PLAUR in the progression of atherosclerosis</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2023</year>;<volume>13</volume>(<issue>1</issue>):<fpage>8533</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-023-35548-z</pub-id><pub-id pub-id-type="pmid">37237021</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Koenig</surname>
+<given-names>SN</given-names></string-name>, <string-name><surname>Cavus</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Williams</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>New mechanistic insights to PLOD1-mediated human vascular disease</article-title>. <source><italic toggle="yes">Transl Res</italic></source>. <year>2022</year>;<volume>239</volume>:<fpage>1</fpage>&#x2013;<lpage>17</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.trsl.2021.08.002</pub-id><pub-id pub-id-type="pmid">34400365</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Wen</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Lysyl hydroxylase 1 (LH1) deficiency promotes angiotensin II (Ang II)-induced dissecting abdominal aortic aneurysm. Research Paper</article-title>. <source><italic toggle="yes">Theranostics</italic></source>. <year>2021</year>;<volume>11</volume>(<issue>19</issue>):<fpage>9587</fpage>&#x2013;<lpage>9604</lpage>. doi:<pub-id pub-id-type="doi">10.7150/thno.65277</pub-id><pub-id pub-id-type="pmid">34646388</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vanhaverbeke</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Vausort</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Veltman</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Peripheral Blood RNA Levels of QSOX1 and PLBD1 are new independent predictors of left ventricular dysfunction after acute myocardial infarction</article-title>. <source><italic toggle="yes">Circ Genomic Precis Med</italic></source>. <year>2019</year>;<volume>12</volume>(<issue>12</issue>):<fpage>e002656</fpage>. doi:<pub-id pub-id-type="doi">10.1161/circgen.119.002656</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lobato</surname>
+<given-names>RL</given-names></string-name>, <string-name><surname>White</surname>
+<given-names>WD</given-names></string-name>, <string-name><surname>Mathew</surname>
+<given-names>JP</given-names></string-name>, et al. <article-title>Thrombomodulin gene variants are associated with increased mortality after coronary artery bypass surgery in replicated analyses</article-title>. <source><italic toggle="yes">Circulation</italic></source>. <year>2011</year>;<volume>124</volume>(<issue>11 Suppl</issue>):<fpage>S143</fpage>&#x2013;<lpage>S148</lpage>. doi:<pub-id pub-id-type="doi">10.1161/circulationaha.110.008334</pub-id><pub-id pub-id-type="pmid">21911804</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wenzel</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Spyropoulos</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Assmann</surname>
+<given-names>JC</given-names></string-name>, et al. <article-title>Endogenous THBD (Thrombomodulin) mediates angiogenesis in the Ischemic Brain-Brief Report</article-title>. <source><italic toggle="yes">Arteriosclerosis Thrombosis Vasc Biol</italic></source>. <year>2020</year>;<volume>40</volume>(<issue>12</issue>):<fpage>2837</fpage>&#x2013;<lpage>2844</lpage>. doi:<pub-id pub-id-type="doi">10.1161/atvbaha.120.315061</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Hou</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Cardioprotective efficacy of Xin-shu-bao tablet in heart failure with reduced ejection fraction by modulating THBD/ARRB1/FGF1/STIM1 signaling</article-title>. <source><italic toggle="yes">Biomed Pharmacothe</italic></source>. <year>2023</year>;<volume>165</volume>:<fpage>115119</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.biopha.2023.115119</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Takawale</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Patel</surname>
+<given-names>VB</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Oudit</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Kassiri</surname>
+<given-names>Z</given-names></string-name>. <article-title>Tissue Inhibitor of Matrix Metalloproteinase-1 promotes myocardial fibrosis by mediating CD63-integrin &#x3B2;1 interaction</article-title>. <source><italic toggle="yes">Hypertension</italic></source>. <year>2017</year>;<volume>69</volume>(<issue>6</issue>):<fpage>1092</fpage>&#x2013;<lpage>1103</lpage>. doi:<pub-id pub-id-type="doi">10.1161/hypertensionaha.117.09045</pub-id><pub-id pub-id-type="pmid">28373589</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Siming</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Tao</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>W</given-names></string-name>. <article-title>Effect of extracorporeal cardiac shock wave therapy on MMP 1&amp; TIMP1 after acute myocardial infarction in pigs</article-title>. <source><italic toggle="yes">BMJ</italic></source>. <year>2011</year>;<volume>97</volume>(<issue>Suppl 3</issue>):<fpage>A71</fpage>. doi:<pub-id pub-id-type="doi">10.1136/heartjnl-2011-300867.205</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hatano</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kimata</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Hiraiwa</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Versican/PG-M is essential for ventricular septal formation subsequent to cardiac atrioventricular cushion development</article-title>. <source><italic toggle="yes">Glycobiology</italic></source>. <year>2012</year>;<volume>22</volume>(<issue>9</issue>):<fpage>1268</fpage>&#x2013;<lpage>1277</lpage>. doi:<pub-id pub-id-type="doi">10.1093/glycob/cws095</pub-id><pub-id pub-id-type="pmid">22692047</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Feng</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Versican promotes cardiomyocyte proliferation and cardiac repair</article-title>. <source><italic toggle="yes">Circulation</italic></source>. <year>2024</year>;<volume>149</volume>:<fpage>1004</fpage>&#x2013;<lpage>1015</lpage>. doi:<pub-id pub-id-type="doi">10.1161/circulationaha.123.066298</pub-id><pub-id pub-id-type="pmid">37886839</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yan</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Anzai</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Katsumata</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Temporal dynamics of cardiac immune cell accumulation following acute myocardial infarction</article-title>. <source><italic toggle="yes">J Mol Cell Cardiol</italic></source>. <year>2013</year>;<volume>62</volume>:<fpage>24</fpage>&#x2013;<lpage>35</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.yjmcc.2013.04.023</pub-id><pub-id pub-id-type="pmid">23644221</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kyaw</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Loveland</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Kanellakis</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Alarmin-activated B cells accelerate murine atherosclerosis after myocardial infarction via plasma cell-immunoglobulin-dependent mechanisms</article-title>. <source><italic toggle="yes">Eur Heart J</italic></source>. <year>2021</year>;<volume>42</volume>(<issue>9</issue>):<fpage>938</fpage>&#x2013;<lpage>947</lpage>. doi:<pub-id pub-id-type="doi">10.1093/eurheartj/ehaa995</pub-id><pub-id pub-id-type="pmid">33338208</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0062">
+        <label>62.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hofmann</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Beyersdorf</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Weirather</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Activation of CD4+ T lymphocytes improves wound healing and survival after experimental myocardial infarction in mice</article-title>. <source><italic toggle="yes">Circulation</italic></source>. <year>2012</year>;<volume>125</volume>(<issue>13</issue>):<fpage>1652</fpage>&#x2013;<lpage>1663</lpage>. doi:<pub-id pub-id-type="doi">10.1161/circulationaha.111.044164</pub-id><pub-id pub-id-type="pmid">22388323</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0063">
+        <label>63.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Peet</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ivetic</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Bromage</surname>
+<given-names>DI</given-names></string-name>, <string-name><surname>Shah</surname>
+<given-names>AM</given-names></string-name>. <article-title>Cardiac monocytes and macrophages after myocardial infarction</article-title>. <source><italic toggle="yes">Cardiovasc Res</italic></source>. <year>2019</year>;<volume>116</volume>(<issue>6</issue>):<fpage>1101</fpage>&#x2013;<lpage>1112</lpage>. doi:<pub-id pub-id-type="doi">10.1093/cvr/cvz336</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0064">
+        <label>64.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Horckmans</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ring</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Duchene</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Neutrophils orchestrate post-myocardial infarction healing by polarizing macrophages towards a reparative phenotype</article-title>. <source><italic toggle="yes">Eur Heart J</italic></source>. <year>2017</year>;<volume>38</volume>(<issue>3</issue>):<fpage>187</fpage>&#x2013;<lpage>197</lpage>. doi:<pub-id pub-id-type="doi">10.1093/eurheartj/ehw002</pub-id><pub-id pub-id-type="pmid">28158426</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0065">
+        <label>65.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Deng</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Optical clearing imaging assisted evaluation of urokinase thrombolytic therapy on cerebral vessels with different sizes</article-title>. <source><italic toggle="yes">Biomed Opt Express</italic></source>. <year>2022</year>;<volume>13</volume>(<issue>6</issue>):<fpage>3243</fpage>&#x2013;<lpage>3258</lpage>. doi:<pub-id pub-id-type="doi">10.1364/BOE.457912</pub-id><pub-id pub-id-type="pmid">35781944</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0066">
+        <label>66.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mathey</surname>
+<given-names>DG</given-names></string-name>, <string-name><surname>Schofer</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Sheehan</surname>
+<given-names>FH</given-names></string-name>. <article-title>Coronary thrombolysis with intravenous urokinase in patients with acute myocardial infarction</article-title>. <source><italic toggle="yes">Am J Med</italic></source>. <year>1987</year>;<volume>83</volume>(<issue>2a</issue>):<fpage>26</fpage>&#x2013;<lpage>30</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0002-9343(87)90884-9</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0067">
+        <label>67.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Byun</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>SN</given-names></string-name>, <string-name><surname>Lim</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Triple antiplatelet therapy with cilostazol and favorable early clinical outcomes after acute myocardial infarction compared to dual antiplatelet therapy with standard or potent P2Y12 inhibitors</article-title>. <source><italic toggle="yes">J Clin Med</italic></source>. <year>2022</year>;<volume>11</volume>(<issue>22</issue>). doi:<pub-id pub-id-type="doi">10.3390/jcm11226856</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0068">
+        <label>68.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pang</surname>
+<given-names>B-Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Y-H</given-names></string-name>, <string-name><surname>Ji</surname>
+<given-names>X-W</given-names></string-name>, <string-name><surname>Leng</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Deng</surname>
+<given-names>H-B</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>L-H</given-names></string-name>. <article-title>Systematic review and meta-analysis of the intervention effect of curcumin on rodent models of myocardial infarction</article-title>. <source><italic toggle="yes">Origin Res</italic></source>. <year>2022</year>;<fpage>13</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fphar.2022.999386</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0069">
+        <label>69.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>You</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Ma</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>Curcumin induces therapeutic angiogenesis in a diabetic mouse hindlimb ischemia model via modulating the function of endothelial progenitor cells</article-title>. <source><italic toggle="yes">Stem Cell Res Ther</italic></source>. <year>2017</year>;<volume>8</volume>(<issue>1</issue>):<fpage>182</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13287-017-0636-9</pub-id><pub-id pub-id-type="pmid">28774328</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0070">
+        <label>70.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rahnavard</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hassanpour</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ahmadi</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Curcumin ameliorated myocardial infarction by inhibition of cardiotoxicity in the rat model</article-title>. <source><italic toggle="yes">J Cell Biochem</italic></source>. <year>2019</year>;<volume>120</volume>(<issue>7</issue>):<fpage>11965</fpage>&#x2013;<lpage>11972</lpage>. doi:<pub-id pub-id-type="doi">10.1002/jcb.28480</pub-id><pub-id pub-id-type="pmid">30775806</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0071">
+        <label>71.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xiao</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Simvastatin ameliorates ventricular remodeling via the TGF&#x2011;&#x3B2;1 signaling pathway in rats following myocardial infarction</article-title>. <source><italic toggle="yes">Mol Med Rep</italic></source>. <year>2016</year>;<volume>13</volume>(<issue>6</issue>):<fpage>5093</fpage>&#x2013;<lpage>5101</lpage>. doi:<pub-id pub-id-type="doi">10.3892/mmr.2016.5178</pub-id><pub-id pub-id-type="pmid">27121011</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0072">
+        <label>72.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Arnesen</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Holme</surname>
+<given-names>I</given-names></string-name>. <article-title>The effect of warfarin on mortality and reinfarction after myocardial infarction</article-title>. <source><italic toggle="yes">New Engl J Med</italic></source>. <year>1990</year>;<volume>323</volume>(<issue>3</issue>):<fpage>147</fpage>&#x2013;<lpage>152</lpage>. doi:<pub-id pub-id-type="doi">10.1056/nejm199007193230302</pub-id><pub-id pub-id-type="pmid">2194126</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

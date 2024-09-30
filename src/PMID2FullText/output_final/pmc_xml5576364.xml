@@ -1,0 +1,607 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">NPJ Genom Med</journal-id>
+      <journal-id journal-id-type="iso-abbrev">NPJ Genom Med</journal-id>
+      <journal-title-group>
+        <journal-title>NPJ Genomic Medicine</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2056-7944</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">28868155</article-id>
+      <article-id pub-id-type="pmc">5576364</article-id>
+      <article-id pub-id-type="pii">npjgenmed201636</article-id>
+      <article-id pub-id-type="doi">10.1038/npjgenmed.2016.36</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Missense-depleted regions in population exomes implicate ras superfamily nucleotide-binding protein alteration in patients with brain malformation</article-title>
+        <alt-title alt-title-type="running">Missense-depleted regions in population exomes and brain</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ge</surname>
+            <given-names>Xiaoyan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gong</surname>
+            <given-names>Henry</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dumas</surname>
+            <given-names>Kevin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Litwin</surname>
+            <given-names>Jessica</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">3</xref>
+          <xref ref-type="aff" rid="aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Phillips</surname>
+            <given-names>Joanna J</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">5</xref>
+          <xref ref-type="aff" rid="aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Waisfisz</surname>
+            <given-names>Quinten</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Weiss</surname>
+            <given-names>Marjan M</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hendriks</surname>
+            <given-names>Yvonne</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stuurman</surname>
+            <given-names>Kyra E</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nelson</surname>
+            <given-names>Stanley F</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Grody</surname>
+            <given-names>Wayne W</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff9">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lee</surname>
+            <given-names>Hane</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kwok</surname>
+            <given-names>Pui-Yan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+          <xref ref-type="aff" rid="aff11">11</xref>
+          <xref ref-type="aff" rid="aff12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shieh</surname>
+            <given-names>Joseph T C</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff2">2</xref>
+          <xref ref-type="corresp" rid="caf1">*</xref>
+        </contrib>
+        <aff id="aff1"><label>1</label><institution>Department of Pediatrics, Division of Medical Genetics, University of California San Francisco</institution>, San Francisco, CA, <country>USA</country></aff>
+        <aff id="aff2"><label>2</label><institution>Institute for Human Genetics, University of California San Francisco</institution>, San Francisco, CA, <country>USA</country></aff>
+        <aff id="aff3"><label>3</label><institution>Department of Neurology, University of California San Francisco</institution>, San Francisco, CA, <country>USA</country></aff>
+        <aff id="aff4"><label>4</label><institution>Department of Pediatrics, University of California San Francisco</institution>, San Francisco, CA, <country>USA</country></aff>
+        <aff id="aff5"><label>5</label><institution>Department of Neurologic Surgery, University of California San Francisco</institution>, San Francisco, CA, <country>USA</country></aff>
+        <aff id="aff6"><label>6</label><institution>Department of Pathology, University of California San Francisco</institution>, San Francisco, CA, <country>USA</country></aff>
+        <aff id="aff7"><label>7</label><institution>Department of Clinical Genetics, VU University Medical Center</institution>, Amsterdam, <country>The Netherlands</country></aff>
+        <aff id="aff8"><label>8</label><institution>Departments of Pathology and Laboratory Medicine, Pediatrics, and Human Genetics, Divisions of Medical Genetics and Molecular Diagnostics, University of California Los Angeles</institution>, Los Angeles, CA, <country>USA</country></aff>
+        <aff id="aff9"><label>9</label><institution>Department of Pathology and Laboratory Medicine and Department of Human Genetics, University of California Los Angeles</institution>, Los Angeles, CA, <country>USA</country></aff>
+        <aff id="aff10"><label>10</label><institution>Department of Pathology and Laboratory Medicine, University of California Los Angeles</institution>, Los Angeles, CA, <country>USA</country></aff>
+        <aff id="aff11"><label>11</label><institution>Department of Dermatology, University of California San Francisco</institution>, San Francisco, CA, <country>USA</country></aff>
+        <aff id="aff12"><label>12</label><institution>Cardiovascular Research Institute, University of California San Francisco</institution>, San Francisco, CA, <country>USA</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="caf1"><label>*</label>
+(<email>shiehj2@humgen.ucsf.edu</email>)</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>05</day>
+        <month>10</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2016</year>
+      </pub-date>
+      <volume>1</volume>
+      <fpage>16036</fpage>
+      <lpage/>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>05</month>
+          <year>2016</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>11</day>
+          <month>08</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>23</day>
+          <month>08</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2016 The Author(s)</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <copyright-holder>The Author(s)</copyright-holder>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <!--author-paid-->
+          <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Genomic sequence interpretation can miss clinically relevant missense variants for several reasons. Rare missense variants are numerous in the exome and difficult to prioritise. Affected genes may also not have existing disease association. To improve variant prioritisation, we leverage population exome data to identify intragenic missense-depleted regions (MDRs) genome-wide that may be important in disease. We then use missense depletion analyses to help prioritise undiagnosed disease exome variants. We demonstrate application of this strategy to identify a novel gene association for human brain malformation. We identified <italic>de novo</italic> missense variants that affect the GDP/GTP-binding site of <italic>ARF1</italic> in three unrelated patients. Corresponding functional analysis suggests ARF1 GDP/GTP-activation is affected by the specific missense mutations associated with heterotopia. These findings expand the genetic pathway underpinning neurologic disease that classically includes <italic>FLNA</italic>. <italic>ARF1</italic> along with <italic>ARFGEF2</italic> add further evidence implicating ARF/GEFs in the brain. Using functional ontology, top MDR-containing genes were highly enriched for nucleotide-binding function, suggesting these may be candidates for human disease. Routine consideration of MDR in the interpretation of exome data for rare diseases may help identify strong genetic factors for many severe conditions, infertility/reduction in reproductive capability, and embryonic conditions contributing to preterm loss.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p>Genomic sequencing reveals many rare or private heterozygous missense variants per person. These rare variants occur across numerous genes, many of which are not yet associated with any known human disorder, and prioritising variants<sup><xref ref-type="bibr" rid="bib1">1</xref></sup> in the context of critical genic regions is important for clinical and research applications. Gene alterations responsible for severe human diseases can limit reproductive fitness. Such alterations thus may not be propagated in the population, and therefore coding regions could demonstrate a lack of functional variation in the normal adult population due to intolerance to variation as these variants would have a functional impact.<sup><xref ref-type="bibr" rid="bib2">2</xref>,<xref ref-type="bibr" rid="bib3">3</xref></sup> Along this line, taking advantage of the selective pressure on the X-chromosome, where selection pressure would deplete such variation from critical genes, we previously used normal adult X-chromosome data to prioritise potential disease genes and found that genes with missense depletion are more likely to be known human disease genes.<sup><xref ref-type="bibr" rid="bib2">2</xref></sup> Several illustrative studies have explored measures of variation to examine genic intolerance to variation for predicting and identifying disease genes,<sup><xref ref-type="bibr" rid="bib2 bib3 bib4 bib5">2&#x2013;5</xref></sup> but whether such concepts could be applied to specific regions of genes, their proteins, or to specific modes of inheritance<sup><xref ref-type="bibr" rid="bib6">6</xref>,<xref ref-type="bibr" rid="bib7">7</xref></sup> has not been fully investigated.</p>
+      <p>As specific regions of a given gene are more important for function, we rationalise that these can be partially identified as genomic regions that are devoid of missense variation in the normal adult population,<sup><xref ref-type="bibr" rid="bib8">8</xref>,<xref ref-type="bibr" rid="bib9">9</xref></sup> and assessment of these regions in an unbiased manner may yield regions more likely to underlie severe rare diseases. Therefore, variant depleted intervals of genes may be intersected with rare missense variants of uncertain significance in exome data of a given individual to facilitate interpretation. When we initially examine the variant pattern from population exome data looking for gene level missense depletion, although the overall missense depletion is modest in disease genes, the greatest difference is seen in genes for dominant or X-linked conditions, which are reported to account for approximately 50% of all diagnoses made for trio clinical exomes.<sup><xref ref-type="bibr" rid="bib10 bib11 bib12">10&#x2013;12</xref></sup> Therefore, a missense depletion strategy could be very useful for the large number of dominant/<italic>de novo</italic> conditions and for identifying new disorders due to unannotated genes.</p>
+      <p>To apply this hypothesis of MDRs being more likely to cause a human disorder when mutated, here we apply missense depletion to undiagnosed disease exome data where many rare variants of uncertain significance are considered for pathogenicity. By prioritising candidates by missense depletion, we identified a novel gene association of <italic>ARF1</italic> with a human brain malformation. With ARF1 protein, we demonstrate that missense variation near the nucleotide-binding site of ARF1 alters activation and places <italic>ARF1</italic> in the pathway of genes that underlie this birth defect. Importantly, the method described here could be applied more generally for rare variant prioritisation when searching for pathogenic variants for human disorders.</p>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>Differences in population missense variation are associated with disease gene inheritance pattern</title>
+        <p>Genic tolerance to variation is useful in evaluating disease gene candidates, especially for candidate genes with loss of function variants. Missense variants, however, are remarkably numerous in the exome, and these variants may be neutral, positive or deleterious depending on the amino acid and the position of the variant within the gene. Such distinction of inferred variant function is essential in predicting the pathogenicity of the variant. However, missense variants are often rare and lack meaningful prior annotation increasing reliance on <italic>in silico</italic> prediction programs such as Polyphen-2 and SIFT. Therefore, alternative methods are needed for evaluating variants and genes for pathogenicity regardless of previous disease annotation or whether a variant has been seen before.</p>
+        <p>We and others previously utilised missense-to-synonymous variant ratios in control population exomes (using d<italic>N</italic>/d<italic>S</italic>, which also accounts for sequence composition) to predict disease causing genes<sup><xref ref-type="bibr" rid="bib2">2</xref>,<xref ref-type="bibr" rid="bib3">3</xref></sup> but the role of specific gene regions is relatively unexplored.<sup><xref ref-type="bibr" rid="bib2">2</xref></sup> Several studies have identified disease genes that were predicted by our X-chromosome methods.<sup><xref ref-type="bibr" rid="bib13">13</xref>,<xref ref-type="bibr" rid="bib14">14</xref></sup> When we examine all disease genes genome-wide, they show a modest but significant difference in per-gene d<italic>N</italic>/d<italic>S</italic> compared with genes not yet associated with any rare disease (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 1</xref>). These data support the idea of disease genes being more likely to be missense-depleted in the population data. When we analyse known disease genes by disease inheritance pattern, we find that genes causing autosomal dominant or X-linked conditions have significantly lower genic d<italic>N</italic>/d<italic>S</italic> compared with those causing recessive conditions (<xref ref-type="fig" rid="fig1">Figure 1</xref>). These results suggest selection against missense variants can be seen in disease genes and seen more significantly in genes where a single-allele deleterious variant is sufficient to lead to a significant phenotype. Given the large portion of exome diagnoses that result from dominant/<italic>de novo</italic> variation,<sup><xref ref-type="bibr" rid="bib10 bib11 bib12">10&#x2013;12</xref></sup> applying missense depletion in prioritising novel candidate genes may be particularly useful even when gene function is unknown or potentially when parental sequence is not available. Importantly, we surmised that the observed missense variant frequency could also vary locally, encompassing not only entire genes but also portions of genes.<sup><xref ref-type="bibr" rid="bib2">2</xref></sup></p>
+      </sec>
+      <sec>
+        <title>Missense-depleted regions in coding regions of the genome</title>
+        <p>Hypothesising that genic regions responsible for severe conditions would be depleted of missense variations and could identifying such intragenic regions could lead to finding candidate genes for new dominant conditions in the exome, we analysed all genes in population data from the NHLBI exome sequencing project (ESP) for missense-depleted regions (MDRs).</p>
+        <p>We analysed 18,593 human coding genes and identified genes harbouring missense-depleted regions (defined as at least 300 contiguous base pairs lacking missense variation but harbouring synonymous variants, Methods). One hundred twenty eight genes were identified with regions that completely lacked missense variation. Only 40 of the 128 (31.2%) of these were in genes with known OMIM disease. Plotting missense variation as a function of gene region, distinct segments of coding regions lacked missense variation. These regions can be identified as illustrated in genes such as <italic>ACTB</italic> and <italic>SMARCA4</italic> using the ESP population exome data (<xref ref-type="fig" rid="fig2">Figure 2a</xref>), including, for example, crucial nucleotide-binding domains. Further assessment of these Missense-Depleted Regions (MDRs) was performed by considering ExAC data (Exome Aggregation Project) that also includes some of the NHLBI ESP data and increases the number of variants from population exome data (<xref ref-type="fig" rid="fig2">Figure 2b</xref>), and MDRs were apparent in <italic>ACTB</italic> and <italic>SMARCA4,</italic> further refining the region. When the locations of known pathogenic mutations for the corresponding syndromes (<italic>ACTB</italic>, associated with Baraitser&#x2013;Winter and <italic>SMARCA4</italic>, associated with Coffin&#x2013;Siris),<sup><xref ref-type="bibr" rid="bib15 bib16 bib17 bib18">15&#x2013;18</xref></sup> were plotted on the coding sequence, the pathogenic variants overlapped with the MDRs (<xref ref-type="fig" rid="fig2">Figure 2c</xref>). These results suggest missense-depleted regions in the genome can be informative for understanding variant effects and for prioritising potential disease variants. MDRs could reveal new candidates for disease in genes/gene regions not yet associated with disease. Indeed, the majority of MDRs are not yet annotated with any human disease. We examined MDR-containing genes using GTEx and 65 of the 128 (51%) were highly expressed in the brain. We provide a list of MDRs identified in the exome and also include genes with overall gene depletion of missense variation (<xref ref-type="supplementary-material" rid="xob1">Supplementary Tables 1 and 2</xref>). Of the 128 MDR-containing genes, most of the genes are intolerant to loss of function as well (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 2</xref>); however, select genes had loss of function variants (pLI&lt;0.01), suggesting the mechanism of action of deleterious missense variation in select genes is not due to haploinsufficiency. 88% of the cannonical genes had overlap with conserved protein domains.</p>
+        <p>Given that MDRs identified in the exome could signify important disease gene candidates, we assessed whether genes with MDRs were enriched for any particular molecular functions. Genes with MDRs were highly enriched in nucleotide binding by functional annotation using gene ontology; the top ten enriched terms are shown (<xref rid="tbl1" ref-type="table">Table 1</xref>). Thus, nucleotide-binding proteins may be candidates for rare disease and have particular portions that are highly likely to be pathogenic when mutated. We then performed Earthmover's distance (EMD) analysis<sup><xref ref-type="bibr" rid="bib19">19</xref></sup> (Materials and Methods) as an additional measure to discern differences in distribution of missense and synonymous variants within genes (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 3</xref> and <xref ref-type="supplementary-material" rid="xob1">Supplementary Table 3</xref>). We hypothesised that current human exome testing for undiagnosed disease could potentially benefit from testing our observations about patterns of variation. Rare variation within MDRs may need to be prioritised for functional characterisation as disease candidates, and a missense depletion measure could be integrated into exome analyses, potentially increasing the overall diagnostic yield.</p>
+      </sec>
+      <sec>
+        <title>Application to undiagnosed disease exome data</title>
+        <p>In exome sequencing, a list of filtered variants often includes multiple variants in genes unannotated for disease. We hypothesised that application of missense depletion could be used to prioritise variants in rare undiagnosed disease exome data regardless of knowledge of gene function. Importantly, prioritisation of variants could be performed initially independent of phenotype and considering all rare variants from a proband. To test this, exome sequencing was performed for diagnostic testing for a 9-year-old boy with developmental disability and attention deficit hyperactivity who previously had non-diagnostic genetic tests. Large copy-number variant testing was negative by SNP microarray, and there was no family history of developmental disability. A brain MRI revealed periventricular nodular heterotopia.</p>
+        <p>Sequencing from the proband yielded a mean coverage of 108&#xD7; and resulted in 23,323 variants: 22,026 single-nucleotide variants and 1,297 small insertions and deletions (indels). After filtering for amino-acid changing and rare (minor allele frequency &lt;1% in NHLBI ESP population) variants, 480 variants remained. We considered all these variants from the proband exome regardless of prior gene&#x2013;disease annotation and applied our missense-depletion analysis methods. First, each of the variants was ranked by the corresponding gene overall missense depletion score. Second, each variant-affected gene was also prioritised by its intragenic missense distribution score, EMD, which suggested potential for MDR in the coding region. Either of these methods could be useful in prioritising potential disease-related variants. Interestingly, the distribution of the 480 proband variant-affected genes revealed two genes that were the most missense-depleted: <italic>ARF1</italic> showed the highest priority by missense depletion (<xref ref-type="fig" rid="fig3">Figure 3</xref>, <xref ref-type="supplementary-material" rid="xob1">Supplementary Table 4</xref>), followed by <italic>SOD1</italic>. By intragenic missense distribution score (EMD), <italic>SEPT7</italic> was the highest priority followed by <italic>ARF1</italic> (<xref ref-type="fig" rid="fig3">Figure 3</xref>, <xref ref-type="supplementary-material" rid="xob1">Supplementary Table 4</xref>); <italic>SOD1</italic> ranked 4th by EMD. <italic>ARF1</italic> and <italic>SEPT7</italic> had rare heterozygous variants. <italic>SEPT7,</italic> affected by a missense variant, ranked poorly however by overall missense depletion, at 451st rank, compared to <italic>ARF1</italic> or <italic>SOD1</italic>. Homozygous, mitochondrial and X-linked variants were also considered, but these variants either were found previously in controls or the genes did not rank highly by missense depletion or EMD.</p>
+        <p>To further examine missense variants in <italic>ARF1</italic> and <italic>SEPT7,</italic> variant locations from the patient exome were examined on variant distribution plots from population exome data (to assess overlap with MDRs). The proband's missense variant in <italic>SEPT7</italic> did not co-localise with the distal MDR in <italic>SEPT7</italic> and was in a region of frequent population missense variation. In contrast, the proband's <italic>ARF1</italic> missense variant (c.103T&gt;C (p.Y35H) NM_001024226) corresponded within the population-data-observed MDR of <italic>ARF1</italic> (<xref ref-type="supplementary-material" rid="xob1">Supplementary Table 5</xref>). These results indicate that <italic>ARF1</italic> demonstrates missense depletion in population exome data gene-based analysis and also localised missense depletion. Given these findings, the proband missense variant in <italic>ARF1</italic> could be important in disease.</p>
+        <p>When we added parental exome sequence data (trio analysis including proband), <italic>de novo</italic> and compound heterozygous variants in the proband could also be readily discerned. <italic>ARF1</italic> was among three genes affected by <italic>de novo</italic> variants, and of the <italic>de novo</italic>-affected genes (<xref ref-type="supplementary-material" rid="xob1">Supplementary Table 6</xref>), <italic>ARF1</italic> was the most outstanding by missense depletion prioritisation using population data (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 4</xref>). The proband's <italic>SOD1</italic> and <italic>SEPT7</italic> variants were inherited from unaffected parent, making these less likely to be pathogenic variants. Analysis of compound heterozygous variant-affected genes (<italic>FLG</italic>, <italic>C10orf92</italic>, <italic>DNAH2</italic> and <italic>ABCA5</italic>) did not reveal other high-priority candidates by missense depletion analyses. The addition of parental data supported the initial findings from proband-only prioritisation by missense depletion. <italic>ARF1</italic> was the top candidate both by proband and by trio analysis. In addition, no variants were observed in the known or possible genes for periventricular heterotopia including <italic>FLNA</italic>, <italic>ARFGEF2</italic> and <italic>ERMARD</italic>, nor were pathogenic variants seen in other known genes implicated for brain malformation syndromes, intellectual disability or ADHD conditions.</p>
+      </sec>
+      <sec>
+        <title><italic>De novo ARF1</italic> variants in patients with brain malformation</title>
+        <p>We analysed other population variants reported in this gene to further evaluate ARF1 as a novel disease-associated gene. <italic>ARF1</italic> lacks stop, splice-site or cryptic start variants (predicted high-confidence loss of function) in the NHLBI ESP and in ExAC, however <italic>ARF1</italic> has 8 sites of missense variation in ExAC with one variant observed in 17 individuals in the proximal part of the gene c.16G&gt;A (p.A6T). Examination of the testing lab database also revealed a missense variant that was also reported in ExAC, and this individual did not have the same symptoms as the proband here. We additionally examined both Genome of the Netherlands data, 769 exomes,<sup><xref ref-type="bibr" rid="bib20">20</xref></sup> and Icelander sequencing data, 2636 genomes,<sup><xref ref-type="bibr" rid="bib6">6</xref></sup> and did not find missense variation in <italic>ARF1</italic>.</p>
+        <p>To understand the potential functional role of the rare population variants in <italic>ARF1</italic> and from the neurologic phenotype, we examined all these variants on the ARF1 crystal structure (<xref ref-type="fig" rid="fig4">Figure 4a,b</xref>). ARF1 is a RAS-superfamily GDP nucleotide-binding protein that leads to GDP/GTP conversion and GTP-activation of ARF1 with the help of ARFGEFs. Interestingly, our undiagnosed patient's c.103T&gt;C (p.Y35H) variant is located adjacent to the GDP-binding site of ARF1 and Y35 is predicted by ligand prediction method LPC/CSU (Materials and Methods) to interact with GDP-binding site residues. In contrast, population-detected rare missense variants were localised away from nucleotide-binding residues.</p>
+        <p>In addition to the patient with p.Y35H, a second unrelated individual with periventricular heterotopia with a <italic>de novo</italic>, rare missense variant in <italic>ARF1</italic>, c.379A&gt;G (p.K127E) was also found. This variant affects an amino-acid residue in the predicted ARF1 GDP-nucleotide binding site by LPC/CSU analysis (<xref ref-type="fig" rid="fig4">Figure 4</xref> and <xref ref-type="supplementary-material" rid="xob1">Supplementary Table 7</xref>). In addition, the affected residue p.K127 is known to be important in functional studies of ARF1 in other systems.<sup><xref ref-type="bibr" rid="bib21">21</xref>,<xref ref-type="bibr" rid="bib22">22</xref></sup> A third patient had a <italic>de novo</italic> missense variant in ARF1 c.296G&gt;A (p.R99H) and had brain malformation with delayed myelination in childhood and significant cerebral underdevelopment 12 years later, and p.R99 appears to contact two of the GDP-binding residues of ARF1 by LPC/CSU analysis (<xref ref-type="fig" rid="fig3">Figure 3</xref> and <xref ref-type="supplementary-material" rid="xob1">Supplementary Table 7</xref>). The three ARF1 missense variants were in MDR (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 5</xref>). The initial patient on exam had a head circumference of 60th centile, weight of 70th centile, height of 60th centile. He was born at term. He had a history of otitis media and developmental delay especially in speech, he did not have a history of seizure, although he had an EEG in the past. The MRI brain showed periventricular heterotopia and diminished white matter. The second patient had delays, particularly in speech and seizures. When she was seen at 15 years she had a head circumference was 5th centile, the weight was 20th centile, height 3th centile and she had spasticity and had regressed in language abilities. The MRI showed delay in myelination and cortical thinning and vermis atrophy. The third individual had limited information available but had seizures and periventricular heterotopia.</p>
+        <p>These results further emphasise the importance of variant prioritisation based on the location of intragenic missense variants, nucleotide-binding proteins and missense depletion regions. Given that the variant p.Y35H in <italic>ARF1</italic> was untested but would be predicted to affect GDP/GTP activation and lies in the G4 loop adjacent to the <italic>ARF1</italic> switch region, we directly tested its effect on ARF1 protein activity. We used site-directed mutagenesis to introduce the variant for p.Y35H into ARF1 cDNA and verified this by sequencing prior to transfection. Wildtype and p.Y35H-altered ARF1 were expressed in 293T cells at similar levels. As opposed to wildtype, however, p.Y35H ARF1 was markedly reduced in nucleotide activation (<xref ref-type="fig" rid="fig5">Figure 5</xref>), thus verifying that the missense variation predicted to affect the GDP site was deleterious.</p>
+        <p>Taken together, these results suggest decreased activation of <italic>ARF1</italic> could be an important factor in disease in the brain. Mutations in <italic>ARF1</italic> have not been associated with disease prior to this report. Interestingly, <italic>ARF1</italic> is likely in a molecular pathway with known genes for periventricular heterotopia including <italic>FLNA</italic> and <italic>ARFGEF2</italic>, the gene encoding the ARF-activator protein BIG2<sup><xref ref-type="bibr" rid="bib23">23</xref></sup>. These results indicate that exome variants may be prioritised using missense depletion methods from population exome data independent of knowledge of a gene or gene region's function. This information combined with functional data can yield new insights into the role of rare variants in human disease.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>Medical exomes have tremendous diagnostic potential, but key genetic contributors to disease are elusive in more than half of patients. A significant challenge is interpreting the many rare variants that lack gene/disease annotation. While further sequencing will continue help to identify more variants in the human exome, we demonstrate here a methodology using population missense depletion data to help interpret exome results and prioritise missense variants more likely to have a functional consequence. We demonstrate how variants from exome testing can be examined independent of phenotype. Using these methods, we discover <italic>de novo ARF1</italic> missense variants that affect the protein proximal to its nucleotide-binding site. Moreover, our results suggest decreased ARF1 activity is seen with the brain malformation, and this supports a new potential gene association.</p>
+      <p>As a known Ras-superfamily GDP/GTP exchange protein, ARF1 is a class I Arf important in membrane traffic<sup><xref ref-type="bibr" rid="bib24">24</xref></sup> and in mediating COPI vesicle formation. Found in neuronal processes, ARF1 also affects cellular cytoskeletal regulation,<sup><xref ref-type="bibr" rid="bib25 bib26 bib27">25&#x2013;27</xref></sup> as does the X-chromosome encoded FLNA. The identification of <italic>ARF1</italic> variants here suggests an effect in brain development and further extends the <italic>FLNA</italic>-associated pathway in periventricular heterotopia.<sup><xref ref-type="bibr" rid="bib28 bib29 bib30">28&#x2013;30</xref></sup> Interestingly, mutations in <italic>ARFGEF2</italic> encoding BIG2 has been associated with recessive periventricular heterotopia, and these predict loss of ARF-activation in the disorder. On the basis of our functional data, our results also support haploinsufficiency of the ARF pathway leading to brain malformation in these patients. Levels of ARF1 activity may be important to examine further since complete loss of function is embryonic lethal.<sup><xref ref-type="bibr" rid="bib31">31</xref></sup> The 1q42 genomic region, where <italic>ARF1</italic> resides, has also been implicated in brain development and white matter abnormalities, and our studies add <italic>ARF1</italic> to the candidates that could influence the brain.<sup><xref ref-type="bibr" rid="bib32">32</xref></sup> Future attention to ARF1 and other GTPases could assist in our understanding neuronal pathogenesis and other intellectual disabilities. Furthermore, our results indicate that nucleotide-binding protein genes are enriched in missense-depleted regions in population exomes. Interestingly, GTPase signalling and nucleoside metabolism were identified in Uddin <italic>et al.</italic><sup><xref ref-type="bibr" rid="bib8">8</xref></sup> as pathways important when studying autism spectrum disorder. Therefore, further attention to these proteins is suggested when analysing exome variants in significant neurophenotypic conditions.</p>
+      <p>The results here show how a prioritisation strategy with MDR can be used in analysing exome data. These strategies could augment variant evaluation methods.<sup><xref ref-type="bibr" rid="bib1">1</xref></sup> Missense variants represent the largest category of variant-type from exome data and more missense variants will also result from further exome and genome sequencing, and phenotype-agnostic prioritisation of these can assist in data interpretation of probands and trios. Substantial attention can still be given to known gene&#x2013;phenotype associations, but we hope to augment the identification of novel gene&#x2013;disease association using the methods described. As aetiologic <italic>de novo</italic> mutations have been frequent in exomes,<sup><xref ref-type="bibr" rid="bib5">5</xref>,<xref ref-type="bibr" rid="bib10">10</xref>,<xref ref-type="bibr" rid="bib33">33</xref></sup> we expect that MDRs will further increase exome yield by annotating portions of genes that are likely to be particularly deleterious when mutated. Application to <italic>de novo </italic>dominant and X-linked conditions may yield new candidate disease genes; however, the application in recessive disease genes will be limited. Regions that are missense-depleted in an increasing sequenced population may represent critical genomic regions that have significant medical importance. Even in known disease genes, they may identify new phenotypes associated with variants in these regions. Furthermore, genetic elements that are missense-depleted could underlie multiple types of conditions with decreased reproductive fitness and therefore could have even broader clinical utility.</p>
+    </sec>
+    <sec>
+      <title>Materials and methods</title>
+      <sec>
+        <title>MDR analysis</title>
+        <p>Missense-depleted regions (MDRs) were initially identified by analysing all RefSeq coding sequences (CDS) for regions lacking missense variation in population data. Population exome variant data were obtained from the NHLBI GO ESP (Exome Sequencing Project ESP6500SI-V2-SSA137 <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://evs.gs.washington.edu/EVS/">http://evs.gs.washington.edu/EVS/</ext-link>; accessed on 25 September 2014) and the ExAC data (Exome Aggregation Consortium r0.3 <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="ftp://ftp.broadinstitute.org/pub/ExAC_release/">ftp://ftp.broadinstitute.org/pub/ExAC_release/</ext-link>; accessed on 02 February 2015). The ESP data set includes variants from 6503 exomes. The ExAC data set includes variants from 60,706 exomes (including some from the ESP). ESP exomes are derived from adults (except for some from cystic fibrosis individuals), while the ExAC data set excludes data from patients with severe paediatric diseases. All RefSeq CDS (32,848 transcripts) were analysed for overall and regional missense depletion by quantifying the missense substitution rate and synonymous substitution rate within the population. For identifying MDRs with the most depletion in missense variants, we scanned for coding regions that lack missense variation using a minimum window size of 300 base pairs length, while requiring the presence of at least 10 synonymous variants at a frequency of one for every 10-codon group. The size is a strict criterion for MDRs; we performed analysis for smaller MDRs. With small regions, these could be subject to a lack of missense variants simply due to low numbers of variants, and size resolution should improve with further exome data. We have added <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 6</xref> depicting the number of candidate regions identified with different MDR size criteria.</p>
+        <p>Missense depletion was further assessed by screening all CDS, assessing the differences in missense and synonymous variant distributions along each CDS length for potential regional missense depletion. CNVs were not analysed due to limited data. The Earthmover's distance (EMD) was used here as a regional measure of distance between two probability distributions based on a Mallows distance with equal masses.<sup><xref ref-type="bibr" rid="bib19">19</xref></sup> This distance represents the energetic cost of transforming one distribution into another; here we used the distributions of missense and synonymous variants across each CDS. The EMD was calculated using the emdist package for R (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cran.rproject.org/web/packages/emdist/index.html">http://cran.rproject.org/web/packages/emdist/index.html</ext-link>). Genic d<italic>N</italic>/d<italic>S</italic> was also calculated for all transcripts using variants using the Nei and Gojobori method.<sup><xref ref-type="bibr" rid="bib34">34</xref></sup> This method tests whether mutations will result in synonymous or missense substitutions for each nucleotide in the coding sequence to determine the number of potential sites in a coding sequence on a per-codon basis. The total <italic>N</italic> sites for the sequence is the sum of the <italic>N</italic> sites for each codon, and similarly the total <italic>S</italic> sites is the sum of all <italic>S</italic> sites in the sequence. These are combined with the actual observed <italic>N </italic>and <italic>S</italic> sites in the population variant data for d<italic>N</italic>/d<italic>S</italic>. EMD and d<italic>N</italic>/d<italic>S</italic> genome-wide statistics from population data were then used to evaluate all variants from exome data.</p>
+      </sec>
+      <sec>
+        <title>Functional analyses</title>
+        <p>Genes with MDRs were analysed for functional categorisation using the DAVID Functional Annotation tools (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://david.ncifcrf.gov/">https://david.ncifcrf.gov/</ext-link>). We tested genes for enrichment (default thresholds: EASE 0.1, count 2) in any gene ontology term and applied Bonferroni multiple testing correction.</p>
+      </sec>
+      <sec>
+        <title>Gene disease annotation and inheritance patterns</title>
+        <p>Gene annotation for human diseases were determined based on annotated OMIM disease phenotypes and phenotypes from Orphanet (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://omim.org/">http://omim.org/</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.orphadata.org">http://www.orphadata.org</ext-link>). Disease annotations shared between the two databases (<italic>n</italic>=2485) were used to minimise differences in annotation by source. We examined phenotypes annotated in both databases or annotated by either source and we found similar results using both these methods for missense depletion analyses. Inheritance patterns were captured from both OMIM and Orphanet, and missense and synonymous substitution rates were compared between genes causing diseases of different inheritance pattern. For the 10% of disease genes with multiple disease inheritance types, inclusion or exclusion of these genes into different inheritance categories also yielded comparable results in missense depletion analyses.</p>
+      </sec>
+      <sec>
+        <title>Exome data analysis in undiagnosed patients</title>
+        <p>Exome sequencing was performed using blood samples from individuals after informed consent. Studies were performed under The UCSF Committee for Human Subjects Research. Genomic DNA was extracted and sequencing performed using Illumina HiSeq2500 following exon capture. Following QC and duplicate marking, variants were aligned to reference and variants called using GATK. Variants were filtered for amino-acid alteration and then for &lt;1% minor allele frequency based on ESP, NIEHS EGP and the Hapmap project. For proband analysis, all variants meeting these criteria were examined using missense depletion methods regardless of if the variant/gene had previous annotation. Following addition of parental exome data, trio analysis was also performed and <italic>de novo</italic>, compound heterozygous and inherited heterozygous variants could be further annotated. Variants were also examined for previous annotation in HGMD and ClinVar.</p>
+      </sec>
+      <sec>
+        <title>Structural analysis of <italic>ARF1</italic> variants</title>
+        <p>For protein structure analyses, amino-acid differences from ESP/ExAC population and patient variants were visualised on protein crystal structures using Jmol Viewer using RCSB PDB (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.rcsb.org/">http://www.rcsb.org/</ext-link>). The human ARF1 structure 1R8Q, complexed with sec7 and GDP, was used to visualise variant positions in structure. Examination of variants in alternative human structure 1HUR revealed similar results. Amino-acid potential interactions with GDP-binding site residues were analysed using Ligand-protein contacts and contacts of structural units (LPC/CSU; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://ligin.weizmann.ac.il/cgi-bin/lpccsu/LpcCsu.cgi">http://ligin.weizmann.ac.il/cgi-bin/lpccsu/LpcCsu.cgi</ext-link>).<sup><xref ref-type="bibr" rid="bib35">35</xref></sup> Amino acid to ligand contact prediction for variant sites is shown in <xref ref-type="supplementary-material" rid="xob1">Supplementary Materials</xref>.</p>
+        <p>SIFT, Provean, and Polyphen2 scores for the variants are shown in <xref ref-type="supplementary-material" rid="xob1">Supplementary Table 8</xref>. GeneMatcher was used to help study this gene.<sup><xref ref-type="bibr" rid="bib36">36</xref></sup></p>
+      </sec>
+      <sec>
+        <title>Analysis of ARF1 activation</title>
+        <p>The effect of p.Y35H on ARF1 was tested by introducing the variant by site-directed mutagenesis into the <italic>ARF1</italic> cDNA plasmid (BC011358). Both wildtype and mutant plasmids were transfected into cultured 293T cells (UCSF cell culture facility) using Lipofectamine and total expression assessed by western blotting for ARF1 following protein quantification. For assessment of activated ARF1, GST-GGA3 (the binding partner that binds GDP/GTP-bound ARF1) pulldown was performed on lysates prior to Western blotting. Processing of samples was performed at 4 degrees and with incubation with GST-GGA3-PBD for 1&#x2009;h (ThermoFisher, Waltham, MA, USA). Positive control for activation was GTP-gamma-S, negative was GDP per manufacturer's instruction. Western blotting for ARF1 was performed using rabbit anti-ARF1 antibody (catalogue number 16121, ThermoFisher). The experiment was performed with three biological replicates.</p>
+      </sec>
+      <sec>
+        <title>Statistical analysis</title>
+        <p>We performed statistical tests using R (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.r-project.org">http://www.r-project.org</ext-link>). The two-sample Wilcoxon test or Kruskal&#x2013;Wallis Rank Sum test for more categories was used for missense to synonymous ratio comparisons between categories, as variance between groups was not equal. Bonferroni multiple testing correction was utilised in functional gene enrichment testing. Histograms and plots were made with R graphics (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.r-project.org">http://www.r-project.org</ext-link>) and the ggplot2 package for R (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://ggplot2.org/">http://ggplot2.org/</ext-link>).</p>
+      </sec>
+      <sec>
+        <title>Code availability</title>
+        <p>All code is available on request by contacting the corresponding author. Variant data are being deposited at NCBI.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We acknowledge the following resources and families who contributed: Grant funding from the US National Institutes of Health (HL092970 to JS). We acknowledge Elliott Sherr (UCSF) for his scientific contribution and discussion, the NHLBI GO Exome Sequencing Project and its ongoing studies that produced and provided exome variant calls for data analyses: the Lung GO Sequencing Project (HL102923), the WHI Sequencing Project (HL102924), the Broad GO Sequencing Project (HL102925), the Seattle GO Sequencing Project (HL102926) and the Heart GO Sequencing Project (HL103010). We would like to thank the Exome Aggregation Consortium and the groups that provided exome variant data for comparison. A full list of contributing groups can be found at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://exac.broadinstitute.org/about">http://exac.broadinstitute.org/about</ext-link>. We thank GeneMatcher.</p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p><xref ref-type="supplementary-material" rid="xob1">Supplementary Information</xref> accompanies the paper on the <italic>npj Genomic Medicine</italic> website 
+(http://www.nature.com/npjgenmed)</p>
+      </fn>
+      <fn fn-type="COI-statement">
+        <p>The authors declare no conflict of interest.</p>
+      </fn>
+    </fn-group>
+    <sec sec-type="supplementary-material">
+      <supplementary-material content-type="local-data" id="xob1">
+        <label>Supplementary Figures</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="npjgenmed201636-s1.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob2">
+        <label>Supplementary Tables</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="npjgenmed201636-s2.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+    <ref-list>
+      <ref id="bib1">
+        <mixed-citation publication-type="journal">Richards, S. et al. <article-title>Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology</article-title>. <source>Genet. Med.</source>
+<volume>17</volume>, <fpage>405</fpage>&#x2013;424 (<year>2015</year>).<pub-id pub-id-type="pmid">25741868</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib2">
+        <mixed-citation publication-type="journal">Ge, X., Kwok, P.-Y. &amp; Shieh, J. T. C. <article-title>Prioritizing genes for X-linked diseases using population exome data</article-title>. <source>Hum. Mol. Genet.</source>
+<volume>24</volume>, <fpage>599</fpage>&#x2013;608 (<year>2015</year>).<pub-id pub-id-type="pmid">25217573</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib3">
+        <mixed-citation publication-type="journal">Petrovski, S., Wang, Q., Heinzen, E. L., Allen, A. S. &amp; Goldstein, D. B. <article-title>Genic intolerance to functional variation and the interpretation of personal genomes</article-title>. <source>PLoS Genet.</source>
+<volume>9</volume>, <fpage>e1003709</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23990802</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib4">
+        <mixed-citation publication-type="journal">Blekhman, R. et al. <article-title>Natural selection on genes that underlie human disease susceptibility</article-title>. <source>Curr. Biol.</source>
+<volume>18</volume>, <fpage>883</fpage>&#x2013;889 (<year>2008</year>).<pub-id pub-id-type="pmid">18571414</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib5">
+        <mixed-citation publication-type="journal">Samocha, K. E. et al. <article-title>A framework for the interpretation of de novo mutation in human disease</article-title>. <source>Nat. Genet.</source>
+<volume>46</volume>, <fpage>944</fpage>&#x2013;950 (<year>2014</year>).<pub-id pub-id-type="pmid">25086666</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib6">
+        <mixed-citation publication-type="journal">Gudbjartsson, D. F. et al. <article-title>Large-scale whole-genome sequencing of the Icelandic population</article-title>. <source>Nat. Genet.</source>
+<volume>47</volume>, <fpage>435</fpage>&#x2013;444 (<year>2015</year>).<pub-id pub-id-type="pmid">25807286</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib7">
+        <mixed-citation publication-type="journal">Rackham, O. J. L., Shihab, H. A., Johnson, M. R. &amp; Petretto, E. <article-title>EvoTol: a protein-sequence based evolutionary intolerance framework for disease-gene prioritization</article-title>. <source>Nucleic Acids Res.</source>
+<volume>43</volume>, <fpage>e33</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25550428</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib8">
+        <mixed-citation publication-type="journal">Uddin, M. et al. <article-title>Brain-expressed exons under purifying selection are enriched for de novo mutations in autism spectrum disorder</article-title>. <source>Nat. Genet.</source>
+<volume>46</volume>, <fpage>742</fpage>&#x2013;747 (<year>2014</year>).<pub-id pub-id-type="pmid">24859339</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib9">
+        <mixed-citation publication-type="journal">Gussow, A. B., Petrovski, S., Wang, Q., Allen, A. S. &amp; Goldstein, D. B. <article-title>The intolerance to functional genetic variation of protein domains predicts the localization of pathogenic mutations within genes</article-title>. <source>Genome Biol.</source>
+<volume>17</volume>, <fpage>9</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26781712</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib10">
+        <mixed-citation publication-type="journal">Lee, H. et al. <article-title>Clinical exome sequencing for genetic identification of rare mendelian disorders</article-title>. <source>JAMA</source>
+<volume>312</volume>, <fpage>1880</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25326637</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib11">
+        <mixed-citation publication-type="journal">Yang, Y. et al. <article-title>Molecular findings among patients referred for clinical whole-exome sequencing</article-title>. <source>JAMA</source>
+<volume>312</volume>, <fpage>1870</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25326635</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib12">
+        <mixed-citation publication-type="journal">Chong, J. X. et al. <article-title>The genetic basis of mendelian phenotypes: discoveries, challenges, and opportunities</article-title>. <source>Am. J. Hum. Genet.</source>
+<volume>97</volume>, <fpage>199</fpage>&#x2013;215 (<year>2015</year>).<pub-id pub-id-type="pmid">26166479</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib13">
+        <mixed-citation publication-type="journal">Hu, H. et al. <article-title>X-exome sequencing of 405 unresolved families identifies seven novel intellectual disability genes</article-title>. <source>Mol. Psychiatry</source>
+<volume>21</volume>, <fpage>133</fpage>&#x2013;148 (<year>2016</year>).<pub-id pub-id-type="pmid">25644381</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib14">
+        <mixed-citation publication-type="journal">Snijders Blok, L. et al. <article-title>Mutations in DDX3X are a common cause of unexplained intellectual disability with gender-specific effects on wnt signaling</article-title>. <source>Am. J. Hum. Genet.</source>
+<volume>97</volume>, <fpage>343</fpage>&#x2013;352 (<year>2015</year>).<pub-id pub-id-type="pmid">26235985</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib15">
+        <mixed-citation publication-type="journal">Johnston, J. J. et al. <article-title>Functional analysis of a de novo ACTB mutation in a patient with atypical Baraitser-Winter syndrome</article-title>. <source>Hum. Mutat.</source>
+<volume>34</volume>, <fpage>1242</fpage>&#x2013;1249 (<year>2013</year>).<pub-id pub-id-type="pmid">23649928</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib16">
+        <mixed-citation publication-type="journal">Bramswig, N. C. et al. <article-title>Exome sequencing unravels unexpected differential diagnoses in individuals with the tentative diagnosis of Coffin-Siris and Nicolaides-Baraitser syndromes</article-title>. <source>Hum. Genet.</source>
+<volume>134</volume>, <fpage>553</fpage>&#x2013;568 (<year>2015</year>).<pub-id pub-id-type="pmid">25724810</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib17">
+        <mixed-citation publication-type="journal">Tsurusaki, Y. et al. <article-title>Mutations affecting components of the SWI/SNF complex cause Coffin-Siris syndrome</article-title>. <source>Nat. Genet.</source>
+<volume>44</volume>, <fpage>376</fpage>&#x2013;378 (<year>2012</year>).<pub-id pub-id-type="pmid">22426308</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib18">
+        <mixed-citation publication-type="journal">Di Donato, N. et al. <article-title>Severe forms of Baraitser-Winter syndrome are caused by ACTB mutations rather than ACTG1 mutations</article-title>. <source>Eur. J. Hum. Genet.</source>
+<volume>22</volume>, <fpage>179</fpage>&#x2013;183 (<year>2014</year>).<pub-id pub-id-type="pmid">23756437</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib19">
+        <mixed-citation publication-type="other">Levina, E. &amp; Bickel, P. in<source>Proceedings Eighth IEE International Conference on Computer Vision (ICCV)</source>, Vol. 2, <fpage>251</fpage>&#x2013;256 (<year>2001</year>).</mixed-citation>
+      </ref>
+      <ref id="bib20">
+        <mixed-citation publication-type="journal">Genome of the Netherlands Consortium. <article-title>Whole-genome sequence variation, population structure and demographic history of the Dutch population</article-title>. <source>Nat. Genet.</source>
+<volume>46</volume>, <fpage>818</fpage>&#x2013;825 (<year>2014</year>).<pub-id pub-id-type="pmid">24974849</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib21">
+        <mixed-citation publication-type="journal">Click, E. S., Stearns, T. &amp; Botstein, D. <article-title>Systematic structure-function analysis of the small GTPase Arf1 in yeast</article-title>. <source>Mol. Biol. Cell</source>
+<volume>13</volume>, <fpage>1652</fpage>&#x2013;1664 (<year>2002</year>).<pub-id pub-id-type="pmid">12006660</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib22">
+        <mixed-citation publication-type="journal">Serbzhinskiy, D. A. et al. <article-title>Structure of an ADP-ribosylation factor, ARF1, from Entamoeba histolytica bound to Mg(2+)-GDP</article-title>. <source>Acta Crystallogr. Sect. F Struct. Biol. Commun.</source>
+<volume>71</volume>, <fpage>594</fpage>&#x2013;599 (<year>2015</year>).<pub-id pub-id-type="pmid">25945714</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib23">
+        <mixed-citation publication-type="journal">Zhang, J. et al. <article-title>Filamin A regulates neuronal migration through brefeldin A-inhibited guanine exchange factor 2-dependent Arf1 activation</article-title>. <source>J. Neurosci.</source>
+<volume>33</volume>, <fpage>15735</fpage>&#x2013;15746 (<year>2013</year>).<pub-id pub-id-type="pmid">24089482</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib24">
+        <mixed-citation publication-type="journal">Donaldson, J. G., Honda, A. &amp; Weigert, R. <article-title>Multiple activities for Arf1 at the Golgi complex</article-title>. <source>Biochim. Biophys. Acta</source>
+<volume>1744</volume>, <fpage>364</fpage>&#x2013;373 (<year>2005</year>).<pub-id pub-id-type="pmid">15979507</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib25">
+        <mixed-citation publication-type="journal">Hess, D. T. et al. <article-title>Rapid arrest of axon elongation by brefeldin A: a role for the small GTP-binding protein ARF in neuronal growth cones</article-title>. <source>J. Neurobiol.</source>
+<volume>38</volume>, <fpage>105</fpage>&#x2013;115 (<year>1999</year>).<pub-id pub-id-type="pmid">10027566</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib26">
+        <mixed-citation publication-type="journal">Rocca, D. L. et al. <article-title>The small GTPase Arf1 modulates Arp2/3-mediated actin polymerization via PICK1 to regulate synaptic plasticity</article-title>. <source>Neuron</source>
+<volume>79</volume>, <fpage>293</fpage>&#x2013;307 (<year>2013</year>).<pub-id pub-id-type="pmid">23889934</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib27">
+        <mixed-citation publication-type="journal">Bellouze, S. et al. <article-title>Golgi fragmentation in pmn mice is due to a defective ARF1/TBCE cross-talk that coordinates COPI vesicle formation and tubulin polymerization</article-title>. <source>Hum. Mol. Genet.</source>
+<volume>23</volume>, <fpage>5961</fpage>&#x2013;5975 (<year>2014</year>).<pub-id pub-id-type="pmid">24951541</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib28">
+        <mixed-citation publication-type="journal">Lian, G. &amp; Sheen, V. L. <article-title>Cytoskeletal proteins in cortical development and disease: actin associated proteins in periventricular heterotopia</article-title>. <source>Front. Cell Neurosci.</source>
+<volume>9</volume>, <fpage>99</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25883548</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib29">
+        <mixed-citation publication-type="journal">Fallil, Z. et al. <article-title>Phenotypic and imaging features of FLNA-negative patients with bilateral periventricular nodular heterotopia and epilepsy</article-title>. <source>Epilepsy Behav.</source>
+<volume>51</volume>, <fpage>321</fpage>&#x2013;327 (<year>2015</year>).<pub-id pub-id-type="pmid">26340046</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib30">
+        <mixed-citation publication-type="journal">Sheen, V. L. et al. <article-title>Mutations in ARFGEF2 implicate vesicle trafficking in neural progenitor proliferation and migration in the human cerebral cortex</article-title>. <source>Nat. Genet.</source>
+<volume>36</volume>, <fpage>69</fpage>&#x2013;76 (<year>2004</year>).<pub-id pub-id-type="pmid">14647276</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib31">
+        <mixed-citation publication-type="journal">Hayakawa, N. et al. <article-title>The ADP-ribosylation factor 1 gene is indispensable for mouse embryonic development after implantation</article-title>. <source>Biochem. Biophys. Res. Commun.</source>
+<volume>453</volume>, <fpage>748</fpage>&#x2013;753 (<year>2014</year>).<pub-id pub-id-type="pmid">25305484</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib32">
+        <mixed-citation publication-type="journal">Osbun, N. et al. <article-title>Genetic and functional analyses identify DISC1 as a novel callosal agenesis candidate gene</article-title>. <source>Am. J. Med. Genet. A</source>
+<volume>155A</volume>, <fpage>1865</fpage>&#x2013;1876 (<year>2011</year>).<pub-id pub-id-type="pmid">21739582</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib33">
+        <mixed-citation publication-type="journal">Francioli, L. C. et al. <article-title>Genome-wide patterns and properties of de novo mutations in humans</article-title>. <source>Nat. Genet.</source>
+<volume>47</volume>, <fpage>822</fpage>&#x2013;826 (<year>2015</year>).<pub-id pub-id-type="pmid">25985141</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib34">
+        <mixed-citation publication-type="journal">Nei, M. &amp; Gojobori, T. <article-title>Simple methods for estimating the numbers of synonymous and nonsynonymous nucleotide substitutions</article-title>. <source>Mol. Biol. Evol.</source>
+<volume>3</volume>, <fpage>418</fpage>&#x2013;426 (<year>1986</year>).<pub-id pub-id-type="pmid">3444411</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib35">
+        <mixed-citation publication-type="journal">Sobolev, V., Sorokine, A., Prilusky, J., Abola, E. E. &amp; Edelman, M. <article-title>Automated analysis of interatomic contacts in proteins</article-title>. <source>Bioinformatics</source>
+<volume>15</volume>, <fpage>327</fpage>&#x2013;332 (<year>1999</year>).<pub-id pub-id-type="pmid">10320401</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib36">
+        <mixed-citation publication-type="journal">Sobreira, N., Schiettecatte, F., Valle, D. &amp; Hamosh, A. <article-title>Genematcher: a matching tool for connecting investigators with an interest in the same gene</article-title>. <source>Hum. Mutat.</source>
+<volume>36</volume>, <fpage>928</fpage>&#x2013;930 (<year>2015</year>).<pub-id pub-id-type="pmid">26220891</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="fig1">
+      <label>Figure 1</label>
+      <caption>
+        <p>Missense depletion of genes by disease inheritance pattern. Violin plots of d<italic>N</italic>/d<italic>S</italic> for disease genes by inheritance annotation (OMIM and Orphanet). AD, autosomal dominant; AR, autosomal recessive, XL, X-linked. <italic>P</italic>&lt;2.2e&#x2212;16, Kruskal&#x2013;Wallis rank sum test.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="npjgenmed201636-f1"/>
+    </fig>
+    <fig id="fig2">
+      <label>Figure 2</label>
+      <caption>
+        <p>Missense-depleted regions in genes using population exomes. (<bold>a</bold>) Missense variant site density plots along the coding sequence length of <italic>ACTB</italic> or <italic>SMARCA4</italic> from ~6,500 sequenced exomes from ESP. Grey-shaded regions indicate candidate missense-depleted regions (MDRs) that lack missense variants but that have synonymous variants. (<bold>b</bold>) Missense variant plots for <italic>ACTB</italic> and <italic>SMARCA4</italic> using ~60,000 exomes from ExAC data, further delineate MDRs. (<bold>c</bold>) Density plots of pathogenic missense variant sites from ClinVar.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="npjgenmed201636-f2"/>
+    </fig>
+    <fig id="fig3">
+      <label>Figure 3</label>
+      <caption>
+        <p>Prioritisation of variant-affected genes from the proband. Comparison of variant-affected genes from the proband (vertical lines) compared with the distribution for all genes in the exome (histogram). (<bold>a</bold>) Evaluation by d<italic>N</italic>/d<italic>S</italic> from population exomes, a lower score indicates higher priority. (<bold>b</bold>) Evaluation using Earthmover's distance, a measure for potential MDR-containing gene. Candidates <italic>ARF1</italic>, <italic>SEPT7</italic> and <italic>SOD1</italic> are highlighted in coloured vertical lines.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="npjgenmed201636-f3"/>
+    </fig>
+    <fig id="fig4">
+      <label>Figure 4</label>
+      <caption>
+        <p>Localisation of variants on ARF1. In blue, location of <italic>de novo</italic> heterozygous c.103T&gt;C (p.Y35H), <italic>de novo</italic> heterozygous variant c.296G&gt;A (p.R99H), and <italic>de novo</italic> heterozygous c.379A&gt;G (p.K127E) from cases. <italic>De novo</italic> missense variants in <italic>ARF1</italic> from brain malformation cases are localised near the GDP-binding site of ARF1 in contrast to the variants found in the ExAC population (dark grey numbers). Colours: ARF1 (orange) and the ARFGEF Sec7 domain, GDP (light blue) and Mg2<sup>+</sup>. (<bold>a</bold>, <bold>b</bold>) are different views of ARF1. Structure from protein database accession 1R8Q.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="npjgenmed201636-f4"/>
+    </fig>
+    <fig id="fig5">
+      <label>Figure 5</label>
+      <caption>
+        <p>Variant in ARF1 alters nucleotide activation. ARF1 nucleotide activation of wildtype (WT) or p.Y35H ARF1-transfected 293T cells. 293T cells basal ARF1 expression (lane 1), and wildtype and p.Y35H transfection demonstrate similar ARF1 expression (lanes 2 and 3). Blank (lane 4) Pulldown for GTP-activated ARF1 (lanes 5&#x2013;9): Basal activated ARF1 (lane 7). Compared to activated ARF1 levels in WT (lane 8), p.Y35H variant demonstrates reduced GTP activation (lane 9). Lanes 1&#x2013;3 represent the protein expression for the assay. Lanes 5&#x2013;6 represent the positive and negative controls (GTP-gamma-S and GDP, respectively). Result is representative for three independent transfection experiments with pulldown and western blotting.</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="npjgenmed201636-f5"/>
+    </fig>
+    <table-wrap id="tbl1">
+      <label>Table 1</label>
+      <caption>
+        <title>Enrichment of MDR-containing genes for gene ontology terms</title>
+      </caption>
+      <table frame="hsides" rules="groups" border="1">
+        <colgroup>
+          <col align="left"/>
+          <col align="center"/>
+          <col align="center"/>
+          <col align="char" char="."/>
+          <col align="center"/>
+        </colgroup>
+        <thead valign="bottom">
+          <tr>
+            <th align="left" valign="top" charoff="50">
+              <italic>Category</italic>
+            </th>
+            <th align="left" valign="top" charoff="50">
+              <italic>Term</italic>
+              <xref ref-type="fn" rid="t1-fn1">a</xref>
+            </th>
+            <th align="center" valign="top" charoff="50">P-<italic>value</italic></th>
+            <th align="center" valign="top" char="." charoff="50">
+              <italic>Fold</italic>
+            </th>
+            <th align="center" valign="top" charoff="50">
+              <italic>Bonferroni</italic>
+            </th>
+          </tr>
+        </thead>
+        <tbody valign="top">
+          <tr>
+            <td align="left" valign="top" charoff="50">MF</td>
+            <td align="left" valign="top" charoff="50">GO:0000166 nucleotide binding</td>
+            <td align="center" valign="top" charoff="50">1.05e&#x2212;07</td>
+            <td align="char" valign="top" char="." charoff="50">2.17</td>
+            <td align="center" valign="top" charoff="50">1.13e&#x2212;04</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">MF</td>
+            <td align="left" valign="top" charoff="50">GO:0032553 ribonucleotide binding</td>
+            <td align="center" valign="top" charoff="50">1.35e&#x2212;07</td>
+            <td align="char" valign="top" char="." charoff="50">2.34</td>
+            <td align="center" valign="top" charoff="50">1.28e&#x2212;04</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">MF</td>
+            <td align="left" valign="top" charoff="50">GO:0032555 purine ribonucleotide binding</td>
+            <td align="center" valign="top" charoff="50">1.35e&#x2212;07</td>
+            <td align="char" valign="top" char="." charoff="50">2.34</td>
+            <td align="center" valign="top" charoff="50">1.28e&#x2212;04</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">CC</td>
+            <td align="left" valign="top" charoff="50">GO:0043005 neuron projection</td>
+            <td align="center" valign="top" charoff="50">4.14e&#x2212;07</td>
+            <td align="char" valign="top" char="." charoff="50">5.40</td>
+            <td align="center" valign="top" charoff="50">1.38e&#x2212;04</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">MF</td>
+            <td align="left" valign="top" charoff="50">GO:0017076 purine nucleotide binding</td>
+            <td align="center" valign="top" charoff="50">2.26e&#x2212;07</td>
+            <td align="char" valign="top" char="." charoff="50">2.24</td>
+            <td align="center" valign="top" charoff="50">3.87e&#x2212;04</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">BP</td>
+            <td align="left" valign="top" charoff="50">GO:0030001 metal ion transport</td>
+            <td align="center" valign="top" charoff="50">1.16e&#x2212;06</td>
+            <td align="char" valign="top" char="." charoff="50">4.40</td>
+            <td align="center" valign="top" charoff="50">6.81e&#x2212;04</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">MF</td>
+            <td align="left" valign="top" charoff="50">GO:0032559 adenyl ribonucleotide binding</td>
+            <td align="center" valign="top" charoff="50">1.76e&#x2212;06</td>
+            <td align="char" valign="top" char="." charoff="50">2.40</td>
+            <td align="center" valign="top" charoff="50">9.79e&#x2212;04</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">BP</td>
+            <td align="left" valign="top" charoff="50">GO:0006812 cation transport</td>
+            <td align="center" valign="top" charoff="50">5.33e&#x2212;07</td>
+            <td align="char" valign="top" char="." charoff="50">3.92</td>
+            <td align="center" valign="top" charoff="50">1.54e&#x2212;03</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">MF</td>
+            <td align="left" valign="top" charoff="50">GO:0046873 metal ion transmembrane transporter activity</td>
+            <td align="center" valign="top" charoff="50">2.74e&#x2212;06</td>
+            <td align="char" valign="top" char="." charoff="50">4.75</td>
+            <td align="center" valign="top" charoff="50">1.91e&#x2212;03</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" charoff="50">MF</td>
+            <td align="left" valign="top" charoff="50">GO:0005524 ATP binding</td>
+            <td align="center" valign="top" charoff="50">3.52e&#x2212;06</td>
+            <td align="char" valign="top" char="." charoff="50">2.36</td>
+            <td align="center" valign="top" charoff="50">2.18e&#x2212;03</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="t1-tfoot1">
+          <p>Abbreviations: BP, biological process; CC, cell compartment; GO, gene ontology; MF, molecular function.</p>
+        </fn>
+        <fn id="t1-fn1">
+          <label>a</label>
+          <p>Top 10 highest enriched terms are listed.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

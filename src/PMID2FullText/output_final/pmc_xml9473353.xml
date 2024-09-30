@@ -1,0 +1,2347 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Brain</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Brain</journal-id>
+      <journal-id journal-id-type="publisher-id">brainj</journal-id>
+      <journal-title-group>
+        <journal-title>Brain</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0006-8950</issn>
+      <issn pub-type="epub">1460-2156</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35718349</article-id>
+      <article-id pub-id-type="pmc">9473353</article-id>
+      <article-id pub-id-type="doi">10.1093/brain/awac123</article-id>
+      <article-id pub-id-type="publisher-id">awac123</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="category-taxonomy-collection">
+          <subject>AcademicSubjects/MED00310</subject>
+          <subject>AcademicSubjects/SCI01870</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>TMEM63C mutations cause mitochondrial morphology defects and underlie
+hereditary spastic paraplegia</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7684-3811</contrib-id>
+          <name>
+            <surname>T&#xE1;bara</surname>
+            <given-names>Luis Carlos</given-names>
+          </name>
+          <aff>
+<institution>Medical Research Council Mitochondrial Biology Unit, University of
+Cambridge</institution>, <addr-line>Cambridge CB2 0XY</addr-line>, <country country="GB">UK</country></aff>
+          <xref rid="awac123-FM1" ref-type="author-notes"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Al-Salmi</surname>
+            <given-names>Fatema</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <xref rid="awac123-FM1" ref-type="author-notes"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Maroofian</surname>
+            <given-names>Reza</given-names>
+          </name>
+          <aff>
+<institution>UCL Queen Square Institute of Neurology, University College
+London</institution>, <addr-line>London WC1E 6BT</addr-line>, <country country="GB">UK</country></aff>
+          <xref rid="awac123-FM1" ref-type="author-notes"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Al-Futaisi</surname>
+            <given-names>Amna Mohammed</given-names>
+          </name>
+          <aff>
+<institution>Genetic and Developmental Medicine Clinic, Department of Genetics, College
+of Medicine and Health Sciences, Sultan Qaboos University Hospital</institution>,
+<addr-line>Muscat 123</addr-line>, <country country="OM">Oman</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Al-Murshedi</surname>
+            <given-names>Fathiya</given-names>
+          </name>
+          <aff>
+<institution>Genetic and Developmental Medicine Clinic, Department of Genetics, College
+of Medicine and Health Sciences, Sultan Qaboos University Hospital</institution>,
+<addr-line>Muscat 123</addr-line>, <country country="OM">Oman</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kennedy</surname>
+            <given-names>Joanna</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <aff>
+<institution>Clinical Genetics, University Hospitals Bristol</institution>,
+<addr-line>Bristol BS2 8EG</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Day</surname>
+            <given-names>Jacob O</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <aff>
+<institution>Faculty of Health, University of Plymouth</institution>,
+<addr-line>Plymouth PL4 8AA</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0275-2498</contrib-id>
+          <name>
+            <surname>Courtin</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <aff>
+<institution>D&#xE9;partement de g&#xE9;n&#xE9;tique, H&#xF4;pital Piti&#xE9;-Salp&#xEA;tri&#xE8;re, Assistance
+Publique-H&#xF4;pitaux de Paris</institution>, <addr-line>75019 Paris, Sorbonne
+Universit&#xE9;</addr-line>, <country country="FR">France</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Al-Khayat</surname>
+            <given-names>Aisha</given-names>
+          </name>
+          <aff>
+<institution>Department of Biology, College of Science, Sultan Qaboos
+University</institution>, <addr-line>Muscat</addr-line>, <country country="OM">Oman</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Galedari</surname>
+            <given-names>Hamid</given-names>
+          </name>
+          <aff>
+<institution>Department of Genetics, Faculty of Science, Shahid Chamran University of
+Ahvaz</institution>, <addr-line>Ahvaz</addr-line>, <country country="IR">Iran</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mazaheri</surname>
+            <given-names>Neda</given-names>
+          </name>
+          <aff>
+<institution>Department of Genetics, Faculty of Science, Shahid Chamran University of
+Ahvaz</institution>, <addr-line>Ahvaz</addr-line>, <country country="IR">Iran</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Protasoni</surname>
+            <given-names>Margherita</given-names>
+          </name>
+          <aff>
+<institution>Medical Research Council Mitochondrial Biology Unit, University of
+Cambridge</institution>, <addr-line>Cambridge CB2 0XY</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Johnson</surname>
+            <given-names>Mark</given-names>
+          </name>
+          <aff>
+<institution>Medical Research Council Mitochondrial Biology Unit, University of
+Cambridge</institution>, <addr-line>Cambridge CB2 0XY</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0972-8818</contrib-id>
+          <name>
+            <surname>Leslie</surname>
+            <given-names>Joseph S</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Salter</surname>
+            <given-names>Claire G</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6764-253X</contrib-id>
+          <name>
+            <surname>Rawlins</surname>
+            <given-names>Lettie E</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <aff>
+<institution>Peninsula Clinical Genetics Service, Royal Devon and Exeter Hospital
+(Heavitree)</institution>, <addr-line>Exeter EX1 2ED</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fasham</surname>
+            <given-names>James</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <aff>
+<institution>Peninsula Clinical Genetics Service, Royal Devon and Exeter Hospital
+(Heavitree)</institution>, <addr-line>Exeter EX1 2ED</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Al-Maawali</surname>
+            <given-names>Almundher</given-names>
+          </name>
+          <aff>
+<institution>Genetic and Developmental Medicine Clinic, Department of Genetics, College
+of Medicine and Health Sciences, Sultan Qaboos University Hospital</institution>,
+<addr-line>Muscat 123</addr-line>, <country country="OM">Oman</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Voutsina</surname>
+            <given-names>Nikol</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Charles</surname>
+            <given-names>Perrine</given-names>
+          </name>
+          <aff>
+<institution>D&#xE9;partement de g&#xE9;n&#xE9;tique, H&#xF4;pital Piti&#xE9;-Salp&#xEA;tri&#xE8;re, Assistance
+Publique-H&#xF4;pitaux de Paris</institution>, <addr-line>75019 Paris, Sorbonne
+Universit&#xE9;</addr-line>, <country country="FR">France</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Harrold</surname>
+            <given-names>Laura</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Keren</surname>
+            <given-names>Boris</given-names>
+          </name>
+          <aff>
+<institution>D&#xE9;partement de g&#xE9;n&#xE9;tique, H&#xF4;pital Piti&#xE9;-Salp&#xEA;tri&#xE8;re, Assistance
+Publique-H&#xF4;pitaux de Paris</institution>, <addr-line>75019 Paris, Sorbonne
+Universit&#xE9;</addr-line>, <country country="FR">France</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0610-4500</contrib-id>
+          <name>
+            <surname>Kunji</surname>
+            <given-names>Edmund R S</given-names>
+          </name>
+          <aff>
+<institution>Medical Research Council Mitochondrial Biology Unit, University of
+Cambridge</institution>, <addr-line>Cambridge CB2 0XY</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6719-3447</contrib-id>
+          <name>
+            <surname>Vona</surname>
+            <given-names>Barbara</given-names>
+          </name>
+          <aff>
+<institution>Department of Otolaryngology-Head and Neck Surgery, T&#xFC;bingen Hearing
+Research Centre, Eberhard Karls University T&#xFC;bingen</institution>,
+<addr-line>T&#xFC;bingen</addr-line>, <country country="DE">Germany</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jelodar</surname>
+            <given-names>Gholamreza</given-names>
+          </name>
+          <aff>
+<institution>Pediatric Neurology, Ahvaz Jundishapur University of Medical
+Sciences</institution>, <addr-line>Ahvaz</addr-line>, <country country="IR">Iran</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sedaghat</surname>
+            <given-names>Alireza</given-names>
+          </name>
+          <aff>
+<institution>Health Research Institute, Diabetes Research Center, Ahvaz Jundishapur
+University of Medical Sciences</institution>, <addr-line>Ahvaz</addr-line>, <country country="IR">Iran</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shariati</surname>
+            <given-names>Gholamreza</given-names>
+          </name>
+          <aff>
+<institution>Department of Medical Genetic, Faculty of Medicine, Ahvaz Jundishapur,
+University of Medical Sciences</institution>, <addr-line>Ahvaz</addr-line>, <country country="IR">Iran</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2866-7777</contrib-id>
+          <name>
+            <surname>Houlden</surname>
+            <given-names>Henry</given-names>
+          </name>
+          <aff>
+<institution>UCL Queen Square Institute of Neurology, University College
+London</institution>, <addr-line>London WC1E 6BT</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6637-3411</contrib-id>
+          <name>
+            <surname>Crosby</surname>
+            <given-names>Andrew H</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <xref rid="awac123-cor1" ref-type="corresp"/>
+          <!--a.h.crosby@exeter.ac.uk-->
+          <xref rid="awac123-FM1" ref-type="author-notes"/>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3821-6088</contrib-id>
+          <name>
+            <surname>Prudent</surname>
+            <given-names>Julien</given-names>
+          </name>
+          <aff>
+<institution>Medical Research Council Mitochondrial Biology Unit, University of
+Cambridge</institution>, <addr-line>Cambridge CB2 0XY</addr-line>, <country country="GB">UK</country></aff>
+          <xref rid="awac123-cor2" ref-type="corresp"/>
+          <xref rid="awac123-FM1" ref-type="author-notes"/>
+          <!--julien.prudent@mrc-mbu.cam.ac.uk-->
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Baple</surname>
+            <given-names>Emma L</given-names>
+          </name>
+          <aff>
+<institution>Level 4, RILD Wellcome Wolfson Medical Research Centre, RD&amp;E (Wonford)
+NHS Foundation Trust, University of Exeter Medical School</institution>,
+<addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <aff>
+<institution>Peninsula Clinical Genetics Service, Royal Devon and Exeter Hospital
+(Heavitree)</institution>, <addr-line>Exeter EX1 2ED</addr-line>, <country country="GB">UK</country></aff>
+          <xref rid="awac123-cor3" ref-type="corresp"/>
+          <!--e.baple@exeter.ac.uk-->
+          <xref rid="awac123-FM1" ref-type="author-notes"/>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <corresp id="awac123-cor1">Correspondence to: Professor Andrew Crosby RILD Wellcome Wolfson
+Centre Royal Devon and Exeter NHS Foundation Trust Barrack Road, Exeter EX2 5DW, UK
+E-mail: <email>a.h.crosby@exeter.ac.uk</email></corresp>
+        <corresp id="awac123-cor2">Correspondence may also be addressed to: Dr Julien Prudent MRC
+Mitochondrial Biology Unit University of Cambridge, The Keith Peters building Cambridge
+Biomedical Campus Hills Road, Cambridge CB2 0XY, UK E-mail:
+<email>julien.prudent@mrc-mbu.cam.ac.uk</email></corresp>
+        <corresp id="awac123-cor3">Dr Emma Baple RILD Wellcome Wolfson Centre Royal Devon and Exeter
+NHS Foundation Trust Barrack Road, Exeter, EX2 5DW, UK E-mail:
+<email>e.baple@exeter.ac.uk</email></corresp>
+        <fn id="awac123-FM1">
+          <p>Luis Carlos T&#xE1;bara, Fatema Al-Salmi, Reza Maroofian, Andrew H Crosby, Julien Prudent
+and Emma L Baple contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>9</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="epub" iso-8601-date="2022-06-18">
+        <day>18</day>
+        <month>6</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>18</day>
+        <month>6</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>145</volume>
+      <issue>9</issue>
+      <fpage>3095</fpage>
+      <lpage>3107</lpage>
+      <history>
+        <date date-type="received">
+          <day>07</day>
+          <month>7</month>
+          <year>2021</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>10</day>
+          <month>2</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>3</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2022. Published by Oxford University Press on behalf of
+the Guarantors of Brain.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p>This is an Open Access article distributed under the terms of the Creative
+Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted
+reuse, distribution, and reproduction in any medium, provided the original work is
+properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="awac123.pdf"/>
+      <related-article related-article-type="correction-forward" ext-link-type="doi" id="RA1" xlink:href="10.1093/brain/awac254"/>
+      <abstract>
+        <title>Abstract</title>
+        <p>The hereditary spastic paraplegias (HSP) are among the most genetically diverse of all
+Mendelian disorders. They comprise a large group of neurodegenerative diseases that may be
+divided into &#x2018;pure HSP&#x2019; in forms of the disease primarily entailing progressive lower-limb
+weakness and spasticity, and &#x2018;complex HSP&#x2019; when these features are accompanied by other
+neurological (or non-neurological) clinical signs. Here, we identified biallelic variants
+in the transmembrane protein 63C (<italic toggle="yes">TMEM63C</italic>) gene, encoding a predicted
+osmosensitive calcium-permeable cation channel, in individuals with hereditary spastic
+paraplegias associated with mild intellectual disability in some, but not all cases.
+Biochemical and microscopy analyses revealed that TMEM63C is an endoplasmic
+reticulum-localized protein, which is particularly enriched at mitochondria&#x2013;endoplasmic
+reticulum contact sites. Functional <italic toggle="yes">in cellula</italic> studies indicate a role
+for TMEM63C in regulating both endoplasmic reticulum and mitochondrial morphologies.
+Together, these findings identify autosomal recessive <italic toggle="yes">TMEM63C</italic> variants as
+a cause of pure and complex HSP and add to the growing evidence of a fundamental
+pathomolecular role of perturbed mitochondrial-endoplasmic reticulum dynamics in motor
+neurone degenerative diseases.</p>
+      </abstract>
+      <abstract abstract-type="teaser">
+        <p>Al-Salmi <italic toggle="yes">et al.</italic> show that <italic toggle="yes">TMEM63C</italic> variants cause HSP
+with/without intellectual disability. Consistent with lipidomic imbalance being a common
+feature of HSP, they show <italic toggle="yes">in cellulo</italic> that TMEM63C is enriched at
+mitochondrial-ER contact sites and that <italic toggle="yes">TMEM63C</italic> knockout causes
+mitochondrial morphology defects.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>TMEM63C</kwd>
+        <kwd>hereditary spastic paraplegia/HSP</kwd>
+        <kwd>mitochondria</kwd>
+        <kwd>endoplasmic reticulum/ER</kwd>
+        <kwd>mitochondria-ER contact sites/MERCs</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Halpin Trust</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Hereditary Spastic Paraplegia Support Group</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Medical Research Council UK</institution></institution-wrap>
+</funding-source>
+          <award-id>MC_UU_00015/7</award-id>
+          <award-id>G1002279</award-id>
+          <award-id>G1001931</award-id>
+          <award-id>MC-PC-18047</award-id>
+          <award-id>MC_PC_15054</award-id>
+          <award-id>MC_PC_15047</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>University of Exeter</institution><institution-id institution-id-type="doi">10.13039/501100000737</institution-id></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Newlife Foundation for Disabled Children</institution><institution-id institution-id-type="doi">10.13039/100016187</institution-id></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Oman Ministry of Higher Education</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Sultanate of Oman</institution></institution-wrap>
+</funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="awac123-s1">
+      <title>Introduction</title>
+      <p>Hereditary spastic paraplegia (HSP) was first described by Strumpell and Lorrain in the
+late 19th century and was initially considered to be a small group of Mendelian disorders.
+However, subsequent advancements in our understanding of the genetic architecture of HSP
+have led to it being recognized as one of the most genetically (&gt;80 causative genes) and
+clinically heterogeneous of inherited diseases. HSP is characterized clinically by
+lower-limb spasticity and weakness, and pathologically by the retrograde degeneration of
+motor neurons.<sup><xref rid="awac123-B1" ref-type="bibr">1</xref>,<xref rid="awac123-B2" ref-type="bibr">2</xref></sup> HSP may be subdivided into pure and complex forms,
+depending on whether other system involvement or neurological features accompany the
+cardinal clinical sign of progressive lower-limb spastic weakness. Autosomal recessive forms
+account for an estimated 25&#x2013;30% of HSP patients, typically involving complex forms of HSP
+with additional clinical features including impaired vision and hearing, cognitive
+impairment, seizures and peripheral neuropathy.<sup><xref rid="awac123-B1" ref-type="bibr">1</xref></sup> At present, there is no cure for the condition and treatments are
+largely symptomatic, involving the use of antispasmodic agents such as baclofen, progabide
+and dalfampridine.<sup><xref rid="awac123-B3" ref-type="bibr">3</xref></sup> Increasing
+understanding of the biological basis of HSP is supporting the development of new
+treatments, which have the potential to be personalized depending on the underlying genetic
+cause.<sup><xref rid="awac123-B3" ref-type="bibr">3</xref></sup></p>
+      <p>The significant molecular heterogeneity of HSP is indicative of a complex pathomolecular
+aetiology, which remains poorly understood with genes associated with the condition being
+implicated in a wide array of cellular processes. These include protection against oxidative
+stress, DNA repair, metabolism of neuroprotective steroids, myelin sheath stabilization,
+axonal growth and subcellular transport,<sup><xref rid="awac123-B4" ref-type="bibr">4</xref></sup> all proposed to lead to axonal failure and progressive lower-limb
+spasticity characteristic of the condition.<sup><xref rid="awac123-B1" ref-type="bibr">1</xref>,<xref rid="awac123-B3" ref-type="bibr">3</xref></sup> Recently, increasing
+genetic and molecular evidence suggests a potential central role for aberrant lipid
+metabolic processes in particular involving endoplasmic reticulum (ER), mitochondria and
+other organelles.<sup><xref rid="awac123-B2" ref-type="bibr">2</xref></sup> Many of the
+genes associated with motor neuron degenerative diseases, including HSP, have been linked in
+molecular studies with lipid metabolic pathways, in particular involving molecular flux
+between the ER and mitochondria. ER and mitochondrial compartments connect via
+mitochondria-ER contact sites (MERCs),<sup><xref rid="awac123-B2" ref-type="bibr">2</xref></sup> which are distinct structural domains characterized by the close
+apposition of both ER and mitochondrial membranes, and establish a molecular platform
+crucial for signalling and metabolite flux between both organelles in order to maintain
+organelle and cellular homeostasis.<sup><xref rid="awac123-B5" ref-type="bibr">5&#x2013;7</xref></sup> The ER is the main site of phospholipid biosynthesis
+and provides lipid precursors to other membranes, including mitochondria.<sup><xref rid="awac123-B8" ref-type="bibr">8</xref>,<xref rid="awac123-B9" ref-type="bibr">9</xref></sup> Phospholipid transport from the ER to mitochondria via MERCs enables the
+synthesis of essential mitochondrial phospholipids including cardiolipin, phosphatidylserine
+and phosphatidylethanolamine.<sup><xref rid="awac123-B10" ref-type="bibr">10</xref></sup>
+These molecular pathways provide the essential building blocks of biological membranes, and
+alterations in genes encoding the proteins regulating these pathways have been linked with
+HSP.<sup><xref rid="awac123-B2" ref-type="bibr">2</xref>,<xref rid="awac123-B10" ref-type="bibr">10&#x2013;12</xref></sup> Thus,
+maintaining MERCs integrity is increasingly recognized as being critical for phospholipid
+metabolism and also cellular homeostasis more widely,<sup><xref rid="awac123-B13" ref-type="bibr">13</xref></sup> and gene alterations leading to impaired MERCs function
+probably form a molecular theme common to many neurological disorders.<sup><xref rid="awac123-B2" ref-type="bibr">2</xref>,<xref rid="awac123-B14" ref-type="bibr">14</xref></sup></p>
+      <p>The osmosensitive calcium (OSCA)/transmembrane protein 63 (TMEM63) protein family members
+entail a newly identified family of mechanical ion channels activated by membrane tension,
+which are conserved across eukaryotes.<sup><xref rid="awac123-B15" ref-type="bibr">15</xref></sup> The family comprises three members: <italic toggle="yes">TMEM63A</italic>,
+<italic toggle="yes">TMEM63B</italic> and <italic toggle="yes">TMEM63C</italic>, the function of which has not been
+extensively explored in mammals. Zhao <italic toggle="yes">et al</italic>.<sup><xref rid="awac123-B16" ref-type="bibr">16</xref></sup> identified a possible role of <italic toggle="yes">TMEM63</italic>
+proteins as osmoreceptor transduction channels, and found that expression of all three
+members was required in cell transfection studies for channel activity. Studies on
+<italic toggle="yes">TMEM63C</italic> plant orthologues (AtCSC1 and OSCA1) indicate that it may indeed
+function as a Ca<sup>2+</sup> permeable cation channel that is activated by hyperosmotic
+stress.<sup><xref rid="awac123-B15" ref-type="bibr">15</xref>,<xref rid="awac123-B16" ref-type="bibr">16</xref></sup> While previous studies of TMEM63C are restricted to its
+plant orthologues, maintenance of the ionic and osmotic composition and volume of fluids is
+crucial for the normal functioning of the brain,<sup><xref rid="awac123-B17" ref-type="bibr">17</xref></sup> of clear relevance should the mammalian (and human)
+<italic toggle="yes">TMEM63C</italic> orthologues possess similar functionalities. Interestingly,
+studying the structure of ER-localized OSCA1.2, a plant orthologue of
+<italic toggle="yes">TMEM63C</italic>, revealed striking topological similarities with the
+transmembrane protein <italic toggle="yes">TMEM16.</italic><sup><xref rid="awac123-B18" ref-type="bibr">18</xref>,<xref rid="awac123-B19" ref-type="bibr">19</xref></sup> Dysfunction of
+different TMEM16 proteins (also known as anoctamins) is associated with several neurologic
+disorders, including muscle disease, cerebellar ataxia and dystonia.<sup><xref rid="awac123-B20" ref-type="bibr">20</xref></sup> Importantly, one member of this
+family, TMEM16K, has been proposed to regulate endosomal function at ER-endosome contact
+sites. Furthermore, the yeast TMEM16 orthologue, Ist2p, is a tether protein connecting the
+ER and the plasma membrane, identifying a role of some TMEM16 family members at membrane
+contact sites.<sup><xref rid="awac123-B21" ref-type="bibr">21</xref>,<xref rid="awac123-B22" ref-type="bibr">22</xref></sup> Here we present genetic, clinical and molecular data
+that identify biallelic variants in <italic toggle="yes">TMEM63C</italic> probably leading to loss of
+function, as a cause of both pure and complex HSP. Our molecular studies determine that
+TMEM63C is an ER-localized protein enriched at MERCs, and that <italic toggle="yes">TMEM63C</italic>
+knockdown is associated with mitochondrial and ER morphological defects, revealing a
+previously unidentified role of TMEM63C in mediating organelle homeostasis.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="awac123-s2">
+      <title>Materials and methods</title>
+      <sec id="awac123-s2.1">
+        <title>Clinical studies</title>
+        <p>All research was performed with informed consent from the study participants or their
+legal guardians, and according to institutional and international guidelines for studies
+with human subjects and materials (approved protocols; RC/SCI/BIOL/10/01 and EE/97.24.3
+17654/scu.ac, ir). Affected individuals were investigated according to routine clinical
+standards for the diagnosis of neurological disease.</p>
+      </sec>
+      <sec id="awac123-s2.2">
+        <title>Genetic studies</title>
+        <p>DNA was extracted from blood using standard techniques. Single nucleotide polymorphism
+(SNP) genotyping was carried out on DNA from both affected individuals from Family 1
+(IV:2, IV:8), using Illumina Human CytoSNP-12v2.1 arrays.</p>
+        <p>In all three families, whole exome sequencing (WES) was undertaken to identify the cause
+of disease. Genomic variants were filtered based on call quality, impact on gene function,
+allele frequency in the population databases and segregation with disease. Variants were
+then assessed for clinical correlation with the affected individual(s) phenotype. In
+Family 1, WES was performed in Exeter on DNA from affected Individual IV:2 (NextSeq500;
+Illumina, San Diego, CA, USA) and involved Agilent Sureselect Whole Exome v.6 (Agilent
+Technologies, Santa Clara, CA, USA) targeting, read alignment (BWA-MEM v.0.7.17),
+mate-pairs fixed and duplicates removed (Picard v.2.15), InDel realignment and base
+quality recalibration (GATK v.3.7.0), single nucleotide variant and InDel detection (GATK
+HaplotypeCaller), variant annotation [Alamut batch v.1.10 and SnpEff (<ext-link xlink:href="http://snpeff.sourceforge.net/SnpEff_manual.html" ext-link-type="uri">http://snpeff.sourceforge.net/SnpEff_manual.html</ext-link>)] and read depth assessment
+(equivalent to GATK DepthOfCoverage). Copy number variants (CNVs) were detected using
+SavvyCNV. Variants with &lt;5 reads and/or a frequency &gt;0.1% in public genome databases
+including the Genome Aggregation Database (gnomAD v2.1.1) and the 1000 Genomes Project
+were excluded. Homozygous and compound heterozygous variants that were exonic and
+non-synonymous, synonymous with predicted splicing impact or intronic at &#xB1;6 nucleotides
+from splice site were evaluated and cross referenced against the SNP data. In Family 2,
+WES (VI:2) and genome-wide SNP genotyping (affected Individuals: V:I, V:II, VI:I, VI:II)
+were performed in parallel as previously described.<sup><xref rid="awac123-B23" ref-type="bibr">23</xref></sup> Variants were prioritized by call quality and
+frequency &lt;0.1% (gnomAD v.2.1.1) and cross referenced against the SNP data. The variant
+filtering steps followed in Family 2 were otherwise similar to those described previously.
+In Family 3, duo WES was performed on DNA from the proband (II:1) and her mother (NextSeq
+500 Sequencing System, Illumina, San Diego, USA), with a 2&#x2009;&#xD7;&#x2009;150&#x2005;bp high output sequencing
+kit after 12-plex enrichment with SeqCap EZ MedExome kit (Roche). Sequence quality was
+assessed with FastQC v.0.11.5 and reads mapped and indexed [BWA-MEM (v.0.7.13 and Samtools
+v.1.4.1)], duplicates flagged (Sambamba v.0.6.6) and coverage calculated (Picard tools
+v.2.10.10). SNVs/InDels calling was performed using GATK 3.7 Haplotype Caller and CNV
+detection with CNVKit and Excavator2, variants were annotated using Annovar. The variant
+filtering steps followed were similar to those described for Family 1.</p>
+        <p>Unique primers were designed and used for dideoxy sequencing confirmation and
+cosegregation of genomic variants.</p>
+      </sec>
+      <sec id="awac123-s2.3">
+        <title>Molecular and cellular studies</title>
+        <sec id="awac123-s2.3.1">
+          <title>Cell culture and transfections</title>
+          <p>HeLa and SH-SY5Y cells were obtained from American Type Culture Collection and NSC-34
+cells from Cedarlane Laboratories (via tebu-bio). HeLa and NSC-34 cells were cultured in
+Dulbecco&#x2019;s modified Eagle medium (DMEM) (GIBCO) and SH-SY5Y cells in DMEM/F12 medium
+(GIBCO), all supplemented with high-glucose (5&#x2005;g.l<sup>&#x2212;1</sup>), 10% foetal bovine
+serum (FBS), 2&#x2005;mM <sc>l</sc>-glutamine, 1% non-essential amino acids and 100&#x2005;units/ml
+penicillin/streptomycin (all from GIBCO). Cells were maintained at 37&#xB0;C with 5%
+CO<sub>2</sub>. NSC-34 cells were differentiated into neurons by maintaining them in
+DMEM/F12 medium supplemented with 1% FBS, 1% non-essential amino acids and 10&#x2005;&#x3BC;M
+retinoic acid (Scientific Laboratory Supplies) for 14 days.<sup><xref rid="awac123-B24" ref-type="bibr">24</xref></sup></p>
+          <p>Cells at 80% of confluence were transfected for 24&#x2005;h using Fugene HD transfection
+reagent (Promega) following the manufacturers&#x2019; instructions. For small interference (si)
+RNA experiments, cells were reverse transfected using Lipofectamine RNAimax (Invitrogen)
+with 20&#x2005;nM siRNA for 3&#x2005;days, following the manufacturer&#x2019;s instructions. Media was
+changed 6 and 24&#x2005;h after plasmid and siRNA transfections, respectively. NSC-34 cells
+were silenced after 8&#x2005;days of differentiation for 6&#x2005;days with 20&#x2005;nM siRNA, by performing
+two consecutive rounds of reverse transfection with Lipofectamine RNAimax (one every
+3&#x2005;days). Cells were tested for mycoplasma contamination using the Lookout Mycoplasma PCR
+detection kit (Sigma).</p>
+        </sec>
+        <sec id="awac123-s2.3.2">
+          <title>siRNA oligonucleotides and plasmids</title>
+          <p>The following siRNAs were obtained from Dharmacon: non-targeting siRNA (siNT)
+(ONTARGETplus SMARTpool D-0001810-10-20), siRNA targeting human <italic toggle="yes">TMEM63C</italic>
+(siTMEM63C) (ONTARGETplus SMARTpool L-021981-02-0005) and siRNA targeting mouse
+<italic toggle="yes">TMEM63C</italic> (siTMEM63C) (ONTARGETplus SMARTpool L-055603-01-0005). IDT
+codon optimization tool was used to design a Gblock containing the full sequence of
+TMEM63C including a Flag sequence at the C-terminal region and extensions to the 5&#x2032; and
+3&#x2032; ends to enable In-Fusion cloning technology (Takara). The insert was introduced into
+a pcDNA3.1(+) plasmid at the KpnI and XbaI restriction sites. pcDNA3.1(+) backbone
+(empty vector) was used as control.</p>
+        </sec>
+        <sec id="awac123-s2.3.3">
+          <title>Antibodies</title>
+          <p>The following primary antibodies and dilutions were used for immunofluorescence
+studies: mouse anti-Flag (Sigma-Aldrich, F3165) (1:1000), rabbit anti-TOM20 (Santa-Cruz,
+sc11415) (1:1000), rabbit anti-PMP70 (Sigma-Aldrich, SAB4200181) (1:1000), mouse
+anti-p230 (BD Biosciences, 611281) (1:1000), rabbit anti-Rab7 (Abcam, ab137029)
+(1:1000), rat anti-Calnexin (Biolegend, 699401) (1:1000) and mouse anti-Neurofilament H
+(Biolegend, 835801). Donkey anti-mouse, Goat anti-mouse IgG1, Goat anti-mouse IgG2a,
+Goat anti-rabbit and Goat anti-rat, Alexa Fluor 488, 568 or 647 were used as secondary
+antibodies (1:1000) (Invitrogen).</p>
+          <p>The following primary antibodies and dilutions were used for immunoblot analysis: mouse
+anti-Flag (Sigma-Aldrich, F3165) (1:1000), mouse anti-VDAC1 (Abcam, ab14734) (1:1000),
+rabbit anti-TMEM63C (Abcam, ab203486) (1:500), rabbit anti-Pex14 (Proteintech,
+10594-1-AP) (1:1000), rabbit anti-Calnexin (Proteintech, 10427-1-AP) (1:1000), mouse
+anti-Tubulin (Santa-Cruz, sc23948) (1:1000), rabbit anti-VAPB (Atlas, HPA013144) (1:500)
+and mouse anti-ACSL4 (Santa-Cruz, sc-365230) (1:1000). Horseradish peroxidase-conjugated
+anti-rabbit and anti-mouse IgG (GE Healthcare) were used as secondary antibodies
+(1:3000).</p>
+        </sec>
+        <sec id="awac123-s2.3.4">
+          <title>SDS&#x2013;PAGE and immunoblotting</title>
+          <p>Cells were lysed in RIPA buffer (20&#x2005;mM Tris pH 8.0, 150&#x2005;mM NaCl, 0.1% SDS, 1%
+deoxycholic acid, 1% NP-40 and complete protease inhibitor cocktail). Protein
+concentration of the samples was measured using Bradford protein assay (BioRad)
+calibrated using a bovine serum albumin standard curve. Proteins were resolved by sodium
+dodecyl sulphate&#x2013;polyacrylamide gel electrophoresis (SDS&#x2013;PAGE) and then transferred to
+nitrocellulose membranes (0.2&#x2005;&#x3BC;m pore size, GE Healthcare). Membranes were blocked with
+5% of skimmed milk in PBS for 1&#x2005;h at room temperature to block non-specific epitopes.
+Membranes were then incubated with the appropriate primary antibodies diluted in 2%
+milk-PBS-0.05% Tween-20 at 4&#xB0;C overnight. Membranes were washed in 0.05% Tween-20 in PBS
+three times for 15&#x2005;min and incubated with appropriate secondary antibodies (1/3000 in 2%
+Milk-0.05% Tween-20 in PBS) and treated with Western Lightning Plus ECL (Perkin Elmer).
+Chemiluminescent signal was captured using films (PROTEC&#xAE;) or on a digital ECL machine
+(Amersham). Uncropped immunoblots for all the experiments presented in the figures are
+displayed in <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig.
+4</xref>.</p>
+        </sec>
+        <sec id="awac123-s2.3.5">
+          <title>Immunofluorescence</title>
+          <p>Immunofluorescence experiments were performed as previously described.<sup><xref rid="awac123-B25" ref-type="bibr">25</xref></sup> Briefly, cells were fixed in 5%
+paraformaldehyde (PFA) in PBS at 37&#xB0;C for 15&#x2005;min, then washed three times with PBS,
+followed by incubation with 50&#x2005;mM ammonium chloride in PBS to quench the unspecific
+fluorescence signal from aldehyde groups. Cells were washed again three times with PBS
+and permeabilized in 0.1% Triton X-100 in PBS for 10&#x2005;min. Then, cells were blocked with
+10% FBS in PBS, followed by incubation with the appropriate primary antibodies in 5% FBS
+in PBS, for 2&#x2005;h at room temperature. After three washes with 5% FBS in PBS, cells were
+incubated with specific secondary antibodies (1:1000) for 1&#x2005;h at room temperature. After
+three washes in PBS, coverslips were mounted onto slides using Dako fluorescence
+mounting medium (Dako) (confocal imaging) or ProLong<sup>TM</sup> Diamond Antifade
+(Thermo) (super-resolution imaging). For nuclear staining, coverslips were mounted using
+ProLong&#x2122; Gold Antifade Mounting with DAPI (Thermo).</p>
+        </sec>
+        <sec id="awac123-s2.3.6">
+          <title>Confocal and N-structured illumination microscopy image acquisition</title>
+          <p>For confocal imaging, fixed and stained cells were visualized and acquired using a &#xD7;100
+objective lens (numerical aperture 1.4) on a Nikon Eclipse TiE inverted microscope with
+appropriate lasers using an Andor Dragonfly 500 spinning disc system, equipped with a
+Zyla 4.2 PLUS sCMOS camera (Andor), coupled with Fusion software (Andor). For TMEM63C
+co-localization, mitochondrial and ER morphology analysis, seven stacks of 0.2&#x2005;&#x3BC;m each
+were acquired using the &#xD7;100 objective and then compiled by &#x2018;max projection&#x2019; using the
+Fiji software. Mitochondrial morphology was analysed and presented as intermediate,
+elongated or fragmented, as described previously.<sup><xref rid="awac123-B26" ref-type="bibr">26</xref></sup> Mitochondria were classified as &#x2018;fragmented&#x2019; when
+most of the mitochondria of the cell were short and spherical, &#x2018;elongated&#x2019; when most of
+the mitochondria of the cell presented highly elongated mitochondria with &lt;10 free
+ends, and &#x2018;intermediate&#x2019; when most of the mitochondria of the cell were tubular, neither
+connected or spherical. For N-Structure Illumination Microscopy super-resolution
+imaging, fixed samples were observed under a Nikon Eclipse Ti-E microscope equipped with
+an Andor iXon camera coupled with a Nikon N-SIM attachment. Seven stacks of 0.2&#x2005;&#x3BC;m each
+were acquired using the &#xD7;100 objective coupled with Nis-Elements AR 5.21.03
+software.</p>
+          <p>The different mitochondrial parameters (length, area, number and number of junctions)
+were quantified by randomly selecting regions of interest of 225&#x2005;&#x3BC;m<sup>2</sup> at the
+cell periphery and analysed using MitoMapr (Fiji).<sup><xref rid="awac123-B27" ref-type="bibr">27</xref></sup> For ER quantification, the total area of the cell
+and the area covered by ER sheet were manually selected using Fiji tools. Fiji macro
+(JaCOP) was used to measure Mander&#x2019;s coefficient of co-localization between the ER and
+mitochondria. At least 15 cells per condition were analysed; three independent
+experiments. All the representative images were processed once with the &#x2018;smooth&#x2019;
+function in Fiji. The number of cells analysed in the corresponding figures are: <xref rid="awac123-F3" ref-type="fig">Fig. 3B</xref> (siNT&#x2009;=&#x2009;60 cells, siTMEM63C&#x2009;=&#x2009;62
+cells), <xref rid="awac123-F3" ref-type="fig">Fig. 3D</xref> (siNT&#x2009;=&#x2009;105 cells,
+siTMEM63C&#x2009;=&#x2009;93 cells), <xref rid="awac123-F3" ref-type="fig">Fig. 3E</xref> (siNT&#x2009;=&#x2009;76
+cells, siTMEM63C&#x2009;=&#x2009;78 cells), <xref rid="awac123-F3" ref-type="fig">Fig. 3G and H</xref>
+[TMEM63C-Flag (&#x2212;)&#x2009;=&#x2009;45 cells, TMEM63C-Flag (+)&#x2009;=&#x2009;45 cells], <xref rid="awac123-F3" ref-type="fig">Fig. 3J</xref> (siNT&#x2009;=&#x2009;98 axons, siTMEM63C&#x2009;=&#x2009;101 axons), <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3C</xref> (siNT&#x2009;=&#x2009;72
+cells, siTMEM63C&#x2009;=&#x2009;66 cells), <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3D</xref> (siNT&#x2009;=&#x2009;57 cells, siTMEM63C&#x2009;=&#x2009;55 cells) and <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3F</xref> (siNT&#x2009;=&#x2009;63
+cells, siTMEM63C&#x2009;=&#x2009;60 cells).</p>
+          <fig position="float" id="awac123-F3" fig-type="figure">
+            <label>Figure 3</label>
+            <caption>
+              <p>
+<bold>TMEM63C silencing alters both ER and mitochondrial morphologies.</bold>
+(<bold>A</bold>) Representative confocal images of ER morphology of control (siNT)
+and <italic toggle="yes">TMEM63C</italic> (siTMEM63C) silenced HeLa cells. ER and mitochondria
+were labelled with anti-Calnexin and anti-TOM20 antibodies, respectively. Scale
+bars&#x2009;=&#x2009;10&#x2005;&#xB5;m. (<bold>B</bold>) Quantification of ER morphology related to
+<bold>A</bold>. (<bold>C</bold>) Representative confocal images of mitochondrial
+morphology of control (siNT) and <italic toggle="yes">TMEM63C</italic> (siTMEM63C) silenced HeLa
+cells. Mitochondria were labelled using an anti-TOM20 antibody. Scale bars&#x2009;=&#x2009;10&#x2005;&#xB5;m.
+(<bold>D</bold>) Quantification of mitochondrial morphology related to
+<bold>C</bold>. (<bold>E</bold>) Quantification of different mitochondrial
+morphology parameters including mean mitochondrial length and area, mitochondrial
+number and mitochondrial branching measured by mitochondrial junction number, per
+region of interest of 225&#x2005;&#xB5;m<sup>2</sup>, related to <bold>C</bold>.
+(<bold>F</bold>) Representative confocal images of mitochondrial morphology of
+TMEM63C-Flag overexpressing HeLa cells, compared to untransfected cells. Flag and
+mitochondria were labelled with anti-Flag and anti-TOM20 antibodies, respectively.
+Scale bars&#x2009;=&#x2009;10&#x2005;&#xB5;m. (<bold>G</bold>) Quantification of mitochondrial morphology
+related to <bold>F</bold>. (<bold>H</bold>) Quantification of different
+mitochondrial morphology parameters including mean mitochondrial length and area,
+mitochondrial number and mitochondrial branching measured by mitochondrial junction
+number, per region of interest of 225&#x2005;&#xB5;m<sup>2</sup>, related to <bold>F</bold>.
+(<bold>I</bold>) Representative confocal images of axonal mitochondria from
+control (siNT) and <italic toggle="yes">TMEM63C</italic> (siTMEM63C) silenced differentiated
+motor neuron-like NSC-34 cells. Mitochondria were labelled using an anti-TOM20
+antibody and axons were recognized using an anti-Neurofilament H antibody. Scale
+bars&#x2009;=&#x2009;10&#x2005;&#xB5;m. (<bold>J</bold>) Quantification of axonal mitochondrial length related
+to <bold>I</bold>. All data are shown as mean&#x2009;&#xB1;&#x2009;SD of at least three independent
+experiments. For <bold>D</bold> and <bold>G</bold>, two-way ANOVA and Tukey&#x2019;s
+multiple-comparisons test was used; for <bold>B</bold>, <bold>E</bold>,
+<bold>H</bold> and <bold>J</bold>, Mann&#x2013;Whitney U-test (two-tailed) was used.
+*<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.05, **<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.01,
+***<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.001, ****<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.0001.</p>
+            </caption>
+            <graphic xlink:href="awac123f3" position="float"/>
+          </fig>
+        </sec>
+        <sec id="awac123-s2.3.7">
+          <title>Respirometry</title>
+          <p>Oxygen consumption measurements were performed in intact cells resuspended in culture
+DMEM medium using an Oroboros Instruments High-Resolution Respirometer.<sup><xref rid="awac123-B28" ref-type="bibr">28</xref></sup> Approximately 3&#x2009;&#xD7;&#x2009;10<sup>6</sup>
+cells were used for each experiment. Basal (ROUTINE) respiration was recorded until the
+steady state was reached. The non-phosphorylating respiration (LEAK) was measured adding
+2.5&#x2005;&#x3BC;M oligomycin to the chambers to inhibit the ATP synthase and the respiration rates
+were left to reach the steady state. The uncoupled state or maximal capacity of the
+electron transfer system was achieved by titrating CCCP in 0.5&#x2005;&#x3BC;M steps until the
+respiratory rates did not increase any further. Finally, 2.5&#x2005;&#x3BC;M antimycin A and 1&#x2005;&#x3BC;M
+rotenone were added to inhibit respectively complex III and complex I.
+<italic toggle="yes">n</italic>&#x2009;=&#x2009;four independent experiments.</p>
+        </sec>
+        <sec id="awac123-s2.3.8">
+          <title>Mitochondrial-associated membrane isolation</title>
+          <p>Mitochondrial-associated membrane (MAM) isolation was performed as described
+previously.<sup><xref rid="awac123-B29" ref-type="bibr">29</xref></sup> Briefly,
+HeLa cells were trypsinized, pelleted at 300<italic toggle="yes">g</italic> and washed in 1&#xD7; PBS, pH
+7.4. All the following centrifugations were performed at +4&#xB0;C. Pellets were resuspended
+in prechilled mitochondria isolation buffer (MIB) (220&#x2005;mM mannitol, 70&#x2005;mM sucrose, 10&#x2005;mM
+Tris-KOH pH 7.4, 1&#x2005;mM EDTA) with protein cocktail inhibitor and homogenized in a manual
+glass mortar (Kimble). Homogenates were centrifuged at 800<italic toggle="yes">g</italic>.
+Supernatants were centrifuged at 2300<italic toggle="yes">g</italic> with pellets washed in MIB and
+collected as the crude mitochondrial fraction. Additional centrifugation at
+8000<italic toggle="yes">g</italic> was performed. Supernatants were then centrifuged at
+100&#x2009;000<italic toggle="yes">g</italic> for 60&#x2005;min and cytosolic (supernatant) and microsomal
+(pellet) fractions were obtained. The crude mitochondrial fraction was then resuspended
+in MIB buffer, layered on 30% Percoll solution and centrifuged at
+95&#x2009;000<italic toggle="yes">g</italic> for 65&#x2005;min. MAM and pure mitochondrial fraction were
+extracted with 20-gauge needles. MAM and pure mitochondrial fraction were then washed in
+ice-cold 1&#xD7; PBS, pH 7.4 and centrifuged at 6300<italic toggle="yes">g</italic> and
+10&#x2009;000<italic toggle="yes">g</italic> for 20&#x2005;min for MAM and pure mitochondrial fraction,
+respectively. All fractions were extracted with MIB 1% Triton X-100, normalized for
+protein content and processed for SDS&#x2013;PAGE and immunoblotting.</p>
+        </sec>
+        <sec id="awac123-s2.3.9">
+          <title>Statistical analysis</title>
+          <p>Errors bars displayed on graphs represent the mean&#x2009;&#xB1;&#x2009;SD from at least three independent
+experiments. Statistical significance was analysed using Mann&#x2013;Whitney U-test
+(two-tailed), unpaired <italic toggle="yes">t</italic>-test (two-tailed) or two-way ANOVA test using
+GraphPad Prism software. *<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.05, **<italic toggle="yes">P</italic> &#x2009;&lt;&#x2009;0.01,
+***<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.001 and ****<italic toggle="yes">P</italic>&#x2009;&lt;&#x2009;0.0001 were
+considered significant.</p>
+        </sec>
+      </sec>
+      <sec sec-type="data-availability" id="awac123-s2.4">
+        <title>Data availability</title>
+        <p>The authors confirm that the data supporting the findings of this study are available
+within the article and <xref rid="sup1" ref-type="supplementary-material">Supplementary
+material</xref>. Further derived data are available from the corresponding author upon
+reasonable request.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results" id="awac123-s3">
+      <title>Results</title>
+      <sec id="awac123-s3.1">
+        <title>Clinical and genetic studies</title>
+        <p>We initially investigated the cause of disease in two male Omani siblings (Family 1-IV:2
+and IV:8) (<xref rid="awac123-F1" ref-type="fig">Fig. 1</xref>) affected by HSP associated
+with mild intellectual impairment. The older male (IV:2) was late to walk and presented at
+19 months of age with lower-limb spasticity and weakness. Although his phenotype was
+initially thought to be pure HSP, he was later noted to be microcephalic (&#x2212;3.78 SD) and to
+be cognitively impaired [Stanford Binet Intelligence Scale (IQ) score of 61 (attained
+mental age of 7 years 6 months at a chronological age of 11 years 4 months)]. Upper limb
+reflexes, motor function and sensation were all unaffected and there was no clinical
+evidence of bulbar involvement. Lower-limb nerve conduction studies (NCS) and MRI were
+performed and were unremarkable. The younger brother (IV:8), followed a very similar
+clinical course. The earliest sign of neurological impairment was delayed motor milestones
+(crawled at 12 months, independent walking 22 months) and toe walking. At age 3 years, he
+had progressive lower-limb spastic weakness and mild global developmental delay with
+limited vocabulary and language processing skills. To identify the genetic cause of HSP,
+genome-wide SNP mapping was undertaken on DNA from both affected brothers (IV:2 and IV:8)
+in parallel with WES in IV:2, assuming homozygosity for a founder mutation was most
+probably responsible, although also considering other possible genetic causes. As expected
+in this family structure, autozygosity mapping identified 14 genomic regions &gt;1&#x2005;Mb
+common to both affected siblings, among the largest being a &#x223C;10&#x2005;Mb region on chromosome
+14q24 (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1</xref>).
+WES identified a homozygous [Chr14 (GRCh37):77,714,729-744delinsGGC;
+NM_020431.3:c.1641_1656delinsGGC; NM_020431.3: p.(Asn547Lysfs*42)] variant in the
+transmembrane protein 63C (<italic toggle="yes">TMEM63C</italic>) gene as the most likely cause of
+disease, located within the shared chromosome 14q24 genomic region. The variant, which is
+not listed in gnomAD v.2.1.1 or v.3.1.1 nor in our in-house ancestry-matched Omani
+database of 1562 whole exomes, is predicted to cause a frameshift beginning at codon
+asparagine 547 leading to a premature stop codon 42 amino acids subsequently
+[p.(Asn547Lysfs*42)]. Other variants that could not be excluded in this family are listed
+in <xref rid="sup1" ref-type="supplementary-material">Supplementary Table 1</xref>.</p>
+        <fig position="float" id="awac123-F1" fig-type="figure">
+          <label>Figure 1</label>
+          <caption>
+            <p>
+<bold>Family pedigrees and biallelic <italic toggle="yes">TMEM63C</italic> variants identified as a
+cause of HSP</bold>. (<bold>A</bold>) Family 1: Extended Omani pedigree in which two
+affected individuals are homozygous for the Chr14(GRCh37):77714729-744delinsGGC;
+NM_020431.3:c.1641_1656delinsGGC; NM_020431.3:p.(Asn547Lysfs*42) variant. Family 2:
+Extended Iranian pedigree including two nuclear families with a total of four affected
+individuals homozygous for the Chr14(GRCh37):g.77709274delT, NM_020431.3, c.1216delT,
+p.(Trp406Glyfs*26) variant. Family 3: North African pedigree with one affected
+individual compound heterozygous for both p.(Tyr195*) and p.(Tyr525Leufs*54) variants.
+Cosegregation confirmed in other family members as indicated, in each case &#x2018;+&#x2019;
+indicating variant allele and &#x2018;&#x2212;&#x2019; indicating wild-type allele (paternal genotype
+inferred in Family 3, indicated by genotyping shown in parentheses). (<bold>B</bold>)
+Dideoxy sequence chromatogram of an affected individual from each pedigree showing
+variant alleles. (<bold>C</bold>) Schematic diagram of the TMEM63C gene showing
+intron/exon genomic organization and the location of <italic toggle="yes">TMEM63C</italic> gene
+variants. (<bold>D</bold>) Schematic diagram of the TMEM63C polypeptide showing
+location of the variants identified with regard to protein domain architecture.
+Protein domains: RSN1_TM&#x2009;=&#x2009;late exocytosis, associated with Golgi transport,
+PHM7_cyt&#x2009;=&#x2009;cytosolic domain of 10TM putative phosphate transporter, RSN1_7TM&#x2009;=&#x2009;RSN1_7
+calcium-dependent channel, seven transmembrane region.</p>
+          </caption>
+          <graphic xlink:href="awac123f1" position="float"/>
+        </fig>
+        <p>Family 2, an extended Iranian family, comprises two nuclear families each with two
+siblings diagnosed with HSP (Family 2-VI:1, VI:2, V:1, V:2) (<xref rid="awac123-F1" ref-type="fig">Fig. 1</xref>). All four affected individuals presented with delayed
+motor development and displayed progressive lower-limb spasticity with associated
+hyper-reflexia, upgoing plantar responses, clonus and muscle weakness. This resulted in a
+narrow-based spastic gait and excessive lordosis in Individual VI:1 (<xref rid="sup1" ref-type="supplementary-material">Supplementary Video 1</xref>). There was no
+evidence of upper limb involvement on examination of VI:1 and VI:2. Ophthalmological
+findings included strabismus (VI:2) and horizontal nystagmus (V:1). Both affected
+Individuals VI:1 and V:1 have a mild stutter. Siblings VI:1 and VI:2 have normal
+intellect, whereas both V:1 and V:2 displayed signs of mild intellectual impairment. MRI,
+NCS and electromyography were undertaken as part of VI:1 and VI:2&#x2019;s clinical
+investigations and were unremarkable. Exome sequencing undertaken on DNA from VI:2
+identified a homozygous [Chr14(GRCh37): g.77709274delT, NM_020431.3, c.1216delT,
+p.(Trp406Glyfs*26)] variant in <italic toggle="yes">TMEM63C</italic>, predicted to cause a frameshift
+beginning at codon 406 and leading to a premature stop codon 26 amino acids downstream, as
+the only candidate causative mutation after correlation with the genome-wide SNP mapping
+data. The variant is not present in either gnomAD v.2.1.1 or v.3.1.1 and is located in a
+9.2&#x2005;Mb region of homozygosity on chromosome 14q24.3 (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1</xref>).</p>
+        <p>Following these findings in Families 1 and 2, we next explored GeneMatcher and identified
+a north African family (Family 3) (<xref rid="awac123-F1" ref-type="fig">Fig. 1</xref>)
+with a single female (Family 3-II:1) affected with HSP diagnosed in early childhood. At
+age 20 years she has mild intellectual impairment and remains ambulatory. WES identified
+compound heterozygous Chr14(GRCh37): g.77703009C&#x2009;&gt;&#x2009;G, NM_020431.3:c.585C&#x2009;&gt;&#x2009;G,
+p.(Tyr195*) and Chr14(GRCh37) and g.77712988dup, NM_020431.3:c.1572dup,
+p.(Tyr525Leufs*54), probable loss of function variants in <italic toggle="yes">TMEM63C</italic>, both
+absent in gnomAD v.2.1.1 and 3.1.1.</p>
+        <p>In all three pedigrees the TMEM63C variants were validated by dideoxy sequencing and
+found to cosegregate in all available family members as appropriate for autosomal
+recessive inheritance (<xref rid="awac123-F1" ref-type="fig">Fig. 1</xref>) (see <xref rid="awac123-T1" ref-type="table">Table 1</xref>, <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Table 1</xref> for detailed
+clinical summaries, genome-wide SNP mapping data and WES variant lists).</p>
+        <table-wrap position="float" id="awac123-T1">
+          <label>Table 1</label>
+          <caption>
+            <p>Clinical findings in affected individuals with biallelic <italic toggle="yes">TMEM63C</italic>
+variants</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="center" span="1"/>
+              <col valign="top" align="center" span="1"/>
+              <col valign="top" align="center" span="1"/>
+              <col valign="top" align="center" span="1"/>
+              <col valign="top" align="center" span="1"/>
+              <col valign="top" align="center" span="1"/>
+              <col valign="top" align="center" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Family</th>
+                <th colspan="2" align="center" rowspan="1">Family 1</th>
+                <th colspan="4" align="center" rowspan="1">Family 2</th>
+                <th align="center" rowspan="1" colspan="1">Family 3</th>
+              </tr>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Pedigree reference</th>
+                <th align="center" rowspan="1" colspan="1">IV:2</th>
+                <th align="center" rowspan="1" colspan="1">IV:8</th>
+                <th align="center" rowspan="1" colspan="1">VI:1</th>
+                <th align="center" rowspan="1" colspan="1">VI:2</th>
+                <th align="center" rowspan="1" colspan="1">V:1</th>
+                <th align="center" rowspan="1" colspan="1">V:2</th>
+                <th align="center" rowspan="1" colspan="1">II:1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">Genotype</td>
+                <td colspan="2" rowspan="1">p.(Asn547Lysfs*42)/p.(Asn547Lysfs*42)</td>
+                <td colspan="4" rowspan="1">p.(Trp406Glyfs*26)/p.(Trp406Glyfs*26)</td>
+                <td rowspan="1" colspan="1">p.(Tyr195*)/p.(Tyr525Leufs*54)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Gender</td>
+                <td rowspan="1" colspan="1">Male</td>
+                <td rowspan="1" colspan="1">Male</td>
+                <td rowspan="1" colspan="1">Male</td>
+                <td rowspan="1" colspan="1">Female</td>
+                <td rowspan="1" colspan="1">Male</td>
+                <td rowspan="1" colspan="1">Male</td>
+                <td rowspan="1" colspan="1">Female</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Ethnicity</td>
+                <td rowspan="1" colspan="1">Omani</td>
+                <td rowspan="1" colspan="1">Omani</td>
+                <td rowspan="1" colspan="1">Iranian</td>
+                <td rowspan="1" colspan="1">Iranian</td>
+                <td rowspan="1" colspan="1">Iranian</td>
+                <td rowspan="1" colspan="1">Iranian</td>
+                <td rowspan="1" colspan="1">North African</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Age at evaluation (years)</td>
+                <td rowspan="1" colspan="1">17</td>
+                <td rowspan="1" colspan="1">3</td>
+                <td rowspan="1" colspan="1">8</td>
+                <td rowspan="1" colspan="1">26</td>
+                <td rowspan="1" colspan="1">30</td>
+                <td rowspan="1" colspan="1">32</td>
+                <td rowspan="1" colspan="1">15</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Age of symptom onset</td>
+                <td rowspan="1" colspan="1">19 months</td>
+                <td rowspan="1" colspan="1">18 months</td>
+                <td rowspan="1" colspan="1">Infancy</td>
+                <td rowspan="1" colspan="1">Infancy</td>
+                <td rowspan="1" colspan="1">Infancy</td>
+                <td rowspan="1" colspan="1">Infancy</td>
+                <td rowspan="1" colspan="1">6 months</td>
+              </tr>
+              <tr>
+                <td colspan="8" rowspan="1">
+<bold>Growth parameters</bold>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Height cm (SDS)</td>
+                <td rowspan="1" colspan="1">165 (&#x2212;1.52)</td>
+                <td rowspan="1" colspan="1">90 (&#x2212;1.49)</td>
+                <td rowspan="1" colspan="1">118 (&#x2212;1.8)</td>
+                <td rowspan="1" colspan="1">156 (&#x2212;1.3)</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">162 (&#x2212;0.03)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Weight kg (SDS)</td>
+                <td rowspan="1" colspan="1">47.1 (&#x2212;2.29)</td>
+                <td rowspan="1" colspan="1">11.5 (&#x2212;2.28)</td>
+                <td rowspan="1" colspan="1">21 (&#x2212;1.52)</td>
+                <td rowspan="1" colspan="1">55 (&#x2212;0.42)</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">67 (1.45)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Head circumference cm (SDS)</td>
+                <td rowspan="1" colspan="1">50.5 (&#x2212;3.78)</td>
+                <td rowspan="1" colspan="1">50.5 (&#x2212;0.69)</td>
+                <td rowspan="1" colspan="1">51 (&#x2212;1.83)</td>
+                <td rowspan="1" colspan="1">58 (1.79)</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">54.5 (&#x2212;0.45)</td>
+              </tr>
+              <tr>
+                <td colspan="8" rowspan="1">
+<bold>Development</bold>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Intellectual disability</td>
+                <td rowspan="1" colspan="1">Mild, IQ 62</td>
+                <td rowspan="1" colspan="1">Mild</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">Mild</td>
+                <td rowspan="1" colspan="1">Mild</td>
+                <td rowspan="1" colspan="1">Mild</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Gross motor</td>
+                <td rowspan="1" colspan="1">Delayed walking</td>
+                <td rowspan="1" colspan="1">Crawled at 12 months, walked at 22 months</td>
+                <td rowspan="1" colspan="1">Walked at 22 months</td>
+                <td rowspan="1" colspan="1">Walked at 22 months</td>
+                <td rowspan="1" colspan="1">Delayed walking</td>
+                <td rowspan="1" colspan="1">Delayed walking</td>
+                <td rowspan="1" colspan="1">Walked at 20 months</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Speech</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Limited vocabulary, only 2 words until 24 months</td>
+                <td rowspan="1" colspan="1">Stuttering</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Stuttering</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Normal</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Vision</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Strabismus</td>
+                <td rowspan="1" colspan="1">Nystagmus</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Normal</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Hearing</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">Normal</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Developmental regression</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+              </tr>
+              <tr>
+                <td colspan="8" rowspan="1">
+<bold>Neurology</bold>
+</td>
+              </tr>
+              <tr>
+                <td colspan="8" rowspan="1">Lower limb</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x2003;Spasticity</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x2003;Hyper-reflexia</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x2003;Extensor plantars</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">+</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">+</td>
+              </tr>
+              <tr>
+                <td colspan="8" rowspan="1">Upper limb</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x2003;Spasticity</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x2003;Hyper-reflexia</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Cerebellar signs</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Dystonia</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Dysarthria</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+                <td rowspan="1" colspan="1">&#x2212;</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Gait</td>
+                <td rowspan="1" colspan="1">Spastic</td>
+                <td rowspan="1" colspan="1">Spastic</td>
+                <td rowspan="1" colspan="1">Spastic</td>
+                <td rowspan="1" colspan="1">Spastic</td>
+                <td rowspan="1" colspan="1">Spastic</td>
+                <td rowspan="1" colspan="1">Spastic</td>
+                <td rowspan="1" colspan="1">Spastic</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Other clinical findings</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">Lumbar lordosis</td>
+                <td rowspan="1" colspan="1">Lumbar lordosis</td>
+                <td rowspan="1" colspan="1">Lumbar lordosis</td>
+                <td rowspan="1" colspan="1">Lumbar lordosis</td>
+                <td rowspan="1" colspan="1">Hypertonic urinary bladder disturbance</td>
+              </tr>
+              <tr>
+                <td colspan="8" rowspan="1">
+<bold>Investigations</bold>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">MRI brain</td>
+                <td rowspan="1" colspan="1">NAD</td>
+                <td rowspan="1" colspan="1">NP</td>
+                <td rowspan="1" colspan="1">NAD</td>
+                <td rowspan="1" colspan="1">NAD</td>
+                <td rowspan="1" colspan="1">NP</td>
+                <td rowspan="1" colspan="1">NP</td>
+                <td rowspan="1" colspan="1">NP</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Other investigations</td>
+                <td rowspan="1" colspan="1">NCS-NAD VEP-NAD BAEP-NAD</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">NCS-NAD EMG-NAD</td>
+                <td rowspan="1" colspan="1">NCS-NAD EMG-NAD</td>
+                <td colspan="3" rowspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="awac123-tblfn1">
+              <p>NP&#x2009;=&#x2009;not performed; SDS&#x2009;=&#x2009;standard deviation score; (+)&#x2009;=&#x2009;indicates presence of a
+feature in an affected individual; (&#x2212;)&#x2009;=&#x2009;indicates absence of a feature in an
+affected individual; NK&#x2009;=&#x2009;not known; NAD&#x2009;=&#x2009;no abnormality detected; NCS&#x2009;=&#x2009;nerve
+conduction studies; VEP&#x2009;=&#x2009;visual evoked potential; BAEP&#x2009;=&#x2009;brainstem auditory evoked
+potential. Height, weight and standard deviation scores were calculated using a
+Microsoft Excel add-in to access growth references based on the LMS method using UK
+1990 reference population.<sup><xref rid="awac123-B30" ref-type="bibr">30</xref></sup></p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="awac123-s3.2">
+        <title>Molecular studies</title>
+        <p>To gain an initial insight into the molecular function, a characterization of TMEM63C was
+performed using two different mammalian cell lines: the HeLa cell line derived from
+cervical cancer cells and the neuroblastoma SH-SY5Y cells, which both represent well
+established models for molecular and cellular studies. First, we aimed to elucidate the
+cellular distribution of TMEM63C. Since commercial antibodies did not work for
+immunofluorescence staining, we developed a codon-optimized TMEM63C construct tagged with
+a C-terminal FLAG epitope to analyse the intracellular localization of TMEM63C. While
+TMEM63 family members have been proposed to be localized to the plasma membrane,<sup><xref rid="awac123-B15" ref-type="bibr">15</xref>,<xref rid="awac123-B31" ref-type="bibr">31</xref></sup> confocal microscopy analysis of TMEM63C-FLAG overexpressing HeLa
+cells revealed expression at a specific intracellular location reminiscent of an ER
+protein (<xref rid="awac123-F2" ref-type="fig">Fig. 2A and B</xref>). Precise subcellular
+localization of TMEM63C was then performed by confocal microscopy in TMEM63C-FLAG
+overexpressing HeLa cells counterstained for other cellular organelles. Co-localization
+analysis showed that TMEM63C-FLAG specifically and solely localized to the ER, and not to
+mitochondria, peroxisomes, lysosomes, endosomes, nor the Golgi apparatus (<xref rid="awac123-F2" ref-type="fig">Fig. 2C</xref>). The ER is not only the major cellular
+storage for lipids and Ca<sup>2+</sup>, but also represents the cellular organelle that
+establishes the largest number of physical contacts with other organelles at membrane
+contact sites.<sup><xref rid="awac123-B5" ref-type="bibr">5</xref></sup> Among them, MERCs
+have been the best characterized to date.<sup><xref rid="awac123-B5" ref-type="bibr">5</xref></sup> MERCs or MAMs represent functional signalling platforms where
+specialized ER subdomains in close contact with the mitochondria control different
+physiological functions like the trafficking of lipids and Ca<sup>2+</sup> required to
+maintain cellular homeostasis.<sup><xref rid="awac123-B32" ref-type="bibr">32</xref></sup>
+Interestingly, it has been recently highlighted that MERCs play a central role in multiple
+neurodegenerative diseases, including HSP.<sup><xref rid="awac123-B33" ref-type="bibr">33</xref>,<xref rid="awac123-B34" ref-type="bibr">34</xref></sup> Thus, we
+hypothesized that TMEM63C may localize at this interface. Subcellular fractionation
+experiments were performed by differential centrifugation to isolate intracellular
+compartments including heavy membranes, microsomes (containing ER), pure mitochondria and
+MAM fractions. Notably, immunoblot analysis of these isolated fractions confirmed the
+presence of TMEM63C in microsomes, but also identified an enrichment of TMEM63C in the
+isolated MAM fraction, indicating a localization of the protein at this interface (<xref rid="awac123-F2" ref-type="fig">Fig. 2D</xref>). To confirm this, we performed
+super-resolution N-structured illumination microscopy (N-SIM), which allow us to observe
+not only the TMEM63C ER distribution (revealed by its co-localization with the ER marker
+calnexin), but also the presence of TMEM63C-enriched ER subdomains in close contact with
+the mitochondrial marker TOM20 (<xref rid="awac123-F2" ref-type="fig">Fig. 2E</xref> and
+<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 2</xref>). Thus,
+these data indicate that TMEM63C is an ER-localized protein, which is particularly
+enriched at MERCs.</p>
+        <fig position="float" id="awac123-F2" fig-type="figure">
+          <label>Figure 2</label>
+          <caption>
+            <p>
+<bold>TMEM63C distributes along the ER network and accumulates at MERCs.</bold>
+(<bold>A</bold>) Representative confocal images of HeLa and SH-SY5Y cells
+transfected with TMEM63C-Flag and labelled with an anti-Flag antibody. Nucleus were
+labelled using DAPI. Scale bars&#x2009;=&#x2009;10&#x2005;&#xB5;m. (<bold>B</bold>) Immunoblot analysis showing
+the efficiency of TMEM63C-Flag expression at 24&#x2005;h in both HeLa and SH-SY5Y cells.
+VDAC1 and Tubulin were used as loading controls. (<bold>C</bold>) Representative
+confocal images of HeLa cells transfected with TMEM63C-Flag showing TMEM63C-Flag
+co-localization with the ER marker, Calnexin (<italic toggle="yes">top</italic>), compared to other
+organelle markers (<italic toggle="yes">bottom</italic>). Mitochondria, peroxisomes, endosomes,
+lysosomes and Golgi apparatus were labelled using anti-TOM20, anti-PMP70, anti-Rab7,
+anti-LAMP1 and anti-p230 antibodies, respectively. Flag was labelled using an
+anti-Flag antibody. On the <italic toggle="yes">right</italic>, 10&#x2005;&#xB5;m line-scan analyses of
+relative fluorescence intensity from the dashed line are shown. Scale bars&#x2009;=&#x2009;10&#x2005;&#xB5;m.
+(<bold>D</bold>) TMEM63C localization analysis by subcellular fractionation from
+HeLa cells. Total cell lysates (whole cell) were fractionated into cytosolic
+(cytosol), heavy crude mitochondria (HCM 2.3K), purified mitochondria (pure
+mitochondria), MAMs and microsomal (microsomes) fractions. The following proteins were
+used as compartment markers: VDAC1 for outer mitochondrial membrane and MAM, calnexin
+for ER and MAM, ASCL4 and VAPB for MAM, PEX14 for peroxisomes and Tubulin for cytosol.
+(<bold>E</bold>) Representative N-SIM super-resolution microscopy image of HeLa
+cells expressing TMEM63C-Flag, showing TMEM63C-Flag <italic toggle="yes">foci</italic> accumulation
+at MERCs (arrows). Flag, mitochondria and ER were labelled with anti-Flag, anti-TOM20
+and anti-Calnexin antibodies, respectively. On the <italic toggle="yes">right</italic>, 2&#x2005;&#xB5;m
+line-scan analyses of relative fluorescence intensity from the dashed line are shown.
+Scale bars = 2&#x2005;&#xB5;m.</p>
+          </caption>
+          <graphic xlink:href="awac123f2" position="float"/>
+        </fig>
+        <p>Then, we evaluated how the absence of TMEM63C affects organelle homeostasis. To this
+purpose, we first confirmed the endogenous expression and the efficiency of the
+siRNA-mediated downregulation of <italic toggle="yes">TMEM63C</italic> gene by immunoblot analysis in
+the different cell lines used in this study (HeLa, SH-SY5Y and NSC-34 cells) (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3A</xref>). To
+characterize the physiological relevance of TMEM63C at MERCs, potential abnormalities in
+mitochondrial and ER dynamics were monitored in TMEM63C-deficient cells. The ER membranous
+compartment consists of a nuclear envelope and a dynamic network of tubules. ER tubules
+are densely packed in the juxtanuclear region forming ER sheets, required for protein
+synthesis.<sup><xref rid="awac123-B35" ref-type="bibr">35</xref></sup> At the
+periphery of the cell, the ER tubular conformation is less packed allowing the generation
+of curved membranes, which generate ER-derived vesicles.<sup><xref rid="awac123-B35" ref-type="bibr">35</xref></sup> Therefore, maintaining a proper ratio between ER
+sheets and tubules is essential for cellular viability. Indeed, multiple ER-shaping
+proteins have been involved in HSP and the loss of HSP-associated molecules leads to the
+expansion of ER sheets at the cell periphery.<sup><xref rid="awac123-B36" ref-type="bibr">36</xref></sup> Interestingly, silencing of <italic toggle="yes">TMEM63C</italic> in HeLa cells
+disrupted the balance between sheets and tubules by increasing ER-sheet area (<xref rid="awac123-F3" ref-type="fig">Fig. 3A and B</xref>), suggesting that ER defects may
+comprise a key pathomolecular aspect of TMEM63C-associated neurological disease.</p>
+        <p>A number of ER-shaping or MERCs-localized proteins have been shown to control
+mitochondrial functions, in particular regulating mitochondrial morphology.<sup><xref rid="awac123-B37" ref-type="bibr">37&#x2013;39</xref></sup>
+Mitochondria are dynamic organelles constantly adapting their shape depending on the
+cellular metabolic state by undergoing continuous cycles of fission and fusion
+events.<sup><xref rid="awac123-B40" ref-type="bibr">40</xref></sup> The essential role
+of MERCs in this process is well described, and altered mitochondrial shape has been
+widely reported in multiple neurodegenerative conditions including HSP.<sup><xref rid="awac123-B41" ref-type="bibr">41&#x2013;45</xref></sup> Given the MERCs localization of TMEM63C, we thus monitored
+mitochondrial morphology in cells silenced for <italic toggle="yes">TMEM63C</italic> in both HeLa
+(<xref rid="awac123-F3" ref-type="fig">Fig. 3C&#x2013;E</xref>) and SH-SY5Y (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3B&#x2013;D</xref>) cells. This
+led to a significant remodelling of the mitochondrial network characterized by an
+increased number of cells harbouring elongated and interconnected mitochondria (<xref rid="awac123-F3" ref-type="fig">Fig. 3C and D</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3B and C</xref>), an
+increase of the organelle area and size, and a decrease in mitochondrial number in the
+region of interest (<xref rid="awac123-F3" ref-type="fig">Fig. 3E</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3D</xref>). Moreover,
+loss of TMEM63C also induced mitochondrial branching, leading to a highly interconnected
+network and an increase of mitochondrial intersections or junctions (<xref rid="awac123-F3" ref-type="fig">Fig. 3E</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3D</xref>), reinforcing
+the elongated mitochondrial shape observed in TMEM63C-depleted cells. In addition, TMEM63C
+gain of function analysis revealed opposite effects on mitochondrial morphology. Indeed,
+TMEM63C overexpression leads to mitochondrial fragmentation characterized by an increased
+number of cells harbouring small-round shaped mitochondria, as well as a decrease of
+organelle area and size, accompanied by an increase in mitochondrial number in the region
+of interest (<xref rid="awac123-F3" ref-type="fig">Fig. 3F&#x2013;H</xref>). This further
+supports an important role of TMEM63C in regulating mitochondrial morphology at MERCs.
+However, despite the altered mitochondrial morphology, mitochondrial respiration measured
+by oxygraphy was not impaired in the absence of TMEM63C, although maximal respiration was
+slightly decreased in <italic toggle="yes">TMEM63C</italic>-silenced SH-SY5Y cells after 6 days of
+inhibition (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig.
+3E</xref>). Finally, we recapitulated the mitochondrial morphology phenotype in NSC-34
+cells, a motor neuron-like cellular model usually used to investigate the
+physiopathological mechanisms of motor neuron disease and therefore more relevant to
+HSP.<sup><xref rid="awac123-B46" ref-type="bibr">46</xref></sup> To this end, we
+differentiated and matured NSC-34 cells into motor neuron-like cells with several
+morphological properties resembling those of motor neurons. As shown in <xref rid="awac123-F3" ref-type="fig">Fig. 3I</xref>, axons positive for the neuronal marker
+Neurofilament H were selected and axonal mitochondrial morphology was analysed in the
+presence or absence of TMEM63C. Quantification of the mitochondrial length (<xref rid="awac123-F3" ref-type="fig">Fig. 3I and J</xref>) revealed an increased
+mitochondrial size in the axons of TMEM63C-deficient motor neuron-like cells, further
+confirming a potential role of the protein in regulating mitochondrial morphology in the
+nervous system.</p>
+        <p>Together, these data indicate that TMEM63C localizes to ER and MERCs, where it is
+important to maintain ER and mitochondrial morphologies and dynamics. It should be noted
+that microscopy co-localization analysis using Mander&#x2019;s coefficient showed that loss of
+TMEM63C did not lead to a decrease but rather a slight increase of MERCs, suggesting that
+TMEM63C is not acting as a tether between ER and mitochondria but may have an important
+role in regulating MERCs function and integrity (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3F</xref>). Given this, it may be hypothesized that
+altered lipid and ion trafficking at MERCs may underlie the organelle morphology
+abnormalities present in TMEM63C deficient cells.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="awac123-s4">
+      <title>Discussion</title>
+      <p>Here we present data from three unrelated families with HSP, providing compelling evidence
+that biallelic loss of function sequence alterations in <italic toggle="yes">TMEM63C</italic> cause HSP.
+All seven affected individuals presented in infancy with consistent clinical features of
+lower-limb weakness and spasticity typical of HSP. Five additionally present with mild
+intellectual impairment, which appears to represent a variable clinical outcome associated
+with biallelic <italic toggle="yes">TMEM63C</italic> variants.</p>
+      <p>So far, the function of TMEM63C has not been established, nor has it been shown to cause
+human disease. Previous rat and zebrafish animal model studies of TMEM63C suggested a role
+in kidney function. Schulz <italic toggle="yes">et al</italic>.<sup><xref rid="awac123-B47" ref-type="bibr">47</xref></sup> identified <italic toggle="yes">Tmem63c</italic> as a candidate due
+to its position within the quantitative trait locus region in a strain of hypertensive rats
+considered to be a suitable model system for investigating the genetic basis of albuminuria.
+However, no sequence variants were identified in <italic toggle="yes">Tmem63c</italic> in hypertensive
+rats,<sup><xref rid="awac123-B47" ref-type="bibr">47</xref>,<xref rid="awac123-B48" ref-type="bibr">48</xref></sup> and <italic toggle="yes">TMEM63C</italic> expression is absent in
+human kidneys in the Genotype-Tissue Expression (GTEx) database. Here, we unequivocally
+identify disruption of TMEM63C function as a cause of neurological disease in humans,
+consistent with the high expression levels of the <italic toggle="yes">TMEM63</italic> family of
+molecules in the nervous system.<sup><xref rid="awac123-B49" ref-type="bibr">49</xref></sup>
+Further evidence for an important role for TMEM63 family of proteins in neurological
+function is provided by the previous description of <italic toggle="yes">de novo</italic> heterozygous
+pathogenic variants in TMEM63A associated with hypomyelinating leukodystrophy, which notably
+comprises a spasticity component.<sup><xref rid="awac123-B50" ref-type="bibr">50</xref></sup> Consistent with this, <italic toggle="yes">Tmem63a</italic> knock out mice display
+gait abnormalities, also indicative of neurological (and motor) impairment.<sup><xref rid="awac123-B50" ref-type="bibr">50</xref></sup> Similarly,
+<italic toggle="yes">Tmem63b<sup>&#x2212;/&#x2212;</sup></italic> knock out is associated with an abnormal gait,
+limb grasping and hyperactivity as well as preweaning lethality in mice.<sup><xref rid="awac123-B51" ref-type="bibr">51</xref>,<xref rid="awac123-B52" ref-type="bibr">52</xref></sup> Du <italic toggle="yes">et al</italic>.<sup><xref rid="awac123-B31" ref-type="bibr">31</xref></sup> also identified a possible role of TMEM63B in hearing by studying
+<italic toggle="yes">Tmem63b</italic><sup>&#x2212;/&#x2212;</sup> mice, found to be insensitive to sound stimuli due
+to severe degeneration of outer hair cells.</p>
+      <p>To better understand the functional role of TMEM63C, we performed <italic toggle="yes">in
+cellula</italic> studies to monitor protein subcellular localization, and the impact on
+both ER and mitochondrial morphologies in two different mammalian cell lines. First, we
+showed by microscopy analysis that TMEM63C is exclusively localized at the ER, evidenced by
+its reticular distribution and co-localization with the <italic toggle="yes">bona fide</italic> ER
+marker, calnexin. In particular, both biochemical and super-resolution microscopy analyses
+revealed an accumulation of TMEM63C at MERCs. Consistent with a role at MERCs,
+<italic toggle="yes">TMEM63C</italic> silencing in both HeLa and SH-SY5Y cells resulted in ER and
+mitochondrial morphological changes primarily characterized by an increase of the balance
+between ER sheets and tubules, and by mitochondrial elongation and interconnectivity.
+Mitochondrial hyperfusion is induced by a disruption of the mitochondrial fission&#x2013;fusion
+balance and has been identified as a mechanism of defence on cellular stress to enhance cell
+survival.<sup><xref rid="awac123-B39" ref-type="bibr">39</xref></sup> The importance of
+mitochondrial dynamics (including fission, fusion and transport) has been extensively
+documented to be of critical importance in neuronal development and survival, and
+alterations in these dynamics are known to contribute to the pathology of several diseases,
+including neurological disorders.<sup><xref rid="awac123-B53" ref-type="bibr">53</xref></sup> Although HeLa (derived from cervical cancer cells) and SH-SY5Y
+(neuroblastoma) cells are well established models for molecular and cell biology studies and
+provide initial insight into the potential function of TMEM63C at MERCs, both cell lines may
+be of limited relevance to the study of neuronal physiology in HSP. Therefore, we sought to
+confirm our findings in more physiologically relevant differentiated and maturated motor
+neuron-like NSC-34 cells. This again showed that TMEM63C loss leads to a defective
+mitochondrial morphology network, further emphasizing that altered mitochondrial dynamics
+potentially underlie the pathological manifestations observed in HSP patients. In this
+context, as our data suggest that global mitochondrial respiration is not grossly affected,
+we hypothesize that the mitochondrial elongation observed in TMEM63C-deficient cells may
+affect organelle motility through the axon resulting in neuronal bioenergetic defects when a
+specific or rapid production of ATP is required at specific cellular subdomains.<sup><xref rid="awac123-B54" ref-type="bibr">54</xref></sup> Moreover, enlargement of mitochondria
+may negatively affect the respiration capacity and result in mitochondria that are more
+resistant to selective degradation by mitophagy.<sup><xref rid="awac123-B55" ref-type="bibr">55</xref></sup> This autophagic degradation defect may impair the proper turnover of
+the organelle, leading to the accumulation of damaged and dysfunctional mitochondria, which
+may contribute to axonal degeneration.<sup><xref rid="awac123-B56" ref-type="bibr">56</xref></sup> Similarly, it has been suggested that the increased ratio of ER sheet to
+tubules may underlie the partial loss of the organelle in the distal motor axons, as
+described with receptor accessory protein 1 (<italic toggle="yes">REEP1</italic>) gene variants
+associated with HSP.<sup><xref rid="awac123-B36" ref-type="bibr">36</xref></sup> Indeed, the
+reduction of ER membranes in distal axons may not only affect the lipid composition of the
+different neuronal membranes and decrease membrane contact sites between the ER and other
+organelles, but also alter the local generation and propagation of Ca<sup>2+</sup> fluxes
+that is critically important for axon function.<sup><xref rid="awac123-B57" ref-type="bibr">57</xref></sup></p>
+      <p>Together, these data support an important role for TMEM63C in maintaining ER-mitochondrial
+organelle homeostasis and structure, likely to underlie HSP pathological outcomes.
+Maintained MERCs integrity is known to be of critical importance for a number of subcellular
+processes crucial for neuronal health, including lipid and calcium homeostasis.<sup><xref rid="awac123-B58" ref-type="bibr">58</xref></sup> Our data show that
+<italic toggle="yes">TMEM63C</italic> silencing alters organelle integrity of both mitochondria and ER,
+reflecting a potential role for this protein in the maintenance of these structures. Notably
+there is increasing evidence linking the role of HSP-associated genes with lipid
+homeostasis, including oxysterol-cholesterol and phosphatidylethanolamine metabolic
+pathways,<sup><xref rid="awac123-B2" ref-type="bibr">2</xref>,<xref rid="awac123-B59" ref-type="bibr">59</xref></sup> mediated in part through MERCs.<sup><xref rid="awac123-B2" ref-type="bibr">2</xref></sup> The molecular role of TMEM63C proposed
+here is thus consistent with a potential role in lipid (and other) metabolic processes
+mediated through MERCs, and in the regulation of organelle morphology and cellular
+homeostasis. Further work is required to understand the precise cellular role of TMEM63C,
+and the specific pathomolecular outcomes associated with pathogenic <italic toggle="yes">TMEM63C</italic>
+variants. One limitation of the current study has been that we have been unable to obtain
+patient-derived fibroblasts to investigate the effects of <italic toggle="yes">TMEM63C</italic> gene
+variants in the most appropriate cellular models. Indeed, while our data show clear parity
+across a range of cell lines including differentiated and maturated motor neuron-like NSC-34
+cells, they fail to completely mimic the selective neuronal vulnerability observed in HSP
+and therefore fully reveal the neuropathological basis of disease in patients. In future, it
+will be valuable to perform similar studies in active motor neurons reprogrammed from
+patient-derived fibroblasts using induced-pluripotent stem cell (iPSC) technology, to
+corroborate the role of TMEM63C in maintaining organelle morphology, but also to more fully
+reveal the HSP neuro-pathomechanism. Such endeavours will further increase our understanding
+of how deficits in ER&#x2014;mitochondrial connectivity and function may lead to motor neuron
+degenerative disease, paving the way for targeted therapeutics.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material id="sup1" position="float" content-type="local-data">
+        <label>awac123_Supplementary_Data</label>
+        <media xlink:href="awac123_supplementary_data.zip">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="ack1">
+      <title>Acknowledgements</title>
+      <p>The authors would like to thank the affected individuals and their family members for their
+participation in this study, and Hereditary Spastic Paraplegia Support Group for their wider
+support of our work.</p>
+    </ack>
+    <sec id="awac123-s5">
+      <title>Funding</title>
+      <p>The authors are grateful for funding support provided by the Halpin Trust, Hereditary
+Spastic Paraplegia Support Group, Medical Research Council UK (MRC; MC_UU_00015/7 to J.P.,
+G1002279 to A.H.C. and G1001931 to E.L.B., MC-PC-18047, MC_PC_15054, MC_PC_15047 to
+University of Exeter, E.L.B. and A.H.C.), Newlife Foundation for Disabled Children (A.H.C.
+and E.L.B.), and the Oman Ministry of Higher Education, Sultanate of Oman (to F.A.S., A.A.
+and A.H.C.). L.C.T. is recipient of a Ramon Areces postdoctoral fellowship. M.P. is a
+MRC-funded PhD student.</p>
+    </sec>
+    <sec id="awac123-s6">
+      <title>Competing interests</title>
+      <p>The authors report no competing interests.</p>
+    </sec>
+    <sec id="awac123-s7">
+      <title>Supplementary material</title>
+      <p>
+<xref rid="sup1" ref-type="supplementary-material">Supplementary material</xref> is
+available at <italic toggle="yes">Brain</italic> online.</p>
+    </sec>
+    <ref-list id="ref1">
+      <title>References</title>
+      <ref id="awac123-B1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Shribman</surname>
+<given-names>S</given-names>
+</string-name>, <string-name><surname>Reid</surname><given-names>E</given-names></string-name>, <string-name><surname>Crosby</surname><given-names>AH</given-names></string-name>, <string-name><surname>Houlden</surname><given-names>H</given-names></string-name>, <string-name><surname>Warner</surname><given-names>TT</given-names></string-name></person-group>.
+<article-title>Hereditary spastic paraplegia: From diagnosis to emerging therapeutic
+approaches</article-title>. <source>Lancet Neurol</source>.
+<year>2019</year>;<volume>18</volume>:<fpage>1136</fpage>&#x2013;<lpage>1146</lpage>.<pub-id pub-id-type="pmid">31377012</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B2">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Rickman</surname>
+<given-names>OJ</given-names>
+</string-name>, <string-name><surname>Baple</surname><given-names>EL</given-names></string-name>, <string-name><surname>Crosby</surname><given-names>AH</given-names></string-name></person-group>.
+<article-title>Lipid metabolic pathways converge in motor neuron degenerative
+diseases</article-title>. <source>Brain</source>.
+<year>2020</year>;<volume>143</volume>:<fpage>1073</fpage>&#x2013;<lpage>1087</lpage>.<pub-id pub-id-type="pmid">31848577</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B3">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Bellofatto</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>De
+Michele</surname><given-names>G</given-names></string-name>, <string-name><surname>Iovino</surname><given-names>A</given-names></string-name>, <string-name><surname>Filla</surname><given-names>A</given-names></string-name>, <string-name><surname>Santorelli</surname><given-names>FM</given-names></string-name></person-group>.
+<article-title>Management of hereditary spastic paraplegia: A systematic review of the
+literature</article-title>. <source>Front Neurol</source>.
+<year>2019</year>;<volume>10</volume>:<fpage>3</fpage>.<pub-id pub-id-type="pmid">30723448</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B4">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Giudice T</surname>
+<given-names>L</given-names>
+</string-name>, <string-name><surname>Lombardi</surname><given-names>F</given-names></string-name>, <string-name><surname>Santorelli</surname><given-names>FM</given-names></string-name>,
+<string-name><surname>Kawarai</surname><given-names>T</given-names></string-name>, <string-name><surname>Orlacchio</surname><given-names>A</given-names></string-name></person-group>.
+<article-title>Hereditary spastic paraplegia: clinical-genetic characteristics and
+evolving molecular mechanisms</article-title>. <source>Exp Neurol</source>.
+<year>2014</year>;<volume>261</volume>:<fpage>518</fpage>&#x2013;<lpage>539</lpage>.<pub-id pub-id-type="pmid">24954637</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B5">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Phillips</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name><surname>Voeltz</surname><given-names>GK</given-names></string-name></person-group>.
+<article-title>Structure and function of ER membrane contact sites with other
+organelles</article-title>. <source>Nat Rev Mol Cell Biol</source>.
+<year>2016</year>;<volume>17</volume>:<fpage>69</fpage>&#x2013;<lpage>82</lpage>.<pub-id pub-id-type="pmid">26627931</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B6">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Csordas</surname>
+<given-names>G</given-names>
+</string-name>, <string-name><surname>Weaver</surname><given-names>D</given-names></string-name>, <string-name><surname>Hajnoczky</surname><given-names>G</given-names></string-name></person-group>.
+<article-title>Endoplasmic reticulum-mitochondrial contactology: Structure and signaling
+functions</article-title>. <source>Trends Cell Biol</source>.
+<year>2018</year>;<volume>28</volume>:<fpage>523</fpage>&#x2013;<lpage>540</lpage>.<pub-id pub-id-type="pmid">29588129</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B7">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Scorrano</surname>
+<given-names>L</given-names>
+</string-name>, <string-name><surname>De
+Matteis</surname><given-names>MA</given-names></string-name>, <string-name><surname>Emr</surname><given-names>S</given-names></string-name>,
+<etal>et al</etal></person-group>
+<article-title>Coming together to define membrane contact sites</article-title>.
+<source>Nat Commun</source>.
+<year>2019</year>;<volume>10</volume>:<fpage>1287</fpage>.<pub-id pub-id-type="pmid">30894536</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B8">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Blom</surname>
+<given-names>T</given-names>
+</string-name>, <string-name><surname>Somerharju</surname><given-names>P</given-names></string-name>,
+<string-name><surname>Ikonen</surname><given-names>E</given-names></string-name></person-group>.
+<article-title>Synthesis and biosynthetic trafficking of membrane
+lipids</article-title>. <source>Cold Spring Harb Perspect Biol</source>.
+<year>2011</year>;<volume>3</volume>:<fpage>a004713</fpage>.<pub-id pub-id-type="pmid">21482741</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B9">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Tatsuta</surname>
+<given-names>T</given-names>
+</string-name>, <string-name><surname>Scharwey</surname><given-names>M</given-names></string-name>, <string-name><surname>Langer</surname><given-names>T</given-names></string-name></person-group>.
+<article-title>Mitochondrial lipid trafficking</article-title>. <source>Trends Cell
+Biol</source>.
+<year>2014</year>;<volume>24</volume>:<fpage>44</fpage>&#x2013;<lpage>52</lpage>.<pub-id pub-id-type="pmid">24001776</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B10">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Flis</surname>
+<given-names>VV</given-names>
+</string-name>, <string-name><surname>Daum</surname><given-names>G</given-names></string-name></person-group>.
+<article-title>Lipid transport between the endoplasmic reticulum and
+mitochondria</article-title>. <source>Cold Spring Harb Perspect Biol</source>.
+<year>2013</year>;<volume>5</volume>:<fpage>a013235</fpage>.<pub-id pub-id-type="pmid">23732475</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B11">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ahmed</surname>
+<given-names>MY</given-names>
+</string-name>, <string-name><surname>Al-Khayat</surname><given-names>A</given-names></string-name>,
+<string-name><surname>Al-Murshedi</surname><given-names>F</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>A mutation of EPT1 (SELENOI) underlies a new disorder of Kennedy pathway
+phospholipid biosynthesis</article-title>. <source>Brain</source>.
+<year>2017</year>;<volume>140</volume>:<fpage>547</fpage>&#x2013;<lpage>554</lpage>.<pub-id pub-id-type="pmid">28052917</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B12">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Vaz</surname>
+<given-names>FM</given-names>
+</string-name>, <string-name><surname>McDermott</surname><given-names>JH</given-names></string-name>,
+<string-name><surname>Alders</surname><given-names>M</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Mutations in PCYT2 disrupt etherlipid biosynthesis and cause a complex
+hereditary spastic paraplegia</article-title>. <source>Brain</source>.
+<year>2019</year>;<volume>142</volume>:<fpage>3382</fpage>&#x2013;<lpage>3397</lpage>.<pub-id pub-id-type="pmid">31637422</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B13">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Muallem</surname>
+<given-names>S</given-names>
+</string-name>, <string-name><surname>Chung</surname><given-names>WY</given-names></string-name>, <string-name><surname>Jha</surname><given-names>A</given-names></string-name>,
+<string-name><surname>Ahuja</surname><given-names>M</given-names></string-name></person-group>.
+<article-title>Lipids at membrane contact sites: cell signaling and ion
+transport</article-title>. <source>EMBO Rep</source>.
+<year>2017</year>;<volume>18</volume>:<fpage>1893</fpage>&#x2013;<lpage>1904</lpage>.<pub-id pub-id-type="pmid">29030479</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B14">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Vance</surname>
+<given-names>JE</given-names>
+</string-name>
+</person-group>. <article-title>MAM (mitochondria-associated membranes) in mammalian
+cells: Lipids and beyond</article-title>. <source>Biochim Biophys Acta</source>.
+<year>2014</year>;<volume>1841</volume>:<fpage>595</fpage>&#x2013;<lpage>609</lpage>.<pub-id pub-id-type="pmid">24316057</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B15">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Murthy</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name><surname>Dubin</surname><given-names>AE</given-names></string-name>, <string-name><surname>Whitwam</surname><given-names>T</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>OSCA/TMEM63 are an evolutionarily conserved family of mechanically
+activated ion channels</article-title>. <source>eLife</source>.
+<year>2018</year>;<volume>7</volume>:<fpage>e41844</fpage>.<pub-id pub-id-type="pmid">30382938</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B16">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zhao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name><surname>Yan</surname><given-names>X</given-names></string-name>, <string-name><surname>Liu</surname><given-names>Y</given-names></string-name>,
+<string-name><surname>Zhang</surname><given-names>P</given-names></string-name>, <string-name><surname>Ni</surname><given-names>X</given-names></string-name></person-group>.
+<article-title>Co-expression of mouse TMEM63A. TME:M63B. and TMEM63C confers
+hyperosmolarity activated ion currents in HEK293 cells</article-title>. <source>Cell
+Biochem Funct</source>.
+<year>2016</year>;<volume>34</volume>:<fpage>238</fpage>&#x2013;<lpage>241</lpage>.<pub-id pub-id-type="pmid">27045885</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B17">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Hussy</surname>
+<given-names>N</given-names>
+</string-name>, <string-name><surname>Deleuze</surname><given-names>C</given-names></string-name>, <string-name><surname>Desarmenien</surname><given-names>MG</given-names></string-name>,
+<string-name><surname>Moos</surname><given-names>FC</given-names></string-name></person-group>.
+<article-title>Osmotic regulation of neuronal activity: A new role for taurine and glial
+cells in a hypothalamic neuroendocrine structure</article-title>. <source>Prog
+Neurobiol</source>.
+<year>2000</year>;<volume>62</volume>:<fpage>113</fpage>&#x2013;<lpage>134</lpage>.<pub-id pub-id-type="pmid">10828380</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B18">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Jojoa-Cruz</surname>
+<given-names>S</given-names>
+</string-name>, <string-name><surname>Saotome</surname><given-names>K</given-names></string-name>, <string-name><surname>Murthy</surname><given-names>SE</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Cryo-EM structure of the mechanically activated ion channel
+OSCA1.2</article-title>. <source>eLife</source>.
+<year>2018</year>;<volume>7</volume>:<fpage>e41845</fpage>.<pub-id pub-id-type="pmid">30382939</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B19">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zhang</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Wang</surname><given-names>D</given-names></string-name>, <string-name><surname>Kang</surname><given-names>Y</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Structure of the mechanosensitive OSCA channels</article-title>.
+<source>Nat Struct Mol Biol</source>.
+<year>2018</year>;<volume>25</volume>:<fpage>850</fpage>&#x2013;<lpage>858</lpage>.<pub-id pub-id-type="pmid">30190597</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B20">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Benarroch</surname>
+<given-names>EE</given-names>
+</string-name>
+</person-group>. <article-title>Anoctamins (TMEM16 proteins): Functions and involvement in
+neurologic disease</article-title>. <source>Neurology</source>.
+<year>2017</year>;<volume>89</volume>:<fpage>722</fpage>&#x2013;<lpage>729</lpage>.<pub-id pub-id-type="pmid">28724583</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B21">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Petkovic</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Oses-Prieto</surname><given-names>J</given-names></string-name>,
+<string-name><surname>Burlingame</surname><given-names>A</given-names></string-name>,
+<string-name><surname>Jan</surname><given-names>LY</given-names></string-name>, <string-name><surname>Jan</surname><given-names>YN</given-names></string-name></person-group>.
+<article-title>TMEM16K is an interorganelle regulator of endosomal
+sorting</article-title>. <source>Nat Commun</source>.
+<year>2020</year>;<volume>11</volume>:<fpage>3298</fpage>.<pub-id pub-id-type="pmid">32620747</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B22">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zaman</surname>
+<given-names>MF</given-names>
+</string-name>, <string-name><surname>Nenadic</surname><given-names>A</given-names></string-name>, <string-name><surname>Radoji&#x10D;i&#x107;</surname><given-names>A</given-names></string-name>, <string-name><surname>Rosado</surname><given-names>A</given-names></string-name>, <string-name><surname>Beh</surname><given-names>CT</given-names></string-name></person-group>.
+<article-title>Sticking with it: ER-PM membrane contact sites as a coordinating nexus
+for regulating lipids and proteins at the cell cortex</article-title>. <source>Front
+Cell Dev Biol</source>.
+<year>2020</year>;<volume>8</volume>:<fpage>675</fpage>.<pub-id pub-id-type="pmid">32793605</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B23">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Vona</surname>
+<given-names>B</given-names>
+</string-name>, <string-name><surname>Mazaheri</surname><given-names>N</given-names></string-name>, <string-name><surname>Lin</surname><given-names>SJ</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>A biallelic variant in CLRN2 causes non-syndromic hearing loss in
+humans</article-title>. <source>Hum Genet</source>.
+<year>2021</year>;<volume>140</volume>:<fpage>915</fpage>&#x2013;<lpage>931</lpage>.<pub-id pub-id-type="pmid">33496845</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B24">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Hounoum B</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Vourc'h</surname><given-names>P</given-names></string-name>, <string-name><surname>Felix</surname><given-names>R</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>NSC-34 motor neuron-like cells are unsuitable as experimental model for
+glutamate-mediated excitotoxicity</article-title>. <source>Front Cell Neurosci</source>.
+<year>2016</year>;<volume>10</volume>:<fpage>118</fpage>.<pub-id pub-id-type="pmid">27242431</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B25">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Prudent</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Zunino</surname><given-names>R</given-names></string-name>, <string-name><surname>Sugiura</surname><given-names>A</given-names></string-name>, <string-name><surname>Mattie</surname><given-names>S</given-names></string-name>, <string-name><surname>Shore</surname><given-names>GC</given-names></string-name>, <string-name><surname>McBride</surname><given-names>HM</given-names></string-name></person-group>.
+<article-title>MAPL SUMOylation of Drp1 stabilizes an ER/Mitochondrial platform required
+for cell death</article-title>. <source>Mol Cell</source>.
+<year>2015</year>;<volume>59</volume>:<fpage>941</fpage>&#x2013;<lpage>955</lpage>.<pub-id pub-id-type="pmid">26384664</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B26">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Nagashima</surname>
+<given-names>S</given-names>
+</string-name>, <string-name><surname>Tabara</surname><given-names>LC</given-names></string-name>, <string-name><surname>Tilokani</surname><given-names>L</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Golgi-derived PI(4)P-containing vesicles drive late steps of mitochondrial
+division</article-title>. <source>Science</source>.
+<year>2020</year>;<volume>367</volume>:<fpage>1366</fpage>&#x2013;<lpage>1371</lpage>.<pub-id pub-id-type="pmid">32193326</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B27">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zhang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name><surname>Lanjuin</surname><given-names>A</given-names></string-name>, <string-name><surname>Chowdhury</surname><given-names>SR</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Neuronal TORC1 modulates longevity via AMPK and cell nonautonomous
+regulation of mitochondrial dynamics in <italic toggle="yes">C. elegans</italic></article-title>.
+<source>eLife</source>.
+<year>2019</year>;<volume>8</volume>:<fpage>e49158</fpage>.<pub-id pub-id-type="pmid">31411562</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B28">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Pesta</surname>
+<given-names>D</given-names>
+</string-name>, <string-name><surname>Gnaiger</surname><given-names>E</given-names></string-name></person-group>.
+<article-title>High-resolution respirometry: OXPHOS protocols for human cells and
+permeabilized fibers from small biopsies of human muscle.</article-title><source>Methods
+Mol Biol</source>.
+<year>2012</year>;<volume>810</volume>:<fpage>25</fpage>&#x2013;<lpage>58</lpage>.<pub-id pub-id-type="pmid">22057559</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B29">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Williamson</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name><surname>Wong</surname><given-names>DS</given-names></string-name>, <string-name><surname>Bozidis</surname><given-names>P</given-names></string-name>, <string-name><surname>Zhang</surname><given-names>A</given-names></string-name>, <string-name><surname>Colberg-Poley</surname><given-names>AM</given-names></string-name></person-group>.
+<article-title>Isolation of endoplasmic reticulum. Mitochondria, and
+mitochondria-associated membrane and detergent resistant membrane fractions from
+transfected cells and from human cytomegalovirus-infected primary
+fibroblasts</article-title>. <source>Curr Protoc Cell Biol</source>.
+<year>2015</year>;<volume>68</volume>:<fpage>3.27.1</fpage>&#x2013;<lpage>3.27.33</lpage>.<pub-id pub-id-type="pmid">26331984</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B30">
+        <label>30</label>
+        <mixed-citation publication-type="other">
+<comment>
+<italic toggle="yes">LMSgrowth</italic>. Version 2.77. Harlow Healthcare</comment>. <date-in-citation content-type="access">Accessed 10 June 2021</date-in-citation>. <ext-link xlink:href="https://www.healthforallchildren.com/lmsgrowth-download/" ext-link-type="uri">https://www.healthforallchildren.com/lmsgrowth-download/</ext-link></mixed-citation>
+      </ref>
+      <ref id="awac123-B31">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Du</surname>
+<given-names>H</given-names>
+</string-name>, <string-name><surname>Ye</surname><given-names>C</given-names></string-name>, <string-name><surname>Wu</surname><given-names>D</given-names></string-name>,
+<etal>et al</etal></person-group>
+<article-title>The cation channel TMEM63B Is an osmosensor required for
+hearing</article-title>. <source>Cell Rep</source>.
+<year>2020</year>;<volume>31</volume>:<fpage>107596</fpage>.<pub-id pub-id-type="pmid">32375046</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B32">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Prinz</surname>
+<given-names>WA</given-names>
+</string-name>, <string-name><surname>Toulmay</surname><given-names>A</given-names></string-name>, <string-name><surname>Balla</surname><given-names>T</given-names></string-name></person-group>.
+<article-title>The functional universe of membrane contact sites</article-title>.
+<source>Nat Rev Mol Cell Biol</source>.
+<year>2020</year>;<volume>21</volume>:<fpage>7</fpage>&#x2013;<lpage>24</lpage>.<pub-id pub-id-type="pmid">31732717</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B33">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fowler</surname>
+<given-names>PC</given-names>
+</string-name>, <string-name><surname>Garcia-Pardo</surname><given-names>ME</given-names></string-name>,
+<string-name><surname>Simpson</surname><given-names>JC</given-names></string-name>, <string-name><surname>O&#x2019;Sullivan</surname><given-names>NC</given-names></string-name></person-group>.
+<article-title>NeurodegenERation: The central role for ER contacts in neuronal function
+and axonopathy, lessons from hereditary spastic paraplegias and related
+diseases</article-title>. <source>Front Neurosci</source>.
+<year>2019</year>;<volume>13</volume>:<fpage>1051</fpage>.<pub-id pub-id-type="pmid">31680803</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B34">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Krols</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>van
+Isterdael</surname><given-names>G</given-names></string-name>, <string-name><surname>Asselbergh</surname><given-names>B</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Mitochondria-associated membranes as hubs for
+neurodegeneration</article-title>. <source>Acta Neuropathol</source>.
+<year>2016</year>;<volume>131</volume>:<fpage>505</fpage>&#x2013;<lpage>523</lpage>.<pub-id pub-id-type="pmid">26744348</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B35">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Schwarz</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name><surname>Blower</surname><given-names>MD</given-names></string-name></person-group>.
+<article-title>The endoplasmic reticulum: Structure, function and response to cellular
+signaling</article-title>. <source>Cell Mol Life Sci</source>.
+<year>2016</year>;<volume>73</volume>:<fpage>79</fpage>&#x2013;<lpage>94</lpage>.<pub-id pub-id-type="pmid">26433683</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B36">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Yal&#xE7;&#x131;n</surname>
+<given-names>B</given-names>
+</string-name>, <string-name><surname>Zhao</surname><given-names>L</given-names></string-name>, <string-name><surname>Stofanko</surname><given-names>M</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Modeling of axonal endoplasmic reticulum network by spastic paraplegia
+proteins</article-title>. <source>eLife</source>.
+<year>2017</year>;<volume>6</volume>:<fpage>e23882</fpage>.<pub-id pub-id-type="pmid">28742022</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B37">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Abrisch</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name><surname>Gumbin</surname><given-names>SC</given-names></string-name>, <string-name><surname>Wisniewski</surname><given-names>BT</given-names></string-name>,
+<string-name><surname>Lackner</surname><given-names>LL</given-names></string-name>, <string-name><surname>Voeltz</surname><given-names>GK</given-names></string-name></person-group>.
+<article-title>Fission and fusion machineries converge at ER contact sites to regulate
+mitochondrial morphology</article-title>. <source>J Cell Biol</source>.
+<year>2020</year>;<volume>219</volume>:<fpage>201911122</fpage>.</mixed-citation>
+      </ref>
+      <ref id="awac123-B38">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fowler</surname>
+<given-names>PC</given-names>
+</string-name>, <string-name><surname>O&#x2019;Sullivan</surname><given-names>NC</given-names></string-name></person-group>.
+<article-title>ER-shaping proteins are required for ER and mitochondrial network
+organization in motor neurons</article-title>. <source>Hum Mol Genet</source>.
+<year>2016</year>;<volume>25</volume>:<fpage>2827</fpage>&#x2013;<lpage>2837</lpage>.<pub-id pub-id-type="pmid">27170313</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B39">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>T&#xE1;bara</surname>
+<given-names>LC</given-names>
+</string-name>, <string-name><surname>Morris</surname><given-names>JL</given-names></string-name>, <string-name><surname>Prudent</surname><given-names>J</given-names></string-name></person-group>.
+<article-title>The complex dance of organelles during mitochondrial
+division</article-title>. <source>Trends Cell Biol</source>.
+<year>2021</year>;<volume>31</volume>:<fpage>241</fpage>&#x2013;<lpage>253</lpage>.<pub-id pub-id-type="pmid">33446409</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B40">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Tilokani</surname>
+<given-names>L</given-names>
+</string-name>, <string-name><surname>Nagashima</surname><given-names>S</given-names></string-name>,
+<string-name><surname>Paupe</surname><given-names>V</given-names></string-name>, <string-name><surname>Prudent</surname><given-names>J</given-names></string-name></person-group>.
+<article-title>Mitochondrial dynamics: Overview of molecular mechanisms</article-title>.
+<source>Essays Biochem</source>.
+<year>2018</year>;<volume>62</volume>:<fpage>341</fpage>&#x2013;<lpage>360</lpage>.<pub-id pub-id-type="pmid">30030364</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B41">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Cooper</surname>
+<given-names>HM</given-names>
+</string-name>, <string-name><surname>Yang</surname><given-names>Y</given-names></string-name>, <string-name><surname>Ylikallio</surname><given-names>E</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>ATPase-deficient mitochondrial inner membrane protein ATAD3A disturbs
+mitochondrial dynamics in dominant hereditary spastic paraplegia</article-title>.
+<source>Hum Mol Genet</source>.
+<year>2017</year>;<volume>26</volume>:<fpage>1432</fpage>&#x2013;<lpage>1443</lpage>.<pub-id pub-id-type="pmid">28158749</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B42">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Denton</surname>
+<given-names>K</given-names>
+</string-name>, <string-name><surname>Mou</surname><given-names>Y</given-names></string-name>, <string-name><surname>Xu</surname><given-names>CC</given-names></string-name>,
+<etal>et al</etal></person-group>
+<article-title>Impaired mitochondrial dynamics underlie axonal defects in hereditary
+spastic paraplegias</article-title>. <source>Hum Mol Genet</source>.
+<year>2018</year>;<volume>27</volume>:<fpage>2517</fpage>&#x2013;<lpage>2530</lpage>.<pub-id pub-id-type="pmid">29726929</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B43">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lavie</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Serrat</surname><given-names>R</given-names></string-name>, <string-name><surname>Bellance</surname><given-names>N</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Mitochondrial morphology and cellular distribution are altered in SPG31
+patients and are linked to DRP1 hyperphosphorylation</article-title>. <source>Hum Mol
+Genet</source>.
+<year>2017</year>;<volume>26</volume>:<fpage>674</fpage>&#x2013;<lpage>685</lpage>.<pub-id pub-id-type="pmid">28007911</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B44">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lim</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name><surname>Cho</surname><given-names>IT</given-names></string-name>, <string-name><surname>Schoel</surname><given-names>LJ</given-names></string-name>, <string-name><surname>Cho</surname><given-names>G</given-names></string-name>,
+<string-name><surname>Golden</surname><given-names>JA</given-names></string-name></person-group>.
+<article-title>Hereditary spastic paraplegia-linked REEP1 modulates endoplasmic
+reticulum/mitochondria contacts</article-title>. <source>Ann Neurol</source>.
+<year>2015</year>;<volume>78</volume>:<fpage>679</fpage>&#x2013;<lpage>696</lpage>.<pub-id pub-id-type="pmid">26201691</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B45">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Magri</surname>
+<given-names>S</given-names>
+</string-name>, <string-name><surname>Fracasso</surname><given-names>V</given-names></string-name>, <string-name><surname>Plumari</surname><given-names>M</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Concurrent AFG3L2 and SPG7 mutations associated with syndromic parkinsonism
+and optic atrophy with aberrant OPA1 processing and mitochondrial network
+fragmentation</article-title>. <source>Hum Mutat</source>.
+<year>2018</year>;<volume>39</volume>:<fpage>2060</fpage>&#x2013;<lpage>2071</lpage>.<pub-id pub-id-type="pmid">30252181</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B46">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Cashman</surname>
+<given-names>NR</given-names>
+</string-name>, <string-name><surname>Durham</surname><given-names>HD</given-names></string-name>, <string-name><surname>Blusztajn</surname><given-names>JK</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Neuroblastoma x spinal cord (NSC) hybrid cell lines resemble developing
+motor neurons</article-title>. <source>Dev Dyn</source>.
+<year>1992</year>;<volume>194</volume>:<fpage>209</fpage>&#x2013;<lpage>221</lpage>.<pub-id pub-id-type="pmid">1467557</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B47">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Schulz</surname>
+<given-names>A</given-names>
+</string-name>, <string-name><surname>Muller</surname><given-names>NV</given-names></string-name>, <string-name><surname>van de
+Lest</surname><given-names>NA</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Analysis of the genomic architecture of a complex trait locus in
+hypertensive rat models links Tmem63c to kidney damage</article-title>.
+<source>eLife</source>.
+<year>2019</year>;<volume>8</volume>:<fpage>e42068</fpage>.<pub-id pub-id-type="pmid">30900988</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B48">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Eisenreich</surname>
+<given-names>A</given-names>
+</string-name>, <string-name><surname>Orphal</surname><given-names>M</given-names></string-name>, <string-name><surname>Bohme</surname><given-names>K</given-names></string-name>, <string-name><surname>Kreutz</surname><given-names>R</given-names></string-name></person-group>.
+<article-title>Tmem63c is a potential pro-survival factor in angiotensin II-treated
+human podocytes</article-title>. <source>Life Sci</source>.
+<year>2020</year>;<volume>258</volume>:<fpage>118175</fpage>.<pub-id pub-id-type="pmid">32750436</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B49">
+        <label>49</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Aref-Eshghi</surname>
+<given-names>E</given-names>
+</string-name>, <string-name><surname>Rodenhiser</surname><given-names>DI</given-names></string-name>,
+<string-name><surname>Schenkel</surname><given-names>LC</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Genomic DNA methylation signatures enable concurrent diagnosis and clinical
+genetic variant classification in neurodevelopmental syndromes</article-title>.
+<source>Am J Hum Genet</source>.
+<year>2018</year>;<volume>102</volume>:<fpage>156</fpage>&#x2013;<lpage>174</lpage>.<pub-id pub-id-type="pmid">29304373</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B50">
+        <label>50</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Yan</surname>
+<given-names>H</given-names>
+</string-name>, <string-name><surname>Helman</surname><given-names>G</given-names></string-name>, <string-name><surname>Murthy</surname><given-names>SE</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Heterozygous variants in the mechanosensitive ion channel TMEM63A result in
+transient hypomyelination during infancy</article-title>. <source>Am J Hum
+Genet</source>.
+<year>2019</year>;<volume>105</volume>:<fpage>996</fpage>&#x2013;<lpage>1004</lpage>.<pub-id pub-id-type="pmid">31587869</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B51">
+        <label>51</label>
+        <mixed-citation publication-type="other">International mouse phenotyping consortium.
+Accessed 5 May 2022. <ext-link xlink:href="https://www.mousephenotype.org/" ext-link-type="uri">https://www.mousephenotype.org/</ext-link></mixed-citation>
+      </ref>
+      <ref id="awac123-B52">
+        <label>52</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Dickinson</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name><surname>Flenniken</surname><given-names>AM</given-names></string-name>,
+<string-name><surname>Ji</surname><given-names>X</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>High-throughput discovery of novel developmental
+phenotypes</article-title>. <source>Nature</source>.
+<year>2016</year>;<volume>537</volume>:<fpage>508</fpage>&#x2013;<lpage>514</lpage>.<pub-id pub-id-type="pmid">27626380</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B53">
+        <label>53</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Flippo</surname>
+<given-names>KH</given-names>
+</string-name>, <string-name><surname>Strack</surname><given-names>S</given-names></string-name></person-group>.
+<article-title>Mitochondrial dynamics in neuronal injury, development and
+plasticity</article-title>. <source>J Cell Sci</source>.
+<year>2017</year>;<volume>130</volume>:<fpage>671</fpage>&#x2013;<lpage>681</lpage>.<pub-id pub-id-type="pmid">28154157</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B54">
+        <label>54</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Mandal</surname>
+<given-names>A</given-names>
+</string-name>, <string-name><surname>Drerup</surname><given-names>CM</given-names></string-name></person-group>.
+<article-title>Axonal transport and mitochondrial function in neurons</article-title>.
+<source>Front Cell Neurosci</source>.
+<year>2019</year>;<volume>13</volume>:<fpage>373</fpage>.<pub-id pub-id-type="pmid">31447650</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B55">
+        <label>55</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Gomes</surname>
+<given-names>LC</given-names>
+</string-name>, <string-name><surname>Scorrano</surname><given-names>L</given-names></string-name></person-group>.
+<article-title>Mitochondrial morphology in mitophagy and macroautophagy</article-title>.
+<source>Biochim Biophys Acta</source>.
+<year>2013</year>;<volume>1833</volume>:<fpage>205</fpage>&#x2013;<lpage>212</lpage>.<pub-id pub-id-type="pmid">22406072</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B56">
+        <label>56</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Mou</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name><surname>Li</surname><given-names>XJ</given-names></string-name></person-group>.
+<article-title>Rescue axonal defects by targeting mitochondrial dynamics in hereditary
+spastic paraplegias</article-title>. <source>Neural Regen Res</source>.
+<year>2019</year>;<volume>14</volume>:<fpage>574</fpage>&#x2013;<lpage>577</lpage>.<pub-id pub-id-type="pmid">30632492</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B57">
+        <label>57</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ross</surname>
+<given-names>WN</given-names>
+</string-name>
+</person-group>. <article-title>Understanding calcium waves and sparks in central
+neurons</article-title>. <source>Nat Rev Neurosci</source>.
+<year>2012</year>;<volume>13</volume>:<fpage>157</fpage>&#x2013;<lpage>168</lpage>.<pub-id pub-id-type="pmid">22314443</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B58">
+        <label>58</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Veeresh</surname>
+<given-names>P</given-names>
+</string-name>, <string-name><surname>Kaur</surname><given-names>H</given-names></string-name>, <string-name><surname>Sarmah</surname><given-names>D</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Endoplasmic reticulum-mitochondria crosstalk: from junction to function
+across neurological disorders</article-title>. <source>Ann N Y Acad Sci</source>.
+<year>2019</year>;<volume>1457</volume>:<fpage>41</fpage>&#x2013;<lpage>60</lpage>.<pub-id pub-id-type="pmid">31460675</pub-id></mixed-citation>
+      </ref>
+      <ref id="awac123-B59">
+        <label>59</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Tsaousidou</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name><surname>Ouahchi</surname><given-names>K</given-names></string-name>, <string-name><surname>Warner</surname><given-names>TT</given-names></string-name>, <etal>et
+al</etal></person-group>
+<article-title>Sequence alterations within CYP7B1 implicate defective cholesterol
+homeostasis in motor-neuron degeneration</article-title>. <source>Am J Hum
+Genet</source>.
+<year>2008</year>;<volume>82</volume>:<fpage>510</fpage>&#x2013;<lpage>515</lpage>.<pub-id pub-id-type="pmid">18252231</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list>
+        <def-item>
+          <term>ER&#x2009;=</term>
+          <def>
+            <p>&#x2009;endoplasmic reticulum</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>HSP&#x2009;=</term>
+          <def>
+            <p>&#x2009;hereditary spastic paraplegia</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>MAM&#x2009;=</term>
+          <def>
+            <p>&#x2009;mitochondria-associated membranes</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>MERCs&#x2009;=</term>
+          <def>
+            <p>&#x2009;mitochondria-ER contact sites</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>siNT&#x2009;=</term>
+          <def>
+            <p>&#x2009;non-targeting small interfering RNA</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>siRNA&#x2009;=</term>
+          <def>
+            <p>&#x2009;small interfering RNA</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>SNP&#x2009;=</term>
+          <def>
+            <p>&#x2009;single nucleotide polymorphism</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>WES&#x2009;=</term>
+          <def>
+            <p>&#x2009;whole exome sequencing</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+  </back>
+</article>
+</pmc-articleset>

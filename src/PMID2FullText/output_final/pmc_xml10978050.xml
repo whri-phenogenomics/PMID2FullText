@@ -1,0 +1,856 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">PNAS Nexus</journal-id><journal-id journal-id-type="iso-abbrev">PNAS Nexus</journal-id><journal-id journal-id-type="publisher-id">pnasnexus</journal-id><journal-title-group><journal-title>PNAS Nexus</journal-title></journal-title-group><issn pub-type="epub">2752-6542</issn><publisher><publisher-name>Oxford University Press</publisher-name><publisher-loc>US</publisher-loc></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38550277</article-id><article-id pub-id-type="pmc">10978050</article-id><article-id pub-id-type="doi">10.1093/pnasnexus/pgae115</article-id><article-id pub-id-type="publisher-id">pgae115</article-id><article-categories><subj-group subj-group-type="heading"><subject>Biological, Health, and Medical Sciences</subject></subj-group><subj-group subj-group-type="category-taxonomy-collection"><subject>AcademicSubjects/MED00010</subject><subject>AcademicSubjects/SCI00010</subject><subject>AcademicSubjects/SOC00010</subject></subj-group><subj-group subj-group-type="category-taxonomy-collection"><subject>PNAS_Nexus/genetics</subject><subject>PNAS_Nexus/neuro</subject></subj-group></article-categories><title-group><article-title>ALKBH8 contributes to neurological function through oxidative stress regulation</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Honda</surname><given-names>Kohei</given-names></name><aff>
+<institution>Laboratory of Molecular and Cellular Physiology, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1172-2466</contrib-id><name><surname>Hase</surname><given-names>Hiroaki</given-names></name><aff>
+<institution>Laboratory of Molecular and Cellular Physiology, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff><xref rid="FM2" ref-type="author-notes"/><xref rid="pgae115-cor1" ref-type="corresp"/><!--hase-h@phs.osaka-u.ac.jp--></contrib><contrib contrib-type="author"><name><surname>Tanikawa</surname><given-names>Sayaka</given-names></name><aff>
+<institution>Laboratory of Molecular and Cellular Physiology, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0007-2096-5124</contrib-id><name><surname>Okawa</surname><given-names>Katsuya</given-names></name><aff>
+<institution>Laboratory of Molecular and Cellular Physiology, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0001-0846-6986</contrib-id><name><surname>Chen</surname><given-names>Lu</given-names></name><aff>
+<institution>Laboratory of Biopharmaceutics, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff></contrib><contrib contrib-type="author"><name><surname>Yamaguchi</surname><given-names>Takumi</given-names></name><aff>
+<institution>Laboratory of Biopharmaceutics, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0008-9190-5927</contrib-id><name><surname>Nakai</surname><given-names>Manami</given-names></name><aff>
+<institution>Laboratory of Molecular and Cellular Physiology, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff></contrib><contrib contrib-type="author"><name><surname>Kitae</surname><given-names>Kaori</given-names></name><aff>
+<institution>Laboratory of Molecular and Cellular Physiology, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7562-4000</contrib-id><name><surname>Ago</surname><given-names>Yukio</given-names></name><aff>
+<institution>Laboratory of Biopharmaceutics, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff><aff>
+<institution>Global Center for Medical Engineering and Informatics, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff><aff>
+<institution>Department of Cellular and Molecular Pharmacology, Graduate School of Biomedical and Health Sciences, Hiroshima University</institution>, <addr-line>Hiroshima 734-8553</addr-line>, <country country="JP">Japan</country></aff></contrib><contrib contrib-type="author"><name><surname>Nakagawa</surname><given-names>Shinsaku</given-names></name><aff>
+<institution>Laboratory of Biopharmaceutics, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff><aff>
+<institution>Global Center for Medical Engineering and Informatics, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1870-9790</contrib-id><name><surname>Tsujikawa</surname><given-names>Kazutake</given-names></name><aff>
+<institution>Laboratory of Molecular and Cellular Physiology, Graduate School of Pharmaceutical Sciences, Osaka University</institution>, <addr-line>Suita, Osaka 565-0871</addr-line>, <country country="JP">Japan</country></aff></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Abramov</surname><given-names>Andrey</given-names></name><role>Editor</role></contrib></contrib-group><author-notes><corresp id="pgae115-cor1">To whom correspondence should be addressed: Email: <email>hase-h@phs.osaka-u.ac.jp</email></corresp><fn id="FM2"><p>
+<bold>Competing Interest:</bold> The authors declare no competing interest.</p></fn></author-notes><pub-date pub-type="collection"><month>3</month><year>2024</year></pub-date><pub-date pub-type="epub" iso-8601-date="2024-03-28"><day>28</day><month>3</month><year>2024</year></pub-date><pub-date pub-type="pmc-release"><day>28</day><month>3</month><year>2024</year></pub-date><volume>3</volume><issue>3</issue><elocation-id>pgae115</elocation-id><history><date date-type="received"><day>10</day><month>11</month><year>2023</year></date><date date-type="accepted"><day>28</day><month>2</month><year>2024</year></date><date date-type="corrected-typeset"><day>28</day><month>3</month><year>2024</year></date></history><permissions><copyright-statement>&#xA9; The Author(s) 2024. Published by Oxford University Press on behalf of National Academy of Sciences.</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:href="pgae115.pdf"/><abstract><title>Abstract</title><p>Transfer RNA (tRNA) modification is essential for proper protein translation, as these modifications play important roles in several biological functions and disease pathophysiologies. AlkB homolog 8 (ALKBH8) is one of the nine mammalian ALKBH family molecules known to regulate selenoprotein translation through the modification of the wobble uridine (U34) in tRNA; however, its specific biological roles remain unclear. In this study, we investigated the role of ALKBH8 using <italic toggle="yes">Alkbh8</italic>-knockout (<italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup>) mice, which were observed to have reduced 5-methoxycarbonylmethyluridine (mcm5U) and (S)-5-methoxycarbonylhydroxymethyluridine levels; notably, the mcm5U level was partially compensated only in the brain. The results of the novel object recognition test showed reduction in time to explore a novel object in <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice; increased latency to fall in the rotarod performance test and latency to the immobility period in the forced swim test were also observed. These abnormal behaviors indicate dysfunction of the central nervous system. Furthermore, we observed reduced brain weight and ischemic pathological changes in the cerebral cortex and hippocampus in the form of weak eosin staining in the fiber tracts adjacent to the hippocampal cornu ammonis 1 region and an increase in pyramidal cells in the temporal lobe. Concordantly, we identified the differential expression of oxidative stress-related proteins and metabolites in the cerebral cortex and hippocampus using omics analyses. Finally, neurons and glial cells derived from <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice show reduced mitochondrial membrane potential. Collectively, these findings indicate that ALKBH8 maintains neural function through an oxidative stress-regulatory mechanism.</p></abstract><funding-group><award-group award-type="grant"><funding-source>
+<institution-wrap><institution>AMED</institution><institution-id institution-id-type="DOI">10.13039/100009619</institution-id></institution-wrap>
+</funding-source><award-id>JP23ama121054</award-id><award-id>JP23ama121052</award-id></award-group></funding-group><counts><page-count count="12"/></counts></article-meta></front>
+  <body>
+    <boxed-text id="pgae115-box1" position="anchor">
+      <caption>
+        <title>Significance Statement</title>
+      </caption>
+      <p>Posttranscriptional modifications of RNA (i.e. the epitranscriptome) play an important role in several physiological functions and diseases. Neuronal regulation is also thought to be finely regulated by RNA modification proteins, as dysfunction of these proteins is known to contribute to several neurological disorders. However, the regulatory mechanism involving transfer RNA (tRNA)-modifying proteins remains poorly understood. In this study, we found that the tRNA-modifying protein AlkB homolog 8 (ALKBH8) plays an essential role in neurological functioning through oxidative stress regulation. Recently, mutations in <italic toggle="yes">ALKBH8</italic> have been detected in individuals with intellectual disability. Our findings provide novel insights into the function of tRNA-modifying enzymes in the context of the physiology of the central nervous system and the development of neurological diseases.</p>
+    </boxed-text>
+    <sec sec-type="intro" id="pgae115-s0">
+      <title>Introduction</title>
+      <p>Posttranscriptional modification of messenger RNA (mRNA), transfer RNA (tRNA), and ribosomal RNA is collectively known as the epitranscriptome. The relevant chemical moieties are added or removed by proteins called &#x201C;writers&#x201D; or &#x201C;erasers,&#x201D; respectively, whereas the modified RNAs are recognized by &#x201C;readers&#x201D; (<xref rid="pgae115-B1" ref-type="bibr">1</xref>, <xref rid="pgae115-B2" ref-type="bibr">2</xref>). Among the epitranscriptome-associated molecules, members of the AlkB homolog (ALKBH) family possess a domain similar to the 2-oxoglutarate and Fe(II)-dependent oxygenase domain (2-OG domain) of <italic toggle="yes">Escherichia coli</italic> AlkB and are thought to function as erasers. The human ALKBH family consists of nine proteins (ALKBH1&#x2013;8 and fat mass and obesity associated [FTO]) that catalyze the demethylation of various RNA (<xref rid="pgae115-B3" ref-type="bibr">3&#x2013;6</xref>) as well as DNA (<xref rid="pgae115-B7" ref-type="bibr">7</xref>, <xref rid="pgae115-B8" ref-type="bibr">8</xref>) and proteins (<xref rid="pgae115-B9" ref-type="bibr">9</xref>, <xref rid="pgae115-B10" ref-type="bibr">10</xref>).</p>
+      <p>A growing body of evidence indicates that the epitranscriptome plays an important role in development (<xref rid="pgae115-B11" ref-type="bibr">11</xref>), obesity (<xref rid="pgae115-B12" ref-type="bibr">12</xref>, <xref rid="pgae115-B13" ref-type="bibr">13</xref>), and certain types of cancer (<xref rid="pgae115-B14" ref-type="bibr">14</xref>). However, there have been very few studies on the functions of the ALKBH family in the central nervous system and any possible associations with neurological disorders. ALKBH1 is reported to contribute to axon regeneration (<xref rid="pgae115-B15" ref-type="bibr">15</xref>) and hippocampus-dependent learning (<xref rid="pgae115-B16" ref-type="bibr">16</xref>). Alkbh5 deficiency in mice results in profound and deleterious effects on cerebellar development under hypoxic conditions (<xref rid="pgae115-B17" ref-type="bibr">17</xref>). Moreover, FTO-deficient mice show impaired learning and memory due to decreased adult neural stem cell proliferation and neuronal differentiation, as well as reduced brain size and body weight (<xref rid="pgae115-B18" ref-type="bibr">18</xref>).</p>
+      <p>The functions of ALKBH proteins are mediated by demethylating the N<sup>6</sup>-methyladenosine of genes in brain cells. However, ALKBH8 has a unique molecular structure in that it contains not only the 2-OG domain commonly found in the ALKBH family, but also a methyltransferase (MT) domain that is not present in other ALKBH family proteins (<xref rid="pgae115-B19" ref-type="bibr">19</xref>). The wobble uridine of tRNA (U34) is known to be the substrate of ALKBH8. This uridine at the first position of the anticodon region can have multiple modifications and form wobble base pairs with the corresponding mRNA codon in the ribosome to ensure precise decoding of the genetic code (<xref rid="pgae115-B20" ref-type="bibr">20</xref>, <xref rid="pgae115-B21" ref-type="bibr">21</xref>). ALKBH8 methylates 5-carboxymethyluridine (cm5U) as a substrate via the MT domain and then hydroxylates it via the 2-OG domain to generate 5-methoxycarbonylmethyluridine (mcm5U) and (S)-5-methoxycarbonylhydroxymethyluridine ((S)-mchm5U) (<xref rid="pgae115-B5" ref-type="bibr">5</xref>). These modifications at U34 are found in selenocysteine tRNA<sup>Sec</sup>, which is essential for the biosynthesis of selenoproteins (<xref rid="pgae115-B22" ref-type="bibr">22</xref>, <xref rid="pgae115-B23" ref-type="bibr">23</xref>), including glutathione peroxidases (Gpx1, Gpx3, and Gpx6) and thioredoxin reductase 1 (<xref rid="pgae115-B24" ref-type="bibr">24</xref>). At the cellular level, <italic toggle="yes">Alkbh8</italic> depletion caused a reduction in the mcm5U level and the accumulation of cm5U to diminish cellular survival upon exposure to DNA-damaging agents (<xref rid="pgae115-B25" ref-type="bibr">25</xref>). Studies using <italic toggle="yes">Alkbh8</italic>-deficient mouse embryonic fibroblasts (<italic toggle="yes">Alkbh8</italic><sup>def</sup> MEFs) have shown that the induction of cellular senescence is accompanied by increased mitochondrial mass and oxygen consumption (<xref rid="pgae115-B26" ref-type="bibr">26</xref>). Moreover, <italic toggle="yes">Alkbh8</italic><sup>def</sup> MEFs were sensitive to reactive oxygen species damage caused by H<sub>2</sub>O<sub>2</sub> or rotenone (<xref rid="pgae115-B24" ref-type="bibr">24</xref>). Regardless of these in vitro findings, it has been reported that <italic toggle="yes">Alkbh8</italic>-deficient mice are viable under normal conditions (<xref rid="pgae115-B27" ref-type="bibr">27</xref>) but are significantly affected when exposed to external environmental stresses that induce lung dysfunction (<xref rid="pgae115-B28" ref-type="bibr">28</xref>). Therefore, the physiological functions of ALKBH8 in vivo remain to be elucidated.</p>
+      <p>In this study, we investigated the biological functions of ALKBH8 using <italic toggle="yes">Alkbh8</italic>-knockout (<italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup>) mice. We observed that <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice exhibited altered behavior, indicating central nervous system dysfunction. We also observed abnormal brain pathology in <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice, which may have been caused by oxidative stress. Furthermore, oxidative stress-related proteins were found to be differentially regulated in the brain of these mice. The contribution of ALKBH8 to oxidative stress regulation was also supported by metabolic changes in the methionine and glutathione pathways. Finally, we observed a reduction in mitochondrial membrane potential in primary neurons and glial cells derived from <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice.</p>
+    </sec>
+    <sec sec-type="results" id="pgae115-s1">
+      <title>Results</title>
+      <sec id="pgae115-s1.1">
+        <title>Generation of <italic toggle="yes">Albkh8<sup>&#x2212;/&#x2212;</sup></italic> mouse</title>
+        <p>
+<italic toggle="yes">Albkh8</italic>
+<sup>&#x2212;/&#x2212;</sup> mice were generated by deleting exons 3 and 4, which contain the RNA recognition motif (RRM). The deletion created a frameshift to introduce a termination codon before the exons encoding the RRM domain (Fig. <xref rid="pgae115-F1" ref-type="fig">1</xref>A). As a result, amino acid sequences from 89 to 709 have been removed, leaving only the segment coding for amino acids 1 to 88. Heterozygous and homozygous deletion of the gene was confirmed using PCR targeting the deleted exons 3 and 4 region (Fig. <xref rid="pgae115-F1" ref-type="fig">1</xref>B). The body weights of both male and female <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice were lower than those of wild-type (<italic toggle="yes">Alkbh8</italic><sup>+/+</sup>) mice (Fig. <xref rid="pgae115-F1" ref-type="fig">1</xref>C). The expression of ALKBH8 in <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice was assessed using western blotting (Fig. <xref rid="pgae115-F1" ref-type="fig">1</xref>D). To further confirm the deficient enzymatic activity in <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice, nucleoside modifications in the low-molecular-weight RNA fraction, which contains tRNA, were quantified using mass spectrometry (MS). A significant accumulation of cm5U and a decrease in its methylated form, mcm5U, were observed in organ-derived RNA of <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice compared with that of <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice. Furthermore, (S)-mchm5U levels were below the detection limit in <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice RNA (Fig. <xref rid="pgae115-F1" ref-type="fig">1</xref>E). qPCR analysis confirmed that <italic toggle="yes">Alkbh8</italic> mRNA was expressed in all examined organs, including the brain, spleen, and liver (Fig. <xref rid="sup1" ref-type="supplementary-material">S1A</xref>). Interestingly, higher mcm5U levels were detected in the brain than in the spleen and liver of <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice. These results suggest that the cm5U to mcm5U conversion RNA modification is important for brain function and that a partial compensatory pathway may have operated to maintain a functional level (Fig. <xref rid="sup1" ref-type="supplementary-material">S1B</xref>). Figure <xref rid="sup1" ref-type="supplementary-material">S1C</xref> illustrates the uridine modification pathway based on information from the Modomics database (<xref rid="pgae115-B29" ref-type="bibr">29</xref>). In addition to (S)-mchm5U, decreased 5-methoxycarbonylmethyl-2&#x2032;-O-methyluridine (mcm5Um) and 5-methoxycarbonylmethyl-2-thiouridine levels were observed in the brain of <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice, but no decrease in the level of 5-carboxyhydroxymethyluridine (chm5U), which is synthesized downstream of cm5U, was observed. With regard to uridine modifications involving carbamoyl groups, the levels of 5-carbamoylmethyluridine and 5-carbamoylmethyl-2&#x2032;-O-methyluridine were unchanged, while that of 5-carbamoylhydroxymethyluridine (nchm5U), which was not detectable in <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice, was markedly increased in RNA from the brain of <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice. Although the regulatory mechanism of the uridine carbamoyl modification pathway remains unclear, the increase in nchm5U level may indicate a relative up-regulation of this pathway owing to the suppression of modifications after cm5U due to the loss of ALKBH8.</p>
+        <fig position="float" id="pgae115-F1" fig-type="figure">
+          <label>Fig. 1.</label>
+          <caption>
+            <p>Establishment of <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice. A) Gene-targeting strategy to delete exon 3 (Ex3) and exon 4 (Ex4) for generating <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice. B) Heterozygous and homozygous deletions were detected using PCR targeting the Ex3 and Ex4 regions. Upper and lower bands indicate wild-type and deleted sequences, respectively. C) The body weight of <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice was measured at 15 weeks of age (<italic toggle="yes">n</italic> = 6&#x2013;16, **<italic toggle="yes">P</italic> &lt; 0.01, Student's t test). D) Western blotting analysis of the cerebral cortex of <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice. Tissues were lysed using N-PER reagent and probed using anti-ALKBH8 and anti-&#x3B2;-actin antibodies. Representative western blot images from three independent experiments are shown. E) The low-molecular-weight RNA fraction containing tRNA was extracted from each tissue indicated and degraded into nucleosides. cm5U, mcm5U, and (S)-mchm5U levels were analyzed using UHPLC-UniSpray-MS/MS (<italic toggle="yes">n</italic> = 3, mean &#xB1; SEM).</p>
+          </caption>
+          <graphic xlink:href="pgae115f1" position="float"/>
+        </fig>
+      </sec>
+      <sec id="pgae115-s1.2">
+        <title>Altered behavior of <italic toggle="yes">Alkbh8<sup>&#x2212;/&#x2212;</sup></italic> mice</title>
+        <p>We noticed certain behavioral abnormalities in the established <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice during handling, including more agile movements than in <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice. To investigate further, we conducted behavioral tests using adult male experimental mice. The novel object recognition (NOR) test is used to measure short-term recognition memory (<xref rid="pgae115-B30" ref-type="bibr">30</xref>). After a training session, mice were allowed to freely explore a familiar object used in the training session as well as a novel object. Alkbh8<sup>+/+</sup> mice spent more time exploring the novel object because of the innate preference of mice for novelty. In contrast, <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice showed little difference in exploratory time between the familiar and novel objects (Fig. <xref rid="pgae115-F2" ref-type="fig">2</xref>A), as the discrimination index (DI), which is used to represent recognition memory sensitivity (<xref rid="pgae115-B30" ref-type="bibr">30</xref>), tended to be lower in <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice, although the difference was not statistically significant. The rotarod test (RRT) is used to assess motor coordination and balance in rodents, which can be affected by drug exposure or neurological disorders (<xref rid="pgae115-B31" ref-type="bibr">31</xref>). After the training session, the latency to fall with increasing speed was evaluated. The latency to fall of <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice was significantly prolonged compared with that of <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice (Fig. <xref rid="pgae115-F2" ref-type="fig">2</xref>B). We also conducted the forced swim test (FST), in which immobility time is often used to examine the efficacy of antidepressants; the latency to the first immobility period is also used as a parameter to differentiate between antidepressants and psychostimulants (<xref rid="pgae115-B32" ref-type="bibr">32</xref>, <xref rid="pgae115-B33" ref-type="bibr">33</xref>). We observed an increase in latency to the first immobility period, but not in immobility time, in <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice (Fig. <xref rid="pgae115-F2" ref-type="fig">2</xref>C). Finally, <italic toggle="yes">Alkbh1<sup>&#x2212;</sup></italic><sup>/&#x2212;</sup> mice were reported to have decreased contextual memory in the contextual and cued fear-conditioning test (<xref rid="pgae115-B16" ref-type="bibr">16</xref>), but we did not observe any differences in either contextual memory or cued memory in the <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice (Fig. <xref rid="sup1" ref-type="supplementary-material">S2</xref>). These results strongly suggest a link between the loss of ALKBH8 enzymatic activity and brain dysfunction in mice.</p>
+        <fig position="float" id="pgae115-F2" fig-type="figure">
+          <label>Fig. 2.</label>
+          <caption>
+            <p>Behavioral tests on <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> male mice. A) NOR test. After a training session with two objects, one of them was replaced with a novel object and then the mice (male, 14&#x2013;17 weeks of age) were allowed to re-explore the same field. Exploratory time for the novel object (Tn) and familiar object (Tf) were measured. The DI was calculated using the following equation: DI = (Tn &#x2212; Tf)/(Tn + Tf). <italic toggle="yes">n</italic> = 14, mean &#xB1; SEM, *<italic toggle="yes">P</italic> &lt; 0.05, two-way ANOVA and the Tukey&#x2013;Kramer post hoc test. B) RRT. On the first 2 days, male mice (18&#x2013;23 weeks of age) underwent a training session with a constant speed (16&#x2005;rpm) twice a day. In the following test session, the rotarod speed was accelerated from 0 to 35&#x2005;rpm and the time to fall was measured (<italic toggle="yes">n</italic> = 14 [WT] and <italic toggle="yes">n</italic> = 13 [KO], mean &#xB1; SEM, **<italic toggle="yes">P</italic> &lt; 0.01, Student's t test). C) FST. Male mice (12&#x2013;16 weeks of age) were placed in a glass cylinder containing water and allowed to swim for 6&#x2005;min. The latency to the first immobility period and the total duration of immobility was measured (<italic toggle="yes">n</italic> = 14 [WT] and <italic toggle="yes">n</italic> = 13 [KO], mean &#xB1; SEM, **<italic toggle="yes">P</italic> &lt; 0.01, Student's t test).</p>
+          </caption>
+          <graphic xlink:href="pgae115f2" position="float"/>
+        </fig>
+      </sec>
+      <sec id="pgae115-s1.3">
+        <title>Abnormal brain pathology of <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice</title>
+        <p>Due to the differences in nucleoside modifications in the brain and altered behavior that may have been due to neurological dysfunction, we performed a histopathological examination of the brains of male <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice. First, we confirmed that ALKBH8 was expressed in the cerebral cortex, hippocampus, and cerebellum in <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice, and that its expression was reduced in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice (Figs. <xref rid="pgae115-F1" ref-type="fig">1</xref>D and <xref rid="sup1" ref-type="supplementary-material">S3A</xref>). The whole-brain weight of <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice was significantly lower than that of <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice (Fig. <xref rid="pgae115-F3" ref-type="fig">3</xref>A). Because the body weight of <italic toggle="yes">Alkbh8<sup>&#x2212;/&#x2212;</sup></italic> mice is lower than <italic toggle="yes">Alkbh8<sup>+/+</sup></italic> mice, we explored the correlation between body weight and organ mass. While the other tissues showed a correlation with body weight and tissue weight, the brain exhibits a consistent decrease in brain weight independent of body weight (Fig. <xref rid="pgae115-F3" ref-type="fig">3</xref>B). Next, hematoxylin and eosin (H&amp;E)-stained sagittal and coronal brain sections were evaluated. The cornu ammonis 1 (CA1) region of the hippocampus is known to be sensitive to ischemic and hypoxic stress, with shrunken and darkly stained pyknotic neurons being indicative of ischemia-induced neuronal degeneration (<xref rid="pgae115-B34" ref-type="bibr">34</xref>). In the fiber tracts adjacent to the CA1 region of the hippocampus, statistically significant weaker eosin staining was observed in sections from <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice than in those from <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice (Figs. <xref rid="pgae115-F3" ref-type="fig">3</xref>C and <xref rid="sup1" ref-type="supplementary-material">S3B</xref>). Although there were no clear differences with regard to pyramidal cells in the CA1 region, the number of pyknotic neurons at layer III or the inner layers of the temporal lobe in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice was much higher than those in wild-type mice (Figs. <xref rid="pgae115-F3" ref-type="fig">3</xref>D and <xref rid="sup1" ref-type="supplementary-material">S3C</xref>). These findings indicated ischemic or hypoxic changes in the brain of <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice.</p>
+        <fig position="float" id="pgae115-F3" fig-type="figure">
+          <label>Fig. 3.</label>
+          <caption>
+            <p>Pathological analysis of male <italic toggle="yes">Alkbh8<sup>&#x2212;/&#x2212;</sup></italic> mice. A and B) The indicated tissues of male <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice (<italic toggle="yes">n</italic> = 6, 12 weeks of age) were excised after perfusion fixation and weighed (mean &#xB1; SEM, *<italic toggle="yes">P</italic> &lt; 0.05, **<italic toggle="yes">P</italic> &lt; 0.01, Student's t test). C) H&amp;E staining was performed in sagittal sections from the excised brain. The arrowhead in the hippocampus indicates weaker eosin staining in the fiber tracts adjacent to the CA1 region in an <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mouse compared with that in an <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mouse. The intensity of eosin staining was measured by ImageJ Fiji (higher intensity shows weaker staining, <italic toggle="yes">n</italic> = 3, *<italic toggle="yes">P</italic> &lt; 0.05, Student's t test). D) The arrowhead in the temporal lobe indicates the increase in shrunken and darkly stained pyknotic neurons in an <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mouse compared with those in an <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mouse. E) The arrowhead indicates enlargement of the lateral ventricle (sagittal section) and residual glial cells under the ependymal cell layer in the <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mouse. The area of the lateral ventricle was measured by ImageJ Fiji (<italic toggle="yes">n</italic> = 3, Student's t test).</p>
+          </caption>
+          <graphic xlink:href="pgae115f3" position="float"/>
+        </fig>
+        <p>As another pathological change, a tendency toward enlargement of the lateral ventricle and residual glial cells under the ependymal cell layer was observed in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice (Figs. <xref rid="pgae115-F3" ref-type="fig">3</xref>E and <xref rid="sup1" ref-type="supplementary-material">S3D</xref>). Enlargement of the lateral ventricle indicates impaired cerebrospinal fluid (CSF) flow. The observation of a much higher number of enlarged Virchow&#x2013;Robin (VR) spaces was also indicative of impaired CSF flow (Fig. <xref rid="sup1" ref-type="supplementary-material">S3E</xref>). The observed enlarged regions of VR space were different in each <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mouse, as summarized in Table <xref rid="sup1" ref-type="supplementary-material">S1</xref>.</p>
+      </sec>
+      <sec id="pgae115-s1.4">
+        <title>Changes in oxidative stress-related protein and metabolite levels in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice</title>
+        <p>ALKBH8 regulates protein translation through tRNA modification. To comprehensively examine protein expression, a proteome analysis of samples from the cerebral cortex, hippocampus, and cerebellum of adult male mice was conducted. Principal component analysis (PCA) revealed significant differences in protein expression profiles among brain tissues, which were separated by component 1 (i.e. the cerebellum from the cerebral cortex and hippocampus) and component 2 (separation of all three tissues). The difference between <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice was relatively small but distinguished by component 3 (Fig. <xref rid="pgae115-F4" ref-type="fig">4</xref>A). Gene set enrichment analysis (GSEA) is a method of enrichment analysis often used to identify differentially expressed gene sets, as it allows the analysis of all genes, including those with smaller changes in expression. As the differences between <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice were small, we used GSEA in addition to fold-change analysis to identify the relevant differentially expressed proteins in this study. First, we found significant enrichment in oxidative stress- and mitochondria-related ontologies in the cerebral cortex and hippocampus of <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice (Fig. <xref rid="pgae115-F4" ref-type="fig">4</xref>B). This included the up-regulation of many mitochondrial ribosomal proteins and proteins of the mitochondrial complex I, although the changes were small (Fig. <xref rid="sup1" ref-type="supplementary-material">S4A</xref>). Second, ontologies related to the immune response were commonly enriched among the three tissues. Additionally, among the proteins up- or down-regulated by more than 2-fold, nicotinamide nucleotide transhydrogenase (NNT) and &#x3B3;-glutamyltransferase 7 (GGT7), which are potential oxidative stress regulators, were significantly down-regulated (Figs. <xref rid="pgae115-F4" ref-type="fig">4</xref>C and <xref rid="sup1" ref-type="supplementary-material">S4B</xref>). We also observed pathological changes in the cerebral cortex and hippocampus but not in the cerebellum (Figs. <xref rid="pgae115-F3" ref-type="fig">3</xref> and <xref rid="sup1" ref-type="supplementary-material">S3</xref>). This suggests that oxidative stress-related proteins enriched in the cerebral cortex and hippocampus contribute to the observed pathological changes.</p>
+        <fig position="float" id="pgae115-F4" fig-type="figure">
+          <label>Fig. 4.</label>
+          <caption>
+            <p>Proteomics and metabolomics analysis of <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice. A) Proteomics analysis using mass spectrometry was conducted with peptide samples obtained from the cerebral cortex, hippocampus, and cerebellum of <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> or <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice. PCA results were plotted with components 1 (PC1) and 2 (PC2) (left panel), and components 2 (PC2) and 3 (PC3) (right panel) (<italic toggle="yes">n</italic> = 3). B) GSEA was conducted using the target GO Biological Process M5 ontology gene set, and normalized enrichment scores were plotted with the false discovery rate <italic toggle="yes">q</italic>-value. Enrichment analysis results indicate oxidative stress/mitochondria-related ontologies and immune response-related ontologies, respectively. C) Log<sub>2</sub> scale expression of the GGT7 and NNT proteins in the cerebral cortex (CC), hippocampus (HC), and cerebellum (CB) of <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice (<italic toggle="yes">n</italic> = 3, **<italic toggle="yes">P</italic> &lt; 0.01, Student's t test). D) Metabolomic analysis was conducted using CE-FTMS. Methionine cycle and glutathione (GSH) synthesis pathways are shown with the amount (peak MS intensity) of methionine (Met), betaine, cysteine (Cys), and cysteine&#x2013;glutathione disulfide (CySSG) (<italic toggle="yes">n</italic> = 2 in the CC of KO, <italic toggle="yes">n</italic> = 3 in others, *<italic toggle="yes">P</italic> &lt; 0.05, Student's t test).</p>
+          </caption>
+          <graphic xlink:href="pgae115f4" position="float"/>
+        </fig>
+        <p>We also conducted a metabolomics analysis of cerebral cortex and hippocampus tissues (Table <xref rid="sup1" ref-type="supplementary-material">S2</xref>). The levels of several amino acids involved in the methionine cycle and the glutathione synthesis pathway tended to be lower in the cerebral cortex of <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice (Fig. <xref rid="pgae115-F4" ref-type="fig">4</xref>D). These results, along with the proteomic changes, indicate perturbation of oxidative stress regulation, which in turn is likely to influence mitochondrial function in neurons and/or glial cells.</p>
+      </sec>
+      <sec id="pgae115-s1.5">
+        <title>Mitochondrial membrane potential in neurons and glial cells from <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice</title>
+        <p>To evaluate mitochondrial function, primary neurons and glial cells were isolated from the brains of <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice. The isolated cells were cultured and treated with cytarabine (Ara-C) to remove proliferative glial cells. On the seventh day of in vitro culture (7 DIV), neurite extension was evaluated by immunostaining dendrites and axons using the antimicrotubule-associated protein 2 (MAP2) and antiphosphoneurofilament (pNF) antibodies, respectively. We observed neurons stained with both MAP2 and pNF, as well as MAP2- and pNF-negative cells that were probably remaining glial cells. There were no significant differences in the dendrite or neurite lengths of neurons between <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice (Fig. <xref rid="pgae115-F5" ref-type="fig">5</xref>A). Next, mitochondrial membrane potential was measured using MT-1 staining. The neurons and glial cells were indistinguishable from each other in this staining, but we confirmed the influence of <italic toggle="yes">Alkbh8</italic> deficiency and rotenone on the MT-1 intensity in both neuron-like cells and other cells with high-magnification image (Fig. <xref rid="pgae115-F5" ref-type="fig">5</xref>B, left). The quantification analysis with low-magnification image revealed significant reduction of mitochondrial membrane potential in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice (mean intensity: 159.5 in <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and 86.7 in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice; Figs. <xref rid="pgae115-F5" ref-type="fig">5</xref>B, right, and <xref rid="sup1" ref-type="supplementary-material">S5</xref>). The mitochondrial membrane potential was further reduced when the cells were treated with rotenone, a mitochondrial complex I inhibitor, and this reduction was more significant in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice than in <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice (mean intensity: 78.2 in <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice and 63.6 in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup>).</p>
+        <fig position="float" id="pgae115-F5" fig-type="figure">
+          <label>Fig. 5.</label>
+          <caption>
+            <p>Mitochondrial function in isolated primary neurons and glial cells from <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice. Neurons and glial cells were isolated from E17.5 embryo brains and cultured on PLL-coated plates. At 3 DIV, Ara-C was added to inhibit glial cell proliferation. Rotenone was added at 5 DIV and incubated until 7 DIV. A) Nuclei, dendrites, and axons were stained using DAPI (blue), an anti-MAP2 antibody (green), and an anti-pNF antibody (red), respectively. B) Mitochondrial membrane potential was detected using the MT-1 MitoMP reagent (red), and co-stained with DAPI (blue). The high-magnification (40&#xD7;) image was used as representative image of MT-1 and DAPI, and the low-magnification (10&#xD7;) image for quantification is shown in Fig. <xref rid="sup1" ref-type="supplementary-material">S5</xref>. The graphs on the right depict the fluorescence intensities of MAP2 and pNF (A) and MT1 (B) normalized to that of DAPI. Each plot and color indicates intensity in a microscopic field of specimens from individual mouse (15 fields in four <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> or <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice each, *<italic toggle="yes">P</italic> &lt; 0.05, **<italic toggle="yes">P</italic> &lt; 0.01, Bonferroni-adjusted t test).</p>
+          </caption>
+          <graphic xlink:href="pgae115f5" position="float"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="pgae115-s2">
+      <title>Discussion</title>
+      <p>ALKBH8 is a &#x201C;writer&#x201D; enzyme that modifies the wobble uridine of tRNA and regulates protein translation, including that of selenoproteins. It has been reported that ALKBH8 has protective effects against several external stimuli, such as hydrogen peroxide, a mitochondrial complex I inhibitor, DNA-damaging agents, a glycolytic inhibitor, and environmental pollutants (<xref rid="pgae115-B24" ref-type="bibr">24&#x2013;26</xref>, <xref rid="pgae115-B28" ref-type="bibr">28</xref>), but specific details regarding its in vivo biological functions are limited. To investigate the in vivo biological functions of ALKBH8, we established <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice and observed that the organs of <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice had a marked accumulation of cm5U, whereas (s)-mchm5U level was below the detection limit. cm5U is used as a substrate by ALKBH8 and converted to mcm5U and mcm5Um by its MT activity. In <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice, the reduction in mcm5U and mcm5Um levels was significantly lower in brain tissues than in the liver and spleen. It has been reported that mcm5U is required for the translation of housekeeping selenoproteins, whereas mcm5Um is required for stress response-related selenoproteins (<xref rid="pgae115-B35" ref-type="bibr">35</xref>). The methylation of cm5U to mcm5U and mcm5Um in the brains of <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice may have been somewhat compensated for by some kind of mechanism to maintain the minimum essential RNA modification required for survival. Our proteomics analysis did detect several selenoproteins, but no significant differences were noted between <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice in this regard. This finding is consistent with the previous report in which selenoproteins&#x2019; expression in liver, heart, kidney, lung, spleen, and brain in their <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice was examined, and only the reduction of GPX1 in liver was observed (<xref rid="pgae115-B27" ref-type="bibr">27</xref>). These findings indicate tissue-specific regulation of selenoprotein expression by mcm5U or mcm5Um. Although no enzyme other than ALKBH8 is known to catalyze the methylation of cm5U to mcm5U and mcm5Um, we detected a slight but statistically significant elevation in the levels of elongator acetyltransferase complex subunits (ELP1, 2, and 3) in the cerebral cortex, hippocampus, and cerebellum of <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice (Fig. <xref rid="sup1" ref-type="supplementary-material">S4C</xref>). ELP1, 2, and 3 assemble into a complex, bind RNA, and modify uridine into cm5U (<xref rid="pgae115-B36" ref-type="bibr">36</xref>). These results suggest that there are some feedback mechanisms that might function to detect and compensate for the reduction of mcm5U, mcm5Um, and their downstream metabolites.</p>
+      <p>Abnormal behaviors, such as more agile movements of <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice, were observed by chance during daily rearing and led us to conduct behavioral tests. We observed a reduction in exploring time of a novel object in the NOR, increased latency to fall in the RRT, and increased latency to the first immobility period in the FST in <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice compared with those in <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice. The NOR, RRT, and FST results are interpreted as indices of short-term recognition memory, motor coordination, and response to antidepressants, respectively. Although further detailed examination of behavioral abnormalities is required, we believe that these test results are indicative of central nervous system dysfunction in <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice. Associations between several RNA-modifying enzymes and neurological diseases have been reported. Loss-of-function mutations in NOP2/Sun RNA MT2 and MT6 (NSUN2 and NSUN6, respectively) have been identified as the cause of autosomal-recessive intellectual disability (ID) in humans (<xref rid="pgae115-B37" ref-type="bibr">37</xref>, <xref rid="pgae115-B38" ref-type="bibr">38</xref>). Moreover, ELP2 mutations have been detected in patients with ID and autism spectrum disorder (<xref rid="pgae115-B39" ref-type="bibr">39</xref>, <xref rid="pgae115-B40" ref-type="bibr">40</xref>). Behavioral abnormalities indicating loss of learning ability have been observed In <italic toggle="yes">Alkbh1</italic><sup>&#x2212;/&#x2212;</sup> mice (<xref rid="pgae115-B16" ref-type="bibr">16</xref>). However, the tests used to detect these abnormalities differed from those used for <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice in this study (i.e. contextual and cued fear-conditioning test and Morris water maze test for <italic toggle="yes">Alkbh1</italic><sup>&#x2212;/&#x2212;</sup> mice and the NOR, RRT, and FST for <italic toggle="yes">Albkh8</italic><sup>&#x2212;/&#x2212;</sup> mice). These differences suggest that the ALKBH family and/or other components of the epitranscriptomic machinery not only work cooperatively in the central nervous system but also have specific individual functions.</p>
+      <p>To determine the cause of the observed behavioral abnormalities in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice, brain pathology was evaluated. <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice showed a consistent decrease in brain weight independent of body weight compared with <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> mice. It is not clear whether the decrease in brain weight was due to pathological changes. Nonetheless, some qualitative changes were also observed in the brain. The hippocampus, especially the CA1 region, is known to be vulnerable to ischemic injury (<xref rid="pgae115-B34" ref-type="bibr">34</xref>), which causes neuronal cell death that manifests as shrunken and darkly stained pyknotic neurons. In <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice, weak eosin staining was observed in the fiber tracts adjacent to the CA1 region of the hippocampus, and increased numbers of pyknotic neurons were observed in layer III and the inner layers of the temporal lobe but not in the CA1 region. These observations suggest that neurons in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice had undergone hypoxic damage, which can lead to abnormal behavior. Although this observation was relatively weak compared with the pathological changes observed in ischemia models (<xref rid="pgae115-B41" ref-type="bibr">41</xref>), it may be consistent with the less severe abnormal behavior observed. A tendency toward enlargement of the lateral ventricles was also observed; this is a known phenotype observed in hydrocephalus and indicates a disturbance in CSF homeostasis (<xref rid="pgae115-B42" ref-type="bibr">42</xref>). The enlarged VR spaces observed in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice were also thought to be a result of impaired CSF flow. These pathological phenotypes may have also resulted in the observed neuronal damage and abnormal behavior.</p>
+      <p>The findings regarding histopathological changes in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice associated with hypoxic damage were also supported by the analyses of changes in protein expression and metabolism. Notably, the levels of NNT and GGT7 were found to be significantly reduced. NNT is a mitochondrial protein that is involved in peroxide detoxification through nicotinamide adenine dinucleotide metabolism (<xref rid="pgae115-B43" ref-type="bibr">43</xref>) and also has important functions in brain mitochondria (<xref rid="pgae115-B44" ref-type="bibr">44</xref>). GGT7 is of the &#x3B3;-glutamyltransferase family; these proteins are involved in glutathione metabolism, but the function of GGT7 has not been well studied although its potential activity has been predicted based on its amino acid homology with GGT1 (<xref rid="pgae115-B45" ref-type="bibr">45</xref>). It has been reported that GGT7 expression is higher in the brain than in other tissues (<xref rid="pgae115-B46" ref-type="bibr">46</xref>) and that it has protective effects against glioblastoma growth (<xref rid="pgae115-B47" ref-type="bibr">47</xref>). On the other hand, GSEA identified the up-regulation of oxidative stress and mitochondria-related ontologies in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice, including in mitochondrial ribosomal proteins and many proteins of mitochondrial complex I. Based on our observations of reduced levels of amino acids related to glutathione synthesis and a reduction in mitochondrial membrane potential in neurons and glial cells in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice, the up-regulation of mitochondrial proteins in the GSEA seems to be unrelated to the up-regulation of its function. Rather, it appears that it represents a feedback signal to compensate for the reduced protective function against oxidative stress. Translational regulation via tRNA modification by ALKBH8 has not yet been fully elucidated. Several tRNAs are known to be modified by ALKBH8 (i.e. tRNA<sup>Arg</sup>(UCU), tRNA<sup>Gln</sup>(UUG), tRNA<sup>Glu</sup>(UUC), tRNA<sup>Sec</sup>(UCA), tRNA<sup>Gly</sup>(UCC), and tRNA<sup>Lys</sup>(UUU)) (<xref rid="pgae115-B48" ref-type="bibr">48</xref>). These tRNAs are widely used for multiple protein translation and it is difficult to elucidate contribution to specific protein. Further technical advance is required to reveal direct link between these modifications and the proteins we found in this study. This study has not yet elucidated the specific oxidative stress that impacts mouse behavior. Oxidative stress can influence brain function broadly from developmental stages to adulthood (<xref rid="pgae115-B49" ref-type="bibr">49</xref>, <xref rid="pgae115-B50" ref-type="bibr">50</xref>). Future research aimed at identifying the types and timing of oxidative stressors affecting behavior is expected to provide a more detailed understanding of their contribution.</p>
+      <p>In this study, we identified certain the characteristic phenotypes of <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice, including reduced body weight and brain weight, pathological changes in the brain, and molecular changes related to oxidative stress. However, these findings are somewhat inconsistent with those of previous reports. Songe-M&#xF8;ller et al. (<xref rid="pgae115-B27" ref-type="bibr">27</xref>) reported dysfunction of tRNA wobble uridine modification in <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice, but no obvious phenotype was reported. Leonardi et al. reported that <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice are viable and produce offspring that survive to adulthood under normal care conditions; however, they also observed an increase in oxidative stress markers under basal conditions and a higher susceptibility to lung damage when the mice were exposed to naphthalene, an environmental toxin (<xref rid="pgae115-B24" ref-type="bibr">24</xref>, <xref rid="pgae115-B28" ref-type="bibr">28</xref>). In our behavioral examinations of <italic toggle="yes">Alkbh8<sup>&#x2212;/&#x2212;</sup></italic> mice, no severe behavioral disorder or pronounced phenotypic change was observed. Had we not been careful in our observations, we may have not have noticed the differences between the wild-type and mutant mice. Nevertheless, Leonardi et al. observed significant phenotypic changes under stress induction, and Songe-M&#xF8;ller et al. mentioned their interest in analyses aimed at detecting minor changes in the appearance and functioning of the neural system. Although we cannot exclude the possibility of the use of a different targeting strategy against the <italic toggle="yes">Alkbh8</italic> gene (i.e. our <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice lack the 2-OG, MT, and RRM domain, on the other hand, Songe-M&#xF8;ller et al. and Leonardi et al. used the deletion of 2-OG and MT domain but not RRM), there is no evidence that the RRM region alone has any function related to tRNA modification. The development of knockin mice with mutated <italic toggle="yes">Alkbh8</italic> found in human will provide new insights, particularly in terms of extrapolation to humans.</p>
+      <p>Our findings indicate that ALKBH8 plays an important role in the maintenance of central nervous function by regulating oxidative stress. Recently, multiple <italic toggle="yes">ALKBH8</italic> mutations have been identified in the causative gene of patients with ID (<xref rid="pgae115-B51" ref-type="bibr">51&#x2013;54</xref>), and the mutations were located within or near the MT domain. We generated two recombinant proteins with the <italic toggle="yes">ALKBH8</italic> mutations and confirmed that these proteins lost their MT activity, but not their 2-oxoglutarate and Fe(II)-dependent oxygenase activity. Although the detailed mechanisms by which ALKBH8 affects ID is unknown, it becomes clear from our experiments with the recombinant ALKBH8 proteins that the reported accumulation of cm5U and decrease in mcm5U, mchm5U, and mcm5Um levels in the lymphoblasts of patients are due to changes in enzyme activity caused by mutations in the MT domain of ALKBH8. However, in our <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mouse brains, we observed either unchanged or up-regulated RNA modification pathway activity, including that related to the carbamoyl group. Along with some degree of compensation of mcm5U, (S)-mchm5U, and the downstream modification pathway may be more important for the observed brain phenotype. Recently, we found that ALKBH4 contributes to the hydroxylation of mcm5U to (R)-mchm5U and its further conversion, and that the modification affects the efficacy of protein translation (<xref rid="pgae115-B55" ref-type="bibr">55</xref>). How these modified tRNA regulate protein translation in the brain is unknown, but a comprehensive understanding of how tRNA modification and protein translation are directly affected by ALKBH8 and regulated by other related enzymes, such as ALKBH4, is required to further understand the molecular mechanisms of action of ALKBH8. Additional neurological analyses and behavioral tests are also important to link the findings of animal models to human disorders.</p>
+      <p>In conclusion, we demonstrated that ALKBH8 plays an essential role in neurological functions through an oxidative stress-regulation mechanism. Our findings also highlight the importance of several proteins and metabolites affected by ALKBH8 and (S)-mchm5U and their downstream tRNA modifications. Further elucidation of the functional mechanism of ALKBH8 is expected to contribute to the understanding of the physiological functions of the central nervous system and the pathophysiology of neurological disorders, such as ID.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="pgae115-s3">
+      <title>Materials and methods</title>
+      <sec id="pgae115-s3.1">
+        <title>Generation of <italic toggle="yes">Alkbh8</italic>-deficient (<italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup>) mouse</title>
+        <p>The animal experiments were approved by the Animal Experimentation Committee of the Graduate School of Pharmaceutical Sciences, Osaka University. All animal experiments were performed in accordance with the relevant guidelines and regulations. The <italic toggle="yes">Alkbh8</italic> targeting vector was constructed by cloning the regions upstream of exon 3 (2,021&#x2005;bp) and downstream of exon 4 (6,072&#x2005;bp) into the NotI-XhoI and NheI-KpnI sites of a pPNT2 vector, respectively, resulting in neo-cassette insertion and skipping of exons 3 and 4. <italic toggle="yes">Alkbh8</italic>-knockout mice were generated using a standard gene-targeting method at the Genome Information Research Center, Osaka University. The established <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice were backcrossed more than 12 times with C57BL/6N mice to obtain the mice then used in the experiments. The truncation of exons 3 and 4 was confirmed by PCR using forward (5&#x2032;-TCC CAC TCT ATA AAG TGG GG &#x2212;3&#x2032;) and reverse primers (5&#x2032;&#x2212; TGC TTC CAG TGA TCT TGA GG &#x2212;3&#x2032;).</p>
+      </sec>
+      <sec id="pgae115-s3.2">
+        <title>Western blot analysis</title>
+        <p>The cerebral cortex, hippocampus, and cerebellum were dissected from <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice, and then frozen at &#x2212;80&#x2005;&#xB0;C. The frozen samples were homogenized in N-PER reagent (Thermo Fisher Scientific) using a BioMasher II (Nippi). After centrifugation 203,805,000&#xD7;<italic toggle="yes">g</italic> at 4&#x2005;&#xB0;C for 15&#x2005;min), the supernatants were subjected to the following procedure: tissue lysates were resolved on a 7.5% sodium dodecyl sulfate&#x2013;polyacrylamide gel, and proteins were then transferred to a polyvinylidene fluoride membrane (Merck Millipore). The membranes were blocked with 5% skim milk (Morinaga Milk Industry) and incubated overnight with an anti-ALKBH8 antibody (HPA038725, Sigma-Aldrich) or anti-&#x3B2;-actin antibody (010-27841, FUJIFILM Wako Pure Chemical). After incubation with horseradish peroxidase (HRP)-conjugated antirabbit IgG or antimouse IgG (Santa Cruz Biotechnology), the HRP signals were visualized using Amersham ECL Prime (Cytiva), and images were captured using Amersham Imager 680 (GE Healthcare).</p>
+      </sec>
+      <sec id="pgae115-s3.3">
+        <title>RNA isolation</title>
+        <p>Dissected tissues were immediately immersed in RNAprotect Tissue Reagent (QIAGEN, Hilden, Germany), and the samples were homogenized in QIAzol reagent (QIAGEN) using zirconium beads. Large and small RNA fractions were isolated using the miRNeasy Mini Kit and RNeasy MinElute Cleanup Kit (QIAGEN), respectively, according to the manufacturer's protocols. The quality of the isolated RNA was assessed using Experion RNA StdSens kit (Bio-Rad).</p>
+      </sec>
+      <sec id="pgae115-s3.4">
+        <title>Mass spectrometry analysis of small RNA modification</title>
+        <p>Small RNA modification analysis was conducted as previously described (<xref rid="pgae115-B56" ref-type="bibr">56</xref>). Briefly, five microliters 0.1&#x2005;M CH<sub>3</sub>COONH<sub>4</sub> (pH 5.3) and 0.1 units of nuclease P1 (FUJIFILM Wako Pure Chemical) were added to 200&#x2005;ng purified RNA and 1/100 volume of dG15N5 (internal standard) in 35&#x2005;&#x3BC;L H<sub>2</sub>O and incubated for 2&#x2005;h at 45&#x2005;&#xB0;C. Subsequently, 0.01 units of bacterial alkaline phosphatase (Takara Bio) were added and incubated for 2&#x2005;h at 37&#x2005;&#xB0;C. Then, 60&#x2005;&#x3BC;L H<sub>2</sub>O and 20&#x2005;&#x3BC;L chloroform (FUJIFILM Wako Pure Chemical) were added to the mixture. The sample was vortexed, and the resulting suspension was centrifuged for 5&#x2005;min at 5,000<italic toggle="yes">&#xD7;g</italic>. The aqueous layer was collected and dried using a centrifugal concentrator (CC-105; TOMY). The resulting nucleoside residues were then dissolved in ultrapure water. UHPLC-UniSpray-MS/MS analyses were conducted using a Waters ACQUITY UPLC system (Waters Corp.) coupled with a Xevo TQ-XS triple quadrupole mass spectrometer (Waters Corp.).</p>
+      </sec>
+      <sec id="pgae115-s3.5">
+        <title>Forced swim test</title>
+        <p>Mice were individually placed in a glass cylinder (height: 24.0&#x2005;cm, diameter: 18.5&#x2005;cm) which contained water (25 &#xB1; 1&#x2005;&#xB0;C) at a depth of 13.0&#x2005;cm. The mice were allowed to swim for 6&#x2005;min, and their behavior was recorded using a video camera. After 6&#x2005;min, the mice were removed, dried with a towel, and returned to their cage. The tank water was changed after each swimming session. Duration of immobility was defined as the absence of active, escape-oriented behaviors such as swimming, jumping, rearing, sniffing, or diving. Latency to the first immobility period and the total duration of immobility were measured during the 6&#x2005;min test session.</p>
+      </sec>
+      <sec id="pgae115-s3.6">
+        <title>NOR test</title>
+        <p>Each mouse was habituated to an open box (30&#x2005;cm &#xD7; 30&#x2005;cm &#xD7; 35&#x2005;cm) with sawdust-covered floor placed in a sound-attenuated room under dim light conditions (20 lx) for 10&#x2005;min twice daily for 3 consecutive days. In the training session on day 4, two novel objects were randomly selected from three objects that were different in shape and color but similar in size, including a golf ball, a plastic toy block, and a bottle cap. The two objects were symmetrically placed on the floor, 8&#x2005;cm away from the wall, and the mouse was allowed to explore freely for 10&#x2005;min. In the retention session at 24&#x2005;h after the training session, the mouse was allowed to explore the same field for 5&#x2005;min, during which one of the familiar objects used in the training was replaced by a novel object. The performance of the each mouse was recorded using a digital camera. Exploring an object was defined as the condition in which the head of the mouse was positioned within 1&#x2005;cm of the object and the mouse was facing the object. The DI was defined as the difference in exploratory time for a novel object (Tn) and a familiar object (Tf), divided by the total exploration time (i.e. DI = (Tn &#x2212; Tf)/(Tn + Tf)).</p>
+      </sec>
+      <sec id="pgae115-s3.7">
+        <title>Rotarod test</title>
+        <p>The RRT was conducted using a rotarod apparatus (UGO Basile Accelerating Rotarod). The mice were placed on a rotating drum (diameter, 2&#x2005;cm), and the time during which each mouse was able to maintain its balance on the drum was measured as the latency time to fall. On the first 2&#x2005;days, each mouse was trained on the drum rotating at a constant speed (16 rpm) for 10&#x2005;min twice a day. After this training session, each mouse was subjected to a test session. The speed of the rotarod was accelerated from 0 to 35 rpm over a 5-min period.</p>
+      </sec>
+      <sec id="pgae115-s3.8">
+        <title>Histological analysis of the brain</title>
+        <p>Mice were anesthetized by isoflurane inhalation, transcardially perfused with phosphate-buffered saline (PBS) and 4% paraformaldehyde (PFA) dissolved in PBS. The whole brains were excised and postfixed in 4% PFA in PBS for 24&#x2005;h. After fixation, 4% PFA was replaced with 70% ethanol until histological analysis. H&amp;E staining was performed by Applied Medical Research Laboratory, Osaka, Japan.</p>
+        <p>The quantification was conducted with ImageJ Fiji (ver. 1.54c) (<xref rid="pgae115-B57" ref-type="bibr">57</xref>). The intensity of eosin staining in the fiber tracts adjacent to the CA1 region was quantified by normalizing it using the intensity of the adjacent regions where differences are imperceptible. The size lateral ventricle was quantified by automatically detecting its area with ImageJ.</p>
+      </sec>
+      <sec id="pgae115-s3.9">
+        <title>Proteomics analysis</title>
+        <p>Protein lysates were prepared using the same method used that used for western blotting analysis. Protein digestion was conducted using the EasyPrep Mini MS Sample Prep Kit (Thermo Fisher Scientific), and the peptides were resolved in 0.1% formic acid.</p>
+        <p>Online liquid chromatography (LC)&#x2013;MS was performed using an Easy-nLC 1200 system coupled with an Orbitrap Eclipse Tribrid mass spectrometer (Thermo Fisher Scientific). Samples were trapped on a C18 guard-desalting column (Thermo Fisher Scientific, Acclaim PepMap 100, 75&#x2005;&#x3BC;m &#xD7; 2&#x2005;cm, nanoViper, C18, 5&#x2005;&#xB5;m, 100&#x2005;&#xC5;), and separated on a 12-cm long C18 column (Nikkyo Technos, C18, 3&#x2005;&#x3BC;m, 75&#x2005;&#x3BC;m &#xD7; 12&#x2005;cm). The nanocapillary solvent A consisted of 100% water and 0.1% formic acid; solvent B consisted of 20% water, 80% acetonitrile, and 0.1% formic acid. At a constant flow rate of 0.3&#x2005;&#x3BC;L/min, the curved gradient went from 6% B up to 31% B, followed by a steep increase to 90% B in 10&#x2005;min. The eluted peptide samples were analyzed using a data-independent acquisition (DIA) method. For MS1, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic> was set from 500 to 1,100, mass resolution was 24,000, AGC target was 500%, maximum injection time was 50&#x2005;ms, and the data type was centroid. MS2 was acquired in quadrupole isolation mode with the isolation window set to 10 <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>, 25% HCD collision energy, 120,000 mass resolution with Orbitrap detection, 2,000% AGC target, maximum injection time, and centroid data type. Raw data files were processed in library-free mode in DIA-NN (version 1.8.1). Trypsin/P allowed a maximum of one missed cleavage, N-terminal methionine removal for variable modifications, and fixed carbamidomethylation on cysteine. Peptide lengths ranged from 7 to 30 amino acids. The precursors ranged from 300 to 1,800, and the fragment ions ranged from 200 to 1,800. Both MS1 and MS2 mass accuracies were set to automatic determination. Protein inference was set to &#x201C;Protein names (from FASTA)&#x201D; and the &#x201C;Heuristic protein inference&#x201D; option and MBR (between-run) were employed. The RT-dependent and Robust LC (high precision) options were selected for quantification. The MS data have been deposited in the jPOST repository (jPOST ID: JPST002354) (<xref rid="pgae115-B58" ref-type="bibr">58</xref>).</p>
+        <p>Data processing was performed using the Perseus computational platform (<xref rid="pgae115-B59" ref-type="bibr">59</xref>). Briefly, the proteins detected in all six samples were selected as target proteins for differential expression analysis (6,991 of 7,830 detected proteins). Log<sub>2</sub>-transformed data were quantile normalized, and PCA was conducted with the normalized data using Perseus software. Differentially expressed proteins were defined as those with fold-change &#x2265;1.5 and <italic toggle="yes">P</italic> &lt; 0.05. GSEA software developed by UC San Diego and Broad Institute (<xref rid="pgae115-B60" ref-type="bibr">60</xref>, <xref rid="pgae115-B61" ref-type="bibr">61</xref>) was used for enrichment analysis, in which the GO Biological Process ontology M5 ontology was used as a target gene set.</p>
+      </sec>
+      <sec id="pgae115-s3.10">
+        <title>Metabolomics analysis</title>
+        <p>The cerebral cortex and hippocampus of <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> and <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> mice (male, 12 weeks of age, <italic toggle="yes">n</italic> = 3, respectively) were removed and frozen at &#x2212;80&#x2005;&#xB0;C. Metabolite extraction and capillary electrophoresis-Fourier transform MS (CE-FTMS) were performed by Human Metabolome Technologies, Inc. One of the cerebral cortex data points from an <italic toggle="yes">Alkbh</italic><sup>8&#x2212;/&#x2212;</sup> mice, which showed an obvious abnormal distribution of expression intensity, was excluded from the differential expression analysis. Differentially expressed metabolites were defined as those with fold-change &#x2265;1.2 and <italic toggle="yes">P</italic> &lt; 0.05.</p>
+      </sec>
+      <sec id="pgae115-s3.11">
+        <title>Primary cultures of mouse neurons and immunocytochemistry</title>
+        <p>The cerebral cortex, including the hippocampus, was isolated from E17.5 embryos obtained from pregnant <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> female mice interbred with <italic toggle="yes">Alkbh8</italic><sup>+/+</sup> male mice or <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> female mice interbred with <italic toggle="yes">Alkbh8</italic><sup>&#x2212;/&#x2212;</sup> male mice and then dissociated using a Neural Tissue Dissociation Kit (Miltenyi Biotech), according to the manufacturer's protocol. The isolated cells were cultured in Neurobasal Medium (Thermo Fisher) supplemented with B-27 Supplement (Thermo Fisher), penicillin, and streptomycin (FUJIFILM Wako Pure Chemical) on 0.1&#x2005;mg/mL poly-<sc>l</sc>-lysine (PLL)-coated culture plates. Ara-C was added at a final concentration of 5&#x2005;&#x3BC;M at 3 DIV, and rotenone was added at a final concentration of 10&#x2005;nM at 5 DIV. At 7 DIV, the cells were fixed with 4% PFA and incubated overnight with anti-MAP2 antibody (#5622, Millipore) and anti-pNF antibody (#801601, BioLegend), and then with AlexaFluor 488 antirabbit IgG (Invitrogen) and AlexaFluor 568 antimouse IgG (Invitrogen), respectively. On the same day, mitochondrial membrane potential was estimated using the MT-1 MitoMP Detection Kit (Dojindo). Fluorescent images (<italic toggle="yes">n</italic> = 4, 15 fields from each mouse) were captured and the intensity was quantified using a BZ-X800 fluorescence microscope (Keyence).</p>
+      </sec>
+      <sec sec-type="materials|methods" id="pgae115-s3.12">
+        <title>Materials and methods in supporting information</title>
+        <sec id="pgae115-s3.12.1">
+          <title>qPCR analysis</title>
+          <p>Total RNA was extracted from tissue using the miRNeasy Mini Kit (QIAGEN). The total RNA panel of C57 strain brain tissues was purchased from Zyagen. cDNA was synthesized from total RNA using the PrimeScript RT Reagent Kit (Takara Bio). <italic toggle="yes">Alkbh8</italic> and <italic toggle="yes">Actb</italic> gene expression levels were detected using qPCR. Target sequences were amplified using the primers <italic toggle="yes">Alkbh8</italic> forward: 5&#x2032;-TCC TGT CAG AAG TGG GTC TTG TG-3&#x2032;, <italic toggle="yes">Alkbh8</italic> reverse: 5&#x2032;- GAG ACG GGC AAG TTC TTG GAG-3&#x2032;, <italic toggle="yes">Actb</italic> forward: 5&#x2032;-ACC CAG GCA TTG CTG ACA GG-3&#x2032;, and <italic toggle="yes">Actb</italic> reverse: 5&#x2032;- GAG TAC TTG CGC TCA GGA GG-3&#x2032;. Amplicons were detected using the THUNDERBIRD SYBR qPCR Mix reagent (TOYOBO). The <italic toggle="yes">Alkbh8</italic> expression was normalized to that of <italic toggle="yes">Actb</italic> expression in each sample.</p>
+        </sec>
+        <sec id="pgae115-s3.12.2">
+          <title>Contextual and cued fear-conditioning test</title>
+          <p>The test was performed using fear-conditioning chambers (30 &#xD7; 24 &#xD7; 21&#x2005;cm; MedAssociates, Inc., St Albans, VT, USA) with a MedAssociates Video Freeze system. On day 1, mice were habituated for 150&#x2005;s, after which conditioning was conducted using five times tones (30&#x2005;s, 2.8&#x2005;kHz, 80&#x2005;dB) followed by an electric foot shock (2&#x2005;s, 0.5&#x2005;mA) with a 90-s intertrial interval. Freezing was recorded during both the baseline period and each tone period. Twenty-four hours later (day 2), the mice were placed in the same conditioning chamber for the context fear test. No stimuli were presented during this period; freezing was recorded throughout the 8-min test. For the cued fear test on day 3, mice were placed in a different chamber with a dark roof-like triangular ceiling and grid floor covering. The mice were habituated to the novel environment for 150&#x2005;s, and then five tones (30&#x2005;s, 2.8&#x2005;kHz, 80&#x2005;dB) were presented with a 90-s intertrial interval. Freezing was recorded during both the baseline period and each tone period. The data are expressed as the average values for each five-tone period.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material id="sup1" position="float" content-type="local-data">
+        <label>pgae115_Supplementary_Data</label>
+        <media xlink:href="pgae115_supplementary_data.zip"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <sec id="pgae115-s4">
+      <title>Supplementary Material</title>
+      <p>
+<xref rid="sup1" ref-type="supplementary-material">Supplementary material</xref> is available at <italic toggle="yes">PNAS Nexus</italic> online.</p>
+    </sec>
+    <sec id="pgae115-s5">
+      <title>Funding</title>
+      <p>This research was partially supported by the Research Support Project for Life Science and Drug Discovery (Basis for Supporting Innovative Drug Discovery and Life Science Research [BINDS]) from Japan Agency for Medical Research and Development (AMED) under Grant Numbers JP23ama121054 and JP23ama121052.</p>
+    </sec>
+    <sec id="pgae115-s6">
+      <title>Author Contributions</title>
+      <p>K.H., H.H., Y.A., S.N., and K.T. designed the study; K.H., H.H., S.T., K.O., L.C., T.Y., M.N., and K.K. performed the experiments; K.H., H.H., S.T., K.O., and K.K. analyzed the data; and K.H., H.H., and K.T. prepared the manuscript.</p>
+    </sec>
+    <sec sec-type="data-availability" id="pgae115-s7">
+      <title>Data Availability</title>
+      <p>All study data are included in the article and <xref rid="sup1" ref-type="supplementary-material">SI Appendix</xref>.</p>
+    </sec>
+    <ref-list id="ref1">
+      <title>References</title>
+      <ref id="pgae115-B1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Wagner</surname>
+<given-names>A</given-names>
+</string-name>, <string-name><surname>Schosserer</surname><given-names>M</given-names></string-name></person-group>. <year>2022</year>. <article-title>The epitranscriptome in ageing and stress resistance: a systematic review</article-title>. <source>Ageing Res Rev</source>. <volume>81</volume>:<fpage>101700</fpage>.<pub-id pub-id-type="pmid">35908668</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B2">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Esteve-Puig</surname>
+<given-names>R</given-names>
+</string-name>, <string-name><surname>Bueno-Costa</surname><given-names>A</given-names></string-name>, <string-name><surname>Esteller</surname><given-names>M</given-names></string-name></person-group>. <year>2020</year>. <article-title>Writers, readers and erasers of RNA modifications in cancer</article-title>. <source>Cancer Lett</source>. <volume>474</volume>:<fpage>127</fpage>&#x2013;<lpage>137</lpage>.<pub-id pub-id-type="pmid">31991154</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B3">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zhang</surname>
+<given-names>L-S</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2021</year>. <article-title>ALKBH7-mediated demethylation regulates mitochondrial polycistronic RNA processing</article-title>. <source>Nat Cell Biol</source>. <volume>23</volume>:<fpage>684</fpage>&#x2013;<lpage>691</lpage>.<pub-id pub-id-type="pmid">34253897</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B4">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ma</surname>
+<given-names>C-J</given-names>
+</string-name>, <string-name><surname>Ding</surname><given-names>J-H</given-names></string-name>, <string-name><surname>Ye</surname><given-names>T-T</given-names></string-name>, <string-name><surname>Yuan</surname><given-names>B-F</given-names></string-name>, <string-name><surname>Feng</surname><given-names>Y-Q</given-names></string-name></person-group>. <year>2019</year>. <article-title>Alkb homologue 1 demethylates N3-methylcytidine in mRNA of mammals</article-title>. <source>ACS Chem Biol</source>. <volume>14</volume>:<fpage>1418</fpage>&#x2013;<lpage>1425</lpage>.<pub-id pub-id-type="pmid">31188562</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B5">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>van den Born</surname>
+<given-names>E</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2011</year>. <article-title>ALKBH8-mediated formation of a novel diastereomeric pair of wobble nucleosides in mammalian tRNA</article-title>. <source>Nat Commun</source>. <volume>2</volume>:<fpage>172</fpage>.<pub-id pub-id-type="pmid">21285950</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B6">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ueda</surname>
+<given-names>Y</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2017</year>. <article-title>Alkb homolog 3-mediated tRNA demethylation promotes protein synthesis in cancer cells</article-title>. <source>Sci Rep</source>. <volume>7</volume>:<fpage>42271</fpage>.<pub-id pub-id-type="pmid">28205560</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B7">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Bian</surname>
+<given-names>K</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2019</year>. <article-title>DNA repair enzymes ALKBH2, ALKBH3, and AlkB oxidize 5-methylcytosine to 5-hydroxymethylcytosine, 5-formylcytosine and 5-carboxylcytosine in vitro</article-title>. <source>Nucleic Acids Res</source>. <volume>47</volume>:<fpage>5522</fpage>&#x2013;<lpage>5529</lpage>.<pub-id pub-id-type="pmid">31114894</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B8">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Westbye</surname>
+<given-names>MP</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2008</year>. <article-title>Human AlkB homolog 1 is a mitochondrial protein that demethylates 3-methylcytosine in DNA and RNA</article-title>. <source>J Biol Chem</source>. <volume>283</volume>:<fpage>25046</fpage>&#x2013;<lpage>25056</lpage>.<pub-id pub-id-type="pmid">18603530</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B9">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ougland</surname>
+<given-names>R</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2012</year>. <article-title>ALKBH1 is a histone H2A dioxygenase involved in neural differentiation</article-title>. <source>Stem Cells</source>. <volume>30</volume>:<fpage>2672</fpage>&#x2013;<lpage>2682</lpage>.<pub-id pub-id-type="pmid">22961808</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B10">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Li</surname>
+<given-names>M-M</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2013</year>. <article-title>ALKBH4-dependent demethylation of actin regulates actomyosin dynamics</article-title>. <source>Nat Commun</source>. <volume>4</volume>:<fpage>1832</fpage>.<pub-id pub-id-type="pmid">23673617</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B11">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Frye</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Harada</surname><given-names>BT</given-names></string-name>, <string-name><surname>Behm</surname><given-names>M</given-names></string-name>, <string-name><surname>He</surname><given-names>C</given-names></string-name></person-group>. <year>2018</year>. <article-title>RNA modifications modulate gene expression during development</article-title>. <source>Science</source>. <volume>361</volume>:<fpage>1346</fpage>&#x2013;<lpage>1349</lpage>.<pub-id pub-id-type="pmid">30262497</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B12">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Frayling</surname>
+<given-names>TM</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2007</year>. <article-title>A common variant in the FTO gene is associated with body mass index and predisposes to childhood and adult obesity</article-title>. <source>Science</source>. <volume>316</volume>:<fpage>889</fpage>&#x2013;<lpage>894</lpage>.<pub-id pub-id-type="pmid">17434869</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B13">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Scuteri</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2007</year>. <article-title>Genome-wide association scan shows genetic variants in the FTO gene are associated with obesity-related traits</article-title>. <source>PLoS Genet</source>. <volume>3</volume>:<fpage>e115</fpage>.<pub-id pub-id-type="pmid">17658951</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B14">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zhang</surname>
+<given-names>K</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2020</year>. <article-title>An intellectual disability-associated missense variant in TRMT1 impairs tRNA modification and reconstitution of enzymatic activity</article-title>. <source>Hum Mutat</source>. <volume>41</volume>:<fpage>600</fpage>&#x2013;<lpage>607</lpage>.<pub-id pub-id-type="pmid">31898845</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B15">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Li</surname>
+<given-names>Q</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2021</year>. <article-title>N6-methyladenine DNA demethylase ALKBH1 regulates mammalian axon regeneration</article-title>. <source>Neurosci Bull</source>. <volume>37</volume>:<fpage>809</fpage>&#x2013;<lpage>814</lpage>.<pub-id pub-id-type="pmid">33844159</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B16">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kawarada</surname>
+<given-names>L</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2021</year>. <article-title>Telencephalon-specific Alkbh1 conditional knockout mice display hippocampal atrophy and impaired learning</article-title>. <source>FEBS Lett</source>. <volume>595</volume>:<fpage>1671</fpage>&#x2013;<lpage>1680</lpage>.<pub-id pub-id-type="pmid">33930188</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B17">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ma</surname>
+<given-names>C</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2018</year>. <article-title>RNA m6a methylation participates in regulation of postnatal development of the mouse cerebellum</article-title>. <source>Genome Biol</source>. <volume>19</volume>:<fpage>68</fpage>.<pub-id pub-id-type="pmid">29855379</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B18">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Li</surname>
+<given-names>L</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2017</year>. <article-title>Fat mass and obesity-associated (FTO) protein regulates adult neurogenesis</article-title>. <source>Hum Mol Genet</source>. <volume>26</volume>:<fpage>2398</fpage>&#x2013;<lpage>2411</lpage>.<pub-id pub-id-type="pmid">28398475</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B19">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Tsujikawa</surname>
+<given-names>K</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2007</year>. <article-title>Expression and sub-cellular localization of human ABH family molecules</article-title>. <source>J Cell Mol Med</source>. <volume>11</volume>:<fpage>1105</fpage>&#x2013;<lpage>1116</lpage>.<pub-id pub-id-type="pmid">17979886</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B20">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Suzuki</surname>
+<given-names>T</given-names>
+</string-name>
+</person-group>. <year>2021</year>. <article-title>The expanding world of tRNA modifications and their disease relevance</article-title>. <source>Nat Rev Mol Cell Biol</source>. <volume>22</volume>:<fpage>375</fpage>&#x2013;<lpage>392</lpage>.<pub-id pub-id-type="pmid">33658722</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B21">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Endres</surname>
+<given-names>L</given-names>
+</string-name>, <string-name><surname>Dedon</surname><given-names>PC</given-names></string-name>, <string-name><surname>Begley</surname><given-names>TJ</given-names></string-name></person-group>. <year>2015</year>. <article-title>Codon-biased translation can be regulated by wobble-base tRNA modification systems during cellular stress responses</article-title>. <source>RNA Biol</source>. <volume>12</volume>:<fpage>603</fpage>&#x2013;<lpage>614</lpage>.<pub-id pub-id-type="pmid">25892531</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B22">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lee</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name><surname>Worland</surname><given-names>PJ</given-names></string-name>, <string-name><surname>Davis</surname><given-names>JN</given-names></string-name>, <string-name><surname>Stadtman</surname><given-names>TC</given-names></string-name>, <string-name><surname>Hatfield</surname><given-names>DL</given-names></string-name></person-group>. <year>1989</year>. <article-title>Identification of a selenocysteyl-tRNA(Ser) in mammalian cells that recognizes the nonsense codon, UGA</article-title>. <source>J Biol Chem</source>. <volume>264</volume>:<fpage>9724</fpage>&#x2013;<lpage>9727</lpage>.<pub-id pub-id-type="pmid">2498338</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B23">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Sturchler</surname>
+<given-names>C</given-names>
+</string-name>, <string-name><surname>Lescure</surname><given-names>A</given-names></string-name>, <string-name><surname>Keith</surname><given-names>G</given-names></string-name>, <string-name><surname>Carbon</surname><given-names>P</given-names></string-name>, <string-name><surname>Krol</surname><given-names>A</given-names></string-name></person-group>. <year>1994</year>. <article-title>Base modification pattern at the wobble position of Xenopus selenocysteine tRNA(Sec)</article-title>. <source>Nucleic Acids Res</source>. <volume>22</volume>:<fpage>1354</fpage>&#x2013;<lpage>1358</lpage>.<pub-id pub-id-type="pmid">8031393</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B24">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Endres</surname>
+<given-names>L</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2015</year>. <article-title>Alkbh8 regulates selenocysteine-protein expression to protect against reactive oxygen species damage</article-title>. <source>PLoS One</source>. <volume>10</volume>:<fpage>e0131335</fpage>.<pub-id pub-id-type="pmid">26147969</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B25">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fu</surname>
+<given-names>D</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2010</year>. <article-title>Human AlkB homolog ABH8 is a tRNA methyltransferase required for wobble uridine modification and DNA damage survival</article-title>. <source>Mol Cell Biol</source>. <volume>30</volume>:<fpage>2449</fpage>&#x2013;<lpage>2459</lpage>.<pub-id pub-id-type="pmid">20308323</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B26">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lee</surname>
+<given-names>MY</given-names>
+</string-name>, <string-name><surname>Leonardi</surname><given-names>A</given-names></string-name>, <string-name><surname>Begley</surname><given-names>TJ</given-names></string-name>, <string-name><surname>Melendez</surname><given-names>JA</given-names></string-name></person-group>. <year>2020</year>. <article-title>Loss of epitranscriptomic control of selenocysteine utilization engages senescence and mitochondrial reprogramming</article-title>. <source>Redox Biol</source>. <volume>28</volume>:<fpage>101375</fpage>.<pub-id pub-id-type="pmid">31765888</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B27">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Songe-M&#xF8;ller</surname>
+<given-names>L</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2010</year>. <article-title>Mammalian ALKBH8 possesses tRNA methyltransferase activity required for the biogenesis of multiple wobble uridine modifications implicated in translational decoding</article-title>. <source>Mol Cell Biol</source>. <volume>30</volume>:<fpage>1814</fpage>&#x2013;<lpage>1827</lpage>.<pub-id pub-id-type="pmid">20123966</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B28">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Leonardi</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2020</year>. <article-title>The epitranscriptomic writer ALKBH8 drives tolerance and protects mouse lungs from the environmental pollutant naphthalene</article-title>. <source>Epigenetics</source>. <volume>15</volume>:<fpage>1121</fpage>&#x2013;<lpage>1138</lpage>.<pub-id pub-id-type="pmid">32303148</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B29">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Boccaletto</surname>
+<given-names>P</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2022</year>. <article-title>MODOMICS: a database of RNA modification pathways. 2021 update</article-title>. <source>Nucleic Acids Res</source>. <volume>50</volume>:<fpage>D231</fpage>&#x2013;<lpage>D235</lpage>.<pub-id pub-id-type="pmid">34893873</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B30">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ennaceur</surname>
+<given-names>A</given-names>
+</string-name>, <string-name><surname>Delacour</surname><given-names>J</given-names></string-name></person-group>. <year>1988</year>. <article-title>A new one-trial test for neurobiological studies of memory in rats. 1: behavioral data</article-title>. <source>Behav Brain Res.</source><volume>31</volume>:<fpage>47</fpage>&#x2013;<lpage>59</lpage>.<pub-id pub-id-type="pmid">3228475</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B31">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Caston</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Jones</surname><given-names>N</given-names></string-name>, <string-name><surname>Stelz</surname><given-names>T</given-names></string-name></person-group>. <year>1995</year>. <article-title>Role of preoperative and postoperative sensorimotor training on restoration of the equilibrium behavior in adult mice following cerebellectomy</article-title>. <source>Neurobiol Learn Mem</source>. <volume>64</volume>:<fpage>195</fpage>&#x2013;<lpage>202</lpage>.<pub-id pub-id-type="pmid">8564373</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B32">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Porsolt</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name><surname>Le Pichon</surname><given-names>M</given-names></string-name>, <string-name><surname>Jalfre</surname><given-names>M</given-names></string-name></person-group>. <year>1977</year>. <article-title>Depression: a new animal model sensitive to antidepressant treatments</article-title>. <source>Nature</source>. <volume>266</volume>:<fpage>730</fpage>&#x2013;<lpage>732</lpage>.<pub-id pub-id-type="pmid">559941</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B33">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Castagn&#xE9;</surname>
+<given-names>V</given-names>
+</string-name>, <string-name><surname>Porsolt</surname><given-names>RD</given-names></string-name>, <string-name><surname>Moser</surname><given-names>P</given-names></string-name></person-group>. <year>2009</year>. <article-title>Use of latency to immobility improves detection of antidepressant-like activity in the behavioral despair test in the mouse</article-title>. <source>Eur J Pharmacol</source>. <volume>616</volume>:<fpage>128</fpage>&#x2013;<lpage>133</lpage>.<pub-id pub-id-type="pmid">19549518</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B34">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kirino</surname>
+<given-names>T</given-names>
+</string-name>, <string-name><surname>Sano</surname><given-names>K</given-names></string-name></person-group>. <year>1984</year>. <article-title>Selective vulnerability in the gerbil hippocampus following transient ischemia</article-title>. <source>Acta Neuropathol</source>. <volume>62</volume>:<fpage>201</fpage>&#x2013;<lpage>208</lpage>.<pub-id pub-id-type="pmid">6695554</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B35">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Leonardi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name><surname>Evke</surname><given-names>S</given-names></string-name>, <string-name><surname>Lee</surname><given-names>M</given-names></string-name>, <string-name><surname>Melendez</surname><given-names>JA</given-names></string-name>, <string-name><surname>Begley</surname><given-names>TJ</given-names></string-name></person-group>. <year>2019</year>. <article-title>Epitranscriptomic systems regulate the translation of reactive oxygen species detoxifying and disease linked selenoproteins</article-title>. <source>Free Radic Biol Med</source>. <volume>143</volume>:<fpage>573</fpage>&#x2013;<lpage>593</lpage>.<pub-id pub-id-type="pmid">31476365</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B36">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Hawer</surname>
+<given-names>H</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2018</year>. <article-title>Roles of elongator dependent tRNA modification pathways in neurodegeneration and cancer</article-title>. <source>Genes (Basel)</source>. <volume>10</volume>:<fpage>19</fpage>.<pub-id pub-id-type="pmid">30597914</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B37">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Abbasi-Moheb</surname>
+<given-names>L</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2012</year>. <article-title>Mutations in NSUN2 cause autosomal-recessive intellectual disability</article-title>. <source>Am J Hum Genet</source>. <volume>90</volume>:<fpage>847</fpage>&#x2013;<lpage>855</lpage>.<pub-id pub-id-type="pmid">22541559</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B38">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Mattioli</surname>
+<given-names>F</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2023</year>. <article-title>Biallelic variants in NSUN6 cause an autosomal recessive neurodevelopmental disorder</article-title>. <source>Genet Med</source>. <volume>25</volume>:<fpage>100900</fpage>.<pub-id pub-id-type="pmid">37226891</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B39">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Cohen</surname>
+<given-names>JS</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2015</year>. <article-title>ELP2 is a novel gene implicated in neurodevelopmental disabilities</article-title>. <source>Am J Med Genet A</source>. <volume>167</volume>:<fpage>1391</fpage>&#x2013;<lpage>1395</lpage>.<pub-id pub-id-type="pmid">25847581</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B40">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kojic</surname>
+<given-names>M</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2021</year>. <article-title>Elp2 mutations perturb the epitranscriptome and lead to a complex neurodevelopmental phenotype</article-title>. <source>Nat Commun</source>. <volume>12</volume>:<fpage>2678</fpage>.<pub-id pub-id-type="pmid">33976153</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B41">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Olsson</surname>
+<given-names>T</given-names>
+</string-name>, <string-name><surname>Wieloch</surname><given-names>T</given-names></string-name>, <string-name><surname>Smith</surname><given-names>M-L</given-names></string-name></person-group>. <year>2003</year>. <article-title>Brain damage in a mouse model of global cerebral ischemia. Effect of NMDA receptor blockade</article-title>. <source>Brain Res</source>. <volume>982</volume>:<fpage>260</fpage>&#x2013;<lpage>269</lpage>.<pub-id pub-id-type="pmid">12915260</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B42">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Dahme</surname>
+<given-names>M</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>1997</year>. <article-title>Disruption of the mouse L1 gene leads to malformations of the nervous system</article-title>. <source>Nat Genet</source>. <volume>17</volume>:<fpage>346</fpage>&#x2013;<lpage>349</lpage>.<pub-id pub-id-type="pmid">9354804</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B43">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Rydstr&#xF6;m</surname>
+<given-names>J</given-names>
+</string-name>
+</person-group>. <year>2006</year>. <article-title>Mitochondrial NADPH, transhydrogenase and disease</article-title>. <source>Biochim Biophys Acta</source>. <volume>1757</volume>:<fpage>721</fpage>&#x2013;<lpage>726</lpage>.<pub-id pub-id-type="pmid">16730324</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B44">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lopert</surname>
+<given-names>P</given-names>
+</string-name>, <string-name><surname>Patel</surname><given-names>M</given-names></string-name></person-group>. <year>2014</year>. <article-title>Nicotinamide nucleotide transhydrogenase (Nnt) links the substrate requirement in brain mitochondria for hydrogen peroxide removal to the thioredoxin/peroxiredoxin (Trx/Prx) system</article-title>. <source>J Biol Chem</source>. <volume>289</volume>:<fpage>15611</fpage>&#x2013;<lpage>15620</lpage>.<pub-id pub-id-type="pmid">24722990</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B45">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Takemura</surname>
+<given-names>K</given-names>
+</string-name>, <string-name><surname>Board</surname><given-names>PG</given-names></string-name>, <string-name><surname>Koga</surname><given-names>F</given-names></string-name></person-group>. <year>2021</year>. <article-title>A systematic review of Serum &#x3B3;-glutamyltransferase as a prognostic biomarker in patients with genitourinary cancer</article-title>. <source>Antioxidants (Basel)</source>. <volume>10</volume>:<fpage>549</fpage>.<pub-id pub-id-type="pmid">33916150</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B46">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fagerberg</surname>
+<given-names>L</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2014</year>. <article-title>Analysis of the human tissue-specific expression by genome-wide integration of transcriptomics and antibody-based proteomics</article-title>. <source>Mol Cell Proteomics</source>. <volume>13</volume>:<fpage>397</fpage>&#x2013;<lpage>406</lpage>.<pub-id pub-id-type="pmid">24309898</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B47">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Bui</surname>
+<given-names>TT</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2015</year>. <article-title>&#x3B3;-Glutamyl transferase 7 is a novel regulator of glioblastoma growth</article-title>. <source>BMC Cancer</source>. <volume>15</volume>:<fpage>225</fpage>.<pub-id pub-id-type="pmid">25884624</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B48">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Cavallin</surname>
+<given-names>I</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2022</year>. <article-title>HITS-CLIP analysis of human ALKBH8 reveals interactions with fully processed substrate tRNAs and with specific noncoding RNAs</article-title>. <source>RNA</source>. <volume>28</volume>:<fpage>1568</fpage>&#x2013;<lpage>1581</lpage>.<pub-id pub-id-type="pmid">36192131</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B49">
+        <label>49</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Salim</surname>
+<given-names>S</given-names>
+</string-name>
+</person-group>. <year>2017</year>. <article-title>Oxidative stress and the central nervous system</article-title>. <source>J Pharmacol Exp Ther</source>. <volume>360</volume>:<fpage>201</fpage>&#x2013;<lpage>205</lpage>.<pub-id pub-id-type="pmid">27754930</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B50">
+        <label>50</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Wells</surname>
+<given-names>PG</given-names>
+</string-name>, <string-name><surname>Bhatia</surname><given-names>S</given-names></string-name>, <string-name><surname>Drake</surname><given-names>DM</given-names></string-name>, <string-name><surname>Miller-Pinsler</surname><given-names>L</given-names></string-name></person-group>. <year>2016</year>. <article-title>Fetal oxidative stress mechanisms of neurodevelopmental deficits and exacerbation by ethanol and methamphetamine</article-title>. <source>Birth Defects Res C Embryo Today</source>. <volume>108</volume>:<fpage>108</fpage>&#x2013;<lpage>130</lpage>.<pub-id pub-id-type="pmid">27345013</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B51">
+        <label>51</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Monies</surname>
+<given-names>D</given-names>
+</string-name>, <string-name><surname>V&#xE5;gb&#xF8;</surname><given-names>CB</given-names></string-name>, <string-name><surname>Al-Owain</surname><given-names>M</given-names></string-name>, <string-name><surname>Alhomaidi</surname><given-names>S</given-names></string-name>, <string-name><surname>Alkuraya</surname><given-names>FS</given-names></string-name></person-group>. <year>2019</year>. <article-title>Recessive truncating mutations in ALKBH8 cause intellectual disability and severe impairment of wobble uridine modification</article-title>. <source>Am J Hum Genet</source>. <volume>104</volume>:<fpage>1202</fpage>&#x2013;<lpage>1209</lpage>.<pub-id pub-id-type="pmid">31079898</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B52">
+        <label>52</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Maddirevula</surname>
+<given-names>S</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2022</year>. <article-title>Insight into ALKBH8-related intellectual developmental disability based on the first pathogenic missense variant</article-title>. <source>Hum Genet</source>. <volume>141</volume>:<fpage>209</fpage>&#x2013;<lpage>215</lpage>.<pub-id pub-id-type="pmid">34757492</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B53">
+        <label>53</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Saad</surname>
+<given-names>AK</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2021</year>. <article-title>Neurodevelopmental disorder in an Egyptian family with a biallelic ALKBH8 variant</article-title>. <source>Am J Med Genet A</source>. <volume>185</volume>:<fpage>1288</fpage>&#x2013;<lpage>1293</lpage>.<pub-id pub-id-type="pmid">33544954</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B54">
+        <label>54</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Waqas</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2022</year>. <article-title>Case report: biallelic variant in the tRNA methyltransferase domain of the AlkB homolog 8 causes syndromic intellectual disability</article-title>. <source>Front Genet</source>. <volume>13</volume>:<fpage>878274</fpage>.<pub-id pub-id-type="pmid">35571055</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B55">
+        <label>55</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kogaki</surname>
+<given-names>T</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2023</year>. <article-title>ALKBH4 is a novel enzyme that promotes translation through modified uridine regulation</article-title>. <source>J Biol Chem</source>. <volume>299</volume>:<fpage>105093</fpage>.<pub-id pub-id-type="pmid">37507018</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B56">
+        <label>56</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kogaki</surname>
+<given-names>T</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2021</year>. <article-title>Development of a highly sensitive method for the quantitative analysis of modified nucleosides using UHPLC-UniSpray-MS/MS</article-title>. <source>J Pharm Biomed Anal</source>. <volume>197</volume>:<fpage>113943</fpage>.<pub-id pub-id-type="pmid">33601155</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B57">
+        <label>57</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Schneider</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name><surname>Rasband</surname><given-names>WS</given-names></string-name>, <string-name><surname>Eliceiri</surname><given-names>KW</given-names></string-name></person-group>. <year>2012</year>. <article-title>NIH image to ImageJ: 25 years of image analysis</article-title>. <source>Nat Methods.</source><volume>9</volume>:<fpage>671</fpage>&#x2013;<lpage>675</lpage>.<pub-id pub-id-type="pmid">22930834</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B58">
+        <label>58</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Okuda</surname>
+<given-names>S</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2017</year>. <article-title>jPOSTrepo: an international standard data repository for proteomes</article-title>. <source>Nucleic Acids Res</source>. <volume>45</volume>:<fpage>D1107</fpage>&#x2013;<lpage>D1111</lpage>.<pub-id pub-id-type="pmid">27899654</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B59">
+        <label>59</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Tyanova</surname>
+<given-names>S</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2016</year>. <article-title>The perseus computational platform for comprehensive analysis of (prote)omics data</article-title>. <source>Nat Methods</source>. <volume>13</volume>:<fpage>731</fpage>&#x2013;<lpage>740</lpage>.<pub-id pub-id-type="pmid">27348712</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B60">
+        <label>60</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Mootha</surname>
+<given-names>VK</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2003</year>. <article-title>PGC-1alpha-responsive genes involved in oxidative phosphorylation are coordinately downregulated in human diabetes</article-title>. <source>Nat Genet</source>. <volume>34</volume>:<fpage>267</fpage>&#x2013;<lpage>273</lpage>.<pub-id pub-id-type="pmid">12808457</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="pgae115-B61">
+        <label>61</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Subramanian</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal></person-group>
+<year>2005</year>. <article-title>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</article-title>. <source>Proc Natl Acad Sci U S A</source>. <volume>102</volume>:<fpage>15545</fpage>&#x2013;<lpage>15550</lpage>.<pub-id pub-id-type="pmid">16199517</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

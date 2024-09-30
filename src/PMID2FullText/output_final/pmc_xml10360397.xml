@@ -1,0 +1,384 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Hum Mol Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Hum Mol Genet</journal-id>
+      <journal-id journal-id-type="publisher-id">hmg</journal-id>
+      <journal-title-group>
+        <journal-title>Human Molecular Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0964-6906</issn>
+      <issn pub-type="epub">1460-2083</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">37133451</article-id>
+      <article-id pub-id-type="pmc">10360397</article-id>
+      <article-id pub-id-type="doi">10.1093/hmg/ddad069</article-id>
+      <article-id pub-id-type="publisher-id">ddad069</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="category-taxonomy-collection">
+          <subject>AcademicSubjects/SCI01140</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Multi-omics identifies large mitoribosomal subunit instability caused by pathogenic <italic toggle="yes">MRPL39</italic> variants as a cause of pediatric onset mitochondrial disease</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Amarasekera</surname>
+            <given-names>Sumudu S C</given-names>
+          </name>
+          <aff>
+<institution>Murdoch Children&#x2019;s Research Institute, Royal Children's Hospital</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Department of Paediatrics, University of Melbourne</institution>, <addr-line>Melbourne, VIC 3010</addr-line>, <country country="AU">Australia</country></aff>
+          <xref rid="afn1" ref-type="author-notes"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hock</surname>
+            <given-names>Daniella H</given-names>
+          </name>
+          <aff>
+<institution>Department of Biochemistry and Pharmacology</institution>, Bio21 Molecular Science and Biotechnology Institute, <institution>University of Melbourne</institution>, <addr-line>Parkville, VIC 3010</addr-line>, <country country="AU">Australia</country></aff>
+          <xref rid="afn1" ref-type="author-notes"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lake</surname>
+            <given-names>Nicole J</given-names>
+          </name>
+          <aff>
+<institution>Murdoch Children&#x2019;s Research Institute, Royal Children's Hospital</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Department of Genetics, Yale School of Medicine</institution>, New Haven, CT 06510 <country country="US">USA</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Calvo</surname>
+            <given-names>Sarah E</given-names>
+          </name>
+          <aff>
+<institution>Broad Institute</institution>, <addr-line>Cambridge, MA 02142</addr-line>, <country country="US">USA</country></aff>
+          <aff>
+<institution>Howard Hughes Medical Institute and Department of Molecular Biology, Massachusetts General Hospital</institution>, <addr-line>Boston, MA 02114</addr-line>, <country country="US">USA</country></aff>
+          <aff>
+<institution>Department of Systems Biology, Harvard Medical School</institution>, <addr-line>Boston, MA 02446</addr-line>, <country country="US">USA</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gr&#xF8;nborg</surname>
+            <given-names>Sabine W</given-names>
+          </name>
+          <aff>
+<institution>Department of Genetics, Copenhagen University Hospital Rigshospitalet</institution>, <addr-line>Copenhagen 2100</addr-line>, <country country="DK">Denmark</country></aff>
+          <aff>
+<institution>Center for Inherited Metabolic Disease</institution>, Department of Pediatrics and Adolescent Medicine, <institution>Copenhagen University Hospital Rigshospitalet</institution>, <addr-line>Copenhagen 2100</addr-line>, <country country="DK">Denmark</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Krzesinski</surname>
+            <given-names>Emma I</given-names>
+          </name>
+          <aff>
+<institution>Monash Genetics, Monash Health</institution>, Melbourne, VIC 3168 <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Department of Paediatrics, Monash University</institution>, Melbourne, VIC 3168 <country country="AU">Australia</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Amor</surname>
+            <given-names>David J</given-names>
+          </name>
+          <aff>
+<institution>Murdoch Children&#x2019;s Research Institute, Royal Children's Hospital</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Department of Paediatrics, University of Melbourne</institution>, <addr-line>Melbourne, VIC 3010</addr-line>, <country country="AU">Australia</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fahey</surname>
+            <given-names>Michael C</given-names>
+          </name>
+          <aff>
+<institution>Monash Genetics, Monash Health</institution>, Melbourne, VIC 3168 <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Department of Paediatrics, Monash University</institution>, Melbourne, VIC 3168 <country country="AU">Australia</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Simons</surname>
+            <given-names>Cas</given-names>
+          </name>
+          <aff>
+<institution>Murdoch Children&#x2019;s Research Institute, Royal Children's Hospital</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wibrand</surname>
+            <given-names>Flemming</given-names>
+          </name>
+          <aff>
+<institution>Department of Genetics, Copenhagen University Hospital Rigshospitalet</institution>, <addr-line>Copenhagen 2100</addr-line>, <country country="DK">Denmark</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mootha</surname>
+            <given-names>Vamsi K</given-names>
+          </name>
+          <aff>
+<institution>Broad Institute</institution>, <addr-line>Cambridge, MA 02142</addr-line>, <country country="US">USA</country></aff>
+          <aff>
+<institution>Howard Hughes Medical Institute and Department of Molecular Biology, Massachusetts General Hospital</institution>, <addr-line>Boston, MA 02114</addr-line>, <country country="US">USA</country></aff>
+          <aff>
+<institution>Department of Systems Biology, Harvard Medical School</institution>, <addr-line>Boston, MA 02446</addr-line>, <country country="US">USA</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lek</surname>
+            <given-names>Monkol</given-names>
+          </name>
+          <aff>
+<institution>Department of Genetics, Yale School of Medicine</institution>, New Haven, CT 06510 <country country="US">USA</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lunke</surname>
+            <given-names>Sebastian</given-names>
+          </name>
+          <aff>
+<institution>Victorian Clinical Genetics Services, Murdoch Children&#x2019;s Research Institute</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Australian Genomics Health Alliance</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Department of Pathology, University of Melbourne</institution>, <addr-line>Melbourne, VIC 3010</addr-line>, <country country="AU">Australia</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stark</surname>
+            <given-names>Zornitza</given-names>
+          </name>
+          <aff>
+<institution>Department of Paediatrics, University of Melbourne</institution>, <addr-line>Melbourne, VIC 3010</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Victorian Clinical Genetics Services, Murdoch Children&#x2019;s Research Institute</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Australian Genomics Health Alliance</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>&#xD8;stergaard</surname>
+            <given-names>Elsebet</given-names>
+          </name>
+          <aff>
+<institution>Department of Genetics, Copenhagen University Hospital Rigshospitalet</institution>, <addr-line>Copenhagen 2100</addr-line>, <country country="DK">Denmark</country></aff>
+          <aff>
+<institution>Department of Clinical Medicine, University of Copenhagen</institution>, <addr-line>Copenhagen 2200</addr-line>, <country country="DK">Denmark</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Christodoulou</surname>
+            <given-names>John</given-names>
+          </name>
+          <aff>
+<institution>Murdoch Children&#x2019;s Research Institute, Royal Children's Hospital</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Department of Paediatrics, University of Melbourne</institution>, <addr-line>Melbourne, VIC 3010</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Victorian Clinical Genetics Services, Murdoch Children&#x2019;s Research Institute</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Australian Genomics Health Alliance</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Discipline of Child &amp; Adolescent Health</institution>, Sydney Medical School, <institution>University of Sydney</institution>, <addr-line>Sydney, NSW 2006</addr-line>, <country country="AU">Australia</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thorburn</surname>
+            <given-names>David R</given-names>
+          </name>
+          <aff>
+<institution>Murdoch Children&#x2019;s Research Institute, Royal Children's Hospital</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Department of Paediatrics, University of Melbourne</institution>, <addr-line>Melbourne, VIC 3010</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Victorian Clinical Genetics Services, Murdoch Children&#x2019;s Research Institute</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Australian Genomics Health Alliance</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Stroud</surname>
+            <given-names>David A</given-names>
+          </name>
+          <!--david.stroud@unimelb.edu.au-->
+          <aff>
+<institution>Murdoch Children&#x2019;s Research Institute, Royal Children's Hospital</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Department of Biochemistry and Pharmacology</institution>, Bio21 Molecular Science and Biotechnology Institute, <institution>University of Melbourne</institution>, <addr-line>Parkville, VIC 3010</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Victorian Clinical Genetics Services, Murdoch Children&#x2019;s Research Institute</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <xref rid="cor1" ref-type="corresp"/>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Compton</surname>
+            <given-names>Alison G</given-names>
+          </name>
+          <!--alison.compton@mcri.edu.au-->
+          <aff>
+<institution>Murdoch Children&#x2019;s Research Institute, Royal Children's Hospital</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Department of Paediatrics, University of Melbourne</institution>, <addr-line>Melbourne, VIC 3010</addr-line>, <country country="AU">Australia</country></aff>
+          <aff>
+<institution>Victorian Clinical Genetics Services, Murdoch Children&#x2019;s Research Institute</institution>, <addr-line>Melbourne, VIC 3052</addr-line>, <country country="AU">Australia</country></aff>
+          <xref rid="cor1" ref-type="corresp"/>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1">To whom correspondence should be addressed. Tel: <phone>+61-3-8344-7316</phone>; Email: <email>david.stroud@unimelb.edu.au</email>. Tel: <phone>+61-3-8341-6287</phone>; Email: <email>alison.compton@mcri.edu.au</email></corresp>
+        <fn id="afn1">
+          <p>Sumudu S. C. Amarasekera and Daniella H. Hock authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <day>01</day>
+        <month>8</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="epub" iso-8601-date="2023-05-03">
+        <day>03</day>
+        <month>5</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>03</day>
+        <month>5</month>
+        <year>2024</year>
+      </pub-date>
+      <!--PMC Release delay is 12 months and 0 days and was based on the <pub-date pub-type="epub"/>.-->
+      <volume>32</volume>
+      <issue>15</issue>
+      <fpage>2441</fpage>
+      <lpage>2454</lpage>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>6</month>
+          <year>2022</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>20</day>
+          <month>3</month>
+          <year>2023</year>
+        </date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>4</month>
+          <year>2023</year>
+        </date>
+        <date date-type="corrected-typeset">
+          <day>06</day>
+          <month>6</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2023. Published by Oxford University Press. All rights reserved. For Permissions, please email: journals.permissions@oup.com</copyright-statement>
+        <copyright-year>2023</copyright-year>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/">https://academic.oup.com/pages/standard-publication-reuse-rights</ali:license_ref>
+          <license-p>This article is published and distributed under the terms of the Oxford University Press, Standard Journals Publication Model (<ext-link ext-link-type="uri" xlink:href="https://academic.oup.com/pages/standard-publication-reuse-rights">https://academic.oup.com/pages/standard-publication-reuse-rights</ext-link>)</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="ddad069.pdf"/>
+      <abstract>
+        <title>Abstract</title>
+        <p>
+<italic toggle="yes">MRPL39</italic> encodes one of 52 proteins comprising the large subunit of the mitochondrial ribosome (mitoribosome). In conjunction with 30 proteins in the small subunit, the mitoribosome synthesizes the 13 subunits of the mitochondrial oxidative phosphorylation (OXPHOS) system encoded by mitochondrial Deoxyribonucleic acid (DNA). We used multi-omics and gene matching to identify three unrelated individuals with biallelic variants in <italic toggle="yes">MRPL39</italic> presenting with multisystem diseases with severity ranging from lethal, infantile-onset (Leigh syndrome spectrum) to milder with survival into adulthood. Clinical exome sequencing of known disease genes failed to diagnose these patients; however quantitative proteomics identified a specific decrease in the abundance of large but not small mitoribosomal subunits in fibroblasts from the two patients with severe phenotype. Re-analysis of exome sequencing led to the identification of candidate single heterozygous variants in mitoribosomal genes <italic toggle="yes">MRPL39</italic> (both patients) and <italic toggle="yes">MRPL15.</italic> Genome sequencing identified a shared deep intronic <italic toggle="yes">MRPL39</italic> variant predicted to generate a cryptic exon, with transcriptomics and targeted studies providing further functional evidence for causation. The patient with the milder disease was homozygous for a missense variant identified through trio exome sequencing. Our study highlights the utility of quantitative proteomics in detecting protein signatures and in characterizing gene-disease associations in exome-unsolved patients. We describe Relative Complex Abundance analysis of proteomics data, a sensitive method that can identify defects in OXPHOS disorders to a similar or greater sensitivity to the traditional enzymology. Relative Complex Abundance has potential utility for functional validation or prioritization in many hundreds of inherited rare diseases where protein complex assembly is disrupted.</p>
+      </abstract>
+      <funding-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Australian National Health and Medical Research Council</institution></institution-wrap>
+</funding-source>
+          <award-id>1140851</award-id>
+          <award-id>1164479</award-id>
+          <award-id>1159456</award-id>
+          <award-id>1155244</award-id>
+          <award-id>2009732</award-id>
+          <award-id>111353</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>US Department of Defense Congressionally Directed Medical Research Programs</institution></institution-wrap>
+</funding-source>
+          <award-id>PR170396</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Australian Mito Foundation</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Vincent Chiodo Charitable Trust and the Victorian Government&#x2019;s Operational Infrastructure Support Program</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Royal Children's Hospital Foundation</institution><institution-id institution-id-type="DOI">10.13039/100014607</institution-id></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Bio21 Mass Spectrometry and Proteomics Facility</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Yale Center for Mendelian Genomics</institution></institution-wrap>
+</funding-source>
+          <award-id>M#UM1HG006504-05</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>National Human Genome Research Institute</institution><institution-id institution-id-type="DOI">10.13039/100000051</institution-id></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>National Heart, Lung, and Blood Institute</institution><institution-id institution-id-type="DOI">10.13039/100000050</institution-id></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>GSP Coordinating Center</institution></institution-wrap>
+</funding-source>
+          <award-id>U24 HG008956</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Howard Hughes Medical Institute</institution><institution-id institution-id-type="DOI">10.13039/100000011</institution-id></institution-wrap>
+</funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <page-count count="14"/>
+      </counts>
+    </article-meta>
+  </front>
+</article>
+</pmc-articleset>

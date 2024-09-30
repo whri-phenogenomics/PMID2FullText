@@ -1,0 +1,984 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3">
+  <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Am J Hum Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Am J Hum Genet</journal-id>
+      <journal-title-group>
+        <journal-title>American Journal of Human Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0002-9297</issn>
+      <issn pub-type="epub">1537-6605</issn>
+      <publisher>
+        <publisher-name>Elsevier</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35395208</article-id>
+      <article-id pub-id-type="pmc">9069070</article-id>
+      <article-id pub-id-type="pii">S0002-9297(22)00098-2</article-id>
+      <article-id pub-id-type="doi">10.1016/j.ajhg.2022.03.002</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Germline variants in tumor suppressor <italic>FBXW7</italic> lead to impaired ubiquitination and a neurodevelopmental syndrome</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="au1">
+          <name>
+            <surname>Stephenson</surname>
+            <given-names>Sarah E.M.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au2">
+          <name>
+            <surname>Costain</surname>
+            <given-names>Gregory</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+          <xref rid="aff4" ref-type="aff">4</xref>
+          <xref rid="aff5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au3">
+          <name>
+            <surname>Blok</surname>
+            <given-names>Laura E.R.</given-names>
+          </name>
+          <xref rid="aff6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au4">
+          <name>
+            <surname>Silk</surname>
+            <given-names>Michael A.</given-names>
+          </name>
+          <xref rid="aff7" ref-type="aff">7</xref>
+          <xref rid="aff8" ref-type="aff">8</xref>
+          <xref rid="aff9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au5">
+          <name>
+            <surname>Nguyen</surname>
+            <given-names>Thanh Binh</given-names>
+          </name>
+          <xref rid="aff7" ref-type="aff">7</xref>
+          <xref rid="aff8" ref-type="aff">8</xref>
+          <xref rid="aff9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au6">
+          <name>
+            <surname>Dong</surname>
+            <given-names>Xiaomin</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au7">
+          <name>
+            <surname>Alhuzaimi</surname>
+            <given-names>Dana E.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au8">
+          <name>
+            <surname>Dowling</surname>
+            <given-names>James J.</given-names>
+          </name>
+          <xref rid="aff10" ref-type="aff">10</xref>
+          <xref rid="aff11" ref-type="aff">11</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au9">
+          <name>
+            <surname>Walker</surname>
+            <given-names>Susan</given-names>
+          </name>
+          <xref rid="aff11" ref-type="aff">11</xref>
+          <xref rid="aff12" ref-type="aff">12</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au10">
+          <name>
+            <surname>Amburgey</surname>
+            <given-names>Kimberly</given-names>
+          </name>
+          <xref rid="aff5" ref-type="aff">5</xref>
+          <xref rid="aff10" ref-type="aff">10</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au11">
+          <name>
+            <surname>Hayeems</surname>
+            <given-names>Robin Z.</given-names>
+          </name>
+          <xref rid="aff13" ref-type="aff">13</xref>
+          <xref rid="aff14" ref-type="aff">14</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au12">
+          <name>
+            <surname>Rodan</surname>
+            <given-names>Lance H.</given-names>
+          </name>
+          <xref rid="aff15" ref-type="aff">15</xref>
+          <xref rid="aff16" ref-type="aff">16</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au13">
+          <name>
+            <surname>Schwartz</surname>
+            <given-names>Marc A.</given-names>
+          </name>
+          <xref rid="aff17" ref-type="aff">17</xref>
+          <xref rid="aff18" ref-type="aff">18</xref>
+          <xref rid="aff19" ref-type="aff">19</xref>
+          <xref rid="aff20" ref-type="aff">20</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au14">
+          <name>
+            <surname>Picker</surname>
+            <given-names>Jonathan</given-names>
+          </name>
+          <xref rid="aff15" ref-type="aff">15</xref>
+          <xref rid="aff21" ref-type="aff">21</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au15">
+          <name>
+            <surname>Lynch</surname>
+            <given-names>Sally A.</given-names>
+          </name>
+          <xref rid="aff22" ref-type="aff">22</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au16">
+          <name>
+            <surname>Gupta</surname>
+            <given-names>Aditi</given-names>
+          </name>
+          <xref rid="aff23" ref-type="aff">23</xref>
+          <xref rid="aff24" ref-type="aff">24</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au17">
+          <name>
+            <surname>Rasmussen</surname>
+            <given-names>Kristen J.</given-names>
+          </name>
+          <xref rid="aff25" ref-type="aff">25</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au18">
+          <name>
+            <surname>Schimmenti</surname>
+            <given-names>Lisa A.</given-names>
+          </name>
+          <xref rid="aff26" ref-type="aff">26</xref>
+          <xref rid="aff27" ref-type="aff">27</xref>
+          <xref rid="aff28" ref-type="aff">28</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au19">
+          <name>
+            <surname>Klee</surname>
+            <given-names>Eric W.</given-names>
+          </name>
+          <xref rid="aff23" ref-type="aff">23</xref>
+          <xref rid="aff24" ref-type="aff">24</xref>
+          <xref rid="aff25" ref-type="aff">25</xref>
+          <xref rid="aff26" ref-type="aff">26</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au20">
+          <name>
+            <surname>Niu</surname>
+            <given-names>Zhiyv</given-names>
+          </name>
+          <xref rid="aff25" ref-type="aff">25</xref>
+          <xref rid="aff26" ref-type="aff">26</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au21">
+          <name>
+            <surname>Agre</surname>
+            <given-names>Katherine E.</given-names>
+          </name>
+          <xref rid="aff26" ref-type="aff">26</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au22">
+          <name>
+            <surname>Chilton</surname>
+            <given-names>Ilana</given-names>
+          </name>
+          <xref rid="aff29" ref-type="aff">29</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au23">
+          <name>
+            <surname>Chung</surname>
+            <given-names>Wendy K.</given-names>
+          </name>
+          <xref rid="aff29" ref-type="aff">29</xref>
+          <xref rid="aff30" ref-type="aff">30</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au24">
+          <name>
+            <surname>Revah-Politi</surname>
+            <given-names>Anya</given-names>
+          </name>
+          <xref rid="aff31" ref-type="aff">31</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au25">
+          <name>
+            <surname>Au</surname>
+            <given-names>P.Y. Billie</given-names>
+          </name>
+          <xref rid="aff32" ref-type="aff">32</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au26">
+          <name>
+            <surname>Griffith</surname>
+            <given-names>Christopher</given-names>
+          </name>
+          <xref rid="aff33" ref-type="aff">33</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au27">
+          <name>
+            <surname>Racobaldo</surname>
+            <given-names>Melissa</given-names>
+          </name>
+          <xref rid="aff33" ref-type="aff">33</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au28">
+          <name>
+            <surname>Raas-Rothschild</surname>
+            <given-names>Annick</given-names>
+          </name>
+          <xref rid="aff34" ref-type="aff">34</xref>
+          <xref rid="aff35" ref-type="aff">35</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au29">
+          <name>
+            <surname>Ben Zeev</surname>
+            <given-names>Bruria</given-names>
+          </name>
+          <xref rid="aff34" ref-type="aff">34</xref>
+          <xref rid="aff36" ref-type="aff">36</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au30">
+          <name>
+            <surname>Barel</surname>
+            <given-names>Ortal</given-names>
+          </name>
+          <xref rid="aff37" ref-type="aff">37</xref>
+          <xref rid="aff38" ref-type="aff">38</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au31">
+          <name>
+            <surname>Moutton</surname>
+            <given-names>Sebastien</given-names>
+          </name>
+          <xref rid="aff39" ref-type="aff">39</xref>
+          <xref rid="aff40" ref-type="aff">40</xref>
+          <xref rid="aff41" ref-type="aff">41</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au32">
+          <name>
+            <surname>Morice-Picard</surname>
+            <given-names>Fanny</given-names>
+          </name>
+          <xref rid="aff42" ref-type="aff">42</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au33">
+          <name>
+            <surname>Carmignac</surname>
+            <given-names>Virginie</given-names>
+          </name>
+          <xref rid="aff41" ref-type="aff">41</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au34">
+          <name>
+            <surname>Cornaton</surname>
+            <given-names>Jenny</given-names>
+          </name>
+          <xref rid="aff40" ref-type="aff">40</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au35">
+          <name>
+            <surname>Marle</surname>
+            <given-names>Nathalie</given-names>
+          </name>
+          <xref rid="aff43" ref-type="aff">43</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au36">
+          <name>
+            <surname>Devinsky</surname>
+            <given-names>Orrin</given-names>
+          </name>
+          <xref rid="aff44" ref-type="aff">44</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au37">
+          <name>
+            <surname>Stimach</surname>
+            <given-names>Chandler</given-names>
+          </name>
+          <xref rid="aff45" ref-type="aff">45</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au38">
+          <name>
+            <surname>Wechsler</surname>
+            <given-names>Stephanie Burns</given-names>
+          </name>
+          <xref rid="aff46" ref-type="aff">46</xref>
+          <xref rid="aff47" ref-type="aff">47</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au39">
+          <name>
+            <surname>Hainline</surname>
+            <given-names>Bryan E.</given-names>
+          </name>
+          <xref rid="aff48" ref-type="aff">48</xref>
+          <xref rid="aff49" ref-type="aff">49</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au40">
+          <name>
+            <surname>Sapp</surname>
+            <given-names>Katie</given-names>
+          </name>
+          <xref rid="aff48" ref-type="aff">48</xref>
+          <xref rid="aff49" ref-type="aff">49</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au41">
+          <name>
+            <surname>Willems</surname>
+            <given-names>Marjolaine</given-names>
+          </name>
+          <xref rid="aff50" ref-type="aff">50</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au42">
+          <name>
+            <surname>Bruel</surname>
+            <given-names>Ange-line</given-names>
+          </name>
+          <xref rid="aff51" ref-type="aff">51</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au43">
+          <name>
+            <surname>Dias</surname>
+            <given-names>Kerith-Rae</given-names>
+          </name>
+          <xref rid="aff52" ref-type="aff">52</xref>
+          <xref rid="aff53" ref-type="aff">53</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au44">
+          <name>
+            <surname>Evans</surname>
+            <given-names>Carey-Anne</given-names>
+          </name>
+          <xref rid="aff52" ref-type="aff">52</xref>
+          <xref rid="aff53" ref-type="aff">53</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au45">
+          <name>
+            <surname>Roscioli</surname>
+            <given-names>Tony</given-names>
+          </name>
+          <xref rid="aff52" ref-type="aff">52</xref>
+          <xref rid="aff53" ref-type="aff">53</xref>
+          <xref rid="aff54" ref-type="aff">54</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au46">
+          <name>
+            <surname>Sachdev</surname>
+            <given-names>Rani</given-names>
+          </name>
+          <xref rid="aff54" ref-type="aff">54</xref>
+          <xref rid="aff55" ref-type="aff">55</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au47">
+          <name>
+            <surname>Temple</surname>
+            <given-names>Suzanna E.L.</given-names>
+          </name>
+          <xref rid="aff52" ref-type="aff">52</xref>
+          <xref rid="aff53" ref-type="aff">53</xref>
+          <xref rid="aff54" ref-type="aff">54</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au48">
+          <name>
+            <surname>Zhu</surname>
+            <given-names>Ying</given-names>
+          </name>
+          <xref rid="aff52" ref-type="aff">52</xref>
+          <xref rid="aff56" ref-type="aff">56</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au49">
+          <name>
+            <surname>Baker</surname>
+            <given-names>Joshua J.</given-names>
+          </name>
+          <xref rid="aff57" ref-type="aff">57</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au50">
+          <name>
+            <surname>Scheffer</surname>
+            <given-names>Ingrid E.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff58" ref-type="aff">58</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au51">
+          <name>
+            <surname>Gardiner</surname>
+            <given-names>Fiona J.</given-names>
+          </name>
+          <xref rid="aff58" ref-type="aff">58</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au52">
+          <name>
+            <surname>Schneider</surname>
+            <given-names>Amy L.</given-names>
+          </name>
+          <xref rid="aff58" ref-type="aff">58</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au53">
+          <name>
+            <surname>Muir</surname>
+            <given-names>Alison M.</given-names>
+          </name>
+          <xref rid="aff59" ref-type="aff">59</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au54">
+          <name>
+            <surname>Mefford</surname>
+            <given-names>Heather C.</given-names>
+          </name>
+          <xref rid="aff59" ref-type="aff">59</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au55">
+          <name>
+            <surname>Crunk</surname>
+            <given-names>Amy</given-names>
+          </name>
+          <xref rid="aff60" ref-type="aff">60</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au56">
+          <name>
+            <surname>Heise</surname>
+            <given-names>Elizabeth M.</given-names>
+          </name>
+          <xref rid="aff60" ref-type="aff">60</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au57">
+          <name>
+            <surname>Millan</surname>
+            <given-names>Francisca</given-names>
+          </name>
+          <xref rid="aff60" ref-type="aff">60</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au58">
+          <name>
+            <surname>Monaghan</surname>
+            <given-names>Kristin G.</given-names>
+          </name>
+          <xref rid="aff60" ref-type="aff">60</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au59">
+          <name>
+            <surname>Person</surname>
+            <given-names>Richard</given-names>
+          </name>
+          <xref rid="aff60" ref-type="aff">60</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au60">
+          <name>
+            <surname>Rhodes</surname>
+            <given-names>Lindsay</given-names>
+          </name>
+          <xref rid="aff60" ref-type="aff">60</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au61">
+          <name>
+            <surname>Richards</surname>
+            <given-names>Sarah</given-names>
+          </name>
+          <xref rid="aff60" ref-type="aff">60</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au62">
+          <name>
+            <surname>Wentzensen</surname>
+            <given-names>Ingrid M.</given-names>
+          </name>
+          <xref rid="aff60" ref-type="aff">60</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au63">
+          <name>
+            <surname>Cogn&#xE9;</surname>
+            <given-names>Benjamin</given-names>
+          </name>
+          <xref rid="aff61" ref-type="aff">61</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au64">
+          <name>
+            <surname>Isidor</surname>
+            <given-names>Bertrand</given-names>
+          </name>
+          <xref rid="aff61" ref-type="aff">61</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au65">
+          <name>
+            <surname>Nizon</surname>
+            <given-names>Mathilde</given-names>
+          </name>
+          <xref rid="aff61" ref-type="aff">61</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au66">
+          <name>
+            <surname>Vincent</surname>
+            <given-names>Marie</given-names>
+          </name>
+          <xref rid="aff61" ref-type="aff">61</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au67">
+          <name>
+            <surname>Besnard</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <xref rid="aff61" ref-type="aff">61</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au68">
+          <name>
+            <surname>Piton</surname>
+            <given-names>Amelie</given-names>
+          </name>
+          <xref rid="aff62" ref-type="aff">62</xref>
+          <xref rid="aff63" ref-type="aff">63</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au69">
+          <name>
+            <surname>Marcelis</surname>
+            <given-names>Carlo</given-names>
+          </name>
+          <xref rid="aff6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au70">
+          <name>
+            <surname>Kato</surname>
+            <given-names>Kohji</given-names>
+          </name>
+          <xref rid="aff64" ref-type="aff">64</xref>
+          <xref rid="aff65" ref-type="aff">65</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au71">
+          <name>
+            <surname>Koyama</surname>
+            <given-names>Norihisa</given-names>
+          </name>
+          <xref rid="aff66" ref-type="aff">66</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au72">
+          <name>
+            <surname>Ogi</surname>
+            <given-names>Tomoo</given-names>
+          </name>
+          <xref rid="aff65" ref-type="aff">65</xref>
+          <xref rid="aff67" ref-type="aff">67</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au73">
+          <name>
+            <surname>Goh</surname>
+            <given-names>Elaine Suk-Ying</given-names>
+          </name>
+          <xref rid="aff68" ref-type="aff">68</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au74">
+          <name>
+            <surname>Richmond</surname>
+            <given-names>Christopher</given-names>
+          </name>
+          <xref rid="aff69" ref-type="aff">69</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au75">
+          <name>
+            <surname>Amor</surname>
+            <given-names>David J.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff69" ref-type="aff">69</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au76">
+          <name>
+            <surname>Boyce</surname>
+            <given-names>Jessica O.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au77">
+          <name>
+            <surname>Morgan</surname>
+            <given-names>Angela T.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au78">
+          <name>
+            <surname>Hildebrand</surname>
+            <given-names>Michael S.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff58" ref-type="aff">58</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au79">
+          <name>
+            <surname>Kaspi</surname>
+            <given-names>Antony</given-names>
+          </name>
+          <xref rid="aff70" ref-type="aff">70</xref>
+          <xref rid="aff71" ref-type="aff">71</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au80">
+          <name>
+            <surname>Bahlo</surname>
+            <given-names>Melanie</given-names>
+          </name>
+          <xref rid="aff70" ref-type="aff">70</xref>
+          <xref rid="aff71" ref-type="aff">71</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au81">
+          <name>
+            <surname>Fri&#xF0;riksd&#xF3;ttir</surname>
+            <given-names>R&#xFA;n</given-names>
+          </name>
+          <xref rid="aff72" ref-type="aff">72</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au82">
+          <name>
+            <surname>Katr&#xED;nard&#xF3;ttir</surname>
+            <given-names>Hildigunnur</given-names>
+          </name>
+          <xref rid="aff72" ref-type="aff">72</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au83">
+          <name>
+            <surname>Sulem</surname>
+            <given-names>Patrick</given-names>
+          </name>
+          <xref rid="aff72" ref-type="aff">72</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au84">
+          <name>
+            <surname>Stef&#xE1;nsson</surname>
+            <given-names>K&#xE1;ri</given-names>
+          </name>
+          <xref rid="aff72" ref-type="aff">72</xref>
+          <xref rid="aff73" ref-type="aff">73</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au85">
+          <name>
+            <surname>Bj&#xF6;rnsson</surname>
+            <given-names>Hans T&#xF3;mas</given-names>
+          </name>
+          <xref rid="aff73" ref-type="aff">73</xref>
+          <xref rid="aff74" ref-type="aff">74</xref>
+          <xref rid="aff75" ref-type="aff">75</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au86">
+          <name>
+            <surname>Mandelstam</surname>
+            <given-names>Simone</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff76" ref-type="aff">76</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au87">
+          <name>
+            <surname>Morleo</surname>
+            <given-names>Manuela</given-names>
+          </name>
+          <xref rid="aff77" ref-type="aff">77</xref>
+          <xref rid="aff78" ref-type="aff">78</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au88">
+          <name>
+            <surname>Mariani</surname>
+            <given-names>Milena</given-names>
+          </name>
+          <xref rid="aff79" ref-type="aff">79</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <collab>TUDP Study Group</collab>
+        </contrib>
+        <contrib contrib-type="author" id="au89">
+          <name>
+            <surname>Scala</surname>
+            <given-names>Marcello</given-names>
+          </name>
+          <xref rid="aff80" ref-type="aff">80</xref>
+          <xref rid="aff81" ref-type="aff">81</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au90">
+          <name>
+            <surname>Accogli</surname>
+            <given-names>Andrea</given-names>
+          </name>
+          <xref rid="aff80" ref-type="aff">80</xref>
+          <xref rid="aff81" ref-type="aff">81</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au91">
+          <name>
+            <surname>Torella</surname>
+            <given-names>Annalaura</given-names>
+          </name>
+          <xref rid="aff77" ref-type="aff">77</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au92">
+          <name>
+            <surname>Capra</surname>
+            <given-names>Valeria</given-names>
+          </name>
+          <xref rid="aff81" ref-type="aff">81</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au93">
+          <name>
+            <surname>Wallis</surname>
+            <given-names>Mathew</given-names>
+          </name>
+          <xref rid="aff82" ref-type="aff">82</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au94">
+          <name>
+            <surname>Jansen</surname>
+            <given-names>Sandra</given-names>
+          </name>
+          <xref rid="aff83" ref-type="aff">83</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au95">
+          <name>
+            <surname>Waisfisz</surname>
+            <given-names>Quinten</given-names>
+          </name>
+          <xref rid="aff83" ref-type="aff">83</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au96">
+          <name>
+            <surname>de Haan</surname>
+            <given-names>Hugoline</given-names>
+          </name>
+          <xref rid="aff83" ref-type="aff">83</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au97">
+          <name>
+            <surname>Sadedin</surname>
+            <given-names>Simon</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff69" ref-type="aff">69</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <collab>Broad Center for Mendelian Genomics</collab>
+        </contrib>
+        <contrib contrib-type="author" id="au98">
+          <name>
+            <surname>Lim</surname>
+            <given-names>Sze Chern</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff69" ref-type="aff">69</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au99">
+          <name>
+            <surname>White</surname>
+            <given-names>Susan M.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff69" ref-type="aff">69</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au100">
+          <name>
+            <surname>Ascher</surname>
+            <given-names>David B.</given-names>
+          </name>
+          <xref rid="aff7" ref-type="aff">7</xref>
+          <xref rid="aff8" ref-type="aff">8</xref>
+          <xref rid="aff9" ref-type="aff">9</xref>
+          <xref rid="aff84" ref-type="aff">84</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au101">
+          <name>
+            <surname>Schenck</surname>
+            <given-names>Annette</given-names>
+          </name>
+          <xref rid="aff6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au102">
+          <name>
+            <surname>Lockhart</surname>
+            <given-names>Paul J.</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au103">
+          <name>
+            <surname>Christodoulou</surname>
+            <given-names>John</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff69" ref-type="aff">69</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au104">
+          <name>
+            <surname>Tan</surname>
+            <given-names>Tiong Yang</given-names>
+          </name>
+          <email>tiong.tan@vcgs.org.au</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff69" ref-type="aff">69</xref>
+          <xref rid="cor1" ref-type="corresp">&#x2217;</xref>
+        </contrib>
+        <aff id="aff1"><label>1</label>Murdoch Children&#x2019;s Research Institute, Melbourne, VIC 3052, Australia</aff>
+        <aff id="aff2"><label>2</label>Department of Paediatrics, University of Melbourne, Melbourne, VIC 3052, Australia</aff>
+        <aff id="aff3"><label>3</label>Division of Clinical and Metabolic Genetics, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada</aff>
+        <aff id="aff4"><label>4</label>Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada</aff>
+        <aff id="aff5"><label>5</label>Department of Paediatrics, University of Toronto, Toronto, ON M5G 1X8, Canada</aff>
+        <aff id="aff6"><label>6</label>Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen 6525, the Netherlands</aff>
+        <aff id="aff7"><label>7</label>Structural Biology and Bioinformatics, Department of Biochemistry and Molecular Biology, University of Melbourne, Melbourne, VIC 3052, Australia</aff>
+        <aff id="aff8"><label>8</label>Australia Cancer Research Funding Facility for Innovative Cancer Drug Discovery, Bio21 Institute, University of Melbourne, Melbourne, VIC 3052, Australia</aff>
+        <aff id="aff9"><label>9</label>Computational Biology and Clinical Informatics, Baker Heart and Diabetes Institute, Melbourne, VIC 3004, Australia</aff>
+        <aff id="aff10"><label>10</label>Division of Neurology, Hospital for Sick Children, Toronto, ON M5G 1X8, Canada</aff>
+        <aff id="aff11"><label>11</label>Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada</aff>
+        <aff id="aff12"><label>12</label>The Centre for Applied Genomics, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada</aff>
+        <aff id="aff13"><label>13</label>Child Health Evaluative Sciences, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada</aff>
+        <aff id="aff14"><label>14</label>Centre for Genetic Medicine, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada</aff>
+        <aff id="aff15"><label>15</label>Division of Genetics and Genomics, Boston Children&#x2019;s Hospital, Harvard Medical School, Boston, MA 02115, United States</aff>
+        <aff id="aff16"><label>16</label>Department of Neurology, Boston Children&#x2019;s Hospital, Harvard Medical School, Boston, MA 02115, United States</aff>
+        <aff id="aff17"><label>17</label>Department of Pediatrics, Harvard Medical School, Boston, MA 02115, United States</aff>
+        <aff id="aff18"><label>18</label>Cancer and Blood Disorders Center, Boston Children&#x2019;s Hospital, Boston, MA 02115, United States</aff>
+        <aff id="aff19"><label>19</label>Department of Pediatric Oncology, Dana Farber Cancer Institute, Boston, MA 02115, United States</aff>
+        <aff id="aff20"><label>20</label>Broad Institute of MIT and Harvard, Cambridge, MA 02115, United States</aff>
+        <aff id="aff21"><label>21</label>Department of Child and Adolescent Psychiatry, Boston Children&#x2019;s Hospital, Harvard Medical School, Boston, MA 02115, United States</aff>
+        <aff id="aff22"><label>22</label>Department of Clinical Genetics, Children&#x2019;s Health Ireland at Temple Street, Rotunda, Dublin D01 XD99, Ireland</aff>
+        <aff id="aff23"><label>23</label>Center for Individualized Medicine, Mayo Clinic, Rochester, MN 55905, United States</aff>
+        <aff id="aff24"><label>24</label>Department of Health Sciences Research, Mayo Clinic, Rochester, MN 55905, United States</aff>
+        <aff id="aff25"><label>25</label>Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN 55905, United States</aff>
+        <aff id="aff26"><label>26</label>Department of Clinical Genomics, Mayo Clinic, Rochester, MN 55905, United States</aff>
+        <aff id="aff27"><label>27</label>Otolaryngology&#x2014;Head and Neck Surgery (Ear, Nose, and Throat), Mayo Clinic, Rochester, MN 55905, United States</aff>
+        <aff id="aff28"><label>28</label>Biochemistry and Molecular Biology, Mayo Clinic, Rochester, MN 55905, United States</aff>
+        <aff id="aff29"><label>29</label>Department of Pediatrics, Columbia University Irving Medical Center, New York, NY 10032, United States</aff>
+        <aff id="aff30"><label>30</label>Department of Medicine, Columbia University Irving Medical Center, New York, NY 10032, United States</aff>
+        <aff id="aff31"><label>31</label>Institute for Genomic Medicine and Precision Genomics Laboratory, Columbia University Irving Medical Center, New York, NYk, 10032, United States</aff>
+        <aff id="aff32"><label>32</label>Department of Medical Genetics and Alberta Children&#x2019;s Hospital Research Institute, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada</aff>
+        <aff id="aff33"><label>33</label>Division of Pediatrics, University of South Florida, Tampa, FL 33620, United States</aff>
+        <aff id="aff34"><label>34</label>Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv-Yafo 6997801, Israel</aff>
+        <aff id="aff35"><label>35</label>Institute of Rare Diseases, The Danek Gertner Institute of Human Genetics, Sheba Medical Center, Tel Hashomer, Ramat Gan 52621, Israel</aff>
+        <aff id="aff36"><label>36</label>Pediatric Neurology Unit, Safra Children&#x2019;s Hospital, Sheba Medical Center, Tel Hashomer, Ramat Gan 52621, Israel</aff>
+        <aff id="aff37"><label>37</label>The Genomic Unit, Sheba Cancer Research Center, Sheba Medical Center, Tel Hashomer, Ramat Gan 52621, Israel</aff>
+        <aff id="aff38"><label>38</label>The Wohl Institute for Translational Medicine, Sheba Medical Center, Tel Hashomer, Ramat Gan 52621, Israel</aff>
+        <aff id="aff39"><label>39</label>Centre Pluridisciplinaire de Diagnostic Pr&#xE9;Natal, P&#xF4;le M&#xE8;re Enfant, Maison de Sant&#xE9; Protestante Bordeaux Bagatelle, Talence, Nouvelle-Aquitaine 33401, France</aff>
+        <aff id="aff40"><label>40</label>Reference Center for Developmental Anomalies, Department of Medical Genetics, Dijon University Hospital, Dijon, Bourgogne-Franche-Comt&#xE9; 21000, France</aff>
+        <aff id="aff41"><label>41</label>INSERM U1231, Laboratoire de Neurosciences Cognitives, UMR 1231, Genetic of Development Anomalies, University of Burgundy, Dijon, Bourgogne-Franche-Comt&#xE9; 21078 France</aff>
+        <aff id="aff42"><label>42</label>Reference Center for Genetic, Complex, and Rare Skin Disorders, Department of Pediatric Dermatology, Bordeaux University Hospital, Bordeaux, Nouvelle-Aquitaine 33000, France</aff>
+        <aff id="aff43"><label>43</label>Laboratoire de G&#xE9;n&#xE9;tique Chromosomique et Mol&#xE9;culaire, P&#xF4;le de Biologie, Centre Hospitalier Universitaire de Dijon, Dijon, Bourgogne-Franche-Comt&#xE9; 21000 France</aff>
+        <aff id="aff44"><label>44</label>Neurology Department, New York University Langone Medical Center, New York, NY 10016, United States</aff>
+        <aff id="aff45"><label>45</label>Department of Human Genetics, Emory Healthcare, Atlanta, GA 30322, United States</aff>
+        <aff id="aff46"><label>46</label>Department of Human Genetics, Emory University School of Medicine, Atlanta, Georgia, 30322, United States</aff>
+        <aff id="aff47"><label>47</label>Department of Pediatrics, Emory University School of Medicine, Atlanta, Georgia, 30322, United States</aff>
+        <aff id="aff48"><label>48</label>Indiana University School of Medicine, Indianapolis, Indiana 46202, United States</aff>
+        <aff id="aff49"><label>49</label>Indiana University Health Physicians, Indiana University, Indianapolis, Indiana 46202, United States</aff>
+        <aff id="aff50"><label>50</label>Reference Center for Developmental Disorders, Department of Medical Genetics, Arnaud de Villeneuve Hospital, Montpellier University Hospital, Montpellier, Occitanie 34295, France</aff>
+        <aff id="aff51"><label>51</label>Inserm UMR 1231, Genetics of Developmental Anomalies, University of Bourgogne, University Hospital Federation, Translational Medicine in Development Disorders, Dijon, Bourgogne-Franche-Comt&#xE9; 21078, France</aff>
+        <aff id="aff52"><label>52</label>New South Wales Health Pathology East Laboratory, Prince of Wales Private Hospital, Sydney, NSW 2031, Australia</aff>
+        <aff id="aff53"><label>53</label>Neuroscience Research Australia, Prince of Wales Clinical School, University of New South Wales, Sydney, New South Wales 2031, Australia</aff>
+        <aff id="aff54"><label>54</label>Centre for Medical Genetics, Sydney Children&#x2019;s Hospital, Sydney, New South Wales 2031, Australia</aff>
+        <aff id="aff55"><label>55</label>School of Women&#x2019;s and Children&#x2019;s Health, University of New South Wales Medicine, University of New South Wales, Sydney, New South Wales 2052, Australia</aff>
+        <aff id="aff56"><label>56</label>Newcastle Genetics of Learning Disability Service, Hunter Genetics, Newcastle, New South Wales 2298, Australia</aff>
+        <aff id="aff57"><label>57</label>Department of Pediatrics, Boston Children&#x2019;s Hospital, Harvard Medical School, Boston, MA 02115, United States</aff>
+        <aff id="aff58"><label>58</label>Epilepsy Research Centre, Department of Medicine, Austin Health, University of Melbourne, Melbourne, VIC 3084, Australia</aff>
+        <aff id="aff59"><label>59</label>Department of Pediatrics, University of Washington, Seattle, WA 98195, United States</aff>
+        <aff id="aff60"><label>60</label>GeneDx, Gaithersburg, MD 20877, United States</aff>
+        <aff id="aff61"><label>61</label>Medical Genetic Services, The Thorax Institute, INSERM, Centre National de la Recherche Scientifique, University Hospital of Nantes, Nantes, Pays de la Loire 44007, France</aff>
+        <aff id="aff62"><label>62</label>Molecular Genetic Unit, Strasbourg University Hospital, Strasbourg, Illkirch-Graffenstaden 67000, France</aff>
+        <aff id="aff63"><label>63</label>Institute of Genetics and Molecular and Cellular Biology, INSERM U964, Centre National de la Recherche Scientifique, UMR 7104, University of Strasbourg, Illkirch-Graffenstaden, Grand Est 67400, France</aff>
+        <aff id="aff64"><label>64</label>Department of Pediatrics and Neonatology, Nagoya City University Graduate School of Medical Sciences, Nagoya, Chubu 467-8601, Japan</aff>
+        <aff id="aff65"><label>65</label>Department of Genetics, Research Institute of Environmental Medicine, Nagoya University, Nagoya, Chubu 464-860, Japan</aff>
+        <aff id="aff66"><label>66</label>Department of Pediatrics, Toyohashi Municipal Hospital, Toyohashi, Chubu 441-8570, Japan</aff>
+        <aff id="aff67"><label>67</label>Department of Human Genetics and Molecular Biology, Nagoya University Graduate School of Medicine, Nagoya, Chubu 467-8601, Japan</aff>
+        <aff id="aff68"><label>68</label>Laboratory Medicine and Genetics, Trillium Health Partners, Mississauga, ON L5B 1B8, Canada</aff>
+        <aff id="aff69"><label>69</label>Victorian Clinical Genetics Services, Melbourne, VIC 3052, Australia</aff>
+        <aff id="aff70"><label>70</label>Population Health and Immunity Division, The Walter and Eliza Hall Institute for Medical Research, Melbourne, VIC 3052, Australia</aff>
+        <aff id="aff71"><label>71</label>Department of Medical Biology, University of Melbourne, Melbourne, VIC 3052, Australia</aff>
+        <aff id="aff72"><label>72</label>deCODE Genetics, Amgen, Reykjavik 101, Iceland</aff>
+        <aff id="aff73"><label>73</label>Faculty of Medicine, University of Iceland, Reykjavik 101, Iceland</aff>
+        <aff id="aff74"><label>74</label>Department of Genetics and Molecular Medicine, Landspitali University Hospital, Reykjavik 101, Iceland</aff>
+        <aff id="aff75"><label>75</label>McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University, Baltimore, MD 21218, United States</aff>
+        <aff id="aff76"><label>76</label>Department of Medical Imaging, The Royal Children&#x2019;s Hospital, Melbourne, VIC 3052, Australia</aff>
+        <aff id="aff77"><label>77</label>Telethon Institute of Genetics and Medicine, Pozzuoli, Naples 80078, Italy</aff>
+        <aff id="aff78"><label>78</label>Department of Precision Medicine, University of Campania &#x201C;Luigi Vanvitelli,&#x201D; Naples 80138, Italy</aff>
+        <aff id="aff79"><label>79</label>Department of Pediatrics, Azienda Socio Sanitaria Territoriale, Lariana Sant&#x2019;Anna Hospital, San Fermo Della Battaglia, Como 22042, Italy</aff>
+        <aff id="aff80"><label>80</label>Department of Neurosciences, Rehabilitation, Opthalmology, Genetics, and Maternal and Child Health, University of Genoa, Genoa, Liguria 16126, Italy</aff>
+        <aff id="aff81"><label>81</label>Istituto di Ricovero e Cura a Carattere Scientifico Giannina Gaslini Institute, Genoa, Liguria 16147, Italy</aff>
+        <aff id="aff82"><label>82</label>Tasmanian Clinical Genetics Services, Royal Hobart Hospital, Hobart, Tasmania 7000, Australia</aff>
+        <aff id="aff83"><label>83</label>Department of Human Genetics, Amsterdam University Medical Centers, Vrije Universiteit Medical Center Amsterdam, Amsterdam, the Netherlands</aff>
+        <aff id="aff84"><label>84</label>Department of Biochemistry, University of Cambridge, Cambridge, England CB2 1GA, United Kingdom</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1"><label>&#x2217;</label>Corresponding author <email>tiong.tan@vcgs.org.au</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>07</day>
+        <month>4</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>07</day>
+        <month>4</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>109</volume>
+      <issue>4</issue>
+      <fpage>601</fpage>
+      <lpage>617</lpage>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>10</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>2</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2022 American Society of Human Genetics.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>American Society of Human Genetics</copyright-holder>
+      </permissions>
+      <abstract id="abs0010">
+        <title>Summary</title>
+        <p>Neurodevelopmental disorders are highly heterogenous conditions resulting from abnormalities of brain architecture and/or function. <italic>FBXW7</italic> (F-box and WD-repeat-domain-containing 7), a recognized developmental regulator and tumor suppressor, has been shown to regulate cell-cycle progression and cell growth and survival by targeting substrates including CYCLIN E1/2 and NOTCH for degradation via the ubiquitin proteasome system. We used a genotype-first approach and global data-sharing platforms to identify 35 individuals harboring <italic>de novo</italic> and inherited <italic>FBXW7</italic> germline monoallelic chromosomal deletions and nonsense, frameshift, splice-site, and missense variants associated with a neurodevelopmental syndrome. The <italic>FBXW7</italic> neurodevelopmental syndrome is distinguished by global developmental delay, borderline to severe intellectual disability, hypotonia, and gastrointestinal issues. Brain imaging detailed variable underlying structural abnormalities affecting the cerebellum, corpus collosum, and white matter. A crystal-structure model of FBXW7 predicted that missense variants were clustered at the substrate-binding surface of the WD40 domain and that these might reduce FBXW7 substrate binding affinity. Expression of recombinant FBXW7 missense variants in cultured cells demonstrated impaired CYCLIN E1 and CYCLIN E2 turnover. Pan-neuronal knockdown of the <italic>Drosophila</italic> ortholog, <italic>archipelago</italic>, impaired learning and neuronal function. Collectively, the data presented herein provide compelling evidence of an F-Box protein-related, phenotypically variable neurodevelopmental disorder associated with monoallelic variants in <italic>FBXW7</italic>.</p>
+      </abstract>
+      <kwd-group id="kwrds0010">
+        <title>Keywords</title>
+        <kwd>Neurodevelopment</kwd>
+        <kwd>global developmental delay</kwd>
+        <kwd>brain malformation</kwd>
+        <kwd>epilepsy</kwd>
+        <kwd>macrocephaly</kwd>
+        <kwd>intellectual disability</kwd>
+        <kwd>hypotonia</kwd>
+        <kwd>gastrointestinal issues</kwd>
+        <kwd>FBXW7</kwd>
+        <kwd>F-box protein</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <p id="misc0010">Published: April 7, 2022</p>
+    </notes>
+  </front>
+</article>
+</pmc-articleset>

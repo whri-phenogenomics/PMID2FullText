@@ -1,0 +1,2105 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">EMBO Mol Med</journal-id>
+      <journal-id journal-id-type="iso-abbrev">EMBO Mol Med</journal-id>
+      <journal-id journal-id-type="doi">10.1002/(ISSN)1757-4684</journal-id>
+      <journal-id journal-id-type="publisher-id">EMMM</journal-id>
+      <journal-id journal-id-type="hwp">embomm</journal-id>
+      <journal-title-group>
+        <journal-title>EMBO Molecular Medicine</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1757-4676</issn>
+      <issn pub-type="epub">1757-4684</issn>
+      <publisher>
+        <publisher-name>John Wiley and Sons Inc.</publisher-name>
+        <publisher-loc>Hoboken</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">32969598</article-id>
+      <article-id pub-id-type="pmc">7645371</article-id>
+      <article-id pub-id-type="doi">10.15252/emmm.202012619</article-id>
+      <article-id pub-id-type="publisher-id">EMMM202012619</article-id>
+      <article-categories>
+        <subj-group subj-group-type="overline">
+          <subject>Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="heading">
+          <subject>Articles</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Bi&#x2010;allelic pathogenic variants in <italic>NDUFC2</italic> cause early&#x2010;onset Leigh syndrome and stalled biogenesis of complex I</article-title>
+        <alt-title alt-title-type="left-running-head">Ahmad Alahmad <italic>et&#xA0;al</italic></alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib id="emmm202012619-cr-0001" contrib-type="author">
+          <name>
+            <surname>Alahmad</surname>
+            <given-names>Ahmad</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0002" contrib-type="author">
+          <name>
+            <surname>Nasca</surname>
+            <given-names>Alessia</given-names>
+          </name>
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0640-9929</contrib-id>
+          <xref ref-type="aff" rid="emmm202012619-aff-0004">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0003" contrib-type="author">
+          <name>
+            <surname>Heidler</surname>
+            <given-names>Juliana</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0005">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0004" contrib-type="author">
+          <name>
+            <surname>Thompson</surname>
+            <given-names>Kyle</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0002">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0005" contrib-type="author">
+          <name>
+            <surname>Ol&#xE1;hov&#xE1;</surname>
+            <given-names>Monika</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0006">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0006" contrib-type="author">
+          <name>
+            <surname>Legati</surname>
+            <given-names>Andrea</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0004">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0007" contrib-type="author">
+          <name>
+            <surname>Lamantea</surname>
+            <given-names>Eleonora</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0004">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0008" contrib-type="author">
+          <name>
+            <surname>Meisterknecht</surname>
+            <given-names>Jana</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0005">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0009" contrib-type="author">
+          <name>
+            <surname>Spagnolo</surname>
+            <given-names>Manuela</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0004">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0010" contrib-type="author">
+          <name>
+            <surname>He</surname>
+            <given-names>Langping</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0007">
+<sup>7</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0011" contrib-type="author">
+          <name>
+            <surname>Alameer</surname>
+            <given-names>Seham</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0008">
+<sup>8</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0009">
+<sup>9</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0010">
+<sup>10</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0012" contrib-type="author">
+          <name>
+            <surname>Hakami</surname>
+            <given-names>Fahad</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0011">
+<sup>11</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0013" contrib-type="author">
+          <name>
+            <surname>Almehdar</surname>
+            <given-names>Abeer</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0012">
+<sup>12</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0014" contrib-type="author">
+          <name>
+            <surname>Ardissone</surname>
+            <given-names>Anna</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0013">
+<sup>13</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0015" contrib-type="author">
+          <name>
+            <surname>Alston</surname>
+            <given-names>Charlotte L</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0007">
+<sup>7</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0016" contrib-type="author">
+          <name>
+            <surname>McFarland</surname>
+            <given-names>Robert</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0007">
+<sup>7</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0017" contrib-type="author">
+          <name>
+            <surname>Wittig</surname>
+            <given-names>Ilka</given-names>
+          </name>
+          <xref ref-type="aff" rid="emmm202012619-aff-0005">
+<sup>5</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0014">
+<sup>14</sup>
+</xref>
+          <xref ref-type="author-notes" rid="emmm202012619-note-1001">
+<sup>&#x2020;</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0018" contrib-type="author">
+          <name>
+            <surname>Ghezzi</surname>
+            <given-names>Daniele</given-names>
+          </name>
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9358-1566</contrib-id>
+          <xref ref-type="aff" rid="emmm202012619-aff-0004">
+<sup>4</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0015">
+<sup>15</sup>
+</xref>
+          <xref ref-type="author-notes" rid="emmm202012619-note-1001">
+<sup>&#x2020;</sup>
+</xref>
+        </contrib>
+        <contrib id="emmm202012619-cr-0019" contrib-type="author" corresp="yes">
+          <name>
+            <surname>Taylor</surname>
+            <given-names>Robert W</given-names>
+          </name>
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7768-8873</contrib-id>
+          <xref ref-type="aff" rid="emmm202012619-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="emmm202012619-aff-0007">
+<sup>7</sup>
+</xref>
+          <xref ref-type="author-notes" rid="emmm202012619-note-1001">
+<sup>&#x2020;</sup>
+</xref>
+          <address>
+            <email>robert.taylor@ncl.ac.uk</email>
+          </address>
+        </contrib>
+      </contrib-group>
+      <aff id="emmm202012619-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Wellcome Centre for Mitochondrial Research</named-content>
+<institution>Newcastle University</institution>
+<city>Newcastle upon Tyne</city>
+<country country="GB">UK</country>
+</aff>
+      <aff id="emmm202012619-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Translational and Clinical Research Institute</named-content>
+<named-content content-type="organisation-division">Faculty of Medical Sciences</named-content>
+<institution>Newcastle University</institution>
+<city>Newcastle upon Tyne</city>
+<country country="GB">UK</country>
+</aff>
+      <aff id="emmm202012619-aff-0003">
+<label><sup>3</sup></label>
+<institution>Kuwait Medical Genetics Centre</institution>
+<city>Al&#x2010;Sabah Medical Area</city>
+<country country="KW">Kuwait</country>
+</aff>
+      <aff id="emmm202012619-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Unit of Medical Genetics and Neurogenetics</named-content>
+<institution>Fondazione IRCCS Istituto Neurologico Carlo Besta</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff>
+      <aff id="emmm202012619-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">SFB815 Core Unit</named-content>
+<named-content content-type="organisation-division">Functional Proteomics</named-content>
+<named-content content-type="organisation-division">Medical School</named-content>
+<institution>Goethe&#x2010;Universit&#xE4;t</institution>
+<city>Frankfurt am Main</city>
+<country country="DE">Germany</country>
+</aff>
+      <aff id="emmm202012619-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Faculty of Medical Sciences</named-content>
+<institution>Biosciences Institute</institution>
+<institution>Newcastle University</institution>
+<city>Newcastle upon Tyne</city>
+<country country="GB">UK</country>
+</aff>
+      <aff id="emmm202012619-aff-0007">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">NHS Highly Specialised Service for Rare Mitochondrial Disorders</named-content>
+<institution>Royal Victoria Infirmary</institution>
+<institution>Newcastle upon Tyne Hospitals NHS Foundation Trust</institution>
+<city>Newcastle upon Tyne</city>
+<country country="GB">UK</country>
+</aff>
+      <aff id="emmm202012619-aff-0008">
+<label><sup>8</sup></label>
+<named-content content-type="organisation-division">Pediatric Department</named-content>
+<institution>Ministry of National Guard Health Affairs</institution>
+<city>Jeddah</city>
+<country country="SA">Saudi Arabia</country>
+</aff>
+      <aff id="emmm202012619-aff-0009">
+<label><sup>9</sup></label>
+<institution>King Abdullah International Medical Research Center</institution>
+<city>Jeddah</city>
+<country country="SA">Saudi Arabia</country>
+</aff>
+      <aff id="emmm202012619-aff-0010">
+<label><sup>10</sup></label>
+<institution>King Saud bin Abdulaziz University for Health Sciences</institution>
+<city>Jeddah</city>
+<country country="SA">Saudi Arabia</country>
+</aff>
+      <aff id="emmm202012619-aff-0011">
+<label><sup>11</sup></label>
+<named-content content-type="organisation-division">Section&#xA0;of Molecular Medicine</named-content>
+<institution>King Abdulaziz Medical City&#x2010;WR</institution>
+<institution>King Saud bin Abdulaziz University for Health Sciences</institution>
+<city>Jeddah</city>
+<country country="SA">Saudi Arabia</country>
+</aff>
+      <aff id="emmm202012619-aff-0012">
+<label><sup>12</sup></label>
+<named-content content-type="organisation-division">Department of Medical Imaging</named-content>
+<institution>King Saud bin Abdulaziz University for Health Sciences</institution>
+<institution>King Abdulaziz Medical City&#x2010;WR</institution>
+<institution>National Guard Health Affairs</institution>
+<city>Jeddah</city>
+<country country="SA">Saudi Arabia</country>
+</aff>
+      <aff id="emmm202012619-aff-0013">
+<label><sup>13</sup></label>
+<named-content content-type="organisation-division">Child Neurology</named-content>
+<institution>Fondazione IRCCS Istituto Neurologico Carlo Besta</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff>
+      <aff id="emmm202012619-aff-0014">
+<label><sup>14</sup></label>
+<institution>German Center for Cardiovascular Research (DZHK)</institution>
+<institution>Partner site RheinMain</institution>
+<city>Frankfurt</city>
+<country country="DE">Germany</country>
+</aff>
+      <aff id="emmm202012619-aff-0015">
+<label><sup>15</sup></label>
+<named-content content-type="organisation-division">Department of Pathophysiology and Transplantation</named-content>
+<institution>University of Milan</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff>
+      <author-notes>
+        <corresp id="correspondenceTo"><label>*</label>Corresponding author. Tel: +44 0191 208 3685; E&#x2010;mail: <email>robert.taylor@ncl.ac.uk</email></corresp>
+        <fn fn-type="equal" id="emmm202012619-note-1001">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>24</day>
+        <month>9</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <day>06</day>
+        <month>11</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>11</issue>
+      <issue-id pub-id-type="doi">10.1002/emmm.v12.11</issue-id>
+      <elocation-id>e12619</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>4</month>
+          <year>2020</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>14</day>
+          <month>8</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>8</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 EMBO <copyright-statement>-->
+        <copyright-statement content-type="article-copyright">&#xA9; 2020 The Authors. Published under the terms of the CC BY 4.0 license</copyright-statement>
+        <license license-type="creativeCommonsBy">
+          <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:href="file:EMMM-12-e12619.pdf"/>
+      <abstract id="emmm202012619-abs-0001">
+        <title>Abstract</title>
+        <p>Leigh syndrome is a progressive neurodegenerative disorder, most commonly observed in paediatric mitochondrial disease, and is often associated with pathogenic variants in complex I structural subunits or assembly factors resulting in isolated respiratory chain complex I deficiency. Clinical heterogeneity has been reported, but key diagnostic findings are developmental regression, elevated lactate and characteristic neuroimaging abnormalities. Here, we describe three affected children from two unrelated families who presented with Leigh syndrome due to homozygous variants (c.346_*7del and c.173A&gt;T p.His58Leu) in <italic>NDUFC2</italic>, encoding a complex I subunit. Biochemical and functional investigation of subjects&#x2019; fibroblasts confirmed a severe defect in complex I activity, subunit expression and assembly. Lentiviral transduction of subjects&#x2019; fibroblasts with wild&#x2010;type <italic>NDUFC2</italic> cDNA increased complex I assembly supporting the association of the identified <italic>NDUFC2</italic> variants with mitochondrial pathology. Complexome profiling confirmed a loss of NDUFC2 and defective complex I assembly, revealing aberrant assembly intermediates suggestive of stalled biogenesis of the complex I holoenzyme and indicating a crucial role for NDUFC2 in the assembly of the membrane arm of complex I, particularly the ND2 module.</p>
+      </abstract>
+      <abstract abstract-type="graphical" id="emmm202012619-abs-0003">
+        <p>This work describes the first confirmed pathogenic variants in NDUFC2 in a case of mitochondrial disease presenting with symptoms of Leigh syndrome and a severe deficiency in OXPHOS complex I. NDUFC2 was shown to be important for the assembly of the membrane arm of complex I.<boxed-text position="anchor" content-type="graphic" id="emmm202012619-blkfxd-0002" orientation="portrait"><graphic xlink:href="EMMM-12-e12619-g009.jpg" position="anchor" id="nlm-graphic-3" orientation="portrait"/></boxed-text>
+</p>
+      </abstract>
+      <kwd-group kwd-group-type="author-generated">
+        <kwd id="emmm202012619-kwd-0001">complex I</kwd>
+        <kwd id="emmm202012619-kwd-0002">Leigh syndrome</kwd>
+        <kwd id="emmm202012619-kwd-0003">mitochondrial disease</kwd>
+        <kwd id="emmm202012619-kwd-0004">NDUFC2</kwd>
+        <kwd id="emmm202012619-kwd-0005">OXPHOS</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="subject-categories">
+        <title>Subject Categories</title>
+        <kwd>Genetics, Gene Therapy &amp; Genetic Disease</kwd>
+        <kwd/>
+      </kwd-group>
+      <funding-group>
+        <award-group id="funding-0001">
+          <funding-source>Newcastle University | Wellcome Trust Centre for Mitochondrial Research (WCMR)</funding-source>
+          <award-id>203105/Z/16/Z</award-id>
+        </award-group>
+        <award-group id="funding-0002">
+          <funding-source>UKRI | Medical Research Council (MRC)</funding-source>
+        </award-group>
+        <award-group id="funding-0003">
+          <funding-source>Lily Foundation</funding-source>
+        </award-group>
+        <award-group id="funding-0004">
+          <funding-source>NHS Highly Specialised Mitochondrial Service</funding-source>
+        </award-group>
+        <award-group id="funding-0005">
+          <funding-source>
+            <institution-wrap>
+              <institution>Pierfranco and Luisa Mariani Foundation </institution>
+              <institution-id institution-id-type="open-funder-registry">10.13039/501100004229</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group id="funding-0006">
+          <funding-source>Kuwait Civil Services Commission</funding-source>
+        </award-group>
+        <award-group id="funding-0007">
+          <funding-source>National Institute for Health Research (NIHR)</funding-source>
+          <award-id>DF&#x2010;2018&#x2010;11&#x2010;ST2&#x2010;021</award-id>
+        </award-group>
+        <award-group id="funding-0008">
+          <funding-source>Deutsche Forschungsgemeinschaft (DFG)</funding-source>
+          <award-id>SFB 815/Z1</award-id>
+          <award-id>EXC2026</award-id>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="9"/>
+        <table-count count="0"/>
+        <page-count count="14"/>
+        <word-count count="9617"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>source-schema-version-number</meta-name>
+          <meta-value>2.0</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>cover-date</meta-name>
+          <meta-value>06 November 2020</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>details-of-publishers-convertor</meta-name>
+          <meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.3 mode:remove_FC converted:06.11.2020</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <p content-type="self-citation">
+<mixed-citation publication-type="journal" id="emmm202012619-cit-1001">
+<source xml:lang="en">EMBO Mol Med</source> (<year>2020</year>) <volume>12</volume>: <elocation-id>e12619</elocation-id>
+</mixed-citation>
+</p>
+      <fn-group id="emmm202012619-ntgp-0001">
+        <fn id="emmm202012619-note-1002">
+          <p>See also: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15252/emmm.202013187">K Reinson &amp; K &#xD5;unap</ext-link> (November 2020)</p>
+        </fn>
+      </fn-group>
+    </notes>
+  </front>
+  <body id="emmm202012619-body-0001">
+    <boxed-text position="float" content-type="box" id="emmm202012619-blk-0001" orientation="portrait">
+      <caption>
+        <title>The paper explained</title>
+      </caption>
+      <sec id="emmm202012619-sec-0002">
+        <title>Problem</title>
+        <p>Mitochondrial disease is the umbrella term for a group of disorders characterised by mitochondrial dysfunction, predominantly resulting in decreased ATP production by the oxidative phosphorylation (OXPHOS) system. These exhibit huge variability, not only in terms of their clinical manifestations, but also the underlying genetic basis. Mitochondrial disease can be caused by changes within the mitochondrial genome itself (mtDNA) or changes in nuclear genes that encode one of ~&#xA0;1,200 proteins that function in mitochondria. Of these, more than 300 have already been associated with mitochondrial disease and this diversity can make obtaining genetic diagnoses in affected individuals difficult. NDUFC2 is a mitochondrial protein encoded by the nuclear genome and is a subunit of mitochondrial complex I, one of 5 multisubunit complexes that comprise the OXPHOS system. To date, there have not been any previous reports of disease&#x2010;causing <italic>NDUFC2</italic> variants in cases of mitochondrial disease.</p>
+      </sec>
+      <sec id="emmm202012619-sec-0003">
+        <title>Results</title>
+        <p>We used whole exome and whole genome sequencing to identify recessively inherited variants in <italic>NDUFC2</italic> (NM_004549.6; c.346_*7del, p.(His116_Arg119delins21) in one family with two affected siblings and a different recessively inherited variant (c.173A&gt;T, p.(His58Leu)) in an affected individual from an unrelated family. All affected individuals presented with a clinical picture consistent with Leigh Syndrome, a mitochondrial disorder that has many possible genetic causes, including developmental delay, lactic acidosis and characteristic neuroimaging abnormalities. We showed that mitochondrial complex I function was impaired in patient cells and muscle samples and crucially showed an amelioration of this deficiency when introducing a wild&#x2010;type (normal) copy of <italic>NDUFC2</italic> using a lentiviral delivery system. This functional rescue confirms the identified <italic>NDUFC2</italic> gene variants are disease&#x2010;causing. Furthermore, complexome analysis of fibroblast mitochondria showed a loss of fully assembled complex I and an accumulation of specific assembly intermediates in the patients compared to controls, suggesting a key role for NDUFC2 in complex I biogenesis.</p>
+      </sec>
+      <sec id="emmm202012619-sec-0004">
+        <title>Impact</title>
+        <p>Our study documents the first cases of mitochondrial disease caused by variants in the <italic>NDUFC2</italic> gene. Confirmation of these variants as causative enables prenatal testing of a subsequent pregnancies in these families, demonstrating the clinical importance of providing a genetic diagnosis in mitochondrial disease cases; in addition, <italic>NDUFC2</italic> may now be screened as a candidate gene in genetically undiagnosed cases of Leigh syndrome. Our work also provides clearer insight into the function of NDUFC2 through a role in the assembly of the membrane arm of complex I, specifically the ND2 module.</p>
+      </sec>
+    </boxed-text>
+    <sec id="emmm202012619-sec-0005">
+      <title>Introduction</title>
+      <p>Mitochondrial disorders are a group of complex genetic disorders characterised by mitochondrial dysfunction, resulting in clinically heterogeneous presentations mostly affecting tissues with high energy requirements (Gorman <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0017" ref-type="ref">2016</xref>). Mitochondrial proteins are encoded by either the nuclear genome (involving &gt;&#xA0;1,000 genes) or the mitochondrial genome (13 protein&#x2010;coding genes), with pathogenic variants in more than 330 genes having been associated with mitochondrial disorders to date (Thompson <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0041" ref-type="ref">2020</xref>). Due to this genetic heterogeneity, mitochondrial disease can follow any mode of inheritance including maternal, autosomal (dominant or recessive) or X&#x2010;linked inheritance or occur <italic>de novo</italic>. Groups of frequently reported clinical manifestations associated with mitochondrial disease have been classified as syndromes, one of which is Leigh syndrome.</p>
+      <p>Leigh syndrome is the most commonly reported neurodegenerative disorder in paediatric mitochondrial disease (Rahman <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0032" ref-type="ref">2017</xref>). Defects involving more than 90 genes are associated with Leigh syndrome, implicating both the nuclear and mitochondrial genomes (Lake <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0024" ref-type="ref">2019</xref>). Clinical heterogeneity has been reported in Leigh syndrome patients, but key findings include delayed development, loss of acquired milestones, hypotonia, elevated cerebrospinal fluid (CSF) lactate and multisystem involvement. Radiological imaging typically reveals bilateral and symmetrical involvement of the basal ganglia and/or brainstem (Rahman <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0031" ref-type="ref">1996</xref>).</p>
+      <p>More than a third of reported Leigh syndrome cases presented with complex I (NADH:ubiquinone oxidoreductase) deficiency (OMIM: 252010), a common biochemical phenotype in paediatric mitochondrial disease (Lake <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0022" ref-type="ref">2016</xref>, <xref rid="emmm202012619-bib-0023" ref-type="ref">2017</xref>; Rahman <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0032" ref-type="ref">2017</xref>). As the largest of the mitochondrial respiratory chain complexes, complex I comprises 44 different subunits with at least 14 assembly factors required for its biosynthesis (Stroud <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0037" ref-type="ref">2016</xref>; Zhu <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0046" ref-type="ref">2016</xref>; Guerrero&#x2010;Castillo <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0018" ref-type="ref">2017</xref>; Formosa <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0013" ref-type="ref">2020</xref>). Studying the effect of systematically knocking out each accessory complex I subunit has revealed defective or stalled complex I assembly, establishing the modular nature of complex I assembly (Stroud <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0037" ref-type="ref">2016</xref>). Additionally, complexome profiling of patient cell lines with genetically characterised mitochondrial complex I deficiency has been exploited to better understand the molecular mechanisms underlying assembly and stability <italic>in&#xA0;vivo</italic> (Alston <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0004" ref-type="ref">2016</xref>, <xref rid="emmm202012619-bib-0005" ref-type="ref">2018</xref>, <xref rid="emmm202012619-bib-0006" ref-type="ref">2020</xref>).</p>
+      <p>To date, pathogenic variants in 42 genes encoding either complex I subunits or assembly factors have been associated with isolated complex I deficiency, of which 27 have been identified in Leigh syndrome patients (Rahman <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0032" ref-type="ref">2017</xref>; Rouzier <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0034" ref-type="ref">2019</xref>; Alston <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0006" ref-type="ref">2020</xref>; Thompson <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0041" ref-type="ref">2020</xref>). Due to the clinical and genetic heterogeneity within patients presenting with Leigh syndrome&#x2014;and indeed mitochondrial disorders as a whole&#x2014;genetic diagnoses are often difficult to achieve. Next&#x2010;generation sequencing, in the form of unbiased whole exome/genome sequencing (WES/WGS), and also targeted gene panels have been fruitful in improving the diagnostic rate in mitochondrial disorders and led to the discovery of novel candidate genes underlying mitochondrial disease (Legati <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0025" ref-type="ref">2016</xref>; Abicht <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0001" ref-type="ref">2018</xref>; Theunissen <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0040" ref-type="ref">2018</xref>). The application of WES to cohorts of mitochondrial disease patients has reported causative genetic variants in approximately 60% of cases (Taylor <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0039" ref-type="ref">2014</xref>; Wortmann <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0045" ref-type="ref">2015</xref>; Pronicka <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0030" ref-type="ref">2016</xref>).</p>
+      <p>This report highlights the clinical findings of three paediatric subjects from two unrelated consanguineous families who presented with Leigh syndrome due to rare, homozygous variants in <italic>NDUFC2</italic>, which encodes a structural complex I subunit. Our study demonstrates the importance of data sharing&#xA0;in rare diseases and the biochemical and molecular experimental validation of novel variants identified by next&#x2010;generation sequencing; at present, the study of human patient cell lines is fundamental for validating pathogenicity but, in addition, can be extremely useful for improving our understanding of mitochondrial biology, such as complex I assembly pathways.</p>
+    </sec>
+    <sec id="emmm202012619-sec-0006">
+      <title>Results</title>
+      <sec id="emmm202012619-sec-0007">
+        <title>Case reports</title>
+        <p>Subject 1, a female infant, is the second child born to healthy consanguineous first cousin Saudi parents (Family 1; Fig&#xA0;<xref rid="emmm202012619-fig-0001" ref-type="fig">1</xref>A). She was born by normal vaginal delivery at 37&#x2010;week gestation (birthweight 2.0&#xA0;kg, 2<sup>nd</sup>&#x2013;9<sup>th</sup> centile) with no antenatal issues. Developmental delay was noted at 2&#xA0;years when she was unable to walk. At 6&#xA0;years, her height and weight remained below the 5<sup>th</sup> centile and clinical examination revealed facial dysmorphic features, spasticity and brisk deep tendon reflexes. She was unable to stand without support and unable to speak. A hearing assessment was unremarkable, but an ophthalmological examination revealed bilateral optic disc pallor. She did not develop seizures and had no cardiac, renal or hepatic abnormalities. Serum lactate ranged from 3.6 to 7.6&#xA0;mmol/l (normal range 0.7&#x2013;2.2&#xA0;mmol/l), whilst ammonia, blood glucose and thyroid function were unremarkable. Plasma amino acid analysis detected elevated alanine (724&#xA0;&#x3BC;mol/l, normal range 143&#x2013;439&#xA0;&#x3BC;mol/l) and elevated proline (366&#xA0;&#x3BC;mol/l, normal range 52&#x2013;298&#xA0;&#x3BC;mol/l). Urine organic acid analysis showed increased fumaric acid excretion (151&#xA0;mM/M creatinine, normal range &lt;&#xA0;20&#xA0;mM/M). Leucocyte enzyme assay for arylsulfatase A, arylsulfatase B and galactocerebrosidase was unremarkable, as was abdominal ultrasound and array comparative genomic hybridisation (aCGH) testing. Brain MRI at 21&#xA0;months showed bilateral areas of abnormal high signal intensity at the corticospinal tract level of the corona radiata with loss of white matter volume at these areas. This was associated with irregularity in the outline of the lateral ventricles suggestive of periventricular leukomalacia. Bilateral symmetrical abnormal high T2 signals of the medial aspect of the thalami, substantia nigra and posterior tract of the medulla oblongata were also identified (Fig&#xA0;<xref rid="emmm202012619-fig-0001ev" ref-type="fig">EV1</xref>A and B).</p>
+        <fig fig-type="Figure" xml:lang="en" id="emmm202012619-fig-0001" orientation="portrait" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <title>Genetic analyses of subjects with homozygous <italic>NDUFC2</italic> variants from two unrelated families</title>
+            <p>
+<list list-type="simple" id="emmm202012619-list-0003"><list-item><label>A</label><p>
+Family pedigrees of Subjects 1, 2 and 3 show segregation of identified homozygous <italic>NDUFC2</italic> variants within each family.</p></list-item><list-item><label>B</label><p>
+Sequencing chromatograms depicting the identified 22 nucleotide deletion (c.346_*7del) identified in Subject 1 (S1), the heterozygous state of the deletion in the father and the wild&#x2010;type <italic>NDUFC2</italic> sequence in control DNA.</p></list-item><list-item><label>C</label><p>
+Sequencing chromatograms depicting the identified missense variant (c.173A&gt;T; p.(His58Leu)) in Subject 3 (S3) and the wild&#x2010;type <italic>NDUFC2</italic> sequence in control DNA.</p></list-item><list-item><label>D</label><p>
+Clustal Omega sequence alignment shows evolutionary conservation of the p.His58 residue (highlighted) along with its neighbouring residues (human NDUFC2: NP_004540.1).</p></list-item></list>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-5" xlink:href="EMMM-12-e12619-g002"/>
+        </fig>
+        <fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="emmm202012619-fig-0001ev" orientation="portrait" position="float">
+          <label>Figure EV1</label>
+          <caption>
+            <title>Neuroimaging of Subjects 1, 2 and 3 reveals signal abnormalities suggestive of mitochondrial disease involvement</title>
+            <p>
+<list list-type="simple" id="emmm202012619-list-0008"><list-item><label>A</label><p>
+Axial T2&#x2010;weighted imaging of Subject 1 at 21&#xA0;months showed bilateral hyperintense signals in the pons (arrows).</p></list-item><list-item><label>B</label><p>
+Coronal T2&#x2010;weighted imaging of Subject 1 at 21&#xA0;months showed bilateral hyperintense signals in the thalami and substantia nigra (arrows).</p></list-item><list-item><label>C</label><p>
+Axial T2&#x2010;weighted imaging of Subject 2 at 10&#xA0;days of age showed bilateral hyperintense signals in the basal ganglia (arrows).</p></list-item><list-item><label>D</label><p>
+Sagittal T2 imaging of Subject 2 at 10&#xA0;days of age showed Dandy&#x2010;Walker malformation and thinning of the corpus callosum (arrows).</p></list-item><list-item><label>E, F</label><p>
+Axial and coronal (respectively) T2&#x2010;weighted imaging of Subject 3 at 5&#xA0;months of age showed bilateral hyperintense signals in the thalami (arrows).</p></list-item></list>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-7" xlink:href="EMMM-12-e12619-g003"/>
+        </fig>
+        <p>Subject 2, was the younger brother of Subject 1; foetal echocardiogram showed mild cardiomegaly, dilated superior vena cava and a small ventricular septal defect (VSD). Antenatal ultrasound showed dilated cisterna magna and ventriculomegaly. He was born by normal vaginal delivery at 36&#x2010;week gestation (birthweight 2.020&#xA0;kg, 2<sup>nd</sup> centile). Postnatal echocardiography revealed a perimembranous VSD with left pulmonary artery stenosis. Following birth, he was noted to have persistently elevated serum lactate (4.0&#x2013;10.0&#xA0;mmol/l; normal range 0.7&#x2013;2.2&#xA0;mmol/l). He exhibited global developmental delay and poor growth with his weight and length remaining below the 3<sup>rd</sup> centile. Brain MRI at the age of 10&#xA0;days demonstrated bilateral abnormal high T2 signal intensity of the frontal periventricular area within the regions of caudothalamic grooves and associated irregularity of the outline of the lateral ventricles. Also noted were the foci of abnormal T2 signal in the lentiform nuclei with paucity of periventricular white matter and oedema. The MRI also revealed a Dandy&#x2013;Walker malformation with partial agenesis of the corpus callosum (Fig&#xA0;<xref rid="emmm202012619-fig-0001ev" ref-type="fig">EV1</xref>C and D). At 5&#xA0;months of age, there was a rapid increase in head size. Brain CT scan detected acute hydrocephalus with significant dilatation of the third and lateral ventricles. He underwent urgent ventriculoperitoneal shunt insertion. At the age of 19&#xA0;months, he developed a severe respiratory infection requiring paediatric intensive care unit support and lactate levels were elevated in excess of 20.0&#xA0;mmol/l (normal range 0.7&#x2013;2.2&#xA0;mmol/l). With this intercurrent illness, he developed seizures, regressed and lost all of his previously acquired developmental skills. Recurrent chest infections and pulmonary aspirations suggested an unsafe swallow, and he was placed on nasogastric tube feeding. His clinical course was dominated by progressive spasticity, muscle atrophy, development of a left hydronephrosis and a persistent lactic acidosis. Serum ammonia, creatine kinase, liver function, thyroid function, plasma amino acids, urinary organic acids and newborn screening results were all unremarkable. He passed away at the age of 3&#xA0;years as a consequence of pneumonia with associated severe metabolic acidosis.</p>
+        <p>Subject 3, a male infant, was the third child from healthy consanguineous (first cousin) parents of Moroccan origin with an unremarkable family history (Family 2; Fig&#xA0;<xref rid="emmm202012619-fig-0001" ref-type="fig">1</xref>A). He was born at term after an uneventful pregnancy. Vomiting, failure to thrive, psychomotor delay and poor eye contact were reported from the first months of life. Clinical evaluation performed at 5&#xA0;months showed impaired growth (weight and length &lt;&#xA0;3<sup>rd</sup> centile), microcephaly (&lt;&#xA0;3<sup>rd</sup> centile), poor eye contact, non&#x2010;paralytic strabismus, truncal hypotonia with limb hypertonia, paucity of spontaneous movements and lack of postural control. Brain MRI revealed bilateral abnormal high T2 signal intensity within the thalami (Fig&#xA0;<xref rid="emmm202012619-fig-0001ev" ref-type="fig">EV1</xref>E and F), the basal ganglia and brainstem, though spinal cord MRI was normal. Electroencephalogram (EEG) and peripheral nerve conduction studies were unremarkable, but brainstem auditory and visual evoked potentials showed severe central conduction abnormalities. Epilepsy was reported however, when under anaesthesia to perform MRI, he developed intermittent clonic seizures of both upper limbs which were successfully treated with midazolam. Routine blood investigations including plasma amino acid levels were reported normal, but serum lactate and pyruvate levels were elevated (3.2&#xA0;mmol/l, normal range 0.8&#x2013;2.1&#xA0;mmol/l and 194&#xA0;&#x3BC;mol/l, normal range 55&#x2013;145&#xA0;&#x3BC;mol/l, respectively). Following severe respiratory deterioration, the subject died at 8&#xA0;months of age.</p>
+      </sec>
+      <sec id="emmm202012619-sec-0008">
+        <title>Molecular genetic investigations</title>
+        <p>Initial investigations in Subject 1 focused on commercially available WES, which prioritised known disease genes in the analysis; no candidate variants were identified. Subsequent unbiased WGS identified a homozygous 22&#x2010;nucleotide deletion within the last exon of the <italic>NDUFC2</italic> gene (NM_004549.6). This c.346_*7del <italic>NDUFC2</italic> variant (ClinVar: SCV001162791) is predicted to cause a p.(His116_Arg119delins21) stop&#x2010;loss variant in the NDUFC2 protein (GenBank: NM_004549.6; OMIM: 603845). Segregation analysis using Sanger sequencing found both parents and a healthy brother were heterozygous for the c.346_*7del variant; DNA was not available from Subject 2 (affected sibling) to confirm his genotype (Fig&#xA0;<xref rid="emmm202012619-fig-0001" ref-type="fig">1</xref>A and B). The identified c.346_*7del variant is absent in variant databases, and no healthy controls were homozygous for any loss&#x2010;of&#x2010;function <italic>NDUFC2</italic> variants within the gnomAD database (Lek <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0026" ref-type="ref">2016</xref>).</p>
+        <p>Identification of an isolated complex I defect in Subject 3&#x2032;s muscle biopsy prompted genetic studies which identified a homozygous c.173A&gt;T, p.(His58Leu) <italic>NDUFC2</italic> variant (ClinVar: SCV001162790) affecting a highly conserved histidine residue (Fig&#xA0;<xref rid="emmm202012619-fig-0001" ref-type="fig">1</xref>C and D). Three healthy controls were heterozygous for a rare variant affecting the same residue (c.172C&gt;T, p.(His58Tyr)) in gnomAD (MAF&#xA0;=&#xA0;1.21&#xA0;&#xD7;&#xA0;10<sup>&#x2212;5</sup>). Numerous <italic>in silico</italic> prediction tools support the pathogenicity of the p.His58Leu residue change [PolyPhen2: 1.000 (probably damaging); SIFT: 0.000 (deleterious); PROVEAN: &#x2212;6.733 (deleterious); raw CADD: 3.99; scaled CADD: 27.9] (Ng &amp; Henikoff, <xref rid="emmm202012619-bib-0028" ref-type="ref">2001</xref>; Kumar <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0021" ref-type="ref">2009</xref>; Adzhubei <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0002" ref-type="ref">2010</xref>; Choi <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0009" ref-type="ref">2012</xref>; Choi &amp; Chan, <xref rid="emmm202012619-bib-0010" ref-type="ref">2015</xref>; Rentzsch <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0033" ref-type="ref">2018</xref>). Carrier testing by Sanger sequencing confirmed that both parents were heterozygous for the c.173A&gt;T variant; the healthy siblings of Subject 3 were not tested (Fig&#xA0;<xref rid="emmm202012619-fig-0001" ref-type="fig">1</xref>A). These two unrelated families were linked with the aid of GeneMatcher (Sobreira <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0036" ref-type="ref">2015</xref>).</p>
+        <p>Quantitative real&#x2010;time PCR (qRT&#x2013;PCR) analysis of fibroblast&#x2010;derived mRNA transcript levels demonstrated decreased expression of <italic>NDUFC2</italic> mRNA in Subject 1 fibroblasts (43% of controls), whilst mRNA levels in Subject 3 fibroblasts were comparable to controls (Fig&#xA0;<xref rid="emmm202012619-fig-0002" ref-type="fig">2</xref>A). Similar investigation of Subject 2 was not possible due to the unavailability of samples; therefore, all further biochemical and functional molecular investigations were performed on samples from Subjects 1 and 3 only.</p>
+        <fig fig-type="Figure" xml:lang="en" id="emmm202012619-fig-0002" orientation="portrait" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <title>Biochemical studies and expression of mRNA transcript level in subject fibroblasts</title>
+            <p>
+<list list-type="simple" id="emmm202012619-list-0004"><list-item><label>A</label><p>
+<italic>NDUFC2</italic> mRNA transcript levels in fibroblast cell lines of controls (white), Subject 1 (grey) and Subject 3 (black). Quantification of <italic>NDUFC2</italic> mRNA transcript levels (normalised to <italic>ACTB</italic>) showed diminished transcript levels in Subject 1, whilst transcript levels were unaffected in Subject 3. Bars correspond to standard deviations of two independent experiments, performed in duplicate and analysed by Student's <italic>t</italic>&#x2010;test; *<italic>P</italic>&#xA0;&lt;&#xA0;0.05.</p></list-item><list-item><label>B</label><p>
+Assessment of respiratory chain enzyme activities normalised to citrate synthase (CS), in fibroblast cell lines from controls (white), Subject 1 (grey) and Subject 3 (black). Mean residual enzyme activities of control fibroblasts (<italic>n&#xA0;</italic>=<italic>&#xA0;</italic>8) are set at 100%, and error bars represent 1 standard deviation of control activities. Asterisks (*) denote enzyme activity below control range.</p></list-item><list-item><label>C</label><p>
+Assessment of respiratory chain enzyme activities normalised to citrate synthase (CS), in skeletal muscle from controls (white) and Subject 3 (black). Mean residual enzyme activities of control skeletal muscle (<italic>n</italic>&#xA0;&gt;&#xA0;100 samples) are set at 100%, and bars are 1 standard deviation of control activities. Asterisks (*) denote enzyme activity below control range.</p></list-item><list-item><label>D</label><p>
+Respiration of Subject 3 and Subject 1 derived fibroblasts (black and grey, respectively) compared to control fibroblasts (white) using high&#x2010;resolution respirometry. ROX&#x2010;corrected analysis of basal respiration, oligomycin&#x2010;inhibited LEAK respiration and maximum uncoupled respiration (ETS). Both subject fibroblasts exhibited a severe mitochondrial respiration defect as measured by oxygen consumption. Data are mean&#xA0;&#xB1;&#xA0;SD from at least 3 experiments and analysed by Student's <italic>t</italic>&#x2010;test. **<italic>P</italic>&#xA0;&lt;&#xA0;0.01, ***<italic>P</italic>&#xA0;&lt;&#xA0;0.001.</p></list-item></list>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-9" xlink:href="EMMM-12-e12619-g004"/>
+        </fig>
+      </sec>
+      <sec id="emmm202012619-sec-0009">
+        <title>Subject fibroblasts and skeletal muscle display isolated complex I deficiency</title>
+        <p>Assessment of mitochondrial respiratory chain enzyme activities revealed a severe and isolated complex I deficiency in the fibroblasts from Subject 1 (16% residual activity compared to controls) (Fig&#xA0;<xref rid="emmm202012619-fig-0002" ref-type="fig">2</xref>B) and in the fibroblasts (Fig&#xA0;<xref rid="emmm202012619-fig-0002" ref-type="fig">2</xref>B) and muscle (Fig&#xA0;<xref rid="emmm202012619-fig-0002" ref-type="fig">2</xref>C) from Subject 3 (19 and 48% residual activities compared to controls, respectively). High&#x2010;resolution respirometry revealed both subjects&#x2019; cell lines exhibited severely decreased rates of oxygen consumption (Fig&#xA0;<xref rid="emmm202012619-fig-0002" ref-type="fig">2</xref>D).</p>
+      </sec>
+      <sec id="emmm202012619-sec-0010">
+        <title>Subject fibroblasts demonstrate decreased complex I protein levels and complex I assembly</title>
+        <p>Steady&#x2010;state protein levels of complex I subunits were assessed by SDS&#x2013;polyacrylamide gel electrophoresis (SDS&#x2013;PAGE) of subject and control fibroblast cell lysates. Immunoblot analysis using antibodies against various structural subunits of complex I revealed an overall reduction in the steady&#x2010;state levels of complex I subunits in both subjects compared to controls (Fig&#xA0;<xref rid="emmm202012619-fig-0003" ref-type="fig">3</xref>A). Assessing the assembly of respiratory chain complexes using blue native polyacrylamide gel electrophoresis (BN&#x2010;PAGE) of n&#x2010;dodecyl&#x2010;&#x3B2;&#x2010;D&#x2010;maltoside (DDM)&#x2010;solubilised mitochondrial preparations from fibroblasts demonstrated undetectable levels of fully assembled complex I in Subject 1 and greatly decreased assembled complex I in Subject 3 compared to controls; all other OXPHOS complexes were unaffected (Fig&#xA0;<xref rid="emmm202012619-fig-0003" ref-type="fig">3</xref>B). BN&#x2010;PAGE analysis of digitonin&#x2010;solubilised fibroblast mitochondrial preparations demonstrated a dramatic deficiency of complex I&#x2010;containing supercomplexes (Fig&#xA0;<xref rid="emmm202012619-fig-0002ev" ref-type="fig">EV2</xref>).</p>
+        <fig fig-type="Figure" xml:lang="en" id="emmm202012619-fig-0003" orientation="portrait" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <title>Functional investigation of subject fibroblasts and lentiviral&#x2010; transduced subject fibroblasts</title>
+            <p>
+<list list-type="simple" id="emmm202012619-list-0005"><list-item><label>A</label><p>
+Western blot analysis of various structural subunits of complex I in fibroblasts from Subjects 1 and 3 (S1 and S3, respectively) with three age&#x2010;matched controls (C1, C2 and C3).</p></list-item><list-item><label>B</label><p>
+BN&#x2010;PAGE analysis of OXPHOS complex assembly in enriched mitochondria from subject and control fibroblasts solubilised using DDM. Immunoblotting was performed using antibodies to structural subunits from each OXPHOS complex [CI (NDUFB8), CII (SDHA), CIII (UQCRC2), CIV (MT&#x2010;CO1) and CV (ATP5A)].</p></list-item><list-item><label>C</label><p>
+Western blot analysis of whole cell lysates from controls (C1 and C2) and subject cell lines (S1 and S3) that were either untransduced (&#x2212;) or transduced with the lentiviral vector (pLVX) containing wild&#x2010;type <italic>NDUFC2</italic> (+). Transduced cell lines were either uninduced or induced with 100 or 200&#xA0;ng/ml doxycycline (for 48 and 96&#xA0;h, respectively) where indicated.</p></list-item><list-item><label>D</label><p>
+BN&#x2010;PAGE analysis of OXPHOS complex assembly in enriched mitochondria isolated from controls (C1 and C2) and subject cell lines that were either untransduced (&#x2212;) or transduced with the lentiviral vector (pLVX) containing wild&#x2010;type <italic>NDUFC2</italic> (+). Transduced cell lines were either uninduced or induced with 200&#xA0;ng/ml doxycycline for 72&#xA0;h.</p></list-item></list>
+</p>
+            <p>
+<named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-11" xlink:href="EMMM-12-e12619-g006"/>
+        </fig>
+        <fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="emmm202012619-fig-0002ev" orientation="portrait" position="float">
+          <label>Figure EV2</label>
+          <caption>
+            <title>
+<italic><styled-content style="fixed-case" toggle="no">NDUFC</styled-content>2</italic> variants cause a severe reduction of complex I&#x2010;containing supercomplexes</title>
+            <p>Coomassie stain (left panel) and an in&#x2010;gel complex I assay (right panel) in BN&#x2010;PAGE showed a reduction of complex I&#x2010;containing supercomplexes in subject mitochondria. Analysis of complex assembly and stability detected a drastic deficiency of complex I&#x2010;containing supercomplexes.</p>
+            <p>S<sub>1</sub>, supercomplex containing complex I, dimer of complex III and 1 copy of complex IV; V, ATP synthase; I&#x2010;III&#x2010;IV, complexes I&#x2010;III&#x2010;IV. BHM, bovine heart mitochondria solubilised with digitonin as native mass ladder.</p>
+          </caption>
+          <graphic id="nlm-graphic-13" xlink:href="EMMM-12-e12619-g005"/>
+        </fig>
+      </sec>
+      <sec id="emmm202012619-sec-0011">
+        <title>Expression of wild&#x2010;type <italic>NDUFC2</italic> in patient cell lines using inducible lentiviral transduction ameliorates the complex I assembly defect</title>
+        <p>Fibroblast cell lines from both Subjects 1 and 3 were transduced with wild&#x2010;type <italic>NDUFC2</italic> using a doxycycline&#x2010;inducible lentiviral vector to determine whether re&#x2010;expression of <italic>NDUFC2</italic> in the subjects&#x2019; cells could rescue the phenotype, thus providing further support of variant pathogenicity. Doxycycline induction increased both NDUFC2 levels (and those of complex I subunits NDUFB8, NDUFA9 and NDUFV1) in transduced subject cell lines, compared to the respective uninduced cells and the corresponding untransduced subject cell lines (Fig&#xA0;<xref rid="emmm202012619-fig-0003" ref-type="fig">3</xref>C). In both cases, although the induction of wild&#x2010;type NDUFC2 protein resulted in an increase of other complex I subunits, it did not restore levels to those observed in controls.</p>
+        <p>Further assessment of complex I assembly in the wild&#x2010;type <italic>NDUFC2</italic> transduced subject fibroblasts showed an increase in complex I assembly with doxycycline induction compared to the respective uninduced cell lines and the respective untransduced subject cell lines (Fig&#xA0;<xref rid="emmm202012619-fig-0003" ref-type="fig">3</xref>D). The increase in assembled complex I reflected the SDS&#x2013;PAGE findings, where the increase in fully assembled complex I following doxycycline induction was more prominent in the transduced cell line of Subject 3 compared to Subject 1, but the complex I levels in neither cell line reached that of control fibroblasts.</p>
+      </sec>
+      <sec id="emmm202012619-sec-0012">
+        <title>Complexome profiling confirms stalling in the biogenesis of the complex I holoenzyme</title>
+        <p>To gain more insight into the role of NDUFC2 in complex I assembly and stability, we performed complexome profiling using fibroblasts from Subject 1 and Subject 3 and an age&#x2010;matched control cell line as previously described (Heide <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0019" ref-type="ref">2012</xref>; Fuhrmann <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0015" ref-type="ref">2018</xref>). In accordance with our previous findings, complex I&#x2010;containing supercomplexes (S) were diminished (Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>A&#x2013;D). Furthermore, there was no detectable NDUFC2 protein in Subject 1, whilst a scant amount was detectable in Subject 3 (Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>A, grey horizontal row); this correlated with the degree of complex I intermediates and supercomplexes detectable in each subject complexome. Abundance of other OXPHOS complexes (complexes III and IV) appeared unaffected compared to control although they remain as individual complexes and smaller supercomplexes lacking complex I (Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>C and D, black arrows) rather than forming higher molecular weight supercomplexes (Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>A&#x2013;D). Closer scrutiny of the complex I assembly intermediates in Subject 3 (Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>E and F) shows that the NDUFC2 subunit plays an important role in complex I biosynthesis. Assembly of the Q module seems unaffected by the identified variants in both subjects, as Q module subunits (NDUFA5, NDUFS2, NDUFS3, NDUFS7 and NDUFS8) were detected bound to its assembly factors NDUFAF3 and NDUFAF4. In contrast to control, an accumulation of an assembly intermediate comprising the Q module along with the&#xA0;assembly factor TIMMDC1 and the NDUFA13 subunit (Q*~&#xA0;300&#xA0;kDa, Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>A, orange dashed boxes; Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>E) was identified in Subjects 1 and 3, indicating that this intermediate associates with the membrane. The Q&#x2010;intermediate with NDUFA13 and TIMMDC1 forms another larger intermediate at 715&#x2013;800&#xA0;kDa together with ACAD9, ECSIT, NDUFAF1 and the membrane spanning TMEM126B, all known components of the mitochondrial complex I assembly complex (MCIA). In addition, a preassembled ND4 module together with assembly factors TMEM70 and FOXRED1 was found to accumulate in the subjects&#x2019; mitochondrial membranes (Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>F). Intermediates of the N, ND2 and ND5 module were not detected in fibroblasts from Subjects 1 and 3 (Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>A). These findings suggest the stalling of complex I assembly at the Q module formation stage in the absence of the NDUFC2 subunit.</p>
+        <fig fig-type="Figure" xml:lang="en" id="emmm202012619-fig-0004" orientation="portrait" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <title>Complexome Profiling of Fibroblasts from Subjects 1 and 3 confirm complex I deficiency</title>
+            <p>
+<list list-type="simple" id="emmm202012619-list-0006"><list-item><label>A</label><p>
+Complexome profiling identified assembly intermediates in subject cells with <italic>NDUFC2</italic> variants. Complexes from mitochondrial membranes of control, Subject 1 and Subject 3 fibroblasts were separated by BN&#x2010;PAGE (Fig&#xA0;<xref rid="emmm202012619-fig-0002ev" ref-type="fig">EV2</xref>) and analysed by complexome profiling. Sample preparation, mass spectrometry, data processing and raw data have been deposited to the ProteomeXchange Consortium via the PRIDE partner repository (Vizca&#xED;no <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0042" ref-type="ref">2013</xref>) with the dataset identifier &lt;PXD014936&gt;. Assignment of complexes: III, complex III; IV, complex IV; III/IV, supercomplex containing dimer of complex III and 1&#x2013;2 copies of complex IV; S, supercomplex containing complex I, dimer of complex III and 1&#x2013;4 copies of complex IV. Assembly intermediates are highlighted in dashed boxes indicating stalled complex I assembly. In subject complexomes, various stalled complex I intermediates are assembled: ND4 module (blue dashed box); Q&#x2010;TIMMDC1&#x2010;NDUFA13 complex I intermediate (orange dashed box); and Q&#x2010;TIMMDC1&#x2010;NDUFA13&#x2010;MCIA (green dashed box). In control complexome, the Q module (orange dashed box) is assembled without TIMMDC1 or NDUFA13. Complex I modules are denoted according to Stroud <italic>et&#xA0;al</italic> (<xref rid="emmm202012619-bib-0037" ref-type="ref">2016</xref>).</p></list-item><list-item><label>B</label><p>
+Abundance data for all the subunits of complex I were averaged to plot an abundance profile of complex I. Heatmap (upper panel) and profile plot (lower panel) compare complex I between control (black), Subject 1 (red) and Subject 3 (blue).</p></list-item><list-item><label>C</label><p>
+Profile plot of complex III (average of all subunits). Black arrows indicate shifted complex III to the position of the individual complex and small supercomplex (III/IV) in Subjects 1 and 3.</p></list-item><list-item><label>D</label><p>
+Profile plot of complex IV (average of all subunits) indicate less complex IV at the position of the supercomplexes for Subject 1 and Subject 3, but higher amounts of individual complex IV and small supercomplex (III/IV, black arrow).</p></list-item><list-item><label>E</label><p>
+Details of Q module&#x2010;containing assembly intermediates of Subject 3. Intensity&#x2010;based absolute quantification (iBAQ) values of assembly factors, single subunit and averaged Q module subunits were plotted to show abundance profiles. The cartoon (lower panel) indicates assembled intermediate complexes relative to the plot.</p></list-item><list-item><label>F</label><p>
+Details about ND4 module assembly intermediate of Subject 3. Abundance profile of averaged iBAQ values of ND4 subunits and assembly factors show accumulation of a complex containing the ND4 module, FOXRED1 and TMEM70.</p></list-item></list>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-15" xlink:href="EMMM-12-e12619-g007"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="emmm202012619-sec-0013">
+      <title>Discussion</title>
+      <p>Biochemical investigations into the functional consequences of the identified <italic>NDUFC2</italic> variants showed similar findings for both Subjects 1 and 3, despite one individual harbouring a homozygous missense variant involving a highly conserved residue and the other harbouring a homozygous loss&#x2010;of&#x2010;function variant. Similar investigations for Subject 2 were not possible due to a lack of available samples for analysis, but the shared clinical features and <italic>NDUFC2</italic> genotype with Subject 1 (his elder sister) suggest similar biochemical results would have been expected. Review of the gnomAD variant database revealed no homozygous loss&#x2010;of&#x2010;function variants within <italic>NDUFC2</italic> and only two homozygous protein&#x2010;coding variants in healthy controls: p.Leu46Val (<italic>n</italic>&#xA0;=&#xA0;4,270 homozygotes; MAF&#xA0;=&#xA0;0.197) and p.Arg119His (<italic>n</italic>&#xA0;=&#xA0;1 homozygote; MAF&#xA0;=&#xA0;2.77&#xA0;&#xD7;&#xA0;10<sup>&#x2212;4</sup>); neither substitution was predicted to change the affected residues&#x2019; biochemical properties by <italic>in silico</italic> prediction tools (Lek <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0026" ref-type="ref">2016</xref>). Recent work using <italic>NDUFC2</italic>&#x2010;knockout HEK293T cells showed normal expression of the ND4 module subunits, but showed a defect in the subunits of the ND2, ND5 and N modules (Stroud <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0037" ref-type="ref">2016</xref>). Although previous work using <italic>NDUFC2</italic>&#x2010;knockout HEK293T cells found no effect on the ND1 module subunit levels, our subjects both have defective ND1 module assembly (or stability), with only NDUFA13 detectable. The loss of the NDUFC2&#x2010;containing ND2 module in Subject 3 asserts that the conserved His58 residue plays an important role in its assembly or stability.</p>
+      <p>The induction of wild&#x2010;type NDUFC2 in Subject 1 fibroblasts resulted in increased protein levels, although not as high as the endogenous NDUFC2 level observed in controls. This partial rescue is echoed across the steady&#x2010;state levels of other complex I subunits and the level of fully assembled complex I. In Subject 3 fibroblasts, NDUFC2 levels following induction of wild&#x2010;type NDUFC2 appeared similar to endogenous NDUFC2 levels in control fibroblasts, although levels of fully assembled complex I and steady&#x2010;state levels other complex I subunits still did not reach control levels. It has been suggested that complex I requires just 24&#xA0;h to fully assemble (Guerrero&#x2010;Castillo <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0018" ref-type="ref">2017</xref>) meaning the 72&#xA0;h of doxycycline induction should provide sufficient time for holoenzyme assembly and incorporation of the induced wild&#x2010;type NDUFC2 although the presence of mutant NDUFC2 or aberrant subassembly species may affect this process. Despite the levels of protein in the rescued cells failing to meet endogenous levels in controls, our results clearly demonstrate that lentiviral expression of wild&#x2010;type <italic>NDUFC2</italic> ameliorates the phenotype, leading not only to increased steady&#x2010;state levels of complex I subunits, but of their incorporation into the holoenzyme, as demonstrated by increased levels of fully assembled complex I. These results strongly support the pathogenicity of both subjects&#x2019; <italic>NDUFC2</italic> variants.</p>
+      <p>According to current knowledge of the assembly sequence of complex I (Guerrero&#x2010;Castillo <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0018" ref-type="ref">2017</xref>; Formosa <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0012" ref-type="ref">2018</xref>; Signes &amp; Fernandez&#x2010;Vizarra, <xref rid="emmm202012619-bib-0035" ref-type="ref">2018</xref>), the Q&#x2010;intermediate docks to the ND1 module together with the membrane spanning assembly factor TIMMDC1 to form an intermediate containing the Q module and the ND1 module subunits (Fig&#xA0;<xref rid="emmm202012619-fig-0005" ref-type="fig">5</xref>A). We identified an assembly intermediate in our subjects consisting of the stable Q module in complex with the assembly factors TMEM126B, ACAD9, NDUFAF1 and ECSIT, comprising the mitochondrial complex I intermediate assembly complex (MCIA), TIMMDC1 and (at least) NDUFA13 (Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>A, Subject 1 and Subject 3, green dashed boxes, Fig&#xA0;<xref rid="emmm202012619-fig-0005" ref-type="fig">5</xref>C). ND1 and NDUFA8, both previously associated with this stage of assembly, were not detected, but this may reflect the sensitivity of the assay. The presence of the Q module in complex with assembly factors demonstrates that these are indeed assembly intermediates rather than degradation products caused by destabilisation of complex I <italic>in&#xA0;situ</italic> during electrophoresis, given any degradation products would not be found associated with complex I assembly factors. NDUFA13 is the sole subunit of ND1 module that is detectable in complex with the Q module within the complexomes of Subjects 1 and 3 (~&#xA0;300&#xA0;kDa, Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>A (orange dashed boxes), Figs&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>E and <xref rid="emmm202012619-fig-0005" ref-type="fig">5</xref>C). A similar assembly intermediate lacking the MCIA factors was previously observed in cases harbouring pathogenic variants in the MCIA factor TMEM126B where control complexome data also showed a Q module intermediate lacking TIMMDC1, similar to the present control complexome (Alston <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0004" ref-type="ref">2016</xref>). No other subunit of the ND1 module, nor its neighbouring ND2 module (ND2m), was detected in subject assembly intermediates. The predicted model of complex I assembly implicates the MCIA complex in the assembly and incorporation of the ND2 module (Guerrero&#x2010;Castillo <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0018" ref-type="ref">2017</xref>). In the absence of NDUFC2, no ND2 module was detected and an alternative complex I assembly intermediate formed in subject complexomes (~&#xA0;715&#x2013;800&#xA0;kDa) (Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>A, e.g. Subject 1 and Subject 3, green dashed boxes; Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>D).</p>
+      <fig fig-type="Figure" xml:lang="en" id="emmm202012619-fig-0005" orientation="portrait" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <title>Molecular consequences of defects in NDUFC2 on complex I assembly</title>
+          <p>
+<list list-type="simple" id="emmm202012619-list-0007"><list-item><label>A</label><p>
+Assembly sequence of complex I modules according to current state of knowledge in human cells (Guerrero&#x2010;Castillo <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0018" ref-type="ref">2017</xref>; Signes &amp; Fernandez&#x2010;Vizarra, <xref rid="emmm202012619-bib-0035" ref-type="ref">2018</xref>). The ND1 module (ND1&#xA0;m), ND2 module (ND2m), ND4 module (ND4m) and ND5 module (ND5m) are identified by these abbreviations.</p></list-item><list-item><label>B</label><p>
+Left, structural modules of complex I highlighted in colours based on mouse cryo&#x2010;EM structure (PDB: 6g2j) (Agip <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0003" ref-type="ref">2018</xref>). NDUFC2 is shown in black. Right, surface view indicates subunits interacting in a neighbourhood of less than 10&#xA0;&#xC5; to NDUFC2. All other subunits not interacting on any part of the protein are in transparent cartoon view.</p></list-item><list-item><label>C</label><p>
+Assembly intermediates/dead end assembly products in mitochondria from Subject 3 according to data from complexome profiling. Assembled subunits are highlighted in surface view within cryo&#x2010;EM structure (PDB: 6g2j) (Agip <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0003" ref-type="ref">2018</xref>).</p></list-item></list>
+</p>
+        </caption>
+        <graphic id="nlm-graphic-17" xlink:href="EMMM-12-e12619-g008"/>
+      </fig>
+      <p>Our molecular data indicate an essential role of NDUFC2 in the assembly of the membrane arm of complex I. NDUFC2 is a membrane protein assigned to the ND2 module within the proton pumping modules (Fig&#xA0;<xref rid="emmm202012619-fig-0005" ref-type="fig">5</xref>B). The protein locates to the intermembrane space and has contact with 12 other subunits (Fig&#xA0;<xref rid="emmm202012619-fig-0005" ref-type="fig">5</xref>B, right panel) including NDUFA8 within the ND1 module, ND2 module subunits (NDUFA10, NDUFA11, NDUFS5, NDUFC1 and ND2) and ND4 module constituents (NDUFB1, NDUFB5, NDUFB10, NDUFB11 and ND4) (Zhu <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0046" ref-type="ref">2016</xref>; Agip <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0003" ref-type="ref">2018</xref>). All these contacts may be important for complex I assembly and stability. Complexome profiling of both subjects is consistent with this model, where loss of NDUFC2 causes concurrent loss of its associating subunits&#x2014;those of the ND1 and ND2 modules. Our data support successful formation of the Q module with subsequent assembly stalling due to failed incorporation of the ND1 subunit into the inner mitochondrial membrane. It is possible that NDUFC2 may represent a scaffold for ND1 module formation; the absence of stable ND1 and ND2 modules indicates that these proximal P&#x2010;modules do not preassemble independently.</p>
+      <p>By contrast, the ND4 module, which is comprised of ND4, NDUFB1, NDUFB5, NDUFB10 and NDUFB11 and the assembly factors TMEM70 and FOXRED1, was detected in Subject 3 and to a lesser extent in Subject 1 (~&#xA0;260&#xA0;kDa, Fig&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>A, Subject 1 and Subject 3, blue dashed boxes; Figs&#xA0;<xref rid="emmm202012619-fig-0004" ref-type="fig">4</xref>F and <xref rid="emmm202012619-fig-0005" ref-type="fig">5</xref>C). This is consistent with previous assembly models and human complexome data that support independent assembly of the membrane&#x2010;bound distal P&#x2010;modules (Alston <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0004" ref-type="ref">2016</xref>, <xref rid="emmm202012619-bib-0006" ref-type="ref">2020</xref>; Stroud <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0037" ref-type="ref">2016</xref>; Guerrero&#x2010;Castillo <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0018" ref-type="ref">2017</xref>). Neither the ND5 module nor the N module intermediates were identified in the complexome data from the <italic>NDUFC2</italic> subjects. These intermediates are either unstable, turned over by mitochondrial proteases (Szczepanowska <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0038" ref-type="ref">2020</xref>) or their assembly is sufficiently under the control of middle stage assembly.</p>
+      <p>Previous reports of gene defects involving the subunits of the ND2 module describe pathogenic variants in <italic>NDUFA1</italic>, <italic>NDUFA10</italic> and <italic>NDUFA11</italic>. Although these all affect the same module, the clinical presentation associated with the different gene defects is highly variable, a common observation in mitochondrial genetic disease. Reported patients harbouring pathogenic variants in <italic>NDUFA1</italic> or <italic>NDUFA10</italic> presented predominantly with Leigh syndrome or with Leigh&#x2010;like symptoms, whilst the single case of early&#x2010;onset <italic>NDUFA11</italic>&#x2010;related mitochondrial disease presented as fatal encephalocardiomyopathy (Fernandez&#x2010;Moreira <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0011" ref-type="ref">2007</xref>; Berger <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0007" ref-type="ref">2008</xref>; Hoefs <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0020" ref-type="ref">2010</xref>; Minoia <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0027" ref-type="ref">2017</xref>). A range of molecular, biochemical and functional investigations was performed in these cases, revealing complex I assembly defects (NDUFA1 and NDUFA10) and decreased complex I enzyme activities (NDUFA1, NDUFA10 and NDUFA11). Together, these reports reinforce the importance of ND2 module subunits and the impact of their dysfunction in cases of paediatric mitochondrial disease. Recently, an increasing volume of complexome profiling data has been acquired using cell lines from subjects with genetically confirmed mitochondrial complex I deficiency; some of whom presented with Leigh syndrome (Alston <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0004" ref-type="ref">2016</xref>, <xref rid="emmm202012619-bib-0005" ref-type="ref">2018</xref>, <xref rid="emmm202012619-bib-0006" ref-type="ref">2020</xref>). This has paved the way to assess and confirm previously deduced steps of complex I assembly. Investigating how pathogenic variants within structural subunits and assembly factors affects complex I assembly revealed novel assembly intermediates that suggest stalling of the assembly process. To date, patient&#x2010;derived functional investigations have provided data supporting the independent assembly of modules, such as the Q module and ND4 module, and have shed light on the important roles of novel assembly factors including TMEM126B and NDUFAF8. Additionally, they have characterised the functional consequence of pathogenic variants within structural complex I subunits (e.g. NDUFA6) and their effect on the stepwise assembly of the holoenzyme.</p>
+      <p>In summary, we describe three subjects from independent consanguineous families whose clinical presentations were consistent with a diagnosis of Leigh syndrome and who exhibited radiological lesions of the basal ganglia, thalami and substantia nigra. Genetic analysis identified novel homozygous <italic>NDUFC2</italic> variants in both families, with subsequent biochemical and functional analysis of samples from one affected member of each family demonstrating these variants lead to an isolated complex I enzyme deficiency and a confirmed defect in the assembly of the complex I holoenzyme. Bi&#x2010;allelic <italic>NDUFC2</italic> variants have not previously been reported in cases of mitochondrial disease; however, defects involving other ND2 module subunits have been associated with complex I deficiency (Fernandez&#x2010;Moreira <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0011" ref-type="ref">2007</xref>; Berger <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0007" ref-type="ref">2008</xref>; Hoefs <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0020" ref-type="ref">2010</xref>; Minoia <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0027" ref-type="ref">2017</xref>). Complexome profiling not only confirmed a defect in complex I assembly but also revealed complex I assembly intermediates, providing <italic>in&#xA0;vivo</italic> support of previous findings from <italic>NDUFC2</italic> KO HEK293T cell studies (Stroud <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0037" ref-type="ref">2016</xref>). Moreover, it indicates an important role for NDUFC2 in the assembly of the membrane arm of complex I, particularly involving the ND2 module and, possibly, the ND1 module. Complexome profiling of complex I&#x2010;deficient subject cell lines continues to be a useful tool in elucidating the molecular mechanisms underlying complex I assembly and stability (Szczepanowska <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0038" ref-type="ref">2020</xref>).</p>
+    </sec>
+    <sec id="emmm202012619-sec-0014">
+      <title>Materials and Methods</title>
+      <p>All experiments conformed to the principles set out in the Department of Health and Human Services Belmont Report.</p>
+      <sec id="emmm202012619-sec-0015">
+        <title>Genetic analysis</title>
+        <p>Commercial NGS services provided by CentoGene (Germany) were used to perform WES analysis on DNA from Subject 1.</p>
+        <p>Genetic studies were performed on Subject 3 using a custom 300 gene targeted gene panel of nuclear genes previously associated with mitochondrial disease, candidate genes that take part in the same molecular pathway, and included all genes encoding complex I subunits. Library capture and enrichment were performed using a custom panel (SureSelectXT Custom library, Agilent, US), and sequencing was performed on an Illumina MiSeq platform according to the manufacturer's protocol. Bioinformatic analysis was performed as previously described (Legati <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0025" ref-type="ref">2016</xref>).</p>
+        <p>Informed consent for diagnostic and research studies was obtained for all subjects in accordance with the Declaration of Helsinki protocols and approved by local institutional review boards.</p>
+        <p>RNA purification and cDNA retrotranscription were performed using RNeasy mini kit (QIAGEN) and GoTaq 2&#x2010;Step RT&#x2010;qPCR System (Promega), respectively, according to the manufacturers&#x2019; protocols. RNA was extracted from skin fibroblasts, and 1&#xA0;&#x3BC;g was used as template for RT&#x2013;PCR, with the following oligonucleotides sequences: q&#x2010;NDUFC2&#x2010;F 232_251 (CTGCTCCGGCCTGATTGATA) and q&#x2010;NDUFC2&#x2010;R 358_377 (GGTCCCTCACAGCATACAGG) for <italic>NDUFC2</italic> (NM_004549.6); q&#x2010;ACTB&#x2010;F 425_442 (CCAACCGCGAGAAGATGA) and q&#x2010;ACTB&#x2010;R 502_521 (CCAGAGGCGTACAGGGATAG) for <italic>ACTB</italic> (NM_001101.5), used for normalisation.</p>
+      </sec>
+      <sec id="emmm202012619-sec-0016">
+        <title>Cell culture</title>
+        <p>Skin fibroblast was cultured in medium containing DMEM (supplemented with 1&#xA0;mM pyruvate, 4.5&#xA0;g/l glucose) (Thermo Fisher Scientific), 10% foetal calf serum (Thermo Fisher Scientific), 50&#xA0;&#x3BC;g/ml uridine (Sigma), 1&#xD7; non&#x2010;essential amino acids (Thermo Fisher Scientific) and 1% penicillin/streptomycin (Thermo Fisher Scientific) at 37&#xB0;C in 5% CO<sub>2</sub>. During the lentiviral rescue experiment, skin fibroblasts were cultured in the presence of dialysed foetal calf serum (Thermo Fisher Scientific).</p>
+      </sec>
+      <sec id="emmm202012619-sec-0017">
+        <title>Oxygen consumption</title>
+        <p>Mitochondrial respiration of intact cells was measured using high&#x2010;resolution respirometry (Oxygraph&#x2010;2k, Oroboros Instruments, Innsbruck, Austria) with DatLab software 7.1.0.21 (Oroboros Instruments, Innsbruck, Austria) (Pesta &amp; Gnaiger, <xref rid="emmm202012619-bib-0101" ref-type="ref">2012</xref>). Measurements were performed at 37&#xB0;C in full growth medium (DMEM, 10% foetal calf serum, 1&#xA0;mM pyruvate, 4.5&#xA0;g/l glucose, 50&#xA0;&#x3BC;g/ml uridine, 1&#xD7; non&#x2010;essential amino acids, 1% penicillin/streptomycin). Basal respiration was measured for 20&#xA0;min followed by titration of oligomycin (2.5&#xA0;&#x3BC;M final concentration; f.c.) to measure oligomycin&#x2010;inhibited LEAK respiration. Subsequently, the respiratory uncoupler FCCP (Sigma&#x2010;Aldrich, Munich, Germany) was titrated stepwise until maximal uncoupled respiration (ETS) was reached. Residual oxygen consumption (ROX) was determined after sequential inhibition of complex I with rotenone and complex III with antimycin A. Absolute respiration rates were corrected for ROX and normalised for cell number.</p>
+      </sec>
+      <sec id="emmm202012619-sec-0018">
+        <title>Respiratory chain enzyme activities</title>
+        <p>Mitochondrial respiratory chain enzyme activities were assayed spectrophotometrically as previously described in subject fibroblasts (Frazier <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0014" ref-type="ref">2020</xref>) and in muscle samples (Bugiani <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0008" ref-type="ref">2004</xref>).</p>
+      </sec>
+      <sec id="emmm202012619-sec-0019">
+        <title>Blue native electrophoresis and in&#x2010;gel activity stains</title>
+        <p>Sample preparation and BN&#x2010;PAGE of cultured cell pellets were essentially performed as previously described (Wittig <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0043" ref-type="ref">2006</xref>). Equal protein amounts of samples were loaded on top of a 3&#x2013;18% acrylamide gradient gel (dimension 14&#xA0;&#xD7;&#xA0;14&#xA0;cm). After native electrophoresis in a cold chamber, blue native gels were fixed in 50% (<italic>v</italic>/<italic>v</italic>) methanol, 10% (<italic>v</italic>/<italic>v</italic>) acetic acid and 10&#xA0;mM ammonium acetate for 30&#xA0;min and stained with Coomassie (0.025% Serva Blue G, 10% (<italic>v</italic>/<italic>v</italic>) acetic acid). In&#x2010;gel activity stains were performed as described in Wittig <italic>et&#xA0;al</italic> (<xref rid="emmm202012619-bib-0044" ref-type="ref">2007</xref>).</p>
+      </sec>
+      <sec id="emmm202012619-sec-0020">
+        <title>Western blotting and Blue Native&#x2010;PAGE</title>
+        <p>Steady&#x2010;state protein levels of complex I subunits were assessed by SDS&#x2013;polyacrylamide gel electrophoresis (SDS&#x2013;PAGE), and OXPHOS complexes were assessed in enriched mitochondrial pellets solubilised with DDM (Sigma&#x2010;Aldrich) by BN&#x2010;PAGE in subject and control fibroblast cells as previously described (Ol&#xE1;hov&#xE1; <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0029" ref-type="ref">2015</xref>).</p>
+        <p>Immunoblotting was carried out using primary antibodies against various OXPHOS subunits all used at a dilution of 1 in 1,000 [NDUFC2 (Abcam ab192265), NDUFB8 (Abcam ab110242), NDUFA9 (Abcam ab14713), NDUFV1 (Proteintech 11238&#x2010;1&#x2010;AP), SDHA (Abcam ab14715), UQCRC2 (Abcam ab14745), MT&#x2010;CO1 (Abcam ab14705) and ATP5A (Abcam ab14748)] followed by species appropriate HRP&#x2010;conjugated secondary antibodies (Dako: anti&#x2010;rabbit (P0399) 1 in 3,000 dilution and anti&#x2010;mouse (P0260) 1 in 2,000 dilution).</p>
+      </sec>
+      <sec id="emmm202012619-sec-0021">
+        <title>Complexome profiling</title>
+        <p>Complexome profiling was performed on fibroblasts from Subject 1 and Subject 3 and an age&#x2010;matched control cell line as previously described (Heide <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0019" ref-type="ref">2012</xref>; Fuhrmann <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0015" ref-type="ref">2018</xref>).</p>
+        <p>Sample preparation, mass spectrometry, data processing and raw data have been deposited to the ProteomeXchange Consortium <ext-link ext-link-type="uri" xlink:href="http://proteomecentral.proteomexchange.org">http://proteomecentral.proteomexchange.org</ext-link>) via the PRIDE partner repository (Vizca&#xED;no <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0042" ref-type="ref">2013</xref>) with the dataset identifier (<ext-link ext-link-type="uri" xlink:href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD014936">http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD014936</ext-link>). Complexome data were further analysed using NOVA (Giese <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0016" ref-type="ref">2015</xref>). Complex I and identified assembly intermediates were visualised using the EM structure of murine complex I (PDB: 6g2j) (Agip <italic>et&#xA0;al</italic>, <xref rid="emmm202012619-bib-0003" ref-type="ref">2018</xref>) and PyMOL (The PyMOL Molecular Graphics System, version 2.3.3. Schr&#xF6;dinger, LLC.).</p>
+      </sec>
+      <sec id="emmm202012619-sec-0022">
+        <title>Lentiviral rescue</title>
+        <p>Wild&#x2010;type <italic>NDUFC2</italic> was expressed in patient fibroblasts using the Lenti&#x2010;X TetOne Inducible Expression System. Wild&#x2010;type <italic>NDUFC2</italic> insert was generated by PCR using cDNA from control fibroblasts and the following primers containing BamHI and EcoRI restriction sites, respectively: Forward: 5&#x2032;&#x2010;GAGGTGGTCTGGATCCTCAACG TATTGGATGGAATTTTTCAAAAATTTCA&#x2010;3&#x2032;; Reverse: 5&#x2032;&#x2010;CCCTCGTAAAGAATTCATGATCGCACGGCGGAACCCA&#x2010;3&#x2032;. The insert was cloned into the linearised pLVX&#x2010;TetOne&#x2010;Puro plasmid vector (Takara Bio/Clontech) using the In&#x2010;Fusion HD Cloning Kit (Takara Bio/Clontech). The <italic>NDUFC2</italic> containing vector was packaged into infectious lentiviral particles using Lenti&#x2010;X Packaging Single Shots (Takara Bio/Clontech) to transfect HEK293T according to manufacturer's guidelines. Media containing infectious lentivirus was harvested after 48&#xA0;h and centrifuged at 500&#xA0;<italic>g</italic> for 10&#xA0;min to remove cellular debris, and the supernatant was retained. This virus containing supernatant was used to transduce Subject fibroblast cell lines at a ratio of 1:2 with fresh media and 4&#xA0;mg/ml polybrene overnight. The media was replaced and puromycin (2&#xA0;&#x3BC;g/ml) added to select for successfully transduced cells. Transduced cells were cultured in puromycin for 7&#xA0;days before being maintained in standard DMEM. Expression of wild&#x2010;type <italic>NDUFC2</italic> was induced by adding doxycycline (Takara Bio/Clontech; 100&#x2013;200&#xA0;&#x3BC;g/ml) to the media and incubating for 48&#x2013;96&#xA0;h.</p>
+      </sec>
+    </sec>
+    <sec id="emmm202012619-sec-0025">
+      <title>Author contributions</title>
+      <p>IW, DG and RWT conceptualized and designed the study. AAla, AN, JH, KT, MO, AL, EL, JM, MS, LH, SA, FH, AAlm, AAr, CLA, RM and IW acquired and analysed the data. AAla, KT, IW and RWT drafted the manuscript. AN, JH, MO, AL, EL, JM, MS, LH, SA, FH, AAlm, AAr, CLA, RM and DG critically revised the manuscript. RM, IW, DG and RWT supervised the study.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="emmm202012619-sec-0026">
+      <title>Conflict of interest</title>
+      <p>The authors declare that they have no conflict of interest.</p>
+    </sec>
+    <sec id="emmm202012619-sec-0027">
+      <title>For more information</title>
+      <p>
+<list list-type="simple" id="emmm202012619-list-0002"><list-item><label>(i)</label><p>
+OMIM NDUFC2 page: <ext-link ext-link-type="uri" xlink:href="https://www.omim.org/entry/603845?search=NDUFC2%26highlight=ndufc2">https://www.omim.org/entry/603845?search=NDUFC2&amp;highlight=ndufc2</ext-link>.</p></list-item><list-item><label>(ii)</label><p>
+Author's website: <ext-link ext-link-type="uri" xlink:href="https://www.newcastle-mitochondria.com">https://www.newcastle-mitochondria.com</ext-link>.</p></list-item></list>
+</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supporting information</title>
+      <supplementary-material content-type="local-data"/>
+      <supplementary-material content-type="local-data" id="emmm202012619-sup-0001">
+        <caption>
+          <p>Expanded View Figures PDF</p>
+        </caption>
+        <media xlink:href="EMMM-12-e12619-s001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="emmm202012619-supp-data-0001">
+        <caption>
+          <p>Source Data for Figure&#xA0;3</p>
+        </caption>
+        <media xlink:href="EMMM-12-e12619-s002.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Review Process File</p>
+        </caption>
+        <media xlink:href="EMMM-12-e12619-s003.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="emmm202012619-sec-0024">
+      <title>Acknowledgements</title>
+      <p>Work in our laboratories is supported by the Wellcome Centre for Mitochondrial Research (203105/Z/16/Z), the Medical Research Council (MRC) International Centre for Genomic Medicine in Neuromuscular Disease, Newcastle University Centre for Ageing and Vitality [supported by the Biotechnology and Biological Sciences Research Council and Medical Research Council (G016354/1)], the UK NIHR Biomedical Research Centre in Age and Age Related Diseases award to the Newcastle upon Tyne Hospitals NHS Foundation, the MRC/ESPRC Newcastle Molecular Pathology Node, the UK National Health Service Highly Specialised Service for Rare Mitochondrial Disorders, the Lily Foundation, the Pierfranco and Luisa Mariani Foundation, the E&#x2010;Rare project GENOMIT and the Italian Ministry of Health (grant GR&#x2010;2016&#x2010;02361241). AA holds a PhD studentship funded by the Kuwait Civil Services Commission. CLA is supported by the National Institute for Health Research (NIHR Post&#x2010;Doctoral Fellowship, PDF&#x2010;2018&#x2010;11&#x2010;ST2&#x2010;021). IW is supported by the Deutsche Forschungsgemeinschaft: (SFB 815/Z1 and EXC2026: Cardio Pulmonary Institute (CPI)) and by the BMBF mitoNET&#x2014;German Network for Mitochondrial Disorders 01GM1906D. We thank the &#x201C;Cell line and DNA Bank of Genetic Movement Disorders and Mitochondrial Diseases&#x201D; of the Telethon Network of Genetic Biobanks (grant GTB12001J) and Eurobiobank Network which supplied biological specimens. The authors would like to thank both families who participated in this study. The views expressed in this publication are those of the author(s) and not necessarily those of the NHS, the National Institute for Health Research or the Department of Health and Social Care.</p>
+    </ack>
+    <sec sec-type="data-availability" id="emmm202012619-sec-0023">
+      <title>Data availability</title>
+      <p>The datasets produced in this study are available in the following database: Complexome profiling data: ProteomeXchange consortium via the PRIDE repository, dataset identifier PXD014936 (<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/pride/archive/projects/PXD014936">http://www.ebi.ac.uk/pride/archive/projects/PXD014936</ext-link>).</p>
+    </sec>
+    <ref-list content-type="cited-references" id="emmm202012619-bibl-0001">
+      <title>References</title>
+      <ref id="emmm202012619-bib-0001">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0001">
+<string-name>
+<surname>Abicht</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Scharf</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Kleinle</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Sch&#xF6;n</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Holinski&#x2010;Feder</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Horvath</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Benet&#x2010;Pag&#xE8;s</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Diebold</surname>
+<given-names>I</given-names>
+</string-name> (<year>2018</year>) <article-title>Mitochondrial and nuclear disease panel (Mito&#x2010;aND&#x2010;Panel): combined sequencing of mitochondrial and nuclear DNA by a cost&#x2010;effective and sensitive NGS&#x2010;based method</article-title>. <source xml:lang="en">Mol Genet Genom Med</source>
+<volume>6</volume>: <fpage>1188</fpage>&#x2013;<lpage>1198</lpage>
+</mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0002">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0002">
+<string-name>
+<surname>Adzhubei</surname>
+<given-names>IA</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Peshkin</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Ramensky</surname>
+<given-names>VE</given-names>
+</string-name>, <string-name>
+<surname>Gerasimova</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Bork</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Kondrashov</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name>
+<surname>Sunyaev</surname>
+<given-names>SR</given-names>
+</string-name> (<year>2010</year>) <article-title>A method and server for predicting damaging missense mutations</article-title>. <source xml:lang="en">Nat Methods</source>
+<volume>7</volume>: <fpage>248</fpage>&#x2013;<lpage>249</lpage>
+<pub-id pub-id-type="pmid">20354512</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0003">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0003">
+<string-name>
+<surname>Agip</surname>
+<given-names>A&#x2010;NA</given-names>
+</string-name>, <string-name>
+<surname>Blaza</surname>
+<given-names>JN</given-names>
+</string-name>, <string-name>
+<surname>Bridges</surname>
+<given-names>HR</given-names>
+</string-name>, <string-name>
+<surname>Viscomi</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Rawson</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Muench</surname>
+<given-names>SP</given-names>
+</string-name>, <string-name>
+<surname>Hirst</surname>
+<given-names>J</given-names>
+</string-name> (<year>2018</year>) <article-title>Cryo&#x2010;EM structures of complex I from mouse heart mitochondria in two biochemically defined states</article-title>. <source xml:lang="en">Nat Struct Mol Biol</source>
+<volume>25</volume>: <fpage>548</fpage>&#x2013;<lpage>556</lpage>
+<pub-id pub-id-type="pmid">29915388</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0004">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0004">
+<string-name>
+<surname>Alston</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Compton</surname>
+<given-names>AG</given-names>
+</string-name>, <string-name>
+<surname>Formosa</surname>
+<given-names>LE</given-names>
+</string-name>, <string-name>
+<surname>Strecker</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Ol&#xE1;hov&#xE1;</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Haack</surname>
+<given-names>TB</given-names>
+</string-name>, <string-name>
+<surname>Smet</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Stouffs</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Diakumis</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Ciara</surname>
+<given-names>E</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2016</year>) <article-title>Biallelic mutations in <italic>TMEM126B</italic> cause severe complex I deficiency with a variable clinical phenotype</article-title>. <source xml:lang="en">Am J Hum Genet</source>
+<volume>99</volume>: <fpage>217</fpage>&#x2013;<lpage>227</lpage>
+<pub-id pub-id-type="pmid">27374774</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0005">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0005">
+<string-name>
+<surname>Alston</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Heidler</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Dibley</surname>
+<given-names>MG</given-names>
+</string-name>, <string-name>
+<surname>Kremer</surname>
+<given-names>LS</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>
+<given-names>LS</given-names>
+</string-name>, <string-name>
+<surname>Fratter</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>French</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name>
+<surname>Glasgow</surname>
+<given-names>RIC</given-names>
+</string-name>, <string-name>
+<surname>Feichtinger</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name>
+<surname>Delon</surname>
+<given-names>I</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2018</year>) <article-title>Bi&#x2010;allelic mutations in NDUFA6 establish its role in early&#x2010;onset isolated mitochondrial complex I deficiency</article-title>. <source xml:lang="en">Am J Hum Genet</source>
+<volume>103</volume>: <fpage>592</fpage>&#x2013;<lpage>601</lpage>
+<pub-id pub-id-type="pmid">30245030</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0006">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0006">
+<string-name>
+<surname>Alston</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Veling</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name>
+<surname>Heidler</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>
+<given-names>LS</given-names>
+</string-name>, <string-name>
+<surname>Alaimo</surname>
+<given-names>JT</given-names>
+</string-name>, <string-name>
+<surname>Sung</surname>
+<given-names>AY</given-names>
+</string-name>, <string-name>
+<surname>He</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Hopton</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Broomfield</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Pavaine</surname>
+<given-names>J</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2020</year>) <article-title>Pathogenic biallelic mutations in <italic>NDUFAF8</italic> cause Leigh syndrome with an isolated complex I deficiency</article-title>. <source xml:lang="en">Am J Hum Genet</source>
+<volume>106</volume>: <fpage>92</fpage>&#x2013;<lpage>101</lpage>
+<pub-id pub-id-type="pmid">31866046</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0007">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0007">
+<string-name>
+<surname>Berger</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Hershkovitz</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Shaag</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Edvardson</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Saada</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Elpeleg</surname>
+<given-names>O</given-names>
+</string-name> (<year>2008</year>) <article-title>Mitochondrial complex I deficiency caused by a deleterious NDUFA11 mutation</article-title>. <source xml:lang="en">Ann Neurol</source>
+<volume>63</volume>: <fpage>405</fpage>&#x2013;<lpage>408</lpage>
+<pub-id pub-id-type="pmid">18306244</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0008">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0008">
+<string-name>
+<surname>Bugiani</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Invernizzi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Alberio</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Briem</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Lamantea</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Carrara</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Moroni</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Farina</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Spada</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Donati</surname>
+<given-names>MA</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2004</year>) <article-title>Clinical and molecular findings in children with complex I deficiency</article-title>. <source xml:lang="en">Biochim Biophys Acta</source>
+<volume>1659</volume>: <fpage>136</fpage>&#x2013;<lpage>147</lpage>
+<pub-id pub-id-type="pmid">15576045</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0009">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0009">
+<string-name>
+<surname>Choi</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Sims</surname>
+<given-names>GE</given-names>
+</string-name>, <string-name>
+<surname>Murphy</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Chan</surname>
+<given-names>AP</given-names>
+</string-name> (<year>2012</year>) <article-title>Predicting the functional effect of amino acid substitutions and indels</article-title>. <source xml:lang="en">PLoS ONE</source>
+<volume>7</volume>: <fpage>e46688</fpage>
+<pub-id pub-id-type="pmid">23056405</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0010">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0010">
+<string-name>
+<surname>Choi</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Chan</surname>
+<given-names>AP</given-names>
+</string-name> (<year>2015</year>) <article-title>PROVEAN web server: a tool to predict the functional effect of amino acid substitutions and indels</article-title>. <source xml:lang="en">Bioinformatics (Oxford, England)</source>
+<volume>31</volume>: <fpage>2745</fpage>&#x2013;<lpage>2747</lpage>
+</mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0011">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0011">
+<string-name>
+<surname>Fernandez&#x2010;Moreira</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Ugalde</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Smeets</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Rodenburg</surname>
+<given-names>RJT</given-names>
+</string-name>, <string-name>
+<surname>Lopez&#x2010;Laso</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Ruiz&#x2010;Falco</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Briones</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Martin</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Smeitink</surname>
+<given-names>JAM</given-names>
+</string-name>, <string-name>
+<surname>Arenas</surname>
+<given-names>J</given-names>
+</string-name> (<year>2007</year>) <article-title>X&#x2010;linked NDUFA1 gene mutations associated with mitochondrial encephalomyopathy</article-title>. <source xml:lang="en">Ann Neurol</source>
+<volume>61</volume>: <fpage>73</fpage>&#x2013;<lpage>83</lpage>
+<pub-id pub-id-type="pmid">17262856</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0012">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0012">
+<string-name>
+<surname>Formosa</surname>
+<given-names>LE</given-names>
+</string-name>, <string-name>
+<surname>Dibley</surname>
+<given-names>MG</given-names>
+</string-name>, <string-name>
+<surname>Stroud</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Ryan</surname>
+<given-names>MT</given-names>
+</string-name> (<year>2018</year>) <article-title>Building a complex complex: assembly of mitochondrial respiratory chain complex I</article-title>. <source xml:lang="en">Semin Cell Dev Biol</source>
+<volume>76</volume>: <fpage>154</fpage>&#x2013;<lpage>162</lpage>
+<pub-id pub-id-type="pmid">28797839</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0013">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0013">
+<string-name>
+<surname>Formosa</surname>
+<given-names>LE</given-names>
+</string-name>, <string-name>
+<surname>Muellner&#x2010;Wong</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Reljic</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Sharpe</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Jackson</surname>
+<given-names>TD</given-names>
+</string-name>, <string-name>
+<surname>Beilharz</surname>
+<given-names>TH</given-names>
+</string-name>, <string-name>
+<surname>Stojanovski</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Lazarou</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Stroud</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Ryan</surname>
+<given-names>MT</given-names>
+</string-name> (<year>2020</year>) <article-title>Dissecting the roles of mitochondrial complex I intermediate assembly complex factors in the biogenesis of complex I</article-title>. <source xml:lang="en">Cell Rep</source>
+<volume>31</volume>: <fpage>107541</fpage>
+<pub-id pub-id-type="pmid">32320651</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0014">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0014">
+<string-name>
+<surname>Frazier</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name>
+<surname>Vincent</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name>
+<surname>Turnbull</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Thorburn</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>
+<given-names>RW</given-names>
+</string-name> (<year>2020</year>) <article-title>Assessment of mitochondrial respiratory chain enzymes in cells and tissues</article-title>. <source xml:lang="en">Methods Cell Biol</source>
+<volume>155</volume>: <fpage>121</fpage>&#x2013;<lpage>156</lpage>
+<pub-id pub-id-type="pmid">32183956</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0015">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0015">
+<string-name>
+<surname>Fuhrmann</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name>
+<surname>Wittig</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Dr&#xF6;se</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Schmid</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Dehne</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Br&#xFC;ne</surname>
+<given-names>B</given-names>
+</string-name> (<year>2018</year>) <article-title>Degradation of the mitochondrial complex I assembly factor TMEM126B under chronic hypoxia</article-title>. <source xml:lang="en">Cell Mol Life Sci</source>
+<volume>75</volume>: <fpage>3051</fpage>&#x2013;<lpage>3067</lpage>
+<pub-id pub-id-type="pmid">29464284</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0016">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0016">
+<string-name>
+<surname>Giese</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Ackermann</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Heide</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Bleier</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Dr&#xF6;se</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Wittig</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Brandt</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Koch</surname>
+<given-names>I</given-names>
+</string-name> (<year>2015</year>) <article-title>NOVA: a software to analyze complexome profiling data</article-title>. <source xml:lang="en">Bioinformatics</source>
+<volume>31</volume>: <fpage>440</fpage>&#x2013;<lpage>441</lpage>
+<pub-id pub-id-type="pmid">25301849</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0017">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0017">
+<string-name>
+<surname>Gorman</surname>
+<given-names>GSS</given-names>
+</string-name>, <string-name>
+<surname>Chinnery</surname>
+<given-names>PF</given-names>
+</string-name>, <string-name>
+<surname>DiMauro</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hirano</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Koga</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>McFarland</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Suomalainen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Thorburn</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name>
+<surname>Zeviani</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Turnbull</surname>
+<given-names>DM</given-names>
+</string-name> (<year>2016</year>) <article-title>Mitochondrial diseases</article-title>. <source xml:lang="en">Nat Rev Dis Primers</source>
+<volume>2</volume>: <fpage>16080</fpage>
+<pub-id pub-id-type="pmid">27775730</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0018">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0018">
+<string-name>
+<surname>Guerrero&#x2010;Castillo</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Baertling</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Kownatzki</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Wessels</surname>
+<given-names>HJ</given-names>
+</string-name>, <string-name>
+<surname>Arnold</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Brandt</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Nijtmans</surname>
+<given-names>L</given-names>
+</string-name> (<year>2017</year>) <article-title>The assembly pathway of mitochondrial respiratory chain complex I</article-title>. <source xml:lang="en">Cell Metab</source>
+<volume>25</volume>: <fpage>128</fpage>&#x2013;<lpage>139</lpage>
+<pub-id pub-id-type="pmid">27720676</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0019">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0019">
+<string-name>
+<surname>Heide</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Bleier</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Steger</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ackermann</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Dr&#xF6;se</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Schwamb</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Z&#xF6;rnig</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Reichert</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name>
+<surname>Koch</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Wittig</surname>
+<given-names>I</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2012</year>) <article-title>Complexome profiling identifies TMEM126B as a component of the mitochondrial complex I assembly complex</article-title>. <source xml:lang="en">Cell Metab</source>
+<volume>16</volume>: <fpage>538</fpage>&#x2013;<lpage>549</lpage>
+<pub-id pub-id-type="pmid">22982022</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0020">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0020">
+<string-name>
+<surname>Hoefs</surname>
+<given-names>SJG</given-names>
+</string-name>, <string-name>
+<surname>van Spronsen</surname>
+<given-names>FJ</given-names>
+</string-name>, <string-name>
+<surname>Lenssen</surname>
+<given-names>EWH</given-names>
+</string-name>, <string-name>
+<surname>Nijtmans</surname>
+<given-names>LG</given-names>
+</string-name>, <string-name>
+<surname>Rodenburg</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Smeitink</surname>
+<given-names>JAM</given-names>
+</string-name>, <string-name>
+<surname>van den Heuvel</surname>
+<given-names>LP</given-names>
+</string-name> (<year>2010</year>) <article-title>
+<italic>NDUFA10</italic> mutations cause complex I deficiency in a patient with Leigh disease</article-title>. <source xml:lang="en">Eur J Hum Genet</source>
+<volume>19</volume>: <fpage>270</fpage>
+<pub-id pub-id-type="pmid">21150889</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0021">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0021">
+<string-name>
+<surname>Kumar</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Henikoff</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ng</surname>
+<given-names>PC</given-names>
+</string-name> (<year>2009</year>) <article-title>Predicting the effects of coding non&#x2010;synonymous variants on protein function using the SIFT algorithm</article-title>. <source xml:lang="en">Nat Protoc</source>
+<volume>4</volume>: <fpage>1073</fpage>&#x2013;<lpage>1081</lpage>
+<pub-id pub-id-type="pmid">19561590</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0022">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0022">
+<string-name>
+<surname>Lake</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name>
+<surname>Compton</surname>
+<given-names>AG</given-names>
+</string-name>, <string-name>
+<surname>Rahman</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Thorburn</surname>
+<given-names>DR</given-names>
+</string-name> (<year>2016</year>) <article-title>Leigh syndrome: one disorder, more than 75 monogenic causes</article-title>. <source xml:lang="en">Ann Neurol</source>
+<volume>79</volume>: <fpage>190</fpage>&#x2013;<lpage>203</lpage>
+<pub-id pub-id-type="pmid">26506407</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0023">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0023">
+<string-name>
+<surname>Lake</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name>
+<surname>Webb</surname>
+<given-names>BD</given-names>
+</string-name>, <string-name>
+<surname>Stroud</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Richman</surname>
+<given-names>TR</given-names>
+</string-name>, <string-name>
+<surname>Ruzzenente</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Compton</surname>
+<given-names>AG</given-names>
+</string-name>, <string-name>
+<surname>Mountford</surname>
+<given-names>HS</given-names>
+</string-name>, <string-name>
+<surname>Pulman</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Zangarelli</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Rio</surname>
+<given-names>M</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2017</year>) <article-title>Biallelic mutations in MRPS34 lead to instability of the small mitoribosomal subunit and Leigh syndrome</article-title>. <source xml:lang="en">Am J Hum Genet</source>
+<volume>101</volume>: <fpage>239</fpage>&#x2013;<lpage>254</lpage>
+<pub-id pub-id-type="pmid">28777931</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0024">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0024">
+<string-name>
+<surname>Lake</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name>
+<surname>Formosa</surname>
+<given-names>LE</given-names>
+</string-name>, <string-name>
+<surname>Stroud</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Ryan</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name>
+<surname>Calvo</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name>
+<surname>Mootha</surname>
+<given-names>VK</given-names>
+</string-name>, <string-name>
+<surname>Morar</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Procopis</surname>
+<given-names>PG</given-names>
+</string-name>, <string-name>
+<surname>Christodoulou</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Compton</surname>
+<given-names>AG</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2019</year>) <article-title>A patient with homozygous nonsense variants in two Leigh syndrome disease genes: distinguishing a dual diagnosis from a hypomorphic protein&#x2010;truncating variant</article-title>. <source xml:lang="en">Hum Mutat</source>
+<volume>40</volume>: <fpage>893</fpage>&#x2013;<lpage>898</lpage>
+<pub-id pub-id-type="pmid">30981218</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0025">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0025">
+<string-name>
+<surname>Legati</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Reyes</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Nasca</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Invernizzi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Lamantea</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Tiranti</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Garavaglia</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Lamperti</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Ardissone</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Moroni</surname>
+<given-names>I</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2016</year>) <article-title>New genes and pathomechanisms in mitochondrial disorders unraveled by NGS technologies</article-title>. <source xml:lang="en">Biochem Biophys Acta</source>
+<volume>1857</volume>: <fpage>1326</fpage>&#x2013;<lpage>1335</lpage>
+<pub-id pub-id-type="pmid">26968897</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0026">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0026">
+<string-name>
+<surname>Lek</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Karczewski</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name>
+<surname>Minikel</surname>
+<given-names>EV</given-names>
+</string-name>, <string-name>
+<surname>Samocha</surname>
+<given-names>KE</given-names>
+</string-name>, <string-name>
+<surname>Banks</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Fennell</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>O'Donnell&#x2010;Luria</surname>
+<given-names>AH</given-names>
+</string-name>, <string-name>
+<surname>Ware</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name>
+<surname>Hill</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Cummings</surname>
+<given-names>BB</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2016</year>) <article-title>Analysis of protein&#x2010;coding genetic variation in 60,706 humans</article-title>. <source xml:lang="en">Nature</source>
+<volume>536</volume>: <fpage>285</fpage>&#x2013;<lpage>291</lpage>
+<pub-id pub-id-type="pmid">27535533</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0027">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0027">
+<string-name>
+<surname>Minoia</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Bertamino</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Picco</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Severino</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Rossi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Fiorillo</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Minetti</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Nesti</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Santorelli</surname>
+<given-names>FM</given-names>
+</string-name>, <string-name>
+<surname>Rocco</surname>
+<given-names>M</given-names>
+</string-name> (<year>2017</year>) <article-title>Widening the heterogeneity of&#xA0;Leigh syndrome: clinical, biochemical, and neuroradiologic features&#xA0;in a patient harboring a NDUFA10 mutation</article-title>. <source xml:lang="en">Jimd Reports</source>
+<volume>37</volume>: <fpage>37</fpage>&#x2013;<lpage>43</lpage>
+<pub-id pub-id-type="pmid">28247337</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0028">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0028">
+<string-name>
+<surname>Ng</surname>
+<given-names>PC</given-names>
+</string-name>, <string-name>
+<surname>Henikoff</surname>
+<given-names>S</given-names>
+</string-name> (<year>2001</year>) <article-title>Predicting deleterious amino acid substitutions</article-title>. <source xml:lang="en">Genome Res</source>
+<volume>11</volume>: <fpage>863</fpage>&#x2013;<lpage>874</lpage>
+<pub-id pub-id-type="pmid">11337480</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0029">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0029">
+<string-name>
+<surname>Ol&#xE1;hov&#xE1;</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Hardy</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>Hall</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Yarham</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name>
+<surname>Haack</surname>
+<given-names>TB</given-names>
+</string-name>, <string-name>
+<surname>Wilson</surname>
+<given-names>WC</given-names>
+</string-name>, <string-name>
+<surname>Alston</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>He</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Aznauryan</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>
+<given-names>RM</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2015</year>) <article-title>LRPPRC mutations cause early&#x2010;onset multisystem mitochondrial disease outside of the French&#x2010;Canadian population</article-title>. <source xml:lang="en">Brain</source>
+<volume>138</volume>: <fpage>3503</fpage>&#x2013;<lpage>3519</lpage>
+<pub-id pub-id-type="pmid">26510951</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0101">
+        <mixed-citation publication-type="book" id="emmm202012619-cit-0101">
+<string-name>
+<surname>Pesta</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Gnaiger</surname>
+<given-names>E</given-names>
+</string-name> (<year>2012</year>) <chapter-title>High&#x2010;resolution respirometry: OXPHOS protocols for human cells and permeabilized fibers from small biopsies of human muscle</chapter-title> In <source xml:lang="en">Mitochondrial Bioenergetics: Methods and Protocols</source>, <person-group person-group-type="editor"><name name-style="western"><surname>Palmeira</surname><given-names>CM</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Moreno</surname><given-names>AJ</given-names></name></person-group> (eds), pp <fpage>25</fpage>&#x2010;<lpage>58</lpage>. <publisher-loc>Totowa, NJ</publisher-loc>: <publisher-name>Humana Press</publisher-name>
+</mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0030">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0030">
+<string-name>
+<surname>Pronicka</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Piekutowska&#x2010;Abramczuk</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Ciara</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Trubicka</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Rokicki</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Karkuci&#x144;ska&#x2010;Wi&#x119;ckowska</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Pajdowska</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Jurkiewicz</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Halat</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Kosi&#x144;ska</surname>
+<given-names>J</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2016</year>) <article-title>New perspective in diagnostics of mitochondrial disorders: two years&#x2019; experience with whole&#x2010;exome sequencing at a national paediatric centre</article-title>. <source xml:lang="en">J Transl Med</source>
+<volume>14</volume>: <fpage>174</fpage>
+<pub-id pub-id-type="pmid">27290639</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0031">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0031">
+<string-name>
+<surname>Rahman</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Blok</surname>
+<given-names>RB</given-names>
+</string-name>, <string-name>
+<surname>Dahl</surname>
+<given-names>HHM</given-names>
+</string-name>, <string-name>
+<surname>Danks</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Kirby</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Chow</surname>
+<given-names>CW</given-names>
+</string-name>, <string-name>
+<surname>Christodoulou</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Thorburn</surname>
+<given-names>DR</given-names>
+</string-name> (<year>1996</year>) <article-title>Leigh syndrome: clinical features and biochemical and DNA abnormalities</article-title>. <source xml:lang="en">Ann Neurol</source>
+<volume>39</volume>: <fpage>343</fpage>&#x2013;<lpage>351</lpage>
+<pub-id pub-id-type="pmid">8602753</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0032">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0032">
+<string-name>
+<surname>Rahman</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Noronha</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Thiele</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Rahman</surname>
+<given-names>S</given-names>
+</string-name> (<year>2017</year>) <article-title>Leigh map: a novel computational diagnostic resource for mitochondrial disease</article-title>. <source xml:lang="en">Ann Neurol</source>
+<volume>81</volume>: <fpage>9</fpage>&#x2013;<lpage>16</lpage>
+<pub-id pub-id-type="pmid">27977873</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0033">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0033">
+<string-name>
+<surname>Rentzsch</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Witten</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Cooper</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name>
+<surname>Shendure</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kircher</surname>
+<given-names>M</given-names>
+</string-name> (<year>2018</year>) <article-title>CADD: predicting the deleteriousness of variants throughout the human genome</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>47</volume>: <fpage>D886</fpage>&#x2013;<lpage>D894</lpage>
+</mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0034">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0034">
+<string-name>
+<surname>Rouzier</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Chaussenot</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Fragaki</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Serre</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Ait&#x2010;El&#x2010;Mkadem</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Richelme</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Paquis&#x2010;Flucklinger</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Bannwarth</surname>
+<given-names>S</given-names>
+</string-name> (<year>2019</year>) <article-title>NDUFS6 related Leigh syndrome: a case report and review of the literature</article-title>. <source xml:lang="en">J Hum Genet</source>
+<volume>64</volume>: <fpage>637</fpage>&#x2013;<lpage>645</lpage>
+<pub-id pub-id-type="pmid">30948790</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0035">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0035">
+<string-name>
+<surname>Signes</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Fernandez&#x2010;Vizarra</surname>
+<given-names>E</given-names>
+</string-name> (<year>2018</year>) <article-title>Assembly of mammalian oxidative phosphorylation complexes I&#x2010;V and supercomplexes</article-title>. <source xml:lang="en">Essays Biochem</source>
+<volume>62</volume>: <fpage>255</fpage>&#x2013;<lpage>270</lpage>
+<pub-id pub-id-type="pmid">30030361</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0036">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0036">
+<string-name>
+<surname>Sobreira</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Schiettecatte</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Valle</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Hamosh</surname>
+<given-names>A</given-names>
+</string-name> (<year>2015</year>) <article-title>GeneMatcher: a matching tool for connecting investigators with an interest in the same gene</article-title>. <source xml:lang="en">Hum Mutat</source>
+<volume>36</volume>: <fpage>928</fpage>&#x2013;<lpage>930</lpage>
+<pub-id pub-id-type="pmid">26220891</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0037">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0037">
+<string-name>
+<surname>Stroud</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Surgenor</surname>
+<given-names>EE</given-names>
+</string-name>, <string-name>
+<surname>Formosa</surname>
+<given-names>LE</given-names>
+</string-name>, <string-name>
+<surname>Reljic</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Frazier</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name>
+<surname>Dibley</surname>
+<given-names>MG</given-names>
+</string-name>, <string-name>
+<surname>Osellame</surname>
+<given-names>LD</given-names>
+</string-name>, <string-name>
+<surname>Stait</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Beilharz</surname>
+<given-names>TH</given-names>
+</string-name>, <string-name>
+<surname>Thorburn</surname>
+<given-names>DR</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2016</year>) <article-title>Accessory subunits are integral for assembly and function of human mitochondrial complex I</article-title>. <source xml:lang="en">Nature</source>
+<volume>538</volume>: <fpage>123</fpage>&#x2013;<lpage>126</lpage>
+<pub-id pub-id-type="pmid">27626371</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0038">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0038">
+<string-name>
+<surname>Szczepanowska</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Senft</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Heidler</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Herholz</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kukat</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>H&#xF6;hne</surname>
+<given-names>MN</given-names>
+</string-name>, <string-name>
+<surname>Hofsetz</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Becker</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kaspar</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Giese</surname>
+<given-names>H</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2020</year>) <article-title>A salvage pathway maintains highly functional respiratory complex I</article-title>. <source xml:lang="en">Nat Commun</source>
+<volume>11</volume>: <fpage>1643</fpage>
+<pub-id pub-id-type="pmid">32242014</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0039">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0039">
+<string-name>
+<surname>Taylor</surname>
+<given-names>RW</given-names>
+</string-name>, <string-name>
+<surname>Pyle</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Griffin</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Blakely</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name>
+<surname>Duff</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>He</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Smertenko</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Alston</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Neeve</surname>
+<given-names>VC</given-names>
+</string-name>, <string-name>
+<surname>Best</surname>
+<given-names>A</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2014</year>) <article-title>Use of whole&#x2010;exome sequencing to determine the genetic basis of multiple mitochondrial respiratory chain complex deficiencies</article-title>. <source xml:lang="en">JAMA</source>
+<volume>312</volume>: <fpage>68</fpage>&#x2013;<lpage>77</lpage>
+<pub-id pub-id-type="pmid">25058219</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0040">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0040">
+<string-name>
+<surname>Theunissen</surname>
+<given-names>TEJ</given-names>
+</string-name>, <string-name>
+<surname>Nguyen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kamps</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Hendrickx</surname>
+<given-names>AT</given-names>
+</string-name>, <string-name>
+<surname>Sallevelt</surname>
+<given-names>SCEH</given-names>
+</string-name>, <string-name>
+<surname>Gottschalk</surname>
+<given-names>RWH</given-names>
+</string-name>, <string-name>
+<surname>Calis</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name>
+<surname>Stassen</surname>
+<given-names>APM</given-names>
+</string-name>, <string-name>
+<surname>de Koning</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Hartog</surname>
+<given-names>ENM</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2018</year>) <article-title>Whole exome sequencing is the preferred strategy to identify the genetic defect in patients with a probable or possible mitochondrial cause</article-title>. <source xml:lang="en">Front Genet</source>
+<volume>9</volume>: <fpage>400</fpage>
+<pub-id pub-id-type="pmid">30369941</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0041">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0041">
+<string-name>
+<surname>Thompson</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Collier</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name>
+<surname>Glasgow</surname>
+<given-names>RIC</given-names>
+</string-name>, <string-name>
+<surname>Robertson</surname>
+<given-names>FM</given-names>
+</string-name>, <string-name>
+<surname>Pyle</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Blakely</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name>
+<surname>Alston</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Ol&#xE1;hov&#xE1;</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>McFarland</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>
+<given-names>RW</given-names>
+</string-name> (<year>2020</year>) <article-title>Recent advances in understanding the molecular genetic basis of mitochondrial disease</article-title>. <source xml:lang="en">J Inherit Metab Dis</source>
+<volume>43</volume>: <fpage>36</fpage>&#x2013;<lpage>50</lpage>
+<pub-id pub-id-type="pmid">31021000</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0042">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0042">
+<string-name>
+<surname>Vizca&#xED;no</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>C&#xF4;t&#xE9;</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name>
+<surname>Csordas</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Dianes</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Fabregat</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Foster</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Griss</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Alpi</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Birim</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Contell</surname>
+<given-names>J</given-names>
+</string-name>
+<italic>et&#xA0;al</italic> (<year>2013</year>) <article-title>The Proteomics Identifications (PRIDE) database and associated tools: status in 2013</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>41</volume>: <fpage>D1063</fpage>&#x2013;<lpage>D1069</lpage>
+<pub-id pub-id-type="pmid">23203882</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0043">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0043">
+<string-name>
+<surname>Wittig</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Braun</surname>
+<given-names>H&#x2010;P</given-names>
+</string-name>, <string-name>
+<surname>Sch&#xE4;gger</surname>
+<given-names>H</given-names>
+</string-name> (<year>2006</year>) <article-title>Blue native PAGE</article-title>. <source xml:lang="en">Nat Protoc</source>
+<volume>1</volume>: <fpage>418</fpage>&#x2013;<lpage>428</lpage>
+<pub-id pub-id-type="pmid">17406264</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0044">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0044">
+<string-name>
+<surname>Wittig</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Karas</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Sch&#xE4;gger</surname>
+<given-names>H</given-names>
+</string-name> (<year>2007</year>) <article-title>High resolution clear native electrophoresis for In&#x2010;gel functional assays and fluorescence studies of membrane protein complexes</article-title>. <source xml:lang="en">Mol Cell Proteomics</source>
+<volume>6</volume>: <fpage>1215</fpage>&#x2013;<lpage>1225</lpage>
+<pub-id pub-id-type="pmid">17426019</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0045">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0045">
+<string-name>
+<surname>Wortmann</surname>
+<given-names>SB</given-names>
+</string-name>, <string-name>
+<surname>Koolen</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Smeitink</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Heuvel</surname>
+<given-names>Lvd</given-names>
+</string-name>, <string-name>
+<surname>Rodenburg</surname>
+<given-names>RJ</given-names>
+</string-name> (<year>2015</year>) <article-title>Whole exome sequencing of suspected mitochondrial patients in clinical practice</article-title>. <source xml:lang="en">J Inherit Metab Dis</source>
+<volume>38</volume>: <fpage>437</fpage>&#x2013;<lpage>443</lpage>
+<pub-id pub-id-type="pmid">25735936</pub-id></mixed-citation>
+      </ref>
+      <ref id="emmm202012619-bib-0046">
+        <mixed-citation publication-type="journal" id="emmm202012619-cit-0046">
+<string-name>
+<surname>Zhu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Vinothkumar</surname>
+<given-names>KR</given-names>
+</string-name>, <string-name>
+<surname>Hirst</surname>
+<given-names>J</given-names>
+</string-name> (<year>2016</year>) <article-title>Structure of mammalian respiratory complex I</article-title>. <source xml:lang="en">Nature</source>
+<volume>536</volume>: <fpage>354</fpage>&#x2013;<lpage>358</lpage>
+<pub-id pub-id-type="pmid">27509854</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

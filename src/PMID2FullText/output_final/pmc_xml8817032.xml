@@ -1,0 +1,1459 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" dtd-version="1.3">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group UK</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35121750</article-id>
+      <article-id pub-id-type="pmc">8817032</article-id>
+      <article-id pub-id-type="publisher-id">28330</article-id>
+      <article-id pub-id-type="doi">10.1038/s41467-022-28330-8</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Population-level deficit of homozygosity unveils <italic>CPSF3</italic> as an intellectual disability syndrome gene</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6571-423X</contrib-id>
+          <name>
+            <surname>Arnadottir</surname>
+            <given-names>Gudny A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4606-5163</contrib-id>
+          <name>
+            <surname>Oddsson</surname>
+            <given-names>Asmundur</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jensson</surname>
+            <given-names>Brynjar O.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6374-1197</contrib-id>
+          <name>
+            <surname>Gisladottir</surname>
+            <given-names>Svanborg</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8200-3277</contrib-id>
+          <name>
+            <surname>Simon</surname>
+            <given-names>Mariella T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Arnthorsson</surname>
+            <given-names>Asgeir O.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Katrinardottir</surname>
+            <given-names>Hildigunnur</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fridriksdottir</surname>
+            <given-names>Run</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2069-0681</contrib-id>
+          <name>
+            <surname>Ivarsdottir</surname>
+            <given-names>Erna V.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jonasdottir</surname>
+            <given-names>Adalbjorg</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jonasdottir</surname>
+            <given-names>Aslaug</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Barrick</surname>
+            <given-names>Rebekah</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Saemundsdottir</surname>
+            <given-names>Jona</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9491-9653</contrib-id>
+          <name>
+            <surname>le Roux</surname>
+            <given-names>Louise</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Oskarsson</surname>
+            <given-names>Gudjon R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Asmundsson</surname>
+            <given-names>Jurate</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Steffensen</surname>
+            <given-names>Thora</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gudmundsson</surname>
+            <given-names>Kjartan R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ludvigsson</surname>
+            <given-names>Petur</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jonsson</surname>
+            <given-names>Jon J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Masson</surname>
+            <given-names>Gisli</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8339-150X</contrib-id>
+          <name>
+            <surname>Jonsdottir</surname>
+            <given-names>Ingileif</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9517-6636</contrib-id>
+          <name>
+            <surname>Holm</surname>
+            <given-names>Hilma</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jonasson</surname>
+            <given-names>Jon G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Magnusson</surname>
+            <given-names>Olafur Th.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thorarensen</surname>
+            <given-names>Olafur</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abdenur</surname>
+            <given-names>Jose</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Norddahl</surname>
+            <given-names>Gudmundur L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5222-9857</contrib-id>
+          <name>
+            <surname>Gudbjartsson</surname>
+            <given-names>Daniel F.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bjornsson</surname>
+            <given-names>Hans T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thorsteinsdottir</surname>
+            <given-names>Unnur</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7123-6123</contrib-id>
+          <name>
+            <surname>Sulem</surname>
+            <given-names>Patrick</given-names>
+          </name>
+          <address>
+            <email>patrick.sulem@decode.is</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1676-864X</contrib-id>
+          <name>
+            <surname>Stefansson</surname>
+            <given-names>Kari</given-names>
+          </name>
+          <address>
+            <email>kari.stefansson@decode.is</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.421812.c</institution-id><institution-id institution-id-type="ISNI">0000 0004 0618 6889</institution-id><institution>deCODE Genetics/Amgen, Inc., </institution></institution-wrap>Reykjavik, Iceland </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.14013.37</institution-id><institution-id institution-id-type="ISNI">0000 0004 0640 0021</institution-id><institution>Faculty of Medicine, </institution><institution>University of Iceland, </institution></institution-wrap>Reykjavik, Iceland </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.410540.4</institution-id><institution-id institution-id-type="ISNI">0000 0000 9894 0842</institution-id><institution>Department of Genetics and Molecular Medicine, </institution><institution>The National University Hospital of Iceland, </institution></institution-wrap>Reykjavik, Iceland </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.414164.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 0442 4003</institution-id><institution>Division of Metabolic Disorders, </institution><institution>Children&#x2019;s Hospital of Orange County, </institution></institution-wrap>Orange, CA USA </aff>
+        <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.410540.4</institution-id><institution-id institution-id-type="ISNI">0000 0000 9894 0842</institution-id><institution>Department of Pathology, </institution><institution>The National University Hospital of Iceland, </institution></institution-wrap>Reykjavik, Iceland </aff>
+        <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.410540.4</institution-id><institution-id institution-id-type="ISNI">0000 0000 9894 0842</institution-id><institution>Children&#x2019;s Hospital Iceland, </institution><institution>The National University Hospital of Iceland, </institution></institution-wrap>Reykjavik, Iceland </aff>
+        <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.14013.37</institution-id><institution-id institution-id-type="ISNI">0000 0004 0640 0021</institution-id><institution>School of Engineering and Natural Sciences, </institution><institution>University of Iceland, </institution></institution-wrap>Reykjavik, Iceland </aff>
+        <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.21107.35</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9311</institution-id><institution>Department of Genetic Medicine, </institution><institution>Johns Hopkins University, </institution></institution-wrap>Baltimore, MD USA </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>4</day>
+        <month>2</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>4</day>
+        <month>2</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>13</volume>
+      <elocation-id>705</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>8</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>1</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2022</copyright-statement>
+        <license>
+          <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">Predicting the pathogenicity of biallelic missense variants can be challenging. Here, we use a deficit of observed homozygous carriers of missense variants, versus an expected number in a set of 153,054 chip-genotyped Icelanders, to identify potentially pathogenic genotypes. We follow three missense variants with a complete deficit of homozygosity and find that their pathogenic effect in homozygous state ranges from severe childhood disease to early embryonic lethality. One of these variants is in <italic>CPSF3</italic>, a gene not previously linked to disease. From a set of clinically sequenced Icelanders, and by sequencing archival samples targeted through the Icelandic genealogy, we find four homozygous carriers. Additionally, we find two homozygous carriers of Mexican descent of another missense variant in <italic>CPSF3</italic>. All six homozygous carriers of missense variants in <italic>CPSF3</italic> show severe intellectual disability, seizures, microcephaly, and abnormal muscle tone. Here, we show how the absence of certain homozygous genotypes from a large population set can elucidate causes of previously unexplained recessive diseases and early miscarriage.</p>
+      </abstract>
+      <abstract id="Abs2" abstract-type="web-summary">
+        <p id="Par2">While the consequences of homozygous loss of function variants have been studied, the effect of missense variants is less understood. Here, the authors identify pathogenic genotypes through an observed deficit of homozygous carriers of&#xA0;missense variants in a population, elucidating previously unexplained recessive disease and miscarriage.</p>
+      </abstract>
+      <kwd-group kwd-group-type="npg-subject">
+        <title>Subject terms</title>
+        <kwd>Rare variants</kwd>
+        <kwd>Disease genetics</kwd>
+        <kwd>Genetics research</kwd>
+      </kwd-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; The Author(s) 2022</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Introduction</title>
+      <p id="Par3">Genetically isolated populations that go through episodes of rapid growth are of interest to the study of the role of rare variants in the pathogenesis of the disease. In such populations, certain deleterious sequence variants can reach higher frequencies than in large outbred populations<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Whole-genome sequencing (WGS) of a large fraction of the Icelandic population has provided valuable insights into the genetic makeup of an isolated population, facilitating the detection of rare pathogenic genotypes<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>. This has motivated the first clinical sequencing effort in Iceland, mainly centered on rare disease cases referred by medical specialists at the National University Hospital of Iceland<sup><xref ref-type="bibr" rid="CR2">2</xref>&#x2013;<xref ref-type="bibr" rid="CR6">6</xref></sup>. By now, we have performed clinical WGS for 764 patients and their family members. The current overall rate of detection of causative genotypes is 35%, comparable to other centers using next-generation sequencing<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>, but around 460 patients remain without a clear genetic cause. Due to the isolation of the Icelandic population and the founder effect, some sequence variants that may be pathogenic in the homozygous states, reach elevated frequencies<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. This holds the potential of uncovering previously unidentified causes of autosomal recessive (AR) diseases<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>.</p>
+      <p id="Par4">We have previously mapped out a large set of carriers of biallelic predicted loss-of-function (pLoF) variants in the Icelandic population, i.e., stop-gained, frameshift, or essential splice variants<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. In doing so, we observed an overall deficit of double transmissions of pLoF variants from a pair of heterozygous parents to their offspring<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. Such a deficit will appear if the homozygous genotype is expected to (A) be incompatible with early embryonic development (early miscarriage) (B) be incompatible with late embryonic development (late miscarriage, stillbirth), or (C) interfere with reproduction (e.g., by early death or severe disease). We recently characterized one of the genotypes from this set, a homozygous loss-of-function variant in <italic>CYBC1</italic>, as the cause of a previously unknown form of chronic granulomatous disease<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>.</p>
+      <p id="Par5">Most pLoF variants disrupt the protein and its function, and thus their pathophysiological roles are clear. For missense variants, however, only a subset disrupts the function of a protein in a way that leads to disease. Multiple methods have been developed to predict the pathogenicity of missense variants, taking into account evolutionary conservation of the sequence, physiochemical differences between amino acids, and expected effects on a protein&#x2019;s structure and biological function<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. Moreover, population-genetic metrics based on the deficit of observed versus expected number of sequence variants, i.e., genic constraint scores, have shown great promise for highlighting genes where heterozygous missense variants are expected to be pathogenic<sup><xref ref-type="bibr" rid="CR11">11</xref>&#x2013;<xref ref-type="bibr" rid="CR13">13</xref></sup>. However, predicting the pathogenicity of biallelic missense variants remains challenging<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>.</p>
+      <p id="Par6">Here we demonstrate that with a large dataset representative of an isolated population, it is possible to assess the pathogenicity of homozygous missense variants based on the deficit of homozygous carriers of such variants.</p>
+    </sec>
+    <sec id="Sec2" sec-type="results">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>The deficit of homozygous carriers outlines potentially pathogenic genotypes</title>
+        <p id="Par7">We searched for missense variants with a deficit of observed homozygous carriers, versus the expected number, in a population set of 153,054 Icelanders who were chip-genotyped and with rare variants imputed based on the WGS of 56,969 Icelanders. The population set mainly consists of adult volunteers, at a mean age of 58.5 years. We defined a complete deficit as missense variants present in the population set at a minor allele frequency (MAF) high enough to expect at least three homozygous carriers (MAF&#x2009;&gt;&#x2009;0.40%), assuming Hardy-Weinberg equilibrium, with no homozygous carriers observed. We found 114 missense variants meeting these criteria, 34 of which were in known AR Mendelian disease genes (Supplementary Data&#xA0;<xref rid="MOESM4" ref-type="media">1</xref> and Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). We observed that five of these variants presented in homozygous state in the clinical set (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>), a set consisting of 764 individuals previously WGS in a clinical context. Among these variants were c.1016&#x2009;T&#x2009;&gt;&#x2009;C (p.Leu339Pro) (RefSeq NM_001363118.2) in <italic>SLC52A2</italic> (MAF&#x2009;=&#x2009;0.60%), that has caused AR Brown-Vialetto van Laere syndrome type 2 in at least four genotypically confirmed homozygous carriers in Iceland<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>, c.655&#x2009;G&#x2009;&gt;&#x2009;A (p.Gly219Arg) (RefSeq NM_177550.4) in <italic>SLC13A5</italic> (MAF&#x2009;=&#x2009;0.49%), that has caused epileptic encephalopathy in at least three homozygous carriers in Iceland, and c.557&#x2009;A&#x2009;&gt;&#x2009;C (p.Glu186Ala) (RefSeq NM_000404.3) in <italic>GLB1</italic> (MAF&#x2009;=&#x2009;0.52%), that has caused GM1-gangliosidosis in at least one homozygous carrier in Iceland.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Missense variants with a complete deficit of observed homozygous carriers, versus an expected number in the population set of 153,054 Icelanders, that present in homozygous state in the clinical WGS set.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Gene<sup>a</sup></th><th>Position (hg38)</th><th>cDNA change</th><th>Protein change</th><th>MAF Iceland</th><th>MAF Europe<sup>b</sup></th><th>O/E HMZ</th><th>AR disease listed on OMIM</th><th>ClinVar ID</th><th>Previously reported as HMZ</th></tr></thead><tbody><tr><td><italic>SLC52A2</italic></td><td>chr8:144360604</td><td>c.1016&#x2009;T&#x2009;&gt;&#x2009;C</td><td>p.Leu339Pro</td><td>0.60%</td><td>0.01%</td><td>0/6</td><td>Brown-Vialetto-Van Laere syndrome, type 2</td><td>39577</td><td>Yes</td></tr><tr><td><italic>SLC13A5</italic></td><td>chr17:6703031</td><td>c.655&#x2009;G&#x2009;&gt;&#x2009;A</td><td>p.Gly219Arg</td><td>0.49%</td><td>0.03%</td><td>0/4</td><td>Early infantile epileptic encephalopathy, type 25</td><td>140752</td><td>Yes</td></tr><tr><td><italic>GLB1</italic></td><td>chr3:33058265</td><td>c.557&#x2009;A&#x2009;&gt;&#x2009;C</td><td>p.Glu186Ala</td><td>0.52%</td><td>2&#x2009;&#xD7;&#x2009;10<sup>&#x2212;3</sup>%</td><td>0/4</td><td>GM1-gangliosidosis</td><td>NA</td><td>Yes</td></tr><tr><td><italic>CPSF3</italic></td><td>chr2:9452920</td><td>c.1403&#x2009;G&#x2009;&gt;&#x2009;A</td><td>p.Gly468Glu</td><td>0.41%</td><td>NA</td><td>0/3</td><td>NA</td><td>NA</td><td>No</td></tr><tr><td><italic>GNE</italic></td><td>chr9:36227397</td><td>c.1132&#x2009;G&#x2009;&gt;&#x2009;T</td><td>p.Asp378Tyr</td><td>0.60%</td><td>0.03%</td><td>0/6</td><td><italic>GNE</italic>-myopathy</td><td>283278</td><td>No</td></tr></tbody></table><table-wrap-foot><p><italic>MAF</italic> minor allele frequency, <italic>O/E</italic> observed/expected, <italic>HMZ</italic> homozygous, <italic>AR</italic> autosomal recessive, <italic>NA</italic> not applicable.</p><p><sup>a</sup>RefSeq transcripts are provided in Supplementary Data&#xA0;<xref rid="MOESM4" ref-type="media">1</xref>.</p><p><sup>b</sup>Based on 64,603 WES/WGS non-Finnish European samples on gnomAD<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>.</p></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="Sec4">
+        <title>Homozygous missense variants in <italic>CPSF3</italic> cause a severe intellectual disability syndrome</title>
+        <p id="Par8">The fourth variant, c.1403&#x2009;G&#x2009;&gt;&#x2009;A (p.Gly468Glu) (RefSeq NM_016207.3) in <italic>CPSF3</italic>, was found in homozygous state in two previously unresolved clinical cases (MAF&#x2009;=&#x2009;0.41% in the population set; three expected homozygous carriers and none observed, Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). To our knowledge, sequence variants in <italic>CPSF3</italic> had not yet been reported to cause a disease phenotype. The two homozygous carriers, whom we will refer to as patient A and patient B, were not closely related (meiotic distance&#x2009;=&#x2009;12) but displayed strikingly similar phenotypes, see Table&#xA0;<xref rid="Tab2" ref-type="table">2</xref>. Both patients were males, born at term to non-consanguineous parents. Both patients had an intellectual disability, with seizures from infancy, failure to thrive, microcephaly, nystagmus, and a severe delay in psychomotor development. Patient A died from pneumonia at 2 years of age, patient B is currently being treated for severe seizures (13 years old at last clinical evaluation). Analysis of the WGS data from both patients did not reveal any other plausible genetic causes (see Methods).<table-wrap id="Tab2"><label>Table 2</label><caption><p>Phenotypes observed among suspected and confirmed homozygous carriers of missense variants in <italic>CPSF3</italic>.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Individual ID</th><th>Variant<sup>a</sup></th><th>Genotype</th><th>Age at last evaluation</th><th>Cause of death (age)</th><th>Neurological symptoms</th><th>Brain abnormalities</th><th>Craniofacial dysmorphism</th><th>Musculoskeletal symptoms</th><th>Immunological/GI symptoms</th><th>Other phenotypes</th></tr></thead><tbody><tr><td>Patient A</td><td>p.Gly468Glu</td><td>HMZ</td><td>2 years</td><td>Pneumonia (2)</td><td><p>Severe intellectual disability;</p><p>Developmental delay;</p><p>Seizures;</p><p>Nystagmus</p></td><td>NA</td><td><p>Microcephaly;</p><p>Short, upturned nose</p></td><td>Congenital hypotonia</td><td><p>Acute gastroenteropathy;</p><p>Constipation;</p><p>Repeated infections</p></td><td><p>Failure to thrive;</p><p>Undescended testicle, bilateral</p></td></tr><tr><td>Patient B</td><td>p.Gly468Glu</td><td>HMZ</td><td>13 years</td><td>NA</td><td><p>Intellectual disability;</p><p>Developmental delay;</p><p>Seizures;</p><p>Cerebral palsy, dyskinetic;</p><p>Nystagmus</p></td><td>Normal results from brain MRI and CT from first year of life</td><td><p>Microcephaly;</p><p>Long face</p></td><td><p>Low muscle tone in whole body;</p><p>Sparse calf muscles;</p><p>Muscle cramps</p></td><td><p>Repeated bacterial and viral infections;</p><p>GERD</p><p>Constipation</p></td><td><p>Chronic nephritic syndrome;</p><p>Under curve in height and weight;</p><p>Flat foot</p></td></tr><tr><td>Patient C<sup>b</sup></td><td>p.Gly468Glu</td><td>HMZ</td><td>7 years</td><td>Pneumonia (7)</td><td><p>Intellectual disability;</p><p>Seizures;</p><p>Cerebral palsy;</p><p>Strabismus</p></td><td>Cerebral atrophy (autopsy); Cerebral edema (autopsy)</td><td><p>Microcephaly;</p><p>Long face</p></td><td><p>Hypotonia;</p><p>Sparse muscles;</p><p>Spastic paraplegia</p></td><td><p>Chronic otitis media;</p><p>Constipation</p></td><td><p>Failure to thrive;</p><p>Hypoplastic thyroid gland;</p><p>Under curve in height;</p><p>Undescended testicle (right side);</p><p>Thought to be blind</p></td></tr><tr><td>Patient D<sup>b</sup></td><td>p.Gly468Glu</td><td>HMZ</td><td>4 years</td><td>Broncho-pneumonia (4)</td><td><p>Intellectual disability;</p><p>Seizures</p></td><td><p>Cerebellar atrophy (autopsy);</p><p>Degeneration of cerebral parenchyma (autopsy)</p></td><td>Microcephaly</td><td><p>Sparse muscles;</p><p>Atonic paraplegia</p></td><td>NA</td><td><p>Under curve in height and weight;</p><p>Thought to be blind;</p><p>Hypoplastic ovaries (autopsy)</p></td></tr><tr><td>Patient E</td><td>p.Gly468Glu</td><td>Suspected HMZ<sup>c</sup></td><td>5 years</td><td>Respiratory failure (5)</td><td><p>Severe intellectual disabililty; Seizures;</p><p>Extrapyramidal cerebral palsy;</p><p>Strabismus</p></td><td>NA</td><td><p>Microcephaly;</p><p>Dysmorphic features (unspecified)</p></td><td><p>Severe hypotonia;</p><p>Motor delay;</p><p>Spasticity</p></td><td><p>Bacteremia;</p><p>Repeated invasive bacterial infections, otitis media, pulmonary infections</p></td><td><p>Feeding difficulties;</p><p>Hypoplastic external genitalia</p></td></tr><tr><td>Patient F</td><td>p.Gly468Glu</td><td>Suspected HMZ<sup>c</sup></td><td>1 year</td><td>Pneumonia (1)</td><td><p>Intellectual disability;</p><p>Spontaneous nystagmus</p></td><td>NA</td><td><p>Short, upturned nose;</p><p>Macroglossia</p></td><td><p>Hypotonia;</p><p>Motor delay</p></td><td><p>Repeated infections, otitis media;</p><p>Suspected meningitis</p></td><td><p>Hypothyroidism (autopsy);</p><p>Adenoma of adrenal gland (autopsy);</p><p>Thought to be blind</p></td></tr><tr><td>Patient G</td><td>p.Ile354Thr</td><td>HMZ</td><td>12 years</td><td>NA</td><td><p>Severe intellectual disability;</p><p>Seizures (at 7 MOA);</p><p>Peripheral motor neuropathy;</p><p>Strabismus;</p><p>Nystagmus</p></td><td><p>Cerebral atrophy;</p><p>Thinning of corpus callosum;</p><p>White-matter volume loss;</p><p>Vermian hypoplasia;</p><p>Hypoplastic cerebellum</p></td><td><p>Microcephaly;</p><p>High palate;</p><p>Protruding teeth</p></td><td><p>Spasticity (at 7 MOA);</p><p>Motor delay;</p><p>Inability to sit or crawl;</p><p>Hip contractures;</p><p>Bilateral hip dislocation</p></td><td>GERD</td><td><p>Feeding difficulties;</p><p>Optic atrophy;</p><p>Cortical blindness;</p><p>Decreased fetal movements</p></td></tr><tr><td>Patient H</td><td>p.Ile354Thr</td><td>HMZ</td><td>13 years</td><td>NA</td><td><p>Severe intellectual disability;</p><p>Seizures, generalized tonic-clonic seizures;</p><p>Peripheral motor neuropathy;</p><p>Strabismus;</p><p>Nystagmus</p></td><td><p>White-matter volume loss; Dilatation of lateral ventricles;</p><p>Atrophic corpus callosum;</p><p>Small cerebellar hemispheres</p></td><td><p>Microcephaly;</p><p>High palate;</p><p>Protruding teeth</p></td><td><p>Motor delay;</p><p>Inability to sit or crawl</p></td><td>GERD</td><td><p>Feeding difficulties;</p><p>Bilateral pallor of optic nerves;</p><p>Cortical blindness;</p><p>Decreased fetal movements</p></td></tr></tbody></table><table-wrap-foot><p><italic>GI</italic> Gastrointestinal symptoms, <italic>HMZ</italic> homozygous, <italic>NA</italic> not applicable/not assessed, <italic>GERD</italic> gastroesophageal reflux disease, <italic>MOA</italic> months of age.</p><p><sup>a</sup>RefSeq transcript NM_016207.3.</p><p><sup>b</sup>Patients C and D were siblings.</p><p><sup>c</sup>Parents both heterozygous carriers of <italic>CPSF3</italic> p.Gly468Glu, samples from patients unavailable for confirmation of homozygous genotype.</p></table-wrap-foot></table-wrap></p>
+        <p id="Par9">Based on the frequency of the p.Gly468Glu variant in the Icelandic population, we postulated that there could have been previous, unrecognized, homozygous carriers. The genealogical database constructed by deCODE genetics has near-complete genealogical information of Icelanders from the last century<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. This allowed us to find three additional couples who were heterozygous carriers of p.Gly468Glu in the population set of 153,054 genotyped Icelanders, linked in the genealogical database by their offspring. For these couples, each offspring had a 25% probability of being a homozygous carrier of p.Gly468Glu. Combined, the three couples had ten offspring, four of whom died before eight years of age and had phenotypic features consistent with patients A and B, including intellectual disability (4/4), hypotonia/low muscle tone (4/4), seizures (3/4), and microcephaly (2/4) (Table&#xA0;<xref rid="Tab2" ref-type="table">2</xref>). We were able to acquire paraffin-embedded archival samples from two of these children, patients C and D, siblings who had died at seven and four years of age (patient C 1960&#x2013;1967; patient D 1964&#x2013;1968). Whole-genome and Sanger sequencing of these samples confirmed a homozygous status of p.Gly468Glu in <italic>CPSF3</italic> in both siblings. The siblings, whose parents were first cousins, were part of the same extended family as patient A (meiotic distance&#x2009;=&#x2009;5, Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">1</xref>). Importantly, analysis of WGS data from the siblings (see Methods), failed to identify any other pathogenic or likely pathogenic genotypes. Samples from the other two suspected homozygous Icelanders, patient E (1990&#x2013;1995) and patient F (1955&#x2013;1956), were not available (Table&#xA0;<xref rid="Tab2" ref-type="table">2</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>). However, the phenotypes of patients E and F, including intellectual disability, motor delay, and microcephaly, strongly suggests they have the same condition as the genotypically confirmed <italic>CPSF3</italic> p.Gly468Glu homozygous patients.</p>
+        <p id="Par10">Subsequently, through GeneMatcher<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, we found another homozygous missense variant in <italic>CPSF3</italic>; c.1061&#x2009;T&#x2009;&gt;&#x2009;C (p.Ile354Thr) (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">2</xref>). The variant was discovered through the whole-exome sequencing (WES) of two patients, whom we will refer to as G and H, from the Children&#x2019;s Hospital of Orange County (CHOC). Patients G and H were first-degree cousins from a large consanguineous family of Mexican descent (Supplementary Table&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>, Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">3</xref>). Similar to what we observed in our Icelandic patient set, the cousins presented with intellectual disability, seizures, abnormalities of muscle tone, and microcephaly (Table&#xA0;<xref rid="Tab2" ref-type="table">2</xref>). Furthermore, the analysis of their WES data did not yield any other pathogenic or likely pathogenic genotypes relating to their condition.</p>
+        <p id="Par11">We do not observe any consistent phenotypic associations among 680 heterozygous carriers of <italic>CPSF3</italic> p.Gly468Glu in the Icelandic population set, nor do we observe a reduction in mRNA expression in white blood cells from 150 RNA sequenced heterozygous carriers (<italic>p</italic>-value&#x2009;=&#x2009;0.91; Effect&#x2009;=&#x2009;0.01&#x2009;SD, Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">4</xref>). Western blot analysis of EBV transformed lymphocytes from Patient B confirmed that the CPSF3 protein is expressed in a homozygous carrier (Supplementary Fig.&#xA0;<xref rid="MOESM1" ref-type="media">5</xref>). This indicates that p.Gly468Glu does not quantitatively affect the production of the CPSF3 protein, but would rather be expected to alter the function of the protein. The <italic>CPSF3</italic> gene is not constrained for pLoF variants (pLI=0.00) and not notably constrained for missense variants (z-score&#x2009;=&#x2009;3.61), which is in line with what is expected for genes in which variants cause disease under an autosomal recessive mode of inheritance<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. There is no homozygous carrier of a pLoF variant in <italic>CPSF3</italic> among 56,969 WGS Icelanders, nor among 141,456 WES or WGS individuals on gnomAD<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>, although no pLoF variant reaches a high frequency in these datasets (MAFs below 0.02%).</p>
+        <p id="Par12">In total, we have identified six patients who are homozygous for missense variants in <italic>CPSF3</italic>, as well as two suspected homozygous carriers, all of whom present with features of intellectual disability, seizures, microcephaly, and abnormal muscle tone.</p>
+      </sec>
+      <sec id="Sec5">
+        <title>A homozygous missense variant in <italic>GNE</italic> causes a novel <italic>GNE</italic> allelic disorder</title>
+        <p id="Par13">The fifth missense variant presenting in homozygous state in the clinical set, with a complete deficit of homozygous carriers in the population set, was c.1132&#x2009;G&#x2009;&gt;&#x2009;T (p.Asp378Tyr) (RefSeq NM_005476.5) in <italic>GNE</italic> (MAF&#x2009;=&#x2009;0.59%; six expected homozygous carriers and none observed, Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). The homozygous carrier was a female infant who had died shortly after birth, but had presented with acidosis, a ventricular septal defect, micro-Ebstein anomaly, and polysplenia. The presence of a myopathic disorder was suspected, and a biological sample was acquired postmortem. Prior to acquiring this biological sample, we performed WGS for her non-consanguineous parents (meiotic distance&#x2009;=&#x2009;16), searching for potential recessive genetic causes for her condition. We observed that the parents were both heterozygous carriers of the <italic>GNE</italic> p.Asp378Tyr variant, which is a known pathogenic variant in <italic>GNE</italic>-myopathy<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. <italic>GNE</italic>-myopathy, or Nonaka myopathy, is a progressive AR disease of muscle weakness with a typical age of onset between 20 and 40 years (ClinVar Variation ID 283278)<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. Although initially we did not consider this genotype to align with the severe presentation of the female infant, WGS of the postmortem biological sample from her confirmed that she was indeed homozygous for <italic>GNE</italic> p.Asp378Tyr. Moreover, the parents were currently experiencing another pregnancy, and a 12-week ultrasound had shown increased nuchal thickness. WGS of a fetal sample from this pregnancy also showed homozygosity for p.Asp378Tyr. Importantly, WGS analysis of samples from both the deceased female infant and the new fetal sample failed to produce any other pathogenic or likely pathogenic genotypes.</p>
+        <p id="Par14">Over 180 pathogenic variants in <italic>GNE</italic> have been described since the genetic basis for <italic>GNE-</italic>myopathy was first established in 2001<sup><xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR19">19</xref></sup>. The majority of reported pathogenic genotypes in <italic>GNE</italic> consist of two missense variants, and to date, no patient with a biallelic pLoF genotype (consisting of stop-gained, frameshift, or essential splice variants) has been reported<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. This is in line with observations from mouse studies; where complete knockouts of <italic>GNE</italic> result in embryonic lethality<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. Although <italic>GNE</italic> p.Asp378Tyr is a known pathogenic variant, it has never before been reported in the homozygous state, only as part of compound heterozygous genotypes with other variants in <italic>GNE</italic><sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. Interestingly, patients with a compound heterozygous genotype including p.Asp378Tyr, have been described to have more severe and earlier onset of symptoms than other <italic>GNE</italic>-myopathy patients<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR21">21</xref></sup>. Moreover, experimental studies have shown that p.Asp378Tyr has a more drastic effect on GNE enzymatic activity than most other known pathogenic <italic>GNE</italic> variants; a 60% reduction of epimerase activity and 50% reduced kinase activity<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>.</p>
+        <p id="Par15">We found that among nine couples where both individuals are heterozygous carriers of p.Asp378Tyr, six women have a medical history of miscarriage (66.7%; Table&#xA0;<xref rid="Tab3" ref-type="table">3</xref>). This is significantly higher than the 26.7% of 74,731 Icelandic women with a history of miscarriage (<italic>P</italic>&#x2009;=&#x2009;0.0090, OR&#x2009;=&#x2009;6.0; logistic regression adjusting for mother&#x2019;s year of birth). Furthermore, the observed rate of miscarriage, calculated as the ratio between miscarriages and pregnancies for each mother, is higher among the <italic>GNE</italic> p.Asp378Tyr carrier couples (mean ratio is 0.29 for carriers compared to 0.07 in the population, <italic>P</italic>&#x2009;=&#x2009;8.3&#x2009;&#xD7;&#x2009;10<sup>&#x2212;7</sup>; linear regression adjusting for mother&#x2019;s year of birth).<table-wrap id="Tab3"><label>Table 3</label><caption><p>Two missense variants that have a complete deficit of homozygous carriers in the population set of 153,054 Icelanders, and are likely causing miscarriage in the homozygous state.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Gene<sup>a</sup></th><th>Variant</th><th>MAF Iceland</th><th>MAF Europe<sup>b</sup></th><th>O/E HMZ</th><th>ClinVar ID</th><th>Previously reported as HMZ</th><th>N carrier couples<sup>c</sup></th><th>N miscarriage&#x2009;&gt;&#x2009;week 12</th><th>N miscarriage&#x2009;&lt;&#x2009;week 12</th></tr></thead><tbody><tr><td><italic>GNE</italic></td><td>p.Asp378Tyr</td><td>0.60%</td><td>0.03%</td><td>0/6</td><td>283278</td><td>No</td><td>9</td><td>6/9 (66.7%)</td><td>1/5 (20.0%)</td></tr><tr><td><italic>GLE1</italic></td><td>p.Arg569His</td><td>0.82%</td><td>0.05%</td><td>0/10</td><td>6463</td><td>No</td><td>17</td><td>0</td><td>7/11 (63.6%)</td></tr></tbody></table><table-wrap-foot><p><italic>MAF</italic> minor allele frequency, <italic>O/E</italic> observed/expected, <italic>HMZ</italic> homozygous.</p><p><sup>a</sup>RefSeq transcripts are provided in Supplementary Data&#xA0;<xref rid="MOESM4" ref-type="media">1</xref>.</p><p><sup>b</sup>Based on 64,603 WES/WGS non-Finnish European samples on gnomAD<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>.</p><p><sup>c</sup>Carrier couples were identified in the set of 153,054 chip-genotyped Icelanders.</p></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="Sec6">
+        <title>A homozygous missense variant in <italic>GLE1</italic> causes early miscarriage</title>
+        <p id="Par16">Encouraged by the apparent pathogenicity of the two missense variants, <italic>CPSF3</italic> p.Gly468Glu and <italic>GNE</italic> p.Asp378Tyr, in the homozygous state, we looked into other missense variants showing a complete deficit of homozygous carriers in the population set (Supplementary Data&#xA0;<xref rid="MOESM4" ref-type="media">1</xref>). Among these variants was c.1706G&#x2009;&gt;&#x2009;A (p.Arg569His) (RefSeq NM_001003722.2) in <italic>GLE1</italic> (MAF&#x2009;=&#x2009;0.82%), with ten homozygous carriers expected in the population set, but none observed (Table&#xA0;<xref rid="Tab3" ref-type="table">3</xref>). <italic>GLE1</italic> p.Arg569His has been described as pathogenic when part of compound heterozygous genotypes with other variants in <italic>GLE1</italic>, causing AR lethal congenital contracture syndrome 1 (LCCS1, MIM 253310)<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR24">24</xref></sup>. This severe condition, as well as the other <italic>GLE1</italic>-related disease; congenital arthrogryposis with anterior horn cell disease (CAAHD, MIM 611890), leads to death in the perinatal period in the majority of identified cases<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>. Similar to <italic>GNE</italic> p.Asp378Tyr, <italic>GLE1</italic> p.Arg569His has never been reported in the homozygous state.</p>
+        <p id="Par17">In our population set, we identified 17 couples where both individuals were heterozygous carriers of p.Arg569His. Despite an evident deficit of homozygous carriers of p.Arg569His, we did not observe premature death or severe disease among the offspring of these 17 carrier couples. Moreover, we did not detect a significant association of p.Arg569His with clinically confirmed miscarriage (<italic>N</italic>&#x2009;=&#x2009;19,965 mothers with a history of miscarriage and <italic>N</italic>&#x2009;=&#x2009;54,766 controls, <italic>P</italic>&#x2009;=&#x2009;0.02; OR&#x2009;=&#x2009;1.2). Considering the high deficit of homozygous carriers of <italic>GLE1</italic> p.Arg569His, we postulated that homozygosity for the variant would result in lethality in the first trimester (before week 13), that would be under-registered in medical records. We investigated medical records specific to early miscarriage, including subsequent childbirth records and interviews, from 11 women out of the 17 carrier couples. Seven (63.6%) mentioned one or more spontaneous abortions at an approximate gestational age of 5&#x2013;8 weeks. In comparison, reported rates of miscarriage are 12&#x2013;24% for all clinically confirmed pregnancies<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR26">26</xref></sup>. The high incidence of early miscarriage among <italic>GLE1</italic> p.Arg569His carrier couples, along with the deficit of homozygous carriers, strongly suggests that homozygosity for p.Arg569His causes early embryonic death.</p>
+      </sec>
+    </sec>
+    <sec id="Sec7" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par18">We describe a set of missense variants with a complete deficit of observed homozygous carriers in a set representative of the adult Icelandic population. Guided by the homozygote deficit, we discovered that missense variants in <italic>CPSF3</italic> cause a severe intellectual disability syndrome in homozygous carriers. Prior to this current work, sequence variants in <italic>CPSF3</italic> were not reported to cause disease. We describe six <italic>CPSF3</italic> patients in Iceland and the US, who are homozygous for one of two missense variants; p.Gly468Glu and p.Ile354Thr. Near-complete genealogical information for the Icelandic population set allowed us to discover previous, unrecognized, homozygous carriers of the Icelandic variant, p.Gly468Glu. Based on the genealogical information we found three p.Gly468Glu carrier couples who, combined, had four children who had died prematurely. We managed to test archival samples for two of these children, and confirm a homozygous genotype.</p>
+      <p id="Par19"><italic>CPSF3</italic> encodes Cleavage And Polyadenylation Specificity Factor 3 (CPSF3 or CPSF73), a 73&#x2009;kDa subunit of the Cleavage and Polyadenylation Specificity Factor (CPSF) complex<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. Cleavage and polyadenylation of the 3&#x2032; end of precursor mRNAs (pre-mRNAs) are necessary before transport out of the nucleus. The CPSF complex plays a crucial role in this 3&#x2032; end cleavage, recognizing the AAUAAA cleavage site and interacting with other factors to implement cleavage<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. CPSF3 has endonuclease activity and is predicted to catalyze cleavage just downstream of the AAUAAA site<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. It is also thought to act as both the endonuclease and 5&#x2032;&#x2212;3&#x2032; exonuclease in histone&#xA0;pre-mRNA processing<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. The CPSF3 protein consists of 684 amino acids, with two metallo-&#x3B2;-lactamase domains and a conserved &#x3B2;-CASP domain, thus belonging to the metallo-&#x3B2;-lactamase family of zinc-dependent hydrolases<sup><xref ref-type="bibr" rid="CR29">29</xref></sup> (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1</xref>). The p.Gly468Glu variant causes substitution of the small and nonpolar amino acid glycine with glutamic acid, a large negatively charged residue, a change that is likely to affect the structure of the CPSF3 protein. The p.Ile354Thr variant occurs within the &#x3B2;-CASP domain of <italic>CPSF3</italic>, a domain that controls access to the active site of CPSF3, whereas p.Gly468Glu occurs in a linker domain between the highly conserved second metallo-&#x3B2;-lactamase domain of CPSF3 and the C-terminal domain (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1</xref>). <italic>Cpsf3</italic> knockout mice show early embryonic lethality, and <italic>Cpsf3</italic> is homologous to the human <italic>CPSF3</italic> with 98.5% amino acid identity<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. Yeast studies have shown that mutations of key residues in the CPSF3 yeast homolog (53% amino acid identity), including within the &#x3B2;-CASP domain, are lethal<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. This suggests that a drastic phenotypic effect will be observed not only from a complete loss of the CPSF3 protein, as seen in knockout mice but also from biallelic variants affecting its enzymatic function. Both p.Gly468Glu and p.Ile354Thr occur at genomic positions highly conserved across mammalian species, with GERP scores of 5.81 and 5.78, respectively (corresponding to the top 96<sup>th</sup> percentile of all coding variants)<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>.<fig id="Fig1"><label>Fig. 1</label><caption><title>Structure of <italic>CPSF3</italic> (RefSeq transcript NM_016207.3) and location of the two missense variants found in homozygous state in patients with a severe intellectual disability syndrome.</title><p><bold>a</bold> The p.Ile354Thr and p.Gly468Glu variants are located in exon 9 and 12 of <italic>CPSF3</italic>, respectively. Dark gray sections represent exons and untranslated regions, light gray lines represent introns. <bold>b</bold> The p.Ile354Thr variant is in the &#x3B2;-CASP domain of CPSF3 (amino acids 246&#x2013;367, shown in green). The p.Gly468Glu variant is located within an uncharacterized linker domain (amino acids 448&#x2013;479) between the critical second metallo-&#x3B2;-lactamase domain (shown in pink) and the highly conserved C-terminal domain (amino acids 479&#x2013;682, shown in yellow) of CPSF3. The first metallo-&#x3B2;-lactamase domain is shown in blue, uncharacterized domains are shown in gray.</p></caption><graphic xlink:href="41467_2022_28330_Fig1_HTML" id="d32e1970"/></fig></p>
+      <p id="Par20"><italic>CPSF3</italic> is the first member of the cleavage and polyadenylation specificity factor complex to be associated with a severe Mendelian disorder. However, heterozygous variants in the gene <italic>CPSF1</italic>, encoding cleavage and polyadenylation specificity factor 1, have recently been linked to autosomal dominant early-onset high myopia<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. A 2019 study presented an inhibitor of CPSF3, JTE-607, a small molecule that was developed as an inflammatory cytokine inhibitor but had an unknown mode of action until its interaction with CPSF3 was discovered<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. Inhibition of CPSF3, and blocking the release of newly synthesized pre-mRNAs, can enforce cellular apoptosis and has been considered as potential cancer treatment<sup><xref ref-type="bibr" rid="CR34">34</xref>,<xref ref-type="bibr" rid="CR35">35</xref></sup>. Importantly, however, modulation of mRNA processing in cancer cell lines is vastly different from a genetic loss of mRNA processing. Nonetheless, these studies of CPSF3 inactivation underline the critical role of the protein in the mRNA processing pathway.</p>
+      <p id="Par21">In isolation, CPSF3 has weak enzymatic activity, and interaction with other factors of the cleavage and polyadenylation machinery is necessary for efficient cleavage<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. We hypothesize that the two missense variants we describe, p.Gly468Glu and p.Ile354Thr, affect the ability of CPSF3 to bind to other factors involved in the pre-mRNA cleavage mechanism. This effect could disrupt the pre-mRNA cleavage mechanism, resulting in the accumulation of unprocessed pre-mRNA in cells, which would in turn activate a cellular stress response<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. Taken together, the crucial biological function of CPSF3 in humans, the prior evidence from animal models, and the consistency of the phenotype among the six confirmed homozygous patients, all support the role of the two <italic>CPSF3</italic> variants, p.Gly468Glu and p.Ile354Thr, in the intellectual disability syndrome observed among homozygous carrier patients. Ultimately, follow-up functional studies are needed to document the effects of p.Gly468Glu and p.Ile354Thr on CPSF3 function.</p>
+      <p id="Par22">In addition to <italic>CPSF3</italic>, we also discovered that a missense variant in <italic>GNE</italic>, p.Asp378Tyr, causes an early-onset myopathic disease in homozygous carriers. The variant has been reported as part of compound heterozygous genotypes in patients with an adult-onset myopathic disorder known as <italic>GNE</italic>-myopathy. In contrast, we find that in a homozygous state it causes a drastic disease with cardiac complications, resulting in death in the perinatal period. We also observe an elevated rate of miscarriage among p.Asp378Tyr carrier couples. <italic>GNE</italic> encodes glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase, an enzyme that catalyzes sialic acid biosynthesis<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. Animal studies have suggested that a reduction in sialic acid production is tolerated to a certain threshold, whereas total knockout of <italic>GNE</italic> and subsequent complete loss of endogenous sialic acid production is embryonic lethal<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. Based on a complete deficit of homozygous carriers of p.Asp378Tyr in the Icelandic population set, an increase in miscarriage among p.Asp378Tyr carrier couples, and confirmation of the variant in homozygosity in two symptomatic cases, we suggest that homozygosity for p.Asp378Tyr causes a reduction in sialic acid production that is below the critical sialylation threshold necessary for early human development. To our knowledge, this is the first report of a pathogenic <italic>GNE</italic> genotype resulting in such a severe phenotype.</p>
+      <p id="Par23">Finally, we describe how homozygosity for p.Arg569His in <italic>GLE1</italic> leads to early embryonic lethality, manifesting as first-trimester miscarriage for mothers from carrier couples, that has until now remained unidentified. <italic>GLE1</italic> p.Arg569His has previously only been observed as part of a compound heterozygous genotype with other variants in <italic>GLE1</italic>, causing a severe neonatal condition. <italic>GLE1</italic> encodes GLE1 RNA export mediator, a protein required for the transport of polyadenylated mRNA from the nucleus to the cytoplasm<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. Efficient processing and transport of nuclear mRNA is essential for proper eukaryotic gene expression, and has been implicated in several human diseases<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. Two of the genes we describe, <italic>GLE1</italic> and <italic>CPSF3</italic>, encode proteins with a crucial role in the export of nuclear mRNA, underlining the importance of this biological process in early human development.</p>
+      <p id="Par24">In conclusion, we used a deficit of observed homozygous carriers versus their expected number in a large population set to identify pathogenic missense genotypes. We believe our approach may be helpful in other large population-based genetic datasets, especially in light of recent data suggesting as high as 1% of unrelated European couples are at risk of having offspring with a severe AR genetic disease<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. Until now, the study of genotype-phenotype correlation has mainly been centered on observed genotypes. We show that the absence of homozygous genotypes from a large population set, given an expected number, can elucidate the causes of previously unexplained AR diseases and early miscarriage.</p>
+    </sec>
+    <sec id="Sec8">
+      <title>Methods</title>
+      <sec id="Sec9">
+        <title>Population set</title>
+        <p id="Par25">Our approach to WGS, genotyping, long-range phasing, and imputation of a substantial fraction of the Icelandic population has been described in detail in&#xA0;previous publications<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>. In brief, 56,959 Icelanders participating in various disease projects at deCODE genetics have been WGS using standard TrueSeq methodology (Illumina), to a median depth of 37X, and genotyped with Illumina microarrays (chip-genotyped). An additional 96,095 Icelanders have been chip-genotyped and not WGS. Genotypes of sequence variants identified through sequencing (SNPs and indels) have been imputed into all chip-typed Icelanders, resulting in a set of 153,054 chip-genotyped and imputed Icelanders. The set consists mainly of adult individuals, 88% were alive at the time of this study, the mean age of living individuals was 58.5 years, and 54% were female. For the purpose of this study, individuals with either one or both parents of foreign ancestry were removed from the set.</p>
+        <p id="Par26">All participating individuals who donated blood or buccal tissue samples, or their guardians, provided written informed consent. All sample identifiers were encrypted in accordance with the regulations of the Icelandic Data Protection Authority. Personal identities of the participants and biological samples were encrypted by a third-party system approved and monitored by the Icelandic Data Protection Authority. The study was approved by the Data Protection Authority (ref. 2013030423/&#xDE;S/&#x2212;, with amendments) and the National Bioethics Committee (ref. VSN-19-023, VSNb2019010015/03.01), which also reviewed and approved the protocol, methodology, and all documents presented to the participants. All methods were performed in accordance with the relevant guidelines and regulations.</p>
+      </sec>
+      <sec id="Sec10">
+        <title>Clinical set</title>
+        <p id="Par27">For the purpose of clinical WGS we have recruited 764 patients and their family members, amounting to a total of 2501 individuals. These individuals were recruited in the period 2014&#x2013;2021, the mean age of the patients was 26.4 years in 2021, and 46% were female. Samples from patients and family members, submitted to WGS, were from whole-blood, buccal tissue, or purified DNA. WGS and genotyping of the set of 2501 were performed as described above. For the purpose of this study, all individuals recruited on the basis of clinical WGS were removed from the Icelandic population set.</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Defining homozygous missense variants of interest</title>
+        <p id="Par28">Based on a given MAF of a sequence variant, a homozygous carrier frequency can be calculated assuming the Hardy-Weinberg equilibrium. We took variants with a MAF corresponding to an expected homozygous carrier count of three in the population set of 153,054 chip-genotyped and imputed Icelanders. This corresponded to sequence variants with a MAF over 0.40%. We considered only genotypes with imputation information over 0.9, excluding variants on the X chromosome.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>Analysis of WGS data for clinical purposes</title>
+        <p id="Par29">Sequence variants were called using the Genome Analysis Toolkit (GATK)<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>, reads were called with GATK using a multi-sample configuration. Variants were annotated using release 100 of the Variant Effect Predictor (VEP-Ensembl), using RefSeq gene annotations<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. To be able to filter out genotypes over a certain frequency threshold we used allelic frequencies from phased genotypes of 30 million SNPs and INDELs from 56,959 WGS Icelanders<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>. Additional frequency filtering was performed using alleles from publicly available datasets of the genome Aggregation Database<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. For the purpose of identifying potentially pathogenic sequence variants we looked at rare (MAF&#x2009;&lt;&#x2009;2%) coding and splicing variants, including variants with predicted high (stop, frameshift, and splice essential) and moderate (missense, inframe, and splice region) impact on protein function. We focused on single-nucleotide polymorphisms (SNPs) and small indels (&lt;20 base pairs). We prioritized the analysis of the WGS data on variants in phenotypically relevant genes, i.e., genes with a known link to Mendelian disorders (according to Online Mendelian Inheritance in Men) that fit the phenotypes of interest. All candidate sequence variants were submitted to the ACMG criteria for classification as likely benign, benign, variants of uncertain significance (VUS), likely pathogenic, or pathogenic<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>.</p>
+      </sec>
+      <sec id="Sec13">
+        <title>Validation by Sanger sequencing</title>
+        <p id="Par30">Samples from all individuals homozygous for p.Gly468Glu in <italic>CPSF3</italic> and p.Asp378Tyr in <italic>GNE</italic>, along with their first-degree family members, were Sanger sequenced for confirmation of their respective genotypes. Primers for Sanger sequencing were designed using the Primer 3 software<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. Following PCR, cycle sequencing reactions were performed in both directions on MJ Research PTC-225 thermal cyclers, using the BigDye Terminator Cycle Sequencing Kit v3.1 (Thermo Fisher Scientific, Waltham, MA, USA) and Ampure XP and CleanSeq kits (Beckman Coulter, High Wycombe, UK) for cleanup of the PCR products and cycle sequencing reactions. Sequencing products were run on the 3730 XL DNA Analyzer (Applied Biosystems&#x2122;, Thermo Fisher Scientific) and analyzed with the Sequencher 5.4 software (Gene Codes Corporation, Ann Arbor, MI, USA).</p>
+      </sec>
+      <sec id="Sec14">
+        <title>Protein analysis</title>
+        <p id="Par31">PBMCs were isolated from a venous blood sample from one <italic>CPSF3</italic> p.Gly468Glu homozygous carrier (patient B) via standard Ficoll-Paque (GE Health, Uppsala, Sweden, #17144002) density gradient centrifugation at 800&#x2009;&#xD7;&#x2009;<italic>g</italic> for 15&#x2009;min in 50&#x2009;ml Blood-Sep spin tubes (DACOS, Denmark, #037100SI) and cryopreserved in liquid nitrogen. Thawed cells were transformed using Epstein Barr virus. For western blot analysis, EBV transformed cells were lysed in RIPA buffer (150&#x2009;mM sodium chloride, 1% Triton X-100, 0.5% sodium deoxycholate, 0.1% SDS, 50&#x2009;mM Tris pH 8), run on 4&#x2013;12% gel (Invitrogen, Kiryat Shmona, Israel, #NW04127BOX) and blotted on a PVDF membrane (Novex, #IB24002). The membrane was blocked, then stained with CPSF3 (Abcam, #ab72295) and beta actin (Abcam, #ab6276) primary antibodies in 5% milk in TBS-T (200&#x2009;mM Tris, 1500&#x2009;mM NaCl, 0.1% Tween-20) overnight and mouse (LI-COR, 926&#x2013;32212) and rabbit (LI-COR, #926&#x2013;68073) secondary antibodies in TBS-T for 1&#x2009;h. The membrane was scanned using the Odyssey infrared imaging system (LI-COR Biosciences).</p>
+      </sec>
+      <sec id="Sec15">
+        <title>Reporting summary</title>
+        <p id="Par32">Further information on research design is available in the&#xA0;<xref rid="MOESM5" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary information</title>
+      <sec id="Sec16">
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="41467_2022_28330_MOESM1_ESM.pdf"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2"><media xlink:href="41467_2022_28330_MOESM2_ESM.pdf"><caption><p>Peer Review File</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3"><media xlink:href="41467_2022_28330_MOESM3_ESM.pdf"><caption><p>Description of Additional Supplementary Files</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4"><media xlink:href="41467_2022_28330_MOESM4_ESM.xlsx"><caption><p>Supplementary Data 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM5"><media xlink:href="41467_2022_28330_MOESM5_ESM.pdf"><caption><p>Reporting Summary</p></caption></media></supplementary-material>
+</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <title>Supplementary information</title>
+      <p>The online version contains supplementary material available at 10.1038/s41467-022-28330-8.</p>
+    </sec>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We wish to thank the patients and family members followed in this study, and all other individuals who participated in the study and whose contribution made this work possible. M.T.S. was supported by a grant from the Sacchi Foundation.</p>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Author contributions</title>
+      <p>G.A.A., A.O., H.T.B., U.T., P.S. and K.S. designed the study. G.A.A., B.O.J., H.K., R.F. and P.S. carried out or supervised analysis of clinical WGS data. S.G. carried out analysis of medical records. S.G., M.T.S., R.B., P.L., J.J.J., O.Th., Jo.A. and H.T.B. met with patients and families involved in the study. A.O.A. and G.L.N. carried out or supervised laboratory experiments. J.S., L.R., Ju.A.,Th.S., I.J., H.H. and J.G.J. carried out or supervised the collection of biological samples. G.M. and D.F.G. developed the methods for data analysis. O.Th.M., Ad.J. and As.J. carried out sequencing. G.A.A., A.O., E.V.I., G.R.O., K.R.G., D.F.G. and P.S. performed statistical and bioinformatics analyses. G.A.A., A.O., B.O.J., D.F.G., H.T.B., U.T., P.S. and K.S. drafted the manuscript. All authors contributed to the final version of the paper.</p>
+    </notes>
+    <notes notes-type="peer-review">
+      <title>Peer review</title>
+      <sec id="FPar1">
+        <title>Peer review information</title>
+        <p id="Par33"><italic>Nature Communications</italic> thanks Victoria Jackson and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are available.</p>
+      </sec>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Data availability</title>
+      <p>Our previously described Icelandic population whole-genome sequence data<sup><xref ref-type="bibr" rid="CR3">3</xref></sup> have been deposited at the European Variation Archive under accession <ext-link ext-link-type="uri" xlink:href="https://www.ebi.ac.uk/eva/?eva-study=PRJEB15197">PRJEB15197</ext-link>. All other data supporting the findings of this study are available within the article and its supplementary files.</p>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Code availability</title>
+      <p>We used the following publicly available software for analysis of the WGS data: BWA-MEM version 0.7.10, available at <ext-link ext-link-type="uri" xlink:href="https://github.com/lh3/bwa">https://github.com/lh3/bwa</ext-link>, GenomeAnalysisTKLite version 2.3.9, available at <ext-link ext-link-type="uri" xlink:href="https://github.com/broadgsa/gatk/">https://github.com/broadgsa/gatk/</ext-link>, Picard tools version 1.117, available at <ext-link ext-link-type="uri" xlink:href="https://broadinstitute.github.io/picard/">https://broadinstitute.github.io/picard/</ext-link>, SAMtools version 1.3, available at <ext-link ext-link-type="uri" xlink:href="http://samtools.github.io/">http://samtools.github.io/</ext-link>, and Variant Effect Predictor (release 100), available at <ext-link ext-link-type="uri" xlink:href="https://github.com/Ensembl/ensembl-vep">https://github.com/Ensembl/ensembl-vep</ext-link>. For association testing we used BOLT-LMM version 2.1, available at <ext-link ext-link-type="uri" xlink:href="https://data.broadinstitute.org/alkesgroup/BOLT-LMM/downloads/">https://data.broadinstitute.org/alkesgroup/BOLT-LMM/downloads/</ext-link>. We used R version 3.6.0 to analyze data and create plots.</p>
+    </notes>
+    <notes id="FPar2" notes-type="COI-statement">
+      <title>Competing interests</title>
+      <p id="Par34">Authors affiliated with deCODE genetics/Amgen declare competing interests as employees. The remaining authors declare no competing interests.</p>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allendorf</surname>
+              <given-names>FW</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic drift and the loss of alleles versus heterozygosity</article-title>
+          <source>Zoo. Biol.</source>
+          <year>1986</year>
+          <volume>5</volume>
+          <fpage>181</fpage>
+          <lpage>190</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gudbjartsson</surname>
+              <given-names>DF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Large-scale whole-genome sequencing of the Icelandic population</article-title>
+          <source>Nat. Genet.</source>
+          <year>2015</year>
+          <volume>47</volume>
+          <fpage>435</fpage>
+          <lpage>444</lpage>
+          <pub-id pub-id-type="pmid">25807286</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>J&#xF3;nsson</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Whole genome characterization of sequence diversity of 15,220 Icelanders</article-title>
+          <source>Sci. Data</source>
+          <year>2017</year>
+          <volume>4</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arnadottir</surname>
+              <given-names>GA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Compound heterozygous mutations in UBA5 causing early-onset epileptic encephalopathy in two sisters</article-title>
+          <source>BMC Med. Genet.</source>
+          <year>2017</year>
+          <volume>18</volume>
+          <fpage>103</fpage>
+          <pub-id pub-id-type="pmid">28965491</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jensson</surname>
+              <given-names>BO</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>COPA syndrome in an Icelandic family caused by a recurrent missense mutation in COPA</article-title>
+          <source>BMC Med. Genet.</source>
+          <year>2017</year>
+          <volume>18</volume>
+          <fpage>129</fpage>
+          <pub-id pub-id-type="pmid">29137621</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arnadottir</surname>
+              <given-names>GA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A homozygous loss-of-function mutation leading to CYBC1 deficiency causes chronic granulomatous disease</article-title>
+          <source>Nat. Commun.</source>
+          <year>2018</year>
+          <volume>9</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">29317637</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marshall</surname>
+              <given-names>CR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Best practices for the analytical validation of clinical whole-genome sequencing intended for the diagnosis of germline disease</article-title>
+          <source>npj Genomic Med.</source>
+          <year>2020</year>
+          <volume>5</volume>
+          <fpage>1</fpage>
+          <lpage>12</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ellard</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>An exome sequencing strategy to diagnose lethal autosomal recessive disorders</article-title>
+          <source>Eur. J. Hum. Genet.</source>
+          <year>2015</year>
+          <volume>23</volume>
+          <fpage>401</fpage>
+          <lpage>404</lpage>
+          <pub-id pub-id-type="pmid">24961629</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sulem</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of a large set of rare complete human knockouts</article-title>
+          <source>Nat. Genet.</source>
+          <year>2015</year>
+          <volume>47</volume>
+          <fpage>448</fpage>
+          <lpage>452</lpage>
+          <pub-id pub-id-type="pmid">25807282</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gerasimavicius</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Marsh</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of pathogenic missense mutations using protein stability predictors</article-title>
+          <source>Sci. Rep.</source>
+          <year>2020</year>
+          <volume>10</volume>
+          <fpage>1</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="pmid">31913322</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Samocha</surname>
+              <given-names>KE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A framework for the interpretation of de novo mutation in human disease</article-title>
+          <source>Nat. Genet.</source>
+          <year>2014</year>
+          <volume>46</volume>
+          <fpage>944</fpage>
+          <lpage>950</lpage>
+          <pub-id pub-id-type="pmid">25086666</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lek</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Analysis of protein-coding genetic variation in 60,706 humans</article-title>
+          <source>Nature</source>
+          <year>2016</year>
+          <volume>536</volume>
+          <fpage>285</fpage>
+          <lpage>291</lpage>
+          <pub-id pub-id-type="pmid">27535533</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karczewski</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The mutational constraint spectrum quantified from variation in 141,456 humans</article-title>
+          <source>Nature</source>
+          <year>2020</year>
+          <volume>581</volume>
+          <fpage>434</fpage>
+          <lpage>443</lpage>
+          <pub-id pub-id-type="pmid">32461654</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amendola</surname>
+              <given-names>LM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Performance of ACMG-AMP variant-interpretation guidelines among nine laboratories in the Clinical Sequencing Exploratory Research consortium</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2016</year>
+          <volume>98</volume>
+          <fpage>1067</fpage>
+          <lpage>1076</lpage>
+          <pub-id pub-id-type="pmid">27181684</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sobreira</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Schiettecatte</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Valle</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hamosh</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>GeneMatcher: a matching tool for connecting investigators with an interest in the same gene</article-title>
+          <source>Hum. Mutat.</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>928</fpage>
+          <lpage>930</lpage>
+          <pub-id pub-id-type="pmid">26220891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dawes</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Lek</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>ST</given-names>
+            </name>
+          </person-group>
+          <article-title>Gene discovery informatics toolkit defines candidate genes for unexplained infertility and prenatal or infantile mortality</article-title>
+          <source>npj Genomic Med.</source>
+          <year>2019</year>
+          <volume>4</volume>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Celeste</surname>
+              <given-names>FV</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutation update for GNE gene variants associated with GNE myopathy</article-title>
+          <source>Hum. Mutat.</source>
+          <year>2014</year>
+          <volume>35</volume>
+          <fpage>915</fpage>
+          <lpage>926</lpage>
+          <pub-id pub-id-type="pmid">24796702</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eisenberg</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The UDP-N-acetylglucosamine 2-epimerase/N-acetylmannosamine kinase gene is mutated in recessive hereditary inclusion body myopathy</article-title>
+          <source>Nat. Genet.</source>
+          <year>2001</year>
+          <volume>29</volume>
+          <fpage>83</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="pmid">11528398</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pogoryelova</surname>
+              <given-names>O</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>GNE genotype explains 20% of phenotypic variability in GNE myopathy</article-title>
+          <source>Neurol. Genet.</source>
+          <year>2019</year>
+          <volume>5</volume>
+          <fpage>e308</fpage>
+          <pub-id pub-id-type="pmid">30842975</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malicdan</surname>
+              <given-names>MCV</given-names>
+            </name>
+            <name>
+              <surname>Noguchi</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nonaka</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>YK</given-names>
+            </name>
+            <name>
+              <surname>Nishino</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>A Gne knockout mouse expressing human GNE D176V mutation develops features similar to distal myopathy with rimmed vacuoles or hereditary inclusion body myopathy</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <year>2007</year>
+          <volume>16</volume>
+          <fpage>2669</fpage>
+          <lpage>2682</lpage>
+          <pub-id pub-id-type="pmid">17704511</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chaouch</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Two recurrent mutations are associated with GNE myopathy in the North of Britain</article-title>
+          <source>J. Neurol. Neurosurg. Psychiatry</source>
+          <year>2014</year>
+          <volume>85</volume>
+          <fpage>1359</fpage>
+          <lpage>1365</lpage>
+          <pub-id pub-id-type="pmid">24695763</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Penner</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Influence of UDP-GlcNAc 2-epimerase/ManNAc kinase mutant proteins on hereditary inclusion body myopathy</article-title>
+          <source>Biochemistry</source>
+          <year>2006</year>
+          <volume>45</volume>
+          <fpage>2968</fpage>
+          <lpage>2977</lpage>
+          <pub-id pub-id-type="pmid">16503651</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nousiainen</surname>
+              <given-names>HO</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in mRNA export mediator GLE1 result in a fetal motoneuron disease</article-title>
+          <source>Nat. Genet.</source>
+          <year>2008</year>
+          <volume>40</volume>
+          <fpage>155</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="pmid">18204449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Said</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Survival beyond the perinatal period expands the phenotypes caused by mutations in GLE1</article-title>
+          <source>Am. J. Med. Genet. A.</source>
+          <year>2017</year>
+          <volume>173</volume>
+          <fpage>3098</fpage>
+          <lpage>3103</lpage>
+          <pub-id pub-id-type="pmid">28884921</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jurkovic</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Overton</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Bender-Atik</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Diagnosis and management of first trimester miscarriage</article-title>
+          <source>BMJ</source>
+          <year>2013</year>
+          <volume>346</volume>
+          <fpage>f3676</fpage>
+          <pub-id pub-id-type="pmid">23783355</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laisk</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The genetic architecture of sporadic and multiple consecutive miscarriage</article-title>
+          <source>Nat. Commun.</source>
+          <year>2020</year>
+          <volume>11</volume>
+          <fpage>1</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="pmid">31911652</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ryan</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Calvo</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Manley</surname>
+              <given-names>JL</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence that polyadenylation factor CPSF-73 is the mRNA 3&#x2032; processing endonuclease</article-title>
+          <source>RNA</source>
+          <year>2004</year>
+          <volume>10</volume>
+          <fpage>565</fpage>
+          <lpage>573</lpage>
+          <pub-id pub-id-type="pmid">15037765</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dominski</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Marzluff</surname>
+              <given-names>WF</given-names>
+            </name>
+          </person-group>
+          <article-title>The polyadenylation factor CPSF-73 is involved in histone-pre-mRNA processing</article-title>
+          <source>Cell</source>
+          <year>2005</year>
+          <volume>123</volume>
+          <fpage>37</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="pmid">16213211</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mu&#xF1;oz-Fuentes</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The International Mouse Phenotyping Consortium (IMPC): a functional catalogue of the mammalian genome that informs conservation</article-title>
+          <source>Conserv. Genet. Print.</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <fpage>995</fpage>
+          <lpage>1005</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Clerici</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Faini</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Aebersold</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Jinek</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural insights into the assembly and polyA signal recognition mechanism of the human CPSF complex</article-title>
+          <source>eLife</source>
+          <year>2017</year>
+          <volume>6</volume>
+          <fpage>e33111</fpage>
+          <pub-id pub-id-type="pmid">29274231</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cooper</surname>
+              <given-names>GM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Distribution and intensity of constraint in mammalian genomic sequence</article-title>
+          <source>Genome Res.</source>
+          <year>2005</year>
+          <volume>15</volume>
+          <fpage>901</fpage>
+          <lpage>913</lpage>
+          <pub-id pub-id-type="pmid">15965027</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ouyang</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>CPSF1 mutations are associated with early-onset high myopia and involved in retinal ganglion cell axon projection</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <year>2019</year>
+          <volume>28</volume>
+          <fpage>1959</fpage>
+          <lpage>1970</lpage>
+          <pub-id pub-id-type="pmid">30689892</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kakegawa</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Sakane</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>JTE-607, a multiple cytokine production inhibitor, targets CPSF3 and inhibits pre-mRNA processing</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>2019</year>
+          <volume>518</volume>
+          <fpage>32</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="pmid">31399191</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ross</surname>
+              <given-names>NT</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>CPSF3-dependent pre-mRNA processing as a druggable node in AML and Ewing&#x2019;s sarcoma</article-title>
+          <source>Nat. Chem. Biol.</source>
+          <year>2020</year>
+          <volume>16</volume>
+          <fpage>50</fpage>
+          <lpage>59</lpage>
+          <pub-id pub-id-type="pmid">31819276</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Z-H</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>YP</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Y-K</given-names>
+            </name>
+            <name>
+              <surname>Nelson</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>J-H</given-names>
+            </name>
+          </person-group>
+          <article-title>CSR1 induces cell death through inactivation of CPSF3</article-title>
+          <source>Oncogene</source>
+          <year>2009</year>
+          <volume>28</volume>
+          <fpage>41</fpage>
+          <lpage>51</lpage>
+          <pub-id pub-id-type="pmid">18806823</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Teloni</surname>
+              <given-names>F</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Efficient pre-mRNA cleavage prevents replication-stress-associated genome instability</article-title>
+          <source>Mol. Cell</source>
+          <year>2019</year>
+          <volume>73</volume>
+          <fpage>670</fpage>
+          <lpage>683.e12</lpage>
+          <pub-id pub-id-type="pmid">30639241</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hinderlich</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Weidemann</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Yardeni</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Horstkorte</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Huizing</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>UDP-GlcNAc 2-epimerase/ManNAc kinase (GNE), a master regulator of sialic acid synthesis</article-title>
+          <source>Top. Curr. Chem.</source>
+          <year>2015</year>
+          <volume>366</volume>
+          <fpage>97</fpage>
+          <lpage>137</lpage>
+          <pub-id pub-id-type="pmid">23842869</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rayala</surname>
+              <given-names>HJ</given-names>
+            </name>
+            <name>
+              <surname>Kendirgi</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Barry</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Majerus</surname>
+              <given-names>PW</given-names>
+            </name>
+            <name>
+              <surname>Wente</surname>
+              <given-names>SR</given-names>
+            </name>
+          </person-group>
+          <article-title>The mRNA export factor human Gle1 interacts with the nuclear pore complex protein Nup155</article-title>
+          <source>Mol. Cell. Proteomics</source>
+          <year>2004</year>
+          <volume>3</volume>
+          <fpage>145</fpage>
+          <lpage>155</lpage>
+          <pub-id pub-id-type="pmid">14645504</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hurt</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Silver</surname>
+              <given-names>PA</given-names>
+            </name>
+          </person-group>
+          <article-title>mRNA nuclear export and human disease</article-title>
+          <source>Dis. Model. Mech.</source>
+          <year>2008</year>
+          <volume>1</volume>
+          <fpage>103</fpage>
+          <lpage>108</lpage>
+          <pub-id pub-id-type="pmid">19048072</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fridman</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The landscape of autosomal-recessive pathogenic variants in European populations reveals phenotype-specific effects</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2021</year>
+          <volume>108</volume>
+          <fpage>608</fpage>
+          <lpage>619</lpage>
+          <pub-id pub-id-type="pmid">33740458</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>J&#xF3;nsson</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Parental influence on human germline de novo mutations in 1,548 trios from Iceland</article-title>
+          <source>Nature</source>
+          <year>2017</year>
+          <volume>549</volume>
+          <fpage>519</fpage>
+          <lpage>522</lpage>
+          <pub-id pub-id-type="pmid">28959963</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McKenna</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Genome Analysis Toolkit: A MapReduce framework for analyzing next-generation DNA sequencing data</article-title>
+          <source>Genome Res.</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>1297</fpage>
+          <lpage>1303</lpage>
+          <pub-id pub-id-type="pmid">20644199</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McLaren</surname>
+              <given-names>W</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The ensembl variant effect predictor</article-title>
+          <source>Genome Biol.</source>
+          <year>2016</year>
+          <volume>17</volume>
+          <fpage>122</fpage>
+          <pub-id pub-id-type="pmid">27268795</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richards</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology</article-title>
+          <source>Genet. Med.</source>
+          <year>2015</year>
+          <volume>17</volume>
+          <fpage>405</fpage>
+          <lpage>424</lpage>
+          <pub-id pub-id-type="pmid">25741868</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR45">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Untergasser</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Primer3&#x2014;new capabilities and interfaces</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2012</year>
+          <volume>40</volume>
+          <fpage>e115</fpage>
+          <pub-id pub-id-type="pmid">22730293</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

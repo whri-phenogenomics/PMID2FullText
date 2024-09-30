@@ -1,0 +1,1243 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Crit Care</journal-id><journal-title-group><journal-title>Critical Care</journal-title></journal-title-group><issn pub-type="ppub">1364-8535</issn><issn pub-type="epub">1466-609X</issn><publisher><publisher-name>BioMed Central</publisher-name><publisher-loc>London</publisher-loc></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38956604</article-id><article-id pub-id-type="pmc">11218270</article-id><article-id pub-id-type="publisher-id">5000</article-id><article-id pub-id-type="doi">10.1186/s13054-024-05000-3</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research</subject></subj-group></article-categories><title-group><article-title>Integrative multi-omics analysis unravels the host response landscape and reveals a serum protein panel for early prognosis prediction for ARDS</article-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Lin</surname><given-names>Mengna</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Xu</surname><given-names>Feixiang</given-names></name><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Sun</surname><given-names>Jian</given-names></name><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Song</surname><given-names>Jianfeng</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Shen</surname><given-names>Yao</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author"><name><surname>Lu</surname><given-names>Su</given-names></name><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Ding</surname><given-names>Hailin</given-names></name><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Lan</surname><given-names>Lulu</given-names></name><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Chen</surname><given-names>Chen</given-names></name><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Ma</surname><given-names>Wen</given-names></name><xref ref-type="aff" rid="Aff5">5</xref></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Wu</surname><given-names>Xueling</given-names></name><address><email>wuxueling76@126.com</email></address><xref ref-type="aff" rid="Aff6">6</xref></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Song</surname><given-names>Zhenju</given-names></name><address><email>song.zhenju@zs-hospital.sh.cn</email></address><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff2">2</xref><xref ref-type="aff" rid="Aff7">7</xref></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Wang</surname><given-names>Weibing</given-names></name><address><email>wwb@fudan.edu.cn</email></address><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff5">5</xref></contrib><aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/013q1eq08</institution-id><institution-id institution-id-type="GRID">grid.8547.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 0125 2443</institution-id><institution>Shanghai Institute of Infectious Disease and Biosecurity, School of Public Health, </institution><institution>Fudan University, </institution></institution-wrap>Shanghai, China </aff><aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.8547.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 0125 2443</institution-id><institution>Department of Emergency Medicine, Zhongshan Hospital, </institution><institution> Fudan University, </institution></institution-wrap>Shanghai, China </aff><aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/013q1eq08</institution-id><institution-id institution-id-type="GRID">grid.8547.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 0125 2443</institution-id><institution>Department of Emergency Medicine, Minhang Hospital, </institution><institution>Fudan University, </institution></institution-wrap>Shanghai, China </aff><aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.8547.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 0125 2443</institution-id><institution>Department of Respiratory Medicine, Pudong Hospital, </institution><institution>Fudan University, </institution></institution-wrap>Shanghai, China </aff><aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/013q1eq08</institution-id><institution-id institution-id-type="GRID">grid.8547.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 0125 2443</institution-id><institution>School of Public Health, </institution><institution>Fudan University, </institution></institution-wrap>Shanghai, China </aff><aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.16821.3c</institution-id><institution-id institution-id-type="ISNI">0000 0004 0368 8293</institution-id><institution>Department of Respiratory Medicine, Renji Hospital, </institution><institution>Shanghai Jiaotong University School of Medicine, </institution></institution-wrap>Shanghai, China </aff><aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/013q1eq08</institution-id><institution-id institution-id-type="GRID">grid.8547.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 0125 2443</institution-id><institution>Institute of Emergency Rescue and Critical Care, </institution><institution>Fudan University, </institution></institution-wrap>Shanghai, China </aff></contrib-group><pub-date pub-type="epub"><day>2</day><month>7</month><year>2024</year></pub-date><pub-date pub-type="pmc-release"><day>2</day><month>7</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>28</volume><elocation-id>213</elocation-id><history><date date-type="received"><day>4</day><month>5</month><year>2024</year></date><date date-type="accepted"><day>24</day><month>6</month><year>2024</year></date></history><permissions><copyright-statement>&#xA9; The Author(s) 2024</copyright-statement><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p></license></permissions><abstract id="Abs1"><sec><title>Background</title><p id="Par1">The multidimensional biological mechanisms underpinning acute respiratory distress syndrome (ARDS) continue to be elucidated, and early biomarkers for predicting ARDS prognosis are yet to be identified.</p></sec><sec><title>Methods</title><p id="Par2">We conducted a multicenter observational study, profiling the 4D-DIA proteomics and global metabolomics of serum samples collected from patients at the initial stage of ARDS, alongside samples from both disease control and healthy control groups. We identified 28-day prognosis biomarkers of ARDS in the discovery cohort using the LASSO method, fold change analysis, and the Boruta algorithm. The candidate biomarkers were validated through parallel reaction monitoring (PRM) targeted mass spectrometry in an external validation cohort. Machine learning models were applied to explore the biomarkers of ARDS prognosis.</p></sec><sec><title>Results</title><p id="Par3">In the discovery cohort, comprising 130 adult ARDS patients (mean age 72.5, 74.6% male), 33 disease controls, and 33 healthy controls, distinct proteomic and metabolic signatures were identified to differentiate ARDS from both control groups. Pathway analysis highlighted the upregulated sphingolipid signaling pathway as a key contributor to the pathological mechanisms underlying ARDS. MAP2K1 emerged as the hub protein, facilitating interactions with various biological functions within this pathway. Additionally, the metabolite sphingosine 1-phosphate (S1P) was closely associated with ARDS and its prognosis. Our research further highlights essential pathways contributing to the deceased ARDS, such as the downregulation of hematopoietic cell lineage and calcium signaling pathways, contrasted with the upregulation of the unfolded protein response and glycolysis. In particular, GAPDH and ENO1, critical enzymes in glycolysis, showed the highest interaction degree in the protein&#x2013;protein interaction network of ARDS. In the discovery cohort, a panel of 36 proteins was identified as candidate biomarkers, with 8 proteins (VCAM1, LDHB, MSN, FLG2, TAGLN2, LMNA, MBL2, and LBP) demonstrating significant consistency in an independent validation cohort of 183 patients (mean age 72.6&#xA0;years, 73.2% male), confirmed by PRM assay. The protein-based model exhibited superior predictive accuracy compared to the clinical model in both the discovery cohort (AUC: 0.893 <italic>vs.</italic> 0.784; Delong test, <italic>P</italic>&#x2009;&lt;&#x2009;0.001) and the validation cohort (AUC: 0.802 <italic>vs.</italic> 0.738; Delong test, <italic>P</italic>&#x2009;&#x2009;=&#x2009;0.008).</p></sec><sec><title>Interpretation</title><p id="Par4">Our multi-omics study demonstrated the potential biological mechanism and therapy targets in ARDS. This study unveiled several novel predictive biomarkers and established a validated prediction model for the poor prognosis of ARDS, offering valuable insights into the prognosis of individuals with ARDS.</p></sec><sec><title>Supplementary Information</title><p>The online version contains supplementary material available at 10.1186/s13054-024-05000-3.</p></sec></abstract><kwd-group xml:lang="en"><title>Keywords</title><kwd>Proteomics</kwd><kwd>Metabolomics</kwd><kwd>Multi-omics</kwd><kwd>ARDS</kwd><kwd>Machine learning</kwd><kwd>Prognosis model</kwd></kwd-group><funding-group><award-group><funding-source><institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100012166</institution-id><institution>National Key Research and Development Program of China</institution></institution-wrap></funding-source><award-id>2021YFC2501800</award-id><principal-award-recipient><name><surname>Song</surname><given-names>Zhenju</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution>National Natural Science Foundation of China</institution></funding-source><award-id>82072214</award-id><principal-award-recipient><name><surname>Song</surname><given-names>Zhenju</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution>Science and Technology of Shanghai Committee</institution></funding-source><award-id>23Y31900100</award-id><principal-award-recipient><name><surname>Song</surname><given-names>Zhenju</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution>Shanghai Municipal Science and Technology Major Project</institution></funding-source><award-id>ZD2021CY001</award-id><principal-award-recipient><name><surname>Wang</surname><given-names>Weibing</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution>Shanghai New Three-year Action Plan for Public Health</institution></funding-source><award-id>GWVI-11.1-03</award-id><principal-award-recipient><name><surname>Wang</surname><given-names>Weibing</given-names></name></principal-award-recipient></award-group></funding-group><custom-meta-group><custom-meta><meta-name>issue-copyright-statement</meta-name><meta-value>&#xA9; BioMed Central Ltd., part of Springer Nature 2024</meta-value></custom-meta></custom-meta-group></article-meta></front>
+  <body>
+    <sec id="Sec1">
+      <title>Introduction</title>
+      <p id="Par25">ARDS represents a prevalent manifestation of critical illness, arising from severe infections, major injuries, or the inhalation of harmful irritants [<xref ref-type="bibr" rid="CR1">1</xref>]. Research indicates that ARDS affects approximately 10% of patients in intensive care units (ICUs), with mortality reaching up to 46% and even 70% during the coronavirus disease 2019 (COVID-19) pandemic [<xref ref-type="bibr" rid="CR2">2</xref>]. Consequently, there is a need to seek effective treatments and precise prognostic methods to enhance ARDS patient outcomes, a need more intensified by the COVID-19 crisis. However, predicting ARDS prognosis in the early days after ARDS diagnosis is challenging due to the high variability in the underlying mechanisms of ARDS. The systemic response alterations observed in ARDS can be attributed to various factors, including pathogen and injury exposure, genetic susceptibility, and immune responses [<xref ref-type="bibr" rid="CR3">3</xref>]. These factors may influence protein activity and the downstream metabolites that drive disease progression [<xref ref-type="bibr" rid="CR4">4</xref>&#x2013;<xref ref-type="bibr" rid="CR6">6</xref>]. Therefore, it is crucial to investigate the potential association between host-derived proteins and metabolites circulating in the bloodstream with the pathogenesis and advancement of ARDS.</p>
+      <p id="Par26">The integration of multi-omics approaches, particularly the combination of proteomics and metabolomics, elucidates the interactions across different biological system layers, as demonstrated in studies on cardiomyopathy [<xref ref-type="bibr" rid="CR7">7</xref>], non&#x2011;small cell lung cancer [<xref ref-type="bibr" rid="CR8">8</xref>], hepatitis C infection [<xref ref-type="bibr" rid="CR9">9</xref>], etc. Previous studies have utilized serum proteins or metabolites to investigate infectious diseases. For example, one study identified proteins capable of accurately distinguishing and predicting COVID-19 outcomes [<xref ref-type="bibr" rid="CR5">5</xref>]. Jacob <italic>et al.</italic> used proteomics and metabolomics to identify early predictive and pathogenic signatures of <italic>Staphylococcus aureus</italic> bacteremia [<xref ref-type="bibr" rid="CR10">10</xref>]. Yi Wang and his colleagues investigated new diagnosis biomarkers and potential mechanisms in pediatric severe community-acquired pneumonia using proteomics combined with metabolomics [<xref ref-type="bibr" rid="CR11">11</xref>]. However, the interplay between proteomic and metabolic profiles in the progression of adult ARDS and their collective role from a holistic perspective remains underexplored. Moreover, blood biomarkers have gained significant interest in ARDS investigations in recent years [<xref ref-type="bibr" rid="CR12">12</xref>], showing promise in enhancing diagnosis, prognostication, and management strategies for ARDS, either independently or in conjunction with physiological parameters.</p>
+      <p id="Par27">The primary objective of this study is to utilize proteomics and metabolomics to investigate the host response in ARDS within a discovery cohort comprising ARDS onset, disease, and healthy controls. This approach enabled a comprehensive profiling of biological characteristics and potential mechanisms associated with ARDS. The second objective is to screen the candidate biomarkers of ARDS prognosis based on proteomics and machine learning methods. Then, we employed the Parallel Reaction Monitoring (PRM) method to validate the prognosis biomarkers at ARDS onset in an independent cohort. The multi-omic analysis generated in this study provided a global overview of the molecular changes, which may provide useful insight into the therapy and prognosis of ARDS.</p>
+    </sec>
+    <sec id="Sec2">
+      <title>Material and methods</title>
+      <sec id="Sec3">
+        <title>Ethical approval</title>
+        <p id="Par28">The study involving human participants was reviewed and approved by the Ethical Committee of Zhongshan Hospital, Fudan University, China (Ethical approval number: B2023-029R), Renji Hospital, Shanghai Jiaotong University School of Medicine, China (No. LY2023-096-B), Minhang Hospital, Fudan University, China (No. 2022-041-01K), and Pudong Hospital, Fudan University, China (No. WZ-22). Written informed consent to participate in this study was provided by the participants or their relatives.</p>
+      </sec>
+      <sec id="Sec4">
+        <title>Collections and preparation of clinical specimen</title>
+        <sec id="Sec5">
+          <title>Discovery cohort</title>
+          <p id="Par29">Single-center observational study. ARDS patients were recruited from the ICU of Zhongshan Hospital between December 2022 and September 2023. The ARDS cohort included patients aged over 18 years who were admitted to the ICU and clinically diagnosed with ARDS according to the Berlin definition [<xref ref-type="bibr" rid="CR13">13</xref>]. Serum samples were collected within 48 hours after diagnosis. Patients whose diagnosis of ARDS was agreed upon by at least two out of three clinical experts were included. A comprehensive analysis of clinical data was performed, utilizing patient medical records to gather information on routine blood tests, liver function tests (including alanine aminotransferase [ALT] and aspartate aminotransferase [AST]), total and conjugated bilirubin (STB and CB), renal function indicators (blood urea nitrogen [BUN] and creatinine [Cr]), albumin [Alb], C-reactive protein [CRP)], procalcitonin [PCT], and coagulation profiles (fibrinogen [Fg], prothrombin time [PT], activated partial thromboplastin time [APTT], and D-dimer). The Sepsis-related Organ Failure Assessment (SOFA) score and PaO<sub>2</sub>/FiO<sub>2</sub> ratio (P/F ratio) were evaluated concurrently. Comorbidities were also collected. For comparative analysis, disease controls (DC) and healthy controls (HC) were recruited and matched with the ARDS cohort based on age and sex. The inclusion criteria for the DC group were as follows: patients aged &gt; 18 years, patients admitted to the ICU and had risk factors (sepsis, pneumonia, etc.) of ARDS, serum samples will be collected within the first 48 hours of ICU admission. We finally chose who did not progress to ARDS during the hospital stay. Patients who transferred to the other hospital were excluded. The HC group was derived from individuals registered at the Health Check Center of Zhongshan Hospital. HC controls were selected based on the absence of acute diseases such as infection and the lack of significant abnormalities on chest radiography. The control groups were matched for age and sex with the ARDS patients. The details for inclusion and exclusion for ARDS, DC, and HC groups are in the Supporting Information (Fig. <xref rid="MOESM10" ref-type="media">S1</xref>).</p>
+        </sec>
+        <sec id="Sec6">
+          <title>Validation cohort</title>
+          <p id="Par30">Multi-center validation. Validation samples were from the ICUs of the other three hospitals. Serum samples from patients diagnosed with ARDS were collected within 48 hours after the onset of ARDS. All venous blood was collected from participants and processed within 8 hours to isolate serum. The serum was separated by centrifugation at 300 &#xD7; g for 10 min and stored at &#x2212; 80&#xA0;&#xB0;C until testing.</p>
+        </sec>
+        <sec id="Sec7">
+          <title>Proteomics sequencing and data preprocessing</title>
+          <p id="Par31">Proteins were enriched from serum using magnetic nanomaterials [<xref ref-type="bibr" rid="CR14">14</xref>]. The mass spectrometer was operated in data-independent acquisition (DIA) mode. The DIA raw data were processed using Spectronaut Pulsar 17.5 software (Biognosys) against the Uniprot-Homo sapiens-9606-2023.2.1.fasta database. The details of proteomics sequencing and data preprocessing were in Supporting Information.</p>
+        </sec>
+        <sec id="Sec8">
+          <title>Metabolomics sequencing and data preprocessing</title>
+          <p id="Par32">A Dionex Ultimate 3000 RS UHPLC fitted with Q-Exactive plus quadrupole-Orbitrap mass spectrometer equipped with heated electrospray ionization (ESI) source (Thermo Fisher Scientific, Waltham, MA, USA) was used to analyze the metabolic profiling in both ESI positive and ESI negative ion modes. The original liquid chromatography coupled with high-resolution mass spectrometry (LC-MS) data was processed by software Progenesis QI V2.3 (Nonlinear, Dynamics, Newcastle, UK) for baseline filtering, peak identification, integral, retention time correction, peak alignment, and normalization. The main parameters of 5 ppm precursor tolerance, 10 ppm product tolerance, and 5% production threshold were applied. Compound identification was based on the precise mass-to-charge ratio (M/z), secondary fragments, and isotopic distribution using The Human Metabolome Database (HMDB), Lipidmaps (V2.3), Metlin, EMDB, PMDB, and self-built databases to do qualitative analysis. The details of data preprocessing were in Supporting Information.</p>
+        </sec>
+        <sec id="Sec9">
+          <title>Validation of candidate biomarkers using PRM assay</title>
+          <p id="Par33">To evaluate the candidate biomarkers of prognosis, a unique PRM assay was generated, incorporating as many candidate proteins as possible. For the proteome profiling samples, the peptide was examined utilizing a Q Exactive HF-X Hybrid Quadrupole-Orbitrap Mass Spectrometer (Thermo Fisher Scientific), integrated with a state-of-the-art high-performance liquid chromatography system (EASY nLC 1200, Thermo Fisher Scientific). The experimental details of the PRM assay were in Supporting Information.</p>
+        </sec>
+      </sec>
+      <sec id="Sec10">
+        <title>Bioinformatic analysis</title>
+        <sec id="Sec11">
+          <title>Data quality control and pre-processing of proteomics</title>
+          <p id="Par34">The proteomics data analysis encompassed the following key procedures mentioned in former studies [<xref ref-type="bibr" rid="CR15">15</xref>, <xref ref-type="bibr" rid="CR16">16</xref>]. Step 1: Screen proteins with unique peptides &#x2265; 1 for further analysis. Step 2: Proteins with more than 50% null values in three groups were excluded. Step 3: For proteins whose effective value is &#x2265;&#xA0;50% in one group, the empty values were filled with the mean value of the group. The remaining missing values were filled using half of the sample&#x2019;s minimum value. Step 4: high-quality proteins were retained by Log2 transformation and z-normalization for subsequent data analysis. Specifically, 2669 proteins were collected for downstream statistical and bioinformatics analysis.</p>
+        </sec>
+        <sec id="Sec12">
+          <title>Screening of differentially abundant proteins (DAP), differentially abundant metabolites (DAM), and enrichment analysis</title>
+          <p id="Par35">Protein abundance changes in different sample groups were conducted through principal component analysis (PCA). For circulating proteomic data from the discovery cohort, the fold change (FC) value was derived from the ratio of ARDS to non-ARDS cases.&#xA0;Statistically significant differentially abundant proteins (DAPs) and differentially abundant metabolites (DAMs) were identified based on the criteria of FC &#x2265; 2 or FC &#x2264; &#x2212;&#x2009;2, and <italic>P</italic> &lt; 0.05. <italic>P</italic>-values were adjusted for false discovery rate (FDR) using Benjamini and Hochberg. We&#xA0;performed Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment&#xA0;to investigate further potential pathological and biological mechanisms associated with ARDS. The functional enrichment analysis of KEGG was performed with the ClusterProfiler package in <italic>R</italic>. KEGG pathway database (<ext-link ext-link-type="uri" xlink:href="https://www.kegg.jp/kegg/pathway.html">https://www.kegg.jp/kegg/pathway.html</ext-link>) was applied for metabolites pathway enrichment analysis.</p>
+          <p id="Par36">Utilizing the results from KEGG pathways, we identified key interactions between enriched proteins and metabolites in ARDS. These elements were systematically linked to their corresponding pathways to elucidate the molecular mechanisms potentially influencing ARDS development. This linkage is visually represented through network diagrams, created by Cytoscape [<xref ref-type="bibr" rid="CR17">17</xref>].</p>
+        </sec>
+        <sec id="Sec13">
+          <title>Protein-protein interaction network analysis</title>
+          <p id="Par37">The protein-protein interactions (PPIs) were obtained from the STRING database [<xref ref-type="bibr" rid="CR18">18</xref>]. Differentially abundant proteins (<italic>P</italic>-value &lt; 0.05) were mapped to PPIs to generate the DAP PPI network in ARDS. The Cytoscape software [<xref ref-type="bibr" rid="CR17">17</xref>] was used to visualize the network. The Cytoscape plugin cytoHubba [<xref ref-type="bibr" rid="CR19">19</xref>] was utilized to calculate the degree in the PPI network.</p>
+        </sec>
+        <sec id="Sec14">
+          <title>Gene set enrichment analysis (GSEA) analysis</title>
+          <p id="Par38">For the GSEA enrichment analysis, we utilized the Molecular Signatures Database (MSigDB), specifically focusing on the KEGG gene set. We designated an FDR threshold of 0.05 as the boundary for statistical significance. The process for computing the Normalized Enrichment Score (NES) within the GSEA framework entails the prioritization of proteins based on their statistical relevance, ranging from the most to the least significant, succeeded by the examination of the distribution pattern of the proteins associated with each gene set throughout the prioritized list. The integrated abundance of proteins was then calculated by utilizing the ClusterProfiler package of <italic>R</italic> [<xref ref-type="bibr" rid="CR20">20</xref>].</p>
+        </sec>
+        <sec id="Sec15">
+          <title>Constructing a prognostic model based on the early serum proteome</title>
+          <p id="Par39">We constructed three classification models to predict adverse outcomes of ARDS: first, screened candidate proteins were used to construct a protein-based model. Least absolute shrinkage and selection operator (LASSO) and Boruta methods were used to screen the candidate proteins in the discovery cohort, then combined with DAPs, candidate biomarkers with unique peptides &#x2265;&#xA0;3 were proposed for further targeted proteomics analysis. Second, to compare the protein model with current clinical practice, a clinical risk model was constructed and optimized. The clinical parameters were selected by the LASSO method among the lab tests, SOFA, P/F ratio, and comorbidity. A third combined model was formed by stacking the clinical prognostic parameters with the protein parameters. Five machine learning methods, Na&#xEF;ve Bayes (Bayes), Random forest (RF), Generalized Linear Model (Glm), Supporting Vector machine (SVM), and Gradient Boosting Machine (GBM) were used in the three classification models. Discrimination performance was assessed using the receiver operating characteristic (ROC) curve with an area under the curve (AUC), sensitivity, and specificity. The DeLong test was strategically utilized to statistically compare the AUCs across different models, providing a robust assessment of their discriminative capabilities. To prevent overfitting, &#x2018;10-fold cross-validation&#x2019; was employed to assess the performance of machine learning methods.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="Sec16">
+      <title>Statistical analysis</title>
+      <p id="Par40">Mann&#x2013;Whitney <italic>U</italic> tests or Kruskal&#x2013;Wallis tests were used for comparisons of continuous variables, whereas <italic>Chi-square</italic> tests were used for categorical variables. Correlation analysis was assessed by <italic>Spearman</italic> correlation. A <italic>P</italic> value of &lt; 0.05 (two-tailed) was considered statistically significant Benjamini&#x2013;Hochberg correction for multiple testing was applied as appropriate.</p>
+    </sec>
+    <sec id="Sec17">
+      <title>Results</title>
+      <sec id="Sec18">
+        <title>Participants characteristics</title>
+        <p id="Par41">The characteristics of the validation and discovery cohorts are in Table <xref rid="Tab1" ref-type="table">1</xref>. There was no significant difference in the ARDS etiologies between the discovery and validation cohorts. For the discovery cohort, the demographic and clinical characteristics of 130 ARDS cases, including 54 survived ARDS and 76 deceased ARDS are presented in Table <xref rid="Tab2" ref-type="table">2</xref>. At baseline, the mean age of the ARDS group was 72.5 (SD, 11.4) years, and 74.6% were male. After the diagnosis of ARDS, non-survivors showed decreased P/F ratio, PLT, and Alb levels, alongside increased SOFA scores, BUN, and AST, compared to the survivors. Gender distribution and age were matched in DC and HC with ARDS (Table <xref rid="Tab1" ref-type="table">1</xref>). We acquired serum proteome profiles of all participants (<italic>n</italic> = 196) using a DIA strategy and global metabolome by the LC-MS method. An overview of proteomics and metabolomics workflow is showed in Fig. <xref rid="Fig1" ref-type="fig">1</xref>A. The independent prospective validation cohort incorporating 183 early ARDS patients with 85 deceased and 98 survived (Fig. <xref rid="Fig1" ref-type="fig">1</xref>A and Table <xref rid="MOESM10" ref-type="media">S1</xref>). The characteristics of the validation and discovery cohorts were nearly consistent, except for Alb and Cr (Table <xref rid="Tab2" ref-type="table">2</xref> and Table <xref rid="MOESM10" ref-type="media">S1</xref>).<table-wrap id="Tab1"><label>Table&#xA0;1</label><caption><p>Baseline characteristics of the participants in the discovery and validation cohorts</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">ARDS in the discovery cohort (N&#x2009;=&#x2009;130)</th><th align="left">ARDS in the validation cohort (N&#x2009;=&#x2009;183)</th><th align="left">Disease control (N&#x2009;=&#x2009;33)</th><th align="left">Healthy control (N&#x2009;=&#x2009;33)</th><th align="left"><italic>P1</italic></th><th align="left"><italic>P2</italic></th></tr></thead><tbody><tr><td align="left">Age (mean, SD)</td><td align="left">72.5 (11.4)</td><td align="left">72.6 (14.3)</td><td align="left">72.1 (11.6)</td><td align="left">72.0 (8.2)</td><td char="." align="char">0.889</td><td char="." align="char">0.883</td></tr><tr><td align="left">Male (n, %)</td><td align="left">97 (74.6)</td><td align="left">134 (73.2)</td><td align="left">25 (75.8)</td><td align="left">25 (75.8)</td><td char="." align="char">0.783</td><td char="." align="char">0.774</td></tr><tr><td align="left">SOFA</td><td align="left">6 [4&#x2013;9]</td><td align="left">4 [3&#x2013;7]</td><td align="left">3 [2, 3]</td><td align="left">&#x2013;</td><td char="." align="char">0.001**</td><td char="." align="char">&#x2009;&lt;&#x2009;0.001***</td></tr><tr><td align="left">P/F ratio</td><td align="left">109 [81&#x2013;151]</td><td align="left">150.0 [90.0&#x2013;239.0]</td><td align="left">265 [203&#x2013;354]</td><td align="left">&#x2013;</td><td char="." align="char">0.001**</td><td char="." align="char">&#x2009;&lt;&#x2009;0.001***</td></tr><tr><td align="left">RBC (*10<sup>12</sup>/L)</td><td align="left">3.66 [2.90&#x2013;4.11]</td><td align="left">3.91 [3.28&#x2013;4.28]</td><td align="left">4.10 [3.77&#x2013;4.50]</td><td align="left">&#x2013;</td><td char="." align="char">0.099</td><td char="." align="char">0.367</td></tr><tr><td align="left">Hb (g/L)</td><td align="left">111.0 [90.0&#x2013;128.0]</td><td align="left">115.0 [96.0&#x2013;131.0]</td><td align="left">127.5 [113.3&#x2013;137.3]</td><td align="left">&#x2013;</td><td char="." align="char">0.167</td><td char="." align="char">0.657</td></tr><tr><td align="left">WBC (*10<sup>9</sup>/L)</td><td align="left">10.35 [7.65&#x2013;14.30]</td><td align="left">10.51 [7.36&#x2013;14.50]</td><td align="left">7.2 [5.4&#x2013;11.2]</td><td align="left">&#x2013;</td><td char="." align="char">0.761</td><td char="." align="char">0.676</td></tr><tr><td align="left">NEU (*10<sup>9</sup>/L)</td><td align="left">9.30 [6.60&#x2013;12.45]</td><td align="left">9.0 [6.2&#x2013;13.0]</td><td align="left">5.3 [3.7&#x2013;9.7]</td><td align="left">&#x2013;</td><td char="." align="char">0.968</td><td char="." align="char">0.352</td></tr><tr><td align="left">LYM (*10<sup>9</sup>/L)</td><td align="left">0.4 [0.2&#x2013;0.6]</td><td align="left">0.6 [0.4&#x2013;1.0]</td><td align="left">0.8 [0.5&#x2013;1.1]</td><td align="left">&#x2013;</td><td char="." align="char">0.001**</td><td char="." align="char">0.234</td></tr><tr><td align="left">PLT (*10<sup>9</sup>/L)</td><td align="left">153.5 [82.5&#x2013;229.3]</td><td align="left">155.0 [110.0&#x2013;222.0]</td><td align="left">191.0 [151.5&#x2013;254.0]</td><td align="left">&#x2013;</td><td char="." align="char">0.545</td><td char="." align="char">0.005**</td></tr><tr><td align="left">ALT (U/L)</td><td align="left">27.0 [18.0&#x2013;45.3]</td><td align="left">30.0 [18.0&#x2013;53.0]</td><td align="left">30.0 [22.0&#x2013;41.0]</td><td align="left">&#x2013;</td><td char="." align="char">0.282</td><td char="." align="char">0.561</td></tr><tr><td align="left">AST (U/L)</td><td align="left">29.0 [20.0&#x2013;47.0]</td><td align="left">34.0 [21.0&#x2013;53.0]</td><td align="left">28.0 [21.0&#x2013;50.8]</td><td align="left">&#x2013;</td><td char="." align="char">0.158</td><td char="." align="char">0.041*</td></tr><tr><td align="left">STB (&#xB5;mol/L)</td><td align="left">11.4 [7.6&#x2013;19.2]</td><td align="left">11.10 [8.60&#x2013;20.60]</td><td align="left">9.9 [6.7&#x2013;11.7]</td><td align="left">&#x2013;</td><td char="." align="char">0.218</td><td char="." align="char">0.931</td></tr><tr><td align="left">CB (&#xB5;mol/L)</td><td align="left">4.9 [3.1&#x2013;8.4]</td><td align="left">4.10 [3.00&#x2013;6.70]</td><td align="left">3.9 [3.0&#x2013;5.2]</td><td align="left">&#x2013;</td><td char="." align="char">0.479</td><td char="." align="char">0.938</td></tr><tr><td align="left">BUN (mmol/L)</td><td align="left">12.15 [9.18&#x2013;20.98]</td><td align="left">9.30 [6.10&#x2013;15.00]</td><td align="left">6.9 [5.5&#x2013;9.0]</td><td align="left">&#x2013;</td><td char="." align="char">0.001**</td><td char="." align="char">0.049*</td></tr><tr><td align="left">Cr (&#xB5;mol/L)</td><td align="left">90.0 [64.8&#x2013;128.8]</td><td align="left">79.0 [63.0&#x2013;113.0]</td><td align="left">77.5 [62.5&#x2013;97.8]</td><td align="left">&#x2013;</td><td char="." align="char">0.131</td><td char="." align="char">0.097</td></tr><tr><td align="left">Alb (g/L)</td><td align="left">31.0 [28.0&#x2013;34.0]</td><td align="left">32.0 [29.0&#x2013;35.0]</td><td align="left">34.0 [32.0&#x2013;37.0]</td><td align="left">&#x2013;</td><td char="." align="char">0.058</td><td char="." align="char">0.006**</td></tr><tr><td align="left">CRP (mg/L)</td><td align="left">60.3 [19.6&#x2013;90.0]</td><td align="left">64.0 [23.4&#x2013;145.1]</td><td align="left">23.9 [4.4&#x2013;62.4]</td><td align="left">&#x2013;</td><td char="." align="char">0.020*</td><td char="." align="char">0.109</td></tr><tr><td align="left">PCT (ng/mL)</td><td align="left">0.29 [0.11&#x2013;0.61]</td><td align="left">0.26 [0.11&#x2013;1.22]</td><td align="left">0.07 [0.03&#x2013;0.19]</td><td align="left">&#x2013;</td><td char="." align="char">0.177</td><td char="." align="char">0.568</td></tr><tr><td align="left">Fg (mg/dL)</td><td align="left">419.5 [278.3&#x2013;540.3]</td><td align="left">448.0 [212.0&#x2013;526.0]</td><td align="left">469.0 [269.0&#x2013;537.0]</td><td align="left">&#x2013;</td><td char="." align="char">0.655</td><td char="." align="char">0.921</td></tr><tr><td align="left">PT (second)</td><td align="left">13.3 [12.5&#x2013;14.7]</td><td align="left">13.5 [12.6&#x2013;15.1]</td><td align="left">12.6 [12.0&#x2013;13.3]</td><td align="left">&#x2013;</td><td char="." align="char">0.456</td><td char="." align="char">0.079</td></tr><tr><td align="left">APTT (second)</td><td align="left">29.3 [26.4&#x2013;34.3]</td><td align="left">29.2 [26.8&#x2013;35.5]</td><td align="left">27.6 [25.9&#x2013;30.9]</td><td align="left">&#x2013;</td><td char="." align="char">0.108</td><td char="." align="char">0.944</td></tr><tr><td align="left">D-dimer (mg/L)</td><td align="left">4.22 [1.75&#x2013;10.7]</td><td align="left">2.86 [1.28&#x2013;8.06]</td><td align="left">1.13 [0.57&#x2013;3.31]</td><td align="left">&#x2013;</td><td char="." align="char">0.079</td><td char="." align="char">0.158</td></tr><tr><td align="left">Hypertension (n, %)</td><td align="left">87 (66.9)</td><td align="left">90 (49.2)</td><td align="left">23 (69.7)</td><td align="left">&#x2013;</td><td char="." align="char">0.002**</td><td char="." align="char">0.607</td></tr><tr><td align="left">Coronary heart disease (n, %)</td><td align="left">30 (23.1)</td><td align="left">36 (19.7)</td><td align="left">7 (21.2)</td><td align="left">&#x2013;</td><td char="." align="char">0.468</td><td char="." align="char">1.000</td></tr><tr><td align="left">Diabetes (n, %)</td><td align="left">50 (38.5)</td><td align="left">57 (31.1)</td><td align="left">14 (42.4)</td><td align="left">&#x2013;</td><td char="." align="char">0.180</td><td char="." align="char">0.054</td></tr><tr><td align="left">Cerebrovascular disease (n, %)</td><td align="left">23 (17.7)</td><td align="left">30 (16.4)</td><td align="left">2 (6.1)</td><td align="left">&#x2013;</td><td char="." align="char">0.763</td><td char="." align="char">0.659</td></tr><tr><td align="left">Immunosuppression (n, %)</td><td align="left">13 (10.0)</td><td align="left">20 (10.9)</td><td align="left">1 (3.0)</td><td align="left">&#x2013;</td><td char="." align="char">0.792</td><td char="." align="char">0.953</td></tr><tr><td align="left">Vasopressor use at enrolment (n, %)</td><td align="left">24 (18.5)</td><td align="left">34 (18.6)</td><td align="left">3 (9.1)</td><td align="left">&#x2013;</td><td char="." align="char">1.000</td><td char="." align="char">0.303</td></tr><tr><td align="left">Neuromuscular blockade use at enrolment (n, %)</td><td align="left">39 (30.0)</td><td align="left">50 (27.3)</td><td align="left">0 (0)</td><td align="left">&#x2013;</td><td char="." align="char">0.696</td><td char="." align="char">&#x2009;&lt;&#x2009;0.001***</td></tr><tr><td align="left">Mechanical ventilation (n, %)</td><td align="left">118 (90.8)</td><td align="left">165 (90.2)</td><td align="left">0 (0)</td><td align="left">&#x2013;</td><td char="." align="char">1.000</td><td char="." align="char">&#x2009;&lt;&#x2009;0.001***</td></tr><tr><td align="left">Prone positioning at enrolment (n, %)</td><td align="left">70 (53.8)</td><td align="left">96 (52.5)</td><td align="left">0 (0)</td><td align="left">&#x2013;</td><td char="." align="char">0.899</td><td char="." align="char">&#x2009;&lt;&#x2009;0.001***</td></tr><tr><td align="left">Risk factors (n, %)</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td char="." align="char">0.962</td><td char="." align="char">0.882</td></tr><tr><td align="left">Pneumonia</td><td align="left">96 (73.8)</td><td align="left">137 (74.9)</td><td align="left">26 (75.8)</td><td align="left">&#x2013;</td><td char="." align="char"/><td char="." align="char"/></tr><tr><td align="left">Sepsis</td><td align="left">26 (20.0)</td><td align="left">36 (19.7)</td><td align="left">6 (18.2)</td><td align="left">&#x2013;</td><td char="." align="char"/><td char="." align="char"/></tr><tr><td align="left">Other</td><td align="left">8 (6.2)</td><td align="left">10 (5.5)</td><td align="left">1 (3.0)</td><td align="left">&#x2013;</td><td char="." align="char"/><td char="." align="char"/></tr><tr><td align="left">Source of infection (n, %)</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td char="." align="char">0.928</td><td char="." align="char">0.786</td></tr><tr><td align="left">Thorax</td><td align="left">96 (73.8)</td><td align="left">137 (74.9)</td><td align="left">26 (75.8)</td><td align="left">&#x2013;</td><td char="." align="char"/><td char="." align="char"/></tr><tr><td align="left">Abdomen</td><td align="left">24 (18.5)</td><td align="left">34 (18.6)</td><td align="left">6 (18.2)</td><td align="left">&#x2013;</td><td char="." align="char"/><td char="." align="char"/></tr><tr><td align="left">Other</td><td align="left">10 (7.7)</td><td align="left">12 (6.5)</td><td align="left">1 (3.0)</td><td align="left">&#x2013;</td><td char="." align="char"/><td char="." align="char"/></tr></tbody></table><table-wrap-foot><p><italic>P1</italic>: Comparison between ARDS patients in the discovery cohort and validation cohort; <italic>P2</italic>: Comparison between ARDS patients in the discovery cohort and Disease control</p><p>*<italic>P</italic>&#x2009;&lt;&#x2009;0.05, **<italic>P</italic>&#x2009;&lt;&#x2009;0.01, ***<italic>P</italic>&#x2009;&lt;&#x2009;0.001</p></table-wrap-foot></table-wrap><table-wrap id="Tab2"><label>Table&#xA0;2</label><caption><p>Baseline characteristics of the discovery cohort</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Survived ARDS (n&#x2009;=&#x2009;54)</th><th align="left">Deceased ARDS (n&#x2009;=&#x2009;76)</th><th align="left"><italic>P</italic></th></tr></thead><tbody><tr><td align="left">Age (mean, SD)</td><td align="left">72.2 (11.8)</td><td align="left">73.7 (11.2)</td><td char="." align="char">0.883</td></tr><tr><td align="left">Male (n, %)</td><td align="left">41 (75.9)</td><td align="left">56 (73.7)</td><td char="." align="char">0.774</td></tr><tr><td align="left">SOFA</td><td align="left">5 [4&#x2013;7]</td><td align="left">6 [5&#x2013;9]</td><td char="." align="char">&#x2009;&lt;&#x2009;0.001***</td></tr><tr><td align="left">P/F ratio</td><td align="left">122 [95&#x2013;200]</td><td align="left">98 [73&#x2013;138]</td><td char="." align="char">&#x2009;&lt;&#x2009;0.001***</td></tr><tr><td align="left">RBC (*10<sup>12</sup>/L)</td><td align="left">3.55 [2.88&#x2013;4.00]</td><td align="left">3.71 [2.95&#x2013;4.16]</td><td char="." align="char">0.367</td></tr><tr><td align="left">Hb (g/L)</td><td align="left">108.5 [85.8&#x2013;128.0]</td><td align="left">111.5 [91.3&#x2013;127.8]</td><td char="." align="char">0.657</td></tr><tr><td align="left">WBC (*10<sup>9</sup>/L)</td><td align="left">9.83 [7.56&#x2013;12.32]</td><td align="left">10.41 [7.66&#x2013;15.04]</td><td char="." align="char">0.676</td></tr><tr><td align="left">NEU (*10<sup>9</sup>/L)</td><td align="left">8.80 [6.38&#x2013;10.65]</td><td align="left">9.55 [6.70&#x2013;13.28]</td><td char="." align="char">0.352</td></tr><tr><td align="left">LYM (*10<sup>9</sup>/L)</td><td align="left">0.4 [0.3&#x2013;0.8]</td><td align="left">0.4 [0.2&#x2013;0.6]</td><td char="." align="char">0.234</td></tr><tr><td align="left">PLT (*10<sup>9</sup>/L)</td><td align="left">189.5 [126.8&#x2013;249.5]</td><td align="left">129.0 [68.0&#x2013;205.0]</td><td char="." align="char">0.005**</td></tr><tr><td align="left">ALT (U/L)</td><td align="left">29.5 [19.8&#x2013;54.8]</td><td align="left">25.5 [17.0&#x2013;44.0]</td><td char="." align="char">0.561</td></tr><tr><td align="left">AST (U/L)</td><td align="left">27.0 [20.0&#x2013;34.0]</td><td align="left">34.0 [21.0&#x2013;54.0]</td><td char="." align="char">0.041*</td></tr><tr><td align="left">STB (&#xB5;mol/L)</td><td align="left">10.8 [7.7&#x2013;17.6]</td><td align="left">12.3 [7.4&#x2013;20.1]</td><td char="." align="char">0.931</td></tr><tr><td align="left">CB (&#xB5;mol/L)</td><td align="left">4.5 [3.2&#x2013;6.5]</td><td align="left">5.5 [3.1&#x2013;8.6]</td><td char="." align="char">0.938</td></tr><tr><td align="left">BUN (mmol/L)</td><td align="left">11.55 [9.45&#x2013;15.85]</td><td align="left">12.8 [8.6&#x2013;24.38]</td><td char="." align="char">0.049*</td></tr><tr><td align="left">Cr (&#xB5;mol/L)</td><td align="left">81.0 [63.5&#x2013;111.8]</td><td align="left">96.0 [67.5&#x2013;169.8]</td><td char="." align="char">0.097</td></tr><tr><td align="left">Alb (g/L)</td><td align="left">32.0 [29.0&#x2013;35.3]</td><td align="left">30.0 [28.0&#x2013;32.0]</td><td char="." align="char">0.006**</td></tr><tr><td align="left">CRP (mg/L)</td><td align="left">55.1 [8.6&#x2013;68.3]</td><td align="left">68.9 [26.3&#x2013;98.3]</td><td char="." align="char">0.109</td></tr><tr><td align="left">PCT (ng/mL)</td><td align="left">0.23 [0.08&#x2013;0.76]</td><td align="left">0.30 [0.11&#x2013;0.56]</td><td char="." align="char">0.568</td></tr><tr><td align="left">Fg (mg/dL)</td><td align="left">410.5 [249.8&#x2013;560.3]</td><td align="left">427.0 [301.0&#x2013;538.0]</td><td char="." align="char">0.921</td></tr><tr><td align="left">PT (second)</td><td align="left">13.1 [12.2&#x2013;14.0]</td><td align="left">13.5 [12.7&#x2013;15.1]</td><td char="." align="char">0.079</td></tr><tr><td align="left">APTT (second)</td><td align="left">29.4 [25.6&#x2013;34.2]</td><td align="left">29.3 [27.0&#x2013;34.3]</td><td char="." align="char">0.944</td></tr><tr><td align="left">D-dimer (mg/L)</td><td align="left">3.27 [1.42&#x2013;7.13]</td><td align="left">4.41 [2.02&#x2013;11.50]</td><td char="." align="char">0.158</td></tr><tr><td align="left">Hypertension (n, %)</td><td align="left">38 (70.4)</td><td align="left">49 (64.5)</td><td char="." align="char">0.607</td></tr><tr><td align="left">Coronary heart disease (n, %)</td><td align="left">12 (22.2)</td><td align="left">18 (23.7)</td><td char="." align="char">1.000</td></tr><tr><td align="left">Diabetes (n, %)</td><td align="left">15 (27.8)</td><td align="left">35 (46.1)</td><td char="." align="char">0.054</td></tr><tr><td align="left">Cerebrovascular disease (n, %)</td><td align="left">11 (20.4)</td><td align="left">12 (15.8)</td><td char="." align="char">0.659</td></tr><tr><td align="left">Immunosuppression (n, %)</td><td align="left">6 (11.1)</td><td align="left">7 (9.2)</td><td char="." align="char">0.953</td></tr><tr><td align="left">Vasopressor use at enrolment (n, %)</td><td align="left">8 (14.8)</td><td align="left">16 (21.1)</td><td char="." align="char">0.500</td></tr><tr><td align="left">Neuromuscular blockade use at enrolment (n, %)</td><td align="left">14 (25.9)</td><td align="left">25 (32.9)</td><td char="." align="char">0.509</td></tr><tr><td align="left">Mechanical ventilation (n, %)</td><td align="left">48 (88.9)</td><td align="left">70 (92.1)</td><td char="." align="char">0.553</td></tr><tr><td align="left">Prone positioning at enrolment (n, %)</td><td align="left">30 (55.6)</td><td align="left">40 (52.6)</td><td char="." align="char">0.880</td></tr><tr><td align="left">ARDS risk factors (n, %)</td><td align="left"/><td align="left"/><td char="." align="char">0.397</td></tr><tr><td align="left">Pneumonia</td><td align="left">42 (77.8)</td><td align="left">54 (71.0)</td><td char="." align="char"/></tr><tr><td align="left">Sepsis</td><td align="left">8 (14.8)</td><td align="left">18 (23.7)</td><td char="." align="char"/></tr><tr><td align="left">Other</td><td align="left">4 (7.4)</td><td align="left">4 (5.3)</td><td char="." align="char"/></tr><tr><td align="left">Source of infection (n, %)</td><td align="left"/><td align="left"/><td char="." align="char">0.369</td></tr><tr><td align="left">Thorax</td><td align="left">42 (77.8)</td><td align="left">54 (71.0)</td><td char="." align="char"/></tr><tr><td align="left">Abdomen</td><td align="left">7 (13.0)</td><td align="left">17 (22.4)</td><td char="." align="char"/></tr><tr><td align="left">Other</td><td align="left">5 (9.2)</td><td align="left">5 (6.6)</td><td char="." align="char"/></tr></tbody></table><table-wrap-foot><p>*<italic>P</italic>&#x2009;&lt;&#x2009;0.05, **<italic>P</italic>&#x2009;&lt;&#x2009;0.01, ***<italic>P</italic>&#x2009;&lt;&#x2009;0.001</p></table-wrap-foot></table-wrap><fig id="Fig1"><label>Fig.&#xA0;1</label><caption><p>Study design overview and summary of the serum proteomic analysis of ARDS, disease control, and health control. <bold>A</bold> Overview of the serum proteomic and metabolic workflow, including cohort construction (survived ARDS: N&#x2009;=&#x2009;54, deceased ARDS: N&#x2009;=&#x2009;76, disease control: N&#x2009;=&#x2009;33, and healthy control: N&#x2009;=&#x2009;33), serum validation cohort (survived ARDS: N&#x2009;=&#x2009;98 and deceased ARDS: N&#x2009;=&#x2009;85) and data analysis (proteomic and metabolic data). <bold>B</bold> A number of proteins were identified and quantified in three groups. <bold>C</bold> The top five most abundant proteins are labeled. <bold>D</bold> The clustering tree of each sample</p></caption><graphic xlink:href="13054_2024_5000_Fig1_HTML" id="MO1"/></fig></p>
+      </sec>
+      <sec id="Sec19">
+        <title>Altered serum proteomic profiling in the ARDS group and the biological pathways</title>
+        <p id="Par42">After filtering the low abundant proteins, 2669 high-quality proteins were collected for the data analysis (Additional file <xref rid="MOESM1" ref-type="media">1</xref>). The median protein number for 196 samples was 2471 (Fig. <xref rid="Fig1" ref-type="fig">1</xref>B&#x2013;C). The clustering tree indicated the appropriate pre-processing method in this study (Fig. <xref rid="Fig1" ref-type="fig">1</xref>D). Our preliminary analysis employed PCA method to explore the clustering patterns among the groups (Fig. <xref rid="Fig2" ref-type="fig">2</xref>A and Figs. <xref rid="MOESM10" ref-type="media">S2</xref>A&#x2013;C), which demonstrated a distinct separation between ARDS samples and non-ARDS control groups. A comprehensive differential expression analysis revealed that 1069, 319, and 511 proteins were uniquely altered in ARDS <italic>vs.</italic> HC, ARDS <italic>vs.</italic> DC, and DC <italic>vs.</italic> HC groups, respectively (Fig. <xref rid="Fig2" ref-type="fig">2</xref>B&#x2013;C and Fig. <xref rid="MOESM10" ref-type="media">S2</xref>D, as detailed in Additional file <xref rid="MOESM2" ref-type="media">2</xref>). These findings demonstrated the progressive features of serum protein alterations correlating with the severity of the disease. A critical subset of 214 differentially abundant proteins emerged as consistently regulated across ARDS, with 16 proteins showing persistent downregulation and 198 showing upregulation in comparisons of both ARDS <italic>vs.</italic> DC and ARDS <italic>vs.</italic> HC (Fig. <xref rid="Fig2" ref-type="fig">2</xref>F, Additional file <xref rid="MOESM3" ref-type="media">3</xref>). Among the downregulated proteins, Fetuin B (FETUB) can be considered a reliable biomarker for predicting mortality in <italic>Staphylococcus aureus</italic> bacteremia (SaB) patients because deceased FETUB levels correlate strongly with poor clinical outcomes in patients with SaB [<xref ref-type="bibr" rid="CR10">10</xref>]. Paraoxonase 1 (PON1), negatively associated with higher mortality of sepsis [<xref ref-type="bibr" rid="CR21">21</xref>], underlines significance in ARDS pathology compared to DC and HC groups (Fig. <xref rid="Fig2" ref-type="fig">2</xref>G). Conversely, certain proteins, including Surfactant Protein D (SFTPD) and Signal Transducers and Activators of Transcription 3 (STAT3) et al., were elevated (Additional file <xref rid="MOESM3" ref-type="media">3</xref>). Moreover, SFTPD, a circulating epithelial marker [<xref ref-type="bibr" rid="CR22">22</xref>], and STAT3, an activator of macrophages and neutrophils [<xref ref-type="bibr" rid="CR23">23</xref>], were implicated as potential key contributors to the pathogenesis of ARDS.<fig id="Fig2"><label>Fig.&#xA0;2</label><caption><p>Differentially abundant proteins and functional alterations in ARDS. <bold>A</bold> PCA discriminates ARDS patients from non-ARDS subjects. The % value indicates the explained variance. Volcano plot displaying differentially abundant proteins between ARDS <italic>vs.</italic> HC <bold>B</bold> and ARDS <italic>vs.</italic> DC <bold>C</bold>. Each dot represents a protein, with red dots for proteins significantly upregulated in ARDS and blue dots for proteins significantly downregulated in ARDS. <italic>P</italic> values were calculated using the <italic>R</italic> package &#x2018;limma&#x2019; and adjusted using the Benjamini&#x2013;Hochberg method. Two-sided <italic>P</italic> values were calculated. Fold change&#x2009;&#x2265;&#x2009;2.0 and FDR-adjusted <italic>P</italic>&#x2009;&lt;&#x2009;0.05 is considered statistically significant. <bold>D&#x2013;E</bold> KEGG pathway enrichments of ARDS compared with HC and DC groups, respectively. <bold>F</bold> A Venn diagram elucidates the distribution of DAP across the ARDS, DC, and HC groups. <bold>G</bold> The heatmap showed the 16 overlapped down-regulated proteins in ARDS. <bold>H</bold> A chordal graph maps the interaction between 9 common pathways and their associated proteins</p></caption><graphic xlink:href="13054_2024_5000_Fig2_HTML" id="MO2"/></fig></p>
+        <p id="Par43">Pathway analysis identified nine distinct pathways that were specifically modulated in ARDS (Fig. <xref rid="Fig2" ref-type="fig">2</xref>D&#x2013;E and Fig. <xref rid="MOESM10" ref-type="media">S3</xref>). Notably, the oxidative phosphorylation pathway emerged as significantly upregulated in comparisons of ARDS with both DC (NES = 1.615, <italic>P</italic> = 0.001) and HC (NES = 1.582, <italic>P</italic> &lt; 0.001), revealing its pivotal role in the energetic metabolism associated with ARDS (comprehensive pathway listings are available in Additional file <xref rid="MOESM4" ref-type="media">4</xref> and Supporting Information). Fig. <xref rid="Fig2" ref-type="fig">2</xref>H illustrated the enriched proteins within these nine overlapping pathways, all exhibiting increased serum levels in ARDS cases. Among the highlighted proteins, Succinate Dehydrogenase Complex Iron-Sulfur Subunit B (SDHB), involved in mitochondrial function, and various components of the vacuolar ATPase family (ATP6V1D, ATP5MG, ATP6V1H) were implicated in oxidative phosphorylation. Moreover, proteins such as Mitogen-Activated Protein Kinase Kinase 1 (MAP2K1), Phosphoinositide-3-Kinase Regulatory Subunit 1 (PIK3R1), and Non-Receptor Tyrosine Kinase (SRC), associated with the VEGF signaling pathway, were significantly upregulated in ARDS, illustrating a comprehensive network of molecular interactions contributing to the pathogenesis and progression of ARDS.</p>
+      </sec>
+      <sec id="Sec20">
+        <title>Cross&#x2011;talk between proteomics and metabolomics implicates the sphingolipid signaling pathway as a mediator in ARDS</title>
+        <p id="Par44">In our metabolic investigation, we cataloged a comprehensive array of 3331 metabolites, encompassing amino acids, lipids, and other critical serum metabolites, as detailed in Additional file <xref rid="MOESM5" ref-type="media">5</xref>. The PCA plots revealed a pronounced metabolic differentiation of the ARDS in comparison to both DC and HC groups (Fig. <xref rid="Fig3" ref-type="fig">3</xref>A&#x2013;C). We identified 214, 113, and 206 differentially abundant metabolites (DAMs) in the ARDS<italic> vs.</italic> HC, ARDS <italic>vs.</italic> DC, and DC <italic>vs</italic>. HC, respectively (Additional file <xref rid="MOESM6" ref-type="media">6</xref>). Among these, lysophosphatidylcholine (LysoPC) emerged as the most markedly altered metabolites in ARDS, exemplified by a significant decrease in LysoPC (0:0/18:2(9Z, 12Z)) and LysoPC (0:0/18:0). Further exploration through the KEGG pathway notably highlighted the modulation of the sphingolipid signaling pathway and sphingolipid metabolism, which were distinctive in ARDS as compared to the non-ARDS groups (Fig. <xref rid="Fig3" ref-type="fig">3</xref>D). Importantly, Fig. <xref rid="Fig3" ref-type="fig">3</xref>E revealed that metabolite S1P linked the sphingolipid signaling pathway with several other signaling pathways, including the Apelin, calcium, and phospholipase D signaling pathways. Additionally, S1P levels were reduced, whereas sphingosine exhibited elevated levels in ARDS compared to both DC and HC groups (Fig. <xref rid="Fig3" ref-type="fig">3</xref>F).<fig id="Fig3"><label>Fig.&#xA0;3</label><caption><p>The metabolic analysis and its interaction with proteomics in ARDS in the discovery cohort. <bold>A&#x2013;C</bold> Partial least squares discriminant analysis (PLS-DA) showed the separation of ARDS patients from HC and DC groups. <bold>D</bold> Dot plot of enriched KEGG pathways identified by differentially abundant metabolites. Dot size indicates the number of enriched proteins, colors represent the significance of enrichment (<italic>P</italic>-value). <bold>E</bold> Cross-talk network of the significantly enriched pathway by integrating both proteomics and metabolomics. Blue dots represent proteins, green dots are metabolites, and orange dots are enriched pathways. Sphingolipid signaling pathway was highlighted in red. <bold>F</bold> The relative abundance of proteins and metabolites in sphingolipid signaling pathway across ARDS, HC, and DC groups</p></caption><graphic xlink:href="13054_2024_5000_Fig3_HTML" id="MO3"/></fig></p>
+        <p id="Par45">We further conducted an integrated analysis of proteomics and metabolomics to elucidate the pathogenetic mechanisms underlying ARDS. A significant finding from our study was the identification of the sphingolipid signaling pathway as a key regulatory axis, influenced at both the protein and metabolite levels, pinpointing it as a hub pathway in ARDS pathogenesis (Fig. <xref rid="Fig3" ref-type="fig">3</xref>D and Table <xref rid="MOESM10" ref-type="media">S2</xref>). Further network analysis demonstrated the critical role of the sphingolipid signaling pathway, positioning it centrally within the ARDS-specific regulatory network (Fig. <xref rid="Fig3" ref-type="fig">3</xref>E and Figs. <xref rid="MOESM10" ref-type="media">S4</xref>&#x2013;<xref rid="MOESM10" ref-type="media">S5</xref>). Specifically, critical regulatory proteins such as BCL2 Associated X (BAX), BH3 Interacting Domain Death Agonist (BID), PIK3R1, MAP2K1, and NF-&#x3BA;B Subunit (RELA) were upregulated in ARDS (Fig. <xref rid="Fig3" ref-type="fig">3</xref>F). Furthermore, MAP2K1, the hub protein in the network, linked the sphingolipid signaling pathway with several important pathways, including parathyroid hormone synthesis secretion and action, Apelin signaling pathway, choline metabolism, phospholipase D signaling pathway, Fc gamma R-mediated phagocytosis, and apoptosis. BAX and BID mediate interactions linking the sphingolipid signaling pathway with necroptosis and apoptosis, while RELA associates with the pathway in apoptosis. PIK3R1 connects the sphingolipid signaling pathway to Fc gamma R-mediated phagocytosis, apoptosis, phospholipase D signaling pathway, and choline metabolism (Fig. <xref rid="Fig3" ref-type="fig">3</xref>E).</p>
+      </sec>
+      <sec id="Sec21">
+        <title>Dysregulation of biological functions and alterations in metabolites LysoPCs and S1P in deceased patients at ARDS onset</title>
+        <p id="Par46">To further investigate the proteomic alterations associated with prognosis in ARDS, we conducted a comparative analysis between ARDS survivors and non-survivors (Fig. <xref rid="Fig4" ref-type="fig">4</xref>A). Differential expression analysis identified 40 proteins with significant variations (&#x2502;fold change&#x2502;&#x2265; 1.5 and FDR &lt; 0.05) (Table <xref rid="MOESM10" ref-type="media">S3</xref>). The most significantly altered proteins between deceased and survived ARDS were Radixin (RDX) and Moesin (MSN), which play crucial roles in linking actin to the plasma membrane (Fig. <xref rid="Fig4" ref-type="fig">4</xref>B). Subsequent GSEA revealed several highly ranked molecular pathways markedly enriched across various biological functions such as energy metabolism, immune response, proteasome function, gap junction communication, calcium signaling, and hematopoietic cell lineage differentiation (Fig. <xref rid="Fig4" ref-type="fig">4</xref>C and Supporting Information). To refine our selection of key protein candidates, we spotlighted the top 25 proteins exhibiting the highest connectivity degrees in PPI network (Additional file <xref rid="MOESM7" ref-type="media">7</xref>). Among these, Glyceraldehyde-3-Phosphate Dehydrogenase (GAPDH), Heat Shock Protein 90 Alpha Family Class A Member 1 (HSP90AA1), and Enolase 1 (ENO1) emerged as central hub proteins within the network (Fig. <xref rid="Fig4" ref-type="fig">4</xref>D&#x2013;E). This finding aligned with the GSEA results, as GAPDH and ENO1 were critical enzymes in glycolysis; moreover, HSP90AA1 was the housekeeping protein that aids protein folding and has intrinsic ATPase activity.<fig id="Fig4"><label>Fig. 4</label><caption><p>The multi-omics analysis compared deceased ARDS with survived ARDS.<bold> A</bold> PCA plot displays the proteome separation in deceased and survived ARDS. Each dot represents a sample, with red dots for deceased ARDS samples and green dots for survived ARDS samples. <bold>B</bold> Volcano plot displaying differentially abundant proteins between deceased and survived ARDS. <italic>P</italic> values were adjusted using the Benjamini&#x2013;Hochberg method. <bold>C</bold> GSEA analysis showed up- and down-regulated pathways in deceased ARDS compared with survived ARDS. <bold>D</bold> A heatmap showed representative proteins linked to the pathways highlighted in <bold>C</bold>. The mean difference (deceased ARDS&#x2013;survived ARDS) of proteins in pathways larger than 0.1 were kept. <bold>E</bold> Left: PPI network analysis of DAPs between deceased ARDS and survived ARDS. The significance threshold was defined as <italic>P</italic>&#x2009;&lt;&#x2009;0.05. The sliding ball chart on the right shows the network degree and log2FC of the corresponding proteins in the PPI network. (<bold>F</bold>) PLS-DA score plots between deceased and survived ARDS for metabolomics. <bold>G</bold> The Sankey diagram showed the enriched pathways and their associated DAMs. <bold>H</bold> The abundance of LysoPC (O-18:0/0:0), LysoPC (15:0/0:0), and S1P between deceased and survived ARDS groups. Statistical significance was determined using the FDR-adjusted <italic>P</italic>-value. <italic>P</italic> values were calculated by <italic>Wilcoxon&#x2019;s</italic> rank sum test. <bold>I</bold> Correlations between metabolites mentioned in <bold>H</bold> and the SOFA scores. The correlation coefficients (simplified as <italic>R</italic>) and rho values of correlations are indicated</p></caption><graphic xlink:href="13054_2024_5000_Fig4_HTML" id="MO4"/></fig></p>
+        <p id="Par47">At the global metabolic level, the PCA plot demonstrated a slight separation between the ARDS-deceased and survived groups (Fig. <xref rid="Fig4" ref-type="fig">4</xref>F). The 45 DAMs were most enriched in signaling pathways, such as the sphingolipid signaling pathway, phospholipase D signaling pathway, calcium signaling pathway, and Apelin signaling pathway (Fig. <xref rid="Fig4" ref-type="fig">4</xref>G and Additional file <xref rid="MOESM8" ref-type="media">8</xref>). LysoPC (O-18:0/0:0), LysoPC (15:0/0:0), and S1P were prominently enriched in these pathways. Furthermore, the levels of LysoPC and S1P were significantly reduced in the ARDS-deceased group (Fig. <xref rid="Fig4" ref-type="fig">4</xref>H). More importantly, correlation analysis between these three metabolites and the severity of ARDS, as quantified by the SOFA score, revealed negative correlations (<italic>R</italic> = &#x2212;&#x2009;0.47 for LysoPC (O-18:0/0:0); <italic>R</italic> = &#x2212;&#x2009;0.50 for LysoPC (15:0/0:0); <italic>R</italic> = &#x2212;&#x2009;0.36 for S1P) (F<xref rid="Fig4" ref-type="fig">i</xref>g. <xref rid="Fig4" ref-type="fig">4</xref>I), suggesting the potential metabolome mechanism underlying the heightened mortality risk in ARDS non-survivors.</p>
+      </sec>
+      <sec id="Sec22">
+        <title>Biomarker panel for early prediction of ARDS prognosis</title>
+        <p id="Par48">Further, a prognosis model was constructed to predict the outcome of ARDS early. We obtained 36 candidate biomarkers using LASSO (Fig. <xref rid="MOESM10" ref-type="media">S6</xref>A&#x2013;B), Boruta, and DAPs. Finally, 31 proteins with 174 peptides were targeted by PRM assay in the external validation cohort (Additional file <xref rid="MOESM9" ref-type="media">9</xref>), and a total of 22 candidate proteins with peptides &#x2265;&#xA0;2 were retained, in which 8 proteins maintained consistent significance in both discovery and validation cohorts (Fig. <xref rid="Fig5" ref-type="fig">5</xref>A&#x2013;B). Among the eight proteins, six proteins were significantly upregulated in deceased patients in both discovery and validation cohorts, including Vascular Cell Adhesion Molecule 1 (VCAM1), Lactate Dehydrogenase B (LDHB), MSN, Filaggrin 2 (FLG2), Lamin A/C (LMNA), and Lipopolysaccharide Binding Protein (LBP), while two proteins, Transgelin 2 (TAGLN2) and Mannose Binding Lectin 2 (MBL2) were consistently downregulated in the deceased ARDS group (Fig. <xref rid="Fig5" ref-type="fig">5</xref>B). These markers were selected as an eight-protein panel for early identification of deceased patients of ARDS.<fig id="Fig5"><label>Fig.&#xA0;5</label><caption><p>Prognostic model development and validation for ARDS. <bold>A</bold> The flowchart details the methodology for screening candidate biomarkers. <bold>B</bold> The expression levels of eight proteins between the deceased and survived ARDS in both discovery (the upper panel) and validation cohorts (the lower panel). Receiver operating characteristic curve of protein <bold>C</bold>, clinical <bold>D</bold>, and combined model <bold>E</bold> in the discovery cohort and the validation cohort <bold>F&#x2013;H</bold>. The 95% confidence interval is shown between brackets. The sensitivity and specificity of the Glm model were also provided. AUC, area under the curve</p></caption><graphic xlink:href="13054_2024_5000_Fig5_HTML" id="MO5"/></fig></p>
+        <p id="Par49">In the discovery cohort, we first compared five state-of-the-art machine learning classifiers using the protein model. The Glm model was the final classifier due to its overall superior performance, evidenced by a 10-fold cross-validated ROC&#x2013;AUC of 0.893 (95% CI 0.837&#x2013;0.949) and a sensitivity of 0.920 (Fig. <xref rid="Fig5" ref-type="fig">5</xref>C). In comparison, the clinical risk model, comprising the SOFA score, P/F ratio, and PLT from LASSO feature selection (Fig. <xref rid="MOESM10" ref-type="media">S6</xref>C&#x2013;D), yielded in a ROC-AUC of 0.784 (95% CI 0.703&#x2013;0.866) and a sensitivity of 0.885 (Fig. <xref rid="Fig5" ref-type="fig">5</xref>D). Combination of parameters in both models resulted in a ROC-AUC of 0.890 (95% CI 0.834&#x2013;0.946) and a sensitivity of 0.931 (Fig. <xref rid="Fig5" ref-type="fig">5</xref>E). The protein model performed significantly better than the clinical risk model (Delong test, <italic>P</italic> &lt; 0.001), whereas the combination of both models did not exhibit statistical superiority over the protein model alone (Delong test, <italic>P</italic> = 0.970). Subsequent validation of the Glm classifier using the protein model resulted in a ROC-AUC of 0.802 (95% CI 0.739&#x2013;0.865) and a sensitivity of 0.835 (Fig. <xref rid="Fig5" ref-type="fig">5</xref>F) in the external cohort, whereas the clinical risk model resulted in a ROC-AUC of 0.738 (95% CI 0.655&#x2013;0.811) and a sensitivity of 0.788 (Fig. <xref rid="Fig5" ref-type="fig">5</xref>G). The combination of both models led to a ROC-AUC of 0.844 (95% CI 0.786&#x2013;0.902) (Fig. <xref rid="Fig5" ref-type="fig">5</xref>H). In the validation cohort, the protein model also outperformed the clinical risk model (Delong test, <italic>P</italic> = 0.008), and a combination of both models was superior to the protein model alone (Delong test, <italic>P</italic> = 0.006).</p>
+      </sec>
+    </sec>
+    <sec id="Sec23">
+      <title>Discussion</title>
+      <p id="Par50">This was the first study to integrate proteomics and metabolomics to investigate differences in the proteome, metabolome, and related biological pathways in adult ARDS patients. Our findings identified eight proteins as early candidates for distinguishing deceased ARDS cases from survivors. These candidate proteins, along with the constructed prognostic model, were validated in an independent external cohort, revealing their potential utility in clinical prognosis.</p>
+      <p id="Par51">This integrative analysis offers a global perspective on the proteomic and metabolic landscapes of ARDS, highlighting the potential involvement of the sphingolipid signaling pathway, specifically the role of S1P, a molecule synthesized through the phosphorylation of sphingosine. Indeed, S1P was a sphingolipid that helped improve glycocalyx integrity by inhibiting syndecan-1 shedding [<xref ref-type="bibr" rid="CR24">24</xref>]. S1P activated the S1P1 receptor, which attenuated the activity of metalloproteinases causing syndecan-1 ectodomain shedding [<xref ref-type="bibr" rid="CR24">24</xref>, <xref ref-type="bibr" rid="CR25">25</xref>]. In addition, previous studies have suggested that S1P played a significant role in regulating vascular permeability, barrier integrity, and inflammation in ARDS [<xref ref-type="bibr" rid="CR26">26</xref>&#x2013;<xref ref-type="bibr" rid="CR32">32</xref>]. S1P was protective against acute lung injury by regulating endothelial cell barrier integrity through binding to S1P receptors [<xref ref-type="bibr" rid="CR30">30</xref>, <xref ref-type="bibr" rid="CR31">31</xref>, <xref ref-type="bibr" rid="CR33">33</xref>]. Murine and canine models revealed that S1P exerted potent beneficial systemic effects, significantly reducing vascular leak, LPS-induced lung edema formation, and inflammatory lung injury [<xref ref-type="bibr" rid="CR28">28</xref>, <xref ref-type="bibr" rid="CR29">29</xref>]. Therefore, targeting the S1P or S1P1 receptor activation may be a potential therapeutic option for inhibiting glycocalyx degradation in ARDS. Similarly, decreased serum S1P levels have been associated with septic shock severity [<xref ref-type="bibr" rid="CR34">34</xref>] and a significant association was identified between sphingolipid metabolism and outcomes in trauma patients [<xref ref-type="bibr" rid="CR35">35</xref>]. These findings indicated that lower S1P levels correlated with increased disease severity in ARDS, although our study has not established mechanistic data.</p>
+      <p id="Par52">In addition, in our study, ARDS patients exhibited higher levels of MAP2K1 (i.e., MEK1). MAP2K1, involved in the sphingolipid signaling pathway, was identified as the hub protein in the proteome-metabolome cross-talk network. Furthermore, Jonathan et al. found S1P signals regulated lymphatic endothelial cells permeability and junction molecule expression through MAPKs [<xref ref-type="bibr" rid="CR36">36</xref>]. Meanwhile, MEK1 has been implicated in various signaling networks that affect tumor necrosis factor (TNF) mediated antiapoptotic signaling [<xref ref-type="bibr" rid="CR37">37</xref>] and&#xA0;inflammatory&#xA0;profile [<xref ref-type="bibr" rid="CR38">38</xref>]. Therefore, MEK inhibition has important therapeutic implications for ARDS by potentially disrupting the sphingolipid signaling pathway and its associated biological processes.</p>
+      <p id="Par53">Notably, the concentrations of LysoPC species such as LysoPC (O-18:0/0:0) and LysoPC (15:0/0:0) in the deceased ARDS groups were decreased compared with the survived group. LysoPC is a lipid mediator derived from membrane phosphatidylcholine, and it is known to contribute to inflammation by increasing chemokine production and activating endothelium, neutrophils, monocytes, macrophages, and lymphocytes [<xref ref-type="bibr" rid="CR39">39</xref>]. However, the role of LysoPCs in ARDS has not yet been clearly elucidated. In sepsis patients, serum LysoPC levels were lower than those in controls, and among them, LysoPC (16:0) and LysoPC (18:0) were decreased [<xref ref-type="bibr" rid="CR40">40</xref>]. Lower concentrations of serum or plasma LysoPC predicted worse outcomes [<xref ref-type="bibr" rid="CR41">41</xref>]. Our findings align with these observations, revealing a comparable reduction in serum LysoPC levels in ARDS, akin to that observed in sepsis. Therefore, LysoPCs could be important metabolite markers for differentiating the diagnosis and prognosis of ARDS, which needs further validation and mechanism exploration.</p>
+      <p id="Par54">Moreover, our analysis presented a comprehensive view of proteomic alterations distinguishing deceased ARDS from survived ARDS, the elucidation of the functional roles and molecular mechanisms of these proteins in ARDS lays the groundwork for potential therapeutic innovations targeting energy metabolism, such as glycolysis. One previous study showed that the increase of&#xA0;proinflammatory cytokines including pro-IL-1&#x3B2; and TNF-&#x3B1; preceded the activation of glycolysis in macrophages during LPS-induced ALI, suggesting that inflammation may induce glycolysis [<xref ref-type="bibr" rid="CR42">42</xref>]. In COVID-19 ARDS, T cells are exhausted and skewed towards glycolysis, with a concomitant reduction in mitochondrial dependence, probably as a result of reduced oxygenation of the pulmonary tissue [<xref ref-type="bibr" rid="CR43">43</xref>, <xref ref-type="bibr" rid="CR44">44</xref>]. Consistently, we identified upregulated glycolysis, interferon-&#x3B1; response, and activated CD4<sup>+</sup> T cells in ARDS, indicating that glycolysis is coordinated with inflammation, beyond just generating energy and producing building blocks for cellular survival and signal transduction [<xref ref-type="bibr" rid="CR45">45</xref>].</p>
+      <p id="Par55">In this study, our serum biomarkers and prognosis model could indeed be a promising prognosis predictor of ARDS patients compared to traditional clinical models. Therefore, we proposed that the protein model based on serum proteomics has shown promise in identifying high-risk populations for deceased ARDS. Interestingly, a previous study revealed VCAM1 overexpressed on endothelial cell-derived extracellular vesicles during sepsis, facilitating the activation of the NF-<italic>&#x3BA;</italic>B pathway by interacting with integrin subunit alpha 4 (ITGA4) on the monocyte surface thereby regulating monocyte differentiation [<xref ref-type="bibr" rid="CR46">46</xref>]. Furthermore, the biomarker MBL2 has been identified as a critical determinant of mortality risk among patients with severe pneumococcal infections who exhibit MBL deficiency [<xref ref-type="bibr" rid="CR47">47</xref>]. &#x2018;MBL deficiency&#x2019; appears to play a role in increasing the susceptibility to severe infections in patients receiving stem cell transplantation [<xref ref-type="bibr" rid="CR48">48</xref>, <xref ref-type="bibr" rid="CR49">49</xref>], highlighting the pathogenic significance of this innate immune defense protein. Other candidate biomarkers, for example, LDHB was engaged in glycolysis [<xref ref-type="bibr" rid="CR50">50</xref>], MSN was expressed in the endothelial cell and was important for cell-cell recognition and signaling and for cell movement [<xref ref-type="bibr" rid="CR51">51</xref>]. LBP is the LPS binding protein, the LBP-LPS&#xA0;complex initiates a signal cascade that triggers the secretion of pro-inflammatory cytokines [<xref ref-type="bibr" rid="CR52">52</xref>]. Abnormal LMNA results in nuclear structural abnormalities and mesenchymal tissue damage [<xref ref-type="bibr" rid="CR53">53</xref>], which are critical in ARDS pathogenesis due to their roles in cellular integrity and repair mechanisms. FLG2 is involved in epidermal maturation [<xref ref-type="bibr" rid="CR54">54</xref>], a process that may impact the barrier function of the alveolar epithelium in ARDS. TAGLN2 facilitating the formation of intracellular cytoskeleton structures [<xref ref-type="bibr" rid="CR55">55</xref>], which are essential for maintaining cell shape and motility, and crucial in the inflammatory response seen in ARDS. These biomarkers can be categorized into several groups: epithelial injury, endothelial damage, imbalanced immune system, mitochondrial dysfunction, and disrupted cytoskeleton, which engaged in the overall ARDS progress. However, the specificity of these eight proteins for predicting ARDS prognosis should be confirmed through either singular or multiple assessments, including enzyme-linked immunosorbent assay (ELISA), proximity extension assay (PEA), or bead-based immunoassays, which would benefit its application in future clinical practice.</p>
+      <p id="Par56">We acknowledge several limitations of the present study. First, while we identified eight proteins associated with adverse prognosis in ARDS, further studies are required to explore the underlying mechanisms by which these proteins influence disease outcomes, particularly focusing on their specific roles within the immune and pathology systems. Second, longitudinal multi-omics studies are needed to explore the dynamic features of ARDS and the temporal changes in prognostic biomarkers. Such studies will provide a more comprehensive understanding of the disease progression and the potential for early intervention. Third, integrating metabolomics and proteomics presents significant methodological challenges, such as data harmonization and handling missing values, which may introduce biases and affect the robustness of our findings. Lastly, the identification of intracellular metabolites or proteins in the circulation does not necessarily indicate changes in cellular or tissue processes. These findings may also reflect cell death and the release of intracellular contents, which should be taken into account when interpreting the results.</p>
+      <p id="Par57">In conclusion, this comprehensive study highlights the importance of the sphingolipid signaling pathway in unraveling pathogenesis of ARDS. Protein MAP2K1 and metabolite S1P play critical roles in this pathway. We show that a panel of eight proteins is superior to a clinical prognostic model in predicting ARDS-deceased events. These findings have significant implications for risk assessment and potential guidance of therapeutic strategies in the management of ARDS.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <sec id="Sec24">
+        <title>Supplementary Information</title>
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="13054_2024_5000_MOESM1_ESM.xlsx"><caption><p>Additional file 1.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM2"><media xlink:href="13054_2024_5000_MOESM2_ESM.xlsx"><caption><p>Additional file 2.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM3"><media xlink:href="13054_2024_5000_MOESM3_ESM.xlsx"><caption><p>Additional file 3.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM4"><media xlink:href="13054_2024_5000_MOESM4_ESM.xlsx"><caption><p>Additional file 4.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM5"><media xlink:href="13054_2024_5000_MOESM5_ESM.xlsx"><caption><p>Additional file 5.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM6"><media xlink:href="13054_2024_5000_MOESM6_ESM.xlsx"><caption><p>Additional file 6.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM7"><media xlink:href="13054_2024_5000_MOESM7_ESM.xlsx"><caption><p>Additional file 7.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM8"><media xlink:href="13054_2024_5000_MOESM8_ESM.xlsx"><caption><p>Additional file 8.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM9"><media xlink:href="13054_2024_5000_MOESM9_ESM.xlsx"><caption><p>Additional file 9.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM10"><media xlink:href="13054_2024_5000_MOESM10_ESM.docx"><caption><p>Additional file 10.</p></caption></media></supplementary-material></p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list>
+        <def-item>
+          <term>ICU</term>
+          <def>
+            <p id="Par5">Intensive care unit</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>S1P</term>
+          <def>
+            <p id="Par6">Sphingosine 1-phosphate</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>PRM</term>
+          <def>
+            <p id="Par7">Parallel reaction monitoring</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>DIA</term>
+          <def>
+            <p id="Par8">Data-independent acquisition</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>PCA</term>
+          <def>
+            <p id="Par9">Principal component analysis</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>DAP</term>
+          <def>
+            <p id="Par10">Differentially abundant proteins</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>DAM</term>
+          <def>
+            <p id="Par11">Differentially abundant metabolites</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>GSEA</term>
+          <def>
+            <p id="Par12">Gene set enrichment analysis</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>LASSO</term>
+          <def>
+            <p id="Par13">Least absolute shrinkage and selection operator</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>Bayes</term>
+          <def>
+            <p id="Par14">Na&#xEF;ve Bayes</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>RF</term>
+          <def>
+            <p id="Par15">Random forest</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>Glm</term>
+          <def>
+            <p id="Par16">Generalized linear model</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>SVM</term>
+          <def>
+            <p id="Par17">Supporting vector machine</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>GBM</term>
+          <def>
+            <p id="Par18">Gradient boosting machine</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>PPI</term>
+          <def>
+            <p id="Par19">Protein&#x2013;protein interaction</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>FDR</term>
+          <def>
+            <p id="Par20">False discovery rate</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>FC</term>
+          <def>
+            <p id="Par21">Fold change</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>NES</term>
+          <def>
+            <p id="Par22">Normalized enrichment score</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>ROC</term>
+          <def>
+            <p id="Par23">Receiver operating characteristic</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>AUC</term>
+          <def>
+            <p id="Par24">Area under the curve</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+    <fn-group>
+      <fn>
+        <p>
+          <bold>Publisher's Note</bold>
+        </p>
+        <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+      <fn>
+        <p>Mengna Lin, Feixiang Xu have contributed equally.</p>
+      </fn>
+    </fn-group>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank all the participants. We gratefully acknowledge the LuMing Biological Technology Co., Ltd. (Shanghai) for the support of 4D-DIA proteomic and global metabolic sequencing. We also acknowledged the iProteome Biological Technology Co., Ltd. (Shanghai) for the support of the PRM assay.</p>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Author contributions</title>
+      <p>SZJ and WWB conceived the study; LMN, WWB, and SZJ designed the study; SZJ, WWB, and WXL supervised this project; SJ, SJF, SY, LS, DHL, LLL, CC, MW, and WXL performed the processing of samples and generation of data; LMN and XFX analyzed the data; LMN and XFX drafted the original paper; WWB, SZJ, and WXL reviewed the paper. All authors read and approved the final manuscript.</p>
+    </notes>
+    <notes notes-type="funding-information">
+      <title>Funding</title>
+      <p>This work was supported by the National Key Research and Development Program of China (2021YFC2501800, 2023YFC0872500, and 2023YFC3043507), the National Natural Science Foundation of China (82072214), and the Science and Technology of Shanghai Committee (23Y31900100 and 21MC1930400). This work also was supported by the Shanghai Municipal Science and Technology Major Project (ZD2021CY001), and Shanghai New Three-year Action Plan for Public Health (GWVI-11.1-03).</p>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Availability of data and materials</title>
+      <p>Data and research materials used in this study are available upon request to qualified researchers for purposes of replication, further analysis, and academic collaboration.</p>
+    </notes>
+    <notes>
+      <title>Declarations</title>
+      <notes id="FPar2">
+        <title>Ethics approval and consent to participate</title>
+        <p id="Par58">The lead author and guarantor certify that this manuscript presents a truthful, precise, and complete report of the study conducted; it ensures no significant facets of the research have been excluded, and any deviations from the initial study design and registration are thoroughly accounted for and elucidated.</p>
+      </notes>
+      <notes id="FPar1" notes-type="COI-statement">
+        <title>Competing interests</title>
+        <p id="Par59">The authors declare no competing interests.</p>
+      </notes>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chang</surname><given-names>YJ</given-names></name><name><surname>Yoo</surname><given-names>HJ</given-names></name><name><surname>Kim</surname><given-names>SJ</given-names></name><name><surname>Lee</surname><given-names>KH</given-names></name><name><surname>Lim</surname><given-names>CM</given-names></name><name><surname>Hong</surname><given-names>SB</given-names></name><name><surname>Koh</surname><given-names>Y</given-names></name><name><surname>Huh</surname><given-names>JW</given-names></name></person-group><article-title>A targeted metabolomics approach for sepsis-induced ARDS and its subphenotypes</article-title><source>Crit Care</source><year>2023</year><pub-id pub-id-type="doi">10.1186/s13054-023-04552-0</pub-id><pub-id pub-id-type="pmid">37875995</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>&#xD1;amendys-Silva</surname><given-names>SA</given-names></name><name><surname>Guti&#xE9;rrez-Villase&#xF1;or</surname><given-names>A</given-names></name><name><surname>Romero-Gonz&#xE1;lez</surname><given-names>JP</given-names></name></person-group><article-title>Hospital mortality in mechanically ventilated COVID-19 patients in Mexico</article-title><source>Intensive Care Med</source><year>2020</year><volume>46</volume><issue>11</issue><fpage>2086</fpage><lpage>2088</lpage><pub-id pub-id-type="doi">10.1007/s00134-020-06256-3</pub-id><pub-id pub-id-type="pmid">33000290</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kneyber</surname>
+              <given-names>MCJ</given-names>
+            </name>
+            <name>
+              <surname>Khemani</surname>
+              <given-names>RG</given-names>
+            </name>
+            <name>
+              <surname>Bhalla</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Blokpoel</surname>
+              <given-names>RGT</given-names>
+            </name>
+            <name>
+              <surname>Cruces</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Dahmer</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Emeriaud</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Grunwell</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ilia</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Katira</surname>
+              <given-names>BH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Understanding clinical and biological heterogeneity to advance precision medicine in paediatric acute respiratory distress syndrome</article-title>
+          <source>Lancet Resp Med</source>
+          <year>2023</year>
+          <volume>11</volume>
+          <issue>2</issue>
+          <fpage>197</fpage>
+          <lpage>212</lpage>
+          <pub-id pub-id-type="doi">10.1016/S2213-2600(22)00483-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shen</surname><given-names>B</given-names></name><name><surname>Yi</surname><given-names>X</given-names></name><name><surname>Sun</surname><given-names>YT</given-names></name><name><surname>Bi</surname><given-names>XJ</given-names></name><name><surname>Du</surname><given-names>JP</given-names></name><name><surname>Zhang</surname><given-names>C</given-names></name><name><surname>Quan</surname><given-names>S</given-names></name><name><surname>Zhang</surname><given-names>FF</given-names></name><name><surname>Sun</surname><given-names>R</given-names></name><name><surname>Qian</surname><given-names>LJ</given-names></name><etal/></person-group><article-title>Proteomic and metabolomic characterization of COVID-19 patient sera</article-title><source>Cell</source><year>2020</year><volume>182</volume><issue>1</issue><fpage>59</fpage><lpage>72.e15</lpage><pub-id pub-id-type="doi">10.1016/j.cell.2020.05.032</pub-id><pub-id pub-id-type="pmid">32492406</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shu</surname><given-names>T</given-names></name><name><surname>Ning</surname><given-names>WS</given-names></name><name><surname>Wu</surname><given-names>D</given-names></name><name><surname>Xu</surname><given-names>JQ</given-names></name><name><surname>Han</surname><given-names>QQ</given-names></name><name><surname>Huang</surname><given-names>MH</given-names></name><name><surname>Zou</surname><given-names>XJ</given-names></name><name><surname>Yang</surname><given-names>QY</given-names></name><name><surname>Yuan</surname><given-names>Y</given-names></name><name><surname>Bie</surname><given-names>YY</given-names></name><etal/></person-group><article-title>Plasma proteomics identify biomarkers and pathogenesis of COVID-19</article-title><source>Immunity</source><year>2020</year><volume>53</volume><issue>5</issue><fpage>1108</fpage><lpage>1122.e5</lpage><pub-id pub-id-type="doi">10.1016/j.immuni.2020.10.008</pub-id><pub-id pub-id-type="pmid">33128875</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gorman</surname><given-names>EA</given-names></name><name><surname>O'Kane</surname><given-names>CM</given-names></name><name><surname>McAuley</surname><given-names>DF</given-names></name></person-group><article-title>Acute respiratory distress syndrome 2022 2 Acute respiratory distress syndrome in adults: diagnosis, outcomes, long-term sequelae, and management</article-title><source>Lancet</source><year>2022</year><volume>400</volume><issue>10358</issue><fpage>1157</fpage><lpage>1170</lpage><pub-id pub-id-type="doi">10.1016/S0140-6736(22)01439-8</pub-id><pub-id pub-id-type="pmid">36070788</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>MB</given-names></name><name><surname>Parker</surname><given-names>BL</given-names></name><name><surname>Pearson</surname><given-names>E</given-names></name><name><surname>Hunter</surname><given-names>B</given-names></name><name><surname>Cao</surname><given-names>J</given-names></name><name><surname>Koay</surname><given-names>YC</given-names></name><name><surname>Guneratne</surname><given-names>O</given-names></name><name><surname>James</surname><given-names>DE</given-names></name><name><surname>Yang</surname><given-names>J</given-names></name><name><surname>Lal</surname><given-names>S</given-names></name><etal/></person-group><article-title>Core functional nodes and sex-specific pathways in human ischaemic and dilated cardiomyopathy</article-title><source>Nat Commun</source><year>2020</year><pub-id pub-id-type="doi">10.1038/s41467-020-16584-z</pub-id><pub-id pub-id-type="pmid">33353954</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Xu</surname><given-names>RH</given-names></name><name><surname>Wang</surname><given-names>JR</given-names></name><name><surname>Zhu</surname><given-names>QQ</given-names></name><name><surname>Zou</surname><given-names>C</given-names></name><name><surname>Wei</surname><given-names>ZH</given-names></name><name><surname>Wang</surname><given-names>H</given-names></name><name><surname>Ding</surname><given-names>Z</given-names></name><name><surname>Meng</surname><given-names>MJ</given-names></name><name><surname>Wei</surname><given-names>HM</given-names></name><name><surname>Xia</surname><given-names>SJ</given-names></name><etal/></person-group><article-title>Integrated models of blood protein and metabolite enhance the diagnostic accuracy for Non-Small Cell Lung Cancer</article-title><source>Biomark Res</source><year>2023</year><pub-id pub-id-type="doi">10.1186/s40364-023-00497-2</pub-id><pub-id pub-id-type="pmid">37941057</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ali</surname><given-names>RO</given-names></name><name><surname>Quinn</surname><given-names>GM</given-names></name><name><surname>Umarova</surname><given-names>R</given-names></name><name><surname>Haddad</surname><given-names>JA</given-names></name><name><surname>Zhang</surname><given-names>GY</given-names></name><name><surname>Townsend</surname><given-names>EC</given-names></name><name><surname>Scheuing</surname><given-names>L</given-names></name><name><surname>Hill</surname><given-names>KL</given-names></name><name><surname>Gewirtz</surname><given-names>M</given-names></name><name><surname>Rampertaap</surname><given-names>S</given-names></name><etal/></person-group><article-title>Longitudinal multi-omics analyses of the gut-liver axis reveals metabolic dysregulation in hepatitis C infection and cirrhosis</article-title><source>Nat Microbiol</source><year>2023</year><volume>8</volume><issue>1</issue><fpage>12</fpage><lpage>27</lpage><pub-id pub-id-type="doi">10.1038/s41564-022-01273-y</pub-id><pub-id pub-id-type="pmid">36522461</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wozniak</surname><given-names>JM</given-names></name><name><surname>Mills</surname><given-names>RH</given-names></name><name><surname>Olson</surname><given-names>J</given-names></name><name><surname>Caldera</surname><given-names>JR</given-names></name><name><surname>Sepich-Poore</surname><given-names>GD</given-names></name><name><surname>Carrillo-Terrazas</surname><given-names>M</given-names></name><name><surname>Tsai</surname><given-names>CM</given-names></name><name><surname>Vargas</surname><given-names>F</given-names></name><name><surname>Knight</surname><given-names>R</given-names></name><name><surname>Dorrestein</surname><given-names>PC</given-names></name><etal/></person-group><article-title>Mortality risk profiling of <italic>Staphylococcus aureus</italic> bacteremia by multi-omic serum analysis reveals early predictive and pathogenic signatures</article-title><source>Cell</source><year>2020</year><volume>182</volume><issue>5</issue><fpage>1311</fpage><lpage>1327e.1314</lpage><pub-id pub-id-type="doi">10.1016/j.cell.2020.07.040</pub-id><pub-id pub-id-type="pmid">32888495</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wang</surname><given-names>Y</given-names></name><name><surname>Huang</surname><given-names>XL</given-names></name><name><surname>Li</surname><given-names>F</given-names></name><name><surname>Jia</surname><given-names>XB</given-names></name><name><surname>Jia</surname><given-names>N</given-names></name><name><surname>Fu</surname><given-names>J</given-names></name><name><surname>Liu</surname><given-names>S</given-names></name><name><surname>Zhang</surname><given-names>J</given-names></name><name><surname>Ge</surname><given-names>HY</given-names></name><name><surname>Huang</surname><given-names>SY</given-names></name><etal/></person-group><article-title>Serum-integrated omics reveal the host response landscape for severe pediatric community-acquired pneumonia</article-title><source>Crit Care</source><year>2023</year><pub-id pub-id-type="doi">10.1186/s13054-023-04378-w</pub-id><pub-id pub-id-type="pmid">38093296</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cao</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>HQ</given-names>
+            </name>
+            <name>
+              <surname>Xin</surname>
+              <given-names>JY</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>ZH</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>ZY</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>YK</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>PP</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of genetic profile and biomarkers involved in acute respiratory distress syndrome</article-title>
+          <source>Intensive care Med</source>
+          <year>2023</year>
+          <volume>50</volume>
+          <issue>1</issue>
+          <fpage>49</fpage>
+          <lpage>55</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ranieri</surname>
+              <given-names>VM</given-names>
+            </name>
+            <name>
+              <surname>Rubenfeld</surname>
+              <given-names>GD</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>BT</given-names>
+            </name>
+            <name>
+              <surname>Ferguson</surname>
+              <given-names>ND</given-names>
+            </name>
+            <name>
+              <surname>Caldwell</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Camporota</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Slutsky</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Force</surname>
+              <given-names>ADT</given-names>
+            </name>
+          </person-group>
+          <article-title>Acute respiratory distress syndrome the berlin definition</article-title>
+          <source>Jama-J Am Med Assoc</source>
+          <year>2012</year>
+          <volume>307</volume>
+          <issue>23</issue>
+          <fpage>2526</fpage>
+          <lpage>2533</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Blume</surname><given-names>JE</given-names></name><name><surname>Manning</surname><given-names>WC</given-names></name><name><surname>Troiano</surname><given-names>G</given-names></name><name><surname>Hornburg</surname><given-names>D</given-names></name><name><surname>Figa</surname><given-names>M</given-names></name><name><surname>Hesterberg</surname><given-names>L</given-names></name><name><surname>Platt</surname><given-names>TL</given-names></name><name><surname>Zhao</surname><given-names>XY</given-names></name><name><surname>Cuaresma</surname><given-names>RA</given-names></name><name><surname>Everley</surname><given-names>PA</given-names></name><etal/></person-group><article-title>Rapid, deep and precise profiling of the plasma proteome with multi-nanoparticle protein corona</article-title><source>Nat Commun</source><year>2020</year><pub-id pub-id-type="doi">10.1038/s41467-020-17033-7</pub-id><pub-id pub-id-type="pmid">32699280</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Xing</surname><given-names>XH</given-names></name><name><surname>Cai</surname><given-names>LS</given-names></name><name><surname>Ouyang</surname><given-names>JH</given-names></name><name><surname>Wang</surname><given-names>F</given-names></name><name><surname>Li</surname><given-names>ZM</given-names></name><name><surname>Liu</surname><given-names>MX</given-names></name><name><surname>Wang</surname><given-names>YC</given-names></name><name><surname>Zhou</surname><given-names>Y</given-names></name><name><surname>Hu</surname><given-names>E</given-names></name><name><surname>Huang</surname><given-names>CL</given-names></name><etal/></person-group><article-title>Proteomics-driven noninvasive screening of circulating serum protein panels for the early diagnosis of hepatocellular carcinoma</article-title><source>Nat Commun</source><year>2023</year><pub-id pub-id-type="doi">10.1038/s41467-023-44255-2</pub-id><pub-id pub-id-type="pmid">38129376</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tang</surname><given-names>SS</given-names></name><name><surname>Wang</surname><given-names>YZ</given-names></name><name><surname>Luo</surname><given-names>RK</given-names></name><name><surname>Fang</surname><given-names>RD</given-names></name><name><surname>Liu</surname><given-names>YF</given-names></name><name><surname>Xiang</surname><given-names>H</given-names></name><name><surname>Ran</surname><given-names>P</given-names></name><name><surname>Tong</surname><given-names>YX</given-names></name><name><surname>Sun</surname><given-names>MJ</given-names></name><name><surname>Tan</surname><given-names>SB</given-names></name><etal/></person-group><article-title>Proteomic characterization identifies clinically relevant subgroups of soft tissue sarcoma</article-title><source>Nat Commun</source><year>2024</year><volume>15</volume><issue>1</issue><fpage>1381</fpage><pub-id pub-id-type="doi">10.1038/s41467-024-45306-y</pub-id><pub-id pub-id-type="pmid">38360860</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shannon</surname><given-names>P</given-names></name><name><surname>Markiel</surname><given-names>A</given-names></name><name><surname>Ozier</surname><given-names>O</given-names></name><name><surname>Baliga</surname><given-names>NS</given-names></name><name><surname>Wang</surname><given-names>JT</given-names></name><name><surname>Ramage</surname><given-names>D</given-names></name><name><surname>Amin</surname><given-names>N</given-names></name><name><surname>Schwikowski</surname><given-names>B</given-names></name><name><surname>Ideker</surname><given-names>T</given-names></name></person-group><article-title>Cytoscape: a software environment for integrated models of biomolecular interaction networks</article-title><source>Genome Res</source><year>2003</year><volume>13</volume><issue>11</issue><fpage>2498</fpage><lpage>2504</lpage><pub-id pub-id-type="doi">10.1101/gr.1239303</pub-id><pub-id pub-id-type="pmid">14597658</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Szklarczyk</surname><given-names>D</given-names></name><name><surname>Gable</surname><given-names>AL</given-names></name><name><surname>Nastou</surname><given-names>KC</given-names></name><name><surname>Lyon</surname><given-names>D</given-names></name><name><surname>Kirsch</surname><given-names>R</given-names></name><name><surname>Pyysalo</surname><given-names>S</given-names></name><name><surname>Doncheva</surname><given-names>NT</given-names></name><name><surname>Legeay</surname><given-names>M</given-names></name><name><surname>Fang</surname><given-names>T</given-names></name><name><surname>Bork</surname><given-names>P</given-names></name><etal/></person-group><article-title>The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets</article-title><source>Nucleic Acids Res</source><year>2021</year><volume>49</volume><issue>18</issue><fpage>10800</fpage><lpage>10800</lpage><pub-id pub-id-type="doi">10.1093/nar/gkab835</pub-id><pub-id pub-id-type="pmid">34530444</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chin</surname><given-names>CH</given-names></name><name><surname>Chen</surname><given-names>SH</given-names></name><name><surname>Wu</surname><given-names>HH</given-names></name><name><surname>Ho</surname><given-names>CW</given-names></name><name><surname>Ko</surname><given-names>MT</given-names></name><name><surname>Lin</surname><given-names>CY</given-names></name></person-group><article-title>Identifying hub objects and sub-networks from complex interactome</article-title><source>Bmc Syst Biol</source><year>2014</year><volume>8</volume><fpage>S11</fpage><pub-id pub-id-type="doi">10.1186/1752-0509-8-S4-S11</pub-id><pub-id pub-id-type="pmid">25521941</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>H&#xE4;nzelmann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Castelo</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Guinney</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>GSVA: gene set variation analysis for microarray and RNA-Seq data</article-title>
+          <source>Bmc Bioinf</source>
+          <year>2013</year>
+          <volume>14</volume>
+          <fpage>1</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-14-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bojic</surname><given-names>S</given-names></name><name><surname>Kotur-Stevuljevic</surname><given-names>J</given-names></name><name><surname>Kalezic</surname><given-names>N</given-names></name><name><surname>Jelic-Ivanovic</surname><given-names>Z</given-names></name><name><surname>Stefanovic</surname><given-names>A</given-names></name><name><surname>Palibrk</surname><given-names>I</given-names></name><name><surname>Memon</surname><given-names>L</given-names></name><name><surname>Kalaba</surname><given-names>Z</given-names></name><name><surname>Stojanovic</surname><given-names>M</given-names></name><name><surname>Simic-Ogrizovic</surname><given-names>S</given-names></name></person-group><article-title>Low paraoxonase 1 activity predicts mortality in surgical patients with sepsis</article-title><source>Dis Markers</source><year>2014</year><volume>2014</volume><fpage>427378</fpage><pub-id pub-id-type="doi">10.1155/2014/427378</pub-id><pub-id pub-id-type="pmid">24665146</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lin</surname><given-names>HS</given-names></name><name><surname>Liu</surname><given-names>QSJ</given-names></name><name><surname>Zhao</surname><given-names>L</given-names></name><name><surname>Liu</surname><given-names>ZQ</given-names></name><name><surname>Cui</surname><given-names>HH</given-names></name><name><surname>Li</surname><given-names>PH</given-names></name><name><surname>Fan</surname><given-names>HJ</given-names></name><name><surname>Guo</surname><given-names>LQ</given-names></name></person-group><article-title>Circulating pulmonary-originated epithelial biomarkers for acute respiratory distress syndrome: a systematic review and meta-analysis</article-title><source>Int J Mol Sci</source><year>2023</year><volume>24</volume><issue>7</issue><fpage>6090</fpage><pub-id pub-id-type="doi">10.3390/ijms24076090</pub-id><pub-id pub-id-type="pmid">37047065</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>YD</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>ZQ</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Gaggar</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>PK</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Protective effect of suppressing STAT3 activity in LPS-induced acute lung injury</article-title>
+          <source>Am J Physiol-Lung C</source>
+          <year>2016</year>
+          <volume>311</volume>
+          <issue>5</issue>
+          <fpage>L868</fpage>
+          <lpage>L880</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajplung.00281.2016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeng</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Adamson</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name>
+              <surname>Curry</surname>
+              <given-names>FRE</given-names>
+            </name>
+            <name>
+              <surname>Tarbell</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Sphingosine-1-phosphate protects endothelial glycocalyx by inhibiting syndecan-1 shedding</article-title>
+          <source>Am J Physiol-Heart C</source>
+          <year>2014</year>
+          <volume>306</volume>
+          <issue>3</issue>
+          <fpage>H363</fpage>
+          <lpage>H372</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpheart.00687.2013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Uchimido</surname><given-names>R</given-names></name><name><surname>Schmidt</surname><given-names>EP</given-names></name><name><surname>Shapiro</surname><given-names>NI</given-names></name></person-group><article-title>The glycocalyx: a novel diagnostic and therapeutic target in sepsis</article-title><source>Crit Care</source><year>2019</year><volume>23</volume><fpage>1</fpage><lpage>12</lpage><pub-id pub-id-type="doi">10.1186/s13054-018-2292-6</pub-id><pub-id pub-id-type="pmid">30606235</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Piotti</surname><given-names>A</given-names></name><name><surname>Novelli</surname><given-names>D</given-names></name><name><surname>Meessen</surname><given-names>JMTA</given-names></name><name><surname>Ferlicca</surname><given-names>D</given-names></name><name><surname>Coppolecchia</surname><given-names>S</given-names></name><name><surname>Marino</surname><given-names>A</given-names></name><name><surname>Salati</surname><given-names>G</given-names></name><name><surname>Savioli</surname><given-names>M</given-names></name><name><surname>Grasselli</surname><given-names>G</given-names></name><name><surname>Bellani</surname><given-names>G</given-names></name><etal/></person-group><article-title>Endothelial damage in septic shock patients as evidenced by circulating syndecan-1, sphingosine-1-phosphate and soluble VE-cadherin: a substudy of ALBIOS</article-title><source>Crit Care</source><year>2021</year><volume>25</volume><issue>1</issue><fpage>1</fpage><lpage>12</lpage><pub-id pub-id-type="doi">10.1186/s13054-021-03545-1</pub-id><pub-id pub-id-type="pmid">33388077</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Natarajan</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Dudek</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Jacobson</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Moreno-Vinasco</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>LS</given-names>
+            </name>
+            <name>
+              <surname>Abassi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Mathew</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>YT</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>LC</given-names>
+            </name>
+            <name>
+              <surname>Bittman</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sphingosine-1-phosphate, FTY720, and sphingosine-1-phosphate receptors in the pathobiology of acute lung injury</article-title>
+          <source>Am J Resp Cell Mol</source>
+          <year>2013</year>
+          <volume>49</volume>
+          <issue>1</issue>
+          <fpage>6</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1165/rcmb.2012-0411TR</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McVerry</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>XQ</given-names>
+            </name>
+            <name>
+              <surname>Hassoun</surname>
+              <given-names>PM</given-names>
+            </name>
+            <name>
+              <surname>Sammani</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Garcia</surname>
+              <given-names>JGN</given-names>
+            </name>
+          </person-group>
+          <article-title>Sphingosine 1-phosphate reduces vascular leak in murine and canine models of acute lung injury</article-title>
+          <source>Am J Resp Crit Care</source>
+          <year>2004</year>
+          <volume>170</volume>
+          <issue>9</issue>
+          <fpage>987</fpage>
+          <lpage>993</lpage>
+          <pub-id pub-id-type="doi">10.1164/rccm.200405-684OC</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peng</surname>
+              <given-names>XQ</given-names>
+            </name>
+            <name>
+              <surname>Hassoun</surname>
+              <given-names>PM</given-names>
+            </name>
+            <name>
+              <surname>Sammani</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>McVerry</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Burne</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Rabb</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Pearse</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Tuder</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Garcia</surname>
+              <given-names>JGN</given-names>
+            </name>
+          </person-group>
+          <article-title>Protective effects of sphingosine 1-phosphate in murine endotoxin-induced inflammatory lung injury</article-title>
+          <source>Am J Resp Crit Care</source>
+          <year>2004</year>
+          <volume>169</volume>
+          <issue>11</issue>
+          <fpage>1245</fpage>
+          <lpage>1251</lpage>
+          <pub-id pub-id-type="doi">10.1164/rccm.200309-1258OC</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>XG</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>SF</given-names>
+            </name>
+            <name>
+              <surname>Wade</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Acosta-Herrera</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Villar</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Pino-Yanes</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Belvitch</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Moitra</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Functional promoter variants in sphingosine 1-phosphate receptor 3 associate with susceptibility to sepsis-associated acute respiratory distress syndrome</article-title>
+          <source>Am J Physiol-Lung C</source>
+          <year>2013</year>
+          <volume>305</volume>
+          <issue>7</issue>
+          <fpage>L467</fpage>
+          <lpage>L477</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajplung.00010.2013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sammani</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Moreno-Vinasco</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Mirzapoiazova</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Singleton</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Chiang</surname>
+              <given-names>ET</given-names>
+            </name>
+            <name>
+              <surname>Evenoski</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Mathew</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Husain</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Moitra</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Differential effects of sphingosine 1-phosphate receptors on airway and vascular barrier function in the murine lung</article-title>
+          <source>Am J Resp Cell Mol</source>
+          <year>2010</year>
+          <volume>43</volume>
+          <issue>4</issue>
+          <fpage>394</fpage>
+          <lpage>402</lpage>
+          <pub-id pub-id-type="doi">10.1165/rcmb.2009-0223OC</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Naz</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Arish</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Battling COVID-19 pandemic: sphingosine-1-phosphate analogs as an adjunctive therapy?</article-title>
+          <source>Front Immunol</source>
+          <year>2020</year>
+          <volume>11</volume>
+          <fpage>546310</fpage>
+          <pub-id pub-id-type="doi">10.3389/fimmu.2020.01102</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Singleton</surname><given-names>PA</given-names></name><name><surname>Dudek</surname><given-names>SM</given-names></name><name><surname>Ma</surname><given-names>SF</given-names></name><name><surname>Garcia</surname><given-names>JGN</given-names></name></person-group><article-title>Transactivation of sphingosine 1-phosphate receptors is essential for vascular barrier regulation&#x2014;novel role for hyaluronan and CD44 receptor family</article-title><source>J Biol Chem</source><year>2006</year><volume>281</volume><issue>45</issue><fpage>34381</fpage><lpage>34393</lpage><pub-id pub-id-type="doi">10.1074/jbc.M603680200</pub-id><pub-id pub-id-type="pmid">16963454</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Winkler</surname><given-names>MS</given-names></name><name><surname>Nierhaus</surname><given-names>A</given-names></name><name><surname>Holzmann</surname><given-names>M</given-names></name><name><surname>Mudersbach</surname><given-names>E</given-names></name><name><surname>Bauer</surname><given-names>A</given-names></name><name><surname>Robbe</surname><given-names>L</given-names></name><name><surname>Zahrte</surname><given-names>C</given-names></name><name><surname>Geffken</surname><given-names>M</given-names></name><name><surname>Peine</surname><given-names>S</given-names></name><name><surname>Schwedhelm</surname><given-names>E</given-names></name><etal/></person-group><article-title>Decreased serum concentrations of sphingosine-1-phosphate in sepsis</article-title><source>Crit Care</source><year>2015</year><volume>19</volume><fpage>1</fpage><lpage>8</lpage><pub-id pub-id-type="doi">10.1186/s13054-015-1089-0</pub-id><pub-id pub-id-type="pmid">25560635</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cyr</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>YJ</given-names>
+            </name>
+            <name>
+              <surname>Reis</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Namas</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Amoscato</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Zuckerbraun</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Sperry</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zamora</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Vodovotz</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Billiar</surname>
+              <given-names>TR</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of the plasma metabolome after trauma, novel circulating sphingolipid signatures, and in-hospital outcomes</article-title>
+          <source>J Am Coll Surgeons</source>
+          <year>2021</year>
+          <volume>232</volume>
+          <issue>3</issue>
+          <fpage>276</fpage>
+          <lpage>287e1</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jamcollsurg.2020.12.022</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Xiong</surname><given-names>YB</given-names></name><name><surname>Piao</surname><given-names>WJ</given-names></name><name><surname>Brinkman</surname><given-names>CC</given-names></name><name><surname>Li</surname><given-names>L</given-names></name><name><surname>Kulinski</surname><given-names>JM</given-names></name><name><surname>Olivera</surname><given-names>A</given-names></name><name><surname>Cartier</surname><given-names>A</given-names></name><name><surname>Hla</surname><given-names>T</given-names></name><name><surname>Hippen</surname><given-names>KL</given-names></name><name><surname>Blazar</surname><given-names>BR</given-names></name><etal/></person-group><article-title>CD4 T cell sphingosine 1-phosphate receptor (S1PR)1 and S1PR4 and endothelial S1PR2 regulate afferent lymphatic migration</article-title><source>Sci Immunol</source><year>2019</year><volume>4</volume><issue>33</issue><fpage>eaav1263</fpage><pub-id pub-id-type="doi">10.1126/sciimmunol.aav1263</pub-id><pub-id pub-id-type="pmid">30877143</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kilpatrick</surname><given-names>LE</given-names></name><name><surname>Sun</surname><given-names>S</given-names></name><name><surname>Mackie</surname><given-names>DM</given-names></name><name><surname>Baik</surname><given-names>F</given-names></name><name><surname>Li</surname><given-names>HY</given-names></name><name><surname>Korchak</surname><given-names>HM</given-names></name></person-group><article-title>Regulation of TNF mediated antiapoptotic signaling in human neutrophils: role of &#x3B4;-PKC and ERK1/2</article-title><source>J Leukocyte Biol</source><year>2008</year><volume>83</volume><issue>3</issue><fpage>797</fpage><lpage>797</lpage><pub-id pub-id-type="pmid">16204650</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wan</surname><given-names>P</given-names></name><name><surname>Zhang</surname><given-names>SM</given-names></name><name><surname>Ruan</surname><given-names>ZH</given-names></name><name><surname>Liu</surname><given-names>XL</given-names></name><name><surname>Yang</surname><given-names>G</given-names></name><name><surname>Jia</surname><given-names>YL</given-names></name><name><surname>Li</surname><given-names>YK</given-names></name><name><surname>Pan</surname><given-names>P</given-names></name><name><surname>Wang</surname><given-names>WB</given-names></name><name><surname>Li</surname><given-names>G</given-names></name><etal/></person-group><article-title>AP-1 signaling pathway promotes pro-IL-1&#x3B2; transcription to facilitate NLRP3 inflammasome activation upon influenza A virus infection</article-title><source>Virulence</source><year>2022</year><volume>13</volume><issue>1</issue><fpage>502</fpage><lpage>513</lpage><pub-id pub-id-type="doi">10.1080/21505594.2022.2040188</pub-id><pub-id pub-id-type="pmid">35300578</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Amunugama</surname><given-names>K</given-names></name><name><surname>Pike</surname><given-names>DP</given-names></name><name><surname>Ford</surname><given-names>DA</given-names></name></person-group><article-title>The lipid biology of sepsis</article-title><source>J Lipid Res</source><year>2021</year><volume>62</volume><fpage>100090</fpage><pub-id pub-id-type="doi">10.1016/j.jlr.2021.100090</pub-id><pub-id pub-id-type="pmid">34087197</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Drobnik</surname><given-names>W</given-names></name><name><surname>Liebisch</surname><given-names>G</given-names></name><name><surname>Audebert</surname><given-names>FX</given-names></name><name><surname>Fr&#xF6;hlich</surname><given-names>D</given-names></name><name><surname>Gl&#xFC;ck</surname><given-names>T</given-names></name><name><surname>Vogel</surname><given-names>P</given-names></name><name><surname>Rothe</surname><given-names>G</given-names></name><name><surname>Schmitz</surname><given-names>G</given-names></name></person-group><article-title>Plasma ceramide and lysophosphatidylcholine inversely correlate with mortality in sepsis patients</article-title><source>J Lipid Res</source><year>2003</year><volume>44</volume><issue>4</issue><fpage>754</fpage><lpage>761</lpage><pub-id pub-id-type="doi">10.1194/jlr.M200401-JLR200</pub-id><pub-id pub-id-type="pmid">12562829</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>DW</given-names>
+            </name>
+            <name>
+              <surname>Kwak</surname>
+              <given-names>DS</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>YY</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Huh</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Koh</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>DK</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>SB</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of serial measurements of lysophosphatidylcholine on 28-day mortality prediction in patients admitted to the intensive care unit with severe sepsis or septic shock</article-title>
+          <source>J Crit Care</source>
+          <year>2014</year>
+          <volume>29</volume>
+          <issue>5</issue>
+          <fpage>882e.5</fpage>
+          <lpage>882e.11</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jcrc.2014.05.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ning</surname><given-names>L</given-names></name><name><surname>Zou</surname><given-names>SS</given-names></name><name><surname>Bo</surname><given-names>W</given-names></name><name><surname>Lin</surname><given-names>HQ</given-names></name></person-group><article-title>Targeting immunometabolism against acute lung injury</article-title><source>Clin Immunol</source><year>2023</year><volume>249</volume><fpage>109289</fpage><pub-id pub-id-type="doi">10.1016/j.clim.2023.109289</pub-id><pub-id pub-id-type="pmid">36918041</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR43">
+        <label>43.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Karagiannis</surname><given-names>F</given-names></name><name><surname>Peukert</surname><given-names>K</given-names></name><name><surname>Surace</surname><given-names>L</given-names></name><name><surname>Michla</surname><given-names>M</given-names></name><name><surname>Nikolka</surname><given-names>F</given-names></name><name><surname>Fox</surname><given-names>M</given-names></name><name><surname>Weiss</surname><given-names>P</given-names></name><name><surname>Feuerborn</surname><given-names>C</given-names></name><name><surname>Maier</surname><given-names>P</given-names></name><name><surname>Schulz</surname><given-names>S</given-names></name><etal/></person-group><article-title>Impaired ketogenesis ties metabolism to T cell dysfunction in COVID-19</article-title><source>Nature</source><year>2022</year><volume>609</volume><issue>7928</issue><fpage>801</fpage><lpage>807</lpage><pub-id pub-id-type="doi">10.1038/s41586-022-05128-8</pub-id><pub-id pub-id-type="pmid">35901960</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Osuchowski</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Winkler</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Skirecki</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Cajander</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Shankar-Hari</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lachmann</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Monneret</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Venet</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Bauer</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Brunkhorst</surname>
+              <given-names>FM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The COVID-19 puzzle: deciphering pathophysiology and phenotypes of a new disease entity</article-title>
+          <source>Lancet Resp Med</source>
+          <year>2021</year>
+          <volume>9</volume>
+          <issue>6</issue>
+          <fpage>622</fpage>
+          <lpage>642</lpage>
+          <pub-id pub-id-type="doi">10.1016/S2213-2600(21)00218-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR45">
+        <label>45.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>O'Neill</surname><given-names>LAJ</given-names></name><name><surname>Kishton</surname><given-names>RJ</given-names></name><name><surname>Rathmell</surname><given-names>J</given-names></name></person-group><article-title>A guide to immunometabolism for immunologists</article-title><source>Nat Rev Immunol</source><year>2016</year><volume>16</volume><issue>9</issue><fpage>553</fpage><lpage>565</lpage><pub-id pub-id-type="doi">10.1038/nri.2016.70</pub-id><pub-id pub-id-type="pmid">27396447</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR46">
+        <label>46.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wang</surname><given-names>L</given-names></name><name><surname>Tang</surname><given-names>Y</given-names></name><name><surname>Tang</surname><given-names>JJ</given-names></name><name><surname>Liu</surname><given-names>X</given-names></name><name><surname>Zi</surname><given-names>SF</given-names></name><name><surname>Li</surname><given-names>SL</given-names></name><name><surname>Chen</surname><given-names>HB</given-names></name><name><surname>Liu</surname><given-names>AR</given-names></name><name><surname>Huang</surname><given-names>W</given-names></name><name><surname>Xie</surname><given-names>JF</given-names></name><etal/></person-group><article-title>Endothelial cell-derived extracellular vesicles expressing surface VCAM1 promote sepsis-related acute lung injury by targeting and reprogramming monocytes</article-title><source>J Extracell Vesicles</source><year>2024</year><volume>13</volume><issue>3</issue><fpage>e12423</fpage><pub-id pub-id-type="doi">10.1002/jev2.12423</pub-id><pub-id pub-id-type="pmid">38491216</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR47">
+        <label>47.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Eisen</surname><given-names>DP</given-names></name><name><surname>Dean</surname><given-names>MM</given-names></name><name><surname>Boermeester</surname><given-names>MA</given-names></name><name><surname>Fidler</surname><given-names>KJ</given-names></name><name><surname>Gordon</surname><given-names>AC</given-names></name><name><surname>Kronborg</surname><given-names>G</given-names></name><name><surname>Kun</surname><given-names>JFJ</given-names></name><name><surname>Lau</surname><given-names>YL</given-names></name><name><surname>Payeras</surname><given-names>A</given-names></name><name><surname>Valdimarsson</surname><given-names>H</given-names></name><etal/></person-group><article-title>Low serum mannose-binding lectin level increases the risk of death due to pneumococcal infection</article-title><source>Clin Infect Dis</source><year>2008</year><volume>47</volume><issue>4</issue><fpage>510</fpage><lpage>516</lpage><pub-id pub-id-type="doi">10.1086/590006</pub-id><pub-id pub-id-type="pmid">18611155</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR48">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Osthoff</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Rov&#xF3;</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Stern</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Danner</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Gratwohl</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Tichelli</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Trendelenburg</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Mannose-binding lectin levels and major infections in a cohort of very long-term survivors after allogeneic stem cell transplantation</article-title>
+          <source>Haematol-Hematol J</source>
+          <year>2010</year>
+          <volume>95</volume>
+          <issue>8</issue>
+          <fpage>1389</fpage>
+          <lpage>1396</lpage>
+          <pub-id pub-id-type="doi">10.3324/haematol.2009.017863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR49">
+        <label>49.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mullighan</surname><given-names>CG</given-names></name><name><surname>Heatley</surname><given-names>SL</given-names></name><name><surname>Danner</surname><given-names>S</given-names></name><name><surname>Dean</surname><given-names>MM</given-names></name><name><surname>Doherty</surname><given-names>K</given-names></name><name><surname>Hahn</surname><given-names>U</given-names></name><name><surname>Bradstock</surname><given-names>KF</given-names></name><name><surname>Minchinton</surname><given-names>R</given-names></name><name><surname>Schwarer</surname><given-names>AP</given-names></name><name><surname>Szer</surname><given-names>J</given-names></name><etal/></person-group><article-title>Mannose-binding lectin status is associated with risk of major infection following myeloablative sibling allogeneic hematopoietic stem cell transplantation</article-title><source>Blood</source><year>2008</year><volume>112</volume><issue>5</issue><fpage>2120</fpage><lpage>2128</lpage><pub-id pub-id-type="doi">10.1182/blood-2007-07-100222</pub-id><pub-id pub-id-type="pmid">18552214</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR50">
+        <label>50.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Beltinger</surname><given-names>C</given-names></name></person-group><article-title>LDHA and LDHB are dispensable for aerobic glycolysis in neuroblastoma cells while promoting their aggressiveness</article-title><source>J Biol Chem</source><year>2019</year><volume>294</volume><issue>1</issue><fpage>66</fpage><lpage>66</lpage><pub-id pub-id-type="doi">10.1074/jbc.L118.006717</pub-id><pub-id pub-id-type="pmid">30610122</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR51">
+        <label>51.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lagresle-Peyrou</surname><given-names>C</given-names></name><name><surname>Luce</surname><given-names>S</given-names></name><name><surname>Ouchani</surname><given-names>F</given-names></name><name><surname>Soheili</surname><given-names>TS</given-names></name><name><surname>Sadek</surname><given-names>H</given-names></name><name><surname>Chouteau</surname><given-names>M</given-names></name><name><surname>Durand</surname><given-names>A</given-names></name><name><surname>Pic</surname><given-names>I</given-names></name><name><surname>Majewski</surname><given-names>J</given-names></name><name><surname>Brouzes</surname><given-names>C</given-names></name><etal/></person-group><article-title>X-linked primary immunodeficiency associated with hemizygous mutations in the moesin (MSN) gene</article-title><source>J Allergy Clin Immun</source><year>2016</year><volume>138</volume><issue>6</issue><fpage>1681</fpage><lpage>1689e.8</lpage><pub-id pub-id-type="doi">10.1016/j.jaci.2016.04.032</pub-id><pub-id pub-id-type="pmid">27405666</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR52">
+        <label>52.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gabarin</surname><given-names>RS</given-names></name><name><surname>Li</surname><given-names>MS</given-names></name><name><surname>Zimmel</surname><given-names>PA</given-names></name><name><surname>Marshall</surname><given-names>JC</given-names></name><name><surname>Li</surname><given-names>YM</given-names></name><name><surname>Zhang</surname><given-names>HB</given-names></name></person-group><article-title>Intracellular and extracellular lipopolysaccharide signaling in sepsis: avenues for novel therapeutic strategies</article-title><source>J Innate Immun</source><year>2021</year><volume>13</volume><issue>6</issue><fpage>323</fpage><lpage>332</lpage><pub-id pub-id-type="doi">10.1159/000515740</pub-id><pub-id pub-id-type="pmid">34004605</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR53">
+        <label>53.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>He</surname><given-names>LG</given-names></name><name><surname>Liao</surname><given-names>JQ</given-names></name><name><surname>Liu</surname><given-names>Z</given-names></name><name><surname>Wang</surname><given-names>T</given-names></name><name><surname>Zhou</surname><given-names>Y</given-names></name><name><surname>Wang</surname><given-names>TF</given-names></name><name><surname>Lei</surname><given-names>BY</given-names></name><name><surname>Zhou</surname><given-names>GQ</given-names></name></person-group><article-title>Multi-omic analysis of mandibuloacral dysplasia type A patient iPSC-derived MSC senescence reveals miR-311 as a novel biomarker for MSC senescence</article-title><source>Hum Mol Genet</source><year>2023</year><volume>32</volume><issue>19</issue><fpage>2872</fpage><lpage>2886</lpage><pub-id pub-id-type="doi">10.1093/hmg/ddad111</pub-id><pub-id pub-id-type="pmid">37427980</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR54">
+        <label>54.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Agren</surname><given-names>M</given-names></name><name><surname>Litman</surname><given-names>T</given-names></name><name><surname>Eriksen</surname><given-names>JO</given-names></name><name><surname>Schjerling</surname><given-names>P</given-names></name><name><surname>Bzorek</surname><given-names>M</given-names></name><name><surname>Gjerdrum</surname><given-names>LMR</given-names></name></person-group><article-title>Gene expression linked to reepithelialization of human skin wounds</article-title><source>Int J Mol Sci</source><year>2022</year><volume>23</volume><issue>24</issue><fpage>15746</fpage><pub-id pub-id-type="doi">10.3390/ijms232415746</pub-id><pub-id pub-id-type="pmid">36555389</pub-id>
+</element-citation>
+      </ref>
+      <ref id="CR55">
+        <label>55.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wang</surname><given-names>LD</given-names></name><name><surname>Tan</surname><given-names>H</given-names></name><name><surname>Huang</surname><given-names>YL</given-names></name><name><surname>Guo</surname><given-names>MY</given-names></name><name><surname>Dong</surname><given-names>YX</given-names></name><name><surname>Liu</surname><given-names>CX</given-names></name><name><surname>Zhao</surname><given-names>H</given-names></name><name><surname>Liu</surname><given-names>Z</given-names></name></person-group><article-title>TAGLN2 promotes papillary thyroid carcinoma invasion via the Rap1/PI3K/AKT axis</article-title><source>Endocr-Relat Cancer</source><year>2023</year><volume>30</volume><issue>1</issue><fpage>e210352</fpage><pub-id pub-id-type="doi">10.1530/ERC-21-0352</pub-id><pub-id pub-id-type="pmid">36222755</pub-id>
+</element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

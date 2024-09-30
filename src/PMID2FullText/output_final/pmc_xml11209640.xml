@@ -1,0 +1,733 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">J Biol Chem</journal-id><journal-id journal-id-type="iso-abbrev">J Biol Chem</journal-id><journal-title-group><journal-title>The Journal of Biological Chemistry</journal-title></journal-title-group><issn pub-type="ppub">0021-9258</issn><issn pub-type="epub">1083-351X</issn><publisher><publisher-name>American Society for Biochemistry and Molecular Biology</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38762179</article-id><article-id pub-id-type="pmc">11209640</article-id><article-id pub-id-type="pii">S0021-9258(24)01879-9</article-id><article-id pub-id-type="doi">10.1016/j.jbc.2024.107378</article-id><article-id pub-id-type="publisher-id">107378</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>ZNT5-6 and ZNT7 play an integral role in protein <italic>N</italic>-glycosylation by supplying Zn<sup>2+</sup> to Golgi &#x3B1;-mannosidase II</article-title></title-group><contrib-group><contrib contrib-type="author" id="au1"><name><surname>Yuasa</surname><given-names>Hana</given-names></name><xref rid="aff1" ref-type="aff">1</xref><xref rid="fn1" ref-type="fn">&#x2021;</xref></contrib><contrib contrib-type="author" id="au2"><name><surname>Morino</surname><given-names>Naho</given-names></name><xref rid="aff1" ref-type="aff">1</xref><xref rid="fn1" ref-type="fn">&#x2021;</xref></contrib><contrib contrib-type="author" id="au3"><name><surname>Wagatsuma</surname><given-names>Takumi</given-names></name><xref rid="aff1" ref-type="aff">1</xref><xref rid="fn1" ref-type="fn">&#x2021;</xref></contrib><contrib contrib-type="author" id="au4"><name><surname>Munekane</surname><given-names>Masayuki</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib contrib-type="author" id="au5"><name><surname>Ueda</surname><given-names>Sachiko</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author" id="au6"><name><surname>Matsunaga</surname><given-names>Mayu</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author" id="au7"><name><surname>Uchida</surname><given-names>Yasuo</given-names></name><xref rid="aff3" ref-type="aff">3</xref></contrib><contrib contrib-type="author" id="au8"><name><surname>Katayama</surname><given-names>Takane</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author" id="au9"><name><surname>Katoh</surname><given-names>Toshihiko</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author" id="au10"><name><surname>Kambe</surname><given-names>Taiho</given-names></name><email>kambe.taiho.7z@kyoto-u.ac.jp</email><xref rid="aff1" ref-type="aff">1</xref><xref rid="cor1" ref-type="corresp">&#x2217;</xref></contrib><aff id="aff1"><label>1</label>Division of Integrated Life Science, Graduate School of Biostudies, Kyoto University, Kyoto, Japan</aff><aff id="aff2"><label>2</label>Graduate School of Medical Sciences, Kanazawa University, Kanazawa, Japan</aff><aff id="aff3"><label>3</label>Department of Molecular Systems Pharmaceutics, Graduate School of Biomedical and Health Sciences, Hiroshima University, Hiroshima City, Japan</aff></contrib-group><author-notes><corresp id="cor1"><label>&#x2217;</label>For correspondence: Taiho Kambe <email>kambe.taiho.7z@kyoto-u.ac.jp</email></corresp><fn id="fn1"><label>&#x2021;</label><p id="ntpara0010">These authors contributed equally to this work</p></fn></author-notes><pub-date pub-type="pmc-release"><day>16</day><month>5</month><year>2024</year></pub-date><!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.--><pub-date pub-type="collection"><month>6</month><year>2024</year></pub-date><pub-date pub-type="epub"><day>16</day><month>5</month><year>2024</year></pub-date><volume>300</volume><issue>6</issue><elocation-id>107378</elocation-id><history><date date-type="received"><day>19</day><month>2</month><year>2024</year></date><date date-type="rev-recd"><day>20</day><month>4</month><year>2024</year></date></history><permissions><copyright-statement>&#xA9; 2024 The Authors</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).</license-p></license></permissions><abstract id="abs0010"><p>The stepwise addition of monosaccharides to <italic>N</italic>-glycans attached to client proteins to generate a repertoire of mature proteins involves a concerted action of many glycosidases and glycosyltransferases. Here, we report that Golgi &#x3B1;-mannosidase II (GMII), a pivotal enzyme catalyzing the first step in the conversion of hybrid- to complex-type <italic>N</italic>-glycans, is activated by Zn<sup>2+</sup> supplied by the early secretory compartment-resident ZNT5-ZNT6 heterodimers (ZNT5-6) and ZNT7 homodimers (ZNT7). Loss of ZNT5-6 and ZNT7 function results in marked accumulation of hybrid-type and complex/hybrid glycans with concomitant reduction of complex- and high-mannose-type glycans. In cells lacking the ZNT5-6 and ZNT7 functions, the GMII activity is substantially decreased. In contrast, the activity of its homolog, lysosomal mannosidase (LAMAN), is not decreased. Moreover, we show that the growth of pancreatic cancer MIA PaCa-2&#xA0;cells lacking ZNT5-6 and ZNT7 is significantly decreased in a nude mouse xenograft model. Our results indicate the integral roles of ZNT5-6 and ZNT7 in <italic>N</italic>-glycosylation and highlight their potential as novel target proteins for cancer therapy.</p></abstract><kwd-group id="kwrds0010"><title>Keywords</title><kwd>Zn<sup>2+</sup></kwd><kwd><italic>N</italic>-glycosylation</kwd><kwd>transporter</kwd><kwd>Golgi mannosidase II (GMII)</kwd><kwd>lysosomal mannosidase (LAMAN)</kwd><kwd>ZNT</kwd><kwd>early secretory compartments</kwd><kwd>pancreatic cancer cell growth</kwd><kwd>xenograft</kwd><kwd>quality control</kwd></kwd-group></article-meta><def-list><title>Abbreviations</title><def-item><term id="kwrd0055">B4GALT1</term><def><p>&#x3B2;-1,4-galactosyltransferase 1</p></def></def-item><def-item><term id="kwrd0065">DKO</term><def><p>double knockout</p></def></def-item><def-item><term id="kwrd0075">DSHB</term><def><p>Developmental Studies Hybridoma Bank</p></def></def-item><def-item><term id="kwrd0085">GMII</term><def><p>Golgi mannosidase II</p></def></def-item><def-item><term id="kwrd0095">HA</term><def><p>hemagglutinin</p></def></def-item><def-item><term id="kwrd0105">KO</term><def><p>knockout</p></def></def-item><def-item><term id="kwrd0115">LAMAN</term><def><p>lysosomal mannosidase</p></def></def-item><def-item><term id="kwrd0125">MGATI</term><def><p><italic>N</italic>-acetylglucosaminyltransferase I</p></def></def-item><def-item><term id="kwrd0135">MGATII</term><def><p><italic>N</italic>-acetylglucosaminyltransferase II</p></def></def-item><def-item><term id="kwrd0145">SPCA1</term><def><p>secretory pathway calcium channel</p></def></def-item><def-item><term id="kwrd0155">ZIP</term><def><p>Zrt/Irt-like protein</p></def></def-item><def-item><term id="kwrd0165">ZNT</term><def><p>Zn transporter</p></def></def-item></def-list><notes><p id="misc0010">Reviewed by members of the JBC Editorial Board. Edited by Mike Shipston</p></notes></front>
+  <body>
+    <p id="p0010">Most secretory and membrane-bound proteins undergo various post-translational modifications during the secretory process. Glycosylation is a major post-translational modification, which can enhance solubility, improve folding, facilitate secretion, modulate antigenicity, and increase the <italic>in&#xA0;vivo</italic> half-life of proteins (<xref rid="bib1" ref-type="bibr">1</xref>, <xref rid="bib2" ref-type="bibr">2</xref>). Consequently, glycosylation is crucial for various physiological events involving cell signaling, cell migration, cell&#x2013;cell adhesion, and cell growth (<xref rid="bib3" ref-type="bibr">3</xref>, <xref rid="bib4" ref-type="bibr">4</xref>, <xref rid="bib5" ref-type="bibr">5</xref>). Moreover, alterations in <italic>N</italic>-glycosylation are implicated in a wide range of pathological conditions, including cancer metastasis, chronic inflammatory diseases, and viral pathogenesis (<xref rid="bib6" ref-type="bibr">6</xref>, <xref rid="bib7" ref-type="bibr">7</xref>, <xref rid="bib8" ref-type="bibr">8</xref>). Highly branched complex-type oligosaccharides on the cell surface are commonly associated with a malignant phenotype (<xref rid="bib9" ref-type="bibr">9</xref>, <xref rid="bib10" ref-type="bibr">10</xref>, <xref rid="bib11" ref-type="bibr">11</xref>). Therefore, <italic>N</italic>-glycosylation is considered a potential target for anticancer therapeutics (<xref rid="bib11" ref-type="bibr">11</xref>, <xref rid="bib12" ref-type="bibr">12</xref>).</p>
+    <p id="p0015">An estimated 2% of genes in the mammalian genome encode proteins involved in the production and modification of glycans (<xref rid="bib13" ref-type="bibr">13</xref>). Most of the glycosidases and glycosyltransferases, which reside in the lumen of the endoplasmic reticulum and Golgi apparatus (referred to as the &#x201C;early secretory compartments&#x201D; in this study), play essential roles in constructing the glycan repertoire on client proteins in a stepwise manner (<xref rid="bib5" ref-type="bibr">5</xref>, <xref rid="bib13" ref-type="bibr">13</xref>). Many of these enzymes require metal cofactors for their activity (<xref rid="bib14" ref-type="bibr">14</xref>, <xref rid="bib15" ref-type="bibr">15</xref>, <xref rid="bib16" ref-type="bibr">16</xref>, <xref rid="bib17" ref-type="bibr">17</xref>, <xref rid="bib18" ref-type="bibr">18</xref>). For example, ER &#x3B1;-mannosidase I and Golgi &#x3B1;-mannosidase I, belonging to the glycoside hydrolase family 47 (GH47 family), which are essential for the removal of all glucose and several mannose residues from nascent glycan chains before the extension of <italic>N</italic>-glycosylation, require calcium (Ca<sup>2+</sup>) (<xref rid="bib19" ref-type="bibr">19</xref>, <xref rid="bib20" ref-type="bibr">20</xref>). The sarco/endoplasmic reticulum Ca<sup>2+</sup>-ATPase (SERCA) family members supply Ca<sup>2+</sup> to these enzymes (<xref rid="bib18" ref-type="bibr">18</xref>, <xref rid="bib21" ref-type="bibr">21</xref>). Many Golgi-resident glycosylation enzymes, such as <italic>N</italic>-acetylglucosaminyltransferases (MGATs) and galactosyltransferases, which are essential for the elongation and branching of <italic>N</italic>-glycans and, thus, for their diversity and complexity (<xref rid="bib15" ref-type="bibr">15</xref>, <xref rid="bib22" ref-type="bibr">22</xref>, <xref rid="bib23" ref-type="bibr">23</xref>, <xref rid="bib24" ref-type="bibr">24</xref>), require manganese (Mn<sup>2+</sup>) as a common cofactor. Recently, a number of metal transport proteins have been reported to play pivotal roles in supplying Mn<sup>2+</sup> to these enzymes. For example, TMEM165, Zrt, Irt-related protein 8 (ZIP8), and ZIP9 are involved in the maturation of complex-type <italic>N</italic>-glycans and <italic>O</italic>-glycans (<xref rid="bib21" ref-type="bibr">21</xref>, <xref rid="bib25" ref-type="bibr">25</xref>, <xref rid="bib26" ref-type="bibr">26</xref>, <xref rid="bib27" ref-type="bibr">27</xref>, <xref rid="bib28" ref-type="bibr">28</xref>, <xref rid="bib29" ref-type="bibr">29</xref>, <xref rid="bib30" ref-type="bibr">30</xref>, <xref rid="bib31" ref-type="bibr">31</xref>). In yeast, Pmr1, a homolog of Golgi secretory pathway Ca<sup>2+</sup> channel 1 (SPCA1), assays an essential function in <italic>N</italic>- and <italic>O</italic>-glycosylation (<xref rid="bib26" ref-type="bibr">26</xref>, <xref rid="bib32" ref-type="bibr">32</xref>). These metal transport proteins transport Mn<sup>2+</sup> in addition to their original substrate metal ions (Ca<sup>2+</sup> for TMEM165 and SPCA1, and Zn<sup>2+</sup> for ZIP8 and ZIP9) and are significant as Mn<sup>2+</sup>-supplying routes to Golgi-resident Mn<sup>2+</sup>-dependent glycosylation enzymes, although, the involvement of ZIP9 remains unclear.</p>
+    <p id="p0020">Golgi &#x3B1;-mannosidase II (GMII, MAN2A1), belonging to the GH38 family of proteins, plays a critical role in the conversion of hybrid- to complex-type <italic>N</italic>-glycans by cleaving two different glycosidic linkages to remove two terminal mannoses (<xref rid="bib33" ref-type="bibr">33</xref>). The <italic>Drosophila</italic> homolog of GMII contains Zn<sup>2+</sup> at its active site (<xref rid="bib33" ref-type="bibr">33</xref>, <xref rid="bib34" ref-type="bibr">34</xref>). However, how GMII acquires Zn<sup>2+</sup> and to what extent is this cation important for its activity are important aspects that remain unelucidated. Considering that Zn<sup>2+</sup> is coordinated at the active site of GMII, Zn<sup>2+</sup> transporters must supply the cation within the Golgi for GMII activation.</p>
+    <p id="p0025">In this study, we aimed to examine whether the ZNT5-6 heterodimer and the ZNT7 homodimer (hereafter, ZNT5-6 and ZNT7), which localize to the early secretory pathway (<xref rid="bib35" ref-type="bibr">35</xref>), play an essential role in the complex-type <italic>N</italic>-glycosylation by supplying Zn<sup>2+</sup> to GMII, thereby, contributing to the quality control of proteins. Moreover, to assess the implications of the role of ZNT5-6 and ZNT7 in <italic>N</italic>-glycosylation, we investigated whether Zn<sup>2+</sup> starvation of GMII through impairing them could be a potential therapeutic strategy against cancer.</p>
+    <sec id="sec1">
+      <title>Results</title>
+      <sec id="sec1.1">
+        <title><italic>N</italic>-glycosylation of LAMP1 and LAMP2 is impaired in HAP-<italic>Z5Z7</italic>-DKO cells</title>
+        <p id="p0030">We examined the electrophoretic mobility of extensively and highly <italic>N</italic>-glycosylated proteins, LAMP1 and LAMP2 (<xref rid="bib36" ref-type="bibr">36</xref>, <xref rid="bib37" ref-type="bibr">37</xref>), using cell lysates prepared from wild-type (WT) HAP1 cells and HAP1 cells deficient in both <italic>ZNT5</italic> and <italic>ZNT7</italic> genes (HAP-<italic>Z5Z7</italic>-DKO (double-KO) cells) (<xref rid="bib38" ref-type="bibr">38</xref>) on acrylamide gels followed by immunoblotting. We simultaneously examined the electrophoretic mobility of LAMP1 and LAMP2 in lysate of HAP1 cells lacking other metal transport proteins, namely TMEM165, ZIP8, ZIP9, SPCA1, and ZIP14 (HAP-<italic>TMEM165</italic>-KO, HAP-<italic>ZIP8</italic>-KO, HAP-<italic>ZIP9</italic>-KO, HAP-<italic>SPCA1</italic>-KO, and HAP-<italic>ZIP14</italic>-KO cells, respectively; <xref rid="tbl1" ref-type="table">Table&#xA0;1</xref>). The cells lacking ZIP14 were used because this protein is homologous to ZIP8 and thus has a similar ability to transport Mn<sup>2+</sup> (<xref rid="bib39" ref-type="bibr">39</xref>, <xref rid="bib40" ref-type="bibr">40</xref>, <xref rid="bib41" ref-type="bibr">41</xref>). The electrophoretic mobility of LAMP1 and LAPM2 in lysates of HAP-<italic>TMEM165</italic>-KO, HAP-<italic>ZIP8</italic>-KO, HAP-<italic>ZIP9</italic>-KO, HAP-<italic>SPCA1</italic>-KO, and HAP-<italic>ZIP14</italic>-KO cells was similar or almost similar to that for the lysates of WT HAP1 cells. However, the mobility of these proteins in the lysate of HAP-<italic>Z5Z7</italic>-DKO cells was substantially increased (<xref rid="fig1" ref-type="fig">Fig.&#xA0;1</xref><italic>A</italic>), although the differences in electrophoretic mobility of LAMP1 and LAMP2 were not evident for HAP-<italic>Z5</italic>-KO and HAP-<italic>Z7</italic>-KO (<xref rid="fig1" ref-type="fig">Fig.&#xA0;1</xref><italic>B</italic>). The difference in the mobility for HAP-<italic>Z5Z7</italic>-DKO cells was attributed to impaired <italic>N</italic>-glycosylation because PNGase F treatment eliminated the difference in the mobility for WT HAP1 and HAP-<italic>Z5Z7</italic>-DKO cells (<xref rid="fig1" ref-type="fig">Fig.&#xA0;1</xref><italic>C</italic>). Mn<sup>2+</sup> supplementation had no effect on the electrophoretic mobility of LAMP1 and LMAP2 (<xref rid="fig1" ref-type="fig">Fig.&#xA0;1</xref><italic>D</italic>), unlike for cells lacking TMEM165 (<xref rid="bib27" ref-type="bibr">27</xref>, <xref rid="bib42" ref-type="bibr">42</xref>). These results confirmed that Mn<sup>2+</sup> was not involved in the <italic>N</italic>-glycosylation defects found in HAP-<italic>Z5Z7</italic>-DKO cells. Moreover, these results suggest that Zn<sup>2+</sup> supply mediated by ZNT5-6 and ZNT7 plays pivotal roles in <italic>N</italic>-glycosylation.<table-wrap position="float" id="tbl1"><label>Table&#xA0;1</label><caption><p>Mutations introduced in <italic>ZNT5</italic> and <italic>ZNT7</italic> in the cells used in this study</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Cells</th><th>Targeted region</th><th>Mutation</th></tr></thead><tbody><tr><td>HAP-<italic>ZIP9</italic>-KO</td><td>Exon 1 in <italic>ZIP9</italic></td><td>1 bp insertion in <italic>ZIP9</italic></td></tr><tr><td>HAP-<italic>ZIP8</italic>-KO</td><td>Exon 5 in <italic>ZIP8</italic></td><td>10&#xA0;bp deletion in <italic>ZIP8</italic></td></tr><tr><td>HAP-<italic>ZIP14</italic>-KO</td><td>Exon 2 in <italic>ZIP14</italic></td><td>10&#xA0;bp deletion in <italic>ZIP14</italic></td></tr><tr><td>HAP-<italic>TMEM165</italic>-KO</td><td>Exon 1 in <italic>TMEM165</italic></td><td>11&#xA0;bp deletion in <italic>TMEM165</italic></td></tr><tr><td>HAP-<italic>SPCA1</italic>-KO</td><td>Exon 7 in <italic>SPCA1</italic></td><td>1 bp insertion in <italic>SPCA1</italic></td></tr><tr><td>HAP-<italic>GMII</italic>-KO</td><td>Exon 4 in <italic>GMII</italic></td><td>1 bp insertion in <italic>GMII</italic></td></tr><tr><td>HAP-<italic>LAMAN-</italic>KO</td><td>Exon 2 in <italic>LAMAN</italic></td><td>2 bp deletion in <italic>LAMAN</italic></td></tr><tr><td>HAP-<italic>Z4</italic>-KO</td><td>Exon 2 in <italic>ZNT4</italic></td><td>1 bp insertion in <italic>ZNT4</italic></td></tr><tr><td>HAP-<italic>Z4Z5Z7</italic>-TKO</td><td>Exon 2 in <italic>ZNT4</italic>, Exon 11 in <italic>ZNT5</italic>, exon 2 in <italic>ZNT7</italic></td><td>1 bp insertion in <italic>ZNT4</italic>, 2&#xA0;bp deletion in <italic>ZNT5</italic>, 28&#xA0;bp deletion in <italic>ZNT7</italic></td></tr><tr><td>MIA-<italic>Z5Z7</italic>-DKO</td><td>Exon 11 in <italic>ZNT5</italic>, exon 2 in <italic>ZNT7</italic></td><td>1 or 3&#xA0;bp deletion in <italic>ZNT5,</italic> 1 or 58&#xA0;bp deletion in <italic>ZNT7</italic></td></tr></tbody></table><table-wrap-foot><fn><p>Information on HAP-<italic>Z5Z7</italic>-DKO, HAP<italic>-Z5</italic>-KO, HAP<italic>-Z7</italic>-KO, HAP-<italic>Z</italic><italic>4</italic>-KO, A549-<italic>Z5Z7</italic>-DKO, and SK-<italic>Z5Z7</italic>-DKO is presented in ref. (<xref rid="bib38" ref-type="bibr">38</xref>, <xref rid="bib46" ref-type="bibr">46</xref>, <xref rid="bib57" ref-type="bibr">57</xref>).</p></fn></table-wrap-foot></table-wrap><fig id="fig1"><label>Figure&#xA0;1</label><caption><p><bold><italic>N</italic>-Glycosylation of LAMP1 and LAMP2 was impaired in HAP-<italic>Z5Z</italic><italic>7</italic>-DKO cells.</bold><italic>A</italic>, electrophoretic mobility of LAMP1 (<italic>top panel</italic>) and LAMP2 (<italic>bottom panel</italic>) was increased in HAP-<italic>Z5Z</italic><italic>7</italic>-DKO cells compared with that in WT HAP1 cells and other examined HAP1 mutants. Membrane fractions prepared from the indicated cell lines were subjected to immunoblot analysis. <italic>B</italic>, electrophoretic mobility of LAMP1 (<italic>top panel</italic>) and LAMP2 (<italic>bottom panel</italic>) was almost unchanged in HAP-<italic>Z</italic><italic>5</italic>-KO and HAP-<italic>Z</italic><italic>7</italic>-KO cells. <italic>C</italic>, LAMP1 and LAMP2 in the membrane fractions prepared from HAP-<italic>Z5Z</italic><italic>7</italic>-DKO cells had almost the same electrophoretic mobility as those in the fractions prepared from WT HAP1 cells after PNGase F digestion. (+): treated; (&#x2212;): not treated. <italic>D</italic>, Mn<sup>2+</sup> supplementation in the culture medium for HAP-<italic>Z5Z</italic><italic>7</italic>-DKO cells failed to restore the electrophoretic mobility of LAMP1 and LAMP2. CNX was used as a loading control. Each experiment was performed at least three times, and representative results from independent experiments are shown.</p></caption><graphic xlink:href="gr1"/></fig></p>
+      </sec>
+      <sec id="sec1.2">
+        <title>Deficiency in ZNT5-6 and ZNT7 functions impairs the complex-type <italic>N</italic>-glycan biosynthetic pathway</title>
+        <p id="p0035">Next, we performed an <italic>N</italic>-glycomic analysis to clarify the defects in <italic>N</italic>-glycosylation in HAP-<italic>Z5Z7</italic>-DKO cells. We detected 55 glycan ion peaks in the MALDI-TOF/MS spectra for WT HAP1, HAP-<italic>Z5Z7</italic>-DKO, HAP-<italic>Z5</italic>-KO, and HAP-<italic>Z7</italic>-KO cells (<xref rid="appsec1" ref-type="sec">Table&#xA0;S1</xref>, <xref rid="appsec1" ref-type="sec">Fig.&#xA0;S1</xref>). These peaks were quantified for relative abundance (percentage to the total ion intensities within the sample) and classified into the five glycan types based on their glycosyl compositions deduced from the MS/MS fragmentation analysis to confirm glycan structures when necessary. WT HAP1 cells predominantly expressed high-mannose-type <italic>N</italic>-glycans (prevalence: &gt;87%), followed by complex-type (8.7%), complex/hybrid-type (3.2%), hybrid-type (1.2%), and pauci-mannose-type (0.4%) (<xref rid="fig2" ref-type="fig">Fig.&#xA0;2</xref>, <italic>A</italic>, <italic>B</italic>, and <italic>C</italic>). Among the <italic>ZNT</italic>-deficient cells, alteration in <italic>N</italic>-glycome was, as expected, the most apparent in HAP-<italic>Z5Z7</italic>-DKO cells for which the ions peaks corresponding to the hybrid-type glycans were evident in the mass spectrum (<xref rid="fig2" ref-type="fig">Figs.&#xA0;2</xref><italic>A</italic> and <xref rid="appsec1" ref-type="sec">S2</xref>), with a marked increase in the relative abundance of hybrid-type and complex/hybrid glycans (15% and 8.7%, respectively) and a concomitant reduction in the sum of complex- and high-mannose-type glycans (3.7% and 72%, respectively) (<xref rid="fig2" ref-type="fig">Fig.&#xA0;2</xref><italic>C</italic>). Moreover, volcano plots for fold-change in the respective glycan ion species (vs. WT HAP1) showed a robust reduction in complex-type glycans and an increase in most of the hybrid-type and complex/hybrid-type glycans, which was statistically significant for HAP-<italic>Z5Z7</italic>-DKO cells (<xref rid="fig2" ref-type="fig">Fig.&#xA0;2</xref><italic>B</italic>). This trend clearly indicated that deficiency of both ZNT5-6 and ZNT7 functions could impair the activity of GMII, which is a key enzyme for biosynthesis of bi- and multi-antennary complex-type <italic>N</italic>-glycans that trims two &#x3B1;1,3/6-linked mannose (Man) residues leading to the addition of the &#x201C;second&#x201D; nonreducing terminal <italic>N</italic>-acetylglucosamine (GlcNAc) residue by <italic>N</italic>-acetylglucosaminyltransferase II (MGATII) (<xref rid="fig2" ref-type="fig">Fig.&#xA0;2</xref><italic>D</italic>). The ratio of glycan types in HAP-<italic>Z5</italic>-KO and HAP-<italic>Z7</italic>-KO was almost identical to that for WT HAP1 (<xref rid="fig2" ref-type="fig">Fig.&#xA0;2</xref><italic>C</italic>), as evident from the electrophoretic mobility of LAMP1 and LAMP2 (<xref rid="fig1" ref-type="fig">Fig.&#xA0;1</xref><italic>B</italic>), which indicated their alternate complementarity (<xref rid="fig2" ref-type="fig">Fig.&#xA0;2</xref>, <italic>B</italic> and <italic>C</italic>). However, the prevalence of specific glycan species was influenced by each of the selected gene deficiencies (<xref rid="fig2" ref-type="fig">Fig.&#xA0;2</xref><italic>B</italic>). Collectively, comparisons of the <italic>N</italic>-glycomic profiles among these HAP1 cells revealed that ZNT5-6 and ZNT7 are crucial for maintaining the homeostasis of the <italic>N</italic>-glycan biosynthetic pathway <italic>via</italic> their effect on the GMII activity.<fig id="fig2"><label>Figure&#xA0;2</label><caption><p><bold><italic>N</italic>-glycomics of <italic>ZNT</italic><italic>5</italic>-and/or <italic>ZNT</italic><italic>7</italic>-deficient HAP1 cells.</bold><italic>A</italic>, full-mass profiles of permethylated <italic>N</italic>-glycans released by PNGase F from WT HAP1 (<italic>upper panel</italic>) and HAP-<italic>Z5Z</italic><italic>7</italic>-DKO (<italic>lower panel</italic>) cells. Glycan cartoons indicate the representative deduced glycan structures corresponding to each ion peak. <italic>B</italic>, volcano plots for prevalence (% of the total) of each glycan ion peak for the mutant cells (left: HAP-<italic>Z5</italic>-KO; middle: HAP-<italic>Z</italic><italic>7</italic>-KO; right: HAP-<italic>Z5Z7</italic>-DKO) compared with that for WT cells (n&#xA0;= 3). Glycan types are marked in colors. See Table&#xA0;S1 for details. <italic>C</italic>, ratios of glycan types in WT and mutant cells. <italic>D</italic>, deficiency of ZNT5 and ZNT7 affects the <italic>N</italic>-glycan synthetic pathway by inhibiting GMII. MGATI: <italic>N</italic>-acetylglucosaminyltransferase I; MGATII: <italic>N</italic>-acetylglucosaminyltransferase II.</p></caption><graphic xlink:href="gr2"/></fig></p>
+        <p id="p0040">Lysosomal &#x3B1;-mannosidase (LAMAN, MAN2B1) is a GMII homolog (<xref rid="bib43" ref-type="bibr">43</xref>) in the GH38 family. It degrades &#x3B1;-mannosidic linkages of free <italic>N</italic>-glycans (FNGs), which are derived from lipid-linked oligosaccharides and the glycan donors in <italic>N</italic>-glycosylation, and also generated by enzymatic deglycosylation of misfolded glycoproteins during ER-associated degradation (<xref rid="bib44" ref-type="bibr">44</xref>). We analyzed FNGs using soluble fractions prepared from WT HAP1 and HAP-<italic>Z5Z7</italic>-DKO cells. Contrary to the results for the <italic>N</italic>-glycomics of membrane fractions, no significant differences were observed among FNGs (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S3</xref>). These results suggest that the LAMAN activity is not substantially impaired in HAP-<italic>Z5Z7</italic>-DKO cells.</p>
+      </sec>
+      <sec id="sec1.3">
+        <title>GMII activity is substantially decreased in <italic>Z5Z7</italic>-DKO cells</title>
+        <p id="p0045">We investigated whether the GMII activity was impaired in <italic>Z5Z7</italic>-DKO cells. For this, we established a simple method to distinctly measure the activity of GMII and LAMAN using <italic>p</italic>-nitrophenyl &#x3B1;-<sc>d</sc>-mannopyranoside as a substrate. We first prepared total cellular lysates from SK-MEL-2&#xA0;cells, transiently transfected with mouse GMII (mGMII) or LAMAN expression plasmids (SK-MEL-2&#xA0;cells were used considering their high transfection efficiency (<xref rid="bib45" ref-type="bibr">45</xref>)), and used them to measure the respective enzyme activity by changing the pH of the reaction buffer. The activity of mGMII could be measured at pH 7.5, whereas that of LAMAN was detected only at a low pH of 4.0 (<xref rid="fig3" ref-type="fig">Fig.&#xA0;3</xref><italic>A</italic>). We then confirmed if the activities of these enzymes could be discriminated. We found that the respective mannosidase activity was substantially decreased in the membrane protein fraction prepared from HAP1 cells deficient in <italic>GMII/MAN2A1</italic> (HAP-<italic>GMII</italic>-KO cells) or <italic>LAMAN/MAN2B1</italic> (HAP-<italic>LAMAN</italic>-KO cells). Specifically, the GMII activity was only decreased in the membrane fraction of HAP-<italic>GMII</italic>-KO cells but not in that of HAP-<italic>LAMAN</italic>-KO, at pH 7.5 (<xref rid="fig3" ref-type="fig">Fig.&#xA0;3</xref><italic>B</italic>, <italic>left)</italic>, whereas the LAMAN activity was substantially decreased for HAP-<italic>LAMAN</italic>-KO cells but not for HAP-<italic>GMII</italic>-KO cells, at pH 4.0 (<xref rid="fig3" ref-type="fig">Fig.&#xA0;3</xref><italic>B</italic>, <italic>right</italic>). These results indicate that the GMII activity could be distinctly measured using our system.<fig id="fig3"><label>Figure&#xA0;3</label><caption><p><bold>GMII activity was substantially decreased in HAP-<italic>Z5Z7</italic>-DKO cells, although its expression was almost unchanged.</bold><italic>A and B</italic>, the activity of GMII was distinguished from that of LAMAN by changing the pH of the reaction buffer. In <italic>A</italic>, the activity was measured using the total cell lysates prepared from SK-MEL-2&#xA0;cells transiently transfected with mouse GMII (mGMII) or LAMAN expression plasmid. In <italic>B</italic>, the accurate measurement of GMII activity was confirmed using the membrane fractions prepared from HAP-<italic>GMII</italic>-KO or HAP-<italic>LA</italic><italic>M</italic><italic>AN</italic>-KO cells. <italic>C</italic>, GMII activity was substantially decreased in HAP-<italic>Z5Z7</italic>-DKO cells (<italic>left</italic>), whereas LAMAN activity was not (<italic>right</italic>). <italic>D</italic>, in HAP-<italic>Z5Z7</italic>-DKO cells, GMII localized with the Golgi apparatus. TGN46 was used as the Golgi marker. E. In HAP-<italic>Z5Z7</italic>-DKO cells, GMII activity was reversed by co-expression of ZNT5 or ZNT7, but not by Zn<sup>2+</sup>-transport incompetent ZNT5 mutant (ZNT5<sub>H451A</sub>). <italic>F</italic>, the reduced GMII activity in HAP-<italic>Z5Z7</italic>-DKO cells was not restored upon Zn<sup>2+</sup> supplementation. G. GMII activity was partially decreased in HAP-<italic>Z5</italic>-KO or HAP-<italic>Z7</italic>-KO cells. GMII activity is expressed as mean&#x2009;&#xB1;&#x2009;SD of values from triplicate experiments. mb. protein: membrane protein; &#x2217;&#x2217;: <italic>p</italic>&#xA0;&lt; 0.01; &#x2217;: <italic>p</italic>&#xA0;&lt; 0.05; ns: not significant. Each experiment was performed at least thrice, and representative results from independent experiments are presented.</p></caption><graphic xlink:href="gr3"/></fig></p>
+        <p id="p0050">The GMII activity in HAP-<italic>Z5Z7</italic>-DKO cells was substantially lower than that in WT HAP1 cells (<xref rid="fig3" ref-type="fig">Fig.&#xA0;3</xref><italic>C</italic>, <italic>left</italic>). However, the protein levels of GMII were comparable between the two cell types (<xref rid="fig3" ref-type="fig">Fig.&#xA0;3</xref><italic>C</italic>, <italic>left</italic>), and the Golgi localization of the proteins was not impaired in HAP-<italic>Z5Z7</italic>-DKO cells (<xref rid="fig3" ref-type="fig">Fig.&#xA0;3</xref><italic>D</italic>), suggesting that GMII is present as an <italic>apo</italic>-enzyme in HAP-<italic>Z5Z7</italic>-DKO cells. This feature is different from tissue non-specific alkaline phosphatase (TNAP), which is promptly degraded through both the lysosomal and proteasomal degradation pathways in HAP-<italic>Z5Z7</italic>-DKO cells (<xref rid="bib38" ref-type="bibr">38</xref>). In contrast, the LAMAN activity in HAP-<italic>Z5Z7</italic>-DKO cells was comparable to that in WT HAP1 cells (<xref rid="fig3" ref-type="fig">Fig.&#xA0;3</xref><italic>C</italic>, <italic>right</italic>), consistent with the results of the FNG analysis (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S3</xref>). The substantial reduction in the GMII activity in HAP-<italic>Z5Z7</italic>-DKO cells, which was almost the same as that in HAP-<italic>GMII</italic>-KO cells, was restored by re-expression of ZNT5 or ZNT7, but not by that of Zn<sup>2+</sup>-transport incompetent ZNT5 (ZNT5<sub>H451A</sub>) (<xref rid="fig3" ref-type="fig">Fig.&#xA0;3</xref><italic>E</italic>). Supplementation of Zn<sup>2+</sup> also failed to restore the GMII activity (<xref rid="fig3" ref-type="fig">Fig.&#xA0;3</xref><italic>F</italic>). The GMII activity was partially decreased in HAP-<italic>Z5</italic>-KO and HAP-<italic>Z7</italic>-KO cells (<xref rid="fig3" ref-type="fig">Fig.&#xA0;3</xref><italic>G</italic>), as indicated by the reduction in several complex-type glycans in the single KO cells in the <italic>N</italic>-glycomics analysis (<xref rid="fig2" ref-type="fig">Fig.&#xA0;2</xref><italic>B</italic>).</p>
+        <p id="p0055">Next, we confirmed that the loss of ZNT5-6 and ZNT7 functions resulted in the enhanced electrophoretic mobility of LAMP1 and decreased GMII activity in other types of human cells, including MIA PaCa-2, SK-MEL-2, and A549&#xA0;cells deficient in <italic>ZNT5</italic> and <italic>ZNT7</italic> (MIA-<italic>Z5Z7</italic>-DKO (<xref rid="tbl1" ref-type="table">Table&#xA0;1</xref>), SK-<italic>Z5Z7</italic>-DKO, and A549-<italic>Z5Z7</italic>-DKO (<xref rid="bib46" ref-type="bibr">46</xref>)) (<xref rid="fig4" ref-type="fig">Fig.&#xA0;4</xref>, <italic>A</italic>&#x2013;<italic>D</italic>). These results indicate that ZNT5-6 and ZNT7 play a pivotal role in the activation of GMII by supplying Zn<sup>2+</sup> in the early secretory compartments.<fig id="fig4"><label>Figure&#xA0;4</label><caption><p><bold>Essentiality of Zn</bold><sup><bold>2+</bold></sup><bold>supply by ZNT5-6 and ZNT7 to GMII is conserved in other cultured human cells.</bold><italic>A&#x2013;C</italic>, GMII activity was substantially decreased in <italic>Z5Z7</italic>-DKO cells compared with that in WT cells, and it was not restored upon Zn<sup>2+</sup> supplementation. MIA PaCa-2 (<italic>A</italic>), SK-MEL-2 (<italic>B</italic>), and A549 (<italic>C</italic>) cells were examined. GMII activity is expressed as mean&#x2009;&#xB1;&#x2009;SD of values from triplicate experiments. mb. protein: membrane protein; &#x2217;&#x2217;: <italic>p</italic>&#xA0;&lt; 0.01; ns: not significant. <italic>D</italic>, Electrophoretic mobility of LAMP2 was increased in MIA-<italic>Z5Z7</italic>-DKO, SK-<italic>Z5Z7</italic>-DKO, and A549-<italic>Z5Z7</italic>-DKO cells compared with that in their respective WT cells. Each experiment was performed at least thrice, and representative results from independent experiments are presented.</p></caption><graphic xlink:href="gr4"/></fig></p>
+      </sec>
+      <sec id="sec1.4">
+        <title>Glycoprotein expression is decreased in <italic>Z5Z7</italic>-DKO cells</title>
+        <p id="p0060">To examine whether the expression profile of <italic>N</italic>-glycosylated proteins was altered in HAP-<italic>Z5Z7</italic>-DKO cells, we performed gene ontology (GO) term enrichment analysis using the top 50 proteins that showed differences in their relative expression between WT HAP1 and HAP-<italic>Z5Z7</italic>-DKO cells, determined using quantitative proteomics with sequential window acquisition of all theoretical fragment ion spectra mass spectrometry (SWATH-MS) analysis of membrane fractions prepared from both the cell lines (ProteomeXchange Consortium with the dataset identifier PXD032172 (<xref rid="bib46" ref-type="bibr">46</xref>)). &#x201C;Glycoprotein&#x201D; was the third most-enriched GO term, whose expression decreased in HAP-<italic>Z5Z</italic><italic>7</italic>-DKO cells (<xref rid="tbl2" ref-type="table">Table&#xA0;2</xref>). We also performed the GO analysis using the top 50 proteins by identifying 2864 proteins between WT MIA PaCa-2 and MIA-<italic>Z5Z</italic><italic>7</italic>-DKO cells (the dataset identifier PXD032172, <xref rid="appsec1" ref-type="sec">Table&#xA0;S2</xref>); the most enriched protein term whose expression decreased in MIA-<italic>Z5Z</italic><italic>7</italic>-DKO cells was &#x201C;Glycoprotein&#x201D; (<xref rid="tbl3" ref-type="table">Table&#xA0;3</xref>). These results suggest that the expression of proteins that are <italic>N</italic>-glycosylated is profoundly affected by the loss of ZNT5-6 and ZNT7 functions, and clearly show that ZNT5-6 and ZNT7 play crucial roles in protein quality control through the <italic>N</italic>-glycosylation pathway <italic>via</italic> GMII activation.<table-wrap position="float" id="tbl2"><label>Table&#xA0;2</label><caption><p>Functional annotation clustering (post-translational modification) showing decreased protein expression in HAP-<italic>Z5Z7</italic>-DKO cells compared with that in WT HAP1 cells using the top 50 proteins in the SWATH-MS analysis</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Term</th><th>Number within the top 50 proteins</th><th>Fold enrichment</th><th>Raw <italic>p-</italic>value</th><th>FDR</th></tr></thead><tbody><tr><td>GPI-anchor</td><td align="char">5</td><td align="char">11.12</td><td>9.52E-04</td><td>1.33E-02</td></tr><tr><td>Lipoprotein</td><td align="char">6</td><td align="char">2.04</td><td>1.57E-01</td><td>3.00E-01</td></tr><tr><td>Glycoprotein</td><td align="char">22</td><td align="char">1.46</td><td>3.55E-02</td><td>1.24E-01</td></tr><tr><td>Disulfide bond</td><td align="char">17</td><td align="char">1.40</td><td>1.10E-01</td><td>2.56E-01</td></tr></tbody></table><table-wrap-foot><fn id="tspara0025"><p>Raw data from the SWATH-MS analysis are shown in ref. (<xref rid="bib46" ref-type="bibr">46</xref>). Fifty proteins with the smallest DKO/WT ratios for protein expression levels were subjected to GO enrichment analysis (cellular component). Four enriched components are listed in the table. The number within the top 50 proteins, fold enrichment, raw <italic>p</italic> value, and FDR were obtained <italic>via</italic> the original algorithm on the DAVID website.</p></fn><fn id="tspara0030"><p>FDR, false discovery rate; GO, Gene ontology.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="tbl3"><label>Table&#xA0;3</label><caption><p>Functional annotation clustering (post-translational modification) showing decreased protein expression in MIA-<italic>Z5Z7</italic>-DKO cells compared with that in WT MIA PaCa-2&#xA0;cells using the top 50 proteins in the SWATH-MS analysis</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Term</th><th>Number within the top 50 proteins</th><th>Fold enrichment</th><th>Raw <italic>p</italic>-value</th><th>FDR</th></tr></thead><tbody><tr><td>Glycoprotein</td><td align="char">25</td><td align="char">1.55</td><td>9.68E-03</td><td>6.90E-02</td></tr><tr><td>Disulfide bond</td><td align="char">18</td><td align="char">1.39</td><td>1.06E-01</td><td>2.91E-01</td></tr></tbody></table><table-wrap-foot><fn><p>Raw data from the SWATH-MS analysis are shown in <xref rid="appsec1" ref-type="sec">Table&#xA0;S3</xref>. GO enrichment analysis was performed as described in <xref rid="tbl2" ref-type="table">Table&#xA0;2</xref>.</p></fn></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="sec1.5">
+        <title>Effects of the loss of ZNT5-6 and ZNT7 functions on the growth of pancreatic cancer cells in a nude mouse xenograft model</title>
+        <p id="p0065">As highly branched complex-type oligosaccharides are commonly associated with a malignant phenotype (<xref rid="bib9" ref-type="bibr">9</xref>, <xref rid="bib10" ref-type="bibr">10</xref>, <xref rid="bib11" ref-type="bibr">11</xref>), GMII has received attention as an attractive therapeutic target for preventing cancer progression (<xref rid="bib11" ref-type="bibr">11</xref>, <xref rid="bib47" ref-type="bibr">47</xref>). We examined the possibility that functional impairment of ZNT5-6 and ZNT7 may affect the characteristics of malignant cancer cells, MIA PaCa-2, in an immunodeficient nude mouse xenograft model (<xref rid="bib48" ref-type="bibr">48</xref>). After confirming that the growth of MIA-<italic>Z5Z7</italic>-DKO cells in culture was almost the same as that of WT MIA PaCa-2&#xA0;cells (<xref rid="fig5" ref-type="fig">Fig.&#xA0;5</xref><italic>A</italic>), these cells were subcutaneously (<italic>s.c</italic>.)-inoculated into the right or left shoulder areas of nude mice. The MIA-<italic>Z5Z7</italic>-DKO cells showed significantly reduced growth for 4&#xA0;weeks in xenograft compared with the WT cells (<xref rid="fig5" ref-type="fig">Figs.&#xA0;5</xref><italic>B</italic> and <xref rid="appsec1" ref-type="sec">S4</xref>). Consistent with this, weights of tumors removed after 4&#xA0;weeks from mice <italic>s.c</italic>.-injected with MIA-<italic>Z5Z7</italic>-DKO cells were significantly decreased compared with those from mice injected with WT MIA PaCa-2&#xA0;cells (<xref rid="fig5" ref-type="fig">Fig.&#xA0;5</xref><italic>C</italic>). These results indicate that functional impairment of ZNT5-6 and ZNT7 contributes to the decrease in pancreatic cancer cell progression <italic>in&#xA0;vivo</italic>.<fig id="fig5"><label>Figure&#xA0;5</label><caption><p><bold>Loss of ZNT5-6 and ZNT7 functions impaired the pancreatic cancer cell growth in the nude mouse xenograft model.</bold><italic>A</italic>, cell proliferation was not significantly different between MIA PaCa-2 and MIA-<italic>Z5Z7</italic>-DKO cells. Cell proliferation was determined by measuring BrdU incorporation as described in Experimental procedures (<italic>n</italic>&#xA0;= 3). ns: not significant. <italic>B</italic>, volumes of tumors derived from <italic>s.c.</italic>-inoculated MIA-<italic>Z5Z7</italic>-DKO cells were significantly decreased compared with those of tumors derived from WT MIA PaCa-2&#xA0;cells. Tumor volumes were measured up to 4&#xA0;weeks (<italic>n</italic>&#xA0;= 6). &#x2217;&#x2217;: <italic>p</italic>&#xA0;&lt; 0.01; &#x2217;: <italic>p</italic>&#xA0;&lt; 0.05. <italic>C</italic>, weights of tumors removed from nude mice were significantly decreased in MIA-<italic>Z5Z7</italic>-DKO cells. Pictures of each tumor from each group are shown. &#x2217;: <italic>p</italic>&#xA0;&lt; 0.05. Each experiment was performed at least thrice, and representative results from independent experiments are presented.</p></caption><graphic xlink:href="gr5"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="sec2">
+      <title>Discussion</title>
+      <p id="p0070">We show that the activation of GMII in the early secretory compartments, which is essential for <italic>N</italic>-glycosylation, is mediated by Zn<sup>2+</sup> supplied by ZNT5-6 and ZNT7. Loss of ZNT5-6 and ZNT7 functions increased the sum of hybrid-type and complex/hybrid glycans and concomitantly reduced the sum of complex- and high-mannose-type glycans, which led to the altered expression pattern of <italic>N</italic>-glycosylated proteins. We also show that loss of ZNT5-6 and ZNT7 functions may contribute to reduced malignancy of MIA PaCa-2&#xA0;cells probably through reduced complex-type <italic>N</italic>-glycosylation. The evidence clearly indicates the novel cellular functions of Zn<sup>2+</sup> through ZNT5-6 and ZNT7 in the early secretory compartments and provides novel insights into the mechanism of regulation of glycosylation by a trace element. Our results should potentially be useful in devising a novel strategy for cancer therapy.</p>
+      <p id="p0075">The present study was prompted by our finding of a profound increase in the electrophoretic mobility of LAMP1 and LAMP2 by changes in <italic>N</italic>-glycosylation during the course of the study. Similar defects were found in our previous study wherein we noted that the electrophoretic mobility of the highly <italic>N</italic>-glycosylated angiotensin-converting enzyme 2 was significantly enhanced in <italic>Z5Z</italic><italic>7</italic>-DKO cells compared with that in WT cells (<xref rid="bib46" ref-type="bibr">46</xref>). In addition to these highly <italic>N</italic>-glycosylated proteins, alterations in the global expression of <italic>N</italic>-glycosylated proteins were noted in <italic>Z5Z</italic><italic>7</italic>-DKO cells compared with that in WT cells. No severe growth defects were noticed in <italic>Z5Z</italic><italic>7</italic>-DKO cells under usual culture conditions, which may be because of the several homeostatic responses in <italic>Z5Z</italic><italic>7</italic>-DKO cells. The increased expression of MGATI, MGATII and &#x3B2;-1,4-galactosyltransferase 1 (B4GALT1) in HAP-<italic>Z5Z</italic><italic>7</italic>-DKO and MIA-<italic>Z5Z</italic><italic>7</italic>-DKO cells (B4GALT7 was also detected) in the SWATH-MS analysis (<xref rid="appsec1" ref-type="sec">Tables&#xA0;S3</xref> and <xref rid="appsec1" ref-type="sec">S4</xref>) also gives credence to this notion. These responses may be important as the &#x201C;Golgi stress responses&#x201D; described recently (<xref rid="bib49" ref-type="bibr">49</xref>, <xref rid="bib50" ref-type="bibr">50</xref>). Further investigation is required, considering that more than one-third of synthesized proteins encoded by the human genome traverse to the secretory pathway (<xref rid="bib51" ref-type="bibr">51</xref>).</p>
+      <p id="p0080">The terms &#x201C;GPI-anchor,&#x201D; &#x201C;Disulfide bond,&#x201D; and &#x201C;Lipoprotein&#x201D; were enriched in the SWATH-MS analysis in addition to &#x201C;Glycoprotein.&#x201D; We previously reported that GPI-anchored biosynthesis was impaired in <italic>Z5Z7</italic>-KO cells, probably because of the loss of functions of three PIG proteins (PIG-N, PIG-O, and PIG-G) (<xref rid="bib46" ref-type="bibr">46</xref>). Moreover, the functions of protein disulfide isomerase (PDI) family protein are controlled by Zn<sup>2+</sup> (<xref rid="bib52" ref-type="bibr">52</xref>, <xref rid="bib53" ref-type="bibr">53</xref>, <xref rid="bib54" ref-type="bibr">54</xref>) and thus the enrichment of the term &#x201C;Disulfide bond&#x201D; was not notable if Zn<sup>2+</sup>, mediated by ZNT5-6 and ZNT7, is important for regulating PDI functions. In contrast, the relationship between Zn<sup>2+</sup> and lipoprotein is less clear. Thus, the enrichment of the term &#x201C;Lipoprotein&#x201D; is notable from the view of zinc functions in the early secretory pathway, which should be examined in future studies. These results indicate that ZNT5-6 and ZNT7 play pivotal roles in the post-translational modification of proteins through transporting Zn<sup>2+</sup> into the early secretory pathway in addition to the &#x201C;Golgi stress responses,&#x201D; as clarified in this study and described above.</p>
+      <p id="p0085">Alterations in <italic>N</italic>-glycomic profiles were most apparent in HAP-<italic>Z5Z7</italic>-DKO cells, and the profiles in HAP-<italic>Z5</italic>-KO and HAP-<italic>Z7</italic>-KO were almost identical to those in WT HAP1 cells (<xref rid="fig2" ref-type="fig">Fig.&#xA0;2</xref><italic>C</italic>). However, the prevalence of the specific glycan species was affected in HAP-<italic>Z5</italic>-KO and HAP-<italic>Z7</italic>-KO cells (<xref rid="fig2" ref-type="fig">Fig.&#xA0;2</xref><italic>B</italic>). These differences indicate that ZNT5-6 and ZNT7 do not necessarily have the same function despite the similarity in their Zn<sup>2+</sup> transporting activity and subcellular localization in the early secretory pathway. A recent report revealed that ZNT5-6 and ZNT7 show different subcellular localization, with the former mainly localized in the <italic>medial</italic>-Golgi and the latter in the <italic>cis</italic> Golgi (<xref rid="bib54" ref-type="bibr">54</xref>). Moreover, ZNT5-6 and ZNT7 show obvious physiopathological differences in human and medaka fish (<italic>Oryzias latipes</italic>). In humans, mutations in <italic>SLC30A5/ZNT5</italic> or <italic>SLC30A7/ZNT7</italic> resulted in perinatal lethal cardiomyopathy or stunted growth, testicular hypoplasia, and bone marrow failure, respectively (<xref rid="bib55" ref-type="bibr">55</xref>, <xref rid="bib56" ref-type="bibr">56</xref>). <italic>Znt5</italic><sup>+/&#x2212;</sup>;<italic>Znt7</italic><sup>&#x2212;/&#x2212;</sup> medaka respond to touch, but not <italic>Znt5</italic><sup>&#x2212;</sup><sup>/</sup><sup>&#x2212;</sup>;<italic>Znt7</italic><sup>+/</sup><sup>&#x2212;</sup> (<xref rid="bib46" ref-type="bibr">46</xref>). Considering these facts, GMII activity may be regulated in a different manner by ZNT5-6 and ZNT7, for example, in a cell-type-specific or stimulant-dependent manner, although substantial defects are obvious only in <italic>Z5Z</italic><italic>7</italic>-DKO cells in a cell culture model. Elucidation of specific physiopathological functions of ZNT5-6 and ZNT7 would facilitate our increased understanding of the homeostatic control of the secretory pathway.</p>
+      <p id="p0090">Although Zn<sup>2+</sup> supplied by ZNT5-6 and ZNT7 is required for <italic>N</italic>-glycosylation through GMII, it is apparently not required for the degradation of &#x3B1;-mannosidic linkages of FNGs through LAMAN (see <xref rid="appsec1" ref-type="sec">Fig.&#xA0;S3</xref>, <italic>A</italic> and <italic>B</italic>). These results were reflected in the activities of GMII and LAMAN in HAP-<italic>Z5Z7</italic>-DKO cells. The GMII activity was dependent on ZNT5-6 and ZNT7, whereas that of LAMAN showed no such dependence. It is important to identify the reason for this discrepancy. One reason could be the difference in the subcellular localization. GMII localizes to the Golgi, whereas LAMAN is present in lysosomes. We compared the amounts of FNG species in HAP1 cells deficient in <italic>ZNT4</italic> (HAP-<italic>Z4</italic> cells), which localizes to the lysosomes (<xref rid="bib57" ref-type="bibr">57</xref>), and HAP1 cells deficient in <italic>ZNT5</italic>, <italic>ZNT7</italic>, and <italic>ZNT4</italic> (HAP-<italic>Z4Z5Z7</italic>-TKO cells). The catabolism of FNGs was not much affected by the loss of ZNT4 in the respective cells compared with that in WT or HAP-<italic>Z5Z7</italic>-DKO cells (<xref rid="appsec1" ref-type="sec">Fig.&#xA0;S3</xref>, <italic>B</italic>&#x2013;<italic>D</italic>). The possibility that only lysosomal enzymes acquire Zn<sup>2+</sup> through their unique pathways was excluded because the activation of the lysosomal enzyme sphingomyelin phosphodiesterase 1 (SMPD1) is completely dependent on Zn<sup>2+</sup> mediated through ZNT5-6 and ZNT7 in the early secretory pathway. At present, we are unable to explain how these proteins receive Zn<sup>2+</sup> in a specific manner. Nonetheless, clarification of this point would provide insights into how Zn<sup>2+</sup> metalation of the intracellular Zn<sup>2+</sup>-enzymes is sophisticatedly controlled.</p>
+      <p id="p0095">Altered glycosylation in cancer cells allows new interactions with immune cells to suppress antitumor immunity by evading immune surveillance (<xref rid="bib58" ref-type="bibr">58</xref>, <xref rid="bib59" ref-type="bibr">59</xref>). GMII suppresses the sensitivity of cancer cells to T-cell-mediated death (<xref rid="bib60" ref-type="bibr">60</xref>), and inhibitors of the GMII activity have been extensively explored as potential cancer therapeutics. Swainsonine, a potent inhibitor of this protein, and its related compounds improve the outcome in breast, colon, and skin cancers (<xref rid="bib12" ref-type="bibr">12</xref>, <xref rid="bib61" ref-type="bibr">61</xref>), and have been administrated in clinical trials (<xref rid="bib11" ref-type="bibr">11</xref>, <xref rid="bib12" ref-type="bibr">12</xref>, <xref rid="bib62" ref-type="bibr">62</xref>). However, these inhibitors have not been clinically applied in view of their side effects, which resemble &#x3B1;-mannosidosis, a lysosomal storage disease, resulting from the off-target inhibition of LAMAN (<xref rid="bib11" ref-type="bibr">11</xref>, <xref rid="bib63" ref-type="bibr">63</xref>, <xref rid="bib64" ref-type="bibr">64</xref>). Our xenograft model showed that the loss of ZNT5-6 and ZNT7 functions impaired pancreatic cancer cell growth, likely due to the altered <italic>N</italic>-glycosylation through a substantial decrease in the GMII activity, although other cellular pathways may be affected. Notably, the loss of ZNT5-6 and ZNT7 functions had minor effects on the degradation of &#x3B1;-mannosidic linkages of FNGs by LAMAN. This specificity offers an advantage for GMII inhibition, and thus ZNT5-6 and ZNT7 may be novel chemotherapeutic target proteins.</p>
+      <p id="p0100">Another important aspect of this study is the demonstration of a method for distinguishing between the GMII and LAMAN activities using <italic>p</italic>-nitrophenyl &#x3B1;-<sc>d</sc>-mannopyranoside simply by changing the pH of the reaction buffer. This simple method employing membrane fractions, with the removal of the contaminating activity of the cytosolic &#x3B1;-mannosidase (encoded by <italic>MAN2C1</italic>) belonging to the GH38 family (<xref rid="bib65" ref-type="bibr">65</xref>, <xref rid="bib66" ref-type="bibr">66</xref>), is expected to be widely used in biochemical analyses of GMII and LAMAN in the future.</p>
+      <p id="p0105">Many glycosyltransferases need Mn<sup>2+</sup> as an essential divalent cation (<xref rid="bib15" ref-type="bibr">15</xref>, <xref rid="bib16" ref-type="bibr">16</xref>, <xref rid="bib17" ref-type="bibr">17</xref>, <xref rid="bib24" ref-type="bibr">24</xref>), whereas several glycosidases require Ca<sup>2+</sup> (<xref rid="bib19" ref-type="bibr">19</xref>, <xref rid="bib20" ref-type="bibr">20</xref>). This study revealed that GMII requires Zn<sup>2+</sup> for its activity. The evidence from this study indicates that the interplay and homeostatic control of these divalent cations through transport proteins are essential for constructing the <italic>N</italic>-glycan repertoire on the client proteins and, thereby, for the quality control of <italic>N</italic>-glycosylated proteins. Thus, the maintenance of metal homeostasis in the early secretory pathway compartments should be the main area of focus.</p>
+    </sec>
+    <sec id="sec3">
+      <title>Experimental procedures</title>
+      <sec id="sec3.1">
+        <title>Cell culture</title>
+        <p id="p0110">HAP1 cells, which are human near-haploid cells (Horizon Discovery), were maintained at 37 &#xB0;C in a humidified 5% CO<sub>2</sub> incubator in Iscove&#x2019;s modified Dulbecco&#x2019;s medium (Nacalai Tesque) containing 10% heat-inactivated fetal calf serum (FCS; Biosera), 100 U/ml penicillin, and 100&#xA0;&#x3BC;g/ml streptomycin (Nacalai Tesque), as described previously (<xref rid="bib38" ref-type="bibr">38</xref>). For Zn<sup>2+</sup> deficiency experiments, Zn<sup>2+</sup>-deficient culture medium prepared using FCS treated with Chelex-100 resin (CX; Bio-Rad Laboratories), was used as described previously (<xref rid="bib67" ref-type="bibr">67</xref>). For Zn<sup>2+</sup> supplementation experiments, cell culture medium supplemented with various concentrations of ZnSO<sub>4</sub> was used. Dulbecco&#x2019;s modified Eagle medium (FUJIFILM Wako Pure Chemical) or RPMI1640 (FUJIFILM Wako Pure Chemical) was used to maintain pancreatic cancer MIA PaCa-2 (<xref rid="bib68" ref-type="bibr">68</xref>) and lung cancer A549 (<xref rid="bib46" ref-type="bibr">46</xref>) cells and melanoma SK-MEL-2&#xA0;cells (JCRB1393, JCRB cell bank).</p>
+      </sec>
+      <sec id="sec3.2">
+        <title>Plasmid construction</title>
+        <p id="p0115">The plasmids used for the expression of N-terminal FLAG-tagged human ZNT5 (FLAG-ZNT5), C-terminal HA-tagged ZNT7 (ZNT7-HA), and Zn<sup>2+</sup> transport-incompetent ZNT5 mutant (FLAG-ZNT5<sub>H451A</sub>) were described previously (<xref rid="bib38" ref-type="bibr">38</xref>, <xref rid="bib69" ref-type="bibr">69</xref>). The plasmid used for expressing GFP-fused mouse GMII (pEF-ManII-GFP, plasmid #160905, a gift from Benjamin Glick) (<xref rid="bib70" ref-type="bibr">70</xref>) or human LAMAN (pHAGE-MAN2B1, plasmid #116756, a gift from Gordon Mills &amp; Kenneth Scott) (<xref rid="bib71" ref-type="bibr">71</xref>) was purchased from Addgene.</p>
+      </sec>
+      <sec id="sec3.3">
+        <title>Disruption of ZNT5 and ZNT7 or ZIP8, ZIP9, ZIP14, TMEM165, SPCA1, GMII, and LAMAN</title>
+        <p id="p0120"><italic>ZNT5</italic> and <italic>ZNT7</italic> were simultaneously disrupted using CRISPR/Cas9-mediated genome editing with sgRNA expression plasmids as described previously (<xref rid="bib38" ref-type="bibr">38</xref>). The constructed plasmids (4&#xA0;&#x3BC;g) and one-10th quantity of pcDNA6/TR (carrying the blasticidin S resistance gene) were co-transfected into 80% confluent MIA PaCa-2&#xA0;cells using 4&#xA0;&#x3BC;l Lipofectamine 2000 (Thermo Fisher Scientific). After culturing for 1&#xA0;day, the cells were transferred to a 10-cm cell culture dish and cultured in the presence of 5&#xA0;&#x3BC;g/ml blasticidin S (InvivoGen, San Diego, CA) to establish MIA-<italic>Z5Z7</italic>-DKO cells clones. HAP-<italic>Z5Z7</italic>-DKO, SK-<italic>Z5Z7</italic>-DKO, and A549-<italic>Z5Z7</italic>-DKO cells were established in previous studies (<xref rid="bib38" ref-type="bibr">38</xref>, <xref rid="bib46" ref-type="bibr">46</xref>). HAP1 cells deficient in <italic>ZIP8</italic>, <italic>ZIP9</italic>, <italic>ZIP14</italic>, <italic>TMEM165</italic>, <italic>SPCA1</italic>, <italic>GMII/MAN2A1</italic>, or <italic>LAMAN/MAN2B1</italic> were established in the same manner. We used 20&#xA0;&#x3BC;g/ml blasticidin S (InvivoGen) to select the HAP1 KO cells. Oligonucleotides used for the generation of sgRNA expression plasmids are listed in <xref rid="appsec1" ref-type="sec">Table&#xA0;S5</xref>. Gene editing was confirmed by sequencing the PCR fragments amplified from genomic DNA using the primers listed in <xref rid="appsec1" ref-type="sec">Table&#xA0;S6</xref>.</p>
+      </sec>
+      <sec id="sec3.4">
+        <title>Transient and stable transfection</title>
+        <p id="p0125">Transient transfection was performed as described previously (<xref rid="bib46" ref-type="bibr">46</xref>). SK-MEL-2&#xA0;cells were seeded in 12-well plates (1.0&#xA0;&#xD7;&#xA0;10<sup>5</sup>&#xA0;cells/well) and cultured for 48&#xA0;h. The cells were then transfected with 1&#xA0;&#x3BC;g of empty pcDNA3 or pcDNA3 harboring each cDNA with 0.2&#xA0;&#x3BC;g of p&#x3B2;act&#x3B2;gal plasmid (<xref rid="bib72" ref-type="bibr">72</xref>) in Opti-MEM (Thermo Fisher Scientific) for normalization of transfection efficiency, using Lipofectamine 2000 (Thermo Fisher Scientific). The transfection medium was replaced after 4&#xA0;h with the corresponding culture medium, and the cells were cultured for an additional 24&#xA0;h prior to the experiments. Stable transformants of HAP-<italic>Z5Z7</italic>-DKO cells were established in previous studies (<xref rid="bib38" ref-type="bibr">38</xref>, <xref rid="bib57" ref-type="bibr">57</xref>).</p>
+      </sec>
+      <sec id="sec3.5">
+        <title><italic>N</italic>-glycomics</title>
+        <p id="p0130">Confluent cells from three 10&#xA0;cm culture plates (<italic>n</italic>&#xA0;= 3) were harvested by scraping with a cell-scraper, washed twice with cold phosphate-buffered saline (PBS; 137&#xA0;mM NaCl, 2.68&#xA0;mM KCl, 1.47&#xA0;mM KH<sub>2</sub>PO<sub>4</sub>, 8.1&#xA0;mM NaH<sub>2</sub>PO<sub>4</sub>, pH 7.4), and stored at&#xA0;&#x2212;80 &#xB0;C until use. The cells were homogenized with a Dounce-type homogenizer (WHEATON) in chloroform/methanol/water (4:8:3) on ice, and proteins were pelleted by centrifugation in pointed glass tubes with screw caps. The supernatants were collected and subjected to FNG analysis as described in the following section. Protein pellets were further extracted in ice-cold acetone/water (4:1) twice to remove the remaining soluble lipids and saccharides. Proteins were then extracted in acetone, pelleted again by centrifugation, and dried under a nitrogen stream. Next, the proteins were resuspended in 200&#xA0;&#x3BC;l of trypsin buffer [100&#xA0;mM Tris-HCl (pH 8.2), 10&#xA0;mM CaCl<sub>2</sub>] and heated at 95 &#xB0;C for 5&#xA0;min. After cooling to room temperature (25&#x2013;30 &#xB0;C), trypsin (Sigma-Aldrich, St Louis, MO) and chymotrypsin (Sigma-Aldrich) were added at final concentrations of 0.2&#xA0;mg/ml, and the samples were incubated overnight at 37 &#xB0;C. The tryptic/chymotryptic digestions were stopped by boiling the solution for 5&#xA0;min, and the tubes were centrifuged. The supernatants were then evaporated to dryness in a centrifugal evaporator and reconstituted in 5% acetic acid. The peptides were applied onto a SepPak C<sub>18</sub> cartridge column (100&#xA0;mg, Waters, Milford, MA) pre-equilibrated with 5% acetic acid, followed by sequential elution with 20% 2-propanol/5% acetic acid and 40% 2-propanol/5% acetic acid. The eluates were evaporated to dryness in a centrifugal evaporator. <italic>N</italic>-Glycans were released from the glycopeptides by treatment with three units of PNGase F (Roche) and purified on SepPak C<sub>18</sub> cartridge columns in the flow-through fractions. <italic>N</italic>-Glycans were further purified using a graphitized carbon column (InertSep GC column 150&#xA0;mg/3&#xA0;ml, GL Science, Tokyo, Japan) as described previously (<xref rid="bib73" ref-type="bibr">73</xref>). Subsequent permethylation of purified <italic>N</italic>-glycans was carried out according to the standard method (<xref rid="bib74" ref-type="bibr">74</xref>). The permethylated <italic>N</italic>-glycans were analyzed using matrix-associated laser desorption ionization-time of flight mass spectrometry (MALDI-TOF/MS) on an Autoflex III system (Bruker Daltonics, Billerica, MA) with 2,5-dihydroxybenzoic acid as a matrix in the positive ion and reflector modes. The MS/MS analysis of selected ion peaks was performed using the LIFT function. Shot counts and laser intensity were kept constant for comparison among the samples. Glycosyl compositions were estimated based on mass-to-charge (<italic>m</italic>/<italic>z</italic>) values of the ion peaks using the ExPASy GlycoMod tool (<xref rid="bib75" ref-type="bibr">75</xref>). Glycan types were classified into complex, hybrid, high-mannose, and pauci-mannose types based on the glycosyl compositions deduced from the MS and MS/MS fragmentation analyses, when applicable. The term "Complex/Hybrid" indicates possible mixtures of both structures.</p>
+      </sec>
+      <sec id="sec3.6">
+        <title>Analysis of free <italic>N</italic>-glycans</title>
+        <p id="p0135">FNGs were extracted from the supernatant obtained from samples after the pelleting of proteins, as mentioned above. Prior to extraction, 500 pmol of lacto-<italic>N</italic>-fucopentaose I (LNFPI) was added to each supernatant sample as an external standard oligosaccharide. The supernatant samples were dried under nitrogen with heating at 40 &#xB0;C and dissolved in 1&#xA0;ml water. The samples were applied onto a SepPak C<sub>18</sub> cartridge column (100&#xA0;mg), which was activated with acetonitrile and pre-equilibrated with water, followed by washing with 3&#xA0;ml water. The flow-through and wash fractions were combined and lyophilized. FNG samples were further purified using a graphitized carbon column, lyophilized, and permethylated, as described above. Permethylated FNGs were subjected to MALDI-TOF/MS and MS/MS analyses. Semiquantification was performed using LNFPI as a standard. Glycan amounts were normalized against protein amounts assayed with the trypsin/chymotrypsin-treated peptide solutions of the <italic>N</italic>-glycomics samples using the BCA protein assay kit (Thermo Scientific).</p>
+      </sec>
+      <sec id="sec3.7">
+        <title>Preparation of membrane fractions</title>
+        <p id="p0140">Cells were resuspended in 1&#xA0;ml of cold homogenizing buffer and homogenized with 90 strokes of a 7&#xA0;ml Dounce homogenizer (WHEATON). For removing the nucleus, the homogenate was centrifuged at 2300<italic>g</italic> for 5&#xA0;min. The post-nuclear supernatant was centrifuged at 20,400<italic>g</italic> for 30&#xA0;min at 4 &#xB0;C. After washing with cold PBS, the pellet was lysed in a lysis buffer (10&#xA0;mM Tris-HCl pH 7.5, 0.5&#xA0;mM MgCl<sub>2</sub>, 0.1% Triton-X 100) and stocked as the membrane fraction at&#xA0;&#x2212;80 &#xB0;C until use.</p>
+      </sec>
+      <sec id="sec3.8">
+        <title>Immunoblotting</title>
+        <p id="p0145">Immunoblotting was performed using total cellular lysates or membrane proteins (15 or 20&#xA0;&#x3BC;g) as described previously (<xref rid="bib46" ref-type="bibr">46</xref>, <xref rid="bib76" ref-type="bibr">76</xref>). The proteins were blotted onto polyvinylidene fluoride (PVDF) membranes (Millipore Corp), which were then blocked for 1&#xA0;h with 5% skim milk and 0.1% Tween 20 in PBS or for 30&#xA0;min with SuperBlock Blocking Buffer (Thermo Scientific) and 0.1% Tween 20 in PBS, and subsequently incubated with one of the primary antibodies (diluted in the blocking solution): anti-LAMP1 [H4A3] (1:3000; Developmental Studies Hybridoma Bank (DSHB) deposited by August, J.T./Hildreth, J.E.K.); anti-LAMP2 [H4B4] (1:3000; DSHB deposited by August, J.T./Hildreth, J.E.K.); anti-GMII [D-5] (1:3000, Santa Cruz Biochemistry); anti-GMII [F-10] (1:3000, Santa Cruz Biochemistry); anti-LAMAN [NBP3-05138] (1:1000; Novus Biologicals); anti-calnexin (CNX) [M178-3] (1:3000; MBL, Nagoya, Japan); anti-calnexin [10427-2-AP] (1:10000; Proteintech Group Inc., Chicago, IL); anti-FLAG M2 [F3165] (1:3000; Sigma-Aldrich); anti-HA [HA-11] (1:3000; BioLegend); anti-HA [561] (1:3000, MBL); or anti-&#x3B2;-galactosidase [6F4] (1:3000; MBL). For the detection of LAMP1 digested with PNGase F, the anti-LAMP1 [L1418] antibody (1:3000; Sigma-Aldrich) was used. Immunoreactive bands were detected using 1:3000 diluted horseradish peroxidase-conjugated anti-mouse, anti-rabbit, or anti-rat secondary antibodies (NA931, NA934, or NA935, Cytiva) and Immobilon Western Chemiluminescent HRP substrates (Millipore) or SuperSignal West Femto Maximum Sensitivity substrate (Thermo Fisher Scientific). Chemiluminescence images were obtained using ImageQuant LAS 500 (Cytiva). For removal of <italic>N</italic>-glycosyl groups, the membrane fractions (20&#xA0;&#x3BC;g) were denatured in 1&#xD7; Glycoprotein Denaturing Buffer (0.5% SDS, 40&#xA0;mM DTT) containing 0.2% Protease Inhibitors (Nacalai Tesque) at 37 &#xB0;C for 30&#xA0;min. Nonidet P-40 and sodium phosphate were then added to final concentrations of 1% and 50&#xA0;mM, respectively. After the addition of PNGase F (New England Biolabs), the mixture was incubated at 37 &#xB0;C for 1&#xA0;h. The samples were then subjected to immunoblotting.</p>
+      </sec>
+      <sec id="sec3.9">
+        <title>Immunofluorescence staining</title>
+        <p id="p0150">Cells were cultured on coverslips and fixed with methanol at&#xA0;&#x2212;20 &#xB0;C for detecting GMII. These cells were incubated with anti-Mannosidase II [AB3712] (1:1000; Sigma-Aldrich) and anti-TGN46 [AHP500GT] (1:1000; Bio-Rad) as primary antibodies, and then with Alexa 488&#x2013;conjugated donkey anti-rabbit IgG or Alexa594&#x2013;conjugated donkey anti-goat IgG (Thermo Fisher Scientific) as the secondary antibodies, diluted in 2% BSA. The antibodies were applied for 1&#xA0;h at room temperature (25&#x2013;30 &#xB0;C) or at 4 &#xB0;C overnight, and 5&#xA0;&#x3BC;g/ml 4,6-diamino-2-phenylindole (DAPI) (Thermo Fisher Scientific) was added during incubation with the secondary antibody to label nuclei. After washing with PBS three times, the coverslips were mounted onto glass slides using SlowFade Diamond Antifade Mountant reagent (Thermo Fisher Scientific). The stained cells were examined using a fluorescence microscope (FSX100; Olympus). Identical exposure settings and times were used while acquiring the images.</p>
+      </sec>
+      <sec id="sec3.10">
+        <title>Measurement of mannosidase activity</title>
+        <p id="p0155">For measuring the GMII activity, total cell lysates or membrane proteins (30&#xA0;&#x3BC;g) prepared from cells were mixed with a 300&#xA0;&#x3BC;l substrate solution [3&#xA0;mg/ml <italic>p</italic>-nitrophenyl &#x3B1;-<sc>d</sc>-mannopyranoside (Tokyo Chemical Industry) prepared in 10&#xA0;mM Tris-HCl pH 7.5, 0.5&#xA0;mM MgCl<sub>2</sub>, and 0.1% Triton-X100]. After incubation at 37 &#xB0;C for 24&#xA0;h, the released <italic>p</italic>-nitrophenolate was quantified by measuring the absorbance at 405&#xA0;nm using a Synergy H1 Hybrid multi-mode microplate reader (BioTek). <italic>&#x3B1;</italic>-Mannosidase purified from <italic>Canavalia ensiformis</italic> (Sigma-Aldrich) was used to generate a calibration curve. For measuring the LAMAN activity, another substrate solution [3&#xA0;mg/ml <italic>p</italic>-nitrophenyl &#x3B1;-D-mannopyranoside (Tokyo Chemical Industry) prepared in 100&#xA0;mM CH<sub>3</sub>COOH pH 4.0] was used. After incubation at 37 &#xB0;C for 24&#xA0;h, 600&#xA0;&#x3BC;l stop solution (1&#xA0;M Na<sub>2</sub>CO<sub>3</sub>) was added.</p>
+      </sec>
+      <sec id="sec3.11">
+        <title>Cell proliferation assay</title>
+        <p id="p0160">Cell proliferation was measured using the Cell Proliferation ELISA BrdU assay (Roche Diagnostic, Mannheim, Germany), according to the manufacturer's instructions. In brief, cells (5.0&#xA0;&#xD7;&#xA0;10<sup>3</sup>) were seeded in 96-well plates and cultured for 50&#xA0;h, with the addition of BrdU labeling solution during the last 2&#xA0;h of incubation. Thereafter, the culture medium was removed, and the cells were fixed in FixDenat solution and incubated with an anti-BrdU-POD solution for 90&#xA0;min. After washing three times, 100&#xA0;&#x3BC;l substrate solution containing tetramethylbenzidine was added and the cells were incubated for 10&#xA0;min. Absorbance at 370 and 492&#xA0;nm was measured according to the manufacturer's protocol.</p>
+      </sec>
+      <sec id="sec3.12">
+        <title>Xenograft experiment</title>
+        <p id="p0165">Experiments with animals were conducted in accordance with the Guidelines for the Care and Use of Laboratory Animals of Kanazawa University. The experimental protocols were approved by the Committee on Animal Experimentation of Kanazawa University. Female BALB/c nude mice were obtained from Japan SLC, Inc. The animals were housed at 23 &#xB0;C under a 12-h alternating light/dark schedule and provided free access to food and water. WT MIA PaCa-2 and MIA-<italic>Z5Z7</italic>-DKO cells were <italic>s.c.</italic> injected into the right and left shoulders of 4-week-old mice, respectively. Tumor volume and body weight of mice were measured three times weekly. Tumor volumes were calculated using the formula (<italic>x</italic>&#xA0;&#xD7;&#xA0;<italic>y</italic><sup>2</sup>)/2, where <italic>x</italic> and <italic>y</italic> are the length and width of the tumor, respectively.</p>
+      </sec>
+      <sec id="sec3.13">
+        <title>Statistical analyses</title>
+        <p id="p0170">Statistical analyses were performed using GraphPad Prism 9 (GraphPad Software; <ext-link ext-link-type="uri" xlink:href="https://www.graphpad.com/" id="intref0010">https://www.graphpad.com/</ext-link>). All data are expressed as mean&#xA0;&#xB1; standard deviation (SD) of values from triplicate experiments. Statistical significance was determined using one-way ANOVA followed by Tukey&#x2019;s <italic>post hoc</italic> test (comparison of three or more groups) or Student&#x2019;s <italic>t</italic> test (comparison between two groups) at <italic>p</italic>&#xA0;&lt; 0.05 and <italic>p</italic>&#xA0;&lt; 0.01.</p>
+      </sec>
+    </sec>
+    <sec sec-type="data-availability" id="sec4">
+      <title>Data availability</title>
+      <p id="p0175">All data generated or analyzed during this study are included in this published article and its supporting information file or are available from the corresponding author (Taiho Kambe, <funding-source id="gs1"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100005683</institution-id><institution>Kyoto University</institution></institution-wrap></funding-source>, E-mail: <email>kambe.taiho.7z@kyoto-u.ac.jp</email>) upon reasonable request. Full-length immunoblots corresponding to images in the main text and supplementary figures are shown in <xref rid="appsec1" ref-type="sec">Figures&#xA0;S5&#x2013;S7</xref>.</p>
+      <p id="p0180">The Glycomics data have been deposited in GlycoPOST (<ext-link ext-link-type="uri" xlink:href="https://glycopost.glycosmos.org/" id="intref0020">https://glycopost.glycosmos.org/</ext-link>) (<xref rid="bib77" ref-type="bibr">77</xref>) with the dataset identifier GPST000420 and GPST000418.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="sec5">
+      <title>Supporting information</title>
+      <p id="p0185">This article contains <xref rid="appsec1" ref-type="sec">supporting information</xref>.</p>
+    </sec>
+    <sec sec-type="COI-statement">
+      <title>Conflict of interests</title>
+      <p id="p0190">The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list id="cebib0010">
+      <title>References</title>
+      <ref id="bib1">
+        <label>1</label>
+        <element-citation publication-type="journal" id="sref1"><person-group person-group-type="author"><name><surname>Schjoldager</surname><given-names>K.T.</given-names></name><name><surname>Narimatsu</surname><given-names>Y.</given-names></name><name><surname>Joshi</surname><given-names>H.J.</given-names></name><name><surname>Clausen</surname><given-names>H.</given-names></name></person-group><article-title>Global view of human protein glycosylation pathways and functions</article-title><source>Nat. Rev. Mol. Cell Biol.</source><volume>21</volume><year>2020</year><fpage>729</fpage><lpage>749</lpage><pub-id pub-id-type="pmid">33087899</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib2">
+        <label>2</label>
+        <element-citation publication-type="journal" id="sref2"><person-group person-group-type="author"><name><surname>Jayaprakash</surname><given-names>N.G.</given-names></name><name><surname>Surolia</surname><given-names>A.</given-names></name></person-group><article-title>Role of glycosylation in nucleating protein folding and stability</article-title><source>Biochem. J.</source><volume>474</volume><year>2017</year><fpage>2333</fpage><lpage>2347</lpage><pub-id pub-id-type="pmid">28673927</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib3">
+        <label>3</label>
+        <element-citation publication-type="journal" id="sref3"><person-group person-group-type="author"><name><surname>Varki</surname><given-names>A.</given-names></name></person-group><article-title>Biological roles of glycans</article-title><source>Glycobiology</source><volume>27</volume><year>2017</year><fpage>3</fpage><lpage>49</lpage><pub-id pub-id-type="pmid">27558841</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib4">
+        <label>4</label>
+        <element-citation publication-type="journal" id="sref4"><person-group person-group-type="author"><name><surname>Cummings</surname><given-names>R.D.</given-names></name></person-group><article-title>Stuck on sugars - how carbohydrates regulate cell adhesion, recognition, and signaling</article-title><source>Glycoconj J.</source><volume>36</volume><year>2019</year><fpage>241</fpage><lpage>257</lpage><pub-id pub-id-type="pmid">31267247</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib5">
+        <label>5</label>
+        <element-citation publication-type="journal" id="sref5"><person-group person-group-type="author"><name><surname>Reily</surname><given-names>C.</given-names></name><name><surname>Stewart</surname><given-names>T.J.</given-names></name><name><surname>Renfrow</surname><given-names>M.B.</given-names></name><name><surname>Novak</surname><given-names>J.</given-names></name></person-group><article-title>Glycosylation in health and disease</article-title><source>Nat. Rev. Nephrol.</source><volume>15</volume><year>2019</year><fpage>346</fpage><lpage>366</lpage><pub-id pub-id-type="pmid">30858582</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib6">
+        <label>6</label>
+        <element-citation publication-type="journal" id="sref6">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Esmail</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Manolson</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Advances in understanding N-glycosylation structure, function, and regulation in health and disease</article-title>
+          <source>Eur. J. Cell Biol.</source>
+          <volume>100</volume>
+          <year>2021</year>
+          <object-id pub-id-type="publisher-id">151186</object-id>
+        </element-citation>
+      </ref>
+      <ref id="bib7">
+        <label>7</label>
+        <element-citation publication-type="journal" id="sref7"><person-group person-group-type="author"><name><surname>Rodrigues</surname><given-names>J.G.</given-names></name><name><surname>Balmana</surname><given-names>M.</given-names></name><name><surname>Macedo</surname><given-names>J.A.</given-names></name><name><surname>Pocas</surname><given-names>J.</given-names></name><name><surname>Fernandes</surname><given-names>A.</given-names></name><name><surname>de-Freitas-Junior</surname><given-names>J.C.M.</given-names></name><etal/></person-group><article-title>Glycosylation in cancer: selected roles in tumour progression, immune modulation and metastasis</article-title><source>Cell Immunol.</source><volume>333</volume><year>2018</year><fpage>46</fpage><lpage>57</lpage><pub-id pub-id-type="pmid">29576316</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib8">
+        <label>8</label>
+        <element-citation publication-type="journal" id="sref8"><person-group person-group-type="author"><name><surname>Lee</surname><given-names>S.</given-names></name><name><surname>Inzerillo</surname><given-names>S.</given-names></name><name><surname>Lee</surname><given-names>G.Y.</given-names></name><name><surname>Bosire</surname><given-names>E.M.</given-names></name><name><surname>Mahato</surname><given-names>S.K.</given-names></name><name><surname>Song</surname><given-names>J.</given-names></name></person-group><article-title>Glycan-mediated molecular interactions in bacterial pathogenesis</article-title><source>Trends Microbiol.</source><volume>30</volume><year>2022</year><fpage>254</fpage><lpage>267</lpage><pub-id pub-id-type="pmid">34274195</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib9">
+        <label>9</label>
+        <element-citation publication-type="journal" id="sref9"><person-group person-group-type="author"><name><surname>Pinho</surname><given-names>S.S.</given-names></name><name><surname>Reis</surname><given-names>C.A.</given-names></name></person-group><article-title>Glycosylation in cancer: mechanisms and clinical implications</article-title><source>Nat. Rev. Cancer</source><volume>15</volume><year>2015</year><fpage>540</fpage><lpage>555</lpage><pub-id pub-id-type="pmid">26289314</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib10">
+        <label>10</label>
+        <element-citation publication-type="journal" id="sref10"><person-group person-group-type="author"><name><surname>Mereiter</surname><given-names>S.</given-names></name><name><surname>Balmana</surname><given-names>M.</given-names></name><name><surname>Campos</surname><given-names>D.</given-names></name><name><surname>Gomes</surname><given-names>J.</given-names></name><name><surname>Reis</surname><given-names>C.A.</given-names></name></person-group><article-title>Glycosylation in the era of cancer-targeted therapy: where are we heading?</article-title><source>Cancer Cell</source><volume>36</volume><year>2019</year><fpage>6</fpage><lpage>16</lpage><pub-id pub-id-type="pmid">31287993</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib11">
+        <label>11</label>
+        <element-citation publication-type="journal" id="sref11"><person-group person-group-type="author"><name><surname>Armstrong</surname><given-names>Z.</given-names></name><name><surname>Kuo</surname><given-names>C.L.</given-names></name><name><surname>Lahav</surname><given-names>D.</given-names></name><name><surname>Liu</surname><given-names>B.</given-names></name><name><surname>Johnson</surname><given-names>R.</given-names></name><name><surname>Beenakker</surname><given-names>T.J.M.</given-names></name><etal/></person-group><article-title>Manno-epi-cyclophellitols enable activity-based protein profiling of human alpha-mannosidases and discovery of new golgi mannosidase II inhibitors</article-title><source>J.&#xA0;Am. Chem. Soc.</source><volume>142</volume><year>2020</year><fpage>13021</fpage><lpage>13029</lpage><pub-id pub-id-type="pmid">32605368</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib12">
+        <label>12</label>
+        <element-citation publication-type="journal" id="sref12"><person-group person-group-type="author"><name><surname>Dennis</surname><given-names>J.W.</given-names></name><name><surname>Koch</surname><given-names>K.</given-names></name><name><surname>Yousefi</surname><given-names>S.</given-names></name><name><surname>VanderElst</surname><given-names>I.</given-names></name></person-group><article-title>Growth inhibition of human melanoma tumor xenografts in athymic nude mice by swainsonine</article-title><source>Cancer Res.</source><volume>50</volume><year>1990</year><fpage>1867</fpage><lpage>1872</lpage><pub-id pub-id-type="pmid">2106389</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib13">
+        <label>13</label>
+        <element-citation publication-type="journal" id="sref13"><person-group person-group-type="author"><name><surname>Neelamegham</surname><given-names>S.</given-names></name><name><surname>Mahal</surname><given-names>L.K.</given-names></name></person-group><article-title>Multi-level regulation of cellular glycosylation: from genes to transcript to enzyme to structure</article-title><source>Curr. Opin. Struct. Biol.</source><volume>40</volume><year>2016</year><fpage>145</fpage><lpage>152</lpage><pub-id pub-id-type="pmid">27744149</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib14">
+        <label>14</label>
+        <element-citation publication-type="journal" id="sref14"><person-group person-group-type="author"><name><surname>Kaufman</surname><given-names>R.J.</given-names></name><name><surname>Swaroop</surname><given-names>M.</given-names></name><name><surname>Murtha-Riel</surname><given-names>P.</given-names></name></person-group><article-title>Depletion of manganese within the secretory pathway inhibits O-linked glycosylation in mammalian cells</article-title><source>Biochemistry</source><volume>33</volume><year>1994</year><fpage>9813</fpage><lpage>9819</lpage><pub-id pub-id-type="pmid">8060988</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib15">
+        <label>15</label>
+        <element-citation publication-type="journal" id="sref15"><person-group person-group-type="author"><name><surname>Moremen</surname><given-names>K.W.</given-names></name><name><surname>Haltiwanger</surname><given-names>R.S.</given-names></name></person-group><article-title>Emerging structural insights into glycosyltransferase-mediated synthesis of glycans</article-title><source>Nat. Chem. Biol.</source><volume>15</volume><year>2019</year><fpage>853</fpage><lpage>864</lpage><pub-id pub-id-type="pmid">31427814</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib16">
+        <label>16</label>
+        <element-citation publication-type="journal" id="sref16"><person-group person-group-type="author"><name><surname>Nagae</surname><given-names>M.</given-names></name><name><surname>Yamaguchi</surname><given-names>Y.</given-names></name><name><surname>Taniguchi</surname><given-names>N.</given-names></name><name><surname>Kizuka</surname><given-names>Y.</given-names></name></person-group><article-title>3D structure and function of glycosyltransferases involved in N-glycan maturation</article-title><source>Int. J. Mol. Sci.</source><volume>21</volume><year>2020</year><fpage>437</fpage><pub-id pub-id-type="pmid">31936666</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib17">
+        <label>17</label>
+        <element-citation publication-type="journal" id="sref17"><person-group person-group-type="author"><name><surname>Breton</surname><given-names>C.</given-names></name><name><surname>Fournel-Gigleux</surname><given-names>S.</given-names></name><name><surname>Palcic</surname><given-names>M.M.</given-names></name></person-group><article-title>Recent structures, evolution and mechanisms of glycosyltransferases</article-title><source>Curr. Opin. Struct. Biol.</source><volume>22</volume><year>2012</year><fpage>540</fpage><lpage>549</lpage><pub-id pub-id-type="pmid">22819665</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib18">
+        <label>18</label>
+        <element-citation publication-type="journal" id="sref18"><person-group person-group-type="author"><name><surname>Li</surname><given-names>J.</given-names></name><name><surname>Wang</surname><given-names>Y.</given-names></name></person-group><article-title>Golgi metal ion homeostasis in human health and diseases</article-title><source>Cells</source><volume>11</volume><year>2022</year><fpage>289</fpage><pub-id pub-id-type="pmid">35053405</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib19">
+        <label>19</label>
+        <element-citation publication-type="journal" id="sref19"><person-group person-group-type="author"><name><surname>Xiang</surname><given-names>Y.</given-names></name><name><surname>Karaveg</surname><given-names>K.</given-names></name><name><surname>Moremen</surname><given-names>K.W.</given-names></name></person-group><article-title>Substrate recognition and catalysis by GH47 alpha-mannosidases involved in Asn-linked glycan maturation in the mammalian secretory pathway</article-title><source>Proc. Natl. Acad. Sci. U. S. A.</source><volume>113</volume><year>2016</year><fpage>E7890</fpage><lpage>E7899</lpage><pub-id pub-id-type="pmid">27856750</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib20">
+        <label>20</label>
+        <element-citation publication-type="journal" id="sref20"><person-group person-group-type="author"><name><surname>Tempel</surname><given-names>W.</given-names></name><name><surname>Karaveg</surname><given-names>K.</given-names></name><name><surname>Liu</surname><given-names>Z.J.</given-names></name><name><surname>Rose</surname><given-names>J.</given-names></name><name><surname>Wang</surname><given-names>B.C.</given-names></name><name><surname>Moremen</surname><given-names>K.W.</given-names></name></person-group><article-title>Structure of mouse Golgi alpha-mannosidase IA reveals the molecular basis for substrate specificity among class 1 (family 47 glycosylhydrolase) alpha1,2-mannosidases</article-title><source>J.&#xA0;Biol. Chem.</source><volume>279</volume><year>2004</year><fpage>29774</fpage><lpage>29786</lpage><pub-id pub-id-type="pmid">15102839</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib21">
+        <label>21</label>
+        <element-citation publication-type="journal" id="sref21">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Foulquier</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Legrand</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biometals and glycosylation in humans: congenital disorders of glycosylation shed lights into the crucial role of Golgi manganese homeostasis</article-title>
+          <source>Biochim. Biophys. Acta Gen. Subj.</source>
+          <volume>1864</volume>
+          <year>2020</year>
+          <object-id pub-id-type="publisher-id">129674</object-id>
+        </element-citation>
+      </ref>
+      <ref id="bib22">
+        <label>22</label>
+        <element-citation publication-type="journal" id="sref22"><person-group person-group-type="author"><name><surname>Nagae</surname><given-names>M.</given-names></name><name><surname>Kizuka</surname><given-names>Y.</given-names></name><name><surname>Mihara</surname><given-names>E.</given-names></name><name><surname>Kitago</surname><given-names>Y.</given-names></name><name><surname>Hanashima</surname><given-names>S.</given-names></name><name><surname>Ito</surname><given-names>Y.</given-names></name><etal/></person-group><article-title>Structure and mechanism of cancer-associated N-acetylglucosaminyltransferase-V</article-title><source>Nat. Commun.</source><volume>9</volume><year>2018</year><fpage>3380</fpage><pub-id pub-id-type="pmid">30140003</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib23">
+        <label>23</label>
+        <element-citation publication-type="journal" id="sref23">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harrus</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Khoder-Agha</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Peltoniemi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hassinen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ruddock</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kellokumpu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The dimeric structure of wild-type human glycosyltransferase B4GalT1</article-title>
+          <source>PLoS One</source>
+          <volume>13</volume>
+          <year>2018</year>
+          <object-id pub-id-type="publisher-id">e0205571</object-id>
+        </element-citation>
+      </ref>
+      <ref id="bib24">
+        <label>24</label>
+        <element-citation publication-type="journal" id="sref24"><person-group person-group-type="author"><name><surname>Lairson</surname><given-names>L.L.</given-names></name><name><surname>Henrissat</surname><given-names>B.</given-names></name><name><surname>Davies</surname><given-names>G.J.</given-names></name><name><surname>Withers</surname><given-names>S.G.</given-names></name></person-group><article-title>Glycosyltransferases: structures, functions, and mechanisms</article-title><source>Annu. Rev. Biochem.</source><volume>77</volume><year>2008</year><fpage>521</fpage><lpage>555</lpage><pub-id pub-id-type="pmid">18518825</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib25">
+        <label>25</label>
+        <element-citation publication-type="journal" id="sref25"><person-group person-group-type="author"><name><surname>Foulquier</surname><given-names>F.</given-names></name><name><surname>Amyere</surname><given-names>M.</given-names></name><name><surname>Jaeken</surname><given-names>J.</given-names></name><name><surname>Zeevaert</surname><given-names>R.</given-names></name><name><surname>Schollen</surname><given-names>E.</given-names></name><name><surname>Race</surname><given-names>V.</given-names></name><etal/></person-group><article-title>TMEM165 deficiency causes a congenital disorder of glycosylation</article-title><source>Am. J. Hum. Genet.</source><volume>91</volume><year>2012</year><fpage>15</fpage><lpage>26</lpage><pub-id pub-id-type="pmid">22683087</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib26">
+        <label>26</label>
+        <element-citation publication-type="journal" id="sref26"><person-group person-group-type="author"><name><surname>Potelle</surname><given-names>S.</given-names></name><name><surname>Morelle</surname><given-names>W.</given-names></name><name><surname>Dulary</surname><given-names>E.</given-names></name><name><surname>Duvet</surname><given-names>S.</given-names></name><name><surname>Vicogne</surname><given-names>D.</given-names></name><name><surname>Spriet</surname><given-names>C.</given-names></name><etal/></person-group><article-title>Glycosylation abnormalities in Gdt1p/TMEM165 deficient cells result from a defect in Golgi manganese homeostasis</article-title><source>Hum. Mol. Genet.</source><volume>25</volume><year>2016</year><fpage>1489</fpage><lpage>1500</lpage><pub-id pub-id-type="pmid">27008884</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib27">
+        <label>27</label>
+        <element-citation publication-type="journal" id="sref27"><person-group person-group-type="author"><name><surname>Houdou</surname><given-names>M.</given-names></name><name><surname>Lebredonchel</surname><given-names>E.</given-names></name><name><surname>Garat</surname><given-names>A.</given-names></name><name><surname>Duvet</surname><given-names>S.</given-names></name><name><surname>Legrand</surname><given-names>D.</given-names></name><name><surname>Decool</surname><given-names>V.</given-names></name><etal/></person-group><article-title>Involvement of thapsigargin- and cyclopiazonic acid-sensitive pumps in the rescue of TMEM165-associated glycosylation defects by Mn<sup>2</sup></article-title><source>FASEB J.</source><volume>33</volume><year>2019</year><fpage>2669</fpage><lpage>2679</lpage><pub-id pub-id-type="pmid">30307768</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib28">
+        <label>28</label>
+        <element-citation publication-type="journal" id="sref28"><person-group person-group-type="author"><name><surname>Park</surname><given-names>J.H.</given-names></name><name><surname>Hogrebe</surname><given-names>M.</given-names></name><name><surname>Gruneberg</surname><given-names>M.</given-names></name><name><surname>DuChesne</surname><given-names>I.</given-names></name><name><surname>von der Heiden</surname><given-names>A.L.</given-names></name><name><surname>Reunert</surname><given-names>J.</given-names></name><etal/></person-group><article-title>SLC39A8 deficiency: a disorder of manganese transport and glycosylation</article-title><source>Am. J. Hum. Genet.</source><volume>97</volume><year>2015</year><fpage>894</fpage><lpage>903</lpage><pub-id pub-id-type="pmid">26637979</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib29">
+        <label>29</label>
+        <element-citation publication-type="journal" id="sref29"><person-group person-group-type="author"><name><surname>Boycott</surname><given-names>K.M.</given-names></name><name><surname>Beaulieu</surname><given-names>C.L.</given-names></name><name><surname>Kernohan</surname><given-names>K.D.</given-names></name><name><surname>Gebril</surname><given-names>O.H.</given-names></name><name><surname>Mhanni</surname><given-names>A.</given-names></name><name><surname>Chudley</surname><given-names>A.E.</given-names></name><etal/></person-group><article-title>Autosomal-recessive intellectual disability with cerebellar atrophy syndrome caused by mutation of the manganese and zinc transporter gene SLC39A8</article-title><source>Am. J. Hum. Genet.</source><volume>97</volume><year>2015</year><fpage>886</fpage><lpage>893</lpage><pub-id pub-id-type="pmid">26637978</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib30">
+        <label>30</label>
+        <element-citation publication-type="journal" id="sref30"><person-group person-group-type="author"><name><surname>Yamaji</surname><given-names>T.</given-names></name><name><surname>Hanamatsu</surname><given-names>H.</given-names></name><name><surname>Sekizuka</surname><given-names>T.</given-names></name><name><surname>Kuroda</surname><given-names>M.</given-names></name><name><surname>Iwasaki</surname><given-names>N.</given-names></name><name><surname>Ohnishi</surname><given-names>M.</given-names></name><etal/></person-group><article-title>A&#xA0;CRISPR screen using subtilase cytotoxin identifies SLC39A9 as a glycan-regulating factor</article-title><source>iScience</source><volume>15</volume><year>2019</year><fpage>407</fpage><lpage>420</lpage><pub-id pub-id-type="pmid">31108395</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib31">
+        <label>31</label>
+        <element-citation publication-type="journal" id="sref31"><person-group person-group-type="author"><name><surname>Romer</surname><given-names>T.B.</given-names></name><name><surname>Khoder-Agha</surname><given-names>F.</given-names></name><name><surname>Aasted</surname><given-names>M.K.M.</given-names></name><name><surname>de Haan</surname><given-names>N.</given-names></name><name><surname>Horn</surname><given-names>S.</given-names></name><name><surname>Dylander</surname><given-names>A.</given-names></name><etal/></person-group><article-title>CRISPR-screen identifies ZIP9 and dysregulated Zn2+ homeostasis as a cause of cancer-associated changes in glycosylation</article-title><source>Glycobiology</source><volume>33</volume><year>2023</year><fpage>700</fpage><lpage>714</lpage><pub-id pub-id-type="pmid">36648436</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib32">
+        <label>32</label>
+        <element-citation publication-type="journal" id="sref32"><person-group person-group-type="author"><name><surname>Bates</surname><given-names>S.</given-names></name><name><surname>MacCallum</surname><given-names>D.M.</given-names></name><name><surname>Bertram</surname><given-names>G.</given-names></name><name><surname>Munro</surname><given-names>C.A.</given-names></name><name><surname>Hughes</surname><given-names>H.B.</given-names></name><name><surname>Buurman</surname><given-names>E.T.</given-names></name><etal/></person-group><article-title>Candida albicans Pmr1p, a secretory pathway P-type Ca2+/Mn2+-ATPase, is required for glycosylation and virulence</article-title><source>J.&#xA0;Biol. Chem.</source><volume>280</volume><year>2005</year><fpage>23408</fpage><lpage>23415</lpage><pub-id pub-id-type="pmid">15843378</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib33">
+        <label>33</label>
+        <element-citation publication-type="journal" id="sref33"><person-group person-group-type="author"><name><surname>Rose</surname><given-names>D.R.</given-names></name></person-group><article-title>Structure, mechanism and inhibition of Golgi alpha-mannosidase II</article-title><source>Curr. Opin. Struct. Biol.</source><volume>22</volume><year>2012</year><fpage>558</fpage><lpage>562</lpage><pub-id pub-id-type="pmid">22819743</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib34">
+        <label>34</label>
+        <element-citation publication-type="journal" id="sref34"><person-group person-group-type="author"><name><surname>Shah</surname><given-names>N.</given-names></name><name><surname>Kuntz</surname><given-names>D.A.</given-names></name><name><surname>Rose</surname><given-names>D.R.</given-names></name></person-group><article-title>Golgi alpha-mannosidase II cleaves two sugars sequentially in the same catalytic site</article-title><source>Proc. Natl. Acad. Sci. U. S. A.</source><volume>105</volume><year>2008</year><fpage>9570</fpage><lpage>9575</lpage><pub-id pub-id-type="pmid">18599462</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib35">
+        <label>35</label>
+        <element-citation publication-type="journal" id="sref35">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kambe</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wagatsuma</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Metalation and activation of Zn<sup>2+</sup> enzymes via early secretory pathway-resident ZNT proteins</article-title>
+          <source>Biophys. Rev.</source>
+          <volume>4</volume>
+          <year>2023</year>
+          <comment>Artn 041302</comment>
+        </element-citation>
+      </ref>
+      <ref id="bib36">
+        <label>36</label>
+        <element-citation publication-type="journal" id="sref36"><person-group person-group-type="author"><name><surname>Morelle</surname><given-names>W.</given-names></name><name><surname>Potelle</surname><given-names>S.</given-names></name><name><surname>Witters</surname><given-names>P.</given-names></name><name><surname>Wong</surname><given-names>S.</given-names></name><name><surname>Climer</surname><given-names>L.</given-names></name><name><surname>Lupashin</surname><given-names>V.</given-names></name><etal/></person-group><article-title>Galactose supplementation in patients with TMEM165-CDG rescues the glycosylation defects</article-title><source>J.&#xA0;Clin. Endocrinol. Metab.</source><volume>102</volume><year>2017</year><fpage>1375</fpage><lpage>1386</lpage><pub-id pub-id-type="pmid">28323990</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib37">
+        <label>37</label>
+        <element-citation publication-type="journal" id="sref37"><person-group person-group-type="author"><name><surname>Alessandrini</surname><given-names>F.</given-names></name><name><surname>Pezze</surname><given-names>L.</given-names></name><name><surname>Ciribilli</surname><given-names>Y.</given-names></name></person-group><article-title>LAMPs: shedding light on cancer biology</article-title><source>Semin. Oncol.</source><volume>44</volume><year>2017</year><fpage>239</fpage><lpage>253</lpage><pub-id pub-id-type="pmid">29526252</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib38">
+        <label>38</label>
+        <element-citation publication-type="journal" id="sref38"><person-group person-group-type="author"><name><surname>Suzuki</surname><given-names>E.</given-names></name><name><surname>Ogawa</surname><given-names>N.</given-names></name><name><surname>Takeda</surname><given-names>T.A.</given-names></name><name><surname>Nishito</surname><given-names>Y.</given-names></name><name><surname>Tanaka</surname><given-names>Y.K.</given-names></name><name><surname>Fujiwara</surname><given-names>T.</given-names></name><etal/></person-group><article-title>Detailed analyses of the crucial functions of Zn transporter proteins in alkaline phosphatase activation</article-title><source>J.&#xA0;Biol. Chem.</source><volume>295</volume><year>2020</year><fpage>5669</fpage><lpage>5684</lpage><pub-id pub-id-type="pmid">32179649</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib39">
+        <label>39</label>
+        <element-citation publication-type="journal" id="sref39">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tuschl</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Valdivia</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Dadswell</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Abdul-Sada</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mutations in SLC39A14 disrupt manganese homeostasis and cause childhood-onset parkinsonism-dystonia</article-title>
+          <source>Nat. Commun.</source>
+          <volume>7</volume>
+          <year>2016</year>
+          <object-id pub-id-type="publisher-id">11601</object-id>
+        </element-citation>
+      </ref>
+      <ref id="bib40">
+        <label>40</label>
+        <element-citation publication-type="journal" id="sref40"><person-group person-group-type="author"><name><surname>Winslow</surname><given-names>J.W.W.</given-names></name><name><surname>Limesand</surname><given-names>K.H.</given-names></name><name><surname>Zhao</surname><given-names>N.</given-names></name></person-group><article-title>The functions of ZIP8, ZIP14, and ZnT10 in the regulation of systemic manganese homeostasis</article-title><source>Int. J. Mol. Sci.</source><volume>21</volume><year>2020</year><fpage>3304</fpage><pub-id pub-id-type="pmid">32392784</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib41">
+        <label>41</label>
+        <element-citation publication-type="journal" id="sref41"><person-group person-group-type="author"><name><surname>Fujishiro</surname><given-names>H.</given-names></name><name><surname>Kambe</surname><given-names>T.</given-names></name></person-group><article-title>Manganese transport in mammals by zinc transporter family proteins, ZNT and ZIP</article-title><source>J.&#xA0;Pharmacol. Sci.</source><volume>148</volume><year>2022</year><fpage>125</fpage><lpage>133</lpage><pub-id pub-id-type="pmid">34924116</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib42">
+        <label>42</label>
+        <element-citation publication-type="journal" id="sref42"><person-group person-group-type="author"><name><surname>Vicogne</surname><given-names>D.</given-names></name><name><surname>Houdou</surname><given-names>M.</given-names></name><name><surname>Garat</surname><given-names>A.</given-names></name><name><surname>Climer</surname><given-names>L.</given-names></name><name><surname>Lupashin</surname><given-names>V.</given-names></name><name><surname>Morelle</surname><given-names>W.</given-names></name><etal/></person-group><article-title>Fetal bovine serum impacts the observed N-glycosylation defects in TMEM165 KO HEK cells</article-title><source>J.&#xA0;Inherit. Metab. Dis.</source><volume>43</volume><year>2020</year><fpage>357</fpage><lpage>366</lpage><pub-id pub-id-type="pmid">31415112</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib43">
+        <label>43</label>
+        <element-citation publication-type="journal" id="sref43"><person-group person-group-type="author"><name><surname>Heikinheimo</surname><given-names>P.</given-names></name><name><surname>Helland</surname><given-names>R.</given-names></name><name><surname>Leiros</surname><given-names>H.K.</given-names></name><name><surname>Leiros</surname><given-names>I.</given-names></name><name><surname>Karlsen</surname><given-names>S.</given-names></name><name><surname>Evjen</surname><given-names>G.</given-names></name><etal/></person-group><article-title>The structure of bovine lysosomal alpha-mannosidase suggests a novel mechanism for low-pH activation</article-title><source>J.&#xA0;Mol. Biol.</source><volume>327</volume><year>2003</year><fpage>631</fpage><lpage>644</lpage><pub-id pub-id-type="pmid">12634058</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib44">
+        <label>44</label>
+        <element-citation publication-type="journal" id="sref44"><person-group person-group-type="author"><name><surname>Harada</surname><given-names>Y.</given-names></name><name><surname>Hirayama</surname><given-names>H.</given-names></name><name><surname>Suzuki</surname><given-names>T.</given-names></name></person-group><article-title>Generation and degradation of free asparagine-linked glycans</article-title><source>Cell Mol. Life Sci.</source><volume>72</volume><year>2015</year><fpage>2509</fpage><lpage>2533</lpage><pub-id pub-id-type="pmid">25772500</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib45">
+        <label>45</label>
+        <element-citation publication-type="journal" id="sref45"><person-group person-group-type="author"><name><surname>Wagatsuma</surname><given-names>T.</given-names></name><name><surname>Suzuki</surname><given-names>E.</given-names></name><name><surname>Shiotsu</surname><given-names>M.</given-names></name><name><surname>Sogo</surname><given-names>A.</given-names></name><name><surname>Nishito</surname><given-names>Y.</given-names></name><name><surname>Ando</surname><given-names>H.</given-names></name><etal/></person-group><article-title>Pigmentation and TYRP1 expression are mediated by zinc through the early secretory pathway-resident ZNT proteins</article-title><source>Commun. Biol.</source><volume>6</volume><year>2023</year><fpage>403</fpage><pub-id pub-id-type="pmid">37072620</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib46">
+        <label>46</label>
+        <element-citation publication-type="journal" id="sref46">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wagatsuma</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shimotsuma</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sogo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kubo</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ueda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Zinc transport via ZNT5-6 and ZNT7 is critical for cell surface glycosylphosphatidylinositol-anchored protein expression</article-title>
+          <source>J.&#xA0;Biol. Chem.</source>
+          <volume>298</volume>
+          <year>2022</year>
+          <object-id pub-id-type="publisher-id">102011</object-id>
+        </element-citation>
+      </ref>
+      <ref id="bib47">
+        <label>47</label>
+        <element-citation publication-type="journal" id="sref47"><person-group person-group-type="author"><name><surname>van den Elsen</surname><given-names>J.M.</given-names></name><name><surname>Kuntz</surname><given-names>D.A.</given-names></name><name><surname>Rose</surname><given-names>D.R.</given-names></name></person-group><article-title>Structure of Golgi alpha-mannosidase II: a target for inhibition of growth and metastasis of cancer cells</article-title><source>EMBO J</source><volume>20</volume><year>2001</year><fpage>3008</fpage><lpage>3017</lpage><pub-id pub-id-type="pmid">11406577</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib48">
+        <label>48</label>
+        <element-citation publication-type="journal" id="sref48"><person-group person-group-type="author"><name><surname>Gromisch</surname><given-names>C.</given-names></name><name><surname>Qadan</surname><given-names>M.</given-names></name><name><surname>Machado</surname><given-names>M.A.</given-names></name><name><surname>Liu</surname><given-names>K.</given-names></name><name><surname>Colson</surname><given-names>Y.</given-names></name><name><surname>Grinstaff</surname><given-names>M.W.</given-names></name></person-group><article-title>Pancreatic adenocarcinoma: unconventional approaches for an unconventional disease</article-title><source>Cancer Res.</source><volume>80</volume><year>2020</year><fpage>3179</fpage><lpage>3192</lpage><pub-id pub-id-type="pmid">32220831</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib49">
+        <label>49</label>
+        <element-citation publication-type="journal" id="sref49"><person-group person-group-type="author"><name><surname>Sasaki</surname><given-names>K.</given-names></name><name><surname>Yoshida</surname><given-names>H.</given-names></name></person-group><article-title>Golgi stress response and organelle zones</article-title><source>FEBS Lett.</source><volume>593</volume><year>2019</year><fpage>2330</fpage><lpage>2340</lpage><pub-id pub-id-type="pmid">31344260</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib50">
+        <label>50</label>
+        <element-citation publication-type="journal" id="sref50"><person-group person-group-type="author"><name><surname>Gao</surname><given-names>J.</given-names></name><name><surname>Gao</surname><given-names>A.</given-names></name><name><surname>Liu</surname><given-names>W.</given-names></name><name><surname>Chen</surname><given-names>L.</given-names></name></person-group><article-title>Golgi stress response: a regulatory mechanism of Golgi function</article-title><source>Biofactors</source><volume>47</volume><year>2021</year><fpage>964</fpage><lpage>974</lpage><pub-id pub-id-type="pmid">34500494</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib51">
+        <label>51</label>
+        <element-citation publication-type="journal" id="sref51"><person-group person-group-type="author"><name><surname>Pobre</surname><given-names>K.F.R.</given-names></name><name><surname>Poet</surname><given-names>G.J.</given-names></name><name><surname>Hendershot</surname><given-names>L.M.</given-names></name></person-group><article-title>The endoplasmic reticulum (ER) chaperone BiP is a master regulator of ER functions: getting by with a little help from ERdj friends</article-title><source>J.&#xA0;Biol. Chem.</source><volume>294</volume><year>2019</year><fpage>2098</fpage><lpage>2108</lpage><pub-id pub-id-type="pmid">30563838</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib52">
+        <label>52</label>
+        <element-citation publication-type="journal" id="sref52"><person-group person-group-type="author"><name><surname>Bin</surname><given-names>B.H.</given-names></name><name><surname>Bhin</surname><given-names>J.</given-names></name><name><surname>Seo</surname><given-names>J.</given-names></name><name><surname>Kim</surname><given-names>S.Y.</given-names></name><name><surname>Lee</surname><given-names>E.</given-names></name><name><surname>Park</surname><given-names>K.</given-names></name><etal/></person-group><article-title>Requirement of zinc transporter SLC39A7/ZIP7 for dermal development to fine-tune endoplasmic reticulum function by regulating protein disulfide isomerase</article-title><source>J.&#xA0;Invest. Dermatol.</source><volume>137</volume><year>2017</year><fpage>1682</fpage><lpage>1691</lpage><pub-id pub-id-type="pmid">28545780</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib53">
+        <label>53</label>
+        <element-citation publication-type="journal" id="sref53"><person-group person-group-type="author"><name><surname>Solovyov</surname><given-names>A.</given-names></name><name><surname>Gilbert</surname><given-names>H.F.</given-names></name></person-group><article-title>Zinc-dependent dimerization of the folding catalyst, protein disulfide isomerase</article-title><source>Protein Sci.</source><volume>13</volume><year>2004</year><fpage>1902</fpage><lpage>1907</lpage><pub-id pub-id-type="pmid">15169950</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib54">
+        <label>54</label>
+        <element-citation publication-type="journal" id="sref54"><person-group person-group-type="author"><name><surname>Amagai</surname><given-names>Y.</given-names></name><name><surname>Yamada</surname><given-names>M.</given-names></name><name><surname>Kowada</surname><given-names>T.</given-names></name><name><surname>Watanabe</surname><given-names>T.</given-names></name><name><surname>Du</surname><given-names>Y.</given-names></name><name><surname>Liu</surname><given-names>R.</given-names></name><etal/></person-group><article-title>Zinc homeostasis governed by Golgi-resident ZnT family members regulates ERp44-mediated proteostasis at the ER-Golgi interface</article-title><source>Nat. Commun.</source><volume>14</volume><year>2023</year><fpage>2683</fpage><pub-id pub-id-type="pmid">37160917</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib55">
+        <label>55</label>
+        <element-citation publication-type="journal" id="sref55"><person-group person-group-type="author"><name><surname>Lieberwirth</surname><given-names>J.K.</given-names></name><name><surname>Joset</surname><given-names>P.</given-names></name><name><surname>Heinze</surname><given-names>A.</given-names></name><name><surname>Hentschel</surname><given-names>J.</given-names></name><name><surname>Stein</surname><given-names>A.</given-names></name><name><surname>Iannaccone</surname><given-names>A.</given-names></name><etal/></person-group><article-title>Bi-allelic loss of function variants in SLC30A5 as cause of perinatal lethal cardiomyopathy</article-title><source>Eur. J. Hum. Genet.</source><volume>29</volume><year>2021</year><fpage>808</fpage><lpage>815</lpage><pub-id pub-id-type="pmid">33547425</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib56">
+        <label>56</label>
+        <element-citation publication-type="journal" id="sref56"><person-group person-group-type="author"><name><surname>Huang</surname><given-names>L.</given-names></name><name><surname>Yang</surname><given-names>Z.</given-names></name><name><surname>Kirschke</surname><given-names>C.P.</given-names></name><name><surname>Prouteau</surname><given-names>C.</given-names></name><name><surname>Copin</surname><given-names>M.C.</given-names></name><name><surname>Bonneau</surname><given-names>D.</given-names></name><etal/></person-group><article-title>Identification of novel compound heterozygous variants in the SLC30A7 (ZNT7) gene in two French brothers with stunted growth, testicular hypoplasia, and bone marrow failure</article-title><source>Hum. Mol. Genet.</source><volume>32</volume><year>2023</year><fpage>2016</fpage><lpage>2031</lpage><pub-id pub-id-type="pmid">36821639</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib57">
+        <label>57</label>
+        <element-citation publication-type="journal" id="sref57"><person-group person-group-type="author"><name><surname>Ueda</surname><given-names>S.</given-names></name><name><surname>Manabe</surname><given-names>Y.</given-names></name><name><surname>Kubo</surname><given-names>N.</given-names></name><name><surname>Morino</surname><given-names>N.</given-names></name><name><surname>Yuasa</surname><given-names>H.</given-names></name><name><surname>Shiotsu</surname><given-names>M.</given-names></name><etal/></person-group><article-title>Early secretory pathway-resident Zn transporter proteins contribute to cellular sphingolipid metabolism through activation of sphingomyelin phosphodiesterase 1</article-title><source>Am. J. Physiol. Cell Physiol.</source><volume>322</volume><year>2022</year><fpage>C948</fpage><lpage>C959</lpage><pub-id pub-id-type="pmid">35294847</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib58">
+        <label>58</label>
+        <element-citation publication-type="journal" id="sref58"><person-group person-group-type="author"><name><surname>van Kooyk</surname><given-names>Y.</given-names></name><name><surname>Rabinovich</surname><given-names>G.A.</given-names></name></person-group><article-title>Protein-glycan interactions in the control of innate and adaptive immune responses</article-title><source>Nat. Immunol.</source><volume>9</volume><year>2008</year><fpage>593</fpage><lpage>601</lpage><pub-id pub-id-type="pmid">18490910</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib59">
+        <label>59</label>
+        <element-citation publication-type="journal" id="sref59"><person-group person-group-type="author"><name><surname>RodrIguez</surname><given-names>E.</given-names></name><name><surname>Schetters</surname><given-names>S.T.T.</given-names></name><name><surname>van Kooyk</surname><given-names>Y.</given-names></name></person-group><article-title>The tumour glyco-code as a novel immune checkpoint for immunotherapy</article-title><source>Nat. Rev. Immunol.</source><volume>18</volume><year>2018</year><fpage>204</fpage><lpage>211</lpage><pub-id pub-id-type="pmid">29398707</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib60">
+        <label>60</label>
+        <element-citation publication-type="journal" id="sref60"><person-group person-group-type="author"><name><surname>Shi</surname><given-names>S.</given-names></name><name><surname>Gu</surname><given-names>S.</given-names></name><name><surname>Han</surname><given-names>T.</given-names></name><name><surname>Zhang</surname><given-names>W.</given-names></name><name><surname>Huang</surname><given-names>L.</given-names></name><name><surname>Li</surname><given-names>Z.</given-names></name><etal/></person-group><article-title>Inhibition of MAN2A1 enhances the immune response to anti-PD-L1 in human tumors</article-title><source>Clin. Cancer Res.</source><volume>26</volume><year>2020</year><fpage>5990</fpage><lpage>6002</lpage><pub-id pub-id-type="pmid">32723834</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib61">
+        <label>61</label>
+        <element-citation publication-type="journal" id="sref61">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>Z.Y.</given-names>
+            </name>
+            <name>
+              <surname>Loo</surname>
+              <given-names>J.S.E.</given-names>
+            </name>
+            <name>
+              <surname>Wibowo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mohammat</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Foo</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeting cancer via Golgi alpha-mannosidase II inhibition: how far have we come in developing effective inhibitors?</article-title>
+          <source>Carbohydr. Res.</source>
+          <volume>508</volume>
+          <year>2021</year>
+          <object-id pub-id-type="publisher-id">108395</object-id>
+        </element-citation>
+      </ref>
+      <ref id="bib62">
+        <label>62</label>
+        <element-citation publication-type="journal" id="sref62"><person-group person-group-type="author"><name><surname>Goss</surname><given-names>P.E.</given-names></name><name><surname>Baptiste</surname><given-names>J.</given-names></name><name><surname>Fernandes</surname><given-names>B.</given-names></name><name><surname>Baker</surname><given-names>M.</given-names></name><name><surname>Dennis</surname><given-names>J.W.</given-names></name></person-group><article-title>A&#xA0;phase I study of swainsonine in patients with advanced malignancies</article-title><source>Cancer Res.</source><volume>54</volume><year>1994</year><fpage>1450</fpage><lpage>1457</lpage><pub-id pub-id-type="pmid">8137247</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib63">
+        <label>63</label>
+        <element-citation publication-type="journal" id="sref63"><person-group person-group-type="author"><name><surname>Sestak</surname><given-names>S.</given-names></name><name><surname>Bella</surname><given-names>M.</given-names></name><name><surname>Klunda</surname><given-names>T.</given-names></name><name><surname>Gurska</surname><given-names>S.</given-names></name><name><surname>Dzubak</surname><given-names>P.</given-names></name><name><surname>Wols</surname><given-names>F.</given-names></name><etal/></person-group><article-title>N-Benzyl substitution of polyhydroxypyrrolidines: the way to selective inhibitors of Golgi alpha-mannosidase II</article-title><source>ChemMedChem</source><volume>13</volume><year>2018</year><fpage>373</fpage><lpage>383</lpage><pub-id pub-id-type="pmid">29323461</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib64">
+        <label>64</label>
+        <element-citation publication-type="journal" id="sref64"><person-group person-group-type="author"><name><surname>Bobovska</surname><given-names>A.</given-names></name><name><surname>Tvaroska</surname><given-names>I.</given-names></name><name><surname>Kona</surname><given-names>J.</given-names></name></person-group><article-title>Using DFT methodology for more reliable predictive models: design of inhibitors of Golgi alpha-Mannosidase II</article-title><source>J.&#xA0;Mol. Graph Model.</source><volume>66</volume><year>2016</year><fpage>47</fpage><lpage>57</lpage><pub-id pub-id-type="pmid">27035259</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib65">
+        <label>65</label>
+        <element-citation publication-type="journal" id="sref65"><person-group person-group-type="author"><name><surname>Paciotti</surname><given-names>S.</given-names></name><name><surname>Persichetti</surname><given-names>E.</given-names></name><name><surname>Klein</surname><given-names>K.</given-names></name><name><surname>Tasegian</surname><given-names>A.</given-names></name><name><surname>Duvet</surname><given-names>S.</given-names></name><name><surname>Hartmann</surname><given-names>D.</given-names></name><etal/></person-group><article-title>Accumulation of free oligosaccharides and tissue damage in cytosolic alpha-mannosidase (Man2c1)-deficient mice</article-title><source>J.&#xA0;Biol. Chem.</source><volume>289</volume><year>2014</year><fpage>9611</fpage><lpage>9622</lpage><pub-id pub-id-type="pmid">24550399</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib66">
+        <label>66</label>
+        <element-citation publication-type="journal" id="sref66"><person-group person-group-type="author"><name><surname>Bernon</surname><given-names>C.</given-names></name><name><surname>Carre</surname><given-names>Y.</given-names></name><name><surname>Kuokkanen</surname><given-names>E.</given-names></name><name><surname>Slomianny</surname><given-names>M.C.</given-names></name><name><surname>Mir</surname><given-names>A.M.</given-names></name><name><surname>Krzewinski</surname><given-names>F.</given-names></name><etal/></person-group><article-title>Overexpression of Man2C1 leads to protein underglycosylation and upregulation of endoplasmic reticulum-associated degradation pathway</article-title><source>Glycobiology</source><volume>21</volume><year>2011</year><fpage>363</fpage><lpage>375</lpage><pub-id pub-id-type="pmid">20978011</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib67">
+        <label>67</label>
+        <element-citation publication-type="journal" id="sref67"><person-group person-group-type="author"><name><surname>Nagamatsu</surname><given-names>S.</given-names></name><name><surname>Nishito</surname><given-names>Y.</given-names></name><name><surname>Yuasa</surname><given-names>H.</given-names></name><name><surname>Yamamoto</surname><given-names>N.</given-names></name><name><surname>Komori</surname><given-names>T.</given-names></name><name><surname>Suzuki</surname><given-names>T.</given-names></name><etal/></person-group><article-title>Sophisticated expression responses of ZNT1 and MT in response to changes in the expression of ZIPs</article-title><source>Sci. Rep.</source><volume>12</volume><year>2022</year><fpage>7334</fpage><pub-id pub-id-type="pmid">35513474</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib68">
+        <label>68</label>
+        <element-citation publication-type="journal" id="sref68">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ui</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ueda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Higaki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kamino</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sano</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Development and characterization of a <sup>68</sup>Ga-labeled A20FMDV2 peptide probe for the PET imaging of alphavbeta6 integrin-positive pancreatic ductal adenocarcinoma</article-title>
+          <source>Bioorg. Med. Chem.</source>
+          <volume>28</volume>
+          <year>2020</year>
+          <object-id pub-id-type="publisher-id">115189</object-id>
+        </element-citation>
+      </ref>
+      <ref id="bib69">
+        <label>69</label>
+        <element-citation publication-type="journal" id="sref69"><person-group person-group-type="author"><name><surname>Tsuji</surname><given-names>T.</given-names></name><name><surname>Kurokawa</surname><given-names>Y.</given-names></name><name><surname>Chiche</surname><given-names>J.</given-names></name><name><surname>Pouyssegur</surname><given-names>J.</given-names></name><name><surname>Sato</surname><given-names>H.</given-names></name><name><surname>Fukuzawa</surname><given-names>H.</given-names></name><etal/></person-group><article-title>Dissecting the process of activation of cancer-promoting zinc-requiring ectoenzymes by zinc metalation mediated by ZNT transporters</article-title><source>J.&#xA0;Biol. Chem.</source><volume>292</volume><year>2017</year><fpage>2159</fpage><lpage>2173</lpage><pub-id pub-id-type="pmid">28028180</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib70">
+        <label>70</label>
+        <element-citation publication-type="journal" id="sref70"><person-group person-group-type="author"><name><surname>Casler</surname><given-names>J.C.</given-names></name><name><surname>Zajac</surname><given-names>A.L.</given-names></name><name><surname>Valbuena</surname><given-names>F.M.</given-names></name><name><surname>Sparvoli</surname><given-names>D.</given-names></name><name><surname>Jeyifous</surname><given-names>O.</given-names></name><name><surname>Turkewitz</surname><given-names>A.P.</given-names></name><etal/></person-group><article-title>ESCargo: a regulatable fluorescent secretory cargo for diverse model organisms</article-title><source>Mol. Biol. Cell</source><volume>31</volume><year>2020</year><fpage>2892</fpage><lpage>2903</lpage><pub-id pub-id-type="pmid">33112725</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib71">
+        <label>71</label>
+        <element-citation publication-type="journal" id="sref71"><person-group person-group-type="author"><name><surname>Ng</surname><given-names>P.K.</given-names></name><name><surname>Li</surname><given-names>J.</given-names></name><name><surname>Jeong</surname><given-names>K.J.</given-names></name><name><surname>Shao</surname><given-names>S.</given-names></name><name><surname>Chen</surname><given-names>H.</given-names></name><name><surname>Tsang</surname><given-names>Y.H.</given-names></name><etal/></person-group><article-title>Systematic functional annotation of somatic mutations in cancer</article-title><source>Cancer Cell</source><volume>33</volume><year>2018</year><fpage>450</fpage><lpage>462 e410</lpage><pub-id pub-id-type="pmid">29533785</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib72">
+        <label>72</label>
+        <element-citation publication-type="journal" id="sref72"><person-group person-group-type="author"><name><surname>Kambe</surname><given-names>T.</given-names></name><name><surname>Tada</surname><given-names>J.</given-names></name><name><surname>Chikuma</surname><given-names>M.</given-names></name><name><surname>Masuda</surname><given-names>S.</given-names></name><name><surname>Nagao</surname><given-names>M.</given-names></name><name><surname>Tsuchiya</surname><given-names>T.</given-names></name><etal/></person-group><article-title>Embryonal carcinoma P19 cells produce erythropoietin constitutively but express lactate dehydrogenase in an oxygen-dependent manner</article-title><source>Blood</source><volume>91</volume><year>1998</year><fpage>1185</fpage><lpage>1195</lpage><pub-id pub-id-type="pmid">9454748</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib73">
+        <label>73</label>
+        <element-citation publication-type="journal" id="sref73"><person-group person-group-type="author"><name><surname>Takada</surname><given-names>H.</given-names></name><name><surname>Katoh</surname><given-names>T.</given-names></name><name><surname>Katayama</surname><given-names>T.</given-names></name></person-group><article-title>Sialylated <italic>O</italic> -glycans from hen egg white ovomucin are decomposed by mucin-degrading gut microbes</article-title><source>J.&#xA0;Appl. Glycosci. (1999)</source><volume>67</volume><year>2020</year><fpage>31</fpage><lpage>39</lpage><pub-id pub-id-type="pmid">34354526</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib74">
+        <label>74</label>
+        <element-citation publication-type="journal" id="sref74"><person-group person-group-type="author"><name><surname>Anumula</surname><given-names>K.R.</given-names></name><name><surname>Taylor</surname><given-names>P.B.</given-names></name></person-group><article-title>A&#xA0;comprehensive procedure for preparation of partially methylated alditol acetates from glycoprotein carbohydrates</article-title><source>Anal Biochem.</source><volume>203</volume><year>1992</year><fpage>101</fpage><lpage>108</lpage><pub-id pub-id-type="pmid">1524204</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib75">
+        <label>75</label>
+        <element-citation publication-type="journal" id="sref75"><person-group person-group-type="author"><name><surname>Cooper</surname><given-names>C.A.</given-names></name><name><surname>Gasteiger</surname><given-names>E.</given-names></name><name><surname>Packer</surname><given-names>N.H.</given-names></name></person-group><article-title>GlycoMod--a software tool for determining glycosylation compositions from mass spectrometric data</article-title><source>Proteomics</source><volume>1</volume><year>2001</year><fpage>340</fpage><lpage>349</lpage><pub-id pub-id-type="pmid">11680880</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib76">
+        <label>76</label>
+        <element-citation publication-type="journal" id="sref76"><person-group person-group-type="author"><name><surname>Takeda</surname><given-names>T.A.</given-names></name><name><surname>Miyazaki</surname><given-names>S.</given-names></name><name><surname>Kobayashi</surname><given-names>M.</given-names></name><name><surname>Nishino</surname><given-names>K.</given-names></name><name><surname>Goto</surname><given-names>T.</given-names></name><name><surname>Matsunaga</surname><given-names>M.</given-names></name><etal/></person-group><article-title>Zinc deficiency causes delayed ATP clearance and adenosine generation in rats and cell culture models</article-title><source>Commun. Biol.</source><volume>1</volume><year>2018</year><fpage>113</fpage><pub-id pub-id-type="pmid">30271993</pub-id>
+</element-citation>
+      </ref>
+      <ref id="bib77">
+        <label>77</label>
+        <element-citation publication-type="journal" id="sref77"><person-group person-group-type="author"><name><surname>Watanabe</surname><given-names>Y.</given-names></name><name><surname>Aoki-Kinoshita</surname><given-names>K.F.</given-names></name><name><surname>Ishihama</surname><given-names>Y.</given-names></name><name><surname>Okuda</surname><given-names>S.</given-names></name></person-group><article-title>GlycoPOST realizes FAIR principles for glycomics mass spectrometry data</article-title><source>Nucleic Acids Res.</source><volume>49</volume><year>2021</year><fpage>D1523</fpage><lpage>D1528</lpage><pub-id pub-id-type="pmid">33174597</pub-id>
+</element-citation>
+      </ref>
+    </ref-list>
+    <sec id="appsec1" sec-type="supplementary-material">
+      <title>Supporting information</title>
+      <p id="p0215">
+<supplementary-material content-type="local-data" id="mmc1"><caption><title>Supporting Tables&#xA0;and Figures</title></caption><media xlink:href="mmc1.pdf"/></supplementary-material>
+<supplementary-material content-type="local-data" id="mmc2"><caption><title>Table&#xA0;S2</title></caption><media xlink:href="mmc2.xlsx"/></supplementary-material>
+<supplementary-material content-type="local-data" id="mmc3"><caption><title>Table&#xA0;S7</title></caption><media xlink:href="mmc3.xlsx"/></supplementary-material>
+</p>
+    </sec>
+    <ack id="ack0010">
+      <title>Acknowledgments</title>
+      <p id="p0200">We thank Dr Shuichi Enomoto (RIKEN Center for Life Science Technologies) for providing MIA PaCa-2&#xA0;cells, and Drs. Yukina Nishito and Tokuji Tsuji for technical assistance.</p>
+      <sec id="sec6">
+        <title>Author contributions</title>
+        <p id="p0205">H. Y., N. M., T. W., M. M., S. U., M. M., Y. U., T. K., and T. K. investigation; H. Y., N. M., T. W., M. M., Y. U., T. K. data curation; H. Y., N. M., T. W., M. M., T. K. visualization; H. Y., N. M., T. W., M. M., S. U., M. M., Y. U., T. K., T. K., and T. K. methodology; T. K. writing&#x2013;original draft, T. K. supervision, T. K. project administration, T. K. funding acquisition; H. Y., N. M., T. W., M. M., S. U., M. M., Y. U., T. K., T. K., and T. K. writing&#x2013;review and editing.</p>
+      </sec>
+      <sec id="sec7">
+        <title>Funding and additional information</title>
+        <p id="p0210">This work was supported by a <funding-source id="gs6">Grant-in-Aid for Scientific Research on Innovative Areas</funding-source> &#x201C;Integrated Bio-metal Science&#x201D; (<funding-source id="gs8">MEXT KAKENHI</funding-source> Grant Number <award-id award-type="grant" rid="gs8">JP19H05768</award-id>) from the <funding-source id="gs12">Ministry of Education, Culture, Sports, Science, and Technology</funding-source>, Japan, Grant-in-Aid for Scientific Research (B) (<funding-source id="gs10"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100001691</institution-id><institution>JSPS KAKENHI</institution></institution-wrap></funding-source> Grant Number <award-id award-type="grant" rid="gs10">JP22H02257</award-id>) from the <funding-source id="gs5"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100001691</institution-id><institution>Japan Society for the Promotion of Science</institution></institution-wrap></funding-source>, the <funding-source id="gs15"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100004398</institution-id><institution>Mitsubishi Foundation</institution></institution-wrap></funding-source>, Nagase Science and Technology Foundation, the <funding-source id="gs30"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100006089</institution-id><institution>Tojuro Iijima Foundation for Food Science and Technology</institution></institution-wrap></funding-source>, Sugiyama Chemical &amp; Industrial Laboratory, the KOS&#xC9; <funding-source id="gs9"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100005926</institution-id><institution>Cosmetology Research Foundation</institution></institution-wrap></funding-source>, <funding-source id="gs19"><institution-wrap><institution-id institution-id-type="doi">10.13039/100007428</institution-id><institution>The Naito Foundation</institution></institution-wrap></funding-source>, and the <funding-source id="gs11"><institution-wrap><institution-id institution-id-type="doi">10.13039/100009578</institution-id><institution>Mizutani Foundation for Glycoscience</institution></institution-wrap></funding-source> (to T. K.).</p>
+      </sec>
+    </ack>
+  </back>
+</article>
+</pmc-articleset>

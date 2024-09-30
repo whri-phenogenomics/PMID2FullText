@@ -1,0 +1,1525 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Blood</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Blood</journal-id>
+      <journal-id journal-id-type="hwp">bloodjournal</journal-id>
+      <journal-id journal-id-type="publisher-id">Blood</journal-id>
+      <journal-title-group>
+        <journal-title>Blood</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0006-4971</issn>
+      <issn pub-type="epub">1528-0020</issn>
+      <publisher>
+        <publisher-name>American Society of Hematology</publisher-name>
+        <publisher-loc>Washington, DC</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35213692</article-id>
+      <article-id pub-id-type="pmc">9136880</article-id>
+      <article-id pub-id-type="publisher-id">2022/BLD2021011846</article-id>
+      <article-id pub-id-type="doi">10.1182/blood.2021011846</article-id>
+      <article-categories>
+        <subj-group subj-group-type="hwp-journal-coll">
+          <subject>29</subject>
+          <subject>2</subject>
+          <subject>10</subject>
+          <subject>36</subject>
+        </subj-group>
+        <subj-group subj-group-type="heading">
+          <subject>Plenary Paper</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic toggle="yes">HEATR3</italic> variants impair nuclear import of uL18 (RPL5) and drive Diamond-Blackfan anemia</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1204-8285</contrib-id>
+          <name>
+            <surname>O&#x2019;Donohue</surname>
+            <given-names>Marie-Fran&#xE7;oise</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="FM2" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8806-6941</contrib-id>
+          <name>
+            <surname>Da Costa</surname>
+            <given-names>Lydie</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff3" ref-type="aff"/>
+          <xref rid="aff4" ref-type="aff"/>
+          <xref rid="aff5" ref-type="aff">5</xref>
+          <xref rid="FM2" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lezzerini</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <xref rid="aff6" ref-type="aff">6</xref>
+          <xref rid="FM2" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Unal</surname>
+            <given-names>Sule</given-names>
+          </name>
+          <xref rid="aff7" ref-type="aff">7</xref>
+          <xref rid="aff8" ref-type="aff">8</xref>
+          <xref rid="FM2" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Joret</surname>
+            <given-names>Cl&#xE9;ment</given-names>
+          </name>
+          <xref rid="aff9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9685-1755</contrib-id>
+          <name>
+            <surname>Bartels</surname>
+            <given-names>Marije</given-names>
+          </name>
+          <xref rid="aff10" ref-type="aff">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Brilstra</surname>
+            <given-names>Eva</given-names>
+          </name>
+          <xref rid="aff11" ref-type="aff">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Scheijde-Vermeulen</surname>
+            <given-names>Marijn</given-names>
+          </name>
+          <xref rid="aff12" ref-type="aff">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0443-8865</contrib-id>
+          <name>
+            <surname>Wacheul</surname>
+            <given-names>Ludivine</given-names>
+          </name>
+          <xref rid="aff9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7420-9531</contrib-id>
+          <name>
+            <surname>De Keersmaecker</surname>
+            <given-names>Kim</given-names>
+          </name>
+          <xref rid="aff13" ref-type="aff">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8414-8907</contrib-id>
+          <name>
+            <surname>Vereecke</surname>
+            <given-names>Stijn</given-names>
+          </name>
+          <xref rid="aff13" ref-type="aff">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Labarque</surname>
+            <given-names>Veerle</given-names>
+          </name>
+          <xref rid="aff14" ref-type="aff">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Saby</surname>
+            <given-names>Manon</given-names>
+          </name>
+          <xref rid="aff15" ref-type="aff">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7504-1881</contrib-id>
+          <name>
+            <surname>Lefevre</surname>
+            <given-names>Sophie D.</given-names>
+          </name>
+          <xref rid="aff4" ref-type="aff">4</xref>
+          <xref rid="aff15" ref-type="aff">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Platon</surname>
+            <given-names>Jessica</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Montel-Lehry</surname>
+            <given-names>Nathalie</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Laugero</surname>
+            <given-names>Nathalie</given-names>
+          </name>
+          <xref rid="aff16" ref-type="aff">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1234-5260</contrib-id>
+          <name>
+            <surname>Lacazette</surname>
+            <given-names>Eric</given-names>
+          </name>
+          <xref rid="aff16" ref-type="aff">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>van Gassen</surname>
+            <given-names>Koen</given-names>
+          </name>
+          <xref rid="aff11" ref-type="aff">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9961-0842</contrib-id>
+          <name>
+            <surname>Houtkooper</surname>
+            <given-names>Riekelt H.</given-names>
+          </name>
+          <xref rid="aff6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Simsek-Kiper</surname>
+            <given-names>Pelin Ozlem</given-names>
+          </name>
+          <xref rid="aff17" ref-type="aff">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Leblanc</surname>
+            <given-names>Thierry</given-names>
+          </name>
+          <xref rid="aff18" ref-type="aff">18</xref>
+          <xref rid="aff19" ref-type="aff">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yarali</surname>
+            <given-names>Nese</given-names>
+          </name>
+          <xref rid="aff20" ref-type="aff">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3528-9495</contrib-id>
+          <name>
+            <surname>Cetinkaya</surname>
+            <given-names>Arda</given-names>
+          </name>
+          <xref rid="aff21" ref-type="aff">21</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5432-0032</contrib-id>
+          <name>
+            <surname>Akarsu</surname>
+            <given-names>Nurten A.</given-names>
+          </name>
+          <xref rid="aff21" ref-type="aff">21</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0830-7341</contrib-id>
+          <name>
+            <surname>Gleizes</surname>
+            <given-names>Pierre-Emmanuel</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7295-6288</contrib-id>
+          <name>
+            <surname>Lafontaine</surname>
+            <given-names>Denis L. J.</given-names>
+          </name>
+          <xref rid="aff9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>MacInnes</surname>
+            <given-names>Alyson W.</given-names>
+          </name>
+          <xref rid="aff6" ref-type="aff">6</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label>MCD,&#xA0;Centre de Biologie Int&#xE9;grative, Universit&#xE9; de Toulouse, Centre National de la Recherche Scientifique (CNRS), UT3, Toulouse, France;</aff>
+      <aff id="aff2"><label>2</label>University of Paris Cit&#xE9;, Paris, France;</aff>
+      <aff id="aff3"><label>3</label>Hematim EA4666, Amiens, France;</aff>
+      <aff id="aff4"><label>4</label>Laboratory of Excellence for Red Cells, LABEX GR-Ex, Paris, France;</aff>
+      <aff id="aff5"><label>5</label>Service d&#x2019;H&#xE9;matologie Biologique, Assistance Publique&#x2013;H&#xF4;pitaux de Paris (AP-HP), H&#xF4;pital Robert Debr&#xE9;, Paris, France;</aff>
+      <aff id="aff6"><label>6</label>Amsterdam UMC, University of Amsterdam, Laboratory Genetic Metabolic Diseases, Amsterdam Gastroenterology, Endocrinology, and Metabolism, Amsterdam, The Netherlands;</aff>
+      <aff id="aff7"><label>7</label>Pediatric Hematology Unit, Department of Pediatrics, Medical Faculty, and</aff>
+      <aff id="aff8"><label>8</label>Research Center on Fanconi Anemia and Other Inherited Bone Marrow Failure Syndromes, Hacettepe University, Ankara, Turkey;</aff>
+      <aff id="aff9"><label>9</label>RNA Molecular Biology, Fonds de la Recherche Scientifique (F.R.S./FNRS), Universit&#xE9; libre de Bruxelles (ULB), Gosselies, Belgium;</aff>
+      <aff id="aff10"><label>10</label>Department of Pediatric Hematology and</aff>
+      <aff id="aff11"><label>11</label>Department of Genetics, University Medical Center Utrecht, Utrecht, The Netherlands;</aff>
+      <aff id="aff12"><label>12</label>Princess M&#xE1;xima Center for Pediatric Oncology, Department of Pathology, Utrecht, The Netherlands;</aff>
+      <aff id="aff13"><label>13</label>Laboratory for Disease Mechanisms in Cancer, Department of Oncology, Katholieke Universiteit Leuven (KU Leuven) and Leuven Cancer Institute (LKI), Leuven, Belgium;</aff>
+      <aff id="aff14"><label>14</label>Department of Pediatric Hemato-Oncology, University Hospitals Leuven, Leuven, Belgium;</aff>
+      <aff id="aff15"><label>15</label>UMR S1134, INSERM, Paris, France;</aff>
+      <aff id="aff16"><label>16</label>UMR 1297-I2MC, INSERM, Universit&#xE9; de Toulouse, Toulouse, France;</aff>
+      <aff id="aff17"><label>17</label>Pediatric Genetics Unit, Department of Pediatrics, Medical Faculty, Hacettepe University, Ankara, Turkey;</aff>
+      <aff id="aff18"><label>18</label>Immuno-Hematology Department, H&#xF4;pital Robert-Debr&#xE9;, Assistance Publique-H&#xF4;pitaux de Paris, Paris, France;</aff>
+      <aff id="aff19"><label>19</label>EA-3518, Universit&#xE9; Paris Cit&#xE9;, Paris, France;</aff>
+      <aff id="aff20"><label>20</label>Pediatric Hematology Unit, Department of Pediatrics, Medical Faculty, Yildirim Beyazit University, Ankara, Turkey; and</aff>
+      <aff id="aff21"><label>21</label>Department of Medical Genetics, Medical Faculty, Hacettepe University, Ankara, Turkey</aff>
+      <author-notes>
+        <fn id="FM2" fn-type="equal">
+          <label>*</label>
+          <p>M.-F.O., L.D.C., M.L., and S.U. contributed equally to this study.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>26</day>
+        <month>5</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>26</day>
+        <month>5</month>
+        <year>2022</year>
+      </pub-date>
+      <!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="ppub"/>.-->
+      <volume>139</volume>
+      <issue>21</issue>
+      <fpage>3111</fpage>
+      <lpage>3126</lpage>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>3</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>2</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted-manuscript">
+          <day>25</day>
+          <month>2</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2022 by The American Society of Hematology.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+          <license-p>Licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0), permitting only noncommercial, nonderivative use with attribution. All other rights reserved.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:title="pdf" xlink:href="bloodBLD2021011846.pdf"/>
+      <self-uri xlink:role="icon" xlink:href="bloodBLD2021011846_thumb.jpg"/>
+      <related-article related-article-type="article-reference" ext-link-type="doi" id="ra1" xlink:href="10.1182/blood.2022015881"/>
+      <abstract abstract-type="teaser">
+        <p>Diamond-Blackfan anemia (DBA) is typically caused by mutations in ribosomal protein (RP) genes leading to impaired erythroid development; however, in about 25% of cases, the cause is unknown. In this Plenary Paper, O&#x2019;Donohue and colleagues identify biallelic mutations in <italic toggle="yes">HEATR3</italic>, a gene of previously uncertain function in humans, in 4 unrelated families with DBA. A series of elegant studies reveal that <italic toggle="yes">HEATR3</italic> is important for RP import into the nucleus and that deficiency of <italic toggle="yes">HEATR3</italic> causes defects in ribosomal biogenesis.</p>
+      </abstract>
+      <abstract abstract-type="executive-summary">
+        <title>Key Points</title>
+        <p>
+<list list-type="bullet"><list-item><p>Biallelic variants in <italic toggle="yes">HEATR3</italic> are associated with DBA and other clinical features in humans.</p></list-item><list-item><p><italic toggle="yes">HEATR3</italic> variants destabilize the protein, resulting in a reduction of nuclear uL18 and impaired ribosome biogenesis.</p></list-item></list>
+</p>
+      </abstract>
+      <abstract abstract-type="graphical">
+        <title>Visual Abstract</title>
+        <p>
+<fig position="float" id="absf1" fig-type="featured"><graphic xlink:href="bloodBLD2021011846absf1" position="float"/></fig></p>
+      </abstract>
+      <abstract>
+        <title>Abstract</title>
+        <p>The congenital bone marrow failure syndrome Diamond-Blackfan anemia (DBA) is typically associated with variants in ribosomal protein (RP) genes impairing erythroid cell development. Here we report multiple individuals with biallelic <italic toggle="yes">HEATR3</italic> variants exhibiting bone marrow failure, short stature, facial and acromelic dysmorphic features, and intellectual disability. These variants destabilize a protein whose yeast homolog is known to synchronize the nuclear import of RPs uL5 (RPL11) and uL18 (RPL5), which are both critical for producing ribosomal subunits and for stabilizing the p53 tumor suppressor when ribosome biogenesis is compromised. Expression of <italic toggle="yes">HEATR3</italic> variants or repression of <italic toggle="yes">HEATR3</italic> expression in primary cells, cell lines of various origins, and yeast models impairs growth, differentiation, pre&#x2013;ribosomal RNA processing, and ribosomal subunit formation reminiscent of DBA models of large subunit RP gene variants. Consistent with a role of HEATR3 in RP import, HEATR3-depleted cells or patient-derived fibroblasts display reduced nuclear accumulation of uL18. Hematopoietic progenitor cells expressing <italic toggle="yes">HEATR3</italic> variants or small-hairpin RNAs knocking down HEATR3 synthesis reveal abnormal acceleration of erythrocyte maturation coupled to severe proliferation defects that are independent of p53 activation. Our study uncovers a new pathophysiological mechanism leading to DBA driven by biallelic <italic toggle="yes">HEATR3</italic> variants and the destabilization of a nuclear import protein important for ribosome biogenesis.</p>
+      </abstract>
+      <funding-group>
+        <award-group id="sp1">
+          <funding-source>
+<institution-wrap><institution>National Institutes of Health</institution></institution-wrap>
+</funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <page-count count="16"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p>Ribosomopathies are rare human disorders resulting from impaired production of ribosomes. Many variants in different ribosomal protein (RP) genes drive Diamond-Blackfan anemia (DBA). Rare cases have also been associated with the transcription factor GATA1 and the ribosomal assembly factor TSR2, whereas DBA-like syndromes were linked to variants of the genes encoding the adenosine deaminase ADA2 or the serum protein erythropoietin.<xref rid="B1" ref-type="bibr"><sup>1-4</sup></xref> DBA is characterized by a paucity of erythroid progenitor and precursor cells in the bone marrow and red cell aplasia that is frequently (&#x223C;50%) associated with physical malformations of the face, hands (abnormal thumbs), heart, and urogenital tract.<xref rid="B5" ref-type="bibr"><sup>5</sup></xref> Individuals with DBA also have an increased risk of developing cancer, including acute myeloid leukemia and osteosarcomas.<xref rid="B6" ref-type="bibr"><sup>6</sup></xref> Inherited RP gene mutations have been reported in individuals with asplenia, intellectual disability, autism, and/or dysmorphism but no hematologic phenotype.<xref rid="B7" ref-type="bibr"><sup>7-11</sup></xref> Suggested mechanisms underlying DBA include stabilization of the p53 tumor suppressor; the reduced translation of transcripts important for erythropoiesis such as <italic toggle="yes">GATA1</italic>, <italic toggle="yes">BAG1</italic>, and <italic toggle="yes">CSDE1</italic>; and/or the degradation of the GATA1 chaperone heat shock protein 70.<xref rid="B1" ref-type="bibr"><sup>1,12-17</sup></xref></p>
+      <p><italic toggle="yes">RPL5</italic> and <italic toggle="yes">RPL11</italic> encode uL18 and uL5, respectively, which uniquely assemble in the nucleus with 5S ribosomal RNA (rRNA) to form the 5S ribonucleoprotein particle (RNP), a complex that incorporates with maturing large ribosomal subunits to form the central protuberance.<xref rid="B18" ref-type="bibr"><sup>18</sup></xref> When ribosome biogenesis is compromised and the 5S RNP is not incorporated, it accumulates in free form and associates with Hdm2. This interaction inhibits the Hdm2 ubiquitin ligase function that normally targets p53 for constitutive proteasomal degradation.<xref rid="B19" ref-type="bibr"><sup>19</sup></xref> This antitumor regulatory loop, known as nucleolar surveillance, regulates the p53 stabilization and apoptosis resulting from ribosome biogenesis inhibition.<xref rid="B20" ref-type="bibr"><sup>20</sup></xref> Importantly, all 3 components of the 5S RNP are dependent on each other to bind Hdm2, and, as such, reduced uL18 or uL5 in several models fails to induce p53 stabilization to the same extent as the loss of other RPs.<xref rid="B21" ref-type="bibr"><sup>21-24</sup></xref></p>
+      <p>Symportin 1 (Syo1, HEATR3 in human) is a yeast protein that coimports uL5 and uL18 into the nucleus.<xref rid="B25" ref-type="bibr"><sup>25,26</sup></xref> Syo1 associates cotranslationally with the N-terminus of uL18 and interacts with uL5, allowing for synchronized nuclear import of the newly synthesized RPs. Once in the nucleus, a pre&#x2013;5S RNP is formed by the incorporation of 5S rRNA with Syo1-uL18-uL5, which is then recruited onto the pre-60S large ribosomal subunit.<xref rid="B27" ref-type="bibr"><sup>27</sup></xref> Although coimmunoprecipitation experiments in human cells have recently shown that HEATR3 associates with both uL5 and uL18,<xref rid="B28" ref-type="bibr"><sup>28</sup></xref> it remains unknown if the cotranslational capture is conserved.</p>
+      <p>The current study reports missense and splice site variants in <italic toggle="yes">HEATR3</italic> (MIM 614951) in multiple individuals presenting with DBA and additional clinical features. Functional studies reveal defective ribosome biogenesis and reduced nuclear import of uL18/RPL5, and suggest that the impaired erythroid proliferation is independent of p53.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Affected individuals</title>
+        <p>The exome sequencing results from Family A were brought to the attention of the European Diamond-Blackfan anemia (EuroDBA) consortium. This led to EuroDBA members querying their respective registries and the identification of the other families (supplemental Materials and methods, available on the <italic toggle="yes">Blood</italic> Web site). Written informed consent was obtained from affected individuals and/or parents before inclusion in this study, which was performed in accordance with the ethical standards of the Declaration of Helsinki. All procedures in patient 3 (P3) were performed according to standards of institutional and national ethical boards (Hacettepe University: GO15/721, GO19/604). P4 and his family were registered in the French DBA registry (CNIL acceptance no. 911387, CCTIRS-no. 11.295, May 12, 2011).</p>
+      </sec>
+      <sec>
+        <title>Cell culture</title>
+        <p>Lymphoblastoid cell lines (LCLs) were derived from Epstein-Barr virus immortalization of peripheral mononuclear cells isolated from whole blood using Ficoll (GE Life Sciences) and grown in RPMI 1640 (Gibco) containing 10% or 15% fetal calf serum, 1% <sc>l</sc>-glutamine, and 1% penicillin/streptomycin. Fibroblasts were generated by using a skin biopsy from the hip while the individual was anesthetized for a bone marrow biopsy, and growth was maintained in Dulbecco&#x2019;s modified Eagle medium (Gibco) containing 10% fetal calf serum. HeLa cells were cultured in Dulbecco&#x2019;s modified Eagle medium supplemented with 10% fetal bovine serum (Gibco).</p>
+      </sec>
+      <sec>
+        <title>Erythroid cell culture assays</title>
+        <p>Erythroid cell culture assays were performed as previously described.<xref rid="B16" ref-type="bibr"><sup>16,17,29</sup></xref> Antibodies and stains for fluorescence-activated cell sorting analysis were PC7- or phycoerythrin (PE)-conjugated CD34 (Beckman Coulter), allophycocyanin-conjugated CD36 (BD Biosciences), allophycocyanin- or PE-conjugated Band 3 (kindly provided by Mohandas Narla, New York Blood Center or The International Blood Group Reference Laboratory), PE/Cy7&#x2013;conjugated interleukin-3R (Miltenyi Biotech), PE/Cy7 (PE)-coupled GPA (Life Technologies), and 7AAD (Miltenyi Biotech). Fluorescence-activated cell sorting analysis was conducted on an Influx flow cytometer (BD Biosciences). Data were analyzed by using FCS 6 Express Flow cytometry, version 6.06.0040 (De Novo Software).</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Variants in <italic toggle="yes">HEATR3</italic> drive hematologic phenotypes with additional clinical features</title>
+        <p>Two of three children from Family A, P1 and P2, presented with intellectual disability, bone marrow failure with marked erythroid lineage involvement, and short stature as well as some minor facial and acromelic findings such as synophrys, pes planus, hallux valgus, and brachydactyly (<xref rid="T1" ref-type="table">Table 1</xref>; <xref rid="F1" ref-type="fig">Figure 1A-B</xref>). The elder sister, P1, died of osteosarcoma at age 20 years. Initial whole-exome sequencing (WES) of the parents and affected children pointed to 5 candidate genes with either homozygous or compound heterozygous variants (supplemental Table 1). <italic toggle="yes">HEATR3</italic> (MIM 614951) was the most likely candidate due to its potential role in ribosome biogenesis.<xref rid="B25" ref-type="bibr"><sup>25</sup></xref>
+<italic toggle="yes">HEATR3</italic> (NM_182922) variant c.1751G&gt;A; p.(Gly584Glu) was heterozygous in both parents and homozygous in P1 and P2. Subsequent Sanger sequencing DNA from whole blood of the unaffected child revealed a heterozygous <italic toggle="yes">HEATR3</italic> variant. Based on the hematologic phenotype found in P1 and P2, all 5 candidate genes, including <italic toggle="yes">HEATR3</italic>, were reported to the EuroDBA.</p>
+        <table-wrap position="float" id="T1">
+          <label>Table 1.</label>
+          <caption>
+            <p>The clinical features of the individuals in this study</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead valign="bottom">
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Feature</th>
+                <th align="center" rowspan="1" colspan="1">P1</th>
+                <th align="center" rowspan="1" colspan="1">P2</th>
+                <th align="center" rowspan="1" colspan="1">P3</th>
+                <th align="center" rowspan="1" colspan="1">P4</th>
+                <th align="center" rowspan="1" colspan="1">P5</th>
+                <th align="center" rowspan="1" colspan="1">P6</th>
+              </tr>
+            </thead>
+            <tbody valign="top">
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Clinical findings</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Age at last visit</td>
+                <td align="center" rowspan="1" colspan="1">Died at age 20 y</td>
+                <td align="center" rowspan="1" colspan="1">10 y</td>
+                <td align="center" rowspan="1" colspan="1">17 y</td>
+                <td align="center" rowspan="1" colspan="1">11 y</td>
+                <td align="center" rowspan="1" colspan="1">9 y</td>
+                <td align="center" rowspan="1" colspan="1">5 y</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Sex</td>
+                <td align="center" rowspan="1" colspan="1">Female</td>
+                <td align="center" rowspan="1" colspan="1">Male</td>
+                <td align="center" rowspan="1" colspan="1">Male</td>
+                <td align="center" rowspan="1" colspan="1">Male</td>
+                <td align="center" rowspan="1" colspan="1">Female</td>
+                <td align="center" rowspan="1" colspan="1">Male</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Ethnicity</td>
+                <td align="center" rowspan="1" colspan="1">Turkish</td>
+                <td align="center" rowspan="1" colspan="1">Turkish</td>
+                <td align="center" rowspan="1" colspan="1">Turkish</td>
+                <td align="center" rowspan="1" colspan="1">French</td>
+                <td align="center" rowspan="1" colspan="1">Dutch</td>
+                <td align="center" rowspan="1" colspan="1">Dutch</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Country</td>
+                <td align="center" rowspan="1" colspan="1">The Netherlands</td>
+                <td align="center" rowspan="1" colspan="1">The Netherlands</td>
+                <td align="center" rowspan="1" colspan="1">Turkey</td>
+                <td align="center" rowspan="1" colspan="1">France</td>
+                <td align="center" rowspan="1" colspan="1">The Netherlands</td>
+                <td align="center" rowspan="1" colspan="1">The Netherlands</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Family</td>
+                <td align="center" rowspan="1" colspan="1">A</td>
+                <td align="center" rowspan="1" colspan="1">A</td>
+                <td align="center" rowspan="1" colspan="1">B</td>
+                <td align="center" rowspan="1" colspan="1">C</td>
+                <td align="center" rowspan="1" colspan="1">D</td>
+                <td align="center" rowspan="1" colspan="1">D</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Variant in <italic toggle="yes">HEATR3</italic> &#x2003;(ENST00000299192)</td>
+                <td align="center" rowspan="1" colspan="1">c.1751G&gt;A p.(Gly584Glu) homozygous</td>
+                <td align="center" rowspan="1" colspan="1">c.1751G&gt;A p.(Gly584Glu) homozygous</td>
+                <td align="center" rowspan="1" colspan="1">c.1337G&gt;A p.(Cys446Tyr) homozygous</td>
+                <td align="center" rowspan="1" colspan="1">c.399&#x2009;+&#x2009;1G&gt;T p.? heterozygous and c.719C&gt; T p.(Pro240Leu) heterozygous</td>
+                <td align="center" rowspan="1" colspan="1">c.400T&gt;C p.(Cys134Arg) homozygous</td>
+                <td align="center" rowspan="1" colspan="1">c.400T&gt;C p.(Cys134Arg) homozygous</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Systemic findings</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Hematologic findings &#x2003;at presentation</td>
+                <td align="center" rowspan="1" colspan="1">Anemia</td>
+                <td align="center" rowspan="1" colspan="1">Anemia</td>
+                <td align="center" rowspan="1" colspan="1">Anemia</td>
+                <td align="center" rowspan="1" colspan="1">Anemia</td>
+                <td align="center" rowspan="1" colspan="1">Anemia</td>
+                <td align="center" rowspan="1" colspan="1">Anemia and thrombocytopenia</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Body mass index &#x2003;(normal 18.5-24.9 &#x2003;kg/m<sup>2</sup>)</td>
+                <td align="center" rowspan="1" colspan="1">29 kg/m<sup>2</sup></td>
+                <td align="center" rowspan="1" colspan="1">23.7 kg/m<sup>2</sup></td>
+                <td align="center" rowspan="1" colspan="1">28.1 kg/m<sup>2</sup></td>
+                <td align="center" rowspan="1" colspan="1">18.7 kg/m<sup>2</sup></td>
+                <td align="center" rowspan="1" colspan="1">22.8 kg/m<sup>2</sup></td>
+                <td align="center" rowspan="1" colspan="1">16.3 kg/m<sup>2</sup></td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Height</td>
+                <td align="center" rowspan="1" colspan="1">&lt; &#x2013;3 SD</td>
+                <td align="center" rowspan="1" colspan="1">&lt; &#x2013;1 SD</td>
+                <td align="center" rowspan="1" colspan="1">&lt; &#x2013;4 SD</td>
+                <td align="center" rowspan="1" colspan="1">&lt; &#x2013;1 SD (growth hormone therapy at 4 y, &lt; &#x2013;3 SD at 2 mo)</td>
+                <td align="center" rowspan="1" colspan="1">&lt; &#x2013;1 SD</td>
+                <td align="center" rowspan="1" colspan="1">0 SD</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Head circumference</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">Normal (0 SD)</td>
+                <td align="center" rowspan="1" colspan="1">&lt; &#x2013;3 SD</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">&gt; +1 SD</td>
+                <td align="center" rowspan="1" colspan="1">&gt;+1 SD</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Skeletal findings</td>
+                <td align="center" rowspan="1" colspan="1">Brachydactyly of hands, distal tapering of fingers, pes planus, hallux valgus</td>
+                <td align="center" rowspan="1" colspan="1">Pes planus, hallux valgus of the left foot, bilateral hypoplasia of the fourth and fifth toes</td>
+                <td align="center" rowspan="1" colspan="1">Severe genu valgum (operated), pes planus, brachydactyly of hands, hypoplasia of toes, sandal gap, cubitis valgus</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">Congenital hip dysplasia, preaxial polydactyly of right hand (operated), clinodactyly of left thumb, brachydactyly of first metacarpals, distal tapering of fingers</td>
+                <td align="center" rowspan="1" colspan="1">Brachydactyly of hands</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Intellectual disability/ &#x2003;developmental &#x2003;delay</td>
+                <td align="center" rowspan="1" colspan="1">Mild</td>
+                <td align="center" rowspan="1" colspan="1">Mild</td>
+                <td align="center" rowspan="1" colspan="1">Mild</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">Mild</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Facial dysmorphism</td>
+                <td align="center" rowspan="1" colspan="1">Synophrys, hypertelorism, low-set ears</td>
+                <td align="center" rowspan="1" colspan="1">Coarse hair, straight eyebrows, synophrys, protruding ears, full cheeks, narrow mouth</td>
+                <td align="center" rowspan="1" colspan="1">Down-slanted palpebral fissures, mild ptosis of left eye, widow's peak, micrognathy, protruding ears</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">Straight eyebrows</td>
+                <td align="center" rowspan="1" colspan="1">Down-slanted palpebral fissures, low-set ears</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Skin findings</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">Cutis marmorata</td>
+                <td align="center" rowspan="1" colspan="1">Multiple nevi, facial freckling</td>
+                <td align="center" rowspan="1" colspan="1">Multiple nevi</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Echocardiogram</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">Aortic regurgitation, dysplastic aortic valves</td>
+                <td align="center" rowspan="1" colspan="1">Interatrial septal defect (ostium secundum)</td>
+                <td align="center" rowspan="1" colspan="1">Normal</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Gastrointestinal &#x2003;findings</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">Persistent diarrhea, colitis</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Other findings</td>
+                <td align="center" rowspan="1" colspan="1">Obesity, PCOS, hypotonia</td>
+                <td align="center" rowspan="1" colspan="1">Truncal obesity, ENT problems</td>
+                <td align="center" rowspan="1" colspan="1">Truncal obesity</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">Obesity</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;History of RBC &#x2003;transfusion</td>
+                <td align="center" rowspan="1" colspan="1">Yes</td>
+                <td align="center" rowspan="1" colspan="1">No</td>
+                <td align="center" rowspan="1" colspan="1">Yes</td>
+                <td align="center" rowspan="1" colspan="1">Yes</td>
+                <td align="center" rowspan="1" colspan="1">Yes</td>
+                <td align="center" rowspan="1" colspan="1">Transient</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Response to &#x2003;corticosteroid</td>
+                <td align="center" rowspan="1" colspan="1">No</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">Yes</td>
+                <td align="center" rowspan="1" colspan="1">No</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Current treatment</td>
+                <td align="center" rowspan="1" colspan="1">&#x2014;</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">Corticosteroid</td>
+                <td align="center" rowspan="1" colspan="1">Transfusion and iron chelation</td>
+                <td align="center" rowspan="1" colspan="1">Transfusion and iron chelation</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Clinical course</td>
+                <td align="center" rowspan="1" colspan="1">Died of osteosarcoma at age 20 y</td>
+                <td align="center" rowspan="1" colspan="1">Currently in good clinical condition</td>
+                <td align="center" rowspan="1" colspan="1">Currently in good clinical condition</td>
+                <td align="center" rowspan="1" colspan="1">Currently in good clinical condition</td>
+                <td align="center" rowspan="1" colspan="1">Currently in good clinical condition</td>
+                <td align="center" rowspan="1" colspan="1">Currently in good clinical condition</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Family history</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Consanguinity</td>
+                <td align="center" rowspan="1" colspan="1">First-degree cousins</td>
+                <td align="center" rowspan="1" colspan="1">First-degree cousins</td>
+                <td align="center" rowspan="1" colspan="1">First-degree cousins</td>
+                <td align="center" rowspan="1" colspan="1">No</td>
+                <td align="center" rowspan="1" colspan="1">Likely</td>
+                <td align="center" rowspan="1" colspan="1">Likely</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Family history</td>
+                <td align="center" rowspan="1" colspan="1">Yes, sibling (P1)</td>
+                <td align="center" rowspan="1" colspan="1">Yes, sibling (P2)</td>
+                <td align="center" rowspan="1" colspan="1">Yes, sibling</td>
+                <td align="center" rowspan="1" colspan="1">None</td>
+                <td align="center" rowspan="1" colspan="1">Yes, sibling (P6)</td>
+                <td align="center" rowspan="1" colspan="1">Yes, sibling (P5)</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="tblfn1">
+              <p>ENT, ears, nose, throat; NA, not available; PCOS, polycystic ovarian syndrome; RBC, red blood cell; SD, standard deviation.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <fig position="float" id="F1">
+          <label>Figure 1.</label>
+          <caption>
+            <p><bold>Clinical presentation and <italic toggle="yes">HEATR3</italic> variants that drive DBA.</bold> (A) Photographs of the face and hands of the affected P1, P2, P3, P5, and P6 (photos from Family C not available). No common facial finding was present in affected individuals, but straight eyebrows, down-slanting palpebral fissures, and synophrys are apparent in some. Note that fingers in P1, P3, and P6 appear disproportionately short compared with the hand. Also note the presence of thumb anomaly in P5. (B) The pedigrees of Families A to D with genotypes for specified <italic toggle="yes">HEATR3</italic> variants are indicated below each available individual. The pathogenic variants are indicated in red. (C) <italic toggle="yes">HEATR3</italic> variants cosegregating with DBA in one affected individual from each family arranged according to position of coding sequence in ascending order. The missense variants c.400T&gt;C (p.Cys134Arg) in P5, c.1337G&gt;A (p.Cys446Tyr) in P3, and c.1751G&gt;A (p.Gly584Glu) in P1 and P2 are homozygous; the splice donor site variant c.399&#x2009;+&#x2009;1G&gt;T (p.?) and the missense variant c.719C&gt;T (p.Pro240Leu) are compound heterozygous in P4. (D) Schematic representation of <italic toggle="yes">HEATR3</italic> with 15 exons. (E) HEATR3 protein with four ARM (Armadillo) and six HEAT (Huntingtin, Elongation factor 3, protein phosphatase 2A, and Target of rapamycin 1) repeat domains, indicating the position of associated variants. The protein domains have been described previously.<xref rid="B27" ref-type="bibr"><sup>27,28</sup></xref></p>
+          </caption>
+          <graphic xlink:href="bloodBLD2021011846f1" position="float"/>
+        </fig>
+        <p>Queries into the Turkey EuroDBA registry revealed a second consanguineous family with an affected child and 3 siblings, 2 of whom died in early childhood (Family B). The affected child, P3, had intellectual disability, pure erythroid hypoplasia, short stature, and some minor dysmorphic findings overlapping with those of P1 and P2 (<xref rid="T1" ref-type="table">Table 1</xref>; <xref rid="F1" ref-type="fig">Figure 1A-B</xref>). A focus on the 5 candidate genes in WES (supplemental Table 1) revealed a homozygous c.1337G&gt;A; p.(Cys446Tyr) variant in <italic toggle="yes">HEATR3</italic>, supporting the findings in Family A. Similar screening of the French DBA registry identified a compound heterozygous variant in <italic toggle="yes">HEATR3</italic> that coupled a canonical splice-site variant c.399&#x2009;+&#x2009;1G&gt;T with a missense variant c.719C&gt;T; p.(Pro240Leu), which segregate from either parent (Family C). In marked contrast to patients from Families A and B, the affected individual in Family C, P4, had no intellectual disability or dysmorphic findings but had short stature, pure erythroid hypoplasia, and interatrial septal defect (ostium secundum).</p>
+        <p>Finally, a fourth family of Dutch origin was identified with <italic toggle="yes">HEATR3</italic> variants. The eldest sister (P5) presented with a severe anemia, intellectual disability, operated preaxial polydactyly in the right hand and clinodactyly of the left thumb, mild facial dysmorphic features, and congenital hip dysplasia (<xref rid="T1" ref-type="table">Table 1</xref>; <xref rid="F1" ref-type="fig">Figure 1A-B</xref>). The brother (P6) had anemia and transient thrombocytopenia with mild dysmorphic facies and no intellectual disability. WES in P5 identified the homozygous c.400T&gt;C; p.(Cys134Arg) variant in <italic toggle="yes">HEATR3</italic>. Sanger sequencing revealed this homozygous <italic toggle="yes">HEATR3</italic> variant in P6, and a heterozygous variant was found in both parents. This variant is predicted to be &#x201C;deleterious&#x201D; according to SIFT and &#x201C;disease-causing&#x201D; by Mutation Taster but not predicted to affect splicing according to HSF, MaxEntScan, and NNSPLICE.<xref rid="B30" ref-type="bibr"><sup>30-34</sup></xref> None of these variants was found in the gnomAD, except for the c.400T&gt;C; p.(Cys134Arg) variant in Family D, which is very rare with an allele frequency of 4.11 &#xD7; 10<sup>&#x2212;6</sup> and not present in homozygosity.<xref rid="B35" ref-type="bibr"><sup>35</sup></xref></p>
+        <p>At the amino acid level, all these human variants occur at positions that are highly conserved evolutionarily (supplemental Figure 1). Sanger sequencing performed on DNA extracted from LCLs (in cases of P2 and P3), isolated lymphocytes (P4), and peripheral blood (P5 and P6) confirmed the expected <italic toggle="yes">HEATR3</italic> variants (<xref rid="F1" ref-type="fig">Figure 1C</xref>). These variants are found dispersed across <italic toggle="yes">HEATR3</italic> with no apparent clustering except that they all affect residues in the ARM and HEAT repeat domains of the HEATR3 protein (<xref rid="F1" ref-type="fig">Figure 1D-E</xref>). To exclude other biallelic genomic variants, common long contiguous stretches of homozygosity &gt;5 Mbp were identified for individuals P1, P2, P3, and P5, which revealed a single common long contiguous stretch of homozygosity on chromosome 16 ([GRCh37] 25&#x2009;263,278-53&#x2009;191,470) where <italic toggle="yes">HEATR3</italic> lies (supplemental Figure 2).</p>
+      </sec>
+      <sec>
+        <title>HEATR3 p.Gly584 (yeast p.Gly522) residue is important for protein function</title>
+        <p>In budding yeast, Syo1 is important for 60S ribosomal subunit assembly.<xref rid="B25" ref-type="bibr"><sup>25</sup></xref> Supplemental Figure 1 illustrates the amino acids affected by the 4 human variants, highlighting that only p.Gly584 has a homologous residue in yeast Syo1, p.Gly522. To test the effects of the p.Gly584 HEATR3 mutation, suitable yeast strains were engineered. Yeast cells with deletions in <italic toggle="yes">syo1</italic> (<italic toggle="yes">syo1&#x394;</italic>) are viable but display a mild growth defect (apparent at 10<sup>3</sup>&#xD7; and higher dilutions in a plate assay) (<xref rid="F2" ref-type="fig">Figure 2B</xref>) and a striking accumulation of 40S subunits (<xref rid="F2" ref-type="fig">Figure 2A</xref>). The p.Gly584 HEATR3 residue was mutated in yeast Syo1 to yield p.(Gly522Ala) to probe function or p.(Gly522Glu) to mimic the variant in P1 and P2. Expression of the mutated constructs did not restore growth or the ribosomal subunit imbalance. By comparison, introduction of wild-type Syo1 complemented both growth and ribosomal subunit accumulation (<xref rid="F2" ref-type="fig">Figure 2A-B</xref>). Western blot analysis revealed that neither variant had a noticeable impact on protein abundance (<xref rid="F2" ref-type="fig">Figure 2C</xref>). Mapping the human p.Gly584 residue onto the <italic toggle="yes">Chaetomium thermophilum</italic> Syo1 three-dimensional structure, established in complex with uL18 by X-ray crystallography,<xref rid="B25" ref-type="bibr"><sup>25</sup></xref> revealed the presence of the equivalent p.Gly580 amino acid in an &#x3B1;-helix at a distance from the contacts with the RP (<xref rid="F2" ref-type="fig">Figure 2D</xref>). This finding suggests that the pathogenicity of the HEATR3 p.(Gly584Glu) variant is linked to efficient 60S ribosomal subunit production.</p>
+        <fig position="float" id="F2">
+          <label>Figure 2.</label>
+          <caption>
+            <p><bold>The HEATR3 Gly584 (yeast Gly522) residue is important for protein function.</bold> (A) Polysome profiles of wild-type and <italic toggle="yes">syo1&#x394;</italic> yeast cells expressing empty vector controls or HA-tagged Syo1-Gly522 mutations display an altered 60S/40S subunits ratio. Representative examples of a duplicate are shown. (B) Mutations at position Gly522 do not complement yeast growth. The mild growth impairment observed in s<italic toggle="yes">yo1&#x394;</italic> cells is complemented by a wild-type construct (HA-Syo1) but not by constructs harboring a mutation at position Gly522. The indicated strains were grown at 16&#xB0;C on synthetic medium lacking leucine for 6 days. (C) The Gly522 mutants are stably expressed in yeast. HA-Syo1 constructs were detected by western blotting with an anti-HA antibody. As loading control, glyceraldehyde-3-phosphate dehydrogenase (GAPDH) probing was performed. (D) Position of yeast mutation Gly522 on the three-dimensional structure of <italic toggle="yes">C thermophilum</italic> Syo1 in complex with L5-N (based on PDB 4GMN<xref rid="B25" ref-type="bibr"><sup>25</sup></xref>). Yeast Gly522 corresponds to Gly584 in the C-terminal (supplemental Figure 1). Two views are shown.</p>
+          </caption>
+          <graphic xlink:href="bloodBLD2021011846f2" position="float"/>
+        </fig>
+        <p>To establish if the cotranslational capture of uL18 by Syo1<xref rid="B25" ref-type="bibr"><sup>25,26</sup></xref> is conserved in higher eukaryotes, we transiently expressed HA-tagged HEATR3 in HeLa cells, stalled ribosomes with cycloheximide, and performed an anti-HA affinity purification. The recovered material was tested for the presence of <italic toggle="yes">RPL5</italic> messenger RNAs (mRNAs) (coding for uL18) by reverse transcription quantitative real-time polymerase chain reaction. Compared with an untagged HEATR3 control, <italic toggle="yes">RPL5</italic> mRNA was found significantly enriched in HA-HEATR3 pellets (supplemental Figure 3). No cotranslational recruitment of <italic toggle="yes">RPL5</italic> mRNA was observed when the HA-HEATR3 p.(Cys446Tyr) variant was expressed. We also tested for the presence of <italic toggle="yes">RPL10</italic> mRNA coding for uL16, an RP that is not known to be chaperoned by Syo1.<xref rid="B26" ref-type="bibr"><sup>26</sup></xref> Consistently, we detected no signal in the HA-HEATR3 or in the untagged control pellets for <italic toggle="yes">RPL10</italic>. We concluded that the cotranslational capture mechanism used by yeast Syo1 to chaperone uL18 is conserved by HEATR3 in human cells and disrupted by the HEATR3 p.(Cys446Tyr) variant.</p>
+      </sec>
+      <sec>
+        <title><italic toggle="yes">HEATR3</italic> missense variants destabilize the HEATR3 protein and reduce nuclear uL18</title>
+        <p>To assess the effects of patient mutations on HEATR3 metabolic stability, protein levels were established by western blotting using lysates from LCLs derived from P2 and P3. The HEATR3 protein was barely detectable in either of the affected samples compared with the healthy controls (<xref rid="F3" ref-type="fig">Figure 3A</xref>). To determine if this effect was due to the variants driving constitutive ubiquitin-mediated degradation of HEATR3 (similar to the fate of p53 in LCL basal conditions<xref rid="B24" ref-type="bibr"><sup>24</sup></xref>), cells were exposed to the proteasome inhibitor MG-132 and blotted again for HEATR3. No restoration of HEATR3 levels was observed upon MG-132 treatment, in contrast to the clear and expected increase of p53 protein. This reduction of HEATR3 protein was not due to a loss of <italic toggle="yes">HEATR3</italic> transcription, as real-time quantitative polymerase chain reaction analysis revealed equivalent levels of <italic toggle="yes">HEATR3</italic> mRNA in cells from healthy and affected individuals (<xref rid="F3" ref-type="fig">Figure 3B</xref>). These results suggest that the <italic toggle="yes">HEATR3</italic> variants p.(Cys446Tyr) and p.(Gly584Glu) trigger the destabilization of the protein independently of the proteasome and without affecting <italic toggle="yes">HEATR3</italic> mRNA levels.</p>
+        <fig position="float" id="F3">
+          <label>Figure 3.</label>
+          <caption>
+            <p><bold><italic toggle="yes">HEATR3</italic> variants affect protein levels and uL18 nuclear localization.</bold> (A) Representative western blot of lysates from LCLs derived from P2 and P3 that were either untreated or exposed to the proteasome inhibitor MG-132. Specific antibodies are used to detect the relative amounts of HEATR3. Protein p53 provides a positive control showing proteasome inhibition by MG-132. Actin detection was used as loading control. (B) Real-time polymerase chain reaction analysis of complementary DNAs generated from LCLs derived from a healthy control or from P2 and P3 using primers to measure <italic toggle="yes">HEATR3</italic> mRNA levels. The mRNAs of genes <italic toggle="yes">36B4</italic>, <italic toggle="yes">ACTB</italic>, and <italic toggle="yes">GAPDH</italic> were used as references. Data shown are the results of 6 biological replicate experiments. (C) Western blot of lysates from HeLa cells transfected with 2 different siRNAs targeting <italic toggle="yes">HEATR3</italic> (#1 and #2) or a control scrambled siRNA (SCR) probed with antibodies against HEATR3. Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) detection was used as loading control. (D) Wide-field fluorescence microscopy of HeLa cells transfected with SCR or <italic toggle="yes">HEATR3</italic> siRNAs and stained with 4&#x2032;,6-diamidino-2-phenylindole (DAPI) (to label the nucleus) and antibodies against uL18, shown at &#xD7;20 magnification. The insets show enlarged pictures of the areas framed by dotted lines. The arrowheads point to stained nucleoli, which are observed in control cells but not after <italic toggle="yes">HEATR3</italic> knockdown. (E) Fibroblasts derived from a healthy control or P2, stained with DAPI and antibodies against uL18 or uL5. Scale bar, 10 &#x3BC;m. (F) Quantification of the number of fibroblasts revealing nuclear staining of uL18.</p>
+          </caption>
+          <graphic xlink:href="bloodBLD2021011846f3" position="float"/>
+        </fig>
+        <p>To test if the uL18 nuclear import role of Syo1<xref rid="B25" ref-type="bibr"><sup>25</sup></xref> is conserved in human cells, <italic toggle="yes">HEATR3</italic> expression was knocked down with small interfering RNAs (siRNAs) in HeLa cells (<xref rid="F3" ref-type="fig">Figure 3C</xref>) and stained with antibodies recognizing uL18. <xref rid="F3" ref-type="fig">Figure 3D</xref> shows that in control cells, uL18 accumulated in the cytoplasm and the nucleus with a particularly strong enrichment in the nucleolus (where ribosome biogenesis initiates). Upon depletion of HEATR3, this enrichment of uL18 was lost in nearly all cells.</p>
+        <p>To confirm this finding in primary patient cells, dermal fibroblasts were obtained from P2. <xref rid="F3" ref-type="fig">Figure 3E</xref> shows that nuclear staining of uL18 in fibroblasts expressing the HEATR3 variant p.(Gly584Glu) is reduced compared with control cells (<xref rid="F3" ref-type="fig">Figure 3F</xref>). Staining the depleted HeLa cells (data not shown) or fibroblasts (<xref rid="F3" ref-type="fig">Figure 3E-F</xref>) with antibodies recognizing uL5 (RPL11) did not reveal any appreciable differences. We thus concluded that HEATR3 is important for nuclear import of uL18 and that uL5 seems to be imported through additional mechanisms.</p>
+      </sec>
+      <sec>
+        <title>Cells carrying <italic toggle="yes">HEATR3</italic> variants reveal strong pre-rRNA processing defects</title>
+        <p>Northern blot analysis of total RNA extracts compared pre-rRNA processing in LCLs generated from 3 affected individuals and 3 healthy control subjects. A striking common feature of the profiles of affected individuals was the accumulation of the 32S pre-rRNA, and to a lesser extent of the 12S pre-rRNA (internal transcribed spacer 2) (<xref rid="F4" ref-type="fig">Figure 4A,C</xref>). Quantitative analyses of precursor-to-product ratios for the affected individuals relative to controls (Ratio Analysis of Multiple Precursors<xref rid="B36" ref-type="bibr"><sup>36</sup></xref>) showed a strong increase of 32S/41S ratios and a decrease of 12S/32S ratios (<xref rid="F4" ref-type="fig">Figure 4B</xref>). This suggests a delayed endonucleolytic cleavage at site 4 in the internal transcribed spacer 2, which separates the 5.8S and the 28S rRNAs on the primary transcript. These results are reminiscent of similar accumulations of 32S pre-rRNA in LCLs from <italic toggle="yes">RPL5<sup>+/mut</sup></italic> and <italic toggle="yes">RPL11<sup>+/mut</sup></italic> individuals presenting with DBA.<xref rid="B37" ref-type="bibr"><sup>37</sup></xref></p>
+        <fig position="float" id="F4">
+          <label>Figure 4.</label>
+          <caption>
+            <p><bold>Variants in <italic toggle="yes">HEATR3</italic> affect pre-rRNA processing.</bold> (A) Northern blot analysis of LCLs derived from control or affected individuals carrying <italic toggle="yes">HEATR3</italic> variants. Radiolabeled probes targeting the 5&#x2032; extremity of internal transcribed spacer 1 (5&#x2032;ITS1), the ITS1/5.8S junction (ITS1-5.8S), or internal transcribed spacer 2 (ITS2) were used to detect pre-rRNA precursors. Each lane was loaded with 3 &#xB5;g total RNA. (B) Quantification of pre-rRNAs in LCLs derived from individuals carrying <italic toggle="yes">HEATR3</italic> variants was performed by using Ratio Analysis of Multiple Precursors: product-to-precursor ratios at various processing steps are expressed as variations relative to LCLs from healthy controls. Mean values &#xB1; standard error of the mean from 3 independent experiments, aside from sample P4, for which n = 2. (C) Restoration of HEATR3 expression in LCLs from P3. LCLs from P3 and from a control individual were transduced with lentiviruses expressing either green fluorescent protein&#xA0;(LV-GFP) or HEATR3 (LV-HEATR3). Western blot analysis confirmed expression of HEATR3 in P3 LCLs transduced with LV-HEATR3 (upper panel). Northern blot analysis of total pre-rRNAs with probe ITS2 showed restoration of a normal pre-rRNA processing pattern. (D) Ratio Analysis of Multiple Precursors quantification of the northern blot shown in panel C. Product-to-precursor ratios in P3 LCLs at steps related to the processing of the large subunit rRNA precursors are expressed as variations relative to LCLs from the healthy control. Mean values &#xB1; standard error of the mean from 3 independent experiments.</p>
+          </caption>
+          <graphic xlink:href="bloodBLD2021011846f4" position="float"/>
+        </fig>
+        <p>To prove that these processing defects are truly due to loss of <italic toggle="yes">HEATR3</italic>, we conducted complementation assays in LCLs. Expression of wild-type <italic toggle="yes">HEATR3</italic> complementary DNA in patient LCLs (P3) by lentiviral infection was sufficient to restore normal pre-RNA processing (<xref rid="F4" ref-type="fig">Figure 4C-D</xref>). In line with these results, acute depletion of HEATR3 in U2OS and HCT116 cells displayed similar changes in the pre-rRNA processing pattern (notably 32S accumulation) (supplemental Figure 4).</p>
+      </sec>
+      <sec>
+        <title>The levels of 60S ribosomal subunits are reduced in cells with <italic toggle="yes">HEATR3</italic> variants</title>
+        <p>The impact of these pre-rRNA processing impairments on 60S ribosomal subunit formation was measured by subjecting the same LCLs to polysomal profiling. As in yeast, we found that LCLs carrying <italic toggle="yes">HEATR3</italic> variants revealed a substantial loss of free 60S ribosomal subunits (<xref rid="F5" ref-type="fig">Figure 5A-B</xref>). Also evident was a loss of 80S monosomes, which would be expected upon a 60S subunit shortage. These profiles are reminiscent of LCLs from individuals with DBA who carry variants in <italic toggle="yes">RPL</italic> genes.<xref rid="B38" ref-type="bibr"><sup>38-40</sup></xref> Expressing wild-type <italic toggle="yes">HEATR3</italic> complementary DNA in patient LCLs (P3) with lentiviruses was sufficient to restore normal levels of 60S subunits (<xref rid="F5" ref-type="fig">Figure 5B</xref>). Taken altogether, the results show that variants in <italic toggle="yes">HEATR3</italic> have a major impact on the biogenesis of 60S ribosomal subunits.</p>
+        <fig position="float" id="F5">
+          <label>Figure 5.</label>
+          <caption>
+            <p><bold>Variants in <italic toggle="yes">HEATR3</italic> impair 60S ribosomal subunit accumulation.</bold> (A) Representative polysome profiles of lysates from LCLs derived from healthy individuals or patients (P2 and P4). The 40S subunit, 60S subunit, and 80S monosome are labeled. The vertical arrow highlights the reduction of 60S subunits in the samples from P2 and P4. (B) Representative polysome profiles of lysates from LCLs transduced with lentiviruses expressing <italic toggle="yes">HEATR3</italic> or <italic toggle="yes">GFP</italic> complementary DNA. At least 3 independent experiments were performed with each cell line (panels A and B).</p>
+          </caption>
+          <graphic xlink:href="bloodBLD2021011846f5" position="float"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Variants or reductions in <italic toggle="yes">HEATR3</italic> affect erythropoiesis</title>
+        <p>As part of a more complete hematologic evaluation, bone marrow smears of P2 and P5 were examined. The results revealed erythroblastopenia that was associated with hypolobulated megakaryocytes that retained a normal size, excluding dysmegakaryopoiesis (<xref rid="F6" ref-type="fig">Figure 6A</xref>; <xref rid="T2" ref-type="table">Table 2</xref>). The erythroid cell cultures of CD34<sup>+</sup> cells purified from bone marrow of P2 revealed severe defects in erythroid cell proliferation compared with a healthy control (<xref rid="F6" ref-type="fig">Figure 6B</xref>). Comparing differentiation markers of P2 and healthy control cells in this assay by flow cytometry suggests that there were no detectable differences in erythroid precursor mortality (7AAD labeling) or in IL3R<sup>neg</sup>, CD34<sup>neg</sup>/CD36<sup>+</sup> expression levels at day 7 (supplemental Figure 5A). However, we observed a higher proportion of basophilic (both early and late) and orthophilic cells relative to proerythroblasts at days 10 and 12 in P2 cells, suggesting an acceleration of the terminal differentiation program (<xref rid="F6" ref-type="fig">Figure 6C-D</xref>). This may be correlated to the increased Band 3 expression at day 10 in P2 compared with the healthy control (supplemental Figure 5B-C). A similar assay was performed with CD34<sup>+</sup> cells purified from peripheral blood of P4, both parents of P4, and a healthy control subject. As with P2, a strong defect in erythroid cell proliferation was observed in the cells derived from P4 (supplemental Figure 5E).</p>
+        <fig position="float" id="F6">
+          <label>Figure 6.</label>
+          <caption>
+            <p><bold>Erythroid cell proliferation and differentiation are impaired in individuals with <italic toggle="yes">HEATR3</italic> variants.</bold> (A) Bone marrow aspirates of P2 (left panels) and P5 (right panels) with May-Gr&#xFC;nwald-Giemsa staining, demonstrating a paucity (arrows) or absence (P5) of erythroid precursors and hypolobulated megakaryocytes (lower panels). (B) Cell count of purified CD34<sup>+</sup> from the peripheral blood of P2 (orange line) and a healthy control (blue line) subject to the erythroid culture assay was performed (n = 1 to minimize invasiveness). Shown are cell counts on days 5, 7, 10, and 12. (C) Flow cytometry analysis of differentiating erythroid cells from P2 and a healthy control at days 10 and 12. (D) Quantification of panel C. (E) Reverse transcription quantitative real-time polymerase chain reaction quantification of <italic toggle="yes">HEATR3</italic> transcript levels in CD34<sup>+</sup> cells infected with lentiviral constructs expressing shRNAs targeting <italic toggle="yes">HEATR3</italic> or a scrambled control (SCR). (F) Cell numbers on days 5, 7, 10, and 12 of an erythroid culture assay after infection with the lentiviral vectors expressing HEATR3 shRNAs. (G) Western blot analysis of the cells on day 7. Blots were probed with antibodies against HEATR3, p21, eS19 (RPS19), heat shock protein 70 (HSP70), GATA1, and pro-caspase 3. Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) was used as loading control. APC, allophycocyanin; EB, early basophilic erythroblasts; LB, late basophilic erythroblasts; ortho, acidophilic erythroblasts; poly, polychromatophilic erythroblasts; proE, proerythroblasts. **<italic toggle="yes">P</italic> &lt; 0.002; ***<italic toggle="yes">P</italic> &lt; 0.001; ****<italic toggle="yes">P</italic> &lt; 0.0001.</p>
+          </caption>
+          <graphic xlink:href="bloodBLD2021011846f6" position="float"/>
+        </fig>
+        <table-wrap position="float" id="T2">
+          <label>Table 2.</label>
+          <caption>
+            <p>Hematologic features of the individuals in this study</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead valign="bottom">
+              <tr>
+                <th align="left" colspan="2" rowspan="1"/>
+                <th align="center" colspan="2" rowspan="1">P1</th>
+                <th align="center" colspan="2" rowspan="1">P2</th>
+                <th align="center" colspan="2" rowspan="1">P3</th>
+                <th align="center" colspan="2" rowspan="1">P4</th>
+                <th align="center" colspan="2" rowspan="1">P5</th>
+                <th align="center" colspan="2" rowspan="1">P6</th>
+              </tr>
+              <tr>
+                <th rowspan="1" colspan="1">Hematologic findings</th>
+                <th align="center" rowspan="1" colspan="1">Reference values</th>
+                <th align="center" rowspan="1" colspan="1">First available</th>
+                <th align="center" rowspan="1" colspan="1">Most recent<xref rid="tblfn3" ref-type="table-fn">*</xref></th>
+                <th align="center" rowspan="1" colspan="1">First available</th>
+                <th align="center" rowspan="1" colspan="1">Most recent</th>
+                <th align="center" rowspan="1" colspan="1">First available</th>
+                <th align="center" rowspan="1" colspan="1">Most recent</th>
+                <th align="center" rowspan="1" colspan="1">First available</th>
+                <th align="center" rowspan="1" colspan="1">Most recent</th>
+                <th align="center" rowspan="1" colspan="1">First available</th>
+                <th align="center" rowspan="1" colspan="1">Most recent</th>
+                <th align="center" rowspan="1" colspan="1">First available</th>
+                <th align="center" rowspan="1" colspan="1">Most recent</th>
+              </tr>
+            </thead>
+            <tbody valign="top">
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Blood parameters</bold>
+</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Hemoglobin</td>
+                <td align="center" rowspan="1" colspan="1">Age dependent (g/dL)</td>
+                <td align="center" rowspan="1" colspan="1">6.8</td>
+                <td align="center" rowspan="1" colspan="1">7.2</td>
+                <td align="center" rowspan="1" colspan="1">10.5</td>
+                <td align="center" rowspan="1" colspan="1">10.3</td>
+                <td align="center" rowspan="1" colspan="1">7.4</td>
+                <td align="center" rowspan="1" colspan="1">10.1</td>
+                <td align="center" rowspan="1" colspan="1">3</td>
+                <td align="center" rowspan="1" colspan="1">8.1</td>
+                <td align="center" rowspan="1" colspan="1">4.5</td>
+                <td align="center" rowspan="1" colspan="1">7.1</td>
+                <td align="center" rowspan="1" colspan="1">5.6</td>
+                <td align="center" rowspan="1" colspan="1">9.4</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Reticulocytes</td>
+                <td align="center" rowspan="1" colspan="1">25-120 (&#xD7;10<sup>9</sup>/L)</td>
+                <td align="center" rowspan="1" colspan="1">108</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">87.5</td>
+                <td align="center" rowspan="1" colspan="1">32.1</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">96.9</td>
+                <td align="center" rowspan="1" colspan="1">Decreased</td>
+                <td align="center" rowspan="1" colspan="1">7.2</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">14</td>
+                <td align="center" rowspan="1" colspan="1">127</td>
+                <td align="center" rowspan="1" colspan="1">38</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;MCV</td>
+                <td align="center" rowspan="1" colspan="1">80-97 fL</td>
+                <td align="center" rowspan="1" colspan="1">84</td>
+                <td align="center" rowspan="1" colspan="1">86</td>
+                <td align="center" rowspan="1" colspan="1">81</td>
+                <td align="center" rowspan="1" colspan="1">78</td>
+                <td align="center" rowspan="1" colspan="1">88</td>
+                <td align="center" rowspan="1" colspan="1">94.8</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">86.1</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">80.4</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Leukocytes</td>
+                <td align="center" rowspan="1" colspan="1">4.5-13 (&#xD7;10<sup>9</sup>/L)</td>
+                <td align="center" rowspan="1" colspan="1">13.6</td>
+                <td align="center" rowspan="1" colspan="1">4.9</td>
+                <td align="center" rowspan="1" colspan="1">7.1</td>
+                <td align="center" rowspan="1" colspan="1">4.5</td>
+                <td align="center" rowspan="1" colspan="1">6.3</td>
+                <td align="center" rowspan="1" colspan="1">7.2</td>
+                <td align="center" rowspan="1" colspan="1">Normal</td>
+                <td align="center" rowspan="1" colspan="1">7.2</td>
+                <td align="center" rowspan="1" colspan="1">10.9</td>
+                <td align="center" rowspan="1" colspan="1">5.5</td>
+                <td align="center" rowspan="1" colspan="1">5.3</td>
+                <td align="center" rowspan="1" colspan="1">8.1</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Platelets</td>
+                <td align="center" rowspan="1" colspan="1">150-450 (&#xD7;10<sup>9</sup>/L)</td>
+                <td align="center" rowspan="1" colspan="1">373</td>
+                <td align="center" rowspan="1" colspan="1">76</td>
+                <td align="center" rowspan="1" colspan="1">239</td>
+                <td align="center" rowspan="1" colspan="1">213</td>
+                <td align="center" rowspan="1" colspan="1">235</td>
+                <td align="center" rowspan="1" colspan="1">248</td>
+                <td align="center" rowspan="1" colspan="1">Normal</td>
+                <td align="center" rowspan="1" colspan="1">220</td>
+                <td align="center" rowspan="1" colspan="1">269</td>
+                <td align="center" rowspan="1" colspan="1">288</td>
+                <td align="center" rowspan="1" colspan="1">&lt; 10</td>
+                <td align="center" rowspan="1" colspan="1">193</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;HbF</td>
+                <td align="center" rowspan="1" colspan="1">&lt;1% (after 1-2 y of age)</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">3.3</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">1.0</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">1.4</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;eADA</td>
+                <td align="center" rowspan="1" colspan="1">&lt;1.4 (U/g Hb)</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">8.3</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">12.8</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">NA</td>
+                <td align="center" rowspan="1" colspan="1">4.02</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Bone marrow findings</bold>
+</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Erythroid lineage</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Decreased</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Decreased</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Decreased</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Decreased</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Decreased</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Decreased</td>
+                <td align="center" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Dyserythropoiesis</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">No</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">No</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">No</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">No</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">No</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">No</td>
+                <td align="center" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Megakaryocytic lineage</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Normal</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Normal</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Normal</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Normal</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Normal</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Normal</td>
+                <td align="center" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Remarks</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Some monolobulated megakaryocytes, normal size</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Some monolobulated megakaryocytes, normal size</td>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+                <td align="center" rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="tblfn2">
+              <p>eADA, erythrocyte adenosine deaminase; Hb, hemoglobin; HbF, fetal&#xA0;hemoglobin; MCV, mean corpuscular volume; NA, not available.</p>
+            </fn>
+            <fn id="tblfn3">
+              <label>*</label>
+              <p>During last phase of treatment for osteosarcoma.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>To confirm the findings in <xref rid="F6" ref-type="fig">Figure 6</xref>, erythroid cell culture assays were performed with CD34<sup>+</sup> cells purified from cord blood and transduced with lentiviruses expressing small hairpin RNAs (shRNAs) targeting <italic toggle="yes">HEATR3</italic> that reduced transcript levels (<xref rid="F6" ref-type="fig">Figure 6E</xref>). CD34<sup>+</sup> cells infected with these shRNAs displayed a dramatic decrease in erythroid proliferation compared with cells transduced with a scrambled control shRNA (<xref rid="F6" ref-type="fig">Figure 6F</xref>). Although <italic toggle="yes">HEATR3</italic> knockdown led to similar proportions of CD34<sup>+</sup>/CD36<sup>neg</sup> (erythroid&#xA0;burst-forming unit) cells, the increased proportion of CD34<sup>neg</sup>/CD36<sup>+</sup> (erythroid colony-forming unit) cells at day 7 and day 10 compared with control (supplemental Figure 6) also suggests an acceleration of erythroid maturation. No apoptosis was observed; levels of the p53 target p21 and procaspase 3 proteins were unchanged (<xref rid="F6" ref-type="fig">Figure 6G</xref>). No significant differences in expression of ILR3<sup>neg</sup> were detected (data not shown), and levels of eS19 (RPS19), heat shock protein 70, and GATA1 were similarly equivalent in control and HEATR3 shRNA-expressing cells. Some caution may be warranted in interpreting the western blot results given the different phases of maturation that the control vs HEATR3 knockdown cells reveal on the days collected for analysis.</p>
+      </sec>
+      <sec>
+        <title><italic toggle="yes">HEATR3</italic> variants do not alter levels of p53, uL5, or uL18 in LCLs</title>
+        <p>To confirm that p53 is not stabilized in cells with HEATR3 loss, western blot analysis was performed with lysates from patient LCLs. Blotting for p53 revealed that <italic toggle="yes">HEATR3</italic> variants do not drive p53 stabilization (<xref rid="F7" ref-type="fig">Figure 7A-B</xref>). Similarly, depletion of HEATR3 in U2OS or HCT116 cells also did not lead to p53 stabilization (supplemental Figure 4A). The p53 response to a DNA-damaging agent (camptothecin) or a proteasomal inhibitor (MG-132) was normal in patient LCLs. No difference was detected in the total levels of uL5 or uL18 in LCLs carrying <italic toggle="yes">HEATR3</italic> variants (<xref rid="F7" ref-type="fig">Figure 7C-D</xref>), suggesting that the nuclear reductions of uL18 observed in <xref rid="F3" ref-type="fig">Figure 3</xref> are not due to uL18 loss.</p>
+        <fig position="float" id="F7">
+          <label>Figure 7.</label>
+          <caption>
+            <p><bold>HEATR3 loss does not affect levels of p53, uL5, or uL18.</bold> (A) Western blots of LCLs exposed to either 100 nM camptothecin (CPT) for 4 hours, or 10 &#xB5;M MG-132 for 6 hours, or the vehicle control, dimethyl sulfoxide (DMSO). Blots shown are probed with antibodies against p53. HEATR3 variants do not lead to p53 stabilization on their own but they do, as expected, in combination with CPT or MG-132 treatments. (B) Quantification of panel A from 3 independent experimental replicates. Results shown are the relative levels of p53/actin. (C) Western blots of LCLs exposed to 100 nM CPT for 4 hours, or the vehicle control, DMSO. Blots shown are probed with antibodies against HEATR3, p53, uL5, and uL18. (D) Quantification of panel C from 3 independent experimental replicates. Results shown are the relative levels of uL5/actin or uL18/actin.</p>
+          </caption>
+          <graphic xlink:href="bloodBLD2021011846f7" position="float"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>We have identified <italic toggle="yes">HEATR3</italic> as a novel causative gene of DBA in 4 distinct families with members carrying biallelic variants. Although DBA has been associated to date with at least 23 of the total 80 human RP genes,<xref rid="B41" ref-type="bibr"><sup>41</sup></xref> the number of non-RP genes driving this disorder remain far lower.<xref rid="B1" ref-type="bibr"><sup>1-4</sup></xref> We found that these <italic toggle="yes">HEATR3</italic> variants drive DBA through a distinctive effect on ribosome biogenesis, whereupon reduced nuclear import of uL18 impairs production of 60S ribosomal subunits.</p>
+      <p>From a clinical perspective, the syndrome linked to <italic toggle="yes">HEATR3</italic> mutations manifests as a variant form of DBA with additional features. Hematologically, the patients were all normocytic at diagnosis. Two patients were found to have thrombocytopenia at some stage, but it was transient in one patient (P6) and related to chemotherapy for osteosarcoma treatment in another (P1). Three of the 6 patients are transfusion dependent, 2 need no treatment at all, and 1 patient is treated with corticosteroids, suggesting that, in agreement with our general knowledge of DBA, the hematologic phenotype is heterogeneous, and patients may become treatment independent.<xref rid="B42" ref-type="bibr"><sup>42</sup></xref> Intellectual disability is rarely reported in classical DBA, and the few described cases are mostly linked to microdeletions that are considered to be driving a contiguous gene syndrome (unlike the individuals here).<xref rid="B41" ref-type="bibr"><sup>41</sup></xref> In contrast, other associated clinical features such as growth retardation (4 of 6 individuals) and acromelic dysmorphic features (5 of 6 individuals) are commonly reported in DBA.<xref rid="B43" ref-type="bibr"><sup>43</sup></xref> We observed a higher frequency of skeletal abnormalities (5 of 6 [83%]) and facial dysmorphism (5 of 6 [83%]) compared with congenital malformations in &#x223C;50% of all patients with DBA. Interestingly, the abnormal thumb defect that is often reported in DBA patients with <italic toggle="yes">RPL5</italic> variants<xref rid="B37" ref-type="bibr"><sup>37</sup></xref> is also observed in a majority of the patients with <italic toggle="yes">HEATR3</italic> variants. In addition, 4 (60%) of 6 were diagnosed with (truncal) obesity, which was not treatment related in 3 patients. Of note, P4 reported unexplained severe diarrhea and colitis mimicking Crohn&#x2019;s disease (<xref rid="T1" ref-type="table">Table 1</xref>). Interestingly, the <italic toggle="yes">HEATR3</italic> allelic variation leading to the amino acid change p.(Arg642Ser) is reportedly associated with Crohn&#x2019;s disease in the Ashkenazi Jewish population.<xref rid="B44" ref-type="bibr"><sup>44</sup></xref></p>
+      <p>All reported pathogenic ribosome-related gene variants in DBA are inherited dominantly.<xref rid="B43" ref-type="bibr"><sup>43,45</sup></xref> The only exception to this is the X-linked recessive hypomorphic variant in <italic toggle="yes">TSR2</italic>, a gene that codes for a pre-rRNA processing protein that contributes to ribosome biogenesis by promoting the assembly of RPS26/eS26.<xref rid="B3" ref-type="bibr"><sup>3</sup></xref>
+<italic toggle="yes">HEATR3</italic> is the second gene after <italic toggle="yes">TSR2</italic> coding for a ribosome biogenesis factor linked to DBA, and, interestingly, the <italic toggle="yes">HEATR3</italic> variants are also inherited in a recessive manner. Ribosome biogenesis factors are not integral components of the ribosomes; they interact transiently with maturing precursor subunits to promote numerous assembly reactions. Most of these <italic toggle="yes">trans</italic>-acting factors are essential, and some are thought to recycle upon function completion.<xref rid="B46" ref-type="bibr"><sup>46</sup></xref> Thus, ribosome biogenesis factors could be high-priority candidate genes for screening DBA families with recessive inheritance patterns.</p>
+      <p>The pathophysiology experiments reported here suggest that the variants p.(Cys446Tyr) and p.(Gly584Glu) impair the metabolic stability of the HEATR3 protein (<xref rid="F3" ref-type="fig">Figure 3</xref>). This loss of protein very likely underlies the reduction of nuclear uL18 observed in cells with the p.(Gly584Glu) variant (<xref rid="F3" ref-type="fig">Figure 3F</xref>) and in HeLa cells with knocked down <italic toggle="yes">HEATR3</italic> (<xref rid="F3" ref-type="fig">Figure 3C,E</xref>). This loss of uL18 accumulation in the nucleus is likely driving the impaired ribosome biogenesis observed in <xref rid="F4" ref-type="fig">Figures 4</xref> and <xref rid="F5" ref-type="fig">5</xref>. Despite this evident pre-rRNA processing defect, the ratio of mature 28S/18S rRNAs was only slightly affected in patient cells, in line with what was previously observed with DBA-linked RP gene variants.<xref rid="B38" ref-type="bibr"><sup>38,39</sup></xref> However, unlike knockdown of DBA-linked RPs, the mature rRNA ratio was also not severely affected upon severe depletion of HEATR3 in cell lines (supplemental Figure 4), indicating that HEATR3 is a facilitator of ribosome biogenesis but is not essential for the process. Similarly, Syo1 in yeast is dispensable for cell viability, and its deletion only marginally affects cell growth (<xref rid="F2" ref-type="fig">Figure 2B</xref>). The perturbation resulting from <italic toggle="yes">HEATR3</italic> loss in patient cells is nonetheless sufficient to cause a significant deficit of 60S subunits (<xref rid="F5" ref-type="fig">Figure 5</xref>), which may alter the dynamics of translation and affect synthesis of proteins essential to erythroid differentiation.</p>
+      <p>Along the same line, an important finding of this work is that knocking down <italic toggle="yes">HEATR3</italic> in CD34<sup>+</sup> cells, or other cell lines, does not trigger p53 stabilization or upregulation of its target p21 (<xref rid="F6" ref-type="fig">Figure 6G</xref>; supplemental Figure 4A). Accordingly, patient LCLs with <italic toggle="yes">HEATR3</italic> variants showed no increase in basal p53 levels (<xref rid="F7" ref-type="fig">Figure 7A-B</xref>), unlike what is observed in most LCLs derived from patients carrying RP gene variants.<xref rid="B47" ref-type="bibr"><sup>47</sup></xref> Indeed, nucleolar surveillance leading to p53 stabilization requires the nuclear accumulation of uL18,<xref rid="B20" ref-type="bibr"><sup>20</sup></xref> the precise step impaired by HEATR3 loss. Similar to our observations with <italic toggle="yes">HEATR3</italic>, <italic toggle="yes">RPL5</italic> knockdown in cell lines does not stabilize p53, and LCLs from patients with DBA carrying <italic toggle="yes">RPL5</italic> variants do not reveal increased levels of p53.<xref rid="B20" ref-type="bibr"><sup>20,47</sup></xref> This suggests a shared pathophysiological pathway between <italic toggle="yes">HEATR3</italic> variants and one of the most commonly mutated <italic toggle="yes">RPL</italic> genes in DBA (<italic toggle="yes">RPL5</italic>). These in&#xA0;vitro data do not exclude a role for p53 in&#xA0;vivo, and future work is required for a full understanding of how <italic toggle="yes">HEATR3</italic> deficiency leads to DBA.</p>
+      <p>One individual of this study (P1) died of osteosarcoma at age 20 years, suggesting that <italic toggle="yes">HEATR3</italic> may be a tumor suppressor gene. This would agree with previous studies pointing to a tumor suppressor role for <italic toggle="yes">RPL5</italic>.<xref rid="B48" ref-type="bibr"><sup>48</sup></xref> Moreover, it has been reported that variants at the chromosomal locus 16q12.1 where <italic toggle="yes">HEATR3</italic> resides have significant risk associations with several cancers, including glioblastoma (rs10852606, the risk allele &#x201C;C&#x201D; is associated with reduced <italic toggle="yes">HEATR3</italic> expression), testicular (rs8046148 and rs10852606), and esophageal (rs4785204 and rs4785204) cancers.<xref rid="B49" ref-type="bibr"><sup>49-51</sup></xref> Further investigation is warranted, given the low number of individuals in this study.</p>
+      <p>We conclude that recessive loss-of-function variants in <italic toggle="yes">HEATR3</italic> drive a pathogenic phenotype in humans that includes classical DBA with dysmorphic features and intellectual disability. This study shows that <italic toggle="yes">HEATR3</italic> variants impair pre-rRNA processing and ribosome biogenesis by abrogating the cotranslational capture and nuclear import of uL18, an ancient and conserved function of the yeast ortholog Syo1. The hematologic defects linked to these variants seem to be caused by an abnormal acceleration of erythrocyte maturation coupled with a loss of proliferation capacity, and not by the stabilization of p53 or other known mechanisms driving DBA. This study adds a new disorder to the growing catalog of human ribosomopathies that drive blood disease.</p>
+    </sec>
+    <sec sec-type="supplementary-material"><title>Supplementary Material</title><p>The online version of this article contains a data supplement.</p><supplementary-material id="SD1" position="float" content-type="local-data"><media xlink:href="bloodBLD2021011846-suppl1.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>View large</title>
+</caption>
+<media mimetype="text" mime-subtype="plain" xlink:href="10.1182-2021011846_bloodbld2021011846absf1.png"/>
+</supplementary-material>
+<supplementary-material id="PMC_2" content-type="local-data">
+<caption>
+<title>Download slide</title>
+</caption>
+<media mimetype="application" mime-subtype="vnd.ms-powerpoint" xlink:href="10.1182-2021011846_Figure.ppt"/>
+</supplementary-material>
+<supplementary-material id="PMC_3" content-type="local-data">
+<caption>
+<title>Download PPT</title>
+</caption>
+<media mimetype="application" mime-subtype="vnd.ms-powerpoint" xlink:href="10.1182-2021011846_Figure.ppt"/>
+</supplementary-material>
+<supplementary-material id="PMC_4" content-type="local-data">
+<caption>
+<title>Download PPT</title>
+</caption>
+<media mimetype="application" mime-subtype="vnd.ms-powerpoint" xlink:href="10.1182-2021011846_Figure.ppt"/>
+</supplementary-material>
+<supplementary-material id="PMC_5" content-type="local-data">
+<caption>
+<title>Download PPT</title>
+</caption>
+<media mimetype="application" mime-subtype="vnd.ms-powerpoint" xlink:href="10.1182-2021011846_Figure.ppt"/>
+</supplementary-material>
+<supplementary-material id="PMC_6" content-type="local-data">
+<caption>
+<title>Download PPT</title>
+</caption>
+<media mimetype="application" mime-subtype="vnd.ms-powerpoint" xlink:href="10.1182-2021011846_Figure.ppt"/>
+</supplementary-material>
+<supplementary-material id="PMC_7" content-type="local-data">
+<caption>
+<title>Download PPT</title>
+</caption>
+<media mimetype="application" mime-subtype="vnd.ms-powerpoint" xlink:href="10.1182-2021011846_Figure.ppt"/>
+</supplementary-material>
+<supplementary-material id="PMC_8" content-type="local-data">
+<caption>
+<title>Download PPT</title>
+</caption>
+<media mimetype="application" mime-subtype="vnd.ms-powerpoint" xlink:href="10.1182-2021011846_Figure.ppt"/>
+</supplementary-material>
+<supplementary-material id="PMC_9" content-type="local-data">
+<caption>
+<title>Download PPT</title>
+</caption>
+<media mimetype="application" mime-subtype="vnd.ms-powerpoint" xlink:href="10.1182-2021011846_Figure.ppt"/>
+</supplementary-material>
+<supplementary-material id="PMC_10" content-type="local-data">
+<caption>
+<title>Supplement File 1</title>
+</caption>
+<media mimetype="application" mime-subtype="pdf" xlink:href="10.1182-2021011846_bloodbld2021011846-suppl1.pdf"/>
+</supplementary-material>
+</sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors offer their most special thanks to the affected individuals, their families, and to the DBA patient associations. They thank all the people involved in the mutational screening analysis in France (Christine Bole and the Team from the Genomics Core Facility, Institut Imagine-Structure F&#xE9;d&#xE9;rative de Recherche Necker, and technicians from the Hematology Laboratory in R. Debr&#xE9; Hospital, Paris), Turkey (Z. Ekim Taskiran for facilitating WES studies in Hacettepe University Exome Facility and Can Kosukcu for obtaining WES data), and to the registry data manager Isabelle Marie in France. They also thank Dirk Lebrecht and Marco Teller at the University Medical Center Freiburg for the generation of the LCLs and Patricia Veltman and Petra Mooyer at the Laboratory of Genetic Metabolic Disease at the Amsterdam University Medical Center for the generation of the fibroblasts. The authors are grateful for the expert assistance of Alexia Zakaroff and Elodie Riant (Genotoul-TRI, I2MC, Toulouse) to perform cell sorting and Fr&#xE9;d&#xE9;ric Martins and Emeline Lhuillier (Genotoul-GET Sant&#xE9;, I2MC, Toulouse) for droplet digital&#xA0;polymerase chain reaction.</p>
+      <p>Specific E-Rare grants funding EuroDBA researchers are as follows: ZonMW #40-44000-98-1008 in the Netherlands (A.W.M.), TUBITAK 315S192 in Turkey (S.U.), and ANR-15-RAR3-0007-04 (P.-E.G., M.-F.O., and L.D.C.) in France. In addition, this project has received funding from the European Union&#x2019;s Horizon 2020 research and innovation programme under the EJP RD COFUND-EJP No. 825575 to P.-E.G., L.D.C., D.L.J.L., R.H.H., and A.C. Specific grants under the frame of EJP RD programme JTC 2019 RiboEurope project are as follows: TUBITAK 319S062 in Turkey (A.C.), (EJP RD/JTC2019/PINT-MULTI) grant R.8015.19, and PDR grant T.0144.20 in Belgium (D.L.J.L.), as well as ANR-19-RAR4-0016 (P.-E.G.) and ANR-19-RAR4-0016-02 (L.D.C.) in France. P.-E.G., M.-F.O., and L.D.C. were also funded by ANR-2015-AAP g&#xE9;n&#xE9;rique-CE12 (DBA-Multigenes). L.D.C. is additionally supported by the Laboratory of Excellence for Red Cells [(LABEX GR-Ex)-ANR Avenir-11-LABX-0005-02], and The French National PHRC OFABD (DBA registry). D.L.J.L. is supported by the Belgian Fonds de la Recherche Scientifique (F.R.S./FNRS), the Universit&#xE9; Libre de Bruxelles (ULB), the R&#xE9;gion Wallonne (SPW EER) (&#x201C;RIBO<italic toggle="yes">cancer&#x201D;</italic> FSO grant 1810070, POC grant 1880014), the Fonds Jean Brachet, the Internationale Brachet Stiftung, and the Epitran COST action (CA16120). K.D.K. is supported by funding from the Foundation against Cancer (P2016-081 and 2016-112), and S.V. is a fellow at FWO (1S49817N).</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="other">
+        <p>Disease-causing <italic toggle="yes">HEATR3</italic> variants have been submitted to ClinVar with the following accession numbers: SCV002003962, c.1751G&gt;A p.(Gly584Glu), homozygous P1 and P2 ; SCV001983775, c.1337G&gt;A p.(Cys446Tyr), homozygous P3 ; SCV002059206, c.399&#x2009;+&#x2009;1G&gt;T p.? and SCV002059215, c.719C&gt;T p.(Pro240Leu), compound heterozygous P4 ; SCV001976527, c.400T&gt;C p.(Cys134Arg), homozygous P5 and P6. Data supporting the findings of this study are available upon request.</p>
+      </fn>
+      <fn fn-type="supplementary-material">
+        <p>The online version of this article contains a data supplement.</p>
+      </fn>
+      <fn fn-type="other">
+        <p>There is a <italic toggle="yes">Blood</italic> Commentary on this article in this issue.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p>The publication costs of this article were defrayed in part by page charge payment. Therefore, and solely to indicate this fact, this article is hereby marked &#x201C;advertisement&#x201D; in accordance with 18 USC section 1734.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <title>Authorship</title>
+      <p>Contribution: S.U., P.O.S.-K., N.Y., A.C., N.A.A., L.D.C., M.B., E.B., K.v.G., M.S.-V., K.D.K., S.V., V.L., and T.L. were involved in the clinical care and molecular diagnosis of the individuals in the study; A.W.M., M.-F.O., L.D.C., M.B., P.-E.G., and D.L.J.L. designed the study; M.-F.O., M.L., C.J., M.S., S.D.L., L.W., N.L., E.L., N.M.-L., and J.P. designed and performed experiments; A.W.M., M.-F.O., L.D.C., M.L., C.J., R.H.H., P.-E.G., and D.L.J.L. analyzed and interpreted data; S.U., A.C., N.A.A., M.-F.O., L.D.C., M.B., K.D.K., V.L., P.-E.G., and D.L.J.L. contributed to the preparation and critical reviewing of manuscript; A.W.M. drafted the manuscript; and A.W.M., P.-E.G., and D.L.J.L. revised the manuscript. All authors approved the final version of the manuscript.</p>
+      <p>Conflict-of-interest disclosure: The authors declare no competing financial interests.</p>
+      <p>Correspondence: Pierre-Emmanuel Gleizes, Centre de Biologie Int&#xE9;grative, Universit&#xE9; Paul Sabatier, 118 Route de Narbonne, 31062 Toulouse Cedex 9, France; e-mail: <email xlink:href="mailto:pierre-emmanuel.gleizes@univ-tlse3.fr">pierre-emmanuel.gleizes@univ-tlse3.fr</email>; and Denis L. J. Lafontaine, Universit&#xE9; libre de Bruxelles, Biopark Campus, Avenue des Professeurs Jeneer &amp; Brachet 12, B-6041 Gosselies, Belgium; e-mail: <email xlink:href="mailto:denis.lafontaine@ulb.be">denis.lafontaine@ulb.be</email>.</p>
+    </sec>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sankaran</surname>
+<given-names>VG</given-names></string-name>, <string-name><surname>Ghazvinian</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Do</surname>
+<given-names>R</given-names></string-name>, <etal/></person-group>. <article-title>Exome sequencing identifies GATA1 mutations resulting in Diamond-Blackfan anemia</article-title>. <source>J Clin Invest.</source>
+<year>2012</year>;<volume>122</volume>(<issue>7</issue>): <fpage>2439</fpage>-<lpage>2443</lpage>.<pub-id pub-id-type="pmid">22706301</pub-id></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kim</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Ulirsch</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Wilmes</surname>
+<given-names>S</given-names></string-name>, <etal/></person-group>. <article-title>Functional selectivity in cytokine signaling revealed through a pathogenic EPO mutation</article-title>. <source>Cell.</source>
+<year>2017</year>;<volume>168</volume>(<issue>6</issue>):<fpage>1053</fpage>-<lpage>1064.e15</lpage>.<pub-id pub-id-type="pmid">28283061</pub-id></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gripp</surname>
+<given-names>KW</given-names></string-name>, <string-name><surname>Curry</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Olney</surname>
+<given-names>AH</given-names></string-name>, <etal/>; <collab>UW Center for Mendelian Genomics</collab></person-group>. <article-title>Diamond-Blackfan anemia with mandibulofacial dystostosis is heterogeneous, including the novel DBA genes TSR2 and RPS28</article-title>. <source>Am J Med Genet A.</source>
+<year>2014</year>;<volume>164A</volume>(<issue>9</issue>):<fpage>2240</fpage>-<lpage>2249</lpage>.<pub-id pub-id-type="pmid">24942156</pub-id></mixed-citation>
+      </ref>
+      <ref id="B4">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lee</surname>
+<given-names>PY</given-names></string-name></person-group>. <article-title>Vasculopathy, immunodeficiency, and bone marrow failure: the intriguing syndrome caused by deficiency of adenosine deaminase 2</article-title>. <source>Front Pediatr.</source>
+<year>2018</year>;<volume>6</volume>:<fpage>282</fpage>.<pub-id pub-id-type="pmid">30406060</pub-id></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lipton</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Ellis</surname>
+<given-names>SR</given-names></string-name></person-group>. <article-title>Diamond-Blackfan anemia: diagnosis, treatment, and molecular pathogenesis</article-title>. <source>Hematol Oncol Clin North Am.</source>
+<year>2009</year>;<volume>23</volume>(<issue>2</issue>):<fpage>261</fpage>-<lpage>282</lpage>.<pub-id pub-id-type="pmid">19327583</pub-id></mixed-citation>
+      </ref>
+      <ref id="B6">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Vlachos</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Rosenberg</surname>
+<given-names>PS</given-names></string-name>, <string-name><surname>Atsidaftos</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Alter</surname>
+<given-names>BP</given-names></string-name>, <string-name><surname>Lipton</surname>
+<given-names>JM</given-names></string-name></person-group>. <article-title>Incidence of neoplasia in Diamond Blackfan anemia: a report from the Diamond Blackfan anemia registry</article-title>. <source>Blood.</source>
+<year>2012</year>;<volume>119</volume>(<issue>16</issue>):<fpage>3815</fpage>-<lpage>3819</lpage>.<pub-id pub-id-type="pmid">22362038</pub-id></mixed-citation>
+      </ref>
+      <ref id="B7">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bolze</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Mahlaoui</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Byun</surname>
+<given-names>M</given-names></string-name>, <etal/></person-group>. <article-title>Ribosomal protein SA haploinsufficiency in humans with isolated congenital asplenia</article-title>. <source>Science.</source>
+<year>2013</year>;<volume>340</volume>(<issue>6135</issue>):<fpage>976</fpage>-<lpage>978</lpage>.<pub-id pub-id-type="pmid">23579497</pub-id></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Paolini</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>Attwood</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sondalle</surname>
+<given-names>SB</given-names></string-name>, <etal/></person-group>. <article-title>A ribosomopathy reveals decoding defective ribosomes driving human dysmorphism</article-title>. <source>Am J Hum Genet.</source>
+<year>2017</year>;<volume>100</volume>(<issue>3</issue>):<fpage>506</fpage>-<lpage>522</lpage>.<pub-id pub-id-type="pmid">28257692</pub-id></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gong</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Delorme</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Fauchereau</surname>
+<given-names>F</given-names></string-name>, <etal/></person-group>. <article-title>An investigation of ribosomal protein L10 gene in autism spectrum disorders</article-title>. <source>BMC Med Genet.</source>
+<year>2009</year>;<volume>10</volume>(<issue>1</issue>):<fpage>7</fpage>.<pub-id pub-id-type="pmid">19166581</pub-id></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brooks</surname>
+<given-names>SS</given-names></string-name>, <string-name><surname>Wall</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Golzio</surname>
+<given-names>C</given-names></string-name>, <etal/></person-group>. <article-title>A novel ribosomopathy caused by dysfunction of RPL10 disrupts neurodevelopment and causes X-linked microcephaly in humans</article-title>. <source>Genetics.</source>
+<year>2014</year>;<volume>198</volume>(<issue>2</issue>):<fpage>723</fpage>-<lpage>733</lpage>.<pub-id pub-id-type="pmid">25316788</pub-id></mixed-citation>
+      </ref>
+      <ref id="B11">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Thevenon</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Michot</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bole</surname>
+<given-names>C</given-names></string-name>, <etal/></person-group>. <article-title>RPL10 mutation segregating in a family with X-linked syndromic intellectual disability</article-title>. <source>Am J Med Genet A.</source>
+<year>2015</year>;<volume>167A</volume>(<issue>8</issue>):<fpage>1908</fpage>-<lpage>1912</lpage>.<pub-id pub-id-type="pmid">25846674</pub-id></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dutt</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Narla</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>K</given-names></string-name>, <etal/></person-group>. <article-title>Haploinsufficiency for ribosomal protein genes causes selective activation of p53 in human erythroid progenitor cells</article-title>. <source>Blood.</source>
+<year>2011</year>;<volume>117</volume>(<issue>9</issue>):<fpage>2567</fpage>-<lpage>2576</lpage>.<pub-id pub-id-type="pmid">21068437</pub-id></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ellis</surname>
+<given-names>SR</given-names></string-name></person-group>. <article-title>Nucleolar stress in Diamond Blackfan anemia pathophysiology</article-title>. <source>Biochim Biophys Acta.</source>
+<year>2014</year>;<volume>1842</volume>(<issue>6</issue>):<fpage>765</fpage>-<lpage>768</lpage>.<pub-id pub-id-type="pmid">24412987</pub-id></mixed-citation>
+      </ref>
+      <ref id="B14">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Horos</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Ijspeert</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Pospisilova</surname>
+<given-names>D</given-names></string-name>, <etal/></person-group>. <article-title>Ribosomal deficiencies in Diamond-Blackfan anemia impair translation of transcripts essential for differentiation of murine and human erythroblasts</article-title>. <source>Blood.</source>
+<year>2012</year>;<volume>119</volume>(<issue>1</issue>):<fpage>262</fpage>-<lpage>272</lpage>.<pub-id pub-id-type="pmid">22058113</pub-id></mixed-citation>
+      </ref>
+      <ref id="B15">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cheng</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Mugler</surname>
+<given-names>CF</given-names></string-name>, <string-name><surname>Keskin</surname>
+<given-names>A</given-names></string-name>, <etal/></person-group>. <article-title>Small and large ribosomal subunit deficiencies lead to distinct gene expression signatures that reflect cellular growth rate</article-title>. <source>Mol Cell.</source>
+<year>2019</year>;<volume>73</volume>(<issue>1</issue>):<fpage>36</fpage>-<lpage>47.e10</lpage>.<pub-id pub-id-type="pmid">30503772</pub-id></mixed-citation>
+      </ref>
+      <ref id="B16">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rio</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gastou</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Karboul</surname>
+<given-names>N</given-names></string-name>, <etal/></person-group>. <article-title>Regulation of globin-heme balance in Diamond-Blackfan anemia by HSP70/GATA1</article-title>. <source>Blood.</source>
+<year>2019</year>;<volume>133</volume>(<issue>12</issue>):<fpage>1358</fpage>-<lpage>1370</lpage>.<pub-id pub-id-type="pmid">30700418</pub-id></mixed-citation>
+      </ref>
+      <ref id="B17">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gastou</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rio</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Dussiot</surname>
+<given-names>M</given-names></string-name>, <etal/>; <collab>French Society of Immunology and Hematology (SHIP)</collab></person-group>. <article-title>The severe phenotype of Diamond-Blackfan anemia is modulated by heat shock protein 70</article-title>. <source>Blood Adv.</source>
+<year>2017</year>;<volume>1</volume>(<issue>22</issue>): <fpage>1959</fpage>-<lpage>1976</lpage>.<pub-id pub-id-type="pmid">29296843</pub-id></mixed-citation>
+      </ref>
+      <ref id="B18">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ciganda</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Williams</surname>
+<given-names>N</given-names></string-name></person-group>. <article-title>Eukaryotic 5S rRNA biogenesis</article-title>. <source>Wiley Interdiscip Rev RNA.</source>
+<year>2011</year>;<volume>2</volume>(<issue>4</issue>):<fpage>523</fpage>-<lpage>533</lpage>.<pub-id pub-id-type="pmid">21957041</pub-id></mixed-citation>
+      </ref>
+      <ref id="B19">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Donati</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Peddigari</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Mercer</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Thomas</surname>
+<given-names>G</given-names></string-name></person-group>. <article-title>5S ribosomal RNA is an essential component of a nascent ribosomal precursor complex that regulates the Hdm2-p53 checkpoint</article-title>. <source>Cell Rep.</source>
+<year>2013</year>;<volume>4</volume>(<issue>1</issue>):<fpage>87</fpage>-<lpage>98</lpage>.<pub-id pub-id-type="pmid">23831031</pub-id></mixed-citation>
+      </ref>
+      <ref id="B20">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nicolas</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Parisot</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Pinto-Monteiro</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>de Walque</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>De Vleeschouwer</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Lafontaine</surname>
+<given-names>DL</given-names></string-name></person-group>. <article-title>Involvement of human ribosomal proteins in nucleolar structure and p53-dependent nucleolar stress</article-title>. <source>Nat Commun.</source>
+<year>2016</year>;<volume>7</volume>(<issue>1</issue>):<fpage>11390</fpage>.<pub-id pub-id-type="pmid">27265389</pub-id></mixed-citation>
+      </ref>
+      <ref id="B21">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nieto</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Gaspar</surname>
+<given-names>SG</given-names></string-name>, <string-name><surname>Sapio</surname>
+<given-names>RT</given-names></string-name>, <etal/></person-group>. <article-title>Efficient fractionation and analysis of ribosome assembly intermediates in human cells</article-title>. <source>RNA Biol.</source>
+<year>2021</year>;<volume>18</volume>(<issue>suppl 1</issue>):<fpage>182</fpage>-<lpage>197</lpage>.<pub-id pub-id-type="pmid">34530680</pub-id></mixed-citation>
+      </ref>
+      <ref id="B22">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Fumagalli</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ivanenkov</surname>
+<given-names>VV</given-names></string-name>, <string-name><surname>Teng</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Thomas</surname>
+<given-names>G</given-names></string-name></person-group>. <article-title>Suprainduction of p53 by disruption of 40S and 60S ribosome biogenesis leads to the activation of a novel G2/M checkpoint</article-title>. <source>Genes Dev.</source>
+<year>2012</year>;<volume>26</volume>(<issue>10</issue>):<fpage>1028</fpage>-<lpage>1040</lpage>.<pub-id pub-id-type="pmid">22588717</pub-id></mixed-citation>
+      </ref>
+      <ref id="B23">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Teng</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Mercer</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Hexley</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Thomas</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Fumagalli</surname>
+<given-names>S</given-names></string-name></person-group>. <article-title>Loss of tumor suppressor RPL5/RPL11 does not induce cell cycle arrest but impedes proliferation due to reduced ribosome content and translation capacity</article-title>. <source>Mol Cell Biol.</source>
+<year>2013</year>;<volume>33</volume>(<issue>23</issue>):<fpage>4660</fpage>-<lpage>4671</lpage>.<pub-id pub-id-type="pmid">24061479</pub-id></mixed-citation>
+      </ref>
+      <ref id="B24">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pereboom</surname>
+<given-names>TC</given-names></string-name>, <string-name><surname>Bondt</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Pallaki</surname>
+<given-names>P</given-names></string-name>, <etal/></person-group>. <article-title>Translation of branched-chain aminotransferase-1 transcripts is impaired in cells haploinsufficient for ribosomal protein genes</article-title>. <source>Exp Hematol.</source>
+<year>2014</year>;<volume>42</volume>(<issue>5</issue>):<fpage>394</fpage>-<lpage>403.e4</lpage>.<pub-id pub-id-type="pmid">24463277</pub-id></mixed-citation>
+      </ref>
+      <ref id="B25">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kressler</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Bange</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Ogawa</surname>
+<given-names>Y</given-names></string-name>, <etal/></person-group>. <article-title>Synchronizing nuclear import of ribosomal proteins with ribosome assembly</article-title>. <source>Science.</source>
+<year>2012</year>;<volume>338</volume>(<issue>6107</issue>):<fpage>666</fpage>-<lpage>671</lpage>.<pub-id pub-id-type="pmid">23118189</pub-id></mixed-citation>
+      </ref>
+      <ref id="B26">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pausch</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Singh</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Ahmed</surname>
+<given-names>YL</given-names></string-name>, <etal/></person-group>. <article-title>Co-translational capturing of nascent ribosomal proteins by their dedicated chaperones</article-title>. <source>Nat Commun.</source>
+<year>2015</year>;<volume>6</volume>(<issue>1</issue>):<fpage>7494</fpage>.<pub-id pub-id-type="pmid">26112308</pub-id></mixed-citation>
+      </ref>
+      <ref id="B27">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Calvi&#xF1;o</surname>
+<given-names>FR</given-names></string-name>, <string-name><surname>Kharde</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ori</surname>
+<given-names>A</given-names></string-name>, <etal/></person-group>. <article-title>Symportin 1 chaperones 5S RNP assembly during ribosome biogenesis by occupying an essential rRNA-binding site</article-title>. <source>Nat Commun.</source>
+<year>2015</year>;<volume>6</volume>(<issue>1</issue>):<fpage>6510</fpage>.<pub-id pub-id-type="pmid">25849277</pub-id></mixed-citation>
+      </ref>
+      <ref id="B28">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hannan</surname>
+<given-names>KM</given-names></string-name>, <string-name><surname>Soo</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>JK</given-names></string-name>, <string-name><surname>Hein</surname>
+<given-names>N</given-names></string-name></person-group>. <year>2021</year>. <article-title>Nuclear stabilisation of p53 requires a functional nucleolar surveillance pathway</article-title>. <source>bioRxiv</source>.</mixed-citation>
+      </ref>
+      <ref id="B29">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Xue</surname>
+<given-names>F</given-names></string-name>, <etal/></person-group>. <article-title>Isolation and functional characterization of human erythroblasts at distinct stages: implications for understanding of normal and disordered erythropoiesis in&#xA0;vivo</article-title>. <source>Blood.</source>
+<year>2013</year>;<volume>121</volume>(<issue>16</issue>):<fpage>3246</fpage>-<lpage>3253</lpage>.<pub-id pub-id-type="pmid">23422750</pub-id></mixed-citation>
+      </ref>
+      <ref id="B30">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Reese</surname>
+<given-names>MG</given-names></string-name>, <string-name><surname>Eeckman</surname>
+<given-names>FH</given-names></string-name>, <string-name><surname>Kulp</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Haussler</surname>
+<given-names>D</given-names></string-name></person-group>. <article-title>Improved splice site detection in Genie</article-title>. <source>J Comput Biol.</source>
+<year>1997</year>;<volume>4</volume>(<issue>3</issue>):<fpage>311</fpage>-<lpage>323</lpage>.<pub-id pub-id-type="pmid">9278062</pub-id></mixed-citation>
+      </ref>
+      <ref id="B31">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yeo</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Burge</surname>
+<given-names>CB</given-names></string-name></person-group>. <article-title>Maximum entropy modeling of short sequence motifs with applications to RNA splicing signals</article-title>. <source>J Comput Biol.</source>
+<year>2004</year>;<volume>11</volume>(<issue>2-3</issue>):<fpage>377</fpage>-<lpage>394</lpage>.<pub-id pub-id-type="pmid">15285897</pub-id></mixed-citation>
+      </ref>
+      <ref id="B32">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Desmet</surname>
+<given-names>FO</given-names></string-name>, <string-name><surname>Hamroun</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Lalande</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Collod-B&#xE9;roud</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Claustres</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>B&#xE9;roud</surname>
+<given-names>C</given-names></string-name></person-group>. <article-title>Human Splicing Finder: an online bioinformatics tool to predict splicing signals</article-title>. <source>Nucleic Acids Res.</source>
+<year>2009</year>;<volume>37</volume>(<issue>9</issue>):<fpage>e67</fpage>.<pub-id pub-id-type="pmid">19339519</pub-id></mixed-citation>
+      </ref>
+      <ref id="B33">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schwarz</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Cooper</surname>
+<given-names>DN</given-names></string-name>, <string-name><surname>Schuelke</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Seelow</surname>
+<given-names>D</given-names></string-name></person-group>. <article-title>MutationTaster2: mutation prediction for the deep-sequencing age</article-title>. <source>Nat Methods.</source>
+<year>2014</year>;<volume>11</volume>(<issue>4</issue>):<fpage>361</fpage>-<lpage>362</lpage>.<pub-id pub-id-type="pmid">24681721</pub-id></mixed-citation>
+      </ref>
+      <ref id="B34">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sim</surname>
+<given-names>NL</given-names></string-name>, <string-name><surname>Kumar</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Henikoff</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Schneider</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Ng</surname>
+<given-names>PC</given-names></string-name></person-group>. <article-title>SIFT web server: predicting effects of amino acid substitutions on proteins</article-title>. <source>Nucleic Acids Res.</source>
+<year>2012</year>; <volume>40</volume>(<issue>Web Server issue</issue>):<fpage>W452</fpage>-<lpage>W457</lpage>.<pub-id pub-id-type="pmid">22689647</pub-id></mixed-citation>
+      </ref>
+      <ref id="B35">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Karczewski</surname>
+<given-names>KJ</given-names></string-name>, <string-name><surname>Francioli</surname>
+<given-names>LC</given-names></string-name>, <string-name><surname>Tiao</surname>
+<given-names>G</given-names></string-name>, <etal/>; <collab>Genome Aggregation Database Consortium</collab></person-group>. <article-title>The mutational constraint spectrum quantified from variation in 141,456 humans</article-title> [published correction appears in <italic toggle="yes">Nature</italic>. 2021;590(7846):E53]. <source>Nature.</source>
+<year>2020</year>; <volume>581</volume>(<issue>7809</issue>):<fpage>434</fpage>-<lpage>443</lpage>.<pub-id pub-id-type="pmid">32461654</pub-id></mixed-citation>
+      </ref>
+      <ref id="B36">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wang</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Anikin</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Pestov</surname>
+<given-names>DG</given-names></string-name></person-group>. <article-title>Two orthogonal cleavages separate subunit RNAs in mouse ribosome biogenesis</article-title>. <source>Nucleic Acids Res.</source>
+<year>2014</year>;<volume>42</volume>(<issue>17</issue>):<fpage>11180</fpage>-<lpage>11191</lpage>.<pub-id pub-id-type="pmid">25190460</pub-id></mixed-citation>
+      </ref>
+      <ref id="B37">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gazda</surname>
+<given-names>HT</given-names></string-name>, <string-name><surname>Sheen</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Vlachos</surname>
+<given-names>A</given-names></string-name>, <etal/></person-group>. <article-title>Ribosomal protein L5 and L11 mutations are associated with cleft palate and abnormal thumbs in Diamond-Blackfan anemia patients</article-title>. <source>Am J Hum Genet.</source>
+<year>2008</year>;<volume>83</volume>(<issue>6</issue>): <fpage>769</fpage>-<lpage>780</lpage>.<pub-id pub-id-type="pmid">19061985</pub-id></mixed-citation>
+      </ref>
+      <ref id="B38">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wlodarski</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Da Costa</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>O&#x2019;Donohue</surname>
+<given-names>MF</given-names></string-name>, <etal/></person-group>. <article-title>Recurring mutations in <italic toggle="yes">RPL15</italic> are linked to hydrops fetalis and treatment independence in Diamond-Blackfan anemia</article-title>. <source>Haematologica.</source>
+<year>2018</year>;<volume>103</volume>(<issue>6</issue>):<fpage>949</fpage>-<lpage>958</lpage>.<pub-id pub-id-type="pmid">29599205</pub-id></mixed-citation>
+      </ref>
+      <ref id="B39">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lezzerini</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Penzo</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>O&#x2019;Donohue</surname>
+<given-names>MF</given-names></string-name>, <etal/></person-group>. <article-title>Ribosomal protein gene RPL9 variants can differentially impair ribosome function and cellular metabolism</article-title>. <source>Nucleic Acids Res.</source>
+<year>2020</year>;<volume>48</volume>(<issue>2</issue>):<fpage>770</fpage>-<lpage>787</lpage>.<pub-id pub-id-type="pmid">31799629</pub-id></mixed-citation>
+      </ref>
+      <ref id="B40">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ludlow</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>George</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Glassford</surname>
+<given-names>M</given-names></string-name>, <etal/></person-group>. <article-title>The use of B-cell polysome profiling to validate novel RPL5 (uL18) and RPL26 (uL24) variants in Diamond-Blackfan anemia</article-title>. <source>J Pediatr Hematol Oncol.</source>
+<year>2021</year>;<volume>43</volume>(<issue>3</issue>):<fpage>e336</fpage>-<lpage>e340</lpage>.<pub-id pub-id-type="pmid">33122585</pub-id></mixed-citation>
+      </ref>
+      <ref id="B41">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Da Costa</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>O&#x2019;Donohue</surname>
+<given-names>MF</given-names></string-name>, <string-name><surname>van Dooijeweert</surname>
+<given-names>B</given-names></string-name>, <etal/></person-group>. <article-title>Molecular approaches to diagnose Diamond-Blackfan anemia: the EuroDBA experience</article-title>. <source>Eur J Med Genet.</source>
+<year>2018</year>;<volume>61</volume>(<issue>11</issue>):<fpage>664</fpage>-<lpage>673</lpage>.<pub-id pub-id-type="pmid">29081386</pub-id></mixed-citation>
+      </ref>
+      <ref id="B42">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Vlachos</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Muir</surname>
+<given-names>E</given-names></string-name></person-group>. <article-title>How I treat Diamond-Blackfan anemia</article-title>. <source>Blood.</source>
+<year>2010</year>;<volume>116</volume>(<issue>19</issue>): <fpage>3715</fpage>-<lpage>3723</lpage>.<pub-id pub-id-type="pmid">20651069</pub-id></mixed-citation>
+      </ref>
+      <ref id="B43">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ulirsch</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Verboon</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Kazerounian</surname>
+<given-names>S</given-names></string-name>, <etal/></person-group>. <article-title>The genetic landscape of Diamond-Blackfan anemia</article-title> [published correction appears in <italic toggle="yes">Am J Hum Genet.</italic> 2019;104(2):356]. <source>Am J Hum Genet.</source>
+<year>2018</year>;<volume>103</volume>(<issue>6</issue>):<fpage>930</fpage>-<lpage>947</lpage>.<pub-id pub-id-type="pmid">30503522</pub-id></mixed-citation>
+      </ref>
+      <ref id="B44">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zhang</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Hui</surname>
+<given-names>KY</given-names></string-name>, <string-name><surname>Gusev</surname>
+<given-names>A</given-names></string-name>, <etal/></person-group>. <article-title>Extended haplotype association study in Crohn&#x2019;s disease identifies a novel, Ashkenazi Jewish-specific missense mutation in the NF-&#x3BA;B pathway gene, HEATR3</article-title>. <source>Genes Immun.</source>
+<year>2013</year>;<volume>14</volume>(<issue>5</issue>):<fpage>310</fpage>-<lpage>316</lpage>.<pub-id pub-id-type="pmid">23615072</pub-id></mixed-citation>
+      </ref>
+      <ref id="B45">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Da Costa</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Leblanc</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Mohandas</surname>
+<given-names>N</given-names></string-name></person-group>. <article-title>Diamond-Blackfan anemia</article-title>. <source>Blood.</source>
+<year>2020</year>; <volume>136</volume>(<issue>11</issue>):<fpage>1262</fpage>-<lpage>1273</lpage>.<pub-id pub-id-type="pmid">32702755</pub-id></mixed-citation>
+      </ref>
+      <ref id="B46">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pe&#xF1;a</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Hurt</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Panse</surname>
+<given-names>VG</given-names></string-name></person-group>. <article-title>Eukaryotic ribosome assembly, transport and quality control</article-title>. <source>Nat Struct Mol Biol.</source>
+<year>2017</year>;<volume>24</volume>(<issue>9</issue>): <fpage>689</fpage>-<lpage>699</lpage>.<pub-id pub-id-type="pmid">28880863</pub-id></mixed-citation>
+      </ref>
+      <ref id="B47">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Aspesi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Monteleone</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Betti</surname>
+<given-names>M</given-names></string-name>, <etal/></person-group>. <article-title>Lymphoblastoid cell lines from Diamond Blackfan anaemia patients exhibit a full ribosomal stress phenotype that is rescued by gene therapy</article-title> [published correction appears in <italic toggle="yes">Sci Rep</italic>. 2018;8(1):17227]. <source>Sci Rep.</source>
+<year>2017</year>;<volume>7</volume>(<issue>1</issue>):<fpage>12010</fpage>.<pub-id pub-id-type="pmid">28931864</pub-id></mixed-citation>
+      </ref>
+      <ref id="B48">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Fancello</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Kampen</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Hofman</surname>
+<given-names>IJF</given-names></string-name>, <string-name><surname>Verbeeck</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>De Keersmaecker</surname>
+<given-names>K</given-names></string-name></person-group>. <article-title>The ribosomal protein gene RPL5 is a haploinsufficient tumor suppressor in multiple cancer types</article-title>. <source>Oncotarget.</source>
+<year>2017</year>; <volume>8</volume>(<issue>9</issue>):<fpage>14462</fpage>-<lpage>14478</lpage>.<pub-id pub-id-type="pmid">28147343</pub-id></mixed-citation>
+      </ref>
+      <ref id="B49">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ruark</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Seal</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>McDonald</surname>
+<given-names>H</given-names></string-name>, <etal/>; <collab>UK Testicular Cancer Collaboration (UKTCC)</collab></person-group>. <article-title>Identification of nine new susceptibility loci for testicular cancer, including variants near DAZL and PRDM14</article-title>. <source>Nat Genet.</source>
+<year>2013</year>;<volume>45</volume>(<issue>6</issue>):<fpage>686</fpage>-<lpage>689</lpage>.<pub-id pub-id-type="pmid">23666240</pub-id></mixed-citation>
+      </ref>
+      <ref id="B50">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Melin</surname>
+<given-names>BS</given-names></string-name>, <string-name><surname>Barnholtz-Sloan</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Wrensch</surname>
+<given-names>MR</given-names></string-name>, <etal/>; <collab>GliomaScan Consortium</collab></person-group>. <article-title>Genome-wide association study of glioma subtypes identifies specific differences in genetic susceptibility to glioblastoma and non-glioblastoma tumors</article-title>. <source>Nat Genet.</source>
+<year>2017</year>;<volume>49</volume>(<issue>5</issue>):<fpage>789</fpage>-<lpage>794</lpage>.<pub-id pub-id-type="pmid">28346443</pub-id></mixed-citation>
+      </ref>
+      <ref id="B51">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Kraft</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Zhai</surname>
+<given-names>K</given-names></string-name>, <etal/></person-group>. <article-title>Genome-wide association analyses of esophageal squamous cell carcinoma in Chinese identify multiple susceptibility loci and gene-environment interactions</article-title>. <source>Nat Genet.</source>
+<year>2012</year>;<volume>44</volume>(<issue>10</issue>):<fpage>1090</fpage>-<lpage>1097</lpage>.<pub-id pub-id-type="pmid">22960999</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

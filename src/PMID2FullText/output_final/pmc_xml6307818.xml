@@ -1,0 +1,1745 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosgen</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-7390</issn>
+      <issn pub-type="epub">1553-7404</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, CA USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">30543681</article-id>
+      <article-id pub-id-type="pmc">6307818</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pgen.1007845</article-id>
+      <article-id pub-id-type="publisher-id">PGENETICS-D-18-01685</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Animal Studies</subject>
+            <subj-group>
+              <subject>Experimental Organism Systems</subject>
+              <subj-group>
+                <subject>Model Organisms</subject>
+                <subj-group>
+                  <subject>Zebrafish</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Model Organisms</subject>
+            <subj-group>
+              <subject>Zebrafish</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Animal Studies</subject>
+            <subj-group>
+              <subject>Experimental Organism Systems</subject>
+              <subj-group>
+                <subject>Animal Models</subject>
+                <subj-group>
+                  <subject>Zebrafish</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Organisms</subject>
+            <subj-group>
+              <subject>Eukaryota</subject>
+              <subj-group>
+                <subject>Animals</subject>
+                <subj-group>
+                  <subject>Vertebrates</subject>
+                  <subj-group>
+                    <subject>Fish</subject>
+                    <subj-group>
+                      <subject>Osteichthyes</subject>
+                      <subj-group>
+                        <subject>Zebrafish</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Developmental Biology</subject>
+            <subj-group>
+              <subject>Life Cycles</subject>
+              <subj-group>
+                <subject>Larvae</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Developmental Biology</subject>
+            <subj-group>
+              <subject>Embryology</subject>
+              <subj-group>
+                <subject>Embryos</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Nervous System</subject>
+              <subj-group>
+                <subject>Synapses</subject>
+                <subj-group>
+                  <subject>Neuromuscular Junctions</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Nervous System</subject>
+              <subj-group>
+                <subject>Synapses</subject>
+                <subj-group>
+                  <subject>Neuromuscular Junctions</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Physiology</subject>
+            <subj-group>
+              <subject>Electrophysiology</subject>
+              <subj-group>
+                <subject>Neurophysiology</subject>
+                <subj-group>
+                  <subject>Synapses</subject>
+                  <subj-group>
+                    <subject>Neuromuscular Junctions</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Physiology</subject>
+            <subj-group>
+              <subject>Electrophysiology</subject>
+              <subj-group>
+                <subject>Neurophysiology</subject>
+                <subj-group>
+                  <subject>Synapses</subject>
+                  <subj-group>
+                    <subject>Neuromuscular Junctions</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Neuroscience</subject>
+            <subj-group>
+              <subject>Neurophysiology</subject>
+              <subj-group>
+                <subject>Synapses</subject>
+                <subj-group>
+                  <subject>Neuromuscular Junctions</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Mutation</subject>
+              <subj-group>
+                <subject>Nonsense Mutation</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Head</subject>
+              <subj-group>
+                <subject>Eyes</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Head</subject>
+              <subj-group>
+                <subject>Eyes</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Ocular System</subject>
+              <subj-group>
+                <subject>Eyes</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Ocular System</subject>
+              <subj-group>
+                <subject>Eyes</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and analysis methods</subject>
+          <subj-group>
+            <subject>Biological cultures</subject>
+            <subj-group>
+              <subject>Cell lines</subject>
+              <subj-group>
+                <subject>HeLa cells</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and analysis methods</subject>
+          <subj-group>
+            <subject>Biological cultures</subject>
+            <subj-group>
+              <subject>Cell cultures</subject>
+              <subj-group>
+                <subject>Cultured tumor cells</subject>
+                <subj-group>
+                  <subject>HeLa cells</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Physiology</subject>
+            <subj-group>
+              <subject>Biological Locomotion</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Physiology</subject>
+            <subj-group>
+              <subject>Biological Locomotion</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Biallelic mutations in nucleoporin <italic>NUP88</italic> cause lethal fetal akinesia deformation sequence</article-title>
+        <alt-title alt-title-type="running-head"><italic>NUP88</italic> in fetal akinesia</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Bonnin</surname>
+            <given-names>Edith</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Cabochette</surname>
+            <given-names>Pauline</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-2599-6951</contrib-id>
+          <name>
+            <surname>Filosa</surname>
+            <given-names>Alessandro</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-5689-9030</contrib-id>
+          <name>
+            <surname>J&#xFC;hlen</surname>
+            <given-names>Ramona</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Komatsuzaki</surname>
+            <given-names>Shoko</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff004">
+            <sup>4</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="currentaff001">
+            <sup>&#xA4;a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hezwani</surname>
+            <given-names>Mohammed</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dickmanns</surname>
+            <given-names>Achim</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff005">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Martinelli</surname>
+            <given-names>Val&#xE9;rie</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vermeersch</surname>
+            <given-names>Marjorie</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff006">
+            <sup>6</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Supply</surname>
+            <given-names>Lynn</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff007">
+            <sup>7</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8797-2843</contrib-id>
+          <name>
+            <surname>Martins</surname>
+            <given-names>Nuno</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-4238-8501</contrib-id>
+          <name>
+            <surname>Pirenne</surname>
+            <given-names>Laurence</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3634-211X</contrib-id>
+          <name>
+            <surname>Ravenscroft</surname>
+            <given-names>Gianina</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff008">
+            <sup>8</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lombard</surname>
+            <given-names>Marcus</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff008">
+            <sup>8</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1897-0510</contrib-id>
+          <name>
+            <surname>Port</surname>
+            <given-names>Sarah</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff009">
+            <sup>9</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="currentaff002">
+            <sup>&#xA4;b</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Spillner</surname>
+            <given-names>Christiane</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff009">
+            <sup>9</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-7262-3715</contrib-id>
+          <name>
+            <surname>Janssens</surname>
+            <given-names>Sandra</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff010">
+            <sup>10</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-2315-614X</contrib-id>
+          <name>
+            <surname>Roets</surname>
+            <given-names>Ellen</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff011">
+            <sup>11</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0783-4484</contrib-id>
+          <name>
+            <surname>Van Dorpe</surname>
+            <given-names>Jo</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <xref ref-type="aff" rid="aff007">
+            <sup>7</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lammens</surname>
+            <given-names>Martin</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff012">
+            <sup>12</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kehlenbach</surname>
+            <given-names>Ralph H.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff009">
+            <sup>9</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1739-6086</contrib-id>
+          <name>
+            <surname>Ficner</surname>
+            <given-names>Ralf</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <xref ref-type="aff" rid="aff005">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-5111-3732</contrib-id>
+          <name>
+            <surname>Laing</surname>
+            <given-names>Nigel G.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff008">
+            <sup>8</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hoffmann</surname>
+            <given-names>Katrin</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <xref ref-type="aff" rid="aff004">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0353-365X</contrib-id>
+          <name>
+            <surname>Vanhollebeke</surname>
+            <given-names>Benoit</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff013">
+            <sup>13</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor001">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-4080-9413</contrib-id>
+          <name>
+            <surname>Fahrenkrog</surname>
+            <given-names>Birthe</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor001">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff001"><label>1</label>
+<addr-line>Institute of Molecular Biology and Medicine, Laboratory Biology of the Cell Nucleus, Universit&#xE9; Libre de Bruxelles (ULB), Gosselies, Belgium</addr-line></aff>
+      <aff id="aff002"><label>2</label>
+<addr-line>Laboratory of Neurovascular Signaling, Department of Molecular Biology, ULB Neuroscience Institute, Universit&#xE9; Libre de Bruxelles (ULB), Gosselies, Belgium</addr-line></aff>
+      <aff id="aff003"><label>3</label>
+<addr-line>Max Delbr&#xFC;ck Center for Molecular Medicine, Berlin, Germany</addr-line></aff>
+      <aff id="aff004"><label>4</label>
+<addr-line>Institute of Human Genetics, Martin-Luther-University Halle-Wittenberg, Halle, Germany</addr-line></aff>
+      <aff id="aff005"><label>5</label>
+<addr-line>Department of Molecular Structural Biology, Institute for Microbiology and Genetics, GZMB, Georg-August-University G&#xF6;ttingen, G&#xF6;ttingen, Germany</addr-line></aff>
+      <aff id="aff006"><label>6</label>
+<addr-line>Center for Microscopy and Molecular Imaging, Universit&#xE9; Libre de Bruxelles, Charleroi, Belgium</addr-line></aff>
+      <aff id="aff007"><label>7</label>
+<addr-line>Department of Pathology, Ghent University, Ghent University Hospital, Ghent, Belgium</addr-line></aff>
+      <aff id="aff008"><label>8</label>
+<addr-line>Harry Perkins Institute of Medical Research, Centre for Medical Research, University of Western Australia, Nedlands, Western Australia, Australia</addr-line></aff>
+      <aff id="aff009"><label>9</label>
+<addr-line>Department of Molecular Biology, Faculty of Medicine, Georg-August-University of G&#xF6;ttingen, G&#xF6;ttingen, Germany</addr-line></aff>
+      <aff id="aff010"><label>10</label>
+<addr-line>Center for Medical Genetics, Ghent University Hospital, Ghent, Belgium</addr-line></aff>
+      <aff id="aff011"><label>11</label>
+<addr-line>Department of Obstetrics and Gynecology, Prenatal Diagnosis Centre, Ghent University Hospital, Ghent, Belgium</addr-line></aff>
+      <aff id="aff012"><label>12</label>
+<addr-line>Department of Pathology, Antwerp University Hospital, Egdem, Belgium</addr-line></aff>
+      <aff id="aff013"><label>13</label>
+<addr-line>Walloon Excellence in Life Sciences and Biotechnology (WELBIO), Belgium</addr-line></aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Plagnol</surname>
+            <given-names>Vincent</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>University College London, UNITED KINGDOM</addr-line>
+      </aff>
+      <author-notes>
+        <fn fn-type="COI-statement" id="coi001">
+          <p>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="current-aff" id="currentaff001">
+          <label>&#xA4;a</label>
+          <p>Current address: Institute of Human Genetics, Jena University Hospital, Jena, Germany;</p>
+        </fn>
+        <fn fn-type="current-aff" id="currentaff002">
+          <label>&#xA4;b</label>
+          <p>Current address: Department of Molecular Biology, Princeton, NJ, United States of America</p>
+        </fn>
+        <corresp id="cor001">* E-mail: <email>benoit.vanhollebeke@ulb.ac.be</email> (BV); <email>bfahrenk@ulb.ac.be</email> (BF)</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>12</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>12</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>14</volume>
+      <issue>12</issue>
+      <elocation-id>e1007845</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>8</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>11</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2018 Bonnin et al</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <copyright-holder>Bonnin et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:href="pgen.1007845.pdf"/>
+      <abstract>
+        <p>Nucleoporins build the nuclear pore complex (NPC), which, as sole gate for nuclear-cytoplasmic exchange, is of outmost importance for normal cell function. Defects in the process of nucleocytoplasmic transport or in its machinery have been frequently described in human diseases, such as cancer and neurodegenerative disorders, but only in a few cases of developmental disorders. Here we report biallelic mutations in the nucleoporin <italic>NUP88</italic> as a novel cause of lethal fetal akinesia deformation sequence (FADS) in two families. FADS comprises a spectrum of clinically and genetically heterogeneous disorders with congenital malformations related to impaired fetal movement. We show that genetic disruption of <italic>nup88</italic> in zebrafish results in pleiotropic developmental defects reminiscent of those seen in affected human fetuses, including locomotor defects as well as defects at neuromuscular junctions. Phenotypic alterations become visible at distinct developmental stages, both in affected human fetuses and in zebrafish, whereas early stages of development are apparently normal. The zebrafish phenotypes caused by <italic>nup88</italic> deficiency are rescued by expressing wild-type Nup88 but not the disease-linked mutant forms of Nup88. Furthermore, using human and mouse cell lines as well as immunohistochemistry on fetal muscle tissue, we demonstrate that NUP88 depletion affects rapsyn, a key regulator of the muscle nicotinic acetylcholine receptor at the neuromuscular junction. Together, our studies provide the first characterization of NUP88 in vertebrate development, expand our understanding of the molecular events causing FADS, and suggest that variants in <italic>NUP88</italic> should be investigated in cases of FADS.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author summary</title>
+        <p>Fetal movement is a prerequisite for normal fetal development and growth. Fetal akinesia deformation sequence (FADS) is the result of decreased fetal movement coinciding with congenital malformations related to impaired fetal movement. FADS may be caused by heterogenous defects at any point along the motor system pathway and genes encoding components critical to the neuromuscular junction and acetylcholine receptor clustering represent a major class of FADS disease genes. We report here biallelic, loss-of-function mutations in the nucleoporin <italic>NUP88</italic> that result in lethal FADS and with this the first lethal human developmental disorder due to mutations in a nucleoporin gene. We show that loss of Nup88 in zebrafish results in defects reminiscent of those seen in affected human fetuses and loss of NUP88 affects distinct developmental stages, both during human and zebrafish development. Consistent with the notion that a primary cause for FADS is impaired formation of the neuromuscular junction, loss of Nup88 in zebrafish coincides with abnormalities in acetylcholine receptor clustering, suggesting that defective NUP88 function in FADS impairs neuromuscular junction formation.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by grants from the F&#xE9;d&#xE9;ration Wallonie-Bruxelles (ARC 4.110.F.000092F), the Fonds Brachet and the Fonds Van Buuren to BF. and by a fellowship of Fonds Hoguet and Fonds Brachet to EB. Work in the B.V. laboratory is supported by the Fonds De La Recherche Scientifique (FNRS) (MIS F.4543.15), an ARC grant, the Fondation ULB, the Queen Elisabeth Medical Foundation for Neurosciences (Q.E.M.F.,) and the Fonds de la Recherche Scientifique - FNRS for the FRFS-WELBIO (CR-2017S-05). P.C. received a Postdoctoral fellowship from the FNRS. GR is supported by an Australian National Health and Medical Research Council (NHMRC) Career Development Fellowship (APP1122952), NGL by NHMRC Principal Research Fellowship (APP11117510). This work was funded by a NHMRC Project Grant (APP1080587) and the AFM (15734). S.P and R.H.K were supported by a grant from the DFG (SFB860). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="7"/>
+        <table-count count="2"/>
+        <page-count count="27"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>PLOS Publication Stage</meta-name>
+          <meta-value>vor-update-to-uncorrected-proof</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>Publication Update</meta-name>
+          <meta-value>2018-12-27</meta-value>
+        </custom-meta>
+        <custom-meta id="data-availability">
+          <meta-name>Data Availability</meta-name>
+          <meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <title>Data Availability</title>
+      <p>All relevant data are within the manuscript and its Supporting Information files.</p>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec001">
+      <title>Introduction</title>
+      <p>The nucleoporin NUP88 [MIM 602552] is a constituent of the nuclear pore complex (NPC), the gate for all trafficking between the nucleus and the cytoplasm [<xref rid="pgen.1007845.ref001" ref-type="bibr">1</xref>]. NUP88 resides on both the cytoplasmic and the nuclear side of NPCs [<xref rid="pgen.1007845.ref002" ref-type="bibr">2</xref>] and it is found in distinct sub-complexes: on the cytoplasmic face it associates with NUP214 [MIM 114350] and NUP62 [MIM 605815] as well as NUP98 [MIM 601021], while on the nuclear side NUP88 binds the intermediate filament protein lamin A [MIM 150330] [<xref rid="pgen.1007845.ref002" ref-type="bibr">2</xref>&#x2013;<xref rid="pgen.1007845.ref005" ref-type="bibr">5</xref>]. The NUP88-NUP214 complex plays an important role in the nuclear export of a subset of proteins and pre-ribosomes, which is mediated by the nuclear export receptor CRM1 (Required for chromosome maintenance, alias exportin 1, XPO1 [MIM 602559]) [<xref rid="pgen.1007845.ref006" ref-type="bibr">6</xref>&#x2013;<xref rid="pgen.1007845.ref008" ref-type="bibr">8</xref>]. Depletion of NUP88 alters the intracellular localization of NF-&#x3BA;B proteins [<xref rid="pgen.1007845.ref009" ref-type="bibr">9</xref>&#x2013;<xref rid="pgen.1007845.ref011" ref-type="bibr">11</xref>]. Moreover, NUP88 is frequently overexpressed in a variety of human cancers and its role therein appears linked to the deregulation of the anaphase promoting complex [<xref rid="pgen.1007845.ref012" ref-type="bibr">12</xref>, <xref rid="pgen.1007845.ref013" ref-type="bibr">13</xref>] and its binding to vimentin [<xref rid="pgen.1007845.ref014" ref-type="bibr">14</xref>].</p>
+      <p>Fetal movement is a prerequisite for normal fetal development and growth. Intrauterine movement restrictions cause a broad spectrum of disorders characterized by one or more of the following features: contractures of the major joints (arthrogryposis), pulmonary hypoplasia, facial abnormalities, hydrops fetalis, pterygia, polyhydramnios and <italic>in utero</italic> growth restriction [<xref rid="pgen.1007845.ref015" ref-type="bibr">15</xref>]. The unifying feature is a reduction or lack of fetal movement, giving rise to the term fetal akinesia deformations sequence (FADS [OMIM 208150]) [<xref rid="pgen.1007845.ref016" ref-type="bibr">16</xref>]. FADS is a clinically and genetically heterogeneous condition of which the traditionally named Pena-Shokeir subtype is characterized by multiple joint contractures, facial abnormalities, and lung hypoplasia resulting from the decreased <italic>in utero</italic> movement of the fetuses [<xref rid="pgen.1007845.ref015" ref-type="bibr">15</xref>]. Affected fetuses are often lost as spontaneous abortions (<italic>in utero</italic> fetal demise) or stillborn. Many of those born alive are premature and die shortly after birth. In the past, the genetic basis for these disorders was frequently unknown, but due to the recent availability of next generation sequencing, the molecular etiology is becoming increasingly understood. Many cases of FADS result from impairment along the neuromuscular axis and from mutations in genes encoding components of the motor neurons, peripheral nervous system, neuromuscular junction and the skeletal muscle. Genes encoding components critical to the neuromuscular junction and acetylcholine receptor (AChR) clustering represent a major class of FADS disease genes, these include <italic>RAPSN</italic> [MIM 601592] [<xref rid="pgen.1007845.ref017" ref-type="bibr">17</xref>, <xref rid="pgen.1007845.ref018" ref-type="bibr">18</xref>], <italic>DOK7</italic> [MIM 610285] [<xref rid="pgen.1007845.ref019" ref-type="bibr">19</xref>], and <italic>MUSK</italic> [MIM 601296] [<xref rid="pgen.1007845.ref020" ref-type="bibr">20</xref>], as well as mutations in the subunits of the muscular nicotinic acetylcholine receptor (AChR) [<xref rid="pgen.1007845.ref017" ref-type="bibr">17</xref>, <xref rid="pgen.1007845.ref021" ref-type="bibr">21</xref>]. These mutations are expected to affect neuromuscular junctions [<xref rid="pgen.1007845.ref022" ref-type="bibr">22</xref>].</p>
+      <p>Here, we report a Mendelian, lethal developmental human disorder caused by mutations in <italic>NUP88</italic>. We demonstrate that biallelic mutations in <italic>NUP88</italic> are associated with fetal akinesia of the Pena-Shokeir-like subtype. We confirm in zebrafish that loss of Nup88 impairs locomotion behavior and that the mutant alleles are functionally null. We show that loss of NUP88 affects protein levels and localization of rapsyn in cell lines and subject samples. Consistent with altered rapsyn, AChR clustering in zebrafish is abnormal. We propose that defective NUP88 function in FADS impairs neuromuscular junction formation.</p>
+    </sec>
+    <sec sec-type="results" id="sec002">
+      <title>Results</title>
+      <sec id="sec003">
+        <title>Identification of <italic>NUP88</italic> mutations in individuals affected by fetal akinesia</title>
+        <p>We performed exome sequencing and Sanger sequencing on genomic DNA from individuals affected with FADS from two families (<xref ref-type="fig" rid="pgen.1007845.g001">Fig 1A</xref>). Clinical and genetic findings are summarized in <xref rid="pgen.1007845.t001" ref-type="table">Table 1</xref>, pedigrees and gene structure are shown in <xref ref-type="fig" rid="pgen.1007845.g001">Fig 1A and 1B</xref>. Family A comprises four affected individuals, three male and one female (<xref ref-type="fig" rid="pgen.1007845.g001">Fig 1A</xref>; A.II.3, 4, 5, 7), and four healthy siblings born to consanguineous parents of Palestinian origin. Exome sequencing of the last affected fetus A.II.7 revealed a homozygous missense mutation c.1300G&gt;T (p.D434Y) in the <italic>NUP88</italic> gene [NM_002532.5] (<xref ref-type="fig" rid="pgen.1007845.g001">Fig 1A</xref>), absent in relevant databases (dbSNP, Ensembl, UCSC, TGP, ExAC, HGMD, gnomAD). Sanger sequencing revealed identical homozygous missense mutation in the third affected fetus (<xref ref-type="fig" rid="pgen.1007845.g001">Fig 1A</xref>, A.II.5; <xref ref-type="supplementary-material" rid="pgen.1007845.s002">S1A Fig</xref>). Both parents and unaffected siblings A.II.1, A.II.2 and A.II. 6 are heterozygous carriers of the mutation, unaffected sibling A.II.8 carries two intact alleles of <italic>NUP88</italic> after <italic>in vitro</italic> fertilization and preimplantation diagnostic (<xref ref-type="fig" rid="pgen.1007845.g001">Fig 1A</xref>). DNA was unavailable from the first and second miscarriage (A.II.3 and A.II.4), but clinical phenotypes resemble those of the two affected individuals A.II.5 and A.II.7 (<xref rid="pgen.1007845.t001" ref-type="table">Table 1</xref>). In Family B, one affected son was born to healthy unrelated parents of European descent. Exome sequencing in the affected individual, his parents and his two unaffected sibs (<xref ref-type="supplementary-material" rid="pgen.1007845.s002">S1B Fig</xref>) revealed that the individual is compound heterozygous for two <italic>NUP88</italic> mutations, i.e. a nonsense c.1525C&gt;T (p.R509*) and a single amino-acid deletion c.1899_1901del (p.E634del; <xref ref-type="fig" rid="pgen.1007845.g001">Fig 1A</xref>; B.II.2), absent in relevant databases. Parents and healthy siblings were heterozygous carriers of the one or the other of the mutations, thus confirming correct segregation consistent with recessive inheritance (<xref ref-type="fig" rid="pgen.1007845.g001">Fig 1A</xref>). The missense substitution p.D434Y and deletion p.E634del affect evolutionary highly conserved NUP88 residues (<xref ref-type="fig" rid="pgen.1007845.g001">Fig 1B</xref>) indicating functional relevance. Accordingly, SIFT/Provean, Polyphen-2, and MutationTaster predicted both mutations to be disease causing or potentially pathogenic (<xref ref-type="supplementary-material" rid="pgen.1007845.s008">S1 Table</xref>).</p>
+        <fig id="pgen.1007845.g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007845.g001</object-id>
+          <label>Fig 1</label>
+          <caption>
+            <title><italic>NUP88</italic> mutations identified in affected individuals from two families.</title>
+            <p>(<bold>A</bold>) Pedigrees of two families identified with mutations in <italic>NUP88</italic> (GenBank: NM_002532.5). (<bold>B</bold>) <italic>NUP88</italic> gene and protein structure, location of the identified mutations, and phylogenetic conservation of the mutated residues and surrounding amino acids. Identical amino acids are indicated by asterisks, highly similar residues by colons.</p>
+          </caption>
+          <graphic xlink:href="pgen.1007845.g001"/>
+        </fig>
+        <table-wrap id="pgen.1007845.t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007845.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Genetic and clinical data of affected individuals with <italic>NUP88</italic> variants.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pgen.1007845.t001g" xlink:href="pgen.1007845.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="left" style="border-top:thick;border-right:thick" rowspan="1" colspan="1">Family</th>
+                  <th align="left" style="border-top:thick;border-right:thick" rowspan="1" colspan="1">HPO</th>
+                  <th align="left" style="border-top:thick" rowspan="1" colspan="1"/>
+                  <th align="left" style="border-top:thick" rowspan="1" colspan="1"/>
+                  <th align="left" style="border-top:thick" rowspan="1" colspan="1">A</th>
+                  <th align="left" style="border-top:thick;border-right:thick" rowspan="1" colspan="1"/>
+                  <th align="center" style="border-top:thick" rowspan="1" colspan="1">B</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">ID</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1">A.II.3</td>
+                  <td align="center" rowspan="1" colspan="1">A.II.4</td>
+                  <td align="center" rowspan="1" colspan="1">A.II.5</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">A.II.7</td>
+                  <td align="center" rowspan="1" colspan="1">B.II.2</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Gender</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1">M</td>
+                  <td align="center" rowspan="1" colspan="1">M</td>
+                  <td align="center" rowspan="1" colspan="1">M</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">F</td>
+                  <td align="center" rowspan="1" colspan="1">M</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Genotype <italic>NUP88</italic></td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1">No DNA available</td>
+                  <td align="center" rowspan="1" colspan="1">No DNA <break/>available</td>
+                  <td align="center" rowspan="1" colspan="1">Homozygous <break/>c.1300G&gt;T</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">Homozygous <break/>c.1300G&gt;T</td>
+                  <td align="center" rowspan="1" colspan="1">Compound heterozygous <break/>c.1525C&gt;T/ c.1899_1901del</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Duration of pregnancy<break/>(age at death/ stillborn/ terminated pregnancy)</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1">36 1/2 gw<break/>(death at 2 d)</td>
+                  <td align="center" rowspan="1" colspan="1">20 gw <break/>(intrauterinedeath)</td>
+                  <td align="center" rowspan="1" colspan="1">32 gw <break/>(intrauterine demise)</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">21.5 gw <break/>(tp)</td>
+                  <td align="center" rowspan="1" colspan="1">28 5/7 gw<break/>(tp)</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-top:thick;border-right:thick" rowspan="1" colspan="1">
+                    <bold>Neuromuscular system</bold>
+                  </td>
+                  <td align="left" style="border-top:thick;border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-top:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-top:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-top:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-top:thick;border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-top:thick" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Decreased fetal movements (gw at diagnosis)</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">HP:0001558</td>
+                  <td align="center" rowspan="1" colspan="1">X (23+4 gw)</td>
+                  <td align="center" rowspan="1" colspan="1">X (20 gw)</td>
+                  <td align="center" rowspan="1" colspan="1">X (23 gw)</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">X (20 gw)</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Polyhydramnios</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">HP:0001561</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Arthrogryposis multiplex congenita</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">HP:0002804</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">X</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1">Fingers, hands, elbow, dislocated hip, fractured tibia, rocker bottom feet</td>
+                  <td align="center" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1">Face, hyperextended fetal neck, mandibular contracture, elbow, wrist, fingers, camptodactyly, calves, feet</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Fingers, hands, elbow, feet, knees</td>
+                  <td align="left" rowspan="1" colspan="1">Fingers, wrist, elbow, feet, knees</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Underdeveloped muscle <break/>(Reduced muscle bulk/ hypoplasia/ atrophy)</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">HP:0009004</td>
+                  <td align="left" rowspan="1" colspan="1">Muscle atrophy</td>
+                  <td align="center" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">Muscle atrophy upper arms, bulbous on forearms, swelling of calf muscles</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">ND</td>
+                  <td align="left" rowspan="1" colspan="1">Upper arms thin, <break/>lower arms bulbous</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-top:thick;border-right:thick" rowspan="1" colspan="1">
+                    <bold>Dysmorphic signs</bold>
+                  </td>
+                  <td align="left" style="border-top:thick;border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-top:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-top:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-top:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-top:thick;border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-top:thick" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Low-set, posteriorly rotated ears</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">HP:0000368</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">High broad nasal bridge</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">HP:0000426</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">X</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">High-arched palate</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">HP:0000218</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Microretrognathism</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">HP:0000308</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">X</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Reduced number of rib pairs (11 instead of 12)</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">HP:0000878</td>
+                  <td align="center" rowspan="1" colspan="1">11</td>
+                  <td align="center" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">12</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">11</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Undescended testis</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">HP:0000028</td>
+                  <td align="center" rowspan="1" colspan="1">R+L</td>
+                  <td align="center" rowspan="1" colspan="1">NA</td>
+                  <td align="center" rowspan="1" colspan="1">L</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">NA</td>
+                  <td align="center" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1">Neck</td>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1">Short</td>
+                  <td align="center" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">Hyperextended</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1">ND</td>
+                  <td align="center" rowspan="1" colspan="1">Broad</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-top:thick;border-right:thick" rowspan="1" colspan="1">
+                    <bold>Other</bold>
+                  </td>
+                  <td align="left" style="border-top:thick;border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-top:thick" rowspan="1" colspan="1">Polyhydramnios</td>
+                  <td align="center" style="border-top:thick" rowspan="1" colspan="1">No heart tones at 20 gw</td>
+                  <td align="left" style="border-top:thick" rowspan="1" colspan="1">29+4 gw body edema</td>
+                  <td align="center" style="border-top:thick;border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-top:thick" rowspan="1" colspan="1">Polyhydramnios</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Absent stomach bubble</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Bilateral pleural effusions</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Reduced stomach filling</td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Ascites</td>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Severe respiratory distress</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Small lungs in X-ray</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Apnea</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Severe kyphosis</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="center" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" style="border-bottom:thick;border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-bottom:thick;border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-bottom:thick" rowspan="1" colspan="1">Fetal bradycardia</td>
+                  <td align="left" style="border-bottom:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-bottom:thick" rowspan="1" colspan="1"/>
+                  <td align="center" style="border-bottom:thick;border-right:thick" rowspan="1" colspan="1"/>
+                  <td align="left" style="border-bottom:thick" rowspan="1" colspan="1"/>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="t001fn001">
+              <p>gw: gestational week; tp: terminated pregnancy</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="sec004">
+        <title>Analysis of protein structure</title>
+        <p>To gain further insights into the impact of the <italic>NUP88</italic> mutations on NUP88 protein function, we performed structural modelling as the crystal structure of human NUP88 is not known. Models obtained (see Methods) predicted the N-terminal domain (NTD) to form a 7-bladed &#xDF;-propeller, set up in a (4, 4, 4, 4, 4, 4, 3) arrangement of &#xDF;-strands and no Velcro lock as typical for classical &#xDF;-propellers (<xref ref-type="fig" rid="pgen.1007845.g002">Fig 2A</xref>). Around 60 residues precede the &#xDF;-propeller and are located at the bottom or side of the propeller thereby shielding 2&#x2013;4 blades in their vicinity (<xref ref-type="fig" rid="pgen.1007845.g002">Fig 2A</xref>). The model reveals high similarity to the PDB deposited structures of Nup82 from Baker&#x2019;s yeast and Nup57 from <italic>Chaetomium thermophilum</italic> (<xref ref-type="fig" rid="pgen.1007845.g002">Fig 2B</xref>). The most prominent differences are a loop region and a helix-turn-helix (HTH) motif emanating from blades 4 and 5, respectively (<xref ref-type="fig" rid="pgen.1007845.g002">Fig 2B</xref>). Models obtained for NUP88&#x2019;s C-terminal domain (CTD) exhibited low reliability, but the CTD, in analogy to its yeast homolog, is likely composed of extended &#x3B1;-helices (<xref ref-type="fig" rid="pgen.1007845.g002">Fig 2C</xref>) that form trimeric coiled-coils, either in <italic>cis</italic> or in <italic>trans</italic>. In this context, an arrangement with its complex partners NUP214 and NUP62 in <italic>trans</italic> is most likely, as described for the yeast counterpart of the complex [<xref rid="pgen.1007845.ref023" ref-type="bibr">23</xref>, <xref rid="pgen.1007845.ref024" ref-type="bibr">24</xref>].</p>
+        <fig id="pgen.1007845.g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007845.g002</object-id>
+          <label>Fig 2</label>
+          <caption>
+            <title>Modelling of human NUP88.</title>
+            <p>(<bold>A</bold>) The N-terminal domain of NUP88 reveals a seven-bladed &#xDF;-propeller with an N-terminal extension. The rainbow coloring indicates N-terminal residues in blue (NTD = N-terminal domain) and C-terminal residues of the propeller in red. Individual blades are indicated by numbers. The red arrow indicates the location of the p.D434Y point mutation (see below for details). (<bold>B</bold>) Overlay of the NUP88 model (red) with the X-ray structures of Nup82 from baker&#x2019;s yeast (PDBid: 3pbp, in gray) and <italic>C</italic>. <italic>thermophilum</italic> (PDBid: 5cww; in light yellow). Significant differences between species are in blade 4 (HTH-motif; black arrow) and 5 (extended loop; blue arrow). (<bold>C</bold>) Composite model of the N- and C-terminal regions of NUP88. The presented model was generated using RaptorX with its standard settings and misses about 40 amino acid residues after the propeller region. Both, the propeller and CTD regions are colored in rainbow coloring as in (<bold>A</bold>). The individual mutations are indicated by their numbering and represented in sphere mode. (<bold>D</bold>) Magnification of the loop bearing the D434 mutation in NUP88 in stick mode. The coloring of the individual molecules is as described in (<bold>B</bold>).</p>
+          </caption>
+          <graphic xlink:href="pgen.1007845.g002"/>
+        </fig>
+        <p>According to the model structure, the p.D434Y mutation is located in the loop of a HTH motif between the two outermost &#xDF;-strands of blade 6 (<xref ref-type="fig" rid="pgen.1007845.g002">Fig 2B</xref>, overall view; <xref ref-type="fig" rid="pgen.1007845.g002">Fig 2D</xref>, magnification). The mutation likely leads to a decrease in the interaction with one of the neighboring proteins, thereby leading to a destabilization of the complex. The nonsense mutation c.1525C&gt;T resulting in p.R509* is located just after the &#xDF;-propeller in the linker region to the CTD resulting in a complete loss of all &#x3B1;-helices. Thus, the interaction of NUP88 with its complex partners is likely reduced to only propeller interactions, if the protein is not completely lost due to nonsense mediated decay of the mRNA. The p.E634del mutation is located in the middle of the CTD sequence and predicted to lie in the last fifth of an extended helix. The deletion results in a frame-shift of the remainder of the &#x3B1;-helix, which shifts the following residues by about a third of a helical turn and thus disrupts the interaction pattern of all following residues, which, as a consequence, decreases the overall stability of the interactions within this helix bundle.</p>
+      </sec>
+      <sec id="sec005">
+        <title><italic>Danio rerio nup88</italic> model</title>
+        <p>FADS is a developmental disorder and to study the function of NUP88 in vertebrate development, we used a zebrafish (<italic>D</italic>. <italic>rerio</italic>) model. We first examined the spatial expression of <italic>nup88</italic> during embryonic development. The single zebrafish <italic>nup88</italic> orthologue (ENSDARG00000003235) encodes a protein of 720 amino acid translated from a single 2410 bp transcript. The predicted translated gene product shares 63% identity and 75% similarity with human NUP88. Whole-mount <italic>in situ</italic> hybridization (WISH) and RT-PCR analysis in wild-type AB zebrafish showed that <italic>nup88</italic> transcripts are maternally deposited early in development (<xref ref-type="supplementary-material" rid="pgen.1007845.s003">S2A and S2B Fig</xref>, four-cell-stage embryos) and then ubiquitously expressed at 5 hours post fertilization (hpf). By 24 hpf, while expressed ubiquitously, particularly high levels of <italic>nup88</italic> mRNA were detected in highly proliferative frontal regions of the embryo, i.e. the central nervous system, brain, eye and anterior trunk. At 72 hpf, <italic>nup88</italic> transcript levels are decreasing in these frontal regions and only slightly higher than in other regions of the zebrafish larvae. Similar expression patterns in the developing zebrafish have been described for the two NUP88-binding partners, NUP98 and NUP62 [<xref rid="pgen.1007845.ref025" ref-type="bibr">25</xref>, <xref rid="pgen.1007845.ref026" ref-type="bibr">26</xref>].</p>
+      </sec>
+      <sec id="sec006">
+        <title>Genetic disruption of <italic>nup88</italic> affects zebrafish development</title>
+        <p>To study the impact of <italic>nup88</italic> deletion on zebrafish development, we used the <italic>nup88</italic><sup><italic>sa2206</italic></sup> allele generated by the Zebrafish Mutation Project [<xref rid="pgen.1007845.ref027" ref-type="bibr">27</xref>, <xref rid="pgen.1007845.ref028" ref-type="bibr">28</xref>]. Heterozygous <italic>nup88</italic><sup><italic>sa2206</italic></sup> carriers were outcrossed for four generations with wild-type AB zebrafish prior to phenotypic analysis. The <italic>nup88</italic><sup><italic>sa2206</italic></sup> allele is characterized by a nonsense mutation, c.732T&gt;A (<xref ref-type="fig" rid="pgen.1007845.g003">Fig 3A</xref>), resulting in a premature stop codon at amino acid 244. <italic>nup88</italic> mRNA levels are reduced by about 90% in 5 dpf <italic>nup88</italic> mutants (see below), suggesting that the mRNA is subjected to nonsense-mediated decay. For the purpose of this study, <italic>nup88</italic><sup><italic>sa2206/sa2206</italic></sup> is therefore referred to as <italic>nup88</italic><sup><italic>-/-</italic></sup>. During early stages of development and up to 3 dpf, no marked differences in morphological features of <italic>nup88</italic><sup><italic>-/-</italic></sup> compared to <italic>nup88</italic><sup><italic>+/+</italic></sup> and <italic>nup88</italic><sup>+/-</sup> siblings were observed. Starting at 4 dpf, phenotypic alterations became visible: smaller head and eyes, lack of a protruding mouth, downwards curvature of the anterior-posterior axis, abnormal gut and aplastic swim-bladder (<xref ref-type="fig" rid="pgen.1007845.g003">Fig 3B</xref>). Further analyses of the cranial abnormalities revealed that <italic>nup88</italic><sup><italic>-/-</italic></sup> larvae exhibit severe defects in the ventral viscerocranium formed by seven cartilaginous pharyngeal arches [<xref rid="pgen.1007845.ref029" ref-type="bibr">29</xref>, <xref rid="pgen.1007845.ref030" ref-type="bibr">30</xref>]. In <italic>nup88</italic><sup><italic>-/-</italic></sup> larvae, the posterior pharyngeal arches 3&#x2013;7 were dramatically reduced, distorted or even absent (<xref ref-type="fig" rid="pgen.1007845.g003">Fig 3C</xref>). The reduced size of head and eyes correlated with an increase in apoptosis in the head of <italic>nup88</italic><sup><italic>-/-</italic></sup> embryos (<xref ref-type="fig" rid="pgen.1007845.g003">Fig 3D</xref>). Apoptotic cells, as assessed by acridine orange staining, were readily detected in the eyes, the brain and the anterior trunk of 35 hpf mutant embryos, but not in other parts of the body (<xref ref-type="supplementary-material" rid="pgen.1007845.s003">S2C Fig</xref>). Together, these data indicate that <italic>nup88</italic> mutants are phenotypically similar to the large class of jaw and branchial arch zebrafish mutants, designated as the flathead group [<xref rid="pgen.1007845.ref031" ref-type="bibr">31</xref>, <xref rid="pgen.1007845.ref032" ref-type="bibr">32</xref>]. Disruption of <italic>nup88</italic> furthermore led to impaired survival with lethality occurring at or after 9 dpf (<xref ref-type="fig" rid="pgen.1007845.g003">Fig 3E</xref>).</p>
+        <fig id="pgen.1007845.g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007845.g003</object-id>
+          <label>Fig 3</label>
+          <caption>
+            <title>Morphological phenotypes of <italic>nup88</italic><sup><italic>-/-</italic></sup> mutants.</title>
+            <p>(<bold>A</bold>) <italic>nup88</italic> gene structure and location of the mutation in the <italic>sa2206</italic> allele. (<bold>B</bold>) Lateral view of wild-type and <italic>nup88</italic><sup><italic>-/-</italic></sup> embryos at 5 dpf. <italic>nup88</italic><sup><italic>-/-</italic></sup> mutants resemble the flathead group of mutants characterized by decreased head and eye size and the absence of a protruding mouth (black arrowhead). The larvae furthermore show aplastic swim bladder (white arrowhead), hypoplastic liver, abnormal gut and a marked curvature of the anterio-posterior axis. (<bold>C</bold>) Higher magnification lateral views of the head region of wild-type and <italic>nup88</italic><sup><italic>-/-</italic></sup> embryos at 5 dpf. Alcian blue staining of the viscerocranium revealed that <italic>nup88</italic><sup><italic>-/-</italic></sup> mutants lack pharyngeal arches 3 to 7 (P3-7). A ventral view of the head showed that hyoid and mandibular arches (P1 and P2) were present, but dysmorphic. A schematic representation of the viscerocranium is shown to illustrate alcian-blue images. Genotypes of larvae were determined by fin clip and RFLP. m, Meckel's cartilage; ch, ceratohyal; pq, palatoquadrate; cb, ceratobranchials (P3-7); hs, hyosymplectic. (<bold>D</bold>) Acridine orange staining revealed an increase in apoptotic cells in the head, including the eyes (arrowhead), the brain (filled arrow), and anterior part of the trunk (arrow) of <italic>nup88</italic><sup><italic>-/-</italic></sup> mutants at 35 hpf compared with wild-type siblings. Shown are confocal images. Scale bars, 100 &#x3BC;m. (<bold>E</bold>) Survival curves of <italic>nup88</italic> mutants and siblings. 75 larvae were analyzed in each category. Error bars are &#xB1;SEM.</p>
+          </caption>
+          <graphic xlink:href="pgen.1007845.g003"/>
+        </fig>
+      </sec>
+      <sec id="sec007">
+        <title>FADS-related mutations in <italic>nup88</italic> lead to a loss-of-function phenotype</title>
+        <p>To address the question whether <italic>NUP88</italic> mutations identified in the familial cases of FADS affect NUP88 function, we performed phenotypic rescue experiments in zebrafish. Two of the three mutated residues in the uncovered FADS cases are conserved between human and zebrafish (<xref ref-type="fig" rid="pgen.1007845.g001">Fig 1B</xref>), hence we introduced the corresponding mutations on zebrafish expression constructs by site-directed mutagenesis. Human c.1300G&gt;T, p.D434Y corresponds to c.1240G&gt;T, p.D414Y in zebrafish and human c.1899_1901del, p.E634del to zebrafish c.1837_1839del, p.E613del. Human p.R509 is not conserved in zebrafish, therefore we inserted a stop codon at c.1468-1470&gt;TGA, p.H490*, a residue in a similar position as human R509. Subsequently synthetic mRNA corresponding to each variant was microinjected into one-cell stage <italic>nup88</italic><sup>-/-</sup> mutants and their rescue capacity was assessed by evaluating the eye size as well as the number and morphology of the pharyngeal arches. Injection of wild-type (WT) <italic>nup88</italic> mRNA partially rescued the developmental defects of the 5 dpf mutant larvae as indicated by significant restoration of the eye size (<xref ref-type="fig" rid="pgen.1007845.g004">Fig 4A and 4B</xref>) and a significant increase in the number of pharyngeal arches (<xref ref-type="fig" rid="pgen.1007845.g004">Fig 4A and 4C</xref>). In addition, the arches resembled the morphologically wild-type structures (<xref ref-type="fig" rid="pgen.1007845.g004">Fig 4A and 4D</xref>). In contrast to WT <italic>nup88</italic> mRNA, injection of <italic>nup88</italic> D414Y mRNA, <italic>nup88</italic> H490* mRNA as well as <italic>nup88</italic> E613del mRNA failed to suppress the <italic>nup88</italic><sup><italic>-/-</italic></sup> phenotypes (<xref ref-type="fig" rid="pgen.1007845.g004">Fig 4A&#x2013;4D</xref>), indicating that these <italic>nup88</italic> mutant transcripts are functionally null. Although the results suggest that the encoded variant proteins are functionally inactive, the lack of rescue could also be the consequence of transcript or protein instability.</p>
+        <fig id="pgen.1007845.g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007845.g004</object-id>
+          <label>Fig 4</label>
+          <caption>
+            <title>Wild-type <italic>nup88</italic>, but not disease-related mutant forms, rescue defects of <italic>nup88</italic><sup><italic>-/-</italic></sup> embryos.</title>
+            <p>(<bold>A</bold>) <italic>nup88</italic><sup><italic>+/-</italic></sup> embryos were in-crossed and 300 pg of mRNA encoding wild-type or the respective mutant <italic>nup88</italic> were microinjected at the one-cell stage. The extent of rescue of each variant mRNA was evaluated after 5 dpf using (<bold>B</bold>) the diameter of the eye (One-way ANOVA test), (<bold>C</bold>) the number of pharyngeal arches (Kruskal-Wallis test) and (<bold>D</bold>) their morphology as readouts. Only injecting wild-type, but not the mutant forms of <italic>nup88</italic> mRNA, rescued the reduced eye size and the number of pharyngeal arches as revealed by Alcian blue staining (<bold>A</bold>). At least three independent injections were performed for each condition. Values are mean &#xB1; SD. Significance in comparison to <italic>nup88</italic><sup><italic>+/+</italic></sup> and <italic>nup88</italic><sup><italic>-/-</italic></sup> embryos, respectively. n.s., non- significant, *P&lt;0.05, **P&lt;0.01, ***P&lt;0.001, ****P&lt;0.0001. The statistical annotations appearing just above the histogram bars refer to the comparison to the uninjected mutants. n is number of embryos/larvae analyzed. In (<bold>D</bold>) 21 larvae from 3 independent experiments (3x7) were analyzed for each form.</p>
+          </caption>
+          <graphic xlink:href="pgen.1007845.g004"/>
+        </fig>
+      </sec>
+      <sec id="sec008">
+        <title><italic>nup88</italic> mutants show strongly impaired locomotor behavior</title>
+        <p>To further investigate the implication of NUP88 in the etiology of FADS, we next determined whether locomotor function was impaired by loss of Nup88 using locomotion and touch-evoked escape assays in <italic>nup88</italic><sup><italic>-/-</italic></sup> zebrafish. Zebrafish embryos develop spontaneous muscle contractions at 18 hpf [<xref rid="pgen.1007845.ref033" ref-type="bibr">33</xref>], therefore we first analyzed the coiling behavior of <italic>nup88</italic><sup><italic>-/-</italic></sup> embryos as compared to <italic>nup88</italic><sup>+/+</sup> and <italic>nup88</italic><sup>+/-</sup> embryos at 22&#x2013;24 hpf. We did not detect problems in coiling behavior in <italic>nup88</italic><sup><italic>-/-</italic></sup> embryos at this developmental stage (<xref ref-type="supplementary-material" rid="pgen.1007845.s004">S3A Fig</xref> and <xref ref-type="supplementary-material" rid="pgen.1007845.s010">S1 Movie</xref>). Next, we analyzed spontaneous swimming activity at 4 dpf (<xref ref-type="fig" rid="pgen.1007845.g005">Fig 5A</xref>) and found that only about 35% of the <italic>nup88</italic><sup><italic>-/-</italic></sup> larvae showed spontaneous movement as compared to ~83% of <italic>nup88</italic><sup><italic>+/+</italic></sup> and about 73% of <italic>nup88</italic><sup><italic>+/-</italic></sup> larvae (<xref ref-type="fig" rid="pgen.1007845.g005">Fig 5B</xref>). Moreover, those moving <italic>nup88</italic><sup><italic>-/-</italic></sup> larvae displayed drastically reduced motor activity, traveled shorter distance (<xref ref-type="fig" rid="pgen.1007845.g005">Fig 5C</xref>) and initiated swim bouts less often (<xref ref-type="fig" rid="pgen.1007845.g005">Fig 5D</xref>). In contrast, statistically significant differences in the mean velocity were not observed in <italic>nup88</italic> mutant larvae (<xref ref-type="fig" rid="pgen.1007845.g005">Fig 5E</xref>).</p>
+        <fig id="pgen.1007845.g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007845.g005</object-id>
+          <label>Fig 5</label>
+          <caption>
+            <title><italic>nup88</italic> mutants display motor impairments.</title>
+            <p>(<bold>A)</bold> Images showing representative examples of motion tracking (red lines) of 4 dpf <italic>nup88</italic> homozygous and heterozygous mutants, and wild-type controls during one-minute long spontaneous locomotion recordings. (<bold>B)</bold> Quantification of percentages of larvae displaying spontaneous movement, also shown as (number of moving larvae/total number of larvae). Beeswarm graphs with individual data points depicting distance travelled/minute (<bold>C</bold>), bouts/minute (<bold>D</bold>), and mean velocity of swimming bouts (<bold>E</bold>) of <italic>nup88</italic> mutants and wild-type controls displaying spontaneous locomotion. (<bold>F)</bold> Quantification of percentages of larvae displaying touch-induced escape response, also shown as (number of responsive larvae/total number of larvae). (<bold>G)</bold> Representative examples of touch-induced escape behavior of 4 dpf head-restrained <italic>nup88</italic> mutant and wild-type larvae. The first column depicts single frames taken 50 ms before an escape response was induced by touching the trunk of larvae with a pipette tip (red dashed lines). The other columns show superimposed frames of escape responses at consecutive time intervals after touch. The asymmetric tail movement displayed in some of the images (<italic>nup88</italic><sup><italic>+/-</italic></sup> and <italic>nup88</italic><sup><italic>-/-</italic></sup> at 201&#x2013;400 ms, and all genotypes at 401&#x2013;600 ms) represents slow motion of the tail toward its original position. The escape response terminated before this phase (see also <xref ref-type="supplementary-material" rid="pgen.1007845.s011">S2</xref>&#x2013;<xref ref-type="supplementary-material" rid="pgen.1007845.s013">S4 Movies</xref>). (<bold>H)</bold> Graph showing average durations of escape response in <italic>nup88</italic> mutants and wild-types. * p &lt; 0.05, ** p &lt; 0.004, *** p = 0.001, n.s. = non-significant, two-tailed Fisher exact test (<bold>B</bold> and <bold>G</bold>) or two-tailed <italic>t</italic>-test (<bold>C-E, H</bold>). Data in <bold>C-E</bold> and <bold>H</bold> are shown as mean &#xB1; SD. n is number of embryos/larvae analyzed.</p>
+          </caption>
+          <graphic xlink:href="pgen.1007845.g005"/>
+        </fig>
+        <p>We next performed touch-evoked escape response assays at 3 dpf and 4 dpf. At 3 dpf, percentages of responsive animals and response duration were not significantly different between wild-type and <italic>nup88</italic> mutant larvae (<xref ref-type="supplementary-material" rid="pgen.1007845.s004">S3B Fig</xref>). At 4 dpf, percentages of responsive animals were also not significantly different between wild-type and <italic>nup88</italic> mutant larvae (<xref ref-type="fig" rid="pgen.1007845.g005">Fig 5F</xref>), however, the response duration among the larvae that moved was significantly reduced in homozygous <italic>nup88</italic> mutants in comparison to wild-type zebrafish. Interestingly also heterozygous <italic>nup88</italic> mutants showed a shortened response duration, although less significant (<xref ref-type="fig" rid="pgen.1007845.g005">Fig 5G and 5H</xref> and <xref ref-type="supplementary-material" rid="pgen.1007845.s011">S2</xref>&#x2013;<xref ref-type="supplementary-material" rid="pgen.1007845.s013">S4 Movies</xref>).</p>
+      </sec>
+      <sec id="sec009">
+        <title>FADS-related mutations in <italic>NUP88</italic> alter NUP88 interactions</title>
+        <p>Next we wanted to assess whether the <italic>NUP88</italic> mutations identified in the individuals with FADS interfere with the recruitment of NUP88 to NPCs. Due to a lack of relevant cell lines and the limited availability of tissue samples from affected fetuses, we performed immunofluorescence microscopy of GFP-tagged NUP88 proteins. Upon expression in HeLa cells, wild-type NUP88 and all mutants were co-localizing with the NPC marker mAb414, although recruitment of the NUP88 p.R509* and p.E634del mutants to NPCs appeared reduced compared to wild-type NUP88 and the p.D434Y mutant (<xref ref-type="supplementary-material" rid="pgen.1007845.s005">S4A Fig</xref>). Moreover, all forms of NUP88 also localized partially to the cytoplasm, as previously seen for NUP88 overexpression [<xref rid="pgen.1007845.ref002" ref-type="bibr">2</xref>, <xref rid="pgen.1007845.ref012" ref-type="bibr">12</xref>], and NUP88 p.R509* to the nucleoplasm (<xref ref-type="supplementary-material" rid="pgen.1007845.s005">S4A Fig</xref>). To define the effect of the mutations in NUP88 on the interface with its binding partners NUP214, NUP98 and NUP62, we employed GFP trap affinity purification in combination with Western blot analysis of lysates from HeLa cells expressing the GFP-NUP88 mutants. We found that NUP88 and the p.D434Y mutant co-purified NUP214 and NUP62, while the p.R509* and the p.E634del mutant did not so (<xref ref-type="fig" rid="pgen.1007845.g006">Fig 6A</xref>). Binding of NUP214 to GFP alone was similar as compared to the p.R509* and the p.E634del mutants, indicating some non-specific binding of the NUP214 and/or the antibodies to GFP. The disrupted interaction between NUP88 and NUP214, however, did not impair NUP214 localization at NPCs (<xref ref-type="fig" rid="pgen.1007845.g006">Fig 6B</xref>), whereas NUP62 association with NPCs was reduced in cells expressing NUP88 E634del (<xref ref-type="fig" rid="pgen.1007845.g006">Fig 6C</xref>). Our GFP trap assays further showed that NUP98 associated with NUP88 and all mutant forms (<xref ref-type="fig" rid="pgen.1007845.g006">Fig 6A</xref>). Consequently, NUP98 association with NPCs appeared unaffected in cells expressing NUP88 mutants (<xref ref-type="fig" rid="pgen.1007845.g006">Fig 6D</xref>). Furthermore, the disease-related mutations in <italic>NUP88</italic> did not affect the organization of the nuclear envelope as revealed by immunofluorescence analysis of lamin A/C (LA/C;<xref ref-type="supplementary-material" rid="pgen.1007845.s005">S4B Fig</xref>), Western blots analysis of protein levels of lamin A/C and GST-pull-down down assays with NUP88 and the p.D434Y mutant (<xref ref-type="supplementary-material" rid="pgen.1007845.s005">S4C and S4D Fig</xref> and <xref ref-type="supplementary-material" rid="pgen.1007845.s001">S1 Methods</xref>). Moreover and consistent with data from higher vertebrates, NUP88 appears to not be essential for NPC integrity: immunolabelling of NPCs using a monoclonal antibody (mAb414) recognizing a subset of nucleoporins appears unaffected by the loss of <italic>nup88</italic> in <italic>D</italic>. <italic>rerio</italic> brain sections (<xref ref-type="supplementary-material" rid="pgen.1007845.s005">S4E Fig</xref> and <xref ref-type="supplementary-material" rid="pgen.1007845.s001">S1 Methods</xref>) and in muscle histology sections of individual B.II.2 (<xref ref-type="supplementary-material" rid="pgen.1007845.s005">S4F Fig</xref>). Additionally, depletion of NUP88 from HeLa cells using siRNAs had no visible effect on the distribution of lamin A/C (LA/C) and the NE marker proteins emerin, Nesprin-1, Nesprin-2, Sun1, and Sun2 (<xref ref-type="supplementary-material" rid="pgen.1007845.s006">S5 Fig</xref>).</p>
+        <fig id="pgen.1007845.g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007845.g006</object-id>
+          <label>Fig 6</label>
+          <caption>
+            <title>NUP88 mutants have distinct effects on NUP88 nucleoporin partners.</title>
+            <p>(<bold>A</bold>) GFP-trap assays to study the effects of NUP88 mutants on its interaction with NUP214, NUP62 and NUP98. GFP and GFP-NUP88 fusion proteins were transiently expressed in HeLa cells. After 48 h, GFP proteins and associated factors were recovered from cell lysates and probed by Western blot analysis using antibodies against Nup214, NUP62, and NUP98. Successful transfection and expression of the proteins was confirmed by probing with antibodies against GFP. GFP proteins had the following size: GFP-NUP88 WT, D434Y, and E634del: ~115 (88 + 27) kDa; GFP-NUP88 R509*: 83 (56 + 27) kDa; GFP: 27 kDa. (<bold>B-D</bold>) HeLa cells were transiently transfected with GFP-constructs of the respective NUP88 mutant and fixed and stained after 48 h for immunofluorescence microscopy using (<bold>B</bold>) anti-NUP214, (<bold>C</bold>) anti-NUP62, and (<bold>D</bold>) anti-NUP98 antibodies. Only NUP88 E634del affects NUP62 association with NPCs. Scale bars: 10 &#x3BC;m.</p>
+          </caption>
+          <graphic xlink:href="pgen.1007845.g006"/>
+        </fig>
+        <p>As NUP88 is critically involved in CRM1-dependent nuclear export of proteins, we further asked whether the mutations in NUP88 affect nuclear import and/or export, but we observed no defects in general nuclear protein import or export (<xref ref-type="supplementary-material" rid="pgen.1007845.s007">S6A Fig</xref>) or the three CRM1 targets mTOR, p62/SQSTM and TFEB (<xref ref-type="supplementary-material" rid="pgen.1007845.s007">S6B Fig</xref>).</p>
+      </sec>
+      <sec id="sec010">
+        <title>Loss of NUP88 affects rapsyn levels and localization</title>
+        <p>Impeded formation of AChR clusters at the neuromuscular junction (NMJ) is one cause of FADS. Given the central role of rapsyn in AChR clustering and in FADS [<xref rid="pgen.1007845.ref017" ref-type="bibr">17</xref>, <xref rid="pgen.1007845.ref018" ref-type="bibr">18</xref>, <xref rid="pgen.1007845.ref021" ref-type="bibr">21</xref>], we therefore asked whether a loss of NUP88 function would negatively affect rapsyn and depleted NUP88 by siRNAs from HeLa and C2C12 cells and monitored protein levels of rapsyn by Western blotting. As shown in <xref ref-type="fig" rid="pgen.1007845.g007">Fig 7A</xref>, depletion of NUP88 from HeLa cells in fact coincided with a decrease in rapsyn levels. Similarly, reduced rapsyn levels were observed in C2C12 cells depleted for NUP88 using siRNAs (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7B and 7C</xref>) and shRNAs (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7C</xref>). Quantification revealed that siRNA treatment led to reduction of NUP88 by 80&#x2013;90% and at the same time a reduction of rapsyn by 40&#x2013;60% (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7C</xref>). In contrast to that, NUP88 downregulation had no effect on MuSK levels, another key player in FADS [<xref rid="pgen.1007845.ref020" ref-type="bibr">20</xref>], and no effect on known NUP88 targets, such as CRM1 and NF-&#x3BA;B levels (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7A and 7B</xref>). Muscle biopsy of affected individual B.II.2 and immunohistochemistry on paraffin sections furthermore showed weaker staining and irregular distribution of rapsyn in the cytoplasm in comparison to biopsy samples from a control fetus (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7D</xref>). Rapsyn is known to not only localize to the plasma membrane, but also to the cytoplasm [<xref rid="pgen.1007845.ref034" ref-type="bibr">34</xref>&#x2013;<xref rid="pgen.1007845.ref036" ref-type="bibr">36</xref>]. Rapsyn protein levels could not be determined in zebrafish due to a lack of antibodies, but qRT-PCR analyses revealed a reduction of <italic>rapsn</italic> mRNA by about 20%, while <italic>nup88</italic> mRNA levels were reduced by about 90% (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7E</xref>).</p>
+        <fig id="pgen.1007845.g007" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1007845.g007</object-id>
+          <label>Fig 7</label>
+          <caption>
+            <title>Loss of functional NUP88 affects rapsyn expression as well as AChR clustering.</title>
+            <p>(<bold>A</bold>) HeLa and (<bold>B</bold>) C2C12 cells were treated with the indicated siRNAs for 2 days and cellular lysates were subjected to Western blot analysis using antibodies against NUP88, CRM1, MuSK, NF-kB, and rapsyn. GAPDH was used as loading control. Rapsyn protein levels are reduced in NUP88-depleted cells. Note MuSK has a predicted molecular weight of 97 kDa, but migrates higher [<xref rid="pgen.1007845.ref020" ref-type="bibr">20</xref>]. (<bold>C</bold>) Quantification of the respective expression levels of NUP88 and rapsyn after transfection of HeLa and C2C12 cells with the indicated siRNAs and shRNA-mediated depletion of NUP88 in C2C12 cells. Blots from three independent experiments for each condition were analyzed. Data present mean &#xB1; SEM. P-values ****&lt;0.0001, ***&lt;0.001; **&lt;0.01, *&lt;0.05; t-test, one-tailed. (<bold>D</bold>) Bright-field images of histological muscle sections from individual B.II.2 and a control fetus stained with anti-rapsyn antibodies (brown). Nuclei were visualized by hematoxylin. (<bold>E</bold>) qRT-PCR analysis of <italic>nup88</italic> and <italic>rapsn</italic> transcripts in 5 dpf wild-type and <italic>nup88</italic><sup><italic>-/-</italic></sup> larvae. (<bold>F</bold>) Skeletal muscle organization remains unaffected in <italic>nup88</italic><sup><italic>-/-</italic></sup> zebrafish larvae. Larvae were prepared at 5 dpf for transmission electron microscopy. Skeletal muscle of WT and mutant zebrafish show intact myofibril alignment with their regularly stacked Z-line and clearly identifiable H- and I-zones. Shown are representative longitudinal sections of skeletal muscle from <italic>nup88</italic><sup><italic>+/+</italic></sup> and <italic>nup88</italic><sup><italic>-/-</italic></sup> larvae, respectively. Scale bar, 1 &#x3BC;m. (<bold>G</bold>) Anterior trunk regions of wild-type (left) and <italic>nup88</italic> heterozygous and homozygous mutant larvae were stained with antibodies against the AChR and secondary Alexa 488 antibodies. AChR cluster size was significantly reduced in <italic>nup88</italic><sup><italic>-/-</italic></sup> larvae as compared to <italic>nup88</italic><sup><italic>+/+</italic></sup> and <italic>nup88</italic><sup><italic>+/-</italic></sup> larvae (higher magnification insets). Insets are taken from the marked area in the respective overview image. Inset for <italic>nup88</italic><sup><italic>-/-</italic></sup> was rotated by 180&#xB0;. Scale bars, 50 &#x3BC;m (overview), 5 &#x3BC;m (insets). (<bold>H</bold>) Quantification of the AChR size in 4 dpf <italic>nup88</italic><sup><italic>+/+</italic></sup> (n = 8), <italic>nup88</italic><sup><italic>+/-</italic></sup> (n = 14), and <italic>nup88</italic><sup><italic>-/-</italic></sup> (n = 12) larvae. Per larvae 100 clusters throughout z-stacks of confocal images were manually measured using ImageJ. Data present mean &#xB1; SD. P-values ****&lt;0.0001, ***&lt;0.001; t-test, one-tailed.</p>
+          </caption>
+          <graphic xlink:href="pgen.1007845.g007"/>
+        </fig>
+        <p>Consistent with reduced rapsyn levels, we observed impaired AChR clustering in fast-twitch muscle fiber synapses, but not in myoseptal synapses of the 5 dpf zebrafish trunk (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7G</xref>). Quantification of the size of individual AChR cluster in WT and mutant zebrafish revealed that the diameter of the AChR clusters was significantly reduced in <italic>nup88</italic><sup><italic>-/-</italic></sup> larvae as compared to <italic>nup88</italic><sup><italic>+/+</italic></sup> larvae (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7H</xref>). Interestingly, AChR cluster size was also reduced in <italic>nup88</italic><sup><italic>+/-</italic></sup> larvae, both in comparison to WT and <italic>nup88</italic><sup><italic>-/-</italic></sup> larvae. This reduced size of AChR clusters in the heterozygotes may account for the observed defects in touch-evoke response (<xref ref-type="fig" rid="pgen.1007845.g005">Fig 5H</xref>). In accordance with impaired neuromuscular junction formation as a consequence of loss of <italic>nup88</italic>, muscle organization in zebrafish appeared indistinguishable in electron micrographs from <italic>nup88</italic><sup><italic>+/+</italic></sup> and <italic>nup88</italic><sup><italic>-/-</italic></sup> larvae (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7F</xref>). Similarly, in affected fetus B.II.2 skeletal muscle structure was, based on the autopsy report, intact. Thus, both <italic>in vitro</italic> and <italic>in vivo</italic> evidence support the notion that loss-of-function of NUP88 has a negative effect on rapsyn, which likely affects AChR clustering and proper formation of neuromuscular junctions.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions" id="sec011">
+      <title>Discussion</title>
+      <p>Here, we have identified biallelic homozygous and compound heterozygous mutations in <italic>NUP88</italic> as a cause of fetal akinesia. We demonstrate that the mutations in <italic>NUP88</italic> lead to a loss-of-function phenotype, which coincides with reduced spontaneous motor activity and touch-evoked escape response in zebrafish. Consistent with the fact that the mutations in NUP88 affect different regions of the protein, we observed distinct effects of the mutants on binding to NUP214 and NUP62 in GFP-trap assays, whereas binding to NUP98 appears indistinguishable between wild-type and mutant forms of NUP88 (<xref ref-type="fig" rid="pgen.1007845.g006">Fig 6A</xref>). This suggests that impaired interaction with partner nucleoporins may contribute, but are unlikely to be causative for NUP88 malfunction in FADS. Our data further suggest that NUP88 malfunction in FADS is at least in part due to dysfunctional rapsyn, a known key player in FADS, and consequently impaired AChR clustering and neuromuscular junction formation. Muscle integrity, in contrast, appears grossly unaffected by a loss of NUP88.</p>
+      <p>Genetic disruption of <italic>nup88</italic> in zebrafish led to pleiotropic morphological defects, including micrognathia, smaller head and eyes, distortion of the body axis, and aplastic swim bladder (Figs <xref ref-type="fig" rid="pgen.1007845.g003">3</xref> and <xref ref-type="fig" rid="pgen.1007845.g004">4</xref>), and to impaired locomotor behavior (<xref ref-type="fig" rid="pgen.1007845.g005">Fig 5</xref>). These phenotypes parallel defects observed in human fetuses affected by FADS, such as reduced fetal movement, micrognathia, joint contractures and lung hypoplasia (for detailed comparison see <xref rid="pgen.1007845.t002" ref-type="table">Table 2</xref>). The reduced head and eye size likely originates from increased apoptosis of neuronal cells (<xref ref-type="fig" rid="pgen.1007845.g003">Fig 3D</xref>). <italic>nup88</italic> inactivation affected spontaneous movement of zebrafish from 4 dpf onwards, which resembles the onset of symptoms in the affected fetuses at about week 18 of gestation. The impaired touch-evoked response seen in the mutant zebrafish further matches the absence of reflex response observed in at least some fetuses (Family A, I.2 and B.F., personal communication). Rescue experiments in zebrafish with wild-type or <italic>nup88</italic> mutants revealed that none of the mutant mRNA could restore a wild-type-like phenotype (<xref ref-type="fig" rid="pgen.1007845.g004">Fig 4</xref>), indicating that <italic>NUP88</italic> mutations in individuals affected with FADS are loss-of-function variants. The zebrafish model developed here therefore provides a valuable <italic>in vivo</italic> system to further test <italic>nup88</italic> deficiency. This in turn will be key in understanding the role of NUP88 in the etiology of FADS and its function in embryonic development.</p>
+      <table-wrap id="pgen.1007845.t002" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pgen.1007845.t002</object-id>
+        <label>Table 2</label>
+        <caption>
+          <title>Phenotypic similarities between <italic>nup88</italic><sup><italic>-/-</italic></sup> zebrafish and FADS fetuses.</title>
+        </caption>
+        <alternatives>
+          <graphic id="pgen.1007845.t002g" xlink:href="pgen.1007845.t002"/>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">
+                  <italic>Danio rerio</italic>
+                </th>
+                <th align="left" rowspan="1" colspan="1">FADS fetuses</th>
+                <th align="left" rowspan="1" colspan="1">Comments</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" style="border-top:thick" rowspan="1" colspan="1">Impaired locomotor behaviour</td>
+                <td align="left" style="border-top:thick" rowspan="1" colspan="1">Progressive akinesia</td>
+                <td align="left" style="border-top:thick" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Decreased head and eye size</td>
+                <td align="left" rowspan="1" colspan="1">Microcephaly</td>
+                <td align="left" rowspan="1" colspan="1">Not in all FADS cases examined</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Flat head without protruding mouth</td>
+                <td align="left" rowspan="1" colspan="1">Flat face</td>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Lack of pharyngeal arches, dysmorphic jaw</td>
+                <td align="left" rowspan="1" colspan="1">Micrognathia</td>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Curvature of the anterior-posterior axis</td>
+                <td align="left" rowspan="1" colspan="1">Multiple joint contractures, deformed limbs</td>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Aplastic swim bladder</td>
+                <td align="left" rowspan="1" colspan="1">Pulmonary hypoplasia</td>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </alternatives>
+      </table-wrap>
+      <p>Reduced rapsyn levels might partly cause fetal akinesia upon loss of NUP88. Rapsyn is one of the many contributing proteins required for the correct assembly of the AChR and is particularly involved in AChR assembly and localization to the cell membrane [<xref rid="pgen.1007845.ref037" ref-type="bibr">37</xref>, <xref rid="pgen.1007845.ref038" ref-type="bibr">38</xref>]. We observed reduced rapsyn protein levels in the absence of functional NUP88 in cellular assays using human and mouse cell lines in combination with siRNA and shRNA-mediated depletion of NUP88 (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7</xref>). Due to a lack of cell lines derived from affected individuals, we could analyze rapsyn only in histological sections from muscle of one affected fetus, which revealed a weaker staining for and a perturbed intracellular localization of rapsyn (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7D</xref>). Consistent with aberrant rapsyn expression, AChR clustering in trunk regions of <italic>nup88</italic><sup><italic>+/-</italic></sup> and <italic>nup88</italic><sup><italic>-/-</italic></sup> zebrafish was impaired (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7G and 7H</xref>). Rapsyn protein levels could not be determined in zebrafish due to a lack of antibodies, but qRT-PCR analyses revealed a reduction of its mRNA by about 20% (<xref ref-type="fig" rid="pgen.1007845.g007">Fig 7E</xref>). Our data therefore suggest that absence of functional NUP88 causes fetal akinesia at least in part through misregulation of rapsyn expression. How loss of NUP88 results in reduced rapsyn levels on a mechanistic level remains to be seen. Moreover, this likely is not the only pathway by which NUP88 acts in NMJs, as effects on only one cellular pathway would be indeed (i) very surprising for a nucleoporin <italic>per se</italic>, (ii) irreconcilable with the cranial defects observed in human and zebrafish, and (iii) not in line with the broad central nervous system expression pattern of <italic>nup88</italic> in zebrafish. Our data, however, demonstrate (i) that the <italic>nup88</italic> spectrum of phenotypes indeed include locomotor defects and that therefore NUP88 deficiencies might result in FADS in humans, and (ii) that human alleles are dysfunctional. We further observed that (iii) NMJ defects correlate to this phenotype. Whether this is the primary cause of akinesia is impossible to determine given the pleiotropic effects of Nup88 deficiency, but at least they are sufficient to explain the phenomenon. Further mechanistic details will be subject for future studies.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="sec012">
+      <title>Materials and methods</title>
+      <sec id="sec013">
+        <title>DNA sequencing family A</title>
+        <p>Exome sequencing in one affected baby (A.II.7) was performed at the Clinical Exome Sequencing (CES) at University of California, Los Angeles and the sequencing report is on hand. In total 22,843 DNA variants were identified, including 21,625 single nucleotide substitutions and 1,218 small deletions/insertions (1&#x2013;10 bp): the data were consistent with a high quality genomic sequence and fall within normal human genomic variation quality parameters. Estimated from these data, about 93% of the exome was reliably sequenced with at least 10x coverage. In total, 5 homozygous and 329 rare heterozygous protein-altering variants of uncertain clinical significance were identified across 313 genes. A rare autosomal-recessive model of inheritance with homozygous causative mutations due to consanguinity of the parents was assumed. After applying appropriate filters, a novel homozygous variant c.1300G&gt;T, p.D434Y in the <italic>NUP88</italic> gene [NM_002532.5] was identified in the subject&#x2019;s DNA. This variant had not been previously observed in the general population and was predicted to be deleterious/probably damaging by three <italic>in silico</italic> prediction algorithms (<xref ref-type="supplementary-material" rid="pgen.1007845.s008">S1 Table</xref>). Additionally, the homozygous mutation c.1300G&gt;T, p. D434Y in <italic>NUP88</italic> was confirmed in a second affected fetus A.II.5 by Sanger sequencing.</p>
+      </sec>
+      <sec id="sec014">
+        <title>DNA sequencing family B</title>
+        <p>Exome sequencing was performed on DNA from the proband B.II.2, both healthy sisters and both parents from the European family, as outlined previously [<xref rid="pgen.1007845.ref039" ref-type="bibr">39</xref>]. Exome enrichment was performed on DNA using an Ampliseq Whole Exome kit, (Thermo Fisher Scientific). Briefly, a total of 100 ng of DNA was amplified in 12 separate PCR pools, each containing ~25,000 primer pairs. After amplification, the individual reactions were pooled and digested to degrade the PCR primers. Next, barcoded sequencing adaptors were ligated and the library was purified using AMPure beads (Beckman Coulter), amplified and purified again and analyzed on a 2100 Bioanalyzer (Agilent Technologies). Libraries were diluted to 18&#x2013;26 pM and attached to Ion Sphere Particles (ISPs) using an Ion Proton Template 200 V3 kit and sequenced on a P1 sequencing chip for 520 flows on an Ion Proton sequencer (Ion Sequencing 200 kit V3). Two samples were pooled and sequenced on a single chip. Following sequencing, reads were trimmed to remove low quality bases from the 3&#x2019; end and mapped to the human genome reference sequence (HG19) using tmap (Torrent Suite 4.2). Variant calling was performed using the Torrent Variant Caller with custom settings optimized for whole exomes and the data was annotated using ion Reporter 4.0. Variants were filtered with ANNOVAR [<xref rid="pgen.1007845.ref040" ref-type="bibr">40</xref>] against ENCODE GENECODE v.19, 1000genomes (threshold &gt;0.5%), dbSNP138 common databases and against a list of in-house common variants. Genes with variants that fitted an autosomal recessive inheritance pattern and co-segregated with disease in the family were prioritized.</p>
+        <p><italic>NUP88</italic> was the only candidate gene that harbored variants compatible with an autosomal recessive inheritance pattern in this family (<xref ref-type="supplementary-material" rid="pgen.1007845.s002">S1B Fig</xref>). Individual B.II.2 was compound heterozygous for an in-frame 3 bp deletion in exon 14 (c.1899_1901del, p.E634del) and a nonsense mutation c.1525C&gt;T, p.R509* in exon 11. Mutation c.1899_1901del mutation was inherited on the maternal allele and the c.1525C&gt;T paternally. Healthy sister B.II.1 is heterozygous for the maternal mutation, healthy sister B.II.3 is a heterozygous carrier of the paternal mutation (<xref ref-type="fig" rid="pgen.1007845.g001">Fig 1A</xref>, pedigree Family B).</p>
+      </sec>
+      <sec id="sec015">
+        <title>Structure modelling</title>
+        <p>Human NUP88 protein sequence Q99567 (UniProt database) was used for structural investigation and modelling using an N-terminal and C-terminal part, according to predictions. Database search comparisons using HHPRed [<xref rid="pgen.1007845.ref041" ref-type="bibr">41</xref>&#x2013;<xref rid="pgen.1007845.ref045" ref-type="bibr">45</xref>] revealed as best hits for the N-terminal domain (NTD): Nuclear pore complex proteins Nup82 from <italic>S</italic>. <italic>cerevisiae</italic> and <italic>Chaetomium thermophilum</italic> (PDBid: 3pbp A, 3tkn_A and 5cww_B, respectively) and for the C-terminal domain (CTD) Nup57 from <italic>Chaetomium thermophilum</italic> (PDBid: 5cws E) and Nup54 from Homo sapiens (PDBid: 5ijn F). The high similarity to yeast and <italic>Chaetomium</italic> Nup82, the structures of which have been solved in part [<xref rid="pgen.1007845.ref046" ref-type="bibr">46</xref>&#x2013;<xref rid="pgen.1007845.ref048" ref-type="bibr">48</xref>] strongly indicate that the NTD also forms a &#xDF;-propeller and predictions suggest that the CTD is in an all helical arrangement (PsiPred and JPred4) [<xref rid="pgen.1007845.ref049" ref-type="bibr">49</xref>, <xref rid="pgen.1007845.ref050" ref-type="bibr">50</xref>]. In order to gain insight into the putative fold and the location of the disease-related residues identified in hsNUP88, four servers were used for structure prediction. Phyre2, Robetta, I-Tasser, RaptorX [<xref rid="pgen.1007845.ref051" ref-type="bibr">51</xref>&#x2013;<xref rid="pgen.1007845.ref057" ref-type="bibr">57</xref>] were supplied with either full length sequence or only the NTD (residues 1&#x2013;495) or CTD (residues 496&#x2013;741) in case of residue limitations or implausible models resulting from full length submission. All modelling was performed using standard settings. All figures were generated using Pymol.</p>
+      </sec>
+      <sec id="sec016">
+        <title>Zebrafish husbandry</title>
+        <p>Zebrafish (<italic>Danio rerio</italic>) were raised and bred at 28&#xB0;C on a 14 h/10 h light/dark cycle. Embryos and larvae were raised in egg water (0.3 g/l Instant Ocean Salt, 75 mg/l CaSO<sub>4</sub>; 1 mg/l Methylene Blue). The line carrying <italic>nup88</italic><sup><italic>sa2206</italic></sup> allele was obtained from Zebrafish Mutation Project, Knockouts for Disease Models (<ext-link ext-link-type="uri" xlink:href="http://www.sanger.ac.uk/sanger/Zebrafish_Zmpgene/ENSDARG00000003235#sa2206">http://www.sanger.ac.uk/sanger/Zebrafish_Zmpgene/ENSDARG00000003235#sa2206</ext-link>). Heterozygous fish for <italic>nup88</italic> were out crossed for four generations with wild-type fish before analysis. All animal experiments were performed in accordance with the rules of the State of Belgium (protocol approval number: CEBEA-IBMM-2017-22:65).</p>
+      </sec>
+      <sec id="sec017">
+        <title>RNA expression constructs</title>
+        <p>Capped messenger RNA was synthesized using the mMESSAGE mMACHINE kit (Ambion). The following expression plasmids were generated and used in this study: the full-length zebrafish <italic>nup88</italic> ORF was cloned from 48 hpf cDNA and recombined into BamHI-XhoI digested pCS2 using In-fusion cloning (TaKaRa). <italic>nup88</italic> mutants corresponding to the sequences identified in human fetal akinesia cases were generated by site-directed mutagenesis using QuikChange Lightning Site-Directed Mutagenesis Kit (Agilent Technologies). All primer sequences are listed in <xref ref-type="supplementary-material" rid="pgen.1007845.s009">S2 Table</xref>. mRNAs (300 pg) were injected at the one-cell stage.</p>
+      </sec>
+      <sec id="sec018">
+        <title>Genotyping and RT-PCR</title>
+        <p><italic>nup88</italic><sup><italic>sa2206</italic></sup> genotyping was performed by RFLP assay using MseI restriction of a 150 bp PCR product. Real-time PCR was done at various stages of embryonic and larval development (4-cell to 5 dpf). Primer sequences are listed in <xref ref-type="supplementary-material" rid="pgen.1007845.s009">S2 Table</xref>. Staging of embryos was performed according to [<xref rid="pgen.1007845.ref058" ref-type="bibr">58</xref>].</p>
+      </sec>
+      <sec id="sec019">
+        <title>Alcian blue staining</title>
+        <p>Alcian Blue staining and histology were performed as described elsewhere [<xref rid="pgen.1007845.ref059" ref-type="bibr">59</xref>].</p>
+        <p>All images were acquired using an Olympus SZX16 stereomicroscope and an Olympus XC50 camera using the imaging software Cell* after embryo anesthesia with a low dose of tricaine.</p>
+      </sec>
+      <sec id="sec020">
+        <title>Apoptosis assay using acridine orange in live embryos</title>
+        <p>Live embryos at 24 hpf, 36 hpf, 48 hpf were dechorionated and immersed in egg water containing 5 &#x3BC;g/ml acridine orange. They were incubated at 28.5&#xB0;C for 15 min in the dark and then thoroughly washed with egg water. Embryos were mounted in low-melting agarose for positioning and immediately imaged using an Axio Observer Z1-1 microscope. Images were processed using Zeiss Zen software.</p>
+      </sec>
+      <sec id="sec021">
+        <title>Behavioral assays in zebrafish embryos and larvae</title>
+        <p>Spontaneous tail coiling of 22&#x2013;24 hpf embryos, placed in the grooves of an agarose chamber, was recorded for 2 min at 30 frames per second. Coiling events were scored manually. To analyze spontaneous locomotion, 4 dpf larvae were placed into 96-well plates (one larva per well). Their behavior was recorded at 30 frames per second for 5 min and quantified using EthoVision XT 8.5 software (Noldus).</p>
+        <p>Touch-induced escape responses were analyzed in 4 dpf head-restrained larvae. Larvae were first embedded in 2% low melting point agarose, and then the agarose surrounding their tail was removed with a blade. Escape behavior was induced by touching the tail of larvae with a plastic pipette tip and recorded at 300 frames per second. Duration of behavioral responses was quantified with ImageJ.</p>
+      </sec>
+      <sec id="sec022">
+        <title>qRT-PCR on 5 dpf zebrafish larvae</title>
+        <p>Total RNA of 5 dpf <italic>nup88</italic> mutant and WT zebrafish larvae was extracted using TRIzol reagent (Invitrogen, Carlsbad, CA, USA) according to the manufacturer&#x2019;s protocol. Genomic DNA was eliminated prior to reverse transcription using PrimeScript RT Reagent Kit with gDNA Eraser (Perfect Real Time; RR047A, TaKaRa, Dalian, China). Total RNA (5&#x2009;&#x3BC;g) was next reverse-transcribed in 20&#x2009;&#x3BC;l final volume according to manufacturer&#x2019;s protocol. Primers for target genes (<xref ref-type="supplementary-material" rid="pgen.1007845.s009">S2 Table</xref>) were designed with Realtime PCR Tool by Integrated DNA Technologies, Inc (<ext-link ext-link-type="uri" xlink:href="https://eu.idtdna.com/scitools/Applications/RealTimePCR">https://eu.idtdna.com/scitools/Applications/RealTimePCR</ext-link>), and sequences were submitted to BLAST (<ext-link ext-link-type="uri" xlink:href="http://blast.ncbi.nlm.nih.gov/Blast.cgi">http://blast.ncbi.nlm.nih.gov/Blast.cgi</ext-link>).</p>
+        <p>Quantitative PCR was then performed using SYBR Premix Ex Taq TM II (Tli RNaseH Plus), Bulk kit (RR820L; Takara, Dalian, China). 1 &#x3BC;l of cDNA was used in each 20&#x2009;&#x3BC;l-PCR well with 300 nM primers pair final concentration. Each sample was assayed in triplicate and samples not reverse-transcribed were used as negative controls. Eight housekeeping genes were tested according to [<xref rid="pgen.1007845.ref060" ref-type="bibr">60</xref>] and the most stable combination was determined using qbase+ qPCR analysis software (<ext-link ext-link-type="uri" xlink:href="https://www.qbaseplus.com/">https://www.qbaseplus.com</ext-link>). <italic>actb2</italic>, <italic>gapdh</italic> and <italic>ybx1</italic> were the best combination of housekeeping genes at this stage of larval development and used for normalization.</p>
+        <p>Differences in amplification curves between the target genes and housekeeping genes were identified by comparing standard curve slopes. Real-Time PCR was performed using Applied Biosystems StepOnePlus Real-Time PCR System and PCR analyses were performed with qbase+ system software.</p>
+      </sec>
+      <sec id="sec023">
+        <title>Zebrafish immunostaining</title>
+        <p>For whole-mount immunostaining, zebrafish embryos were fixed in 4% PFA for 3 h at room temperature (RT), washed and permeabilized with proteinase K (40&#x3BC;g/ml) at 37&#xB0;C for 1 h. For blocking, larvae were gently shaken in PBS containing 10% of normal goat serum, 1% DMSO and 0.8% Triton X-100 for 1 h and then, incubated with the primary anti-acetylcholine receptor antibody (mouse mAb35 (DSHB, Hybridoma Bank; 1:100) overnight at 4&#xB0;C. After washing, larvae were incubated with the secondary antibody (anti-mouse IgG Alexa Fluor 594, 1:1000) for 2 h at RT and washed six times for 15 min in PBST prior to mounting and confocal imaging (Zeiss LSM710). Size of AChR cluster were determined using ImageJ.</p>
+      </sec>
+      <sec id="sec024">
+        <title>Transmission electron microscopy of zebrafish skeletal muscle</title>
+        <p>Skeletal muscle of 5 dpf <italic>nup88</italic><sup><italic>+/+</italic></sup> and <italic>nup88</italic><sup><italic>-/-</italic></sup> zebrafish larvae were analyzed by transmission electron microscopy on longitudinal and transversal ultrathin sections.</p>
+        <p>Briefly, larvae were fixed in 2.5% glutaraldehyde and 0.1 M sodium cacodylate buffer, pH 7.4 overnight at 4&#xB0;C and post-fixed in 1% osmium tetroxide, 1.5% ferrocyanide in 0.15 M cacodylate buffer for 1 h at RT. After serial dehydration in increasing ethanol concentrations, samples were embedded in agar 100 (Agar Scientific Ltd., UK) and left to polymerize for 2 days at 60&#xB0;C. Ultrathin sections (80 nm thick) were collected using a Leica EM UC6 ultramicrotome and stained with uranyl acetate and lead citrate. Images were recorded on a Tecnai10 electron microscope (FEI) equipped with an Olympus VELETA camera and processed using the AnalySIS software.</p>
+      </sec>
+      <sec id="sec025">
+        <title>Immunohistochemistry-paraffin (IHC-P) labelling of fetal muscle sections</title>
+        <p>Brain and skeletal muscle paraffin-embedded blocks were obtained from autopsy of individual B.II.2. Control tissues of a fetus of the same age without neuromuscular disorder were used for IHC-P. Written consent form for use of paraffin samples for functional analysis was signed by the parents. This study was performed according to the guidelines of the local ethics committee (Ghent University Hospital), which does not require formal review for the use of autopsy samples.</p>
+        <p>Blocks were cut with a microtome and 5 &#x3BC;m sections were mounted. Sections were deparaffinized and rehydrated. Heat-induced epitope retrieval was performed using Tris/EDTA, pH 9.0 for all tissues when using antibodies against rapsyn and with sodium citrate, pH 6.0 for anti-nucleoporin antibody mAb414. 0.3% H<sub>2</sub>O<sub>2</sub> for 20 min was used to block samples endogenous peroxidase followed by washes with PBS. Tissues were permeabilized using PBS containing 0.5% Triton X-100 for 5 min at RT and subsequently blocked with PBS containing 1% BSA for 30 min. Primary antibodies were diluted in blocking buffer and incubated overnight at 4&#xB0;C in a humidification chamber. Samples were washed in PBS for 10 min. Biotinylated goat anti-rabbit-Ig (1:400; DAKO-E0432) or biotinylated goat anti-mouse (1:400; DAKO-E0433) were added for 30 min.</p>
+        <p>After washing in PBS, samples were incubated 30 min with streptavidin-HRP (DAKO-P0397) diluted 1:300 in PBS and thoroughly washed with PBS. DAKO Liquid DAB+ Substrate Chromogen System K3468 (1ml substrate + 1 drop DAB) was added on samples and left until a brown coloring appeared (maximum 6 min). After several PBS washes, the samples were counterstained with hematoxylin for 15 seconds, washed thoroughly under running tap water to remove excess staining agent and mounted for subsequent observations with Aquatex. Images were acquired with an Olympus BX41 microscope and were processed using the Olympus cellSense software.</p>
+      </sec>
+      <sec id="sec026">
+        <title>Plasmids for studies in human cell lines</title>
+        <p>For all constructs, human <italic>NUP88</italic> was amplified by PCR. All constructs were verified by DNA sequencing. GFP-NUP88 was produced as described previously [<xref rid="pgen.1007845.ref002" ref-type="bibr">2</xref>]. FLAG-NUP88 was cloned into <italic>KpnI/XbaI</italic> cut <italic>pFLAG-CMV2</italic> (Sigma-Aldrich). GFP-NUP88 and FLAG-NUP88 mutants were generated by site-directed mutagenesis using the QuikChange Lightning site-directed mutagenesis kit (Agilent Technologies) following the manufacturer&#x2019;s instructions. Primers are listed in <xref ref-type="supplementary-material" rid="pgen.1007845.s009">S2 Table</xref>.</p>
+      </sec>
+      <sec id="sec027">
+        <title>Antibodies</title>
+        <p>The following polyclonal antibodies were used in this study for Western blotting (WB), immunofluorescence (IF) and immunohistochemistry (IHC): rabbit anti-NUP214 (Abcam, ab70497; WB 1:5000, IF 1:500), rabbit anti-lamin A (Sigma-Aldrich, L1293; WB 1:500), rabbit anti-rapsyn (Novus Biologicals, NBP1-85537; WB 1:500; IHC 1:200), rabbit anti-MuSK (ThermoScientific, PA5-14705; WB 1:1000), rabbit anti-GAPDH (Cell Signaling, 2118; WB 1:10.000), rabbit anti-actin (Sigma-Aldrich, A2066; WB 1:1000), rabbit anti-Nesprin1 (Sigma-Aldrich HPA019113; IF 1:250), rabbit anti-Nesprin2 (a kind gift of Dr. Iakowos Karakesisoglou; IF 1:50), rabbit anti-Sun1 (kind gift of Dr. Ulrike Kutay; IF 1:1000), rabbit anti-Sun2 (Sigma-Aldrich, HPA001209; IF 1:200), rabbit anti-emerin (Abcam, ab153718; IF 1:500), rabbit anti-NUP98 (Abcam, ab45584; WB 1:2000).</p>
+        <p>The following monoclonal antibodies were used in this study: mouse anti-Nup88 (BD Transduction Laboratories, 611896; IF 1:500), mouse mAb414 (Covance MMS-120R; IF 1:2000; IHC 1:100), mouse anti-NUP62 (Clone 53, BD Transduction Laboratories, 610497; WB 1: 3000, IF 1:500), mouse anti-lamin A/C (Abcam, ab8984; WB 1:300, IF 1:30), mouse anti-FLAG (Sigma-Aldrich F-3165; IF: 1:200), rat anti-NUP98 (Sigma-Aldrich, N1038; WB IF 1:1000), mouse anti-AChR (mAb35, DSHB, Hybridoma Bank; IF 1:100), rat anti-GFP (3H9, Chromotek; WB 1:1000).</p>
+        <p>Secondary antibodies for immunofluorescence were the corresponding goat anti-mouse-IgG Alexa 568 (1:1000; Invitrogen), goat anti-rabbit IgG Alexa 568 (1:1000; Invitrogen). Secondary antibodies were either alkaline phosphatase coupled antibodies from Sigma/Aldrich and used at 1:20.000 or HRP coupled antibodies from Cell Signaling Technology at 1:8000.</p>
+      </sec>
+      <sec id="sec028">
+        <title>Cell culture and transfections</title>
+        <p>All experiments were conducted in HeLa cells (provided by Robert D. Goldman, Feinberg School of Medicine, Northwestern University, Chicago, USA) grown in Dulbecco's modified Eagle's medium (DMEM), supplemented with 10% fetal bovine serum (FBS) plus penicillin and streptomycin. Cells were transfected with plasmids using Turbofect transfection reagent (Thermo Scientific Fermentas, St. Leon-Rot, Germany), Lipofectamine 2000 (Life Technologies Invitrogen, Gent, Belgium) or jetPRIME (Polyplus, Illkirch, France) and with siRNAs using Lipofectamine RNAiMAX (Life Technologies Invitrogen) following the instructions of the manufacturer. Smart-pool small interfering RNAs were obtained from Dharmacon (GE Healthcare Europe, Diegem, Belgium): human NUP88 (L-017547-01-0005), mouse NUP88 (L-054949-01-0005), and non-targeting siRNAs (D-001810-10).</p>
+      </sec>
+      <sec id="sec029">
+        <title>Immunofluorescence microscopy of HeLa cells</title>
+        <p>HeLa cells were grown on glass coverslips, transfected, fixed in 4% PFA in PBS for 5 min, permeabilized with 0.5% Triton-X-100 in PBS for 5 min and then fixed again. Blocking was performed with 2% BSA/0.1% Triton-X-100 in PBS for 30 min at RT. Primary antibodies were incubated at 4&#xB0;C over-night in a humidified chamber. Secondary antibodies were incubated 1 h at RT in the dark. Excess antibodies after primary and secondary antibody staining were removed by three washing steps using 0.1% Triton-X-100 in PBS for 5 min. Cells were imaged using a Zeiss LSM 710 (Zeiss, Oberkochen, Germany) confocal laser scanning microscope with Zeiss Plan-Apochromat 63x/1.4 oil objective. Images were acquired using the microscope system software and processed using Image J and Adobe Photoshop (Adobe Systems, Mountain View, CA).</p>
+      </sec>
+      <sec id="sec030">
+        <title>GFP-trap assay</title>
+        <p>HeLa cells, grown in a 10 cm dish, were transfected with GFP and GFP-NUP88 wild-type and mutant variants, respectively. Cells were grown for 48 h at 37&#xB0;C in a humidified atmosphere with 5% CO<sub>2</sub>. To harvest cells, growth medium was aspirated off, 1 ml of ice-cold PBS was added to cells and cells were scraped from dish. The cells were transferred to a pre-cooled tube, centrifuged at 500 xg for 3 min at 4&#xB0;C and the supernatant was discarded. The cell pellet was washed twice with ice-cold PBS. Pellets were subsequently lysed with 200 &#x3BC;l of ice-cold lysis buffer (10 mM Tris/HCl, pH 7.5, 150 mM NaCl, 0.5 mM EDTA, 0.5% NP-40, protease-phosphatase inhibitor) using a syringe before incubating on ice for 30 min. The tubes were centrifuged for 15 min at 16.000 xg at 4&#xB0;C and the supernatant was transferred into a new reaction tube.</p>
+        <p>Bradford assay was used to determine the protein concentration of the lysates and 300 &#x3BC;g of protein lysate adjusted to 500 &#x3BC;l in dilution buffer (10 mM Tris/HCl, pH 7.5, 150 mM NaCl, 0.5 mM EDTA, protease-phosphatase inhibitor) was added to 25 &#x3BC;l of GFP-Trap_MA beads (ChromoTek, Planegg-Martinsried, Germany). Beads were prewashed twice with dilution buffer. The beads and the lysates were incubated 1h at 4&#xB0;C on an end-to-end rotor. The magnetic beads were then washed three times in dilution buffer containing 150 mM, 250 mM and 500 mM NaCl following the addition of 20 &#x3BC;l of 2x SDS-sample buffer (120 mM Tris/HCl, pH 6.8, 20% glycerol, 4% SDS, 0.04% bromophenol blue, 10% &#x3B2;-mercaptoethanol) and boiling at 95&#xB0;C for 10 min. The eluates were subsequently loaded on to 7% polyacrylamide gels and Western blot was carried out (see below).</p>
+      </sec>
+      <sec id="sec031">
+        <title>Western blotting</title>
+        <p>HeLa and C2C12 (provided by Vincent Mouly, The Piti&#xE9;-Salp&#xEA;tri&#xE8;re Hospital, Institute of Myology, Paris, France) cells were lysed in lysis buffer (50 mM Tris-HCl, pH 7.8, 150 mM NaCl, 1% Nonidet-P40 and protease inhibitor cocktail tablets (Roche, Basel Switzerland)). 20 &#x3BC;g of protein were loaded and separated by sodium dodecyl sulfate-polyacrylamide (5% or 7%) gel electrophoresis (SDS-PAGE). The proteins were transferred onto a PVDF membrane (Immobilon-P, Millipore) and the membranes were blocked with TBS containing 0.1% Tween 20 and 5% non-fat dry milk for 1 h. The membranes were then incubated for 1 h in blocking solution containing a primary antibody followed by washing 3x in TBS containing 0.1% Tween 20 and 5% non-fat dry. The membranes were next incubated with secondary antibodies for 1 h, washed 3x in TBS and developed. X-ray films were scanned and processed using ImageJ.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="sec032">
+      <title>Supporting information</title>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s001">
+        <label>S1 Methods</label>
+        <caption>
+          <title>Supplementary methods.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s001.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s002">
+        <label>S1 Fig</label>
+        <caption>
+          <p>(A) Sanger sequencing chromatograms of control (left) and fetal (fetus 5, Family 1) DNA samples identifying the NM_002532.5 variant c.1300G&gt;T. Exome sequencing (B) of fetus 2, Family 2.</p>
+          <p>(TIFF)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s002.tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s003">
+        <label>S2 Fig</label>
+        <caption>
+          <p>(A) Expression of nup88 in developing zebrafish. Transcripts of nup88 were analyzed by whole-mount in situ hybridization at the indicated developmental stages. nup88 transcripts are maternally deposited during zebrafish oogenesis (4-cell stage). nup88 is further expressed upon zygotic genome activation subsequently to mid-blastula transition (5 hpf and later). nup88 is ubiquitously expressed up to 16 hpf and from 24 hpf prominent in the eye, brain and anterior trunk. nup88 transcripts in somites are low (30 hpf&#x2014;72 hpf). (B) The presence of maternally deposited nup88 and zygotic nup88 transcripts was confirmed by RT-PCR at stages 4-cell to 5 dpf. actb2, gapdh and ybx1 were used as controls. (C) Acridine orange staining of the tail region of wild-type and nup88-/- mutants at 36 hpf. No major apoptotic events were detected. Shown are confocal images. Scale bars, 100 &#x3BC;m.</p>
+          <p>(TIFF)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s003.tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s004">
+        <label>S3 Fig</label>
+        <caption>
+          <p>(A) Spontaneous movement (coiling behavior) of 22&#x2013;24 hpf nup88+/+, nup88+/- and nup88-/- embryos is identical. (B) Touch response is not impaired in nup88 mutant larvae at 3 dpf stage of development. Quantification of percentages of larvae displaying touch-induced escape response (left) and response duration (right) in nup88+/+, nup88+/- and nup88-/- embryos. n.s., not significant, two-tailed t-test (A, B right) or two-tailed Fisher exact test (B left). Data are shown as mean &#xB1; SEM. n is number of embryos/larvae analyzed. (C) Quantification of body length after microinjection of wild-type or the respective mutant nup88 were at the one-cell stage. Body length was evaluated at 5 dpf and revealed non-statistically significant differences were detected. Data are shown as mean &#xB1; SEM. n is number of embryos/larvae analyzed.</p>
+          <p>(TIFF)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s004.tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s005">
+        <label>S4 Fig</label>
+        <caption>
+          <title>NUP88 binding properties and nuclear envelope organization of NUP88 mutants.</title>
+          <p>(<bold>A</bold>) All NUP88 mutants co-localize with the NPC-specific mAB414 antibodies in HeLa cells. Wild-type NUP88, NUP88 D434Y, and NUP88 E634del localize to the NE and the cytoplasm, whereas NUP88 R509* can additionally be found in the nucleus. (<bold>B</bold>) Nuclear envelope proteins remain unaffected in the presence of mutant NUP88 based on lamin A/C distribution in HeLa cells overexpressing GFP-NUP88 and GFP-NUP88 disease-related mutants. Cells in (<bold>A</bold>) and (<bold>B</bold>) were analyzed by indirect immunofluorescence microscopy. Shown are confocal sections on the midplane of the nuclear envelope. Scale bars, 10 &#x3BC;m. (<bold>C</bold>) Bacterially expressed glutathione-S-transferase (GST), GST-NUP88 and GST-NUP88D434Y were bound to prewashed glutathione sepharose beads and incubated with a total HeLa protein extract. Proteins were eluted using Laemmli buffer and bound and unbound fractions were analyzed by immunoblotting using anti-lamin A, anti-Nup214, and anti-actin antibodies. (<bold>D</bold>) HeLa cells transiently expressing green-fluorescent protein (GFP), GFP-NUP88 and GFP-NUP88 D434Y were lysed and subjected to Western blot analysis using anti-NUP88, anti-lamin A/C antibodies. Actin served as a loading control. NPCs show normal distribution in (<bold>E</bold>) the wild-type (WT) and <italic>nup88</italic><sup><italic>-/-</italic></sup> zebrafish as well as in (<bold>F</bold>) histological muscle sections from individual B.II.2 and a control fetus. Shown are confocal images of sagittal cryo-sections of the diencephalon of 5 dpf zebrafish larvae and bright-field images of paraffin-embedded skeletal muscle section, respectively. NPCs were visualized using the NPC-specific antibody mAB414 (red in (<bold>E)</bold>, brown in (<bold>F</bold>)). Scale bars: 5 &#x3BC;m (<bold>E</bold>), 20 &#x3BC;m (<bold>F</bold>).</p>
+          <p>(TIFF)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s005.tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s006">
+        <label>S5 Fig</label>
+        <caption>
+          <title>Depletion of NUP88 does not affect the integrity of the nuclear envelope.</title>
+          <p>Nuclear envelope proteins remain unaffected in cells depleted for NUP88. Lamin A/C, emerin, Nesprin 1, Nesprin 2, Sun1 and Sun2 distribution are similar in HeLa cells treated with control siRNA and siRNA against NUP88, respectively. Cells were analyzed by indirect immunofluorescence microscopy. Shown are confocal sections on the midplane of the nuclear envelope. Scale bars, 5 &#x3BC;m.</p>
+          <p>(TIFF)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s006.tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s007">
+        <label>S6 Fig</label>
+        <caption>
+          <title>Nucleocytoplasmic transport remains unaltered upon expression of the NUP88 variants.</title>
+          <p>Cells were transfected with plasmids coding for wild-type or mutant FLAG-tagged NUP88 and for the nucleocytoplasmic transport substrates NES-GFP-cNLS, NES-GFP-M9 and GFP-NES (<bold>A</bold>) or the CRM1-cargoes GFP-mTor, GFP-SQSTM and GFP-TFEB (<bold>B</bold>). After 24 h, cells were subjected to indirect immunofluorescence and analyzed by confocal microscopy.</p>
+          <p>(TIFF)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s007.tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s008">
+        <label>S1 Table</label>
+        <caption>
+          <title>Prediction tools.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s008.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s009">
+        <label>S2 Table</label>
+        <caption>
+          <title>Sequences of oligonucleotide primers used for PCR and Sanger DNA sequencing.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s009.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s010">
+        <label>S1 Movie</label>
+        <caption>
+          <title>Spontaneous tail coiling of <italic>nup88</italic><sup>+/+</sup>, <italic>nup88</italic><sup>+/-</sup> and <italic>nup88</italic><sup><italic>-/-</italic></sup> embryos at 22&#x2013;24 hpf.</title>
+          <p>Movies were recorded for 2 min at 30 frames per second.</p>
+          <p>(AVI)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s010.avi">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s011">
+        <label>S2 Movie</label>
+        <caption>
+          <title>Touch-induced escape response of 4 dpf head-restrained <italic>nup88</italic><sup>+/+</sup> larvae.</title>
+          <p>(AVI)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s011.avi">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s012">
+        <label>S3 Movie</label>
+        <caption>
+          <title>Touch-induced escape response of 4 dpf head-restrained <italic>nup88</italic><sup>+/-</sup> larvae.</title>
+          <p>(AVI)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s012.avi">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1007845.s013">
+        <label>S4 Movie</label>
+        <caption>
+          <title>Touch-induced escape response of 4 dpf head-restrained <italic>nup88</italic><sup>-/-</sup> larvae.</title>
+          <p>Movies 2&#x2013;4 were recorded at 300 frames per second.</p>
+          <p>(AVI)</p>
+        </caption>
+        <media xlink:href="pgen.1007845.s013.avi">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We are grateful to the families of the affected babies for participating with this work, clinicians and genetic counsellors for the sample collection and Clinical Exome Sequencing (CES) at UCLA for sharing exome sequencing results. We thank Dr. Robert Bryson-Richardson (Monash University, Australia) for advice concerning zebrafish muscle sections. We are grateful to Ulrike Kutay (ETH Z&#xFC;rich, Switzerland), Iakowos Karakesisoglou (Durham University, UK), Robert D. Goldman (Feinberg School of Medicine, Northwestern University Chicago, USA), and Shawn Ferguson (Yale School of Medicine, New Haven, USA) for sharing reagents. Confocal and TEM images were acquired at the CMMI, which is supported by the European Regional Development Fund (ERDF). A.F. is supported by The Helmholtz Association of German Research Centres.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pgen.1007845.ref001">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Dickmanns</surname><given-names>A</given-names></name>, <name><surname>Kehlenbach</surname><given-names>RH</given-names></name>, <name><surname>Fahrenkrog</surname><given-names>B</given-names></name>. <article-title>Nuclear Pore Complexes and Nucleocytoplasmic Transport: From Structure to Function to Disease</article-title>. <source>Int Rev Cell Mol Biol</source>. <year>2015</year>;<volume>320</volume>:<fpage>171</fpage>&#x2013;<lpage>233</lpage>. <pub-id pub-id-type="doi">10.1016/bs.ircmb.2015.07.010</pub-id> .<pub-id pub-id-type="pmid">26614874</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref002">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Lussi</surname><given-names>YC</given-names></name>, <name><surname>Hugi</surname><given-names>I</given-names></name>, <name><surname>Laurell</surname><given-names>E</given-names></name>, <name><surname>Kutay</surname><given-names>U</given-names></name>, <name><surname>Fahrenkrog</surname><given-names>B</given-names></name>. <article-title>The nucleoporin Nup88 is interacting with nuclear lamin A</article-title>. <source>Mol Biol Cell</source>. <year>2011</year>;<volume>22</volume>(<issue>7</issue>):<fpage>1080</fpage>&#x2013;<lpage>90</lpage>. Epub 2011/02/04. doi: mbc.E10-05-0463 [pii] <pub-id pub-id-type="doi">10.1091/mbc.E10-05-0463</pub-id> ; PubMed Central PMCID: PMC3069011.<pub-id pub-id-type="pmid">21289091</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref003">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Fornerod</surname><given-names>M</given-names></name>, <name><surname>van Deursen</surname><given-names>J</given-names></name>, <name><surname>van Baal</surname><given-names>S</given-names></name>, <name><surname>Reynolds</surname><given-names>A</given-names></name>, <name><surname>Davis</surname><given-names>D</given-names></name>, <name><surname>Murti</surname><given-names>KG</given-names></name>, <etal>et al</etal>
+<article-title>The human homologue of yeast CRM1 is in a dynamic subcomplex with CAN/Nup214 and a novel nuclear pore component Nup88</article-title>. <source>Embo J</source>. <year>1997</year>;<volume>16</volume>(<issue>4</issue>):<fpage>807</fpage>&#x2013;<lpage>16</lpage>. Epub 1997/02/17. <pub-id pub-id-type="doi">10.1093/emboj/16.4.807</pub-id> ; PubMed Central PMCID: PMC1169681.<pub-id pub-id-type="pmid">9049309</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref004">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Bastos</surname><given-names>R</given-names></name>, <name><surname>Ribas de Pouplana</surname><given-names>L</given-names></name>, <name><surname>Enarson</surname><given-names>M</given-names></name>, <name><surname>Bodoor</surname><given-names>K</given-names></name>, <name><surname>Burke</surname><given-names>B</given-names></name>. <article-title>Nup84, a novel nucleoporin that is associated with CAN/Nup214 on the cytoplasmic face of the nuclear pore complex</article-title>. <source>J Cell Biol</source>. <year>1997</year>;<volume>137</volume>(<issue>5</issue>):<fpage>989</fpage>&#x2013;<lpage>1000</lpage>. Epub 1997/06/02. ; PubMed Central PMCID: PMC2136229.<pub-id pub-id-type="pmid">9166401</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref005">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Griffis</surname><given-names>ER</given-names></name>, <name><surname>Xu</surname><given-names>S</given-names></name>, <name><surname>Powers</surname><given-names>MA</given-names></name>. <article-title>Nup98 localizes to both nuclear and cytoplasmic sides of the nuclear pore and binds to two distinct nucleoporin subcomplexes</article-title>. <source>Mol Biol Cell</source>. <year>2003</year>;<volume>14</volume>(<issue>2</issue>):<fpage>600</fpage>&#x2013;<lpage>10</lpage>. <pub-id pub-id-type="doi">10.1091/mbc.E02-09-0582</pub-id> .<pub-id pub-id-type="pmid">12589057</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref006">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Bernad</surname><given-names>R</given-names></name>, <name><surname>van der Velde</surname><given-names>H</given-names></name>, <name><surname>Fornerod</surname><given-names>M</given-names></name>, <name><surname>Pickersgill</surname><given-names>H</given-names></name>. <article-title>Nup358/RanBP2 attaches to the nuclear pore complex via association with Nup88 and Nup214/CAN and plays a supporting role in CRM1-mediated nuclear protein export</article-title>. <source>Mol Cell Biol</source>. <year>2004</year>;<volume>24</volume>(<issue>6</issue>):<fpage>2373</fpage>&#x2013;<lpage>84</lpage>. Epub 2004/03/03. <pub-id pub-id-type="doi">10.1128/MCB.24.6.2373-2384.2004</pub-id> ; PubMed Central PMCID: PMC355853.<pub-id pub-id-type="pmid">14993277</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref007">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Bernad</surname><given-names>R</given-names></name>, <name><surname>Engelsma</surname><given-names>D</given-names></name>, <name><surname>Sanderson</surname><given-names>H</given-names></name>, <name><surname>Pickersgill</surname><given-names>H</given-names></name>, <name><surname>Fornerod</surname><given-names>M</given-names></name>. <article-title>Nup214-Nup88 nucleoporin subcomplex is required for CRM1-mediated 60 S preribosomal nuclear export</article-title>. <source>J Biol Chem</source>. <year>2006</year>;<volume>281</volume>(<issue>28</issue>):<fpage>19378</fpage>&#x2013;<lpage>86</lpage>. Epub 2006/05/06. doi: M512585200 [pii] <pub-id pub-id-type="doi">10.1074/jbc.M512585200</pub-id> .<pub-id pub-id-type="pmid">16675447</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref008">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Hutten</surname><given-names>S</given-names></name>, <name><surname>Kehlenbach</surname><given-names>RH</given-names></name>. <article-title>Nup214 is required for CRM1-dependent nuclear protein export in vivo</article-title>. <source>Mol Cell Biol</source>. <year>2006</year>;<volume>26</volume>(<issue>18</issue>):<fpage>6772</fpage>&#x2013;<lpage>85</lpage>. <pub-id pub-id-type="doi">10.1128/MCB.00342-06</pub-id> .<pub-id pub-id-type="pmid">16943420</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref009">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Xylourgidis</surname><given-names>N</given-names></name>, <name><surname>Roth</surname><given-names>P</given-names></name>, <name><surname>Sabri</surname><given-names>N</given-names></name>, <name><surname>Tsarouhas</surname><given-names>V</given-names></name>, <name><surname>Samakovlis</surname><given-names>C</given-names></name>. <article-title>The nucleoporin Nup214 sequesters CRM1 at the nuclear rim and modulates NFkappaB activation in Drosophila</article-title>. <source>J Cell Sci</source>. <year>2006</year>;<volume>119</volume>(<issue>Pt 21</issue>):<fpage>4409</fpage>&#x2013;<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1242/jcs.03201</pub-id> .<pub-id pub-id-type="pmid">17032737</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref010">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>W&#xE4;lde</surname><given-names>S</given-names></name>, <name><surname>Kehlenbach</surname><given-names>RH</given-names></name>. <article-title>The Part and the Whole: functions of nucleoporins in nucleocytoplasmic transport</article-title>. <source>Trends Cell Biol</source>. <year>2011</year>;<volume>20</volume>(<issue>8</issue>):<fpage>461</fpage>&#x2013;<lpage>9</lpage>. Epub 2010/07/16. doi: S0962-8924(10)00084-X [pii] <pub-id pub-id-type="doi">10.1016/j.tcb.2010.05.001</pub-id> .<pub-id pub-id-type="pmid">20627572</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref011">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Takahashi</surname><given-names>N</given-names></name>, <name><surname>van Kilsdonk</surname><given-names>JW</given-names></name>, <name><surname>Ostendorf</surname><given-names>B</given-names></name>, <name><surname>Smeets</surname><given-names>R</given-names></name>, <name><surname>Bruggeman</surname><given-names>SW</given-names></name>, <name><surname>Alonso</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>Tumor marker nucleoporin 88kDa regulates nucleocytoplasmic transport of NF-kappaB</article-title>. <source>Biochem Biophys Res Commun</source>. <year>2008</year>;<volume>374</volume>(<issue>3</issue>):<fpage>424</fpage>&#x2013;<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbrc.2008.06.128</pub-id> .<pub-id pub-id-type="pmid">18621024</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref012">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Gould</surname><given-names>VE</given-names></name>, <name><surname>Orucevic</surname><given-names>A</given-names></name>, <name><surname>Zentgraf</surname><given-names>H</given-names></name>, <name><surname>Gattuso</surname><given-names>P</given-names></name>, <name><surname>Martinez</surname><given-names>N</given-names></name>, <name><surname>Alonso</surname><given-names>A</given-names></name>. <article-title>Nup88 (karyoporin) in human malignant neoplasms and dysplasias: correlations of immunostaining of tissue sections, cytologic smears, and immunoblot analysis</article-title>. <source>Hum Pathol</source>. <year>2002</year>;<volume>33</volume>(<issue>5</issue>):<fpage>536</fpage>&#x2013;<lpage>44</lpage>. Epub 2002/07/03. doi: S0046817702000254 [pii]. .<pub-id pub-id-type="pmid">12094380</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref013">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Naylor</surname><given-names>RM</given-names></name>, <name><surname>Jeganathan</surname><given-names>KB</given-names></name>, <name><surname>Cao</surname><given-names>X</given-names></name>, <name><surname>van Deursen</surname><given-names>JM</given-names></name>. <article-title>Nuclear pore protein NUP88 activates anaphase-promoting complex to promote aneuploidy</article-title>. <source>J Clin Invest</source>. <year>2016</year>;<volume>126</volume>(<issue>2</issue>):<fpage>543</fpage>&#x2013;<lpage>59</lpage>. <pub-id pub-id-type="doi">10.1172/JCI82277</pub-id>
+<pub-id pub-id-type="pmid">26731471</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref014">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Makise</surname><given-names>M</given-names></name>, <name><surname>Nakamura</surname><given-names>H</given-names></name>, <name><surname>Kuniyasu</surname><given-names>A</given-names></name>. <article-title>The role of vimentin in the tumor marker Nup88-dependent multinucleated phenotype</article-title>. <source>BMC Cancer</source>. <year>2018</year>;<volume>18</volume>(<issue>1</issue>):<fpage>519</fpage> Epub 2018/05/05. <pub-id pub-id-type="doi">10.1186/s12885-018-4454-y</pub-id>
+<pub-id pub-id-type="pmid">29724197</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref015">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Hall</surname><given-names>JG</given-names></name>. <article-title>Pena-Shokeir phenotype (fetal akinesia deformation sequence) revisited</article-title>. <source>Birth Defects Res A Clin Mol Teratol</source>. <year>2009</year>;<volume>85</volume>(<issue>8</issue>):<fpage>677</fpage>&#x2013;<lpage>94</lpage>. <pub-id pub-id-type="doi">10.1002/bdra.20611</pub-id> .<pub-id pub-id-type="pmid">19645055</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref016">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Hall</surname><given-names>JG</given-names></name>. <article-title>Analysis of Pena Shokeir phenotype</article-title>. <source>Am J Med Genet</source>. <year>1986</year>;<volume>25</volume>(<issue>1</issue>):<fpage>99</fpage>&#x2013;<lpage>117</lpage>. <pub-id pub-id-type="doi">10.1002/ajmg.1320250112</pub-id> .<pub-id pub-id-type="pmid">3541610</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref017">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Vogt</surname><given-names>J</given-names></name>, <name><surname>Harrison</surname><given-names>BJ</given-names></name>, <name><surname>Spearman</surname><given-names>H</given-names></name>, <name><surname>Cossins</surname><given-names>J</given-names></name>, <name><surname>Vermeer</surname><given-names>S</given-names></name>, <name><surname>ten Cate</surname><given-names>LN</given-names></name>, <etal>et al</etal>
+<article-title>Mutation analysis of CHRNA1, CHRNB1, CHRND, and RAPSN genes in multiple pterygium syndrome/fetal akinesia patients</article-title>. <source>Am J Hum Genet</source>. <year>2008</year>;<volume>82</volume>(<issue>1</issue>):<fpage>222</fpage>&#x2013;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1016/j.ajhg.2007.09.016</pub-id>
+<pub-id pub-id-type="pmid">18179903</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref018">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Winters</surname><given-names>L</given-names></name>, <name><surname>Van Hoof</surname><given-names>E</given-names></name>, <name><surname>De Catte</surname><given-names>L</given-names></name>, <name><surname>Van Den Bogaert</surname><given-names>K</given-names></name>, <name><surname>de Ravel</surname><given-names>T</given-names></name>, <name><surname>De Waele</surname><given-names>L</given-names></name>, <etal>et al</etal>
+<article-title>Massive parallel sequencing identifies RAPSN and PDHA1 mutations causing fetal akinesia deformation sequence</article-title>. <source>Eur J Paediatr Neurol</source>. <year>2017</year>;<volume>21</volume>(<issue>5</issue>):<fpage>745</fpage>&#x2013;<lpage>53</lpage>. Epub 2017/05/13. <pub-id pub-id-type="doi">10.1016/j.ejpn.2017.04.641</pub-id> .<pub-id pub-id-type="pmid">28495245</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref019">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Vogt</surname><given-names>J</given-names></name>, <name><surname>Morgan</surname><given-names>NV</given-names></name>, <name><surname>Marton</surname><given-names>T</given-names></name>, <name><surname>Maxwell</surname><given-names>S</given-names></name>, <name><surname>Harrison</surname><given-names>BJ</given-names></name>, <name><surname>Beeson</surname><given-names>D</given-names></name>, <etal>et al</etal>
+<article-title>Germline mutation in DOK7 associated with fetal akinesia deformation sequence</article-title>. <source>J Med Genet</source>. <year>2009</year>;<volume>46</volume>(<issue>5</issue>):<fpage>338</fpage>&#x2013;<lpage>40</lpage>. <pub-id pub-id-type="doi">10.1136/jmg.2008.065425</pub-id> .<pub-id pub-id-type="pmid">19261599</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref020">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Tan-Sindhunata</surname><given-names>MB</given-names></name>, <name><surname>Mathijssen</surname><given-names>IB</given-names></name>, <name><surname>Smit</surname><given-names>M</given-names></name>, <name><surname>Baas</surname><given-names>F</given-names></name>, <name><surname>de Vries</surname><given-names>JI</given-names></name>, <name><surname>van der Voorn</surname><given-names>JP</given-names></name>, <etal>et al</etal>
+<article-title>Identification of a Dutch founder mutation in MUSK causing fetal akinesia deformation sequence</article-title>. <source>Eur J Hum Genet</source>. <year>2015</year>;<volume>23</volume>(<issue>9</issue>):<fpage>1151</fpage>&#x2013;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1038/ejhg.2014.273</pub-id>
+<pub-id pub-id-type="pmid">25537362</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref021">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Michalk</surname><given-names>A</given-names></name>, <name><surname>Stricker</surname><given-names>S</given-names></name>, <name><surname>Becker</surname><given-names>J</given-names></name>, <name><surname>Rupps</surname><given-names>R</given-names></name>, <name><surname>Pantzar</surname><given-names>T</given-names></name>, <name><surname>Miertus</surname><given-names>J</given-names></name>, <etal>et al</etal>
+<article-title>Acetylcholine receptor pathway mutations explain various fetal akinesia deformation sequence disorders</article-title>. <source>Am J Hum Genet</source>. <year>2008</year>;<volume>82</volume>(<issue>2</issue>):<fpage>464</fpage>&#x2013;<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1016/j.ajhg.2007.11.006</pub-id>
+<pub-id pub-id-type="pmid">18252226</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref022">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Ravenscroft</surname><given-names>G</given-names></name>, <name><surname>Sollis</surname><given-names>E</given-names></name>, <name><surname>Charles</surname><given-names>AK</given-names></name>, <name><surname>North</surname><given-names>KN</given-names></name>, <name><surname>Baynam</surname><given-names>G</given-names></name>, <name><surname>Laing</surname><given-names>NG</given-names></name>. <article-title>Fetal akinesia: review of the genetics of the neuromuscular causes</article-title>. <source>J Med Genet</source>. <year>2011</year>;<volume>48</volume>(<issue>12</issue>):<fpage>793</fpage>&#x2013;<lpage>801</lpage>. <pub-id pub-id-type="doi">10.1136/jmedgenet-2011-100211</pub-id> .<pub-id pub-id-type="pmid">21984750</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref023">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Gaik</surname><given-names>M</given-names></name>, <name><surname>Flemming</surname><given-names>D</given-names></name>, <name><surname>von Appen</surname><given-names>A</given-names></name>, <name><surname>Kastritis</surname><given-names>P</given-names></name>, <name><surname>Mucke</surname><given-names>N</given-names></name>, <name><surname>Fischer</surname><given-names>J</given-names></name>, <etal>et al</etal>
+<article-title>Structural basis for assembly and function of the Nup82 complex in the nuclear pore scaffold</article-title>. <source>J Cell Biol</source>. <year>2015</year>;<volume>208</volume>(<issue>3</issue>):<fpage>283</fpage>&#x2013;<lpage>97</lpage>. Epub 2015/02/04. <pub-id pub-id-type="doi">10.1083/jcb.201411003</pub-id>
+<pub-id pub-id-type="pmid">25646085</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref024">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Fernandez-Martinez</surname><given-names>J</given-names></name>, <name><surname>Kim</surname><given-names>SJ</given-names></name>, <name><surname>Shi</surname><given-names>Y</given-names></name>, <name><surname>Upla</surname><given-names>P</given-names></name>, <name><surname>Pellarin</surname><given-names>R</given-names></name>, <name><surname>Gagnon</surname><given-names>M</given-names></name>, <etal>et al</etal>
+<article-title>Structure and Function of the Nuclear Pore Complex Cytoplasmic mRNA Export Platform</article-title>. <source>Cell</source>. <year>2016</year>;<volume>167</volume>(<issue>5</issue>):<fpage>1215</fpage>&#x2013;<lpage>28</lpage> e25. Epub 2016/11/15. <pub-id pub-id-type="doi">10.1016/j.cell.2016.10.028</pub-id>
+<pub-id pub-id-type="pmid">27839866</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref025">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>X</given-names></name>, <name><surname>Gu</surname><given-names>Q</given-names></name>, <name><surname>Lin</surname><given-names>L</given-names></name>, <name><surname>Li</surname><given-names>S</given-names></name>, <name><surname>Zhong</surname><given-names>S</given-names></name>, <name><surname>Li</surname><given-names>Q</given-names></name>, <etal>et al</etal>
+<article-title>Nucleoporin 62-like protein activates canonical Wnt signaling through facilitating the nuclear import of beta-catenin in zebrafish</article-title>. <source>Mol Cell Biol</source>. <year>2015</year>;<volume>35</volume>(<issue>7</issue>):<fpage>1110</fpage>&#x2013;<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1128/MCB.01181-14</pub-id>
+<pub-id pub-id-type="pmid">25605329</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref026">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Fung</surname><given-names>TK</given-names></name>, <name><surname>Chung</surname><given-names>MI</given-names></name>, <name><surname>Liang</surname><given-names>R</given-names></name>, <name><surname>Leung</surname><given-names>AY</given-names></name>. <article-title>Role of a novel zebrafish nup98 during embryonic development</article-title>. <source>Exp Hematol</source>. <year>2010</year>;<volume>38</volume>(<issue>11</issue>):<fpage>1014</fpage>&#x2013;<lpage>21</lpage> e1-2. <pub-id pub-id-type="doi">10.1016/j.exphem.2010.07.010</pub-id> .<pub-id pub-id-type="pmid">20696206</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref027">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Kettleborough</surname><given-names>RN</given-names></name>, <name><surname>Busch-Nentwich</surname><given-names>EM</given-names></name>, <name><surname>Harvey</surname><given-names>SA</given-names></name>, <name><surname>Dooley</surname><given-names>CM</given-names></name>, <name><surname>de Bruijn</surname><given-names>E</given-names></name>, <name><surname>van Eeden</surname><given-names>F</given-names></name>, <etal>et al</etal>
+<article-title>A systematic genome-wide analysis of zebrafish protein-coding gene function</article-title>. <source>Nature</source>. <year>2013</year>;<volume>496</volume>(<issue>7446</issue>):<fpage>494</fpage>&#x2013;<lpage>7</lpage>. Epub 2013/04/19. <pub-id pub-id-type="doi">10.1038/nature11992</pub-id>
+<pub-id pub-id-type="pmid">23594742</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref028">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Dooley</surname><given-names>CM</given-names></name>, <name><surname>Scahill</surname><given-names>C</given-names></name>, <name><surname>Fenyes</surname><given-names>F</given-names></name>, <name><surname>Kettleborough</surname><given-names>RN</given-names></name>, <name><surname>Stemple</surname><given-names>DL</given-names></name>, <name><surname>Busch-Nentwich</surname><given-names>EM</given-names></name>. <article-title>Multi-allelic phenotyping&#x2014;a systematic approach for the simultaneous analysis of multiple induced mutations</article-title>. <source>Methods</source>. <year>2013</year>;<volume>62</volume>(<issue>3</issue>):<fpage>197</fpage>&#x2013;<lpage>206</lpage>. Epub 2013/04/30. <pub-id pub-id-type="doi">10.1016/j.ymeth.2013.04.013</pub-id>
+<pub-id pub-id-type="pmid">23624102</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref029">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Yelick</surname><given-names>PC</given-names></name>, <name><surname>Schilling</surname><given-names>TF</given-names></name>. <article-title>Molecular dissection of craniofacial development using zebrafish</article-title>. <source>Crit Rev Oral Biol Med</source>. <year>2002</year>;<volume>13</volume>(<issue>4</issue>):<fpage>308</fpage>&#x2013;<lpage>22</lpage>. Epub 2002/08/23. .<pub-id pub-id-type="pmid">12191958</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref030">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Kimmel</surname><given-names>CB</given-names></name>, <name><surname>Miller</surname><given-names>CT</given-names></name>, <name><surname>Kruze</surname><given-names>G</given-names></name>, <name><surname>Ullmann</surname><given-names>B</given-names></name>, <name><surname>BreMiller</surname><given-names>RA</given-names></name>, <name><surname>Larison</surname><given-names>KD</given-names></name>, <etal>et al</etal>
+<article-title>The shaping of pharyngeal cartilages during early development of the zebrafish</article-title>. <source>Dev Biol</source>. <year>1998</year>;<volume>203</volume>(<issue>2</issue>):<fpage>245</fpage>&#x2013;<lpage>63</lpage>. Epub 1998/11/11. <pub-id pub-id-type="doi">10.1006/dbio.1998.9016</pub-id> .<pub-id pub-id-type="pmid">9808777</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref031">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Schilling</surname><given-names>TF</given-names></name>, <name><surname>Piotrowski</surname><given-names>T</given-names></name>, <name><surname>Grandel</surname><given-names>H</given-names></name>, <name><surname>Brand</surname><given-names>M</given-names></name>, <name><surname>Heisenberg</surname><given-names>CP</given-names></name>, <name><surname>Jiang</surname><given-names>YJ</given-names></name>, <etal>et al</etal>
+<article-title>Jaw and branchial arch mutants in zebrafish I: branchial arches</article-title>. <source>Development</source>. <year>1996</year>;<volume>123</volume>:<fpage>329</fpage>&#x2013;<lpage>44</lpage>. Epub 1996/12/01. .<pub-id pub-id-type="pmid">9007253</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref032">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Plaster</surname><given-names>N</given-names></name>, <name><surname>Sonntag</surname><given-names>C</given-names></name>, <name><surname>Busse</surname><given-names>CE</given-names></name>, <name><surname>Hammerschmidt</surname><given-names>M</given-names></name>. <article-title>p53 deficiency rescues apoptosis and differentiation of multiple cell types in zebrafish flathead mutants deficient for zygotic DNA polymerase delta1</article-title>. <source>Cell Death Differ</source>. <year>2006</year>;<volume>13</volume>(<issue>2</issue>):<fpage>223</fpage>&#x2013;<lpage>35</lpage>. Epub 2005/08/13. <pub-id pub-id-type="doi">10.1038/sj.cdd.4401747</pub-id> .<pub-id pub-id-type="pmid">16096653</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref033">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Menelaou</surname><given-names>E</given-names></name>, <name><surname>Husbands</surname><given-names>EE</given-names></name>, <name><surname>Pollet</surname><given-names>RG</given-names></name>, <name><surname>Coutts</surname><given-names>CA</given-names></name>, <name><surname>Ali</surname><given-names>DW</given-names></name>, <name><surname>Svoboda</surname><given-names>KR</given-names></name>. <article-title>Embryonic motor activity and implications for regulating motoneuron axonal pathfinding in zebrafish</article-title>. <source>Eur J Neurosci</source>. <year>2008</year>;<volume>28</volume>(<issue>6</issue>):<fpage>1080</fpage>&#x2013;<lpage>96</lpage>. Epub 2008/10/01. <pub-id pub-id-type="doi">10.1111/j.1460-9568.2008.06418.x</pub-id>
+<pub-id pub-id-type="pmid">18823502</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref034">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Engel</surname><given-names>AG</given-names></name>, <name><surname>Shen</surname><given-names>XM</given-names></name>, <name><surname>Selcen</surname><given-names>D</given-names></name>, <name><surname>Sine</surname><given-names>SM</given-names></name>. <article-title>Congenital myasthenic syndromes: pathogenesis, diagnosis, and treatment</article-title>. <source>Lancet Neurol</source>. <year>2015</year>;<volume>14</volume>(<issue>5</issue>):<fpage>420</fpage>&#x2013;<lpage>34</lpage>. Epub 2015/04/22. <pub-id pub-id-type="doi">10.1016/S1474-4422(15)00010-1</pub-id> .<pub-id pub-id-type="pmid">25792100</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref035">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Aittaleb</surname><given-names>M</given-names></name>, <name><surname>Chen</surname><given-names>PJ</given-names></name>, <name><surname>Akaaboune</surname><given-names>M</given-names></name>. <article-title>Failure of lysosome clustering and positioning in the juxtanuclear region in cells deficient in rapsyn</article-title>. <source>J Cell Sci</source>. <year>2015</year>;<volume>128</volume>(<issue>20</issue>):<fpage>3744</fpage>&#x2013;<lpage>56</lpage>. Epub 2015/09/04. <pub-id pub-id-type="doi">10.1242/jcs.172536</pub-id>
+<pub-id pub-id-type="pmid">26330529</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref036">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Ramarao</surname><given-names>MK</given-names></name>, <name><surname>Bianchetta</surname><given-names>MJ</given-names></name>, <name><surname>Lanken</surname><given-names>J</given-names></name>, <name><surname>Cohen</surname><given-names>JB</given-names></name>. <article-title>Role of rapsyn tetratricopeptide repeat and coiled-coil domains in self-association and nicotinic acetylcholine receptor clustering</article-title>. <source>J Biol Chem</source>. <year>2001</year>;<volume>276</volume>(<issue>10</issue>):<fpage>7475</fpage>&#x2013;<lpage>83</lpage>. Epub 2000/11/23. <pub-id pub-id-type="doi">10.1074/jbc.M009888200</pub-id> .<pub-id pub-id-type="pmid">11087759</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref037">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Sanes</surname><given-names>JR</given-names></name>, <name><surname>Lichtman</surname><given-names>JW</given-names></name>. <article-title>Induction, assembly, maturation and maintenance of a postsynaptic apparatus</article-title>. <source>Nat Rev Neurosci</source>. <year>2001</year>;<volume>2</volume>(<issue>11</issue>):<fpage>791</fpage>&#x2013;<lpage>805</lpage>. Epub 2001/11/21. <pub-id pub-id-type="doi">10.1038/35097557</pub-id> .<pub-id pub-id-type="pmid">11715056</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref038">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Burden</surname><given-names>SJ</given-names></name>. <article-title>Building the vertebrate neuromuscular synapse</article-title>. <source>J Neurobiol</source>. <year>2002</year>;<volume>53</volume>(<issue>4</issue>):<fpage>501</fpage>&#x2013;<lpage>11</lpage>. Epub 2002/11/19. <pub-id pub-id-type="doi">10.1002/neu.10137</pub-id> .<pub-id pub-id-type="pmid">12436415</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref039">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Ravenscroft</surname><given-names>G</given-names></name>. <article-title>Pathology provides clarity in the next-generation sequencing era</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>2015</year>;<volume>86</volume>(<issue>5</issue>):<fpage>479</fpage>&#x2013;<lpage>80</lpage>. Epub 2014/10/15. <pub-id pub-id-type="doi">10.1136/jnnp-2014-309564</pub-id> .<pub-id pub-id-type="pmid">25313263</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref040">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>K</given-names></name>, <name><surname>Li</surname><given-names>M</given-names></name>, <name><surname>Hakonarson</surname><given-names>H</given-names></name>. <article-title>ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</article-title>. <source>Nucleic Acids Res</source>. <year>2010</year>;<volume>38</volume>(<issue>16</issue>):<fpage>e164</fpage> Epub 2010/07/06. <pub-id pub-id-type="doi">10.1093/nar/gkq603</pub-id>
+<pub-id pub-id-type="pmid">20601685</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref041">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Alva</surname><given-names>V</given-names></name>, <name><surname>Nam</surname><given-names>SZ</given-names></name>, <name><surname>Soding</surname><given-names>J</given-names></name>, <name><surname>Lupas</surname><given-names>AN</given-names></name>. <article-title>The MPI bioinformatics Toolkit as an integrative platform for advanced protein sequence and structure analysis</article-title>. <source>Nucleic Acids Res</source>. <year>2016</year>;<volume>44</volume>(<issue>W1</issue>):<fpage>W410</fpage>&#x2013;<lpage>5</lpage>. Epub 2016/05/01. <pub-id pub-id-type="doi">10.1093/nar/gkw348</pub-id>
+<pub-id pub-id-type="pmid">27131380</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref042">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Hildebrand</surname><given-names>A</given-names></name>, <name><surname>Remmert</surname><given-names>M</given-names></name>, <name><surname>Biegert</surname><given-names>A</given-names></name>, <name><surname>Soding</surname><given-names>J</given-names></name>. <article-title>Fast and accurate automatic structure prediction with HHpred</article-title>. <source>Proteins</source>. <year>2009</year>;<volume>77</volume>
+<issue>Suppl 9</issue>:<fpage>128</fpage>&#x2013;<lpage>32</lpage>. Epub 2009/07/25. <pub-id pub-id-type="doi">10.1002/prot.22499</pub-id> .<pub-id pub-id-type="pmid">19626712</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref043">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Remmert</surname><given-names>M</given-names></name>, <name><surname>Biegert</surname><given-names>A</given-names></name>, <name><surname>Hauser</surname><given-names>A</given-names></name>, <name><surname>Soding</surname><given-names>J</given-names></name>. <article-title>HHblits: lightning-fast iterative protein sequence searching by HMM-HMM alignment</article-title>. <source>Nat Methods</source>. <year>2011</year>;<volume>9</volume>(<issue>2</issue>):<fpage>173</fpage>&#x2013;<lpage>5</lpage>. Epub 2011/12/27. <pub-id pub-id-type="doi">10.1038/nmeth.1818</pub-id> .<pub-id pub-id-type="pmid">22198341</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref044">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>Soding</surname><given-names>J</given-names></name>. <article-title>Protein homology detection by HMM-HMM comparison</article-title>. <source>Bioinformatics</source>. <year>2005</year>;<volume>21</volume>(<issue>7</issue>):<fpage>951</fpage>&#x2013;<lpage>60</lpage>. Epub 2004/11/09. <pub-id pub-id-type="doi">10.1093/bioinformatics/bti125</pub-id> .<pub-id pub-id-type="pmid">15531603</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref045">
+        <label>45</label>
+        <mixed-citation publication-type="journal"><name><surname>Soding</surname><given-names>J</given-names></name>, <name><surname>Biegert</surname><given-names>A</given-names></name>, <name><surname>Lupas</surname><given-names>AN</given-names></name>. <article-title>The HHpred interactive server for protein homology detection and structure prediction</article-title>. <source>Nucleic Acids Res</source>. <year>2005</year>;<volume>33</volume>(Web Server issue):<fpage>W244</fpage>&#x2013;<lpage>8</lpage>. Epub 2005/06/28. <pub-id pub-id-type="doi">10.1093/nar/gki408</pub-id>
+<pub-id pub-id-type="pmid">15980461</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref046">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><name><surname>Yoshida</surname><given-names>K</given-names></name>, <name><surname>Seo</surname><given-names>HS</given-names></name>, <name><surname>Debler</surname><given-names>EW</given-names></name>, <name><surname>Blobel</surname><given-names>G</given-names></name>, <name><surname>Hoelz</surname><given-names>A</given-names></name>. <article-title>Structural and functional analysis of an essential nucleoporin heterotrimer on the cytoplasmic face of the nuclear pore complex</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2011</year>;<volume>108</volume>(<issue>40</issue>):<fpage>16571</fpage>&#x2013;<lpage>6</lpage>. Epub 2011/09/21. doi: 1112846108 [pii] <pub-id pub-id-type="doi">10.1073/pnas.1112846108</pub-id> ; PubMed Central PMCID: PMC3189060.<pub-id pub-id-type="pmid">21930948</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref047">
+        <label>47</label>
+        <mixed-citation publication-type="journal"><name><surname>Lin</surname><given-names>DH</given-names></name>, <name><surname>Stuwe</surname><given-names>T</given-names></name>, <name><surname>Schilbach</surname><given-names>S</given-names></name>, <name><surname>Rundlet</surname><given-names>EJ</given-names></name>, <name><surname>Perriches</surname><given-names>T</given-names></name>, <name><surname>Mobbs</surname><given-names>G</given-names></name>, <etal>et al</etal>
+<article-title>Architecture of the symmetric core of the nuclear pore</article-title>. <source>Science</source>. <year>2016</year>;<volume>352</volume>(<issue>6283</issue>):aaf1015. Epub 2016/04/16. <pub-id pub-id-type="doi">10.1126/science.aaf1015</pub-id>
+<pub-id pub-id-type="pmid">27081075</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref048">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><name><surname>Stuwe</surname><given-names>T</given-names></name>, <name><surname>von Borzyskowski</surname><given-names>LS</given-names></name>, <name><surname>Davenport</surname><given-names>AM</given-names></name>, <name><surname>Hoelz</surname><given-names>A</given-names></name>. <article-title>Molecular basis for the anchoring of proto-oncoprotein Nup98 to the cytoplasmic face of the nuclear pore complex</article-title>. <source>J Mol Biol</source>. <year>2012</year>;<volume>419</volume>(<issue>5</issue>):<fpage>330</fpage>&#x2013;<lpage>46</lpage>. Epub 2012/04/07. <pub-id pub-id-type="doi">10.1016/j.jmb.2012.03.024</pub-id>
+<pub-id pub-id-type="pmid">22480613</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref049">
+        <label>49</label>
+        <mixed-citation publication-type="journal"><name><surname>Jones</surname><given-names>DT</given-names></name>. <article-title>Protein secondary structure prediction based on position-specific scoring matrices</article-title>. <source>J Mol Biol</source>. <year>1999</year>;<volume>292</volume>(<issue>2</issue>):<fpage>195</fpage>&#x2013;<lpage>202</lpage>. Epub 1999/09/24. <pub-id pub-id-type="doi">10.1006/jmbi.1999.3091</pub-id> .<pub-id pub-id-type="pmid">10493868</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref050">
+        <label>50</label>
+        <mixed-citation publication-type="journal"><name><surname>Drozdetskiy</surname><given-names>A</given-names></name>, <name><surname>Cole</surname><given-names>C</given-names></name>, <name><surname>Procter</surname><given-names>J</given-names></name>, <name><surname>Barton</surname><given-names>GJ</given-names></name>. <article-title>JPred4: a protein secondary structure prediction server</article-title>. <source>Nucleic Acids Res</source>. <year>2015</year>;<volume>43</volume>(<issue>W1</issue>):<fpage>W389</fpage>&#x2013;<lpage>94</lpage>. Epub 2015/04/18. <pub-id pub-id-type="doi">10.1093/nar/gkv332</pub-id>
+<pub-id pub-id-type="pmid">25883141</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref051">
+        <label>51</label>
+        <mixed-citation publication-type="journal"><name><surname>Kelley</surname><given-names>LA</given-names></name>, <name><surname>Mezulis</surname><given-names>S</given-names></name>, <name><surname>Yates</surname><given-names>CM</given-names></name>, <name><surname>Wass</surname><given-names>MN</given-names></name>, <name><surname>Sternberg</surname><given-names>MJ</given-names></name>. <article-title>The Phyre2 web portal for protein modeling, prediction and analysis</article-title>. <source>Nat Protoc</source>. <year>2015</year>;<volume>10</volume>(<issue>6</issue>):<fpage>845</fpage>&#x2013;<lpage>58</lpage>. Epub 2015/05/08. <pub-id pub-id-type="doi">10.1038/nprot.2015.053</pub-id>
+<pub-id pub-id-type="pmid">25950237</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref052">
+        <label>52</label>
+        <mixed-citation publication-type="journal"><name><surname>Kim</surname><given-names>DE</given-names></name>, <name><surname>Chivian</surname><given-names>D</given-names></name>, <name><surname>Baker</surname><given-names>D</given-names></name>. <article-title>Protein structure prediction and analysis using the Robetta server</article-title>. <source>Nucleic Acids Res</source>. <year>2004</year>;<volume>32</volume>(Web Server issue):<fpage>W526</fpage>&#x2013;<lpage>31</lpage>. Epub 2004/06/25. <pub-id pub-id-type="doi">10.1093/nar/gkh468</pub-id>
+<pub-id pub-id-type="pmid">15215442</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref053">
+        <label>53</label>
+        <mixed-citation publication-type="journal"><name><surname>Roy</surname><given-names>A</given-names></name>, <name><surname>Kucukural</surname><given-names>A</given-names></name>, <name><surname>Zhang</surname><given-names>Y</given-names></name>. <article-title>I-TASSER: a unified platform for automated protein structure and function prediction</article-title>. <source>Nat Protoc</source>. <year>2010</year>;<volume>5</volume>(<issue>4</issue>):<fpage>725</fpage>&#x2013;<lpage>38</lpage>. Epub 2010/04/03. <pub-id pub-id-type="doi">10.1038/nprot.2010.5</pub-id>
+<pub-id pub-id-type="pmid">20360767</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref054">
+        <label>54</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>J</given-names></name>, <name><surname>Yan</surname><given-names>R</given-names></name>, <name><surname>Roy</surname><given-names>A</given-names></name>, <name><surname>Xu</surname><given-names>D</given-names></name>, <name><surname>Poisson</surname><given-names>J</given-names></name>, <name><surname>Zhang</surname><given-names>Y</given-names></name>. <article-title>The I-TASSER Suite: protein structure and function prediction</article-title>. <source>Nat Methods</source>. <year>2015</year>;<volume>12</volume>(<issue>1</issue>):<fpage>7</fpage>&#x2013;<lpage>8</lpage>. Epub 2014/12/31. <pub-id pub-id-type="doi">10.1038/nmeth.3213</pub-id>
+<pub-id pub-id-type="pmid">25549265</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref055">
+        <label>55</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>Y</given-names></name>. <article-title>I-TASSER server for protein 3D structure prediction</article-title>. <source>BMC Bioinformatics</source>. <year>2008</year>;<volume>9</volume>:<fpage>40</fpage> Epub 2008/01/25. <pub-id pub-id-type="doi">10.1186/1471-2105-9-40</pub-id>
+<pub-id pub-id-type="pmid">18215316</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref056">
+        <label>56</label>
+        <mixed-citation publication-type="journal"><name><surname>Kallberg</surname><given-names>M</given-names></name>, <name><surname>Wang</surname><given-names>H</given-names></name>, <name><surname>Wang</surname><given-names>S</given-names></name>, <name><surname>Peng</surname><given-names>J</given-names></name>, <name><surname>Wang</surname><given-names>Z</given-names></name>, <name><surname>Lu</surname><given-names>H</given-names></name>, <etal>et al</etal>
+<article-title>Template-based protein structure modeling using the RaptorX web server</article-title>. <source>Nat Protoc</source>. <year>2012</year>;<volume>7</volume>(<issue>8</issue>):<fpage>1511</fpage>&#x2013;<lpage>22</lpage>. Epub 2012/07/21. <pub-id pub-id-type="doi">10.1038/nprot.2012.085</pub-id>
+<pub-id pub-id-type="pmid">22814390</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref057">
+        <label>57</label>
+        <mixed-citation publication-type="journal"><name><surname>Peng</surname><given-names>J</given-names></name>, <name><surname>Xu</surname><given-names>J</given-names></name>. <article-title>RaptorX: exploiting structure information for protein alignment by statistical inference</article-title>. <source>Proteins</source>. <year>2011</year>;<volume>79</volume>
+<issue>Suppl 10</issue>:<fpage>161</fpage>&#x2013;<lpage>71</lpage>. Epub 2011/10/12. <pub-id pub-id-type="doi">10.1002/prot.23175</pub-id>
+<pub-id pub-id-type="pmid">21987485</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref058">
+        <label>58</label>
+        <mixed-citation publication-type="journal"><name><surname>Kimmel</surname><given-names>CB</given-names></name>, <name><surname>Ballard</surname><given-names>WW</given-names></name>, <name><surname>Kimmel</surname><given-names>SR</given-names></name>, <name><surname>Ullmann</surname><given-names>B</given-names></name>, <name><surname>Schilling</surname><given-names>TF</given-names></name>. <article-title>Stages of embryonic development of the zebrafish</article-title>. <source>Dev Dyn</source>. <year>1995</year>;<volume>203</volume>(<issue>3</issue>):<fpage>253</fpage>&#x2013;<lpage>310</lpage>. Epub 1995/07/01. <pub-id pub-id-type="doi">10.1002/aja.1002030302</pub-id> .<pub-id pub-id-type="pmid">8589427</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref059">
+        <label>59</label>
+        <mixed-citation publication-type="journal"><name><surname>Jao</surname><given-names>LE</given-names></name>, <name><surname>Appel</surname><given-names>B</given-names></name>, <name><surname>Wente</surname><given-names>SR</given-names></name>. <article-title>A zebrafish model of lethal congenital contracture syndrome 1 reveals Gle1 function in spinal neural precursor survival and motor axon arborization</article-title>. <source>Development</source>. <year>2012</year>;<volume>139</volume>(<issue>7</issue>):<fpage>1316</fpage>&#x2013;<lpage>26</lpage>. Epub 2012/02/24. <pub-id pub-id-type="doi">10.1242/dev.074344</pub-id>
+<pub-id pub-id-type="pmid">22357925</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1007845.ref060">
+        <label>60</label>
+        <mixed-citation publication-type="journal"><name><surname>Casadei</surname><given-names>R</given-names></name>, <name><surname>Pelleri</surname><given-names>MC</given-names></name>, <name><surname>Vitale</surname><given-names>L</given-names></name>, <name><surname>Facchin</surname><given-names>F</given-names></name>, <name><surname>Lenzi</surname><given-names>L</given-names></name>, <name><surname>Canaider</surname><given-names>S</given-names></name>, <etal>et al</etal>
+<article-title>Identification of housekeeping genes suitable for gene expression analysis in the zebrafish</article-title>. <source>Gene Expr Patterns</source>. <year>2011</year>;<volume>11</volume>(<issue>3&#x2013;4</issue>):<fpage>271</fpage>&#x2013;<lpage>6</lpage>. Epub 2011/02/02. <pub-id pub-id-type="doi">10.1016/j.gep.2011.01.003</pub-id> .<pub-id pub-id-type="pmid">21281742</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

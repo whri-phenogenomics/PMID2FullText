@@ -1,0 +1,464 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3">
+  <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Am J Hum Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Am J Hum Genet</journal-id>
+      <journal-title-group>
+        <journal-title>American Journal of Human Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0002-9297</issn>
+      <issn pub-type="epub">1537-6605</issn>
+      <publisher>
+        <publisher-name>Elsevier</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35948005</article-id>
+      <article-id pub-id-type="pmc">9502070</article-id>
+      <article-id pub-id-type="pii">S0002-9297(22)00310-X</article-id>
+      <article-id pub-id-type="doi">10.1016/j.ajhg.2022.07.006</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Report</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A reverse genetics and genomics approach to gene paralog function and disease: Myokymia and the juxtaparanode</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="au1">
+          <name>
+            <surname>Marafi</surname>
+            <given-names>Dana</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="fn3" ref-type="fn">36</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au2">
+          <name>
+            <surname>Kozar</surname>
+            <given-names>Nina</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+          <xref rid="fn3" ref-type="fn">36</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au3">
+          <name>
+            <surname>Duan</surname>
+            <given-names>Ruizhi</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au4">
+          <name>
+            <surname>Bradley</surname>
+            <given-names>Stephen</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au5">
+          <name>
+            <surname>Yokochi</surname>
+            <given-names>Kenji</given-names>
+          </name>
+          <xref rid="aff4" ref-type="aff">4</xref>
+          <xref rid="aff5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au6">
+          <name>
+            <surname>Al Mutairi</surname>
+            <given-names>Fuad</given-names>
+          </name>
+          <xref rid="aff6" ref-type="aff">6</xref>
+          <xref rid="aff7" ref-type="aff">7</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au7">
+          <name>
+            <surname>Saadi</surname>
+            <given-names>Nebal Waill</given-names>
+          </name>
+          <xref rid="aff8" ref-type="aff">8</xref>
+          <xref rid="aff9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au8">
+          <name>
+            <surname>Whalen</surname>
+            <given-names>Sandra</given-names>
+          </name>
+          <xref rid="aff10" ref-type="aff">10</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au9">
+          <name>
+            <surname>Brunet</surname>
+            <given-names>Theresa</given-names>
+          </name>
+          <xref rid="aff11" ref-type="aff">11</xref>
+          <xref rid="aff12" ref-type="aff">12</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au10">
+          <name>
+            <surname>Kotzaeridou</surname>
+            <given-names>Urania</given-names>
+          </name>
+          <xref rid="aff13" ref-type="aff">13</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au11">
+          <name>
+            <surname>Choukair</surname>
+            <given-names>Daniela</given-names>
+          </name>
+          <xref rid="aff14" ref-type="aff">14</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au12">
+          <name>
+            <surname>Keren</surname>
+            <given-names>Boris</given-names>
+          </name>
+          <xref rid="aff15" ref-type="aff">15</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au13">
+          <name>
+            <surname>Nava</surname>
+            <given-names>Caroline</given-names>
+          </name>
+          <xref rid="aff15" ref-type="aff">15</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au14">
+          <name>
+            <surname>Kato</surname>
+            <given-names>Mitsuhiro</given-names>
+          </name>
+          <xref rid="aff16" ref-type="aff">16</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au15">
+          <name>
+            <surname>Arai</surname>
+            <given-names>Hiroshi</given-names>
+          </name>
+          <xref rid="aff17" ref-type="aff">17</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au16">
+          <name>
+            <surname>Froukh</surname>
+            <given-names>Tawfiq</given-names>
+          </name>
+          <xref rid="aff18" ref-type="aff">18</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au17">
+          <name>
+            <surname>Faqeih</surname>
+            <given-names>Eissa Ali</given-names>
+          </name>
+          <xref rid="aff19" ref-type="aff">19</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au18">
+          <name>
+            <surname>AlAsmari</surname>
+            <given-names>Ali M.</given-names>
+          </name>
+          <xref rid="aff19" ref-type="aff">19</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au19">
+          <name>
+            <surname>Saleh</surname>
+            <given-names>Mohammed M.</given-names>
+          </name>
+          <xref rid="aff19" ref-type="aff">19</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au20">
+          <name>
+            <surname>Pinto e Vairo</surname>
+            <given-names>Filippo</given-names>
+          </name>
+          <xref rid="aff20" ref-type="aff">20</xref>
+          <xref rid="aff21" ref-type="aff">21</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au21">
+          <name>
+            <surname>Pichurin</surname>
+            <given-names>Pavel N.</given-names>
+          </name>
+          <xref rid="aff21" ref-type="aff">21</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au22">
+          <name>
+            <surname>Klee</surname>
+            <given-names>Eric W.</given-names>
+          </name>
+          <xref rid="aff20" ref-type="aff">20</xref>
+          <xref rid="aff21" ref-type="aff">21</xref>
+          <xref rid="aff22" ref-type="aff">22</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au23">
+          <name>
+            <surname>Schmitz</surname>
+            <given-names>Christopher T.</given-names>
+          </name>
+          <xref rid="aff23" ref-type="aff">23</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au24">
+          <name>
+            <surname>Grochowski</surname>
+            <given-names>Christopher M.</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au25">
+          <name>
+            <surname>Mitani</surname>
+            <given-names>Tadahiro</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="fn1" ref-type="fn">34</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au26">
+          <name>
+            <surname>Herman</surname>
+            <given-names>Isabella</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff24" ref-type="aff">24</xref>
+          <xref rid="aff25" ref-type="aff">25</xref>
+          <xref rid="fn2" ref-type="fn">35</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au27">
+          <name>
+            <surname>Calame</surname>
+            <given-names>Daniel G.</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff24" ref-type="aff">24</xref>
+          <xref rid="aff25" ref-type="aff">25</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au28">
+          <name>
+            <surname>Fatih</surname>
+            <given-names>Jawid M.</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au29">
+          <name>
+            <surname>Du</surname>
+            <given-names>Haowei</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au30">
+          <name>
+            <surname>Coban-Akdemir</surname>
+            <given-names>Zeynep</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff26" ref-type="aff">26</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au31">
+          <name>
+            <surname>Pehlivan</surname>
+            <given-names>Davut</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff24" ref-type="aff">24</xref>
+          <xref rid="aff25" ref-type="aff">25</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au32">
+          <name>
+            <surname>Jhangiani</surname>
+            <given-names>Shalini N.</given-names>
+          </name>
+          <xref rid="aff27" ref-type="aff">27</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au33">
+          <name>
+            <surname>Gibbs</surname>
+            <given-names>Richard A.</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff27" ref-type="aff">27</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au34">
+          <name>
+            <surname>Miyatake</surname>
+            <given-names>Satoko</given-names>
+          </name>
+          <xref rid="aff28" ref-type="aff">28</xref>
+          <xref rid="aff29" ref-type="aff">29</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au35">
+          <name>
+            <surname>Matsumoto</surname>
+            <given-names>Naomichi</given-names>
+          </name>
+          <xref rid="aff28" ref-type="aff">28</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au36">
+          <name>
+            <surname>Wagstaff</surname>
+            <given-names>Laura J.</given-names>
+          </name>
+          <xref rid="aff33" ref-type="aff">33</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au37">
+          <name>
+            <surname>Posey</surname>
+            <given-names>Jennifer E.</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au38">
+          <name>
+            <surname>Lupski</surname>
+            <given-names>James R.</given-names>
+          </name>
+          <email>jlupski@bcm.edu</email>
+          <xref rid="aff2" ref-type="aff">2</xref>
+          <xref rid="aff25" ref-type="aff">25</xref>
+          <xref rid="aff27" ref-type="aff">27</xref>
+          <xref rid="aff30" ref-type="aff">30</xref>
+          <xref rid="fn4" ref-type="fn">37</xref>
+          <xref rid="cor1" ref-type="corresp">&#x2217;</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au39">
+          <name>
+            <surname>Meijer</surname>
+            <given-names>Dies</given-names>
+          </name>
+          <email>dies.meijer@ed.ac.uk</email>
+          <xref rid="aff3" ref-type="aff">3</xref>
+          <xref rid="fn4" ref-type="fn">37</xref>
+          <xref rid="cor2" ref-type="corresp">&#x2217;&#x2217;</xref>
+        </contrib>
+        <contrib contrib-type="author" id="au40">
+          <name>
+            <surname>Wagner</surname>
+            <given-names>Matias</given-names>
+          </name>
+          <xref rid="aff31" ref-type="aff">31</xref>
+          <xref rid="aff32" ref-type="aff">32</xref>
+          <xref rid="fn4" ref-type="fn">37</xref>
+        </contrib>
+        <aff id="aff1"><label>1</label>Department of Pediatrics, Faculty of Medicine, Kuwait University, P.O. Box 24923, Safat 13110, Kuwait</aff>
+        <aff id="aff2"><label>2</label>Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA</aff>
+        <aff id="aff3"><label>3</label>Centre for Discovery Brain Sciences, University of Edinburgh, Edinburgh, UK</aff>
+        <aff id="aff4"><label>4</label>Department of Pediatrics, Toyohashi Municipal Hospital, Toyohashi, Aichi 441-8570, Japan</aff>
+        <aff id="aff5"><label>5</label>Department of Pediatrics, Seirei Mikatahara General Hospital, Shizuoka 433-8558, Japan</aff>
+        <aff id="aff6"><label>6</label>Genetics and Precision Medicine Department, King Abdullah Specialized Children&#x2019;s Hospital, King Abdulaziz Medical City, Ministry of National Guard Health Affairs, P.O. Box 22490, Riyadh 11426, Kingdom of Saudi Arabia</aff>
+        <aff id="aff7"><label>7</label>King Abdullah International Research Center, King Saud Bin Abdulaziz University for Health Sciences, Ministry of National Guard Health Affairs, Riyadh, Kingdom of Saudi Arabia</aff>
+        <aff id="aff8"><label>8</label>College of Medicine, University of Baghdad, Baghdad 10001, Iraq</aff>
+        <aff id="aff9"><label>9</label>Children Welfare Teaching Hospital, Medical City Complex, Baghdad 10001, Iraq</aff>
+        <aff id="aff10"><label>10</label>UF de G&#xE9;n&#xE9;tique Clinique et Centre de Reference Anomalies du D&#xE9;veloppement et Syndromes Malformatifs, APHP, Sorbonne Universit&#xE9;, H&#xF4;pital Trousseau, 75005 Paris, France</aff>
+        <aff id="aff11"><label>11</label>Institute of Human Genetics, Faculty of Medicine, Technical University Munich, Munich, Germany</aff>
+        <aff id="aff12"><label>12</label>Institute of Human Genetics, Helmholtz Zentrum M&#xFC;nchen, Neuherberg, Germany</aff>
+        <aff id="aff13"><label>13</label>Division of Child Neurology and Inherited Metabolic Diseases, Centre for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg, Germany</aff>
+        <aff id="aff14"><label>14</label>Division of Pediatric Endocrinology, Centre for Pediatrics and Adolescent Medicine, University Hospital Heidelberg, Heidelberg, Germany</aff>
+        <aff id="aff15"><label>15</label>D&#xE9;partement de G&#xE9;n&#xE9;tique, H&#xF4;pital Piti&#xE9;-Salp&#xEA;tri&#xE8;re, Assistance Publique - H&#xF4;pitaux de Paris, Paris 75013, France</aff>
+        <aff id="aff16"><label>16</label>Department of Pediatrics, Showa University School of Medicine, Tokyo 142-8666, Japan</aff>
+        <aff id="aff17"><label>17</label>Department of Pediatric Neurology, Bobath Memorial Hospital, Osaka 536-0023, Japan</aff>
+        <aff id="aff18"><label>18</label>Department of Biotechnology and Genetic Engineering, Philadelphia University, Amman, Jordan</aff>
+        <aff id="aff19"><label>19</label>Section of Medical Genetics, King Fahad Medical City, Children&#x2019;s Specialist Hospital, Riyadh, Saudi Arabia</aff>
+        <aff id="aff20"><label>20</label>Center for Individualized Medicine, Mayo Clinic, Rochester, MN, USA</aff>
+        <aff id="aff21"><label>21</label>Department of Clinical Genomics, Mayo Clinic, Rochester, MN, USA</aff>
+        <aff id="aff22"><label>22</label>Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN, USA</aff>
+        <aff id="aff23"><label>23</label>Department of Biochemistry and Molecular Biology, Mayo Clinic, Rochester, MN, USA</aff>
+        <aff id="aff24"><label>24</label>Section of Pediatric Neurology and Developmental Neuroscience, Department of Pediatrics, Baylor College of Medicine, Houston, TX 77030, USA</aff>
+        <aff id="aff25"><label>25</label>Texas Children&#x2019;s Hospital, Houston, TX 77030, USA</aff>
+        <aff id="aff26"><label>26</label>Human Genetics Center, Department of Epidemiology, Human Genetics, and Environmental Sciences, School of Public Health, The University of Texas Health Science Center at Houston, Houston, TX, USA</aff>
+        <aff id="aff27"><label>27</label>Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX 77030, USA</aff>
+        <aff id="aff28"><label>28</label>Department of Human Genetics, Yokohama City University Graduate School of Medicine, Yokohama, Kanagawa 236-0004, Japan</aff>
+        <aff id="aff29"><label>29</label>Clinical Genetics Department, Yokohama City University Hospital, Yokohama, Kanagawa 236-0004, Japan</aff>
+        <aff id="aff30"><label>30</label>Department of Pediatrics, Baylor College of Medicine, Houston, TX 77030, USA</aff>
+        <aff id="aff31"><label>31</label>Institute for Neurogenomics, Helmholtz Zentrum M&#xFC;nchen, Neuherberg, Germany</aff>
+        <aff id="aff32"><label>32</label>Institute of Human Genetics, Technical University Munich, Munich, Germany</aff>
+        <aff id="aff33"><label>33</label>Centre for Regenerative Medicine, Institute for Regeneration and Repair, University of Edinburgh, Edinburgh, UK</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1"><label>&#x2217;</label>Corresponding author <email>jlupski@bcm.edu</email></corresp>
+        <corresp id="cor2"><label>&#x2217;&#x2217;</label>Corresponding author <email>dies.meijer@ed.ac.uk</email></corresp>
+        <fn id="fn1">
+          <label>34</label>
+          <p id="ntpara0010">Present address: Department of Pediatrics, Jichi Medical University, 3311-1 Yakushiji, Shimotsuke, Tochigi, 329-0498, Japan</p>
+        </fn>
+        <fn id="fn2">
+          <label>35</label>
+          <p id="ntpara0015">Present address: Department of Neurosciences, Boys Town National Research Hospital, Boys Town, NE 68010, USA</p>
+        </fn>
+        <fn id="fn3">
+          <label>36</label>
+          <p id="ntpara0020">These authors contributed equally</p>
+        </fn>
+        <fn id="fn4">
+          <label>37</label>
+          <p id="ntpara0025">These authors contributed equally</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>01</day>
+        <month>9</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>09</day>
+        <month>8</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>109</volume>
+      <issue>9</issue>
+      <fpage>1713</fpage>
+      <lpage>1723</lpage>
+      <history>
+        <date date-type="received">
+          <day>27</day>
+          <month>3</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>1</day>
+          <month>7</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2022.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder/>
+      </permissions>
+      <abstract id="abs0010">
+        <title>Summary</title>
+        <p>The leucine-rich glioma-inactivated (LGI) family consists of four highly conserved paralogous genes, <italic>LGI1-4</italic>, that are highly expressed in mammalian central and/or peripheral nervous systems. LGI1 antibodies are detected in subjects with autoimmune limbic encephalitis and peripheral nerve hyperexcitability syndromes (PNHSs) such as Isaacs and Morvan syndromes. Pathogenic variations of <italic>LGI1</italic> and <italic>LGI4</italic> are associated with neurological disorders as disease traits including familial temporal lobe epilepsy and neurogenic arthrogryposis multiplex congenita 1 with myelin defects, respectively. No human disease has been reported associated with either <italic>LGI2</italic> or <italic>LGI3</italic>. We implemented exome sequencing and family-based genomics to identify individuals with deleterious variants in <italic>LGI3</italic> and utilized GeneMatcher to connect practitioners and researchers worldwide to investigate the clinical and electrophysiological phenotype in affected subjects. We also generated <italic>Lgi3</italic>-null mice and performed peripheral nerve dissection and immunohistochemistry to examine the juxtaparanode LGI3 microarchitecture. As a result, we identified 16 individuals from eight unrelated families with loss-of-function (LoF) bi-allelic variants in <italic>LGI3</italic>. Deep phenotypic characterization showed <italic>LGI3</italic> LoF causes a potentially clinically recognizable PNHS trait characterized by global developmental delay, intellectual disability, distal deformities with diminished reflexes, visible facial myokymia, and distinctive electromyographic features suggestive of motor nerve instability. <italic>Lgi3</italic>-null mice showed reduced and mis-localized Kv1 channel complexes in myelinated peripheral axons. Our data demonstrate bi-allelic LoF variants in <italic>LGI3</italic> cause a clinically distinguishable disease trait of PNHS, most likely caused by disturbed Kv1 channel distribution in the absence of LGI3.</p>
+      </abstract>
+      <abstract abstract-type="graphical" id="abs0015">
+        <title>Graphical abstract</title>
+        <fig id="undfig1" position="anchor">
+          <graphic xlink:href="fx1"/>
+        </fig>
+      </abstract>
+      <abstract abstract-type="teaser" id="abs0020">
+        <p>Through the power of human paralog gene studies, worldwide family-based genomics analyses, and mouse studies, we define a potentially-recognizable peripheral hyperexcitability syndrome in 16 individuals with bi-allelic <italic>LGI3</italic> variants and show that LGI3 co-localizes with juxta-paranodal voltage-gated potassium channels and its loss results in mis-localization of potassium channel complexes.</p>
+      </abstract>
+      <kwd-group id="kwrds0010">
+        <title>Keywords</title>
+        <kwd>LGI3</kwd>
+        <kwd>peripheral nerve hyperexcitability syndromes</kwd>
+        <kwd>facial myokymia</kwd>
+        <kwd>neurobiology of disease</kwd>
+        <kwd>genomic rearrangement</kwd>
+        <kwd>gene and genome instability</kwd>
+        <kwd>bi-allelic variation</kwd>
+        <kwd>KCNA</kwd>
+        <kwd>multi-exonic CNV</kwd>
+        <kwd>potassium channel complexes</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <p id="misc0010">Published: August 9, 2022</p>
+    </notes>
+  </front>
+</article>
+</pmc-articleset>

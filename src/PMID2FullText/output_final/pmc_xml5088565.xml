@@ -1,0 +1,1211 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Genes Dev</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Genes Dev</journal-id>
+      <journal-id journal-id-type="hwp">genesdev</journal-id>
+      <journal-id journal-id-type="pmc">genesdev</journal-id>
+      <journal-id journal-id-type="publisher-id">GAD</journal-id>
+      <journal-title-group>
+        <journal-title>Genes &amp; Development</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0890-9369</issn>
+      <issn pub-type="epub">1549-5477</issn>
+      <publisher>
+        <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">27737959</article-id>
+      <article-id pub-id-type="pmc">5088565</article-id>
+      <article-id pub-id-type="medline">8711660</article-id>
+      <article-id pub-id-type="doi">10.1101/gad.286351.116</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Paper</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Mutations in genes encoding condensin complex proteins cause microcephaly through decatenation failure at mitosis</article-title>
+        <alt-title alt-title-type="left-running">Martin et al.</alt-title>
+        <alt-title alt-title-type="right-running">Mutations in condensins cause microcephaly</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Martin</surname>
+            <given-names>Carol-Anne</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="author-notes" rid="FN1">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Murray</surname>
+            <given-names>Jennie E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="author-notes" rid="FN1">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carroll</surname>
+            <given-names>Paula</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Leitch</surname>
+            <given-names>Andrea</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mackenzie</surname>
+            <given-names>Karen J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Halachev</surname>
+            <given-names>Mihail</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fetit</surname>
+            <given-names>Ahmed E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Keith</surname>
+            <given-names>Charlotte</given-names>
+          </name>
+          <xref ref-type="aff" rid="af2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bicknell</surname>
+            <given-names>Louise S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+          <xref ref-type="aff" rid="af3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fluteau</surname>
+            <given-names>Adeline</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gautier</surname>
+            <given-names>Philippe</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hall</surname>
+            <given-names>Emma A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Joss</surname>
+            <given-names>Shelagh</given-names>
+          </name>
+          <xref ref-type="aff" rid="af4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Soares</surname>
+            <given-names>Gabriela</given-names>
+          </name>
+          <xref ref-type="aff" rid="af5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Silva</surname>
+            <given-names>Jo&#xE3;o</given-names>
+          </name>
+          <xref ref-type="aff" rid="af6">6</xref>
+          <xref ref-type="aff" rid="af7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bober</surname>
+            <given-names>Michael B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Duker</surname>
+            <given-names>Angela</given-names>
+          </name>
+          <xref ref-type="aff" rid="af8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wise</surname>
+            <given-names>Carol A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af9">9</xref>
+          <xref ref-type="aff" rid="af10">10</xref>
+          <xref ref-type="aff" rid="af11">11</xref>
+          <xref ref-type="aff" rid="af12">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Quigley</surname>
+            <given-names>Alan J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Phadke</surname>
+            <given-names>Shubha R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <collab>The Deciphering Developmental Disorders Study</collab>
+          <xref ref-type="aff" rid="af15">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wood</surname>
+            <given-names>Andrew J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vagnarelli</surname>
+            <given-names>Paola</given-names>
+          </name>
+          <xref ref-type="aff" rid="af16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jackson</surname>
+            <given-names>Andrew P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1"><label>1</label>MRC Human Genetics Unit, Institute of Genetics and Molecular Medicine, University of Edinburgh, Edinburgh EH4 2XU, United Kingdom;</aff>
+      <aff id="af2"><label>2</label>South East Scotland Cytogenetics Service, Western General Hospital, Edinburgh EH4 2XU, United Kingdom;</aff>
+      <aff id="af3"><label>3</label>Department of Pathology, Dunedin School of Medicine, University of Otago, Dunedin 9054, New Zealand;</aff>
+      <aff id="af4"><label>4</label>West of Scotland Genetic Service, Southern General Hospital, Glasgow G51 4TF, United Kingdom;</aff>
+      <aff id="af5"><label>5</label>Centro de Gen&#xE9;tica M&#xE9;dica Doutor Jacinto Magalh&#xE3;es, Centro Hospitalar do Porto, 4099-028 Porto, Portugal;</aff>
+      <aff id="af6"><label>6</label>Instituto de Biologia Molecular e Celular (IBMC), 4150 Porto, Portugal;</aff>
+      <aff id="af7"><label>7</label>Instituto de Investiga&#xE7;&#xE3;o e Inova&#xE7;&#xE3;o em Sa&#xFA;de (I3S), Universidade do Porto, 4200-135 Porto, Portugal;</aff>
+      <aff id="af8"><label>8</label>Division of Genetics, Department of Pediatrics, A.I. duPont Hospital for Children, Wilmington, Delaware 19803, USA;</aff>
+      <aff id="af9"><label>9</label>Sarah M. and Charles E. Seay Center for Musculoskeletal Research, Texas Scottish Rite Hospital for Children, Dallas, Texas 75219, USA;</aff>
+      <aff id="af10"><label>10</label>Department of Orthopedic Surgery, Texas Scottish Rite Hospital for Children, Dallas, Texas 75219, USA;</aff>
+      <aff id="af11"><label>11</label>Department of Pediatrics, Texas Scottish Rite Hospital for Children, Dallas, Texas 75219, USA;</aff>
+      <aff id="af12"><label>12</label>McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, Texas 75350, USA;</aff>
+      <aff id="af13"><label>13</label>Department of Radiology, Royal Hospital for Sick Children, Edinburgh EH9 1LF, United Kingdom;</aff>
+      <aff id="af14"><label>14</label>Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow, Uttar Pradesh 226014, India;</aff>
+      <aff id="af15"><label>15</label>Wellcome Trust Sanger Institute, Hinxton, Cambridge CB10 1SA, United Kingdom;</aff>
+      <aff id="af16"><label>16</label>Biosciences, Research Institute for Health and Environment, Brunel University, London UB8 3PH, United Kingdom</aff>
+      <author-notes>
+        <fn fn-type="equal" id="FN1">
+          <label>17</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+        <corresp>Corresponding author: <email>andrew.jackson@igmm.ed.ac.uk</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>1</day>
+        <month>10</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>30</volume>
+      <issue>19</issue>
+      <fpage>2158</fpage>
+      <lpage>2172</lpage>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>6</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>9</day>
+          <month>9</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>
+          <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/site/misc/terms.xhtml">&#xA9; 2016 Martin et al.; Published by Cold Spring Harbor Laboratory Press</ext-link>
+        </copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">
+          <license-p>This article is distributed exclusively by Cold Spring Harbor Laboratory Press for the first six months after the full-issue publication date (see <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/site/misc/terms.xhtml">http://genesdev.cshlp.org/site/misc/terms.xhtml</ext-link>). After six months, it is available under a Creative Commons License (Attribution-NonCommercial 4.0 International), as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:href="2158.pdf"/>
+      <abstract abstract-type="precis">
+        <p>Martin et al. report that biallelic mutations in NCAPD2, NCAPH, or NCAPD3, encoding subunits of condensin complexes, cause microcephaly. Frequent anaphase chromatin bridge formation observed in apical neural progenitors during neurogenesis are the consequence of failed sister chromatid disentanglement during chromosome compaction.</p>
+      </abstract>
+      <abstract>
+        <p>Compaction of chromosomes is essential for accurate segregation of the genome during mitosis. In vertebrates, two condensin complexes ensure timely chromosome condensation, sister chromatid disentanglement, and maintenance of mitotic chromosome structure. Here, we report that biallelic mutations in <italic>NCAPD2</italic>, <italic>NCAPH</italic>, or <italic>NCAPD3</italic>, encoding subunits of these complexes, cause microcephaly. In addition, hypomorphic <italic>Ncaph2</italic> mice have significantly reduced brain size, with frequent anaphase chromatin bridge formation observed in apical neural progenitors during neurogenesis. Such DNA bridges also arise in condensin-deficient patient cells, where they are the consequence of failed sister chromatid disentanglement during chromosome compaction. This results in chromosome segregation errors, leading to micronucleus formation and increased aneuploidy in daughter cells. These findings establish &#x201C;condensinopathies&#x201D; as microcephalic disorders, with decatenation failure as an additional disease mechanism for microcephaly, implicating mitotic chromosome condensation as a key process ensuring mammalian cerebral cortex size.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>condensin</kwd>
+        <kwd>microcephaly</kwd>
+        <kwd>neurodevelopment</kwd>
+        <kwd>decatenation</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group id="funding-1">
+          <funding-source>Medical Research Council <named-content content-type="funder-id">http://dx.doi.org/10.13039/501100000265</named-content></funding-source>
+        </award-group>
+        <award-group id="funding-2">
+          <funding-source>Lister Institute for Preventative Medicine <named-content content-type="funder-id">http://dx.doi.org/10.13039/501100001255</named-content></funding-source>
+        </award-group>
+        <award-group id="funding-3">
+          <funding-source>European Research Council <named-content content-type="funder-id">http://dx.doi.org/10.13039/501100000781</named-content></funding-source>
+          <award-id>281847</award-id>
+        </award-group>
+        <award-group id="funding-4">
+          <funding-source>Biotechnology and Biological Sciences Research Council <named-content content-type="funder-id">http://dx.doi.org/10.13039/501100000268</named-content></funding-source>
+          <award-id>BB/K017632/1</award-id>
+        </award-group>
+        <award-group id="funding-5">
+          <funding-source>Sir Henry Dale Fellowship</funding-source>
+          <award-id>102560/Z/13/Z</award-id>
+        </award-group>
+        <award-group id="funding-6">
+          <funding-source>Medical Research Scotland <named-content content-type="funder-id">http://dx.doi.org/10.13039/501100000294</named-content></funding-source>
+        </award-group>
+        <award-group id="funding-7">
+          <funding-source>Potentials Foundation</funding-source>
+        </award-group>
+        <award-group id="funding-8">
+          <funding-source>Indian Council of Medical Research <named-content content-type="funder-id">http://dx.doi.org/10.13039/501100001411</named-content></funding-source>
+          <award-id>BMS 54/2/2013</award-id>
+        </award-group>
+        <award-group id="funding-9">
+          <funding-source>Health Innovation Challenge</funding-source>
+          <award-id>HICF-1009-003</award-id>
+        </award-group>
+        <award-group id="funding-10">
+          <funding-source>Wellcome Trust <named-content content-type="funder-id">http://dx.doi.org/10.13039/100004440</named-content></funding-source>
+        </award-group>
+        <award-group id="funding-11">
+          <funding-source>Department of Health <named-content content-type="funder-id">http://dx.doi.org/10.13039/501100000276</named-content></funding-source>
+        </award-group>
+        <award-group id="funding-12">
+          <funding-source>Wellcome Trust <named-content content-type="funder-id">http://dx.doi.org/10.13039/100004440</named-content></funding-source>
+          <award-id>WT098051</award-id>
+        </award-group>
+        <award-group id="funding-13">
+          <funding-source>Wellcome Trust <named-content content-type="funder-id">http://dx.doi.org/10.13039/100004440</named-content></funding-source>
+        </award-group>
+        <award-group id="funding-14">
+          <funding-source>Department of Health <named-content content-type="funder-id">http://dx.doi.org/10.13039/501100000276</named-content></funding-source>
+        </award-group>
+        <award-group id="funding-15">
+          <funding-source>National Institute for Health Research <named-content content-type="funder-id">http://dx.doi.org/10.13039/501100000272</named-content></funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <page-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body><p>Faithful and accurate segregation of the genome requires chromosome compaction and resolution of sister chromatids. At mitosis, chromosome condensation occurs through the large-scale reorganization of chromatin fibers and ensures the movement of chromosomes to daughter cells without DNA entanglement or entrapment by the cleavage furrow. In metazoans, mitotic chromosome assembly is mediated foremost through the activity of two protein complexes, condensin I and II (<xref rid="MARTINGAD286351C29" ref-type="bibr">Hirano 2012</xref>). Condensin I and II complexes share the same overall arrangement with two core ATPases&#x2014;structural maintenance of chromosomes 2 (SMC2) and SMC4&#x2014;but differ in their three associated non-SMC subunits. In humans, the non-SMC subunits of condensin I are NCAPD2, NCAPG, and NCAPH (also known as Kleisin-&#x3B3;), with the respective counterparts in the condensin II complex being NCAPD3, NCAPG2, and NCAPH2 (Kleisin-&#x3B2;) (<xref rid="MARTINGAD286351C30" ref-type="bibr">Hirano and Mitchison 1994</xref>; <xref rid="MARTINGAD286351C31" ref-type="bibr">Hirano et al. 1997</xref>).</p><p>Despite structural similarities, condensin I and condensin II have distinct functions, with condensin II localized in the nucleus during interphase (<xref rid="MARTINGAD286351C32" ref-type="bibr">Hirota et al. 2004</xref>) and required for early axial shortening of chromosomes in prophase (<xref rid="MARTINGAD286351C63" ref-type="bibr">Shintomi and Hirano 2011</xref>). Cytoplasmic condensin I does not gain access to the chromosomes until after nuclear envelope breakdown (<xref rid="MARTINGAD286351C32" ref-type="bibr">Hirota et al. 2004</xref>), when it contributes to the lateral compaction of metaphase chromosomes (<xref rid="MARTINGAD286351C63" ref-type="bibr">Shintomi and Hirano 2011</xref>). In addition, condensins are required for the removal of catenations between replicated chromatids that arise during DNA replication by facilitating topoisomerase II in actively resolving entangled sister chromatids (<xref rid="MARTINGAD286351C3" ref-type="bibr">Baxter et al. 2011</xref>; <xref rid="MARTINGAD286351C9" ref-type="bibr">Charbin et al. 2014</xref>).</p><p>In autosomal recessive primary microcephaly, brain size is markedly reduced, resulting in a cranial volume comparable with that of human ancestors several million years ago (<xref rid="MARTINGAD286351C73" ref-type="bibr">Woods et al. 2005</xref>). This condition has therefore been extensively studied to identify factors that regulate brain growth and neurogenesis. A similar reduction in cerebral cortex size is also seen in patients with microcephalic primordial dwarfism (MPD), where, unlike primary microcephaly, significant short stature is also evident (<xref rid="MARTINGAD286351C41" ref-type="bibr">Klingseisen and Jackson 2011</xref>). The identification of disease genes common to both disorders (<xref rid="MARTINGAD286351C56" ref-type="bibr">O'Driscoll et al. 2003</xref>; <xref rid="MARTINGAD286351C6" ref-type="bibr">Bond et al. 2005</xref>; <xref rid="MARTINGAD286351C1" ref-type="bibr">Al-Dosari et al. 2010</xref>; <xref rid="MARTINGAD286351C39" ref-type="bibr">Kalay et al. 2011</xref>; <xref rid="MARTINGAD286351C60" ref-type="bibr">Qvist et al. 2011</xref>; <xref rid="MARTINGAD286351C49" ref-type="bibr">Martin et al. 2014</xref>) has established that primary microcephaly and MPD represent a phenotype spectrum in which a disproportionate reduction in brain volume relative to body size is seen (<xref rid="MARTINGAD286351C70" ref-type="bibr">Verloes et al. 2009</xref>). Disease genes identified in these microcephalic disorders encode proteins integral to cell cycle progression (<xref rid="MARTINGAD286351C41" ref-type="bibr">Klingseisen and Jackson 2011</xref>). Many encode centrosomal proteins essential for efficient mitotic spindle formation (<xref rid="MARTINGAD286351C5" ref-type="bibr">Bond et al. 2002</xref>, <xref rid="MARTINGAD286351C6" ref-type="bibr">2005</xref>; <xref rid="MARTINGAD286351C24" ref-type="bibr">Griffith et al. 2008</xref>; <xref rid="MARTINGAD286351C53" ref-type="bibr">Nicholas et al. 2010</xref>), and, consequently, mutations result in perturbed cleavage plane orientation of neural progenitors (<xref rid="MARTINGAD286351C18" ref-type="bibr">Fish et al. 2006</xref>; <xref rid="MARTINGAD286351C25" ref-type="bibr">Gruber et al. 2011</xref>; <xref rid="MARTINGAD286351C42" ref-type="bibr">Lancaster et al. 2013</xref>; <xref rid="MARTINGAD286351C36" ref-type="bibr">Insolera et al. 2014</xref>). Therefore, altered symmetric/asymmetric cell division dynamics in such neural stem cells has emerged as the major developmental mechanism for microcephaly (<xref rid="MARTINGAD286351C67" ref-type="bibr">Thornton and Woods 2009</xref>). Here we report the identification of mutations in condensin complex genes and demonstrate that these arise from a different mitotic mechanism, which establishes chromosome compaction and decatenation as critical processes ensuring normal mammalian brain growth.</p><sec sec-type="results" id="s1"><title>Results</title><sec id="s1a"><title>Mutations in condensin subunits cause microcephaly</title><p>To identify novel microcephaly genes, whole-exome sequencing (WES) was performed on a cohort of patients with extreme microcephaly (occipitofrontal circumference [OFC] less than &#x2212;4 SD) due to reduced cerebral cortex volume with simplified gyri but without other structural abnormalities (<xref ref-type="fig" rid="MARTINGAD286351F1">Fig. 1</xref>A). In patient P1, a homozygous essential splice site mutation (c.4120+2T&gt;C) in <italic>NCAPD2</italic> was detected<italic>,</italic> encoding one of the three non-SMC subunits of condensin I (<xref ref-type="fig" rid="MARTINGAD286351F1">Fig. 1</xref>B&#x2013;D). In keeping with a pathogenic variant for a rare recessive disorder, it was present in a heterozygous state in both parents and was not reported in the Exome Aggregation Consortium (ExAC) database (<uri xlink:href="http://exac.broadinstitute.org">http://exac.broadinstitute.org</uri>). To identify further mutations, we examined exome data from a further 94 families from our cohort. While no additional deleterious variants in <italic>NCAPD2</italic> were seen, in patient P2, compound heterozygous variants were observed in its paralog, <italic>NCAPD3</italic>, encoding the corresponding subunit in the condensin II complex (<xref ref-type="fig" rid="MARTINGAD286351F1">Fig. 1</xref>E,F). These comprised a frameshift mutation (c.1783_1784delG) and an intronic substitution (c.382+14A&gt;G) predicted by in silico analysis (Alamut Visual, Interactive Biosoftware) to create a new splice donor site within intron 3.</p><fig id="MARTINGAD286351F1" orientation="portrait" position="float"><label>Figure 1.</label><caption><p>Mutations in condensin I and II subunits cause microcephaly. (<italic>A</italic>) Reduced cerebral cortex size is seen in individuals with mutations in condensin subunits. (<italic>Left</italic>) Axial (T2-weighted) and sagittal (T1) MRI (magnetic resonance imaging) images from patient P1 at 11 mo of age and patient P2, sagittal (T1), aged 8 yr and 8 mo, compared with age-matched controls. (Arrow) Low-signal area within the cerebellum corresponding to the site of medulloblastoma. Bar, 10 cm. (<italic>Left</italic>) Photographs demonstrating a reduced OFC and sloping forehead in patient P3. (<italic>B</italic>) Schematic of condensin I and II complexes, with subunits containing patient mutations highlighted by red-edged boxes. Both condensins contain five subunits, sharing the same two core SMC subunits (SMC2 and SMC4), which dimerize at the hinge domain. Each SMC subunit is composed of two coiled-coil domains extending from the hinge domain and forming an anti-parallel coil that ends in an ATPase head domain. The two complexes then differ in the three non-SMC subunits: A kleisin protein (NCAPH in condensin I and NCAPH2 in condensin II) bridges the ATPase head domains of the two SMC subunits, and two HEAT repeat proteins (NCAPG and NCAPD2 in condensin I and NCAPG2 and NCAPD3 in condensin II) associate with the complex predominantly through interactions with the kleisin subunit. (<italic>C</italic>&#x2013;<italic>F</italic>) Schematics of <italic>NCAPD2</italic> and <italic>NCAPD3</italic> genes and encoded proteins depicting mutations identified in patients P1 and P2. A homozygous essential splice site mutation is present in <italic>NCAPD2</italic> in patient P1 (<italic>C</italic>) and is predicted to alter the C terminus of the protein (<italic>D</italic>). Compound heterozygous mutations in patient P2 (<italic>E</italic>) and their predicted protein consequences (<italic>F</italic>). (Black) Coding exons; (white boxes) untranslated regions; (blue boxes) HEAT repeats; (red) coiled-coil regions (<xref rid="MARTINGAD286351C58" ref-type="bibr">Ono et al. 2003</xref>). (<italic>G</italic>,<italic>H</italic>) Missense mutations in patients P3 and P4 disrupt highly conserved amino acid residues. (<italic>G</italic>) The codon disrupted by the <italic>NCAPH</italic> Pro243Leu substitution is conserved in eukaryotes. (<italic>H</italic>) Amino acid 1153 is strongly conserved in condensin II NCAPD3 subunits across animal kingdoms. The alignment of species with complete condensin II complexes demonstrates that many metozoa and plants retain a glutamate at the mutated site in NCAPD3 in patient P4, while, in Amoebazoa (<italic>Dictyostelium discoideum</italic>) and green algae (<italic>Chlamydomonas reinhardtii</italic>), a physiochemically similar aspartate residue is present. Not all model organisms are shown, as some eukaryotes such as fungi and yeast possess only a single condensin complex (<xref rid="MARTINGAD286351C29" ref-type="bibr">Hirano 2012</xref>), and use of condensin complexes in invertebrates varies (<xref rid="MARTINGAD286351C62" ref-type="bibr">Savvidou et al. 2005</xref>). Residues that are dark blue are &gt;60% identical, and those that are light blue are similar.</p></caption><graphic xlink:href="2158f01"/></fig><p>Having identified mutations in subunits of condensin I and II, we therefore proceeded to screen all eight genes that encode proteins in these two complexes using a custom AmpliSeq multiplex PCR panel and ion&#x2013;proton semiconductor sequencer. Sequencing of 198 patients with microcephaly phenotypes ranging from primary microcephaly to microcephalic dwarfism identified a third patient (patient P3, OFC &#x2212;4.2 SD) (<xref ref-type="fig" rid="MARTINGAD286351F1">Fig. 1</xref>A; <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Table S1</ext-link>) with a homozygous missense variant in <italic>NCAPH</italic> (c.728C&gt;T, p.Pro243Leu), encoding the kleisin subunit of the condensin I complex. This substitution was at an evolutionary conserved residue (<xref ref-type="fig" rid="MARTINGAD286351F1">Fig. 1</xref>G, conserved to <italic>Saccharomyces cerevisiae</italic>) and was predicted to have a deleterious effect by in silico analysis (Polyphen-2, MutationTaster, and MutationAssessor). We then extended our search to The Deciphering Developmental Disorders Study (<xref rid="MARTINGAD286351C16" ref-type="bibr">The Deciphering Developmental Disorders Study 2015</xref>), representing a wide range of developmental disorders (<italic>n</italic> = 1000 exomes). This identified a fourth microcephalic patient (patient P4, OFC &#x2212;2.7 SD) (<ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Table S1</ext-link>) with a homozygous missense mutation in the condensin II gene <italic>NCAPD3</italic> (c.3458T&gt;G, p.Glu1153Ala), resulting in a deleterious amino acid substitution at a residue highly conserved in condensin II orthologs (<xref ref-type="fig" rid="MARTINGAD286351F1">Fig. 1</xref>H). All variants identified were confirmed by capillary sequencing, and all parents were established to be heterozygous carriers, consistent with autosomal recessive inheritance (<xref ref-type="table" rid="MARTINGAD286351TB1">Table 1</xref>). None of the variants were reported in the large-scale control data set ExAC.</p><table-wrap id="MARTINGAD286351TB1" orientation="portrait" position="float"><label>Table 1.</label><caption><p>Gene mutations in condensin I and II microcephaly patients</p></caption><graphic xlink:href="2158tb01"/></table-wrap><p>The severity of microcephaly correlated with mutation type, ranging from &#x2212;2.7 to &#x2212;11.9 SD (<ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Table S1</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S1A</ext-link>), and was most severe in patients P1 and P2, in whom frameshift/splice-disrupting variants were found. Missense mutations in patients P3 and P4 were accompanied by milder microcephaly. Although less severely affected, stature was also significantly reduced in patients P1 and P2, with height within normal population limits in patients P3 and P4. No distinctive facial features or associated malformations were apparent (<ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S1B</ext-link>), and, apart from intellectual disability, comorbidity was limited except for patient P2, who died of a malignant anaplastic medulloblastoma at 11 yr (<xref ref-type="fig" rid="MARTINGAD286351F1">Fig. 1</xref>A; <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Table S1</ext-link>).</p></sec><sec id="s1b"><title>Condensin mutations impair chromosome structural integrity</title><p>To confirm the pathogenic nature of the identified mutations, we established primary fibroblast lines from all four patients and assessed the effect of these mutations on transcript splicing and protein expression by RT&#x2013;PCR and immunoblotting, respectively. The nucleotide substitution c.4120+2T&gt;C in <italic>NCAPD2</italic> abolished the exon 31 consensus splice donor site, and RT&#x2013;PCR demonstrated that this resulted in retention of intron 30, with residual wild-type transcript only just detectable (<xref ref-type="fig" rid="MARTINGAD286351F2">Fig. 2</xref>A). The incorporation of intron 30 was confirmed by capillary sequencing (data not shown) and results in a transcript encoding an additional 29 amino acids before a premature termination codon (PTC) that led to omission of the most C-terminal 28 amino acids encoded by exon 31. Furthermore, a significant reduction in NCAPD2 protein was seen in patient primary fibroblasts (<italic>P</italic> = 0.0086) (<xref ref-type="fig" rid="MARTINGAD286351F2">Fig. 2</xref>B; <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S2A</ext-link>), presumably resulting from decreased stability of the mutated protein (given the C-terminal location of the mutation, nonsense-mediated decay [NMD] is not expected).</p><fig id="MARTINGAD286351F2" orientation="portrait" position="float"><label>Figure 2.</label><caption><p>Mutations impair canonical condensin function in mitotic chromosome compaction. (<italic>A</italic>,<italic>B</italic>) The c.4120+2T&gt;C mutation results in retention of intron 30 in <italic>NCAPD2</italic> transcripts and reduced NCAPD2 protein levels. (<italic>A</italic>) RT&#x2013;PCR using primers in exons 30 and 31 (arrows in the schematic) demonstrated altered splicing of <italic>NCAPD2</italic> in patient P1 fibroblasts. The larger 413-base-pair (bp) PCR product corresponded to a transcript containing intron 30, confirmed by subcloning and Sanger sequencing. This transcript encodes an alternative C terminus comprising an additional 29 amino acids before a PTC with consequent loss of 28 amino acids encoded by exon 31. (<italic>B</italic>) NCAPD2 protein levels are reduced in P1 fibroblasts. Immunoblot with anti-NCAPD2 antibody. (<italic>Left</italic> two lanes) RNAi of <italic>NCAPD2</italic> in RPE1 cells confirms the specificity of the NCAPD2 antibody. (Remaining lanes) Patient P1 and control primary fibroblasts. NCAPD2 protein mobility is not expected to be altered in patient P1, as the mutant protein has a molecular weight similar to that of wild type. (<italic>Bottom</italic> panel) Loading control: The blot was probed with anti-actin antibody. (<italic>C</italic>,<italic>D</italic>) The <italic>NCAPD3</italic> c.382+14A&gt;G mutation leads to skipping of exon 3, which, in combination with c.1783_1784delG frameshift mutation in <italic>trans</italic>, results in markedly reduced NCAPD3 protein. (<italic>C</italic>) Alternative splicing of <italic>NCAPD3</italic> in patient P2 fibroblasts, detected by RT&#x2013;PCR using primers in exon 2 and exon 4 (arrows, schematic). The wild-type transcript represented by a PCR product of 317 bp is substantially reduced in patient P2 cells, while the smaller PCR fragment of 154 bp is detectable only in patient P2 and corresponds to a transcript in which exon 3 had been skipped (confirmed by subcloning and sequencing). This results in an out-of-frame transcript, which is expected to be subject to NMD. (<italic>D</italic>) Immunoblotting of NCAPD3 establishes that protein levels are markedly reduced in patient P2. (<italic>Left</italic> two lanes) RNAi of <italic>NCAPD3</italic> in RPE1 cells demonstrating specificity of the NCAPD3 antibody. (Remaining lanes) Patient and control primary fibroblasts. NCAPD3 protein is substantially depleted in patient P2, whereas protein levels are unaffected by the p.Glu1153Ala missense mutation in patient P4 fibroblasts. (<italic>Bottom</italic> panel) Loading control: The blot was probed with anti-actin antibody. (<italic>E</italic>) Schematic of intrinsic chromosome structure (ICS) assay. Sequential TEEN decompaction and refolding in RSB buffer was used to establish the structural integrity of mitotic chromosomes. (<italic>F</italic>,<italic>G</italic>) Patient mutations lead to compromised ICS. (<italic>F</italic>) Quantification of abnormal chromosome refolding after ICS assay in C1 and C2 and patient P1&#x2013;P4 cell fibroblasts (experiments = 3; <italic>n</italic> &gt; 30 mitoses per sample per experiment). Error bars indicate SEM. Two-tailed <italic>t</italic>-test, (**) <italic>P</italic> &#x2264; 0.01; (****) <italic>P</italic> &#x2264; 0.0001; proportion of &#x201C;disorganized&#x201D; chromosomes versus C2. (<italic>G</italic>) Representative images of chromosome morphology from ICS assay. Chromosomes were visualized with DAPI following two sequential rounds of decompaction (TEEN) and refolding (RSB). Patient and control primary fibroblast chromosomes were scored as either reforming the original chromosome morphology (&#x201C;normal&#x201D;), partially reforming starting chromosome morphology (&#x201C;intermediate&#x201D;), or complete loss of chromosome compaction (&#x201C;disorganized&#x201D;).</p></caption><graphic xlink:href="2158f02"/></fig><p>Heterozygous 1783_1784delG and 382+14A&gt;G variants in <italic>NCAPD3</italic> were predicted to introduce PTC after exon 3 and in exon 15, respectively, leading to NMD of the resulting transcripts. Consistent with this, substantially reduced wild-type <italic>NCAPD3</italic> transcript levels were seen in patient P2 fibroblasts (<xref ref-type="fig" rid="MARTINGAD286351F2">Fig. 2</xref>C). A transcript resulting from the alternative donor splice site generated by the c.382+14A&gt;G substitution was not detected. However, an additional transcript was observed that deleted exon 3, likely arising from nonsense-associated altered splicing (<xref rid="MARTINGAD286351C71" ref-type="bibr">Wang et al. 2002</xref>). This transcript was consequently out of frame, resulting in premature termination (p.Ser74Alafs*3). A low level of normally spliced transcript was detectable that likely accounts for the low levels of residual NCAPD3 protein observed on immunoblotting (<xref ref-type="fig" rid="MARTINGAD286351F2">Fig. 2</xref>D; <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S2B</ext-link>). We therefore concluded that mutations in both patient P1 and P2 led to substantial effects on the transcript and proteins of the affected condensin subunits. However, we expect these to result in significant loss of function rather than being functionally null, given the essential nature of condensins in vertebrates (<xref rid="MARTINGAD286351C35" ref-type="bibr">Hudson et al. 2003</xref>; <xref rid="MARTINGAD286351C65" ref-type="bibr">Smith et al. 2004</xref>; <xref rid="MARTINGAD286351C55" ref-type="bibr">Nishide and Hirano 2014</xref>; <xref rid="MARTINGAD286351C34" ref-type="bibr">Houlard et al. 2015</xref>). In contrast, amino acid substitutions in patients P3 and P4 in <italic>NCAPH</italic> (p.Pro243Leu) (<ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S2C,D</ext-link>) and <italic>NCAPD3</italic> (p.Glu1153Ala) (<xref ref-type="fig" rid="MARTINGAD286351F2">Fig. 2</xref>D), respectively, did not affect cellular protein levels. Although they are outside annotated domains, the substitutions are at highly conserved residues (<xref ref-type="fig" rid="MARTINGAD286351F1">Fig. 1</xref>G,H) and so are likely to affect condensin complex function.</p><p>As both condensin I and II have established roles in ensuring axial and radial stability of compacted chromatin (<xref rid="MARTINGAD286351C35" ref-type="bibr">Hudson et al. 2003</xref>; <xref rid="MARTINGAD286351C58" ref-type="bibr">Ono et al. 2003</xref>; <xref rid="MARTINGAD286351C32" ref-type="bibr">Hirota et al. 2004</xref>; <xref rid="MARTINGAD286351C23" ref-type="bibr">Green et al. 2012</xref>), we next assessed the impact of patient P1&#x2013;P4 mutations on condensin function in mitotic chromosome integrity. We used an established intrinsic chromosome structure (ICS) assay (<xref ref-type="fig" rid="MARTINGAD286351F2">Fig. 2</xref>E) that has been used previously to demonstrate structural integrity defects in <italic>SMC2</italic>, <italic>NCAPH</italic>, and <italic>NCAPD3</italic> conditionally null DT40 cells (<xref rid="MARTINGAD286351C35" ref-type="bibr">Hudson et al. 2003</xref>; <xref rid="MARTINGAD286351C23" ref-type="bibr">Green et al. 2012</xref>). This is a qualitative assay that assesses whether chromosomes are able to recover higher-order structure after unfolding chromatin in low-salt TEEN buffer (which increases DNA&#x2013;DNA repulsion through cation depletion). In this in vitro assay, mitotic chromosomes from all patient cell lines failed to efficiently recover their normal condensed appearance after two rounds of unfolding/refolding, in marked contrast to two control primary fibroblast cell lines (C1 = 1.7% &#xB1; 0.7%; C2 = 3.2% &#xB1; 0.6%; P1 = 34.6% &#xB1; 0.6%, <italic>P</italic> &lt; 0.0001; P2 = 41.6% &#xB1; 5.7%, <italic>P</italic> = 0.0026; P3 = 77.7% &#xB1; 3.5%, <italic>P</italic> &lt; 0.0001; P4 = 49.4% &#xB1; 6.3%, <italic>P</italic> = 0.0019) (<xref ref-type="fig" rid="MARTINGAD286351F2">Fig. 2</xref>F,G). Morphologically, structurally disrupted patient chromosomes resembled those reported previously in DT40 cells lacking <italic>NCAPH</italic> and <italic>NCAPD3</italic> (<xref ref-type="fig" rid="MARTINGAD286351F2">Fig. 2</xref>G; <xref rid="MARTINGAD286351C23" ref-type="bibr">Green et al. 2012</xref>). We therefore concluded that mutations in all four patients can disrupt condensin-dependent mitotic chromosome integrity, providing functional supporting evidence for their pathogenicity.</p></sec><sec id="s1c"><title>Chromatin bridges in Ncaph2 apical neural progenitors lead to microcephaly</title><p>To extend our investigations into a developmental system, we next examined a published hypomorphic loss-of-function <italic>Ncaph2</italic> condensin II mouse mutant (<xref rid="MARTINGAD286351C22" ref-type="bibr">Gosling et al. 2007</xref>) with a single missense mutation (p.Ile15Asn) in which brain size and neurodevelopment had not been assessed previously. Measurement of brain size at 8 wk postnatally demonstrated significantly reduced brain weight (<italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup>, <italic>z</italic> = 0.06 &#xB1; 0.2; <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup>, <italic>z</italic> = &#x2212;0.6 &#xB1; 0.15; <italic>P</italic> = 0.01) and reduced cortical surface area (<italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup>, <italic>z</italic> = 0.08 &#xB1; 0.26; <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup>, <italic>z</italic> = &#x2212;1.4 &#xB1; 0.16; <italic>P</italic> = 0.0001) in comparison with <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> littermate controls (<xref ref-type="fig" rid="MARTINGAD286351F3">Fig. 3</xref>A,B; <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S3A</ext-link>). Reduced body weight was also evident in <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mice (<italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup>, <italic>z</italic> = 0.12 &#xB1; 0.23; <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup>, <italic>z</italic> = &#x2212;1.45 &#xB1; 0.3; <italic>P</italic> = 0.0003) (<ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S3B</ext-link>). Having confirmed that mutation of a non-SMC condensin subunit also caused microcephaly in mice, we then investigated how neurogenesis was perturbed during embryonic development. In the embryonic day 13.5 (E13.5) <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> brain, a 4% &#xB1; 1.6% reduction in neocortical thickness was seen, while the relative thickness of the ventricular zone (VZ)/subventricular zone (SVZ; PAX6-positive cells, <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> = 76.5% &#xB1; 0.7%; <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> = 78% &#xB1; 0.4%; <italic>P</italic> = 0.12) and the neuronal preplate (PP) layer (Tub &#x3B2;III-positive, <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> = 22.4% &#xB1; 0.4%; <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> = 22.3% &#xB1; 0.4%; <italic>P</italic> = 0.83) was unchanged (<xref ref-type="fig" rid="MARTINGAD286351F3">Fig. 3</xref>C,D).</p><fig id="MARTINGAD286351F3" orientation="portrait" position="float"><label>Figure 3.</label><caption><p>Impaired chromosome segregation instead of altered neural progenitor cleavage plane accounts for reduced cortical size in <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mice. (<italic>A</italic>,<italic>B</italic>) Cerebral cortex surface area is reduced in <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mice at 8 wk. (<italic>A</italic>) Quantification of cortical area expressed as a <italic>Z</italic>-score at 8 wk of age. <italic>n</italic> &gt; 12 mice per genotype. Error bars indicate SEM. Two-tailed <italic>t</italic>-test, (****) <italic>P</italic> &#x2264; 0.0001 versus littermate <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> mice. (<italic>B</italic>) Cortical area measurement. The red line indicates the measured region of the dorsal cerebral cortex. Bar, 1.5 mm. <italic>Z</italic>-score is defined as the standard deviations from the mean of age- and sex-matched <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> mice at 8 wk. (<italic>C</italic>,<italic>D</italic>) The relative proportion of progenitor cells and neurons is retained during neurogenesis in <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mice. (<italic>C</italic>) Representative images of neurogenesis in E13.5 <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> and <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> coronal sections immunostained for PAX6 (radial glia; red), TUB&#x3B2;III (neurons; green), and DAPI (DNA; blue). (<italic>D</italic>) Quantification of proportions of TUB&#x3B2;III- and PAX6-positive cells per radial unit, determined by measurement of the thickness of the PP and SVZ/VZ, respectively. Measurements made at four regions per coronal section for two coronal sections at equivalent rostro&#x2013;caudal positions per brain. <italic>n</italic> = 10 brains analyzed for <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup>; <italic>n</italic> = 9 brains analyzed for <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup>. Error bars indicate SEM. (ns) Nonsignificant with an unpaired <italic>t</italic>-test. Bar, 10 &#xB5;m. (<italic>E</italic>&#x2013;<italic>G</italic>) Cleavage plane orientation is not affected in E13.5 <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mice. (<italic>E</italic>) Representative image of mitotic apical progenitors illustrating the normal orientation of the mitotic spindle parallel to the ventricular surface. E13.5 coronal sections and nuclei (DAPI; white) are shown. (Dashed line) Ventricular surface; (dashed circles) mitotic cells; (double-sided arrows) the axis of the mitotic spindle and position of mitotic centrosomes (identified by Aurora A immunostaining). Bar, 10 &#xB5;m. (<italic>F</italic>) Schematic outlining measurement of the mitotic spindle axis, defined as the angle between the spindle line vector and the reference plane for the ventricular surface. Green circles indicate centrosomes, and red circles point to where the spindle line vector intersects the plane of the ventricular surface. (<italic>G</italic>) Quantification of mitotic spindle orientation in apical neural progenitors at metaphase and anaphase in E13.5 neuroepithelium. Data for <italic>Ncaph</italic><sup><italic>2I15N</italic>/+</sup> mice (black circles; mean angle 11&#xB0;; <italic>n</italic> = 150 cells from three brains) and Ncaph2<sup>I15N/I15N</sup> mice (red circles; mean angle 12&#xB0;; <italic>n</italic> = 159 cells from three brains) are shown. Error bars indicate SD. <italic>P</italic> = 0.56 with an unpaired <italic>t</italic>-test. (<italic>H</italic>&#x2013;<italic>J</italic>) Chromosome segregation is impaired in E13.5 <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> apical neural progenitors. (<italic>H</italic>,<italic>I</italic>) Representative images of chromatin bridges in anaphase apical progenitor cells. Three-dimensional reconstructions (DAPI stain in red; anaphase cell DNA highlighted in white; bar, 4 &#xB5;m) (<italic>H</italic>) and two-dimensional DAPI-stained confocal sections (bar, 5 &#xB5;m) (<italic>I</italic>) from E13.5 coronal sections. (<italic>J</italic>) Quantification of chromatin bridges observed in apical progenitors of E13.5 <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> and <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mice. Significantly increased numbers of mid and late anaphase cells with chromatin bridges are observed in <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mice (<italic>n</italic> = 46 cells from three brains) compared with <italic>Ncaph</italic><sup><italic>2I15N</italic>/+</sup> mice (<italic>n</italic> = 72 cells from three brains). Error bars indicate SEM. Two-tailed <italic>t</italic>-test, <italic>P</italic> = 0.02 versus <italic>Ncaph</italic><sup><italic>2I15N</italic>/+</sup> mice. (<italic>K</italic>) Model: During early neurogenesis, neural stem cells divide symmetrically to enlarge the pool of neural progenitors. Mitosis occurs at the ventricular surface, with the axis of the mitotic spindle parallel to this surface. This ensures that the cleavage furrow is perpendicular and that, consequently, basal fate determinants (indicated by green bar) segregate equally between daughter cells, ensuring retention of stem cell identity. (<italic>Middle</italic> panel) The mitotic spindle fails to align when genes encoding centrosomal proteins are mutated (ASPM, CDK5RAP2, MCPH1, and CPAP), leading to oblique cell cleavage events that result in premature asymmetric cell division. Daughter neuron cells are produced, and expansion of the neural stem cell pool is decreased, consequently reducing the total number of neurons. (<italic>Right</italic> panel) In contrast, condensin mutations lead to chromatin bridges during neurogenesis, with unaltered spindle orientation. Such chromosome segregation errors would be expected to reduce cell proliferation and survival, depleting the neuronal number generated during neurogenesis.</p></caption><graphic xlink:href="2158f03"/></fig><p>We also measured the mitotic spindle orientation of apical progenitors, which has been found previously to be perturbed in microcephaly models (<xref rid="MARTINGAD286351C44" ref-type="bibr">Lizarraga et al. 2010</xref>; <xref rid="MARTINGAD286351C25" ref-type="bibr">Gruber et al. 2011</xref>; <xref rid="MARTINGAD286351C42" ref-type="bibr">Lancaster et al. 2013</xref>). As two-dimensional analysis of the spindle axis can lead to systematic measurement errors (<xref rid="MARTINGAD286351C38" ref-type="bibr">Juschke et al. 2014</xref>), metaphase and anaphase apical progenitors were imaged by spinning-disc confocal microscope, and axis orientation was determined in three dimensions. The angle between the line bisecting both spindle poles (mitotic centrosomal marker, Aurora A) and the plane of the ventricular surface was measured in E13.5 brain sections (<xref ref-type="fig" rid="MARTINGAD286351F3">Fig. 3</xref>E,F; <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S4A,B</ext-link>), demonstrating that the mitotic spindle position in <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> neuroepithelia was indistinguishable from controls (30&#xB0;&#x2013;60&#xB0; bin, <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> = 7% &#xB1; 1.4%, <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> = 10.8% &#xB1; 5.9%, <italic>P</italic> = 0.57; 60&#xB0;&#x2013;90&#xB0; bin, <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> = 0.8% &#xB1; 0.8%, <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> = 0.6% &#xB1; 0.6%, <italic>P</italic> = 0.83) (<xref ref-type="fig" rid="MARTINGAD286351F3">Fig. 3</xref>G; <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S4C</ext-link>). This therefore indicated that a different process underlies condensin-associated microcephaly, and, upon further characterization, we observed frequent chromatin bridges during anaphase in <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> apical progenitors (<xref ref-type="fig" rid="MARTINGAD286351F3">Fig. 3</xref>H&#x2013;J). Such bridges were at a significantly higher frequency than heterozygous controls (<italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> = 39.5% &#xB1; 5.5%; <italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> = 18.4% &#xB1; 2.4%; <italic>P</italic> = 0.02) (<xref ref-type="fig" rid="MARTINGAD286351F3">Fig. 3</xref>J). As DNA bridges are known to lead to chromosome segregation errors and impaired cell survival, this provided an alternative explanation for condensin microcephaly (<xref ref-type="fig" rid="MARTINGAD286351F3">Fig. 3</xref>K, model). To investigate this mechanism in more detail, we next employed a cell biological approach using the patient and mouse cell lines available to us.</p></sec><sec id="s1d"><title>Decatenation failure leads to DNA bridges in condensin-deficient cells</title><p>First, to characterize the cause of such DNA bridges, we examined mitosis in condensin-deficient patient cells. Analysis of both patient P1 and P2 fibroblasts, representing mutations in condensin I and II, respectively, demonstrated DNA bridges, confirming that such mitotic abnormalities also occurred in condensin microcephaly patients. In patient P2 (<italic>NCAPD3</italic>) fibroblasts, elevated levels of chromatin bridges and lagging chromatin/chromosomes were observed during mitosis, evident in 16.7% of anaphases (C1 = 3.1% &#xB1; 1%; P2 = 16.7% &#xB1; 2.6%, <italic>P</italic> = 0.003) (<xref ref-type="fig" rid="MARTINGAD286351F4">Fig. 4</xref>A,C). Such chromosome segregation errors have been reported previously in NCAPD3-deficient cells (<xref rid="MARTINGAD286351C59" ref-type="bibr">Ono et al. 2004</xref>; <xref rid="MARTINGAD286351C20" ref-type="bibr">Gerlich et al. 2006</xref>), but, consistent with patient P2 cells retaining residual condensin II function, we observed that this occurred to a lesser extent than in conditionally null <italic>NCAPD3</italic> DT40 cells, in which 80% of anaphase and telophase cells had prominent chromatin bridges (<xref rid="MARTINGAD286351C23" ref-type="bibr">Green et al. 2012</xref>). A level of segregation defects similar to that present in patient P2 was also seen in <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15</italic></sup> mouse embryonic fibroblasts (MEFs), significantly higher than heterozygote littermate-derived control lines (<italic>Ncaph2</italic><sup><italic>I15N</italic>/+</sup> #1 = 6.3% &#xB1; 0.7%, <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup>#1 = 17.9% &#xB1; 1.7%, <italic>P</italic> = 0.0013; <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup>#2 = 13% &#xB1; 0.4%, <italic>P</italic> = 0.0001) (<ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S5A</ext-link>).</p><fig id="MARTINGAD286351F4" orientation="portrait" position="float"><label>Figure 4.</label><caption><p>Condensin patient mutations lead to decatenation failure at mitosis. (<italic>A</italic>&#x2013;<italic>C</italic>) Chromosome segregation is impaired in patient P1 (NCAPD2) and P2 (NCAPD3) primary fibroblasts. Representative images of chromatin bridges and lagging chromosomes/chromosome fragments were detected with DAPI stain (macroscopic chromosome segregation defects) (<italic>A</italic>), and ultrafine DNA bridges (UFBs) were detected by the presence of PLK1-interacting checkpoint helicase (PICH) and absence of DAPI stain (<italic>B</italic>). Bars, 10 &#xB5;m. (<italic>C</italic>) Quantification of macroscopic chromosome segregation defects (defined as DAPI-positive chromatin bridges, lagging chromosomes, or chromosome fragments) and UFBs, scored in anaphase C1 and C2 and patient P1 and P2 fibroblasts. Increased numbers of mid and late anaphase cells with UFBs are seen in NCAPD2 patient P1 and NCAPD3 patient P2 cell fibroblasts (experiments &#x2265; 3; <italic>n</italic> &gt; 50 anaphases per sample per experiment), and patient P2 fibroblasts also had elevated macroscopic chromosome segregation defects compared with C1 and C2 fibroblasts (experiments &#x2265; 3, <italic>n</italic> &gt; 100). Error bars indicate SEM. Two-tailed <italic>t</italic>-test, (*) <italic>P</italic> &#x2264; 0.05 versus C1. (<italic>D</italic>) UFBs in condensin patient cells do not arise from late replicating intermediates. Quantification of the number of FANCD2 sister foci during anaphase in C2 and patient P1 and P2 fibroblasts. C2 fibroblasts treated with 0.1 &#xB5;M aphidicolin for 16 h to induce late replicating intermediates through replication stress were also included as a positive control. <italic>n</italic> = 50 cells; experiment = 1. (<italic>E</italic>) Chromosome decatenation failure due to topoisomerase II &#x3B1; inhibition in control fibroblasts results in chromosome segregation defects identical to those observed in condensin patient cells. Representative images of bulky chromatin bridges and lagging chromatin detected with DAPI stain and UFBs detected by PICH stain. Bars, 10 &#xB5;m. C2 fibroblasts were treated with 5 &#xB5;M ICRF-159 for 24 h.</p></caption><graphic xlink:href="2158f04"/></fig><p>In patient P1 cells, a significantly increased frequency of substantial DNA bridges was not evident on DAPI staining. However finer chromatin bridges have been observed in condensin I-deficient cells (<xref rid="MARTINGAD286351C23" ref-type="bibr">Green et al. 2012</xref>), and loss of both condensin complexes has been shown previously to increase the number of ultrafine DNA bridges (UFBs) (<xref rid="MARTINGAD286351C45" ref-type="bibr">Lukas et al. 2011</xref>). To sensitively detect UFBs, we performed PICH (PLK1-interacting checkpoint helicase) immunostaining and, using this methodology, observed a substantial increase in persisting UFBs in both condensin I and condensin II cells in mid to late anaphase (C1 = 19.4% &#xB1; 2.4%; P1 = 44.1% &#xB1; 5.6%, <italic>P</italic> = 0.02; P2 = 33.5% &#xB1; 3.3%, <italic>P</italic> = 0.04) (<xref ref-type="fig" rid="MARTINGAD286351F4">Fig. 4</xref>B,C).</p><p>We next considered the origin of the observed DNA bridges. UFBs are believed to originate either from unresolved sister chromatid entanglements as dsDNA catenanes (<xref rid="MARTINGAD286351C7" ref-type="bibr">Chan et al. 2007</xref>) or at regions of incomplete DNA replication, termed late replicating intermediates (LRIs) (<xref rid="MARTINGAD286351C8" ref-type="bibr">Chan et al. 2009</xref>). The latter can be induced by replication stress and is associated with paired FANCD2 foci that flank LRI UFBs. Such sister FANCD2 foci were not evident in patient P1 and P2 cells (<xref ref-type="fig" rid="MARTINGAD286351F4">Fig. 4</xref>D), indicating that observed UFBs were more likely due to dsDNA catenenes. Furthermore, UFBs, chromatin bridges, and lagging chromosomes/chromatin identical to those observed in patient cells were also observed in control fibroblasts in which cellular decatenation activity was inhibited by treatment with low levels of the topoisomerase II&#x3B1; inhibitor ICRF-159 (<xref ref-type="fig" rid="MARTINGAD286351F4">Fig. 4</xref>E).</p></sec><sec id="s1e"><title>Micronuclei and aneuploidy are consequences of impaired chromosome segregation</title><p>To establish how reduced cellularity arises in condensin patients, we examined the post-mitotic consequences of decatenation failure by live imaging of patient fibroblasts transiently expressing RFP-H2B (<xref ref-type="fig" rid="MARTINGAD286351F5">Fig. 5</xref>A). This confirmed a significant increase of anaphase cells with chromatin bridges in patient P2 fibroblasts, consistent with the previous analysis of fixed patient cells (C1 = 6.1%; C2 = 2.4%; P2 = 14.6%, <italic>P</italic> = 0.0056) (<ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S5C</ext-link>). Furthermore, some of the chromatin bridges were seen to lead to micronucleus formation at later time points (<xref ref-type="fig" rid="MARTINGAD286351F5">Fig. 5</xref>A). Analysis of fixed DAPI-stained interphase cells confirmed increased levels of such micronuclei in both patient P1 and P2 fibroblast lines (C1 = 0.7% &#xB1; 0.2%; P1 = 2.9% &#xB1; 0.6%, <italic>P</italic> = 0.009; P2 = 5.4% &#xB1; 0.6%, <italic>P</italic> = 0.0001) (<xref ref-type="fig" rid="MARTINGAD286351F5">Fig. 5</xref>B). In patient P3 and P4, microcephaly without significant short stature was observed. In keeping with this milder clinical phenotype restricted to the CNS, increased micronucleus formation was less pronounced in patient P3 fibroblasts and was not detected in patient P4 fibroblasts (P3 = 1.3% &#xB1; 0.3%, 0.4% &#xB1; 0.2%, <italic>P</italic> = ns). An in vivo erythrocyte micronucleus assay demonstrated that micronucleated cells were significantly more frequent in homozygous mutant mice compared with wild-type control animals (<italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> reticulocytes = 0.168% &#xB1; 0.01%, <italic>P</italic> = 0.005; <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mature erythrocytes = 1.5% &#xB1; 0.04%, <italic>P</italic> = 0.01) (<xref ref-type="fig" rid="MARTINGAD286351F5">Fig. 5</xref>C). Interphase FISH with chromosome-specific &#x3B1;-satellite probes (<xref ref-type="fig" rid="MARTINGAD286351F5">Fig. 5</xref>D) demonstrated a significant increase of patient P1 and P2 primary fibroblast cells with altered numbers of centromere signals compared with controls, consistent with a low level of increased aneuploidy in both cell lines (C1 = 7.8% &#xB1; 0.7%, P1 = 10.7% &#xB1; 0.3%, <italic>P</italic> = 0.03; P2 = 13.8% &#xB1; 0.2%, <italic>P</italic> = 0.0006). Taken together, we concluded from these cellular experiments that decatentation failure leads to the formation of micronuclei and aneuploidy in condensin-deficient patient cells.</p><fig id="MARTINGAD286351F5" orientation="portrait" position="float"><label>Figure 5.</label><caption><p>Decatenation failure results in micronuclei and aneuploidy in condensin mouse and patient cells. (<italic>A</italic>) Live-imaging stills of chromatin bridge and subsequent micronucleus formation in a patient P1 fibroblast cell. DNA visualized by transient expression of RFP-tagged histone 2B. Time is shown in minutes from nuclear envelope breakdown. The arrow indicates the position of the micronucleus. (<italic>B</italic>) NCAPD2 patient P1 and NCAPD3 patient P2 fibroblasts have significantly elevated levels of micronuclei. The percentage of micronucleus-positive cells was quantified (experiments = 5, <italic>n</italic> &gt; 500 cells). Error bars indicate SEM. Two-tailed <italic>t</italic>-test, (**) <italic>P</italic> &#x2264; 0.01; (****) <italic>P</italic> &#x2264; 0.0001 versus C1. (<italic>Inset</italic>) Representative picture of a patient P2 fibroblast cell with a micronucleus (shown in the <italic>top left</italic> corner). Bar, 10 &#xB5;m. (<italic>C</italic>) Elevated frequency of micronuclei in peripheral blood of <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mice. (<italic>Top</italic> panel) Representative FACS plots of CD71 (reticuloctyte marker) versus propidium iodide (DNA content) of <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> and <italic>Ncaph2</italic><sup>+/+</sup> adult mice demonstrating gating strategy. Gated cells have subdiploid DNA content (micronuclei). (<italic>Top</italic> gate) Micronuclei in CD71+ve reticulocytes. (<italic>Bottom</italic> gate) Micronuclei in mature erythrocytes. In contrast to the usual linear scale for DNA content FACS plots, the DNA axis is presented on a log<sub>10</sub> scale, with fully nucleated cells off the scale, and micronucleated cells appearing to the <italic>right</italic> of enucleated cells within the gates indicated by the boxed regions. (<italic>Right</italic> panel) Quantification of flow cytometry analysis of micronuclei in the peripheral blood reticulocytes and mature erythrocytes of <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> and <italic>Ncaph2</italic><sup>+/+</sup> adult mice. <italic>N</italic> = 3. Error bars indicate SEM. Two-tailed <italic>t</italic>-test, (**) <italic>P</italic> &#x2264; 0.01; (****) <italic>P</italic> &#x2264; 0.0001 versus <italic>Ncaph2</italic><sup>+/+</sup> mice. (<italic>D</italic>) Levels of aneuploidy are significantly increased in NCAPD2 patient P1 and NCAPD3 patient P2 fibroblasts. (<italic>Top</italic> panel) Quantification of the percentage of cells with numerical chromosome imbalances detected by interphase FISH. Bars indicate the average of two sets of probes detecting chromosome 3, 7, and 18 and 4, 10, and 17, respectively. <italic>n</italic> &gt; 700 cells; experiments &#x2265; 4. Error bars indicate SEM. Two-tailed <italic>t</italic>-test, (*) <italic>P</italic> &#x2264; 0.05; (***) <italic>P</italic> &#x2264; 0.001 versus C1. (<italic>Bottom</italic> panel) Representative images of interphase FISH of chromosomes 4 (green), 10 (red), and 17 (aqua) in primary fibroblasts. (<italic>E</italic>) Model: Decatenation failure in condensin-deficient neural stem cells reduces brain size through a reduction in cell number generated during neurogenesis. Impaired mitotic chromosome compaction in condensin-deficient neural stem cells decreases tension in catenated DNA, reducing topoisomerase II&#x3B1; DNA strand exchange activity (topoisomerase II&#x3B1; enzyme indicated by green curved line). This delays decatenation of DNA between sister chromatids, leading to increased chromosome segregation errors and subsequent aneuploidy/micronucleus formation. Anueploidy in condensin-deficient neural stem cells is likely to reduce cell number by impaired proliferation potential (<xref rid="MARTINGAD286351C21" ref-type="bibr">Gogendeau et al. 2015</xref>) and/or reduced cell survival (<xref rid="MARTINGAD286351C48" ref-type="bibr">Marthiens et al. 2013</xref>; <xref rid="MARTINGAD286351C55" ref-type="bibr">Nishide and Hirano 2014</xref>) during the restricted developmental window of neurogenesis.</p></caption><graphic xlink:href="2158f05"/></fig></sec></sec><sec sec-type="discussion" id="s2"><title>Discussion</title><sec id="s2a"><title>Human germline mutations in condensin protein subunits</title><p>Here we report that mutations in genes encoding subunits of condensins cause microcephaly, establishing that disrupted chromosome condensation can result in reduced brain size. This provides a further example of where aggregate analysis of genes encoding macromolecular complexes has permitted identification of rare human disease genes (<xref rid="MARTINGAD286351C11" ref-type="bibr">Crow et al. 2006</xref>; <xref rid="MARTINGAD286351C4" ref-type="bibr">Bicknell et al. 2011</xref>; <xref rid="MARTINGAD286351C47" ref-type="bibr">Mannini et al. 2013</xref>). Using a similar strategy, somatic mutations in condensins have also been associated with several cancer types (<xref rid="MARTINGAD286351C43" ref-type="bibr">Leiserson et al. 2015</xref>). This and the fatal brain tumor in patient P2 raise the possibility that germline condensin mutations are also cancer-predisposing.</p><p>Consistent with the cell-essential nature of condensins due to their requirement for cell division (<xref rid="MARTINGAD286351C66" ref-type="bibr">Strunnikov et al. 1995</xref>; <xref rid="MARTINGAD286351C26" ref-type="bibr">Hagstrom et al. 2002</xref>; <xref rid="MARTINGAD286351C35" ref-type="bibr">Hudson et al. 2003</xref>; <xref rid="MARTINGAD286351C58" ref-type="bibr">Ono et al. 2003</xref>; <xref rid="MARTINGAD286351C57" ref-type="bibr">Oliveira et al. 2005</xref>; <xref rid="MARTINGAD286351C64" ref-type="bibr">Siddiqui et al. 2006</xref>), the patient mutations reported here are all functionally hypomorphic. The implicit developmental viability of these human mutations therefore has utility for providing further insights into the roles of these essential protein complexes at the organism level.</p></sec><sec id="s2b"><title>Both condensin I and condensin II are required to resolve UFBs formed by dsDNA catenanes</title><p>In addition to identifying three new human disease genes, we established decatenation failure as a novel pathogenic mechanism for microcephaly&#x2014;mitotic in origin and distinct from mechanisms associated with previously identified disease genes (<xref ref-type="fig" rid="MARTINGAD286351F3">Fig. 3</xref>K, model). This is in contrast to the disrupted transcriptional regulation that underlies &#x201C;cohesinopathies&#x201D; (<xref rid="MARTINGAD286351C17" ref-type="bibr">Dorsett 2011</xref>), which result from mutations in the paralogous cohesin complex (<xref rid="MARTINGAD286351C52" ref-type="bibr">Musio et al. 2006</xref>; <xref rid="MARTINGAD286351C14" ref-type="bibr">Deardorff et al. 2007</xref>, <xref rid="MARTINGAD286351C15" ref-type="bibr">2012</xref>). The identification of mutations in both condensin I and condensin II complexes supports a mitotic basis, as both are required for mitotic chromosome integrity (<xref rid="MARTINGAD286351C35" ref-type="bibr">Hudson et al. 2003</xref>; <xref rid="MARTINGAD286351C58" ref-type="bibr">Ono et al. 2003</xref>; <xref rid="MARTINGAD286351C32" ref-type="bibr">Hirota et al. 2004</xref>) and colocalize only at mitosis on compacting chromatin (<xref rid="MARTINGAD286351C32" ref-type="bibr">Hirota et al. 2004</xref>). Furthermore, mitotic chromosome integrity is impaired in patient cell lines irrespective of which condensin is affected.</p><p>Our results indicate that decatenation failure is likely to be the direct consequence of such impaired chromosome compaction. Substantial chromatin bridging has been described in condensin II-null cells, and finer DAPI-positive bridges occur in condensin I knockout cells (<xref rid="MARTINGAD286351C23" ref-type="bibr">Green et al. 2012</xref>). While condensin II patient cells have similar macroscopic chromatin bridges, albeit at lower rates than reported previously, such chromatin bridges were not increased in condensin I cells. This led us to assess whether DNA bridges not visualized by DAPI might be present. PICH immunostaining permitted the detection of UFBs that have not been reported previously in cells deficient for either condensin I or condensin II. Such single nonchromatinized DNA fibers point to failed decatenation as the origin of the bridges (<xref rid="MARTINGAD286351C2" ref-type="bibr">Baumann et al. 2007</xref>; <xref rid="MARTINGAD286351C7" ref-type="bibr">Chan et al. 2007</xref>; <xref rid="MARTINGAD286351C40" ref-type="bibr">Ke et al. 2011</xref>) rather than these arising directly from disordered chromosome structure. Mechanistic studies in yeast have demonstrated that condensins promote decatenation (<xref rid="MARTINGAD286351C13" ref-type="bibr">D'Ambrosio et al. 2008</xref>; <xref rid="MARTINGAD286351C3" ref-type="bibr">Baxter et al. 2011</xref>; <xref rid="MARTINGAD286351C9" ref-type="bibr">Charbin et al. 2014</xref>), and it has been proposed that condensin-mediated chromosome compaction increases tension in catenated DNA that remains between sister chromatids such that it provides directionality to topoisomerase II-mediated strand exchanges toward chromatid decatenation (<xref ref-type="fig" rid="MARTINGAD286351F5">Fig. 5</xref>E, model; <xref rid="MARTINGAD286351C12" ref-type="bibr">Cuylen and Haering 2011</xref>).</p><p>Studies of replication stress-associated UFBs at fragile sites have implicated condensins in promoting their resolution (<xref rid="MARTINGAD286351C50" ref-type="bibr">Minocherhomji et al. 2015</xref>). However, rather than solely dealing with LRI UFBs, we establish here that both condensin complexes are also required to resolve dsDNA catenanes that occur in unperturbed cells, as UFBs were not flanked by FANCD2, a marker of LRI UFBs. Additionally, we observed a differential requirement for condensin I and II in UFB resolution, with condensin II specifically needed for decatenation of centromeric UFBs (<ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S5B</ext-link>), while condensin I UFBs arise at distributed sites that are not predominantly centromeric or ribosomal DNA (data not shown). Such differences could be accounted for by differing localization on mitotic chromosomes (<xref rid="MARTINGAD286351C58" ref-type="bibr">Ono et al. 2003</xref>, <xref rid="MARTINGAD286351C59" ref-type="bibr">2004</xref>) and/or their differential roles in axial and lateral chromosome compaction (<xref rid="MARTINGAD286351C63" ref-type="bibr">Shintomi and Hirano 2011</xref>). Therefore, the study of hypomorphic mammalian cell lines establishes that both condensins act in the resolution of dsDNA catenanes, suppressing UFB formation during the unperturbed cell cycle.</p></sec><sec id="s2c"><title>Decatenation failure as a cause of microcephaly</title><p>The model currently favored for the majority of primary microcephaly genes is that altered mitotic spindle position leads to an altered cleavage plane at cytokinesis and, consequently, perturbed symmetric/asymmetric fate decisions (<xref ref-type="fig" rid="MARTINGAD286351F3">Fig. 3</xref>K). In contrast to centrosomal models of microcephaly, spindle orientation is not altered in condensin-deficient apical progenitors (neural stem cells). Furthermore, normal proportions of PAX6 progenitors and TUJ1-positive neurons are maintained in the developing neuroepithelium, consistent with unperturbed symmetric/asymmetric cell fate choice. Therefore, while microcephaly associated with condensin mutations has a mitotic origin, it arises by a different mechanism that originates from DNA bridges in dividing apical neural progenitor cells as a result of decatenation failure.</p><p>Macroscopic chromatin bridges are an established cause of chromosome segregation failure (<xref rid="MARTINGAD286351C33" ref-type="bibr">Hoffelder et al. 2004</xref>). Consistent with this, we observed lagging chromosome fragments by live imaging in condensin II patient cells and, consequently, micronuclei in the subsequent interphase. Micronuclei also arose in condensin I patient cells, suggesting that UFBs may also prevent timely chromosome segregation, a conclusion supported by findings in PICH knockout DT40 cells (<xref rid="MARTINGAD286351C54" ref-type="bibr">Nielsen et al. 2015</xref>). Therefore, despite the differing mitotic roles of the two condensin complexes, missegregation of chromatin likely explains the shared phenotype and disease presentation. Furthermore, the high frequency of UFBs in Blooms syndrome (<xref rid="MARTINGAD286351C7" ref-type="bibr">Chan et al. 2007</xref>) would also predict that microcephaly in this disorder occurs by the same mechanism.</p><p>Notably, the protein encoded by the previously identified primary microcephaly gene <italic>MCPH1</italic> is a regulator of chromosome condensation that inhibits condensin II (<xref rid="MARTINGAD286351C69" ref-type="bibr">Trimborn et al. 2006</xref>; <xref rid="MARTINGAD286351C75" ref-type="bibr">Yamashita et al. 2011</xref>) and interacts with both NCAPD3 and NCAPG2 subunits (<xref rid="MARTINGAD286351C72" ref-type="bibr">Wood et al. 2008</xref>; <xref rid="MARTINGAD286351C75" ref-type="bibr">Yamashita et al. 2011</xref>). This raises the possibility that similar mechanisms could contribute to reduced brain size in MCPH1 patients. However, MCPH1 has also been reported to function in centrosomal Chk1-dependent checkpoint signaling (<xref rid="MARTINGAD286351C68" ref-type="bibr">Tibelius et al. 2009</xref>) that, when impaired in <italic>Mcph1</italic><sup>&#x2212;/&#x2212;</sup> mice, results in altered mitotic spindle orientation and increased asymmetric cell division in neural stem cells (<xref rid="MARTINGAD286351C25" ref-type="bibr">Gruber et al. 2011</xref>). Nonetheless, given that mutations in condensins are now also found to cause microcephaly, further investigation of the MCPH1&#x2013;condensin interaction is warranted.</p><p>We observed that chromosome segregation failure leads to aneuploidy in patient cells&#x2014;itself an established cause of microcephaly (<xref rid="MARTINGAD286351C27" ref-type="bibr">Hanks et al. 2004</xref>; <xref rid="MARTINGAD286351C48" ref-type="bibr">Marthiens et al. 2013</xref>). Aneuploidy has been shown to impair proliferation potential and cell survival, with chromosome instability models in yeast and mammals establishing that chromosome segregation failure leads to cell cycle delay and/or arrest (<xref rid="MARTINGAD286351C61" ref-type="bibr">Santaguida and Amon 2015</xref>), processes that would act to reduce neuronal cell number during the rapid cell proliferation of neurogenesis. DNA damage is also likely to occur at persisting chromatin bridges (<xref rid="MARTINGAD286351C37" ref-type="bibr">Janssen et al. 2011</xref>; <xref rid="MARTINGAD286351C46" ref-type="bibr">Maciejowski et al. 2015</xref>) and micronuclei (<xref rid="MARTINGAD286351C10" ref-type="bibr">Crasta et al. 2012</xref>), which may well impair cell viability, increasing the already high levels of apoptosis that occurs during brain development. Diminished cell survival would also result in reduced brain size and is consistent with the increased cell death seen in Nestin-cre condensin I and II knockouts (<xref rid="MARTINGAD286351C55" ref-type="bibr">Nishide and Hirano 2014</xref>). Therefore, we propose that impaired decatenation with subsequent chromosome segregation failure results in reduced cell proliferation and increasing cell death, providing a straightforward explanation for microcephaly associated with hypomorphic condensin mutations. While the restricted developmental window for neurogenesis provides one explanation for the disproportionate effect on brain size, there is also an elevated number of chromatin bridges in condensin-deficient neural stem cells (<xref ref-type="fig" rid="MARTINGAD286351F3">Fig. 3</xref>J, <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Fig. S5A</ext-link>; <xref rid="MARTINGAD286351C55" ref-type="bibr">Nishide and Hirano 2014</xref>) that could also explain why this organ is more severely affected.</p><p>In summary, through the identification of mutations in multiple condensin subunits, we show that &#x201C;condensinopathies&#x201D; result in microcephaly due to impaired DNA decatenation, establishing this as a novel disease mechanism and chromosome compaction as a key process ensuring mammalian cortical size.</p></sec></sec><sec sec-type="materials|methods" id="s3"><title>Materials and methods</title><sec id="s3a"><title>Research subjects</title><p>Genomic DNA from the affected individuals and family members was extracted from peripheral blood by standard methods or obtained from saliva samples using Oragene collection kits according to the manufacturer's instructions. Informed consent was obtained from all participating families, and the studies were approved by the ethics review board at the Scottish Multicentre Research Ethics Committee (04:MRE00/19) and the University of Texas Southwestern Medical Center (STU112010-149). Parents provided written consent for the publication of photographs of the patients. For growth measurements, <italic>Z</italic>-scores (standard deviations from population mean for age and sex) were calculated using LMSgrowth based on British 1990 growth reference data (<xref rid="MARTINGAD286351C19" ref-type="bibr">Freeman et al. 1995</xref>).</p><p>Growth was impaired prenatally, with low birth weight reported in three of the patients (P1, P2, and P3). No distinctive facial features aside from a sloping forehead were evident (patients P1 and P3). Although seizures and lower limb hypertonia were described in one case (patient P4), no malformations were reported in any of the patients, and no consistent facial phenotype was apparent between the four cases. Three patients had moderate intellectual impairment, with autistic-like behaviors being reported in patient P1; however, development was described as normal in patient P2. Of note, this latter patient developed a highly malignant anaplastic medulloblastoma (World Health Organization grade IV) at 8 yr of age that was unresponsive to treatment, resulting in death at 11 yr. No comorbidities were present in the other three patients, with one adult patient now aged 42 (patient P3). Malignancy was not reported in any of the heterozygous carriers identified in this study.</p></sec><sec id="s3b"><title>Animal studies</title><p>All mouse studies were conducted under guidance and approval issued by the Medical Research Council in Responsibility in the Use of Animals for Medical Research (July 1993) and Home Office Project License. The <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mouse was identified from an ENU screen as having an unusual, isolated T-lymphocyte developmental defect that altered circulating T-cell numbers with increased levels of the activation/memory marker CD44 but was reported as otherwise healthy and fertile and without other phenotypes (<xref rid="MARTINGAD286351C22" ref-type="bibr">Gosling et al. 2007</xref>). The <italic>Ncaph2</italic><sup><italic>I15N</italic>/<italic>I15N</italic></sup> mouse line was maintained on a C57BL6/J background.</p></sec><sec id="s3c"><title>Exome sequencing, AmpliSeq resequencing, and Sanger sequencing</title><p>Exome sequencing and variant filtering were performed as described previously (<xref rid="MARTINGAD286351C49" ref-type="bibr">Martin et al. 2014</xref>; <xref rid="MARTINGAD286351C51" ref-type="bibr">Murray et al. 2015</xref>) for patients P1 and P2. Exome sequencing for patient P4 (DDDP261277) was performed by The Deciphering Developmental Disorders Study as described (<xref rid="MARTINGAD286351C74" ref-type="bibr">Wright et al. 2014</xref>). Ion AmpliSeq multiplex PCR (Life Technologies) was used for cohort NGS (next-generation sequencing) resequencing as described previously (<xref rid="MARTINGAD286351C51" ref-type="bibr">Murray et al. 2015</xref>). Briefly, primers were designed to amplify coding exons of all condensin I and II genes with 25 base pairs (bp) of flanking intronic sequence. PCR amplification performed in one-sixth reaction volumes for primer pools using 5 ng of patient DNA. After pooling patient amplicons, Ion Xpress barcoding was performed, and sequencing was done on the Ion Proton sequencing platform (Life Technologies) using an Ion P1 200 sequencing kit. For variant calling, Torrent Suite software was used, filtering as for exome analysis. All variants were confirmed by capillary sequencing of PCR products amplified from the relevant condensin gene (primer sequences in <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Table S2A</ext-link>) on an ABI 3730 capillary sequencer. Sequence traces were analyzed using Mutation Surveyor software (SoftGenetics, Inc.).</p></sec><sec id="s3d"><title>Sequence alignment and secondary structure prediction</title><p>Sequences were obtained from Ensembl release 78 and Ensembl Genomes release 25 (except for <italic>Chlamydomonas</italic>) (from Phytozome 10.3; <uri xlink:href="http://phytozome.jgi.doe.gov/pz/portal.html">http://phytozome.jgi.doe.gov/pz/portal.html</uri>). Protein sequences were aligned using CLUSTALW (CLUSTAL 2.1). Since not all eukaryotes have condensin II complexes, homologs were selected from the species listed in <xref ref-type="fig" rid="MARTINGAD286351F1">Figure 1</xref> as described in <xref rid="MARTINGAD286351C29" ref-type="bibr">Hirano (2012)</xref>. Amino acid similarity was scored using Blossom 45. The locations of NCAPH domains were determined based on the above alignment and secondary structure predictions made by the JPred server (<uri xlink:href="http://www.compbio.dundee.ac.uk/jpred4">http://www.compbio.dundee.ac.uk/jpred4</uri>).</p></sec><sec id="s3e"><title>RT&#x2013;PCR</title><p>Total RNA was isolated from human primary fibroblast cell lines using the RNeasy kit (Qiagen) according to the manufacturer's instructions. After DNase I treatment (Qiagen), cDNA was generated using random oligomer primers and AMV RT (Roche). For RT&#x2013;PCR primers, see <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Table S2B</ext-link>.</p></sec><sec id="s3f"><title>Cell culture</title><p>Dermal fibroblasts were obtained by skin punch biopsy and cultured in amnioMAX C-100 complete medium (Life Technologies). MEFs were prepared from individual E13.5 embryos after removing the head and abdominal cavities. Each embryo was minced and maintained in DMEM, 10% FCS, 0.1 mM &#x3B2;-mercaptoethanol, 100 U/mL penicillin, and 100 &#xB5;g/mL streptomycin. All fibroblast cultures were maintained in a 37&#xB0;C incubator with 5% CO<sub>2</sub> and 3% O<sub>2</sub>. hTERT RPE-1 cells were obtained from the American Type Culture Collection (CRL-4000) and cultured in DMEM:F12, 10% FCS, 0.26% sodium bicarbonate, 100 U/mL penicillin, and 100 &#xB5;g/mL streptomycin. All cell lines were routinely tested for mycoplasma. siRNA oligonucleotides were transfected into hTERT RPE1 cells using RNAiMAX (Life Technologies) according to the manufacturer's instructions. For siRNA oligonucleotide sequences, see <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Table S2C</ext-link>. pRFP-H2B was transfected into primary fibroblast cells by electroporation with the Neon transfection system (Thermo Fischer Scientific) according to the manufacturer's instructions. Where indicated, cells were treated with 0.3 &#xB5;M aphidicolin (Sigma-Aldrich) or 5 &#xB5;M ICRF-159 (Sigma-Aldrich) for 24 h.</p></sec><sec id="s3g"><title>Flow cytometry</title><p>Peripheral blood micronucleus assays were performed using &#x223C;50 &#xB5;L of blood collected into 200 &#xB5;L of heparin solution. Of this mixture, 180 &#xB5;L was pipetted into 2 mL of methanol, which had been prechilled for 24 h at &#x2212;80&#xB0;C. Samples were stored for at least 24 h at &#x2212;80&#xB0;C, washed in PBS, and resuspended in 50 &#xB5;L of PBS. Twenty microliters was transferred to a new tube containing 69 &#xB5;L of PBS, 1 &#xB5;L of ant-CD71 antibody (Biolegend, RI7217), and 10 &#xB5;L of 10 mg/mL RNase A solution and incubated for 1 h on ice. PBS (500 &#xB5;L) containing 1.25 &#xB5;g/mL propidium iodide solution was added immediately prior to analysis. FACS data were acquired on a BD FACSAria II cell sorter and processed using FlowJo software (Treestar).</p></sec><sec id="s3h"><title>Chromosome analysis</title><p>Metaphases and nuclei were isolated in hypotonic buffer (0.25% KCl, 1% Na<sub>3</sub>C<sub>6</sub>H<sub>5</sub>O<sub>7</sub>), fixed with methanol:acetic acid (3:1), and dropped onto slides. Metaphase chromosomes were visualized with DAPI staining. Interphase FISH used chromosome enumeration probes labeled in Spectrum orange/green/aqua (Abbot Molecular) prepared in CEP hybridization buffer (Abbot Molecular). Slides were scanned on the GSL-120 automated slide scanner and analyzed using Cytovision version 7.3.1 (Leica Biosystems).</p></sec><sec id="s3i"><title>ICS assay</title><p>Primary fibroblasts were grown on poly-L-lysine-coated (Sigma-Aldrich) coverslips and blocked with 200 ng/&#xB5;L nocodazole overnight. Cells were incubated in 75 mM KCl buffer for 5 min followed by TEEN buffer (0.5 mM triethanolamine-HCl at pH 8.5, 0.1 mM Na EDTA, 12.5 mM NaCl) for 30 min and RSB (10 mM Tris-HCl at pH 7.4, 210 mM NaCl, 5 mM MgCl<sub>2</sub>) for 10 min. The TEEN&#x2013;RSB cycle was then repeated, cells were fixed in methanol:acetic acid (3:1) for 30 min, and coverslips were mounted in DAPI.</p></sec><sec id="s3j"><title>Immunofluorescence and microscopy</title><p>Human dermal fibroblasts and MEFs were grown on untreated coverslips (Becton Dickinson). Cells were fixed in 4% PFA (TAAB) in PHEM (25 mM Hepes-NaOH at pH 6.8, 100 mM EGTA, 60 mM PIPES, 2 mM MgCl<sub>2</sub>) for 15 min. Following PFA fixation, cells were permeabilized by treatment in 0.2% Triton X-100 in PHEM for 2 min. Fixed cells were blocked in PBS/1% bovine serum albumin (Sigma-Aldrich) and incubated with anti-PICH antibody (<xref rid="MARTINGAD286351C40" ref-type="bibr">Ke et al. 2011</xref>) or FANCD2 (Santa Cruz Biotechnology, sc-20022) for 30 min followed by anti-rabbit IgG Alexa fluor 568-linked (Life Technologies A11036) or anti-mouse IgG Alexa fluor 488-linked (Life Technologies, A11029) and DAPI. For UFB scoring, mid to late anaphase cells were selected on the criteria that tips of segregating sister chromatids were between 12 and 20 &#xB5;m apart and that no nuclear envelope reformation was visible. Epifluorescent images were acquired using an Imager A1 fluorescence microscope (Zeiss) controlling a Photometrics Coolsnap HQ2 CCD camera, and a piezoelectrically driven objective mount was used to control movement in the <italic>Z</italic>-dimension. Images were captured using a 100&#xD7; plan-apo (1.4 NA) objective at 0.2-&#xB5;m <italic>Z</italic>-sections and subsequently deconvolved using Volocity software (PerkinElmer). For live imaging, primary fibroblast cells were seeded onto glass-bottom plates (Greiner Bio One), and imaging was acquired in a closed chamber system with Leibovitz L-15 medium (Gibco). TRITC image data sets were collected with a Axiovert 200 fluorescence microscope system (Zeiss) heated to 37&#xB0;C and equipped with a 40&#xD7; plan NeoFluor (0.75 NA) objective. Image capture was performed using Metamorph (Molecular Devices). Images with Z optical spacing of 2 &#xB5;m were recorded every 10 min for a 24-h period.</p></sec><sec id="s3k"><title>Western blotting</title><p>Cells were lysed in 50 mM Tris-HCl (pH 8), 280 mM NaCl, 0.5% NP40, 0.2 mM EDTA, 0.2 mM EGTA, and 10% glycerol supplemented with protease inhibitor tablet (Roche). Protein samples were run on a 4%&#x2013;12% NuPAGE Bis-Tris precast gel (Life Technologies) followed by immunoblotting using anti-NCAPD3 (Bethyl Laboratories, A300-604A), NCAPD2 (Bethyl Laboratories, A300-601A), NCAPH (Bethyl Laboratories, A300-603A), NCAPH2 (Bethyl Laboratories, A302-276A), NCAPG2 (Bethyl Laboratories, A300-605A), and actin (Sigma, A2066).</p></sec><sec id="s3l"><title>Mouse genotyping, immunofluorescence, and microscopy</title><p>For mouse genotyping, ear clips were boiled in 50 &#xB5;L of 25 mM NaOH and 0.2 mM EDTA for 30 min at 95&#xB0;C, cooled, neutralized with 50 &#xB5;L of 40 mM Tris base, and used directly in PCR reactions. For genotyping of embryos, tails were treated with DirectPCR lysis reagent (Viagen) according to the manufacturer's instructions. All genotyping PCRs were performed using the primer pair in <ext-link ext-link-type="uri" xlink:href="http://genesdev.cshlp.org/lookup/suppl/doi:10.1101/gad.286351.116/-/DC1">Supplemental Table S2D</ext-link> and were digested by BccI prior to electrophoresis.</p><p>E13.5 embryos and postnatal mice (postnatal days 50&#x2013;58) were dissected in ice-cold PBS. The E13.5 embryos were fixed for 5 h in 4% paraformaldehyde/PBS, and postnatal mouse brains were dissected and fixed overnight in 4% formaldehyde/PBS. For cryosectioning, the samples were cryoprotected through a sucrose/PBS series (5%, 10%, 15%, and 20%), embedded in OCT compound (Cellpath), and stored at &#x2212;80&#xB0;C. All cryostat sections were cut at 12 &#xB5;m. Immunofluorescence staining was performed by permeabilization with 0.2% Triton X-100/PBS for 15 min, blocking in 1% BSA/PBS, and primary incubation overnight. Primary antibodies used were anti-TUB&#x3B2;III (Covance, MMS-435P), PAX6 (Covance, PRB-178P), and Aurora A (BD Transduction Laboratories, 610939). Secondary antibodies were incubated for 2 h, and all immunofluorescence was costained with DAPI. Imaging was performed using dragonfly multimodal imaging platform in three-dimensional fast confocal mode using the 405-, 488-, and 561-nm lasers and a iXon Ultra 888 EMCCD camera (Andor). Images were captured using a 100&#xD7; plan-apo (1.4 NA) or 60&#xD7; plan-apo (1.4 NA) objective at 0.2-&#xB5;m Z-sections.</p></sec><sec id="s3m"><title>Three-dimensional measurements of spindle orientations</title><p>Analysis was restricted to cells in metaphase and anaphase, as the mitotic spindle stops rotating along the apico&#x2013;basal axis from metaphase onward (<xref rid="MARTINGAD286351C28" ref-type="bibr">Haydar et al. 2003</xref>). Two assumptions were made to measure mitotic spindle orientations in three dimensions. First, the spindle axis was defined by a straight line through two points defined by the <italic>XYZ</italic> coordinates of the two centrosomes (Aurora A signal). Second, the ventricular surface was defined using three points to establish a three-dimensional plane. These points were manually annotated for each three-dimensional image using OMERO (5.1.4). Mitotic spindle orientation was calculated using a custom-written graphic user interface software developed using Matlab (R2015a). This calculated the normal vector to the plane representing the ventricular surface and then the cosine angle, &#x201C;A,&#x201D; between this normal vector and the spindle line vector. The mitotic spindle orientation angle was thus 90&#xB0; A (i.e., the complementary acute angle). <italic>Z</italic>-axis calibrations were accounted for when defining the points&#x2019; spatial locations. Three-dimensional reconstructions were rendered using Imaris software (Andor).</p></sec><sec id="s3n"><title>Statistical analysis</title><p>All data are shown as averages, with variance as either SEM or SD. Statistical analysis was performed using Prism (Graphpad Software, Inc.). For all quantitative measurements, normal distribution was assumed, with <italic>t</italic>-tests performed unpaired and two-sided unless otherwise stated. For categorical data, &#x3A7;<sup>2</sup>-test was used. Data collection and analysis were not performed blind, as the different conditions were clearly recognizable by the experimenter. No statistical methods were used to predetermine sample sizes, which were determined empirically from previous experimental experience with similar assays and/or from sizes generally employed in the field.</p></sec></sec>
+<sec sec-type="supplementary-material">
+<title>Supplementary Material</title>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>Supplemental Material</title>
+</caption>
+<media mimetype="text" mime-subtype="html" xlink:href="supp_30_19_2158__index.html"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="supp_gad.286351.116_SuppMaterial.pdf"/>
+</supplementary-material>
+</sec>
+</body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We thank the families, J. Tolmie, and other clinicians for their involvement and participation; the Potentials Foundation; the Walking with Giants Foundation; W. Bickmore and M. Reijns for comments on the manuscript; J. Marsh, C. Ponting, Matt Hurles and Phil Jones for helpful discussions; H. Yu (Howard Hughes Medical Institute) for his kind gift of the PICH antibody; E. Freyer for assistance with FACS analysis; D. Read for technical assistance; the MRC Institute of Genetics and Molecular Medicine (IGMM) core sequencing service and imaging facilities; Western General Hospital Biological Research Facility staff for animal husbandry; and Oxford Gene Technology and Edinburgh Clinical Research Facility for next-generation sequencing. This work was supported by funding from the Medical Research Council, the Lister Institute for Preventative Medicine, and the European Research Council (ERC; 281847 to A.P.J.); a Biotechnology and Biological Sciences Research Council grant (BB/K017632/1 to P.V); a Sir Henry Dale Fellowship (grant 102560/Z/13/Z to A.J.W.); Medical Research Scotland (to L.S.B.); the Potentials Foundation (to C.A.W.); and the Indian Council of Medical Research (BMS 54/2/2013 to S.R.P). The Deciphering Developmental Disorders Study presents independent research commissioned by the Health Innovation Challenge Fund (grant no. HICF-1009-003), a parallel funding partnership between the Wellcome Trust and the Department of Health, and the Wellcome Trust Sanger Institute (grant no. WT098051). The views expressed here are those of the authors and not necessarily those of the Wellcome Trust or the Department of Health. The study has UK Research Ethics Committee approval (10/H0305/83) granted by the Cambridge South Research Ethics Committee, and GEN/284/12 granted by the Republic of Ireland. We acknowledge the support of the National Institute for Health Research through the Comprehensive Clinical Research Network.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="supplementary-material">
+        <p>Supplemental material is available for this article.</p>
+      </fn>
+      <fn>
+        <p>Article published online ahead of print. Article and publication date are online at <ext-link ext-link-type="uri" xlink:href="http://www.genesdev.org/cgi/doi/10.1101/gad.286351.116">http://www.genesdev.org/cgi/doi/10.1101/gad.286351.116</ext-link>.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="MARTINGAD286351C1">
+        <mixed-citation publication-type="journal"><string-name><surname>Al-Dosari</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Shaheen</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Colak</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Alkuraya</surname>
+<given-names>FS</given-names></string-name>. <year>2010</year>
+<article-title>Novel CENPJ mutation causes Seckel syndrome</article-title>. <source>J Med Genet</source>
+<volume>47</volume>: <fpage>411</fpage>&#x2013;<lpage>414</lpage>.<pub-id pub-id-type="pmid">20522431</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C2">
+        <mixed-citation publication-type="journal"><string-name><surname>Baumann</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Korner</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Hofmann</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Nigg</surname>
+<given-names>EA</given-names></string-name>. <year>2007</year>
+<article-title>PICH, a centromere-associated SNF2 family ATPase, is regulated by Plk1 and required for the spindle checkpoint</article-title>. <source>Cell</source>
+<volume>128</volume>: <fpage>101</fpage>&#x2013;<lpage>114</lpage>.<pub-id pub-id-type="pmid">17218258</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C3">
+        <mixed-citation publication-type="journal"><string-name><surname>Baxter</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Sen</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Martinez</surname>
+<given-names>VL</given-names></string-name>, <string-name><surname>De Carandini</surname>
+<given-names>ME</given-names></string-name>, <string-name><surname>Schvartzman</surname>
+<given-names>JB</given-names></string-name>, <string-name><surname>Diffley</surname>
+<given-names>JF</given-names></string-name>, <string-name><surname>Aragon</surname>
+<given-names>L</given-names></string-name>. <year>2011</year>
+<article-title>Positive supercoiling of mitotic DNA drives decatenation by topoisomerase II in eukaryotes</article-title>. <source>Science</source>
+<volume>331</volume>: <fpage>1328</fpage>&#x2013;<lpage>1332</lpage>.<pub-id pub-id-type="pmid">21393545</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C4">
+        <mixed-citation publication-type="journal"><string-name><surname>Bicknell</surname>
+<given-names>LS</given-names></string-name>, <string-name><surname>Bongers</surname>
+<given-names>EM</given-names></string-name>, <string-name><surname>Leitch</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Brown</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Schoots</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Harley</surname>
+<given-names>ME</given-names></string-name>, <string-name><surname>Aftimos</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Al-Aama</surname>
+<given-names>JY</given-names></string-name>, <string-name><surname>Bober</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Brown</surname>
+<given-names>PA</given-names></string-name>, <etal/>
+<year>2011</year>
+<article-title>Mutations in the pre-replication complex cause Meier-Gorlin syndrome</article-title>. <source>Nat Genet</source>
+<volume>43</volume>: <fpage>356</fpage>&#x2013;<lpage>359</lpage>.<pub-id pub-id-type="pmid">21358632</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C5">
+        <mixed-citation publication-type="journal"><string-name><surname>Bond</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Roberts</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Mochida</surname>
+<given-names>GH</given-names></string-name>, <string-name><surname>Hampshire</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Scott</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Askham</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Springell</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Mahadevan</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Crow</surname>
+<given-names>YJ</given-names></string-name>, <string-name><surname>Markham</surname>
+<given-names>AF</given-names></string-name>, <etal/>
+<year>2002</year>
+<article-title>ASPM is a major determinant of cerebral cortical size</article-title>. <source>Nat Genet</source>
+<volume>32</volume>: <fpage>316</fpage>&#x2013;<lpage>320</lpage>.<pub-id pub-id-type="pmid">12355089</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C6">
+        <mixed-citation publication-type="journal"><string-name><surname>Bond</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Roberts</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Springell</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Lizarraga</surname>
+<given-names>SB</given-names></string-name>, <string-name><surname>Scott</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Higgins</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hampshire</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Morrison</surname>
+<given-names>EE</given-names></string-name>, <string-name><surname>Leal</surname>
+<given-names>GF</given-names></string-name>, <string-name><surname>Silva</surname>
+<given-names>EO</given-names></string-name>, <etal/>
+<year>2005</year>
+<article-title>A centrosomal mechanism involving CDK5RAP2 and CENPJ controls brain size</article-title>. <source>Nat Genet</source>
+<volume>37</volume>: <fpage>353</fpage>&#x2013;<lpage>355</lpage>.<pub-id pub-id-type="pmid">15793586</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C7">
+        <mixed-citation publication-type="journal"><string-name><surname>Chan</surname>
+<given-names>KL</given-names></string-name>, <string-name><surname>North</surname>
+<given-names>PS</given-names></string-name>, <string-name><surname>Hickson</surname>
+<given-names>ID</given-names></string-name>. <year>2007</year>
+<article-title>BLM is required for faithful chromosome segregation and its localization defines a class of ultrafine anaphase bridges</article-title>. <source>EMBO J</source>
+<volume>26</volume>: <fpage>3397</fpage>&#x2013;<lpage>3409</lpage>.<pub-id pub-id-type="pmid">17599064</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C8">
+        <mixed-citation publication-type="journal"><string-name><surname>Chan</surname>
+<given-names>KL</given-names></string-name>, <string-name><surname>Palmai-Pallag</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Ying</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hickson</surname>
+<given-names>ID</given-names></string-name>. <year>2009</year>
+<article-title>Replication stress induces sister-chromatid bridging at fragile site loci in mitosis</article-title>. <source>Nat Cell Biol</source>
+<volume>11</volume>: <fpage>753</fpage>&#x2013;<lpage>760</lpage>.<pub-id pub-id-type="pmid">19465922</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C9">
+        <mixed-citation publication-type="journal"><string-name><surname>Charbin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Bouchoux</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Uhlmann</surname>
+<given-names>F</given-names></string-name>. <year>2014</year>
+<article-title>Condensin aids sister chromatid decatenation by topoisomerase II</article-title>. <source>Nucleic Acids Res</source>
+<volume>42</volume>: <fpage>340</fpage>&#x2013;<lpage>348</lpage>.<pub-id pub-id-type="pmid">24062159</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C10">
+        <mixed-citation publication-type="journal"><string-name><surname>Crasta</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Ganem</surname>
+<given-names>NJ</given-names></string-name>, <string-name><surname>Dagher</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Lantermann</surname>
+<given-names>AB</given-names></string-name>, <string-name><surname>Ivanova</surname>
+<given-names>EV</given-names></string-name>, <string-name><surname>Pan</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Nezi</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Protopopov</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Chowdhury</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Pellman</surname>
+<given-names>D</given-names></string-name>. <year>2012</year>
+<article-title>DNA breaks and chromosome pulverization from errors in mitosis</article-title>. <source>Nature</source>
+<volume>482</volume>: <fpage>53</fpage>&#x2013;<lpage>58</lpage>.<pub-id pub-id-type="pmid">22258507</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C11">
+        <mixed-citation publication-type="journal"><string-name><surname>Crow</surname>
+<given-names>YJ</given-names></string-name>, <string-name><surname>Leitch</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hayward</surname>
+<given-names>BE</given-names></string-name>, <string-name><surname>Garner</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Parmar</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Griffith</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Ali</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Semple</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Aicardi</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Babul-Hirji</surname>
+<given-names>R</given-names></string-name>, <etal/>
+<year>2006</year>
+<article-title>Mutations in genes encoding ribonuclease H2 subunits cause Aicardi-Goutieres syndrome and mimic congenital viral brain infection</article-title>. <source>Nat Genet</source>
+<volume>38</volume>: <fpage>910</fpage>&#x2013;<lpage>916</lpage>.<pub-id pub-id-type="pmid">16845400</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C12">
+        <mixed-citation publication-type="journal"><string-name><surname>Cuylen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Haering</surname>
+<given-names>CH</given-names></string-name>. <year>2011</year>
+<article-title>Deciphering condensin action during chromosome segregation</article-title>. <source>Trends Cell Biol</source>
+<volume>21</volume>: <fpage>552</fpage>&#x2013;<lpage>559</lpage>.<pub-id pub-id-type="pmid">21763138</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C13">
+        <mixed-citation publication-type="journal"><string-name><surname>D'Ambrosio</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Kelly</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Shirahige</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Uhlmann</surname>
+<given-names>F</given-names></string-name>. <year>2008</year>
+<article-title>Condensin-dependent rDNA decatenation introduces a temporal pattern to chromosome segregation</article-title>. <source>Curr Biol</source>
+<volume>18</volume>: <fpage>1084</fpage>&#x2013;<lpage>1089</lpage>.<pub-id pub-id-type="pmid">18635352</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C14">
+        <mixed-citation publication-type="journal"><string-name><surname>Deardorff</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Kaur</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Yaeger</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Rampuria</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Korolev</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pie</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Gil-Rodriguez</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Arnedo</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Loeys</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Kline</surname>
+<given-names>AD</given-names></string-name>, <etal/>
+<year>2007</year>
+<article-title>Mutations in cohesin complex members SMC3 and SMC1A cause a mild variant of Cornelia de Lange syndrome with predominant mental retardation</article-title>. <source>Am J Hum Genet</source>
+<volume>80</volume>: <fpage>485</fpage>&#x2013;<lpage>494</lpage>.<pub-id pub-id-type="pmid">17273969</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C15">
+        <mixed-citation publication-type="journal"><string-name><surname>Deardorff</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Wilde</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Albrecht</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Dickinson</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Tennstedt</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Braunholz</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Monnich</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Yan</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Gil-Rodriguez</surname>
+<given-names>MC</given-names></string-name>, <etal/>
+<year>2012</year>
+<article-title>RAD21 mutations cause a human cohesinopathy</article-title>. <source>Am J Hum Genet</source>
+<volume>90</volume>: <fpage>1014</fpage>&#x2013;<lpage>1027</lpage>.<pub-id pub-id-type="pmid">22633399</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C16">
+        <mixed-citation publication-type="journal"><collab>The Deciphering Developmental Disorders Study</collab>. <year>2015</year>
+<article-title>Large-scale discovery of novel genetic causes of developmental disorders</article-title>. <source>Nature</source>
+<volume>519</volume>: <fpage>223</fpage>&#x2013;<lpage>228</lpage>.<pub-id pub-id-type="pmid">25533962</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C17">
+        <mixed-citation publication-type="journal"><string-name><surname>Dorsett</surname>
+<given-names>D</given-names></string-name>. <year>2011</year>
+<article-title>Cohesin: genomic insights into controlling gene transcription and development</article-title>. <source>Curr Opin Genet Dev</source>
+<volume>21</volume>: <fpage>199</fpage>&#x2013;<lpage>206</lpage>.<pub-id pub-id-type="pmid">21324671</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C18">
+        <mixed-citation publication-type="journal"><string-name><surname>Fish</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Kosodo</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Enard</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Paabo</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Huttner</surname>
+<given-names>WB</given-names></string-name>. <year>2006</year>
+<article-title>Aspm specifically maintains symmetric proliferative divisions of neuroepithelial cells</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>103</volume>: <fpage>10438</fpage>&#x2013;<lpage>10443</lpage>.<pub-id pub-id-type="pmid">16798874</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C19">
+        <mixed-citation publication-type="journal"><string-name><surname>Freeman</surname>
+<given-names>JV</given-names></string-name>, <string-name><surname>Cole</surname>
+<given-names>TJ</given-names></string-name>, <string-name><surname>Chinn</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>PR</given-names></string-name>, <string-name><surname>White</surname>
+<given-names>EM</given-names></string-name>, <string-name><surname>Preece</surname>
+<given-names>MA</given-names></string-name>. <year>1995</year>
+<article-title>Cross sectional stature and weight reference curves for the UK, 1990</article-title>. <source>Arch Dis Child</source>
+<volume>73</volume>: <fpage>17</fpage>&#x2013;<lpage>24</lpage>.<pub-id pub-id-type="pmid">7639543</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C20">
+        <mixed-citation publication-type="journal"><string-name><surname>Gerlich</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Hirota</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Koch</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Peters</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Ellenberg</surname>
+<given-names>J</given-names></string-name>. <year>2006</year>
+<article-title>Condensin I stabilizes chromosomes mechanically through a dynamic interaction in live cells</article-title>. <source>Curr Biol</source>
+<volume>16</volume>: <fpage>333</fpage>&#x2013;<lpage>344</lpage>.<pub-id pub-id-type="pmid">16488867</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C21">
+        <mixed-citation publication-type="journal"><string-name><surname>Gogendeau</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Siudeja</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Gambarotto</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Pennetier</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bardin</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Basto</surname>
+<given-names>R</given-names></string-name>. <year>2015</year>
+<article-title>Aneuploidy causes premature differentiation of neural and intestinal stem cells</article-title>. <source>Nat Commun</source>
+<volume>6</volume>: <fpage>8894</fpage>.<pub-id pub-id-type="pmid">26573328</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C22">
+        <mixed-citation publication-type="journal"><string-name><surname>Gosling</surname>
+<given-names>KM</given-names></string-name>, <string-name><surname>Makaroff</surname>
+<given-names>LE</given-names></string-name>, <string-name><surname>Theodoratos</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>YH</given-names></string-name>, <string-name><surname>Whittle</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Rui</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hong</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>Kennedy</surname>
+<given-names>GC</given-names></string-name>, <string-name><surname>Fritz</surname>
+<given-names>JA</given-names></string-name>, <etal/>
+<year>2007</year>
+<article-title>A mutation in a chromosome condensin II subunit, kleisin &#x3B2;, specifically disrupts T cell development</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>104</volume>: <fpage>12445</fpage>&#x2013;<lpage>12450</lpage>.<pub-id pub-id-type="pmid">17640884</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C23">
+        <mixed-citation publication-type="journal"><string-name><surname>Green</surname>
+<given-names>LC</given-names></string-name>, <string-name><surname>Kalitsis</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>TM</given-names></string-name>, <string-name><surname>Cipetic</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Marshall</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Turnbull</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Whitchurch</surname>
+<given-names>CB</given-names></string-name>, <string-name><surname>Vagnarelli</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Samejima</surname>
+<given-names>K</given-names></string-name>, <etal/>
+<year>2012</year>
+<article-title>Contrasting roles of condensin I and condensin II in mitotic chromosome formation</article-title>. <source>J Cell Sci</source>
+<volume>125</volume>: <fpage>1591</fpage>&#x2013;<lpage>1604</lpage>.<pub-id pub-id-type="pmid">22344259</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C24">
+        <mixed-citation publication-type="journal"><string-name><surname>Griffith</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Walker</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Martin</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Vagnarelli</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Stiff</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Vernay</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Al Sanna</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Saggar</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hamel</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Earnshaw</surname>
+<given-names>WC</given-names></string-name>, <etal/>
+<year>2008</year>
+<article-title>Mutations in pericentrin cause Seckel syndrome with defective ATR-dependent DNA damage signaling</article-title>. <source>Nat Genet</source>
+<volume>40</volume>: <fpage>232</fpage>&#x2013;<lpage>236</lpage>.<pub-id pub-id-type="pmid">18157127</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C25">
+        <mixed-citation publication-type="journal"><string-name><surname>Gruber</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Sukchev</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Joerss</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Frappart</surname>
+<given-names>PO</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>ZQ</given-names></string-name>. <year>2011</year>
+<article-title>MCPH1 regulates the neuroprogenitor division mode by coupling the centrosomal cycle with mitotic entry through the Chk1&#x2013;Cdc25 pathway</article-title>. <source>Nat Cell Biol</source>
+<volume>13</volume>: <fpage>1325</fpage>&#x2013;<lpage>1334</lpage>.<pub-id pub-id-type="pmid">21947081</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C26">
+        <mixed-citation publication-type="journal"><string-name><surname>Hagstrom</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>VF</given-names></string-name>, <string-name><surname>Cozzarelli</surname>
+<given-names>NR</given-names></string-name>, <string-name><surname>Meyer</surname>
+<given-names>BJ</given-names></string-name>. <year>2002</year>
+<article-title><italic>C. elegans</italic> condensin promotes mitotic chromosome architecture, centromere organization, and sister chromatid segregation during mitosis and meiosis</article-title>. <source>Genes Dev</source>
+<volume>16</volume>: <fpage>729</fpage>&#x2013;<lpage>742</lpage>.<pub-id pub-id-type="pmid">11914278</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C27">
+        <mixed-citation publication-type="journal"><string-name><surname>Hanks</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Coleman</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Reid</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Plaja</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Firth</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Fitzpatrick</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kidd</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Mehes</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Nash</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Robin</surname>
+<given-names>N</given-names></string-name>, <etal/>
+<year>2004</year>
+<article-title>Constitutional aneuploidy and cancer predisposition caused by biallelic mutations in BUB1B</article-title>. <source>Nat Genet</source>
+<volume>36</volume>: <fpage>1159</fpage>&#x2013;<lpage>1161</lpage>.<pub-id pub-id-type="pmid">15475955</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C28">
+        <mixed-citation publication-type="journal"><string-name><surname>Haydar</surname>
+<given-names>TF</given-names></string-name>, <string-name><surname>Ang</surname>
+<given-names>E</given-names><suffix>Jr</suffix></string-name>, <string-name><surname>Rakic</surname>
+<given-names>P</given-names></string-name>. <year>2003</year>
+<article-title>Mitotic spindle rotation and mode of cell division in the developing telencephalon</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>100</volume>: <fpage>2890</fpage>&#x2013;<lpage>2895</lpage>.<pub-id pub-id-type="pmid">12589023</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C29">
+        <mixed-citation publication-type="journal"><string-name><surname>Hirano</surname>
+<given-names>T</given-names></string-name>. <year>2012</year>
+<article-title>Condensins: universal organizers of chromosomes with diverse functions</article-title>. <source>Genes Dev</source>
+<volume>26</volume>: <fpage>1659</fpage>&#x2013;<lpage>1678</lpage>.<pub-id pub-id-type="pmid">22855829</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C30">
+        <mixed-citation publication-type="journal"><string-name><surname>Hirano</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Mitchison</surname>
+<given-names>TJ</given-names></string-name>. <year>1994</year>
+<article-title>A heterodimeric coiled-coil protein required for mitotic chromosome condensation in vitro</article-title>. <source>Cell</source>
+<volume>79</volume>: <fpage>449</fpage>&#x2013;<lpage>458</lpage>.<pub-id pub-id-type="pmid">7954811</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C31">
+        <mixed-citation publication-type="journal"><string-name><surname>Hirano</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kobayashi</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>M</given-names></string-name>. <year>1997</year>
+<article-title>Condensins, chromosome condensation protein complexes containing XCAP-C, XCAP-E and a <italic>Xenopus</italic> homolog of the <italic>Drosophila</italic> Barren protein</article-title>. <source>Cell</source>
+<volume>89</volume>: <fpage>511</fpage>&#x2013;<lpage>521</lpage>.<pub-id pub-id-type="pmid">9160743</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C32">
+        <mixed-citation publication-type="journal"><string-name><surname>Hirota</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Gerlich</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Koch</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Ellenberg</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Peters</surname>
+<given-names>JM</given-names></string-name>. <year>2004</year>
+<article-title>Distinct functions of condensin I and II in mitotic chromosome assembly</article-title>. <source>J Cell Sci</source>
+<volume>117</volume>(<issue>Pt 26</issue>): <fpage>6435</fpage>&#x2013;<lpage>6445</lpage>.<pub-id pub-id-type="pmid">15572404</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C33">
+        <mixed-citation publication-type="journal"><string-name><surname>Hoffelder</surname>
+<given-names>DR</given-names></string-name>, <string-name><surname>Luo</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Burke</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>Watkins</surname>
+<given-names>SC</given-names></string-name>, <string-name><surname>Gollin</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Saunders</surname>
+<given-names>WS</given-names></string-name>. <year>2004</year>
+<article-title>Resolution of anaphase bridges in cancer cells</article-title>. <source>Chromosoma</source>
+<volume>112</volume>: <fpage>389</fpage>&#x2013;<lpage>397</lpage>.<pub-id pub-id-type="pmid">15156327</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C34">
+        <mixed-citation publication-type="journal"><string-name><surname>Houlard</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Godwin</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Metson</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Nasmyth</surname>
+<given-names>K</given-names></string-name>. <year>2015</year>
+<article-title>Condensin confers the longitudinal rigidity of chromosomes</article-title>. <source>Nat Cell Biol</source>
+<volume>17</volume>: <fpage>771</fpage>&#x2013;<lpage>781</lpage>.<pub-id pub-id-type="pmid">25961503</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C35">
+        <mixed-citation publication-type="journal"><string-name><surname>Hudson</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Vagnarelli</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Gassmann</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Earnshaw</surname>
+<given-names>WC</given-names></string-name>. <year>2003</year>
+<article-title>Condensin is required for nonhistone protein assembly and structural integrity of vertebrate mitotic chromosomes</article-title>. <source>Dev Cell</source>
+<volume>5</volume>: <fpage>323</fpage>&#x2013;<lpage>336</lpage>.<pub-id pub-id-type="pmid">12919682</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C36">
+        <mixed-citation publication-type="journal"><string-name><surname>Insolera</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Bazzi</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Shao</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Anderson</surname>
+<given-names>KV</given-names></string-name>, <string-name><surname>Shi</surname>
+<given-names>SH</given-names></string-name>. <year>2014</year>
+<article-title>Cortical neurogenesis in the absence of centrioles</article-title>. <source>Nat Neurosci</source>
+<volume>17</volume>: <fpage>1528</fpage>&#x2013;<lpage>1535</lpage>.<pub-id pub-id-type="pmid">25282615</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C37">
+        <mixed-citation publication-type="journal"><string-name><surname>Janssen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>van der Burg</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Szuhai</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Kops</surname>
+<given-names>GJ</given-names></string-name>, <string-name><surname>Medema</surname>
+<given-names>RH</given-names></string-name>. <year>2011</year>
+<article-title>Chromosome segregation errors as a cause of DNA damage and structural chromosome aberrations</article-title>. <source>Science</source>
+<volume>333</volume>: <fpage>1895</fpage>&#x2013;<lpage>1898</lpage>.<pub-id pub-id-type="pmid">21960636</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C38">
+        <mixed-citation publication-type="journal"><string-name><surname>Juschke</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Xie</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Postiglione</surname>
+<given-names>MP</given-names></string-name>, <string-name><surname>Knoblich</surname>
+<given-names>JA</given-names></string-name>. <year>2014</year>
+<article-title>Analysis and modeling of mitotic spindle orientations in three dimensions</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>111</volume>: <fpage>1014</fpage>&#x2013;<lpage>1019</lpage>.<pub-id pub-id-type="pmid">24381158</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C39">
+        <mixed-citation publication-type="journal"><string-name><surname>Kalay</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Yigit</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Aslan</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Brown</surname>
+<given-names>KE</given-names></string-name>, <string-name><surname>Pohl</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Bicknell</surname>
+<given-names>LS</given-names></string-name>, <string-name><surname>Kayserili</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Tuysuz</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Nurnberg</surname>
+<given-names>G</given-names></string-name>, <etal/>
+<year>2011</year>
+<article-title>CEP152 is a genome maintenance protein disrupted in Seckel syndrome</article-title>. <source>Nat Genet</source>
+<volume>43</volume>: <fpage>23</fpage>&#x2013;<lpage>26</lpage>.<pub-id pub-id-type="pmid">21131973</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C40">
+        <mixed-citation publication-type="journal"><string-name><surname>Ke</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Huh</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Warrington</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Leng</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Ball</surname>
+<given-names>HL</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>H</given-names></string-name>. <year>2011</year>
+<article-title>PICH and BLM limit histone association with anaphase centromeric DNA threads and promote their resolution</article-title>. <source>EMBO J</source>
+<volume>30</volume>: <fpage>3309</fpage>&#x2013;<lpage>3321</lpage>.<pub-id pub-id-type="pmid">21743438</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C41">
+        <mixed-citation publication-type="journal"><string-name><surname>Klingseisen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Jackson</surname>
+<given-names>AP</given-names></string-name>. <year>2011</year>
+<article-title>Mechanisms and pathways of growth failure in primordial dwarfism</article-title>. <source>Genes Dev</source>
+<volume>25</volume>: <fpage>2011</fpage>&#x2013;<lpage>2024</lpage>.<pub-id pub-id-type="pmid">21979914</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C42">
+        <mixed-citation publication-type="journal"><string-name><surname>Lancaster</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Renner</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Martin</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Wenzel</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Bicknell</surname>
+<given-names>LS</given-names></string-name>, <string-name><surname>Hurles</surname>
+<given-names>ME</given-names></string-name>, <string-name><surname>Homfray</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Penninger</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Jackson</surname>
+<given-names>AP</given-names></string-name>, <string-name><surname>Knoblich</surname>
+<given-names>JA</given-names></string-name>. <year>2013</year>
+<article-title>Cerebral organoids model human brain development and microcephaly</article-title>. <source>Nature</source>
+<volume>501</volume>: <fpage>373</fpage>&#x2013;<lpage>379</lpage>.<pub-id pub-id-type="pmid">23995685</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C43">
+        <mixed-citation publication-type="journal"><string-name><surname>Leiserson</surname>
+<given-names>MD</given-names></string-name>, <string-name><surname>Vandin</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>HT</given-names></string-name>, <string-name><surname>Dobson</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Eldridge</surname>
+<given-names>JV</given-names></string-name>, <string-name><surname>Thomas</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Papoutsaki</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Niu</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>McLellan</surname>
+<given-names>M</given-names></string-name>, <etal/>
+<year>2015</year>
+<article-title>Pan-cancer network analysis identifies combinations of rare somatic mutations across pathways and protein complexes</article-title>. <source>Nat Genet</source>
+<volume>47</volume>: <fpage>106</fpage>&#x2013;<lpage>114</lpage>.<pub-id pub-id-type="pmid">25501392</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C44">
+        <mixed-citation publication-type="journal"><string-name><surname>Lizarraga</surname>
+<given-names>SB</given-names></string-name>, <string-name><surname>Margossian</surname>
+<given-names>SP</given-names></string-name>, <string-name><surname>Harris</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Campagna</surname>
+<given-names>DR</given-names></string-name>, <string-name><surname>Han</surname>
+<given-names>AP</given-names></string-name>, <string-name><surname>Blevins</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Mudbhary</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Barker</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Walsh</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Fleming</surname>
+<given-names>MD</given-names></string-name>. <year>2010</year>
+<article-title>Cdk5rap2 regulates centrosome function and chromosome segregation in neuronal progenitors</article-title>. <source>Development</source>
+<volume>137</volume>: <fpage>1907</fpage>&#x2013;<lpage>1917</lpage>.<pub-id pub-id-type="pmid">20460369</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C45">
+        <mixed-citation publication-type="journal"><string-name><surname>Lukas</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Savic</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Bekker-Jensen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Doil</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Neumann</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Pedersen</surname>
+<given-names>RS</given-names></string-name>, <string-name><surname>Grofte</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Chan</surname>
+<given-names>KL</given-names></string-name>, <string-name><surname>Hickson</surname>
+<given-names>ID</given-names></string-name>, <string-name><surname>Bartek</surname>
+<given-names>J</given-names></string-name>, <etal/>
+<year>2011</year>
+<article-title>53BP1 nuclear bodies form around DNA lesions generated by mitotic transmission of chromosomes under replication stress</article-title>. <source>Nat Cell Biol</source>
+<volume>13</volume>: <fpage>243</fpage>&#x2013;<lpage>253</lpage>.<pub-id pub-id-type="pmid">21317883</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C46">
+        <mixed-citation publication-type="journal"><string-name><surname>Maciejowski</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Bosco</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Campbell</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>de Lange</surname>
+<given-names>T</given-names></string-name>. <year>2015</year>
+<article-title>Chromothripsis and kataegis induced by telomere crisis</article-title>. <source>Cell</source>
+<volume>163</volume>: <fpage>1641</fpage>&#x2013;<lpage>1654</lpage>.<pub-id pub-id-type="pmid">26687355</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C47">
+        <mixed-citation publication-type="journal"><string-name><surname>Mannini</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Cucco</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Quarantotti</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Krantz</surname>
+<given-names>ID</given-names></string-name>, <string-name><surname>Musio</surname>
+<given-names>A</given-names></string-name>. <year>2013</year>
+<article-title>Mutation spectrum and genotype-phenotype correlation in Cornelia de Lange syndrome</article-title>. <source>Hum Mutat</source>
+<volume>34</volume>: <fpage>1589</fpage>&#x2013;<lpage>1596</lpage>.<pub-id pub-id-type="pmid">24038889</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C48">
+        <mixed-citation publication-type="journal"><string-name><surname>Marthiens</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Rujano</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Pennetier</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Tessier</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Paul-Gilloteaux</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Basto</surname>
+<given-names>R</given-names></string-name>. <year>2013</year>
+<article-title>Centrosome amplification causes microcephaly</article-title>. <source>Nat Cell Biol</source>
+<volume>15</volume>: <fpage>731</fpage>&#x2013;<lpage>740</lpage>.<pub-id pub-id-type="pmid">23666084</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C49">
+        <mixed-citation publication-type="journal"><string-name><surname>Martin</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Ahmad</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Klingseisen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hussain</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Bicknell</surname>
+<given-names>LS</given-names></string-name>, <string-name><surname>Leitch</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Nurnberg</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Toliat</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Murray</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Hunt</surname>
+<given-names>D</given-names></string-name>, <etal/>
+<year>2014</year>
+<article-title>Mutations in PLK4, encoding a master regulator of centriole biogenesis, cause microcephaly, growth failure and retinopathy</article-title>. <source>Nat Genet</source>
+<volume>46</volume>: <fpage>1283</fpage>&#x2013;<lpage>1292</lpage>.<pub-id pub-id-type="pmid">25344692</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C50">
+        <mixed-citation publication-type="journal"><string-name><surname>Minocherhomji</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ying</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Bjerregaard</surname>
+<given-names>VA</given-names></string-name>, <string-name><surname>Bursomanno</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Aleliunaite</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Mankouri</surname>
+<given-names>HW</given-names></string-name>, <string-name><surname>Shen</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Hickson</surname>
+<given-names>ID</given-names></string-name>. <year>2015</year>
+<article-title>Replication stress activates DNA repair synthesis in mitosis</article-title>. <source>Nature</source>
+<volume>528</volume>: <fpage>286</fpage>&#x2013;<lpage>290</lpage>.<pub-id pub-id-type="pmid">26633632</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C51">
+        <mixed-citation publication-type="journal"><string-name><surname>Murray</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>van der Burg</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>IJspeert</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Carroll</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Ochi</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Leitch</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Miller</surname>
+<given-names>ES</given-names></string-name>, <string-name><surname>Kysela</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Jawad</surname>
+<given-names>A</given-names></string-name>, <etal/>
+<year>2015</year>
+<article-title>Mutations in the NHEJ component XRCC4 cause primordial dwarfism</article-title>. <source>Am J Hum Genet</source>
+<volume>96</volume>: <fpage>412</fpage>&#x2013;<lpage>424</lpage>.<pub-id pub-id-type="pmid">25728776</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C52">
+        <mixed-citation publication-type="journal"><string-name><surname>Musio</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Selicorni</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Focarelli</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Gervasini</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Milani</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Russo</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Vezzoni</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Larizza</surname>
+<given-names>L</given-names></string-name>. <year>2006</year>
+<article-title>X-linked Cornelia de Lange syndrome owing to SMC1L1 mutations</article-title>. <source>Nat Genet</source>
+<volume>38</volume>: <fpage>528</fpage>&#x2013;<lpage>530</lpage>.<pub-id pub-id-type="pmid">16604071</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C53">
+        <mixed-citation publication-type="journal"><string-name><surname>Nicholas</surname>
+<given-names>AK</given-names></string-name>, <string-name><surname>Khurshid</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Desir</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Carvalho</surname>
+<given-names>OP</given-names></string-name>, <string-name><surname>Cox</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Thornton</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Kausar</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Ansar</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ahmad</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Verloes</surname>
+<given-names>A</given-names></string-name>, <etal/>
+<year>2010</year>
+<article-title>WDR62 is associated with the spindle pole and is mutated in human microcephaly</article-title>. <source>Nat Genet</source>
+<volume>42</volume>: <fpage>1010</fpage>&#x2013;<lpage>1014</lpage>.<pub-id pub-id-type="pmid">20890279</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C54">
+        <mixed-citation publication-type="journal"><string-name><surname>Nielsen</surname>
+<given-names>CF</given-names></string-name>, <string-name><surname>Huttner</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Bizard</surname>
+<given-names>AH</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>TN</given-names></string-name>, <string-name><surname>Palmai-Pallag</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Bjerregaard</surname>
+<given-names>VA</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Nigg</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>LH</given-names></string-name>, <etal/>
+<year>2015</year>
+<article-title>PICH promotes sister chromatid disjunction and co-operates with topoisomerase II in mitosis</article-title>. <source>Nat Commun</source>
+<volume>6</volume>: <fpage>8962</fpage>.<pub-id pub-id-type="pmid">26643143</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C55">
+        <mixed-citation publication-type="journal"><string-name><surname>Nishide</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>T</given-names></string-name>. <year>2014</year>
+<article-title>Overlapping and non-overlapping functions of condensins I and II in neural stem cell divisions</article-title>. <source>PLoS Genet</source>
+<volume>10</volume>: <fpage>e1004847</fpage>.<pub-id pub-id-type="pmid">25474630</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C56">
+        <mixed-citation publication-type="journal"><string-name><surname>O'Driscoll</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ruiz-Perez</surname>
+<given-names>VL</given-names></string-name>, <string-name><surname>Woods</surname>
+<given-names>CG</given-names></string-name>, <string-name><surname>Jeggo</surname>
+<given-names>PA</given-names></string-name>, <string-name><surname>Goodship</surname>
+<given-names>JA</given-names></string-name>. <year>2003</year>
+<article-title>A splicing mutation affecting expression of ataxia-telangiectasia and Rad3-related protein (ATR) results in Seckel syndrome</article-title>. <source>Nat Genet</source>
+<volume>33</volume>: <fpage>497</fpage>&#x2013;<lpage>501</lpage>.<pub-id pub-id-type="pmid">12640452</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C57">
+        <mixed-citation publication-type="journal"><string-name><surname>Oliveira</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Coelho</surname>
+<given-names>PA</given-names></string-name>, <string-name><surname>Sunkel</surname>
+<given-names>CE</given-names></string-name>. <year>2005</year>
+<article-title>The condensin I subunit Barren/CAP-H is essential for the structural integrity of centromeric heterochromatin during mitosis</article-title>. <source>Mol Cell Biol</source>
+<volume>25</volume>: <fpage>8971</fpage>&#x2013;<lpage>8984</lpage>.<pub-id pub-id-type="pmid">16199875</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C58">
+        <mixed-citation publication-type="journal"><string-name><surname>Ono</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Losada</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Myers</surname>
+<given-names>MP</given-names></string-name>, <string-name><surname>Neuwald</surname>
+<given-names>AF</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>T</given-names></string-name>. <year>2003</year>
+<article-title>Differential contributions of condensin I and condensin II to mitotic chromosome architecture in vertebrate cells</article-title>. <source>Cell</source>
+<volume>115</volume>: <fpage>109</fpage>&#x2013;<lpage>121</lpage>.<pub-id pub-id-type="pmid">14532007</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C59">
+        <mixed-citation publication-type="journal"><string-name><surname>Ono</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Fang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Spector</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>T</given-names></string-name>. <year>2004</year>
+<article-title>Spatial and temporal regulation of condensins I and II in mitotic chromosome assembly in human cells</article-title>. <source>Mol Biol Cell</source>
+<volume>15</volume>: <fpage>3296</fpage>&#x2013;<lpage>3308</lpage>.<pub-id pub-id-type="pmid">15146063</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C60">
+        <mixed-citation publication-type="journal"><string-name><surname>Qvist</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Huertas</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Jimeno</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Nyegaard</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hassan</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Jackson</surname>
+<given-names>SP</given-names></string-name>, <string-name><surname>Borglum</surname>
+<given-names>AD</given-names></string-name>. <year>2011</year>
+<article-title>CtIP mutations cause Seckel and Jawad syndromes</article-title>. <source>PLoS Genet</source>
+<volume>7</volume>: <fpage>e1002310</fpage>.<pub-id pub-id-type="pmid">21998596</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C61">
+        <mixed-citation publication-type="journal"><string-name><surname>Santaguida</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Amon</surname>
+<given-names>A</given-names></string-name>. <year>2015</year>
+<article-title>Short- and long-term effects of chromosome mis-segregation and aneuploidy</article-title>. <source>Nat Rev Mol Cell Biol</source>
+<volume>16</volume>: <fpage>473</fpage>&#x2013;<lpage>485</lpage>.<pub-id pub-id-type="pmid">26204159</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C62">
+        <mixed-citation publication-type="journal"><string-name><surname>Savvidou</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Cobbe</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Steffensen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Cotterill</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Heck</surname>
+<given-names>MM</given-names></string-name>. <year>2005</year>
+<article-title>Drosophila CAP-D2 is required for condensin complex stability and resolution of sister chromatids</article-title>. <source>J Cell Sci</source>
+<volume>118</volume>: <fpage>2529</fpage>&#x2013;<lpage>2543</lpage>.<pub-id pub-id-type="pmid">15923665</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C63">
+        <mixed-citation publication-type="journal"><string-name><surname>Shintomi</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>T</given-names></string-name>. <year>2011</year>
+<article-title>The relative ratio of condensin I to II determines chromosome shapes</article-title>. <source>Genes Dev</source>
+<volume>25</volume>: <fpage>1464</fpage>&#x2013;<lpage>1469</lpage>.<pub-id pub-id-type="pmid">21715560</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C64">
+        <mixed-citation publication-type="journal"><string-name><surname>Siddiqui</surname>
+<given-names>NU</given-names></string-name>, <string-name><surname>Rusyniak</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hasenkampf</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Riggs</surname>
+<given-names>CD</given-names></string-name>. <year>2006</year>
+<article-title>Disruption of the <italic>Arabidopsis</italic> SMC4 gene, AtCAP-C, compromises gametogenesis and embryogenesis</article-title>. <source>Planta</source>
+<volume>223</volume>: <fpage>990</fpage>&#x2013;<lpage>997</lpage>.<pub-id pub-id-type="pmid">16482433</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C65">
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>ED</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Tomson</surname>
+<given-names>BN</given-names></string-name>, <string-name><surname>Leung</surname>
+<given-names>CG</given-names></string-name>, <string-name><surname>Fujiwara</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Orkin</surname>
+<given-names>SH</given-names></string-name>, <string-name><surname>Crispino</surname>
+<given-names>JD</given-names></string-name>. <year>2004</year>
+<article-title>More than blood, a novel gene required for mammalian postimplantation development</article-title>. <source>Mol Cell Biol</source>
+<volume>24</volume>: <fpage>1168</fpage>&#x2013;<lpage>1173</lpage>.<pub-id pub-id-type="pmid">14729962</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C66">
+        <mixed-citation publication-type="journal"><string-name><surname>Strunnikov</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Hogan</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Koshland</surname>
+<given-names>D</given-names></string-name>. <year>1995</year>
+<article-title>SMC2, a <italic>Saccharomyces cerevisiae</italic> gene essential for chromosome segregation and condensation, defines a subgroup within the SMC family</article-title>. <source>Genes Dev</source>
+<volume>9</volume>: <fpage>587</fpage>&#x2013;<lpage>599</lpage>.<pub-id pub-id-type="pmid">7698648</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C67">
+        <mixed-citation publication-type="journal"><string-name><surname>Thornton</surname>
+<given-names>GK</given-names></string-name>, <string-name><surname>Woods</surname>
+<given-names>CG</given-names></string-name>. <year>2009</year>
+<article-title>Primary microcephaly: do all roads lead to Rome?</article-title>
+<source>Trends Genet</source>
+<volume>25</volume>: <fpage>501</fpage>&#x2013;<lpage>510</lpage>.<pub-id pub-id-type="pmid">19850369</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C68">
+        <mixed-citation publication-type="journal"><string-name><surname>Tibelius</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Marhold</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zentgraf</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Heilig</surname>
+<given-names>CE</given-names></string-name>, <string-name><surname>Neitzel</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Ducommun</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Rauch</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ho</surname>
+<given-names>AD</given-names></string-name>, <string-name><surname>Bartek</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Kramer</surname>
+<given-names>A</given-names></string-name>. <year>2009</year>
+<article-title>Microcephalin and pericentrin regulate mitotic entry via centrosome-associated Chk1</article-title>. <source>J Cell Biol</source>
+<volume>185</volume>: <fpage>1149</fpage>&#x2013;<lpage>1157</lpage>.<pub-id pub-id-type="pmid">19546241</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C69">
+        <mixed-citation publication-type="journal"><string-name><surname>Trimborn</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Schindler</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Neitzel</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>T</given-names></string-name>. <year>2006</year>
+<article-title>Misregulated chromosome condensation in MCPH1 primary microcephaly is mediated by condensin II</article-title>. <source>Cell Cycle</source>
+<volume>5</volume>: <fpage>322</fpage>&#x2013;<lpage>326</lpage>.<pub-id pub-id-type="pmid">16434882</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C70">
+        <mixed-citation publication-type="book"><string-name><surname>Verloes</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Drunat</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gressens</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Passemard</surname>
+<given-names>S</given-names></string-name>. <year>2009</year>
+<article-title>Primary autosomal recessive microcephalies and Seckel syndrome spectrum disorders</article-title>. In <source>GeneReviews</source> (ed. <string-name><surname>Pagon</surname>
+<given-names>RA</given-names></string-name>, <etal/>), <comment><uri xlink:href="http://www.ncbi.nlm.nih.gov/books/NBK9587">http://www.ncbi.nlm.nih.gov/books/NBK9587</uri></comment>
+<publisher-name>University of Washington</publisher-name>, <publisher-loc>Seattle</publisher-loc>.</mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C71">
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>YF</given-names></string-name>, <string-name><surname>Hamilton</surname>
+<given-names>JI</given-names></string-name>, <string-name><surname>Wilkinson</surname>
+<given-names>MF</given-names></string-name>. <year>2002</year>
+<article-title>Nonsense-associated altered splicing: a frame-dependent response distinct from nonsense-mediated decay</article-title>. <source>Mol Cell</source>
+<volume>10</volume>: <fpage>951</fpage>&#x2013;<lpage>957</lpage>.<pub-id pub-id-type="pmid">12419238</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C72">
+        <mixed-citation publication-type="journal"><string-name><surname>Wood</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Liang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>J</given-names></string-name>. <year>2008</year>
+<article-title>Microcephalin/MCPH1 associates with the Condensin II complex to function in homologous recombination repair</article-title>. <source>J Biol Chem</source>
+<volume>283</volume>: <fpage>29586</fpage>&#x2013;<lpage>29592</lpage>.<pub-id pub-id-type="pmid">18718915</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C73">
+        <mixed-citation publication-type="journal"><string-name><surname>Woods</surname>
+<given-names>CG</given-names></string-name>, <string-name><surname>Bond</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Enard</surname>
+<given-names>W</given-names></string-name>. <year>2005</year>
+<article-title>Autosomal recessive primary microcephaly (MCPH): a review of clinical, molecular, and evolutionary findings</article-title>. <source>Am J Hum Genet</source>
+<volume>76</volume>: <fpage>717</fpage>&#x2013;<lpage>728</lpage>.<pub-id pub-id-type="pmid">15806441</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C74">
+        <mixed-citation publication-type="journal"><string-name><surname>Wright</surname>
+<given-names>CF</given-names></string-name>, <string-name><surname>Fitzgerald</surname>
+<given-names>TW</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>WD</given-names></string-name>, <string-name><surname>Clayton</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>McRae</surname>
+<given-names>JF</given-names></string-name>, <string-name><surname>van Kogelenberg</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>King</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Ambridge</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Barrett</surname>
+<given-names>DM</given-names></string-name>, <string-name><surname>Bayzetinova</surname>
+<given-names>T</given-names></string-name>, <etal/>
+<year>2014</year>
+<article-title>Genetic diagnosis of developmental disorders in the DDD study: a scalable analysis of genome-wide research data</article-title>. <source>Lancet</source>
+<volume>385</volume>: <fpage>1305</fpage>&#x2013;<lpage>1314</lpage>.<pub-id pub-id-type="pmid">25529582</pub-id></mixed-citation>
+      </ref>
+      <ref id="MARTINGAD286351C75">
+        <mixed-citation publication-type="journal"><string-name><surname>Yamashita</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Shintomi</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Ono</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Gavvovidis</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Schindler</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Neitzel</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Trimborn</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>T</given-names></string-name>. <year>2011</year>
+<article-title>MCPH1 regulates chromosome condensation and shaping as a composite modulator of condensin II</article-title>. <source>J Cell Biol</source>
+<volume>194</volume>: <fpage>841</fpage>&#x2013;<lpage>854</lpage>.<pub-id pub-id-type="pmid">21911480</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,1167 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Cells</journal-id><journal-id journal-id-type="iso-abbrev">Cells</journal-id><journal-id journal-id-type="publisher-id">cells</journal-id><journal-title-group><journal-title>Cells</journal-title></journal-title-group><issn pub-type="epub">2073-4409</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38534343</article-id><article-id pub-id-type="pmc">10968791</article-id>
+<article-id pub-id-type="doi">10.3390/cells13060498</article-id><article-id pub-id-type="publisher-id">cells-13-00498</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>The Exon Junction Complex Factor RBM8A in Glial Fibrillary Acid Protein-Expressing Astrocytes Modulates Locomotion Behaviors</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Asthana</surname><given-names>Shravan</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><xref rid="af1-cells-13-00498" ref-type="aff">1</xref><xref rid="af2-cells-13-00498" ref-type="aff">2</xref><xref rid="fn1-cells-13-00498" ref-type="author-notes">&#x2020;</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-3506-6929</contrib-id><name><surname>Mott</surname><given-names>Jennifer</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role><xref rid="af1-cells-13-00498" ref-type="aff">1</xref><xref rid="fn1-cells-13-00498" ref-type="author-notes">&#x2020;</xref></contrib><contrib contrib-type="author"><name><surname>Tong</surname><given-names>Mabel</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><xref rid="af1-cells-13-00498" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name><surname>Pei</surname><given-names>Zifei</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><xref rid="af1-cells-13-00498" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7339-1565</contrib-id><name><surname>Mao</surname><given-names>Yingwei</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role><xref rid="af1-cells-13-00498" ref-type="aff">1</xref><xref rid="c1-cells-13-00498" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Tang</surname><given-names>Bor Luen</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-cells-13-00498"><label>1</label>Department of Biology, Pennsylvania State University, University Park, PA 16802, USA; <email>shravanasthana@gmail.com</email> (S.A.); <email>jbm6671@psu.edu</email> (J.M.); <email>mst5405@psu.edu</email> (M.T.); <email>zzp1@psu.edu</email> (Z.P.)</aff><aff id="af2-cells-13-00498"><label>2</label>Feinberg School of Medicine, Northwestern University, 303 East Superior Street, Chicago, IL 60611, USA</aff><author-notes><corresp id="c1-cells-13-00498"><label>*</label>Correspondence: <email>yzm1@psu.edu</email></corresp><fn id="fn1-cells-13-00498"><label>&#x2020;</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="epub"><day>13</day><month>3</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2024</year></pub-date><volume>13</volume><issue>6</issue><elocation-id>498</elocation-id><history><date date-type="received"><day>07</day><month>12</month><year>2023</year></date><date date-type="rev-recd"><day>01</day><month>3</month><year>2024</year></date><date date-type="accepted"><day>11</day><month>3</month><year>2024</year></date></history><permissions><copyright-statement>&#xA9; 2024 by the authors.</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>The role of RNA Binding Motif Protein 8a (RBM8A), an exon junction complex (EJC) component, in neurodevelopmental disorders has been increasingly studied for its crucial role in regulating multiple levels of gene expression. It regulates mRNA splicing, translation, and mRNA degradation and influences embryonic development. RBM8A protein is expressed in both neurons and astrocytes, but little is known about RBM8A&#x2019;s specific role in glial fibrillary acid protein (GFAP)-positive astrocytes. To address the role of RBM8A in astrocytes, we generated a conditional heterozygous knockout (KO) mouse line of <italic toggle="yes">Rbm8a</italic> in astrocytes using a GFAP-cre line. We confirmed a decreased expression of RBM8A in astrocytes of heterozygous conditional KO mice via RT-PCR and Sanger sequencing, as well as qRT-PCR, immunohistochemistry, and Western blot. Interestingly, these mice exhibit significantly increased movement and mobility, alongside sex-specific altered anxiety in the open field test (OFT) and elevated plus maze (OPM) tests. These tests, along with the rotarod test, suggest that these mice have normal motor coordination but hyperactive phenotypes. In addition, the haploinsufficiency of <italic toggle="yes">Rbm8a</italic> in astrocytes leads to a sex-specific change in astrocyte density in the dentate gyrus. This study further reveals the contribution of <italic toggle="yes">Rbm8a</italic> deletion to CNS pathology, generating more insights via the glial lens of an <italic toggle="yes">Rbm8a</italic> model of neurodevelopmental disorder.</p></abstract><kwd-group><kwd>exon junction complex</kwd><kwd>RBM8A</kwd><kwd>astrocyte</kwd></kwd-group><funding-group><award-group><funding-source>National Institute of Mental Health</funding-source><award-id>R01MH122556</award-id></award-group><award-group><funding-source>National Institute of Dental and Craniofacial Research Award</funding-source><award-id>1R21DE032806-01A1</award-id></award-group><award-group><funding-source>National Center for Advancing Translational Sciences, National Institutes of Health</funding-source><award-id>UL1TR002014</award-id><award-id>2UL1TR002014-05A1</award-id></award-group><award-group><funding-source>PSU IEE SEED grant</funding-source></award-group><award-group><funding-source>MRI/Huck Convergence SEED funding</funding-source></award-group><award-group><funding-source>NIH T32</funding-source><award-id>GM108563</award-id></award-group><funding-statement>This work was supported by the National Institute of Mental Health under Award Numbers R01MH122556, and National Institute of Dental and Craniofacial Research Award 1R21DE032806-01A1, the National Center for Advancing Translational Sciences, National Institutes of Health, through Grant UL1TR002014 and 2UL1TR002014-05A1, PSU IEE SEED grant, and MRI/Huck Convergence SEED funding. J.M. was supported by NIH T32 GM108563. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.</funding-statement></funding-group></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="sec1-cells-13-00498">
+      <title>1. Introduction</title>
+      <p>Neurodevelopmental disorders are a collection of disabilities and impairments related to central nervous system (CNS) dysfunction in motor, cognition, communication, interaction, and emotion, including autism spectrum disorders (ASDs), intellectual disability (ID), and attention-deficit/hyperactivity disorder (ADHD). Neurodevelopmental disorders affect more than 3% of children worldwide and the comorbidity of conditions is often observed [<xref rid="B1-cells-13-00498" ref-type="bibr">1</xref>]. A defining characteristic of these disorders is their onset before puberty in a uniquely steady course. For example, the impaired social-communication functions and restricted, repetitive pattern of behaviors can be detected in children with ASDs at an age of 2&#x2013;3 years. As individuals with neurodevelopmental disorders continue into adulthood, outcomes can be highly variable both across and within disorders. Neurodevelopmental disorders are highly multifactorial, with both a tremendous genetic and environmental influence in their origin, as well as their heterogeneity in clinical presentation and treatment [<xref rid="B2-cells-13-00498" ref-type="bibr">2</xref>].</p>
+      <p>The EJC is composed of RBM8A, Mago Homolog (MAGOH), Eukaryotic Translation Initiation Factor 4A3 (EIF4A3), and Metastatic Lymph Node 51 (MLN51). EJC formation is activity-dependent and functions to directly control mRNA splicing, export, translation, and degradation [<xref rid="B3-cells-13-00498" ref-type="bibr">3</xref>,<xref rid="B4-cells-13-00498" ref-type="bibr">4</xref>,<xref rid="B5-cells-13-00498" ref-type="bibr">5</xref>,<xref rid="B6-cells-13-00498" ref-type="bibr">6</xref>,<xref rid="B7-cells-13-00498" ref-type="bibr">7</xref>]. The EJC plays a significant role in nonsense-mediated mRNA decay (NMD), a well-conserved RNA surveillance mechanism, which identifies and degrades aberrant mRNAs carrying premature termination codons (PTCs) [<xref rid="B8-cells-13-00498" ref-type="bibr">8</xref>]. Dysfunctions in several NMD and EJC factors have been implicated in various human diseases [<xref rid="B9-cells-13-00498" ref-type="bibr">9</xref>,<xref rid="B10-cells-13-00498" ref-type="bibr">10</xref>,<xref rid="B11-cells-13-00498" ref-type="bibr">11</xref>,<xref rid="B12-cells-13-00498" ref-type="bibr">12</xref>], including ASDs [<xref rid="B13-cells-13-00498" ref-type="bibr">13</xref>], ID [<xref rid="B14-cells-13-00498" ref-type="bibr">14</xref>,<xref rid="B15-cells-13-00498" ref-type="bibr">15</xref>,<xref rid="B16-cells-13-00498" ref-type="bibr">16</xref>,<xref rid="B17-cells-13-00498" ref-type="bibr">17</xref>], schizophrenia [<xref rid="B13-cells-13-00498" ref-type="bibr">13</xref>,<xref rid="B18-cells-13-00498" ref-type="bibr">18</xref>], Thrombocytopenia with Absent Radius syndrome (TAR) [<xref rid="B19-cells-13-00498" ref-type="bibr">19</xref>,<xref rid="B20-cells-13-00498" ref-type="bibr">20</xref>], developmental delay [<xref rid="B21-cells-13-00498" ref-type="bibr">21</xref>], and Richieri&#x2013;Costa&#x2013;Pereira syndrome [<xref rid="B22-cells-13-00498" ref-type="bibr">22</xref>]. In humans, the deletion of 1q21.1 and single-nucleotide polymorphisms (SNPs) in the <italic toggle="yes">RBM8A</italic> noncoding regions results in TAR&#x2014;a blood and limb disorder&#x2014;in addition to neurodevelopmental phenotypes at an increased incidence [<xref rid="B19-cells-13-00498" ref-type="bibr">19</xref>,<xref rid="B20-cells-13-00498" ref-type="bibr">20</xref>].</p>
+      <p>We have previously shown that RBM8A is critical for the proper proliferation and differentiation of cortical neural progenitor cells (NPCs) [<xref rid="B23-cells-13-00498" ref-type="bibr">23</xref>,<xref rid="B24-cells-13-00498" ref-type="bibr">24</xref>]. The overexpression of RBM8A in vivo stimulated embryonic NPC proliferation and suppressed neuronal differentiation. <italic toggle="yes">Rbm8a</italic> knockdown in the embryonic cortex reduced NPC proliferation and promoted premature neuronal differentiation [<xref rid="B23-cells-13-00498" ref-type="bibr">23</xref>]. <italic toggle="yes">Rbm8a</italic> was shown to be necessary to regulate the NPC pool in both the subventricular zone (SVZ) and ventricular zone (VZ) by acting on cell cycle progression and the differentiation of NPCs [<xref rid="B23-cells-13-00498" ref-type="bibr">23</xref>]. RBM8A-deficient cells have also been found to accumulate DNA damage, which decreased the viability and proliferation of NPCs [<xref rid="B25-cells-13-00498" ref-type="bibr">25</xref>]. <italic toggle="yes">Rbm8a</italic> mRNA is regulated by other factors, such as the microRNA miR-29a in retinal progenitor cells [<xref rid="B26-cells-13-00498" ref-type="bibr">26</xref>]. miR-29 is capable of repressing <italic toggle="yes">Rbm8a</italic> by binding to the 3&#x2032;-UTR, which upregulates differentiation and downregulates proliferation [<xref rid="B26-cells-13-00498" ref-type="bibr">26</xref>]. RBM8A depletion in human A549 tumor cells results in apoptosis, supporting the critical role of MAGOH and RBM8A in proper mitotic phase progression, which can serve as a potential anticancer therapeutic target [<xref rid="B27-cells-13-00498" ref-type="bibr">27</xref>]. Consistently, we have previously reported that RBM8A haploinsufficiency significantly altered the distribution of interneurons in the mouse cortex [<xref rid="B24-cells-13-00498" ref-type="bibr">24</xref>]. Taken together, these results support the key role of the EJC in neurodevelopment.</p>
+      <p>Astrocytes and microglia are known to be in close communication with neurons throughout development. Astrocytes, in particular, are able to engage in bi-directional signaling with thousands of synapses to form tripartite synapses [<xref rid="B28-cells-13-00498" ref-type="bibr">28</xref>]. Astrocytes exhibit tremendous diversity in electrophysiology, the transcriptome, and proteome, as well as morphology in different neural regions [<xref rid="B29-cells-13-00498" ref-type="bibr">29</xref>]. Many studies have revealed the different roles of the astrocyte in metabolism regulation, energy supply, neural specific factor secretion, and gliotransmission [<xref rid="B28-cells-13-00498" ref-type="bibr">28</xref>]. Both astrocyte secretion and contact are involved in synapse formation, maturation, functionalization, stabilization, and even pruning [<xref rid="B30-cells-13-00498" ref-type="bibr">30</xref>]. The elaboration of the fine astrocyte processes involved in the tripartite synapse may not entirely take place during the large generation of astrocytes before birth, but instead may coincide with the active period of synaptogenesis.</p>
+      <p>Astrocytes play an important role in the inflammatory and immune response of the nervous system. A postmortem analysis of human brains with ASDs demonstrates increases in glial reactivity, suggesting that the dysregulation of an astrocyte-mediated inflammatory response may be involved in the generation of ASD brains [<xref rid="B28-cells-13-00498" ref-type="bibr">28</xref>]. Genomic analyses of these patients revealed many ASD candidate genes are enriched in astrocytes [<xref rid="B28-cells-13-00498" ref-type="bibr">28</xref>]. In a Rett syndrome (RTT) model with astrocyte-specific <italic toggle="yes">MeCP2</italic> KO, neurons showed decreased dendritic arborization, spine plasticity, and reduced cortical plasticity [<xref rid="B31-cells-13-00498" ref-type="bibr">31</xref>,<xref rid="B32-cells-13-00498" ref-type="bibr">32</xref>]. Interestingly, in a Fragile X Syndrome (FXS) mouse model, the FMRP loss of function in astrocytes led to a decreased survival, decreased synaptic protein clustering at both the pre and post synaptic membrane, and stunted dendritic arborization [<xref rid="B33-cells-13-00498" ref-type="bibr">33</xref>,<xref rid="B34-cells-13-00498" ref-type="bibr">34</xref>,<xref rid="B35-cells-13-00498" ref-type="bibr">35</xref>,<xref rid="B36-cells-13-00498" ref-type="bibr">36</xref>]. Astrocytes and microglial dysfunction have also been implicated in the pathogenesis of neurodegenerative diseases and in RTT and Parkinson&#x2019;s disease; astrocytes may be able to independently cause the disease phenotype in the mouse [<xref rid="B34-cells-13-00498" ref-type="bibr">34</xref>].</p>
+      <p>Manipulation of the RBM8A level in the dentate gyrus neurons causes a change in behavioral pattern [<xref rid="B37-cells-13-00498" ref-type="bibr">37</xref>]. However, the role of RBM8A in astrocytes related to behavioral regulation has not been explored. Given the implication of RBM8A in several neurodevelopmental disorders, as well as the critical role of astrocytes in their pathogenesis, we explored how <italic toggle="yes">Rbm8a</italic> haploinsufficiency in astrocytes modulates animal behaviors using a novel mouse model carrying conditional heterozygous deletion of the <italic toggle="yes">Rbm8a</italic> gene, which may provide some insights into the role of astrocytes in neurodevelopmental disorders.</p>
+    </sec>
+    <sec id="sec2-cells-13-00498">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-cells-13-00498">
+        <title>2.1. Generation of the GFAPCre;Rbm8a<sup>f/+</sup> Mice</title>
+        <p><italic toggle="yes">Rbm8a</italic>-floxed mice (<italic toggle="yes">Rbm8a<sup>f/f</sup></italic>) without the Neo cassette were previously generated in our lab [<xref rid="B24-cells-13-00498" ref-type="bibr">24</xref>]. Breeding approaches were performed as follows: The <italic toggle="yes">Rbm8a<sup>f/f</sup></italic> mice were crossed with female F1 offspring from a commercial F0 hemizygous JAX #012886 B6.Cg-Tg(Gfap-cre)73.12Mvs/J congenic/transgenic model (The Jackson Lab, Bar Harbor, ME, USA). All the female offspring heterozygously express the transgenic glial fibrillary acid protein (GFAP) promoter-driven expression of Cre recombinase (GFAPCre). With this approach, independently of the sexes, we selectively obtained <italic toggle="yes">Rbm8a</italic> haploinsufficiency in astrocytes in half of the offspring (GFAPCre; <italic toggle="yes">Rbm8a<sup>f/</sup></italic><sup>+</sup>) or, as control condition, <italic toggle="yes">Rbm8a<sup>f/+</sup></italic>, expected in the progeny at a rate of 50%. However, we cannot detect GFAPCre; <italic toggle="yes">Rbm8a<sup>f/</sup></italic><sup>f</sup> mice in the progenies at postnatal stage P15, suggesting the lethality of GFAPCre; <italic toggle="yes">Rbm8a<sup>f/</sup></italic><sup>f</sup> mice at either the embryonic or early neonatal stages.</p>
+      </sec>
+      <sec id="sec2dot2-cells-13-00498">
+        <title>2.2. Animals</title>
+        <p>All procedures on mice were reviewed and approved by The Pennsylvania State University IACUC committee, under IACUC protocols to Yingwei Mao. All mice were housed by sex, with 2&#x2013;4 mice per cage in a room with a light/dark cycle of 12 h intervals (lights on at 7:00 am) and were provided with ad libitum access to food and water. Mouse behavior tests were performed in animals only after reaching 60 days after birth. Behavior testing ceased at 120 days after birth. For all behavior tests, 24 GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice (10 female, 12 male) and 23 <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice (11 female, 12 male) were used. Mice at 5&#x2013;6 months of age were anesthetized with 2.5% avertin and were perfused with 4% paraformaldehyde (PFA) in PBS for additional analyses.</p>
+      </sec>
+      <sec id="sec2dot3-cells-13-00498">
+        <title>2.3. Immunohistochemistry</title>
+        <p>The brains were fixed in 4% PFA for 24 h at 4 &#xB0;C, then transferred to PBS for storage. The brains were sagittally sectioned at 40 &#xB5;m with a vibratome. Immunohistochemistry was performed to stain specific proteins in the tissue slices, selecting for antibodies against RBM8A (cat#GTX131387, GeneTex, Irvine, CA, USA), astrocyte marker GFAP (cat#AB5541, Millipore Sigma, Billerica, MA, USA), and neuronal marker NeuN (cat#ABN90P, Millipore Sigma, St. Louis, MO, USA), according to previous studies [<xref rid="B24-cells-13-00498" ref-type="bibr">24</xref>]. Three GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice and three <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice were used. Cell fluorescence intensity was measured using ZEISS Zen software. These images were further analyzed using FIJI/ImageJ version 2.14.0/1.54f. The hippocampus area was analyzed using the &#x201C;analyze particle&#x201D; feature set to 0.5 &#x3BC;m<sup>2</sup>&#x2013;infinity. The scale was set to 3.16 pixels/&#x3BC;m. Astrocyte density was calculated as the number of cells in a set area.</p>
+      </sec>
+      <sec id="sec2dot4-cells-13-00498">
+        <title>2.4. RNA Isolation</title>
+        <p>Upon sacrifice, the brains were flash frozen using liquid nitrogen, then stored at &#x2212;80 &#xB0;C. The brain hemisphere was used to isolate the RNA using TRIzol<sup>TM</sup> reagent, following manufacturer instructions. Three GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice and three <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice were used.</p>
+      </sec>
+      <sec id="sec2dot5-cells-13-00498">
+        <title>2.5. Quantitative Reverse Transcription&#x2013;PCR (qRT-PCR)</title>
+        <p>The total RNAs were converted into cDNA by reverse transcription with the oligo-dT primer, using Superscript reverse transcriptase III (Invitrogen, Catalog number: 18080093). RT-PCR to amplify the deletion fragment used primers F1 (5&#x2032;-GCGAAGATTTCGCCATGGAT-3&#x2032;) in exon 1 and R1 (5&#x2032;- TTGACCATTTAGTCCTTCCA-3&#x2032;) in exon 5, outside of loxp sites in the cKO genome (<xref rid="cells-13-00498-f001" ref-type="fig">Figure 1</xref>A). The cDNA fragment with exon 2-4 deletion was gel purified and submitted for Sanger sequencing using R1 primer in the PSU Genomic Core facility. qRT-PCR was performed using PerfeCTa SYBR Green SuperMix (Quantabio, Beverly, MA, USA) and mouse RBM8A primers (F2: 5&#x2032;-ATTACGACAGTGTGGAGCAG-3&#x2032;, in exon 3, and R1). The expression of the &#x3B2;-Actin gene (forward: 5&#x2032;- CGTGGGCCGCCCTAGGCACCA-3&#x2032;, reverse: 5&#x2032;-TTGGCCTTAGGGTTCAGG GGGG-3&#x2032;, IDT) was used as an internal control. The qPCR reactions were performed on a StepOnePlus Real-Time PCR system (Applied Biosystems, Carlsbad, CA, USA) and the Ct calculations were performed using StepOne software version 2.3.</p>
+      </sec>
+      <sec id="sec2dot6-cells-13-00498">
+        <title>2.6. Western Blot</title>
+        <p>The total protein samples isolated from mouse brains were resolved by 10% SDS&#x2013;polyacrylamide gel electrophoresis and were subsequently transferred to nitrocellulose membranes. The blots were blocked with 5% milk in TBST (10 mM Tris-HCl, pH 8.0, 150 mM NaCl, and 0.5% Triton X-100) for 1&#x2009;hour at room temperature. Blots were then incubated overnight with rabbit anti-RBM8A (cat#GTX131387, GeneTex, Irvine, CA, USA, 1:1000) and mouse anti-Actin antibody (cat#sc-8432, Santa Cruz Biotechnology, Dallas, TX, USA, 1:250) in 5% milk in TBST at 4 &#xB0;C, with shaking. Donkey anti-rabbit IgG (cat#926-68023, LI-COR, Lincoln, NE, USA, 1:20,000) and donkey anti-mouse IgG (cat#926-32212, LI-COR, Lincoln, NE, USA, 1:20,000) were used as secondary antibodies. Immunoreactivity was detected using the LI-COR Odyssey imaging system, according to the manufacturer&#x2019;s instructions.</p>
+      </sec>
+      <sec id="sec2dot7-cells-13-00498">
+        <title>2.7. Open Field Test (OFT)</title>
+        <p>The open field apparatus is a versatile paradigm utilized to investigate motor, anxiety, and stress behaviors in rodents [<xref rid="B38-cells-13-00498" ref-type="bibr">38</xref>]. The test was performed as described in [<xref rid="B39-cells-13-00498" ref-type="bibr">39</xref>], with no changes. The mice were randomly placed in an acrylic white box (40 &#xD7; 40 &#xD7; 40 cm) in a room brightly lit, with no shadows in the box. The EthoVision XT 9 software by Noldus [<xref rid="B40-cells-13-00498" ref-type="bibr">40</xref>] recorded horizontal movement for five minutes. Several measures were taken regarding the distance traveled, the average velocity, the duration in the zone, and the frequency of the zone throughout the entire box (40 &#xD7; 40 cm) versus the center zone (13.3 &#xD7; 13.3 cm). In addition, 70% ethanol was used to clean the apparatus between each trial.</p>
+      </sec>
+      <sec id="sec2dot8-cells-13-00498">
+        <title>2.8. Rotarod</title>
+        <p>The rotarod apparatus is used to assess maximal motor skill and motor memory [<xref rid="B41-cells-13-00498" ref-type="bibr">41</xref>]. Here, it was used to evaluate potential deficits in motor coordination. The test was performed as described in [<xref rid="B39-cells-13-00498" ref-type="bibr">39</xref>]. The mice were placed on a rotating platform starting at four revolutions per minute (rpm). Over the course of five minutes, the platform accelerated to 40 rpm. Then, the platform was set to maintain this speed for an additional five minutes. The time at which the mouse fell from the platform was recorded as the falling time. The procedure was repeated for three trials per mouse, per day, for three consecutive days. One week after the first test day, the final test was performed. Additionally, 70% ethanol was used to clean the apparatus between each trial.</p>
+      </sec>
+      <sec id="sec2dot9-cells-13-00498">
+        <title>2.9. Tail Suspension</title>
+        <p>The tail suspension test was used to assess the depressive affect by measuring the immobility time. The test was performed as described in [<xref rid="B39-cells-13-00498" ref-type="bibr">39</xref>], with no changes. Mice tails were affixed to a rod 60 cm above the ground. Immobility time&#x2014;defined as the duration where the mouse remained still&#x2014;was measured manually with a stopwatch.</p>
+      </sec>
+      <sec id="sec2dot10-cells-13-00498">
+        <title>2.10. Elevated Plus Maze (EPM)</title>
+        <p>The elevated plus maze apparatus is a versatile paradigm utilized to investigate motor and anxiety behavior in rodents [<xref rid="B42-cells-13-00498" ref-type="bibr">42</xref>]. The test was performed as described in [<xref rid="B39-cells-13-00498" ref-type="bibr">39</xref>], with no changes. Mice were randomly placed into the crossing region (5 &#xD7; 5 cm) of an acrylic platform, 50 cm above the ground, with arms (5 &#xD7; 25 cm) either enclosed in walls or open to the environment. The Noldus EthoVision XT software [<xref rid="B40-cells-13-00498" ref-type="bibr">40</xref>] recorded horizontal movement for ten minutes. Several measures were taken regarding the distance traveled, average velocity, duration in arms, and arm frequency. Additionally, 70% ethanol was used to clean the apparatus between each trial.</p>
+      </sec>
+      <sec id="sec2dot11-cells-13-00498">
+        <title>2.11. Marble Burying</title>
+        <p>The marble burying test is used to assess repetitive and obsessive behaviors. The test was performed as described with no changes. The mice were placed in empty cages except for 3 cm of bedding and four rows of five clear marbles. After ten minutes, the number of buried marbles (defined as being at least 2/3 obscured) was measured.</p>
+      </sec>
+      <sec id="sec2dot12-cells-13-00498">
+        <title>2.12. Nest Building</title>
+        <p>The nest building test is also used to assess repetitive and obsessive behaviors. The test was performed as described in [<xref rid="B39-cells-13-00498" ref-type="bibr">39</xref>], with no changes. Mice were placed into empty cages except for 1 cm of bedding and a fresh 2 g nestlet. Photographs were taken at both one hour and 24 h after the test began. The images were assessed by three independent observers and scored (1&#x2013;5) according to criteria described in [<xref rid="B43-cells-13-00498" ref-type="bibr">43</xref>].</p>
+      </sec>
+      <sec id="sec2dot13-cells-13-00498">
+        <title>2.13. Statistical Analysis</title>
+        <p>Statistical analysis of these behavioral datasets took the form of Excel, SPSS, and GraphPad PRISM 10 software, expressed as means +/&#x2212; standard error of means (SEM). The normality of the distributions was assessed by using both the Kolmogorov&#x2013;Smirnov and Shapiro&#x2013;Wilk tests. For those distributions that did not reach normality, a Mann&#x2013;Whitney U test was used to assess the differences between the means of the groups to assess statistical significance. Otherwise, Student&#x2019;s <italic toggle="yes">t</italic>-tests were used. Statistical significance was evaluated at an alpha = 0.05 level, irrespective of the test used.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results" id="sec3-cells-13-00498">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cells-13-00498">
+        <title>3.1. Validation of GFAPCre; Rbm8a<sup>f/+</sup> Mouse Model</title>
+        <p>We developed an <italic toggle="yes">Rbm8a<sup>f/f</sup></italic> mouse model with loxp sites flanking exons 2, 3, and 4 (<xref rid="cells-13-00498-f001" ref-type="fig">Figure 1</xref>A) [<xref rid="B24-cells-13-00498" ref-type="bibr">24</xref>]. Because of the early lethality of GFAPCre; <italic toggle="yes">Rbm8a<sup>f/f</sup></italic> mice, we focused on studying the phenotypes of heterozygous GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice. We first confirmed the deletion of exons 2&#x2013;4 in mRNA isolated from the brain of a GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mouse using forward primer F1 in exon 1 and reverse primer R1 in exon 5 (<xref rid="cells-13-00498-f001" ref-type="fig">Figure 1</xref>A), which are localized outside of loxp sites. RT-PCR detected a predicted deletion band at 102bp, lacking exon 2&#x2013;4, compared to a normal 377 bp band from control <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice (<xref rid="cells-13-00498-f001" ref-type="fig">Figure 1</xref>A). The 102 bp deletion fragment was purified for Sanger sequencing. The results confirmed the joining of exon 1 and exon 5 in the <italic toggle="yes">Rbm8a</italic> transcript (<xref rid="cells-13-00498-f001" ref-type="fig">Figure 1</xref>A), supporting the fact that Cre recombinase successfully deleted exons 2&#x2013;4 of <italic toggle="yes">Rbm8a</italic> mRNA in astrocytes of GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice. Although we can detect the mutant band in <xref rid="cells-13-00498-f001" ref-type="fig">Figure 1</xref>A, it is expressed at an extremely low level compared to the WT transcript, suggesting a rapid degradation of the truncated transcript.</p>
+        <p>To further measure the mRNA level of remaining normal <italic toggle="yes">Rbm8a</italic> transcript in our conditional knockout mouse model, we performed qRT-PCR using primers F2 and R1 (<xref rid="cells-13-00498-f001" ref-type="fig">Figure 1</xref>B). F2 is localized in exon 3, which will be removed by Cre (<xref rid="cells-13-00498-f001" ref-type="fig">Figure 1</xref>A,B) in the astrocytes of GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice. Therefore, F2 + R1 PCR only detects the normal <italic toggle="yes">Rbm8a</italic> transcript. <italic toggle="yes">Rbm8a</italic> expression levels in the GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mouse brain were 55.85% of that in the <italic toggle="yes">Rbm8a</italic><sup><italic toggle="yes">f</italic>/</sup>mouse brain, confirming a reduction in gene expression. We detected about half of the <italic toggle="yes">Rbm8a</italic> transcript in the brain of GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice.</p>
+        <p>To examine RBM8A protein level in GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice, immunohistochemistry on sagittal sections of control mice and GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice at six months was performed for RBM8A and GFAP (<xref rid="cells-13-00498-f001" ref-type="fig">Figure 1</xref>C). Consistently, compared to control mice, RBM8A expression was noticeably reduced in GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice in the hippocampus. When the immunofluorescence intensity of RBM8A was normalized to that of DAPI staining, the quantification showed RBM8A expression is significantly reduced, by about half, in <italic toggle="yes">GFAPCre; Rbm8a<sup>f/+</sup></italic> mice compared to <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice (<xref rid="cells-13-00498-f001" ref-type="fig">Figure 1</xref>C). Furthermore, a Western blot using brain lysates from control and GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice confirmed decreased RBM8A protein levels (<xref rid="app1-cells-13-00498" ref-type="app">Supplemental Figure S1A</xref>). The RBM8A protein levels in neurons of the cortex and hippocampus were not changed (<xref rid="app1-cells-13-00498" ref-type="app">Supplemental Figure S1B&#x2013;D</xref>).</p>
+        <p>Taken together, our sequencing, qRT-PCR, immunohistochemistry, and WB analyses validated that our conditional heterozygous KO mice show the expected decreased expression of RBM8A in astrocytes.</p>
+      </sec>
+      <sec id="sec3dot2-cells-13-00498">
+        <title>3.2. GFAPCre;Rbm8a<sup>f/+</sup> Mice Show Abnormal Locomotion Activity in the OFT</title>
+        <p>To determine how the haploinsufficiency of <italic toggle="yes">Rbm8a</italic> in astrocytes affects overall animal behaviors, total distance traveled was measured to track cumulative movement across the arena using EthoVision [<xref rid="B40-cells-13-00498" ref-type="bibr">40</xref>]. EthoVision software can specifically measure the distance moved from the center point of the mouse. We first tested the mice in the OFT, which allowed us to measure the locomotion and anxiety-like behaviors (<xref rid="cells-13-00498-f002" ref-type="fig">Figure 2</xref>A,B). Interestingly, both male (<italic toggle="yes">p</italic> = 0.049) and female (<italic toggle="yes">p</italic> = 0.045) GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice exhibit a significantly increased total distance traveled, respectively, compared to the control group (<xref rid="cells-13-00498-f002" ref-type="fig">Figure 2</xref>C). Consistent with increased locomotion, both male (<italic toggle="yes">p</italic> = 0.011) and female (<italic toggle="yes">p</italic> = 0.045) experimental mice demonstrate a decreased cumulative duration of immobility (<xref rid="cells-13-00498-f002" ref-type="fig">Figure 2</xref>E). When we further tracked in which zone the mice traveled more, we started to detect interesting sex differences (<xref rid="cells-13-00498-f002" ref-type="fig">Figure 2</xref>D,F). Male GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice exhibited a significantly higher distance traveled in both the border (<italic toggle="yes">p</italic> = 0.034) and the center (<italic toggle="yes">p</italic> = 0.04), whereas females (<italic toggle="yes">p</italic> = 0.032) only showed higher locomotion in the border area (<xref rid="cells-13-00498-f002" ref-type="fig">Figure 2</xref>D). Consistently, less immobile time spent in the border zone was detected only in male GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice (<italic toggle="yes">p</italic> = 0.026) but not in females (<xref rid="cells-13-00498-f002" ref-type="fig">Figure 2</xref>F), suggesting a sex-specific difference in zone preference.</p>
+        <p>In the OFT, mice are expected to prefer hiding in the corners or border of the acrylic apparatus, reflecting a native tendency to avoid predators. An abnormal interaction or affinity with the center of the testing arena, an exposed zone, is indicative of an altered anxiety state [<xref rid="B38-cells-13-00498" ref-type="bibr">38</xref>], which can be measured by cumulative travel or duration in the center, as well as the frequency and latency to enter the center. Interestingly, in the OFT, male but not female GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice traveled longer distances in the center (<xref rid="cells-13-00498-f002" ref-type="fig">Figure 2</xref>D). Consistently, male GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice (<italic toggle="yes">p</italic> = 0.036) demonstrate a significantly higher frequency to the center (<xref rid="cells-13-00498-f002" ref-type="fig">Figure 2</xref>G), although both male and female GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice are not statistically distinct from control mice in relation to the cumulative duration in the center or the latency to the center (<xref rid="cells-13-00498-f002" ref-type="fig">Figure 2</xref>H). A slight decrease in the anxiety-like behavior was measured exclusively in male mice, prompting us to further analyze the anxiety-like phenotype in <italic toggle="yes">Rbm8a</italic> mice with other experimental tools, as the hyperactivity could be a confounding factor for an anxiety-like phenotype. We opted for the elevated plus maze (EPM) test as a suitable approach&#x2013;avoidance test, frequently used as a proxy to evaluate anxiety in rodents.</p>
+        <p>Overall, it is then clear in the OFT that experimental mice traveled more and displayed an increased locomotion. These data suggest a hyperactive phenotype in which GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice are generally more active in both distance and duration.</p>
+      </sec>
+      <sec id="sec3dot3-cells-13-00498">
+        <title>3.3. Altered Behavior in GFAPCre; Rbm8a<sup>f/+</sup> Mice in the EPM Test</title>
+        <p>While the OFT can provide some indications for anxiety-like behaviors, the EPM test takes advantage of the rodent&#x2019;s natural aversion to heights and open area versus their curiosity to explore novel environments and is more specifically geared towards measuring anxiety-like behaviors. To further explore the anxiety-like phenotype, we examined control and GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice in the EPM test (<xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>). Based on native mouse behavior, it is expected that an abnormal interaction or affinity to the open arms may be indicative of an altered anxiety state [<xref rid="B42-cells-13-00498" ref-type="bibr">42</xref>]. We first examined the total arm entry (<xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>A,B) and travel distance (<xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>C). We detected similar hyperactivity only in female GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice in both the total entry (<italic toggle="yes">p</italic> = 0.045, <xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>B) and travel distance (<italic toggle="yes">p</italic> = 0.017, <xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>C). Additionally, only female (<italic toggle="yes">p</italic> = 0.044) experimental mice demonstrate a decreased cumulative duration immobile (<xref rid="app1-cells-13-00498" ref-type="app">Supplemental Figure S2A</xref>). Interestingly, both male and female GFAPCre;<italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice traveled significantly longer distances in the open arms (male <italic toggle="yes">p</italic> = 0.018, female <italic toggle="yes">p</italic> = 0.009, <xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>D), spent significantly more time in the open arms (male: <italic toggle="yes">p</italic> = 0.033, female: <italic toggle="yes">p</italic> = 0.013, <xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>G), spent shorter immobile time in the closed arms (male: <italic toggle="yes">p</italic> = 0.03, female: <italic toggle="yes">p</italic> = 0.018), and spent longer immobile time in the open arms (male: <italic toggle="yes">p</italic> = 0.046, female: <italic toggle="yes">p</italic> = 0.003) than control mice did (<xref rid="app1-cells-13-00498" ref-type="app">Supplemental Figure S2B</xref>).</p>
+        <p>We secondly examined the entry frequency, the percentage of the entry, cumulative time, the percentage of time spent, and latency to open arms. Interestingly, although both male and female GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice travel longer distance and spent more time in the open arms compared to control mice (<xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>D,G), only female (<italic toggle="yes">p</italic> = 0.007) but not male GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice showed significantly increased entries to open arms (<xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>E). Importantly, this difference became more significant when we measured the percentage of open arm entry (<italic toggle="yes">p</italic> = 0.0007, <xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>F). Consistently, only female GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice (22.45 &#xB1; 4.14%) spent almost a two-fold percentage of time in open arms compared to control mice (14.65 &#xB1; 2.32%, <italic toggle="yes">p</italic> = 0.0066, <xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>H). A longer latency to enter the open arms is generally interpreted as an indicator of higher anxiety or fear. Conversely, a shorter latency to enter the open arms suggests lower anxiety or fear. Interestingly, male (<italic toggle="yes">p</italic> = 0.010) but not female mice demonstrated a significantly decreased latency to open arms (<xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>I), suggesting that sex may differentially impact how anxiety is presented.</p>
+        <p>Thirdly, although we did not detect significant changes of total entry number in the closed arms in different groups (<xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>J), only female (<italic toggle="yes">p</italic> = 0.0007) GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice (66.11 &#xB1; 4.49%) showed a significant reduction in percentage of entry number in closed arms, compared to control mice (74.56 &#xB1; 3.73%, <xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>K). Consistently, female (<italic toggle="yes">p</italic> = 0.033) but not male GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice spent significantly less time in the closed arms (<xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>L). For both sexes, experimental mice did not demonstrate any significant differences in the latency to closed arms (<xref rid="cells-13-00498-f003" ref-type="fig">Figure 3</xref>N). Moreover, neither male nor female mice show a significant difference between genotype groups in the entry number in center, cumulative duration in center, or latency to center (<xref rid="app1-cells-13-00498" ref-type="app">Supplemental Figure S3A&#x2013;C</xref>).</p>
+        <p>Increased entry and time spent in the open arms and decreased percentage entry and time spent in the closed arms of the EPM test together suggest diminished anxiety-like states in GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice. Overall, the results show clear indications of decreased anxiety-like behavior, especially in female GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice relative to controls.</p>
+      </sec>
+      <sec id="sec3dot4-cells-13-00498">
+        <title>3.4. Motor Coordination Is Unaffected in GFAPCre; Rbm8a<sup>f/+</sup> Mice</title>
+        <p>As we detected hyperactivity in our mice, we wanted to explore the possibility that motor coordination could potentially contribute to or confound the interpretation of hyperactivity. To do this, we performed the rotarod test, which has been particularly attuned to detecting dysfunction of the cerebellar function underlying this motor function [<xref rid="B41-cells-13-00498" ref-type="bibr">41</xref>]. Rotarod test in both males and females demonstrates no consistent significant differences between groups in falling time, although select trials do indicate some degree of variance (<xref rid="cells-13-00498-f004" ref-type="fig">Figure 4</xref>). Given the lack of overt significant differences in falling time in the rotarod test, the results of motor function behaviors support a hyperactive phenotype in the GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice, across sexes.</p>
+      </sec>
+      <sec id="sec3dot5-cells-13-00498">
+        <title>3.5. Other Defects in GFAPCre; Rbm8a<sup>f/+</sup> Mice</title>
+        <p>To further examine other potential alterations, marble burying (<xref rid="cells-13-00498-f005" ref-type="fig">Figure 5</xref>A), nest building (<xref rid="cells-13-00498-f005" ref-type="fig">Figure 5</xref>B), and tail suspension tests (<xref rid="cells-13-00498-f005" ref-type="fig">Figure 5</xref>C) were performed. Neither the marble burying nor nest building tests demonstrated significant differences in obsessive or repetitive behaviors between groups across sex, indicating a lack of difference in these behaviors (<xref rid="cells-13-00498-f005" ref-type="fig">Figure 5</xref>A,B). The tail suspension test also failed to elicit a significant difference between groups across sex, indicating there is no depressive-like effect between GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> and <italic toggle="yes">Rbm8a</italic><sup><italic toggle="yes">f</italic>/+</sup>mice (<xref rid="cells-13-00498-f005" ref-type="fig">Figure 5</xref>C). These data suggest RBM8A in astrocytes does not affect depressive-like behaviors.</p>
+        <p>Recently, astrocytes in different regions of the brain, including the hippocampus, have been shown to play critical roles in behavioral regulation and diseases [<xref rid="B44-cells-13-00498" ref-type="bibr">44</xref>,<xref rid="B45-cells-13-00498" ref-type="bibr">45</xref>,<xref rid="B46-cells-13-00498" ref-type="bibr">46</xref>,<xref rid="B47-cells-13-00498" ref-type="bibr">47</xref>]. To determine the effect of <italic toggle="yes">Rbm8a</italic> haploinsufficiency in astrocytes, we sought to determine GFAP-positive astrocyte density in the hippocampus (<xref rid="app1-cells-13-00498" ref-type="app">Supplemental Figure S4</xref>). Interestingly, we detected a higher astrocyte population in the hippocampus of female GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice, but not in males (<xref rid="app1-cells-13-00498" ref-type="app">Supplemental Figure S4C,D</xref>). These data, again, support a sex-dependent role of RBM8A in the regulation of astrocyte density that may correlate to the sex-specific behavioral changes observed above.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="sec4-cells-13-00498">
+      <title>4. Discussion</title>
+      <p>Here, we have investigated the role of <italic toggle="yes">Rbm8a</italic>, a core member of the EJC, in GFAP-positive astrocytes using conditional <italic toggle="yes">Rbm8a</italic> heterozygous knockout mice (<italic toggle="yes">GFAPCre</italic>; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic>). We validated the mouse line by confirming the decreased RBM8A expression in GFAP-expressing cells using RT-PCR and Sanger sequencing, qRT-PCR, immunohistochemistry, and Western blot. Additionally, we performed several behavioral tests with these mice to examine the potential altered anxiety-related locomotion behaviors.</p>
+      <p>We observed half levels of RBM8A in <italic toggle="yes">GFAPCre</italic>; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice, even though the deletion only happens in GFAP-positive cells. Several reasons could explain this significant change. First, astrocytes are the most abundant cells in the mouse brain. Even though there are other unaffected neurons expressing higher levels of the RBM8A protein, the level in neurons may not compensate for the cell number. Second, immunostaining detects protein levels that do not exactly correlate with mRNA levels, as many studies have demonstrated [<xref rid="B48-cells-13-00498" ref-type="bibr">48</xref>,<xref rid="B49-cells-13-00498" ref-type="bibr">49</xref>,<xref rid="B50-cells-13-00498" ref-type="bibr">50</xref>]. Third, the exon junction complex factors, including RBM8A, are required for transcription [<xref rid="B51-cells-13-00498" ref-type="bibr">51</xref>], protein translation [<xref rid="B52-cells-13-00498" ref-type="bibr">52</xref>,<xref rid="B53-cells-13-00498" ref-type="bibr">53</xref>,<xref rid="B54-cells-13-00498" ref-type="bibr">54</xref>], and mRNA stability [<xref rid="B55-cells-13-00498" ref-type="bibr">55</xref>], which may have feedback regulation on its own expression. Fourth, the decrease in RBM8A in astrocytes may exert cell non-autonomous effects on the surrounding cells. Fifth, the deletion can occur in adult GFAP-expressing neural stem cells and their progeny in the brain. These possible reasons may explain why we observed half RBM8A levels in GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice despite the loss of one copy of <italic toggle="yes">Rbm8a</italic> gene only in astrocytes.</p>
+      <p>The behavioral results demonstrated that these mice show an increase in locomotion function and general activity, pointing to a hyperactive phenotype in both male and female GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice. Additionally, the elevated plus maze test indicates that these experimental mice may display decreased anxiety behaviors, relative to control mice. Finally, the other tests did not reveal any significant impact on obsessive, repetitive, or depressive behaviors in the experimental mice, relative to control mice.</p>
+      <p>The role of glial cells in neural disorders has recently become a growing point of research. Astrocytes are known to be in close communication with neurons during development and astrocytes, in particular, are able to engage in bi-directional signaling with up to 100,000 synapses [<xref rid="B28-cells-13-00498" ref-type="bibr">28</xref>]. Astrocytes express tremendous functional and proteomic diversity based on their specialization in the neural circuit of interest [<xref rid="B29-cells-13-00498" ref-type="bibr">29</xref>]. Particularly, astrocytes have been shown to facilitate synapse elimination [<xref rid="B46-cells-13-00498" ref-type="bibr">46</xref>,<xref rid="B56-cells-13-00498" ref-type="bibr">56</xref>]. Our findings provide new insights into how <italic toggle="yes">Rbm8a</italic> gene mutations in the astrocytes can work as a risk factor for neurodevelopmental diseases. Analyses of human ASD brains post mortem demonstrate increases in glial reactivity and, thus, it is possible that the dysregulation of an astrocyte-mediated inflammatory response may be implicated in the generation of ASD brains [<xref rid="B28-cells-13-00498" ref-type="bibr">28</xref>]. The RNAseq result in our previous study [<xref rid="B57-cells-13-00498" ref-type="bibr">57</xref>] detected an upregulation of GFAP mRNA in the <italic toggle="yes">Nes-cre-Rbm8a <sup>f/+</sup></italic> brain at P17. Consistently, this study reveals that <italic toggle="yes">Rbm8a</italic> heterozygous KO in GFAP-positive astrocytes leads to a sex-specific increased cell astrocyte density in the hippocampus. However, as GFAP-cre is also expressed in adult NPCs [<xref rid="B58-cells-13-00498" ref-type="bibr">58</xref>], which could delete <italic toggle="yes">Rbm8a</italic> in adult NPCs and their progenies, the current study cannot completely exclude the potential contribution of postnatal defects from adult NPCs. Future studies will be required to further delineate the underlying pathophysiological mechanisms. It would be interesting to further narrow down if the <italic toggle="yes">Rbm8a</italic> deletion from adult NPCs or astrocyte subtypes in different brain regions will mediate particular phenotypes. Such studies will provide a better understanding of circuitry mechanism for ADHD-like neurological diseases.</p>
+      <p>Our study indicates that <italic toggle="yes">Rbm8a</italic> heterozygous KO specifically in postnatal GFAP-expressing astrocytes is sufficient to modify behaviors leading to hyperlocomotion. Hyperactivity has been defined as an increased locomotion activity and spontaneous exploration indicated by variables such as distance traveled, moving duration, mobility duration, and average velocity [<xref rid="B59-cells-13-00498" ref-type="bibr">59</xref>,<xref rid="B60-cells-13-00498" ref-type="bibr">60</xref>,<xref rid="B61-cells-13-00498" ref-type="bibr">61</xref>]. Mouse models where hyperactivity is found often also explore aspects of attention or impulse control in the context of ADHD. Human ADHD is characterized by a dysfunction in activity, attention, and impulse control. Mouse models of ADHD are heterogeneous and diverse, thereby substantiating evidence towards the polygenic nature of ADHD epidemiology [<xref rid="B62-cells-13-00498" ref-type="bibr">62</xref>].</p>
+      <p>It is also known that elements of attention, impulsivity, and hyperactivity could be associated with ASDs, with nearly half of the ASD population meeting the diagnostic criteria for ADHD, as stipulated in the DSM-V [<xref rid="B63-cells-13-00498" ref-type="bibr">63</xref>,<xref rid="B64-cells-13-00498" ref-type="bibr">64</xref>]. Both ASDs and ADHD have been shown to carry a significant genetic basis, with findings of over eight in ten ASD patients exhibiting identifiable genetic variants in one or numerous neural and non-neural genes [<xref rid="B65-cells-13-00498" ref-type="bibr">65</xref>]. It has been shown that <italic toggle="yes">RBM8A</italic> and other genes located in the 1q21.1 copy number variant are associated with neurodevelopmental and neurodegenerative disease, and especially with ASDs and ID [<xref rid="B37-cells-13-00498" ref-type="bibr">37</xref>,<xref rid="B66-cells-13-00498" ref-type="bibr">66</xref>]. Therefore, finding that a hyperactive phenotype manifests after the conditional deletion of <italic toggle="yes">Rbm8a</italic> in the mouse astrocytes may demonstrate a potential link to ASDs and ADHD worthy of further insight.</p>
+      <p>Consistent with this notion, there are several mouse models of ADHD and ASDs, which display hyperactivity in the mouse behavioral profile. ADHD often presents alongside generalized anxiety disorders, adding diagnostic complexity to the individual or dual diagnoses [<xref rid="B67-cells-13-00498" ref-type="bibr">67</xref>]. Similarly, anxiety is often a major co-occurring symptom in ASD patients [<xref rid="B68-cells-13-00498" ref-type="bibr">68</xref>]. However, in both neurodevelopmental disorders, more work is required to determine if anxiety is an independent (comorbid) disorder or part of those disorders. Interestingly, our mice exhibit altered locomotion activity, suggesting hyperactivity and high anxiety are not always associated. Consistently, instead of an increased anxiety level in experimental mice, it was found that different models with hyperactivity may demonstrate a decreased anxiety, dependent on different stress conditions and genetics [<xref rid="B69-cells-13-00498" ref-type="bibr">69</xref>,<xref rid="B70-cells-13-00498" ref-type="bibr">70</xref>]. For example, histone acetyltransferase CREB binding protein (CBP) mutation causes Rubinstein&#x2013;Taybi Syndrome (RTS), where dysfunction in chromatin or DNA function emerges as a critical component of ASDs. Knockout of the CH1 domain of CBP results in hyperactivity, reduced anxiety, and a disruption in synaptic homeostasis [<xref rid="B71-cells-13-00498" ref-type="bibr">71</xref>]. The Fragile Mental Retardation 1 locus (FMR1) is located on the X chromosome, and an expansion of triplet repeats preventing the proper production of the FMRP RNA-binding protein is the most common inherited pattern of mental retardation. FMRP modulates mRNA trafficking, dendritic maturation, and synaptic plasticity. Notably, FMR1 KO mice exhibit hyperactivity and also demonstrate decreased anxiety [<xref rid="B72-cells-13-00498" ref-type="bibr">72</xref>].</p>
+      <p>Multiple neurotransmissions have been implicated in hyperactivity, such as dopamine and GABA. Dopamine transporter-1 (DAT-1) is a re-uptake transporter of dopamine from the synaptic cleft back into the synaptic bouton of the presynaptic neuron. Its KO results in both hyperactivity and impulsivity in mice [<xref rid="B73-cells-13-00498" ref-type="bibr">73</xref>,<xref rid="B74-cells-13-00498" ref-type="bibr">74</xref>]. Among others, these studies contribute to growing evidence that GABA signaling and networks are vulnerable or contributory to the pathogenesis of ADHD [<xref rid="B75-cells-13-00498" ref-type="bibr">75</xref>,<xref rid="B76-cells-13-00498" ref-type="bibr">76</xref>,<xref rid="B77-cells-13-00498" ref-type="bibr">77</xref>]. CNTNAP2&#x2014;the largest gene in the genome&#x2014;regulates the neuron&#x2013;glia interaction during brain development and contributes to the development of neuron axon substructures. The deletion of the Contactin-associated protein-like 2 gene (CNTNAP2) in mice also results in hyperactivity, alongside deficits in cortical projection, neuron migration, and a reduction in the number of GABAergic interneurons [<xref rid="B78-cells-13-00498" ref-type="bibr">78</xref>,<xref rid="B79-cells-13-00498" ref-type="bibr">79</xref>]. Consistently, our previous studies have revealed that <italic toggle="yes">Rbm8a</italic> plays a critical role in interneuron differentiation [<xref rid="B24-cells-13-00498" ref-type="bibr">24</xref>] and regulates the genes involved in GABA synapse formation [<xref rid="B57-cells-13-00498" ref-type="bibr">57</xref>]. However, the potential of RBM8A to regulate GABAergic synapses through astrocytes and its subsequent role in inducing hyperactivity is an intriguing avenue for future research.</p>
+    </sec>
+    <sec sec-type="conclusions" id="sec5-cells-13-00498">
+      <title>5. Conclusions</title>
+      <p>This study demonstrates that the conditional heterozygous knockout of <italic toggle="yes">Rbm8a</italic> in GFAP-positive astrocytes leads to increased movement and sex-specific behavioral changes in mice, indicating RBM8A&#x2019;s critical role in neurodevelopment and astrocyte functions. Moreover, the alteration in astrocyte density underlines the significance of RBM8A in central nervous system pathology, offering new perspectives on neurodevelopmental disorders through astrocytic involvement.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We thank all members of the Mao lab for their suggestions for this paper. We thank Bernhard Luscher, Timothy Jegla, and Aimin Liu, for their technical support.</p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+    <app-group>
+      <app id="app1-cells-13-00498">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri xlink:href="https://www.mdpi.com/article/10.3390/cells13060498/s1">https://www.mdpi.com/article/10.3390/cells13060498/s1</uri>, Figure S1: Western blot to confirm reduced RBM8A protein in GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice and RBM8A protein is not changed in neurons. Figure S2: Immobile time in the EPM test. Figure S3: Total entries and duration in the center of the EPM test. Figure S4: Astrocyte density in the hippocampi of control and <italic toggle="yes">GFAPCre</italic>; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice.</p>
+        <supplementary-material id="cells-13-00498-s001" position="float" content-type="local-data">
+          <media xlink:href="cells-13-00498-s001.zip"/>
+        </supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, S.A., J.M. and Y.M.; investigation, S.A., J.M., Z.P. and M.T.; writing&#x2014;original draft preparation, S.A. and J.M.; writing&#x2014;review and editing, J.M. and Y.M.; supervision, Y.M.; funding acquisition, Y.M. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>This study was conducted according to the guidelines of the Pennsylvania State University IACUC committee (protocol number PRAMS201644057).</p>
+    </notes>
+    <notes>
+      <title>Informed Consent Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Data Availability Statement</title>
+      <p>All <xref rid="app1-cells-13-00498" ref-type="app">Supplemental Data and Materials</xref> are available online and upon reasonable request.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cells-13-00498">
+        <label>1.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Parenti</surname><given-names>I.</given-names></name>
+<name><surname>Rabaneda</surname><given-names>L.G.</given-names></name>
+<name><surname>Schoen</surname><given-names>H.</given-names></name>
+<name><surname>Novarino</surname><given-names>G.</given-names></name>
+</person-group><article-title>Neurodevelopmental Disorders: From Genetics to Functional Pathways</article-title><source>Trends Neurosci.</source><year>2020</year><volume>43</volume><fpage>608</fpage><lpage>621</lpage><pub-id pub-id-type="doi">10.1016/j.tins.2020.05.004</pub-id><pub-id pub-id-type="pmid">32507511</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B2-cells-13-00498">
+        <label>2.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Thapar</surname><given-names>A.</given-names></name>
+<name><surname>Cooper</surname><given-names>M.</given-names></name>
+<name><surname>Rutter</surname><given-names>M.</given-names></name>
+</person-group><article-title>Neurodevelopmental disorders</article-title><source>Lancet Psychiatry</source><year>2017</year><volume>4</volume><fpage>339</fpage><lpage>346</lpage><pub-id pub-id-type="doi">10.1016/S2215-0366(16)30376-5</pub-id><pub-id pub-id-type="pmid">27979720</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B3-cells-13-00498">
+        <label>3.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Boehm</surname><given-names>V.</given-names></name>
+<name><surname>Gehring</surname><given-names>N.H.</given-names></name>
+</person-group><article-title>Exon Junction Complexes: Supervising the Gene Expression Assembly Line</article-title><source>Trends Genet.</source><year>2016</year><volume>32</volume><fpage>724</fpage><lpage>735</lpage><pub-id pub-id-type="doi">10.1016/j.tig.2016.09.003</pub-id><pub-id pub-id-type="pmid">27667727</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B4-cells-13-00498">
+        <label>4.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Le Hir</surname><given-names>H.</given-names></name>
+<name><surname>Andersen</surname><given-names>G.R.</given-names></name>
+</person-group><article-title>Structural insights into the exon junction complex</article-title><source>Curr. Opin. Struct. Biol.</source><year>2008</year><volume>18</volume><fpage>112</fpage><lpage>119</lpage><pub-id pub-id-type="doi">10.1016/j.sbi.2007.11.002</pub-id><pub-id pub-id-type="pmid">18164611</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B5-cells-13-00498">
+        <label>5.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Le Hir</surname><given-names>H.</given-names></name>
+<name><surname>Seraphin</surname><given-names>B.</given-names></name>
+</person-group><article-title>EJCs at the heart of translational control</article-title><source>Cell</source><year>2008</year><volume>133</volume><fpage>213</fpage><lpage>216</lpage><pub-id pub-id-type="doi">10.1016/j.cell.2008.04.002</pub-id><pub-id pub-id-type="pmid">18423193</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B6-cells-13-00498">
+        <label>6.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Leung</surname><given-names>C.S.</given-names></name>
+<name><surname>Johnson</surname><given-names>T.L.</given-names></name>
+</person-group><article-title>The Exon Junction Complex: A Multitasking Guardian of the Transcriptome</article-title><source>Mol. Cell</source><year>2018</year><volume>72</volume><fpage>799</fpage><lpage>801</lpage><pub-id pub-id-type="doi">10.1016/j.molcel.2018.11.030</pub-id><pub-id pub-id-type="pmid">30526869</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B7-cells-13-00498">
+        <label>7.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Schlautmann</surname><given-names>L.P.</given-names></name>
+<name><surname>Gehring</surname><given-names>N.H.</given-names></name>
+</person-group><article-title>A Day in the Life of the Exon Junction Complex</article-title><source>Biomolecules</source><year>2020</year><volume>10</volume><elocation-id>866</elocation-id><pub-id pub-id-type="doi">10.3390/biom10060866</pub-id><pub-id pub-id-type="pmid">32517083</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B8-cells-13-00498">
+        <label>8.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hentze</surname><given-names>M.W.</given-names></name>
+<name><surname>Kulozik</surname><given-names>A.E.</given-names></name>
+</person-group><article-title>A Perfect Message: RNA Surveillance and Nonsense-Mediated Decay</article-title><source>Cell</source><year>1999</year><volume>96</volume><fpage>307</fpage><lpage>310</lpage><pub-id pub-id-type="doi">10.1016/S0092-8674(00)80542-5</pub-id><pub-id pub-id-type="pmid">10025395</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B9-cells-13-00498">
+        <label>9.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zhou</surname><given-names>Y.</given-names></name>
+<name><surname>Dong</surname><given-names>F.</given-names></name>
+<name><surname>Mao</surname><given-names>Y.</given-names></name>
+</person-group><article-title>Control of CNS Functions by RNA-Binding Proteins in Neurological Diseases</article-title><source>Curr. Pharmacol. Rep.</source><year>2018</year><volume>4</volume><fpage>301</fpage><lpage>313</lpage><pub-id pub-id-type="doi">10.1007/s40495-018-0140-7</pub-id><pub-id pub-id-type="pmid">30410853</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B10-cells-13-00498">
+        <label>10.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Asthana</surname><given-names>S.</given-names></name>
+<name><surname>Martin</surname><given-names>H.</given-names></name>
+<name><surname>Rupkey</surname><given-names>J.</given-names></name>
+<name><surname>Patel</surname><given-names>S.</given-names></name>
+<name><surname>Yoon</surname><given-names>J.</given-names></name>
+<name><surname>Keegan</surname><given-names>A.</given-names></name>
+<name><surname>Mao</surname><given-names>Y.</given-names></name>
+</person-group><article-title>The Physiological Roles of the Exon Junction Complex in Development and Diseases</article-title><source>Cells</source><year>2022</year><volume>11</volume><elocation-id>1192</elocation-id><pub-id pub-id-type="doi">10.3390/cells11071192</pub-id><pub-id pub-id-type="pmid">35406756</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B11-cells-13-00498">
+        <label>11.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>McMahon</surname><given-names>J.J.</given-names></name>
+<name><surname>Miller</surname><given-names>E.E.</given-names></name>
+<name><surname>Silver</surname><given-names>D.L.</given-names></name>
+</person-group><article-title>The exon junction complex in neural development and neurodevelopmental disease</article-title><source>Int. J. Dev. Neurosci.</source><year>2016</year><volume>55</volume><fpage>117</fpage><lpage>123</lpage><pub-id pub-id-type="doi">10.1016/j.ijdevneu.2016.03.006</pub-id><pub-id pub-id-type="pmid">27071691</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B12-cells-13-00498">
+        <label>12.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lee</surname><given-names>P.J.</given-names></name>
+<name><surname>Yang</surname><given-names>S.</given-names></name>
+<name><surname>Sun</surname><given-names>Y.</given-names></name>
+<name><surname>Guo</surname><given-names>J.U.</given-names></name>
+</person-group><article-title>Regulation of nonsense-mediated mRNA decay in neural development and disease</article-title><source>J. Mol. Cell Biol.</source><year>2021</year><volume>13</volume><fpage>269</fpage><lpage>281</lpage><pub-id pub-id-type="doi">10.1093/jmcb/mjab022</pub-id><pub-id pub-id-type="pmid">33783512</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B13-cells-13-00498">
+        <label>13.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Addington</surname><given-names>A.M.</given-names></name>
+<name><surname>Gauthier</surname><given-names>J.</given-names></name>
+<name><surname>Piton</surname><given-names>A.</given-names></name>
+<name><surname>Hamdan</surname><given-names>F.F.</given-names></name>
+<name><surname>Raymond</surname><given-names>A.</given-names></name>
+<name><surname>Gogtay</surname><given-names>N.</given-names></name>
+<name><surname>Miller</surname><given-names>R.</given-names></name>
+<name><surname>Tossell</surname><given-names>J.</given-names></name>
+<name><surname>Bakalar</surname><given-names>J.</given-names></name>
+<name><surname>Inoff-Germain</surname><given-names>G.</given-names></name>
+<etal/>
+</person-group><article-title>A novel frameshift mutation in UPF3B identified in brothers affected with childhood onset schizophrenia and autism spectrum disorders</article-title><source>Mol. Psychiatry</source><year>2011</year><volume>16</volume><fpage>238</fpage><lpage>239</lpage><pub-id pub-id-type="doi">10.1038/mp.2010.59</pub-id><pub-id pub-id-type="pmid">20479756</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B14-cells-13-00498">
+        <label>14.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tarpey</surname><given-names>P.S.</given-names></name>
+<name><surname>Raymond</surname><given-names>F.L.</given-names></name>
+<name><surname>Nguyen</surname><given-names>L.S.</given-names></name>
+<name><surname>Rodriguez</surname><given-names>J.</given-names></name>
+<name><surname>Hackett</surname><given-names>A.</given-names></name>
+<name><surname>Vandeleur</surname><given-names>L.</given-names></name>
+<name><surname>Smith</surname><given-names>R.</given-names></name>
+<name><surname>Shoubridge</surname><given-names>C.</given-names></name>
+<name><surname>Edkins</surname><given-names>S.</given-names></name>
+<name><surname>Stevens</surname><given-names>C.</given-names></name>
+<etal/>
+</person-group><article-title>Mutations in UPF3B, a member of the nonsense-mediated mRNA decay complex, cause syndromic and nonsyndromic mental retardation</article-title><source>Nat. Genet.</source><year>2007</year><volume>39</volume><fpage>1127</fpage><lpage>1133</lpage><pub-id pub-id-type="doi">10.1038/ng2100</pub-id><pub-id pub-id-type="pmid">17704778</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B15-cells-13-00498">
+        <label>15.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Laumonnier</surname><given-names>F.</given-names></name>
+<name><surname>Shoubridge</surname><given-names>C.</given-names></name>
+<name><surname>Antar</surname><given-names>C.</given-names></name>
+<name><surname>Nguyen</surname><given-names>L.S.</given-names></name>
+<name><surname>Van Esch</surname><given-names>H.</given-names></name>
+<name><surname>Kleefstra</surname><given-names>T.</given-names></name>
+<name><surname>Briault</surname><given-names>S.</given-names></name>
+<name><surname>Fryns</surname><given-names>J.P.</given-names></name>
+<name><surname>Hamel</surname><given-names>B.</given-names></name>
+<name><surname>Chelly</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group><article-title>Mutations of the UPF3B gene, which encodes a protein widely expressed in neurons, are associated with nonspecific mental retardation with or without autism</article-title><source>Mol. Psychiatry</source><year>2010</year><volume>15</volume><fpage>767</fpage><lpage>776</lpage><pub-id pub-id-type="doi">10.1038/mp.2009.14</pub-id><pub-id pub-id-type="pmid">19238151</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B16-cells-13-00498">
+        <label>16.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Xu</surname><given-names>X.</given-names></name>
+<name><surname>Zhang</surname><given-names>L.</given-names></name>
+<name><surname>Tong</surname><given-names>P.</given-names></name>
+<name><surname>Xun</surname><given-names>G.</given-names></name>
+<name><surname>Su</surname><given-names>W.</given-names></name>
+<name><surname>Xiong</surname><given-names>Z.</given-names></name>
+<name><surname>Zhu</surname><given-names>T.</given-names></name>
+<name><surname>Zheng</surname><given-names>Y.</given-names></name>
+<name><surname>Luo</surname><given-names>S.</given-names></name>
+<name><surname>Pan</surname><given-names>Y.</given-names></name>
+<etal/>
+</person-group><article-title>Exome sequencing identifies UPF3B as the causative gene for a Chinese non-syndrome mental retardation pedigree</article-title><source>Clin. Genet.</source><year>2013</year><volume>83</volume><fpage>560</fpage><lpage>564</lpage><pub-id pub-id-type="doi">10.1111/cge.12014</pub-id><pub-id pub-id-type="pmid">22957832</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B17-cells-13-00498">
+        <label>17.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Nguyen</surname><given-names>L.S.</given-names></name>
+<name><surname>Kim</surname><given-names>H.-G.</given-names></name>
+<name><surname>Rosenfeld</surname><given-names>J.A.</given-names></name>
+<name><surname>Shen</surname><given-names>Y.</given-names></name>
+<name><surname>Gusella</surname><given-names>J.F.</given-names></name>
+<name><surname>Lacassie</surname><given-names>Y.</given-names></name>
+<name><surname>Layman</surname><given-names>L.C.</given-names></name>
+<name><surname>Shaffer</surname><given-names>L.G.</given-names></name>
+<name><surname>G&#xE9;cz</surname><given-names>J.</given-names></name>
+</person-group><article-title>Contribution of copy number variants involving nonsense-mediated mRNA decay pathway genes to neuro-developmental disorders</article-title><source>Hum. Mol. Genet.</source><year>2013</year><volume>22</volume><fpage>1816</fpage><lpage>1825</lpage><pub-id pub-id-type="doi">10.1093/hmg/ddt035</pub-id><pub-id pub-id-type="pmid">23376982</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B18-cells-13-00498">
+        <label>18.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Szyszka</surname><given-names>P.</given-names></name>
+<name><surname>Sharp</surname><given-names>S.I.</given-names></name>
+<name><surname>Dedman</surname><given-names>A.</given-names></name>
+<name><surname>Gurling</surname><given-names>H.M.</given-names></name>
+<name><surname>McQuillin</surname><given-names>A.</given-names></name>
+</person-group><article-title>A nonconservative amino acid change in the UPF3B gene in a patient with schizophrenia</article-title><source>Psychiatr Genet</source><year>2012</year><volume>22</volume><fpage>150</fpage><lpage>151</lpage><pub-id pub-id-type="doi">10.1097/YPG.0b013e32834accbe</pub-id><pub-id pub-id-type="pmid">21862950</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B19-cells-13-00498">
+        <label>19.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Al-Qattan</surname><given-names>M.M.</given-names></name>
+</person-group><article-title>The Pathogenesis of Radial Ray Deficiency in Thrombocytopenia-Absent Radius (TAR) Syndrome</article-title><source>J. Coll. Physicians Surg.-Pak. JCPSP</source><year>2016</year><volume>26</volume><fpage>912</fpage><lpage>916</lpage><pub-id pub-id-type="pmid">27981927</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B20-cells-13-00498">
+        <label>20.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Albers</surname><given-names>C.A.</given-names></name>
+<name><surname>Paul</surname><given-names>D.S.</given-names></name>
+<name><surname>Schulze</surname><given-names>H.</given-names></name>
+<name><surname>Freson</surname><given-names>K.</given-names></name>
+<name><surname>Stephens</surname><given-names>J.C.</given-names></name>
+<name><surname>Smethurst</surname><given-names>P.A.</given-names></name>
+<name><surname>Jolley</surname><given-names>J.D.</given-names></name>
+<name><surname>Cvejic</surname><given-names>A.</given-names></name>
+<name><surname>Kostadima</surname><given-names>M.</given-names></name>
+<name><surname>Bertone</surname><given-names>P.</given-names></name>
+<etal/>
+</person-group><article-title>Compound inheritance of a low-frequency regulatory SNP and a rare null mutation in exon-junction complex subunit RBM8A causes TAR syndrome</article-title><source>Nat. Genet.</source><year>2012</year><volume>44</volume><fpage>435</fpage><lpage>439</lpage><pub-id pub-id-type="doi">10.1038/ng.1083</pub-id><pub-id pub-id-type="pmid">22366785</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B21-cells-13-00498">
+        <label>21.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Volodarsky</surname><given-names>M.</given-names></name>
+<name><surname>Lichtig</surname><given-names>H.</given-names></name>
+<name><surname>Leibson</surname><given-names>T.</given-names></name>
+<name><surname>Sadaka</surname><given-names>Y.</given-names></name>
+<name><surname>Kadir</surname><given-names>R.</given-names></name>
+<name><surname>Perez</surname><given-names>Y.</given-names></name>
+<name><surname>Liani-Leibson</surname><given-names>K.</given-names></name>
+<name><surname>Gradstein</surname><given-names>L.</given-names></name>
+<name><surname>Shaco-Levy</surname><given-names>R.</given-names></name>
+<name><surname>Shorer</surname><given-names>Z.</given-names></name>
+<etal/>
+</person-group><article-title>CDC174, a novel component of the exon junction complex whose mutation underlies a syndrome of hypotonia and psychomotor developmental delay</article-title><source>Hum. Mol. Genet.</source><year>2015</year><volume>24</volume><fpage>6485</fpage><lpage>6491</lpage><pub-id pub-id-type="doi">10.1093/hmg/ddv357</pub-id><pub-id pub-id-type="pmid">26358778</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B22-cells-13-00498">
+        <label>22.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Favaro</surname><given-names>F.P.</given-names></name>
+<name><surname>Alvizi</surname><given-names>L.</given-names></name>
+<name><surname>Zechi-Ceide</surname><given-names>R.M.</given-names></name>
+<name><surname>Bertola</surname><given-names>D.</given-names></name>
+<name><surname>Felix</surname><given-names>T.M.</given-names></name>
+<name><surname>de Souza</surname><given-names>J.</given-names></name>
+<name><surname>Raskin</surname><given-names>S.</given-names></name>
+<name><surname>Twigg</surname><given-names>S.R.F.</given-names></name>
+<name><surname>Weiner</surname><given-names>A.M.J.</given-names></name>
+<name><surname>Armas</surname><given-names>P.</given-names></name>
+</person-group><article-title>A noncoding expansion in EIF4A3 causes Richieri-Costa-Pereira syndrome, a craniofacial disorder associated with limb defects</article-title><source>Am. J. Hum. Genet.</source><year>2014</year><volume>94</volume><fpage>120</fpage><lpage>128</lpage><pub-id pub-id-type="doi">10.1016/j.ajhg.2013.11.020</pub-id><pub-id pub-id-type="pmid">24360810</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B23-cells-13-00498">
+        <label>23.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zou</surname><given-names>D.H.</given-names></name>
+<name><surname>McSweeney</surname><given-names>C.</given-names></name>
+<name><surname>Sebastian</surname><given-names>A.</given-names></name>
+<name><surname>Reynolds</surname><given-names>D.J.</given-names></name>
+<name><surname>Dong</surname><given-names>F.P.</given-names></name>
+<name><surname>Zhou</surname><given-names>Y.J.</given-names></name>
+<name><surname>Deng</surname><given-names>D.Z.</given-names></name>
+<name><surname>Wang</surname><given-names>Y.G.</given-names></name>
+<name><surname>Liu</surname><given-names>L.</given-names></name>
+<name><surname>Zhu</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group><article-title>A critical role of RBM8a in proliferation and differentiation of embryonic neural progenitors</article-title><source>Neural Dev.</source><year>2015</year><volume>10</volume><fpage>1</fpage><lpage>16</lpage><pub-id pub-id-type="doi">10.1186/s13064-015-0045-7</pub-id><pub-id pub-id-type="pmid">25626996</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B24-cells-13-00498">
+        <label>24.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>McSweeney</surname><given-names>C.</given-names></name>
+<name><surname>Dong</surname><given-names>F.</given-names></name>
+<name><surname>Chen</surname><given-names>M.</given-names></name>
+<name><surname>Vitale</surname><given-names>J.</given-names></name>
+<name><surname>Xu</surname><given-names>L.</given-names></name>
+<name><surname>Crowley</surname><given-names>N.</given-names></name>
+<name><surname>Luscher</surname><given-names>B.</given-names></name>
+<name><surname>Zou</surname><given-names>D.</given-names></name>
+<name><surname>Mao</surname><given-names>Y.</given-names></name>
+</person-group><article-title>Full function of exon junction complex factor, Rbm8a, is critical for interneuron development</article-title><source>Transl. Psychiatry</source><year>2020</year><volume>10</volume><fpage>379</fpage><pub-id pub-id-type="doi">10.1038/s41398-020-01065-0</pub-id><pub-id pub-id-type="pmid">33154347</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B25-cells-13-00498">
+        <label>25.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mao</surname><given-names>H.Q.</given-names></name>
+<name><surname>Pilaz</surname><given-names>L.J.</given-names></name>
+<name><surname>McMahon</surname><given-names>J.J.</given-names></name>
+<name><surname>Golzio</surname><given-names>C.</given-names></name>
+<name><surname>Wu</surname><given-names>D.W.</given-names></name>
+<name><surname>Shi</surname><given-names>L.</given-names></name>
+<name><surname>Katsanis</surname><given-names>N.</given-names></name>
+<name><surname>Silver</surname><given-names>D.L.</given-names></name>
+</person-group><article-title>Rbm8a Haploinsufficiency Disrupts Embryonic Cortical Development Resulting in Microcephaly</article-title><source>J. Neurosci.</source><year>2015</year><volume>35</volume><fpage>7003</fpage><lpage>7018</lpage><pub-id pub-id-type="doi">10.1523/JNEUROSCI.0018-15.2015</pub-id><pub-id pub-id-type="pmid">25948253</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B26-cells-13-00498">
+        <label>26.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>Y.</given-names></name>
+<name><surname>Shen</surname><given-names>B.Q.</given-names></name>
+<name><surname>Zhang</surname><given-names>D.D.</given-names></name>
+<name><surname>Wang</surname><given-names>Y.Y.</given-names></name>
+<name><surname>Tang</surname><given-names>Z.M.</given-names></name>
+<name><surname>Ni</surname><given-names>N.</given-names></name>
+<name><surname>Jin</surname><given-names>X.L.</given-names></name>
+<name><surname>Luo</surname><given-names>M.</given-names></name>
+<name><surname>Sun</surname><given-names>H.</given-names></name>
+<name><surname>Gu</surname><given-names>P.</given-names></name>
+</person-group><article-title>miR-29a regulates the proliferation and differentiation of retinal progenitors by targeting Rbm8a</article-title><source>Oncotarget</source><year>2017</year><volume>8</volume><fpage>31993</fpage><lpage>32008</lpage><pub-id pub-id-type="doi">10.18632/oncotarget.16669</pub-id><pub-id pub-id-type="pmid">28404883</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B27-cells-13-00498">
+        <label>27.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ishigaki</surname><given-names>Y.</given-names></name>
+<name><surname>Nakamura</surname><given-names>Y.</given-names></name>
+<name><surname>Tatsuno</surname><given-names>T.</given-names></name>
+<name><surname>Hashimoto</surname><given-names>M.</given-names></name>
+<name><surname>Shimasaki</surname><given-names>T.</given-names></name>
+<name><surname>Iwabuchi</surname><given-names>K.</given-names></name>
+<name><surname>Tomosugi</surname><given-names>N.</given-names></name>
+</person-group><article-title>Depletion of RNA-binding protein RBM8A (Y14) causes cell cycle deficiency and apoptosis in human cells</article-title><source>Exp. Biol. Med.</source><year>2013</year><volume>238</volume><fpage>889</fpage><lpage>897</lpage><pub-id pub-id-type="doi">10.1177/1535370213494646</pub-id><pub-id pub-id-type="pmid">23970407</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B28-cells-13-00498">
+        <label>28.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Petrelli</surname><given-names>F.</given-names></name>
+<name><surname>Pucci</surname><given-names>L.</given-names></name>
+<name><surname>Bezzi</surname><given-names>P.</given-names></name>
+</person-group><article-title>Astrocytes and Microglia and Their Potential Link with Autism Spectrum Disorders</article-title><source>Front. Cell. Neurosci.</source><year>2016</year><volume>10</volume><fpage>21</fpage><pub-id pub-id-type="doi">10.3389/fncel.2016.00021</pub-id><pub-id pub-id-type="pmid">26903806</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B29-cells-13-00498">
+        <label>29.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chai</surname><given-names>H.</given-names></name>
+<name><surname>Diaz-Castro</surname><given-names>B.</given-names></name>
+<name><surname>Shigetomi</surname><given-names>E.</given-names></name>
+<name><surname>Monte</surname><given-names>E.</given-names></name>
+<name><surname>Octeau</surname><given-names>J.C.</given-names></name>
+<name><surname>Yu</surname><given-names>X.</given-names></name>
+<name><surname>Cohn</surname><given-names>W.</given-names></name>
+<name><surname>Rajendran</surname><given-names>P.S.</given-names></name>
+<name><surname>Vondriska</surname><given-names>T.M.</given-names></name>
+<name><surname>Whitelegge</surname><given-names>J.P.</given-names></name>
+<etal/>
+</person-group><article-title>Neural Circuit-Specialized Astrocytes: Transcriptomic, Proteomic, Morphological, and Functional Evidence</article-title><source>Neuron</source><year>2017</year><volume>95</volume><fpage>531</fpage><lpage>549.e539</lpage><pub-id pub-id-type="doi">10.1016/j.neuron.2017.06.029</pub-id><pub-id pub-id-type="pmid">28712653</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B30-cells-13-00498">
+        <label>30.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Clarke</surname><given-names>L.E.</given-names></name>
+<name><surname>Barres</surname><given-names>B.A.</given-names></name>
+</person-group><article-title>Emerging roles of astrocytes in neural circuit development</article-title><source>Nat. Rev. Neurosci.</source><year>2013</year><volume>14</volume><fpage>311</fpage><lpage>321</lpage><pub-id pub-id-type="doi">10.1038/nrn3484</pub-id><pub-id pub-id-type="pmid">23595014</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B31-cells-13-00498">
+        <label>31.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yamamuro</surname><given-names>K.</given-names></name>
+<name><surname>Kimoto</surname><given-names>S.</given-names></name>
+<name><surname>Rosen</surname><given-names>K.M.</given-names></name>
+<name><surname>Kishimoto</surname><given-names>T.</given-names></name>
+<name><surname>Makinodan</surname><given-names>M.</given-names></name>
+</person-group><article-title>Potential primary roles of glial cells in the mechanisms of psychiatric disorders</article-title><source>Front. Cell. Neurosci.</source><year>2015</year><volume>9</volume><fpage>154</fpage><pub-id pub-id-type="doi">10.3389/fncel.2015.00154</pub-id><pub-id pub-id-type="pmid">26029044</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B32-cells-13-00498">
+        <label>32.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ballas</surname><given-names>N.</given-names></name>
+<name><surname>Lioy</surname><given-names>D.T.</given-names></name>
+<name><surname>Grunseich</surname><given-names>C.</given-names></name>
+<name><surname>Mandel</surname><given-names>G.</given-names></name>
+</person-group><article-title>Non&#x2013;cell autonomous influence of MeCP2-deficient glia on neuronal dendritic morphology</article-title><source>Nat. Neurosci.</source><year>2009</year><volume>12</volume><fpage>311</fpage><lpage>317</lpage><pub-id pub-id-type="doi">10.1038/nn.2275</pub-id><pub-id pub-id-type="pmid">19234456</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B33-cells-13-00498">
+        <label>33.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jacobs</surname><given-names>S.</given-names></name>
+<name><surname>Doering</surname><given-names>L.C.</given-names></name>
+</person-group><article-title>Astrocytes Prevent Abnormal Neuronal Development in the Fragile X Mouse</article-title><source>J. Neurosci.</source><year>2010</year><volume>30</volume><fpage>4508</fpage><lpage>4514</lpage><pub-id pub-id-type="doi">10.1523/JNEUROSCI.5027-09.2010</pub-id><pub-id pub-id-type="pmid">20335488</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B34-cells-13-00498">
+        <label>34.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>McGann</surname><given-names>J.C.</given-names></name>
+<name><surname>Lioy</surname><given-names>D.T.</given-names></name>
+<name><surname>Mandel</surname><given-names>G.</given-names></name>
+</person-group><article-title>Astrocytes conspire with neurons during progression of neurological disease</article-title><source>Curr. Opin. Neurobiol.</source><year>2012</year><volume>22</volume><fpage>850</fpage><lpage>858</lpage><pub-id pub-id-type="doi">10.1016/j.conb.2012.03.009</pub-id><pub-id pub-id-type="pmid">22475461</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B35-cells-13-00498">
+        <label>35.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jacobs</surname><given-names>S.</given-names></name>
+<name><surname>Nathwani</surname><given-names>M.</given-names></name>
+<name><surname>Doering</surname><given-names>L.C.</given-names></name>
+</person-group><article-title>Fragile X astrocytes induce developmental delays in dendrite maturation and synaptic protein expression</article-title><source>BMC Neurosci.</source><year>2010</year><volume>11</volume><elocation-id>132</elocation-id><pub-id pub-id-type="doi">10.1186/1471-2202-11-132</pub-id><pub-id pub-id-type="pmid">20955577</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B36-cells-13-00498">
+        <label>36.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hodges</surname><given-names>J.L.</given-names></name>
+<name><surname>Yu</surname><given-names>X.</given-names></name>
+<name><surname>Gilmore</surname><given-names>A.</given-names></name>
+<name><surname>Bennett</surname><given-names>H.</given-names></name>
+<name><surname>Tjia</surname><given-names>M.</given-names></name>
+<name><surname>Perna</surname><given-names>J.F.</given-names></name>
+<name><surname>Chen</surname><given-names>C.-C.</given-names></name>
+<name><surname>Li</surname><given-names>X.</given-names></name>
+<name><surname>Lu</surname><given-names>J.</given-names></name>
+<name><surname>Zuo</surname><given-names>Y.</given-names></name>
+</person-group><article-title>Astrocytic Contributions to Synaptic and Learning Abnormalities in a Mouse Model of Fragile X Syndrome</article-title><source>Biol. Psychiatry</source><year>2017</year><volume>82</volume><fpage>139</fpage><lpage>149</lpage><pub-id pub-id-type="doi">10.1016/j.biopsych.2016.08.036</pub-id><pub-id pub-id-type="pmid">27865451</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B37-cells-13-00498">
+        <label>37.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Alachkar</surname><given-names>A.</given-names></name>
+<name><surname>Jiang</surname><given-names>D.</given-names></name>
+<name><surname>Harrison</surname><given-names>M.</given-names></name>
+<name><surname>Zhou</surname><given-names>Y.</given-names></name>
+<name><surname>Chen</surname><given-names>G.</given-names></name>
+<name><surname>Mao</surname><given-names>Y.</given-names></name>
+</person-group><article-title>An EJC factor RBM8a Regulates Anxiety Behaviors</article-title><source>Curr. Mol. Med.</source><year>2013</year><volume>13</volume><fpage>887</fpage><lpage>899</lpage><pub-id pub-id-type="doi">10.2174/15665240113139990019</pub-id><pub-id pub-id-type="pmid">23638902</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B38-cells-13-00498">
+        <label>38.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sturman</surname><given-names>O.</given-names></name>
+<name><surname>Germain</surname><given-names>P.-L.</given-names></name>
+<name><surname>Bohacek</surname><given-names>J.</given-names></name>
+</person-group><article-title>Exploratory rearing: A context- and stress-sensitive behavior recorded in the open-field test</article-title><source>Stress</source><year>2018</year><volume>21</volume><fpage>443</fpage><lpage>452</lpage><pub-id pub-id-type="doi">10.1080/10253890.2018.1438405</pub-id><pub-id pub-id-type="pmid">29451062</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B39-cells-13-00498">
+        <label>39.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Dong</surname><given-names>F.</given-names></name>
+<name><surname>Jiang</surname><given-names>J.</given-names></name>
+<name><surname>McSweeney</surname><given-names>C.</given-names></name>
+<name><surname>Zou</surname><given-names>D.</given-names></name>
+<name><surname>Liu</surname><given-names>L.</given-names></name>
+<name><surname>Mao</surname><given-names>Y.</given-names></name>
+</person-group><article-title>Deletion of CTNNB1 in inhibitory circuitry contributes to autism-associated behavioral defects</article-title><source>Hum. Mol. Genet.</source><year>2016</year><volume>25</volume><fpage>2738</fpage><lpage>2751</lpage><pub-id pub-id-type="doi">10.1093/hmg/ddw131</pub-id><pub-id pub-id-type="pmid">27131348</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B40-cells-13-00498">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Kulbeth</surname><given-names>H.J.</given-names></name>
+<name><surname>Fukuda</surname><given-names>S.</given-names></name>
+<name><surname>Brents</surname><given-names>L.K.</given-names></name>
+</person-group>
+          <article-title>Automated quantification of opioid withdrawal in neonatal rat pups using Ethovision&#xAE; XT software</article-title>
+          <source>Neurotoxicology Teratol.</source>
+          <year>2021</year>
+          <volume>84</volume>
+          <fpage>106959</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.ntt.2021.106959</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-cells-13-00498">
+        <label>41.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Shiotsuki</surname><given-names>H.</given-names></name>
+<name><surname>Yoshimi</surname><given-names>K.</given-names></name>
+<name><surname>Shimo</surname><given-names>Y.</given-names></name>
+<name><surname>Funayama</surname><given-names>M.</given-names></name>
+<name><surname>Takamatsu</surname><given-names>Y.</given-names></name>
+<name><surname>Ikeda</surname><given-names>K.</given-names></name>
+<name><surname>Takahashi</surname><given-names>R.</given-names></name>
+<name><surname>Kitazawa</surname><given-names>S.</given-names></name>
+<name><surname>Hattori</surname><given-names>N.</given-names></name>
+</person-group><article-title>A rotarod test for evaluation of motor skill learning</article-title><source>J. Neurosci. Methods</source><year>2010</year><volume>189</volume><fpage>180</fpage><lpage>185</lpage><pub-id pub-id-type="doi">10.1016/j.jneumeth.2010.03.026</pub-id><pub-id pub-id-type="pmid">20359499</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B42-cells-13-00498">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Komada</surname><given-names>M.</given-names></name>
+<name><surname>Takao</surname><given-names>K.</given-names></name>
+<name><surname>Miyakawa</surname><given-names>T.</given-names></name>
+</person-group>
+          <article-title>Elevated Plus Maze for Mice</article-title>
+          <source>J. Vis. Exp.</source>
+          <year>2008</year>
+          <fpage>e1088</fpage>
+          <pub-id pub-id-type="doi">10.3791/1088</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-cells-13-00498">
+        <label>43.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Deacon</surname><given-names>R.M.J.</given-names></name>
+</person-group><article-title>Assessing nest building in mice</article-title><source>Nat. Protoc.</source><year>2006</year><volume>1</volume><fpage>1117</fpage><lpage>1119</lpage><pub-id pub-id-type="doi">10.1038/nprot.2006.170</pub-id><pub-id pub-id-type="pmid">17406392</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B44-cells-13-00498">
+        <label>44.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hosseini</surname><given-names>S.</given-names></name>
+<name><surname>Michaelsen-Preusse</surname><given-names>K.</given-names></name>
+<name><surname>Grigoryan</surname><given-names>G.</given-names></name>
+<name><surname>Chhatbar</surname><given-names>C.</given-names></name>
+<name><surname>Kalinke</surname><given-names>U.</given-names></name>
+<name><surname>Korte</surname><given-names>M.</given-names></name>
+</person-group><article-title>Type I Interferon Receptor Signaling in Astrocytes Regulates Hippocampal Synaptic Plasticity and Cognitive Function of the Healthy CNS</article-title><source>Cell Rep.</source><year>2020</year><volume>31</volume><fpage>107666</fpage><pub-id pub-id-type="doi">10.1016/j.celrep.2020.107666</pub-id><pub-id pub-id-type="pmid">32433975</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B45-cells-13-00498">
+        <label>45.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Richetin</surname><given-names>K.</given-names></name>
+<name><surname>Steullet</surname><given-names>P.</given-names></name>
+<name><surname>Pachoud</surname><given-names>M.</given-names></name>
+<name><surname>Perbet</surname><given-names>R.</given-names></name>
+<name><surname>Parietti</surname><given-names>E.</given-names></name>
+<name><surname>Maheswaran</surname><given-names>M.</given-names></name>
+<name><surname>Eddarkaoui</surname><given-names>S.</given-names></name>
+<name><surname>B&#xE9;gard</surname><given-names>S.</given-names></name>
+<name><surname>Pythoud</surname><given-names>C.</given-names></name>
+<name><surname>Rey</surname><given-names>M.</given-names></name>
+<etal/>
+</person-group><article-title>Tau accumulation in astrocytes of the dentate gyrus induces neuronal dysfunction and memory deficits in Alzheimer&#x2019;s disease</article-title><source>Nat. Neurosci.</source><year>2020</year><volume>23</volume><fpage>1567</fpage><lpage>1579</lpage><pub-id pub-id-type="doi">10.1038/s41593-020-00728-x</pub-id><pub-id pub-id-type="pmid">33169029</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B46-cells-13-00498">
+        <label>46.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lee</surname><given-names>J.-H.</given-names></name>
+<name><surname>Kim</surname><given-names>J.-y.</given-names></name>
+<name><surname>Noh</surname><given-names>S.</given-names></name>
+<name><surname>Lee</surname><given-names>H.</given-names></name>
+<name><surname>Lee</surname><given-names>S.Y.</given-names></name>
+<name><surname>Mun</surname><given-names>J.Y.</given-names></name>
+<name><surname>Park</surname><given-names>H.</given-names></name>
+<name><surname>Chung</surname><given-names>W.-S.</given-names></name>
+</person-group><article-title>Astrocytes phagocytose adult hippocampal synapses for circuit homeostasis</article-title><source>Nature</source><year>2021</year><volume>590</volume><fpage>612</fpage><lpage>617</lpage><pub-id pub-id-type="doi">10.1038/s41586-020-03060-3</pub-id><pub-id pub-id-type="pmid">33361813</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B47-cells-13-00498">
+        <label>47.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Nagai</surname><given-names>J.</given-names></name>
+<name><surname>Yu</surname><given-names>X.</given-names></name>
+<name><surname>Papouin</surname><given-names>T.</given-names></name>
+<name><surname>Cheong</surname><given-names>E.</given-names></name>
+<name><surname>Freeman</surname><given-names>M.R.</given-names></name>
+<name><surname>Monk</surname><given-names>K.R.</given-names></name>
+<name><surname>Hastings</surname><given-names>M.H.</given-names></name>
+<name><surname>Haydon</surname><given-names>P.G.</given-names></name>
+<name><surname>Rowitch</surname><given-names>D.</given-names></name>
+<name><surname>Shaham</surname><given-names>S.</given-names></name>
+<etal/>
+</person-group><article-title>Behaviorally consequential astrocytic regulation of neural circuits</article-title><source>Neuron</source><year>2021</year><volume>109</volume><fpage>576</fpage><lpage>596</lpage><pub-id pub-id-type="doi">10.1016/j.neuron.2020.12.008</pub-id><pub-id pub-id-type="pmid">33385325</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B48-cells-13-00498">
+        <label>48.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>G.</given-names></name>
+<name><surname>Gharib</surname><given-names>T.G.</given-names></name>
+<name><surname>Huang</surname><given-names>C.-C.</given-names></name>
+<name><surname>Taylor</surname><given-names>J.M.G.</given-names></name>
+<name><surname>Misek</surname><given-names>D.E.</given-names></name>
+<name><surname>Kardia</surname><given-names>S.L.R.</given-names></name>
+<name><surname>Giordano</surname><given-names>T.J.</given-names></name>
+<name><surname>Iannettoni</surname><given-names>M.D.</given-names></name>
+<name><surname>Orringer</surname><given-names>M.B.</given-names></name>
+<name><surname>Hanash</surname><given-names>S.M.</given-names></name>
+<etal/>
+</person-group><article-title>Discordant Protein and mRNA Expression in Lung Adenocarcinomas</article-title><source>Mol. Cell. Proteom.</source><year>2002</year><volume>1</volume><fpage>304</fpage><lpage>313</lpage><pub-id pub-id-type="doi">10.1074/mcp.M200008-MCP200</pub-id><pub-id pub-id-type="pmid">12096112</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B49-cells-13-00498">
+        <label>49.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>J.</given-names></name>
+<name><surname>Zhang</surname><given-names>Y.</given-names></name>
+<name><surname>Yang</surname><given-names>C.</given-names></name>
+<name><surname>Rong</surname><given-names>R.</given-names></name>
+</person-group><article-title>Discrepant mRNA and Protein Expression in Immune Cells</article-title><source>Curr. Genom.</source><year>2020</year><volume>21</volume><fpage>560</fpage><lpage>563</lpage><pub-id pub-id-type="doi">10.2174/1389202921999200716103758</pub-id><pub-id pub-id-type="pmid">33414677</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B50-cells-13-00498">
+        <label>50.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>Y.</given-names></name>
+<name><surname>Beyer</surname><given-names>A.</given-names></name>
+<name><surname>Aebersold</surname><given-names>R.</given-names></name>
+</person-group><article-title>On the Dependency of Cellular Protein Levels on mRNA Abundance</article-title><source>Cell</source><year>2016</year><volume>165</volume><fpage>535</fpage><lpage>550</lpage><pub-id pub-id-type="doi">10.1016/j.cell.2016.03.014</pub-id><pub-id pub-id-type="pmid">27104977</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B51-cells-13-00498">
+        <label>51.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Togi</surname><given-names>S.</given-names></name>
+<name><surname>Shiga</surname><given-names>K.</given-names></name>
+<name><surname>Muromoto</surname><given-names>R.</given-names></name>
+<name><surname>Kato</surname><given-names>M.</given-names></name>
+<name><surname>Souma</surname><given-names>Y.</given-names></name>
+<name><surname>Sekine</surname><given-names>Y.</given-names></name>
+<name><surname>Kon</surname><given-names>S.</given-names></name>
+<name><surname>Oritani</surname><given-names>K.</given-names></name>
+<name><surname>Matsuda</surname><given-names>T.</given-names></name>
+</person-group><article-title>Y14 Positively Regulates TNF-&#x3B1;&#x2013;Induced NF-&#x3BA;B Transcriptional Activity via Interacting RIP1 and TRADD Beyond an Exon Junction Complex Protein</article-title><source>J. Immunol.</source><year>2013</year><volume>191</volume><fpage>1436</fpage><lpage>1444</lpage><pub-id pub-id-type="doi">10.4049/jimmunol.1300501</pub-id><pub-id pub-id-type="pmid">23817415</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B52-cells-13-00498">
+        <label>52.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Roignant</surname><given-names>J.-Y.</given-names></name>
+<name><surname>Treisman</surname><given-names>J.E.</given-names></name>
+</person-group><article-title>Exon junction complex subunits are required to splice Drosophila MAP kinase, a large heterochromatic gene</article-title><source>Cell</source><year>2010</year><volume>143</volume><fpage>238</fpage><lpage>250</lpage><pub-id pub-id-type="doi">10.1016/j.cell.2010.09.036</pub-id><pub-id pub-id-type="pmid">20946982</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B53-cells-13-00498">
+        <label>53.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lee</surname><given-names>H.C.</given-names></name>
+<name><surname>Choe</surname><given-names>J.</given-names></name>
+<name><surname>Chi</surname><given-names>S.-G.</given-names></name>
+<name><surname>Kim</surname><given-names>Y.K.</given-names></name>
+</person-group><article-title>Exon junction complex enhances translation of spliced mRNAs at multiple steps</article-title><source>Biochem. Biophys. Res. Commun.</source><year>2009</year><volume>384</volume><fpage>334</fpage><lpage>340</lpage><pub-id pub-id-type="doi">10.1016/j.bbrc.2009.04.123</pub-id><pub-id pub-id-type="pmid">19409878</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B54-cells-13-00498">
+        <label>54.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chuang</surname><given-names>T.-W.</given-names></name>
+<name><surname>Lee</surname><given-names>K.-M.</given-names></name>
+<name><surname>Lou</surname><given-names>Y.-C.</given-names></name>
+<name><surname>Lu</surname><given-names>C.-C.</given-names></name>
+<name><surname>Tarn</surname><given-names>W.-Y.</given-names></name>
+</person-group><article-title>A Point Mutation in the Exon Junction Complex Factor Y14 Disrupts Its Function in mRNA Cap Binding and Translation Enhancement*</article-title><source>J. Biol. Chem.</source><year>2016</year><volume>291</volume><fpage>8565</fpage><lpage>8574</lpage><pub-id pub-id-type="doi">10.1074/jbc.M115.704544</pub-id><pub-id pub-id-type="pmid">26887951</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B55-cells-13-00498">
+        <label>55.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chuang</surname><given-names>T.-W.</given-names></name>
+<name><surname>Chang</surname><given-names>W.-L.</given-names></name>
+<name><surname>Lee</surname><given-names>K.-M.</given-names></name>
+<name><surname>Tarn</surname><given-names>W.-Y.</given-names></name>
+</person-group><article-title>The RNA-binding protein Y14 inhibits mRNA decapping and modulates processing body formation</article-title><source>Mol. Biol. Cell</source><year>2013</year><volume>24</volume><fpage>1</fpage><lpage>13</lpage><pub-id pub-id-type="doi">10.1091/mbc.e12-03-0217</pub-id><pub-id pub-id-type="pmid">23115303</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B56-cells-13-00498">
+        <label>56.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chung</surname><given-names>W.-S.</given-names></name>
+<name><surname>Clarke</surname><given-names>L.E.</given-names></name>
+<name><surname>Wang</surname><given-names>G.X.</given-names></name>
+<name><surname>Stafford</surname><given-names>B.K.</given-names></name>
+<name><surname>Sher</surname><given-names>A.</given-names></name>
+<name><surname>Chakraborty</surname><given-names>C.</given-names></name>
+<name><surname>Joung</surname><given-names>J.</given-names></name>
+<name><surname>Foo</surname><given-names>L.C.</given-names></name>
+<name><surname>Thompson</surname><given-names>A.</given-names></name>
+<name><surname>Chen</surname><given-names>C.</given-names></name>
+<etal/>
+</person-group><article-title>Astrocytes mediate synapse elimination through MEGF10 and MERTK pathways</article-title><source>Nature</source><year>2013</year><volume>504</volume><fpage>394</fpage><lpage>400</lpage><pub-id pub-id-type="doi">10.1038/nature12776</pub-id><pub-id pub-id-type="pmid">24270812</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B57-cells-13-00498">
+        <label>57.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>McSweeney</surname><given-names>C.</given-names></name>
+<name><surname>Chen</surname><given-names>M.</given-names></name>
+<name><surname>Dong</surname><given-names>F.</given-names></name>
+<name><surname>Sebastian</surname><given-names>A.</given-names></name>
+<name><surname>Reynolds</surname><given-names>D.J.</given-names></name>
+<name><surname>Mott</surname><given-names>J.</given-names></name>
+<name><surname>Pei</surname><given-names>Z.</given-names></name>
+<name><surname>Zou</surname><given-names>J.</given-names></name>
+<name><surname>Shi</surname><given-names>Y.</given-names></name>
+<name><surname>Mao</surname><given-names>Y.</given-names></name>
+</person-group><article-title>Transcriptomic Analyses of Brains of RBM8A Conditional Knockout Mice at Different Developmental Stages Reveal Conserved Signaling Pathways Contributing to Neurodevelopmental Diseases</article-title><source>Int. J. Mol. Sci.</source><year>2023</year><volume>24</volume><elocation-id>4600</elocation-id><pub-id pub-id-type="doi">10.3390/ijms24054600</pub-id><pub-id pub-id-type="pmid">36902031</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B58-cells-13-00498">
+        <label>58.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Garcia</surname><given-names>A.D.R.</given-names></name>
+<name><surname>Doan</surname><given-names>N.B.</given-names></name>
+<name><surname>Imura</surname><given-names>T.</given-names></name>
+<name><surname>Bush</surname><given-names>T.G.</given-names></name>
+<name><surname>Sofroniew</surname><given-names>M.V.</given-names></name>
+</person-group><article-title>GFAP-expressing progenitors are the principal source of constitutive neurogenesis in adult mouse forebrain</article-title><source>Nat. Neurosci.</source><year>2004</year><volume>7</volume><fpage>1233</fpage><lpage>1241</lpage><pub-id pub-id-type="doi">10.1038/nn1340</pub-id><pub-id pub-id-type="pmid">15494728</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B59-cells-13-00498">
+        <label>59.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Granon</surname><given-names>S.</given-names></name>
+<name><surname>Changeux</surname><given-names>J.-P.</given-names></name>
+</person-group><article-title>Attention-deficit/hyperactivity disorder: A plausible mouse model?</article-title><source>Acta Paediatr.</source><year>2006</year><volume>95</volume><fpage>645</fpage><lpage>649</lpage><pub-id pub-id-type="doi">10.1111/j.1651-2227.2006.tb02310.x</pub-id><pub-id pub-id-type="pmid">16754543</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B60-cells-13-00498">
+        <label>60.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jul</surname><given-names>P.</given-names></name>
+<name><surname>Volbracht</surname><given-names>C.</given-names></name>
+<name><surname>de Jong</surname><given-names>I.E.M.</given-names></name>
+<name><surname>Helboe</surname><given-names>L.</given-names></name>
+<name><surname>Elvang</surname><given-names>A.B.</given-names></name>
+<name><surname>Pedersen</surname><given-names>J.T.</given-names></name>
+</person-group><article-title>Hyperactivity with Agitative-Like Behavior in a Mouse Tauopathy Model</article-title><source>J. Alzheimer&#x2019;s Dis.</source><year>2016</year><volume>49</volume><fpage>783</fpage><lpage>795</lpage><pub-id pub-id-type="doi">10.3233/JAD-150292</pub-id><pub-id pub-id-type="pmid">26519432</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B61-cells-13-00498">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Viggiano</surname><given-names>D.</given-names></name>
+<name><surname>Ruocco</surname><given-names>L.A.</given-names></name>
+<name><surname>Arcieri</surname><given-names>S.</given-names></name>
+<name><surname>Sadile</surname><given-names>A.G.</given-names></name>
+</person-group>
+          <article-title>Involvement of Norepinephrine in the Control of Activity and Attentive Processes in Animal Models of Attention Deficit Hyperactivity Disorder</article-title>
+          <source>Neural Plast.</source>
+          <year>2004</year>
+          <volume>11</volume>
+          <fpage>764354</fpage>
+          <pub-id pub-id-type="doi">10.1155/NP.2004.133</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-cells-13-00498">
+        <label>62.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Juvale</surname><given-names>I.I.A.</given-names></name>
+<name><surname>Che Has</surname><given-names>A.T.</given-names></name>
+</person-group><article-title>The Potential Role of miRNAs as Predictive Biomarkers in Neurodevelopmental Disorders</article-title><source>J. Mol. Neurosci.</source><year>2021</year><volume>71</volume><fpage>1338</fpage><lpage>1355</lpage><pub-id pub-id-type="doi">10.1007/s12031-021-01825-7</pub-id><pub-id pub-id-type="pmid">33774758</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B63-cells-13-00498">
+        <label>63.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Leitner</surname><given-names>Y.</given-names></name>
+</person-group><article-title>The Co-Occurrence of Autism and Attention Deficit Hyperactivity Disorder in Children&#x2014;What Do We Know?</article-title><source>Front. Hum. Neurosci.</source><year>2014</year><volume>8</volume><fpage>268</fpage><pub-id pub-id-type="doi">10.3389/fnhum.2014.00268</pub-id><pub-id pub-id-type="pmid">24808851</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B64-cells-13-00498">
+        <label>64.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Murray</surname><given-names>M.J.</given-names></name>
+</person-group><article-title>Attention-deficit/Hyperactivity Disorder in the context of Autism spectrum disorders</article-title><source>Curr. Psychiatry Rep.</source><year>2010</year><volume>12</volume><fpage>382</fpage><lpage>388</lpage><pub-id pub-id-type="doi">10.1007/s11920-010-0145-3</pub-id><pub-id pub-id-type="pmid">20694583</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B65-cells-13-00498">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Wilson</surname><given-names>G.N.</given-names></name>
+<name><surname>Tonk</surname><given-names>V.S.</given-names></name>
+</person-group>
+          <article-title>Autism: A Different Vision</article-title>
+          <source>Open J. Psychiatry</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>263</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B66-cells-13-00498">
+        <label>66.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Takumi</surname><given-names>T.</given-names></name>
+<name><surname>Tamada</surname><given-names>K.</given-names></name>
+</person-group><article-title>CNV biology in neurodevelopmental disorders</article-title><source>Curr. Opin. Neurobiol.</source><year>2018</year><volume>48</volume><fpage>183</fpage><lpage>192</lpage><pub-id pub-id-type="doi">10.1016/j.conb.2017.12.004</pub-id><pub-id pub-id-type="pmid">29331932</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B67-cells-13-00498">
+        <label>67.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Reimherr</surname><given-names>F.W.</given-names></name>
+<name><surname>Marchant</surname><given-names>B.K.</given-names></name>
+<name><surname>Gift</surname><given-names>T.E.</given-names></name>
+<name><surname>Steans</surname><given-names>T.A.</given-names></name>
+</person-group><article-title>ADHD and Anxiety: Clinical Significance and Treatment Implications</article-title><source>Curr. Psychiatry Rep.</source><year>2017</year><volume>19</volume><fpage>109</fpage><pub-id pub-id-type="doi">10.1007/s11920-017-0859-6</pub-id><pub-id pub-id-type="pmid">29152677</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B68-cells-13-00498">
+        <label>68.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Romero</surname><given-names>M.</given-names></name>
+<name><surname>Aguilar</surname><given-names>J.M.</given-names></name>
+<name><surname>Del-Rey-Mej&#xED;as</surname><given-names>&#xC1;.</given-names></name>
+<name><surname>Mayoral</surname><given-names>F.</given-names></name>
+<name><surname>Rapado</surname><given-names>M.</given-names></name>
+<name><surname>Peci&#xF1;a</surname><given-names>M.</given-names></name>
+<name><surname>Barbancho</surname><given-names>M.&#xC1;.</given-names></name>
+<name><surname>Ruiz-Veguilla</surname><given-names>M.</given-names></name>
+<name><surname>Lara</surname><given-names>J.P.</given-names></name>
+</person-group><article-title>Psychiatric comorbidities in autism spectrum disorder: A comparative study between DSM-IV-TR and DSM-5 diagnosis</article-title><source>Int. J. Clin. Health Psychol.</source><year>2016</year><volume>16</volume><fpage>266</fpage><lpage>275</lpage><pub-id pub-id-type="doi">10.1016/j.ijchp.2016.03.001</pub-id><pub-id pub-id-type="pmid">30487870</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B69-cells-13-00498">
+        <label>69.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Strekalova</surname><given-names>T.</given-names></name>
+<name><surname>Spanagel</surname><given-names>R.</given-names></name>
+<name><surname>Dolgov</surname><given-names>O.</given-names></name>
+<name><surname>Bartsch</surname><given-names>D.</given-names></name>
+</person-group><article-title>Stress-induced hyperlocomotion as a confounding factor in anxiety and depression models in mice</article-title><source>Behav. Pharmacol.</source><year>2005</year><volume>16</volume><fpage>171</fpage><lpage>180</lpage><pub-id pub-id-type="doi">10.1097/00008877-200505000-00006</pub-id><pub-id pub-id-type="pmid">15864072</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B70-cells-13-00498">
+        <label>70.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zhu</surname><given-names>H.</given-names></name>
+<name><surname>Mingler</surname><given-names>M.K.</given-names></name>
+<name><surname>McBride</surname><given-names>M.L.</given-names></name>
+<name><surname>Murphy</surname><given-names>A.J.</given-names></name>
+<name><surname>Valenzuela</surname><given-names>D.M.</given-names></name>
+<name><surname>Yancopoulos</surname><given-names>G.D.</given-names></name>
+<name><surname>Williams</surname><given-names>M.T.</given-names></name>
+<name><surname>Vorhees</surname><given-names>C.V.</given-names></name>
+<name><surname>Rothenberg</surname><given-names>M.E.</given-names></name>
+</person-group><article-title>Abnormal response to stress and impaired NPS-induced hyperlocomotion, anxiolytic effect and corticosterone increase in mice lacking NPSR1</article-title><source>Psychoneuroendocrinology</source><year>2010</year><volume>35</volume><fpage>1119</fpage><lpage>1132</lpage><pub-id pub-id-type="doi">10.1016/j.psyneuen.2010.01.012</pub-id><pub-id pub-id-type="pmid">20171785</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B71-cells-13-00498">
+        <label>71.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zheng</surname><given-names>F.</given-names></name>
+<name><surname>Kasper</surname><given-names>L.H.</given-names></name>
+<name><surname>Bedford</surname><given-names>D.C.</given-names></name>
+<name><surname>Lerach</surname><given-names>S.</given-names></name>
+<name><surname>Teubner</surname><given-names>B.J.W.</given-names></name>
+<name><surname>Brindle</surname><given-names>P.K.</given-names></name>
+</person-group><article-title>Mutation of the CH1 Domain in the Histone Acetyltransferase CREBBP Results in Autism-Relevant Behaviors in Mice</article-title><source>PLoS ONE</source><year>2016</year><volume>11</volume><elocation-id>e0146366</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0146366</pub-id><pub-id pub-id-type="pmid">26730956</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B72-cells-13-00498">
+        <label>72.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Qin</surname><given-names>M.</given-names></name>
+<name><surname>Kang</surname><given-names>J.</given-names></name>
+<name><surname>Smith</surname><given-names>C.B.</given-names></name>
+</person-group><article-title>A null mutation for Fmr1 in female mice: Effects on regional cerebral metabolic rate for glucose and relationship to behavior</article-title><source>Neuroscience</source><year>2005</year><volume>135</volume><fpage>999</fpage><lpage>1009</lpage><pub-id pub-id-type="doi">10.1016/j.neuroscience.2005.06.081</pub-id><pub-id pub-id-type="pmid">16154294</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B73-cells-13-00498">
+        <label>73.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Fox</surname><given-names>M.A.</given-names></name>
+<name><surname>Panessiti</surname><given-names>M.G.</given-names></name>
+<name><surname>Hall</surname><given-names>F.S.</given-names></name>
+<name><surname>Uhl</surname><given-names>G.R.</given-names></name>
+<name><surname>Murphy</surname><given-names>D.L.</given-names></name>
+</person-group><article-title>An evaluation of the serotonin system and perseverative, compulsive, stereotypical, and hyperactive behaviors in dopamine transporter (DAT) knockout mice</article-title><source>Psychopharmacology</source><year>2013</year><volume>227</volume><fpage>685</fpage><lpage>695</lpage><pub-id pub-id-type="doi">10.1007/s00213-013-2988-x</pub-id><pub-id pub-id-type="pmid">23417514</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B74-cells-13-00498">
+        <label>74.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mereu</surname><given-names>M.</given-names></name>
+<name><surname>Contarini</surname><given-names>G.</given-names></name>
+<name><surname>Buonaguro</surname><given-names>E.F.</given-names></name>
+<name><surname>Latte</surname><given-names>G.</given-names></name>
+<name><surname>Manag&#xF2;</surname><given-names>F.</given-names></name>
+<name><surname>Iasevoli</surname><given-names>F.</given-names></name>
+<name><surname>de Bartolomeis</surname><given-names>A.</given-names></name>
+<name><surname>Papaleo</surname><given-names>F.</given-names></name>
+</person-group><article-title>Dopamine transporter (DAT) genetic hypofunction in mice produces alterations consistent with ADHD but not schizophrenia or bipolar disorder</article-title><source>Neuropharmacology</source><year>2017</year><volume>121</volume><fpage>179</fpage><lpage>194</lpage><pub-id pub-id-type="doi">10.1016/j.neuropharm.2017.04.037</pub-id><pub-id pub-id-type="pmid">28454982</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B75-cells-13-00498">
+        <label>75.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Saga</surname><given-names>Y.</given-names></name>
+<name><surname>Galineau</surname><given-names>L.</given-names></name>
+<name><surname>Tremblay</surname><given-names>L.</given-names></name>
+</person-group>
+          <article-title>Impulsive and compulsive behaviors can be induced by opposite GABAergic dysfunctions inside the primate ventral pallidum</article-title>
+          <source>Front. Syst. Neurosci.</source>
+          <year>2022</year>
+          <volume>16</volume>
+          <fpage>9626</fpage>
+          <pub-id pub-id-type="doi">10.3389/fnsys.2022.1009626</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B76-cells-13-00498">
+        <label>76.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Cediel</surname><given-names>M.L.</given-names></name>
+<name><surname>Stawarski</surname><given-names>M.</given-names></name>
+<name><surname>Blanc</surname><given-names>X.</given-names></name>
+<name><surname>Noskov&#xE1;</surname><given-names>L.</given-names></name>
+<name><surname>Magner</surname><given-names>M.</given-names></name>
+<name><surname>Platzer</surname><given-names>K.</given-names></name>
+<name><surname>Gburek-Augustat</surname><given-names>J.</given-names></name>
+<name><surname>Baldridge</surname><given-names>D.</given-names></name>
+<name><surname>Constantino</surname><given-names>J.N.</given-names></name>
+<name><surname>Ranza</surname><given-names>E.</given-names></name>
+<etal/>
+</person-group><article-title>GABBR1 monoallelic de novo variants linked to neurodevelopmental delay and epilepsy</article-title><source>Am. J. Hum. Genet.</source><year>2022</year><volume>109</volume><fpage>1885</fpage><lpage>1893</lpage><pub-id pub-id-type="doi">10.1016/j.ajhg.2022.08.010</pub-id><pub-id pub-id-type="pmid">36103875</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B77-cells-13-00498">
+        <label>77.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Harris</surname><given-names>A.D.</given-names></name>
+<name><surname>Gilbert</surname><given-names>D.L.</given-names></name>
+<name><surname>Horn</surname><given-names>P.S.</given-names></name>
+<name><surname>Crocetti</surname><given-names>D.</given-names></name>
+<name><surname>Cecil</surname><given-names>K.M.</given-names></name>
+<name><surname>Edden</surname><given-names>R.A.E.</given-names></name>
+<name><surname>Huddleston</surname><given-names>D.A.</given-names></name>
+<name><surname>Mostofsky</surname><given-names>S.H.</given-names></name>
+<name><surname>Puts</surname><given-names>N.A.J.</given-names></name>
+</person-group><article-title>Relationship between GABA levels and task-dependent cortical excitability in children with attention-deficit/hyperactivity disorder</article-title><source>Clin. Neurophysiol.</source><year>2021</year><volume>132</volume><fpage>1163</fpage><lpage>1172</lpage><pub-id pub-id-type="doi">10.1016/j.clinph.2021.01.023</pub-id><pub-id pub-id-type="pmid">33780723</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B78-cells-13-00498">
+        <label>78.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rodenas-Cuadrado</surname><given-names>P.</given-names></name>
+<name><surname>Ho</surname><given-names>J.</given-names></name>
+<name><surname>Vernes</surname><given-names>S.C.</given-names></name>
+</person-group><article-title>Shining a light on CNTNAP2: Complex functions to complex disorders</article-title><source>Eur. J. Hum. Genet.</source><year>2014</year><volume>22</volume><fpage>171</fpage><lpage>178</lpage><pub-id pub-id-type="doi">10.1038/ejhg.2013.100</pub-id><pub-id pub-id-type="pmid">23714751</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B79-cells-13-00498">
+        <label>79.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pe&#xF1;agarikano</surname><given-names>O.</given-names></name>
+<name><surname>Abrahams</surname><given-names>B.S.</given-names></name>
+<name><surname>Herman</surname><given-names>E.I.</given-names></name>
+<name><surname>Winden</surname><given-names>K.D.</given-names></name>
+<name><surname>Gdalyahu</surname><given-names>A.</given-names></name>
+<name><surname>Dong</surname><given-names>H.</given-names></name>
+<name><surname>Lisa</surname><given-names>I.S.</given-names></name>
+<name><surname>Gruver</surname><given-names>R.</given-names></name>
+<name><surname>Almajano</surname><given-names>J.</given-names></name>
+<name><surname>Bragin</surname><given-names>A.</given-names></name>
+<etal/>
+</person-group><article-title>Absence of CNTNAP2 Leads to Epilepsy, Neuronal Migration Abnormalities, and Core Autism-Related Deficits</article-title><source>Cell</source><year>2011</year><volume>147</volume><fpage>235</fpage><lpage>246</lpage><pub-id pub-id-type="doi">10.1016/j.cell.2011.08.040</pub-id><pub-id pub-id-type="pmid">21962519</pub-id>
+</element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig position="float" id="cells-13-00498-f001">
+      <label>Figure 1</label>
+      <caption>
+        <p>Confirmation of reduced <italic toggle="yes">Rbm8a</italic> levels in GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice. (<bold>A</bold>) RT-PCR using primers F1 and R1 outside of loxp sites detected the predicted deletion 102 bp band. Sequencing result of the 102 bp fragment confirmed the joining of exon1 and exon 5, lacking exons 2&#x2013;4 in the deleted <italic toggle="yes">Rbm8a</italic> mRNA from the GFAPCre;<italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mouse brain. (<bold>B</bold>) Validation of conditional KO mouse model using qRT-PCR. Relative <italic toggle="yes">Rbm8a</italic> mRNA levels in the GFAPCre;<italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mouse brain are about 55.85% of those in the control brain. Data shown are mean +/&#x2212; SEM of 8 runs of qPCR from <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> and GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice (n = 3 each group). ****, <italic toggle="yes">p</italic> &lt; 0.0001. (<bold>C</bold>) Expression of RBM8A (red) in astrocytes (GFAP; green) in the hippocampus of sagittal sections of <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice and GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice. Bar graph shows immunofluorescence intensity of RBM8A, normalized by that of DAPI. Data shown are mean +/&#x2212; SEM of more than 60 astrocytes from <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> and GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> mice (n = 3 each group). ****, <italic toggle="yes">p</italic> &lt; 0.0001. Scale bar = 20 &#xB5;m.</p>
+      </caption>
+      <graphic xlink:href="cells-13-00498-g001" position="float"/>
+    </fig>
+    <fig position="float" id="cells-13-00498-f002">
+      <label>Figure 2</label>
+      <caption>
+        <p>Results of the OFT across genotypes and sexes. (<bold>A</bold>) Figure legend for genotypes and sexes. (<bold>B</bold>) Representative track of mouse movement in the OFT. (<bold>C</bold>) Total distance traveled in the OFT. (<bold>D</bold>) Total distance traveled on the border versus center of the open field. (<bold>E</bold>) Cumulative duration immobile in the OFT. (<bold>F</bold>) Cumulative duration immobile on the border and center of the open field. (<bold>G</bold>) Frequency of entry in the center. (<bold>H</bold>) Latency to the center zone. Data shown are mean +/&#x2212; SEM for control mice <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> (N = 21, male = 12, female = 11) and experimental mice GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> (N = 22, male = 12, female = 10), where * indicates a <italic toggle="yes">p</italic>-value &lt; 0.05.</p>
+      </caption>
+      <graphic xlink:href="cells-13-00498-g002" position="float"/>
+    </fig>
+    <fig position="float" id="cells-13-00498-f003">
+      <label>Figure 3</label>
+      <caption>
+        <p>EPM test results support reduced anxiety-like phenotypes. (<bold>A</bold>) Representative track of female mouse movement in the EPM test. (<bold>B</bold>) Total arm entries in the EPM test. (<bold>C</bold>) Total distance traveled in the EPM test. (<bold>D</bold>) Total distance traveled in the closed arms, open arms, and center of the EPM test. (<bold>E</bold>) Total entries to the open arms. (<bold>F</bold>) Percentage of open arm entries in the EPM test. (<bold>G</bold>) Cumulative duration in open arms. (<bold>H</bold>) Percentage of time spent in open arms. (<bold>I</bold>) Latency to the open arms. (<bold>J</bold>) Total entries to the closed arms. (<bold>K</bold>) Percentage of closed arm entries in the EPM test. (<bold>L</bold>) Cumulative duration in closed arms. (<bold>M</bold>) Percentage of time spent in closed arms. (<bold>N</bold>) Latency to the closed arms. Data shown are mean +/&#x2212; SEM for control mice <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> (N = 21, male = 12, female = 11) and experimental mice GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> (N = 22, male = 12, female = 10) * indicates a <italic toggle="yes">p</italic>-value &lt; 0.05, ** indicates a <italic toggle="yes">p</italic>-value &lt; 0.01, *** indicates a <italic toggle="yes">p</italic>-value &lt; 0.001.</p>
+      </caption>
+      <graphic xlink:href="cells-13-00498-g003" position="float"/>
+    </fig>
+    <fig position="float" id="cells-13-00498-f004">
+      <label>Figure 4</label>
+      <caption>
+        <p>Rotarod test results across genotypes and sexes. Average falling time across ten total trials. Data shown are mean +/&#x2212; SEM for control mice <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> (N = 21, male = 12, female = 11) and experimental mice GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> (N = 22, male = 12, female = 10) where * indicates a <italic toggle="yes">p</italic>-value &lt; 0.05.</p>
+      </caption>
+      <graphic xlink:href="cells-13-00498-g004" position="float"/>
+    </fig>
+    <fig position="float" id="cells-13-00498-f005">
+      <label>Figure 5</label>
+      <caption>
+        <p>(<bold>A</bold>). Results of the average number of marbles buried in the marble burying test. (<bold>B</bold>) Nest building test scores across genotypes and sexes at 1 and 24 h. (<bold>C</bold>) Tail suspension test immobile times across genotypes and sexes. Data shown are mean +/&#x2212; SEM for control mice <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> (N = 21, male = 12, female = 11) and experimental mice GFAPCre; <italic toggle="yes">Rbm8a<sup>f/+</sup></italic> (N = 22, male = 12, female = 10).</p>
+      </caption>
+      <graphic xlink:href="cells-13-00498-g005" position="float"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

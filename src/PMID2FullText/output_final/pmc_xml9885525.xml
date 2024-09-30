@@ -1,0 +1,679 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <?properties manuscript?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">9815831</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">22061</journal-id>
+      <journal-id journal-id-type="nlm-ta">Genet Med</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Genet Med</journal-id>
+      <journal-title-group>
+        <journal-title>Genetics in medicine : official journal of the American College of Medical Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1098-3600</issn>
+      <issn pub-type="epub">1530-0366</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36260083</article-id>
+      <article-id pub-id-type="pmc">9885525</article-id>
+      <article-id pub-id-type="doi">10.1016/j.gim.2022.09.005</article-id>
+      <article-id pub-id-type="manuscript">NIHMS1864558</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Damaging variants in <italic toggle="yes">FOXI3</italic> cause microtia and craniofacial microsomia</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4224-7277</contrib-id>
+          <name>
+            <surname>Quiat</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref rid="A1" ref-type="aff">1</xref>
+          <xref rid="A2" ref-type="aff">2</xref>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Timberlake</surname>
+            <given-names>Andrew T.</given-names>
+          </name>
+          <xref rid="A4" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Curran</surname>
+            <given-names>Justin J.</given-names>
+          </name>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cunningham</surname>
+            <given-names>Michael L.</given-names>
+          </name>
+          <xref rid="A5" ref-type="aff">5</xref>
+          <xref rid="A6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>McDonough</surname>
+            <given-names>Barbara</given-names>
+          </name>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Artunduaga</surname>
+            <given-names>Maria A.</given-names>
+          </name>
+          <xref rid="A7" ref-type="aff">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>DePalma</surname>
+            <given-names>Steven R.</given-names>
+          </name>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Duenas-Roque</surname>
+            <given-names>Milagros M.</given-names>
+          </name>
+          <xref rid="A8" ref-type="aff">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gorham</surname>
+            <given-names>Joshua M.</given-names>
+          </name>
+          <xref rid="A3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gustafson</surname>
+            <given-names>Jonas A.</given-names>
+          </name>
+          <xref rid="A5" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hamdan</surname>
+            <given-names>Usama</given-names>
+          </name>
+          <xref rid="A9" ref-type="aff">9</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hing</surname>
+            <given-names>Anne V.</given-names>
+          </name>
+          <xref rid="A5" ref-type="aff">5</xref>
+          <xref rid="A6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hurtado-Villa</surname>
+            <given-names>Paula</given-names>
+          </name>
+          <xref rid="A10" ref-type="aff">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nicolau</surname>
+            <given-names>Yamileth</given-names>
+          </name>
+          <xref rid="A11" ref-type="aff">11</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Osorno</surname>
+            <given-names>Gabriel</given-names>
+          </name>
+          <xref rid="A12" ref-type="aff">12</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pachajoa</surname>
+            <given-names>Harry</given-names>
+          </name>
+          <xref rid="A13" ref-type="aff">13</xref>
+          <xref rid="A14" ref-type="aff">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Porras-Hurtado</surname>
+            <given-names>Gloria L.</given-names>
+          </name>
+          <xref rid="A15" ref-type="aff">15</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Quintanilla-Dieck</surname>
+            <given-names>Lourdes</given-names>
+          </name>
+          <xref rid="A16" ref-type="aff">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Serrano</surname>
+            <given-names>Luis</given-names>
+          </name>
+          <xref rid="A17" ref-type="aff">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tumblin</surname>
+            <given-names>Melissa</given-names>
+          </name>
+          <xref rid="A18" ref-type="aff">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zarante</surname>
+            <given-names>Ignacio</given-names>
+          </name>
+          <xref rid="A19" ref-type="aff">19</xref>
+          <xref rid="A20" ref-type="aff">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Luquetti</surname>
+            <given-names>Daniela V.</given-names>
+          </name>
+          <xref rid="A5" ref-type="aff">5</xref>
+          <xref rid="A6" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eavey</surname>
+            <given-names>Roland D.</given-names>
+          </name>
+          <xref rid="A21" ref-type="aff">21</xref>
+          <xref rid="CR1" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Heike</surname>
+            <given-names>Carrie L.</given-names>
+          </name>
+          <xref rid="A5" ref-type="aff">5</xref>
+          <xref rid="A6" ref-type="aff">6</xref>
+          <xref rid="CR1" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Seidman</surname>
+            <given-names>Jonathan G.</given-names>
+          </name>
+          <xref rid="A3" ref-type="aff">3</xref>
+          <xref rid="CR1" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Seidman</surname>
+            <given-names>Christine E.</given-names>
+          </name>
+          <xref rid="A3" ref-type="aff">3</xref>
+          <xref rid="A22" ref-type="aff">22</xref>
+          <xref rid="A23" ref-type="aff">23</xref>
+          <xref rid="CR1" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Department of Cardiology, Boston Children&#x2019;s Hospital, Boston, MA</aff>
+      <aff id="A2"><label>2</label>Department of Pediatrics, Harvard Medical School, Boston, MA</aff>
+      <aff id="A3"><label>3</label>Department of Genetics, Harvard Medical School, Boston, MA</aff>
+      <aff id="A4"><label>4</label>Hansj&#xF6;rg Wyss Department of Plastic and Reconstructive Surgery, NYU Langone Medical Center, New York, NY</aff>
+      <aff id="A5"><label>5</label>Division of Craniofacial Medicine, Department of Pediatrics, University of Washington, Seattle, WA</aff>
+      <aff id="A6"><label>6</label>Center for Developmental Biology and Regenerative Medicine, Seattle Children&#x2019;s Research Institute, Seattle, WA</aff>
+      <aff id="A7"><label>7</label>Respira Labs, Inc, Mountain View, CA</aff>
+      <aff id="A8"><label>8</label>Hospital Edgardo Rebagliati Martins, EsSalud, Lima, Peru</aff>
+      <aff id="A9"><label>9</label>Global Smile Foundation, Norwood, MA</aff>
+      <aff id="A10"><label>10</label>Pontificia Universidad Javeriana and Centro M&#xE9;dico Imbanaco, Cali, Colombia</aff>
+      <aff id="A11"><label>11</label>Texas ENT Specialists, Houston, TX</aff>
+      <aff id="A12"><label>12</label>Facultad de Medicina, Universidad Nacional de Colombia, Bogot&#xE1;, Colombia</aff>
+      <aff id="A13"><label>13</label>Servicio de Gen&#xE9;tica M&#xE9;dica, Fundaci&#xF3;n Valle del Lili, Cali, Colombia</aff>
+      <aff id="A14"><label>14</label>Centro de Investigaci&#xF3;n en Anomal&#xED;as Cong&#xE9;nitas y Enfermedades Raras (CIACER), Universidad Icesi, Cali, Colombia</aff>
+      <aff id="A15"><label>15</label>Clinica Comfamiliar Risaralda, Pereira, Colombia</aff>
+      <aff id="A16"><label>16</label>Department of Otolaryngology Head and Neck Surgery, Oregon Health &amp; Science University, Portland, OR</aff>
+      <aff id="A17"><label>17</label>Audiocentro, Cuenca, Ecuador</aff>
+      <aff id="A18"><label>18</label>Ear Community, Inc, Broomfield, CO</aff>
+      <aff id="A19"><label>19</label>Human Genomics Institute, Pontificia Universidad Javeriana, Bogot&#xE1;, Colombia</aff>
+      <aff id="A20"><label>20</label>Hospital Universitario San Ignacio, Bogot&#xE1;, Colombia</aff>
+      <aff id="A21"><label>21</label>Department of Otolaryngology&#x2013;Head &amp; Neck Surgery, Vanderbilt University Medical Center, Nashville, TN</aff>
+      <aff id="A22"><label>22</label>Cardiovascular Division, Brigham and Women&#x2019;s Hospital, Boston, MA</aff>
+      <aff id="A23"><label>23</label>Howard Hughes Medical Institute, Chevy Chase, MD</aff>
+      <author-notes>
+        <fn fn-type="equal" id="FN1">
+          <p id="P1">Daniel Quiat and Andrew T. Timberlake contributed equally.</p>
+        </fn>
+        <fn fn-type="con" id="FN2">
+          <p id="P2">Author Information</p>
+          <p id="P3">Conceptualization: D.Q., A.T.T., R.D.E., D.V.L., C.L.H., J.G.S., C.E.S.; Data Curation: B.M.; Investigation: D.Q., A.T.T., J.J.C., M.L.C., J.A.G., M.A.A., S.R.D., J.M.G., L.Q.-D., Y.N.; Resources: U.H., L.S., G.O., R.D.E., M.T., M.M.D.-R., P.H.-V., H.P., G.L.P.-H., I.Z.; Funding Acquisition: M.T., R.D.E., D.V.L., C.L.H., J.G.S., C.E.S.; Writing-original draft: D.Q., A.T.T.; Writing-reviewing and editing: D.Q., A.T.T., M.L.C., D.V.L., C.L.H., J.G.S., C.E.S.</p>
+        </fn>
+        <corresp id="CR1"><label>*</label>Correspondence and requests for materials should be addressed to Roland D. Eavey, Department of Otolaryngology Head and Neck Surgery, Vanderbilt University Medical Center; Nashville, TN 37232. <email>ron.eavey@vumc.org</email> OR Carrie L. Heike, Department of Pediatrics, Division of Craniofacial Medicine, University of Washington, Seattle, WA 98105. <email>carrie.heike@seattlechildrens.org</email> OR Jonathan G. Seidman, Department of Genetics, Harvard Medical School, 77 Avenue Louis, Pasteur, Boston, MA 02115. <email>seidman@genetics.med.harvard.edu</email> OR Christine Seidman, Department of Genetics, Harvard Medical School, 77 Avenue Louis, Pasteur, Boston, MA 02115. <email>cseidman@genetics.med.harvard.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>25</day>
+        <month>1</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>1</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>10</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>30</day>
+        <month>1</month>
+        <year>2023</year>
+      </pub-date>
+      <volume>25</volume>
+      <issue>1</issue>
+      <fpage>143</fpage>
+      <lpage>150</lpage>
+      <permissions>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p>This is an open access article under the CC BY license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract id="ABS1">
+        <sec id="S1">
+          <title>Purpose:</title>
+          <p id="P4">Craniofacial microsomia (CFM) represents a spectrum of craniofacial malformations, ranging from isolated microtia with or without aural atresia to underdevelopment of the mandible, maxilla, orbit, facial soft tissue, and/or facial nerve. The genetic causes of CFM remain largely unknown.</p>
+        </sec>
+        <sec id="S2">
+          <title>Methods:</title>
+          <p id="P5">We performed genome sequencing and linkage analysis in patients and families with microtia and CFM of unknown genetic etiology. The functional consequences of damaging missense variants were evaluated through expression of wild-type and mutant proteins in vitro.</p>
+        </sec>
+        <sec id="S3">
+          <title>Results:</title>
+          <p id="P6">We studied a 5-generation kindred with microtia, identifying a missense variant in <italic toggle="yes">FOXI3</italic> (p.Arg236Trp) as the cause of disease (logarithm of the odds = 3.33). We subsequently identified 6 individuals from 3 additional kindreds with microtia-CFM spectrum phenotypes harboring damaging variants in <italic toggle="yes">FOXI3</italic>, a regulator of ectodermal and neural crest development. Missense variants in the nuclear localization sequence were identified in cases with isolated microtia with aural atresia and found to affect subcellular localization of FOXI3. Loss of function variants were found in patients with microtia and mandibular hypoplasia (CFM), suggesting dosage sensitivity of <italic toggle="yes">FOXI3</italic>.</p>
+        </sec>
+        <sec id="S4">
+          <title>Conclusion:</title>
+          <p id="P7">Damaging variants in <italic toggle="yes">FOXI3</italic> are the second most frequent genetic cause of CFM, causing 1% of all cases, including 13% of familial cases in our cohort.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <kwd>Craniofacial microsomia</kwd>
+        <kwd>Ectoderm</kwd>
+        <kwd>FOXI3</kwd>
+        <kwd>Microtia</kwd>
+        <kwd>Neural crest</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="S5">
+      <title>Introduction</title>
+      <p id="P8">The microtia-craniofacial microsomia (CFM) spectrum of disorders (OMIM 164210, 251800) is the second most common congenital facial anomaly, with estimations of prevalence ranging from 1 in every 3000 to 5000 live births.<sup><xref rid="R1" ref-type="bibr">1</xref></sup> Although genes implicated in neural crest cell migration and patterning, chromatin modification, fibroblast growth factor receptor signaling, ribosome assembly, and the spliceosome have been implicated in monogenic syndromes that include malformations of the ears or mandible,<sup><xref rid="R2" ref-type="bibr">2</xref></sup> most cases are sporadic and of unknown genetic etiology. Previous genetic studies employing exome and genome sequencing (GS) of CFM trios confirm substantial locus heterogeneity.<sup><xref rid="R3" ref-type="bibr">3</xref></sup></p>
+    </sec>
+    <sec id="S6">
+      <title>Materials and Methods</title>
+      <sec id="S7">
+        <title>Sample populations</title>
+        <p id="P9">Two independently ascertained cohorts were used for this study, which we denote Gabriella Miller Kids First (GMKF) CFM and GMKF-microtia. For the GMKF-CFM cohort, we enrolled families with CFM in our multinational research consortium from 2009 to 2020. Individuals aged between 0 and 18 years were eligible for the study if they met at least one of the following inclusion criteria: (1) microtia or anotia, (2) mandibular hypoplasia and preauricular tag, (3) mandibular hypoplasia and facial tag, (4) mandibular hypoplasia and epibulbar dermoid, (5) mandibular hypoplasia and lateral oral cleft (eg, macrostomia), (6) preauricular tag and epibulbar dermoid, (7) preauricular tag and lateral oral cleft, (8) facial tag and epibulbar dermoid, and (9) lateral oral cleft and epibulbar dermoid and consenting parent spoke a language in which they were eligible for consent at their enrolling site. Individuals were excluded if they had an abnormal karyotype or a syndromic diagnosis that involves microtia or underdevelopment of the jaw. DNA was extracted from blood and saliva using standard procedures (Qiagen and Oragene kits).</p>
+        <p id="P10">For GMKF-microtia cohort patients, unaffected relatives were identified at collaborating sites in South America and the United States as previously described.<sup><xref rid="R4" ref-type="bibr">4</xref></sup> Subjects were selected for isolated microtia in the absence of syndromic features, and patients with syndromic forms of microtia were excluded from the study. Peripheral blood samples were collected for DNA extraction.</p>
+      </sec>
+      <sec id="S8">
+        <title>Exome sequencing and GS</title>
+        <p id="P11">Exome sequencing was performed at either the Northwest Genomics Center (University of Washington) or GENEWIZ using the Nimblegen SeqCap Human Exome v2.0 or Agilent SureSelect Human All Exon capture platforms, respectively. GS was performed at the Broad Institute or the Northwest Genomics Center, with sequence data generated on the Illumina HiSeq X platform.</p>
+      </sec>
+      <sec id="S9">
+        <title>Variant analyses</title>
+        <p id="P12">For GMKF-CFM variants were called using the Genome Analysis Toolkit pipeline (Poplin R, Ruano-Rubio V, DePristo MA, et al. Scaling accurate genetic variant discovery to tens of thousands of samples. 2017:201178. <ext-link xlink:href="10.1101/201178" ext-link-type="doi">https://doi.org/10.1101/201178</ext-link>) and annotated using ANNOVAR, with allele frequencies derived from the Genome Aggregation Database (gnomAD).<sup><xref rid="R5" ref-type="bibr">5</xref></sup> For GMKF-microtia subjects, variants were called as previously described.<sup><xref rid="R4" ref-type="bibr">4</xref></sup>
+<italic toggle="yes">FOXI3</italic> variants were validated through bidirectional Sanger sequencing of the proband and parents.</p>
+      </sec>
+      <sec id="S10">
+        <title>Identification of shared haplotypes in kindred 1</title>
+        <p id="P13">We filtered GS variant calls for biallelic single nucleotide variants (SNVs) with variant quality score recalibration log-odds Filter PASS (truth sensitivity 99.8%), depth of &gt;10, genotype quality of &gt;60, and gnomAD (v3) non-Finnish European allele frequency (AF) of &lt;1e-05. Variants were further filtered to obtain only those SNVs in a heterozygous state in all affected individuals (BCFtools).</p>
+      </sec>
+      <sec id="S11">
+        <title>Linkage analysis</title>
+        <p id="P14">We used Mega2 (v6.0.0) to format genotype and phenotype data for parametric linkage analysis in Simwalk2 (v2.91), accounting for the observed penetrance of 30% and an estimate population AF of 1e-05. Simwalk2 reports a location score that is directly comparable to multipoint logarithm of the odds (LOD) score and as such is reported as a LOD score in the text.</p>
+      </sec>
+      <sec id="S12">
+        <title>Burden analysis</title>
+        <p id="P15">We compared the frequency of variants (loss of function [LOF] or missense in nuclear localization sequence [NLS]) identified in the microtia-CFM cohort with the number in gnomAD v3.1.2 using the median allele number across all <italic toggle="yes">FOXI3</italic> variant positions (151,991) using a Fisher exact test. Variants in low complexity regions and conservative missense variants (Arg to His) were excluded from the analysis.</p>
+      </sec>
+      <sec id="S13">
+        <title>Generation of FOXI3 expression plasmids</title>
+        <p id="P16">A previously reported human FOXI3 expression plasmid containing an N-terminal FLAG-tag<sup><xref rid="R6" ref-type="bibr">6</xref></sup> was purchased from Addgene (catalog number 153128). We performed site-directed mutagenesis using the Agilent Quikchange II XL kit (catalog number 200521) according to manufacturer specification to introduce missense variants. Wild-type and mutant construct sequences were confirmed through Sanger sequencing.</p>
+      </sec>
+      <sec id="S14">
+        <title>Immunocytochemistry</title>
+        <p id="P17">HEK293 cells (92A001, CH3 Biosystems) cultured in Dulbecco&#x2019;s Modified Eagle Medium (11995&#x2013;073, Gibco) supplemented with 10% fetal bovine serum (A3840202, Gibco) were used for transfection. Cells were grown to approximately 20% confluency, and then, wild-type and mutant FLAG-FOXI3 expression plasmids (2 ug each) were transfected using Lipofectamine 3000 (L3000001, ThermoFisher Scientific). Immunocytochemistry was performed using a monoclonal mouse anti-FLAG antibody (F1804&#x2013;50UG, Sigma Aldrich) diluted 1:1000 and a goat anti-mouse antibody conjugated with an Alexa-568 fluorophore (ab175473, Abcam) diluted 1:5000. Cell nuclei were counterstained with DAPI. Slides were imaged using a Nikon ECLIPSE Ti2 inverted microscope at 60&#xD7; magnification. All images were processed using ImageJ software (National Institutes of Health).</p>
+      </sec>
+      <sec id="S15">
+        <title>Quantification of FLAG-FOXI3 localization</title>
+        <p id="P18">Multiple images obtained at 60&#xD7; magnification of FLAG-FOXI3 expressing cells were qualitatively categorized as showing isolated unclear staining, nuclear and cytoplasmic staining, or cytoplasmic staining with exclusion from the nucleus. A total of 250 to 400 cells were analyzed per FOXI3 genotype. A &#x3C7;<sup>2</sup> goodness of fit test was used to compare the cellular distribution of each missense variant with wild type, and a <italic toggle="yes">P</italic> value of &lt;.05 was considered statistically significant.</p>
+      </sec>
+    </sec>
+    <sec id="S16">
+      <title>Results</title>
+      <p id="P19">To identify novel loci for microtia-CFM, we studied a 5-generation kindred of Italian-American ancestry presenting with dominant microtia of unknown genetic cause (kindred 1, <xref rid="F1" ref-type="fig">Figure 1A</xref>). The kindred included 5 affected individuals with unilateral or bilateral grade II/III microtia with or without aural atresia (<xref rid="T1" ref-type="table">Table 1</xref>; <xref rid="F2" ref-type="fig">Figure 2</xref>), 4 of whom (II-5, IV-1, IV-3, IV-6) underwent GS through the GMKF Pediatric Research Program. To identify the causal variant, we first used ultrarare (gnomAD [v3] AF of &lt;1.0 &#xD7; 10<sup>&#x2212;5</sup> in non-Finnish Europeans) biallelic SNVs to identify haplotypes shared by the 4 affected individuals and mapped 7 shared genomic intervals, the largest of which was a 30 megabase pericentromeric region on chromosome 2 (<xref rid="SD1" ref-type="supplementary-material">Supplemental Figure 1</xref>). We evaluated damaging SNVs, indels, and genomic structural variants within and surrounding the shared genomic regions and identified only 2 shared missense variants in the genes <italic toggle="yes">FOXI3</italic> (chr2) and <italic toggle="yes">PTCD3</italic> (chr2). <italic toggle="yes">FOXI3</italic> is a transcriptional regular of ectodermal development with a critical role in murine pharyngeal arch and ear development<sup><xref rid="R7" ref-type="bibr">7</xref></sup> and is associated with congenital ear malformations with variable penetrance in canine breeds with ectodermal dysplasia due to haploinsufficiency of <italic toggle="yes">FOXI3.</italic><sup><xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R9" ref-type="bibr">9</xref></sup> In humans, a 2.5 megabase genomic deletion overlapping the <italic toggle="yes">FOXI3</italic> gene has been reported in a patient with microtia, aural atresia, and ipsilateral agenesis of the carotid artery,<sup><xref rid="R9" ref-type="bibr">9</xref></sup> and recurrent deletions located on chromosome 2p11.2 that overlap the <italic toggle="yes">FOXI3</italic> gene have been reported in a DiGeorge syndrome like spectrum of phenotypes inclusive of hearing abnormalities and unilateral facial bone hypoplasia.<sup><xref rid="R10" ref-type="bibr">10</xref></sup> On the basis of these data, we focused on <italic toggle="yes">FOXI3</italic> as the most likely candidate gene in the kindred. The <italic toggle="yes">FOXI3</italic> p.Arg236Trp (NM_001135649.1:c.706C&gt;T) variant shared by affected individuals in kindred 1 alters an amino acid residue in a putative NLS that is highly conserved across vertebrate species (<xref rid="F1" ref-type="fig">Figure 1B</xref>).<sup><xref rid="R11" ref-type="bibr">11</xref></sup> This variant is absent from the gnomAD (v3) reference database and is predicted to be deleterious by several pathogenicity prediction tools (Combined Annotation Dependent Depletion score = 23.9, Polymorphism Phenotyping v2 score = 0.998). We genotyped a total of 24 individuals in kindred 1 through Sanger sequencing and confirmed that the additional affected individual (V-3) was heterozygous for the <italic toggle="yes">FOXI3</italic> p.Arg236Trp variant (<xref rid="SD1" ref-type="supplementary-material">Supplemental Figure 2</xref>). Of 15 genotype positive individuals, 5 had microtia, suggesting a penetrance of approximately 33% (<xref rid="F1" ref-type="fig">Figure 1A</xref>). Parametric linkage analysis using a model accounting for variable penetrance showed statistically significant linkage between the <italic toggle="yes">FOXI3</italic> p.Arg236Trp variant and microtia with a LOD score of 3.33. We next evaluated the functional effect of the p.Arg236Trp missense variant by expressing wild-type and p.Arg236Trp FLAG-tagged FOXI3 in HEK293 cells and assessing nuclear localization through immunocytochemistry. Wild-type FOXI3 protein was almost exclusively localized to nucleus (93% of cells), whereas FOXI3 p.Arg236Trp exhibited abnormal nuclear and cytoplasmic localization in 49% of cells and exclusion from the nucleus with punctate cytoplasmic staining in 42% of cells (<xref rid="F1" ref-type="fig">Figure 1C</xref> and <xref rid="F1" ref-type="fig">D</xref>).</p>
+      <p id="P20">To determine the potential contribution of <italic toggle="yes">FOXI3</italic> damaging variants to the microtia-CFM spectrum of disorders, we analyzed exome sequencing and GS data from 413 additional kindreds, identifying 3 additional families with novel <italic toggle="yes">FOXI3</italic> damaging variants (<xref rid="F1" ref-type="fig">Figure 1A</xref>; <xref rid="T1" ref-type="table">Table 1</xref>). This included an additional missense variant in the NLS (p.Arg240Cys) in a kindred with isolated microtia that was predicted to be deleterious (Combined Annotation Dependent Depletion score = 29.1, Polymorphism Phenotyping v2 score = 1.00) and similarly resulted in the disruption of FOXI3 nuclear localization in vitro (<xref rid="F1" ref-type="fig">Figure 1C</xref> and <xref rid="F1" ref-type="fig">D</xref>). Two frameshift variants were also identified. One (p.Arg235Valfs*48) was found in a proband with bilateral grade III microtia with atresia with severe bilateral mandibular hypoplasia and right macrostomia (<xref rid="F2" ref-type="fig">Figure 2</xref>). The variant was inherited from an unaffected father (<xref rid="F1" ref-type="fig">Figure 1A</xref>). The second was found in kindred with 3 affected children (p. Arg236Leufs*54) who each inherited the variant from an unaffected father (<xref rid="F1" ref-type="fig">Figure 1A</xref>; <xref rid="T1" ref-type="table">Table 1</xref>). We compared the frequency of <italic toggle="yes">FOXI3</italic> LOF variants or damaging missense variants in the NLS identified in the microtia-CFM cohort to gnomAD and calculated a significant burden for each type of damaging variant in affected individuals (<italic toggle="yes">P</italic> = 1.7 &#xD7; 10<sup>&#x2212;4</sup> for each, <italic toggle="yes">P</italic> = 5.8 &#xD7; 10<sup>&#x2212;8</sup> combined).</p>
+    </sec>
+    <sec id="S17">
+      <title>Discussion</title>
+      <p id="P21">In this article, we report linkage analysis of a large kindred and association studies in 2 cohorts with microtia-CFM spectrum phenotypes showing that damaging variants in <italic toggle="yes">FOXI3</italic> are responsible for a fraction of microtia-CFM cases. We studied 415 families with microtia/CFM, identifying 4 kindreds with damaging variants in <italic toggle="yes">FOXI3</italic>. The results implicate <italic toggle="yes">FOXI3</italic> variants as the second most common genetic cause of CFM behind <italic toggle="yes">SF3B2</italic> haploinsufficiency, causing approximately 1% of cases in our cohort.<sup><xref rid="R3" ref-type="bibr">3</xref></sup> All cases identified had grade II/III microtia with 90% external auditory canal atresia and 27% of affected individuals showing CFM as well. Furthermore, 80% of affected individuals had bilateral microtia. Consistent with other monogenic causes of ear and mandibular malformation, kindreds with <italic toggle="yes">FOXI3</italic> damaging variants show variable expressivity and incomplete penetrance, including unilateral and bilateral cases in related individuals, as well as variable effects on the mandible. Whether the phenotypic variation is due to common or rare modifier alleles, environmental factors, or is stochastic in nature remains to be determined. Of note, each of the 4 variants identified were within the 7-amino acid NLS. Future studies will determine whether the effects of these variants are due to haploinsufficiency or novel protein function secondary to disruption of the NLS. Evaluation of <italic toggle="yes">FOXI3</italic> variants in additional cohorts with microtia-CFM will be necessary to fully characterize the phenotypic effects of <italic toggle="yes">FOXI3</italic> variants. We note that patients with CFM had LOF variants, whereas affected individuals with missense variants in the NLS showed only isolated microtia, which is often considered the mildest form of CFM. These findings may indicate dosage sensitivity of FOXI3, with hypomorphic missense variants more likely causing microtia and haploinsufficiency contributing to greater risk for more severe phenotypes (CFM). However, the coincident identification of both missense and truncating variants localized to the NLS and variable penetrance observed in families suggest the possibility that perturbed cellular localization of FOXI3 and other factors contribute to craniofacial phenotypes.</p>
+      <p id="P22">FOXI3 primes preplacodal ectoderm for inductive signals that coordinate development of the otic and epibranchial placodes that give rise to the inner ear, and <italic toggle="yes">FOXI3</italic> haploinsufficiency has been shown to increase ectodermal apoptosis in mice.<sup><xref rid="R12" ref-type="bibr">12</xref></sup> In addition, <italic toggle="yes">FOXI3</italic> mutant mice also show absence of the mandibular division of the trigeminal ganglion.<sup><xref rid="R12" ref-type="bibr">12</xref></sup> The trigeminal nerve courses through the mandible, which is notable given that several patients in this series present with mandibular hypoplasia, a characteristic feature of CFM. Whether malformation of the mandibular branch of the trigeminal nerve contributes to mandibular hypoplasia in patients with CFM remains uncertain. However, ectodermal disruption is a likely cause of microtia-CFM in patients with <italic toggle="yes">FOXI3</italic> damaging variants. Mice with genetic loss of <italic toggle="yes">Foxi3</italic> show complete absence of the external and internal ears.<sup><xref rid="R7" ref-type="bibr">7</xref></sup> Cranial neural crest cells migrate to the developing pharyngeal arches but then undergo apoptosis, suggesting a role for <italic toggle="yes">Foxi3</italic> in neural crest survival.<sup><xref rid="R7" ref-type="bibr">7</xref></sup> Neural crest cells are likely disrupted in patients with other prevalent monogenic causes of CFM<sup><xref rid="R3" ref-type="bibr">3</xref></sup> and are also likely affected by a common disease risk haplotype conferring ancestry-associated microtia-CFM risk.<sup><xref rid="R4" ref-type="bibr">4</xref></sup> These results support disruption of neural crest by the absence of functioning ectodermal <italic toggle="yes">FOXI3</italic> as a likely mechanism of microtia-CFM pathogenesis.</p>
+      <p id="P23">These data support genetic testing for <italic toggle="yes">FOXI3</italic> variants in patients with grade II/III microtia with atresia, with the highest anticipated diagnostic yield in bilateral and familial cases. These findings contribute to a growing body of evidence supporting neural crest disruption in CFM and add <italic toggle="yes">FOXI3</italic> to the list of identified monogenic causes of microtia-CFM spectrum disorders that includes <italic toggle="yes">SF3B2</italic>, <italic toggle="yes">OTX2</italic> duplication, and <italic toggle="yes">HOXA2</italic> among other less prevalent causes. Sequencing substantially larger cohorts to identify additional CFM loci will be necessary to elucidate additional genes and pathways that contribute to the microtia-CFM spectrum of disorders.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM1">
+      <title>Supplementary Material</title>
+      <supplementary-material id="SD1" position="float" content-type="local-data">
+        <label>Supplemental Info</label>
+        <media xlink:href="NIHMS1864558-supplement-Supplemental_Info.pdf" id="d64e709" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S18">
+      <title>Acknowledgments</title>
+      <p id="P24">We thank the patients and parents for their participation in this research and the Microscopy Resources on the North Quad (MicRoN) core at Harvard Medical School for imaging assistance. This work was supported by National Institutes of Health National Institute on Deafness and Other Communication Disorders grant R00DC011282 (to D.V.L.), National Institutes of Health National Institute of Dental and Craniofacial Research grant RC1 DE 020270 (to C.L.H.), National Institutes of Health National Institute of Child Health and Human Development grant X01 HL140518&#x2013;01 (to D.V.L.), National Institutes of Health National Institute of Dental and Craniofacial Research grant U01 DE025862 (to D.V.L. and C.L.H.), the Jean Renny Endowment for Craniofacial Research grant (to M.L.C.), National Institutes of Health National Institute of Child Health and Human Development grant HL145690&#x2013;01 (to J.G.S.), Fondation Leducq grant 16-CVD03 (to J.G.S. and C.E.S.), and a Howard Hughes Medical Institute grant (to C.E.S.).</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement" id="FN3">
+        <p id="P26">Conflict of Interest</p>
+        <p id="P27">The authors declare no conflicts of interest.</p>
+      </fn>
+      <fn id="FN4">
+        <p id="P28">Ethics Declaration</p>
+        <p id="P29">All human studies were reviewed and approved by the Institutional Review Board of the Seattle Children&#x2019;s Hospital or the Partners Human Research Committee, Institutional Review Board of Partners Healthcare (Brigham and Women&#x2019;s Hospital, Boston, MA), and each of the local institutions&#x2019; institutional review boards. An informed consent form was signed by all individuals, and explicit written consent was provided for publication of clinical images.</p>
+      </fn>
+      <fn id="FN5">
+        <p id="P30">Additional Information</p>
+        <p id="P31">The online version of this article (<ext-link xlink:href="10.1016/j.gim.2022.09.005" ext-link-type="doi">https://doi.org/10.1016/j.gim.2022.09.005</ext-link>) contains supplementary material, which is available to authorized users.</p>
+      </fn>
+    </fn-group>
+    <sec sec-type="data-availability" id="S19">
+      <title>Data Availability</title>
+      <p id="P25">De-identified genome sequencing data sets sequenced as part of the NIH Gabriella Miller Kids First Program are available via controlled access from database of Genotypes and Phenotypes (accession numbers phs002172 and phs002130) and at <ext-link xlink:href="https://kidsfirstdrc.org" ext-link-type="uri">kidsfirstdrc.org</ext-link>. All other data are available upon request.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="R1">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><name><surname>Birgfeld</surname><given-names>C</given-names></name>, <name><surname>Heike</surname><given-names>C</given-names></name>. <article-title>Craniofacial microsomia</article-title>. <source>Clin Plast Surg</source>. <year>2019</year>;<volume>46</volume>(<issue>2</issue>):<fpage>207</fpage>&#x2013;<lpage>221</lpage>. <pub-id pub-id-type="doi">10.1016/j.cps.2018.12.001</pub-id><pub-id pub-id-type="pmid">30851752</pub-id></mixed-citation>
+      </ref>
+      <ref id="R2">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><name><surname>Cox</surname><given-names>TC</given-names></name>, <name><surname>Camci</surname><given-names>ED</given-names></name>, <name><surname>Vora</surname><given-names>S</given-names></name>, <name><surname>Luquetti</surname><given-names>DV</given-names></name>, <name><surname>Turner</surname><given-names>EE</given-names></name>. <article-title>The genetics of auricular development and malformation: new findings in model systems driving future directions for microtia research</article-title>. <source>Eur J Med Genet</source>. <year>2014</year>;<volume>57</volume>(<issue>8</issue>):<fpage>394</fpage>&#x2013;<lpage>401</lpage>. <pub-id pub-id-type="doi">10.1016/j.ejmg.2014.05.003</pub-id><pub-id pub-id-type="pmid">24880027</pub-id></mixed-citation>
+      </ref>
+      <ref id="R3">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><name><surname>Timberlake</surname><given-names>AT</given-names></name>, <name><surname>Griffin</surname><given-names>C</given-names></name>, <name><surname>Heike</surname><given-names>CL</given-names></name>, <etal/>
+<article-title>Haploinsufficiency of SF3B2 causes craniofacial microsomia</article-title>. <source>Nat Commun</source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>4680</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-021-24852-9</pub-id><pub-id pub-id-type="pmid">34344887</pub-id></mixed-citation>
+      </ref>
+      <ref id="R4">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><name><surname>Quiat</surname><given-names>D</given-names></name>, <name><surname>Kim</surname><given-names>SW</given-names></name>, <name><surname>Zhang</surname><given-names>Q</given-names></name>, <etal/>
+<article-title>An ancient founder mutation located between ROBO1 and ROBO2 is responsible for increased microtia risk in Amerindigenous populations</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2022</year>;<volume>119</volume>(<issue>21</issue>):<fpage>e2203928119</fpage>. <pub-id pub-id-type="doi">10.1073/pnas.2203928119</pub-id><pub-id pub-id-type="pmid">35584116</pub-id></mixed-citation>
+      </ref>
+      <ref id="R5">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><name><surname>Karczewski</surname><given-names>KJ</given-names></name>, <name><surname>Francioli</surname><given-names>LC</given-names></name>, <name><surname>Tiao</surname><given-names>G</given-names></name>, <etal/>
+<article-title>The mutational constraint spectrum quantified from variation in 141,456 humans</article-title>. <source>Nature</source>. <year>2020</year>;<volume>581</volume>(<issue>7809</issue>):<fpage>434</fpage>&#x2013;<lpage>443</lpage>. <comment>Published correction appears in <italic toggle="yes">Nature</italic>. 2021;590(7846):E53. Published correction appears in <italic toggle="yes">Nature</italic>. 2021;597(7874):E3-E4.</comment>
+<pub-id pub-id-type="doi">10.1038/s41586-020-2308-7</pub-id><pub-id pub-id-type="pmid">32461654</pub-id></mixed-citation>
+      </ref>
+      <ref id="R6">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><name><surname>Moparthi</surname><given-names>L</given-names></name>, <name><surname>Koch</surname><given-names>S</given-names></name>. <article-title>A uniform expression library for the exploration of FOX transcription factor biology</article-title>. <source>Differentiation</source>. <year>2020</year>;<volume>115</volume>:<fpage>30</fpage>&#x2013;<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1016/j.diff.2020.08.002</pub-id><pub-id pub-id-type="pmid">32858261</pub-id></mixed-citation>
+      </ref>
+      <ref id="R7">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><name><surname>Edlund</surname><given-names>RK</given-names></name>, <name><surname>Ohyama</surname><given-names>T</given-names></name>, <name><surname>Kantarci</surname><given-names>H</given-names></name>, <name><surname>Riley</surname><given-names>BB</given-names></name>, <name><surname>Groves</surname><given-names>AK</given-names></name>. <article-title>Foxi transcription factors promote pharyngeal arch development by regulating formation of FGF signaling centers</article-title>. <source>Dev Biol</source>. <year>2014</year>;<volume>390</volume>(<issue>1</issue>):<fpage>1</fpage>&#x2013;<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1016/j.ydbio.2014.03.004</pub-id><pub-id pub-id-type="pmid">24650709</pub-id></mixed-citation>
+      </ref>
+      <ref id="R8">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><name><surname>Dr&#xF6;gem&#xFC;ller</surname><given-names>C</given-names></name>, <name><surname>Karlsson</surname><given-names>EK</given-names></name>, <name><surname>Hyt&#xF6;nen</surname><given-names>MK</given-names></name>, <etal/>
+<article-title>A mutation in hairless dogs implicates FOXI3 in ectodermal development</article-title>. <source>Science</source>. <year>2008</year>;<volume>321</volume>(<issue>5895</issue>):<fpage>1462</fpage>. <pub-id pub-id-type="doi">10.1126/science.1162525</pub-id><pub-id pub-id-type="pmid">18787161</pub-id></mixed-citation>
+      </ref>
+      <ref id="R9">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><name><surname>Tassano</surname><given-names>E</given-names></name>, <name><surname>Jagannathan</surname><given-names>V</given-names></name>, <name><surname>Dr&#xF6;gem&#xFC;ller</surname><given-names>C</given-names></name>, <etal/>
+<article-title>Congenital aural atresia associated with agenesis of internal carotid artery in a girl with a FOXI3 deletion</article-title>. <source>Am J Med Genet A</source>. <year>2015</year>;<volume>167A</volume>(<issue>3</issue>):<fpage>537</fpage>&#x2013;<lpage>544</lpage>. <pub-id pub-id-type="doi">10.1002/ajmg.a.36895</pub-id><pub-id pub-id-type="pmid">25655429</pub-id></mixed-citation>
+      </ref>
+      <ref id="R10">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><name><surname>Bernstock</surname><given-names>JD</given-names></name>, <name><surname>Totten</surname><given-names>AH</given-names></name>, <name><surname>Elkahloun</surname><given-names>AG</given-names></name>, <etal/>
+<article-title>Recurrent microdeletions at chromosome 2p11.2 are associated with thymic hypoplasia and features resembling DiGeorge syndrome</article-title>. <source>J Allergy Clin Immunol</source>. <year>2020</year>;<volume>145</volume>(<issue>1</issue>):<fpage>358</fpage>&#x2013;<lpage>367.e2</lpage>. <pub-id pub-id-type="doi">10.1016/j.jaci.2019.09.020</pub-id><pub-id pub-id-type="pmid">31600545</pub-id></mixed-citation>
+      </ref>
+      <ref id="R11">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><name><surname>Singh</surname><given-names>S</given-names></name>, <name><surname>Jangid</surname><given-names>RK</given-names></name>, <name><surname>Crowder</surname><given-names>A</given-names></name>, <name><surname>Groves</surname><given-names>AK</given-names></name>. <article-title>Foxi3 transcription factor activity is mediated by a C-terminal transactivation domain and regulated by the Protein Phosphatase 2A (PP2A) complex</article-title>. <source>Sci Rep</source>. <year>2018</year>. <pub-id pub-id-type="doi">10.1038/s41598-018-35390-8</pub-id></mixed-citation>
+      </ref>
+      <ref id="R12">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><name><surname>Birol</surname><given-names>O</given-names></name>, <name><surname>Ohyama</surname><given-names>T</given-names></name>, <name><surname>Edlund</surname><given-names>RK</given-names></name>, <name><surname>Drakou</surname><given-names>K</given-names></name>, <name><surname>Georgiades</surname><given-names>P</given-names></name>, <name><surname>Groves</surname><given-names>AK</given-names></name>. <article-title>The mouse Foxi3 transcription factor is necessary for the development of posterior placodes</article-title>. <source>Dev Biol</source>. <year>2016</year>;<volume>409</volume>(<issue>1</issue>):<fpage>139</fpage>&#x2013;<lpage>151</lpage>. <pub-id pub-id-type="doi">10.1016/j.ydbio.2015.09.022</pub-id><pub-id pub-id-type="pmid">26550799</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig position="float" id="F1">
+      <label>Figure 1</label>
+      <caption>
+        <title><italic toggle="yes">FOXI3</italic> variants in pedigrees with microtia and craniofacial microsomia.</title>
+        <p id="P32">A. Pedigrees of 4 kindreds with <italic toggle="yes">FOXI3</italic> missense and truncating variants. &#x201C;+&#x201D; denotes the WT allele and &#x201C;D&#x201D; denotes the missense or truncating <italic toggle="yes">FOXI3</italic> variant indicated above the pedigree. Red arrows in kindred 1 indicate samples that underwent genome sequencing. B. Multiple sequence alignment of <italic toggle="yes">FOXI3</italic> protein sequence from vertebrate species. &#x201C;.&#x201D; indicates conservation with the human protein sequence. The locations of <italic toggle="yes">FOXI3</italic> variants in the nuclear localization sequence (NLS) are indicated above. The forkhead-DNA binding domain and NLS are highlighted. C. Immunocytochemistry of FLAG-FOXI3 (magenta) expressed in HEK293 cells. Cellular nuclei are counterstained with DAPI (cyan). All images are shown at 60&#xD7; magnification. Scale bar = 20 &#x3BC;m. D. Quantification of FLAG-FOXI3 cellular localization in HEK293 cells from (C). A &#x3C7;<sup>2</sup> goodness of fit test was used to compare the distribution of each missense variant with WT. *** indicates a <italic toggle="yes">P</italic> value of &lt;.001. WT, wild type.</p>
+      </caption>
+      <graphic xlink:href="nihms-1864558-f0001" position="float"/>
+    </fig>
+    <fig position="float" id="F2">
+      <label>Figure 2</label>
+      <caption>
+        <title>Clinical images of individuals with <italic toggle="yes">FOXI3</italic> variants.</title>
+        <p id="P33">Clinical images show the phenotypic variability in kindreds with FOXI3 variants. Individual V:3 from kindred 1 (1-V:3) presents with unilateral (L) grade III microtia with aural atresia. Kindred 4 contains 3 affected siblings with variable phenotypes. Individual 4&#x2013;1 presents with bilateral grade III microtia with atresia and bilateral (left side more affected than right) mandibular hypoplasia and facial tags (removed). Individual 4&#x2013;2 presents with right grade I microtia with atresia and left grade II microtia with atresia. Individual 4&#x2013;3 presents with bilateral grade III microtia with atresia and left mandibular hypoplasia. ID, patient identifier; L, left; R, right.</p>
+      </caption>
+      <graphic xlink:href="nihms-1864558-f0002" position="float"/>
+    </fig>
+    <table-wrap position="float" id="T1" orientation="landscape">
+      <label>Table 1</label>
+      <caption>
+        <p id="P34">Clinical characteristics of individuals with pathogenic <italic toggle="yes">FOXI3</italic> variants</p>
+      </caption>
+      <table frame="hsides" rules="none">
+        <colgroup span="1">
+          <col align="left" valign="middle" span="1"/>
+          <col align="left" valign="middle" span="1"/>
+          <col align="left" valign="middle" span="1"/>
+          <col align="left" valign="middle" span="1"/>
+          <col align="left" valign="middle" span="1"/>
+          <col align="left" valign="middle" span="1"/>
+          <col align="left" valign="middle" span="1"/>
+          <col align="left" valign="middle" span="1"/>
+          <col align="left" valign="middle" span="1"/>
+          <col align="left" valign="middle" span="1"/>
+          <col align="left" valign="middle" span="1"/>
+        </colgroup>
+        <thead>
+          <tr>
+            <th align="left" valign="top" rowspan="1" colspan="1">Proband ID</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">1-II:5</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">1-IV:1</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">1-IV:3</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">1-IV:6</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">1-V:3</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">2</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">3</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">4&#x2013;1</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">4&#x2013;2</th>
+            <th align="center" valign="top" rowspan="1" colspan="1">4&#x2013;3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="11" align="left" valign="middle" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Inheritance</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Unknown</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Paternal</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Paternal</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Maternal</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Maternal</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Maternal</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Maternal</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Paternal</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Paternal</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Paternal</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Nucleotide change (NM_001135649.1)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.706C&gt;T</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.706C&gt;T</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.706C&gt;T</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.706C&gt;T</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.706C&gt;T</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.718C&gt;T</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.703delC</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.686_705dup</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.686_705dup</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">c.686_705dup</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Amino acid change</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Arg236Trp</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Arg236Trp</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Arg236Trp</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Arg236Trp</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Arg236Trp</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Arg240Cys</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Arg235Valfs*48</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Arg236Leufs*54</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Arg236Leufs*54</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">p.Arg236Leufs*54</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Sex</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Female</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Male</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Male</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Male</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Female</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Female</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Female</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Male</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Male</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Male</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Facial asymmetry</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Bilateral mandibular hypoplasia</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Bilateral mandibular hypoplasia</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Left mandibular hypoplasia</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Coloboma</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Lateral oral cleft</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">R macrostomia</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Ear abnormalities</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Grade 3 microtia (left) with atresia</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Grade 2 microtia (bilateral)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Grade 3 microtia (bilateral) with atresia</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Grade 3 microtia (bilateral) with atresia</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Grade 3 microtia (left) with atresia</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Grade 3 microtia (bilateral) with atresia</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Grade 3 microtia (bilateral) with atresia</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Grade 3 microtia (bilateral) with atresia</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Grade 1 microtia with atresia (right), grade 2 microtia with atresia (left)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Grade 3 microtia (bilateral) with atresia</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Skin tags</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Left facial tag</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Sinus tract from auricular pit along posterior helical border</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Other birth defects</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Submucous cleft palate and bifid uvula</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Bifid uvula</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">&#x2013;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Ancestry</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">European</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">European</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">European</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">European</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">European</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Latin American</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">European/Hispanic</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Amerindigineous/Native Alaskan</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Amerindigineous/Native Alaskan</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Amerindigineous/Native Alaskan</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="TFN1">
+          <p id="P35"><italic toggle="yes">ID</italic>, identifier; <italic toggle="yes">R</italic>, right.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

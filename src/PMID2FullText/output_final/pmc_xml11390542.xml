@@ -1,0 +1,698 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Front Cell Dev Biol</journal-id><journal-id journal-id-type="iso-abbrev">Front Cell Dev Biol</journal-id><journal-id journal-id-type="publisher-id">Front. Cell Dev. Biol.</journal-id><journal-title-group><journal-title>Frontiers in Cell and Developmental Biology</journal-title></journal-title-group><issn pub-type="epub">2296-634X</issn><publisher><publisher-name>Frontiers Media S.A.</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39268086</article-id><article-id pub-id-type="pmc">11390542</article-id><article-id pub-id-type="publisher-id">1397931</article-id><article-id pub-id-type="doi">10.3389/fcell.2024.1397931</article-id><article-categories><subj-group subj-group-type="heading"><subject>Cell and Developmental Biology</subject><subj-group><subject>Original Research</subject></subj-group></subj-group></article-categories><title-group><article-title>Identifying the roles of miR-17 in ciliogenesis and cell cycle</article-title><alt-title alt-title-type="left-running-head">Alanazi et al.</alt-title><alt-title alt-title-type="right-running-head">
+<ext-link xlink:href="https://doi.org/10.3389/fcell.2024.1397931" ext-link-type="uri">10.3389/fcell.2024.1397931</ext-link>
+</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Alanazi</surname><given-names>Ashwaq</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><role content-type="https://credit.niso.org/contributor-roles/conceptualization/"/><role content-type="https://credit.niso.org/contributor-roles/data-curation/"/><role content-type="https://credit.niso.org/contributor-roles/formal-analysis/"/><role content-type="https://credit.niso.org/contributor-roles/methodology/"/><role content-type="https://credit.niso.org/contributor-roles/project-administration/"/><role content-type="https://credit.niso.org/contributor-roles/writing-original-draft/"/><role content-type="https://credit.niso.org/contributor-roles/Writing - review &amp; editing/"/></contrib><contrib contrib-type="author"><name><surname>Barui</surname><given-names>Ayan K.</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><role content-type="https://credit.niso.org/contributor-roles/conceptualization/"/><role content-type="https://credit.niso.org/contributor-roles/methodology/"/><role content-type="https://credit.niso.org/contributor-roles/Writing - review &amp; editing/"/></contrib><contrib contrib-type="author"><name><surname>Mohieldin</surname><given-names>Ashraf M.</given-names></name><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref><role content-type="https://credit.niso.org/contributor-roles/conceptualization/"/><role content-type="https://credit.niso.org/contributor-roles/resources/"/><role content-type="https://credit.niso.org/contributor-roles/Writing - review &amp; editing/"/></contrib><contrib contrib-type="author"><name><surname>Gupta</surname><given-names>Ankan</given-names></name><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref><uri xlink:href="https://loop.frontiersin.org/people/1189148/overview"/><role content-type="https://credit.niso.org/contributor-roles/conceptualization/"/><role content-type="https://credit.niso.org/contributor-roles/Writing - review &amp; editing/"/></contrib><contrib contrib-type="author"><name><surname>Ramchandran</surname><given-names>Ramani</given-names></name><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref><uri xlink:href="https://loop.frontiersin.org/people/312230/overview"/><role content-type="https://credit.niso.org/contributor-roles/conceptualization/"/><role content-type="https://credit.niso.org/contributor-roles/funding-acquisition/"/><role content-type="https://credit.niso.org/contributor-roles/Writing - review &amp; editing/"/></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Nauli</surname><given-names>Surya M.</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="c001" ref-type="corresp">*</xref><uri xlink:href="https://loop.frontiersin.org/people/18778/overview"/><role content-type="https://credit.niso.org/contributor-roles/conceptualization/"/><role content-type="https://credit.niso.org/contributor-roles/data-curation/"/><role content-type="https://credit.niso.org/contributor-roles/formal-analysis/"/><role content-type="https://credit.niso.org/contributor-roles/funding-acquisition/"/><role content-type="https://credit.niso.org/contributor-roles/project-administration/"/><role content-type="https://credit.niso.org/contributor-roles/Writing - review &amp; editing/"/></contrib></contrib-group><aff id="aff1">
+<sup>1</sup>
+<institution>Department of Biomedical and Pharmaceutical Sciences</institution>, <institution>Chapman University</institution>, <addr-line>Irvine</addr-line>, <addr-line>CA</addr-line>, <country>United States</country>
+</aff><aff id="aff2">
+<sup>2</sup>
+<institution>Department of Pharmacology and Toxicology</institution>, <institution>Umm Al-Qura University</institution>, <addr-line>Makkah</addr-line>, <country>Saudi Arabia</country>
+</aff><aff id="aff3">
+<sup>3</sup>
+<institution>Department of Pharmaceutical Sciences</institution>, <institution>California Northstate University</institution>, <addr-line>Elk Grove</addr-line>, <addr-line>CA</addr-line>, <country>United States</country>
+</aff><aff id="aff4">
+<sup>4</sup>
+<institution>Department of Pediatrics</institution>, <institution>Division of Neonatology</institution>, <institution>Medical College of Wisconsin</institution>, <addr-line>Milwaukee</addr-line>, <addr-line>WI</addr-line>, <country>United States</country>
+</aff><author-notes><fn fn-type="edited-by"><p>
+<bold>Edited by:</bold>
+<ext-link xlink:href="https://loop.frontiersin.org/people/2219850/overview" ext-link-type="uri">Maureen Wirschell</ext-link>, McKendree University, United States</p></fn><fn fn-type="edited-by"><p>
+<bold>Reviewed by:</bold>
+<ext-link xlink:href="https://loop.frontiersin.org/people/1405147/overview" ext-link-type="uri">Rosa Ventrella</ext-link>, Midwestern University, United States</p><p>
+<ext-link xlink:href="https://loop.frontiersin.org/people/2766952/overview" ext-link-type="uri">Kameswaran Surendran</ext-link>, Sanford Research, United States</p></fn><corresp id="c001">*Correspondence: Surya M. Nauli, <email>nauli@chapman.edu</email>, <email>snauli@uci.edu</email>
+</corresp></author-notes><pub-date pub-type="epub"><day>29</day><month>8</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>12</volume><elocation-id>1397931</elocation-id><history><date date-type="received"><day>08</day><month>3</month><year>2024</year></date><date date-type="accepted"><day>19</day><month>8</month><year>2024</year></date></history><permissions><copyright-statement>Copyright &#xA9; 2024 Alanazi, Barui, Mohieldin, Gupta, Ramchandran and Nauli.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Alanazi, Barui, Mohieldin, Gupta, Ramchandran and Nauli</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p></license></permissions><abstract><p>Emerging evidence suggests a significant contribution of primary cilia to cell division and proliferation. MicroRNAs, especially miR-17, contribute to cell cycle regulation and proliferation. Recent investigations have highlighted the dysregulated expression of miR-17 in various malignancies, underlining its potential role in cancer. However, the correlation between primary cilia and miR-17 has yet to be fully elucidated. The present study examines the presence of miR-17 in primary cilia. The miR-17 expression is studied in selected ciliary protein knockdown cells. Using <italic>in situ</italic> hybridization (ISH), we identified the subcellular localization of miR-17 in both cilium and cell body. We confirmed the importance of miR-17, progesterone receptor membrane component-2 (PGRMC2), and monosialodihexosylganglioside (GM3S) in cilia formation, as shown by the significant reduction in cilia and cilia length in knockdown cells compared to control. We also demonstrated the involvement of PGRMC2, GM3S, polycystin-2 (PKD2), and miR-17 in cellular proliferation and cell growth. Our studies revealed a hyperproliferative effect in the knockdown cells compared to control cells, suggesting the regulatory roles of PGRMC2/GM3S/PKD2/miR-17 in promoting cell proliferation. Overall, our studies conclude that ciliary proteins are involved in cell division and proliferation. We further hypothesize that primary cilia can serve as compartments to store and control genetic materials, further implicating their complex involvement in cellular processes.</p></abstract><abstract abstract-type="graphical"><title>Graphical Abstract</title><p>
+<graphic xlink:href="FCELL_fcell-2024-1397931_wc_abs.jpg" position="anchor"/>
+</p></abstract><kwd-group><kwd>MicroRNAs</kwd><kwd>primary cilia</kwd><kwd>cell proliferation</kwd><kwd>cell migration</kwd><kwd>PGRMC2</kwd><kwd>GM3S</kwd><kwd>PKD2</kwd></kwd-group><funding-group><award-group><funding-source id="cn001"><institution-wrap><institution>National Institute for Health and Care Research
+</institution><institution-id institution-id-type="doi">10.13039/501100000272</institution-id></institution-wrap></funding-source><award-id award-type="contract" rid="cn001">R01 HL131577 R33 HL154254</award-id></award-group><funding-statement>The author(s) declare that financial support was received for the research, authorship, and/or publication of this article. This research was funded by the NIH R01 HL131577. RR &amp; AG were supported by the NIH R33 HL154254 and funds from the Department of Pediatrics and Children&#x2019;s Research Institute. AA received Saudi Arabian Cultural Mission scholarship for her graduate study at Chapman University. The completion of this work by AA partially fulfilled the requirements for the Doctorate Degree program in Biomedical and Pharmaceutical Sciences.</funding-statement></funding-group><custom-meta-group><custom-meta><meta-name>section-at-acceptance</meta-name><meta-value>Cell Growth and Division</meta-value></custom-meta></custom-meta-group></article-meta></front>
+  <body>
+    <sec id="s1">
+      <title>1 Introduction</title>
+      <p>The group of short non-coding RNA molecules (approximately 18&#x2013;24 nucleotides in length) known as microRNAs (miRNAs) play a crucial role in both normal physiological and pathological conditions (<xref rid="B43" ref-type="bibr">Reinhart et al., 2000</xref>; <xref rid="B5" ref-type="bibr">Bartel, 2004</xref>). Substantial evidence supports the notion that miRNAs act as negative regulator of gene expressions by facilitating mRNA degradation and inhibiting protein translation (<xref rid="B5" ref-type="bibr">Bartel, 2004</xref>). Among the various miRNA clusters, the miRNA-17/92 (miR-17/92) cluster has emerged to have a significant role in development. Members of miR-17/92 cluster include miR-17, miR-18a, miR-19a, miR-20a, miR-19b, and miR-92a (<xref rid="B14" ref-type="bibr">Fang et al., 2017</xref>). The most prominent component of the miR-17/92 cluster is miR-17, which has a critical role in regulating most of the fundamental cellular functions such as cell cycle, cell proliferation, migration, and many others (<xref rid="B24" ref-type="bibr">Kong et al., 2019</xref>; <xref rid="B11" ref-type="bibr">Cloonan et al., 2008</xref>; <xref rid="B21" ref-type="bibr">Jiang et al., 2011</xref>).</p>
+      <p>The miR-17 can function as either oncogenes or tumor suppressors (<xref rid="B11" ref-type="bibr">Cloonan et al., 2008</xref>). Notably, miR-17 has been identified as an oncogene in cancer through extensive miRNome investigations (<xref rid="B28" ref-type="bibr">Lu et al., 2019</xref>; <xref rid="B53" ref-type="bibr">Volinia et al., 2006</xref>; <xref rid="B44" ref-type="bibr">Shan et al., 2009</xref>). These investigations demonstrate that miR-17 levels are significantly overexpressed in different types of solid tumors such as breast, lung, pancreas, colon, and prostate (<xref rid="B53" ref-type="bibr">Volinia et al., 2006</xref>). Conversely, miR-17 is identified as tumor-suppressive miRNAs <italic>in vitro</italic> and <italic>in vivo</italic>. The inhibition of miR-17 leads to upregulation of genes that are involved in the cell cycle (<xref rid="B50" ref-type="bibr">Sweat et al., 2021</xref>). Moreover, it is found that high serum levels of miR-17 decrease patients&#x2019; survival with lung cancer (<xref rid="B9" ref-type="bibr">Chen et al., 2012</xref>). These results collectively imply that the function of miR-17 in structures is associated with cell cycle regulation.</p>
+      <p>The primary cilia are hair-like organelles that are found on the surface of almost all mammalian cells. The ciliary membrane encloses the cilia, which the microtubule supports. The primary cilia principal function involves sensing and transmitting signaling pathways triggered by mechanical and chemical stimuli (<xref rid="B12" ref-type="bibr">Corbit et al., 2005</xref>; <xref rid="B40" ref-type="bibr">Praetorius and Spring 2003</xref>). These signaling pathways are critical in various cellular processes such as development, differentiation, and cell division (<xref rid="B47" ref-type="bibr">Singla and Reiter, 2006</xref>). Consequently, mutations that result in structural defects in primary cilia give rise to various diseases collectively known as ciliopathies (<xref rid="B27" ref-type="bibr">Lovera and L&#xFC;ders, 2021</xref>; <xref rid="B4" ref-type="bibr">Ansley et al., 2003</xref>; <xref rid="B45" ref-type="bibr">Shao et al., 2020</xref>).</p>
+      <p>Ciliogenesis is a complex biological process in which the cilia are assembled and maintained on the surface of cells (<xref rid="B19" ref-type="bibr">Ishikawa and Marshall, 2011</xref>). The regulation of ciliogenesis is dynamically controlled during the cell cycle, with cilia being expressed and present during the G0 and G1 phases but undergoing resorption before entering mitosis (<xref rid="B39" ref-type="bibr">Plotnikova et al., 2009</xref>; <xref rid="B33" ref-type="bibr">Nigg and Stearns, 2011</xref>). This inverse relationship between primary cilia and cell proliferation is notable, as the primary cilium is reabsorbed into basal body (centrosome) during cell division, where the centrosome assumes the role of the mitotic pole (<xref rid="B15" ref-type="bibr">Goto et al., 2013</xref>). miR-17 is largely known to regulate cell cycle progression through several signaling proteins. miR-17 regulates E2F1, a critical regulator of cell cycle progression (<xref rid="B26" ref-type="bibr">Li et al., 2017</xref>; <xref rid="B35" ref-type="bibr">O&#x2019;Donnell et al., 2005</xref>). miR-17 can downregulate expression of Cyclin D1, essential regulator of the G1 phase of the cell cycle (<xref rid="B22" ref-type="bibr">Karami et al., 2016</xref>; <xref rid="B49" ref-type="bibr">Sun et al., 2018</xref>). miR-17 targets and downregulates p21, affecting cell cycle control and promoting cell proliferation (<xref rid="B8" ref-type="bibr">Chen et al., 2016</xref>). miR-17 can also indirectly affect the RB1, a tumor suppressor protein that controls the cell cycle by inhibiting E2F transcription factors (<xref rid="B52" ref-type="bibr">Trompeter et al., 2011</xref>).</p>
+      <p>The relationship between cilia and miR-17 has been previously examined in ciliopathy polycystic kidney disease (<xref rid="B36" ref-type="bibr">Patel et al., 2013a</xref>; <xref rid="B34" ref-type="bibr">Noureddine et al., 2013</xref>). miR-17 targets and reduces the expression of KIF3A, which affects the assembly and function of cilia (<xref rid="B37" ref-type="bibr">Patel et al., 2013b</xref>). KIF3A is a component of the kinesin motor protein complex involved in the infraglabellar transport (IFT) necessary for ciliogenesis and ciliary maintenance. In addition, miR-17 has been shown to downregulate polycystin-1 (PKD1) and polycystin-2 (PKD2), crucial for the mechanosensory function of primary cilia in polycystic kidney disease (<xref rid="B25" ref-type="bibr">Lakhia et al., 2022</xref>; <xref rid="B32" ref-type="bibr">Nauli et al., 2003</xref>). Therefore, miR-17 may contribute to ciliary function and cyst formation.</p>
+      <p>Ultrastructural analysis of the ciliary bulb (or extracellular vesicle) reveals that miR-17 interacts with other ciliary proteins, including monosialodihexosylganglioside synthase (GM3S) and polycystin-2 (PKD2) (<xref rid="B30" ref-type="bibr">Mohieldin et al., 2015</xref>). In addition, some novel ciliary proteins have been recently identified. These cilia proteins include bone morphogenetic type 2 (BMPR2), transferrin receptor-1 (TfR1), junctional adhesion molecule-A (JAM-A), receptor protein tyrosine phosphatase sigma (PTPRS), and progesterone receptor membrane component-2 (PGRMC2) localized in the cilia (<xref rid="B30" ref-type="bibr">Mohieldin et al., 2015</xref>; <xref rid="B31" ref-type="bibr">Mohieldin et al., 2020</xref>). However, the mechanistic association between miR-17 and all these ciliary proteins is not currently known. Here, we examined if and how miR-17 interacted with all these proteins. We also studied miR-17 in cell division in relations with the ciliary proteins. We focused on the roles of miR-17 in cell division through primary cilia and its related mechanisms. Specifically, we investigated miR-17 knockdown epithelial cells and explored the proliferative effects and impact on cilia.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>2 Materials and methods</title>
+      <sec id="s2-1">
+        <title>2.1 Cell culture</title>
+        <p>Porcine renal epithelial cells (LLC-PK1; ATCC #CL-101) were cultured to a confluent monolayer in Dulbecco&#x2019;s Modified Eagle Medium (DMEM) (Corning, catalog no. 10-013-CV) supplemented with 10% fetal bovine serum (FBS) and 1% penicillin-streptomycin solution (Cytiva HyClone&#x2122;, catalog no. SH309100340) at 37&#xB0;C in 5% CO2 incubator. We selected seven ciliary proteins to study: bone morphogenetic type 2 (BMPR2), junctional adhesion molecule-A (JAM-A/F11R), progesterone receptor membrane component-2 (PGRMC2), protein tyrosine phosphatase receptor sigma (PTPRS), transferrin receptor-1 (TfR1), monosialodihexosylganglioside (GM3S), and polycystin-2 (PKD2). Stable knockdown cells for each of the seven corresponding genes and scrambled control cells were previously generated in our laboratory (<xref rid="B30" ref-type="bibr">Mohieldin et al., 2015</xref>; <xref rid="B31" ref-type="bibr">Mohieldin et al., 2020</xref>).</p>
+      </sec>
+      <sec id="s2-2">
+        <title>2.2 <italic>In situ</italic> hybridization</title>
+        <p>The <italic>in-situ</italic> hybridization was used to identify the sub-cellular localization of miR-17. A miRCURY LNA&#x2122; Kit (Exiqon Inc. Qiagen, catalog no. 90000) was used for the <italic>in-situ</italic> hybridization targeting the microRNA miR-17. The Locked Nucleic Acid (LNA) probe for miR-17 was also obtained from Exiqon (Exiqon Inc. Qiagen, Design ID. 73515 cat no. 699990). The probe sequence was: 5&#x2032;-TAC CTG CAC TGT AAG CAC TTT G-3&#x2019;. The probe was tagged with Texas Red fluorescence TEX615. Cells were seeded into 18 &#xD7; 18 coverslips (Fisher Scientific, catalog no. 12&#x2013;542A) and incubated under normal growth conditions overnight until they reached 60%&#x2013;70% confluency. Subsequently, the cells were then fixed for 10&#xA0;min with 4% paraformaldehyde/2% sucrose in phosphate-buffered saline (PBS) (Corning, catalog no 21-040-CV) at room temperature, followed by permeabilization for 5&#xA0;min with 10% triton X-100. Acetylated &#x3B1;-tubulin primary antibody (Sigma-Aldrich, catalog no. T6793) (1:10,000 dilution) was incubated with the cells overnight at 4&#xB0;C for cilia visualization and staining, FITC conjugated anti-mouse secondary antibody (1:1000) was used. 10&#xA0;&#x3BC;L of the probe was denatured at 80&#xB0;C for 75&#xA0;s. After hybridization of the slide in a humidified chamber for 30&#xA0;min, the slide was then mounted with DAPI. We used a Nikon Eclipse Ti-E inverted microscope with NIS-Elements imaging software to capture images of primary cilia. To calculate the signal intensity of miR-17, we first identified the presence of cilia via acetylated-&#x3B1;-tubulin ciliary marker. A region of interest (ROI) was made based on the ciliary marker. This ROI was then transferred to the &#x201C;miR-17&#x201D; image. Signal intensity of this ROI was denoted as &#x201C;cilium&#x201D;. On the same &#x201C;miR-17&#x201D; image, cell boundary was drawn as our ROI and denoted as &#x201C;total&#x201D;. The intensity of miR-17 on the cell body was then calculated using the following formula (<xref rid="e1" ref-type="disp-formula">Equation 1</xref>).<disp-formula id="e1">
+<mml:math id="m1" overflow="scroll"><mml:mrow><mml:mtext>cell&#x2009;body</mml:mtext><mml:mo>=</mml:mo><mml:mtext>total&#x2009;</mml:mtext><mml:mo>&#x2212;</mml:mo><mml:mtext>&#x2009;cilium</mml:mtext></mml:mrow></mml:math>
+<label>(1)</label>
+</disp-formula>
+</p>
+      </sec>
+      <sec id="s2-3">
+        <title>2.3 Isolation of primary cilia</title>
+        <p>After growing the cells in a 100-mm culture dish beyond confluence, the cells were washed briefly with 10&#xA0;mL of PBS. The cell culture dishes were placed on MaxQ&#x2122; 2508 rotary shaker (Thermo Fisher Scientific, catalog no. CPA2480 3523-51) for 5&#xA0;min at 350 rotations per minute (rpm). The PBS containing the isolated primary cilia was centrifuged at 4&#xB0;C for 15&#xA0;min at 1,000 &#xD7; g using Legend X1R centrifuge (Beckman Coulter, Product No: B06320). The supernatant containing the isolated primary cilia was then transferred to a polyallomer tube and centrifuged for 30&#xA0;min at 50,000 &#xD7; g (16,700&#xA0;rpm) at 4&#xB0;C using WX+ 100 Ultra Centrifuge (Thermo Fisher Scientific, catalog no. 75000100).</p>
+      </sec>
+      <sec id="s2-4">
+        <title>2.4 Western blotting</title>
+        <p>The Western blotting was employed to confirm protein expression level. Following the preparation of a lysate from cell culture using lysis buffer supplemented with radioimmunoprecipitation (RIPA) buffer (Thermo Scientific, catalog no.89901) and protease inhibitor cocktail (100X) (Thermo Scientific, catalog no.1862209). The protein concentrations were determined using a Pierce&#x2122; bicinchoninic acid (BCA) protein assay kit from (Thermo Scientific, catalog no.23325). Afterward, 25&#xA0;&#x3BC;g/&#x3BC;L of proteins were prepared using a 2x Laemmli sample buffer (Bio-Rad, catalog no. 1610737) and separated on 10% sodium dodecyl sulfate-polyacrylamide gel. The gels were run for 1&#x2013;2&#xA0;h at 100V. The protein samples were then transferred onto polyvinylidene difluoride membranes (Bio-Rad, catalog no. 10026934) using Trans-Blot<sup>&#xAE;</sup> Turbo&#x2122; machine (Bio-Rad, catalog no. 1704150). The membranes were blocked for 30&#xA0;min with 5% non-fat dry milk (Bio-Rad, catalog no. 1706404) at room temperature. Subsequently, the blots were incubated at 4&#xB0;C overnight) with primary antibodies, including PKD2-anti-mouse (Santa Cruz Biotechnology, catalog no. sc-28331) (diluted 1:1,000), GM3S-anti-rabbit (LSBio, catalog no. LS-C80886) (diluted 1:1,000), PGRMC2-anti-rabbit (Cohesion, catalog no. CPA2480) (diluted 1:1,000), GAPDH-anti-mouse (Santa Cruz, catalog no. sc-32233) (1:1,000), &#x3B2;-actin-anti-rabbit (Cell Signaling Technology, catalog no. 4970s) (diluted 1:1,000), and acetylated-&#x3B1;-tubulin-anti-mouse (Sigma-Aldrich, catalog no. T6793) (diluted 1:10,000). Finally, the membranes were covered with 1&#xA0;mL of the chemiluminescent substrate (Thermo scientific, catalog no. 34580), and the signals were analyzed by ChemiDoc Touch Imaging System (Bio-Rad, model 1708370). For the transient re-expression studies, PGRMC2 was cloned into pCMV6-Entry vector to express a 223 amino acid protein (Origene, catalog no. rc204682).</p>
+      </sec>
+      <sec id="s2-5">
+        <title>2.5 Micro-RNA isolation</title>
+        <p>The miRCURYTM RNA Isolation Kit (Exiqon Inc. Qiagen, catalog no. 300110) was used according to the manufacturer&#x2019;s instructions. The primary cilia pellets were lysed with 50&#xA0;&#xB5;L of lysis solution and then vortexed for 15&#xA0;s. Subsequently, 50&#xA0;&#xB5;L of 96%&#x2013;100% ethanol was added to the lysate and mixed by vortexing for 10&#xA0;s. A total of 100&#xA0;&#xB5;L of the lysate with ethanol was applied onto the column provided with the kit and centrifuged for 1&#xA0;min at &gt;3,500 &#xD7; g. The resulting flowthrough was discarded, and the spin column was reassembled with its collection tube. A volume of 100&#xA0;&#xB5;L of washing solution was added to the column and centrifuged for 1&#xA0;min at 14,000 &#xD7; g. This washing step was repeated two additional times. The column was spun for 2&#xA0;min at 14,000 &#xD7; g to ensure thorough drying of the resin. Subsequently, 50&#xA0;&#xB5;L of elution buffer was added to the column, and it was centrifuged for 2&#xA0;min at 200 &#xD7; g, followed by 1&#xA0;min at 14,000 &#xD7; g.</p>
+      </sec>
+      <sec id="s2-6">
+        <title>2.6 Quantitative PCR (qPCR)</title>
+        <p>The Universal Real Time microRNA PCR Kit was used according to the manufacturer&#x2019;s instructions to perform the qPCR. For each template RNA sample, the concentration was adjusted to 5&#xA0;ng/&#x3BC;L of total RNA. The reverse transcription reaction was prepared by mixing 2&#xA0;&#x3BC;L of 5x Reaction buffer, 4.5&#xA0;&#x3BC;L nuclease-free water, 1&#xA0;&#x3BC;L enzyme mix, 0.5&#xA0;&#x3BC;L synthetic RNA spike-ins, and 2&#xA0;&#x3BC;L of template total RNA (5&#xA0;ng/&#x3BC;L) to a total volume of 10&#xA0;&#x3BC;L. Then, the reaction was mixed by vortexing and incubated according to the following protocol: 42&#xB0;C for 60&#xA0;min, followed by heat-inactivation of the reverse transcriptase for at 95&#xB0;C for 5&#xA0;min; then, it was immediately cooled to 4&#xB0;C. After that, the cDNA was diluted 80 &#xD7; with RNase-free water before quantification by qRT-PCR. For miRNA quantification the miRCURY LNA&#x2122; Universal RT micro-RNA PCR system (QIAGEN, catalog. no. 203450) was used in combination with pre-designed primer for miR-17 (QIAGEN, catalog. no. YP02119304). For each reaction, 5&#xA0;&#x3BC;L master mix was added to 4&#xA0;&#x3BC;L diluted cDNA template and 1&#xA0;&#x3BC;L of PCR primer to a final volume of 10&#xA0;&#x3BC;L. Expression of each micro-RNA was determined in duplicate at a final volume of 10&#xA0;&#x3BC;L per well, using the CFX manager 3.1 Software (Bio-Rad). The reaction conditions for polymerase activation/denaturation were as follows: 95&#xB0;C for 10&#xA0;min, followed by 40 amplification cycles at 95&#xB0;C for 10&#xA0;s and 60&#xB0;C for 1&#xA0;min (ramp-rate 1.6&#xB0;C/s). The qPCR was performed using the C1000 thermal cycler (Bio-Rad, Hercules, CA). Analysis and fold differences were determined using the comparative C<sub>T</sub> method. The fold change was calculated from the &#x394;&#x394;<italic>C</italic>
+<sub>T</sub> values with formula 2<sup>&#x2212;&#x394;&#x394;<italic>CT</italic>
+</sup>.</p>
+      </sec>
+      <sec id="s2-7">
+        <title>2.7 RNAi knockdown</title>
+        <p>After seeding HEK-293T cells in each well of the 6-well plate to reach 50% confluency they were transfected with shRNA lentiviral vectors specific to miR-17 (pGFP-C-shLenti) (Origene, Cat. No. TR30021). Subsequently, the lentiviral particles were centrifuged at 4,000&#xA0;rpm and passed through a 0.45&#xA0;&#xB5;m filter. Following this, cells were centrifuged at 2,500&#xA0;rpm for 30&#xA0;min with viral particles containing 8&#xA0;&#x3BC;g/mL polybrene (Millipore, catalog no. TR-1003-G) and then cultured for up to 48&#xA0;h, per manufacturer&#x2019;s guidelines. Four targeting sequences were analyzed. RT-PCR confirmed knockdown efficiency of each sequence, and only one shRNA lentivirus with higher knockdown efficiency was selected. The shRNA sequences targeting miR-17 are listed in the table below.</p>
+        <table-wrap position="float" id="udT1">
+          <table frame="hsides" rules="groups">
+            <thead valign="top">
+              <tr>
+                <th align="center" rowspan="1" colspan="1">miR-17</th>
+                <th align="left" rowspan="1" colspan="1">Sequences</th>
+              </tr>
+            </thead>
+            <tbody valign="top">
+              <tr>
+                <td align="center" rowspan="1" colspan="1">
+<italic>A</italic>
+</td>
+                <td align="center" rowspan="1" colspan="1">5&#x2032;-GTG CAG GTA GTG ATA ATG TGC ATC TAC TG-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="center" rowspan="1" colspan="1">
+<italic>B</italic>
+</td>
+                <td align="center" rowspan="1" colspan="1">5&#x2032;-GTT GCA CTA CAA GAA TGT AGT TGT GC-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="center" rowspan="1" colspan="1">
+<italic>C</italic>
+</td>
+                <td align="center" rowspan="1" colspan="1">5&#x2032;-GCA GGA ATA AAG AGA CCA TCA CCT TGT AA-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="center" rowspan="1" colspan="1">
+<italic>D</italic>
+</td>
+                <td align="center" rowspan="1" colspan="1">5&#x2032;-AGG CAC TTG TAG CAT TAT GGT GAC AGC TG-3&#x2032;</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec id="s2-8">
+        <title>2.8 Immunostaining studies</title>
+        <p>Cells were seeded on collagen-coated glass coverslips. Cells were then fixed in 4% paraformaldehyde (EMS, catalog no. 15710-SP-500) in PBS containing 2% sucrose (SIGMA, catalog no. T8787) for 10&#xA0;min. Cells were then permeabilized in 10% Triton X (EMS, catalog no. 15710-SP-500). Next, cells were incubated overnight at 4&#xB0;C with acetylated &#x3B1;-tubulin antibody (1:10,000 dilution) as a marker for primary cilia. After that, cells were incubated with fluorescence anti-mouse IgG secondary antibody (Vector Laboratories, catalog no. TI-2000) for 1&#xA0;h at room temperature. Finally, the slide was mounted with HardSet&#x2122; Antifade Mounting Medium with DAPI (Vector laboratories, catalog no. 00158). The primary cilia images were acquired using Keyence Fluorescence Microscope at &#xD7;100 magnification, and their count and length were analyzed by the NIS-Elements software.</p>
+      </sec>
+      <sec id="s2-9">
+        <title>2.9 Cell cycle, proliferation, and cell growth</title>
+        <p>After growing the cells in culture dish under optimal conditions, cells were labeled with 30&#xA0;&#xB5;M BrdU (Millipore, catalog no. B5002) for 1&#xA0;h at 37&#xB0;C and 5% CO<sub>2</sub>. The subsequent steps involved the removal of BrdU media, a single rinse with PBS, and trypsinization to harvest the cells. Cells were fixed by resuspending the pellet in 0.3&#xA0;mL PBS and gradually adding 0.7&#xA0;mL ice-cold 100% EtOH. The mixture was gently agitated and stored at 4&#xA0;&#xB0;C for at least 1&#xA0;h. Cells were incubated with 0.5&#xA0;mL 2&#xA0;N HCl/0.5% Triton X-100 for 30&#xA0;min at room temperature to denature DNA. Afterward, cells were resuspended in 0.5&#xA0;mL 0.1&#xA0;M sodium tetraborate (Millipore, catalog no. B9876) for 2&#xA0;min, followed by another round of centrifugation. After washing cells with 150&#xA0;&#xB5;L PBS with 1% BSA, the cells were resuspended in 50&#xA0;&#x3BC;L PBS containing 0.5% Tween-20% and 1% BSA, followed by incubation with Alexa 488 conjugated BrdU antibody (Thermo Scientific, catalog no. B35130) for 1&#xA0;h at room temperature in dark. The cells were pelleted again, then transferred to FACS tubes, and resuspended in 0.5&#xA0;mL PBS containing 10&#xA0;&#x3BC;g/mL RNase A and 20&#xA0;&#x3BC;g/mL propidium iodide (PI) (BIOTIUM, catalog no. 40016). Samples were left at room temperature in the dark for 30&#xA0;min before FACS analysis. Lastly, cells were analyzed with flow cytometry BDFacsverse. For each experiment 50,000 events were acquired at slow rate mode. Data acquisition was done by FACSDiva software and were subsequently analyzed by FlowJo software. For cell growth, the day before the experiment, a population of 1 &#xD7; 10<sup>5</sup> cells were plated in 6-well plate and provided with a growth medium. To determine the growth rate of cells, cell counts under light microscope were conducted daily until they reached &gt;90% confluency. We observed that miR-17 knockdown cells exhibited minimal or no growth when cultured at a low cell density. It was noted that these cells required seeding at a higher density, impeding us from doing a proper cell growth assay.</p>
+      </sec>
+      <sec id="s2-10">
+        <title>2.10 Wound healing assay</title>
+        <p>The cells were prepared by seeding 1 &#xD7; 10<sup>5</sup> cells in 2&#xA0;mL/well in 6-well plates, and the cells were incubated for 24&#x2013;48&#xA0;h. Upon achieving 90%&#x2013;100% confluency, wounds were created by using a 200&#xA0;&#x3BC;L micropipette tip. The culture medium was aspirated, and cells were washed with 1&#xA0;mL PBS. Subsequently, 1&#xA0;mL culture media containing 2% FBS was added to each well. Images were captured immediately after media replacement (T<sub>0</sub>) and every 24&#xA0;h (T<sub>24</sub>), 48&#xA0;h (T<sub>48</sub>), and 72&#xA0;h (T<sub>72</sub>) period using Keyence Fluorescence Microscope at a &#xD7;4 magnification. Following image acquisition, the ImageJ wound healing plugin was used to determine the wound total area (&#x3BC;m<sup>2</sup>), the percentage of wound area (%), wound width (&#x3BC;m), and the standard deviation of the scratch width. In brief, by using a polygon selection tool to select the wound area, we were able to measure the wound area. We calculated the percentage of wound closure according to (<xref rid="e1" ref-type="disp-formula">Equation 1</xref>) at T<sub>24</sub>, T<sub>48</sub>, and T<sub>72</sub>. We calculated the rate of wound closure (&#x3BC;m/hr) according to (<xref rid="e2" ref-type="disp-formula">Equation 2</xref>).<disp-formula id="e2">
+<mml:math id="m2" overflow="scroll"><mml:mrow><mml:mi mathvariant="bold">W</mml:mi><mml:mi mathvariant="bold">o</mml:mi><mml:mi mathvariant="bold">u</mml:mi><mml:mi mathvariant="bold">n</mml:mi><mml:mi mathvariant="bold">d</mml:mi><mml:mtext>&#x2009;</mml:mtext><mml:mi mathvariant="bold">C</mml:mi><mml:mi mathvariant="bold">l</mml:mi><mml:mi mathvariant="bold">o</mml:mi><mml:mi mathvariant="bold">s</mml:mi><mml:mi mathvariant="bold">u</mml:mi><mml:mi mathvariant="bold">r</mml:mi><mml:mi mathvariant="bold">e</mml:mi><mml:mtext>&#x2009;</mml:mtext><mml:mrow><mml:mfenced open="(" close=")" separators="|"><mml:mrow><mml:mo>%</mml:mo></mml:mrow></mml:mfenced></mml:mrow><mml:mo>=</mml:mo><mml:mrow><mml:mfenced open="(" close=")" separators="|"><mml:mrow><mml:mfrac><mml:mrow><mml:mtext>At</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi mathvariant="normal">A</mml:mi><mml:mo>&#x394;</mml:mo><mml:mi mathvariant="normal">t</mml:mi></mml:mrow><mml:mrow><mml:mtext>At</mml:mtext><mml:mn>0</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow><mml:mi mathvariant="normal">X</mml:mi><mml:mn>100</mml:mn></mml:mrow></mml:math>
+<label>(2)</label>
+</disp-formula>
+</p>
+        <p>A<sub>t0</sub> is the wound area at time 0, and A<sub>&#x394;t</sub> is the wound area after n hours of the initial wound, both in &#x3BC;m<sup>2</sup>.<disp-formula id="e3">
+<mml:math id="m3" overflow="scroll"><mml:mrow><mml:mi mathvariant="bold">Rate&#x2009;of&#x2009;Wound&#x2009;Closure&#x2009;</mml:mi><mml:mrow><mml:mfenced open="(" close=")" separators="|"><mml:mrow><mml:mrow><mml:mi mathvariant="bold">&#x3BC;</mml:mi><mml:mi mathvariant="bold">m</mml:mi></mml:mrow><mml:mo>/</mml:mo><mml:mi mathvariant="bold">hr</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Wt</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mtext>Wt</mml:mtext><mml:mn>24</mml:mn></mml:mrow><mml:mn>24</mml:mn></mml:mfrac></mml:mrow></mml:math>
+<label>(3)</label>
+</disp-formula>
+</p>
+        <p>W<sub>t0</sub> is the wound width at time 0, and W<sub>24</sub> is the wound width at time 24; both in &#x3BC;m.</p>
+      </sec>
+      <sec id="s2-11">
+        <title>2.11 Protein&#x2013;protein interaction network</title>
+        <p>We used the StringApp plugin on Cytoscape software version 3.9.1 to analyze protein-protein interactions. Then, we loaded our proteins onto the StringApp from on our prior protein database (<xref rid="B31" ref-type="bibr">Mohieldin et al., 2020</xref>). We selected <italic>homo sapiens</italic> as the organism and confidence score threshold of 0.4. After that, the app used the STRING database to search for known and predicted protein-protein interactions based on our input data. StringApp generated a network of the protein-protein interactions, and then we further expanded the network to see all the possible interactions until we could find the interactions among proteins in our study. Then, the list of the protein interactions was further simplified by eliminating those proteins not closely or functionally associated with miR-17. For further confirmation, we loaded 16 proteins that interacted directly or indirectly with our proteins of interest, and they are as follows: PGRMC2, PKD2, GM3S, PTPRS, BMPR2, F11R, TMEM216, TUBA1A, ACTB, TFRC, ARL13B, FECH, UBC, NTRK1, UGCG, and TMEM231. Then, we added the interactions of these proteins with miR-17 based on our Western blot studies.</p>
+      </sec>
+      <sec id="s2-12">
+        <title>2.12 Data and statistic analyses</title>
+        <p>Cilia and wound healing images were acquired with Keyence Fluorescence Microscope. Images were analyzed with the NIS-Elements software. Cilia length and count were analyzed by NIS-Elements software. The number of independent experiments was indicated in each figure legend, and about 50 cells were quantified for each independent experiment. The wound distances and width closure were calculated with ImageJ software (version 1.53t). In our study, we used Prism 10 (GraphPad), Microsoft Excel (version 16.81) for statistical analysis and graphical representation. To ensure reliability of our results, each assay was performed in a minimum of three independent experiments. All data were presented as mean &#xB1; SEM. For the nonparametric and multiple comparison statistical analysis, we employed one-way ANOVA with <italic>post hoc</italic> Brown-Forsythe test followed by Tukey&#x2019;s post-test. Statistical significance was considered as *<italic>p</italic> &lt; 0.05, **<italic>p</italic> &lt; 0.01, ***<italic>p</italic> &lt; 0.001, ****<italic>p</italic> &lt; 0.0001, or ns - not significant.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results" id="s3">
+      <title>3 Results</title>
+      <p>We used porcine proximal epithelial cells LL-CPK1 (ATTC; # CL-101) as our experimental model, because our prior studies on miR-17 were previously performed in the same cell model (<xref rid="B30" ref-type="bibr">Mohieldin et al., 2015</xref>).</p>
+      <sec id="s3-1">
+        <title>3.1 The miR-17 is localized to cilia and cell body</title>
+        <p>Using unbiased proteomic studies, we most recently discovered five new membrane proteins localized in the cilia: bone morphogenetic type 2 (BMPR2), transferrin receptor-1 (TfR1), junctional adhesion molecule-A (JAM-A), protein tyrosine phosphatase receptor sigma (PTPRS), and progesterone receptor membrane component-2 (PGRMC2) (<xref rid="B30" ref-type="bibr">Mohieldin et al., 2015</xref>; <xref rid="B31" ref-type="bibr">Mohieldin et al., 2020</xref>). We first screened if the subcellular localization or expression of miR-17 in the cilia was altered by any of these new ciliary proteins. We established knockdown cells for each of the targets and compared them to control cells for the subcellular localization of miR-17 using quantitative <italic>in situ</italic> hybridization (qISH) methodology. Efficacy for knockdown of the respective proteins were previously confirmed (<xref rid="B31" ref-type="bibr">Mohieldin et al., 2020</xref>).</p>
+        <p>The qISH was performed to identify the subcellular expression and location of miR-17. miR-17 expression levels in the cilia and cell body within the same cell were assessed (<xref rid="F1" ref-type="fig">Figure 1A</xref>). The miR-17 LNA&#x2122; probe was tagged with red fluorescence TEX615, primary cilia were identified with acetylated &#x3B1;-tubulin, and the nucleus was stained with DAPI. In all BMPR2, TfR1, JAM-A, PTPRS, and PGRMC2 knockdown cells, including scrambled control cells, miR-17 were observed to co-localize with cilia. miR-17 was also observed in the cytosol of all cells. Of note is that the presence of miR-17 in the cytosol might also be attributed to the fact that the probe could recognize the immature pre-miRNA within the nucleus (<xref rid="B16" ref-type="bibr">Ha and Kim, 2014</xref>; <xref rid="B13" ref-type="bibr">Denli et al., 2004</xref>).</p>
+        <fig position="float" id="F1">
+          <label>FIGURE 1</label>
+          <caption>
+            <p>The miR-17 is localized to cilia and cell body. <bold>(A)</bold> The representative images of <italic>in situ</italic> hybridization show miR-17 localization in the primary cilia in scramble control, BMPR2 KD, TfR1 KD, PGRMC2 KD, JAM-A KD and PTPRS KD cells. The miR-17 localization was detected using locked nucleic acid probe for miR-17 (red); primary cilia were identified using acetylated-&#x3B1;-tubulin (green); DAPI was used as nuclear marker (blue). The miR-17 is localized in the cilia of all cells. <bold>(B)</bold> Quantitative the <italic>in situ</italic> hybridization assay was conducted to assess the levels of miR-17 between a cilium and a cell body within the same cell. The signal intensity was quantified in arbitrary units (a.u.). <italic>p</italic> &lt; 0.05 (*); <italic>p</italic> &lt; 0.0001 (****). N = 3 independent experiments. </p>
+          </caption>
+          <graphic xlink:href="fcell-12-1397931-g001" position="float"/>
+        </fig>
+        <p>The qISH assay was conducted to assess the levels of miR-17 between a cilium and a cell body within the same cell (<xref rid="F1" ref-type="fig">Figure 1B</xref>). The quantification involved measuring the intensities of fluorescence within a single cell. The intensity of the probe was varied among preparations, denoting that the probes might have different efficiency to hybridize with miR-17 in different knockdown cells. The quantitative <italic>in situ</italic> hybridization (qISH) revealed a significant higher of miR-17 expression in the cytosol than cilium by 1.91 &#xB1; 0.26 fold in scramble control cells (<italic>p</italic> &lt; 0.0001). In BMPR2 knockdown cells, there was also a significant higher of miR-17 expression in the cytosol than cilium by 1.43 &#xB1; 0.15 fold (<italic>p</italic> &lt; 0.05). Likewise, in TfR1 and JAM-A knockdown cells, there were significant higher of miR-17 expressions in the cytosol than cilium by 2.78 &#xB1; 0.93 and 2.50 &#xB1; 0.79 folds (<italic>p</italic> &lt; 0.0001), respectively. On the other hand, there were no significant distributions of miR-17 between cytosol and cilium in PTPRS (1.35 &#xB1; 0.05 fold) and PGRMC2 (1.19 &#xB1; 0.10 fold) knockdown cells. Overall, these data indicate that miR-17 was localized in both cilia and cell body, indicating the significance of the role of miR-17 in the ciliary compartments.</p>
+      </sec>
+      <sec id="s3-2">
+        <title>3.2 The expression of miR-17 is decreased in PGRMC2 knockdown cells</title>
+        <p>The qISH is a more appropriate method to compare miR-17 subcellular localization in a cell within the same preparations due to a potential variability in hybridization efficiency between different preparations. Because the qISH was not an ideal method to compare total miR-17 among different knockdown cells, we used quantitative PCR (qPCR) to measure a more precise expression of miR-17. To do this, we first isolated the primary cilia by using shear force to break the cilia of the cell surface (<xref rid="B30" ref-type="bibr">Mohieldin et al., 2015</xref>; <xref rid="B29" ref-type="bibr">Mitchell, 2013</xref>; <xref rid="B46" ref-type="bibr">Sherpa et al., 2019</xref>). We visually examined the fractions of the isolated cilia under the high resolution DIC microscope to evaluate the effectiveness and purity of our isolation (<xref rid="F2" ref-type="fig">Figure 2A</xref>). The purity of the isolated cilia was also validated with Western blot analysis (<xref rid="F2" ref-type="fig">Figure 2B</xref>). Cilia marker acetylated-&#x3B1;-tubulin and cytosolic marker &#x3B2;-actin were used to identify the purity of the cilia and cytosol (cell body) fractions.</p>
+        <fig position="float" id="F2">
+          <label>FIGURE 2</label>
+          <caption>
+            <p>The expression of miR-17 is decreased in PGRMC2 KD cells. <bold>(A)</bold> To quantify miR-17 separately between cilia and cell body, cilia were isolated from the cells. Brightfield image displays the isolated cilia. <bold>(B)</bold> The purity of the isolated primary cilia was confirmed through immunoblotting, utilizing acetylated-&#x3B1;-tubulin (acet-&#x3B1;-tub) cilia marker and &#x3B2;-actin cell body marker. Un-cut original blots are shown in <xref rid="s10" ref-type="sec">Supplementary Figure S1</xref>. RT-PCR was performed to determine levels of miR-17 in ciliary protein knockdown cells. The graphs represent the relative expression of miR-17 in cell body <bold>(C)</bold> and cilia <bold>(D)</bold>. <italic>p</italic> &lt; 0.0001 (****). N = 4 independent experiments.</p>
+          </caption>
+          <graphic xlink:href="fcell-12-1397931-g002" position="float"/>
+        </fig>
+        <p>We loaded the RNA templates for both cell body and cilia at a concentration of 5&#xA0;ng/&#x3BC;L. Comparing control and different knockdown cells, we only observed a change of miR-17 expression in the cytosol of PGRMC2 knockdown cells (<xref rid="F2" ref-type="fig">Figure 2C</xref>). The expression of miR-17 in the cytosol was significantly decreased in PGRMC2 knockdown, compared to control cells (0.52 &#xB1; 0.02 fold; <italic>p</italic> &lt; 0.0001). There were no changes in miR-17 expression in the cilia between the control and knockdown cells (<xref rid="F2" ref-type="fig">Figure 2D</xref>). Overall, these data indicate that cytosolic expression of miR-17 was decreased in the PGRMC2 knockdown, compared to the control cells.</p>
+      </sec>
+      <sec id="s3-3">
+        <title>3.3 Validation of PGRMC2, GM3S, and PKD2 knockdown</title>
+        <p>Previous studies have indicated that miR-17 has a molecular interaction with GM3S and PKD2 (<xref rid="B30" ref-type="bibr">Mohieldin et al., 2015</xref>). To investigate the mechanism of miR-17 repression, we probed the potential roles of GM3S and PKD2. The stable knockdown of PGRMC2, GM3S and PKD2 cells were previously generated in our laboratory (<xref rid="B30" ref-type="bibr">Mohieldin et al., 2015</xref>). To verify that the PGRMC2, GM3S, and PKD2 expressions remained repressed, we rigorously confirmed the integration of the shRNA reporter protein in the cells (<xref rid="s10" ref-type="sec">Supplement Figure 2A</xref>). The expression of the reporter green fluorescence protein (GFP) was confirmed in each knockdown condition. We also validated the expressions of PGRMC2 (<xref rid="s10" ref-type="sec">Supplement Figure 2B</xref>), GM3S (<xref rid="s10" ref-type="sec">Supplement Figure 2C</xref>), and PKD2 (<xref rid="s10" ref-type="sec">Supplement Figure 2D</xref>) using Western blots. The GAPDH and &#x3B2;-actin were used as loading controls. Analyses of the Western blots confirmed that the shRNAs significantly repressed the expression of PGRMC2 (26% &#xB1; 7%), GM3S (21% &#xB1; 10%), and PKD2 (5% &#xB1; 5%) (<xref rid="s10" ref-type="sec">Supplement Figure 2E</xref>).</p>
+      </sec>
+      <sec id="s3-4">
+        <title>3.4 Cellular interactions of miR-17 with ciliary proteins</title>
+        <p>To understand the significance of repressed miR-17 expression in PGRMC2 knockdown cells and miR-17 relevance in GM3S and PKD2 signaling, we also stably repressed the miR-17 expression with shRNA. Four different regions of silencing were used based on algorithm software prediction from OriGene company. The transfection efficiency of shRNA for each silencing sequence was determined through evaluating the expression of the GFP reporter integration in the cells (<xref rid="F3" ref-type="fig">Figure 3A</xref>). Following transfection, transfected cells were cloned, subcloned, and cultured for several days. Subsequently, we selected the silencing sequence with the optimal knockdown efficiency among the four potential shRNA sequences, which was represented by positive GFP expression. The miR-17 knockdown was next quantified using RT-PCR analyses (<xref rid="F3" ref-type="fig">Figure 3B</xref>). Among all other sequences, shRNA-B sequence significantly reduced the levels of miR-17. The levels of miR-17 transfected with shRNA-A, shRNA-C, and shRNA-D were found to have no significant effect. Thus, shRNA-B sequence was selected for our studies as the most effective sequence based on the GFP expression and lower miR-17 expression in qPCR analysis.</p>
+        <fig position="float" id="F3">
+          <label>FIGURE 3</label>
+          <caption>
+            <p>Cellular interactions of miR-17 with ciliary proteins. Stable miR-17 knockdown cell line was generated using siRNA. <bold>(A)</bold> Brightfield and fluorescence images displaying the effectiveness of transfection by tracking the expression of GFP in various shRNA-GFP lentivirus sequences (A, B, C, D). <bold>(B)</bold> Knockdown efficiency of lentivirus-mediated siRNA targeting miR-17 was determined by RT-PCR analysis. <italic>p</italic> &lt; 0.01 (**); <italic>p</italic> &lt; 0.0001 (****). N = 3 independent experiments. <bold>(C)</bold> Quantitative RT-PCR was performed to quantify the expression of miR-17 levels in PGRMC2, GM3S, and PKD2 knockdown cells. <bold>(D)</bold> Western blots were used to analyze protein expressions from the cell lysate in scramble control, PGRMC2, GM3S, PKD2, and miR-17 knockdown cells. Un-cut original blots are shown in <xref rid="s10" ref-type="sec">Supplementary Figure S3</xref>.</p>
+          </caption>
+          <graphic xlink:href="fcell-12-1397931-g003" position="float"/>
+        </fig>
+        <p>We next performed qPCR to quantify the expression of miR-17 levels in PGRMC2, GM3S, and PKD2 knockdown cells (<xref rid="F3" ref-type="fig">Figure 3C</xref>). The expression of miR-17 was significantly higher in PKD2 knockdown cells compare to scramble control by 1.20 &#xB1; 0.06 fold (<italic>p</italic> &lt; 0.01). However, PGRMC2 and GM3S repressed cells significantly reduced miR-17 expression levels compared to control by 0.50 &#xB1; 0.05 (<italic>p</italic> &lt; 0.0001), and 0.80 &#xB1; 0.03 (<italic>p</italic> &lt; 0.01) folds, respectively. As expected, silencing miR-17 repressed miR-17 expression by 0.21 &#xB1; 0.01 fold (<italic>p</italic> &lt; 0.0001). These data suggested that PGRMC2, GM3S, and PKD2 regulated the miR-17 expression level. To further examine the intermolecular relationships among ciliary proteins PGRMC2, GM3S, PKD2 and miR-17, we analyzed the protein expressions from the cell lysate in scramble control, PGRMC2, GM3S, PKD2, and miR-17 knockdown cells (<xref rid="F3" ref-type="fig">Figure 3D</xref>; <xref rid="s10" ref-type="sec">Supplement Figure S3</xref>). Of note was that both PGRMC2 and GM3S expressions were repressed in all knockdown cells.</p>
+      </sec>
+      <sec id="s3-5">
+        <title>3.5 miR-17 is required for cilia formation</title>
+        <p>Most ciliary molecules have been associated with cilia formation and length maintenance (<xref rid="B45" ref-type="bibr">Shao et al., 2020</xref>; <xref rid="B18" ref-type="bibr">Hua and Ferland, 2018</xref>; <xref rid="B38" ref-type="bibr">Pazour et al., 2000</xref>). To investigate the role of miR-17 on cilia structure, we also measured the potential roles of miR-17 cellular interacting components, including PGRMC2, GM3S and PKD2 on cilia presence and length. The presence of cilia was quantified with the cilia marker acetylated-&#x3B1;-tubulin, as seen in the representative images (<xref rid="F4" ref-type="fig">Figure 4A</xref>). DAPI was used to label the nuclei. The ciliary length distribution was tabulated in the histograms (<xref rid="F4" ref-type="fig">Figure 4B</xref>). The presence of cilia was then quantified. All knockdown cells expressed cilia, comparable to scramble control (<xref rid="F4" ref-type="fig">Figure 4C</xref>). However, the miR-17 knockdown cells had a significantly lesser propensity to form cilia, with 30.8% &#xB1; 2.3% cells form cilia compared to control cells (93.1% &#xB1; 3.3%; <italic>p</italic> &lt; 0.0001). If cells formed cilia, their cilia lengths were averaged (<xref rid="F4" ref-type="fig">Figure 4D</xref>). Notably, there was no significant difference in the cilia length of PKD2 knockdown cells (8.9 &#xB1; 0.7&#xA0;mm) compared to control (10.3 &#xB1; 0.9&#xA0;&#x3BC;m). However, the cilia length was significantly decreased in PGRMC2 (6.6 &#xB1; 0.4&#xA0;&#x3BC;m; <italic>p</italic> &lt; 0.01), GM3S (6.7 &#xB1; 0.6&#xA0;&#x3BC;m; <italic>p</italic> &lt; 0.01), and miR-17 (6.7 &#xB1; 0.4&#xA0;&#x3BC;m; <italic>p</italic> &lt; 0.01) knockdown cells, compared to the control cells (10.3 &#xB1; 0.9&#xA0;&#x3BC;m). Overall, these data suggest that miR-17, PGRMC2, and GM3S were required for cilia length maintenance.</p>
+        <fig position="float" id="F4">
+          <label>FIGURE 4</label>
+          <caption>
+            <p>miR-17 is required for cilia formation. <bold>(A)</bold> The representative images show the cilia expression in scramble and different knockdown cells. The primary cilia were identified using acetylated-&#x3B1;-tubulin (red) and a DAPI was used as nuclear marker (blue). <bold>(B)</bold> Histogram shows the distribution of cilia length among different cells. The percentage of cells expressing cilia. <bold>(C)</bold> The graph shows the averaged of cells with cilia. <bold>(D)</bold> For those cells with cilia, the lengths of the cilia were measured. <italic>p</italic> &lt; 0.01 (**); <italic>p</italic> &lt; 0.0001 (****). N = 5 independent experiments.</p>
+          </caption>
+          <graphic xlink:href="fcell-12-1397931-g004" position="float"/>
+        </fig>
+      </sec>
+      <sec id="s3-6">
+        <title>3.6 Rescued miR-17 reverses the trend on primary cilia formation</title>
+        <p>To confirmed that the role of miR-17 on cilia formation and length maintenance, we performed a rescued experiment in the stably miR-17 knockdown cells. The rescue was done using transient approach via anti-sense of shRNA-B of miR-17. The transient miR-17 reversed the expression of miR-17 equivalent to the control (<xref rid="F5" ref-type="fig">Figure 5A</xref>). The presence of cilia was quantified with the cilia marker acetylated-&#x3B1;-tubulin, as seen in the representative images (<xref rid="F5" ref-type="fig">Figure 5B</xref>). The ciliary length distribution was tabulated in the histograms (<xref rid="F5" ref-type="fig">Figure 5C</xref>). The presence and length of cilia were then quantified (<xref rid="F5" ref-type="fig">Figure 5D</xref>). As expected, the miR-17 knockdown cells had a significantly lesser propensity to form cilia, with 27.2% &#xB1; 4.3% cells form cilia compared to control cells (93.0% &#xB1; 5.6%; <italic>p</italic> &lt; 0.0001) and rescued cells (77.1% &#xB1; 6.0%; <italic>p</italic> &lt; 0.001). While the lengths of cilia were not statistically different, the rescued miR-17 knockdown cells (10.8 &#xB1; 2.1&#xA0;&#x3BC;m) showed a recovery trend of cilia length compared to the miR-17 knockdown cells (6.0 &#xB1; 0.6&#xA0;&#x3BC;m; <italic>p</italic> &lt; 0.07). The cilia length of the rescued miR-17 knockdown cells was almost equivalent to the length of the control cells (11.7 &#xB1; 0.7&#xA0;&#x3BC;m). Overall, these data suggest that the role of miR-17 on cilia formation was reversible by the miR-17 expression level.</p>
+        <fig position="float" id="F5">
+          <label>FIGURE 5</label>
+          <caption>
+            <p>Rescued miR-17 reverses the trend on primary cilia formation. Stable miR-17 knockdown cell line was rescued with transient expression of anti-sense of shRNA miR-17. <bold>(A)</bold> Rescued efficiency of miR-17 was determined by RT-PCR analysis. N = 3 independent rescued experiments. <bold>(B)</bold> The representative images show the cilia expression in scramble, miR-17 knockdown (KD), and miR-17 rescue (rescued) cells. The primary cilia were identified using acetylated-&#x3B1;-tubulin (red) and a DAPI was used as nuclear marker (blue). <bold>(C)</bold> Histogram shows the distribution of cilia length among different cells. The percentage of cells expressing cilia. <bold>(D)</bold> The graph shows the averaged of cells with cilia. For those cells with cilia, the lengths of the cilia were measured. <italic>p</italic> &lt; 0.05 (*); <italic>p</italic> &lt; 0.001 (***); <italic>p</italic> &lt; 0.0001 (****). N = 3-4 independent experiments.</p>
+          </caption>
+          <graphic xlink:href="fcell-12-1397931-g005" position="float"/>
+        </fig>
+      </sec>
+      <sec id="s3-7">
+        <title>3.7 miR-17 and its interacting proteins are involved in cellular proliferation</title>
+        <p>Most ciliary proteins are associated with cell proliferation (<xref rid="B45" ref-type="bibr">Shao et al., 2020</xref>; <xref rid="B54" ref-type="bibr">Wang et al., 2018</xref>). To investigate the role of miR-17 on proliferation, we measured the potential roles of miR-17, PGRMC2, GM3S and PKD2 using flow cytometry. Propidium iodide (PI) and 5-bromodeoxyuridine (BrdU) dual staining were used to analyze phases of the cell cycle (<xref rid="F6" ref-type="fig">Figure 6A</xref>). PI denotes the DNA contents, and BrdU is to indicate actively dividing cells (<xref rid="B23" ref-type="bibr">Kinjyo et al., 2015</xref>; <xref rid="B1" ref-type="bibr">AbouAlaiwi et al., 2011</xref>). Analyses of the dual staining suggested that compared to control cells, all the knockdown cells had a statistically significant hyperproliferation as indicated in the resting G1 phase, proliferative S phase, and dividing G2/M phase (<xref rid="F6" ref-type="fig">Figure 6B</xref>). Compared to control, the knockdown cells were significantly less at resting state, suggesting that knockdown cells were highly proliferative or undergoing cell division. This indicated that the hyperproliferative cells spent very little time in G1/G2/M phases, compared to S phase in synthesizing their DNA. Overall, these data suggest that PGRMC2, GM3S, PKD2, and miR-17 were involved in cellular proliferation.</p>
+        <fig position="float" id="F6">
+          <label>FIGURE 6</label>
+          <caption>
+            <p>miR-17 and its interacting proteins are involved in cellular proliferation. Propidium iodide (PI) and 5-bromodeoxyuridine (BrdU) staining were used to examine cell proliferation. <bold>(A)</bold> Graphs depicting the percentage of cells with varying of PI and BrdU staining in each phase of the cell cycle are presented. <bold>(B)</bold> The graphs represent the percentage of cells in the G1, S, and G2/M phases of the cell cycle. <bold>(C)</bold> The number of cells was measured daily until cells reached complete confluence. <bold>(D)</bold> The growth rates were calculated. miR-17 KD cells did not grow when plated sparsely for the purpose of cell counts. <italic>p</italic> &lt; 0.05 (*); <italic>p</italic> &lt; 0.01 (**); <italic>p</italic> &lt; 0.001 (***); <italic>p</italic> &lt; 0.0001 (****). N = 3 independent experiments.</p>
+          </caption>
+          <graphic xlink:href="fcell-12-1397931-g006" position="float"/>
+        </fig>
+        <p>To make sense of the cell cycle analyses that the hyperproliferative cells were perhaps lagging in S phase and rapidly progressing through G1/G2/M phases, we seeded 1 &#xD7; 10<sup>5</sup> cells and counted the cell numbers every day until the cells reached complete confluence (<xref rid="F6" ref-type="fig">Figure 6C</xref>). The growth curves of the knockdown cells were then plotted against control cells. As expected from our cell cycle studies, the PGRMC2, GM3S, and PKD2knockdown cells displayed a significantly higher proliferation rate compared to the scramble control cells (<xref rid="F6" ref-type="fig">Figure 6D</xref>). Notably, the growth rate was significantly slower in miR-17 knockdown cells compared to control cells. This was because miR-17 knockdown cells when cultured at low density of 1 &#xD7; 10<sup>5</sup> cells exhibited limited or no growth. However, these cells grew when seeding at 50% confluence, indicating that cell-cell interaction or communication might play a role in promoting their growth compared to when plated in very sparse conditions. Overall, these data suggest that PGRMC2, GM3S, PKD2, and miR-17 were involved in cell proliferation and growth.</p>
+      </sec>
+      <sec id="s3-8">
+        <title>3.8 miR-17 is involved in cell migration</title>
+        <p>Cell migration is a vital process in development, regeneration, and injury recovery (<xref rid="B51" ref-type="bibr">Todaro et al., 1965</xref>; <xref rid="B17" ref-type="bibr">Hossian and Mattheolabakis, 2021</xref>). Wound healing assay is one of convenient and straightforward techniques for investigating cell migration analysis. We performed cell migration assay to determine the functional impact of miR-17 and its interacting components PGRMC2, GM3S and PKD2. Monolayer cells were stretched accurately with an average width of 854.4 &#xB1; 15.6&#xA0;&#xB5;m (<xref rid="F7" ref-type="fig">Figure 7A</xref>). The extent of cell recovering the wounded areas was measured at 24-h intervals (<xref rid="F7" ref-type="fig">Figure 7B</xref>). After 72&#xA0;h, the wound healing was closed or almost closed in control (100% &#xB1; 0%), PGRMC2 (99.35% &#xB1; 0.47%), GM3S (94.51% &#xB1; 2.9%), PKD2 (97% &#xB1; 0.89%), and miR-17 (70.63% &#xB1; 8.16%) knockdown cells. There was no statistically significant difference in wound healing closure between control and knockdown cells. We next measured and quantified the rate of wound closure (<xref rid="F7" ref-type="fig">Figure 7C</xref>). There were no differences in the rate between control cells (21.6 &#xB1; 1.70&#xA0;&#x3BC;m/h) and PGRMC2 knockdown cells (19.5 &#xB1; 0.51&#xA0;&#x3BC;m/h). However, the migration rates were significantly lower in GM3S (13.3 &#xB1; 1.05&#xA0;&#x3BC;m/h), PKD2 (14.9 &#xB1; 0.50&#xA0;&#x3BC;m/h), and miR-17 (9.7 &#xB1; 0.92&#xA0;&#x3BC;m/h) knockdown cells. Overall, these findings indicated a significant impact of miR-17 and its interacting components on the rate of cell migration.</p>
+        <fig position="float" id="F7">
+          <label>FIGURE 7</label>
+          <caption>
+            <p>miR-17 and its interacting proteins are involved in cell migration. The wound healing assay was conducted to assess the cell migration. Wound-healing assay was performed at 0, 24, 48, and 72&#xA0;h. <bold>(A)</bold> Representative images of the scratched and recovering of wounded areas (highlighted by light blue lines) on confluence monolayers. <bold>(B)</bold> The percentage of cell migration was determined by tracking the rate of cell movement towards the scratched area over time using ImageJ&#x2122; software. <bold>(C)</bold> The rate of wound closure per day was calculated. <italic>p</italic> &lt; 0.01 (**); <italic>p</italic> &lt; 0.0001 (****). N = 3 independent experiments.</p>
+          </caption>
+          <graphic xlink:href="fcell-12-1397931-g007" position="float"/>
+        </fig>
+      </sec>
+      <sec id="s3-9">
+        <title>3.9 Protein&#x2013;protein interaction network</title>
+        <p>We conducted a protein-protein interaction (PPI) network analysis to explore potential interactions among the proteins identified in the previous and current studies (<xref rid="B31" ref-type="bibr">Mohieldin et al., 2020</xref>). The network was constructed using the StringApp, revealing predicted interactions with an average clustering coefficient of 0.54. The network comprised 16 nodes (proteins) connected by 19 edges (interactions), with an average node degree of 2.38 (<xref rid="F8" ref-type="fig">Figure 8A</xref>). Additionally, the PPI enrichment <italic>p</italic>-value was notably low at 0.000412, indicating a highly significant functional relationship among the proteins within the network. It also indicated that the interactions detected in the network are not random. The PPI of individual proteins is listed in the Table showing their complete names and accession numbers (<xref rid="F8" ref-type="fig">Figure 8B</xref>). The interaction among the ciliary molecules from our current studies was displayed and summarized in the diagram (<xref rid="F8" ref-type="fig">Figure 8C</xref>). Overall, our Western blot analysis and functional studies supported the presence of intricate cellular interactions involving PGRMC2, GM3S, PKD2, and miR-17.</p>
+        <fig position="float" id="F8">
+          <label>FIGURE 8</label>
+          <caption>
+            <p>Potential ciliary protein interaction with miR-17. <bold>(A)</bold> Proteomic network analysis was performed using the Cytoscape StringApp tool for the analysis of potential protein-protein interactions taken from our prior cilia proteomic studies (<xref rid="B31" ref-type="bibr">Mohieldin et al., 2020</xref>). The network depicted interactions involving miR-17, highlighted in yellow, along with PGRMC2, GM3S, and PKD2, which are marked with a red border. Potential novel ciliary proteins examined with the <italic>in-situ</italic> hybridization in relationship with miR-17 include BMPR2, TfR1, JAM-A, PTPRS, and PGRMC2. These proteins are labeled with a blue border. <bold>(B)</bold> The Table listed the accession numbers of all proteins, including miR-17, with their complete names. <bold>(C)</bold> Our current studies suggested more specific molecular and functional interactions between miR-17 with PGRMC2, GM3S, and PKD2.</p>
+          </caption>
+          <graphic xlink:href="fcell-12-1397931-g008" position="float"/>
+        </fig>
+        <p>To further understand the complexity of the PPI network, we tested if an ectopic re-expression of the protein could rescue cilia and cell cycle phenotypes in miR-17 knockdown cells (<xref rid="s10" ref-type="sec">Supplement Figure 4</xref>). We confirmed that miR-17 knockdown cells had a lower PGRMC2, and the PGRMC2 expression could be rescued by the PGRMC2 ectopic expression in the miR-17 knockdown cells (<xref rid="s10" ref-type="sec">Supplement Figure 4A</xref>). These studies were repeated twice in the same blot with two independent sets of samples. We next checked cilia length and growth rate of cells (<xref rid="s10" ref-type="sec">Supplement Figure 4B</xref>). The ectopic expression of PGRMC2 to a normal level did not rescue the cilia and cell cycle phenotypes in miR-17 knockdown cells. Because GM3S expression was also repressed in miR-17 knockdown cells (<xref rid="s10" ref-type="sec">Supplement Figure 3</xref>), we examined GM3S expression level, which remained low in miR-17 knockdown cells with or without ectopic expression of PGRMC2 (<xref rid="s10" ref-type="sec">Supplement Figure 4C</xref>). It is thus not surprising that ectopic expression of PGRMC2 alone in miR-17 knockdown cells did not rescue the cilia and cell cycle phenotypes, because miR-17 knockdown cells could potentially affect expressions of many other proteins in the network, in addition to PGRMC2, GM3S, or PKD2 (<xref rid="F8" ref-type="fig">Figure 8</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="s4">
+      <title>4 Discussion</title>
+      <p>Our present study aimed at exploring the association between miR-17 and primary cilia, focusing on their roles in cell division and related mechanisms. The subcellular localization of miR-17 was investigated using <italic>in situ</italic> hybridization, revealing its presence in the cell body and cilia. For the first time, we showed that ciliary compartment carrying a genetic material miR-17. Furthermore, the qISH demonstrated that cytosol expressed higher miR-17 compared to the cilium. Knockdown of PGRMC2 resulted in depressed miR-17 expression. In addition to PGRMC2, our studies also demonstrated that miR-17 had cellular interactions with other ciliary proteins, including GM3S and PKD2. Our data demonstrated that miR-17 was involved in cilia structure, cellular proliferation, and cell migration. Our study also proposed a potential interaction between miR-17 and ciliary proteins, including PGRMC2, GM3S, and PKD2.</p>
+      <p>The subcellular localization of miR-17 within a cell could be attributed to the fact that subcellular compartments store and regulate genetic information (<xref rid="B41" ref-type="bibr">Putnam et al., 2023</xref>; <xref rid="B10" ref-type="bibr">Cheng et al., 2022</xref>). The observed decrease in miR-17 levels in PGRMC2 knockdown cells suggested that PGRMC2 played a critical role in regulating miR-17 expression. Moreover, PKD2knockdown increased miR-17 expression, suggesting potential negative feedback between miR-17 and PGRMC2, given that PKD2 could induce PGRMC2 expression. The cellular interactions among PGRMC2, GM3S, PKD2, and miR-17 were highlighting the complexity of their regulatory network within the cell. Our immunofluorescence studies revealed that miR-17 and its interacting proteins were involved in cilia formation, suggesting their importance for ciliogenesis and/or cilia maintenance. We observed an increase in proliferation in GM3S, PKD2, and miR-17 knockdown cells compared to control cells, while the cell migration assay showed a slower rate of wound closure in GM3S, PKD2, and miR-17 knockdown cells. This was because the relationship between cell proliferation and migration could be affected by several signaling pathways and cellular processes, such as GM3S/PKD2/miR-17 pathway. Moreover, the knockdown of ciliary proteins could modulate these pathways differently, resulting in contrasting effects in cell proliferation and migration.</p>
+      <p>In our experience, the qPCR method was not the best approach to compare miR-17 levels between cell body and cilia for two reasons. First, after isolation, the cell body and cilia-isolated lysates were normalized with two different proteins: &#x3B2;-actin for cell body and acetylated-&#x3B1;-tubulin for cilia (<xref rid="F2" ref-type="fig">Figure 2B</xref>). Second, as indicated in our Method section, we loaded RNA templates for both cell body and cilia at a concentration of 5&#xA0;ng/&#x3BC;L. It was obvious throughout our experiments that compared to cilia, cell body contained more total proteins and RNAs. For this reason, our initial comparisons between cilia and cell body were carried out using <italic>in situ</italic> approach, in which the cell and cilia were all treated and analyzed at the same conditions.</p>
+      <p>In certain cancer cell types, the loss of primary cilia was observed (<xref rid="B20" ref-type="bibr">Jamal et al., 2020</xref>). While cilia were expressed in normal kidney and prostate cancer cells (PC3), their absence was observed in both prostate cancer cells (DU145) and lung cancer epithelial cells (NL 20). Interestingly, while cilia were found in PC3, the percentage was significantly lower than that observed in normal kidney cells (<xref rid="B20" ref-type="bibr">Jamal et al., 2020</xref>). In our study, we measured the cilia length in PGRMC2 knockdown cells. The cilia length of PGRMC2 knockdown cells was significantly decreased compared to the control cells.</p>
+      <p>Previous studies showed a normal percentage of ciliated cells in PGRMC2 knockdown cells compared to control cells (<xref rid="B31" ref-type="bibr">Mohieldin et al., 2020</xref>), suggesting that there was a consistent effect on cilia presence. Consistent with the previous studies, our research also confirmed that knockdown of PKD2 led to a significant increase in proliferation compared to control. Likewise, our results were consistent with those reported by <xref rid="B20" ref-type="bibr">Jamal et al. (2020)</xref>, who also observed hyper-proliferation in cells with PKD2 knockdown cells compared to control cells. This supported the proliferative role of PKD2 like those examined in our studies.</p>
+      <p>A previous study reported a significant decrease in the rate of wound closure in PGRMC2 knockdown cells compared to controls (<xref rid="B31" ref-type="bibr">Mohieldin et al., 2020</xref>). This discrepancy from our current study could arise from variations in experimental conditions between the two studies. Our study utilized cell culture media supplemented with 2% fetal bovine serum (FBS), while the previous study did not use any FBS. Serum starvation could induce cellular stress responses and change the cell behavior differently from cells subjected to media-containing serum. Serum media provided critical nutrients and growth factors that promoted cell proliferation and migration, while serum deprivation activated adaptive cellular responses that conserved energy to avoid nutrient deficiency. Serum-deprived cells might exhibit differing in migratory behaviors compared to those maintained in serum-containing media (<xref rid="B2" ref-type="bibr">Ahmadiankia et al., 2019</xref>; <xref rid="B42" ref-type="bibr">Raut et al., 2019</xref>).</p>
+      <p>Recent data confirm that miRNAs might also regulate several numbers of cell cycle regulators to regulate cell proliferation (<xref rid="B7" ref-type="bibr">Bueno and Malumbres, 2011</xref>). Dysregulation of miRNAs could contribute to proliferative disorders, including cancer, by altering the levels of critical oncogenes or tumor suppressor genes (<xref rid="B56" ref-type="bibr">Zhang et al., 2007</xref>). The use of miR-17 mimics promoted the proliferation through decreasing apoptosis <italic>in vitro</italic> (<xref rid="B48" ref-type="bibr">Song et al., 2020</xref>). Moreover, miR-17 expression levels were upregulated in the clinical samples from gastric cancer patients. The overexpression of PGRMC2 represses entry into the cell cycle (<xref rid="B55" ref-type="bibr">Yang et al., 2023</xref>), decreases the migration rates of cancer cells (<xref rid="B3" ref-type="bibr">Albrecht et al., 2012</xref>), and induces apoptosis (<xref rid="B55" ref-type="bibr">Yang et al., 2023</xref>). The overexpression of PKD2 rescues cells from stress-induced apoptosis (<xref rid="B6" ref-type="bibr">Brill et al., 2020</xref>). The miR-17 overexpression increases cell proliferation (<xref rid="B48" ref-type="bibr">Song et al., 2020</xref>; <xref rid="B6" ref-type="bibr">Brill et al., 2020</xref>). Of note is that when PKD2 was knockdown, we saw an increase in miR-17 expression (<xref rid="F3" ref-type="fig">Figure 3C</xref>). Consistent with this idea (<xref rid="B48" ref-type="bibr">Song et al., 2020</xref>; <xref rid="B6" ref-type="bibr">Brill et al., 2020</xref>), we saw an increase in cell proliferation when miR-17 was overexpressed via PKD2 knockdown (<xref rid="F6" ref-type="fig">Figure 6</xref>).</p>
+      <p>While our study showed significant effects of GM3S/PKD2/PGRMC2/miR-17 on ciliary dynamics and cellular proliferation, we did not explore a broader molecular pathway or signaling mechanism underlying these observations. Further investigation is warranted to fully understand the complex relationship among GM3S/PKD2/PGRMC2/miR-17 signaling, primary cilia, and cellular proliferation. Future studies should also explore potential correlations between primary cilia and other signaling pathways, such as the MAPK pathway and others, which were involved in cancer progression (<xref rid="B20" ref-type="bibr">Jamal et al., 2020</xref>). Elucidating these pathways and their interactions with primary cilia and miR-17 would provide better insights into the mechanism on how miR-17 regulated cell proliferation through primary cilia, leading to a better understanding of ciliopathies and the development of targeted therapeutic interventions.</p>
+      <p>We propose a potential pathway based on a network of ciliary proteins (<xref rid="F8" ref-type="fig">Figure 8</xref>). While the network suggests a complex interaction among GM3S/PKD2/PGRMC2/miR-17, the Western blot confirmed the functional interactions among GM3S/PKD2/PGRMC2/miR-17, as shown in (<xref rid="F3" ref-type="fig">Figure 3B</xref>). The miR-17 regulates expression levels of PGRMC2, GM3S, and PKD2. PKD2 suppresses miR-17 expression while increases the expression of PGRMC2 and GM3S. PGRMC2 elevates miR-17 and GM3S expressions but does not seem to influence PKD2 expression. Likewise, GM3S promotes miR-17 and PGRMC2 expressions without affecting PKD2. To sum up, the intermolecular relationship between miR-17 and the ciliary proteins PGRMC2, GM3S, and PKD2 involves a complex network of different regulatory interactions, which might involve microRNA-mediated post-transcriptional regulation and possible protein-protein interactions or signaling pathways. Further study is required to examine the exact mechanisms and functional effects of these interactions.</p>
+      <p>Remarkably, our studies demonstrated for the first time that the ciliary compartment carries a genetic material miR-17. This study provided novel insights into the complex relationship between miR-17, primary cilia, and cellular processes such as proliferation and migration. The findings suggested that miR-17 and ciliary proteins PGRMC2, GM3S, and PKD2 played crucial roles in regulating cilia dynamics and cellular behaviors.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Sheri Ohadi for her technical assistance in ordering the supplies and preparing the reagents. Some authors used ChatGPT (GPT-4 version) provided by OpenAI and QuillBot (Version 15.368.14) for a better sentence phrasing, grammar structure, and messaging in this manuscript.</p>
+    </ack>
+    <sec sec-type="data-availability" id="s5">
+      <title>Data availability statement</title>
+      <p>The original contributions presented in the study are included in the article/<xref rid="s10" ref-type="sec">Supplementary Material</xref>, further inquiries can be directed to the corresponding author.</p>
+    </sec>
+    <sec id="s6">
+      <title>Author contributions</title>
+      <p>AA: Conceptualization, Data curation, Formal Analysis, Methodology, Project administration, Writing&#x2013;original draft, Writing&#x2013;review and editing. AB: Conceptualization, Methodology, Writing&#x2013;review and editing. AM: Conceptualization, Resources, Writing&#x2013;review and editing. AG: Conceptualization, Writing&#x2013;review and editing. RR: Conceptualization, Funding acquisition, Writing&#x2013;review and editing. SN: Conceptualization, Data curation, Formal Analysis, Funding acquisition, Project administration, Writing&#x2013;review and editing.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s8">
+      <title>Conflict of interest</title>
+      <p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+      <p>The author(s) declared that they were an editorial board member of Frontiers, at the time of submission. This had no impact on the peer review process and the final decision.</p>
+    </sec>
+    <sec sec-type="disclaimer" id="s9">
+      <title>Publisher&#x2019;s note</title>
+      <p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+    </sec>
+    <sec id="s10">
+      <title>Supplementary material</title>
+      <p>The Supplementary Material for this article can be found online at: <ext-link xlink:href="https://www.frontiersin.org/articles/10.3389/fcell.2024.1397931/full#supplementary-material" ext-link-type="uri">https://www.frontiersin.org/articles/10.3389/fcell.2024.1397931/full#supplementary-material</ext-link>
+</p>
+      <supplementary-material id="SM1" position="float" content-type="local-data">
+        <media xlink:href="DataSheet1.pdf"/>
+      </supplementary-material>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>AbouAlaiwi</surname><given-names>W. A.</given-names></name><name><surname>Ratnam</surname><given-names>S.</given-names></name><name><surname>Booth</surname><given-names>R. L.</given-names></name><name><surname>Shah</surname><given-names>J. V.</given-names></name><name><surname>Nauli</surname><given-names>S. M.</given-names></name></person-group> (<year>2011</year>). <article-title>Endothelial cells from humans and mice with polycystic kidney disease are characterized by polyploidy and chromosome segregation defects through survivin down-regulation</article-title>. <source>Hum. Mol. Genet.</source>
+<volume>20</volume> (<issue>2</issue>), <fpage>354</fpage>&#x2013;<lpage>367</lpage>. <pub-id pub-id-type="doi">10.1093/hmg/ddq470</pub-id>
+<pub-id pub-id-type="pmid">21041232</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ahmadiankia</surname><given-names>N.</given-names></name><name><surname>Bagheri</surname><given-names>M.</given-names></name><name><surname>Fazli</surname><given-names>M.</given-names></name></person-group> (<year>2019</year>). <article-title>Nutrient deprivation modulates the metastatic potential of breast cancer cells</article-title>. <source>Rep. Biochem. Mol. Biol.</source>
+<volume>8</volume> (<issue>2</issue>), <fpage>139</fpage>&#x2013;<lpage>146</lpage>.<pub-id pub-id-type="pmid">31832437</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Albrecht</surname><given-names>C.</given-names></name><name><surname>Huck</surname><given-names>V.</given-names></name><name><surname>Wehling</surname><given-names>M.</given-names></name><name><surname>Wendler</surname><given-names>A.</given-names></name></person-group> (<year>2012</year>). <article-title>
+<italic>In vitro</italic> inhibition of SKOV-3 cell migration as a distinctive feature of progesterone receptor membrane component type 2 versus type 1</article-title>. <source>Steroids</source>
+<volume>77</volume> (<issue>14</issue>), <fpage>1543</fpage>&#x2013;<lpage>1550</lpage>. <pub-id pub-id-type="doi">10.1016/j.steroids.2012.09.006</pub-id>
+<pub-id pub-id-type="pmid">23064006</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ansley</surname><given-names>S. J.</given-names></name><name><surname>Badano</surname><given-names>J. L.</given-names></name><name><surname>Blacque</surname><given-names>O. E.</given-names></name><name><surname>Hill</surname><given-names>J.</given-names></name><name><surname>Hoskins</surname><given-names>B. E.</given-names></name><name><surname>Leitch</surname><given-names>C. C.</given-names></name><etal/></person-group> (<year>2003</year>). <article-title>Basal body dysfunction is a likely cause of pleiotropic Bardet&#x2013;Biedl syndrome</article-title>. <source>Nature</source>
+<volume>425</volume> (<issue>6958</issue>), <fpage>628</fpage>&#x2013;<lpage>633</lpage>. <pub-id pub-id-type="doi">10.1038/nature02030</pub-id>
+<pub-id pub-id-type="pmid">14520415</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bartel</surname><given-names>D. P.</given-names></name></person-group> (<year>2004</year>). <article-title>MicroRNAs: genomics, biogenesis, mechanism, and function</article-title>. <source>Cell</source>
+<volume>116</volume> (<issue>2</issue>), <fpage>281</fpage>&#x2013;<lpage>297</lpage>. <pub-id pub-id-type="doi">10.1016/s0092-8674(04)00045-5</pub-id>
+<pub-id pub-id-type="pmid">14744438</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brill</surname><given-names>A. L.</given-names></name><name><surname>Fischer</surname><given-names>T. T.</given-names></name><name><surname>Walters</surname><given-names>J. M.</given-names></name><name><surname>Marlier</surname><given-names>A.</given-names></name><name><surname>Sewanan</surname><given-names>L. R.</given-names></name><name><surname>Wilson</surname><given-names>P. C.</given-names></name><etal/></person-group> (<year>2020</year>). <article-title>Polycystin 2 is increased in disease to protect against stress-induced cell death</article-title>. <source>Sci. Rep.</source>
+<volume>10</volume> (<issue>1</issue>), <fpage>386</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-019-57286-x</pub-id>
+<pub-id pub-id-type="pmid">31941974</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bueno</surname><given-names>M. J.</given-names></name><name><surname>Malumbres</surname><given-names>M.</given-names></name></person-group> (<year>2011</year>). <article-title>MicroRNAs and the cell cycle</article-title>. <source>Biochim. Biophys. Acta</source>
+<volume>1812</volume> (<issue>5</issue>), <fpage>592</fpage>&#x2013;<lpage>601</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbadis.2011.02.002</pub-id>
+<pub-id pub-id-type="pmid">21315819</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>C.</given-names></name><name><surname>Lu</surname><given-names>Z.</given-names></name><name><surname>Yang</surname><given-names>J.</given-names></name><name><surname>Hao</surname><given-names>W.</given-names></name><name><surname>Qin</surname><given-names>Y.</given-names></name><name><surname>Wang</surname><given-names>H.</given-names></name><etal/></person-group> (<year>2016</year>). <article-title>MiR-17-5p promotes cancer cell proliferation and tumorigenesis in nasopharyngeal carcinoma by targeting p21</article-title>. <source>Cancer Med.</source>
+<volume>5</volume> (<issue>12</issue>), <fpage>3489</fpage>&#x2013;<lpage>3499</lpage>. <pub-id pub-id-type="doi">10.1002/cam4.863</pub-id>
+<pub-id pub-id-type="pmid">27774777</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>Q.</given-names></name><name><surname>Si</surname><given-names>Q.</given-names></name><name><surname>Xiao</surname><given-names>S.</given-names></name><name><surname>Xie</surname><given-names>Q.</given-names></name><name><surname>Lin</surname><given-names>J.</given-names></name><name><surname>Wang</surname><given-names>C.</given-names></name><etal/></person-group> (<year>2012</year>). <article-title>Prognostic significance of serum miR-17-5p in lung cancer</article-title>. <source>Med. Oncol.</source>
+<volume>30</volume> (<issue>1</issue>), <fpage>353</fpage>. <pub-id pub-id-type="doi">10.1007/s12032-012-0353-2</pub-id>
+<pub-id pub-id-type="pmid">23263848</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheng</surname><given-names>S.</given-names></name><name><surname>Altmeppen</surname><given-names>G.</given-names></name><name><surname>So</surname><given-names>C.</given-names></name><name><surname>Welp</surname><given-names>L. M.</given-names></name><name><surname>Penir</surname><given-names>S.</given-names></name><name><surname>Ruhwedel</surname><given-names>T.</given-names></name><etal/></person-group> (<year>2022</year>). <article-title>Mammalian oocytes store mRNAs in a mitochondria-associated membraneless compartment</article-title>. <source>Science.</source>
+<volume>378</volume> (<issue>6617</issue>), <fpage>eabq4835</fpage>. <pub-id pub-id-type="doi">10.1126/science.abq4835</pub-id>
+<pub-id pub-id-type="pmid">36264786</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cloonan</surname><given-names>N.</given-names></name><name><surname>Brown</surname><given-names>M. K.</given-names></name><name><surname>Steptoe</surname><given-names>A. L.</given-names></name><name><surname>Wani</surname><given-names>S.</given-names></name><name><surname>Chan</surname><given-names>W. L.</given-names></name><name><surname>Forrest</surname><given-names>A. R. R.</given-names></name><etal/></person-group> (<year>2008</year>). <article-title>The miR-17-5p microRNA is a key regulator of the G1/S phase cell cycle transition</article-title>. <source>Genome Biol.</source>
+<volume>9</volume> (<issue>8</issue>), <fpage>R127</fpage>. <pub-id pub-id-type="doi">10.1186/gb-2008-9-8-r127</pub-id>
+<pub-id pub-id-type="pmid">18700987</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Corbit</surname><given-names>K. C.</given-names></name><name><surname>Aanstad</surname><given-names>P.</given-names></name><name><surname>Singla</surname><given-names>V.</given-names></name><name><surname>Norman</surname><given-names>A. R.</given-names></name><name><surname>Stainier</surname><given-names>D. Y.</given-names></name><name><surname>Reiter</surname><given-names>J. F.</given-names></name></person-group> (<year>2005</year>). <article-title>Vertebrate Smoothened functions at the primary cilium</article-title>. <source>Nature</source>
+<volume>437</volume> (<issue>7061</issue>), <fpage>1018</fpage>&#x2013;<lpage>1021</lpage>. <pub-id pub-id-type="doi">10.1038/nature04117</pub-id>
+<pub-id pub-id-type="pmid">16136078</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Denli</surname><given-names>A. M.</given-names></name><name><surname>Tops</surname><given-names>B. B.</given-names></name><name><surname>Plasterk</surname><given-names>R. H.</given-names></name><name><surname>Ketting</surname><given-names>R. F.</given-names></name><name><surname>Hannon</surname><given-names>G. J.</given-names></name></person-group> (<year>2004</year>). <article-title>Processing of primary microRNAs by the Microprocessor complex</article-title>. <source>Nature</source>
+<volume>432</volume> (<issue>7014</issue>), <fpage>231</fpage>&#x2013;<lpage>235</lpage>. <pub-id pub-id-type="doi">10.1038/nature03049</pub-id>
+<pub-id pub-id-type="pmid">15531879</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fang</surname><given-names>L. L.</given-names></name><name><surname>Wang</surname><given-names>X. H.</given-names></name><name><surname>Sun</surname><given-names>B. F.</given-names></name><name><surname>Zhang</surname><given-names>X. D.</given-names></name><name><surname>Zhu</surname><given-names>X. H.</given-names></name><name><surname>Yu</surname><given-names>Z. J.</given-names></name><etal/></person-group> (<year>2017</year>). <article-title>Expression, regulation and mechanism of action of the miR-17-92 cluster in tumor cells (Review)</article-title>. <source>Int. J. Mol. Med.</source>
+<volume>40</volume> (<issue>6</issue>), <fpage>1624</fpage>&#x2013;<lpage>1630</lpage>. <pub-id pub-id-type="doi">10.3892/ijmm.2017.3164</pub-id>
+<pub-id pub-id-type="pmid">29039606</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goto</surname><given-names>H.</given-names></name><name><surname>Inoko</surname><given-names>A.</given-names></name><name><surname>Inagaki</surname><given-names>M.</given-names></name></person-group> (<year>2013</year>). <article-title>Cell cycle progression by the repression of primary cilia formation in proliferating cells</article-title>. <source>Cell Mol. Life Sci.</source>
+<volume>70</volume> (<issue>20</issue>), <fpage>3893</fpage>&#x2013;<lpage>3905</lpage>. <pub-id pub-id-type="doi">10.1007/s00018-013-1302-8</pub-id>
+<pub-id pub-id-type="pmid">23475109</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ha</surname><given-names>M.</given-names></name><name><surname>Kim</surname><given-names>V. N.</given-names></name></person-group> (<year>2014</year>). <article-title>Regulation of microRNA biogenesis</article-title>. <source>Nat. Rev. Mol. Cell Biol.</source>
+<volume>15</volume> (<issue>8</issue>), <fpage>509</fpage>&#x2013;<lpage>524</lpage>. <pub-id pub-id-type="doi">10.1038/nrm3838</pub-id>
+<pub-id pub-id-type="pmid">25027649</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hossian</surname><given-names>A.</given-names></name><name><surname>Mattheolabakis</surname><given-names>G.</given-names></name></person-group> (<year>2021</year>). <article-title>Cellular migration assay: an <italic>in vitro</italic> technique to simulate the wound repair mechanism</article-title>. <source>Methods Mol. Biol.</source>
+<volume>2193</volume>, <fpage>77</fpage>&#x2013;<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1007/978-1-0716-0845-6_8</pub-id>
+<pub-id pub-id-type="pmid">32808260</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hua</surname><given-names>K.</given-names></name><name><surname>Ferland</surname><given-names>R. J.</given-names></name></person-group> (<year>2018</year>). <article-title>Primary cilia proteins: ciliary and extraciliary sites and functions</article-title>. <source>Cell Mol. Life Sci.</source>
+<volume>75</volume> (<issue>9</issue>), <fpage>1521</fpage>&#x2013;<lpage>1540</lpage>. <pub-id pub-id-type="doi">10.1007/s00018-017-2740-5</pub-id>
+<pub-id pub-id-type="pmid">29305615</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ishikawa</surname><given-names>H.</given-names></name><name><surname>Marshall</surname><given-names>W. F.</given-names></name></person-group> (<year>2011</year>). <article-title>Ciliogenesis: building the cell's antenna</article-title>. <source>Nat. Rev. Mol. Cell Biol.</source>
+<volume>12</volume> (<issue>4</issue>), <fpage>222</fpage>&#x2013;<lpage>234</lpage>. <pub-id pub-id-type="doi">10.1038/nrm3085</pub-id>
+<pub-id pub-id-type="pmid">21427764</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jamal</surname><given-names>M. H.</given-names></name><name><surname>Nunes</surname><given-names>A. C. F.</given-names></name><name><surname>Vaziri</surname><given-names>N. D.</given-names></name><name><surname>Ramchandran</surname><given-names>R.</given-names></name><name><surname>Bacallao</surname><given-names>R. L.</given-names></name><name><surname>Nauli</surname><given-names>A. M.</given-names></name><etal/></person-group> (<year>2020</year>). <article-title>Rapamycin treatment correlates changes in primary cilia expression with cell cycle regulation in epithelial cells</article-title>. <source>Biochem. Pharmacol.</source>
+<volume>178</volume>, <fpage>114056</fpage>. <pub-id pub-id-type="doi">10.1016/j.bcp.2020.114056</pub-id>
+<pub-id pub-id-type="pmid">32470549</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jiang</surname><given-names>S.</given-names></name><name><surname>Li</surname><given-names>C.</given-names></name><name><surname>Olive</surname><given-names>V.</given-names></name><name><surname>Lykken</surname><given-names>E.</given-names></name><name><surname>Feng</surname><given-names>F.</given-names></name><name><surname>Sevilla</surname><given-names>J.</given-names></name><etal/></person-group> (<year>2011</year>). <article-title>Molecular dissection of the miR-17-92 cluster's critical dual roles in promoting Th1 responses and preventing inducible Treg differentiation</article-title>. <source>Blood</source>
+<volume>118</volume> (<issue>20</issue>), <fpage>5487</fpage>&#x2013;<lpage>5497</lpage>. <pub-id pub-id-type="doi">10.1182/blood-2011-05-355644</pub-id>
+<pub-id pub-id-type="pmid">21972292</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karami</surname><given-names>F.</given-names></name><name><surname>Mohammadi-Yeganeh</surname><given-names>S.</given-names></name><name><surname>Abedi</surname><given-names>N.</given-names></name><name><surname>Koochaki</surname><given-names>A.</given-names></name><name><surname>Kia</surname><given-names>V.</given-names></name><name><surname>Paryan</surname><given-names>M.</given-names></name></person-group> (<year>2016</year>). <article-title>Bioinformatics prediction and <italic>in vitro</italic> analysis revealed that miR-17 targets Cyclin D1 mRNA in triple negative breast cancer cells</article-title>. <source>Chem. Biol. Drug Des.</source>
+<volume>87</volume> (<issue>3</issue>), <fpage>317</fpage>&#x2013;<lpage>320</lpage>. <pub-id pub-id-type="doi">10.1111/cbdd.12671</pub-id>
+<pub-id pub-id-type="pmid">26431674</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kinjyo</surname><given-names>I.</given-names></name><name><surname>Qin</surname><given-names>J.</given-names></name><name><surname>Tan</surname><given-names>S. Y.</given-names></name><name><surname>Wellard</surname><given-names>C. J.</given-names></name><name><surname>Mrass</surname><given-names>P.</given-names></name><name><surname>Ritchie</surname><given-names>W.</given-names></name><etal/></person-group> (<year>2015</year>). <article-title>Real-time tracking of cell cycle progression during CD8+ effector and memory T-cell differentiation</article-title>. <source>Nat. Commun.</source>
+<volume>6</volume>, <fpage>6301</fpage>. <pub-id pub-id-type="doi">10.1038/ncomms7301</pub-id>
+<pub-id pub-id-type="pmid">25709008</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kong</surname><given-names>D.</given-names></name><name><surname>He</surname><given-names>M.</given-names></name><name><surname>Yang</surname><given-names>L.</given-names></name><name><surname>Zhou</surname><given-names>R.</given-names></name><name><surname>Yan</surname><given-names>Y.-Q.</given-names></name><name><surname>Liang</surname><given-names>Y.</given-names></name><etal/></person-group> (<year>2019</year>). <article-title>MiR-17 and miR-19 cooperatively promote skeletal muscle cell differentiation</article-title>. <source>Cell. Mol. Life Sci.</source>
+<volume>76</volume> (<issue>24</issue>), <fpage>5041</fpage>&#x2013;<lpage>5054</lpage>. <pub-id pub-id-type="doi">10.1007/s00018-019-03165-7</pub-id>
+<pub-id pub-id-type="pmid">31214725</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lakhia</surname><given-names>R.</given-names></name><name><surname>Ramalingam</surname><given-names>H.</given-names></name><name><surname>Chang</surname><given-names>C. M.</given-names></name><name><surname>Cobo-Stark</surname><given-names>P.</given-names></name><name><surname>Biggers</surname><given-names>L.</given-names></name><name><surname>Flaten</surname><given-names>A.</given-names></name><etal/></person-group> (<year>2022</year>). <article-title>PKD1 and PKD2 mRNA cis-inhibition drives polycystic kidney disease progression</article-title>. <source>Nat. Commun.</source>
+<volume>13</volume> (<issue>1</issue>), <fpage>4765</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-022-32543-2</pub-id>
+<pub-id pub-id-type="pmid">35965273</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>L.</given-names></name><name><surname>Shi</surname><given-names>B.</given-names></name><name><surname>Chen</surname><given-names>J.</given-names></name><name><surname>Li</surname><given-names>C.</given-names></name><name><surname>Wang</surname><given-names>S.</given-names></name><name><surname>Wang</surname><given-names>Z.</given-names></name><etal/></person-group> (<year>2017</year>). <article-title>An E2F1/MiR-17-92 negative feedback loop mediates proliferation of mouse palatal mesenchymal cells</article-title>. <source>Sci. Rep.</source>
+<volume>7</volume> (<issue>1</issue>), <fpage>5148</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-017-05479-7</pub-id>
+<pub-id pub-id-type="pmid">28698574</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lovera</surname><given-names>M.</given-names></name><name><surname>L&#xFC;ders</surname><given-names>J.</given-names></name></person-group> (<year>2021</year>). <article-title>The ciliary impact of nonciliary gene mutations</article-title>. <source>Trends Cell Biol.</source>
+<volume>31</volume> (<issue>11</issue>), <fpage>876</fpage>&#x2013;<lpage>887</lpage>. <pub-id pub-id-type="doi">10.1016/j.tcb.2021.06.001</pub-id>
+<pub-id pub-id-type="pmid">34183231</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lu</surname><given-names>Z.</given-names></name><name><surname>Li</surname><given-names>X.</given-names></name><name><surname>Xu</surname><given-names>Y.</given-names></name><name><surname>Chen</surname><given-names>M.</given-names></name><name><surname>Chen</surname><given-names>W.</given-names></name><name><surname>Chen</surname><given-names>T.</given-names></name><etal/></person-group> (<year>2019</year>). <article-title>microRNA-17 functions as an oncogene by downregulating Smad3 expression in hepatocellular carcinoma</article-title>. <source>Cell Death &amp; Dis.</source>
+<volume>10</volume> (<issue>10</issue>), <fpage>723</fpage>. <pub-id pub-id-type="doi">10.1038/s41419-019-1960-z</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mitchell</surname><given-names>K. A. P.</given-names></name></person-group> (<year>2013</year>). <article-title>Isolation of primary cilia by shear force</article-title>. <source>Curr. Protoc. Cell Biol.</source>
+<volume>3</volume> (<issue>3.42.1-3.9</issue>). <comment>Chapter</comment>. <pub-id pub-id-type="doi">10.1002/0471143030.cb0342s59</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mohieldin</surname><given-names>A. M.</given-names></name><name><surname>Haymour</surname><given-names>H. S.</given-names></name><name><surname>Lo</surname><given-names>S. T.</given-names></name><name><surname>AbouAlaiwi</surname><given-names>W. A.</given-names></name><name><surname>Atkinson</surname><given-names>K. F.</given-names></name><name><surname>Ward</surname><given-names>C. J.</given-names></name><etal/></person-group> (<year>2015</year>). <article-title>Protein composition and movements of membrane swellings associated with primary cilia</article-title>. <source>Cell Mol. Life Sci.</source>
+<volume>72</volume> (<issue>12</issue>), <fpage>2415</fpage>&#x2013;<lpage>2429</lpage>. <pub-id pub-id-type="doi">10.1007/s00018-015-1838-x</pub-id>
+<pub-id pub-id-type="pmid">25650235</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mohieldin</surname><given-names>A. M.</given-names></name><name><surname>Pala</surname><given-names>R.</given-names></name><name><surname>Sherpa</surname><given-names>R. T.</given-names></name><name><surname>Alanazi</surname><given-names>M.</given-names></name><name><surname>Alanazi</surname><given-names>A.</given-names></name><name><surname>Shamloo</surname><given-names>K.</given-names></name><etal/></person-group> (<year>2020</year>). <article-title>Proteomic identification reveals the role of ciliary extracellular-like vesicle in cardiovascular function</article-title>. <source>Adv. Sci. (Weinh)</source>
+<volume>7</volume> (<issue>16</issue>), <fpage>1903140</fpage>. <pub-id pub-id-type="doi">10.1002/advs.201903140</pub-id>
+<pub-id pub-id-type="pmid">32832346</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nauli</surname><given-names>S. M.</given-names></name><name><surname>Alenghat</surname><given-names>F. J.</given-names></name><name><surname>Luo</surname><given-names>Y.</given-names></name><name><surname>Williams</surname><given-names>E.</given-names></name><name><surname>Vassilev</surname><given-names>P.</given-names></name><name><surname>Li</surname><given-names>X.</given-names></name><etal/></person-group> (<year>2003</year>). <article-title>Polycystins 1 and 2 mediate mechanosensation in the primary cilium of kidney cells</article-title>. <source>Nat. Genet.</source>
+<volume>33</volume> (<issue>2</issue>), <fpage>129</fpage>&#x2013;<lpage>137</lpage>. <pub-id pub-id-type="doi">10.1038/ng1076</pub-id>
+<pub-id pub-id-type="pmid">12514735</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nigg</surname><given-names>E. A.</given-names></name><name><surname>Stearns</surname><given-names>T.</given-names></name></person-group> (<year>2011</year>). <article-title>The centrosome cycle: centriole biogenesis, duplication and inherent asymmetries</article-title>. <source>Nat. Cell Biol.</source>
+<volume>13</volume> (<issue>10</issue>), <fpage>1154</fpage>&#x2013;<lpage>1160</lpage>. <pub-id pub-id-type="doi">10.1038/ncb2345</pub-id>
+<pub-id pub-id-type="pmid">21968988</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Noureddine</surname><given-names>L.</given-names></name><name><surname>Hajarnis</surname><given-names>S.</given-names></name><name><surname>Patel</surname><given-names>V.</given-names></name></person-group> (<year>2013</year>). <article-title>MicroRNAs and polycystic kidney disease</article-title>. <source>Drug Discov. Today Dis. Models</source>
+<volume>10</volume> (<issue>3</issue>), <fpage>e137</fpage>&#x2013;<lpage>e1743</lpage>. <pub-id pub-id-type="doi">10.1016/j.ddmod.2013.10.001</pub-id>
+<pub-id pub-id-type="pmid">25221607</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>O&#x2019;Donnell</surname><given-names>K. A.</given-names></name><name><surname>Wentzel</surname><given-names>E. A.</given-names></name><name><surname>Zeller</surname><given-names>K. I.</given-names></name><name><surname>Dang</surname><given-names>C. V.</given-names></name><name><surname>Mendell</surname><given-names>J. T.</given-names></name></person-group> (<year>2005</year>). <article-title>c-Myc-regulated microRNAs modulate E2F1 expression</article-title>. <source>Nature</source>
+<volume>435</volume> (<issue>7043</issue>), <fpage>839</fpage>&#x2013;<lpage>843</lpage>. <pub-id pub-id-type="doi">10.1038/nature03677</pub-id>
+<pub-id pub-id-type="pmid">15944709</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patel</surname><given-names>V.</given-names></name><name><surname>Williams</surname><given-names>D.</given-names></name><name><surname>Hajarnis</surname><given-names>S.</given-names></name><name><surname>Hunter</surname><given-names>R.</given-names></name><name><surname>Pontoglio</surname><given-names>M.</given-names></name><name><surname>Somlo</surname><given-names>S.</given-names></name><etal/></person-group> (<year>2013a</year>). <article-title>miR-17&#x223C;92 miRNA cluster promotes kidney cyst growth in polycystic kidney disease</article-title>. <source>Proc. Natl. Acad. Sci.</source>
+<volume>110</volume> (<issue>26</issue>), <fpage>10765</fpage>&#x2013;<lpage>10770</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1301693110</pub-id>
+<pub-id pub-id-type="pmid">23759744</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patel</surname><given-names>V.</given-names></name><name><surname>Williams</surname><given-names>D.</given-names></name><name><surname>Hajarnis</surname><given-names>S.</given-names></name><name><surname>Hunter</surname><given-names>R.</given-names></name><name><surname>Pontoglio</surname><given-names>M.</given-names></name><name><surname>Somlo</surname><given-names>S.</given-names></name><etal/></person-group> (<year>2013b</year>). <article-title>miR-17&#x223C;92 miRNA cluster promotes kidney cyst growth in polycystic kidney disease</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<volume>110</volume> (<issue>26</issue>), <fpage>10765</fpage>&#x2013;<lpage>10770</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1301693110</pub-id>
+<pub-id pub-id-type="pmid">23759744</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pazour</surname><given-names>G. J.</given-names></name><name><surname>Dickert</surname><given-names>B. L.</given-names></name><name><surname>Vucica</surname><given-names>Y.</given-names></name><name><surname>Seeley</surname><given-names>E. S.</given-names></name><name><surname>Rosenbaum</surname><given-names>J. L.</given-names></name><name><surname>Witman</surname><given-names>G. B.</given-names></name><etal/></person-group> (<year>2000</year>). <article-title>Chlamydomonas IFT88 and its mouse homologue, polycystic kidney disease gene tg737, are required for assembly of cilia and flagella</article-title>. <source>J. Cell Biol.</source>
+<volume>151</volume> (<issue>3</issue>), <fpage>709</fpage>&#x2013;<lpage>718</lpage>. <pub-id pub-id-type="doi">10.1083/jcb.151.3.709</pub-id>
+<pub-id pub-id-type="pmid">11062270</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Plotnikova</surname><given-names>O. V.</given-names></name><name><surname>Pugacheva</surname><given-names>E. N.</given-names></name><name><surname>Golemis</surname><given-names>E. A.</given-names></name></person-group> (<year>2009</year>). <article-title>Primary cilia and the cell cycle</article-title>. <source>Methods Cell Biol.</source>
+<volume>94</volume>, <fpage>137</fpage>&#x2013;<lpage>160</lpage>. <pub-id pub-id-type="doi">10.1016/S0091-679X(08)94007-3</pub-id>
+<pub-id pub-id-type="pmid">20362089</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Praetorius</surname><given-names>H.</given-names></name><name><surname>Spring</surname><given-names>K.</given-names></name></person-group> (<year>2003</year>). <article-title>Removal of the MDCK cell primary cilium abolishes flow sensing</article-title>. <source>J. Membr. Biol.</source>
+<volume>191</volume>, <fpage>69</fpage>&#x2013;<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1007/s00232-002-1042-4</pub-id>
+<pub-id pub-id-type="pmid">12532278</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Putnam</surname><given-names>A.</given-names></name><name><surname>Thomas</surname><given-names>L.</given-names></name><name><surname>Seydoux</surname><given-names>G.</given-names></name></person-group> (<year>2023</year>). <article-title>RNA granules: functional compartments or incidental condensates?</article-title>
+<source>Genes Dev.</source>
+<volume>37</volume> (<issue>9-10</issue>), <fpage>354</fpage>&#x2013;<lpage>376</lpage>. <pub-id pub-id-type="doi">10.1101/gad.350518.123</pub-id>
+<pub-id pub-id-type="pmid">37137715</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Raut</surname><given-names>G. K.</given-names></name><name><surname>Chakrabarti</surname><given-names>M.</given-names></name><name><surname>Pamarthy</surname><given-names>D.</given-names></name><name><surname>Bhadra</surname><given-names>M. P.</given-names></name></person-group> (<year>2019</year>). <article-title>Glucose starvation-induced oxidative stress causes mitochondrial dysfunction and apoptosis via Prohibitin 1 upregulation in human breast cancer cells</article-title>. <source>Free Radic. Biol. Med.</source>
+<volume>145</volume>, <fpage>428</fpage>&#x2013;<lpage>441</lpage>. <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2019.09.020</pub-id>
+<pub-id pub-id-type="pmid">31614178</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reinhart</surname><given-names>B. J.</given-names></name><name><surname>Slack</surname><given-names>F. J.</given-names></name><name><surname>Basson</surname><given-names>M.</given-names></name><name><surname>Pasquinelli</surname><given-names>A. E.</given-names></name><name><surname>Bettinger</surname><given-names>J. C.</given-names></name><name><surname>Rougvie</surname><given-names>A. E.</given-names></name><etal/></person-group> (<year>2000</year>). <article-title>The 21-nucleotide let-7 RNA regulates developmental timing in <italic>Caenorhabditis elegans</italic>
+</article-title>. <source>Nature</source>
+<volume>403</volume> (<issue>6772</issue>), <fpage>901</fpage>&#x2013;<lpage>906</lpage>. <pub-id pub-id-type="doi">10.1038/35002607</pub-id>
+<pub-id pub-id-type="pmid">10706289</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B44">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shan</surname><given-names>S. W.</given-names></name><name><surname>Lee</surname><given-names>D. Y.</given-names></name><name><surname>Deng</surname><given-names>Z.</given-names></name><name><surname>Shatseva</surname><given-names>T.</given-names></name><name><surname>Jeyapalan</surname><given-names>Z.</given-names></name><name><surname>Du</surname><given-names>W. W.</given-names></name><etal/></person-group> (<year>2009</year>). <article-title>MicroRNA MiR-17 retards tissue growth and represses fibronectin expression</article-title>. <source>Nat. Cell Biol.</source>
+<volume>11</volume> (<issue>8</issue>), <fpage>1031</fpage>&#x2013;<lpage>1038</lpage>. <pub-id pub-id-type="doi">10.1038/ncb1917</pub-id>
+<pub-id pub-id-type="pmid">19633662</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B45">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shao</surname><given-names>L.</given-names></name><name><surname>El-Jouni</surname><given-names>W.</given-names></name><name><surname>Kong</surname><given-names>F.</given-names></name><name><surname>Ramesh</surname><given-names>J.</given-names></name><name><surname>Kumar</surname><given-names>R. S.</given-names></name><name><surname>Shen</surname><given-names>X.</given-names></name><etal/></person-group> (<year>2020</year>). <article-title>Genetic reduction of cilium length by targeting intraflagellar transport 88 protein impedes kidney and liver cyst formation in mouse models of autosomal polycystic kidney disease</article-title>. <source>Kidney Int.</source>
+<volume>98</volume> (<issue>5</issue>), <fpage>1225</fpage>&#x2013;<lpage>1241</lpage>. <pub-id pub-id-type="doi">10.1016/j.kint.2020.05.049</pub-id>
+<pub-id pub-id-type="pmid">32610050</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B46">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sherpa</surname><given-names>R. T.</given-names></name><name><surname>Mohieldin</surname><given-names>A. M.</given-names></name><name><surname>Pala</surname><given-names>R.</given-names></name><name><surname>Wachten</surname><given-names>D.</given-names></name><name><surname>Ostrom</surname><given-names>R. S.</given-names></name><name><surname>Nauli</surname><given-names>S. M.</given-names></name></person-group> (<year>2019</year>). <article-title>Sensory primary cilium is a responsive cAMP microdomain in renal epithelia</article-title>. <source>Sci. Rep.</source>
+<volume>9</volume> (<issue>1</issue>), <fpage>6523</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-019-43002-2</pub-id>
+<pub-id pub-id-type="pmid">31024067</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B47">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Singla</surname><given-names>V.</given-names></name><name><surname>Reiter</surname><given-names>J. F.</given-names></name></person-group> (<year>2006</year>). <article-title>The primary cilium as the cell's antenna: signaling at a sensory organelle</article-title>. <source>Science</source>
+<volume>313</volume> (<issue>5787</issue>), <fpage>629</fpage>&#x2013;<lpage>633</lpage>. <pub-id pub-id-type="doi">10.1126/science.1124534</pub-id>
+<pub-id pub-id-type="pmid">16888132</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B48">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Song</surname><given-names>J.</given-names></name><name><surname>Liu</surname><given-names>Y.</given-names></name><name><surname>Wang</surname><given-names>T.</given-names></name><name><surname>Li</surname><given-names>B.</given-names></name><name><surname>Zhang</surname><given-names>S.</given-names></name></person-group> (<year>2020</year>). <article-title>MiR-17-5p promotes cellular proliferation and invasiveness by targeting RUNX3 in gastric cancer</article-title>. <source>Biomed. &amp; Pharmacother.</source>
+<volume>128</volume>, <fpage>110246</fpage>. <pub-id pub-id-type="doi">10.1016/j.biopha.2020.110246</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B49">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sun</surname><given-names>G.</given-names></name><name><surname>SiMa</surname><given-names>G.</given-names></name><name><surname>Wu</surname><given-names>C.</given-names></name><name><surname>Fan</surname><given-names>Y.</given-names></name><name><surname>Tan</surname><given-names>Y.</given-names></name><name><surname>Wang</surname><given-names>Z.</given-names></name><etal/></person-group> (<year>2018</year>). <article-title>Decreased MiR-17 in glioma cells increased cell viability and migration by increasing the expression of Cyclin D1, p-Akt and Akt</article-title>. <source>PLoS One</source>
+<volume>13</volume> (<issue>1</issue>), <fpage>e0190515</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0190515</pub-id>
+<pub-id pub-id-type="pmid">29351283</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B50">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sweat</surname><given-names>Y.</given-names></name><name><surname>Ries</surname><given-names>R. J.</given-names></name><name><surname>Sweat</surname><given-names>M.</given-names></name><name><surname>Su</surname><given-names>D.</given-names></name><name><surname>Shao</surname><given-names>F.</given-names></name><name><surname>Eliason</surname><given-names>S.</given-names></name><etal/></person-group> (<year>2021</year>). <article-title>miR-17 acts as a tumor suppressor by negatively regulating the miR-17-92 cluster</article-title>. <source>Mol. Ther. Nucleic Acids</source>
+<volume>26</volume>, <fpage>1148</fpage>&#x2013;<lpage>1158</lpage>. <pub-id pub-id-type="doi">10.1016/j.omtn.2021.10.021</pub-id>
+<pub-id pub-id-type="pmid">34853714</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B51">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Todaro</surname><given-names>G. J.</given-names></name><name><surname>Lazar</surname><given-names>G. K.</given-names></name><name><surname>Green</surname><given-names>H.</given-names></name></person-group> (<year>1965</year>). <article-title>The initiation of cell division in a contact-inhibited mammalian cell line</article-title>. <source>J. Cell Physiol.</source>
+<volume>66</volume> (<issue>3</issue>), <fpage>325</fpage>&#x2013;<lpage>333</lpage>. <pub-id pub-id-type="doi">10.1002/jcp.1030660310</pub-id>
+<pub-id pub-id-type="pmid">5884360</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B52">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trompeter</surname><given-names>H. I.</given-names></name><name><surname>Abbad</surname><given-names>H.</given-names></name><name><surname>Iwaniuk</surname><given-names>K. M.</given-names></name><name><surname>Hafner</surname><given-names>M.</given-names></name><name><surname>Renwick</surname><given-names>N.</given-names></name><name><surname>Tuschl</surname><given-names>T.</given-names></name><etal/></person-group> (<year>2011</year>). <article-title>MicroRNAs MiR-17, MiR-20a, and MiR-106b act in concert to modulate E2F activity on cell cycle arrest during neuronal lineage differentiation of USSC</article-title>. <source>PLoS One</source>
+<volume>6</volume> (<issue>1</issue>), <fpage>e16138</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0016138</pub-id>
+<pub-id pub-id-type="pmid">21283765</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B53">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Volinia</surname><given-names>S.</given-names></name><name><surname>Calin</surname><given-names>G. A.</given-names></name><name><surname>Liu</surname><given-names>C.-G.</given-names></name><name><surname>Ambs</surname><given-names>S.</given-names></name><name><surname>Cimmino</surname><given-names>A.</given-names></name><name><surname>Petrocca</surname><given-names>F.</given-names></name><etal/></person-group> (<year>2006</year>). <article-title>A microRNA expression signature of human solid tumors defines cancer gene targets</article-title>. <source>Proc. Natl. Acad. Sci.</source>
+<volume>103</volume> (<issue>7</issue>), <fpage>2257</fpage>&#x2013;<lpage>2261</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0510565103</pub-id>
+<pub-id pub-id-type="pmid">16461460</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B54">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>Y.</given-names></name><name><surname>Zheng</surname><given-names>J.</given-names></name><name><surname>Han</surname><given-names>Y.</given-names></name><name><surname>Zhang</surname><given-names>Y.</given-names></name><name><surname>Su</surname><given-names>L.</given-names></name><name><surname>Hu</surname><given-names>D.</given-names></name><etal/></person-group> (<year>2018</year>). <article-title>JAM-A knockdown accelerates the proliferation and migration of human keratinocytes, and improves wound healing in rats via FAK/Erk signaling</article-title>. <source>Cell Death Dis.</source>
+<volume>9</volume> (<issue>9</issue>), <fpage>848</fpage>. <pub-id pub-id-type="doi">10.1038/s41419-018-0941-y</pub-id>
+<pub-id pub-id-type="pmid">30154481</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="B55">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>X.</given-names></name><name><surname>Lv</surname><given-names>W.</given-names></name><name><surname>Yang</surname><given-names>Y.</given-names></name><name><surname>Yang</surname><given-names>J.</given-names></name><name><surname>Zhang</surname><given-names>H.</given-names></name><name><surname>Xu</surname><given-names>Z.</given-names></name></person-group> (<year>2023</year>). <article-title>Progesterone receptor membrane component 2 regulates the neuronal activity and participates in epileptic seizures in experimental mice</article-title>. <comment>Ibrain.n/a(n/a)</comment>.</mixed-citation>
+      </ref>
+      <ref id="B56">
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>B.</given-names></name><name><surname>Wang</surname><given-names>Q.</given-names></name><name><surname>Pan</surname><given-names>X.</given-names></name></person-group> (<year>2007</year>). <article-title>MicroRNAs and their regulatory roles in animals and plants</article-title>. <source>J. Cell Physiol.</source>
+<volume>210</volume> (<issue>2</issue>), <fpage>279</fpage>&#x2013;<lpage>289</lpage>. <pub-id pub-id-type="doi">10.1002/jcp.20869</pub-id>
+<pub-id pub-id-type="pmid">17096367</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

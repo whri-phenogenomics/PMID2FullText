@@ -1,0 +1,1725 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Brain</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Brain</journal-id>
+      <journal-id journal-id-type="publisher-id">brainj</journal-id>
+      <journal-title-group>
+        <journal-title>Brain</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0006-8950</issn>
+      <issn pub-type="epub">1460-2156</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+        <publisher-loc>US</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">37459438</article-id>
+      <article-id pub-id-type="pmc">10629776</article-id>
+      <article-id pub-id-type="doi">10.1093/brain/awad235</article-id>
+      <article-id pub-id-type="publisher-id">awad235</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="category-taxonomy-collection">
+          <subject>AcademicSubjects/MED00310</subject>
+          <subject>AcademicSubjects/SCI01870</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>SLC4A10 mutation causes a neurological disorder associated with impaired GABAergic transmission</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7614-9202</contrib-id>
+          <name>
+            <surname>Fasham</surname>
+            <given-names>James</given-names>
+          </name>
+          <aff>
+<institution>RILD Wellcome Wolfson Centre, University of Exeter Medical School, Royal Devon University Healthcare NHS Foundation Trust</institution>, <addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <aff>
+<institution>Peninsula Clinical Genetics Service, Royal Devon University Healthcare NHS Foundation Trust</institution>, <addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <xref rid="awad235-FM2" ref-type="author-notes"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Huebner</surname>
+            <given-names>Antje K</given-names>
+          </name>
+          <aff>
+<institution>Institute of Human Genetics, Jena University Hospital, Friedrich Schiller Universit&#xE4;t</institution>, <addr-line>07747 Jena</addr-line>, <country country="DE">Germany</country></aff>
+          <xref rid="awad235-FM2" ref-type="author-notes"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liebmann</surname>
+            <given-names>Lutz</given-names>
+          </name>
+          <aff>
+<institution>Institute of Human Genetics, Jena University Hospital, Friedrich Schiller Universit&#xE4;t</institution>, <addr-line>07747 Jena</addr-line>, <country country="DE">Germany</country></aff>
+          <xref rid="awad235-FM2" ref-type="author-notes"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Khalaf-Nazzal</surname>
+            <given-names>Reham</given-names>
+          </name>
+          <aff>
+<institution>Department of Biomedical Sciences, Faculty of Medicine, Arab American University of Palestine</institution>, <addr-line>Jenin, P227</addr-line>, <country country="PS">Palestine</country></aff>
+          <xref rid="awad235-FM2" ref-type="author-notes"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6763-1542</contrib-id>
+          <name>
+            <surname>Maroofian</surname>
+            <given-names>Reza</given-names>
+          </name>
+          <aff>
+<institution>Molecular and Clinical Sciences Institute, St. George&#x2019;s University of London</institution>, <addr-line>London SW17 0RE</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kryeziu</surname>
+            <given-names>Nderim</given-names>
+          </name>
+          <aff>
+<institution>Institute of Human Genetics, Jena University Hospital, Friedrich Schiller Universit&#xE4;t</institution>, <addr-line>07747 Jena</addr-line>, <country country="DE">Germany</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wortmann</surname>
+            <given-names>Saskia B</given-names>
+          </name>
+          <aff>
+<institution>University Children&#x2019;s Hospital, Salzburger Landeskliniken (SALK) and Paracelsus Medical University (PMU)</institution>, <addr-line>5020 Salzburg</addr-line>, <country country="AT">Austria</country></aff>
+          <aff>
+<institution>Amalia Children&#x2019;s Hospital, Radboudumc</institution>, <addr-line>6525 GA Nijmegen</addr-line>, <country country="NL">The Netherlands</country></aff>
+          <aff>
+<institution>Institute of Human Genetics, Technische Universit&#xE4;t M&#xFC;nchen</institution>, <addr-line>80333 Munich</addr-line>, <country country="DE">Germany</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0972-8818</contrib-id>
+          <name>
+            <surname>Leslie</surname>
+            <given-names>Joseph S</given-names>
+          </name>
+          <aff>
+<institution>RILD Wellcome Wolfson Centre, University of Exeter Medical School, Royal Devon University Healthcare NHS Foundation Trust</institution>, <addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ubeyratna</surname>
+            <given-names>Nishanka</given-names>
+          </name>
+          <aff>
+<institution>RILD Wellcome Wolfson Centre, University of Exeter Medical School, Royal Devon University Healthcare NHS Foundation Trust</institution>, <addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1211-9979</contrib-id>
+          <name>
+            <surname>Mancini</surname>
+            <given-names>Grazia M S</given-names>
+          </name>
+          <aff>
+<institution>Department of Clinical Genetics, Erasmus Medical Center</institution>, <addr-line>3015 GD Rotterdam</addr-line>, <country country="NL">The Netherlands</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>van Slegtenhorst</surname>
+            <given-names>Marjon</given-names>
+          </name>
+          <aff>
+<institution>Department of Clinical Genetics, Erasmus Medical Center</institution>, <addr-line>3015 GD Rotterdam</addr-line>, <country country="NL">The Netherlands</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wilke</surname>
+            <given-names>Martina</given-names>
+          </name>
+          <aff>
+<institution>Department of Clinical Genetics, Erasmus Medical Center</institution>, <addr-line>3015 GD Rotterdam</addr-line>, <country country="NL">The Netherlands</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Haack</surname>
+            <given-names>Tobias B</given-names>
+          </name>
+          <aff>
+<institution>Institute of Medical Genetics and Applied Genomics, University of Tuebingen</institution>, <addr-line>72076 T&#xFC;bingen</addr-line>, <country country="DE">Germany</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shamseldin</surname>
+            <given-names>Hanan E</given-names>
+          </name>
+          <aff>
+<institution>Department of Translational Genomics, Center for Genomic Medicine, King Faisal Specialist Hospital and Research Center</institution>, <addr-line>Riyadh 11564</addr-line>, <country country="SA">Saudi Arabia</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gleeson</surname>
+            <given-names>Joseph G</given-names>
+          </name>
+          <aff>
+<institution>Rady Children&#x2019;s Institute for Genomic Medicine</institution>, <addr-line>San Diego, CA 92123</addr-line>, <country country="US">USA</country></aff>
+          <aff>
+<institution>Department of Neurosciences, University of California, San Diego</institution>, <addr-line>La Jolla, CA 92093</addr-line>, <country country="US">USA</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1050-3117</contrib-id>
+          <name>
+            <surname>Almuhaizea</surname>
+            <given-names>Mohamed</given-names>
+          </name>
+          <aff>
+<institution>Department of Neuroscience, King Faisal Specialist Hospital and Research Center</institution>, <addr-line>Riyadh 11564</addr-line>, <country country="SA">Saudi Arabia</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dweikat</surname>
+            <given-names>Imad</given-names>
+          </name>
+          <aff>
+<institution>Department of Biomedical Sciences, Faculty of Medicine, Arab American University of Palestine</institution>, <addr-line>Jenin, P227</addr-line>, <country country="PS">Palestine</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abu-Libdeh</surname>
+            <given-names>Bassam</given-names>
+          </name>
+          <aff>
+<institution>Department of Pediatrics and Genetics, Makassed Hospital and Al-Quds University</institution>, <addr-line>East Jerusalem, 95908</addr-line>, <country country="PS">Palestine</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Daana</surname>
+            <given-names>Muhannad</given-names>
+          </name>
+          <aff>
+<institution>Department of Pediatrics, Arab Women&#x2019;s Union Hospital</institution>, <addr-line>Nablus, P400</addr-line>, <country country="PS">Palestine</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zaki</surname>
+            <given-names>Maha S</given-names>
+          </name>
+          <aff>
+<institution>Clinical Genetics Department, Human Genetics and Genome Research Institute, National Research Centre, Dokki</institution>, <addr-line>Cairo 12622</addr-line>, <country country="EG">Egypt</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wakeling</surname>
+            <given-names>Matthew N</given-names>
+          </name>
+          <aff>
+<institution>RILD Wellcome Wolfson Centre, University of Exeter Medical School, Royal Devon University Healthcare NHS Foundation Trust</institution>, <addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>McGavin</surname>
+            <given-names>Lucy</given-names>
+          </name>
+          <aff>
+<institution>Department of Radiology, Derriford Hospital</institution>, <addr-line>Plymouth PL6 8DH</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Turnpenny</surname>
+            <given-names>Peter D</given-names>
+          </name>
+          <aff>
+<institution>RILD Wellcome Wolfson Centre, University of Exeter Medical School, Royal Devon University Healthcare NHS Foundation Trust</institution>, <addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <aff>
+<institution>Peninsula Clinical Genetics Service, Royal Devon University Healthcare NHS Foundation Trust</institution>, <addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4158-341X</contrib-id>
+          <name>
+            <surname>Alkuraya</surname>
+            <given-names>Fowzan S</given-names>
+          </name>
+          <aff>
+<institution>Department of Translational Genomics, Center for Genomic Medicine, King Faisal Specialist Hospital and Research Center</institution>, <addr-line>Riyadh 11564</addr-line>, <country country="SA">Saudi Arabia</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2866-7777</contrib-id>
+          <name>
+            <surname>Houlden</surname>
+            <given-names>Henry</given-names>
+          </name>
+          <aff>
+<institution>Molecular and Clinical Sciences Institute, St. George&#x2019;s University of London</institution>, <addr-line>London SW17 0RE</addr-line>, <country country="GB">UK</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schlattmann</surname>
+            <given-names>Peter</given-names>
+          </name>
+          <aff>
+<institution>Institute for Medical Statistics, Computer Science and Data Science, Jena University Hospital</institution>, <addr-line>07747 Jena</addr-line>, <country country="DE">Germany</country></aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kaila</surname>
+            <given-names>Kai</given-names>
+          </name>
+          <aff>
+<institution>Molecular and Integrative Biosciences, University of Helsinki</institution>, <addr-line>00014 Helsinki</addr-line>, <country country="FI">Finland</country></aff>
+          <aff>
+<institution>Neuroscience Center, Helsinki Institute of Life Science, University of Helsinki</institution>, <addr-line>00014 Helsinki</addr-line>, <country country="FI">Finland</country></aff>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3667-9054</contrib-id>
+          <name>
+            <surname>Crosby</surname>
+            <given-names>Andrew H</given-names>
+          </name>
+          <aff>
+<institution>RILD Wellcome Wolfson Centre, University of Exeter Medical School, Royal Devon University Healthcare NHS Foundation Trust</institution>, <addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <xref rid="awad235-FM2" ref-type="author-notes"/>
+          <xref rid="awad235-cor3" ref-type="corresp"/>
+          <!--a.h.crosby@exeter.ac.uk-->
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6637-3411</contrib-id>
+          <name>
+            <surname>Baple</surname>
+            <given-names>Emma L</given-names>
+          </name>
+          <aff>
+<institution>RILD Wellcome Wolfson Centre, University of Exeter Medical School, Royal Devon University Healthcare NHS Foundation Trust</institution>, <addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <aff>
+<institution>Peninsula Clinical Genetics Service, Royal Devon University Healthcare NHS Foundation Trust</institution>, <addr-line>Exeter EX2 5DW</addr-line>, <country country="GB">UK</country></aff>
+          <xref rid="awad235-FM2" ref-type="author-notes"/>
+          <xref rid="awad235-cor2" ref-type="corresp"/>
+          <!--E.Baple@exeter.ac.uk-->
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>H&#xFC;bner</surname>
+            <given-names>Christian A</given-names>
+          </name>
+          <aff>
+<institution>Institute of Human Genetics, Jena University Hospital, Friedrich Schiller Universit&#xE4;t</institution>, <addr-line>07747 Jena</addr-line>, <country country="DE">Germany</country></aff>
+          <aff>
+<institution>Center for Rare Diseases, Jena University Hospital</institution>, <addr-line>Friedrich Schiller Universit&#xE4;t, 07747 Jena</addr-line>, <country country="DE">Germany</country></aff>
+          <xref rid="awad235-FM2" ref-type="author-notes"/>
+          <xref rid="awad235-cor1" ref-type="corresp"/>
+          <!--christian.huebner@med.uni-jena.de-->
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <corresp id="awad235-cor1">Correspondence to: Prof. Christian A. H&#xFC;bner Institute of Human Genetics, University Hospital Jena, Friedrich Schiller Universit&#xE4;t, Jena, 07747, Germany E-mail: <email>christian.huebner@med.uni-jena.de</email></corresp>
+        <corresp id="awad235-cor2">Correspondence may also be addressed to: Prof. Emma L. Baple RILD Wellcome Wolfson Centre, University of Exeter Medical School, Royal Devon University Healthcare NHS Foundation Trust, Barrack Rd, Exeter EX2 5DW, UK E-mail: <email>e.baple@exeter.ac.uk</email></corresp>
+        <corresp id="awad235-cor3">Prof.Andrew H. Crosby E-mail: <email>a.h.crosby@exeter.ac.uk</email></corresp>
+        <fn id="awad235-FM2">
+          <p>
+<bold>These authors contributed equally to this work.</bold>
+</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="epub" iso-8601-date="2023-07-17">
+        <day>17</day>
+        <month>7</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>17</day>
+        <month>7</month>
+        <year>2023</year>
+      </pub-date>
+      <volume>146</volume>
+      <issue>11</issue>
+      <fpage>4547</fpage>
+      <lpage>4561</lpage>
+      <history>
+        <date date-type="received">
+          <day>08</day>
+          <month>4</month>
+          <year>2022</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>19</day>
+          <month>5</month>
+          <year>2023</year>
+        </date>
+        <date date-type="accepted">
+          <day>06</day>
+          <month>6</month>
+          <year>2023</year>
+        </date>
+        <date date-type="corrected-typeset">
+          <day>11</day>
+          <month>10</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2023. Published by Oxford University Press on behalf of the Guarantors of Brain.</copyright-statement>
+        <copyright-year>2023</copyright-year>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="awad235.pdf"/>
+      <abstract>
+        <title>Abstract</title>
+        <p>SLC4A10 is a plasma-membrane bound transporter that utilizes the Na<sup>+</sup> gradient to drive cellular HCO<sub>3</sub><sup>&#x2212;</sup> uptake, thus mediating acid extrusion. In the mammalian brain, <italic toggle="yes">SLC4A10</italic> is expressed in principal neurons and interneurons, as well as in epithelial cells of the choroid plexus, the organ regulating the production of CSF.</p>
+        <p>Using next generation sequencing on samples from five unrelated families encompassing nine affected individuals, we show that biallelic <italic toggle="yes">SLC4A10</italic> loss-of-function variants cause a clinically recognizable neurodevelopmental disorder in humans. The cardinal clinical features of the condition include hypotonia in infancy, delayed psychomotor development across all domains and intellectual impairment. Affected individuals commonly display traits associated with autistic spectrum disorder including anxiety, hyperactivity and stereotyped movements. In two cases isolated episodes of seizures were reported in the first few years of life, and a further affected child displayed bitemporal epileptogenic discharges on EEG without overt clinical seizures. While occipitofrontal circumference was reported to be normal at birth, progressive postnatal microcephaly evolved in 7 out of 10 affected individuals. Neuroradiological features included a relative preservation of brain volume compared to occipitofrontal circumference, characteristic narrow sometimes &#x2018;slit-like&#x2019; lateral ventricles and corpus callosum abnormalities.</p>
+        <p>
+<italic toggle="yes">Slc4a10</italic>
+<sup>&#x2212;/&#x2212;</sup> mice, deficient for SLC4A10, also display small lateral brain ventricles and mild behavioural abnormalities including delayed habituation and alterations in the two-object novel object recognition task. Collapsed brain ventricles in both <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice and affected individuals suggest an important role of SLC4A10 in the production of the CSF. However, it is notable that despite diverse roles of the CSF in the developing and adult brain, the cortex of <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice appears grossly intact.</p>
+        <p>Co-staining with synaptic markers revealed that in neurons, SLC4A10 localizes to inhibitory, but not excitatory, presynapses. These findings are supported by our functional studies, which show the release of the inhibitory neurotransmitter GABA is compromised in <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice, while the release of the excitatory neurotransmitter glutamate is preserved. Manipulation of intracellular pH partially rescues GABA release.</p>
+        <p>Together our studies define a novel neurodevelopmental disorder associated with biallelic pathogenic variants in <italic toggle="yes">SLC4A10</italic> and highlight the importance of further analyses of the consequences of SLC4A10 loss-of-function for brain development, synaptic transmission and network properties.</p>
+      </abstract>
+      <abstract abstract-type="teaser">
+        <p>Fasham <italic toggle="yes">et al.</italic> show that biallelic loss-of-function variants in <italic toggle="yes">SLC4A10</italic> cause a neurodevelopmental disorder with learning difficulties, seizures and characteristic brain imaging features. Based on findings <italic toggle="yes">in vitro</italic> and <italic toggle="yes">in vivo</italic>, they propose that dysfunction of GABAergic transmission contributes to the disorder.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>acid-base</kwd>
+        <kwd>gamma aminobutyric acid</kwd>
+        <kwd>NBCN2</kwd>
+        <kwd>NCBE</kwd>
+        <kwd>intellectual disability</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>DFG</institution><institution-id institution-id-type="DOI">10.13039/100004807</institution-id></institution-wrap>
+</funding-source>
+          <award-id>HU 800/7-2</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>BMBF</institution><institution-id institution-id-type="DOI">10.13039/501100002347</institution-id></institution-wrap>
+</funding-source>
+          <award-id>01EW1706</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>MRC</institution><institution-id institution-id-type="DOI">10.13039/100018645</institution-id></institution-wrap>
+</funding-source>
+          <award-id>G1002279</award-id>
+          <award-id>G1001931</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Wellcome Trust</institution><institution-id institution-id-type="DOI">10.13039/100010269</institution-id></institution-wrap>
+</funding-source>
+          <award-id>GW4-CAT</award-id>
+          <award-id>220600/Z/20/Z</award-id>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Saudi Human Genome Program</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Sigrid Jus&#xE9;lius Foundation</institution><institution-id institution-id-type="DOI">10.13039/501100006306</institution-id></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group award-type="grant">
+          <funding-source>
+<institution-wrap><institution>Wellcome</institution><institution-id institution-id-type="DOI">10.13039/100004440</institution-id></institution-wrap>
+</funding-source>
+          <award-id>220600/Z/20/Z</award-id>
+        </award-group>
+      </funding-group>
+      <counts>
+        <page-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="awad235-s0">
+      <title>Introduction</title>
+      <p>A large variety of molecules involved in neuronal signalling, including ligand- and voltage-gated channels, show a remarkable sensitivity to changes in the intracellular and extracellular pH.<sup><xref rid="awad235-B1" ref-type="bibr">1&#x2013;4</xref></sup> As a rule, the excitability of neuronal networks is enhanced by alkalosis and suppressed by acidosis,<sup><xref rid="awad235-B5" ref-type="bibr">5&#x2013;7</xref></sup> which suggests a fundamental evolutionary role for pH as a neuromodulator during physiological and pathophysiological conditions. Numerous studies have provided evidence for mechanisms that control pH dynamics and actions in microdomains within<sup><xref rid="awad235-B8" ref-type="bibr">8&#x2013;13</xref></sup> and outside<sup><xref rid="awad235-B12" ref-type="bibr">12</xref></sup> brain cells based on the heterogeneous spatial patterns of expression of both pH-sensitive and pH-regulatory proteins, including plasmalemmal Na<sup>+</sup>/H<sup>+</sup> exchangers,<sup><xref rid="awad235-B14" ref-type="bibr">14</xref></sup> HCO<sub>3</sub><sup>&#x2212;</sup> transporters<sup><xref rid="awad235-B15" ref-type="bibr">15</xref>,<xref rid="awad235-B16" ref-type="bibr">16</xref></sup> as well as intra- and extracellular carbonic anhydrase isoforms.<sup><xref rid="awad235-B4" ref-type="bibr">4</xref></sup></p>
+      <p>In mammals, members of the SLC4<sup><xref rid="awad235-B15" ref-type="bibr">15</xref></sup> and SLC26<sup><xref rid="awad235-B16" ref-type="bibr">16</xref></sup> gene families have been identified as bicarbonate (HCO<sub>3</sub><sup>&#x2212;</sup>) transporters, many of which are associated with monogenic human diseases including distal renal tubular acidosis, haemolytic anaemia, corneal dystrophy, glaucoma and cataracts,<sup><xref rid="awad235-B15" ref-type="bibr">15</xref></sup> as well as chondrodysplasia, chloride diarrhoea, and hearing loss.<sup><xref rid="awad235-B17" ref-type="bibr">17</xref></sup> The SLC4 family includes Na<sup>+</sup>-independent Cl<sup>&#x2212;</sup>/HCO<sub>3</sub><sup>&#x2212;</sup> exchangers, electrogenic and electroneutral Na<sup>+</sup>-HCO<sub>3</sub><sup>&#x2212;</sup> cotransporters and Na<sup>+</sup>-driven Cl<sup>&#x2212;</sup>/HCO<sub>3</sub><sup>&#x2212;</sup> exchangers that mediate HCO<sub>3</sub><sup>&#x2212;</sup> transport across the plasma membrane<sup><xref rid="awad235-B15" ref-type="bibr">15</xref></sup> (<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 1</xref>). SLC4A10 utilizes the transmembrane gradient of Na<sup>+</sup> to drive cellular net uptake of HCO<sub>3</sub><sup>&#x2212;</sup>, and thus mediates acid extrusion. Both cytoplasmic and membrane-bound carbonic anhydrases are involved in the supply of bicarbonate and may thus increase transport rates.<sup><xref rid="awad235-B18" ref-type="bibr">18</xref></sup> To which extent this is relevant for SLC4A10-mediated transport is yet unclear. Some controversy exists as to whether it acts as an electroneutral Na<sup>+</sup>-HCO<sub>3</sub><sup>&#x2212;</sup> cotransporter (NBCn2), or a Na<sup>+</sup>-coupled Cl<sup>&#x2212;</sup>/HCO<sub>3</sub><sup>&#x2212;</sup> exchanger (NCBE) under physiological conditions.<sup><xref rid="awad235-B19" ref-type="bibr">19</xref>,<xref rid="awad235-B20" ref-type="bibr">20</xref></sup> The expression of <italic toggle="yes">SLC4A10</italic> is predominantly neuronal, but it is also expressed in choroid plexus epithelia<sup><xref rid="awad235-B21" ref-type="bibr">21</xref>,<xref rid="awad235-B22" ref-type="bibr">22</xref></sup> and in inner ear fibrocytes.<sup><xref rid="awad235-B23" ref-type="bibr">23</xref></sup> Mice deficient for SLC4A10 show a reduced brain ventricle size suggesting a role in transepithelial electrolyte transport and production of CSF.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> Although neuronal excitability was enhanced <italic toggle="yes">in vitro</italic>,<sup><xref rid="awad235-B24" ref-type="bibr">24</xref></sup> the experimental seizure threshold was paradoxically increased <italic toggle="yes">in vivo</italic><sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> and spontaneous seizures were not observed.</p>
+      <p>In humans, heterozygous genomic deletions comprising all or part of <italic toggle="yes">SLC4A10</italic> have been linked with autistic spectrum disorder, with additional features such as impaired motor and language skills or epilepsy.<sup><xref rid="awad235-B25" ref-type="bibr">25&#x2013;28</xref></sup> The causal relevance of these genomic alterations is, however, unclear, as the interpretation of these findings is complicated by contiguous gene deletion. Here, we provide clinical, genetic, functional and mouse-model evidence to determine that autosomal recessive SLC4A10 loss-of-function results in intellectual disability with striking radiological abnormalities of the lateral ventricles, closely mirroring findings in <italic toggle="yes">Slc4a10</italic> knockout (KO) mice. As SLC4A10 localizes to inhibitory presynapses and its disruption compromises &#x3B3;-aminobutyric acid (GABA) release, we propose that alterations of the GABAergic system contribute to the pathomechanistic basis of this neurodevelopmental disorder.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="awad235-s1">
+      <title>Materials and methods</title>
+      <sec id="awad235-s1.1">
+        <title>Clinical studies</title>
+        <p>All families were recruited with written informed consent according to international guidelines, including the Declaration of Helsinki, and regional ethical approvals (Palestinian Health Research Council PHRC/HC/518/19, Technische Universit&#xE4;t M&#xFC;nchen, Muenchen Exome Seq.: 5360/12 S, KFSHRC RAC # 2121053, Erasmus MC METC 2012-387, IRB protocol number 150765). Affected individuals were examined and investigated by local clinicians according to routine clinical standards relevant to their clinical presentation.</p>
+      </sec>
+      <sec id="awad235-s1.2">
+        <title>Genetic studies</title>
+        <p>DNA and RNA were extracted from blood/buccal samples using standard techniques. In all five families, whole genome sequencing (WGS) (Family 1) or whole exome sequencing (WES) (Families 2&#x2013;5) was undertaken to identify the cause of disease. Family pedigrees illustrating the relationships of affected and unaffected individuals in this study are shown in <xref rid="awad235-F1" ref-type="fig">Fig. 1</xref>. Unless otherwise specified, genomic variants were filtered based on call quality, predicted consequence, segregation with the disease phenotype and allele frequency in population databases (variants with a frequency of &gt;0.1% and/or present in &gt;1 homozygous individual in gnomAD v2.1.1, v3.1.1 or in-house databases were excluded). Homozygous, compound heterozygous, X chromosome and <italic toggle="yes">de novo</italic> (when trio sequencing undertaken) variants present in exons or within &#xB1;6 nucleotides in the intron that remained after filtering, were assessed for clinical correlation with the affected individual(s) phenotype.</p>
+        <fig position="float" id="awad235-F1" fig-type="figure">
+          <label>Figure 1</label>
+          <caption>
+            <p>
+<bold>Family pedigrees and biallelic <italic toggle="yes">SLC4A10</italic> variants.</bold> (<bold>A</bold>) Simplified family pedigrees for individuals affected with <italic toggle="yes">SLC4A10</italic>-related neurodevelopmental disorder, showing autosomal recessive segregation of <italic toggle="yes">SLC4A10</italic> variants. Co-segregation confirmed in other family members as indicated, in each case the plus symbol indicating variant allele and the minus sign indicating wild-type allele. (<bold>B</bold>) Simplified <italic toggle="yes">SLC4A10</italic> exon structure (NM_001178015.2) showing location of the multi-exon deletion identified in Individuals III:1 and III:2 (Family 1) and the splicing variant (c.2863-2A&gt;C). Only a part of the large, non-coding, UTR exon 27 is shown. (<bold>C</bold>) Simplified SLC4A10 protein structure (Q5DTL9-1) showing location of missense (yellow) and predicted loss-of-function (red) variants in relation to the predicted domain architecture (Pfam domains: <ext-link xlink:href="https://www.ebi.ac.UK/interpro/" ext-link-type="uri">https://www.ebi.ac.UK/interpro/</ext-link>) of SLC4A10. Cytoplasmic = band 3 cytoplasmic domain (PF07565); HCO<sub>3</sub><sup>&#x2212;</sup> transporter = HCO<sub>3</sub><sup>&#x2212;</sup> transporter family (PF00955). (<bold>D</bold>) Multi-species alignments of SLC4A10, showing each of the missense variants identified in this study. aa = amino acids.</p>
+          </caption>
+          <graphic xlink:href="awad235f1" position="float"/>
+        </fig>
+        <p>In Family 1, WGS was performed (BGI) on DNA from two affected individuals (Family 1, Subjects III:1 and III:2). Reads were aligned (BWA-MEM v0.7.15), mate-pairs fixed, and duplicates removed (Picard v2.7.1), InDel realignment/base quality recalibration (GATK v3.7.0), single-nucleotide variant (SNV)/InDel detection (GATK HaplotypeCaller), annotation (Alamut v1.11), and read depth ascertained using an in-house pipeline. This conforms to GATK best practices. Copy number variants (CNVs) were detected using SavvyCNV.<sup><xref rid="awad235-B29" ref-type="bibr">29</xref></sup></p>
+        <p>In Family 2, DNA from the proband (Subject II:1) and both unaffected parents underwent trio WES (Illumina) at Technical University M&#xFC;nchen/Helmholtz Institute Neuherberg using the SureSelect50Mbv5 capture, as previously described.<sup><xref rid="awad235-B30" ref-type="bibr">30</xref>,<xref rid="awad235-B31" ref-type="bibr">31</xref></sup> In Family 3, trio WES of a single affected individual (Subject II:2) and both parents was undertaken as previously described (ID: 17-4393).<sup><xref rid="awad235-B32" ref-type="bibr">32</xref></sup> In Family 4, WES was performed on the two affected brothers at University of California San Diego (UCSD) using methods previously described,<sup><xref rid="awad235-B33" ref-type="bibr">33</xref></sup> with recessive variants within regions of homozygosity prioritized given the consanguineous nature of the family. In Family 5, trio WES was performed on both affected siblings and their two unaffected parents (four individuals in total) using Agilent SureSelect Target Enrichment Clinical Research Exome V2 (Agilent Technologies). Sequencing (paired-end 150 bp) was performed by the Illumina HiSeq 4000 platform (Illumina, outsourced). Data were demultiplexed by Illumina Software CASAVA. Reads are mapped to the genome (build hg19/GRCh37) with the program BWA (<ext-link xlink:href="http://bio-bwa.sourceforge.net/" ext-link-type="uri">http://bio-bwa.sourceforge.net/</ext-link>). Variants were detected with the Genome Analysis Toolkit (<ext-link xlink:href="http://www.broadinstitute.org/gatk/" ext-link-type="uri">http://www.broadinstitute.org/gatk/</ext-link>). Variants were filtered with the Cartagenia/Alissa Interpret software package (Agilent technologies) on quality (read depth &#x2265;10), frequency in databases (&#x2265;1% in 200 alleles in dbSNP, ESP6500, the 1000 Genome project or the ExAC database) and location (within an exon or first/last 10 bp of introns).</p>
+        <p>In Family 1, unique primers for droplet digital polymerase chain reaction (ddPCR) (QX200 AutoDG Droplet Digital PCR System, Bio-Rad) were designed for confirmation and co-segregation of the exon 5&#x2013;11 <italic toggle="yes">SLC4A10</italic> deletion (NM_001178015.2:c.417_1341del) (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1</xref>). In addition to two primers within the deletion (within exons 5 and 10), probes included an exon 5&#x2032; to the deletion (exon 4), an exon 3&#x2032; to the deletion (exon 11) and a housekeeping gene control (<italic toggle="yes">RPP30</italic>). Primer sequences are provided (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 2</xref>).</p>
+        <p>In Family 3, reverse transcription PCR (RT-PCR), using standard techniques, was undertaken on lymphoblast cell lines derived from affected and controls individuals to confirm the transcriptional outcome of the <italic toggle="yes">SLC4A10</italic> NM_001178015.2:c.2863-2A&gt;C variant. RNA was extracted using RNeasy kit (QIAGEN Cat. No. 74104) as per the manufacturer&#x2019;s protocol. cDNA was generated from 1 &#xB5;g of RNA via iScript Select cDNA Synthesis kit (Bio-Rad). Primers that cover exons 19&#x2013;24 of <italic toggle="yes">SLC4A10</italic> transcript were used for RT-PCR to check for difference in splicing between affected and control lymphoblast.</p>
+        <p>In Families 2&#x2013;4, dideoxy sequencing confirmation and co-segregation of single nucleotide <italic toggle="yes">SLC4A10</italic> variants was performed using standard techniques.</p>
+      </sec>
+      <sec id="awad235-s1.3">
+        <title>Cellular studies</title>
+        <sec id="awad235-s1.3.1">
+          <title>Cloning</title>
+          <p>The human <italic toggle="yes">SLC4A10</italic> cDNA was cloned by PCR from a human cDNA library and subcloned into the pBI-CMV4 vector (Clontech Cat. No. PT4443-5), a mammalian bidirectional expression vector designed to constitutively express a protein of interest and DsRed2, a human codon-optimized variant of the <italic toggle="yes">Discosoma</italic> species red fluorescent protein. Disease-associated single nucleotide variants were inserted by site-directed mutagenesis and verified by sequencing.</p>
+        </sec>
+        <sec id="awad235-s1.3.2">
+          <title>Cell culture</title>
+          <p>N2a cells were cultured at 37&#xB0;C with Dulbecco&#x2019;s Eagle&#x2019;s minimum essential medium (DMEM) (Gibco Cat. No. 31966-021) supplemented with fetal bovine serum to a final concentration of 10% and 1% penicillin/streptomycin (Gibco Cat. No. 15070063). N2a cells were transfected with Lipofectamine 3000 (Invitrogen Cat. No. L3000008) according to the manufacturer&#x2019;s instructions.</p>
+          <p>For staining, cells were fixed with 4% paraformaldehyde (PFA) in PBS for 10 min and subsequently washed. Cells were stained with wheat germ agglutinin (WGA) coupled to Biotin (Biozol Cat. No. B-1025) at a dilution of 1:500 and a polyclonal rabbit anti-SLC4A10 antibody (1:500)<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> at 4&#xB0;C overnight. The secondary antibodies we used were a Streptavidin-Alexa Fluor 488 conjugate (1:1000, Invitrogen Cat. No. 32354) and an Alexa Fluor 546-coupled goat anti-rabbit antibody (1:1000, Invitrogen). Transfection rates varied between 20% and 40% with no obvious effect of the genotype of the transfected construct. Analysis was done with a confocal microscope in the Airyscan mode (LSM 880, Zeiss). The plasma membrane region (PMR) was determined as the WGA-labelled cell rim.</p>
+        </sec>
+        <sec id="awad235-s1.3.3">
+          <title>Intracellular pH recordings</title>
+          <p>Forty-eight hours after transfection, the intracellular pH (pH<sub>i</sub>) was measured using the ratiometric 2&#x2032;,7&#x2032;-bis(2-carboxyethyl)-5(6)-carboxyfluorescein (BCECF, Molecular Probes) fluorescent dye. Cells were washed with bicarbonate-buffered solution containing (in mM): 99 NaCl, 20 Na-gluconate, 5 KCl, 1 MgSO<sub>4</sub>, 1.5 CaCl<sub>2</sub>, 25 NaHCO<sub>3</sub> and 10 glucose. Coverslips were transferred to a heated perfusion chamber (Chamlide EC; Live Cell Instruments, 37&#xB0;C), which was mounted at an Axio Observer.Z1 microscope (Zeiss). An image was acquired for the RFP channel to identify transfected cells. Thereafter, BCECF-AM was added to a final concentration of 4 &#xB5;M and incubated for 10 min. The cells were superfused with bicarbonate-buffered solution at a linear flow rate of 2.5 ml/s. Emitted light of 510&#x2013;535 nm was recorded after alternating excitation at 495 and 440 nm every 10 s and captured through a 10&#xD7; objective with a CCD-camera (AxioCam MRm; Zeiss). The steady state pH<sub>i</sub> was recorded for 5 min. Then 5 &#xB5;M EIPA was added to the perfusion buffer to block Na<sup>+</sup>/H<sup>+</sup> exchange activity and the pH recorded for another 5 min. The superfusion was then switched to bicarbonate-buffered solution containing 5 &#xB5;M EIPA and 20 mM sodium propionate instead of 20 mM Na<sup>+</sup>-gluconate for 5 min. After the propionate pulse cells were superfused again with the former used bicarbonate-buffered solution supplemented with 5 &#xB5;M EIPA. The cytoplasmic pH recovery was recorded during superfusion with 20 mM sodium propionate containing bicarbonate-buffered solution. For each coverslip more than 12 neighbouring transfected and non-transfected cells were analysed and data from different coverslips were averaged. At the end of each experiment, a calibration was done with buffers between pH 6.5 and 7.5 (in mM: 135 KCl, 20 <italic toggle="yes">N</italic>-methyl-D-glucamine, 4 MgSO<sub>4</sub>, 10 glucose, 30 HEPES, 10 &#xB5;M nigericin). A linear regression was calculated from the multipoint calibration curve, and F<sub>495</sub>/F<sub>440</sub> ratio was converted into pH<sub>i</sub> values. Data regarding initial pH, amplitude of acidosis, recovery and pHi amplitude overshoot were obtained, with recovery from acidification being the primary outcome.</p>
+        </sec>
+      </sec>
+      <sec id="awad235-s1.4">
+        <title>Mouse studies</title>
+        <p>The generation of <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice from a 129SvJ embryonic stem cell line was described previously.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> All experiments were conducted according to the German Law on the Protection of Animals and the corresponding European Communities Council Directive of 24 November 1986 (86/609/EEC) and were approved by the Th&#xFC;ringer Landesamt f&#xFC;r Lebensmittelsicherheit und Verbraucherschutz (Thuringia State Office for Food Safety and Consumer Protection) under the registration number 02-001/13. Mice were group-housed on a 12-h light-dark cycle and fed with food and water <italic toggle="yes">ad libitum</italic>. If not indicated otherwise, the experiments started when the animals were 3 to 4 months old and weighed 25&#x2013;35 g. Tests were performed during the light phase between 10:00 a.m. and 5:00 p.m.</p>
+        <p>The two-object novel object recognition (NOR) task was used to evaluate recognition memory in rodents in 12-month-old wild-type and knockout mice of both sexes. During habituation, the animals were allowed to explore an open field arena on 2 days with 1 day interval in between. One week after habituation, the animals were again exposed to the familiar arena but with two identical glass bottles with a blue cap placed at an equal distance. Four hours later, the mice were placed in the arena, after one glass bottle was replaced by a tower of yellow and green Lego&#xAE; bricks of the same height. Mice were recorded with a CCD camera (Panasonic) for 10 min. The time spent exploring each object, the number of visits and the exploring time per visit were analysed off-line with Microsoft Windows Movie Maker. The primary outcome was the difference score (time exploring novel object &#x2212; time exploring familiar object) with the discrimination ratio (time exploring novel object/total time spent with both objects) also calculated.</p>
+        <sec id="awad235-s1.4.1">
+          <title>Histology and immunohistochemistry</title>
+          <p>Haematoxylin and eosin (HE) staining followed standard protocols (Carl Roth). For immunofluorescence, brains of 2 to 3-month-old wild-type mice were prepared and fixed as described previously.<sup><xref rid="awad235-B8" ref-type="bibr">8</xref></sup> Free-floating cryosections (50 &#xB5;m) were stained with a polyclonal rabbit anti-NeuN antibody (1:1000, Abcam, ab104225) or polyclonal rabbit anti-SLC4A10 antibody.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> For co-staining, the following primary antibodies were used: polyclonal guinea pig anti-vesicular GABA transporter (VGAT, 1:250, Synaptic Systems), polyclonal guinea pig anti-vesicular glutamate transporter 1 (VGLUT1, 1:500, Synaptic Systems). Alexa Fluor 488- and 546-coupled goat anti-rabbit and goat anti-guinea pig antibodies were used as secondary antibodies (1:1000, Invitrogen). Cell nuclei were stained by 4,6-diamidino-2-phenylindole (DAPI) (1 &#xB5;g/ml, Sigma-Aldrich). Analysis was performed with a confocal microscope in the Airyscan mode (LSM 880, Zeiss). To quantify the degree of co-localization, planes were selected with an optimized signal-to-noise ratio using the range indicator and adjusting it to the linear, non-saturated range. Images were taken randomly from the hippocampal CA1 region (stratum radiatum or stratum pyramidale 225 &#xD7; 225 &#xB5;m) of four different wild-type brains. The relative area of co-localization was analysed according to the Costes method.<sup><xref rid="awad235-B34" ref-type="bibr">34</xref></sup> Pearson coefficient was calculated as a measure of co-localization for each image using the co-localization module of ZEN (Release 4.8.2).</p>
+        </sec>
+        <sec id="awad235-s1.4.2">
+          <title>Slice preparation for electrophysiological recordings</title>
+          <p>Mice between 2 and 3 months of age were decapitated and the brain was removed from the skull and chilled (at &#x223C;4&#xB0;C) in artificial CSF (aCSF) containing (in mmol/l): 120 NaCl, 3 KCl, 5 MgSO<sub>4</sub>, 1.25 NaH<sub>2</sub>PO<sub>4</sub>, 0.2 CaCl<sub>2</sub>, 10 D-glucose, and 25 NaHCO<sub>3</sub>, gassed with 95% O<sub>2</sub>&#x2013;5% CO<sub>2</sub>. Horizontal brain slices (350 &#x3BC;m) including the hippocampus were prepared with a vibroslicer (Leica VT 1200S). Slices were stored at room temperature for at least 1 h before use in recording aCSF containing (in mmol/l): 120 NaCl, 3 KCl, 1.3 MgSO<sub>4</sub>, 1.25 NaH<sub>2</sub>PO<sub>4</sub>, 2.5 CaCl<sub>2</sub>, 10 D-glucose, and 25 NaHCO<sub>3</sub>, gassed with 95% O<sub>2</sub>&#x2013;5% CO<sub>2</sub>, as described previously.<sup><xref rid="awad235-B35" ref-type="bibr">35</xref></sup></p>
+        </sec>
+        <sec id="awad235-s1.4.3">
+          <title>Patch clamp recordings</title>
+          <p>One slice at a time was placed in a recording chamber mounted on an upright microscope (Axio Examiner.A1; Zeiss) with differential interference contrast, 40&#xD7; water-immersion objective, and 10&#xD7; ocular to identify cells. The slices were continuously perfused with aCSF (flow rate 2&#x2013;3 ml/min, room temperature, pH 7.3) consisting of (in mM): 120 NaCl, 3 KCl, 1.3 MgCl<sub>2</sub>, 2.5 CaCl<sub>2</sub>, 25 NaHCO<sub>3</sub>, 1.25 KH<sub>2</sub>PO<sub>4</sub>, and 10 D-glucose.</p>
+          <p>For whole-cell recordings patch pipettes with an impedance of &#x223C;3&#x2013;4 M&#x3A9; were pulled from borosilicate glass (OD 1.5 mm; Science Products) with a micropipette puller (P-97, Sutter Instrument) and filled with intracellular solutions for miniature excitatory postsynaptic currents (mEPSC) or miniature inhibitory postsynaptic currents (mIPSC) recordings, respectively.</p>
+          <p>Pyramidal neurons of the CA1 and CA3 were selected for recording if they displayed a pyramidal-shaped cell body. Patched cells were voltage clamped. Only cells with a resting membrane potential below &#x2212;55 mV and an access resistance &lt;15 M&#x3A9; were included. Therefore, it was not necessary to compensate for the series resistance. Voltages were corrected for liquid junction potentials or series resistance. Signals were recorded using a patch-clamp amplifier (MultiClamp 700B; Axon Instruments). Responses were filtered at 5 kHz and digitized at 20 kHz (Digidata 1440A; Axon Instruments). All data were acquired, stored and analysed on a PC using pClamp 10 (Axon Instruments).</p>
+          <p>MEPSCs and mIPSCs were recorded at a holding potential of &#x2212;70 mV for at least 5 min in aCSF. MEPSCs were isolated by adding tetrodotoxin (0.5 &#x3BC;M, Tocris Bioscience) to block action potential-induced glutamate release and bicuculline methiodide (20 &#x3BC;M, Biomol) to block GABA<sub>A</sub> responses. Dl-APV (30 &#x3BC;M) was added to suppress NMDA currents. The pipette solution contained the following (in mM): 120 CsMeSO<sub>4</sub>, 17.5 CsCl, 10 HEPES, 5 BAPTA, 2 Mg-ATP, 0.5 Na-GTP, 10 QX-314 [<italic toggle="yes">N</italic>-(2,6-dimethylphenylcarbamoylmethyl) triethylammonium bromide], pH 7.3, adjusted with CsOH.</p>
+          <p>Recordings of mIPSCs were performed using a CsCl-based intracellular solution (in mM): 122 CsCl, 8 NaCl, 0.2 MgCl<sub>2</sub>, 10 HEPES, 2 EGTA, 2 Mg-ATP, 0.5 Na-GTP, 10 QX-314 [<italic toggle="yes">N</italic>-(2,6-dimethylphenylcarbamoylmethyl)triethylammonium bromide], pH adjusted to 7.3 with CsOH. dl-APV (30 &#x3BC;M), CNQX (10 &#x3BC;M) and tetrodotoxin (0.5 &#x3BC;M) were added to the perfusate. Recordings of spontaneous inhibitory postsynaptic currents (sIPSCs) were performed in the absence of tetrodotoxin.</p>
+          <p>In a subset of mIPSC experiments, 20 mM NaCl was substituted by the weak base trimethylamine chloride (TriMA; Sigma-Aldrich) to raise pH<sub>i</sub>. In another subset of mIPSC experiments, 20 mM NaCl was substituted by the weak acid sodium propionate (Sigma-Aldrich) to lower pH<sub>i</sub>. After a baseline recording of 5 min, the regular aCSF was replaced by aCSF with either TriMA or sodium propionate, and mIPSCs were recorded for further 5 min.</p>
+          <p>For mIPSC recordings in bicarbonate-free extracellular solution we used (in mM): 130 NaCl, 3 KCl, 1.3 MgSO<sub>4</sub>, 1.25 NaH<sub>2</sub>PO<sub>4</sub>, 2.5 CaCl<sub>2</sub>, 10 D-glucose, 10 HEPES, gassed with O<sub>2</sub>, pH 7.3 with NaOH.</p>
+          <p>The following parameters of mEPSCs and mIPSCs/sIPSCs were determined: frequency, peak amplitude, time constant of decay (&#x3C4;<sub>decay</sub>), half-width and electrical charge transfer, with analysis of frequency the primary outcome measure. Data analysis was performed off-line with the detection threshold levels set to 5 pA for mEPSCs and mIPSCs because of the peak-to-peak noise determined under AMPA/NMDA receptor and GABA<sub>A</sub> receptor blockade.</p>
+        </sec>
+      </sec>
+      <sec id="awad235-s1.5">
+        <title>Statistical analysis</title>
+        <p>Data are presented as mean &#xB1; standard error of the mean (SEM).</p>
+        <p>To address potential issues with statistical analysis of the data associated with small sample sizes, the distribution of the test statistics and corresponding <italic toggle="yes">P</italic>-values were obtained using the bootstrap method (1000 replicates were applied as suggested in Dwivedi <italic toggle="yes">et al.</italic><sup><xref rid="awad235-B36" ref-type="bibr">36</xref></sup>).</p>
+        <p>Comparison of two statistically independent experimental groups was performed with the two-tailed <italic toggle="yes">t-</italic>test. If data were dependent, the paired <italic toggle="yes">t</italic>-test was used. In experiments that included more than two groups, differences were tested by an <italic toggle="yes">F</italic>-test.</p>
+        <p>For correlated, replicated data we used a GEE model using normal errors identity link and independent working correlation matrix. Calculations were performed in R and RStudio using the package gee for the GEE model.<sup><xref rid="awad235-B37" ref-type="bibr">37&#x2013;39</xref></sup></p>
+      </sec>
+    </sec>
+    <sec sec-type="results" id="awad235-s2">
+      <title>Results</title>
+      <sec id="awad235-s2.1">
+        <title>Genetic analysis</title>
+        <p>We initially investigated the cause of disease in two male Palestinian siblings (aged 7 and 8 years) affected by a syndromic form of severe intellectual disability, behaviours associated with autistic spectrum disorder, slit ventricles and subtle craniofacial dysmorphism (Family 1). The younger child was microcephalic, with an occipitofrontal circumference (OFC) of 3.4 standard deviation scores below the mean (&#x2212;3.4 SDS), whereas his older brother had an OFC of &#x2212;2.3 SDS. To define the genetic cause of disease WGS was performed on DNA from both affected children (Family 1, Subjects III:1 and III:2). Filtering of WGS data using standard metrics described above identified a single standout candidate variant, a shared, homozygous out-of-frame deletion of exons 5&#x2013;11 of <italic toggle="yes">SLC4A10</italic> [Chr2(GRCh38):g.161846109-161895992del; NM_001178015.2:c.417_1341del p.(Trp140Argfs*39)] clearly visible on genome sequencing (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1</xref>) and predicted to result in nonsense-mediated decay (NMD) and absence of the SLC4A10 protein. The variant was confirmed using ddPCR as an orthologous method and found to co-segregate as expected for an autosomal recessive disorder (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 2</xref>).</p>
+        <p>Through collaborative studies (via GeneMatcher) we then identified seven additional affected individuals from four unrelated families (<xref rid="awad235-F1" ref-type="fig">Fig. 1</xref>), in whom WES identified biallelic rare predicted loss-of-function <italic toggle="yes">SLC4A10</italic> variants (<xref rid="awad235-F1" ref-type="fig">Fig. 1</xref>, <xref rid="awad235-T1" ref-type="table">Table 1</xref>, <xref rid="sup1" ref-type="supplementary-material">Supplementary material, &#x2018;Case reports&#x2019;</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Tables 2 and 3</xref> for family pedigrees, clinical details, comprehensive case reports, <italic toggle="yes">SLC4A10</italic> variants and WGS/WES variant lists, respectively). These individuals (aged 4&#x2013;17 years) presented with clinical features overlapping those of the Palestinian children. In Family 2, trio WES (Subject II:1) identified a homozygous nonsense variant in exon 18/27 [Chr2(GRCh38):g.161949151C&gt;T; NM_001178015.2:c.2269C&gt;T p.(Arg757*)] also expected to undergo NMD. Family 3 included two sisters with global developmental impairment identified as part of a large-scale study aiming to identify candidate new genetic causes of disease.<sup><xref rid="awad235-B32" ref-type="bibr">32</xref></sup> Trio WES of DNA from the older sister (Family 3, Subject II:2) identified a homozygous canonical splice site variant Chr2(GRCh38):g.161964133A&gt;C; NM_001178015.2:c.2863-2A&gt;C, also confirmed to be homozygous in her affected sibling. RT-PCR revealed that the variant resulted in partial intron retention and a premature stop codon [r.(2772_2773ins2772+1_2772+175); r.(2773_2781del)]; p.(Gln954_Phe955ins*13) expected to result in NMD (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 3</xref>). In Family 4, WES performed on DNA from two brothers, (Family 4, Subjects III:2 and III:3) identified a shared homozygous <italic toggle="yes">SLC4A10</italic> nonsense variant in exon 20/27 expected to result in NMD [Chr2(GRCh38):g.161957066G&gt;A NM_001178015.2:c.2619G&gt;A p.(Trp873*)]. In Family 5, WES performed on DNA from two siblings and their parents identified a shared homozygous <italic toggle="yes">SLC4A10</italic> haplotype comprising two missense variants, Chr2(GRCh38):g.161904888A&gt;T NM_001178015.2:c.1730A&gt;T p.(Lys577Met) and Chr2(GRCh38):g.161976840A&gt;T NM_001178015.2:c.3308A&gt;T; p.(Asn1103Ile), hereafter referred to as p.(Lys577Met;Asn1103Ile). The p.(Lys577Met) variant affects an invariantly conserved residue within a helical transmembrane domain and is predicted deleterious by <italic toggle="yes">in silico</italic> tools PolyPhen2 and SIFT with a high REVEL score (0.873), whereas p.(Asn1103Ile) affects a highly conserved residue but is predicted deleterious only by SIFT and benign by PolyPhen with a low REVEL score (0.239) (<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 2</xref>). All the <italic toggle="yes">SLC4A10</italic> variants identified in this study are absent from the Genome Aggregation Database (gnomAD v2.1.1 and v3.1.2); furthermore, there are no homozygous loss-of-function variants in canonical <italic toggle="yes">SLC4A10</italic> transcripts listed in publicly accessible genomic databases.</p>
+        <table-wrap position="float" id="awad235-T1">
+          <label>Table 1</label>
+          <caption>
+            <p>Clinical findings in individuals with biallelic <italic toggle="yes">SLC4A10</italic> variants</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+              <col valign="top" align="left" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Individual</th>
+                <th align="center" rowspan="1" colspan="1">Family 1 III:1</th>
+                <th align="center" rowspan="1" colspan="1">Family 1 III:2</th>
+                <th align="center" rowspan="1" colspan="1">Family 2 II:1</th>
+                <th align="center" rowspan="1" colspan="1">Family 3 II:2</th>
+                <th align="center" rowspan="1" colspan="1">Family 3 II:3</th>
+                <th align="center" rowspan="1" colspan="1">Family 4 III:2</th>
+                <th align="center" rowspan="1" colspan="1">Family 4 III:3</th>
+                <th align="center" rowspan="1" colspan="1">Family 4 III:5</th>
+                <th align="center" rowspan="1" colspan="1">Family 5 II:1</th>
+                <th align="center" rowspan="1" colspan="1">Family 5 II:2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">NM_001178015.2</td>
+                <td rowspan="1" colspan="1">Homozygous deletion of exons 5&#x2013;11</td>
+                <td rowspan="1" colspan="1">Homozygous deletion of exons 5&#x2013;11</td>
+                <td rowspan="1" colspan="1">Homozygous p.(Arg757*)</td>
+                <td rowspan="1" colspan="1">Homozygous c.2863-2A&gt;C p.(Gln954_Phe955ins*13)</td>
+                <td rowspan="1" colspan="1">Homozygous c.2863-2A&gt;C p.(Gln954_Phe955ins*13)</td>
+                <td rowspan="1" colspan="1">Homozygous p.(Trp873*)</td>
+                <td rowspan="1" colspan="1">Homozygous p.(Trp873*)</td>
+                <td rowspan="1" colspan="1">Unknown</td>
+                <td rowspan="1" colspan="1">Homozygous p.(Lys577Met;Asn1103Ile)</td>
+                <td rowspan="1" colspan="1">Homozygous p.(Lys577Met;Asn1103Ile)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Sex, age</td>
+                <td rowspan="1" colspan="1">M, 8 y 10 m</td>
+                <td rowspan="1" colspan="1">M, 7 y 8 m</td>
+                <td rowspan="1" colspan="1">M, 4 y 8 m</td>
+                <td rowspan="1" colspan="1">F, 12 y</td>
+                <td rowspan="1" colspan="1">F, 4 y</td>
+                <td rowspan="1" colspan="1">M, 10 y</td>
+                <td rowspan="1" colspan="1">M, 6 y 3 m</td>
+                <td rowspan="1" colspan="1">F, 17 y 5 m</td>
+                <td rowspan="1" colspan="1">F, 11 y</td>
+                <td rowspan="1" colspan="1">M, 6 y</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Ethnicity</td>
+                <td rowspan="1" colspan="1">Palestinian</td>
+                <td rowspan="1" colspan="1">Palestinian</td>
+                <td rowspan="1" colspan="1">European</td>
+                <td rowspan="1" colspan="1">Arab Saudi</td>
+                <td rowspan="1" colspan="1">Arab Saudi</td>
+                <td rowspan="1" colspan="1">Egyptian</td>
+                <td rowspan="1" colspan="1">Egyptian</td>
+                <td rowspan="1" colspan="1">Egyptian</td>
+                <td rowspan="1" colspan="1">Turkish</td>
+                <td rowspan="1" colspan="1">Turkish</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Birth OFC</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">Normal</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">34.2 (&#x2212;0.8)</td>
+                <td rowspan="1" colspan="1">35 (&#x2212;0.2)</td>
+                <td rowspan="1" colspan="1">33(&#x2212;1.3)</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">OFC, cm (SDS)</td>
+                <td rowspan="1" colspan="1">50.5 (&#x2212;2.3)</td>
+                <td rowspan="1" colspan="1">48.5 (&#x2212;3.4)</td>
+                <td rowspan="1" colspan="1">50 (&#x2212;1.7)</td>
+                <td rowspan="1" colspan="1">47.5 (&#x2212;4.5)</td>
+                <td rowspan="1" colspan="1">44.5 (&#x2212;5.5)</td>
+                <td rowspan="1" colspan="1">45.5 (&#x2212;5.6)</td>
+                <td rowspan="1" colspan="1">46.6 (&#x2212;4.3)</td>
+                <td rowspan="1" colspan="1">48 (&#x2212;5.4)</td>
+                <td rowspan="1" colspan="1">51.6 (&#x2212;1.9)</td>
+                <td rowspan="1" colspan="1">46.7 (&#x2212;4.2)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Height, cm (SDS)</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">101.5 (&#x2212;1.3)</td>
+                <td rowspan="1" colspan="1">125 (&#x2212;0.4)</td>
+                <td rowspan="1" colspan="1">100 (&#x2212;0.4)</td>
+                <td rowspan="1" colspan="1">123 (&#x2212;2.5)</td>
+                <td rowspan="1" colspan="1">104 (&#x2212;2.7)</td>
+                <td rowspan="1" colspan="1">150 (&#x2212;2.2)</td>
+                <td rowspan="1" colspan="1">136 (&#x2212;1.2)</td>
+                <td rowspan="1" colspan="1">111 (&#x2212;1.0)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Weight, kg (SDS)</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">10.7 (&#x2212;4.9)</td>
+                <td rowspan="1" colspan="1">19.8 (&#x2212;1.8)</td>
+                <td rowspan="1" colspan="1">10.9 (&#x2212;3.5)</td>
+                <td rowspan="1" colspan="1">23 (&#x2212;2.3)</td>
+                <td rowspan="1" colspan="1">16 (&#x2212;2.5)</td>
+                <td rowspan="1" colspan="1">45 (&#x2212;1.8)</td>
+                <td rowspan="1" colspan="1">30.4 (&#x2212;0.9)</td>
+                <td rowspan="1" colspan="1">17 (&#x2212;1.7)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Feeding difficulties</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">Yes at birth</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<bold>Neuro/development</bold>
+</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Intellectual disability</td>
+                <td rowspan="1" colspan="1">Yes, severe</td>
+                <td rowspan="1" colspan="1">Yes, severe</td>
+                <td rowspan="1" colspan="1">Yes, severe</td>
+                <td rowspan="1" colspan="1">Yes, severe</td>
+                <td rowspan="1" colspan="1">Yes, severe</td>
+                <td rowspan="1" colspan="1">Yes, severe</td>
+                <td rowspan="1" colspan="1">Yes, severe</td>
+                <td rowspan="1" colspan="1">Yes, severe</td>
+                <td rowspan="1" colspan="1">Yes, moderate</td>
+                <td rowspan="1" colspan="1">Yes, severe</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Gross motor</td>
+                <td rowspan="1" colspan="1">Walked &gt;2 y</td>
+                <td rowspan="1" colspan="1">Walked 5 y</td>
+                <td rowspan="1" colspan="1">Rolling</td>
+                <td rowspan="1" colspan="1">Crawling</td>
+                <td rowspan="1" colspan="1">Not rolling</td>
+                <td rowspan="1" colspan="1">Walked 6 y</td>
+                <td rowspan="1" colspan="1">Walked 6 y</td>
+                <td rowspan="1" colspan="1">Walked 7 y</td>
+                <td rowspan="1" colspan="1">Walked 2 y</td>
+                <td rowspan="1" colspan="1">Walked 3 y</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Speech</td>
+                <td rowspan="1" colspan="1">Non-verbal</td>
+                <td rowspan="1" colspan="1">Non-verbal</td>
+                <td rowspan="1" colspan="1">Babbles</td>
+                <td rowspan="1" colspan="1">Babbles</td>
+                <td rowspan="1" colspan="1">Sounds</td>
+                <td rowspan="1" colspan="1">Non-verbal</td>
+                <td rowspan="1" colspan="1">Non-verbal</td>
+                <td rowspan="1" colspan="1">Non-verbal</td>
+                <td rowspan="1" colspan="1">Dysarthria</td>
+                <td rowspan="1" colspan="1">Non-verbal</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Hearing loss</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Anxiety</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Stereotypies</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Hyperactivity</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Seizures</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes?</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes GTCS</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Abn. EEG</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">No</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Central tone</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Peripheral tone</td>
+                <td rowspan="1" colspan="1">&#x2191;</td>
+                <td rowspan="1" colspan="1">&#x2191;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2191;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2193;</td>
+                <td rowspan="1" colspan="1">&#x2191;</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Tendon reflexes</td>
+                <td rowspan="1" colspan="1">+++</td>
+                <td rowspan="1" colspan="1">+++</td>
+                <td rowspan="1" colspan="1">++</td>
+                <td rowspan="1" colspan="1">+++ and clonus</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">++</td>
+                <td rowspan="1" colspan="1">++</td>
+                <td rowspan="1" colspan="1">++</td>
+                <td rowspan="1" colspan="1">++</td>
+                <td rowspan="1" colspan="1">+++</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<bold>MRI brain</bold>
+</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Slit lateral ventricles</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Dysmorphic CC</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Fornix/SP</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">Yes/No</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">Yes</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">NK</td>
+                <td rowspan="1" colspan="1">No</td>
+                <td rowspan="1" colspan="1">Yes</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<bold>Other findings</bold>
+</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Other</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">Inverted nipples</td>
+                <td rowspan="1" colspan="1">Coxa vara anteverta, DDH</td>
+                <td rowspan="1" colspan="1">Ankle contractures</td>
+                <td rowspan="1" colspan="1">Craniosynostosis, ankle contractures</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">Accessory nipple</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="awad235-tblfn1">
+              <p>Yes = feature is present; No = feature is absent; +++ = exaggerated or brisk; ++ = normal; downwards arrow = decreased; upwards arrow = increased; Abn. EEG = abnormal EEG; CC = corpus callosum; DDH = developmental dysplasia of the hip; F = female; Fornix/SP = distorted configuration of fornix/septum pellucidum; GTCS = generalized tonic-clonic seizures; M = male; m = months; NK = not known; OFC = occipitofrontal circumference; SDS = standard deviation scores from the mean; y = years.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="awad235-s2.2">
+        <title>Clinical features of <italic toggle="yes">SLC4A10</italic>-related neurodevelopmental disorder</title>
+        <p>All 10 affected individuals presented with hypotonia in infancy, with resultant significant feeding difficulties in four of the individuals. Psychomotor development was delayed in all individuals across all domains and intellectual impairment was typically severe. Affected individuals were non-verbal, with one exception; although 7/10 children were ambulatory, walking was delayed in these children until between 2&#x2013;7 years of age. There was no evidence of developmental regression and while hearing loss was noted in a <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mouse model,<sup><xref rid="awad235-B23" ref-type="bibr">23</xref></sup> it was not reported in any of the affected patients in this study. Seizures were reported in three individuals, but in two cases these were isolated episodes occurring in the first few years of life. In addition, an affected child from Family 4 displayed bitemporal epileptogenic discharges on EEG at age 5 years in the absence of overt clinical seizures, with spontaneous resolution thereafter.</p>
+        <p>Behavioural abnormalities were very commonly present and included features associated with autistic spectrum disorder such as anxiety and stereotyped movements (hand flapping, head nodding), hyperactivity and in some cases aggressive episodes. OFC was reported to be normal at birth, but recent measurements were below average in all cases (&#x2212;1.7 SDS to &#x2212;5.6 SDS) with 7 of 10 affected individuals meeting the criteria for microcephaly (&lt;&#x2212;3 SDS). Affected individuals were below average weight for their age, with height relatively preserved.</p>
+        <p>MRI neuroimaging findings were striking and consistent. Neuroradiological features of the <italic toggle="yes">SLC4A10</italic>-related neurodevelopmental disorder included microcephaly, with a relative preservation of brain volume compared to OFC and narrow, sometimes slit-like lateral ventricles similar to those seen in the <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mouse model (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 4</xref>), even in those cases with less well preserved cerebral volume. The corpus callosum was either normal, or dysmorphic (slightly thickened and blunted, flattened in a cranio-caudal direction and with sharply descending fornix) (<xref rid="awad235-F2" ref-type="fig">Fig. 2</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 5</xref>). This is likely to be as a result of the small lateral ventricles displacing the fornix and septum pellucidum. There was an absence of cortical malformations and myelination was appropriate for age.</p>
+        <fig position="float" id="awad235-F2" fig-type="figure">
+          <label>Figure 2</label>
+          <caption>
+            <p>
+<bold>Neuroimaging from affected individuals with biallelic SLC4A10 variants.</bold> (<bold>A</bold>, <bold>E</bold> and <bold>I</bold>) Family 1, Subject III:1. T<sub>2</sub>-weighted axial (<bold>A</bold>), T<sub>1</sub>-weighted sagittal (<bold>E</bold>) and T<sub>1</sub>-weighted coronal (<bold>I</bold>) MRI images of the patient at age 5 years. (<bold>B</bold>, <bold>F</bold>, <bold>J</bold>) Family 1, Subject III:2. T<sub>2</sub>-weighted axial (<bold>B</bold>), T<sub>1</sub>-weighted sagittal (<bold>F</bold>) and T<sub>1</sub>-weighted coronal (<bold>J</bold>) MRI images of the patient at age 4 years. (<bold>C</bold>, <bold>G</bold> and <bold>K</bold>) Family 2, Subject II:1. T<sub>2</sub>-weighted axial (<bold>C</bold>), T<sub>2</sub>-weighted sagittal (<bold>G</bold>) and T<sub>2</sub>-weighted coronal (<bold>K</bold>) MRI images of the patient at10 months of age. (<bold>D</bold>, <bold>H</bold> and <bold>L</bold>) Family 3, Subject II:3. T<sub>2</sub>-weighted axial (<bold>D</bold>), T<sub>1</sub>-weighted sagittal (<bold>H</bold>) and T<sub>2</sub>-weighted coronal (<bold>L</bold>) MRI images at 1 year 2 months of age. In all cases lateral ventricles are small (<bold>A</bold>&#x2013;<bold>D</bold>, arrowhead) with normal fourth ventricle (<bold>E</bold>&#x2013;<bold>H</bold>), posterior fossa and external CSF spaces. In Family 1, the corpus callosum is dysmorphic, appearing thickened and flattened (<bold>E</bold> and <bold>F</bold>). This is associated with an unusual configuration of the fornix and septum pellucidum especially in Family 1, Subject III:1 (<bold>E</bold>, arrowhead). In Families 2 and 3 it is hypoplastic (<bold>G</bold> and <bold>H</bold>). Myelination is complete or adequate for age in all cases. Normal MRI brain images for comparison are available at <ext-link xlink:href="https://www.imaios.com/en/e-Anatomy/Brain/Brain-MRI-in-axial-slices" ext-link-type="uri">https://www.imaios.com/en/e-Anatomy/Brain/Brain-MRI-in-axial-slices</ext-link> (adult) and <ext-link xlink:href="https://radiopaedia.org/cases/normal-mri-head-3-years-old-1" ext-link-type="uri">https://radiopaedia.org/cases/normal-mri-head-3-years-old-1</ext-link> (3-year-old child).</p>
+          </caption>
+          <graphic xlink:href="awad235f2" position="float"/>
+        </fig>
+      </sec>
+      <sec id="awad235-s2.3">
+        <title>Recovery from acidification is delayed in cells expressing disease-associated SLC4A10 variants</title>
+        <p>We previously showed that acid extrusion is compromised in hippocampal neurons in acute brain slices from knockout mice.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> Here, we sought to provide insight into the functional consequences of the <italic toggle="yes">SLC4A10</italic> missense variants using cellular studies. We first cloned wild-type and variant <italic toggle="yes">SLC4A10</italic> cDNAs into the mammalian expression vector pBI-CMV4. Two days post-transfection into the fast-growing mouse neuroblastoma cell line N2a, cells were fixed with 4% PFA and stained with an antibody directed against an N-terminal epitope of SLC4A10 as described previously and with the lectin WGA to label glycan structures associated with the plasma membrane.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref>,<xref rid="awad235-B40" ref-type="bibr">40</xref></sup> As expected, cells transfected with the wild-type <italic toggle="yes">SLC4A10</italic> construct displayed a predominant labelling at the plasma membrane, whereas the SLC4A10 p.(Lys577Met;Asn1103Ile) variant protein showed a predominant intracellular localization (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 6A</xref>). The quantification of signal intensities for the interior of cells (not including the WGA labelled surface) as compared to the plasma membrane region (the WGA labelled surface) allowed us to calculate the ratio between cell surface and intracellular intensities, which was significantly increased for the SLC4A10 p.(Lys577Met;Asn1103Ile) variant protein (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 6B</xref>).</p>
+        <p>While this outcome alone may explain the pathogenic mechanism of the SLC4A10 p.(Lys577Met;Asn1103Ile) variant, we also assessed the impact on transport activity by BCECF fluorescence imaging in transfected N2a cells in bicarbonate-buffered salt solution with or without 5 &#xB5;M EIPA to block Na<sup>+</sup>/H<sup>+</sup> exchange. Representative single cell traces are shown in <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 7A</xref>. Compared with untransfected cells, steady state pH<sub>i</sub> was slightly more alkaline in cells transfected with the <italic toggle="yes">SLC4A10</italic> wild-type construct (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 7B</xref>). A shift in pH<sub>i</sub> remained for both the p.(Lys577Met) and the p.(Asn1103Ile) variant proteins but was present to a lesser extent for the combined p.(Lys577Met;Asn1103Ile) variant (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 7C</xref>). Bath application of 20 mM sodium propionate for 5 min induced an acid shift, the amplitude of which did not differ between wild-type and mutant constructs (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 7D</xref>). pH<sub>i</sub> recovery during the propionate exposure was significantly faster for the wild-type construct compared to untransfected cells (transfected cells 163.1 &#xB1; 22.9%, untransfected cells 100.0 &#xB1; 18.7%, <italic toggle="yes">n</italic> = 7/7, bootstrap paired <italic toggle="yes">t</italic>-test <italic toggle="yes">P</italic> = 0.001, <xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 7E</xref>). For p.(Lys577Met), p.(Asn1103Ile) and p.(Lys577Met;Asn1103Ile) the alkaline overshoot after propionate removal (which provides a quantification of net removal of acid during the propionate exposure) was significantly smaller compared to wild-type [bootstrap <italic toggle="yes">F</italic>-test <italic toggle="yes">P</italic> &lt; 0.001, <italic toggle="yes">post hoc</italic> tests: wild-type (WT) 287.5 &#xB1; 18.2%, p.(Lys577Met) 169.2 &#xB1; 14.0%, <italic toggle="yes">n</italic> = 7/10, bootstrap <italic toggle="yes">t</italic>-test <italic toggle="yes">P</italic> &lt; 0.001, WT 287.5 &#xB1; 18.2%, p.(Asn1103Ile) 231.8 &#xB1; 24.9%, <italic toggle="yes">n</italic> = 7/9, bootstrap <italic toggle="yes">t</italic>-test <italic toggle="yes">P</italic> &lt; 0.05, WT 287.5 &#xB1; 18.2%, p.(Lys577Met;Asn1103Ile) 139.6 &#xB1; 18.6%, <italic toggle="yes">n</italic> = 7/8, bootstrap <italic toggle="yes">t</italic>-test <italic toggle="yes">P</italic> &lt; 0.001] (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 7F</xref>). Taken together, we conclude that acid extrusion is significantly diminished in cells expressing SLC4A10 p.(Lys577Met) and p.(Asn1103Ile) variants alone and p.(Lys577Met;Asn1103Ile) <italic toggle="yes">in cis</italic>.</p>
+      </sec>
+      <sec id="awad235-s2.4">
+        <title>
+<italic toggle="yes">Slc4a10</italic>
+<sup>&#x2212;/&#x2212;</sup> mice show behavioural abnormalities and display grossly intact cortical structure</title>
+        <p>The identification of biallelic <italic toggle="yes">SLC4A10</italic> variants in affected individuals with cognitive impairment and behaviours associated with autistic spectrum disorder prompted us to reanalyse the behaviour of <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice. In our previous paper, we reported that motor functions including activity, locomotion and motor coordination were not altered in <italic toggle="yes">Slc4a10</italic> knockout mice.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> Here, we used the two-object NOR task to assess recognition memory, which is based on the spontaneous tendency of rodents to spend more time exploring a novel object than a familiar one.<sup><xref rid="awad235-B41" ref-type="bibr">41</xref></sup> Interestingly, <italic toggle="yes">Slc4a10</italic> knockout mice clearly displayed a marked avoidance of the novel object (<xref rid="awad235-F3" ref-type="fig">Fig. 3A</xref>).</p>
+        <fig position="float" id="awad235-F3" fig-type="figure">
+          <label>Figure 3</label>
+          <caption>
+            <p>
+<bold>
+<italic toggle="yes">Slc4a10</italic>
+<sup>&#x2212;/&#x2212;</sup> mice show behavioural abnormalities in the two-object novel object recognition task and display grossly intact cortical architecture</bold>. (<bold>A</bold>) The recognition of the novel object is altered in knockout (KO) mice. <italic toggle="yes">Top</italic>: Illustration of the two-object novel object recognition (NOR) test. <italic toggle="yes">Bottom</italic>: During the NOR test the exploration time, the number of visits for the old and the new, and the duration of these visits were quantified. A difference score (time exploring novel object &#x2212; time exploring familiar object) and the discrimination ratio (time exploring the novel versus the familiar object) was calculated (nine mice per genotype, bootstrap <italic toggle="yes">t</italic>-test; *<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01, ***<italic toggle="yes">P</italic> &lt; 0.001). A negative value for the difference score or a value smaller 0.5 (dashed lines) for the discrimination ratio suggest that exploration is altered. (<bold>B</bold>) Top view of dissected brains from 12-month-old <italic toggle="yes">Slc4a10</italic> wild-type (WT) and KO mouse. The weight of perfused and fixed brains of KO mice was smaller compared to WT (<italic toggle="yes">n</italic> = 5 mice per genotype; bootstrap <italic toggle="yes">t</italic>-test; **<italic toggle="yes">P</italic> &lt; 0.01). Scale bar = 2 mm. (<bold>C</bold>) The gross architecture of the somatosensory cortex appeared intact in <italic toggle="yes">Slc4a10</italic> KO mice. Sagittal brain sections from 2-month-old <italic toggle="yes">Slc4a10</italic> WT and KO mice were stained for the pan neuronal marker NeuN and neurons counted layer wise (<italic toggle="yes">n</italic> = 3 mice per genotype; GEE model using normal errors identity link and independent working correlation matrix). Scale bar = 75 &#xB5;m. Quantitative data are presented as mean + standard error of the mean (SEM). n.s. = not significant.</p>
+          </caption>
+          <graphic xlink:href="awad235f3" position="float"/>
+        </fig>
+        <p>As structural brain abnormalities were present in some of the affected patients, we also reanalysed the brain structure of <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice. Overall, the brain was found to be smaller and the weight reduced in knockout mice compared to wild-type animals (<xref rid="awad235-F3" ref-type="fig">Fig. 3B</xref>). As previously reported,<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> we also noted smaller brain ventricles in <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice, while the corpus callosum appeared intact (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 4</xref>).</p>
+        <p>To test whether <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice display abnormalities in cortex organization, we also counted neurons labelled for the pan-neuronal marker NeuN (RBFOX3)<sup><xref rid="awad235-B42" ref-type="bibr">42</xref></sup> in sagittal sections of the motor and the somatosensory cortex of 2-month-old adult mice. Overall, the number of neurons per layer did not differ between genotypes (<xref rid="awad235-F3" ref-type="fig">Fig. 3C</xref>), suggesting an absence of any gross cortical layering defect in <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice.</p>
+      </sec>
+      <sec id="awad235-s2.5">
+        <title>SLC4A10 modulates GABAergic but not glutamatergic transmission</title>
+        <p>To gain further insight regarding the role of SLC4A10 in neuronal functions, we co-stained mouse brain sections for SLC4A10 and either VGLUT1, a presynaptic marker of excitatory synapses, or VGAT (<xref rid="awad235-F4" ref-type="fig">Fig. 4A</xref>), a presynaptic marker of inhibitory synapses. We have previously published control staining on knockout tissues.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> Whereas the relative area of co-localization was 6.4 &#xB1; 0.5% (<italic toggle="yes">n</italic> = 28) for VGLUT1, it was 74.9 &#xB1; 1.3% (<italic toggle="yes">n</italic> = 39) for VGAT (<xref rid="awad235-F4" ref-type="fig">Fig. 4B</xref>). Pearson correlation coefficients (CC) between SLC4A10 and either VGLUT1 or VGAT signals after the Costes method<sup><xref rid="awad235-B34" ref-type="bibr">34</xref></sup> are in agreement with a predominant localization of SLC4A10 with GABAergic but not glutamatergic presynapses [<xref rid="awad235-F4" ref-type="fig">Fig. 4B</xref>, CC VGLUT1/SLC4A10 (0.03) versus CC VGAT/SLC4A10 (0.5), 28 and 39 images each].</p>
+        <fig position="float" id="awad235-F4" fig-type="figure">
+          <label>Figure 4</label>
+          <caption>
+            <p>
+<bold>Localization of SLC4A10 to GABAergic presynapses.</bold>
+<italic toggle="yes">Slc4a10</italic> wild-type (WT) mouse brain sections. Scale bars = 20 &#xB5;m, enhanced view of merged marker images also shown (boxed areas). (<bold>A</bold>) VGLUT1, a marker of excitatory presynaptic terminals, rarely co-localizes with SLC4A10 in the CA1 region of the hippocampus (green: SLC4A10, red: VGLUT1). (<bold>B</bold>) SLC4A10 and VGAT, a marker for GABAergic presynapses, co-localize in the CA1 region of the hippocampus (green: SLC4A10, red: VGAT). (<bold>C</bold>) Quantitative analysis of co-localization of SLC4A10 with either VGLUT1 or VGAT and calculation of Pearson correlation coefficients between these data in the CA1 region of the hippocampus (VGLUT1 <italic toggle="yes">n</italic> = 28 and VGAT <italic toggle="yes">n</italic> = 39 images each, bootstrap <italic toggle="yes">t</italic>-test; ***<italic toggle="yes">P</italic> &lt; 0.001).</p>
+          </caption>
+          <graphic xlink:href="awad235f4" position="float"/>
+        </fig>
+        <p>These data led us to next study whether neurotransmitter release is affected in the CA1 region of the hippocampus <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice. Frequency, amplitude and kinetics of mEPSCs recorded in the presence of TTX did not differ between genotypes (<xref rid="awad235-F5" ref-type="fig">Fig. 5A&#x2013;C</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Table 4</xref>) suggesting that glutamate release is not affected by disruption of SLC4A10. In contrast, the frequency of mIPSCs in TTX, either recorded in CA1 (<xref rid="awad235-F5" ref-type="fig">Fig. 5D&#x2013;F</xref> and <xref rid="sup1" ref-type="supplementary-material">Supplementary Table 4</xref>) or CA3 (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 8</xref>), were significantly decreased in the presence of HCO<sub>3</sub><sup>&#x2212;</sup>. While amplitudes were unaffected, &#x3C4;<sub>decay</sub> and consequently the transferred electric charge per event were diminished in slices obtained from <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice. As there is evidence that spontaneous and evoked neurotransmission are partially segregated at inhibitory synapses,<sup><xref rid="awad235-B43" ref-type="bibr">43</xref></sup> we also studied sIPSCs, the frequencies and kinetics of which were reduced (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 9</xref>).</p>
+        <fig position="float" id="awad235-F5" fig-type="figure">
+          <label>Figure 5</label>
+          <caption>
+            <p>
+<bold>SLC4A10 acts on presynaptic pH<sub>i</sub> to promote GABA release in CA1 pyramidal neurons</bold>. Glutamatergic transmission is not impaired in CA1 neurons of <italic toggle="yes">Slc4a10</italic><sup>&#x2212;<bold>/</bold>&#x2212;</sup> mice (<bold>A</bold>&#x2013;<bold>C</bold>). (<bold>A</bold>) Representative miniature excitatory postsynaptic current (mEPSC) recordings of pyramidal neurons from <italic toggle="yes">Slc4a10</italic> wild-type (WT) and knockout (KO) mice. (<bold>B</bold>) Averaged mEPSCs show that the kinetics of mEPSCs are not affected by disruption of <italic toggle="yes">Slc4a10</italic>. (<bold>C</bold>) Cumulative plots and bar charts of different mEPSC properties. No significant differences were detected in mEPSC frequency, amplitude or kinetics (<italic toggle="yes">n</italic> = 9/14; bootstrap <italic toggle="yes">t</italic>-test). n.s. = not significant. (<bold>D</bold>&#x2013;<bold>G</bold>) The miniature inhibitory postsynaptic currents (mIPSC) frequency is diminished in <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice in the presence of bicarbonate. (<bold>D</bold>) Representative recordings of ongoing mIPSC activity in pyramidal neurons from <italic toggle="yes">Slc4a10</italic> WT and KO mice as well of pyramidal neurons from <italic toggle="yes">Slc4a10</italic> KO mice in the presence of 20 mM trimethylamine chloride (TriMA). (<bold>E</bold>) Averaged mIPSC recordings of pyramidal neurons from <italic toggle="yes">Slc4a10</italic> WT and KO mice to illustrate kinetics and amplitude. (<bold>F</bold>) Cumulative plots and bar charts of mIPSC properties (<italic toggle="yes">n</italic> = 12/19/11; bootstrap <italic toggle="yes">F</italic>-test with <italic toggle="yes">post hoc</italic> analysis: *<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; n.s. = not significant). While no differences in the mean amplitudes of mIPSCs were observed, the frequency of mIPSCs was significantly diminished in cells derived from <italic toggle="yes">Slc4a10</italic> KO mice but could be partially rescued by application of TriMA. Diminished &#x3C4;<sub>decay</sub> and half-width of averaged mIPSCs in pyramidal neurons from <italic toggle="yes">Slc4a10</italic> KO mice compared with WT in bicarbonate-buffered artificial CSF were not affected by TriMA. (<bold>G</bold>) In HEPES-buffered nominally bicarbonate-free solution mIPSC frequencies and kinetics did not differ between genotypes (<italic toggle="yes">n</italic> = 14/12; bootstrap <italic toggle="yes">t</italic>-test: *<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001). Quantitative data are shown as mean + standard error of the mean (SEM).</p>
+          </caption>
+          <graphic xlink:href="awad235f5" position="float"/>
+        </fig>
+        <p>As the disruption of the acid-extruder SLC4A10 is expected to decrease neuronal pH<sub>i</sub>,<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> we tested whether the mIPSC frequency can be rescued by raising pH<sub>i</sub>. Indeed, 20 mM trimethyl ammonium (TriMA), which raises pH<sub>i</sub> without affecting pH<sub>o</sub>,<sup><xref rid="awad235-B44" ref-type="bibr">44</xref></sup> increased the mIPSC frequency in preparations from <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice (<xref rid="awad235-F5" ref-type="fig">Fig. 5D&#x2013;F</xref>), while the kinetics were not affected. Analogously, lowering pH<sub>i</sub> by replacing 20 mM NaCl by sodium propionate decreased mIPSC frequency in slices from wild-type mice (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 10</xref>). The effects of the disruption of <italic toggle="yes">Slc4a10</italic> on frequency and kinetics were eliminated under bicarbonate-free conditions in recordings performed in HEPES-buffered solution, arguing against structural defects or an altered subunit composition of postsynaptic GABA<sub>A</sub> receptors (<xref rid="awad235-F5" ref-type="fig">Fig. 5G</xref>).</p>
+        <p>Together, these data show that SLC4A10 modulates GABAergic synaptic transmission in a HCO<sub>3</sub><sup>&#x2212;</sup>-dependent manner.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="awad235-s3">
+      <title>Discussion</title>
+      <p>Here we present clinical and genetic data from five unrelated families, alongside molecular and neurobiological findings in mice that define biallelic loss-of-function variants in <italic toggle="yes">SLC4A10</italic> as a cause of a severe neurodevelopmental disorder, frequently associated with microcephaly (&lt;&#x2212;3 SDS) and morphologically abnormal collapsed (slit) lateral ventricles. This slit-like appearance of the lateral ventricles appears to be characteristic of the disorder and mirrors findings in the <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mouse.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> SLC4A10 mediates Na<sup>+</sup>-dependent acid extrusion at the basolateral side of choroid plexus epithelial cells.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> Thus, collapsed brain ventricles in knockout mice and in patients with <italic toggle="yes">SLC4A10</italic> biallelic loss-of-function alleles suggest that basolateral SLC4A10-dependent Na<sup>+</sup> uptake plays a key role for the apical Na<sup>+</sup>-coupled secretion of the CSF.<sup><xref rid="awad235-B45" ref-type="bibr">45</xref></sup></p>
+      <p>The four truncating <italic toggle="yes">SLC4A10</italic> variants identified are predicted to result in complete molecular loss-of-function [deletion of exons 5-11; p.(Trp140Argfs*39), p.(Arg757*), p.(Trp873*) and c.2863-2A&gt;C; p.(Gln954_Phe955ins*13)]. Consistent with this, affected individuals homozygous for these variants have the most severe neurological outcomes. Additionally, while both the p.(Lys577Met), affecting the transmembrane region (<xref rid="sup1" ref-type="supplementary-material">Supplementary Fig. 1</xref><xref rid="awad235-F1" ref-type="fig">1</xref>), and C-terminal p.(Asn1103Ile) variant proteins were each trafficked to the proximity of the plasma membrane individually, SLC4A10 protein harbouring both p.(Lys577Met;Asn1103Ile) variants <italic toggle="yes">in cis</italic> was largely trapped intracellularly and acid extrusion was shown to be significantly diminished (<xref rid="sup1" ref-type="supplementary-material">Supplementary Figs 6A and 7E and F</xref>), strongly supportive of pathogenicity.</p>
+      <p>Previously a <italic toggle="yes">de novo</italic> balanced translocation disrupting <italic toggle="yes">SLC4A10</italic> was identified as a candidate cause of disease in a single individual described to have &#x2018;mental retardation, progressive cognitive decline, and partial complex epilepsy&#x2019;.<sup><xref rid="awad235-B26" ref-type="bibr">26</xref></sup> However, a heterozygous <italic toggle="yes">SLC4A10</italic> variant causing a severe monogenic disease is not consistent with the autosomal recessive condition described here, given the unaffected parental/sibling carriers of loss-of-function <italic toggle="yes">SLC4A10</italic> variants, and the many heterozygous loss-of-function gene variants listed in gnomAD. While it remains unclear whether an undetected <italic toggle="yes">SLC4A10</italic> variant may have been present <italic toggle="yes">in trans</italic> with the disrupted <italic toggle="yes">SLC4A10</italic> allele, heterozygous loss of SLC4A10 function due to the translocation event alone appears unlikely to be responsible for the neurological condition affecting this individual.</p>
+      <p>Our findings are also of note in light of recent genome-wide association studies (GWAS), which identify a highly statistically significant association between <italic toggle="yes">SLC4A10</italic> intronic or <italic toggle="yes">in</italic><italic toggle="yes">cis</italic> regulatorytranscription-binding region variants and neurological traits including cognitive function, educational attainment, brain and hippocampal volume and psychiatric morbidity (<xref rid="sup1" ref-type="supplementary-material">Supplementary Table 5</xref>).<sup><xref rid="awad235-B46" ref-type="bibr">46&#x2013;48</xref></sup> Taken together with our present findings, these data provide compelling evidence for the importance of <italic toggle="yes">SLC4A10</italic> in normal neurological development and function and suggest a potential role for <italic toggle="yes">SLC4A10</italic> in traits mediated by oligo/polygenic inheritance.</p>
+      <p>Notably, <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice show altered object discrimination with avoidance of the novel object thus resembling a mouse model of autistic spectrum disorder.<sup><xref rid="awad235-B49" ref-type="bibr">49</xref></sup> This prompted us to use our mouse model to further characterize the role of SLC4A10 in brain function. We previously showed that SLC4A10 is broadly expressed in both principal cells and inhibitory interneurons and that its disruption impaired the recovery of neurons from an acid load in the somatodendritic compartment.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> Here, we show that SLC4A10 co-localizes with a marker of GABAergic but not glutamatergic presynapses. In agreement with this localization, GABA release was reduced, while glutamate release was not affected. This defect is characterized by a decrease of mIPSC frequency, while mIPSC amplitudes remain unaltered. Intracellular alkalinization with TriMA partially rescued mIPSC frequency in brain slices from <italic toggle="yes">Slc4a10</italic><sup>&#x2212;/&#x2212;</sup> mice, while intracellular acidification induced a decrease of mIPSC frequency in wild-type mice, which further supports the conclusion that the difference in mIPSC frequency between the two genotypes are pH<sub>i</sub> dependent. The knockout of a plasma membrane resident Na<sup>+</sup>-coupled anion exchanger such as SLC4A10 might also change the equilibrium potential for Na<sup>+</sup> (E<sub>Na</sub>) thus coupling E<sub>Na</sub> to pH. It is conceivable that changes in E<sub>NA</sub> lead to subtle changes in membrane potential. Such voltage fluctuations can spread along axons and thus modulate the amplitude of axonal action potentials and postsynaptic potentials evoked by these spikes.<sup><xref rid="awad235-B50" ref-type="bibr">50</xref></sup> However, cellular Na<sup>+</sup> loading by pH-regulatory mechanisms typically requires blocking the Na-K ATPase.<sup><xref rid="awad235-B51" ref-type="bibr">51</xref></sup> Moreover, the relative permeability for Na<sup>+</sup> of a typical neuron at rest is very low compared to K<sup>+</sup> and Cl<sup>&#x2212;</sup> and thus exerts only a minor contribution to the resting membrane potential.<sup><xref rid="awad235-B52" ref-type="bibr">52</xref></sup> In agreement, the resting membrane potential between wild-type and knockout principal neurons did not differ at steady state, thus excluding a major effect of SLC4A10 on E<sub>Na</sub> and excitability of principal neurons. A limitation of the current study is that we have not studied the basic electrophysiological properties of interneurons. However, given that the basic properties of principal neurons are largely unaffected by the disruption, it is highly likely that this also applies to interneurons.</p>
+      <p>In contrast to the decreased mIPSC frequency, mIPSC kinetics were only mildly changed, which can reflect alterations at the postsynaptic site such as changes in the receptor density or the composition of the receptor subunits.<sup><xref rid="awad235-B53" ref-type="bibr">53</xref></sup> However, the differences between genotypes were abolished under bicarbonate-free conditions which eliminates the activity of Na<sup>+</sup>-dependent HCO<sub>3</sub><sup>&#x2212;</sup> transporters arguing against this possibility. Because GABA<sub>A</sub> receptor function critically depends on extracellular pH,<sup><xref rid="awad235-B4" ref-type="bibr">4</xref>,<xref rid="awad235-B54" ref-type="bibr">54</xref>,<xref rid="awad235-B55" ref-type="bibr">55</xref></sup> changes in the kinetics rather suggest an increase in the pH of the synaptic cleft. Accordingly, TriMA, which only raises pH<sub>i</sub>, but does not affect extracellular pH,<sup><xref rid="awad235-B56" ref-type="bibr">56</xref></sup> did not change mIPSC kinetics. Notably, the disruption of the Na<sup>+</sup>/H<sup>+</sup> exchanger NHE1/SLC9A1, another transporter expressed at inhibitory presynapses, also decreased mIPSC frequency and altered kinetics.<sup><xref rid="awad235-B11" ref-type="bibr">11</xref></sup></p>
+      <p>Thus, both SLC4A10 and SLC9A1 seem likely to contribute to the regulation of pH<sub>i</sub> at GABAergic nerve endings and, notably, biallelic variants in <italic toggle="yes">SLC9A1</italic> have been linked to a syndromic neurological disorder.<sup><xref rid="awad235-B57" ref-type="bibr">57</xref></sup> Furthermore, control of pH<sub>i</sub> at glutamatergic presynapses is mediated by the combination of SLC9A1<sup><xref rid="awad235-B11" ref-type="bibr">11</xref></sup> and SLC4A8,<sup><xref rid="awad235-B58" ref-type="bibr">58</xref></sup> another Na<sup>+</sup>-dependent HCO<sub>3</sub><sup>&#x2212;</sup> transporter closely related to SLC4A10. Similar to the defect of GABA release upon disruption of SLC4A10, disruption of SLC4A8 affects glutamate release via its effect on presynaptic pH<sub>i</sub>. These data show that changes in pH<sub>i</sub> may affect the vesicle release machinery in both GABAergic and glutamatergic neurons in numerous ways. Presynaptic Ca<sup>2+</sup> transients, which trigger synaptic vesicle exocytosis,<sup><xref rid="awad235-B59" ref-type="bibr">59</xref></sup> may be altered upon disruption of either <italic toggle="yes">Slc4a8</italic>, <italic toggle="yes">Slc4a10</italic> or <italic toggle="yes">Slc9a1</italic>, potentially because both Ca<sup>2+</sup> influx via voltage-gated Ca<sup>2+</sup> channels (VDCCs)<sup><xref rid="awad235-B2" ref-type="bibr">2</xref>,<xref rid="awad235-B60" ref-type="bibr">60</xref>,<xref rid="awad235-B61" ref-type="bibr">61</xref></sup> and Ca<sup>2+</sup> release from intracellular stores<sup><xref rid="awad235-B62" ref-type="bibr">62</xref>,<xref rid="awad235-B63" ref-type="bibr">63</xref></sup> are strongly pH-dependent. Alternatively, H<sup>+</sup> may compete with Ca<sup>2+</sup> at the binding site of synaptic vesicles, or may alter the function of proteins involved in vesicle release.<sup><xref rid="awad235-B64" ref-type="bibr">64</xref></sup> Changes in pH<sub>i</sub> might also affect the loading of GABA into synaptic vesicles, because VGAT operates as a GABA/H<sup>+</sup> exchanger and critically depends on the H<sup>+</sup> electrochemical gradient generated by the vacuolar-type H<sup>+</sup>-ATPase.<sup><xref rid="awad235-B65" ref-type="bibr">65</xref>,<xref rid="awad235-B66" ref-type="bibr">66</xref></sup> However, the lack of effect of disruption of SLC4A10 on mIPSC amplitudes are evidence against such an effect.<sup><xref rid="awad235-B67" ref-type="bibr">67</xref></sup></p>
+      <p>Consistent with a defect of GABA release, we previously reported an increased network excitability in acute brain slices obtained from <italic toggle="yes">Slc4a10</italic> knockout mice as evidenced by compromised paired-pulse facilitation and increased excitatory postsynaptic potential-spike coupling (E-S coupling).<sup><xref rid="awad235-B24" ref-type="bibr">24</xref></sup> Changes in the production and composition of the CSF of <italic toggle="yes">Slc4a10</italic> knockout mice may have opposite effects on network excitability <italic toggle="yes">in vivo</italic>. Indeed, seizure susceptibility to pentylenetetrazole (PTZ) and hyperthermia-induced hyperventilation with respiratory alkalosis were diminished in <italic toggle="yes">Slc4a10</italic> knockout mice.<sup><xref rid="awad235-B22" ref-type="bibr">22</xref></sup> Whether patients with <italic toggle="yes">SLC4A10-</italic>related disease are at increased risk of developing seizures is as of yet unclear, and in our study only 2 out of 10 patients had a clear history of epilepsy.</p>
+      <p>Patients with <italic toggle="yes">SLC4A10</italic> loss-of-function not only suffer from intellectual disability and behavioural abnormalities, but also show microcephaly and characteristic slit-like brain ventricles. Both the strong expression of SLC4A10 in choroid plexus epithelial cells<sup><xref rid="awad235-B21" ref-type="bibr">21</xref>,<xref rid="awad235-B22" ref-type="bibr">22</xref></sup> and the collapsed brain ventricles characteristic of this disease, are indicative of a severely reduced production of CSF in patients. Historically the CSF was primarily considered to provide a simple supportive environment for the brain. However, it is now appreciated that the CSF is an integral component of the CNS with dynamic and diverse roles, which commence during early brain development, for example maintaining the stemness of embryonic progenitor cells, which contact the CSF via their apical surface.<sup><xref rid="awad235-B68" ref-type="bibr">68</xref></sup> Moreover, explants cultured as neurospheres depend on age-matched CSF in order to maintain appropriate progenitor identity, proliferation and neuronal differentiation.<sup><xref rid="awad235-B69" ref-type="bibr">69</xref>,<xref rid="awad235-B70" ref-type="bibr">70</xref></sup> While our analyses did not identify gross alterations of the cortical structure in <italic toggle="yes">Slc4a10</italic> knockout mice, additional studies will be required to rule out more subtle structural changes. As CSF components exchange with the interstitial fluid of the brain parenchyma, changes in CSF production and composition may influence periventricular brain structures such as the hippocampus and hypothalamus, but also potentially other brain structures that exchange with the interstitial fluid.<sup><xref rid="awad235-B71" ref-type="bibr">71</xref></sup> To identify potential consequences on synaptic functions, in the future it would be beneficial to generate and compare phenotypes of mice with a disruption of SLC4A10 either specifically in neurons, or in the choroid plexus.</p>
+      <p>In summary, we present extensive genetic, clinical, functional and murine datasets that confirm that biallelic <italic toggle="yes">SLC4A10</italic> pathogenic loss-of-function gene variants cause a syndromic neurodevelopmental disorder. Defects of GABAergic function are a recurrent finding in various neurodevelopmental and neuropsychiatric phenotypes such as intellectual disability, autistic spectrum disorder, epilepsy and schizophrenia.<sup><xref rid="awad235-B72" ref-type="bibr">72</xref>,<xref rid="awad235-B73" ref-type="bibr">73</xref></sup> Importantly, positive modulation of GABA<sub>A</sub> receptors by diazepam and GABA<sub>A</sub> receptor agonists have been shown to improve behavioural and neurophysiological defects in mouse models of fragile X syndrome.<sup><xref rid="awad235-B74" ref-type="bibr">74</xref>,<xref rid="awad235-B75" ref-type="bibr">75</xref></sup> Given this, it is tempting to hypothesize that enhancing inhibitory GABAergic transmission could be a possible therapeutic approach for ameliorating some of the neurological symptoms in patients with <italic toggle="yes">SLC4A10</italic>-related neurodevelopmental disorder.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material id="sup1" position="float" content-type="local-data">
+        <label>awad235_Supplementary_Data</label>
+        <media xlink:href="awad235_supplementary_data.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="ack1">
+      <title>Acknowledgements</title>
+      <p>We are very grateful to all of the families for taking part in this study.</p>
+    </ack>
+    <sec sec-type="data-availability" id="awad235-s4">
+      <title>Data availability</title>
+      <p>Full WGS and WES sequencing data are not available due to reasons of confidentiality; anonymized variant data will be made available on reasonable request. The authors declare that all other data are contained within the manuscript and the <xref rid="sup1" ref-type="supplementary-material">Supplemental material</xref>. <italic toggle="yes">SLC4A10</italic> variants have been deposited in ClinVar with submission number SUB11166749.</p>
+    </sec>
+    <sec id="awad235-s5">
+      <title>Funding</title>
+      <p>The work was supported by Deutsche Forschungsgemeinschaft (DFG) grants HU 800/7-2 and HU 800/16-1 (C.A.H.), Bundesministerium f&#xFC;r Bildung und Forschung (BMBF) grant 01EW1706 (C.A.H.), Medical Research Council (MRC), Proximity to Discovery and Confidence in Concept grants (MC-PC-18047, MC_PC_15054) to University of Exeter, E.L.B, and A.H.C. and G1002279 (A.H.C) Wellcome Trust GW4-CAT Fellowship 220600/Z/20/Z (J.F.) and the Saudi Human Genome Program (F.A.K.). The work of K.K. is supported by the Sigrid Jus&#xE9;lius Foundation. FWF Jubil&#xE4;umsfondprojekt Nr. 18023&#x2014;Paediatric developmental disorders&#x2014;from gene to tailored treatment to S.B.W. This research was funded in whole, or in part, by Wellcome Trust [220600/Z/20/Z]. For the purpose of open access, the author has applied a CC BY public copyright license to any Author Accepted Manuscript version arising from this submission. This study was supported by the National Institute for Health and Care Research Exeter Biomedical Research Centre. The views expressed are those of the author(s) and not necessarily those of the NIHR or the Department of Health and Social Care.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="awad235-s6">
+      <title>Competing interests</title>
+      <p>The authors report no competing interests.</p>
+    </sec>
+    <sec id="awad235-s7">
+      <title>Supplementary material</title>
+      <p>
+<xref rid="sup1" ref-type="supplementary-material">Supplementary material</xref> is available at <italic toggle="yes">Brain</italic> online.</p>
+    </sec>
+    <ref-list id="ref1">
+      <title>References</title>
+      <ref id="awad235-B1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Traynelis</surname>
+<given-names>SF</given-names>
+</string-name>, <string-name><surname>Cull-Candy</surname><given-names>SG</given-names></string-name></person-group>. <article-title>Proton inhibition of N-methyl-D-aspartate receptors in cerebellar neurons</article-title>. <source>Nature</source>. <year>1990</year>;<volume>345</volume>:<fpage>347</fpage>&#x2013;<lpage>350</lpage>.<pub-id pub-id-type="pmid">1692970</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B2">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Tombaugh</surname>
+<given-names>GC</given-names>
+</string-name>, <string-name><surname>Somjen</surname><given-names>GG</given-names></string-name></person-group>. <article-title>Effects of extracellular pH on voltage-gated Na<sup>+</sup>, K<sup>+</sup> and Ca<sup>2+</sup> currents in isolated rat CA1 neurons</article-title>. <source>J Physiol</source>. <year>1996</year>;<volume>493</volume>(<issue>Pt 3</issue>):<fpage>719</fpage>&#x2013;<lpage>732</lpage>.<pub-id pub-id-type="pmid">8799894</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B3">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Waldmann</surname>
+<given-names>R</given-names>
+</string-name>, <string-name><surname>Champigny</surname><given-names>G</given-names></string-name>, <string-name><surname>Bassilana</surname><given-names>F</given-names></string-name>, <string-name><surname>Heurteaux</surname><given-names>C</given-names></string-name>, <string-name><surname>Lazdunski</surname><given-names>M</given-names></string-name></person-group>. <article-title>A proton-gated cation channel involved in acid-sensing</article-title>. <source>Nature</source>. <year>1997</year>;<volume>386</volume>:<fpage>173</fpage>&#x2013;<lpage>177</lpage>.<pub-id pub-id-type="pmid">9062189</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B4">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Pasternack</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Smirnov</surname><given-names>S</given-names></string-name>, <string-name><surname>Kaila</surname><given-names>K</given-names></string-name></person-group>. <article-title>Proton modulation of functionally distinct GABAA receptors in acutely isolated pyramidal neurons of rat hippocampus</article-title>. <source>Neuropharmacology</source>. <year>1996</year>;<volume>35</volume>(<issue>9&#x2013;10</issue>):<fpage>1279</fpage>&#x2013;<lpage>1288</lpage>.<pub-id pub-id-type="pmid">9014143</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B5">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Sinning</surname>
+<given-names>A</given-names>
+</string-name>, <string-name><surname>H&#xFC;bner</surname><given-names>CA</given-names></string-name></person-group>. <article-title>Minireview: pH and synaptic transmission</article-title>. <source>FEBS Lett</source>. <year>2013</year>;<volume>587</volume>:<fpage>1923</fpage>&#x2013;<lpage>1928</lpage>.<pub-id pub-id-type="pmid">23669358</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B6">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Chesler</surname>
+<given-names>M</given-names>
+</string-name>
+</person-group>. <article-title>Regulation and modulation of pH in the brain</article-title>. <source>Physiol Rev</source>. <year>2003</year>;<volume>83</volume>:<fpage>1183</fpage>&#x2013;<lpage>1221</lpage>.<pub-id pub-id-type="pmid">14506304</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B7">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ruffin</surname>
+<given-names>VA</given-names>
+</string-name>, <string-name><surname>Salameh</surname><given-names>AI</given-names></string-name>, <string-name><surname>Boron</surname><given-names>WF</given-names></string-name>, <string-name><surname>Parker</surname><given-names>MD</given-names></string-name></person-group>. <article-title>Intracellular pH regulation by acid-base transporters in mammalian neurons</article-title>. <source>Front Physiol</source>. <year>2014</year>;<volume>5</volume>:<fpage>43</fpage>.<pub-id pub-id-type="pmid">24592239</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B8">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Sinning</surname>
+<given-names>A</given-names>
+</string-name>, <string-name><surname>Liebmann</surname><given-names>L</given-names></string-name>, <string-name><surname>Kougioumtzes</surname><given-names>A</given-names></string-name>, <string-name><surname>Westermann</surname><given-names>M</given-names></string-name>, <string-name><surname>Bruehl</surname><given-names>C</given-names></string-name>, <string-name><surname>Hubner</surname><given-names>CA</given-names></string-name></person-group>. <article-title>Synaptic glutamate release is modulated by the Na<sup>+</sup>-driven Cl<sup>&#x2212;</sup>/HCO<sub>3</sub><sup>&#x2212;</sup> exchanger Slc4a8</article-title>. <source>J Neurosci.</source><year>2011</year>;<volume>31</volume>:<fpage>7300</fpage>&#x2013;<lpage>7311</lpage>.<pub-id pub-id-type="pmid">21593314</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B9">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Burette</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name><surname>Weinberg</surname><given-names>RJ</given-names></string-name>, <string-name><surname>Sassani</surname><given-names>P</given-names></string-name>, <string-name><surname>Abuladze</surname><given-names>N</given-names></string-name>, <string-name><surname>Kao</surname><given-names>L</given-names></string-name>, <string-name><surname>Kurtz</surname><given-names>I</given-names></string-name></person-group>. <article-title>The sodium-driven chloride/bicarbonate exchanger in presynaptic terminals</article-title>. <source>J Comp Neurol</source>. <year>2012</year>;<volume>520</volume>:<fpage>1481</fpage>&#x2013;<lpage>1492</lpage>.<pub-id pub-id-type="pmid">22102085</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B10">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Salameh</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name><surname>H&#xFC;bner</surname><given-names>CA</given-names></string-name>, <string-name><surname>Boron</surname><given-names>WF</given-names></string-name></person-group>. <article-title>Role of Cl<sup>&#x2212;</sup>-HCO<sub>3</sub><sup>&#x2212;</sup> exchanger AE3 in intracellular pH homeostasis in cultured murine hippocampal neurons, and in crosstalk to adjacent astrocytes</article-title>. <source>J Physiol</source>. <year>2017</year>;<volume>595</volume>:<fpage>93</fpage>&#x2013;<lpage>124</lpage>.<pub-id pub-id-type="pmid">27353306</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B11">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Bocker</surname>
+<given-names>HT</given-names>
+</string-name>, <string-name><surname>Heinrich</surname><given-names>T</given-names></string-name>, <string-name><surname>Liebmann</surname><given-names>L</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>The Na<sup>+</sup>/H<sup>+</sup> exchanger Nhe1 modulates network excitability via GABA release</article-title>. <source>Cereb Cortex</source>. <year>2019</year>;<volume>29</volume>:<fpage>4263</fpage>&#x2013;<lpage>4276</lpage>.<pub-id pub-id-type="pmid">30541023</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B12">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Stawarski</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Hernandez</surname><given-names>RX</given-names></string-name>, <string-name><surname>Feghhi</surname><given-names>T</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Neuronal glutamatergic synaptic clefts alkalinize rather than acidify during neurotransmission</article-title>. <source>J Neurosci.</source><year>2020</year>;<volume>40</volume>:<fpage>1611</fpage>&#x2013;<lpage>1624</lpage>.<pub-id pub-id-type="pmid">31964719</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B13">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Feghhi</surname>
+<given-names>T</given-names>
+</string-name>, <string-name><surname>Hernandez</surname><given-names>RX</given-names></string-name>, <string-name><surname>Stawarski</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Computational modeling predicts ephemeral acidic microdomains in the glutamatergic synaptic cleft</article-title>. <source>Biophys J.</source><year>2021</year>;<volume>120</volume>:<fpage>5575</fpage>&#x2013;<lpage>5591</lpage>.<pub-id pub-id-type="pmid">34774503</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B14">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Orlowski</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Grinstein</surname><given-names>S</given-names></string-name></person-group>. <article-title>Na<sup>+</sup>/H<sup>+</sup> exchangers</article-title>. <source>Compr Physiol</source>. <year>2011</year>;<volume>1</volume>:<fpage>2083</fpage>&#x2013;<lpage>2100</lpage>.<pub-id pub-id-type="pmid">23733698</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B15">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Romero</surname>
+<given-names>MF</given-names>
+</string-name>, <string-name><surname>Chen</surname><given-names>AP</given-names></string-name>, <string-name><surname>Parker</surname><given-names>MD</given-names></string-name>, <string-name><surname>Boron</surname><given-names>WF</given-names></string-name></person-group>. <article-title>The SLC4 family of bicarbonate (HCO<sub>3</sub><sup>-</sup>) transporters</article-title>. <source>Mol Aspects Med</source>. <year>2013</year>;<volume>34</volume>(<issue>2&#x2013;3</issue>):<fpage>159</fpage>&#x2013;<lpage>182</lpage>.<pub-id pub-id-type="pmid">23506864</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B16">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Alper</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name><surname>Sharma</surname><given-names>AK</given-names></string-name></person-group>. <article-title>The SLC26 gene family of anion transporters and channels</article-title>. <source>Mol Aspects Med</source>. <year>2013</year>;<volume>34</volume>(<issue>2&#x2013;3</issue>):<fpage>494</fpage>&#x2013;<lpage>515</lpage>.<pub-id pub-id-type="pmid">23506885</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B17">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Wang</surname><given-names>W</given-names></string-name>, <string-name><surname>Wang</surname><given-names>H</given-names></string-name>, <string-name><surname>Tuo</surname><given-names>B</given-names></string-name></person-group>. <article-title>Physiological and pathological functions of SLC26A6</article-title>. <source>Front Med (Lausanne).</source><year>2021</year>;<volume>7</volume>:<fpage>618256</fpage>.<pub-id pub-id-type="pmid">33553213</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B18">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>McMurtrie</surname>
+<given-names>HL</given-names>
+</string-name>, <string-name><surname>Cleary</surname><given-names>HJ</given-names></string-name>, <string-name><surname>Alvarez</surname><given-names>BV</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>The bicarbonate transport metabolon</article-title>. <source>J Enzyme Inhib Med Chem</source>. <year>2004</year>;<volume>19</volume>:<fpage>231</fpage>&#x2013;<lpage>236</lpage>.<pub-id pub-id-type="pmid">15499994</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B19">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Damkier</surname>
+<given-names>HH</given-names>
+</string-name>, <string-name><surname>Aalkjaer</surname><given-names>C</given-names></string-name>, <string-name><surname>Praetorius</surname><given-names>J</given-names></string-name></person-group>. <article-title>Na<sup>+</sup>-dependent HCO3<sup>-</sup> import by the slc4a10 gene product involves Cl<sup>-</sup> export</article-title>. <source>J Biol Chem</source>. <year>2010</year>;<volume>285</volume>:<fpage>26998</fpage>&#x2013;<lpage>27007</lpage>.<pub-id pub-id-type="pmid">20566632</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B20">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Parker</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name><surname>Musa-Aziz</surname><given-names>R</given-names></string-name>, <string-name><surname>Rojas</surname><given-names>JD</given-names></string-name>, <string-name><surname>Choi</surname><given-names>I</given-names></string-name>, <string-name><surname>Daly</surname><given-names>CM</given-names></string-name>, <string-name><surname>Boron</surname><given-names>WF</given-names></string-name></person-group>. <article-title>Characterization of human SLC4A10 as an electroneutral Na/HCO<sub>3</sub> cotransporter (NBCn2) with Cl<sup>-</sup> self-exchange activity</article-title>. <source>J Biol Chem</source>. <year>2008</year>;<volume>283</volume>:<fpage>12777</fpage>&#x2013;<lpage>12788</lpage>.<pub-id pub-id-type="pmid">18319254</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B21">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Praetorius</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Nejsum</surname><given-names>LN</given-names></string-name>, <string-name><surname>Nielsen</surname><given-names>S</given-names></string-name></person-group>. <article-title>A SCL4A10 gene product maps selectively to the basolateral plasma membrane of choroid plexus epithelial cells</article-title>. <source>Am J Physiol Cell Physiol</source>. <year>2004</year>;<volume>286</volume>:<fpage>C601</fpage>&#x2013;<lpage>C610</lpage>.<pub-id pub-id-type="pmid">14592810</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B22">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Jacobs</surname>
+<given-names>S</given-names>
+</string-name>, <string-name><surname>Ruusuvuori</surname><given-names>E</given-names></string-name>, <string-name><surname>Sipil&#xE4;</surname><given-names>ST</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Mice with targeted <italic toggle="yes">Slc4a10</italic> gene disruption have small brain ventricles and show reduced neuronal excitability</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2008</year>;<volume>105</volume>:<fpage>311</fpage>&#x2013;<lpage>316</lpage>.<pub-id pub-id-type="pmid">18165320</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B23">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Huebner</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name><surname>Maier</surname><given-names>H</given-names></string-name>, <string-name><surname>Maul</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Early hearing loss upon disruption of Slc4a10 in C57BL/6 mice</article-title>. <source>J Assoc Res Otolaryngol</source>. <year>2019</year>;<volume>20</volume>:<fpage>233</fpage>&#x2013;<lpage>245</lpage>.<pub-id pub-id-type="pmid">31001720</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B24">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Sinning</surname>
+<given-names>A</given-names>
+</string-name>, <string-name><surname>Liebmann</surname><given-names>L</given-names></string-name>, <string-name><surname>H&#xFC;bner</surname><given-names>CA</given-names></string-name></person-group>. <article-title>Disruption of Slc4a10 augments neuronal excitability and modulates synaptic short-term plasticity</article-title>. <source>Front Cell Neurosci</source>. <year>2015</year>;<volume>9</volume>:<fpage>223</fpage>.<pub-id pub-id-type="pmid">26136660</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B25">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Belengeanu</surname>
+<given-names>V</given-names>
+</string-name>, <string-name><surname>Gamage</surname><given-names>TH</given-names></string-name>, <string-name><surname>Farcas</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>A de novo 2.3Mb deletion in 2q24.2q24.3 in a 20-month-old developmentally delayed girl</article-title>. <source>Gene</source>. <year>2014</year>;<volume>539</volume>:<fpage>168</fpage>&#x2013;<lpage>172</lpage>.<pub-id pub-id-type="pmid">24508274</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B26">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Gurnett</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name><surname>Veile</surname><given-names>R</given-names></string-name>, <string-name><surname>Zempel</surname><given-names>J</given-names></string-name>, <string-name><surname>Blackburn</surname><given-names>L</given-names></string-name>, <string-name><surname>Lovett</surname><given-names>M</given-names></string-name>, <string-name><surname>Bowcock</surname><given-names>A</given-names></string-name></person-group>. <article-title>Disruption of sodium bicarbonate transporter SLC4A10 in a patient with complex partial epilepsy and mental retardation</article-title>. <source>Arch Neurol.</source><year>2008</year>;<volume>65</volume>:<fpage>550</fpage>&#x2013;<lpage>553</lpage>.<pub-id pub-id-type="pmid">18413482</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B27">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Krepischi</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name><surname>Knijnenburg</surname><given-names>J</given-names></string-name>, <string-name><surname>Bertola</surname><given-names>DR</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Two distinct regions in 2q24.2-q24.3 associated with idiopathic epilepsy</article-title>. <source>Epilepsia</source>. <year>2010</year>;<volume>51</volume>:<fpage>2457</fpage>&#x2013;<lpage>2460</lpage>.<pub-id pub-id-type="pmid">21204806</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B28">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Sebat</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Lakshmi</surname><given-names>B</given-names></string-name>, <string-name><surname>Malhotra</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Strong association of de novo copy number mutations with autism</article-title>. <source>Science</source>. <year>2007</year>;<volume>316</volume>:<fpage>445</fpage>&#x2013;<lpage>449</lpage>.<pub-id pub-id-type="pmid">17363630</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B29">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Laver</surname>
+<given-names>TW</given-names>
+</string-name>, <string-name><surname>De Franco</surname><given-names>E</given-names></string-name>, <string-name><surname>Johnson</surname><given-names>MB</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>SavvyCNV: Genome-wide CNV calling from off-target reads</article-title>. <source>PLoS Comput Biol.</source><year>2022</year>;<volume>18</volume>:<fpage>e1009940</fpage>.<pub-id pub-id-type="pmid">35294448</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B30">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Wagner</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Berutti</surname><given-names>R</given-names></string-name>, <string-name><surname>Lorenz-Depiereux</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Mitochondrial DNA mutation analysis from exome sequencing&#x2014;A more holistic approach in diagnostics of suspected mitochondrial disease</article-title>. <source>J Inherit Metab Dis</source>. <year>2019</year>;<volume>42</volume>:<fpage>909</fpage>&#x2013;<lpage>917</lpage>.<pub-id pub-id-type="pmid">31059585</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B31">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Mayr</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name><surname>Haack</surname><given-names>TB</given-names></string-name>, <string-name><surname>Graf</surname><given-names>E</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Lack of the mitochondrial protein acylglycerol kinase causes sengers syndrome</article-title>. <source>Am J Hum Genet</source>. <year>2012</year>;<volume>90</volume>:<fpage>314</fpage>&#x2013;<lpage>320</lpage>.<pub-id pub-id-type="pmid">22284826</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B32">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Monies</surname>
+<given-names>D</given-names>
+</string-name>, <string-name><surname>Abouelhoda</surname><given-names>M</given-names></string-name>, <string-name><surname>Assoum</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Lessons learned from large-scale, first-tier clinical exome sequencing in a highly consanguineous population</article-title>. <source>Am J Hum Genet</source>. <year>2019</year>;<volume>104</volume>:<fpage>1182</fpage>&#x2013;<lpage>1201</lpage>.<pub-id pub-id-type="pmid">31130284</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B33">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Novarino</surname>
+<given-names>G</given-names>
+</string-name>, <string-name><surname>Fenstermaker</surname><given-names>AG</given-names></string-name>, <string-name><surname>Zaki</surname><given-names>MS</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Exome sequencing links corticospinal motor neuron disease to common neurodegenerative disorders</article-title>. <source>Science</source>. <year>2014</year>;<volume>343</volume>:<fpage>506</fpage>&#x2013;<lpage>511</lpage>.<pub-id pub-id-type="pmid">24482476</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B34">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Dunn</surname>
+<given-names>KW</given-names>
+</string-name>, <string-name><surname>Kamocka</surname><given-names>MM</given-names></string-name>, <string-name><surname>McDonald</surname><given-names>JH</given-names></string-name></person-group>. <article-title>A practical guide to evaluating colocalization in biological microscopy</article-title>. <source>Am J Physiol-Cell Physiol</source>. <year>2011</year>;<volume>300</volume>:<fpage>C723</fpage>&#x2013;<lpage>C742</lpage>.<pub-id pub-id-type="pmid">21209361</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B35">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Liebmann</surname>
+<given-names>L</given-names>
+</string-name>, <string-name><surname>Karst</surname><given-names>H</given-names></string-name>, <string-name><surname>Sidiropoulou</surname><given-names>K</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Differential effects of corticosterone on the slow afterhyperpolarization in the basolateral amygdala and CA1 region: Possible role of calcium channel subunits</article-title>. <source>J Neurophysiol</source>. <year>2008</year>;<volume>99</volume>:<fpage>958</fpage>&#x2013;<lpage>968</lpage>.<pub-id pub-id-type="pmid">18077660</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B36">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Dwivedi</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name><surname>Mallawaarachchi</surname><given-names>I</given-names></string-name>, <string-name><surname>Alvarado</surname><given-names>LA</given-names></string-name></person-group>. <article-title>Analysis of small sample size studies using nonparametric bootstrap test with pooled resampling method</article-title>. <source>Stat Med</source>. <year>2017</year>;<volume>36</volume>:<fpage>2187</fpage>&#x2013;<lpage>2205</lpage>.<pub-id pub-id-type="pmid">28276584</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B37">
+        <label>37</label>
+        <mixed-citation publication-type="other">
+<comment>
+<italic toggle="yes">R: A language and environment for statistical computing</italic>. R Foundation for Statistical Computing; 2021</comment>. <ext-link xlink:href="https://www.R-project.org/" ext-link-type="uri">https://www.R-project.org/</ext-link></mixed-citation>
+      </ref>
+      <ref id="awad235-B38">
+        <label>38</label>
+        <mixed-citation publication-type="other">
+<comment>R<italic toggle="yes">Studio: Integrated Development Environment for R.</italic> RStudio, PBC</comment>; <year>2021</year>. <ext-link xlink:href="http://www.rstudio.com/" ext-link-type="uri">http://www.rstudio.com/</ext-link></mixed-citation>
+      </ref>
+      <ref id="awad235-B39">
+        <label>39</label>
+        <mixed-citation publication-type="other">
+<comment>g<italic toggle="yes">ee: Generalized Estimation Equation Solver. R package version 4.13-23.</italic> 2022</comment>. <ext-link xlink:href="https://CRAN.R-project.org/package=gee" ext-link-type="uri">https://CRAN.R-project.org/package=gee</ext-link></mixed-citation>
+      </ref>
+      <ref id="awad235-B40">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Chazotte</surname>
+<given-names>B</given-names>
+</string-name>
+</person-group>. <article-title>Labeling membrane glycoproteins or glycolipids with fluorescent wheat germ agglutinin</article-title>. <source>Cold Spring Harb Protoc</source>. <year>2011</year>;<volume>2011</volume>:<fpage>pdb.prot5623</fpage>.<pub-id pub-id-type="pmid">21536757</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B41">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Grayson</surname>
+<given-names>B</given-names>
+</string-name>, <string-name><surname>Idris</surname><given-names>NF</given-names></string-name>, <string-name><surname>Neill</surname><given-names>JC</given-names></string-name></person-group>. <article-title>Atypical antipsychotics attenuate a sub-chronic PCP-induced cognitive deficit in the novel object recognition task in the rat</article-title>. <source>Behav Brain Res</source>. <year>2007</year>;<volume>184</volume>:<fpage>31</fpage>&#x2013;<lpage>38</lpage>.<pub-id pub-id-type="pmid">17675172</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B42">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Munji</surname>
+<given-names>RN</given-names>
+</string-name>, <string-name><surname>Choe</surname><given-names>Y</given-names></string-name>, <string-name><surname>Li</surname><given-names>G</given-names></string-name>, <string-name><surname>Siegenthaler</surname><given-names>JA</given-names></string-name>, <string-name><surname>Pleasure</surname><given-names>SJ</given-names></string-name></person-group>. <article-title>Wnt signaling regulates neuronal differentiation of cortical intermediate progenitors</article-title>. <source>J Neurosci.</source><year>2011</year>;<volume>31</volume>:<fpage>1676</fpage>&#x2013;<lpage>1687</lpage>.<pub-id pub-id-type="pmid">21289176</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B43">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Horvath</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name><surname>Piazza</surname><given-names>MK</given-names></string-name>, <string-name><surname>Monteggia</surname><given-names>LM</given-names></string-name>, <string-name><surname>Kavalali</surname><given-names>ET</given-names></string-name></person-group>. <article-title>Spontaneous and evoked neurotransmission are partially segregated at inhibitory synapses</article-title>. <source>eLife</source>. <year>2020</year>;<volume>9</volume>:<fpage>e52852</fpage>.<pub-id pub-id-type="pmid">32401197</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B44">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Eisner</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name><surname>Kenning</surname><given-names>NA</given-names></string-name>, <string-name><surname>O'Neill</surname><given-names>SC</given-names></string-name>, <string-name><surname>Pocock</surname><given-names>G</given-names></string-name>, <string-name><surname>Richards</surname><given-names>CD</given-names></string-name>, <string-name><surname>Valdeolmillos</surname><given-names>M</given-names></string-name></person-group>. <article-title>A novel method for absolute calibration of intracellular pH indicators</article-title>. <source>Pflugers Arch</source>. <year>1989</year>;<volume>413</volume>:<fpage>553</fpage>&#x2013;<lpage>558</lpage>.<pub-id pub-id-type="pmid">2740208</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B45">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Damkier</surname>
+<given-names>HH</given-names>
+</string-name>, <string-name><surname>Brown</surname><given-names>PD</given-names></string-name>, <string-name><surname>Praetorius</surname><given-names>J</given-names></string-name></person-group>. <article-title>Cerebrospinal fluid secretion by the choroid plexus</article-title>. <source>Physiol Rev</source>. <year>2013</year>;<volume>93</volume>:<fpage>1847</fpage>&#x2013;<lpage>1892</lpage>.<pub-id pub-id-type="pmid">24137023</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B46">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lee</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name><surname>Wedow</surname><given-names>R</given-names></string-name>, <string-name><surname>Okbay</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Gene discovery and polygenic prediction from a genome-wide association study of educational attainment in 1.1 million individuals</article-title>. <source>Nat Genet.</source><year>2018</year>;<volume>50</volume>:<fpage>1112</fpage>&#x2013;<lpage>1121</lpage>.<pub-id pub-id-type="pmid">30038396</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B47">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>van der Meer</surname>
+<given-names>D</given-names>
+</string-name>, <string-name><surname>Rokicki</surname><given-names>J</given-names></string-name>, <string-name><surname>Kaufmann</surname><given-names>T</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Brain scans from 21,297 individuals reveal the genetic architecture of hippocampal subfield volumes</article-title>. <source>Mol Psychiatry.</source><year>2020</year>;<volume>25</volume>:<fpage>3053</fpage>&#x2013;<lpage>3065</lpage>.<pub-id pub-id-type="pmid">30279459</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B48">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ripke</surname>
+<given-names>S</given-names>
+</string-name>, <string-name><surname>Neale</surname><given-names>BM</given-names></string-name>, <string-name><surname>Corvin</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Biological insights from 108 schizophrenia-associated genetic loci</article-title>. <source>Nature</source>. <year>2014</year>;<volume>511</volume>:<fpage>421</fpage>&#x2013;<lpage>427</lpage>.<pub-id pub-id-type="pmid">25056061</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B49">
+        <label>49</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kane</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name><surname>Angoa-Per&#xE9;z</surname><given-names>M</given-names></string-name>, <string-name><surname>Briggs</surname><given-names>DI</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Mice genetically depleted of brain serotonin display social impairments, communication deficits and repetitive behaviors: Possible relevance to autism</article-title>. <source>PLoS ONE</source>. <year>2012</year>;<volume>7</volume>:<fpage>e48975</fpage>.<pub-id pub-id-type="pmid">23139830</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B50">
+        <label>50</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Shu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name><surname>Hasenstaub</surname><given-names>A</given-names></string-name>, <string-name><surname>Duque</surname><given-names>A</given-names></string-name>, <string-name><surname>Yu</surname><given-names>Y</given-names></string-name>, <string-name><surname>McCormick</surname><given-names>DA</given-names></string-name></person-group>. <article-title>Modulation of intracortical synaptic potentials by presynaptic somatic membrane potential</article-title>. <source>Nature</source>. <year>2006</year>;<volume>441</volume>:<fpage>761</fpage>&#x2013;<lpage>765</lpage>.<pub-id pub-id-type="pmid">16625207</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B51">
+        <label>51</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kaila</surname>
+<given-names>K</given-names>
+</string-name>, <string-name><surname>Voipio</surname><given-names>J</given-names></string-name></person-group>. <article-title>Postsynaptic fall in intracellular pH induced by GABA-activated bicarbonate conductance</article-title>. <source>Nature</source>. <year>1987</year>;<volume>330</volume>:<fpage>163</fpage>&#x2013;<lpage>165</lpage>.<pub-id pub-id-type="pmid">3670401</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B52">
+        <label>52</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Rutecki</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name><surname>Lebeda</surname><given-names>FJ</given-names></string-name>, <string-name><surname>Johnston</surname><given-names>D</given-names></string-name></person-group>. <article-title>Epileptiform activity induced by changes in extracellular potassium in hippocampus</article-title>. <source>J Neurophysiol.</source><year>1985</year>;<volume>54</volume>:<fpage>1363</fpage>&#x2013;<lpage>1374</lpage>.<pub-id pub-id-type="pmid">2416891</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B53">
+        <label>53</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Farrant</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Kaila</surname><given-names>K</given-names></string-name></person-group>. <article-title>The cellular, molecular and ionic basis of GABA(A) receptor signalling</article-title>. <source>Prog Brain Res</source>. <year>2007</year>;<volume>160</volume>:<fpage>59</fpage>&#x2013;<lpage>87</lpage>.<pub-id pub-id-type="pmid">17499109</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B54">
+        <label>54</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Dietrich</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name><surname>Morad</surname><given-names>M</given-names></string-name></person-group>. <article-title>Synaptic acidification enhances GABA<sub>A</sub> signaling</article-title>. <source>J Neurosci.</source><year>2010</year>;<volume>30</volume>:<fpage>16044</fpage>&#x2013;<lpage>16052</lpage>.<pub-id pub-id-type="pmid">21106843</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B55">
+        <label>55</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Mozrzymas</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name><surname>Zarmowska</surname><given-names>ED</given-names></string-name>, <string-name><surname>Pytel</surname><given-names>M</given-names></string-name>, <string-name><surname>Mercik</surname><given-names>K</given-names></string-name></person-group>. <article-title>Modulation of GABA<sub>A</sub> receptors by hydrogen ions reveals synaptic GABA transient and a crucial role of the desensitization process</article-title>. <source>J Neurosci.</source><year>2003</year>;<volume>23</volume>:<fpage>7981</fpage>&#x2013;<lpage>7992</lpage>.<pub-id pub-id-type="pmid">12954859</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B56">
+        <label>56</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Stenkamp</surname>
+<given-names>K</given-names>
+</string-name>, <string-name><surname>Palva</surname><given-names>JM</given-names></string-name>, <string-name><surname>Uusisaari</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Enhanced temporal stability of cholinergic hippocampal gamma oscillations following respiratory alkalosis in vitro</article-title>. <source>J Neurophysiol.</source><year>2001</year>;<volume>85</volume>:<fpage>2063</fpage>&#x2013;<lpage>2069</lpage>.<pub-id pub-id-type="pmid">11353022</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B57">
+        <label>57</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Guissart</surname>
+<given-names>C</given-names>
+</string-name>, <string-name><surname>Li</surname><given-names>X</given-names></string-name>, <string-name><surname>Leheup</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Mutation of SLC9A1, encoding the major Na<sup>+</sup>/H<sup>+</sup> exchanger, causes ataxia-deafness lichtenstein-knorr syndrome</article-title>. <source>Hum Mol Genet</source>. <year>2015</year>;<volume>24</volume>:<fpage>463</fpage>&#x2013;<lpage>470</lpage>.<pub-id pub-id-type="pmid">25205112</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B58">
+        <label>58</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Grichtchenko</surname>
+<given-names>II</given-names>
+</string-name>, <string-name><surname>Choi</surname><given-names>I</given-names></string-name>, <string-name><surname>Zhong</surname><given-names>X</given-names></string-name>, <string-name><surname>Bray-Ward</surname><given-names>P</given-names></string-name>, <string-name><surname>Russell</surname><given-names>JM</given-names></string-name>, <string-name><surname>Boron</surname><given-names>WF</given-names></string-name></person-group>. <article-title>Cloning, characterization, and chromosomal mapping of a human electroneutral Na(+)-driven Cl-HCO<sub>3</sub> exchanger</article-title>. <source>J Biol Chem</source>. <year>2001</year>;<volume>276</volume>:<fpage>8358</fpage>&#x2013;<lpage>8363</lpage>.<pub-id pub-id-type="pmid">11133997</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B59">
+        <label>59</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Schneggenburger</surname>
+<given-names>R</given-names>
+</string-name>, <string-name><surname>Neher</surname><given-names>E</given-names></string-name></person-group>. <article-title>Intracellular calcium dependence of transmitter release rates at a fast central synapse</article-title>. <source>Nature</source>. <year>2000</year>;<volume>406</volume>:<fpage>889</fpage>&#x2013;<lpage>893</lpage>.<pub-id pub-id-type="pmid">10972290</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B60">
+        <label>60</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Doering</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name><surname>McRory</surname><given-names>JE</given-names></string-name></person-group>. <article-title>Effects of extracellular pH on neuronal calcium channel activation</article-title>. <source>Neuroscience</source>. <year>2007</year>;<volume>146</volume>:<fpage>1032</fpage>&#x2013;<lpage>1043</lpage>.<pub-id pub-id-type="pmid">17434266</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B61">
+        <label>61</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fraire-Zamora</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name><surname>Gonz&#xE1;lez-Mart&#xED;nez</surname><given-names>MT</given-names></string-name></person-group>. <article-title>Effect of intracellular pH on depolarization-evoked calcium influx in human sperm</article-title>. <source>Am J Physiol Cell Physiol</source>. <year>2004</year>;<volume>287</volume>:<fpage>C1688</fpage>&#x2013;<lpage>C1696</lpage>.<pub-id pub-id-type="pmid">15306540</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B62">
+        <label>62</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Tsukioka</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Iino</surname><given-names>M</given-names></string-name>, <string-name><surname>Endo</surname><given-names>M</given-names></string-name></person-group>. <article-title>ph dependence of inositol 1,4,5-trisphosphate-induced Ca<sup>2+</sup> release in permeabilized smooth muscle cells of the Guinea-pig</article-title>. <source>J Physiol</source>. <year>1994</year>;<volume>475</volume>:<fpage>369</fpage>&#x2013;<lpage>375</lpage>.<pub-id pub-id-type="pmid">8006822</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B63">
+        <label>63</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ma</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Fill</surname><given-names>M</given-names></string-name>, <string-name><surname>Knudson</surname><given-names>CM</given-names></string-name>, <string-name><surname>Campbell</surname><given-names>KP</given-names></string-name>, <string-name><surname>Coronado</surname><given-names>R</given-names></string-name></person-group>. <article-title>Ryanodine receptor of skeletal muscle is a gap junction-type channel</article-title>. <source>Science</source>. <year>1988</year>;<volume>242</volume>:<fpage>99</fpage>&#x2013;<lpage>102</lpage>.<pub-id pub-id-type="pmid">2459777</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B64">
+        <label>64</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Rizo</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Xu</surname><given-names>J</given-names></string-name></person-group>. <article-title>The synaptic vesicle release machinery</article-title>. <source>Annu Rev Biophys.</source><year>2015</year>;<volume>44</volume>:<fpage>339</fpage>&#x2013;<lpage>367</lpage>.<pub-id pub-id-type="pmid">26098518</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B65">
+        <label>65</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Farsi</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name><surname>Preobraschenski</surname><given-names>J</given-names></string-name>, <string-name><surname>van den Bogaart</surname><given-names>G</given-names></string-name>, <string-name><surname>Riedel</surname><given-names>D</given-names></string-name>, <string-name><surname>Jahn</surname><given-names>R</given-names></string-name>, <string-name><surname>Woehler</surname><given-names>A</given-names></string-name></person-group>. <article-title>Single-vesicle imaging reveals different transport mechanisms between glutamatergic and GABAergic vesicles</article-title>. <source>Science</source>. <year>2016</year>;<volume>351</volume>:<fpage>981</fpage>&#x2013;<lpage>984</lpage>.<pub-id pub-id-type="pmid">26912364</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B66">
+        <label>66</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Egashira</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name><surname>Takase</surname><given-names>M</given-names></string-name>, <string-name><surname>Watanabe</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Unique pH dynamics in GABAergic synaptic vesicles illuminates the mechanism and kinetics of GABA loading</article-title>. <source>Proc Natl Acad Sci USA.</source><year>2016</year>;<volume>113</volume>:<fpage>10702</fpage>&#x2013;<lpage>10707</lpage>.<pub-id pub-id-type="pmid">27601664</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B67">
+        <label>67</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Frerking</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Borges</surname><given-names>S</given-names></string-name>, <string-name><surname>Wilson</surname><given-names>M</given-names></string-name></person-group>. <article-title>Variation in GABA mini amplitude is the consequence of variation in transmitter concentration</article-title>. <source>Neuron</source>. <year>1995</year>;<volume>15</volume>:<fpage>885</fpage>&#x2013;<lpage>895</lpage>.<pub-id pub-id-type="pmid">7576637</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B68">
+        <label>68</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Paridaen</surname>
+<given-names>JT</given-names>
+</string-name>, <string-name><surname>Wilsch-Br&#xE4;uninger</surname><given-names>M</given-names></string-name>, <string-name><surname>Huttner</surname><given-names>WB</given-names></string-name></person-group>. <article-title>Asymmetric inheritance of centrosome-associated primary cilium membrane directs ciliogenesis after cell division</article-title>. <source>Cell</source>. <year>2013</year>;<volume>155</volume>:<fpage>333</fpage>&#x2013;<lpage>344</lpage>.<pub-id pub-id-type="pmid">24120134</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B69">
+        <label>69</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Chau</surname>
+<given-names>KF</given-names>
+</string-name>, <string-name><surname>Springel</surname><given-names>MW</given-names></string-name>, <string-name><surname>Broadbelt</surname><given-names>KG</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>Progressive differentiation and instructive capacities of amniotic fluid and cerebrospinal fluid proteomes following neural tube closure</article-title>. <source>Dev Cell.</source><year>2015</year>;<volume>35</volume>:<fpage>789</fpage>&#x2013;<lpage>802</lpage>.<pub-id pub-id-type="pmid">26702835</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B70">
+        <label>70</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lehtinen</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name><surname>Zappaterra</surname><given-names>MW</given-names></string-name>, <string-name><surname>Chen</surname><given-names>X</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>The cerebrospinal fluid provides a proliferative niche for neural progenitor cells</article-title>. <source>Neuron</source>. <year>2011</year>;<volume>69</volume>:<fpage>893</fpage>&#x2013;<lpage>905</lpage>.<pub-id pub-id-type="pmid">21382550</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B71">
+        <label>71</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fame</surname>
+<given-names>RM</given-names>
+</string-name>, <string-name><surname>Lehtinen</surname><given-names>MK</given-names></string-name></person-group>. <article-title>Emergence and developmental roles of the cerebrospinal fluid system</article-title>. <source>Dev Cell</source>. <year>2020</year>;<volume>52</volume>:<fpage>261</fpage>&#x2013;<lpage>275</lpage>.<pub-id pub-id-type="pmid">32049038</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B72">
+        <label>72</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Levitt</surname>
+<given-names>P</given-names>
+</string-name>, <string-name><surname>Eagleson</surname><given-names>KL</given-names></string-name>, <string-name><surname>Powell</surname><given-names>EM</given-names></string-name></person-group>. <article-title>Regulation of neocortical interneuron development and the implications for neurodevelopmental disorders</article-title>. <source>Trends Neurosci</source>. <year>2004</year>;<volume>27</volume>:<fpage>400</fpage>&#x2013;<lpage>406</lpage>.<pub-id pub-id-type="pmid">15219739</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B73">
+        <label>73</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Schmidt-Wilcke</surname>
+<given-names>T</given-names>
+</string-name>, <string-name><surname>Fuchs</surname><given-names>E</given-names></string-name>, <string-name><surname>Funke</surname><given-names>K</given-names></string-name>, <etal>et al</etal></person-group>
+<article-title>GABA&#x2014;From inhibition to cognition: Emerging concepts</article-title>. <source>Neuroscientist</source>. <year>2018</year>;<volume>24</volume>:<fpage>501</fpage>&#x2013;<lpage>515</lpage>.<pub-id pub-id-type="pmid">29283020</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B74">
+        <label>74</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Heulens</surname>
+<given-names>I</given-names>
+</string-name>, <string-name><surname>D'Hulst</surname><given-names>C</given-names></string-name>, <string-name><surname>Van Dam</surname><given-names>D</given-names></string-name>, <string-name><surname>De Deyn</surname><given-names>PP</given-names></string-name>, <string-name><surname>Kooy</surname><given-names>RF</given-names></string-name></person-group>. <article-title>Pharmacological treatment of fragile X syndrome with GABAergic drugs in a knockout mouse model</article-title>. <source>Behav Brain Res</source>. <year>2012</year>;<volume>229</volume>:<fpage>244</fpage>&#x2013;<lpage>249</lpage>.<pub-id pub-id-type="pmid">22285772</pub-id></mixed-citation>
+      </ref>
+      <ref id="awad235-B75">
+        <label>75</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Olmos-Serrano</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name><surname>Corbin</surname><given-names>JG</given-names></string-name></person-group>. <article-title>Amygdala regulation of fear and emotionality in fragile X syndrome</article-title>. <source>Dev Neurosci</source>. <year>2011</year>;<volume>33</volume>:<fpage>365</fpage>&#x2013;<lpage>378</lpage>.<pub-id pub-id-type="pmid">21893939</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

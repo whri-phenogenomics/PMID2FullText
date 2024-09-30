@@ -1,0 +1,693 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Genome Res</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Genome Res</journal-id>
+      <journal-id journal-id-type="hwp">genome</journal-id>
+      <journal-id journal-id-type="pmc">genome</journal-id>
+      <journal-id journal-id-type="publisher-id">GENOME</journal-id>
+      <journal-title-group>
+        <journal-title>Genome Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1088-9051</issn>
+      <issn pub-type="epub">1549-5469</issn>
+      <publisher>
+        <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">25561519</article-id>
+      <article-id pub-id-type="pmc">4315290</article-id>
+      <article-id pub-id-type="medline">9518021</article-id>
+      <article-id pub-id-type="doi">10.1101/gr.176925.114</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic>BRF1</italic> mutations alter RNA polymerase III&#x2013;dependent transcription and cause neurodevelopmental anomalies</article-title>
+        <alt-title alt-title-type="left-running">Borck et al.</alt-title>
+        <alt-title alt-title-type="right-running"><italic>BRF1</italic> mutations cause neurodevelopmental anomalies</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Borck</surname>
+            <given-names>Guntram</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn1">
+            <sup>20</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>H&#xF6;g</surname>
+            <given-names>Friederike</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn1">
+            <sup>20</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dentici</surname>
+            <given-names>Maria Lisa</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn1">
+            <sup>20</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tan</surname>
+            <given-names>Perciliz L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>4</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn1">
+            <sup>20</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sowada</surname>
+            <given-names>Nadine</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Medeira</surname>
+            <given-names>Ana</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gueneau</surname>
+            <given-names>Lucie</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff6">
+            <sup>6</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thiele</surname>
+            <given-names>Holger</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">
+            <sup>7</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kousi</surname>
+            <given-names>Maria</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lepri</surname>
+            <given-names>Francesca</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wenzeck</surname>
+            <given-names>Larissa</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Blumenthal</surname>
+            <given-names>Ian</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff8">
+            <sup>8</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Radicioni</surname>
+            <given-names>Antonio</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff9">
+            <sup>9</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schwarzenberg</surname>
+            <given-names>Tito Livio</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff10">
+            <sup>10</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mandriani</surname>
+            <given-names>Barbara</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff11">
+            <sup>11</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff12">
+            <sup>12</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fischetto</surname>
+            <given-names>Rita</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff13">
+            <sup>13</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Morris-Rosendahl</surname>
+            <given-names>Deborah J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff14">
+            <sup>14</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Altm&#xFC;ller</surname>
+            <given-names>Janine</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">
+            <sup>7</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff15">
+            <sup>15</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Reymond</surname>
+            <given-names>Alexandre</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff6">
+            <sup>6</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>N&#xFC;rnberg</surname>
+            <given-names>Peter</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">
+            <sup>7</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff16">
+            <sup>16</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff17">
+            <sup>17</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Merla</surname>
+            <given-names>Giuseppe</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff11">
+            <sup>11</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dallapiccola</surname>
+            <given-names>Bruno</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn2">
+            <sup>21</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Katsanis</surname>
+            <given-names>Nicholas</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>4</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn2">
+            <sup>21</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cramer</surname>
+            <given-names>Patrick</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff18">
+            <sup>18</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn2">
+            <sup>21</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kubisch</surname>
+            <given-names>Christian</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff19">
+            <sup>19</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn2">
+            <sup>21</sup>
+          </xref>
+        </contrib>
+        <aff id="aff1"><label>1</label>Institute of Human Genetics, University of Ulm, 89081 Ulm, Germany;</aff>
+        <aff id="aff2"><label>2</label>Gene Center Munich and Department of Biochemistry, Center for Integrated Protein Science CIPSM, Ludwig-Maximilians-Universit&#xE4;t M&#xFC;nchen, 81377 Munich, Germany;</aff>
+        <aff id="aff3"><label>3</label>Bambino Ges&#xF9; Children&#x2019;s Hospital, IRCCS, 00165 Rome, Italy;</aff>
+        <aff id="aff4"><label>4</label>Center for Human Disease Modeling, Duke University, Durham, North Carolina 27710, USA;</aff>
+        <aff id="aff5"><label>5</label>Servi&#xE7;o de Gen&#xE9;tica, Departamento de Pediatria, Hospital S. Maria, CHLN, 1649-035 Lisboa, Portugal;</aff>
+        <aff id="aff6"><label>6</label>Center for Integrative Genomics, University of Lausanne, 1015 Lausanne, Switzerland;</aff>
+        <aff id="aff7"><label>7</label>Cologne Center for Genomics (CCG), University of Cologne, 50931 Cologne, Germany;</aff>
+        <aff id="aff8"><label>8</label>Molecular Neurogenetics Unit and Psychiatric and Neurodevelopmental Genetics Unit, Center for Human Genetic Research, Massachusetts General Hospital, Boston, Massachusetts 02114, USA;</aff>
+        <aff id="aff9"><label>9</label>Department of Experimental Medicine, Sapienza University, 00161 Rome, Italy;</aff>
+        <aff id="aff10"><label>10</label>Department of Neonatology, Sapienza University, 00161 Rome, Italy;</aff>
+        <aff id="aff11"><label>11</label>IRCCS Casa Sollievo Della Sofferenza, Medical Genetics Unit, 71013 San Giovanni Rotondo, Italy;</aff>
+        <aff id="aff12"><label>12</label>PhD Program, Molecular Genetics applied to Medical Sciences, University of Brescia, 25121 Brescia, Italy;</aff>
+        <aff id="aff13"><label>13</label>U.O. Malattie Metaboliche PO Giovanni XXIII, AOU Policlinico Consorziale, 70120 Bari, Italy;</aff>
+        <aff id="aff14"><label>14</label>Genomic Medicine, National Heart and Lung Institute, Imperial College, London SW3 6LY, United Kingdom;</aff>
+        <aff id="aff15"><label>15</label>Institute for Human Genetics, University of Cologne, 50931 Cologne, Germany;</aff>
+        <aff id="aff16"><label>16</label>Cologne Excellence Cluster on Cellular Stress Responses in Aging-Associated Diseases (CECAD), University of Cologne, 50674 Cologne, Germany;</aff>
+        <aff id="aff17"><label>17</label>Center for Molecular Medicine Cologne (CMMC), University of Cologne, 50931 Cologne, Germany;</aff>
+        <aff id="aff18"><label>18</label>Max Planck Institute for Biophysical Chemistry, Department of Molecular Biology, 37077 G&#xF6;ttingen, Germany;</aff>
+        <aff id="aff19"><label>19</label>Institute of Human Genetics, University Medical Center Hamburg-Eppendorf, 20246 Hamburg, Germany</aff>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="equal" id="fn1">
+          <label>20</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+        <fn fn-type="other" id="fn2">
+          <label>21</label>
+          <p>These authors jointly supervised the work.</p>
+        </fn>
+        <corresp id="cor1">Corresponding author: <email>guntram.borck@uni-ulm.de</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>2</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>25</volume>
+      <issue>2</issue>
+      <fpage>155</fpage>
+      <lpage>166</lpage>
+      <history>
+        <date date-type="received">
+          <day>8</day>
+          <month>4</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>11</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>
+          <ext-link ext-link-type="uri" xlink:href="http://genome.cshlp.org/site/misc/terms.xhtml">&#xA9; 2015 Borck et al.; Published by Cold Spring Harbor Laboratory Press</ext-link>
+        </copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">
+          <license-p>This article is distributed exclusively by Cold Spring Harbor Laboratory Press for the first six months after the full-issue publication date (see <ext-link ext-link-type="uri" xlink:href="http://genome.cshlp.org/site/misc/terms.xhtml">http://genome.cshlp.org/site/misc/terms.xhtml</ext-link>). After six months, it is available under a Creative Commons License (Attribution-NonCommercial 4.0 International), as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:title="pdf" xlink:href="155.pdf"/>
+      <abstract>
+        <p>RNA polymerase III (Pol III) synthesizes tRNAs and other small noncoding RNAs to regulate protein synthesis. Dysregulation of Pol III transcription has been linked to cancer, and germline mutations in genes encoding Pol III subunits or tRNA processing factors cause neurogenetic disorders in humans, such as hypomyelinating leukodystrophies and pontocerebellar hypoplasia. Here we describe an autosomal recessive disorder characterized by cerebellar hypoplasia and intellectual disability, as well as facial dysmorphic features, short stature, microcephaly, and dental anomalies. Whole-exome sequencing revealed biallelic missense alterations of <italic>BRF1</italic> in three families. In support of the pathogenic potential of the discovered alleles, suppression or CRISPR-mediated deletion of <italic>brf1</italic> in zebrafish embryos recapitulated key neurodevelopmental phenotypes; in vivo complementation showed all four candidate mutations to be pathogenic in an apparent isoform-specific context. BRF1 associates with BDP1 and TBP to form the transcription factor IIIB (TFIIIB), which recruits Pol III to target genes. We show that disease-causing mutations reduce Brf1 occupancy at tRNA target genes in <italic>Saccharomyces cerevisiae</italic> and impair cell growth. Moreover, <italic>BRF1</italic> mutations reduce Pol III&#x2013;related transcription activity in vitro. Taken together, our data show that <italic>BRF1</italic> mutations that reduce protein activity cause neurodevelopmental anomalies, suggesting that BRF1-mediated Pol III transcription is required for normal cerebellar and cognitive development.</p>
+      </abstract>
+      <funding-group>
+        <award-group id="gs1">
+          <funding-source id="sp1">Deutsche Forschungsgemeinschaft</funding-source>
+          <award-id rid="sp1">SFB646</award-id>
+          <award-id rid="sp1">GraKo1721</award-id>
+          <award-id rid="sp1">SFB960</award-id>
+          <award-id rid="sp1">SFB1064</award-id>
+        </award-group>
+      </funding-group>
+      <counts>
+        <page-count count="12"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body><p>Three RNA polymerases synthesize the different classes of RNAs in eukaryotic cells. Pol I synthesizes most ribosomal RNAs; Pol II mRNAs and miRNAs; and Pol III a variety of noncoding RNAs with a structural and catalytic function, e.g., tRNAs, 7SK RNA, 5S rRNA, and U6 snRNA (<xref rid="B44" ref-type="bibr">Schramm and Hernandez 2002</xref>; <xref rid="B54" ref-type="bibr">White 2011</xref>; <xref rid="B17" ref-type="bibr">Dieci et al. 2013</xref>). Pol II&#x2013;dependent transcription has attracted most attention because its mRNA products are protein coding, but recent years have seen an increasing interest in Pol III transcription, not least because of its implication in human disorders. Increased Pol III&#x2013;dependent transcription has been linked to cell transformation and cancer (<xref rid="B29" ref-type="bibr">Marshall and White 2008</xref>; <xref rid="B13" ref-type="bibr">Cabarcas and Schramm 2011</xref>), and germline mutations in components of the Pol III or tRNA processing machinery have been associated with neurogenetic disorders, such as pontocerebellar hypoplasia (PCH), a heterogeneous group of severe, often lethal, progressive neurodegenerative conditions characterized by cerebellar hypoplasia, progressive microcephaly, seizures, and profound developmental impairment. At least 10 types of PCH are currently recognized, and mutations causing the most prevalent subtypes, PCH2 and PCH4, are predicted to lead to loss of function of tRNA splicing endonuclease (TSEN); other PCH types display anomalies of tRNA processing as well (<xref rid="B35" ref-type="bibr">Namavar et al. 2011</xref>; <xref rid="B3" ref-type="bibr">Akizu et al. 2013</xref>; <xref rid="B40" ref-type="bibr">Rudnik-Sch&#xF6;neborn et al. 2014</xref>; <xref rid="B43" ref-type="bibr">Schaffer et al. 2014</xref>). However, the pathomechanism leading to PCH is poorly understood in many subtypes.</p><p>More recently, mutations in the catalytic Pol III subunits POLR3A and POLR3B have been identified in syndromic hypomyelinating leukodystrophies, such as hypomyelination, hypodontia, and hypogonadotropic hypogonadism (4H syndrome) (<xref rid="B9" ref-type="bibr">Bernard et al. 2011</xref>; <xref rid="B41" ref-type="bibr">Saitsu et al. 2011</xref>; <xref rid="B51" ref-type="bibr">Tetreault et al. 2011</xref>). <italic>POLR3A</italic> mutations lead to a decrease in POLR3A levels and are predicted to interfere with the interaction with other Pol III subunits, which in turn would perturb Pol III&#x2013;mediated transcription; a similar mechanism has been postulated for POLR3B-associated leukodystrophies. Although the molecular pathophysiology of these diseases is not fully understood, these findings suggest that an intact Pol III apparatus is essential for cognitive development and the structural and functional integrity of the cerebellum and white matter.</p><p>The basal Pol III transcription machinery requires the orchestrated interaction of Pol III, a multiprotein enzyme consisting of 17 polypeptide subunits, TFIIIB (transcription factor IIIB), and TFIIIC (<xref rid="B54" ref-type="bibr">White 2011</xref>; <xref rid="B53" ref-type="bibr">Vannini and Cramer 2012</xref>). These factors, as well as the underlying mechanisms of transcription initiation, are conserved in eukaryotes. TFIIIC recognizes and binds to specific sequence blocks in internal promoters (type 1 and 2 promoters) of target genes, such as tRNA genes. TFIIIC then recruits TFIIIB, which is usually composed of the B-related factor BRF1, B double prime 1 BDP1, and the TATA box-binding protein TBP, each of which is required for TFIIIB function in vitro (<xref rid="B54" ref-type="bibr">White 2011</xref>). TFIIIB recruits Pol III for transcription initiation. For the transcription of human RNA genes with external (type 3) promoters, such as U6 snRNA, BRF1 is replaced by BRF2 in TFIIIB, and TFIIIC is not required (<xref rid="B44" ref-type="bibr">Schramm and Hernandez 2002</xref>). Notably, <italic>TBP</italic> is a candidate gene for cognitive disorders in humans (<xref rid="B39" ref-type="bibr">Rooms et al. 2006</xref>), and TBP polyglutamine expansions cause spinocerebellar ataxia type 17 (<xref rid="B34" ref-type="bibr">Nakamura et al. 2001</xref>).</p><p>Here, we describe an autosomal recessive human syndrome characterized by intellectual disability and cerebellar, dental, and skeletal anomalies. We used whole-exome sequencing (WES) (<xref rid="B7" ref-type="bibr">Bamshad et al. 2011</xref>) and in vivo and in vitro assays to provide evidence that partial loss-of-function <italic>BRF1</italic> mutations cause this recognizable disease by impairing Pol III&#x2013;mediated transcription.</p><sec sec-type="results"><title>Results</title><sec><title>Clinical delineation of a cerebellar-facial-dental syndrome</title><p>By comparing the clinical features of three pairs of siblings (three female and three male) (<xref ref-type="fig" rid="F1">Fig. 1A&#x2013;C</xref>) from three unrelated families, we observed a striking clinical overlap pointing to a previously undescribed disorder characterized by cerebellar hypoplasia, intellectual disability, characteristic facial dysmorphisms, and dental anomalies (<xref ref-type="table" rid="T1">Table 1</xref>; for the complete version of <xref ref-type="table" rid="T1">Table 1</xref>, see Supplemental Material). In each of the three families, two affected children were born to unaffected parents (<xref ref-type="fig" rid="F1">Fig. 1C</xref>), suggesting autosomal recessive inheritance. In family 3 with first-cousin parents, Leber congenital amaurosis (LCA) segregated independently from cerebellar hypoplasia in two siblings (<xref ref-type="fig" rid="F1">Fig. 1C</xref>). The six children affected by the cerebellar-facial-dental syndrome showed similar dysmorphic features that included sparse eyebrows, wave-shaped palpebral fissures, apparently low-set ears, malocclusion, and prominent upper incisors (<xref ref-type="fig" rid="F1">Fig. 1A</xref>). They had proportionate short stature and microcephaly of prenatal onset, mild-to-severe intellectual disability with speech delay, scoliosis, and sparse hair (<xref ref-type="table" rid="T1">Table 1</xref>). Three children had laryngeal stridor or laryngomalacia. Cranial magnetic resonance imaging revealed a pattern that was reminiscent of TSEN-related PCH, with a very thin corpus callosum, a flattened brainstem, and cerebellar vermis hypoplasia; however, the pons was relatively well formed (<xref ref-type="fig" rid="F1">Fig. 1B</xref>). On skull and orthopanoramic x-rays, we saw bialveolar protrusion with prominent alveolar processes as well as taurodontism, a specific malformation of the pulp of molar teeth. Array-CGH did not detect causative copy number variants. We refer to this syndrome as cerebellar-facial-dental syndrome.</p><fig id="F1" fig-type="figure" orientation="portrait" position="float"><label>Figure 1.</label><caption><p><italic>BRF1</italic> mutations cause a cerebellar-dental-skeletal syndrome. (<italic>A</italic>) Patients 1 and 2 (family 1) at the ages of 12 and 10 yr, patients 3 and 4 (family 2) at the ages of 10 and 4 yr, and patients 5 and 6 (family 3). Note characteristic facial dysmorphism and dental anomalies. (<italic>B</italic>) Brain MRI (<italic>top</italic>, sagittal scans; <italic>bottom</italic>, coronal scans) of patients 1&#x2013;4 (P1&#x2013;P4) at the ages of 14 yr, 9 yr, 12 yr, and 18 mo, respectively, showing a thin corpus callosum (white filled arrows), flattened brainstem (white unfilled arrows), and cerebellar hypoplasia (black unfilled arrows). (<italic>C</italic>) Pedigrees of family 1 (<italic>left</italic>), family 2 (<italic>middle</italic>), and family 3 (<italic>right</italic>) with genotypes for <italic>BRF1</italic> missense alterations. In family 2, the p.Pro292His mutation was likely transmitted by the unaffected father who did not participate in the study. In family 3, the two individuals denoted by an asterisk had Leber congenital amaurosis caused by a homozygous <italic>RDH12</italic> mutation. (<italic>D</italic>) Multiple sequence alignment of BRF1 orthologs and human TFIIB showing evolutionary conservation of mutant BRF1 amino acid residues.</p></caption><graphic xlink:href="155fig1"/></fig><table-wrap id="T1" orientation="portrait" position="float"><label>Table 1.</label><caption><p>Clinical features of individuals with cerebellar-dental-skeletal syndrome</p></caption><graphic xlink:href="155tbl1"/></table-wrap></sec><sec><title>Identification of <italic>BRF1</italic> mutations</title><p>We performed WES in one or two affected individuals from each of the three families. Under the simplest assumption of genetic homogeneity for this rare autosomal recessive phenotypic constellation, we filtered for variants in the same gene with a predicted impact on protein function or RNA splicing that are rare in control populations of European descent. Because of parental consanguinity in family 3 and the lack of consanguinity in families 1 and 2, we searched for a gene harboring a rare homozygous variant in the affected individuals from family 3 and rare compound heterozygous (or homozygous) variants in the affected children in families 1 and 2. Subsequent to WES analysis and filtering, there was a single gene that contained biallelic mutations in all affected children: <italic>BRF1</italic>. Each affected child had two variants that predicted missense alterations, for a total of four distinct mutations. We confirmed all four <italic>BRF1</italic> alleles, as well as cosegregation with the cerebellar-facial-dental syndrome, in each family by Sanger sequencing (<xref ref-type="fig" rid="F1">Fig. 1C</xref>; Supplemental Fig. 1). In family 1, the affected siblings were compound heterozygous for a maternally inherited c.677C &gt; T mutation and a paternally inherited c.776C &gt; T mutation, predicting p.Ser226Leu (S226L) and p.Thr259Met (T259M), respectively. In family 2, the affected sisters had inherited a c.667C &gt; T mutation from their mother and carried a c.875C &gt; A mutation that was likely transmitted from their father, from whom no DNA was available (<xref ref-type="fig" rid="F1">Fig. 1C</xref>). These mutations predict p.Arg223Trp (R223W) and p.Pro292His (P292H) missense alterations, respectively. The two affected boys in family 3 were homozygous for the c.677C &gt; T (p.Ser226Leu) mutation that had been identified in family 1. This mutation cosegregated with the cerebellar-facial-dental syndrome in family 3, while LCA was caused by a homozygous mutation in <italic>RDH12</italic> (c.784dupG; p.Ala262Glyfs*11), a gene previously shown to be mutated in LCA (<xref rid="B23" ref-type="bibr">Janecke et al. 2004</xref>). The four <italic>BRF1</italic> mutations were absent from ethnically matched controls as shown by sequencing and were not present or very rare in public SNP databases (<xref ref-type="table" rid="T2">Table 2</xref>).</p><table-wrap id="T2" orientation="portrait" position="float"><label>Table 2.</label><caption><p><italic>BRF1</italic> mutations</p></caption><graphic xlink:href="155tbl2"/></table-wrap><p>The longest BRF1 isoform is a 677-amino-acid protein that, together with TBP and BDP1, forms the transcription factor IIIB (TFIIIB), which recruits Pol III to its templates and is involved in promoter opening (<xref rid="B54" ref-type="bibr">White 2011</xref>). The N-terminal region of BRF1 has a role in DNA binding and Pol III recruitment (<xref rid="B24" ref-type="bibr">Kassavetis et al. 1998</xref>), is homologous to the Pol II transcription factor TFIIB, and contains an N-terminal zinc ribbon domain and two cyclin domains (<xref rid="B25" ref-type="bibr">Khoo et al. 2014</xref>). The <italic>BRF1</italic> gene on human chromosome 14q32.33 encodes several functional isoforms, some of which lack the zinc ribbon domain (<xref rid="B30" ref-type="bibr">McCulloch et al. 2000</xref>). The four identified missense alterations invariably affect amino acids that are evolutionarily conserved, including in orthologs from mouse and zebrafish (<xref ref-type="fig" rid="F1">Fig. 1D</xref>), but are not conserved in BRF2. In <italic>Saccharomyces cerevisiae</italic>, Brf1 (<xref rid="B14" ref-type="bibr">Colbert and Hahn 1992</xref>), Arg223, Thr259, and Pro292 are conserved, whereas Ser226 is replaced conservatively by an alanine; for clarity, we will use the human amino acid numbering henceforth.</p></sec><sec><title>Functional analysis of <italic>brf1</italic> in zebrafish</title><p>As a first test of the functional candidacy of <italic>BRF1</italic>, we sought an in vivo model with a credible phenotypic surrogate. We noted that all probands in our study have cerebellar hypoplasia and microcephaly, both of which have been modeled previously in zebrafish embryos for a variety of neurodevelopmental disorders (<xref rid="B20" ref-type="bibr">Golzio et al. 2012</xref>; <xref rid="B16" ref-type="bibr">Dauber et al. 2013</xref>; <xref rid="B28" ref-type="bibr">Margolin et al. 2013</xref>; <xref rid="B10" ref-type="bibr">Bernier et al. 2014</xref>). We therefore turned to developing zebrafish embryos and asked whether either suppression or overexpression of <italic>brf1</italic> has an effect on neurogenesis, head size, and/or cerebellar morphology.</p><p>Given that <italic>brf1</italic> has two copies in the zebrafish genome due to the teleost-specific genome duplication, we generated splice blocking morpholinos (sbMOs) for both copies (<italic>brf1a</italic> and <italic>brf1b</italic>), and we scored for neurogenesis by measuring the area of the optic tectum, the area between the eyes as a surrogate for brain size, and the cerebellar integrity. We note that while <italic>brf1a</italic> is known to be expressed at multiple stages of development as well as in multiple organs, little is known about <italic>brf1b</italic> in zebrafish. Our in-house RNA-seq data that interrogate the transcripts expressed specifically in the head of 5 d post fertilization (d.p.f.) zebrafish embryos indicated that <italic>brf1b</italic> has significantly increased expression when compared to <italic>brf1a</italic>. Indeed, <italic>brf1b</italic> was expressed, on average, 11.59 CPM (counts per million mapped reads), while <italic>brf1a</italic> expression was 4.32 CPM. In triplicate experiments scored by two investigators masked to the injection cocktails, suppression of <italic>brf1a</italic> gave no appreciable phenotypes (data not shown). In contrast, suppression of <italic>brf1b</italic> with a MO against the donor site of exon 8 (MO#1) (Supplemental Fig. 2) resulted in a significant reduction of both the size of the optic tectum (<xref ref-type="fig" rid="F2">Fig. 2B&#x2032;,D,F&#x2032;,H</xref>) and the total area between the eyes (<xref ref-type="fig" rid="F2">Fig. 2B,C,F,G</xref>). Furthermore, we observed cerebellar hypoplasia as determined by the lack of axons in the midline of the morphant zebrafish cerebellum (<xref ref-type="fig" rid="F2">Fig. 2B&#x2032;,F&#x2032;,I</xref>). We did not observe further overt morphological abnormalities or developmental delay in the injected embryos as judged by the shape and position of the heart, the absence of edema, the number and shape of somites, and the presence of a normal swim bladder. The observed phenotypes were specific; coinjection of MO and wild-type (WT) human mRNA was able to rescue the phenotypes (<xref ref-type="fig" rid="F2">Fig. 2B&#x2013;D,F&#x2013;I</xref>). To assess the functionality of the alleles, we coinjected MO with human mRNA bearing one of the variants of interest (P292H, R223W, S226L, and T259M) at a time. In the context of BRF1 isoform 2 (<xref ref-type="fig" rid="F2">Fig. 2E</xref>), P292H and R223W scored as functionally nulls as they failed to rescue the reduction in head size and optic tecta as well as the cerebellar hypoplasia (<xref ref-type="fig" rid="F2">Fig. 2F&#x2013;I</xref>), while S226L and T259M scored as hypomorphic: The mutants were significantly more affected than MO + WT but not as severe as MO alone. Strikingly, testing of three of the alleles (R223W, S226L, T259M) in isoform 1 showed them all to be benign (rescue was indistinguishable from WT) (<xref ref-type="fig" rid="F2">Fig. 2A&#x2013;D</xref>), suggesting that the effect of the mutations is isoform specific. Overexpression of WT human <italic>BRF1</italic> and human P292H, R223W, S226L, or T259M <italic>BRF1</italic> showed no difference in head size, optic tecta, or cerebellar hypoplasia (<xref ref-type="fig" rid="F2">Fig. 2G&#x2032;,H&#x2032;,I&#x2032;</xref>).</p><fig id="F2" fig-type="figure" orientation="portrait" position="float"><label>Figure 2.</label><caption><p>Functional annotation of variants in isoforms 1 and 2 of BRF1 and its effects on the head size, optic tectum size, and cerebellar formation in zebrafish embryos. (<italic>A</italic>,<italic>E</italic>) Schematic representation of the location of BRF1 variants examined in zebrafish within each of the two isoforms evaluated: isoform 1 (NP_001229717.1; 650 aa) and isoform 2 (NP_001229715.1; 584 aa). In purple are alleles that when tested are shown to be null, and in brown are alleles that score as hypomorphs based on zebrafish assays. (<italic>B</italic>,<italic>B</italic>&#x2032;) Dorsal views of control zebrafish embryos and embryos injected with <italic>brf1b</italic> MO, <italic>brf1b</italic> MO + WT human <italic>BRF1</italic>, and <italic>brf1b</italic>MO + variant (R223W, S226L, or T259M) human <italic>BRF1</italic> RNA in the context of isoform 1, respectively, at 3 d.p.f., stained with anti-&#x3B1; acetylated tubulin. (<italic>B</italic>) Head size measurements were taken using brightfield images (highlighted with a yellow outline in panel <italic>F</italic>). (<italic>B</italic>&#x2032;) The area of the optic tecta was measured in the fluorescent images (highlighted with a cyan oval in panel <italic>F</italic>&#x2032;). (<italic>C</italic>,<italic>D</italic>) Bar graphs showing the relative head size (<italic>C</italic>) and the optic tecta area (<italic>D</italic>). Data are presented as mean &#xB1; SE. Two-tailed <italic>t</italic>-tests were performed to assess statistical significance. The embryos coinjected with the MO and each of the variants were statistically different from MO alone but not statistically different when compared to embryos injected with MO + WT human <italic>BRF1</italic>, therefore scoring as benign. (<italic>F</italic>&#x2013;<italic>I</italic>&#x2032;) Functional assessment of the <italic>BRF1</italic> missense variants in the context of isoform 2. Three d.p.f. embryos injected with <italic>brf1b</italic> MO, <italic>brf1b</italic> MO + WT human <italic>BRF1</italic>, <italic>brf1b</italic> MO + variant human <italic>BRF1</italic> RNA (P292H, R223W, S226L, or T259M), or variant human <italic>BRF1</italic> RNA alone in the context of isoform 2 were observed following staining with anti-&#x3B1; acetylated tubulin for head size (<italic>F</italic>) and for optic tecta area (<italic>F</italic>&#x2032;), as well as for cerebellar defects (<italic>F</italic>&#x2032;; illustrated with a red dashed box where maximum disorganization is observed). (<italic>G</italic>&#x2013;<italic>I</italic>&#x2032;) Bar graphs showing average head size, optic tecta area, as well as the percentage of embryos with cerebellar defects evaluated among each condition. To assess statistical significance among the evaluated conditions, two-tailed <italic>t</italic>-tests were performed for head size and optic tecta, and &#x3C7;<sup>2</sup> tests were performed for cerebellar disorganization to evaluate statistical significance across the conditions. In the context of isoform 2, functional analysis using zebrafish show that P292H and R223W are null, while S226L and T259M are hypomorphic alleles, showing an isoform-specific effect in which head size and optic tecta size are reduced and cerebellar disorganization occurs. No significant effects were observed for any of the phenotypes when the variants themselves were overexpressed. Each experiment was done at minimum in triplicate with at least 50 embryos per condition per replicate. (***) <italic>P</italic>-value &#x2264; 0.001 relative to MO + WT; (&#x25CA;) <italic>P</italic>-value &#x2264; 0.001 relative to controls; (&#x2020;) <italic>P</italic>-value &#x2264; 0.01 relative to MO.</p></caption><graphic xlink:href="155fig2"/></fig><p>To confirm the specificity of our assay, we designed a second sbMO against the donor site of <italic>brf1b</italic> exon 6 (MO#2). Injections of MO#2 recapitulated the results obtained with MO#1, showing a reduction of head size and optic tecta as well as cerebellar disorganization phenotypes in 3 d.p.f. embryos; again, the phenotypes could be at least partially rescued by coinjection of human WT <italic>BRF1</italic> mRNA (Supplemental Fig. 3). Further supplementing these findings, we utilized the CRISPR system and induced aberrations in <italic>brf1b</italic> by <italic>CAS9</italic>/gRNA. In the F0 <italic>brf1b</italic><sup>Cas9/gRNA</sup>, we observed phenotypes that are fully concordant with the <italic>brf1b</italic> morphant phenotypes produced by both sbMOs (Supplemental Fig. 3). We conclude that suppression of <italic>brf1</italic> leads to phenotypes that recapitulate key symptoms of the human pathology, arguing in favor of the candidacy of this gene for disease pathogenesis.</p></sec><sec><title><italic>BRF1</italic> mutations affect cell growth</title><p>We next turned to the question of the precise effect of the discovered missense alleles. Consistent with their predicted pathogenic nature, yeast lacking the chromosomal <italic>BRF1</italic> gene and expressing <italic>BRF1</italic> with mutations corresponding to R223W or P292H did not grow in spot dilution tests (<xref ref-type="fig" rid="F3">Fig. 3A</xref>), consistent with loss of Brf1 function and similar to our zebrafish functional assay in which R223W and P292H were classified as nulls. Yeast cells transformed with plasmids containing <italic>BRF1</italic> substitutions T259M or S226L (as found in families 1 and 3) or A226S (reflecting the human reference sequence) grew normally. We observed similar results in liquid cultures (Supplemental Fig. 4). To mimic the compound heterozygosity present in families 1 and 2, we transformed yeast with two distinct plasmids expressing the <italic>BRF1</italic> variants R223W/P292H or S226L/T259M. Whereas S226L/T259M yeast showed essentially normal growth, the R223W/P292H combination was lethal (<xref ref-type="fig" rid="F3">Fig. 3A</xref>). With respect to the mutations identified in family 2, these results further supported the candidacy of human biallelic <italic>BRF1</italic> missense alterations causing the cerebellar-facial-dental syndrome.</p><fig id="F3" fig-type="figure" orientation="portrait" position="float"><label>Figure 3.</label><caption><p><italic>BRF1</italic> mutations cause growth defects and reduced target promoter occupancy. (<italic>A</italic>) <italic>BRF1</italic> mutations affect cell growth. Spot dilutions of the variants introduced into a <italic>BRF1</italic> knockout strain grown at 30&#xB0;C. Wild-type (WT) and variant Brf1 were encoded on plasmids. For the combination of two mutations, two plasmids were used, each harboring one mutation and a distinct marker. (5-FOA)5-fluoroorotic acid. (<italic>B</italic>) Three-dimensional modeling of human BRF1 missense alterations. The four identified amino acid substitutions were mapped to the structure of human TFIIB (green) in a complex with TBP (purple) and DNA (pdb code 1C9B) (<xref rid="B52" ref-type="bibr">Tsai and Sigler 2000</xref>). Amino acids affected by mutations in families 1 and 2 are shown in yellow and orange, respectively. (<italic>C&#x2013;E</italic>) BRF1 variants show a decreased occupancy of tRNA promoters in yeast. Fold enrichments of ChIP experiments performed with tandem affinity purification (TAP)&#x2014;tagged <italic>BRF1</italic> variants in yeast. Data are presented as mean &#xB1; SD. (<italic>C</italic>) Mutations A226S to serine or S226L show no effect on fold enrichment compared to WT. (<italic>D</italic>) Mutation T259M leads to decreased fold enrichment on tRNA genes. (<italic>E</italic>) Combination of the two variants results in a much lower occupancy of the S226L and T259M variants. Summing up both signals results in less occupancy of the two mutated BRF1 than the WT BRF1.</p></caption><graphic xlink:href="155fig3"/></fig></sec><sec><title><italic>BRF1</italic> mutations impair Pol III&#x2013;dependent transcription</title><p>To investigate whether the altered BRF1 residues may be important for DNA binding, we mapped the mutated BRF1 residues on the known crystal structure of the homologous human TFIIB-TBP-DNA complex (<xref rid="B52" ref-type="bibr">Tsai and Sigler 2000</xref>). Residues Arg223 and Thr259 are conserved in human TFIIB (<xref ref-type="fig" rid="F1">Fig. 1D</xref>) and are predicted to contact DNA (<xref ref-type="fig" rid="F3">Fig. 3B</xref>). Residues Ser226 and Pro292 are not conserved in human TFIIB and are predicted to be in the proximity of the DNA, but not in direct contact (<xref ref-type="fig" rid="F3">Fig. 3B</xref>). These modeling results suggested that the <italic>BRF1</italic> mutations might affect BRF1 binding to DNA, impair TFIIIB-mediated Pol III recruitment, and reduce Pol III&#x2013;mediated transcription.</p><p>To test whether the <italic>BRF1</italic> mutations influence Pol III recruitment to gene promoters in vivo, we performed chromatin immunoprecipitation (ChIP) with tandem affinity purification (TAP)&#x2013;tagged versions of <italic>BRF1</italic> variants on Pol III target genes in yeast (<xref ref-type="fig" rid="F3">Fig. 3C&#x2013;E</xref>). Consistent with our predictions, the <italic>BRF1</italic> variant T259M showed strongly decreased promoter occupancy at four tested tRNA loci and a significant decrease in occupancy of the U6 snRNA promoter (<xref ref-type="fig" rid="F3">Fig. 3D</xref>). The ChIP signals for TAP-tagged A226S and S226L variants were not different from wild-type Brf1 (<xref ref-type="fig" rid="F3">Fig. 3C</xref>). Although the R223W and P292H variants could not be tested due to their lethal effect, these results indicate that at least one BRF1 alteration can affect occupancy of different promoters in vivo.</p><p>Finally, to test whether the <italic>BRF1</italic> mutations cause a transcriptional defect, we used an established in vitro assay (<xref rid="B21" ref-type="bibr">Hahn and Roberts 2000</xref>). This assay is based on a nuclear extract from a temperature-sensitive yeast strain carrying the <italic>BRF1</italic> substitution p.Trp107Arg (W107R). Extracts from this strain are transcriptionally inactive, but addition of recombinant Brf1 protein restores activity on a template encoding the native <italic>SUP4</italic> promoter. When we used purified recombinant Brf1 variants in this assay, we observed significantly less transcription for the BRF1 variant R223W in comparison with the same concentration of WT Brf1 (<xref ref-type="fig" rid="F4">Fig. 4</xref>). Milder, but both significant and reproducible defects were observed for T259M, P292H, A226S, and S226L. BRF1 variants combining two mutations also showed transcriptional defects in this assay (<xref ref-type="fig" rid="F4">Fig. 4</xref>). Taken together, these results show that <italic>BRF1</italic> mutations identified in patients can impair transcription in a well-controlled, in vitro transcription assay.</p><fig id="F4" fig-type="figure" orientation="portrait" position="float"><label>Figure 4.</label><caption><p>In vitro transcription defects caused by <italic>BRF1</italic> mutations in yeast. (<italic>Top</italic>) A representative gel of the in vitro transcription reaction using a nuclear extract harboring a deficient Brf1 protein (p.Trp107Arg, W107R) that is impaired in Pol III&#x2013;dependent transcription. Addition of WT Brf1 rescues activity whereas the different Brf1 variants and the combinations present in the affected children show a defect in transcription. Data are presented as mean &#xB1; SD. A quantification is shown in the <italic>middle</italic> panel. (*) <italic>P</italic> &lt; 0.01; (**) <italic>P</italic> &lt; 0.0001. The <italic>lower</italic> panel shows a twelve times excess of the Brf1 protein amount used for this assay separated on an SDS gel.</p></caption><graphic xlink:href="155fig4"/></fig></sec></sec><sec sec-type="discussion"><title>Discussion</title><p>Whereas intellectual disability can be due to mutations in synaptic genes (<xref rid="B38" ref-type="bibr">Pavlowsky et al. 2012</xref>; <xref rid="B56" ref-type="bibr">Zoghbi and Bear 2012</xref>), recent studies have highlighted impairments of basal cellular functions and pathways such as transcription and translation in the etiology of cognitive disorders and neurogenetic syndromes (<xref rid="B33" ref-type="bibr">Najmabadi et al. 2011</xref>). Some examples include pontocerebellar hypoplasias, Pol III&#x2013;related leukodystrophies, X-linked intellectual disability, and leukoencephalopathy with vanishing white matter (<xref rid="B12" ref-type="bibr">Bugiani et al. 2010</xref>; <xref rid="B35" ref-type="bibr">Namavar et al. 2011</xref>; <xref rid="B11" ref-type="bibr">Borck et al. 2012</xref>; <xref rid="B15" ref-type="bibr">Daoud et al. 2013</xref>). Complete inactivation of processes such as translation initiation or tRNA transcription is not compatible with life, suggesting that most disease-causing mutations are hypomorphs.</p><p>Our identification and characterization of <italic>BRF1</italic> mutations causing the syndromic cerebellar-facial-dental phenotype is in line with these observations. No mutant <italic>Brf1</italic> mouse has been reported to our knowledge; in yeast, deletion of <italic>BRF1</italic> is lethal (<xref rid="B14" ref-type="bibr">Colbert and Hahn 1992</xref>). Accordingly, one of the missense variants we have identified is recruited to a lesser extent than wild type to target genes. Several other mutants have reduced transcriptional activity, suggesting that in the context of this assay they behave as hypomorphs. <italic>BRF1</italic> mutations likely confer a specific phenotype; we did not identify <italic>BRF1</italic> mutations in three individuals with clinically overlapping but distinct malformation syndromes or in seven individuals with genetically unresolved forms of PCH (data not shown). However, there is compelling evidence for the pathogenicity of the identified variants in the cerebellar-facial-dental syndrome: <italic>BRF1</italic> was the only gene exome-wide that harbored very rare or unique biallelic mutations in the three affected sibships. These missense variants affect conserved amino acids that lie within a predicted functional domain, and two of the affected amino acids likely interact directly with DNA. In vivo experiments in zebrafish embryos showed that suppression of <italic>brf1b</italic> phenocopied some of the key pathognomonic features of the syndrome. Of note, while we cannot exclude a possible effect of overexpression on the outcome of our zebrafish assays, the effects of the variants seemed to be restricted to isoform 2 of BRF1. Thus our results possibly illustrate an isoform-specific effect underlying the phenotype and offer a plausible hypothesis about how mutations in a ubiquitous, key component of the cellular machinery can induce specific, albeit severe, phenotypes. Similar splice isoform-specific pathogenic effects have been found in other disorders (<xref rid="B42" ref-type="bibr">Sarparanta et al. 2012</xref>; <xref rid="B45" ref-type="bibr">Schulte et al. 2014</xref>), suggesting that this mechanism might be a significant regulator of pleiotropy. Previous studies have shown that full-length human BRF1 is the canonical isoform in pol III transcription, and whether other isoforms, including isoforms lacking the evolutionary conserved Zn ribbon domain such as isoform 2, are biologically active remains unknown. Biochemical data indicate that overexpression of isoforms lacking the Zn ribbon domain can induce BRF1&#x2013;TBP interactions in vitro and reconstitute transcription in crude systems (<xref rid="B30" ref-type="bibr">McCulloch et al. 2000</xref>; <xref rid="B44" ref-type="bibr">Schramm and Hernandez 2002</xref>). While the in vivo role of different BRF1 isoforms remains to be elucidated, our zebrafish data provide further evidence of the pathogenic nature of the four missense variants.</p><p>Further studies showed each of the missense variants to affect a variety of relevant activities in yeast, including target gene promoter occupancy, in vitro transcription, and cell growth. We do not know the precise mechanism by which <italic>BRF1</italic> contributes to the phenotype in humans. We note, however, that mouse <italic>Brf1</italic> is expressed in anatomical structures that are relevant to the observed human pathology: In situ hybridization of postnatal day 56 mouse brain had previously revealed prominent <italic>Brf1</italic> expression in the olfactory bulb, hippocampus, and the Purkinje and granule cell layers of the cerebellum (Allen Brain Atlas) (<xref rid="B49" ref-type="bibr">Sunkin et al. 2013</xref>), underscoring the important role of BRF1 in brain development.</p><p>We speculate that one plausible pathomechanism underlying the cerebellar-facial-dental syndrome is a reduced steady-state level of tRNAs that would be predicted to impair translation elongation; this may explain the growth defect in yeast and contribute to short stature in the affected individuals. Whether the major drivers of the phenotype are tRNAs or other Pol III&#x2013;dependent transcripts remains to be determined. Finally, it is also unknown why partial disruption of Pol III transcription leads to organ- and tissue-specific phenotypes. There are &#x223C;450 nuclear encoded tRNA genes in the human genome for only 61 anticodons. It has been shown previously that up to 26% of tRNA genes are active in one cell type versus another (<xref rid="B8" ref-type="bibr">Barski et al. 2010</xref>) and that tRNA expression varies by as much as tenfold among human tissues (<xref rid="B18" ref-type="bibr">Dittmar et al. 2006</xref>), suggesting the existence of active cell and tissue-specific regulation of Pol III transcription (<xref rid="B37" ref-type="bibr">Oler et al. 2010</xref>). Although the genome-wide architecture of Pol III&#x2013;mediated transcription in neurons or specific brain regions is unknown, a pilot study using a microarray containing 42 probes for nuclear encoded tRNAs and assaying their relative expression among eight human tissues revealed a high overall tRNA expression level in brain (<xref rid="B18" ref-type="bibr">Dittmar et al. 2006</xref>). This observation may partially explain the vulnerability of brain regions toward impaired tRNA transcription or processing. Whether other affected tissues, such as the teeth, also show specific tRNA expression patterns remains to be investigated. We note that dental anomalies such as delayed dentition, hypodontia, oligodontia, and abnormally placed or shaped teeth are part of the Pol III&#x2013;related leukodystrophy syndromes 4H; ataxia, delayed dentition, and hypomyelination (ADDH); and leukodystrophy with oligodontia (LO) (<xref rid="B15" ref-type="bibr">Daoud et al. 2013</xref>). An alternative explanation for the tissue-restricted phenotypes engendered by BRF1 dysfunction might be a partial functional redundancy with BRF2. It has been shown, however, that BRF1 and BRF2 are almost completely mutually exclusive as components of TFIIIB under physiological conditions (<xref rid="B32" ref-type="bibr">Moqtaderi et al. 2010</xref>), and whether BRF2 can partially compensate for defective BRF1 is unknown.</p><p>In conclusion, our study defines a syndrome with cerebellar hypoplasia, intellectual disability, and growth retardation that is caused by partial deficiency of the conserved Pol III transcription factor BRF1. These results add an example to the short list of genetic diseases caused by dysregulation of the Pol III machinery, most of which predominantly affect the central nervous system and suggest that improved understanding of the potential target specificity provided by BRF1 might offer pathomechanistic clues.</p></sec><sec sec-type="methods"><title>Methods</title><sec><title>Subjects</title><p>The study was performed with the approval of the University of Ulm Ethics Committee. Affected individuals were evaluated at the genetics outpatient clinics of the Bambino Ges&#xF9; Children&#x2019;s Hospital, Rome (family 1); the Hospital S. Maria, Lisboa (family 2); and IRCCS Casa Sollievo Della Sofferenza Hospital, San Giovanni Rotondo, and Giovanni XIII Hospital, Bari, Italy (family 3). Patients were enrolled with written parental consent for participation in the study. The clinical evaluation included medical history interviews, a physical examination, and review of medical records. Clinical information of affected individuals from the first two families had been independently submitted to the web-based Dysmorphology Diagnostic System (DDS) of the DYSCERNE network (a European network of centers of expertise for dysmorphology) (<xref rid="B19" ref-type="bibr">Douzgou et al. 2014</xref>) by the respective attending geneticists (M.L.D. and B.D.; A.M.). After review of the clinical information and pictures, the DDS Expert Panel (including B.D.) concluded that the four affected individuals were likely affected by a previously unreported autosomal recessive disorder. Blood samples were obtained from each participating individual, and genomic DNA was extracted by standard procedures.</p></sec><sec><title>Whole exome and <italic>BRF1</italic> sequencing</title><sec><title>Families 1 and 2</title><p>Genomic DNA was enriched for exonic and adjacent splice site sequences with the SeqCap EZ Human Exome Library v2.0 kit, and libraries were run on an Illumina HiSeq 2000 Sequencer via a paired-end 100-bp protocol (<xref rid="B22" ref-type="bibr">Hussain et al. 2013</xref>). For data analysis, the Cologne Center for Genomics Varbank pipeline v2.6 and user interface was used. Primary data were filtered according to signal purity by the Illumina Realtime Analysis (RTA) software v1.8. Subsequently, the reads were mapped to the human genome reference build GRCh37/hg19 (<ext-link ext-link-type="uri" xlink:href="http://www.genome.ucsc.edu/">http://www.genome.ucsc.edu/</ext-link>) using the BWA-SW alignment algorithm (<xref rid="B27" ref-type="bibr">Li and Durbin 2010</xref>). GATK v.1.6 (<xref rid="B31" ref-type="bibr">McKenna et al. 2010</xref>) was used to mark duplicated reads, perform a local realignment around short insertion and deletions (indels), recalibrate the base quality scores, and call SNPs and short indels. Mean coverage was &gt;100&#xD7; in both exomes and &#x223C;90% of target bases were covered more than 30&#xD7;. In the target regions, we detected 25,894 SNVs and 2004 short indels in the family 1 individual and 35,642 SNVs and 2795 short indels in the family 2 individual. Scripts developed in-house at the Cologne Center for Genomics were applied to detect protein changes, affected donor and acceptor splice sites, and overlaps with known variants. Splice site variants were analyzed with a maximum entropy model (<xref rid="B55" ref-type="bibr">Yeo and Burge 2004</xref>). We filtered for high-quality rare variants (MAF &lt; 0.1%; based on the 1000 Genomes database, build 20110521 [<xref rid="B1" ref-type="bibr">The 1000 Genomes Project Consortium 2012</xref>] and the NHLBI Exome Sequencing Project Exome Variant Server [EVS], build ESP5400 [<xref rid="B50" ref-type="bibr">Tennessen et al. 2012</xref>]) with a predicted impact on protein sequence or splicing. We also filtered against an in-house database containing variants from 511 exomes from individuals with epilepsy to exclude pipeline-related artifacts.</p></sec><sec><title>Family 3</title><p>WES and data analysis were performed as previously described (<xref rid="B5" ref-type="bibr">Alfaiz et al. 2014</xref>). Briefly, exomes were captured using the Agilent SureSelect human all exon V4 enrichment kit and sequenced on an Illumina HiSeq platform. Variants were filtered based on adherence to an autosomal recessive inheritance pattern, prediction by SIFT (<ext-link ext-link-type="uri" xlink:href="http://sift.jcvi.org/">http://sift.jcvi.org/</ext-link>) (<xref rid="B26" ref-type="bibr">Kumar et al. 2009</xref>) and PolyPhen-2 (<ext-link ext-link-type="uri" xlink:href="http://genetics.bwh.harvard.edu/pph2/">http://genetics.bwh.harvard.edu/pph2/</ext-link>) (<xref rid="B2" ref-type="bibr">Adzhubei et al. 2010</xref>), and absence from dbSNP129 (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/projects/SNP/">http://www.ncbi.nlm.nih.gov/projects/SNP/</ext-link>).</p><p>PCR and Sanger sequencing were performed according to standard protocols for the validation of variants of interest and for cosegregation studies. <italic>BRF1</italic> mutation nomenclature is based on transcript NM_001519.3 and <italic>RDH12</italic> mutation nomenclature on transcript NM_152443.2.</p></sec></sec><sec><title>In vivo modeling in zebrafish</title><p>Reciprocal BLAST of the human BRF1 protein sequence against the zebrafish genome identified two orthologs, suggesting that this gene is duplicated in the zebrafish genome: <italic>brf1a</italic> (NP_956192.1, 60% identity, 72% similarity) and <italic>brf1b</italic> (NP_956183.1, 60% identity, 72% similarity). We targeted each of these transcripts with a sbMO designed and obtained from Gene Tools. The MOs target the donor site of exon 6 for <italic>brf1a</italic> sbMO (TATTTGAAGCTTACCGATAGCTGGT), the donor site of exon 8 for <italic>brf1b</italic> sbMO (AGCTGTGACATTCACCTTTTTCTCA), and the donor site of exon 6 for <italic>brf1b</italic> sbMO#2 (GTCATTACAGGGAGACTTACCGACA). For rescue experiments, human WT mRNAs of isoform 1 (NP_001229717.1) and isoform 2 (NP_001229715.1) of BRF1 were cloned into pCS2+ vector and transcribed in vitro using the SP6 mMessage machine kit (Ambion). All variants were introduced with Phusion high-fidelity DNA polymerase (New England Biolabs) and custom designed mutagenesis primers and Sanger sequence confirmed on a 3730 ABI sequencer. We injected 1 nL of solution (12 ng MO and/or 200 pg of human mRNA, (WT, P292H, R223W, S226L, or T259M) into one- to four-cell-stage WT zebrafish embryos (<xref rid="B36" ref-type="bibr">Niederriter et al. 2013</xref>) and collected them at 3 d.p.f., fixed in Dent&#x2019;s fixative overnight at 4<bold>&#xB0;</bold>C. Standard immunohistochemistry was then performed using control embryos and embryos injected with <italic>brf1b</italic> MO, MO + WT human <italic>BRF1</italic>, and MO + variant human <italic>BRF1</italic> (P292H, R223W, S226L, or T259M) stained with anti-&#x3B1; acetylated tubulin (T7451, mouse, Sigma-Aldrich, dilution 1:1000) as the primary antibody and Alexa Fluor goat anti-mouse IgG (A21207, Invitrogen, dilution 1:1000) as a secondary antibody. Stained zebrafish were observed using the Nikon AZ100 Microscope with a DS-Qi1MC digital camera head. All experiments were performed in triplicate (&#x223C;200 embryos), and significance was determined with a Student&#x2019;s <italic>t</italic>-test.</p><p>CRISPR target sequences (<italic>brf1b</italic>: CATGCATGAATTCCGGCGCA) were identified using <ext-link ext-link-type="uri" xlink:href="http://crispr.mit.edu">crispr.mit.edu</ext-link> and cloned into pT7-gRNA (Addgene) following the protocol described at <ext-link ext-link-type="uri" xlink:href="http://www.addgene.org/crispr/Chen/">http://www.addgene.org/crispr/Chen/</ext-link>. gRNAs and mRNAs were synthesized by a MEGAshortscript T7 kit (Ambion), and Cas9 mRNAs were synthesized by mMESSAGE mMACHINE SP6 (Ambion). One hundred twenty pg gRNA + 150 pg Cas9 mRNA were injected into one-cell stage zebrafish and collected at 3 d.p.f. in Dent&#x2019;s fixative overnight at 4<bold>&#xB0;</bold>C and stained as mentioned above.</p><p>For RNA sequencing (RNA-seq), total RNA from 5 d.p.f. zebrafish heads was extracted using a TRIzol/chloroform protocol. Libraries were constructed using a customized version of strand-specific dUTP and run on an Illumina HiSeq 2000 platform (<xref rid="B48" ref-type="bibr">Sugathan et al. 2014</xref>).</p></sec><sec><title>Yeast strains and growth assays</title><p>To introduce <italic>BRF1</italic> mutations in yeast, the shuffle vector system developed by Sikorski and Hieter was used (<xref rid="B47" ref-type="bibr">Sikorski and Hieter 1989</xref>). <italic>BRF1</italic> mutations were introduced in the vector pRS315, which contains yeast <italic>BRF1</italic> expressed under the control of its own promoter. Mutations were introduced using site-directed mutagenesis and confirmed by DNA sequencing. The identified mutations from humans (h) were transferred to yeast (y). The corresponding amino acid positions are as follows: hR223 = yR218, hS226 = yA221, hT259 = yT254, and hP292 = yP288. For combinations of two mutations, <italic>BRF1</italic> variants T259M and S226L were cloned into pRS314 vector and cotransformed with the S226L and T259M mutations in the pRS315 vector, respectively. Plasmids were transformed into the yeast strain SHY285 (gift from S. Hahn, <italic>MAT&#x3B1;, ade2&#x394;&#x2237;hisG, his3&#x394;200, leu2&#x394;0, lys2&#x394;0, met15&#x394;0, trp1&#x394;63, ura3&#x394;0, brf1&#x394;&#x2237;HIS3</italic>/pSH524), and WT <italic>BRF1</italic> was replaced with the mutant gene by plasmid shuffle at 30&#xB0;C. The rescue plasmid pSH524 contains a URA3 marker (Ars Cen URA3, BRF1) (<xref rid="B21" ref-type="bibr">Hahn and Roberts 2000</xref>). For the spotting assays, strains were grown overnight in selective media, normalized to equal densities (10<sup>7</sup> cells/200 &#x3BC;L), serially diluted (1:5), and spotted on YPD media or selective media (Leu-, Leu/Trp-) supplemented with 5-fluoroorotic acid (5-FOA; Carl Roth). Plates were incubated for 3 d at 30&#xB0;C. For the liquid assays, cultures were inoculated in selective media, grown overnight and normalized to equal densities (OD600nm = 0.33). We used 3.5 &#x3BC;L of these dilutions to inoculate a 96-well plate with 200 &#x3BC;L of liquid media (YPD and selective media supplemented with 5-FOA). Plates were incubated for 3 d at 30&#xB0;C. As a control strain we used WT BY4741 yeast.</p></sec><sec><title>Protein purification</title><p>Protein purification was performed essentially as previously described (<xref rid="B4" ref-type="bibr">Alexander et al. 2004</xref>), with minor modifications. Proteins were expressed in <italic>Escherichia coli</italic> BL21-Codon plus (DE3) RIL cells in LB medium. Protein expression was induced in 2 l cultures with 1 mM IPTG at an OD600 of 0.7. Cells were grown for 3 h at 37&#xB0;C and harvested (20 min, 4000 rpm, 4&#xB0;C). The pellet was washed with 40 mL LB medium and flash-frozen in liquid nitrogen. The cells were thawed on ice and resuspended in 50 mL lysis buffer (25 mM Tris/HCl at pH 7.5 and 25&#xB0;C; 200 mM KCl; 12.5 mM MgCl<sub>2</sub>; 10% [v/v] glycerol; 1 &#xD7; PI). Subsequently, 0.8 mg lysozyme (Roth) per 1 mL lysate was added and incubated rotating in the cold room. After 10 min, 0.2% IGEPAL CA-630 (MP Biomedicals) was added for further 5 min. For cell disruption, lysate was sonicated for 15 min, at 25% duty cycle and 40 output value. Brf1 in inclusion bodies was washed twice in H.35 buffer (20 mM HEPES at pH 8.0 and 25&#xB0;C; 350 mM KCl; 2 mM MgCl<sub>2</sub>; 1% NaOH; 20% [v/v] glycerol; 0.1% [v/v] IGEPAL CA-630; 1 &#xD7; PI). Inclusion bodies were extracted with 5 mL G6 buffer (100 mM Tris/HCl at pH 7.5 and 4&#xB0;C; 6 M GdmCl; 2 mM &#x3B2;-mercaptoethanol) and rotation for 1 h at 4&#xB0;C. The solution was bound in batch to 2.5 mL Ni-NTA bead volume in G6 buffer overnight at 4&#xB0;C. Beads were washed with 12.5 mL G6 buffer and protein eluted in batch with three times 2.5 mL Ni-NTA elution buffer (100 mM Tris/HCl at pH 7.5 and 4&#xB0;C; 6 M GdmCl; 10 mM &#x3B2;-mercaptoethanol; 500 mM imidazole; 1 &#xD7; PI). To the combined eluate, ZnSO4 and DTT were added to final concentrations of 10 &#x3BC;M and 5 mM, respectively. Finally, the denatured Brf1 was refolded via rapid dilution and dialysis. For dilution, 100 &#x3BC;L of the eluate was placed in the lid of a 1.5-mL Eppendorf tube containing 1 mL dialysis buffer (20 mM Tris acetate 80% cation at pH 7.5 and 4&#xB0;C; 200 mM KCl; 2 mM MgCl<sub>2</sub>; 20% [v/v] glycerol; 0.1% [v/v], IGEPAL CA-630; 1 &#xD7; PI), and the lid was closed quickly. For every tube this could be repeated twice. After flash dilution the protein was dialyzed in dialysis buffer for 2 h, frozen in liquid nitrogen, and stored at &#x2212;80&#xB0;C. Usually the purification resulted in 30 mL of 0.4&#x2013;0.8 mg/mL protein solution.</p></sec><sec><title>ChIP assay</title><p>For the ChIP assay, TAP-tagged <italic>BRF1</italic> and its mutant variants were introduced in the pRS315 vector, which contains <italic>BRF1</italic> expressed under the control of its own promoter. For combinations of the mutations, S226L and T259M were cloned into pRS314 vector and cotransformed with the TAP-tagged <italic>BRF1</italic> variants T259M-TAP and S226L-TAP in the pRS315 vector, respectively. ChIP experiments were performed as previously described (<xref rid="B6" ref-type="bibr">Aparicio et al. 2005</xref>).</p></sec><sec><title>In vitro transcription assay</title><p>The Pol III&#x2013;dependent in vitro transcription assay was performed as described by <xref rid="B21" ref-type="bibr">Hahn and Roberts (2000)</xref>, with minor modifications. The nuclear extract was prepared as described by <xref rid="B46" ref-type="bibr">Seizl et al. (2011)</xref>. The template used contained the <italic>SUP4</italic> gene from [&#x2212;159] &#x2212; [+244] with respect to the transcription start site of the tRNA. <italic>SUP4</italic> encodes a tyrosine tRNA. The 25 &#x3BC;L transcription reaction contained 100 mM KOAc (pH 7.6), 20 mM HEPES (pH 7.6), 1 mM EDTA, 5 mM MgOAc, 2.5 mM DTT, 150 ng template, 192 &#x3BC;g phosphocreatine, 0.2 &#x3BC;g creatine phosphokinase, 10 U RiboLock RNase inhibitor (Fermentas), 50 &#x3BC;g temperature-sensitive nuclear extract harboring a temperature-sensitive W107R mutation in <italic>BRF1</italic>, 40 &#x3BC;M &#x3B1;-amanitin, and 100 ng of recombinant protein where indicated. Proteins were added to the transcription reaction mix for 5 min before addition of 0.1 mM NTPs. The transcription reaction was carried out for 60 min at 30&#xB0;C. The RNA was isolated, and for primer extension, 0.125 pmol primer was annealed for 45 min at 60&#xB0;C in 20 &#x3BC;L 5 mM Tris (pH 8.3), 75 mM KCl, 1 mM EDTA (pH 8.0). The sequence of the 5&#x2032;-Cy5 labeled primer was TCTCCCGGGGGCGAGTCGAACGCCC. Two micrograms of Actinomycin D was added before 0.25 units MuLV reverse transcriptase in 60 &#x3BC;L 5 mM Tris (pH 8.3), 75 mM KCl, 4.5 mM MgCl<sub>2</sub>, 15 mM DTT, and 0.1 mM dNTPs extended the primer. The resulting cDNA was isolated by ethanol precipitation and resuspended in 4 &#x3BC;L 0.04 mg/mL RNase A and 4 &#x3BC;L formamide buffer (80% formamide, 25 mM EDTA, 1.5% bromphenolblue). Before loading, samples were boiled for 2 min at 95&#xB0;C and put directly on ice. Samples were run on a 7 M urea, 8% polyacrylamide (35:1) gel in 1&#xD7; TBE for 45 min at 180 V. The gel was pre-run for 5&#x2013;10 min, and the pockets were rinsed before loading. Gels were analyzed and quantified with a typhoon scanner FLA9400 and ImageQuant Software (GE Healthcare).</p></sec></sec><sec><title>Data access</title><p>The zebrafish RNA-seq data have been submitted to the NCBI Gene Expression Omnibus (GEO; <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/">http://www.ncbi.nlm.nih.gov/geo/</ext-link>) under accession number GSE63191. <italic>BRF1</italic> mutation data have been submitted to the NCBI ClinVar database (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/clinvar/">http://www.ncbi.nlm.nih.gov/clinvar/</ext-link>) under accession numbers SCV000192004, SCV000192005, SCV000192006, and SCV000195766.</p></sec>
+<sec sec-type="supplementary-material">
+<title>Supplementary Material</title>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>Supplemental Material</title>
+</caption>
+<media mimetype="text" mime-subtype="html" xlink:href="supp_25_2_155__index.html"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="supp_gr.176925.114_Supplemental_Fig_1.pdf"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="supp_gr.176925.114_Supplemental_Fig_2.pdf"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="supp_gr.176925.114_Supplemental_Fig_3.pdf"/>
+<media xlink:role="associated-file" mimetype="image" mime-subtype="tiff" xlink:href="supp_gr.176925.114_Supplemental_Fig_4.tif"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="msword" xlink:href="supp_gr.176925.114_Supplemental_Table_1.doc"/>
+</supplementary-material>
+</sec>
+</body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We thank the families for their collaboration. The clinical information and the patient pictures were uploaded to the web-based Dysmorphology Diagnostic System (DDS) developed by DYSCERNE&#x2014;a European Network of Centres of Expertise for Dysmorphology (EU DG Sanco)&#x2014;and discussed among the DDS expert panel. We thank Sarah Sainsbury for mapping the <italic>BRF1</italic> mutations on the hTFIIB structure; Karl Bertram and Ali A. Alfaiz for help with cloning and bioinformatic analyses; Bernd Lapatki and Leopoldo Zelante for discussions on clinical (including dental) aspects of the disorder; Birgit Budde, Dagmar Wieczorek, and Hilde van Esch for providing DNA; and Christelle Golzio and Michael Talkowski for zebrafish RNA-seq data. F.H. was supported by the Elite Network Bavaria program &#x201C;Protein Dynamics in Health and Disease&#x201D;; P.C. by the Deutsche Forschungsgemeinschaft (SFB646, GraKo1721, SFB960, SFB1064, CIPSM, NIM), an Advanced Grant of the European Research Council, the Jung-Stiftung, and the Vallee Foundation; G.B. by the Deutsche Forschungsgemeinschaft; G.M. by a grant from the Italian Ministry of Health (Ricerca Corrente 2012&#x2013;14); and A.R. by the Lithuanian-Swiss Cooperation Program.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="supplementary-material">
+        <p>[Supplemental material is available for this article.]</p>
+      </fn>
+      <fn>
+        <p>Article published online before print. Article, supplemental material, and publication date are at <ext-link ext-link-type="uri" xlink:href="http://www.genome.org/cgi/doi/10.1101/gr.176925.114">http://www.genome.org/cgi/doi/10.1101/gr.176925.114</ext-link>.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><collab>The 1000 Genomes Project Consortium</collab></person-group>
+<year>2012</year>
+<article-title>An integrated map of genetic variation from 1,092 human genomes</article-title>. <source><italic>Nature</italic></source><volume>491</volume>: <fpage>56</fpage>&#x2013;<lpage>65</lpage>.<pub-id pub-id-type="pmid">23128226</pub-id></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Adzhubei</surname><given-names>IA</given-names></name>, <name><surname>Schmidt</surname><given-names>S</given-names></name>, <name><surname>Peshkin</surname><given-names>L</given-names></name>, <name><surname>Ramensky</surname><given-names>VE</given-names></name>, <name><surname>Gerasimova</surname><given-names>A</given-names></name>, <name><surname>Bork</surname><given-names>P</given-names></name>, <name><surname>Kondrashov</surname><given-names>AS</given-names></name>, <name><surname>Sunyaev</surname><given-names>SR</given-names></name></person-group>
+<year>2010</year>
+<article-title>A method and server for predicting damaging missense mutations</article-title>. <source>Nat Methods</source><volume>7</volume>: <fpage>248</fpage>&#x2013;<lpage>249</lpage>.<pub-id pub-id-type="pmid">20354512</pub-id></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Akizu</surname><given-names>N</given-names></name>, <name><surname>Cantagrel</surname><given-names>V</given-names></name>, <name><surname>Schroth</surname><given-names>J</given-names></name>, <name><surname>Cai</surname><given-names>N</given-names></name>, <name><surname>Vaux</surname><given-names>K</given-names></name>, <name><surname>McCloskey</surname><given-names>D</given-names></name>, <name><surname>Naviaux</surname><given-names>RK</given-names></name>, <name><surname>Van Vleet</surname><given-names>J</given-names></name>, <name><surname>Fenstermaker</surname><given-names>AG</given-names></name>, <name><surname>Silhavy</surname><given-names>JL</given-names></name>, <etal/></person-group>
+<year>2013</year>
+<article-title>AMPD2 regulates GTP synthesis and is mutated in a potentially treatable neurodegenerative brainstem disorder</article-title>. <source>Cell</source><volume>154</volume>: <fpage>505</fpage>&#x2013;<lpage>517</lpage>.<pub-id pub-id-type="pmid">23911318</pub-id></mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Alexander</surname><given-names>DE</given-names></name>, <name><surname>Kaczorowski</surname><given-names>DJ</given-names></name>, <name><surname>Jackson-Fisher</surname><given-names>AJ</given-names></name>, <name><surname>Lowery</surname><given-names>DM</given-names></name>, <name><surname>Zanton</surname><given-names>SJ</given-names></name>, <name><surname>Pugh</surname><given-names>BF</given-names></name></person-group>
+<year>2004</year>
+<article-title>Inhibition of TATA binding protein dimerization by RNA polymerase III transcription initiation factor Brf1</article-title>. <source>J Biol Chem</source><volume>279</volume>: <fpage>32401</fpage>&#x2013;<lpage>32406</lpage>.<pub-id pub-id-type="pmid">15190063</pub-id></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Alfaiz</surname><given-names>AA</given-names></name>, <name><surname>Micale</surname><given-names>L</given-names></name>, <name><surname>Mandriani</surname><given-names>B</given-names></name>, <name><surname>Augello</surname><given-names>B</given-names></name>, <name><surname>Pellico</surname><given-names>MT</given-names></name>, <name><surname>Chrast</surname><given-names>J</given-names></name>, <name><surname>Xenarios</surname><given-names>I</given-names></name>, <name><surname>Zelante</surname><given-names>L</given-names></name>, <name><surname>Merla</surname><given-names>G</given-names></name>, <name><surname>Reymond</surname><given-names>A</given-names></name></person-group>
+<year>2014</year>
+<article-title>TBC1D7 mutations are associated with intellectual disability, macrocrania, patellar dislocation, and celiac disease</article-title>. <source>Hum Mutat</source><volume>35</volume>: <fpage>447</fpage>&#x2013;<lpage>451</lpage>.<pub-id pub-id-type="pmid">24515783</pub-id></mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Aparicio</surname><given-names>O</given-names></name>, <name><surname>Geisberg</surname><given-names>JV</given-names></name>, <name><surname>Sekinger</surname><given-names>E</given-names></name>, <name><surname>Yang</surname><given-names>A</given-names></name>, <name><surname>Moqtaderi</surname><given-names>Z</given-names></name>, <name><surname>Struhl</surname><given-names>K</given-names></name></person-group>
+<year>2005</year>
+<article-title>Chromatin immunoprecipitation for determining the association of proteins with specific genomic sequences in vivo</article-title>. <source><italic>Curr Protoc Mol Biol</italic></source><volume>69</volume>: <fpage>21.3.1</fpage>&#x2013;<lpage>21.3.33</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bamshad</surname><given-names>MJ</given-names></name>, <name><surname>Ng</surname><given-names>SB</given-names></name>, <name><surname>Bigham</surname><given-names>AW</given-names></name>, <name><surname>Tabor</surname><given-names>HK</given-names></name>, <name><surname>Emond</surname><given-names>MJ</given-names></name>, <name><surname>Nickerson</surname><given-names>DA</given-names></name>, <name><surname>Shendure</surname><given-names>J</given-names></name></person-group>
+<year>2011</year>
+<article-title>Exome sequencing as a tool for Mendelian disease gene discovery</article-title>. <source>Nat Rev Genet</source><volume>12</volume>: <fpage>745</fpage>&#x2013;<lpage>755</lpage>.<pub-id pub-id-type="pmid">21946919</pub-id></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Barski</surname><given-names>A</given-names></name>, <name><surname>Chepelev</surname><given-names>I</given-names></name>, <name><surname>Liko</surname><given-names>D</given-names></name>, <name><surname>Cuddapah</surname><given-names>S</given-names></name>, <name><surname>Fleming</surname><given-names>AB</given-names></name>, <name><surname>Birch</surname><given-names>J</given-names></name>, <name><surname>Cui</surname><given-names>K</given-names></name>, <name><surname>White</surname><given-names>RJ</given-names></name>, <name><surname>Zhao</surname><given-names>K</given-names></name></person-group>
+<year>2010</year>
+<article-title>Pol II and its associated epigenetic marks are present at Pol III-transcribed noncoding RNA genes</article-title>. <source>Nat Struct Mol Biol</source><volume>17</volume>: <fpage>629</fpage>&#x2013;<lpage>634</lpage>.<pub-id pub-id-type="pmid">20418881</pub-id></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bernard</surname><given-names>G</given-names></name>, <name><surname>Chouery</surname><given-names>E</given-names></name>, <name><surname>Putorti</surname><given-names>ML</given-names></name>, <name><surname>Tetreault</surname><given-names>M</given-names></name>, <name><surname>Takanohashi</surname><given-names>A</given-names></name>, <name><surname>Carosso</surname><given-names>G</given-names></name>, <name><surname>Clement</surname><given-names>I</given-names></name>, <name><surname>Boespflug-Tanguy</surname><given-names>O</given-names></name>, <name><surname>Rodriguez</surname><given-names>D</given-names></name>, <name><surname>Delague</surname><given-names>V</given-names></name>, <etal/></person-group>
+<year>2011</year>
+<article-title>Mutations of POLR3A encoding a catalytic subunit of RNA polymerase Pol III cause a recessive hypomyelinating leukodystrophy</article-title>. <source>Am J Hum Genet</source><volume>89</volume>: <fpage>415</fpage>&#x2013;<lpage>423</lpage>.<pub-id pub-id-type="pmid">21855841</pub-id></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bernier</surname><given-names>R</given-names></name>, <name><surname>Golzio</surname><given-names>C</given-names></name>, <name><surname>Xiong</surname><given-names>B</given-names></name>, <name><surname>Stessman</surname><given-names>HA</given-names></name>, <name><surname>Coe</surname><given-names>BP</given-names></name>, <name><surname>Penn</surname><given-names>O</given-names></name>, <name><surname>Witherspoon</surname><given-names>K</given-names></name>, <name><surname>Gerdts</surname><given-names>J</given-names></name>, <name><surname>Baker</surname><given-names>C</given-names></name>, <name><surname>Vulto-van Silfhout</surname><given-names>AT</given-names></name>, <etal/></person-group>
+<year>2014</year>
+<article-title>Disruptive CHD8 mutations define a subtype of autism early in development</article-title>. <source>Cell</source><volume>158</volume>: <fpage>263</fpage>&#x2013;<lpage>276</lpage>.<pub-id pub-id-type="pmid">24998929</pub-id></mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Borck</surname><given-names>G</given-names></name>, <name><surname>Shin</surname><given-names>BS</given-names></name>, <name><surname>Stiller</surname><given-names>B</given-names></name>, <name><surname>Mimouni-Bloch</surname><given-names>A</given-names></name>, <name><surname>Thiele</surname><given-names>H</given-names></name>, <name><surname>Kim</surname><given-names>JR</given-names></name>, <name><surname>Thakur</surname><given-names>M</given-names></name>, <name><surname>Skinner</surname><given-names>C</given-names></name>, <name><surname>Aschenbach</surname><given-names>L</given-names></name>, <name><surname>Smirin-Yosef</surname><given-names>P</given-names></name>, <etal/></person-group>
+<year>2012</year>
+<article-title>eIF2&#x3B3; mutation that disrupts eIF2 complex integrity links intellectual disability to impaired translation initiation</article-title>. <source>Mol Cell</source><volume>48</volume>: <fpage>641</fpage>&#x2013;<lpage>646</lpage>.<pub-id pub-id-type="pmid">23063529</pub-id></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bugiani</surname><given-names>M</given-names></name>, <name><surname>Boor</surname><given-names>I</given-names></name>, <name><surname>Powers</surname><given-names>JM</given-names></name>, <name><surname>Scheper</surname><given-names>GC</given-names></name>, <name><surname>van der Knaap</surname><given-names>MS</given-names></name></person-group>
+<year>2010</year>
+<article-title>Leukoencephalopathy with vanishing white matter: a review</article-title>. <source>J Neuropathol Exp Neurol</source><volume>69</volume>: <fpage>987</fpage>&#x2013;<lpage>996</lpage>.<pub-id pub-id-type="pmid">20838246</pub-id></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cabarcas</surname><given-names>S</given-names></name>, <name><surname>Schramm</surname><given-names>L</given-names></name></person-group>
+<year>2011</year>
+<article-title>RNA polymerase III transcription in cancer: the BRF2 connection</article-title>. <source>Mol Cancer</source><volume>10</volume>: <fpage>47</fpage>.<pub-id pub-id-type="pmid">21518452</pub-id></mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Colbert</surname><given-names>T</given-names></name>, <name><surname>Hahn</surname><given-names>S</given-names></name></person-group>
+<year>1992</year>
+<article-title>A yeast TFIIB-related factor involved in RNA polymerase III transcription</article-title>. <source>Genes Dev</source><volume>6</volume>: <fpage>1940</fpage>&#x2013;<lpage>1949</lpage>.<pub-id pub-id-type="pmid">1398071</pub-id></mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Daoud</surname><given-names>H</given-names></name>, <name><surname>Tetreault</surname><given-names>M</given-names></name>, <name><surname>Gibson</surname><given-names>W</given-names></name>, <name><surname>Guerrero</surname><given-names>K</given-names></name>, <name><surname>Cohen</surname><given-names>A</given-names></name>, <name><surname>Gburek-Augustat</surname><given-names>J</given-names></name>, <name><surname>Synofzik</surname><given-names>M</given-names></name>, <name><surname>Brais</surname><given-names>B</given-names></name>, <name><surname>Stevens</surname><given-names>CA</given-names></name>, <name><surname>Sanchez-Carpintero</surname><given-names>R</given-names></name>, <etal/></person-group>
+<year>2013</year>
+<article-title>Mutations in POLR3A and POLR3B are a major cause of hypomyelinating leukodystrophies with or without dental abnormalities and/or hypogonadotropic hypogonadism</article-title>. <source>J Med Genet</source><volume>50</volume>: <fpage>194</fpage>&#x2013;<lpage>197</lpage>.<pub-id pub-id-type="pmid">23355746</pub-id></mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dauber</surname><given-names>A</given-names></name>, <name><surname>Golzio</surname><given-names>C</given-names></name>, <name><surname>Guenot</surname><given-names>C</given-names></name>, <name><surname>Jodelka</surname><given-names>FM</given-names></name>, <name><surname>Kibaek</surname><given-names>M</given-names></name>, <name><surname>Kjaergaard</surname><given-names>S</given-names></name>, <name><surname>Leheup</surname><given-names>B</given-names></name>, <name><surname>Martinet</surname><given-names>D</given-names></name>, <name><surname>Nowaczyk</surname><given-names>MJ</given-names></name>, <name><surname>Rosenfeld</surname><given-names>JA</given-names></name>, <etal/></person-group>
+<year>2013</year>
+<article-title>SCRIB and PUF60 are primary drivers of the multisystemic phenotypes of the 8q24.3 copy-number variant</article-title>. <source>Am J Hum Genet</source><volume>93</volume>: <fpage>798</fpage>&#x2013;<lpage>811</lpage>.<pub-id pub-id-type="pmid">24140112</pub-id></mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dieci</surname><given-names>G</given-names></name>, <name><surname>Conti</surname><given-names>A</given-names></name>, <name><surname>Pagano</surname><given-names>A</given-names></name>, <name><surname>Carnevali</surname><given-names>D</given-names></name></person-group>
+<year>2013</year>
+<article-title>Identification of RNA polymerase III-transcribed genes in eukaryotic genomes</article-title>. <source>Biochim Biophys Acta</source><volume>1829</volume>: <fpage>296</fpage>&#x2013;<lpage>305</lpage>.<pub-id pub-id-type="pmid">23041497</pub-id></mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dittmar</surname><given-names>KA</given-names></name>, <name><surname>Goodenbour</surname><given-names>JM</given-names></name>, <name><surname>Pan</surname><given-names>T</given-names></name></person-group>
+<year>2006</year>
+<article-title>Tissue-specific differences in human transfer RNA expression</article-title>. <source>PLoS Genet</source><volume>2</volume>: <fpage>e221</fpage>.<pub-id pub-id-type="pmid">17194224</pub-id></mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Douzgou</surname><given-names>S</given-names></name>, <name><surname>Clayton-Smith</surname><given-names>J</given-names></name>, <name><surname>Gardner</surname><given-names>S</given-names></name>, <name><surname>Day</surname><given-names>R</given-names></name>, <name><surname>Griffiths</surname><given-names>P</given-names></name>, <name><surname>Strong</surname><given-names>K</given-names></name>, <collab>DYSCERNE expert panel</collab></person-group>
+<year>2014</year>
+<article-title>Dysmorphology at a distance: results of a web-based diagnostic service</article-title>. <source>Eur J Hum Genet</source><volume>22</volume>: <fpage>327</fpage>&#x2013;<lpage>332</lpage>.<pub-id pub-id-type="pmid">23838594</pub-id></mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Golzio</surname><given-names>C</given-names></name>, <name><surname>Willer</surname><given-names>J</given-names></name>, <name><surname>Talkowski</surname><given-names>ME</given-names></name>, <name><surname>Oh</surname><given-names>EC</given-names></name>, <name><surname>Taniguchi</surname><given-names>Y</given-names></name>, <name><surname>Jacquemont</surname><given-names>S</given-names></name>, <name><surname>Reymond</surname><given-names>A</given-names></name>, <name><surname>Sun</surname><given-names>M</given-names></name>, <name><surname>Sawa</surname><given-names>A</given-names></name>, <name><surname>Gusella</surname><given-names>JF</given-names></name>, <etal/></person-group>
+<year>2012</year>
+<article-title>KCTD13 is a major driver of mirrored neuroanatomical phenotypes of the 16p11.2 copy number variant</article-title>. <source>Nature</source><volume>485</volume>: <fpage>363</fpage>&#x2013;<lpage>367</lpage>.<pub-id pub-id-type="pmid">22596160</pub-id></mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hahn</surname><given-names>S</given-names></name>, <name><surname>Roberts</surname><given-names>S</given-names></name></person-group>
+<year>2000</year>
+<article-title>The zinc ribbon domains of the general transcription factors TFIIB and Brf: conserved functional surfaces but different roles in transcription initiation</article-title>. <source>Genes Dev</source><volume>14</volume>: <fpage>719</fpage>&#x2013;<lpage>730</lpage>.<pub-id pub-id-type="pmid">10733531</pub-id></mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hussain</surname><given-names>MS</given-names></name>, <name><surname>Baig</surname><given-names>SM</given-names></name>, <name><surname>Neumann</surname><given-names>S</given-names></name>, <name><surname>Peche</surname><given-names>VS</given-names></name>, <name><surname>Szczepanski</surname><given-names>S</given-names></name>, <name><surname>Nurnberg</surname><given-names>G</given-names></name>, <name><surname>Tariq</surname><given-names>M</given-names></name>, <name><surname>Jameel</surname><given-names>M</given-names></name>, <name><surname>Khan</surname><given-names>TN</given-names></name>, <name><surname>Fatima</surname><given-names>A</given-names></name>, <etal/></person-group>
+<year>2013</year>
+<article-title>CDK6 associates with the centrosome during mitosis and is mutated in a large Pakistani family with primary microcephaly</article-title>. <source>Hum Mol Genet</source><volume>22</volume>: <fpage>5199</fpage>&#x2013;<lpage>5214</lpage>.<pub-id pub-id-type="pmid">23918663</pub-id></mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Janecke</surname><given-names>AR</given-names></name>, <name><surname>Thompson</surname><given-names>DA</given-names></name>, <name><surname>Utermann</surname><given-names>G</given-names></name>, <name><surname>Becker</surname><given-names>C</given-names></name>, <name><surname>H&#xFC;bner</surname><given-names>CA</given-names></name>, <name><surname>Schmid</surname><given-names>E</given-names></name>, <name><surname>McHenry</surname><given-names>CL</given-names></name>, <name><surname>Nair</surname><given-names>AR</given-names></name>, <name><surname>R&#xFC;schendorf</surname><given-names>F</given-names></name>, <name><surname>Heckenlively</surname><given-names>J</given-names></name>, <etal/></person-group>
+<year>2004</year>
+<article-title>Mutations in RDH12 encoding a photoreceptor cell retinol dehydrogenase cause childhood-onset severe retinal dystrophy</article-title>. <source>Nat Genet</source><volume>36</volume>: <fpage>850</fpage>&#x2013;<lpage>854</lpage>.<pub-id pub-id-type="pmid">15258582</pub-id></mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kassavetis</surname><given-names>GA</given-names></name>, <name><surname>Kumar</surname><given-names>A</given-names></name>, <name><surname>Ramirez</surname><given-names>E</given-names></name>, <name><surname>Geiduschek</surname><given-names>EP</given-names></name></person-group>
+<year>1998</year>
+<article-title>Functional and structural organization of Brf, the TFIIB-related component of the RNA polymerase III transcription initiation complex</article-title>. <source>Mol Cell Biol</source><volume>18</volume>: <fpage>5587</fpage>&#x2013;<lpage>5599</lpage>.<pub-id pub-id-type="pmid">9710642</pub-id></mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Khoo</surname><given-names>SK</given-names></name>, <name><surname>Wu</surname><given-names>CC</given-names></name>, <name><surname>Lin</surname><given-names>YC</given-names></name>, <name><surname>Lee</surname><given-names>JC</given-names></name>, <name><surname>Chen</surname><given-names>HT</given-names></name></person-group>
+<year>2014</year>
+<article-title>Mapping the protein interaction network for TFIIB-related factor Brf1 in the RNA polymerase III preinitiation complex</article-title>. <source>Mol Cell Biol</source><volume>34</volume>: <fpage>551</fpage>&#x2013;<lpage>559</lpage>.<pub-id pub-id-type="pmid">24277937</pub-id></mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kumar</surname><given-names>P</given-names></name>, <name><surname>Henikoff</surname><given-names>S</given-names></name>, <name><surname>Ng</surname><given-names>PC</given-names></name></person-group>
+<year>2009</year>
+<article-title>Predicting the effects of coding non-synonymous variants on protein function using the SIFT algorithm</article-title>. <source>Nat Protoc</source><volume>4</volume>: <fpage>1073</fpage>&#x2013;<lpage>1081</lpage>.<pub-id pub-id-type="pmid">19561590</pub-id></mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>H</given-names></name>, <name><surname>Durbin</surname><given-names>R</given-names></name></person-group>
+<year>2010</year>
+<article-title>Fast and accurate long-read alignment with Burrows-Wheeler transform</article-title>. <source>Bioinformatics</source><volume>26</volume>: <fpage>589</fpage>&#x2013;<lpage>595</lpage>.<pub-id pub-id-type="pmid">20080505</pub-id></mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Margolin</surname><given-names>DH</given-names></name>, <name><surname>Kousi</surname><given-names>M</given-names></name>, <name><surname>Chan</surname><given-names>YM</given-names></name>, <name><surname>Lim</surname><given-names>ET</given-names></name>, <name><surname>Schmahmann</surname><given-names>JD</given-names></name>, <name><surname>Hadjivassiliou</surname><given-names>M</given-names></name>, <name><surname>Hall</surname><given-names>JE</given-names></name>, <name><surname>Adam</surname><given-names>I</given-names></name>, <name><surname>Dwyer</surname><given-names>A</given-names></name>, <name><surname>Plummer</surname><given-names>L</given-names></name>, <etal/></person-group>
+<year>2013</year>
+<article-title>Ataxia, dementia, and hypogonadotropism caused by disordered ubiquitination</article-title>. <source>N Engl J Med</source><volume>368</volume>: <fpage>1992</fpage>&#x2013;<lpage>2003</lpage>.<pub-id pub-id-type="pmid">23656588</pub-id></mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Marshall</surname><given-names>L</given-names></name>, <name><surname>White</surname><given-names>RJ</given-names></name></person-group>
+<year>2008</year>
+<article-title>Non-coding RNA production by RNA polymerase III is implicated in cancer</article-title>. <source>Nat Rev Cancer</source><volume>8</volume>: <fpage>911</fpage>&#x2013;<lpage>914</lpage>.<pub-id pub-id-type="pmid">18987635</pub-id></mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>McCulloch</surname><given-names>V</given-names></name>, <name><surname>Hardin</surname><given-names>P</given-names></name>, <name><surname>Peng</surname><given-names>W</given-names></name>, <name><surname>Ruppert</surname><given-names>JM</given-names></name>, <name><surname>Lobo-Ruppert</surname><given-names>SM</given-names></name></person-group>
+<year>2000</year>
+<article-title>Alternatively spliced hBRF variants function at different RNA polymerase III promoters</article-title>. <source>EMBO J</source><volume>19</volume>: <fpage>4134</fpage>&#x2013;<lpage>4143</lpage>.<pub-id pub-id-type="pmid">10921893</pub-id></mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>McKenna</surname><given-names>A</given-names></name>, <name><surname>Hanna</surname><given-names>M</given-names></name>, <name><surname>Banks</surname><given-names>E</given-names></name>, <name><surname>Sivachenko</surname><given-names>A</given-names></name>, <name><surname>Cibulskis</surname><given-names>K</given-names></name>, <name><surname>Kernytsky</surname><given-names>A</given-names></name>, <name><surname>Garimella</surname><given-names>K</given-names></name>, <name><surname>Altshuler</surname><given-names>D</given-names></name>, <name><surname>Gabriel</surname><given-names>S</given-names></name>, <name><surname>Daly</surname><given-names>M</given-names></name>, <etal/></person-group>
+<year>2010</year>
+<article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>. <source>Genome Res</source><volume>20</volume>: <fpage>1297</fpage>&#x2013;<lpage>1303</lpage>.<pub-id pub-id-type="pmid">20644199</pub-id></mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Moqtaderi</surname><given-names>Z</given-names></name>, <name><surname>Wang</surname><given-names>J</given-names></name>, <name><surname>Raha</surname><given-names>D</given-names></name>, <name><surname>White</surname><given-names>RJ</given-names></name>, <name><surname>Snyder</surname><given-names>M</given-names></name>, <name><surname>Weng</surname><given-names>Z</given-names></name>, <name><surname>Struhl</surname><given-names>K</given-names></name></person-group>
+<year>2010</year>
+<article-title>Genomic binding profiles of functionally distinct RNA polymerase III transcription complexes in human cells</article-title>. <source>Nat Struct Mol Biol</source><volume>17</volume>: <fpage>635</fpage>&#x2013;<lpage>640</lpage>.<pub-id pub-id-type="pmid">20418883</pub-id></mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Najmabadi</surname><given-names>H</given-names></name>, <name><surname>Hu</surname><given-names>H</given-names></name>, <name><surname>Garshasbi</surname><given-names>M</given-names></name>, <name><surname>Zemojtel</surname><given-names>T</given-names></name>, <name><surname>Abedini</surname><given-names>SS</given-names></name>, <name><surname>Chen</surname><given-names>W</given-names></name>, <name><surname>Hosseini</surname><given-names>M</given-names></name>, <name><surname>Behjati</surname><given-names>F</given-names></name>, <name><surname>Haas</surname><given-names>S</given-names></name>, <name><surname>Jamali</surname><given-names>P</given-names></name>, <etal/></person-group>
+<year>2011</year>
+<article-title>Deep sequencing reveals 50 novel genes for recessive cognitive disorders</article-title>. <source>Nature</source><volume>478</volume>: <fpage>57</fpage>&#x2013;<lpage>63</lpage>.<pub-id pub-id-type="pmid">21937992</pub-id></mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nakamura</surname><given-names>K</given-names></name>, <name><surname>Jeong</surname><given-names>SY</given-names></name>, <name><surname>Uchihara</surname><given-names>T</given-names></name>, <name><surname>Anno</surname><given-names>M</given-names></name>, <name><surname>Nagashima</surname><given-names>K</given-names></name>, <name><surname>Nagashima</surname><given-names>T</given-names></name>, <name><surname>Ikeda</surname><given-names>S</given-names></name>, <name><surname>Tsuji</surname><given-names>S</given-names></name>, <name><surname>Kanazawa</surname><given-names>I</given-names></name></person-group>
+<year>2001</year>
+<article-title>SCA17, a novel autosomal dominant cerebellar ataxia caused by an expanded polyglutamine in TATA-binding protein</article-title>. <source>Hum Mol Genet</source><volume>10</volume>: <fpage>1441</fpage>&#x2013;<lpage>1448</lpage>.<pub-id pub-id-type="pmid">11448935</pub-id></mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Namavar</surname><given-names>Y</given-names></name>, <name><surname>Barth</surname><given-names>PG</given-names></name>, <name><surname>Poll-The</surname><given-names>BT</given-names></name>, <name><surname>Baas</surname><given-names>F</given-names></name></person-group>
+<year>2011</year>
+<article-title>Classification, diagnosis and potential mechanisms in pontocerebellar hypoplasia</article-title>. <source>Orphanet J Rare Dis</source><volume>6</volume>: <fpage>50</fpage>.<pub-id pub-id-type="pmid">21749694</pub-id></mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Niederriter</surname><given-names>AR</given-names></name>, <name><surname>Davis</surname><given-names>EE</given-names></name>, <name><surname>Golzio</surname><given-names>C</given-names></name>, <name><surname>Oh</surname><given-names>EC</given-names></name>, <name><surname>Tsai</surname><given-names>IC</given-names></name>, <name><surname>Katsanis</surname><given-names>N</given-names></name></person-group>
+<year>2013</year>
+<article-title>In vivo modeling of the morbid human genome using <italic>Danio rerio</italic></article-title>. <source>J Vis Exp</source><volume>78</volume>: <fpage>e50338</fpage>.<pub-id pub-id-type="pmid">23995499</pub-id></mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Oler</surname><given-names>AJ</given-names></name>, <name><surname>Alla</surname><given-names>RK</given-names></name>, <name><surname>Roberts</surname><given-names>DN</given-names></name>, <name><surname>Wong</surname><given-names>A</given-names></name>, <name><surname>Hollenhorst</surname><given-names>PC</given-names></name>, <name><surname>Chandler</surname><given-names>KJ</given-names></name>, <name><surname>Cassiday</surname><given-names>PA</given-names></name>, <name><surname>Nelson</surname><given-names>CA</given-names></name>, <name><surname>Hagedorn</surname><given-names>CH</given-names></name>, <name><surname>Graves</surname><given-names>BJ</given-names></name>, <etal/></person-group>
+<year>2010</year>
+<article-title>Human RNA polymerase III transcriptomes and relationships to Pol II promoter chromatin and enhancer-binding factors</article-title>. <source>Nat Struct Mol Biol</source><volume>17</volume>: <fpage>620</fpage>&#x2013;<lpage>628</lpage>.<pub-id pub-id-type="pmid">20418882</pub-id></mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pavlowsky</surname><given-names>A</given-names></name>, <name><surname>Chelly</surname><given-names>J</given-names></name>, <name><surname>Billuart</surname><given-names>P</given-names></name></person-group>
+<year>2012</year>
+<article-title>Emerging major synaptic signaling pathways involved in intellectual disability</article-title>. <source>Mol Psychiatry</source><volume>17</volume>: <fpage>682</fpage>&#x2013;<lpage>693</lpage>.<pub-id pub-id-type="pmid">22024764</pub-id></mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rooms</surname><given-names>L</given-names></name>, <name><surname>Reyniers</surname><given-names>E</given-names></name>, <name><surname>Scheers</surname><given-names>S</given-names></name>, <name><surname>van Luijk</surname><given-names>R</given-names></name>, <name><surname>Wauters</surname><given-names>J</given-names></name>, <name><surname>Van Aerschot</surname><given-names>L</given-names></name>, <name><surname>Callaerts-Vegh</surname><given-names>Z</given-names></name>, <name><surname>D&#x2019;Hooge</surname><given-names>R</given-names></name>, <name><surname>Mengus</surname><given-names>G</given-names></name>, <name><surname>Davidson</surname><given-names>I</given-names></name>, <etal/></person-group>
+<year>2006</year>
+<article-title>TBP as a candidate gene for mental retardation in patients with subtelomeric 6q deletions</article-title>. <source>Eur J Hum Genet</source><volume>14</volume>: <fpage>1090</fpage>&#x2013;<lpage>1096</lpage>.<pub-id pub-id-type="pmid">16773126</pub-id></mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rudnik-Sch&#xF6;neborn</surname><given-names>S</given-names></name>, <name><surname>Barth</surname><given-names>PG</given-names></name>, <name><surname>Zerres</surname><given-names>K</given-names></name></person-group>
+<year>2014</year>
+<article-title>Pontocerebellar hypoplasia</article-title>. <source>Am J Med Genet C Semin Med Genet</source><volume>166C</volume>: <fpage>173</fpage>&#x2013;<lpage>183</lpage>.<pub-id pub-id-type="pmid">24924738</pub-id></mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Saitsu</surname><given-names>H</given-names></name>, <name><surname>Osaka</surname><given-names>H</given-names></name>, <name><surname>Sasaki</surname><given-names>M</given-names></name>, <name><surname>Takanashi</surname><given-names>J</given-names></name>, <name><surname>Hamada</surname><given-names>K</given-names></name>, <name><surname>Yamashita</surname><given-names>A</given-names></name>, <name><surname>Shibayama</surname><given-names>H</given-names></name>, <name><surname>Shiina</surname><given-names>M</given-names></name>, <name><surname>Kondo</surname><given-names>Y</given-names></name>, <name><surname>Nishiyama</surname><given-names>K</given-names></name>, <etal/></person-group>
+<year>2011</year>
+<article-title>Mutations in POLR3A and POLR3B encoding RNA Polymerase III subunits cause an autosomal-recessive hypomyelinating leukoencephalopathy</article-title>. <source>Am J Hum Genet</source><volume>89</volume>: <fpage>644</fpage>&#x2013;<lpage>651</lpage>.<pub-id pub-id-type="pmid">22036171</pub-id></mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sarparanta</surname><given-names>J</given-names></name>, <name><surname>Jonson</surname><given-names>PH</given-names></name>, <name><surname>Golzio</surname><given-names>C</given-names></name>, <name><surname>Sandell</surname><given-names>S</given-names></name>, <name><surname>Luque</surname><given-names>H</given-names></name>, <name><surname>Screen</surname><given-names>M</given-names></name>, <name><surname>McDonald</surname><given-names>K</given-names></name>, <name><surname>Stajich</surname><given-names>JM</given-names></name>, <name><surname>Mahjneh</surname><given-names>I</given-names></name>, <name><surname>Vihola</surname><given-names>A</given-names></name>, <etal/></person-group>
+<year>2012</year>
+<article-title>Mutations affecting the cytoplasmic functions of the co-chaperone DNAJB6 cause limb-girdle muscular dystrophy</article-title>. <source>Nat Genet</source><volume>44</volume>: <fpage>450</fpage>&#x2013;<lpage>455</lpage>.<pub-id pub-id-type="pmid">22366786</pub-id></mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schaffer</surname><given-names>AE</given-names></name>, <name><surname>Eggens</surname><given-names>VR</given-names></name>, <name><surname>Caglayan</surname><given-names>AO</given-names></name>, <name><surname>Reuter</surname><given-names>MS</given-names></name>, <name><surname>Scott</surname><given-names>E</given-names></name>, <name><surname>Coufal</surname><given-names>NG</given-names></name>, <name><surname>Silhavy</surname><given-names>JL</given-names></name>, <name><surname>Xue</surname><given-names>Y</given-names></name>, <name><surname>Kayserili</surname><given-names>H</given-names></name>, <name><surname>Yasuno</surname><given-names>K</given-names></name>, <etal/></person-group>
+<year>2014</year>
+<article-title>CLP1 founder mutation links tRNA splicing and maturation to cerebellar development and neurodegeneration</article-title>. <source>Cell</source><volume>157</volume>: <fpage>651</fpage>&#x2013;<lpage>663</lpage>.<pub-id pub-id-type="pmid">24766810</pub-id></mixed-citation>
+      </ref>
+      <ref id="B44">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schramm</surname><given-names>L</given-names></name>, <name><surname>Hernandez</surname><given-names>N</given-names></name></person-group>
+<year>2002</year>
+<article-title>Recruitment of RNA polymerase III to its target promoters</article-title>. <source>Genes Dev</source><volume>16</volume>: <fpage>2593</fpage>&#x2013;<lpage>2620</lpage>.<pub-id pub-id-type="pmid">12381659</pub-id></mixed-citation>
+      </ref>
+      <ref id="B45">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schulte</surname><given-names>EC</given-names></name>, <name><surname>Kousi</surname><given-names>M</given-names></name>, <name><surname>Tan</surname><given-names>PL</given-names></name>, <name><surname>Tilch</surname><given-names>E</given-names></name>, <name><surname>Knauf</surname><given-names>F</given-names></name>, <name><surname>Lichtner</surname><given-names>P</given-names></name>, <name><surname>Trenkwalder</surname><given-names>C</given-names></name>, <name><surname>Hogl</surname><given-names>B</given-names></name>, <name><surname>Frauscher</surname><given-names>B</given-names></name>, <name><surname>Berger</surname><given-names>K</given-names></name>, <etal/></person-group>
+<year>2014</year>
+<article-title>Targeted resequencing and systematic in vivo functional testing identifies rare variants in MEIS1 as significant contributors to restless legs syndrome</article-title>. <source>Am J Hum Genet</source><volume>95</volume>: <fpage>85</fpage>&#x2013;<lpage>95</lpage>.<pub-id pub-id-type="pmid">24995868</pub-id></mixed-citation>
+      </ref>
+      <ref id="B46">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Seizl</surname><given-names>M</given-names></name>, <name><surname>Lariviere</surname><given-names>L</given-names></name>, <name><surname>Pfaffeneder</surname><given-names>T</given-names></name>, <name><surname>Wenzeck</surname><given-names>L</given-names></name>, <name><surname>Cramer</surname><given-names>P</given-names></name></person-group>
+<year>2011</year>
+<article-title>Mediator head subcomplex Med11/22 contains a common helix bundle building block with a specific function in transcription initiation complex stabilization</article-title>. <source>Nucleic Acids Res</source><volume>39</volume>: <fpage>6291</fpage>&#x2013;<lpage>6304</lpage>.<pub-id pub-id-type="pmid">21498544</pub-id></mixed-citation>
+      </ref>
+      <ref id="B47">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sikorski</surname><given-names>RS</given-names></name>, <name><surname>Hieter</surname><given-names>P</given-names></name></person-group>
+<year>1989</year>
+<article-title>A system of shuttle vectors and yeast host strains designed for efficient manipulation of DNA in <italic>Saccharomyces cerevisiae</italic></article-title>. <source>Genetics</source><volume>122</volume>: <fpage>19</fpage>&#x2013;<lpage>27</lpage>.<pub-id pub-id-type="pmid">2659436</pub-id></mixed-citation>
+      </ref>
+      <ref id="B48">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sugathan</surname><given-names>A</given-names></name>, <name><surname>Biagioli</surname><given-names>M</given-names></name>, <name><surname>Golzio</surname><given-names>C</given-names></name>, <name><surname>Erdin</surname><given-names>S</given-names></name>, <name><surname>Blumenthal</surname><given-names>I</given-names></name>, <name><surname>Manavalan</surname><given-names>P</given-names></name>, <name><surname>Ragavendran</surname><given-names>A</given-names></name>, <name><surname>Brand</surname><given-names>H</given-names></name>, <name><surname>Lucente</surname><given-names>D</given-names></name>, <name><surname>Miles</surname><given-names>J</given-names></name>, <etal/></person-group>
+<year>2014</year>
+<article-title>CHD8 regulates neurodevelopmental pathways associated with autism spectrum disorder in neural progenitors</article-title>. <source>Proc Natl Acad Sci</source><volume>111</volume>: <fpage>E4468</fpage>&#x2013;<lpage>E4477</lpage>.<pub-id pub-id-type="pmid">25294932</pub-id></mixed-citation>
+      </ref>
+      <ref id="B49">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sunkin</surname><given-names>SM</given-names></name>, <name><surname>Ng</surname><given-names>L</given-names></name>, <name><surname>Lau</surname><given-names>C</given-names></name>, <name><surname>Dolbeare</surname><given-names>T</given-names></name>, <name><surname>Gilbert</surname><given-names>TL</given-names></name>, <name><surname>Thompson</surname><given-names>CL</given-names></name>, <name><surname>Hawrylycz</surname><given-names>M</given-names></name>, <name><surname>Dang</surname><given-names>C</given-names></name></person-group>
+<year>2013</year>
+<article-title>Allen Brain Atlas: an integrated spatio-temporal portal for exploring the central nervous system</article-title>. <source>Nucleic Acids Res</source><volume>41</volume>: <fpage>D996</fpage>&#x2013;<lpage>D1008</lpage>.<pub-id pub-id-type="pmid">23193282</pub-id></mixed-citation>
+      </ref>
+      <ref id="B50">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tennessen</surname><given-names>JA</given-names></name>, <name><surname>Bigham</surname><given-names>AW</given-names></name>, <name><surname>O&#x2019;Connor</surname><given-names>TD</given-names></name>, <name><surname>Fu</surname><given-names>W</given-names></name>, <name><surname>Kenny</surname><given-names>EE</given-names></name>, <name><surname>Gravel</surname><given-names>S</given-names></name>, <name><surname>McGee</surname><given-names>S</given-names></name>, <name><surname>Do</surname><given-names>R</given-names></name>, <name><surname>Liu</surname><given-names>X</given-names></name>, <name><surname>Jun</surname><given-names>G</given-names></name>, <etal/></person-group>
+<year>2012</year>
+<article-title>Evolution and functional impact of rare coding variation from deep sequencing of human exomes</article-title>. <source>Science</source><volume>337</volume>: <fpage>64</fpage>&#x2013;<lpage>69</lpage>.<pub-id pub-id-type="pmid">22604720</pub-id></mixed-citation>
+      </ref>
+      <ref id="B51">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tetreault</surname><given-names>M</given-names></name>, <name><surname>Choquet</surname><given-names>K</given-names></name>, <name><surname>Orcesi</surname><given-names>S</given-names></name>, <name><surname>Tonduti</surname><given-names>D</given-names></name>, <name><surname>Balottin</surname><given-names>U</given-names></name>, <name><surname>Teichmann</surname><given-names>M</given-names></name>, <name><surname>Fribourg</surname><given-names>S</given-names></name>, <name><surname>Schiffmann</surname><given-names>R</given-names></name>, <name><surname>Brais</surname><given-names>B</given-names></name>, <name><surname>Vanderver</surname><given-names>A</given-names></name>, <etal/></person-group>
+<year>2011</year>
+<article-title>Recessive mutations in POLR3B, encoding the second largest subunit of Pol III, cause a rare hypomyelinating leukodystrophy</article-title>. <source>Am J Hum Genet</source><volume>89</volume>: <fpage>652</fpage>&#x2013;<lpage>655</lpage>.<pub-id pub-id-type="pmid">22036172</pub-id></mixed-citation>
+      </ref>
+      <ref id="B52">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tsai</surname><given-names>FT</given-names></name>, <name><surname>Sigler</surname><given-names>PB</given-names></name></person-group>
+<year>2000</year>
+<article-title>Structural basis of preinitiation complex assembly on human pol II promoters</article-title>. <source>EMBO J</source><volume>19</volume>: <fpage>25</fpage>&#x2013;<lpage>36</lpage>.<pub-id pub-id-type="pmid">10619841</pub-id></mixed-citation>
+      </ref>
+      <ref id="B53">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vannini</surname><given-names>A</given-names></name>, <name><surname>Cramer</surname><given-names>P</given-names></name></person-group>
+<year>2012</year>
+<article-title>Conservation between the RNA polymerase I, II, and III transcription initiation machineries</article-title>. <source>Mol Cell</source><volume>45</volume>: <fpage>439</fpage>&#x2013;<lpage>446</lpage>.<pub-id pub-id-type="pmid">22365827</pub-id></mixed-citation>
+      </ref>
+      <ref id="B54">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>White</surname><given-names>RJ</given-names></name></person-group>
+<year>2011</year>
+<article-title>Transcription by RNA polymerase III: more complex than we thought</article-title>. <source>Nat Rev Genet</source><volume>12</volume>: <fpage>459</fpage>&#x2013;<lpage>463</lpage>.<pub-id pub-id-type="pmid">21540878</pub-id></mixed-citation>
+      </ref>
+      <ref id="B55">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yeo</surname><given-names>G</given-names></name>, <name><surname>Burge</surname><given-names>CB</given-names></name></person-group>
+<year>2004</year>
+<article-title>Maximum entropy modeling of short sequence motifs with applications to RNA splicing signals</article-title>. <source>J Comput Biol</source><volume>11</volume>: <fpage>377</fpage>&#x2013;<lpage>394</lpage>.<pub-id pub-id-type="pmid">15285897</pub-id></mixed-citation>
+      </ref>
+      <ref id="B56">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zoghbi</surname><given-names>HY</given-names></name>, <name><surname>Bear</surname><given-names>MF</given-names></name></person-group>
+<year>2012</year>
+<article-title>Synaptic dysfunction in neurodevelopmental disorders associated with autism and intellectual disabilities</article-title>. <source>Cold Spring Harb Perspect Biol</source><volume>4</volume>. doi: <ext-link ext-link-type="doi" xlink:href="10.1101/cshperspect.a009886">10.1101/cshperspect.a009886</ext-link>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

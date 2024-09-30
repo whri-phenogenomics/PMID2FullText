@@ -1,0 +1,2041 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">100941354</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">21750</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Immunol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat. Immunol.</journal-id>
+      <journal-title-group>
+        <journal-title>Nature immunology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1529-2908</issn>
+      <issn pub-type="epub">1529-2916</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">30127434</article-id>
+      <article-id pub-id-type="pmc">6130844</article-id>
+      <article-id pub-id-type="doi">10.1038/s41590-018-0178-z</article-id>
+      <article-id pub-id-type="manuscript">EMS78488</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Disruption of an anti-mycobacterial circuit between dendritic and Th cells in human SPPL2a deficiency</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kong</surname>
+            <given-names>Xiao-Fei</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="author-notes" rid="FN1">#</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Martinez-Barricarte</surname>
+            <given-names>Ruben</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="author-notes" rid="FN1">#</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kennedy</surname>
+            <given-names>James</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="author-notes" rid="FN1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mele</surname>
+            <given-names>Federico</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="author-notes" rid="FN1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lazarov</surname>
+            <given-names>Tomi</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="author-notes" rid="FN1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Deenick</surname>
+            <given-names>Elissa K</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref ref-type="author-notes" rid="FN1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ma</surname>
+            <given-names>Cindy S</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref ref-type="author-notes" rid="FN1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Breton</surname>
+            <given-names>Ga&#xEB;lle</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+          <xref ref-type="author-notes" rid="FN1">&#xA7;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lucero</surname>
+            <given-names>Kimberly B</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+          <xref ref-type="author-notes" rid="FN1">&#xA7;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Langlais</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="author-notes" rid="FN1">&#xA7;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bousfiha</surname>
+            <given-names>Aziz</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+          <xref ref-type="aff" rid="A10">10</xref>
+          <xref ref-type="author-notes" rid="FN1">##</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aytekin</surname>
+            <given-names>Caner</given-names>
+          </name>
+          <xref ref-type="aff" rid="A11">11</xref>
+          <xref ref-type="author-notes" rid="FN1">##</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Markle</surname>
+            <given-names>Janet</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Trouillet</surname>
+            <given-names>C&#xE9;line</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jabot-Hanin</surname>
+            <given-names>Fabienne</given-names>
+          </name>
+          <xref ref-type="aff" rid="A12">12</xref>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lindestam Arlehamn</surname>
+            <given-names>Cecilia S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A14">14</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rao</surname>
+            <given-names>Geetha</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Picard</surname>
+            <given-names>Capucine</given-names>
+          </name>
+          <xref ref-type="aff" rid="A13">13</xref>
+          <xref ref-type="aff" rid="A15">15</xref>
+          <xref ref-type="aff" rid="A25">25</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lasseau</surname>
+            <given-names>Th&#xE9;o</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Latorre</surname>
+            <given-names>Daniela</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hambleton</surname>
+            <given-names>Sophie</given-names>
+          </name>
+          <xref ref-type="aff" rid="A16">16</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Deswarte</surname>
+            <given-names>Caroline</given-names>
+          </name>
+          <xref ref-type="aff" rid="A12">12</xref>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Itan</surname>
+            <given-names>Yuval</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abarca</surname>
+            <given-names>Katia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A17">17</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Moraes-Vasconcelos</surname>
+            <given-names>Dewton</given-names>
+          </name>
+          <xref ref-type="aff" rid="A18">18</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ailal</surname>
+            <given-names>Fatima</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ikinciogullari</surname>
+            <given-names>Aydan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A19">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dogu</surname>
+            <given-names>Figen</given-names>
+          </name>
+          <xref ref-type="aff" rid="A19">19</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Benhsaien</surname>
+            <given-names>Ibtihal</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sette</surname>
+            <given-names>Alessandro</given-names>
+          </name>
+          <xref ref-type="aff" rid="A14">14</xref>
+          <xref ref-type="aff" rid="A20">20</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abel</surname>
+            <given-names>Laurent</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A12">12</xref>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Boisson-Dupuis</surname>
+            <given-names>St&#xE9;phanie</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A12">12</xref>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schr&#xF6;der</surname>
+            <given-names>Bernd</given-names>
+          </name>
+          <xref ref-type="aff" rid="A21">21</xref>
+          <xref ref-type="aff" rid="A22">22</xref>
+          <xref ref-type="author-notes" rid="FN1">**</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nussenzweig</surname>
+            <given-names>Michel C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+          <xref ref-type="aff" rid="A23">23</xref>
+          <xref ref-type="author-notes" rid="FN1">**</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Kang</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+          <xref ref-type="author-notes" rid="FN1">**</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Geissmann</surname>
+            <given-names>Fr&#xE9;d&#xE9;ric</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="author-notes" rid="FN1">&#xA7;&#xA7;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tangye</surname>
+            <given-names>Stuart G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref ref-type="author-notes" rid="FN1">&#xA7;&#xA7;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gros</surname>
+            <given-names>Philippe</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="author-notes" rid="FN1">&#xA7;&#xA7;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sallusto</surname>
+            <given-names>Federica</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A24">24</xref>
+          <xref ref-type="author-notes" rid="FN1">&#xA7;&#xA7;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bustamante</surname>
+            <given-names>Jacinta</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A12">12</xref>
+          <xref ref-type="aff" rid="A13">13</xref>
+          <xref ref-type="aff" rid="A15">15</xref>
+          <xref ref-type="author-notes" rid="FN1">###</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Casanova</surname>
+            <given-names>Jean-Laurent</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A12">12</xref>
+          <xref ref-type="aff" rid="A13">13</xref>
+          <xref ref-type="aff" rid="A23">23</xref>
+          <xref ref-type="aff" rid="A25">25</xref>
+          <xref ref-type="author-notes" rid="FN1">###</xref>
+          <xref ref-type="corresp" rid="CR1">@</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+<label>1</label>St. Giles Laboratory of Human Genetics of Infectious Diseases, Rockefeller Branch, The Rockefeller University, New York City, NY, USA</aff>
+      <aff id="A2">
+<label>2</label>Department of Biochemistry, McGill University, Montreal, QC, Canada</aff>
+      <aff id="A3">
+<label>3</label>Center of Medical Immunology, Institute for Research in Biomedicine, Faculty of Biomedical Sciences, University of Italian Switzerland, Bellinzona, Switzerland</aff>
+      <aff id="A4">
+<label>4</label>Immunology Program, Memorial Sloan Kettering Cancer Center, New York City, NY, USA</aff>
+      <aff id="A5">
+<label>5</label>Immunology Division, Garvan Institute of Medical Research, Darlinghurst, NSW, Australia</aff>
+      <aff id="A6">
+<label>6</label>St Vincent&#x2019;s Clinical School, Faculty of Medicine, UNSW Australia, Darlinghurst, NSW, Australia</aff>
+      <aff id="A7">
+<label>7</label>Laboratory of Molecular Immunology, The Rockefeller University, New York City, NY, USA</aff>
+      <aff id="A8">
+<label>8</label>Department of Microbiology and Immunology, Columbia University Medical Center, New York City, NY, USA</aff>
+      <aff id="A9">
+<label>9</label>Laboratory of Clinical Immunology, Inflammation and Allergy, Faculty of Medicine and Pharmacy of Casablanca, King Hassan II University, Casablanca, Morocco</aff>
+      <aff id="A10">
+<label>10</label>Clinical Immunology Unit, Department of Pediatric Infectious Diseases, Children's Hospital, CHU Averroes, Casablanca, Morocco</aff>
+      <aff id="A11">
+<label>11</label>Department of Pediatric Immunology, Dr. Sami Ulus Maternity and Children&#x2019;s Health and Diseases Training and Research Hospital, Ankara, Turkey</aff>
+      <aff id="A12">
+<label>12</label>Laboratory of Human Genetics of Infectious Diseases, Necker Branch, INSERM U1163, Necker Hospital for Sick Children, Paris, France</aff>
+      <aff id="A13">
+<label>13</label>Paris Descartes University, Imagine Institute, Paris, France</aff>
+      <aff id="A14">
+<label>14</label>La Jolla Institute for Allergy and Immunology, La Jolla, CA, USA</aff>
+      <aff id="A15">
+<label>15</label>Study Center for Immunodeficiencies, Necker Hospital for Sick Children, AP-HP, Paris, France</aff>
+      <aff id="A16">
+<label>16</label>Primary Immunodeficiency Group, Institute of Cellular Medicine, Newcastle University, Newcastle upon Tyne, UK</aff>
+      <aff id="A17">
+<label>17</label>Department of Pediatric Infectious Diseases and Immunology, Millennium Institute of Immunology and Immunotherapy, School of Medicine, Pontifical Catholic University of Chile, Santiago, Chile</aff>
+      <aff id="A18">
+<label>18</label>Laboratory of Investigation in Dermatology and Immunodeficiencies, University of Sao Paulo Medical School, Brazil</aff>
+      <aff id="A19">
+<label>19</label>Department of Pediatric Immunology and Allergy, Ankara University School of Medicine, Ankara, Turkey</aff>
+      <aff id="A20">
+<label>20</label>University of California San Diego, Department of Medicine, La Jolla, CA</aff>
+      <aff id="A21">
+<label>21</label>Biochemical Institute, Christian Albrechts University of Kiel, Kiel, Germany</aff>
+      <aff id="A22">
+<label>22</label>Institute of Physiological Chemistry, Technical University Dresden, Dresden, Germany</aff>
+      <aff id="A23">
+<label>23</label>Howard Hughes Medical Institute, New York, USA</aff>
+      <aff id="A24">
+<label>24</label>Institute of Microbiology, ETH Zurich, Switzerland</aff>
+      <aff id="A25">
+<label>25</label>Pediatric Hematology and Immunology Unit, Necker Hospital for Sick Children, AP-HP, Paris, France</aff>
+      <author-notes>
+        <corresp id="CR1"><label>@</label>Correspondence and requests for materials should be addressed to JLC (<email>jean-laurent.casanova@rockefeller.edu</email>; <email>casanova@rockefeller.edu</email>).</corresp>
+        <fn id="FN1" fn-type="equal">
+          <label>#,*,&#xA7;,##,**,&#xA7;&#xA7;,###</label>
+          <p id="P1">equal contributions</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>12</day>
+        <month>7</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>20</day>
+        <month>8</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>9</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>20</day>
+        <month>2</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>19</volume>
+      <issue>9</issue>
+      <fpage>973</fpage>
+      <lpage>985</lpage>
+      <!--elocation-id from pubmed: 10.1038/s41590-018-0178-z-->
+      <permissions>
+        <license>
+          <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<ext-link ext-link-type="uri" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</ext-link></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P2">Human inborn errors of IFN-&#x3B3; immunity underlie mycobacterial diseases. We describe patients with BCG disease who are homozygous for loss-of-function mutations of <italic>SPPL2A</italic>. This gene encodes a transmembrane protease that degrades the N-terminal fragment (NTF) of CD74 (HLA invariant chain) in antigen-presenting cells. CD74 NTF therefore accumulates in the HLA class II<sup>+</sup> myeloid and lymphoid cells of SPPL2a-deficient patients. This toxic fragment selectively depletes IL-12- and IL-23-producing CD1c<sup>+</sup> conventional dendritic cells (cDC2s), and their circulating progenitors. Moreover, SPPL2a-deficient memory T<sub>H</sub>1* cells selectively fail to produce IFN-&#x3B3; when stimulated with mycobacterial antigens in vitro. Finally, <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice lack cDC2s, have CD4<sup>+</sup> T cells that produce small amounts of IFN-&#x3B3; upon BCG infection, and are highly susceptible to infection with BCG or <italic>Mycobacterium tuberculosis</italic>. These findings suggest that inherited SPPL2a deficiency in humans underlies mycobacterial disease by decreasing the numbers of cDC2s and impairing IFN-&#x3B3; production by mycobacterium-specific memory T<sub>H</sub>1* cells.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p id="P3">Mendelian susceptibility to mycobacterial disease (MSMD, OMIM# 209950) is characterized by severe clinical disease caused by weakly virulent mycobacteria, such as BCG vaccines and environmental mycobacteria, in otherwise healthy individuals, typically without overt immunological anomalies and with normal resistance to most other infectious agents<xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref>. These patients are, nevertheless, vulnerable to infections caused by other intramacrophagic pathogens, such as <italic>Salmonella spp.</italic><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R3" ref-type="bibr">3</xref> and <italic>M. tuberculosis</italic><xref rid="R4" ref-type="bibr">4</xref> in particular. MSMD can be caused by germline mutations of genes involved primarily in the production of IFN-&#x3B3; (<italic>IL12B</italic>, <italic>IL12RB1</italic>, <italic>NEMO, ISG15, IRF8, TYK2)</italic><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R6" ref-type="bibr">6</xref> or the response to IFN-&#x3B3; (<italic>IFNGR1</italic>, <italic>IFNGR2</italic>, <italic>STAT1</italic>, <italic>CYBB)</italic><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R7" ref-type="bibr">7</xref>. Allelic heterogeneity at four of these 10 loci (<italic>IFNGR1, IFNGR2, STAT1, IL12RB1</italic>) has led to the description of 19 different genetic etiologies of MSMD<xref rid="R1" ref-type="bibr">1</xref>. Moreover, at five loci (<italic>STAT1, CYBB, NEMO, TYK2, IRF8</italic>), MSMD is allelic to other clinical conditions associated with a broader range of infections<xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R8" ref-type="bibr">8</xref>. The discovery that MSMD results from inborn errors of IFN-&#x3B3; immunity revealed the critical dependence of human anti-mycobacterial immunity on IFN-&#x3B3;. It also confirmed that IFN-&#x3B3; acts more as a macrophage-activating factor than as a classical interferon<xref rid="R9" ref-type="bibr">9</xref>. Moreover, the identification of MSMD patients with IL-12p40 or IL-12R&#x3B2;1 deficiency revealed a critical dependence on IL-12, IL-23, or both, for the production of sufficient levels of anti-mycobacterial IFN-&#x3B3;<xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R10" ref-type="bibr">10</xref>. However, the genetic basis of this disease has remained elusive in almost half the MSMD patients studied in our laboratory. The cellular basis of MSMD also remains unknown. In particular, it remains unclear which human myeloid and lymphoid cells orchestrate the production of IFN-&#x3B3; for protective immunity to mycobacteria. In this context, we studied three patients with MSMD of unknown genetic etiology.</p>
+    <sec sec-type="results" id="S1">
+      <title>Results</title>
+      <sec id="S2">
+        <title>Three MSMD patients with homozygous splice mutations of <italic>SPPL2A</italic></title>
+        <p id="P4">We investigated three patients from two unrelated consanguineous families: a family from Morocco including two affected eight-year-old monozygotic twin sisters (P1 and P2, Kindred A, <xref ref-type="fig" rid="F1">Fig. 1a</xref>)<xref rid="R11" ref-type="bibr">11</xref> and a family from Turkey including an affected 11-year-old boy (P3, Kindred B, <xref ref-type="fig" rid="F1">Fig. 1a</xref>). All three children suffered from BCG disease (see <xref ref-type="sec" rid="S14">Methods</xref> for clinical details). By combining whole-exome sequencing (WES) of P1 and P3 and genome-wide linkage (GWL) for both families, we identified a homozygous essential splice-site mutation in <italic>SPPL2A</italic> (encoding signal peptide peptidase-like 2A, SPPL2a) in each family (<xref ref-type="supplementary-material" rid="SD2">Fig. S1a, b</xref>, <xref ref-type="supplementary-material" rid="SD3">Table S1</xref>). There were no other relevant rare, non-synonymous or splice variants of protein-coding genes within the regions linked to MSMD (<xref ref-type="supplementary-material" rid="SD3">Table S1</xref>). Sanger sequencing confirmed that both P1 and P2 carried a homozygous c.733+1G&gt;A mutation of the splice donor site of <italic>SPPL2A</italic> intron 6, whereas P3 carried a homozygous c.1328-1G&gt;A mutation of the splice acceptor site of <italic>SPPL2A</italic> intron 13 (<xref ref-type="fig" rid="F1">Fig. 1b</xref>, <xref ref-type="supplementary-material" rid="SD2">Fig. S1b</xref>). The familial segregation of these mutations was consistent with an autosomal recessive (AR) trait (<xref ref-type="fig" rid="F1">Fig. 1a</xref>). These mutations were not found in the gnomAD database (<ext-link ext-link-type="uri" xlink:href="http://gnomad.broadinstitute.org/">http://gnomad.broadinstitute.org</ext-link>) or our in-house database. The combined annotation dependent deletion (CADD) scores of 27.3 (c.733+1G&gt;A) and 26.4 (c.1328-1G&gt;A) obtained for these two alleles are well above the mutation significance cut-off (MSC)<xref rid="R12" ref-type="bibr">12</xref> of 2.31 (<xref ref-type="fig" rid="F1">Fig. 1c</xref>, <xref ref-type="supplementary-material" rid="SD2">S1c</xref>). Both family and population genetic studies, thus, strongly suggested that these three patients from two unrelated kindreds had autosomal recessive (AR) SPPL2a deficiency.</p>
+      </sec>
+      <sec id="S3">
+        <title>Both <italic>SPPL2A</italic> mutations disrupt splicing of the full-length mRNA</title>
+        <p id="P5">We assessed the functional consequences of these two variants for the splicing of <italic>SPPL2A</italic> mRNAs, by performing RT-PCR on mRNA from Epstein-Barr virus-transformed B (EBV-B) cells of P1, Simian virus 40-transformed fibroblasts (SV40-Fibroblast) from P2, peripheral blood mononuclear cells (PBMCs) of P3, and appropriate healthy controls both WT and heterozygous for the corresponding mutation. We amplified a segment spanning exons 4 to 7 for kindred A and exons 13 to 15 for kindred B. The cells from all patients yielded PCR products of lower molecular weight (MW) than those obtained for healthy controls, whereas those of heterozygous carriers yielded both products (<xref ref-type="fig" rid="F1">Fig. 1d</xref>). Sanger sequencing of these PCR products showed that the c.733+1G&gt;A (P1 and P2) mutation was associated with the complete skipping of exon 6 in the encoded mRNA, whereas the c.1328-1G&gt;A (P3) mutation was associated with the complete skipping of exon 14 (<xref ref-type="fig" rid="F1">Fig. 1b</xref>). Quantitative PCR showed that cells from the patients expressed about 25-40% the amount of <italic>SPPL2A</italic> mRNA found in healthy controls (<xref ref-type="supplementary-material" rid="SD2">Fig. S1d, e</xref>). This finding is consistent with nonsense-mediated mRNA decay due to a premature stop codon (<xref ref-type="fig" rid="F1">Fig. 1e</xref>). We then transfected HEK293T cells with plasmids encoding a C-terminally V5-tagged WT protein or mutant <italic>SPPL2A</italic> cDNAs lacking exons 6 or 14 (&#x394;ex6 or &#x394;ex14, respectively). Immunoblotting with an antibody (Ab) against amino acids 196-210 (a region preserved partially in &#x394;ex6 and completely in &#x394;ex14 SPPL2a proteins) revealed a protein product with an apparent MW between 76 and 102 kDa for the WT construct (<xref ref-type="fig" rid="F1">Fig. 1f</xref>). We detected no &#x394;ex6 SPPL2a protein and a protein of approximately 52 kDa for &#x394;ex14 SPPL2a, consistent with the predicted MW of the truncated protein (50 kDa) (<xref ref-type="fig" rid="F1">Fig. 1F</xref>). Immunoblotting with an Ab against the C-terminal V5 tag showed both mutant proteins to be absent. These results indicate that both <italic>SPPL2A</italic> mutations disrupt mRNA splicing and lead to a loss of SPPL2a protein production (for the c.733+1G&gt;A mutation causing &#x394;ex6) or to the production of a truncated protein (the c.1328-1G&gt;A mutation causing &#x394;ex14) in an overexpression system. These findings strongly suggested that the patients had AR complete SPPL2a deficiency.</p>
+      </sec>
+      <sec id="S4">
+        <title>Accumulation of the N-terminal fragment of CD74 in SPPL2a-deficient cell lines</title>
+        <p id="P6">SPPL2a is an intramembrane protease of the GxGD protease family<xref rid="R13" ref-type="bibr">13</xref>. Six proteins, TNF, CD74, FasL, TMEM106B, NRG1, and Bri2, have been identified as possible substrates of this enzyme<xref rid="R14" ref-type="bibr">14</xref>&#x2013;<xref rid="R22" ref-type="bibr">22</xref>. A human gene connectome (HGC) analysis of the genes encoding these proteins, taking <italic>IFNG</italic> as the core gene, identified TNF, CD74, and FASL as the only putative substrates significantly related to IFN-&#x3B3; (<ext-link ext-link-type="uri" xlink:href="http://hgc.rockefeller.edu/">http://hgc.rockefeller.edu</ext-link>)<xref rid="R23" ref-type="bibr">23</xref>. Germline mutations of the human <italic>FAS</italic> and <italic>FASL</italic> genes underlie autoimmunity without mycobacterial disease<xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R25" ref-type="bibr">25</xref>. We assessed the impact of SPPL2a deficiency on TNF, a key cytokine for protective immunity against mycobacteria in humans<xref rid="R26" ref-type="bibr">26</xref> (<xref ref-type="supplementary-material" rid="SD2">Fig. S1f</xref>). The mutations of our patients resulted in the intracellular expression of TNF by a lower percentage of memory CD4<sup>+</sup> T cells, but this had no effect on overall TNF secretion <italic>per se</italic> (<xref ref-type="supplementary-material" rid="SD2">Fig. S1g, h</xref>). Normal amounts of secreted TNF are consistent with both SPPL2a cleaving the TNF NTF after its soluble segment has been released and the redundant function of SPPL2a and SPPL2b in that cleavage<xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R16" ref-type="bibr">16</xref>. We then considered CD74, the only substrate of SPPL2a to have been confirmed in conditions of constitutive expression<xref rid="R19" ref-type="bibr">19</xref>&#x2013;<xref rid="R21" ref-type="bibr">21</xref>,<xref rid="R27" ref-type="bibr">27</xref>,<xref rid="R28" ref-type="bibr">28</xref>. CD74 is expressed by HLA class II<sup>+</sup> antigen-presenting cells (APC)<xref rid="R21" ref-type="bibr">21</xref>. In the endoplasmic reticulum (ER), CD74 forms a heterotrimer with HLA class II &#x3B1; and &#x3B2; chains via the class II invariant chain peptide (CLIP) region. CD74 is transported to the endosomal compartments, where it is processed by four successive proteolytic cleavages, leaving the CLIP fragment associated with the HLA class II molecule and a standalone membrane-bound NTF. In the final step of CD74 processing, SPPL2a mediates the intramembrane cleavage of the NTF (<xref ref-type="fig" rid="F2">Fig. 2a</xref>)<xref rid="R19" ref-type="bibr">19</xref>&#x2013;<xref rid="R21" ref-type="bibr">21</xref>. We evaluated the functional consequences of SPPL2a deficiency in patients, by assessing CD74 NTF accumulation in various cell types ex vivo and in cell lines in vitro<italic>,</italic> with a Ab recognizing the amino acids 12-28 in the N-terminal of human CD74. We found that CD74 NTF levels were much higher in EBV-B cells from P1, IFN-&#x3B3; stimulated SV40-Fibroblasts from P2, and PBMCs from P3, than in the corresponding cells from healthy donors and <italic>SPPL2A</italic>-heterozygous relatives (<xref ref-type="fig" rid="F2">Fig. 2b, c</xref>). We used a retroviral system to introduce the WT <italic>SPPL2A</italic> allele into EBV-B cells from P1; this rescued the phenotype of CD74 NTF accumulation (<xref ref-type="fig" rid="F2">Fig. 2c</xref>). We also tested all eight <italic>SPPL2A</italic> variants found in the homozygous state in public databases and found that all of these variants rescued CD74 NTF accumulation (<xref ref-type="fig" rid="F1">Fig. 1c, e</xref>, <xref ref-type="fig" rid="F2">2d</xref>). Moreover, the addition of the inhibitors of SPPL2a function L-685,458 and (Z-LL)<sub>2</sub>-ketone, led to the accumulation of CD74 NTF in EBV-B cells from healthy individuals, albeit to a lower extent than in SPPL2a-deficient EBV-B cells (<xref ref-type="fig" rid="F2">Fig. 2e</xref>). No CD74 NTF accumulation was observed with another inhibitor (DAPT) with no inhibitory effects on SPPL2a (<xref ref-type="fig" rid="F2">Fig. 2e</xref>). As previously reported, inhibitors of cathepsin (E64d) stabilized larger intermediates of CD74 degradation (<xref ref-type="fig" rid="F2">Fig. 2e</xref>)<xref rid="R29" ref-type="bibr">29</xref>. These results confirmed the complete functional deficiency of SPPL2a, in terms of CD74 NTF cleavage, in the three patients. They also demonstrated that the frequency of SPPL2a deficiency in the general population is well below that of MSMD (about 10<sup>&#x2013;5</sup>). Collectively, these findings showed that the two <italic>SPPL2A</italic> mutations underlie AR SPPL2a deficiency in these two kindreds.</p>
+      </sec>
+      <sec id="S5">
+        <title>Accumulation of CD74 NTF in SPPL2a-deficient leukocytes</title>
+        <p id="P7">We further analyzed the cell type-specific impact of SPPL2a-dependent CD74 NTF accumulation. We first determined by flow cytometry the intracellular CD74 levels in primary monocytes, B, and T cells. We observed that intracellular CD74 staining was stronger in monocytes and B cells from SPPL2a-deficient patients than in those of healthy controls and heterozygous relatives, whereas no such difference was observed for T cells (<xref ref-type="fig" rid="F2">Fig. 2f</xref>, <xref ref-type="supplementary-material" rid="SD2">S2a,b</xref>). This stronger staining presumably reflects the accumulation of NTF observed on immunoblots of EBV-B cells, PBMCs, and SV40-Fibroblasts (<xref ref-type="fig" rid="F2">Fig. 2c</xref>). We then measure cell surface CD74 expression on these same leukocyte subsets, with an Ab against the extracellular domain of CD74. CD74 expression on the surface of monocytes, B cells, and T cells did not differ significantly between SPPL2a-deficient patients and healthy controls (<xref ref-type="fig" rid="F2">Fig. 2g</xref>, <xref ref-type="supplementary-material" rid="SD2">S2a,c</xref>). We then identified the leukocyte subsets with the highest amounts of CD74 NTF accumulation, by treating PBMCs from healthy controls with L-685,458, an inhibitor of SPPL2a. The CD1c<sup>+</sup> subset of circulating conventional dendritic cells (cDC2s) accumulated the highest amount of CD74 NTF (<xref ref-type="fig" rid="F2">Fig. 2h</xref>, <xref ref-type="supplementary-material" rid="SD2">S2d</xref>). Circulating CD141<sup>+</sup>Clec9a<sup>+</sup> conventional DCs (cDC1s), CD303<sup>+</sup> plasmacytoid DCs (pDCs), and B cells had intermediate levels of CD74 NTF accumulation following drug treatment, whereas no accumulation was detectable in monocytes, NK and T cells (<xref ref-type="fig" rid="F2">Fig. 2h</xref>, <xref ref-type="supplementary-material" rid="SD2">S2d</xref>). Thus, in the context of abolished SPPL2a function, CD74 NTF accumulates in various types of human HLA class II<sup>+</sup> APCs, the highest amounts being reached in cDC2s. Moreover, MSMD patients with autosomal dominant (AD) IRF8 deficiency have no cDC2s<xref rid="R30" ref-type="bibr">30</xref>.</p>
+      </sec>
+      <sec id="S6">
+        <title>Human SPPL2a deficiency does not affect B cell immunity</title>
+        <p id="P8">Mice with SPPL2a deficiency have very low B cell counts<italic>,</italic> low serum IgG<sub>1</sub>, IgG<sub>2a</sub>, IgG<sub>2b</sub>, IgG<sub>3</sub>, IgA and IgM levels, and impaired Ab responses to various antigens<xref rid="R19" ref-type="bibr">19</xref>&#x2013;<xref rid="R21" ref-type="bibr">21</xref>. SPPL2a-deficient mice are probably susceptible to pyogenic bacteria<xref rid="R31" ref-type="bibr">31</xref>. None of the three patients described here had a B cell deficiency other than slightly lower total IgG levels and, in P1 and P2, slightly higher IgM levels than age-matched controls (<xref ref-type="supplementary-material" rid="SD3">Tables S2 and S3</xref>). P3 had normal specific Ab titers against vaccine antigens and mounted specific Ab responses following infection with viruses (<xref ref-type="supplementary-material" rid="SD3">Table S2</xref>). Following inoculation of conjugated pneumococcal vaccines, the three patients mounted normal Ab responses against some, but not all, serotypes of pneumococcal glycans (<xref ref-type="supplementary-material" rid="SD3">Table S2</xref>). In addition, they had normal proportions of peripheral CD19<sup>+</sup> B cells, including transitional, naive, and memory B cells, whereas <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice displayed a severe B cell deficiency after transitional stage 1 (<xref ref-type="supplementary-material" rid="SD2">Fig. S3a,b</xref> and <xref ref-type="supplementary-material" rid="SD3">Tables S2, S3 and S4</xref>). The expression of CD21, IgM, and IgD was normal in the patients&#x2019; SPPL2a-deficient B cells (data not shown). The percentage of IgG<sup>+</sup> memory B cells was slightly lower in SPPL2a-deficient patients than in age-matched healthy individuals, but the percentage of IgA<sup>+</sup> memory B cells was normal (<xref ref-type="supplementary-material" rid="SD2">Fig. S3c</xref>). We sorted naive and memory B cells from SPPL2a-deficient patients, heterozygous relatives and healthy controls, and stimulated them with CD40L, together with IL-21. Unlike in <italic>Sppl2a<sup>&#x2013;/&#x2013;</sup></italic> mice<xref rid="R19" ref-type="bibr">19</xref>&#x2013;<xref rid="R21" ref-type="bibr">21</xref>, the secretion of IgM, IgG, and IgA by B cells from patients was similar to that for healthy controls (<xref ref-type="supplementary-material" rid="SD2">Fig. S3d</xref>). Moreover, unlike B cells from <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice<xref rid="R19" ref-type="bibr">19</xref>&#x2013;<xref rid="R21" ref-type="bibr">21</xref>, the SPPL2a-deficient B cells of the patients had normal surface HLA-DR and BAFF-R expression (<xref ref-type="supplementary-material" rid="SD2">Fig. S3e</xref>). Finally, the patients displayed none of the pyogenic infections typical of human B cell deficiencies<xref rid="R32" ref-type="bibr">32</xref>, providing further evidence of their adequate B cell development, differentiation, and function despite CD74 NTF accumulation. Thus, SPPL2a deficiency in humans seems to differ from the corresponding mouse model in its minimal impact on B cells and humoral immunity in the three children studied.</p>
+      </sec>
+      <sec id="S7">
+        <title>Human SPPL2a deficiency affects type 2 conventional dendritic cells</title>
+        <p id="P9"><italic>Sppl2a<sup>&#x2013;/&#x2013;</sup></italic> mice have a profound deficit of CD11c<sup>+</sup>CD11b<sup>+</sup> cDCs<xref rid="R19" ref-type="bibr">19</xref>&#x2013;<xref rid="R21" ref-type="bibr">21</xref>, which are the equivalent of human CD1c<sup>+</sup> cDC2s<xref rid="R33" ref-type="bibr">33</xref>. This lack of CD11c<sup>+</sup>CD11b<sup>+</sup> conventional DCs is CD74-dependent, as CD74 deficiency restores these cells in <italic>Sppl2a<sup>&#x2013;/&#x2013;</sup></italic> mice<xref rid="R19" ref-type="bibr">19</xref>. Three main subsets of DCs are present in human blood: cDC2s, cDC1s, and pDCs<xref rid="R34" ref-type="bibr">34</xref>. We analyzed these three circulating DC subsets in controls and SPPL2a-deficient patients. All patients had a significantly lower frequency of CD1c<sup>+</sup>CD11c<sup>hi</sup> HLA-DR<sup>hi</sup> cDC2s than controls, marginally lower frequencies of CD141<sup>+</sup>Clec9a<sup>+</sup> cDC1s, but normal frequencies of pDCs (<xref ref-type="fig" rid="F3">Fig. 3a-I</xref>, <xref ref-type="supplementary-material" rid="SD2">S4a,b</xref>). Total cDC (CD11c<sup>+</sup>) frequencies were also lower in the patients than in controls (<xref ref-type="fig" rid="F3">Fig. 3j</xref>). These results suggest that humans with AR SPPL2a deficiency have a selective loss of cDC2s. The remaining CD1c<sup>+</sup> cells in the patients also displayed elevated HLA-DR expression at the cell surface than controls (<xref ref-type="supplementary-material" rid="SD2">Fig. S4c,d</xref>), as previously shown in <italic>Sppla2</italic><sup>&#x2013;/&#x2013;</sup> mice<xref rid="R20" ref-type="bibr">20</xref>. CD74 NTF-mediated toxicity probably triggers an unfolded protein response (UPR), thereby inducing endoplasmic reticulum (ER)-stress sensor XBP1 expression, which is an inducer of MHC II expression<xref rid="R35" ref-type="bibr">35</xref>. Strikingly, the selective cDC2-deficiency phenotype of these patients resembles that previously observed in the two MSMD patients with AD partial IRF8 deficiency (<xref ref-type="fig" rid="F3">Fig. 3a-c</xref>)<xref rid="R30" ref-type="bibr">30</xref>. However, an analysis of cDC1s within the CD11c<sup>+</sup> gate, using CD141 and Clec9a Abs, showed that the DC defect of these patients was not restricted to cDC2s. Instead of the two populations seen in healthy controls, the patients had just one Clec9a<sup>&#x2013;</sup> population with abnormally high CD141 expression (<xref ref-type="fig" rid="F3">Fig. 3d</xref>, <xref ref-type="supplementary-material" rid="SD2">S4a</xref>). The lower frequency of CD1c<sup>hi</sup> cDC2s observed in both AR SPPL2a-deficient and AD IRF8-deficient patients was not due to low CD1c expression, as the CD1c<sup>&#x2013;</sup> DC population of both healthy controls and SPPL2a or IRF8-deficient patients contained no HLA-DR<sup>hi</sup>CD11c<sup>hi</sup> cells, these two markers being characteristics of cDC2s (<xref ref-type="supplementary-material" rid="SD2">Fig. S4e</xref>). In addition, by contrast to the very high plasma concentrations of Flt3 ligand found in patients with AD GATA2 deficiency and AR IRF8 complete deficiency, who lack multiple types of circulating DC<xref rid="R30" ref-type="bibr">30</xref>,<xref rid="R36" ref-type="bibr">36</xref>, patients with AD IRF8 and AR SPPL2a deficiency have normal circulating Flt3 ligand (<xref ref-type="supplementary-material" rid="SD2">Fig. S4f</xref>). As cDC2s are potent producers of IL-12 and IL-23<xref rid="R37" ref-type="bibr">37</xref>, we tested the capacity of these patients to produce IL-12p40, a subunit common to these two cytokines<xref rid="R38" ref-type="bibr">38</xref>. We stimulated whole blood from healthy controls and SPPL2a-deficient patients with BCG, IFN-&#x3B3;, or both, and measured IL-12p40 production. We observed no defect of IL-12p40 production in patients with AR SPPL2a deficiency, suggesting that the low frequency of cDC2s in these patients does not cause an overt IL-12 and IL-23 defect in the stimulation conditions used<xref rid="R30" ref-type="bibr">30</xref> (<xref ref-type="supplementary-material" rid="SD2">Fig. S4g</xref>). Collectively, these data indicated that patients with AR SPPL2a deficiency had a defect of the cDC2 compartment that did not prevent their whole blood from producing IL-12p40 in response to BCG and IFN-&#x3B3;.</p>
+      </sec>
+      <sec id="S8">
+        <title>The role of SPPL2a in DC development</title>
+        <p id="P10">We analyzed DC development in the setting of SPPL2a deficiency, by assessing the frequencies of CD34<sup>+</sup> progenitors and HLA-DR<sup>+</sup> precursors among the patients&#x2019; PBMCs. We found normal frequencies of total CD34<sup>+</sup>Lin<sup>&#x2013;</sup> progenitors (<xref ref-type="supplementary-material" rid="SD2">Fig. S5a</xref>), including hematopoietic stem cells/multipotent progenitors (HSC/MPPs), megakaryocyte-erythroid progenitors (MEPs), granulocyte/monocyte progenitors (GMPs), lymphoid-primed multipotent progenitors (LMPPs), multi-lymphoid progenitors (MLPs), and B cell-NK progenitors (BNKPs), and slightly lower frequencies of common myeloid progenitors (CMPs) in the patients than in healthy controls (<xref ref-type="fig" rid="F4">Fig. 4a</xref>, <xref ref-type="supplementary-material" rid="SD2">S5a,b</xref>). However, the patients had significantly lower frequencies of CD34<sup>+</sup>HLA-DR<sup>+</sup> cells (<xref ref-type="fig" rid="F4">Fig. 4b</xref>, <xref ref-type="supplementary-material" rid="SD2">S5d,e</xref>). Furthermore, among the Lin(CD3, CD19, CD56, CD14, CD16)<sup>&#x2013;</sup>HLA-DR<sup>+</sup> cells, a population including early DC precursors<xref rid="R39" ref-type="bibr">39</xref>,<xref rid="R40" ref-type="bibr">40</xref>, CD34<sup>&#x2013;</sup>CD1c<sup>&#x2013;</sup>Clec9a<sup>&#x2013;</sup>CD123<sup>+</sup>CD303<sup>+</sup>CD141<sup>+</sup>CD45RA<sup>+/int</sup> early pre-DCs<xref rid="R39" ref-type="bibr">39</xref> were significantly less frequent in SPPL2a-deficient patients than in healthy controls (<xref ref-type="fig" rid="F4">Fig. 4c</xref>, <xref ref-type="supplementary-material" rid="SD2">S5f</xref>). This suggests that SPPL2a deficiency impedes DC development at the pre-DC stage, when HLA-DR expression is initiated. We then purified CD34<sup>+</sup> cells from healthy donor cord blood and generated DCs in vitro with GM-CSF, SCF, and Flt3 ligand<xref rid="R41" ref-type="bibr">41</xref>, with or without the SPPL2a inhibitor L-685,458. SPPL2a inhibition had no effect on the numbers, proportions, or viability of cDC1s, cDC2s<sub>,</sub> or pDCs on day 6 of differentiation (<xref ref-type="fig" rid="F4">Fig. 4d,e</xref>). However, the increase in intracellular CD74 relative to untreated cells was larger in cDC2s than in the other subsets analyzed, demonstrating that NTF accumulation was due to the inhibition of SPPL2a (<xref ref-type="fig" rid="F4">Fig. 4f,g</xref>). These data suggested that residual SPPL2a activity in the presence of the inhibitor might be sufficient for the development of cDC2s in vitro, but not in patients with the corresponding null genetic defect in vivo<italic>.</italic> Our data indicated that the chemical inhibition of SPPL2a in peripheral leukocytes from healthy donors ex vivo (<xref ref-type="fig" rid="F2">Fig. 2e</xref>) and during DC differentiation from peripheral stem cells in vitro resulted in the preferential accumulation of CD74 NTF in cDC2. Moreover, the frequency of DC progenitors was low in SPPL2a-deficient patients from the first stages of HLA-II expression, consistent with the role of CD74 in correct HLA-II complex assembly. These findings strongly suggested that the mechanism underlying the paucity of cDC2 cells in SPPL2a-deficient patients involved CD74 NTF toxicity, as proven in the mouse model<xref rid="R19" ref-type="bibr">19</xref>,<xref rid="R20" ref-type="bibr">20</xref>.</p>
+      </sec>
+      <sec id="S9">
+        <title>Normal development of CD4<sup>+</sup> T helper cells</title>
+        <p id="P11">SPPL2a is expressed strongly in APCs, but only weakly in T cells (<xref ref-type="fig" rid="F5">Fig. 5a</xref>, <xref ref-type="supplementary-material" rid="SD2">S2d</xref>), suggesting that an intrinsic T cell defect is unlikely in SPPL2a-deficient patients. However, given the very low frequency of circulating cDC2s, we hypothesized that the cytokine production capacity of SPPL2a-deficient CD4<sup>+</sup> T helper cells might be impaired due to a defect of the differentiation of naive cells into memory cells in vivo. The three patients had normal counts and proportions of the various circulating T cells subsets: total CD3<sup>+</sup>, naive and memory CD4<sup>+</sup>, regulatory T cells, T follicular helper cells and CD8<sup>+</sup> naive, central, and effector memory T cells as well as &#x3B3;&#x3B4; T cells and MAIT cells (<xref ref-type="supplementary-material" rid="SD3">Table S3</xref>). Moreover, the distribution of the different subsets of memory T<sub>H</sub> cells (T<sub>H</sub>1, T<sub>H</sub>2, T<sub>H</sub>17, and T<sub>H</sub>1*), as determined by surface phenotype (CCR6, CCR4 and CXCR3), was normal (<xref ref-type="fig" rid="F5">Fig. 5b,c</xref>). Naive and memory CD4<sup>+</sup> T cells from healthy individuals and AR SPPL2a-deficient patients were isolated and cultured with T cell activation and expansion (TAE) beads, and cytokine production was measured after five days<xref rid="R42" ref-type="bibr">42</xref>. No differences were observed in the production of IFN-&#x3B3;, IL-4, or IL-17F between memory CD4<sup>+</sup> T cells from SPPL2a-deficient individuals and those from healthy donors (<xref ref-type="fig" rid="F5">Fig. 5d</xref>). T<sub>H</sub>1 differentiation is IL-12-dependent, whereas T<sub>H</sub>17 differentiation is IL-23-dependent<xref rid="R43" ref-type="bibr">43</xref>. We then assessed intrinsic defects of CD4<sup>+</sup> T cell differentiation due to SPPL2a deficiency, by culturing naive CD4<sup>+</sup> T cells in the presence of TAE beads alone (T<sub>H</sub>0) or under T<sub>H</sub>1, T<sub>H</sub>2, or T<sub>H</sub>17 polarizing conditions. No impairment in the polarization capacity was observed by measuring the increase in IFN-&#x3B3;, IL-10, or IL-17F production between naive and polarized T<sub>H</sub> cells, suggesting that T<sub>H</sub>-cell function is not globally impaired in patients with AR SPPL2a deficiency (<xref ref-type="fig" rid="F5">Fig. 5e</xref>). Given the similarities between AR SPPL2a and AD IRF8 deficiencies, we analyzed CD4<sup>+</sup> T cell function in a patient with AD IRF8 deficiency in a similar manner. No impairment of IFN-&#x3B3;, IL-13, and IL-17A production relative to healthy controls was observed for the patient&#x2019;s CD4<sup>+</sup> T cells, suggesting that their polarization capacities were also intact (<xref ref-type="fig" rid="F5">Fig. 5f</xref>). However, when memory CD4<sup>+</sup> T cells from this patient were isolated and cultured with TAE beads for five days, the levels of T<sub>H</sub>1 cytokines (IFN-&#x3B3; and TNF), T<sub>H</sub>2 cytokines (IL-4, IL-5 and IL-13) and T<sub>H</sub>17 cytokines (IL-17A, IL-17F and IL-22) were lower than those for healthy control cells, suggesting that AD IRF8 deficiency impairs the maintenance of the CD4<sup>+</sup> T cell-mediated memory response or that these cells undergo limited differentiation in vivo (<xref ref-type="fig" rid="F5">Fig. 5g</xref>). In conclusion, SPPL2a deficiency does not seem to result in any major CD4<sup>+</sup> T cell phenotype as measured ex vivo<italic>,</italic> whereas AD IRF8 deficiency causes a broad defect of the CD4<sup>+</sup> memory T cell compartment.</p>
+      </sec>
+      <sec id="S10">
+        <title>Impaired production of IFN-&#x3B3; by mycobacterium-specific memory CD4<sup>+</sup> T cells</title>
+        <p id="P12">We investigated subtler defects of T cell responses to mycobacteria, by isolating two subsets of memory CD4<sup>+</sup> T cells from healthy controls and patients with AR SPPL2a or AD IRF8 deficiency, as determined on the basis of CCR6 expression<xref rid="R44" ref-type="bibr">44</xref>. The polyclonal CD4<sup>+</sup>CCR6<sup>+</sup> (comprising T<sub>H</sub>17 and T<sub>H</sub>1*) and CD4<sup>+</sup>CCR6<sup>&#x2013;</sup> (comprising T<sub>H</sub>1 and T<sub>H</sub>2) memory T cell populations were initially expanded by incubation with IL-2 and phytohemagglutinin (PHA)<xref rid="R45" ref-type="bibr">45</xref>. The CD4<sup>+</sup>CCR6<sup>+</sup> and CD4<sup>+</sup>CCR6<sup>&#x2013;</sup> polyclonal T cell lines from patients and controls displayed the same frequencies of IFN-&#x3B3;<sup>+</sup> cells upon stimulation with PMA plus ionomycin and produced equal amounts of IFN-&#x3B3; upon activation with PMA and ionomycin, or anti-CD3/28 Abs (<xref ref-type="supplementary-material" rid="SD2">Fig. S6a-f</xref>). The T cell lines were then analyzed for reactivity to viral, bacterial, and fungal antigens presented by autologous irradiated B cells, as measured by [<sup>3</sup>H]-thymidine incorporation. The frequencies of CD4<sup>+</sup>CCR6<sup>+</sup> T cells reacting with antigens from BCG or <italic>M. tuberculosis</italic> (MTB) were similar in healthy controls and patients with SPPL2a deficiency (<xref ref-type="fig" rid="F6">Fig. 6a</xref>). By contrast, BCG- or MTB-specific cells were less frequent or absent in patients with AD IRF8 deficiency (<xref ref-type="fig" rid="F6">Fig. 6a</xref>). SPPL2a-deficient patients had a high frequency of CD4<sup>+</sup>CCR6<sup>&#x2013;</sup> T cells against viral antigens (CMV, EBV, Flu, RSV), whereas the frequency of these cells was variable in healthy donors and IRF8-deficient patients, possibly reflecting differences in exposure or vaccination (<xref ref-type="supplementary-material" rid="SD2">Fig. S6g</xref>). Notably, in patients with SPPL2a deficiency, IFN-&#x3B3; production was much weaker in CD4<sup>+</sup> CCR6<sup>+</sup> T cells responding to BCG or MTB antigens (<xref ref-type="fig" rid="F6">Fig. 6b,c</xref>), whereas IFN-&#x3B3; production by T cells responding to viral antigens was similar to that of healthy donors (<xref ref-type="fig" rid="F6">Fig. 6d</xref>). The IFN-&#x3B3; production defect was also observed in BCG-responding CD4<sup>+</sup>CCR6<sup>&#x2013;</sup> cells (<xref ref-type="supplementary-material" rid="SD2">Fig. S6h,i</xref>). These data suggested that SPPL2a-deficient patients displayed a mycobacterium-specific IFN-&#x3B3; production defect by memory CD4<sup>+</sup> T cells. We confirmed that the responding T cell lines were actually T<sub>H</sub>1* cells expressing the characteristic CCR4, CXCR3, and CCR6 markers (<xref ref-type="supplementary-material" rid="SD2">Fig. S6j</xref>). The few mycobacterium-specific CD4<sup>+</sup>CCR6<sup>+</sup> T cells from patients with AD IRF8 deficiency also displayed low IFN-&#x3B3; production (<xref ref-type="fig" rid="F6">Fig. 6b,c</xref>). IRF8-mutated virus-specific CD4<sup>+</sup>CCR6<sup>&#x2013;</sup> T cells also displayed weak IFN-&#x3B3; production, suggesting a broader defect of memory T cells in these patients than in SPPL2a-deficient patients (<xref ref-type="fig" rid="F6">Fig. 6d</xref>). This is consistent with the study of ex vivo cytokine production by CD4<sup>+</sup> memory T cells described above. The strong accumulation of CD74 NTF in the B cells used might affect their capacity to act as APCs. We thus pulsed EBV-B cells from P1, non-transduced or transduced with a retrovirus generated with an empty vector or a wild-type <italic>SPPL2A</italic> cDNA, with MTB peptides (which do not require processing) or whole MTB antigens (which require processing), using them as APCs to stimulate MTB-specific T cell clones from P1 and P2. There were no differences in the proliferation of T cells, suggesting that the capacity of the patients&#x2019; B cells to take up whole antigens and to present the processed peptides is intact (<xref ref-type="supplementary-material" rid="SD2">Fig. S6k</xref>). Similar results were obtained when Flu vaccine was used to stimulate Flu-specific T cell clones (<xref ref-type="supplementary-material" rid="SD2">Fig. S6k</xref>). Collectively, these data showed that SPPL2a-deficient patients displayed a narrow immunological phenotype, with abnormally small numbers of cDC2s and poor IFN-&#x3B3; production by mycobacterium-specific T<sub>H</sub>1* cells. On the contrary, IRF8-mutated patients displayed a broader immunological phenotype, but with two features in common with that of SPPL2a-deficient patients: small numbers of cDC2s and impaired IFN-&#x3B3; production by mycobacterium-specific T<sub>H</sub>1* cells.</p>
+      </sec>
+      <sec id="S11">
+        <title>IRF8 controls <italic>SPPL2A</italic> expression</title>
+        <p id="P13">Given the phenotypic similarities between AR SPPL2a and AD IRF8 deficiencies we hypothesized that there might be a physiological connection between SPPL2a and IRF8. We investigated whether murine IRF8 exerted transcriptional control over <italic>Sppl2a</italic> expression. We performed ChIP-Seq analyses on mouse bone marrow-derived macrophages (BMDM) and peritoneal macrophages. We found binding sites for STAT1, IRF1 and IRF8 in the <italic>Sppl2a</italic> promoter, suggesting that the expression of mouse <italic>Sppl2a</italic> is under the control of these transcription factors (<xref ref-type="supplementary-material" rid="SD2">Fig. S7a</xref>)<xref rid="R46" ref-type="bibr">46</xref>,<xref rid="R47" ref-type="bibr">47</xref>. We analyzed EBV-B cells from healthy controls, and patients with AR complete STAT1, IRF8, and SPPL2a deficiencies. We found that SPPL2a expression was slightly weaker than normal in EBV-B cells lacking functional IRF8, consistent with the ChIP-Seq data obtained for mice (<xref ref-type="supplementary-material" rid="SD2">Fig. S7b</xref>). We also analyzed the SPPL2a expression of total lymphocytes, B cells and T cells from two patients with AD IRF8 deficiency. We found no differences between these patients and healthy controls, consistent with both the partial nature of AD IRF8 deficiency and the expression of IRF8 predominantly in cDC1s and cDC2s, two subsets lacking in these patients (<xref ref-type="supplementary-material" rid="SD2">Fig. S7c,d</xref>). Our data show that mouse IRF8 binds to the <italic>Sppl2a</italic> promoter, suggesting that the human ortholog may control <italic>SPPL2A</italic> transcription.</p>
+      </sec>
+      <sec id="S12">
+        <title><italic>Sppl2a<sup>&#x2013;/&#x2013;</sup></italic> mice are susceptible to mycobacterial infection</title>
+        <p id="P14">We investigated the role of mouse SPPL2a in protective immunity to mycobacteria in vivo, by infecting wild-type and <italic>Sppl2a<sup>&#x2013;/&#x2013;</sup></italic> mice with live BCG. <italic>Sppl2a<sup>&#x2013;/&#x2013;</sup></italic> mice have low frequencies of CD11c<sup>+</sup>CD11b<sup>+</sup> cDC2s (<xref ref-type="fig" rid="F7">Fig. 7a</xref>, <xref ref-type="supplementary-material" rid="SD2">S7e</xref>). <italic>Sppl2a<sup>&#x2013;/&#x2013;</sup></italic> mice developed significantly greater splenomegaly than wild-type mice three and six weeks after infection, and significantly higher BCG colony-forming unit (CFU) counts were obtained six weeks post-infection, indicating greater susceptibility to BCG infection (<xref ref-type="fig" rid="F7">Fig. 7b,c</xref>). Both the size of the IFN-&#x3B3;<sup>+</sup> CD4<sup>+</sup> and CD8<sup>+</sup> T cell fraction and the production of IFN-&#x3B3; by splenocytes (after stimulation with BCG or PMA-ionomycin) at three and six weeks post-infection were much lower in <italic>Sppl2a<sup>&#x2013;/&#x2013;</sup></italic> mice than in wild-type controls (<xref ref-type="fig" rid="F7">Fig. 7d</xref>). <italic>Sppl2a<sup>&#x2013;/&#x2013;</sup></italic> CD4<sup>+</sup> and CD8<sup>+</sup> T cells also produced less TNF than WT cells (<xref ref-type="fig" rid="F7">Fig. 7e</xref>). Mouse CD4<sup>+</sup> T cells mount a classical T<sub>H</sub>1 response to mycobacterial infection, different from the T<sub>H</sub>1* response observed in humans. We cannot therefore conclude that the impairment of IFN-&#x3B3; production in mice is due to T<sub>H</sub>1* cells. Nevertheless, these experiments show that mouse SPPL2a is required for optimal IFN-&#x3B3; production by T cells upon mycobacterial infection. We also infected <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> and wild-type mice with a MTB aerosol. At 200 days post-infection, all wild-type mice were still alive, whereas all the <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice were dead (<xref ref-type="fig" rid="F7">Fig. 7f</xref>). Mice infected with a MTB aerosol had higher lung MTB CFU counts 60 days after infection (<xref ref-type="fig" rid="F7">Fig. 7g</xref>). The total number of cells in the lungs and the numbers of CD4<sup>+</sup> T cells, CD8<sup>+</sup> T cells, CD11b<sup>+</sup>Ly6C<sup>+</sup> monocytes, and CD11b<sup>+</sup>F4/80<sup>+</sup> macrophages were higher than those of wild-type mice 60 days after infection, and the numbers of neutrophils and CD11b<sup>+</sup>Ly6C<sup>+</sup> monocytes were already higher than those in wild-type mice 30 days after infection (<xref ref-type="fig" rid="F5">Fig. 5h-m</xref>, <xref ref-type="supplementary-material" rid="SD2">S7e</xref>). <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice produced larger amounts of IFN-&#x3B3;, TNF, and IL-12p40 than wild-type mice, as shown by analyses of lung homogenates, consistent with the higher leukocyte infiltration into the lungs in these mice (<xref ref-type="fig" rid="F7">Fig. 7n</xref>). Thus <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice lack CD11b<sup>+</sup>CD11c<sup>+</sup> cDCs (cDC2), are susceptible to both BCG and MTB infections in vivo, and their T cells produce low IFN-&#x3B3; upon mycobacterial infection in vivo.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="S13">
+      <title>Discussion</title>
+      <p id="P15">We describe here AR complete SPPL2a deficiency, as a genetic etiology of MSMD. We also show that <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice are susceptible to BCG and MTB. Impaired SPPL2a activity, whether genetic or pharmacological in origin, causes CD74 NTF to accumulate in H-2 and HLA class II<sup>+</sup> APCs in mice and humans, respectively. This accumulation leads to a profound B cell deficiency in <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice<xref rid="R19" ref-type="bibr">19</xref>&#x2013;<xref rid="R21" ref-type="bibr">21</xref> but not in SPPL2a-deficient humans. By contrast, both mice and humans with SPPL2a deficiency have a profound defect of the cDC2 compartment. This myeloid phenotype is due to CD74 NTF accumulation, as NTF levels in cDC2s are highest after the pharmacological inhibition of SPPL2a in healthy donor cells. Moreover, circulating pre-DC progenitors have a low abundance in SPPL2a-deficient patients, from the first stage of HLA-class II expression. Finally, the cDC2 deficiency is rescued in vivo by the genetic ablation of CD74 in <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice<xref rid="R19" ref-type="bibr">19</xref>&#x2013;<xref rid="R21" ref-type="bibr">21</xref>. A complete lack of the three main circulating DC subsets (cDC1s, cDC2s, and pDCs) has been observed in patients with AD GATA2 or AR IRF8 deficiency, both of which cause mycobacterial disease and other infections<xref rid="R30" ref-type="bibr">30</xref>,<xref rid="R48" ref-type="bibr">48</xref>. AD IRF8 deficiency, a genetic etiology of MSMD, was thought to cause an isolated defect of circulating CD1c<sup>+</sup> cDC2 cells<xref rid="R30" ref-type="bibr">30</xref>. However, our present, detailed analysis revealed that both types of conventional DCs &#x2014; cDC1s and cDC2s &#x2014; are actually affected in these patients. By contrast, AR SPPL2a deficiency results in an isolated cDC2 defect, highlighting the crucial role of this human DC population in anti-mycobacterial immunity.</p>
+      <p id="P16">We also found that patients with AR SPPL2a deficiency have a profound defect of mycobacterium-specific IFN-&#x3B3; production by the CD4<sup>+</sup> memory T cells of the T<sub>H</sub>1* subset. Paradoxically, T<sub>H</sub>1* cell counts were normal in the blood of these patients, and these cells proliferated normally in response to mycobacterial antigens, and produced IFN-&#x3B3; upon polyclonal mitogenic stimulation in vitro. Moreover, our study shows that patients with AD IRF8 deficiency also have a more severe memory CD4<sup>+</sup> T cell defect, with poor proliferation of T<sub>H</sub>1* cells in response to mycobacterial antigens in vitro. Nevertheless, the clinical phenotype of MSMD is identical in patients with these two deficiencies. Despite some immunological differences between AR SPPL2a-deficient patients and AD IRF8-deficient patients, these two genetic diseases share three core phenotypes: a defect of cDC2, a defect of mycobacterium-specific T<sub>H</sub>1* cells, and a clinical phenotype of MSMD. These findings suggest that cDC2 and T<sub>H</sub>1* cells play an essential role in human anti-mycobacterial immunity. The link between these two disorders is highlighted by the observation that transcription of the mouse <italic>Sppl2a</italic> gene is controlled by various transcription factors including IRF8. We also found that SPPL2a levels were slightly lower than normal in EBV-B cells with complete IRF8 deficiency. IRF8 is probably more critical for the expression of SPPL2a in DCs. However, these cells are lacking in patients with either AR or AD IRF8 deficiency, making it impossible to assess SPPL2a expression in IRF8-deficient myeloid cells.</p>
+      <p id="P17">Our findings suggest that cDC2s may be the key cells presenting mycobacterial peptide antigens to CD4<sup>+</sup> T cells. The cDC2 deficiency in patients with AR SPPL2a deficiency might cause defective priming in mycobacterium-specific T<sub>H</sub>1* cells. The normally high IL-12 and IL-23 production by cDC2 cells are probably relevant<xref rid="R37" ref-type="bibr">37</xref>. Indeed, AR deficiencies of IL-12p40 or IL-12R&#x3B2;1 underlie MSMD<xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R10" ref-type="bibr">10</xref>. Defective IL-12 and IL-23 stimulation in the course of T cell priming might prevent the correct development of T<sub>H</sub>1* cells in patients with AR SPPL2a deficiency. Overall, our findings suggest that cDC2s are required in vivo for T<sub>H</sub>1* priming following the presentation of mycobacterial antigens. There is probably a causal relationship between the global cDC2 and narrow T<sub>H</sub>1* phenotypes in these patients, given the multiple known relationships between the cells involved (DC and T<sub>H</sub>) and their relevant products (IL-12, IL-23 and IFN-&#x3B3;). The myeloid and lymphoid phenotypes are both broader in patients with IRF8 deficiency than in those with SPPL2a deficiency, providing further support for a connection. The core myeloid phenotype, with a global cDC2/IL-12-23 defect, or the core lymphoid phenotype, with a mycobacterium-specific T<sub>H</sub>1*/IFN-&#x3B3; defect, or both, might also cause a clinical phenotype of MSMD in other patients<xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R10" ref-type="bibr">10</xref>. It is also possible that SPPL2a is required for the proper expression of other anti-mycobacterial molecules<xref rid="R49" ref-type="bibr">49</xref>,<xref rid="R50" ref-type="bibr">50</xref>. Further genetic and immunological studies of patients with unexplained MSMD are required to delineate more accurately the molecular and cellular basis of protective immunity to mycobacteria in humans.</p>
+    </sec>
+    <sec sec-type="methods" id="S14" specific-use="web-only">
+      <title>Online Methods</title>
+      <sec id="S15">
+        <title>Patients and clinical information</title>
+        <p id="P18">Two of the patients studied (P1 and P2) are twins born in 2009 to first-cousin Moroccan parents. They were vaccinated with BCG at birth and presented with unilaterally enlarged and inflammatory axillary lymph nodes at nine months of age. The enlarged lymph nodes were surgically removed. Biopsy confirmed the presence of acid-fast bacilli (AFB), consistent with mycobacterial infection. P1 and P2 had normal counts of neutrophils, monocytes, CD19<sup>+</sup> B cells, CD3<sup>+</sup>, CD4<sup>+</sup>, CD8<sup>+</sup> T cells and NK cells. No immunoglobulin, respiratory burst or complement defects were found (<xref ref-type="supplementary-material" rid="SD3">Supplementary Table 3</xref>). No complications had been observed during the pregnancy, but neonatal asphyxiation was noted during the delivery. MSMD was subsequently diagnosed. Neither of the patients presented any other episodes of mycobacterial infection by the time of clinical evaluation at three years of age. In addition to MSMD, the patients displayed hereditary spastic paraplegia due to a homozygous p.R1105X mutation of the <italic>AP4E1</italic> gene<xref rid="R11" ref-type="bibr">11</xref>.</p>
+        <p id="P19">P3 is a boy born to first-degree consanguineous parents in Turkey in 2007. He presented with a two-month history of left axillary lymphadenopathy. He was vaccinated with BCG, on the left shoulder, at the age of two months. At the age of six months, he was treated with isoniazid after a positive tuberculin skin test (TST) (22 x 22 mm), possibly due to contact with his aunt, who had active pulmonary TB. He had a normal thoracic computed tomography scan at the time. His parents and brother are healthy. His aunt, grandfather, great uncle and great aunt had suffered from pulmonary TB. Physical examination was unremarkable, with the exception of an enlarged lymph node (3x3 cm) in the left axillary region. Leukocyte count, absolute neutrophil count and absolute lymphocyte count were normal. Serum IgG level was low (<xref ref-type="supplementary-material" rid="SD3">Table S2</xref>), whereas serum IgA, IgM and IgE levels were normal for age. Peripheral blood lymphocyte subsets were normal. Neutrophil function in the neutrophil oxidative burst assay (DHR) was normal. CD212 (IL-12R&#x3B2;1) expression was normal (CD212: 83%, control: &gt;80%) on the surface of activated T cells. The tuberculin skin test (TST) was positive (10&#xD7;10 mm). The enlarged axillary lymph node was excised and dissected. Large amounts of calcified material were drained from the lymph node during dissection. Histological examination revealed a necrotizing granulomatous inflammation. Ziehl-Neelsen staining revealed the presence of AFB. MTB complex PCR and culture were negative. MSMD was diagnosed and anti-mycobacterial tritherapy was initiated. P3 is now 11 years old and remains free from mycobacterial disease and other infectious diseases.</p>
+      </sec>
+      <sec id="S16">
+        <title>Ethics statement</title>
+        <p id="P20">The study was approved and performed in accordance with the institutional ethics committee of Necker-Enfants Malades Hospital, Paris, France and the Rockefeller University Hospital, New York, USA. Informed consent was obtained for all the patients and healthy control volunteers reported in the study.</p>
+      </sec>
+      <sec id="S17">
+        <title>Cell culture and cell isolation</title>
+        <p id="P21">HEK293T cells and SV40 fibroblasts were cultured in DMEM (Gibco) supplemented with 10% FCS. Phoenix A retroviral packaging cells were cultured in IMDM (Gibco) supplemented with 10% FCS. EBV-B cells were cultured in RPMI (Gibco) supplemented with 10% FCS. PBMCs were isolated by Ficoll-Paque&#x2122; PLUS (GE Healthcare) centrifugation and cultured in RPMI (Gibco) supplemented with 10% FBS. All cell lines used were tested for mycoplasma and were negative. HEK293T and Phoenix A cells were purchased from ATCC. B cells and fibroblasts from healthy controls or patients were immortalized in house with EBV or SV40 virus respectively. None of the cells described above have been authenticated but the genotypes at the site of the mutations studied in this report have been confirmed</p>
+      </sec>
+      <sec id="S18">
+        <title>SPPL2a overexpression</title>
+        <p id="P22">A WT <italic>SPPL2A</italic> plasmid was purchased from Origene and <italic>SPPL2A</italic> was excised and inserted into a pcDNA3.1-V5 (Invitrogen) or pLZRSires&#x394;NGFR (Addgene) plasmid. pLZRSires&#x394;NGFR, containing WT <italic>SPPL2A</italic>, the mutants studied in this report (&#x394;ex6 and &#x394;ex14) or the variants described in genomAD (<ext-link ext-link-type="uri" xlink:href="http://gnomad.broadinstitute.org/">http://gnomad.broadinstitute.org</ext-link>) were used to transfect Phoenix A cells, retroviruses were produced and used to transduce EBV-B cells from P1, as previously described<xref rid="R51" ref-type="bibr">51</xref>. HEK293T cells were transfected in the presence of Lipofectamine LTX reagent (Invitrogen), with pcDNA3.1-V5 containing WT <italic>SPPL2A</italic> or the mutant cDNAs studied here.</p>
+      </sec>
+      <sec id="S19">
+        <title>SPPL2a inhibition in EBV-Bs or PBMCs</title>
+        <p id="P23">Freshly isolated PBMCs or EBV-B cells (10<sup>6</sup> cells/ml) in RPMI supplemented with 10% FCS were incubated with or without 1 &#x3BC;M DMSO, 1 &#x3BC;M gamma secretase/SPPL inhibitor L-685,458 (EMD Millipore), 10 &#x3BC;M (Z-LL)<sub>2</sub> ketone (Santa Cruz), 10 &#x3BC;M calpain activation inhibitor E64d (Santa Cruz) or 10 &#x3BC;M DAPT (another gamma secretase inhibitor, from R&amp;D Systems) for 5 h for cytokine production and for 24 hours to study CD74 accumulation at 37&#xB0;C, to mimic the conditions of SPPL2a deficiency.</p>
+      </sec>
+      <sec id="S20">
+        <title>Immunoblotting</title>
+        <p id="P24">Proteins were extracted with whole-cell lysate buffer containing 20 mM Tris-HCl pH 7.4, 140 mM NaCl, 2 mM EDTA, 50 mM NaF, 1% NP40 supplemented with protease inhibitor cocktail (Complete mini, Roche); proteins were quantified with the Bradford assay. Lysates (50 &#x3BC;g of protein) were mixed with Laemmli loading buffer and incubated at 55&#xB0;C for 5 minutes before being subjected to electrophoresis in a 4-12% acrylamide precast SDS-PAGE gel (BioRad). The following Abs were used for immunoblotting: rabbit anti-human SPPL2a C-term<xref rid="R52" ref-type="bibr">52</xref>, rabbit anti-human SPPL2a epitope 8 (&#x201C;ENLKAVTTEDREMRK&#x201D;, residues 196-210 of human SPPL2a, provided by Dr. Bernd Schr&#xF6;der), anti-CD74 (ab97479, Abcam), anti-GAPDH HRP (sc-25778, Santa Cruz) and anti-V5-HRP (R96125, Invitrogen) Abs.</p>
+      </sec>
+      <sec id="S21">
+        <title>ELISA for human cytokines</title>
+        <p id="P25">Flt3 ligand, TNF and IL-12p40 levels were determined by ELISA, with commercial kits, according to the manufacturer&#x2019;s instructions (R&amp;D Systems).</p>
+      </sec>
+      <sec id="S22">
+        <title>Flow cytometry and Imagestream</title>
+        <p id="P26">Intracellular CD74, IRF8 and SPPL2a levels were determined in various subsets of PBMCs, by first distinguishing between live and dead cells with LIVE/DEAD fixable aqua (Life Technologies) and then staining for surface markers with anti-CD4 APC/Cy7 (RPA-T4, 300518, BioLegend), anti-CD8 V450 (RPA-T8, 560347, BD), anti-CD45RO Percp/Cy5.5 (UCHL1, 560607, BD Biosciences), anti-CCR7 PE/Cy7 (G043H7, 353226, BioLegend), anti-CD16 APC/Cy7 (3G8, 302016, BioLegend), anti-CD20 PE (2H7, 555623, BD Biosciences), anti-CD56 A700 (B159, 557919, BD Biosciences), anti-HLA-DR Pacific blue (L243, 307624, BioLegend), anti-CD11c Percp/Cy5.5 (BU15, 307624, BioLegend), anti-CD1c APC/Cy7 (L161, 331520, BioLegend), anti-CD141 PE (M80, 344104, BioLegend), anti-CD123 PE/cy7 (6H6, 30601, BioLegend), and anti-CD268 (BAFF-R, 11C1, BioLegend) Abs, at a dilution of 1/50. Cells were then fixed and permeabilized with BD Cytofix/Cytoperm plus (BD Biosciences), according to the manufacturer&#x2019;s instructions. Intracellular proteins then were stained by incubation with anti-SPPL2a C-term (1/1000) or anti-SPPL2a epitope 8 (1/1000), anti-IRF8 (sc-6058, Santa Cruz) (goat), anti-STAT1 (rabbit) (sc-345, Santa Cruz) or anti-CD74 (ab22603, Abcam) (Pin.1, 1/500) Abs for 45 minutes at room temperature, in PBS supplemented with 5% BSA and 0.1% saponin, and then for 45 minutes with goat anti-rabbit Alexa488 (1/1000) (Invitrogen) or donkey anti-goat Alexa 488 (Invitrogen) in PBS supplemented with 5% BSA and 0.1% saponin. Cells were then processed on an Image Stream-X or BD LSR-II machine. Intra- and extracellular CD74 levels in the monocytes, B cells and T cells of controls and patients were assessed by surface staining with anti-CD20 FITC (347673, BD, Clone L27), anti-CD3 BV421 (562426, BD, UCHT1) and anti-surface CD74 (326807, Biologend, LN2) (if sCD74 was to be assessed) Abs, followed by fixation in 2% formaldehyde, and washing with PBS supplemented with 0.1% BSA and 0.5% saponin. Anti-intracellular CD74 Ab (Abcam) in PBS supplemented with 0.1% BSA and 0.5% saponin was then added. Lymphocytes and monocytes were gated individually on the basis of their SSC and FSC properties. CD3<sup>+</sup> were considered to correspond to T cells, and CD20<sup>+</sup> cells were identified as T cells.</p>
+        <p id="P27">DC immunophenotyping was performed on cryopreserved cells after thawing by adding 1 ml FBS at 37&#xB0;C to cryopreservation tubes containing 1 ml frozen PBMCs. The thawed mixture was transferred to a 15 ml conical tube and 13 ml of PBS, 0.5% BSA, 2 mM EDTA at room temperature was added. The tubes were centrifuged at 300 x <italic>g</italic> for 7 minutes at 4&#xB0;C. The supernatant was discarded and the cells were resuspended in 10 ml PBS, 0.5% BSA, 2 mM EDTA at 4&#xB0;C and placed on ice. Cell numbers and viability were assessed by trypan blue staining in a counting chamber. 1x10<sup>6</sup>-1x10<sup>7</sup> cells were transferred to a 5 ml round-bottomed polystyrene tube for staining. The tubes were centrifuged at 300 x <italic>g</italic> for 7 minutes at 4&#xB0;C and the supernatant was discarded. The cells were resuspended at a density of &#x2264;1x10<sup>7</sup> cells per 20 &#x3BC;l and FcR blocking reagent (Miltenyi Biotec: 130-059-901) was added at a 1/10 dilution. The tubes were vortexed to resuspend the cells and left on ice for 15 minutes before staining. The samples were stained with anti-CD1c (BDCA-1) FITC (AD5-8E7, Miltenyi: 130-090-507), anti-CD3 PE (UCHT1, mouse IgG1, Beckman Coulter: A07747), anti-CD15 PE (VIMC6, mouse IgM, Miltenyi Biotec: 130-091-375), anti-CD19 PE (HIB19, mouse IgG1 &#x3BA;, eBioscience: 12-0199-73), anti-CD56 PE (MY31, mouse IgG1 &#x3BA;, BD Biosciences: 345810), anti-NKp46 PE (BAB281, mouse IgG1, Beckman Coulter: PN IM3711), anti-HLA DR PerCP (L243 (G46-6), muIgG2a k, BD Biosciences: 347402), anti-CD16 PE/Cy7 (3G8, mouse IgG1, BD Biosciences: 557744), anti-CD11c APC (S-HCL-3, Mouse IgG2b k, BD Biosciences: 333144), anti-CD141 (BDCA-3) Abs, VioBlue (AD5-14H12, Miltenyi Biotec: 130-097-325), anti-CLEC9a VioBlue (8F9, Miltenyi Biotec: 130-099-906) and anti-CD14 APC Alexa750 (M5E2, BioLegend, 301820) Abs. All Abs were used at a dilution of 1/100, except CD303 and HLA-DR, which were used at a dilution of 1/50, with &#x2264;1x10<sup>7</sup>cells/50 &#x3BC;l. The cells were stained away from direct light for 30 minutes at 4&#xB0;C. They were then washed in 1 ml of 0.5% BSA in PBS at 4&#xB0;C; 2 mM EDTA was added and the cells were centrifuged at 300 x <italic>g</italic> for 7 minutes at 4&#xB0;C. The supernatant was discarded. The cells were resuspended in 200 &#x3BC;l of 0.5% BSA, 2 mM EDTA in PBS at 4&#xB0;C, and placed in the dark until their use for flow cytometry. The samples were analyzed on an Aria II flow cytometer, and Three star FlowJo v9 was used for data analysis.</p>
+        <p id="P28">Progenitor immunophenotyping: Classical FSC/SSC gates and zombie yellow viability stain were used to define live cells. Doublets were removed based on FSC-A/FSC-W. From live single cells, hematopoietic progenitors were identified as CD34<sup>+</sup> Lin(CD3, CD14, CD16, CD19, CD56, CD66b, CD11c, CD303)<sup>&#x2013;</sup>. The progenitor populations studied were further defined by the following gating strategies: HSC/MPPs (CD38<sup>&#x2013;</sup>CD45RA<sup>&#x2013;</sup>CD10<sup>&#x2013;</sup>), MLP (CD38<sup>&#x2013;</sup>CD45RA<sup>+</sup>CD10<sup>+</sup>), LMPP (CD38<sup>&#x2013;</sup>CD45RA<sup>+</sup>CD10<sup>&#x2013;</sup>), BNKP (CD38<sup>+</sup>CD45RA<sup>+</sup>CD10<sup>+</sup>), CMP (CD38<sup>+</sup> CD10<sup>&#x2013;</sup> CD45RA<sup>&#x2013;</sup>CD123<sup>int</sup>), GMP (CD38<sup>+</sup> CD10<sup>&#x2013;</sup> CD45RA<sup>+</sup>CD123<sup>int/hi</sup>), MEP (CD38<sup>+</sup> CD10<sup>&#x2013;</sup> CD45RA<sup>&#x2013;</sup>CD123<sup>lo</sup>).</p>
+        <p id="P29">Early pre-DC identification: Classical FSC/SSC gates and zombie yellow viability stain were used to define live cells. Doublets were removed based on FSC-A/FSC-W. CD14<sup>+</sup>, CD14<sup>+</sup>/CD16<sup>+</sup>, and CD16<sup>+</sup> monocytes were excluded from the live single cells. From the non-monocyte population, Lin(CD3/19/56)<sup>&#x2013;</sup> HLA-DR<sup>+</sup> cells were gated. We excluded cDC2s and cDC1s from Lin-HLA-DR<sup>+</sup> cells on the basis of CD1c and Clec9a expression, respectively. Pre-DCs were then identified from the remaining fraction as Lin-HLA-DR<sup>+</sup>CD34<sup>&#x2013;</sup>CD1c<sup>&#x2013;</sup>Clec9a<sup>&#x2013;</sup>CD123<sup>+</sup>CD303<sup>+</sup>CD141<sup>+</sup>CD45RA<sup>+</sup>/int.</p>
+      </sec>
+      <sec id="S23">
+        <title>PCR and qPCR primers and probes</title>
+        <p id="P30">mRNA was extracted with the RNeasy Mini Kit (Qiagen) and treated with DNase (Roche) before reverse transcription. A probe spanning exons 2 and 3 of <italic>SPPL2A</italic> was used for qPCR on the resulting cDNA (Hs00607726_mH, Thermo Fisher Scientific), and 18S (Hs99999901_s1, Thermo Fisher Scientific) or <italic>GUS</italic> (4310888E, Thermo Fisher Scientific) probes were used for normalization. The following primers were used to amplify the region containing exon 6 or exon 14 of the cDNA: cSPPL2A 4F: TGTATTCTCCATCGTGGCCT, cSPPL2A 7R: ACATGCAATCGTGCATTGTCC; cSPPL2A 13F ACCAGGCCTGTTGATTGCAT; cSPPL2A 15R: GCTGGACAATCTGTTCACCA. For amplification and Sanger sequencing of the genomic DNA region containing the mutation, we used the following primers: gSPPL2A 6F: CAGATCATCTCTGGAGAGTAGCA; gSPPL2A 6R: TCAGAGTAACAGAGACCTAACACT; gSPPL2A 14F TGAAATGACTAACCAGTTTCCACA; gSPPL2A 14 R: GCAGGGGAGGTCACAAATGA.</p>
+      </sec>
+      <sec id="S24">
+        <title>WES and identification of the mutations</title>
+        <p id="P31">WES was performed by the New York Genome Center, with an Illumina HiSeq 2500 machine, and the Agilent 71 Mb SureSelect exome kit, in accordance with the manufacturer&#x2019;s instructions. BWA (v.0.7.12)<xref rid="R53" ref-type="bibr">53</xref> was used to align the reads with the human reference genome hg19, before recalibration and annotation with GATK (v.3.4-46)<xref rid="R54" ref-type="bibr">54</xref>, PICARD (<ext-link ext-link-type="uri" xlink:href="http://broadinstitute.github.io/picard/">http://picard.sourceforge.net/</ext-link>) (v.1.92) and ANNOVAR (v.07142014)<xref rid="R55" ref-type="bibr">55</xref>. Further filtering of the variants was achieved with our own in-house software.</p>
+        <p id="P32">For the genome-wide linkage analysis, all members of the two families were genotyped with the Affymetrix Genome-wide Human Mapping 250K chip, with genotype calling with the Affymetrix Power Tools Software Package (<ext-link ext-link-type="uri" xlink:href="https://www.thermofisher.com/us/en/home/life-science/microarray-analysis/affymetrix.html">http://www.affymetrix.com/estore/partners_programs/programs/developer/tools/powertools.aff</ext-link>). SNPs presenting more than one Mendelian inconsistency were discarded. SNPs were further filtered with population-based filters, using PLINK software<xref rid="R56" ref-type="bibr">56</xref>, according to the ethnicity of the kindred. We then used 163807 autosomal SNP markers for parametric multipoint linkage analyses with MERLIN<xref rid="R57" ref-type="bibr">57</xref> considering founders to be second-degree relatives, assuming autosomal recessive inheritance with complete penetrance, and a damaging allele frequency of 10<sup>&#x2013;4</sup>. The family founders and unrelated individuals from HapMap CEU were used to estimate allele frequencies for the two kindreds, and to define linkage clusters, with an r<sup>2</sup> threshold of 0.4.</p>
+      </sec>
+      <sec id="S25">
+        <title>cDC2 in vitro differentiation assays</title>
+        <p id="P33">Human cord blood (CB) units were purchased from the New York Blood Center. Blood was subjected to density centrifugation on Ficoll-Paque, and granulocyte, monocyte and dendritic cell progenitors (GMDPs) were isolated from mononuclear CB cells. These progenitor cells were then cultured on MS-5 cell strom plus cytokines (Flt3LG, SCF and GM-CSF) with or without SPPL2a inhibitor (1 &#x3BC;M; gamma secretase inhibitor L-685,458 (EMD Millipore)), 1 &#x3BC;M DMSO or 10 &#x3BC;M DAPT. SPPL2A inhibitor, DAPT and DMSO were added daily to the culture. Cells were harvested on day 6, for flow cytometry analysis of the culture output and intracellular CD74 expression (mouse anti-human CD74 Ab, Biolegend). For a more detailed protocol, see <xref rid="R58" ref-type="bibr">58</xref>.</p>
+      </sec>
+      <sec id="S26">
+        <title>B and T cell phenotyping</title>
+        <p id="P34">T cells: PBMCs were incubated with the following mAbs anti-CD4 (563028, SK3, BD) BV711, anti-CD45RA (11-0458-41, HI100, eBioscience) FITC, anti-CD127 (351309, AO19D5, Biolegend) BV421, anti-CD25 (564033, 2A3, BD) PE-Cy7, anti-CXCR5 (558113, RF8B2), BD) A647, anti-CXCR3 (353713, Go25H7, BioLegend) PerCP-Cy5.5 and anti-CCR6 (559562, 11A9, BD) PE and the proportions of regulatory T cells (CD4<sup>+</sup>CD127<sup>lo</sup>CD25<sup>hi</sup>), total memory (CD4<sup>+</sup>CD45RA<sup>&#x2013;</sup>), and cTfh (CD4<sup>+</sup>CD45RA<sup>&#x2013;</sup>CXCR5<sup>+</sup>) cells were determined. B cells: PBMCs were incubated with the following mAbs anti-CD20 (347673, L27, BD) FITC, anti-CD19 (563036, SJ25C1, BD) BV711, anti-CD27 (555441, M-T271, BD) PE-Cy7, anti-CD10 (340923, HI10a, BD) APC, and the frequencies of transitional (CD20<sup>+</sup>CD27<sup>&#x2013;</sup>CD10<sup>+</sup>), naive (CD20<sup>+</sup>CD27<sup>&#x2013;</sup>CD10<sup>&#x2013;</sup>), and memory (CD20<sup>+</sup>CD27<sup>+</sup>CD10<sup>&#x2013;</sup>) B cells were determined. Cells were also stained with anti-IgG (563246, G18-145, BD) BV605, anti-IgA (1040-08, Southern Biotech) biotin, anti-BAFF-R (8A7, eBioscience) PE, anti-CD21 (PB-306-T025, LT21, EXBIO) Pacific blue, anti-IgM (555783, G20-127, BD) PE, anti-IgD (9030-08, IADB6, Southern Biotech) biotin and anti-HLA-DR (559866, G46-6, BD) APC, and the levels of expression on the various B cell subsets, and the proportion of memory B cells expressing IgG or IgA were determined by gating on transitional, naive or memory B cells.</p>
+      </sec>
+      <sec id="S27">
+        <title>B and T cell cytokine profiling and in vitro differentiation</title>
+        <p id="P35">CD4<sup>+</sup> T cells were isolated as previously described<xref rid="R42" ref-type="bibr">42</xref>. PBMCs from healthy controls or SPPL2a- or IRF8-deficient patients were labeled with anti-CD4 APC-Cy7 (557871, RPA-T4, BD Biosciences), anti-CD45RA PerCpCy5.5 (45-0458-41, HI100, eBiosciences), anti-CCR7 FITC (MAB197-SP, 150503, R&amp;D sytems), anti-CD25 PE (555432, M-A251, BD Biosciences) and anti-CD127 BV650 (351325, A019D5, BioLegend) Abs, and naive (CD25<sup>lo</sup>CD127<sup>hi</sup>CD45RA<sup>+</sup>CCR7<sup>+</sup>CD4<sup>+</sup>) or memory (CD25<sup>lo</sup>CD127<sup>hi</sup>CD45RA<sup>&#x2013;</sup>CCR7<sup>&#xB1;</sup>CD4<sup>+</sup>) T cells were isolated (&gt; 98% purity) with a FACSAria (BD Biosciences). Purified memory CD4<sup>+</sup> T cells were cultured with T cell activation and expansion (TAE) beads (anti-CD2/CD3/CD28; Miltenyi Biotec) for 5 days. Purified naive CD4<sup>+</sup> T cells were cultured with TAE beads alone or under T<sub>H</sub>1 (IL-12 [20 ng/ml; R&amp;D Systems]), T<sub>H</sub>2 (IL-4) or T<sub>H</sub>17 (TGF-&#x3B2;, IL-1&#x3B2; [20 ng/ml; Peprotech], IL-6 [50 ng/mL; PeproTech], IL-21 [50 ng/mL; PeproTech], IL-23 [20 ng/mL; eBioscience], anti&#x2013;IL-4 [5 &#x3BC;g/mL], and anti-IFN-&#x3B3; [5 &#x3BC;g/mL; eBioscience]) polarizing conditions for 5 days. Supernatants were then harvested and their content of IL-2, IL-4, IL-5, IL-6, IL-9, IL-10, IL-13, IL-17A, IL-17F, IFN-&#x3B3; and TNF was determined in cytometric bead arrays (BD Biosciences); IL-22 was determined by ELISA. For cytokine expression, activated CD4<sup>+</sup> T cells were restimulated with PMA (100 ng/ml)/ionomycin (750 ng/ml) for 6 hours, with the addition of brefeldin A (10 &#xB5;g/ml) after 2 hours. Cells were then fixed and their intracellular cytokine profiles were determined.</p>
+      </sec>
+      <sec id="S28">
+        <title>B cell culture</title>
+        <p id="P36">PBMCs from healthy controls or SPPL2A-deficient patients were labeled with anti-CD20 Pe-Cy7 (25-0209-42, 2H7, eBioscience), anti-CD10 APC (340923, HI10a, BD Bioscience), and anti-CD27 Pe (555441, M-T271, BD Bioscience) Abs and naive (CD20<sup>+</sup>CD10<sup>&#x2013;</sup>CD27<sup>&#x2013;</sup>IgG<sup>&#x2013;</sup>) and memory (CD20<sup>+</sup>CD10<sup>&#x2013;</sup>CD27<sup>+</sup>) B cells were purified by cell sorting (FACSAria, BD Biosciences). They were cultured in the presence of CD40L, either alone or together with IL-21. After eight days, culture supernatants were harvested and the secretion of IgM, IgG and IgA was determined by Ig heavy chain-specific ELISA<xref rid="R59" ref-type="bibr">59</xref>.</p>
+      </sec>
+      <sec id="S29">
+        <title>T cell library and T cell clone generation and measurement of cytokine production</title>
+        <p id="P37">Two subsets of CD4<sup>+</sup>CD45RA<sup>&#x2013;</sup>CD25<sup>&#x2013;</sup>CD19<sup>&#x2013;</sup>CD8<sup>&#x2013;</sup> memory T cells were sorted from total PBMCs, on the basis of CCR6 expression, with a FACS Aria (BD Biosciences), after the exclusion of CD45RA<sup>+</sup>CCR7<sup>+</sup> naive T cells. The CCR6<sup>+</sup> subset, including T cells producing IL-17 and IFN-&#x3B3;, and the CCR6<sup>&#x2013;</sup> subset, including T cells producing IL-4 and IFN-&#x3B3;, were collected<xref rid="R44" ref-type="bibr">44</xref>. The cells were cultured in RPMI 1640 medium supplemented with 2 mM glutamine, 1% (vol/vol) nonessential amino acids, 1% (vol/vol) sodium pyruvate, penicillin (50 U/ml), streptomycin (50 &#x3BC;g/ml) (all from Invitrogen) and 5% heat-inactivated human serum (Swiss RedCross). The sorted memory T cells (500 cells/well) were stimulated polyclonally with 1 &#x3BC;g/ml PHA (Remel) in the presence of irradiated (45 Gy) allogeneic feeder cells (2.5 x 10<sup>4</sup> per well) and IL-2 (500 IU/ml), in a 96-well plate, and cell lines were expanded, as previously described<xref rid="R45" ref-type="bibr">45</xref>. Library screening was performed 14-21 days after initial stimulation, by culturing thoroughly washed T cells (2.5x10<sup>5</sup>/well) with autologous irradiated B cells (2.5x10<sup>4</sup>), with or without a three-hour pulse of various antigens, including the CMV/EBV HLA class II peptide pool or the EBV HLA class II peptide pool (0.5 &#x3BC;g/ml/peptide, comprising 122 peptides (46 EBV and 76 CMV)), the MTB epitope pool (0.5 &#x3BC;g/ml/peptide, comprising 207 peptides), the BCG epitope pool (0.5 &#x3BC;g/ml/peptide, comprising 211 peptides), purified RSV A-2-containing lysate (100 &#xB5;g/ml, Advanced Biotechnologies), influenza virus vaccine (Crucell) or <italic>Candida albicans</italic>-containing lysate (used at 5 &#x3BC;g/ml). Multiepitope peptide pools were prepared as previously described<xref rid="R60" ref-type="bibr">60</xref>. Proliferation was assessed on day 4, after incubation for 16 h with 1 &#x3BC;Ci/ml [<sup>3</sup>H]-thymidine (GE Healthcare). Precursor frequencies were calculated from the number of negative wells, assuming a Poisson distribution, and are expressed per million cells<xref rid="R45" ref-type="bibr">45</xref>. Cytokine concentrations in positive culture supernatants were determined after 48 hours of stimulation with cytometric bead arrays (BioLegend). T cell clones were made by sorting ICOS<sup>+</sup>CD25<sup>+</sup> cells from antigen-stimulated T cell lines and plating them at 0.5 cells per well in 384 well plates in IL-2 complete media with 1 &#x3BC;g/ml PHA (Remel), and 50,000 irradiated allogenous PBMC per well. T cell clones were stained for FACS analysis and used in proliferation assays to assess antigen-presenting function of EBV-B cells from SPPL2A-deficient patient transduced with a retrovirus generated with a WT allele of <italic>SPPL2A</italic> or an empty vector gene as described avobe.</p>
+      </sec>
+      <sec id="S30">
+        <title>Mouse experiments</title>
+        <sec id="S31">
+          <title>Flow cytometry</title>
+          <p id="P38">Mice (C57BL6/J) were killed and their spleens were removed and placed in cold RPMI supplemented with 3% FBS and 2% P/S. Single-cell suspensions were prepared and red blood cells were lysed in lysis buffer (155 mM NH<sub>4</sub>Cl, 12 mM NaHCO<sub>3</sub>, 0.1 mM EDTA). Cells were washed and plated at a density of 2 x 10<sup>6</sup> cells/well in a 96-well plate for cell staining in FACS buffer (PBS, 2% FBS). Viable cells were stained with Aqua Zombie Fixable Viability Dye (BioLegend) for 15 minutes at room temperature. Cells were surface-stained for 30 minutes at 4&#xB0;C with the following Ab cocktail for DCs: anti-CD45 APC/eFluor 780 (47-0451-80, 30-F11, eBioscience), anti-CD11b PE-Cy7 (101215, M1/70, BioLegend), anti-CD11c PerCP/Cy5.5 (117327, N418, BioLegend), anti-CD8 eFluor (100707, 53-6.7, BioLegend), anti-CD49b PE (108907, DX5, BioLegend), anti-CD19 PE (152407, 1D3, BioLegend), anti-TCR&#x3B2; PE (109207, H57-597, BioLegend), anti-Ly6G PE (127607, 1A8, BioLegend), anti-TCR&#x3B3;&#x3B4; PE (118107, GL3, BioLegend). Cells were fixed and sorted with an eight-color FACS Canto II machine equipped with FACS Diva software (BD Biosciences). The data obtained were analyzed with FlowJo software (Tree Star). In total, 10<sup>5</sup> cells were acquired and aggregates were removed on the basis of forward scatter height (FSC-H) vs. area (FSC-A). Debris removal was evaluated by assessing side scatter area (SSC-A) and FSC-A. Viable cells were identified by gating on the population negative for Aqua Zombie viability dye (V500), and leukocytes were isolated as CD45<sup>+</sup> cells. All Abs were obtained from eBioscience unless otherwise stated.</p>
+        </sec>
+        <sec id="S32">
+          <title>Analysis of cytokine production</title>
+          <p id="P39">For intracellular cytokine staining, spleen single-cell suspensions were plated in a 96-well plate at a density of 2x10<sup>5</sup> cells in complete RPMI medium. Cells were incubated at 37&#xB0;C for 6 hours with either 20 MOI of live <italic>M. bovis</italic> (BCG) or PMA (50 ng/mL) and ionomycin (500 ng/mL). Cells were washed and resuspended in FACS buffer for cell staining (as described above). Cells were surface-stained by incubation for 30 min at 4&#xB0;C with the following Ab cocktail: anti-CD4 PerCP/Cy5.5 (100433, GK1.5, BioLegend), anti-CD8&#x3B1; eFluor 450 (48-0081080, 53-6.7, BioLegend). Cells were fixed and permeabilized and subjected to intracellular staining for 30 min at 4&#xB0;C with the following Ab cocktail: anti-TNF APC (506307, MPG-XT22, BioLegend), anti-IFN-&#x3B3; FITC (505805, XMG1.2, BioLegend), before analysis on a FACS Canto II instrument. All Abs were obtained from eBioscience unless otherwise stated. We determined cytokine levels in the culture supernatant of spleen cells, by plating cells in a 96-well plate at a density of 2x10<sup>6</sup> cells in complete RPMI medium and stimulating them at 37&#xB0;C for 48 hours with either 20 MOI of live <italic>M. bovis</italic> (BCG) or PMA (50 ng/ml) plus ionomycin (500 ng/ml). Cell supernatants were collected and cytokine levels were determined by ELISA (BioLegend).</p>
+        </sec>
+        <sec id="S33">
+          <title>Mycobacterium bovis (BCG) infection</title>
+          <p id="P40">Single-cell suspensions of <italic>M. bovis</italic> (BCG) were prepared for in vivo infection as previously described<xref rid="R61" ref-type="bibr">61</xref>. Briefly, 5x10<sup>4</sup> colony-forming units (CFUs) were injected intravenously into 8- to 12-week-old WT and <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mutant mice. Three or six weeks post-infection, mice were killed, weighed and the numbers of <italic>M. bovis</italic> BCG CFUs in the spleen were determined by homogenization and plating on Dubos oleic agar base, followed by three weeks of incubation at 37&#xB0;C. Splenomegaly (spleen index), defined as the square root of spleen weight (x100) divided by body weight, was monitored.</p>
+        </sec>
+        <sec id="S34">
+          <title>MTB infection protocol</title>
+          <p id="P41">We infected 8- to 12-week-old mice with an aerosol of ~50 CFU of MTB H37Rv and monitored survival. Infectious dose was determined by the replication of colony-forming units (CFU) from total lung homogenates. In a separate experiment, we infected 8- to 12-week-old mice with an aerosol of ~50 CFU of MTB H37Rv and killed them 30 and 60 post-infection. Bacterial loads at these time points were determined by the replication of colony-forming units from lung homogenates. Immunophenotyping analysis was performed on the lungs, with single-cell suspensions generated by mechanical disruption and collagenase A digestion. Single cells from the lungs and spleen were processed as described above.</p>
+        </sec>
+        <sec id="S35">
+          <title>Animal ethics statement</title>
+          <p id="P42">For all mouse experiments, this study was performed in accordance and compliance with the guidelines and regulations of the Canadian Council on Animal Care (CCAC). All protocols were approved by the Animal Care Committee of McGill University. Mice were anesthetized, and euthanized by carbon dioxide inhalation, and every effort was made to minimize animal suffering.</p>
+        </sec>
+      </sec>
+      <sec id="S36">
+        <title>ChIP-seq and RNA-seq</title>
+        <p id="P43">ChIP-seq datasets for transcription factors and epigenetic modifications in basal and stimulus-activated mouse primary macrophages were obtained from recent publications for: control IgG, IRF8, IRF1, PU.1, H3K4me1 and H3K27Ac<xref rid="R62" ref-type="bibr">62</xref>; STAT1<xref rid="R63" ref-type="bibr">63</xref>; STAT2<xref rid="R64" ref-type="bibr">64</xref>; p65 (NF&#x3BA;B)<xref rid="R65" ref-type="bibr">65</xref>; IRF5 <xref rid="R66" ref-type="bibr">66</xref>; CEBP&#x3B1;<xref rid="R67" ref-type="bibr">67</xref>; and RNA Pol II and H3K4me3 <xref rid="R68" ref-type="bibr">68</xref>. Sequence read density profiles (bigwig) were generated with the Homer tool and normalized to counts per 10<sup>7</sup> reads<xref rid="R69" ref-type="bibr">69</xref>. Gene expression profiles (RNA-seq) for primary mouse macrophages with and without IFN-&#x3B3; treatment for 3 h are scaled per million reads and mapped onto the mm9 reference genome assembly<xref rid="R62" ref-type="bibr">62</xref>. The Integrative Genomics Viewer was used to visualize sequence read density profiles and to extract the genome browser snapshot for <xref ref-type="supplementary-material" rid="SD2">Fig. S7a</xref><xref rid="R70" ref-type="bibr">70</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>Reporting Summary</label>
+        <media xlink:href="NIHMS78488-supplement-Reporting_Summary.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" xlink:type="simple" id="d36e2677" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>Supplementary Figures</label>
+        <media xlink:href="NIHMS78488-supplement-Supplementary_Figures.docx" mimetype="application" mime-subtype="octet-stream" orientation="portrait" xlink:type="simple" id="d36e2681" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3">
+        <label>Supplementary Tables</label>
+        <media xlink:href="NIHMS78488-supplement-Supplementary_Tables.docx" mimetype="application" mime-subtype="octet-stream" orientation="portrait" xlink:type="simple" id="d36e2685" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S37">
+      <title>Acknowledgments</title>
+      <p>We thank B. Coller, C. Rice, X. Ma, M. Ciancanelli and G. Vogt for helpful discussions and critical reading. We thank Y. Nemirovskaya, E. Anderson, T. Kochetkov, M. Romanick, L. Amar, C. Patissier, C. Desvall&#xE9;es, M. Woollett, A. Gall and J. Gonzalez for technical and secretarial assistance and all members of the Laboratory of Human Genetics of Infectious Diseases for helpful discussions. We thank F. Batteux and M. Bahuad from the Laboratory of Immunology, Cochin Hospital, Paris-France for serological testing patients and F. B. Menozzi and the Microbiology Institute, EOC, Bellinzona for providing microbial products. X-F.K. was supported by the Jerome Lejeune Foundation, the Stony Wold-Herbert Fund, the Choh-Hao Li Memorial Fund Scholar Award and the Shanghai Educational Development Foundation. R.M.B. was funded by a European Molecular Biology Organization (EMBO) long-term fellowship. J.M. was supported by the Charles H. Revson Senior Fellowship in Biomedical Sciences. B.S. received support from the <italic>Deutsche Forschungsgemeinschaft</italic> as part of the SFB877 and the Cluster of Excellence &#x201C;Inflammation at Interfaces&#x201D;, and the SCHR 1284/1-1 grant. The Laboratory of Human Genetics of Infectious Diseases is supported by grants from the St. Giles Foundation, the Jeffrey Modell Foundation, The Rockefeller University Center for Clinical and Translational Science grant number 8UL1TR000043 from the National Center for Research Resources and the National Center for Advancing Sciences (NCATS), the National Institutes of Health, the National Institute of Allergy and Infectious Diseases (5R01AI089970-02 and 5R37AI095983), grants from the Integrative Biology of Emerging Infectious Diseases Laboratory of Excellence (ANR-10-LABX-62-IBEID) and the French National Research Agency (ANR) under the &#x201C;Investments for the future&#x201D; program (ANR-10-IAHU-01), ANR-IFNGPHOX (ANR-13-ISV3-0001-01, to J.B.) and ANR-GENMSMD (ANR-16-CE17-0005-01, to J.B.), <italic>Institut National de la Sant&#xE9; et de la Recherche M&#xE9;dicale</italic> (INSERM), Paris Descartes University and The Rockefeller University. E.K.D., C.S.M. and S.G.T. are supported by research grants and fellowships from the National Health and Medical Research Council of Australia. DL was supported by a fellowship from the <italic>Fonds de Recherche du Qu&#xE9;bec Sant&#xE9;</italic>. Work in the P.G. laboratory was supported by a grant from the National Institute of Allergy and Infectious Diseases (R01AI035237-19). The work at the Institute for Research in Biomedicine is supported by grants from the ERC (323183 PREDICT, to F.S.), the Swiss National Science Foundation (170213 to F.S.) and the Helmut Horten Foundation. This work was supported by Award U19AI118626, NIH NIAID (to A.S. and F.S.).</p>
+    </ack>
+    <fn-group>
+      <fn id="FN2">
+        <p id="P48">
+          <bold>Data availability</bold>
+        </p>
+        <p id="P49">WES data supporting the findings of this study have been deposited in Sequence Read Archive (SRA). Accession numbers: SRP149902. The authors declare that all other data supporting the findings of this paper are available within the paper.</p>
+      </fn>
+      <fn id="FN3" fn-type="con">
+        <p id="P44">
+          <bold>Author contributions</bold>
+        </p>
+        <p id="P45">X.-F.K., R.M.-B., J.K., F.M., T. Lazarov, E.K.D., D. Langlais, C.S.M., G.B., T. Lasseau, L.A., C.T., S.B.-D., M.C.N., D. Latorre, J.M., B.S., K.L., G.R., S.G.T., F.G., F.S., P.G., J.B. and J.-L.C. designed experiments. X.-F.K., R.M.-B., F.M., J.K., T. Lasseau, E.K.D., D. Langlais, G.R., C.T., C.S.M., J.M., G.B., J.M., C.T., T. Lazarov, C.D., K.B.L. and D. Latorre conducted experiments. F.J.-H., Y.I. and L.A. performed bioinformatics analysis. X.-F.K, R.M.-B., F.M., J.K., T. Lazarov, E.K.D., D. Langlais, C.S.M., G.B., S.H., L.A., S.B.D., M.C.N., B.S., G.R., S.G.T., F.G., F.S., K.L., P.G., J.B. and J.-L.C. analyzed and/or interpreted data. A.B., C.A., C.P., K.A., D.M.-V., F.A., A.I., F.D. and I.B. provided samples and performed clinical diagnoses and follow-up of the patients. C.S.L.A., A.S. and B.S. contributed critical materials. J.B., J.-L.C. supervised the study. X.-F.K., R.M.-B. and J.-L.C. wrote the manuscript and designed the figures, with contributions from all other authors. All authors edited the manuscript and approved its final version.</p>
+      </fn>
+      <fn fn-type="COI-statement" id="FN4">
+        <p id="P46">
+          <bold>Competing financial interests</bold>
+        </p>
+        <p id="P47">The authors have no competing financial interests to declare.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="R1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bustamante</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mendelian susceptibility to mycobacterial disease: Genetic, immunological, and clinical features of inborn errors of IFN-gamma immunity</article-title>
+          <source>Semin Immunol</source>
+          <year>2014</year>
+          <volume>26</volume>
+          <fpage>454</fpage>
+          <lpage>470</lpage>
+          <pub-id pub-id-type="pmid">25453225</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Casanova</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Abel</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic dissection of immunity to mycobacteria: the human model</article-title>
+          <source>Annu Rev Immunol</source>
+          <year>2002</year>
+          <volume>20</volume>
+          <fpage>581</fpage>
+          <lpage>620</lpage>
+          <pub-id pub-id-type="pmid">11861613</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>de Beaucoudrey</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Revisiting human IL-12Rbeta1 deficiency: a survey of 141 patients from 30 countries</article-title>
+          <source>Medicine</source>
+          <year>2010</year>
+          <volume>89</volume>
+          <fpage>381</fpage>
+          <lpage>402</lpage>
+          <pub-id pub-id-type="pmid">21057261</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dupuis</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Human interferon-gamma-mediated immunity is a genetically controlled continuous trait that determines the outcome of mycobacterial invasion</article-title>
+          <source>Immunol Rev</source>
+          <year>2000</year>
+          <volume>178</volume>
+          <fpage>129</fpage>
+          <lpage>137</lpage>
+          <pub-id pub-id-type="pmid">11213797</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kreins</surname>
+              <given-names>AY</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Human TYK2 deficiency: Mycobacterial and viral infections without hyper-IgE syndrome</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2015</year>
+          <volume>212</volume>
+          <fpage>1641</fpage>
+          <lpage>1662</lpage>
+          <pub-id pub-id-type="pmid">26304966</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bogunovic</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mycobacterial disease and impaired IFN-gamma immunity in humans with inherited ISG15 deficiency</article-title>
+          <source>Science</source>
+          <year>2012</year>
+          <volume>337</volume>
+          <fpage>1684</fpage>
+          <lpage>1688</lpage>
+          <pub-id pub-id-type="pmid">22859821</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bustamante</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Germline CYBB mutations that selectively affect macrophages in kindreds with X-linked predisposition to tuberculous mycobacterial disease</article-title>
+          <source>Nat Immunol</source>
+          <year>2011</year>
+          <volume>12</volume>
+          <fpage>213</fpage>
+          <lpage>221</lpage>
+          <pub-id pub-id-type="pmid">21278736</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boisson-Dupuis</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Inherited and acquired immunodeficiencies underlying tuberculosis in childhood</article-title>
+          <source>Immunol Rev</source>
+          <year>2015</year>
+          <volume>264</volume>
+          <fpage>103</fpage>
+          <lpage>120</lpage>
+          <pub-id pub-id-type="pmid">25703555</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nathan</surname>
+              <given-names>CF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of interferon-gamma as the lymphokine that activates human macrophage oxidative metabolism and antimicrobial activity</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>1983</year>
+          <volume>158</volume>
+          <fpage>670</fpage>
+          <lpage>689</lpage>
+          <pub-id pub-id-type="pmid">6411853</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Prando</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Inherited IL-12p40 deficiency: genetic, immunologic, and clinical features of 49 patients from 30 kindreds</article-title>
+          <source>Medicine</source>
+          <year>2013</year>
+          <volume>92</volume>
+          <fpage>109</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="pmid">23429356</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kong</surname>
+              <given-names>XF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A novel homozygous p.R1105X mutation of the AP4E1 gene in twins with hereditary spastic paraplegia and mycobacterial disease</article-title>
+          <source>PLoS One</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <fpage>e58286</fpage>
+          <pub-id pub-id-type="pmid">23472171</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Itan</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The mutation significance cutoff: gene-level thresholds for variant predictions</article-title>
+          <source>Nature methods</source>
+          <year>2016</year>
+          <volume>13</volume>
+          <fpage>109</fpage>
+          <lpage>110</lpage>
+          <pub-id pub-id-type="pmid">26820543</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Voss</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mechanism, specificity, and physiology of signal peptide peptidase (SPP) and SPP-like proteases</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>2013</year>
+          <volume>1828</volume>
+          <fpage>2828</fpage>
+          <lpage>2839</lpage>
+          <pub-id pub-id-type="pmid">24099004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brady</surname>
+              <given-names>OA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Regulated intramembrane proteolysis of the frontotemporal lobar degeneration risk factor, TMEM106B, by signal peptide peptidase-like 2a (SPPL2a)</article-title>
+          <source>J Biol Chem</source>
+          <year>2014</year>
+          <volume>289</volume>
+          <fpage>19670</fpage>
+          <lpage>19680</lpage>
+          <pub-id pub-id-type="pmid">24872421</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fluhrer</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A gamma-secretase-like intramembrane cleavage of TNFalpha by the GxGD aspartyl protease SPPL2b</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>894</fpage>
+          <lpage>896</lpage>
+          <pub-id pub-id-type="pmid">16829951</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Friedmann</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SPPL2a and SPPL2b promote intramembrane proteolysis of TNFalpha in activated dendritic cells to trigger IL-12 production</article-title>
+          <source>Nature cell biology</source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>843</fpage>
+          <lpage>848</lpage>
+          <pub-id pub-id-type="pmid">16829952</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kirkin</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Fas ligand intracellular domain is released by ADAM10 and SPPL2a cleavage in T-cells</article-title>
+          <source>Cell Death Differ</source>
+          <year>2007</year>
+          <volume>14</volume>
+          <fpage>1678</fpage>
+          <lpage>1687</lpage>
+          <pub-id pub-id-type="pmid">17557115</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Regulated intramembrane proteolysis of Bri2 (Itm2b) by ADAM10 and SPPL2a/SPPL2b</article-title>
+          <source>J Biol Chem</source>
+          <year>2008</year>
+          <volume>283</volume>
+          <fpage>1644</fpage>
+          <lpage>1652</lpage>
+          <pub-id pub-id-type="pmid">17965014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beisner</surname>
+              <given-names>DR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The intramembrane protease Sppl2a is required for B cell and DC development and survival via cleavage of the invariant chain</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2013</year>
+          <volume>210</volume>
+          <fpage>23</fpage>
+          <lpage>30</lpage>
+          <pub-id pub-id-type="pmid">23267013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bergmann</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>B cell survival, surface BCR and BAFFR expression, CD74 metabolism, and CD8- dendritic cells require the intramembrane endopeptidase SPPL2A</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2013</year>
+          <volume>210</volume>
+          <fpage>31</fpage>
+          <lpage>40</lpage>
+          <pub-id pub-id-type="pmid">23267016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schneppenheim</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The intramembrane protease SPPL2a promotes B cell development and controls endosomal traffic by cleavage of the invariant chain</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2013</year>
+          <volume>210</volume>
+          <fpage>41</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="pmid">23267015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fleck</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Proteolytic Processing of Neuregulin 1 Type III by Three Intramembrane-cleaving Proteases</article-title>
+          <source>J Biol Chem</source>
+          <year>2016</year>
+          <volume>291</volume>
+          <fpage>318</fpage>
+          <lpage>333</lpage>
+          <pub-id pub-id-type="pmid">26574544</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Itan</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The human gene connectome as a map of short cuts for morbid allele discovery</article-title>
+          <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+          <year>2013</year>
+          <volume>110</volume>
+          <fpage>5558</fpage>
+          <lpage>5563</lpage>
+          <pub-id pub-id-type="pmid">23509278</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genomics is rapidly advancing precision medicine for immunological disorders</article-title>
+          <source>Nat Immunol</source>
+          <year>2015</year>
+          <volume>16</volume>
+          <fpage>1001</fpage>
+          <lpage>1004</lpage>
+          <pub-id pub-id-type="pmid">26382860</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rieux-Laucat</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Inherited and acquired death receptor defects in human Autoimmune Lymphoproliferative Syndrome</article-title>
+          <source>Current directions in autoimmunity</source>
+          <year>2006</year>
+          <volume>9</volume>
+          <fpage>18</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="pmid">16394653</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ai</surname>
+              <given-names>JW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Risk of Tuberculosis in Patients with Rheumatoid Arthritis Treated with Tumor Necrosis Factor-alpha Antagonist: A Metaanalysis of Both Randomized Controlled Trials and Registry/Cohort Studies</article-title>
+          <source>The Journal of rheumatology</source>
+          <year>2015</year>
+          <volume>42</volume>
+          <fpage>2229</fpage>
+          <lpage>2237</lpage>
+          <pub-id pub-id-type="pmid">26472414</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moreno-De-Luca</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Adaptor protein complex-4 (AP-4) deficiency causes a novel autosomal recessive cerebral palsy syndrome with microcephaly and intellectual disability</article-title>
+          <source>Journal of medical genetics</source>
+          <year>2011</year>
+          <volume>48</volume>
+          <fpage>141</fpage>
+          <lpage>144</lpage>
+          <pub-id pub-id-type="pmid">20972249</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schneppenheim</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Signal-peptide-peptidase-like 2a is required for CD74 intramembrane proteolysis in human B cells</article-title>
+          <source>Biochemical and biophysical research communications</source>
+          <year>2014</year>
+          <volume>451</volume>
+          <fpage>48</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="pmid">25035924</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Becker-Herman</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>CD74 is a member of the regulated intramembrane proteolysis-processed protein family</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2005</year>
+          <volume>16</volume>
+          <fpage>5061</fpage>
+          <lpage>5069</lpage>
+          <pub-id pub-id-type="pmid">16107560</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hambleton</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>IRF8 mutations and human dendritic-cell immunodeficiency</article-title>
+          <source>N Engl J Med</source>
+          <year>2011</year>
+          <volume>365</volume>
+          <fpage>127</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="pmid">21524210</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bridgeford</surname>
+              <given-names>EC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Agammaglobulinemia and Staphylococcus aureus botryomycosis in a cohort of related sentinel Swiss Webster mice</article-title>
+          <source>Journal of clinical microbiology</source>
+          <year>2008</year>
+          <volume>46</volume>
+          <fpage>1881</fpage>
+          <lpage>1884</lpage>
+          <pub-id pub-id-type="pmid">18322060</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Conley</surname>
+              <given-names>ME</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Primary B cell immunodeficiencies: comparisons and contrasts</article-title>
+          <source>Annu Rev Immunol</source>
+          <year>2009</year>
+          <volume>27</volume>
+          <fpage>199</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="pmid">19302039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reynolds</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Haniffa</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Human and Mouse Mononuclear Phagocyte Networks: A Tale of Two Species?</article-title>
+          <source>Front Immunol</source>
+          <year>2015</year>
+          <volume>6</volume>
+          <fpage>330</fpage>
+          <pub-id pub-id-type="pmid">26124761</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merad</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The dendritic cell lineage: ontogeny and function of dendritic cells and their subsets in the steady state and the inflamed setting</article-title>
+          <source>Annu Rev Immunol</source>
+          <year>2013</year>
+          <volume>31</volume>
+          <fpage>563</fpage>
+          <lpage>604</lpage>
+          <pub-id pub-id-type="pmid">23516985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Iwakoshi</surname>
+              <given-names>NN</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The transcription factor XBP-1 is essential for the development and survival of dendritic cells</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2007</year>
+          <volume>204</volume>
+          <fpage>2267</fpage>
+          <lpage>2275</lpage>
+          <pub-id pub-id-type="pmid">17875675</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dickinson</surname>
+              <given-names>RE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The evolution of cellular deficiency in GATA2 mutation</article-title>
+          <source>Blood</source>
+          <year>2014</year>
+          <volume>123</volume>
+          <fpage>863</fpage>
+          <lpage>874</lpage>
+          <pub-id pub-id-type="pmid">24345756</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bigley</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dendritic cell analysis in primary immunodeficiency</article-title>
+          <source>Curr Opin Allergy Clin Immunol</source>
+          <year>2016</year>
+          <volume>16</volume>
+          <fpage>530</fpage>
+          <lpage>540</lpage>
+          <pub-id pub-id-type="pmid">27755182</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vignali</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Kuchroo</surname>
+              <given-names>VK</given-names>
+            </name>
+          </person-group>
+          <article-title>IL-12 family cytokines: immunological playmakers</article-title>
+          <source>Nat Immunol</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>722</fpage>
+          <lpage>728</lpage>
+          <pub-id pub-id-type="pmid">22814351</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>See</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mapping the human DC lineage through the integration of high-dimensional techniques</article-title>
+          <source>Science</source>
+          <year>2017</year>
+          <volume>356</volume>
+        </element-citation>
+      </ref>
+      <ref id="R40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Villani</surname>
+              <given-names>AC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors</article-title>
+          <source>Science</source>
+          <year>2017</year>
+          <volume>356</volume>
+        </element-citation>
+      </ref>
+      <ref id="R41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Breton</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Circulating precursors of human CD1c+ and CD141+ dendritic cells</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2015</year>
+          <volume>212</volume>
+          <fpage>401</fpage>
+          <lpage>413</lpage>
+          <pub-id pub-id-type="pmid">25687281</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ma</surname>
+              <given-names>CS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Unique and shared signaling pathways cooperate to regulate the differentiation of human CD4+ T cells into distinct effector subsets</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2016</year>
+          <volume>213</volume>
+          <fpage>1589</fpage>
+          <lpage>1608</lpage>
+          <pub-id pub-id-type="pmid">27401342</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Teng</surname>
+              <given-names>MW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>IL-12 and IL-23 cytokines: from discovery to targeted therapies for immune-mediated inflammatory diseases</article-title>
+          <source>Nature medicine</source>
+          <year>2015</year>
+          <volume>21</volume>
+          <fpage>719</fpage>
+          <lpage>729</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Acosta-Rodriguez</surname>
+              <given-names>EV</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Surface phenotype and antigenic specificity of human interleukin 17-producing T helper memory cells</article-title>
+          <source>Nature immunology</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>639</fpage>
+          <lpage>646</lpage>
+          <pub-id pub-id-type="pmid">17486092</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geiger</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Human naive and memory CD4+ T cell repertoires specific for naturally processed antigens analyzed using libraries of amplified T cells</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2009</year>
+          <volume>206</volume>
+          <fpage>1525</fpage>
+          <lpage>1534</lpage>
+          <pub-id pub-id-type="pmid">19564353</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marquis</surname>
+              <given-names>JF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Interferon regulatory factor 8 regulates pathways for antigen presentation in myeloid cells and during tuberculosis</article-title>
+          <source>PLoS Genet</source>
+          <year>2011</year>
+          <volume>7</volume>
+          <fpage>e1002097</fpage>
+          <pub-id pub-id-type="pmid">21731497</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berghout</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Irf8-regulated genomic responses drive pathological inflammation during cerebral malaria</article-title>
+          <source>PLoS Pathog</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <fpage>e1003491</fpage>
+          <pub-id pub-id-type="pmid">23853600</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bigley</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The human syndrome of dendritic cell, monocyte, B and NK lymphoid deficiency</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2011</year>
+          <volume>208</volume>
+          <fpage>227</fpage>
+          <lpage>234</lpage>
+          <pub-id pub-id-type="pmid">21242295</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kindler</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The inducing role of tumor necrosis factor in the development of bactericidal granulomas during BCG infection</article-title>
+          <source>Cell</source>
+          <year>1989</year>
+          <volume>56</volume>
+          <fpage>731</fpage>
+          <lpage>740</lpage>
+          <pub-id pub-id-type="pmid">2647299</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Keane</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Tuberculosis associated with infliximab, a tumor necrosis factor alpha-neutralizing agent</article-title>
+          <source>N Engl J Med</source>
+          <year>2001</year>
+          <volume>345</volume>
+          <fpage>1098</fpage>
+          <lpage>1104</lpage>
+          <pub-id pub-id-type="pmid">11596589</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R51">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mart&#xED;nez-Barricarte</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Transduction of Herpesvirus saimiri-Transformed T Cells with Exogenous Genes of Interest</article-title>
+          <source>Curr Protoc Immunol</source>
+          <year>2016</year>
+          <volume>115</volume>
+          <fpage>7.21C.21</fpage>
+          <lpage>27.21C.12</lpage>
+          <pub-id pub-id-type="pmid">27801513</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schneppenheim</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The intramembrane proteases signal Peptide peptidase-like 2a and 2b have distinct functions in vivo</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2014</year>
+          <volume>34</volume>
+          <fpage>1398</fpage>
+          <lpage>1411</lpage>
+          <pub-id pub-id-type="pmid">24492962</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R53">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Durbin</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>1754</fpage>
+          <lpage>1760</lpage>
+          <pub-id pub-id-type="pmid">19451168</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R54">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McKenna</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</article-title>
+          <source>Genome research</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>1297</fpage>
+          <lpage>1303</lpage>
+          <pub-id pub-id-type="pmid">20644199</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R55">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</article-title>
+          <source>Nucleic acids research</source>
+          <year>2010</year>
+          <volume>38</volume>
+          <fpage>e164</fpage>
+          <pub-id pub-id-type="pmid">20601685</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R56">
+        <label>56</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Purcell</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PLINK: a tool set for whole-genome association and population-based linkage analyses</article-title>
+          <source>American journal of human genetics</source>
+          <year>2007</year>
+          <volume>81</volume>
+          <fpage>559</fpage>
+          <lpage>575</lpage>
+          <pub-id pub-id-type="pmid">17701901</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R57">
+        <label>57</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abecasis</surname>
+              <given-names>GR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Merlin--rapid analysis of dense genetic maps using sparse gene flow trees</article-title>
+          <source>Nature genetics</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>97</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="pmid">11731797</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R58">
+        <label>58</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Breton</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Defining human dendritic cell progenitors by multiparametric flow cytometry</article-title>
+          <source>Nature protocols</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <fpage>1407</fpage>
+          <lpage>1422</lpage>
+          <pub-id pub-id-type="pmid">26292072</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R59">
+        <label>59</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Avery</surname>
+              <given-names>DT</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>B cell-intrinsic signaling through IL-21 receptor and STAT3 is required for establishing long-lived antibody responses in humans</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2010</year>
+          <volume>207</volume>
+          <fpage>155</fpage>
+          <lpage>171</lpage>
+          <pub-id pub-id-type="pmid">20048285</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R60">
+        <label>60</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lindestam Arlehamn</surname>
+              <given-names>CS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A Quantitative Analysis of Complexity of Human Pathogen-Specific CD4 T Cell Responses in Healthy M. tuberculosis Infected South Africans</article-title>
+          <source>PLoS Pathog</source>
+          <year>2016</year>
+          <volume>12</volume>
+          <fpage>e1005760</fpage>
+          <pub-id pub-id-type="pmid">27409590</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R61">
+        <label>61</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gros</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genetic control of natural resistance to Mycobacterium bovis (BCG) in mice</article-title>
+          <source>Journal of immunology</source>
+          <year>1981</year>
+          <volume>127</volume>
+          <fpage>2417</fpage>
+          <lpage>2421</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R62">
+        <label>62</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Langlais</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The macrophage IRF8/IRF1 regulome is required for protection against infections and is associated with chronic inflammation</article-title>
+          <source>The Journal of experimental medicine</source>
+          <year>2016</year>
+          <volume>213</volume>
+          <fpage>585</fpage>
+          <lpage>603</lpage>
+          <pub-id pub-id-type="pmid">27001747</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R63">
+        <label>63</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ng</surname>
+              <given-names>SL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>I&#x3BA;B kinase epsilon (IKK(epsilon)) regulates the balance between type I and type II interferon responses</article-title>
+          <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+          <year>2011</year>
+          <volume>108</volume>
+          <fpage>21170</fpage>
+          <lpage>21175</lpage>
+          <pub-id pub-id-type="pmid">22171011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R64">
+        <label>64</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mancino</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A dual cis-regulatory code links IRF8 to constitutive and inducible gene expression in macrophages</article-title>
+          <source>Genes &amp; development</source>
+          <year>2015</year>
+          <volume>29</volume>
+          <fpage>394</fpage>
+          <lpage>408</lpage>
+          <pub-id pub-id-type="pmid">25637355</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R65">
+        <label>65</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barish</surname>
+              <given-names>GD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Bcl-6 and NF-kappaB cistromes mediate opposing regulation of the innate immune response</article-title>
+          <source>Genes &amp; development</source>
+          <year>2010</year>
+          <volume>24</volume>
+          <fpage>2760</fpage>
+          <lpage>2765</lpage>
+          <pub-id pub-id-type="pmid">21106671</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R66">
+        <label>66</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saliba</surname>
+              <given-names>DG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>IRF5:RelA interaction targets inflammatory genes in macrophages</article-title>
+          <source>Cell reports</source>
+          <year>2014</year>
+          <volume>8</volume>
+          <fpage>1308</fpage>
+          <lpage>1317</lpage>
+          <pub-id pub-id-type="pmid">25159141</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R67">
+        <label>67</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaikkonen</surname>
+              <given-names>MU</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Remodeling of the enhancer landscape during macrophage activation is coupled to enhancer transcription</article-title>
+          <source>Mol Cell</source>
+          <year>2013</year>
+          <volume>51</volume>
+          <fpage>310</fpage>
+          <lpage>325</lpage>
+          <pub-id pub-id-type="pmid">23932714</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R68">
+        <label>68</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ostuni</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Latent enhancers activated by stimulation in differentiated cells</article-title>
+          <source>Cell</source>
+          <year>2013</year>
+          <volume>152</volume>
+          <fpage>157</fpage>
+          <lpage>171</lpage>
+          <pub-id pub-id-type="pmid">23332752</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R69">
+        <label>69</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heinz</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Simple combinations of lineage-determining transcription factors prime cis-regulatory elements required for macrophage and B cell identities</article-title>
+          <source>Mol Cell</source>
+          <year>2010</year>
+          <volume>38</volume>
+          <fpage>576</fpage>
+          <lpage>589</lpage>
+          <pub-id pub-id-type="pmid">20513432</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R70">
+        <label>70</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thorvaldsdottir</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration</article-title>
+          <source>Briefings in bioinformatics</source>
+          <year>2013</year>
+          <volume>14</volume>
+          <fpage>178</fpage>
+          <lpage>192</lpage>
+          <pub-id pub-id-type="pmid">22517427</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <title>Discovery and in vitro characterization of <italic>SPPL2A</italic> mutations.</title>
+        <p><bold>a</bold>) Pedigrees and familial segregation of the two mutations are shown. In red, M denotes the mutation in each family as indicated above each pedigree. Solid symbols indicate affected individuals. <bold>b)</bold> Schematic representation of the <italic>SPPL2A</italic> gene. Each numbered box represents an exon. The mutations studied here are marked in red. Black exons were spliced out due to the mutations. <bold>c)</bold> CADD score (<italic>y</italic>-axis) against minor allele frequency (MAF, <italic>x</italic>-axis) for the mutations found in our patients and homozygous variations described in the gnomAD database. <bold>d)</bold> PCR of exons 4 to 7 and 13 to 15 of <italic>SPPL2A</italic> cDNA from SV40-Fibroblasts, EBV-B cells and PBMC from healthy controls, the three patients and their relatives. GF is the paternal grandfather (WT/WT) and F is the father (WT/M) from kindred B. Results shown are representative of two independent experiments. <bold>e)</bold> Schematic representation of the structure of WT SPPL2a in which the variants from Fig. 1c are indicated. The schemes in the lower part of the figure show the predicted consequences of the mutations. Each mutation causes a frameshift leading to a predicted non-canonical sequence indicated in red and a premature stop codon, at positions 219 and 452, respectively. <bold>f)</bold> Immunoblot analysis of SPPL2a in HEK293T cells left non-transfected (NT) or transfected with an empty vector (EV), WT <italic>SPPL2A</italic>, <italic>SPPL2A&#x394;ex6</italic> or <italic>SPPL2A&#x394;ex14,</italic> all C-terminally V5 tagged. Two Abs were used: an N-terminal anti-SPPL2a and an anti-V5 tag. GAPDH served as a protein loading control. Results shown are representative of three independent experiments.</p>
+      </caption>
+      <graphic xlink:href="emss-78488-f001"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <title>A lack of SPPL2a function leads to the accumulation of CD74 NTF.</title>
+        <p><bold>a)</bold> Schematic representation of CD74 proteolytic processing by aspartic proteases (AP), cysteine proteases (CP), cathepsin S (CS) and SPPL2a. <bold>b)</bold> Imagestream analysis of EBV-B cells from P1 and a healthy control (C1). Intracellular staining for SPPL2a and CD74 individually or combined, SSC, bright field (BF) and live/dead marker are shown. <bold>c)</bold> Immunoblot analysis of SPPL2a and CD74 of EBV-B cells from P1, either non-transduced (NT), transduced with a retrovirus produced with an empty vector (EV) or a WT <italic>SPPL2A</italic> allele, IFN-&#x3B3;-stimulated SV40-Fibroblasts from P2 and PBMCs from P3 and appropriate controls. GAPDH served as a loading control. <bold>d)</bold> Immunoblot analysis of SPPL2a and CD74 of EBV-B cells from P1, NT, EV, transduced with a retrovirus containing a WT <italic>SPPL2A</italic> allele, or the variants shown in <xref ref-type="fig" rid="F1">Fig. 1c</xref>. GAPDH served as a loading control. <bold>e)</bold> Immunoblot analysis of CD74 in healthy control EBV-B cells treated with DMSO, L-685,458, DAPT, (Z-LL)<sub>2</sub>, or (E64d) and P1 EBV-B cells. GAPDH served as a loading control. <bold>f)</bold> Intracellular CD74 levels in monocytes, B and T cells from P1-P3 and controls normalized against the MFI of the CD74 signal in B cells from healthy controls. <italic>t</italic>-test with a 95% confidence was used (* p&lt;0.05). <bold>g)</bold> MFI of cell-surface CD74 expression for the same samples as in Fig. 2f. <bold>h)</bold> Intracellular CD74 staining of different immune cell subsets with and without L-685,458 or DAPT treatment. (b-e and h were each tested twice with identical results. f and g were done once. Graphs show mean and S.D.).</p>
+      </caption>
+      <graphic xlink:href="emss-78488-f002"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <title>Mature dendritic cell immunophenotyping.</title>
+        <p>The frequencies of three subsets of circulating DCs were assessed in healthy controls, AR SPPL2a deficient patients, AD IRF8 deficient patients and family members. FACS plots coming from <xref ref-type="supplementary-material" rid="SD2">Fig. S4a</xref>, quantification as % of PBMCs and as cells per ml showing the normal range values from Thiant <italic>et al.</italic> (2017) as a dashed square are shown for <bold>a-c)</bold> cDC2, <bold>d-f)</bold> cDC1 and <bold>g-i)</bold> pDC. <bold>j)</bold> Total frequency of myeloid DCs.</p>
+        <p>The two AD IRF8 deficient patients were immunophenotyped twice for b, h and j but only individual values were used for statistical analysis. An unpaired two-tailed <italic>t</italic>-test with a 95% confidence interval was used (* p&lt;0.05). Non-significant results are not shown. All graphs show the mean with or without S.E.M. All these experiments were performed twice with identical results with the exception of cDC1 immunophenotyping for AR IRF8 deficient patient for d, e and f which was performed once.</p>
+      </caption>
+      <graphic xlink:href="emss-78488-f003"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <title>Progenitor DC immunophenotyping and DC <italic>in vitro</italic> differentiation.</title>
+        <p><bold>a)</bold> Frequencies of BNKP, CMP, MEP, GMP, HSC/MPP, LMPP and MLP progenitors in healthy controls and SPPL2a-deficient patients. Gating in <xref ref-type="supplementary-material" rid="SD2">Fig. S5a,b</xref>. <bold>b)</bold> Frequency of CD34<sup>+</sup>HLA-DR<sup>+</sup> progenitors in healthy controls and SPPL2a-deficient patients. Gating in <xref ref-type="supplementary-material" rid="SD2">Fig. S4d</xref>. <bold>c)</bold> Frequency of early pre-DCs in healthy controls and SPPL2a-deficient patients. Gating is shown in <xref ref-type="supplementary-material" rid="SD2">Fig. S4f</xref>. <bold>d)</bold> Differentiation potential of GMDPs in MS-5 stromal cells + cytokines cultured with or without SPPL2a inhibitor (L-685,458), DAPT or DMSO. <bold>e)</bold> Percentage of dead cells, for single CD45<sup>+</sup> cells either untreated or treated with L-685,458, DAPT or DMSO. <bold>f)</bold> Intracellular CD74 levels incDC1s, cDC2s, pDCs and monocytes, after the in vitro differentiation from GMDPs, with or without L-685,458, DAPT or DMSO. <bold>g)</bold> MFI for intracellular CD74 from (f) normalized against the values of the untreated samples to show fold-accumulation.</p>
+        <p>An unpaired two-tailed <italic>t</italic>-test with a 95% confidence interval was used (* p&lt;0.05, ** p&lt;0.01). Non-significant results are not shown. All graphs show the mean with or without S.D. Immunophenotyping for a-c was done once. d, f and g show the representative results of one out of three experiments.</p>
+      </caption>
+      <graphic xlink:href="emss-78488-f004"/>
+    </fig>
+    <fig id="F5" orientation="portrait" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <title>SPPL2a, IRF8 and CD74 profiling in leukocytes and CD4<sup>+</sup> T cell studies in patients with AR SPPL2a and AD IRF8 deficiencies.</title>
+        <p><bold>a)</bold> Expression of SPPL2a, IRF8 and CD74 in the various subsets indicated on the <italic>y</italic>-axis. MFI was normalized against the levels of expression in CD14<sup>+</sup>CD16<sup>-</sup> monocytes. <bold>b)</bold> Example of the gating strategy used for (c). <bold>c)</bold> Frequencies of four populations of CD4<sup>+</sup> memory T cells: Th1 (CCR6<sup>-</sup>CCR4<sup>-</sup>CXCR3<sup>+</sup>), Th1* (CCR6<sup>+</sup>CCR4<sup>-</sup>CXCR3<sup>+</sup>), Th17 (CCR6<sup>+</sup>CCR4<sup>+</sup>CXCR3<sup>-</sup>) and Th2 (CCR6<sup>-</sup>CCR4<sup>+</sup>CXCR3<sup>-</sup>). <bold>d)</bold> Na&#xEF;ve and memory CD4<sup>+</sup> T cells from healthy controls and patients with AR SPPL2a deficiency were stimulated with TAE beads and the production of IFN-&#x3B3;, IL-4 and IL-17F was measured after five days. <bold>e)</bold> Na&#xEF;ve CD4<sup>+</sup> T cells from healthy controls and patients with AR SPPL2a deficiency were cultured with TAE beads, alone or under Th1, Th2 or Th17 polarizing conditions. IFN-&#x3B3;, IL-10 and IL-17F levels were determined in the corresponding polarizing conditions 5 days later. <bold>f)</bold> Na&#xEF;ve CD4<sup>+</sup> T cells from healthy controls and a patient with AD IRF8 deficiency were cultured with TAE beads, alone or under Th1, Th2 or Th17 polarizing conditions. IFN-&#x3B3;, IL-13 and IL-17A levels were determined in the corresponding polarizing conditions 5 days later. <bold>g)</bold> Na&#xEF;ve and memory CD4<sup>+</sup> T cells from healthy controls and patients with AR SPPL2a deficiency were stimulated with TAE beads and the production of Th1 cytokines (IFN-&#x3B3; and TNF), Th2 cytokines (IL-4, IL-5 and IL-13) and Th17 cytokines (IL-17A/F and IL-22) was measured after 5 days. The graphs in this figure show the mean and S.E.M.</p>
+      </caption>
+      <graphic xlink:href="emss-78488-f005"/>
+    </fig>
+    <fig id="F6" orientation="portrait" position="float">
+      <label>Figure 6</label>
+      <caption>
+        <title>BCG and MTB-specific CD4<sup>+</sup>CCR6<sup>+</sup> T cells from SPPL2a-mutant individuals display impaired IFN-&#x3B3; production.</title>
+        <p><bold>a)</bold> Frequency of CD4<sup>+</sup> T cells reactive with the indicated antigens in the CCR6<sup>+</sup> memory subsets (comprising T<sub>H</sub>17 and T<sub>H</sub>1* cells) from controls, patients with AR SPPL2a deficiency and patients with AD IRF8 deficiency. <bold>b)</bold> IFN-&#x3B3; production by BCG-specific or <bold>c)</bold> MTB-specific CD4<sup>+</sup> T cells from the CCR6<sup>+</sup> memory subsets. ND indicates non-determined, due to the absence of cell lines proliferating in response to these stimuli. <bold>d)</bold> IFN-&#x3B3; production by virus-specific CD4<sup>+</sup>CCR6<sup>&#x2013;</sup> cell lines from healthy controls, and patients with AR SPPL2a deficiency or AD IRF8 deficiency. The virus assessed and the individual from which the sample was obtained are indicated under each bar. The <italic>p</italic> values observed in this figure correspond to an unpaired two-tailed <italic>t</italic>-test with a 95% confidence interval (**** p&lt;0.0001). Non-significant results are not shown. All graphs show mean and S.E.M.</p>
+      </caption>
+      <graphic xlink:href="emss-78488-f006"/>
+    </fig>
+    <fig id="F7" orientation="portrait" position="float">
+      <label>Figure 7</label>
+      <caption>
+        <title>Sppl2a deficiency causes DC deficiencies and a predisposition to mycobacterial infection in mice.</title>
+        <p><bold>a)</bold> Frequencies of CD11c<sup>+</sup>CD8<sup>+</sup> (cDC1) and CD11c<sup>+</sup>CD11b<sup>+</sup> (cDC2) dendritic cells in non-infected B6 WT and <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice, measured as a total number of cells. <bold>b)</bold> Spleen index and <bold>c)</bold> BCG CFU count of B6 WT and <italic>sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice 3 and 6 weeks after BCG infection. <bold>d)</bold> Measurement of supernatant IFN-&#x3B3; levels 3 and 6 weeks after infection. <bold>e)</bold> Percentages of IFN-&#x3B3;<sup>+</sup> and TNF<sup>+</sup> CD4 and CD8 T cells in <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice. <bold>f)</bold> Survival curve of <italic>Sppl2a</italic><sup>&#x2013;/&#x2013;</sup> and B6 WT mice infected with a MTB aerosol. <bold>g)</bold> MTB CFU counts of B6 WT and <italic>sppl2a</italic><sup>&#x2013;/&#x2013;</sup> mice 30 and 60 days after infection with MTB aerosol. Quantification, in the lung, at 30 and 60 days post MTB aerosol infection, of <bold>h)</bold> total immune cells, <bold>i)</bold> CD4<sup>+</sup> T cells, <bold>j)</bold> CD8<sup>+</sup> T cells, <bold>k)</bold> neutrophils, <bold>l)</bold> CD11b<sup>+</sup>Ly6C<sup>+</sup> monocytes and <bold>m)</bold> CD11b<sup>+</sup>F4/80<sup>+</sup> macrophages, represented as total cells. <bold>n)</bold> Production of IFN-&#x3B3;, TNF and IL-12p40 by lung homogenates after re-stimulation with MTB at 30 and 60 days post-infection. The <italic>p</italic> values presented in this figure correspond to an unpaired two-tailed <italic>t</italic>-test with a 95% confidence interval (* p&lt;0.05, ** p&lt;0.01, *** p&lt;0.001, **** p&lt;0.0001). Non-significant results are not shown. All graphs except f show mean and S.E.M.</p>
+      </caption>
+      <graphic xlink:href="emss-78488-f007"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

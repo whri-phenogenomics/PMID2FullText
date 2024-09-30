@@ -1,0 +1,1521 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosgen</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-7390</issn>
+      <issn pub-type="epub">1553-7404</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, CA USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">31034465</article-id>
+      <article-id pub-id-type="pmc">6508738</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pgen.1008088</article-id>
+      <article-id pub-id-type="publisher-id">PGENETICS-D-18-02416</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Cell Biology</subject>
+            <subj-group>
+              <subject>Cellular Structures and Organelles</subject>
+              <subj-group>
+                <subject>Cilia</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Cell Biology</subject>
+            <subj-group>
+              <subject>Cellular Types</subject>
+              <subj-group>
+                <subject>Animal Cells</subject>
+                <subj-group>
+                  <subject>Connective Tissue Cells</subject>
+                  <subj-group>
+                    <subject>Fibroblasts</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Biological Tissue</subject>
+              <subj-group>
+                <subject>Connective Tissue</subject>
+                <subj-group>
+                  <subject>Connective Tissue Cells</subject>
+                  <subj-group>
+                    <subject>Fibroblasts</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Anatomy</subject>
+            <subj-group>
+              <subject>Biological Tissue</subject>
+              <subj-group>
+                <subject>Connective Tissue</subject>
+                <subj-group>
+                  <subject>Connective Tissue Cells</subject>
+                  <subj-group>
+                    <subject>Fibroblasts</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Enzymology</subject>
+              <subj-group>
+                <subject>Enzyme Chemistry</subject>
+                <subj-group>
+                  <subject>Enzyme Metabolism</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Diagnostic Medicine</subject>
+            <subj-group>
+              <subject>Diagnostic Radiology</subject>
+              <subj-group>
+                <subject>Magnetic Resonance Imaging</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Imaging Techniques</subject>
+            <subj-group>
+              <subject>Diagnostic Radiology</subject>
+              <subj-group>
+                <subject>Magnetic Resonance Imaging</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Radiology and Imaging</subject>
+            <subj-group>
+              <subject>Diagnostic Radiology</subject>
+              <subj-group>
+                <subject>Magnetic Resonance Imaging</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Ophthalmology</subject>
+            <subj-group>
+              <subject>Lens Disorders</subject>
+              <subj-group>
+                <subject>Cataracts</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Metabolic Disorders</subject>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Gene Identification and Analysis</subject>
+              <subj-group>
+                <subject>Mutation Detection</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Clinical Genetics</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Mutations in <italic>PIK3C2A</italic> cause syndromic short stature, skeletal abnormalities, and cataracts associated with ciliary dysfunction</article-title>
+        <alt-title alt-title-type="running-head">Mutations in <italic>PIK3C2A</italic> cause syndromic short stature</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Tiosano</surname>
+            <given-names>Dov</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Methodology</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Baris</surname>
+            <given-names>Hagit N.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Anlu</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff004">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Hitzert</surname>
+            <given-names>Marrit M.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff005">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Schueler</surname>
+            <given-names>Markus</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff006">
+            <sup>6</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Gulluni</surname>
+            <given-names>Federico</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Methodology</role>
+          <role content-type="http://credit.casrai.org/">Visualization</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff007">
+            <sup>7</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wiesener</surname>
+            <given-names>Antje</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff008">
+            <sup>8</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bergua</surname>
+            <given-names>Antonio</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff009">
+            <sup>9</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0487-9633</contrib-id>
+          <name>
+            <surname>Mory</surname>
+            <given-names>Adi</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Copeland</surname>
+            <given-names>Brett</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Resources</role>
+          <xref ref-type="aff" rid="aff010">
+            <sup>10</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gleeson</surname>
+            <given-names>Joseph G.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Resources</role>
+          <xref ref-type="aff" rid="aff010">
+            <sup>10</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff011">
+            <sup>11</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-4059-0247</contrib-id>
+          <name>
+            <surname>Rump</surname>
+            <given-names>Patrick</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff005">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>van Meer</surname>
+            <given-names>Hester</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff012">
+            <sup>12</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sival</surname>
+            <given-names>Deborah A.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff012">
+            <sup>12</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3119-6993</contrib-id>
+          <name>
+            <surname>Haucke</surname>
+            <given-names>Volker</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Resources</role>
+          <xref ref-type="aff" rid="aff013">
+            <sup>13</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-8819-6973</contrib-id>
+          <name>
+            <surname>Kriwinsky</surname>
+            <given-names>Josh</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff014">
+            <sup>14</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Knaup</surname>
+            <given-names>Karl X.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff006">
+            <sup>6</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Reis</surname>
+            <given-names>Andr&#xE9;</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff008">
+            <sup>8</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hauer</surname>
+            <given-names>Nadine N.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <xref ref-type="aff" rid="aff008">
+            <sup>8</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hirsch</surname>
+            <given-names>Emilio</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Methodology</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Visualization</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff007">
+            <sup>7</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Roepman</surname>
+            <given-names>Ronald</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff015">
+            <sup>15</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0584-4398</contrib-id>
+          <name>
+            <surname>Pfundt</surname>
+            <given-names>Rolph</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff015">
+            <sup>15</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3817-7277</contrib-id>
+          <name>
+            <surname>Thiel</surname>
+            <given-names>Christian T.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff008">
+            <sup>8</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="econtrib001">
+            <sup>&#x2021;</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wiesener</surname>
+            <given-names>Michael S.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff006">
+            <sup>6</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="econtrib001">
+            <sup>&#x2021;</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-5675-2031</contrib-id>
+          <name>
+            <surname>Aslanyan</surname>
+            <given-names>Mariam G.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Data curation</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff015">
+            <sup>15</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="econtrib001">
+            <sup>&#x2021;</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3920-4871</contrib-id>
+          <name>
+            <surname>Buchner</surname>
+            <given-names>David A.</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Data curation</role>
+          <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; original draft</role>
+          <role content-type="http://credit.casrai.org/">Writing &#x2013; review &amp; editing</role>
+          <xref ref-type="aff" rid="aff004">
+            <sup>4</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff014">
+            <sup>14</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff016">
+            <sup>16</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="econtrib001">
+            <sup>&#x2021;</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor001">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff001"><label>1</label>
+<addr-line>Division of Pediatric Endocrinology, Ruth Children's Hospital, Rambam Medical Center, Haifa, Israel</addr-line></aff>
+      <aff id="aff002"><label>2</label>
+<addr-line>Rappaport Family Faculty of Medicine, Technion&#x2014;Israel Institute of Technology, Haifa, Israel</addr-line></aff>
+      <aff id="aff003"><label>3</label>
+<addr-line>The Genetics Institute, Rambam Health Care Campus, Haifa, Israel</addr-line></aff>
+      <aff id="aff004"><label>4</label>
+<addr-line>Department of Biochemistry, Case Western Reserve University, Cleveland, Ohio, United States of America</addr-line></aff>
+      <aff id="aff005"><label>5</label>
+<addr-line>Department of Genetics, University of Groningen, University Medical Center Groningen, Groningen, The Netherlands</addr-line></aff>
+      <aff id="aff006"><label>6</label>
+<addr-line>Department of Nephrology and Hypertension, Friedrich-Alexander University Erlangen-N&#xFC;rnberg, Erlangen, Germany</addr-line></aff>
+      <aff id="aff007"><label>7</label>
+<addr-line>Department of Molecular Biotechnology and Health Sciences, Molecular Biotechnology Center, University of Turin, Torino, Italy</addr-line></aff>
+      <aff id="aff008"><label>8</label>
+<addr-line>Institute of Human Genetics, Friedrich-Alexander University Erlangen-N&#xFC;rnberg, Erlangen, Germany</addr-line></aff>
+      <aff id="aff009"><label>9</label>
+<addr-line>Department of Ophthalmology, Friedrich-Alexander University Erlangen-N&#xFC;rnberg, Erlangen, Germany</addr-line></aff>
+      <aff id="aff010"><label>10</label>
+<addr-line>Laboratory of Pediatric Brain Diseases, Rockefeller University, New York, New York, United States of America</addr-line></aff>
+      <aff id="aff011"><label>11</label>
+<addr-line>Department of Neurosciences, University of California, San Diego, La Jolla, California, United States of America</addr-line></aff>
+      <aff id="aff012"><label>12</label>
+<addr-line>Department of Pediatrics, Beatrix Children&#x2019;s Hospital, University of Groningen, University Medical Center Groningen, Groningen, the Netherlands</addr-line></aff>
+      <aff id="aff013"><label>13</label>
+<addr-line>Leibniz-Institut f&#xFC;r Molekulare Pharmakologie, Berlin Faculty of Biology, Chemistry, and Pharmacy, Freie Universit&#xE4;t Berlin, Berlin, Germany</addr-line></aff>
+      <aff id="aff014"><label>14</label>
+<addr-line>Department of Genetics and Genome Sciences, Case Western Reserve University, Cleveland, Ohio, United States of America</addr-line></aff>
+      <aff id="aff015"><label>15</label>
+<addr-line>Department of Human Genetics, Radboud Institute for Molecular Life Sciences, Radboud University Medical Center, Nijmegen, The Netherlands</addr-line></aff>
+      <aff id="aff016"><label>16</label>
+<addr-line>Research Institute for Children&#x2019;s Health, Case Western Reserve University, Cleveland, Ohio, United States of America</addr-line></aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Cooper</surname>
+            <given-names>Gregory M.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>HudsonAlpha Institute for Biotechnology, UNITED STATES</addr-line>
+      </aff>
+      <author-notes>
+        <fn fn-type="COI-statement" id="coi001">
+          <p>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="other" id="econtrib001">
+          <p>&#x2021; CTT, MSW, MGA and DAB also contributed equally to this work.</p>
+        </fn>
+        <corresp id="cor001">* E-mail: <email>david.buchner@case.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>29</day>
+        <month>4</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>4</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>15</volume>
+      <issue>4</issue>
+      <elocation-id>e1008088</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>12</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>3</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 Tiosano et al</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <copyright-holder>Tiosano et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:href="pgen.1008088.pdf"/>
+      <abstract>
+        <p><italic>PIK3C2A</italic> is a class II member of the phosphoinositide 3-kinase (PI3K) family that catalyzes the phosphorylation of phosphatidylinositol (PI) into PI(3)P and the phosphorylation of PI(4)P into PI(3,4)P2. At the cellular level, PIK3C2A is critical for the formation of cilia and for receptor mediated endocytosis, among other biological functions. We identified homozygous loss-of-function mutations in <italic>PIK3C2A</italic> in children from three independent consanguineous families with short stature, coarse facial features, cataracts with secondary glaucoma, multiple skeletal abnormalities, neurological manifestations, among other findings. Cellular studies of patient-derived fibroblasts found that they lacked PIK3C2A protein, had impaired cilia formation and function, and demonstrated reduced proliferative capacity. Collectively, the genetic and molecular data implicate mutations in <italic>PIK3C2A</italic> in a new Mendelian disorder of PI metabolism, thereby shedding light on the critical role of a class II PI3K in growth, vision, skeletal formation and neurological development. In particular, the considerable phenotypic overlap, yet distinct features, between this syndrome and Lowe&#x2019;s syndrome, which is caused by mutations in the PI-5-phosphatase <italic>OCRL</italic>, highlight the key role of PI metabolizing enzymes in specific developmental processes and demonstrate the unique non-redundant functions of each enzyme. This discovery expands what is known about disorders of PI metabolism and helps unravel the role of <italic>PIK3C2A</italic> and class II PI3Ks in health and disease.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author summary</title>
+        <p>Identifying the genetic basis of rare disorders can provide insight into gene function, susceptibility to disease, guide the development of new therapeutics, improve opportunities for genetic counseling, and help clinicians evaluate and potentially treat complicated clinical presentations. However, it is estimated that the genetic basis of approximately one-half of all rare genetic disorders remains unknown. We describe one such rare disorder based on genetic and clinical evaluations of individuals from 3 unrelated consanguineous families with a similar constellation of features including short stature, coarse facial features, cataracts with secondary glaucoma, multiple skeletal abnormalities, neurological manifestations including stroke, among other findings. We discovered that these features were due to deficiency of the PIK3C2A enzyme. <italic>PIK3C2A</italic> is a class II member of the phosphoinositide 3-kinase (PI3K) family that catalyzes the phosphorylation of the lipids phosphatidylinositol (PI) into PI(3)P and the phosphorylation of PI(4)P into PI(3,4)P2 that are essential for a variety of cellular processes including cilia formation and vesicle trafficking. This syndrome is the first monogenic disorder caused by mutations in a class II PI3K family member and thus sheds new light on their role in human development.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) (grants DK112846 and DK099533 to D.A.B.), the Sigma Xi Scientific Research Society (grant G201603152079889 to A.C.), the Deutsche Forschungsgemeinschaft (DFG) grants: TH 896/3-3, TH 896/3-4, TH 896/6-1, SCHU 3314/1-1, the IZKF (Interdisciplinary Centre for Clinical Research of the Universit&#xE4;t Erlangen-N&#xFC;rnberg, (FAU)) project F4, the Fondazione Italiana per la Ricerca sul Cancro (grant FIRC 19421 to F.G.), and the Johannes und Frieda Marohn-Stiftung of the FAU (WIE/2015). NIDDK: <ext-link ext-link-type="uri" xlink:href="https://www.niddk.nih.gov/">https://www.niddk.nih.gov/</ext-link> Sigma Xi Scientific Research Society: <ext-link ext-link-type="uri" xlink:href="https://www.sigmaxi.org/">https://www.sigmaxi.org/</ext-link> DFG: <ext-link ext-link-type="uri" xlink:href="http://www.dfg.de/en/">http://www.dfg.de/en/</ext-link> IZKF: <ext-link ext-link-type="uri" xlink:href="https://www.izkf.med.fau.eu/">https://www.izkf.med.fau.eu/</ext-link> FIRC: <ext-link ext-link-type="uri" xlink:href="http://www.fondazionefirc.it/">http://www.fondazionefirc.it/</ext-link> Johannes und Frieda Marohn-Stiftung: <ext-link ext-link-type="uri" xlink:href="https://www.fau.de/files/2018/03/Leitfaden-f%C3%BCr-Antragsteller_Marohn-Stiftung.pdf">https://www.fau.de/files/2018/03/Leitfaden-f%C3%BCr-Antragsteller_Marohn-Stiftung.pdf</ext-link> The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="1"/>
+        <page-count count="21"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>PLOS Publication Stage</meta-name>
+          <meta-value>vor-update-to-uncorrected-proof</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>Publication Update</meta-name>
+          <meta-value>2019-05-09</meta-value>
+        </custom-meta>
+        <custom-meta id="data-availability">
+          <meta-name>Data Availability</meta-name>
+          <meta-value>Due to privacy reasons, the whole exome sequencing datasets generated and analyzed during the current study are available from the Institute of Human Genetics of the Friedrich-Alexander-Universit&#xE4;t Erlangen N&#xFC;rnberg (FAU) and from the Genetics Institute of Rambam Health Care Campus (RHCC) upon request to the Ethics Committee of the FAU and the Helsinki committee at the RHCC in accordance with their policies. The whole exome datasets generated by Radboud Medical Center are not available due to IRB restrictions.</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <title>Data Availability</title>
+      <p>Due to privacy reasons, the whole exome sequencing datasets generated and analyzed during the current study are available from the Institute of Human Genetics of the Friedrich-Alexander-Universit&#xE4;t Erlangen N&#xFC;rnberg (FAU) and from the Genetics Institute of Rambam Health Care Campus (RHCC) upon request to the Ethics Committee of the FAU and the Helsinki committee at the RHCC in accordance with their policies. The whole exome datasets generated by Radboud Medical Center are not available due to IRB restrictions.</p>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec001">
+      <title>Introduction</title>
+      <p>Identifying the genetic basis of diseases with Mendelian inheritance provides insight into gene function, susceptibility to disease, and can guide the development of new therapeutics. To date, ~50% of the genes underlying Mendelian phenotypes have yet to be discovered [<xref rid="pgen.1008088.ref001" ref-type="bibr">1</xref>]. The disease genes that have been identified thus far have led to a better understanding of the pathophysiological pathways and to the development of medicinal products approved for the clinical treatment of such rare disorders [<xref rid="pgen.1008088.ref002" ref-type="bibr">2</xref>]. Furthermore, technological advances in DNA sequencing have facilitated the identification of novel genetic mutations that result in rare Mendelian disorders [<xref rid="pgen.1008088.ref003" ref-type="bibr">3</xref>,<xref rid="pgen.1008088.ref004" ref-type="bibr">4</xref>]. We have applied these next-generation sequencing technologies to discover mutations in <italic>PIK3C2A</italic> that cause a newly identified genetic syndrome consisting of dysmorphic features, short stature, cataracts and skeletal abnormalities.</p>
+      <p><italic>PIK3C2A</italic> is a class II member of the phosphoinositide 3-kinase (PI3K) family of lipid kinases that catalyzes the phosphorylation of phosphatidylinositol (PI) [<xref rid="pgen.1008088.ref005" ref-type="bibr">5</xref>]. PI3Ks are part of a larger regulatory network of kinases and phosphatases that act upon the hydroxyl groups on the inositol ring of PI to add or remove a phosphate group [<xref rid="pgen.1008088.ref006" ref-type="bibr">6</xref>]. The combinatorial nature of phosphorylation at the -3, -4, and -5 position of the inositol ring gives rise to seven different PI species, termed polyphosphoinositides. Among these polyphosphoinositides, class II PI3Ks are generally thought to catalyze the phosphorylation of PI and/or PI(4)P to generate PI(3)P and PI(3,4)P2, respectively [<xref rid="pgen.1008088.ref007" ref-type="bibr">7</xref>]. PI(3)P, PI(3,4)P2, and the other polyphosphoinositides each account for less than ~1% of the total phospholipid content of a cell [<xref rid="pgen.1008088.ref008" ref-type="bibr">8</xref>]. However, despite their relatively low abundance, they play central roles in a broad array of signaling pathways and are central to the pathophysiology underlying cancer, metabolic disease, and host-pathogen interactions [<xref rid="pgen.1008088.ref006" ref-type="bibr">6</xref>].</p>
+      <p>The functions of class II PI3Ks are poorly understood relative to many other kinases and phosphatases that regulate PI metabolism, in part because there was no causal link between any class II PI3K and a monogenic human disease. In contrast, a number of disorders of PI metabolism have previously been described that have provided invaluable insight into the physiological functions of specific PI metabolizing enzymes [<xref rid="pgen.1008088.ref009" ref-type="bibr">9</xref>]. These include Charcot-Marie-Tooth type 4J (<italic>FIG4</italic>) [<xref rid="pgen.1008088.ref010" ref-type="bibr">10</xref>,<xref rid="pgen.1008088.ref011" ref-type="bibr">11</xref>], Centronuclear X-linked myopathy (<italic>MTM1</italic>) [<xref rid="pgen.1008088.ref012" ref-type="bibr">12</xref>], and primary immunodeficiency (<italic>PIK3CD</italic>) [<xref rid="pgen.1008088.ref013" ref-type="bibr">13</xref>,<xref rid="pgen.1008088.ref014" ref-type="bibr">14</xref>], among others. As just one example, detailed studies of <italic>FIG4</italic> subsequent to its identification as a cause of Charcot-Marie-Tooth type 4J have revealed both genetic and physiological interactions with VAC14 and PIKFYVE, which together generate PI(3,5)P2 and are required for melanosome homeostasis, oligodendrocyte differentiation, and remyelination [<xref rid="pgen.1008088.ref015" ref-type="bibr">15</xref>&#x2013;<xref rid="pgen.1008088.ref018" ref-type="bibr">18</xref>]. Collectively, the array of PI metabolism disorders is striking for its phenotypic diversity, affecting a wide range of organ systems including those described above as well as others that lead to neuromuscular, skeletal, renal, eye, growth, and immune disorders. The diversity of phenotypic manifestations resulting from PI metabolism defects highlights the lack of functional redundancy between genes that regulate nominally the same enzymatic transformation of PIs.</p>
+      <p>PIK3C2A has previously been attributed a wide-range of biological functions including glucose transport, angiogenesis, Akt activation, endosomal trafficking, phagosome maturation, mitotic spindle organization, exocytosis, and autophagy [<xref rid="pgen.1008088.ref019" ref-type="bibr">19</xref>&#x2013;<xref rid="pgen.1008088.ref028" ref-type="bibr">28</xref>]. In addition, PIK3C2A is critical for the formation and function of primary cilia [<xref rid="pgen.1008088.ref023" ref-type="bibr">23</xref>,<xref rid="pgen.1008088.ref026" ref-type="bibr">26</xref>]. However, as mentioned above, there is as yet no link between <italic>PIK3C2A</italic> or any class II PI3K and a Mendelian disorder. Here, we describe the evidence that homozygous loss-of-function mutations in <italic>PIK3C2A</italic> cause a novel syndromic disorder involving neurological, visual, skeletal, growth, and occasionally hearing impairments.</p>
+    </sec>
+    <sec sec-type="results" id="sec002">
+      <title>Results</title>
+      <p>Five individuals between the ages of 8 and 21 from three unrelated consanguineous families were found by diagnostic analyses to have a similar constellation of clinical features including dysmorphic facial features, short stature, skeletal and neurological abnormalities, and cataracts (<xref ref-type="fig" rid="pgen.1008088.g001">Fig 1</xref>, <xref rid="pgen.1008088.t001" ref-type="table">Table 1</xref>, <xref ref-type="supplementary-material" rid="pgen.1008088.s005">S1 Table</xref>). The dysmorphic facial features included coarse facies, low hairline, epicanthal folds, flat and broad nasal bridges, and retrognathia (<xref ref-type="supplementary-material" rid="pgen.1008088.s005">S1 Table</xref>). Skeletal findings included scoliosis, delayed bone age, diminished ossification of femoral heads, cervical lordosis, shortened fifth digits with mild metaphyseal dysplasia and clinodactyly, as well as dental findings such as broad maxilla incisors, narrow mandible teeth, and enamel defects (<xref ref-type="fig" rid="pgen.1008088.g001">Fig 1B and 1C</xref>, <xref ref-type="supplementary-material" rid="pgen.1008088.s005">S1 Table</xref>, <xref ref-type="supplementary-material" rid="pgen.1008088.s001">S1 Fig</xref>). Most of the affected individuals exhibited neurological involvement including developmental delay and stroke. This was first seen in individual I-II-2 when she recently started having seizures, with an EEG demonstrating sharp waves in the central areas of the right hemisphere and short sporadic generalized epileptic seizures. Her brain MRI showed a previous stroke in the right corpus striatum (<xref ref-type="fig" rid="pgen.1008088.g001">Fig 1E</xref>). Hematological studies were normal for hypercoagulability and platelet function (<xref ref-type="supplementary-material" rid="pgen.1008088.s006">S2 Table</xref>). In addition, brain MRI of patient II-II-3 showed multiple small frontal and periventricular lacunar infarcts (<xref ref-type="supplementary-material" rid="pgen.1008088.s001">S1E Fig</xref>). Unclear episodes of syncope also led to neurological investigations including EEG in individual III-II-2, without any signs of epilepsy. Her brain MRI showed symmetrical structures and normal cerebrospinal fluid spaces but pronounced lesions of the white matter (<xref ref-type="supplementary-material" rid="pgen.1008088.s001">S1E Fig</xref>). Other recurrent features included hearing loss, secondary glaucoma, and nephrocalcinosis.</p>
+      <fig id="pgen.1008088.g001" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pgen.1008088.g001</object-id>
+        <label>Fig 1</label>
+        <caption>
+          <title>Pedigrees and pictures of the individuals studied.</title>
+          <p>(A) Pedigree of three consanguineous families studied. Black boxes indicated affected individuals. Roman numerals indicating the generation are on the left and Arabic numerals indicating the individual are below each pedigree symbol. Genotypes are indicated below each individual with a &#x201C;+&#x201D; indicating a wild-type allele and a &#x201C;-&#x201D; indicating a mutant allele as illustrated in Fig 1G. The genotypes of individuals II-II-1, II-II-4, and II-II-5 are omitted at the family&#x2019;s request. (B) Photographs of affected individuals under their corresponding pedigree symbol indicating coarse facial features including a broad nasal bridge, thick columella, and thick alae nasi. Representative images are shown of (C) an X-ray indicating square shaped vertebral bodies and a flat pelvis, subluxation of the hips, and meta- and epiphyseal dysplasia of the femoral heads in patient III-II-2, (D) the teeth in patient II-II-3 indicating broad maxilla incisors, narrow mandible teeth, and dental enamel defects, (E) the eye with a visible cataract (Cataracta polaris anterior), as indicated by a white arrow, in individual III-II-2, and (F) a brain MRI demonstrating areas of altered signal intensity as indicated by the white arrow in individual I-II-2. (G) Diagram of the intron/exon and protein domain structures of <italic>PIK3C2A</italic> indicating the location of mutations identified in the pedigrees shown in Fig 1A.</p>
+        </caption>
+        <graphic xlink:href="pgen.1008088.g001"/>
+      </fig>
+      <table-wrap id="pgen.1008088.t001" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pgen.1008088.t001</object-id>
+        <label>Table 1</label>
+        <caption>
+          <title>Phenotypic characteristics of <italic>PIK3C2A</italic> deficient patients.</title>
+        </caption>
+        <alternatives>
+          <graphic id="pgen.1008088.t001g" xlink:href="pgen.1008088.t001"/>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+              <col align="left" valign="middle" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Family</th>
+                <th align="center" rowspan="1" colspan="1">I</th>
+                <th align="center" rowspan="1" colspan="1">I</th>
+                <th align="center" rowspan="1" colspan="1">II</th>
+                <th align="center" rowspan="1" colspan="1">II</th>
+                <th align="center" rowspan="1" colspan="1">III</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Patient</td>
+                <td align="center" rowspan="1" colspan="1">II-1</td>
+                <td align="center" rowspan="1" colspan="1">II-2</td>
+                <td align="center" rowspan="1" colspan="1">II-2</td>
+                <td align="center" rowspan="1" colspan="1">II-3</td>
+                <td align="center" rowspan="1" colspan="1">II-2</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Age (years)</td>
+                <td align="center" rowspan="1" colspan="1">13</td>
+                <td align="center" rowspan="1" colspan="1">8</td>
+                <td align="center" rowspan="1" colspan="1">12</td>
+                <td align="center" rowspan="1" colspan="1">10</td>
+                <td align="center" rowspan="1" colspan="1">20</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Gender</td>
+                <td align="center" rowspan="1" colspan="1">female</td>
+                <td align="center" rowspan="1" colspan="1">female</td>
+                <td align="center" rowspan="1" colspan="1">male</td>
+                <td align="center" rowspan="1" colspan="1">male</td>
+                <td align="center" rowspan="1" colspan="1">female</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Origin</td>
+                <td align="center" rowspan="1" colspan="1">Israel (Muslim-Arabic)</td>
+                <td align="center" rowspan="1" colspan="1">Israel (Muslim-Arabic)</td>
+                <td align="center" rowspan="1" colspan="1">Syria</td>
+                <td align="center" rowspan="1" colspan="1">Syria</td>
+                <td align="center" rowspan="1" colspan="1">Tunisia</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Consanguineous</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Height</td>
+                <td align="center" rowspan="1" colspan="1">-3.3 SD</td>
+                <td align="center" rowspan="1" colspan="1">-2.3 SD</td>
+                <td align="center" rowspan="1" colspan="1">-2.5 SD</td>
+                <td align="center" rowspan="1" colspan="1">-4.8 SD</td>
+                <td align="center" rowspan="1" colspan="1">-2.5 SD</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Weight</td>
+                <td align="center" rowspan="1" colspan="1">-0.2 SD</td>
+                <td align="center" rowspan="1" colspan="1">-1.7 SD</td>
+                <td align="center" rowspan="1" colspan="1">-0.2 SD</td>
+                <td align="center" rowspan="1" colspan="1">-3.9 SD</td>
+                <td align="center" rowspan="1" colspan="1">-1.9 SD</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Head circumference</td>
+                <td align="center" rowspan="1" colspan="1">-0.25 SD</td>
+                <td align="center" rowspan="1" colspan="1">N.D.</td>
+                <td align="center" rowspan="1" colspan="1">+0.9 SD</td>
+                <td align="center" rowspan="1" colspan="1">-1.1 SD</td>
+                <td align="center" rowspan="1" colspan="1">+0.5 SD</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Congenital cataract</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Secondary glaucoma</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">-</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Hearing loss</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">-</td>
+                <td align="center" rowspan="1" colspan="1">-</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Scoliosis/skeletal abnormalities</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Teeth abnormalities</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Developmental delay</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">N.D.</td>
+                <td align="center" rowspan="1" colspan="1">N.D.</td>
+                <td align="center" rowspan="1" colspan="1">N.D.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Elevated urine MPS levels</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">N.D.</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">+</td>
+                <td align="center" rowspan="1" colspan="1">N.D.</td>
+              </tr>
+            </tbody>
+          </table>
+        </alternatives>
+        <table-wrap-foot>
+          <fn id="t001fn001">
+            <p>"+" indicates presence of trait, "-" indicates absence of trait, N.D., not done.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <p>In addition to the shared syndromic features described above in all three families, both affected daughters in Family I were diagnosed with congenital adrenal hyperplasia (CAH), due to 17-alpha-hydroxylase deficiency, and were found to have a homozygous familial mutation: NM_000102.3:c.286C&gt;T; p.(Arg96Trp) in the <italic>CYP17A1</italic> gene (OMIM #202110) [<xref rid="pgen.1008088.ref029" ref-type="bibr">29</xref>,<xref rid="pgen.1008088.ref030" ref-type="bibr">30</xref>]. The affected individuals in Families II and III do not carry mutations in <italic>CYP17A1</italic> or have CAH, suggesting the presence of two independent and unrelated conditions in Family I. The co-occurrence of multiple monogenic disorders is not uncommon among this highly consanguineous population [<xref rid="pgen.1008088.ref031" ref-type="bibr">31</xref>].</p>
+      <p>To identify the genetic basis of this disorder, enzymatic assays related to the mucopolysaccharidosis subtypes MPS I, MPS IVA, MPS IVB, and MPSVI were tested in Families I and II and found to be normal. Enzymatic assays for mucolipidosis II/III were also normal and no pathogenic mutations were found in galactosamine-6-sulfate sulfatase (<italic>GALNS</italic>) in Family I. Additionally, since some of the features of patient II-II-3 were reminiscent of Noonan syndrome, Hennekam syndrome, and Aarskog-Scott syndrome, individual genes involved in these disorders were analyzed in Family II, but no pathogenic mutation was identified. In patient III-II-2, Williams-Beuren syndrome was excluded in childhood. Additionally, direct molecular testing at presentation in adulthood excluded Leri-Weill syndrome, Alstrom disease, and mutations in <italic>FGFR3</italic>.</p>
+      <p>Given the negative results of targeted genetic testing, WES and CNV analysis was performed for the affected individuals from all three families. Five homozygous candidate variants were identified in Family I, including the <italic>CYP17A1</italic> (p.Arg96Trp) mutation that is the cause of the CAH [<xref rid="pgen.1008088.ref029" ref-type="bibr">29</xref>,<xref rid="pgen.1008088.ref030" ref-type="bibr">30</xref>], but is not known to cause the other phenotypes. The remaining four variants affected the genes <italic>ATF4</italic>, <italic>DNAH14</italic>, <italic>PLEKHA7</italic>, and <italic>PIK3C2A</italic> (<xref ref-type="supplementary-material" rid="pgen.1008088.s007">S3 Table</xref>). In Family II, homozygous missense variants were identified in <italic>KIAA1549L</italic>, <italic>METAP1</italic>, and <italic>PEX2</italic>, in addition to a homozygous deletion in <italic>PIK3C2A</italic> that encompassed exons 1&#x2013;24 out of 32 total exons (<xref ref-type="supplementary-material" rid="pgen.1008088.s007">S3 Table</xref>). The deletion was limited to <italic>PIK3C2A</italic> and did not affect the neighboring genes. Sequence analysis of Family III showed a homozygous missense variant in <italic>PTH2R</italic>, nonsense variant in <italic>DPRX</italic>, and splice site variant in <italic>PIK3C2A</italic> (<xref ref-type="supplementary-material" rid="pgen.1008088.s007">S3 Table</xref>).</p>
+      <p>Sequencing analyses revealed that all affected family members in the Families I, II, and III were homozygous for predicted loss-of-function variants in <italic>PIK3C2A</italic>, and none of the unaffected family members were homozygous for the <italic>PIK3C2A</italic> variants (<xref ref-type="fig" rid="pgen.1008088.g001">Fig 1A and 1G</xref>). The initial link between these three families with rare mutations in <italic>PIK3C2A</italic> was made possible through the sharing of information via the GeneMatcher website [<xref rid="pgen.1008088.ref003" ref-type="bibr">3</xref>]. The <italic>PIK3C2A</italic> deletion in Family II was confirmed by multiplex amplicon quantification (<xref ref-type="supplementary-material" rid="pgen.1008088.s002">S2A Fig</xref>). The single nucleotide <italic>PIK3C2A</italic> variants in Families I and III were confirmed by Sanger sequencing (<xref ref-type="supplementary-material" rid="pgen.1008088.s002">S2B and S2C Fig</xref>).</p>
+      <p>In Family I, the nonsense mutation in <italic>PIK3C2A</italic> (p.Tyr195*) truncates 1,492 amino acids from a protein that is 1,686 amino acids. This is predicted to eliminate nearly all functional domains including the catalytic kinase domain, and is expected to trigger nonsense-mediated mRNA decay [<xref rid="pgen.1008088.ref025" ref-type="bibr">25</xref>]. Accordingly, levels of <italic>PIK3C2A</italic> mRNA are significantly decreased in both heterozygous and homozygous individuals carrying the p.Tyr195* variant (<xref ref-type="fig" rid="pgen.1008088.g002">Fig 2A</xref>). The deletion in Family II eliminates the first 24 exons of the 32-exon <italic>PIK3C2A</italic> gene and is thus predicted to cause a loss of protein expression. This is consistent with a lack of <italic>PIK3C2A</italic> mRNA expression (<xref ref-type="fig" rid="pgen.1008088.g002">Fig 2B</xref>). The variant in <italic>PIK3C2A</italic> in Family III affects an essential splice site (c.1640+1G&gt;T) that leads to decreased mRNA levels (<xref ref-type="fig" rid="pgen.1008088.g002">Fig 2C</xref>). Deep sequencing of the RT-PCR products revealed 4 alternative transcripts in patient-derived lymphocytes (p.[Asn483_Arg547delinsLys, Ala521Thrfs*4, Ala521_Glu568del, and Arg547SerinsTyrIleIle*]) of which the transcript encoding p. Asn483_Arg547delinsLys that skips both exons 5 and 6 was also observed in patient&#x2019;s fibroblasts (<xref ref-type="supplementary-material" rid="pgen.1008088.s003">S3 Fig</xref>). Although this transcript remains in-frame, no PIK3C2A protein was detected by Western blotting (<xref ref-type="fig" rid="pgen.1008088.g002">Fig 2D and 2F</xref>). This is consistent with Families I and II, for which Western blotting also failed to detect any full-length PIK3C2A in fibroblasts from the affected homozygous children (<xref ref-type="fig" rid="pgen.1008088.g002">Fig 2E and 2F</xref>). Thus, all three <italic>PIK3C2A</italic> variants likely encode loss-of-function alleles. Importantly, among the 141,456 WES and whole genome sequences from control individuals in the Genome Aggregation Database (gnomAD v2.1) [<xref rid="pgen.1008088.ref032" ref-type="bibr">32</xref>], none are homozygous for loss-of-function mutations in <italic>PIK3C2A</italic>, which is consistent with total PIK3C2A deficiency causing severe early onset disease.</p>
+      <fig id="pgen.1008088.g002" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pgen.1008088.g002</object-id>
+        <label>Fig 2</label>
+        <caption>
+          <title>Protein and mRNA levels of PIK3C2A in patient-derived cells.</title>
+          <p><italic>PIK3C2A</italic> mRNA levels were detected by qRT-PCR in patient derived fibroblasts from (A) Family I, (B) Family II, and (C) Family III. The WT sample in Fig 2A is based on n = 1 individual, the WT sample in Fig 2B is based on n = 3 individuals, and the WT sample in Fig 2C is based on n = 1 individual, totaling n = 5 different WT samples. qRT-PCR data is represented as mean &#xB1; SEM (n = 3&#x2013;4 technical replicates per sample). (D, E) Whole cell lysates from fibroblasts of healthy controls (WT), heterozygous parents, and affected individuals from (D) Family III and (E) Families I and II were analyzed by Western blotting for PIK3C2A and the loading controls Actin or GAPDH. Immunogen of anti-PIK3C2A antibodies (AB1-AB4) are detailed in <xref ref-type="supplementary-material" rid="pgen.1008088.s009">S5 Table</xref>. (F) Densitometry of Western blot results was performed using ImageJ. Individual samples are shown with the data combined from the four different PIK3C2A antibodies used, with the exception of the WT samples which includes fibroblasts from two individuals. * indicates p &lt; 0.05. ** indicates p &lt; 0.01. *** indicates p &lt; 0.0001.</p>
+        </caption>
+        <graphic xlink:href="pgen.1008088.g002"/>
+      </fig>
+      <p>To test whether the observed loss-of-function mutations in <italic>PIK3C2A</italic> cause cellular phenotypes consistent with loss of PIK3C2A function, we examined PI metabolism, cilia formation and function, and cellular proliferation rates. PIK3C2A deficiency in the patient-derived fibroblasts decreased the levels of PI(3,4)P2 throughout the cell (<xref ref-type="fig" rid="pgen.1008088.g003">Fig 3A</xref>) as well as decreased the levels of PI(3)P at the ciliary base (Figs <xref ref-type="fig" rid="pgen.1008088.g003">3B</xref> and <xref ref-type="supplementary-material" rid="pgen.1008088.s004">S4A</xref>). The reduction in PI(3)P at the ciliary base was associated with a reduction in ciliary length (<xref ref-type="fig" rid="pgen.1008088.g004">Fig 4A</xref>), although the percentage of ciliated cells was not altered (<xref ref-type="fig" rid="pgen.1008088.g004">Fig 4B</xref>). Additional cilia defects include a reduction in the levels of RAB11 at the ciliary base (Figs <xref ref-type="fig" rid="pgen.1008088.g004">4C</xref> and <xref ref-type="supplementary-material" rid="pgen.1008088.s004">S4B</xref>), which functions within a GTPase cascade culminating in the activation of RAB8, which together with ARL13B selectively traffics ciliary proteins to the cilium [<xref rid="pgen.1008088.ref033" ref-type="bibr">33</xref>]. Additionally, there was increased accumulation of IFT88 along the length of the cilium (Figs <xref ref-type="fig" rid="pgen.1008088.g004">4D</xref> and <xref ref-type="supplementary-material" rid="pgen.1008088.s004">S4C</xref>), which is a component of the intraflagellar transport sub-complex IFT-B, and is essential for the trafficking of ciliary protein cargoes along the axonemal microtubules [<xref rid="pgen.1008088.ref034" ref-type="bibr">34</xref>,<xref rid="pgen.1008088.ref035" ref-type="bibr">35</xref>]. Together, these findings are suggestive of defective trafficking of ciliary components. Finally, the proliferative capacity of PIK3C2A deficient cells was reduced relative to control cells (<xref ref-type="fig" rid="pgen.1008088.g005">Fig 5</xref>).</p>
+      <fig id="pgen.1008088.g003" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pgen.1008088.g003</object-id>
+        <label>Fig 3</label>
+        <caption>
+          <title>Impaired PI metabolism in patient-derived fibroblasts.</title>
+          <p>Quantification of PI(3,4)P2 and PI(3)P were analysed and normalized on whole cell fluorescence. (A) Immunofluorescence analysis of cellular PI(3,4)P2 levels. Results showed that PI(3,4)P2 is significantly reduced throughout the cell in -/- cells compared with +/+ cells. n = 4 independent experiments and 10 cells per genotype for each experiment (<xref ref-type="supplementary-material" rid="pgen.1008088.s010">S6 Table</xref>). (B) Immunofluorescence analysis of PI(3)P localization at the base of the primary cilium. Results showed that PI(3)P is significantly reduced at the base of the primary cilium in -/- cells compared with +/+ and or +/- cells. n = 3 independent experiments and 15 cells per genotype for each experiment (<xref ref-type="supplementary-material" rid="pgen.1008088.s010">S6 Table</xref>). Nuclei are stained with DAPI. ** indicates p &lt; 0.01. *** indicates p &lt; 0.0001.</p>
+        </caption>
+        <graphic xlink:href="pgen.1008088.g003"/>
+      </fig>
+      <fig id="pgen.1008088.g004" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pgen.1008088.g004</object-id>
+        <label>Fig 4</label>
+        <caption>
+          <title>Ciliary defects due to PIK3C2A deficiency in patient-derived fibroblasts.</title>
+          <p>(A) Cilia length and (B) cilia number were determined in primary fibroblasts from two affected individuals and three unrelated controls. Data is represented as mean &#xB1; SEM (n&gt;300/sample). Raw data for cilia length is provided in <xref ref-type="supplementary-material" rid="pgen.1008088.s010">S6 Table</xref>. (C) Immunofluorescence analysis of RAB11 localization at the base of the primary cilium. Results showed that RAB11 is significantly reduced at the base of the primary cilium in -/- cells compared with +/+ and or +/- cells. n = 3 independent experiments and 15 cells per genotype for each experiment. (D) Immunofluorescence analysis of IFT88 localization within the primary cilia. Results showed that IFT88 is significantly increased along the primary cilium in -/- cells compared with +/+ and or +/- cells, suggesting a defective trafficking of ciliary components. n = 3 independent experiments and 15 cells per genotype for each experiment. Quantification of IFT88 and RAB11 were normalized on whole cell fluorescence. *** indicates p &lt; 0.0001.</p>
+        </caption>
+        <graphic xlink:href="pgen.1008088.g004"/>
+      </fig>
+      <fig id="pgen.1008088.g005" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pgen.1008088.g005</object-id>
+        <label>Fig 5</label>
+        <caption>
+          <title>PIK3C2A deficiency causes delayed proliferation rates in patient-derived fibroblasts.</title>
+          <p>Proliferation curve of primary fibroblasts isolated from <italic>PIK3C2A</italic> WT (+/+), heterozygous (+/-), and homozygous (-/-) individuals. Values are reported as the mean &#xB1; SEM from 3 independent experiments. * indicates p &lt; 0.05, *** indicates p &lt; 0.0001.</p>
+        </caption>
+        <graphic xlink:href="pgen.1008088.g005"/>
+      </fig>
+      <p>As <italic>PIK3C2A</italic> is a member of the class II PI3K family, we tested whether the expression of the other family members <italic>PIK3C2B</italic> and <italic>PIK3C2G</italic> were altered by PIK3C2A deficiency. The expression of <italic>PIK3C2G</italic> was not detected by qRT-PCR in either patient-derived or control primary fibroblasts. This is consistent with the relatively restricted expression pattern of this gene in the GTEx portal [<xref rid="pgen.1008088.ref036" ref-type="bibr">36</xref>], with expression largely limited to stomach, skin, liver, esophagus, mammary tissue, and kidney, but absent in fibroblast cells and most other tissues. In contrast, <italic>PIK3C2B</italic> expression was detected, with both mRNA and protein levels significantly increased in PIK3C2A deficient cells (<xref ref-type="fig" rid="pgen.1008088.g006">Fig 6A&#x2013;6D</xref>). Downregulation of <italic>PIK3C2A</italic> using an inducible shRNA in HeLa cells also resulted in elevated levels of PIK3C2B (<xref ref-type="fig" rid="pgen.1008088.g006">Fig 6E</xref>). Together, these data are consistent with increased levels of PIK3C2B serving to partially compensate for PIK3C2A deficiency.</p>
+      <fig id="pgen.1008088.g006" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pgen.1008088.g006</object-id>
+        <label>Fig 6</label>
+        <caption>
+          <title>PIK3C2B levels are increased by PIK3C2A deficiency.</title>
+          <p><italic>PIK3C2B</italic> mRNA levels were detected by qRT-PCR in (A) Family I, (B) Family II, and (C) Family III. qRT-PCR data is represented as mean &#xB1; SEM (n = 3 technical replicates per sample). The WT sample in Fig 6A is based on n = 1 and the WT sample in Fig 6B is based on n = 3, totaling n = 4 different WT samples. (D) PIK3C2B protein levels were detected by Western blotting in Family I from 2 independent experiments. (E) PIK3C2A and PIK3C2B protein levels were analyzed in HeLa cells by Western blotting following doxycycline inducible shRNA mediated knockdown of PIK3C2A. Data shown is representative from 3 independent experiments. * indicates p &lt; 0.05, ** indicates p &lt; 0.01. *** indicates p &lt; 0.0001.</p>
+        </caption>
+        <graphic xlink:href="pgen.1008088.g006"/>
+      </fig>
+    </sec>
+    <sec sec-type="conclusions" id="sec003">
+      <title>Discussion</title>
+      <p>Here we describe the identification of three independent families with homozygous loss-of-function mutations in <italic>PIK3C2A</italic> resulting in a novel syndrome consisting of short stature, cataracts, secondary glaucoma, and skeletal abnormalities among other features. Patient-derived fibroblasts had decreased levels of PI(3,4)P2 and PI(3)P, shortening of the cilia and impaired ciliary protein localization, and reduced proliferation capacity. Thus, based on the loss-of-function mutations in <italic>PIK3C2A</italic>, the phenotypic overlap between the three independent families, and the patient-derived cellular data consistent with previous studies of PIK3C2A function, we conclude that loss-of-function mutations in <italic>PIK3C2A</italic> cause this novel syndrome.</p>
+      <p>The identification of <italic>PIK3C2A</italic> loss-of-function mutations in humans represents the first mutations identified in any class II PI-3-kinase in a disorder with a Mendelian inheritance, and thus sheds light into the biological role of this poorly understood class of PI3Ks [<xref rid="pgen.1008088.ref007" ref-type="bibr">7</xref>,<xref rid="pgen.1008088.ref037" ref-type="bibr">37</xref>]. This is significant not only for understanding the role of <italic>PIK3C2A</italic> in rare monogenic disorders, but also the potential contribution of common variants in <italic>PIK3C2A</italic> in more genetically complex disorders. There are now numerous examples where severe mutations in a gene cause a rare Mendelian disorder, whereas more common variants in the same gene, with a less deleterious effect on protein function, are associated with polygenic human traits and disorders [<xref rid="pgen.1008088.ref038" ref-type="bibr">38</xref>&#x2013;<xref rid="pgen.1008088.ref040" ref-type="bibr">40</xref>]. For example, severe mutations in <italic>PPARG</italic> cause monogenic lipodystrophy, whereas less severe variants are associated with complex polygenic forms of lipodystrophy [<xref rid="pgen.1008088.ref041" ref-type="bibr">41</xref>,<xref rid="pgen.1008088.ref042" ref-type="bibr">42</xref>]. In the case of PIK3C2A deficiency, the identification of various neurological features including developmental delay, selective mutism, and the brain abnormalities detected by MRI (<xref ref-type="supplementary-material" rid="pgen.1008088.s005">S1 Table</xref>) may provide biological insight into the mechanisms underlying the association between common variants in <italic>PIK3C2A</italic> and schizophrenia [<xref rid="pgen.1008088.ref043" ref-type="bibr">43</xref>&#x2013;<xref rid="pgen.1008088.ref045" ref-type="bibr">45</xref>].</p>
+      <p>Other monogenic disorders of phosphoinositide metabolism include Lowe&#x2019;s syndrome and Joubert syndrome, which can be caused by mutations in the inositol polyphosphate 5-phosphatases <italic>OCRL</italic> and <italic>INPP5E</italic>, respectively [<xref rid="pgen.1008088.ref046" ref-type="bibr">46</xref>]. All three of these disorders of PI metabolism affect some of the same organ systems, namely the brain, eye, and kidney. However, the phenotype associated with mutations in <italic>INPP5E</italic> is quite distinct, and includes cerebellar vermis hypo-dysplasia, coloboma, hypotonia, ataxia, and neonatal breathing dysregulation [<xref rid="pgen.1008088.ref047" ref-type="bibr">47</xref>]. In contrast, the phenotypes associated with Lowe&#x2019;s syndrome share many of the same features with PIK3C2A deficiency including congenital cataracts, secondary glaucoma, kidney defects, skeletal abnormalities, developmental delay, and short stature [<xref rid="pgen.1008088.ref009" ref-type="bibr">9</xref>,<xref rid="pgen.1008088.ref048" ref-type="bibr">48</xref>]. The enzyme defective in Lowe&#x2019;s syndrome, OCRL, is functionally similar to PIK3C2A as well, as it is also required for membrane trafficking and ciliogenesis [<xref rid="pgen.1008088.ref049" ref-type="bibr">49</xref>]. The similarities between Lowe&#x2019;s syndrome and PIK3C2A deficiency suggest that similar defects in phosphatidylinositol metabolism may underlie both disorders. In addition to Lowe&#x2019;s syndrome, there is partial overlap between PIK3C2A deficiency and yet other Mendelian disorders of PI metabolism such as the early-onset cataracts in patients with INPP5K deficiency [<xref rid="pgen.1008088.ref050" ref-type="bibr">50</xref>,<xref rid="pgen.1008088.ref051" ref-type="bibr">51</xref>], demonstrating the importance of PI metabolism in lens development.</p>
+      <p>The viability of humans with PIK3C2A deficiency is in stark contrast to mouse <italic>Pik3c2a</italic> knockout models that result in growth retardation by e8.5 and embryonic lethality between e10.5&#x2013;11.5 due to vascular defects [<xref rid="pgen.1008088.ref020" ref-type="bibr">20</xref>]. One potential explanation for this discrepancy is functional differences between human <italic>PIK3C2A</italic> and the mouse ortholog. However, the involvement of both human and mouse PIK3C2A in cilia formation, PI metabolism, and cellular proliferation suggests a high degree of functional conservation at the cellular level [<xref rid="pgen.1008088.ref026" ref-type="bibr">26</xref>,<xref rid="pgen.1008088.ref028" ref-type="bibr">28</xref>]. An alternate possibility is that the species viability differences associated with PIK3C2A deficiency result from altered compensation from other PI metabolizing enzymes. For instance, there are species-specific differences between humans and mice in the transcription and splicing of the OCRL homolog <italic>INPP5B</italic> that may uniquely contribute to PI metabolism in each species [<xref rid="pgen.1008088.ref052" ref-type="bibr">52</xref>]. Alternately, PIK3C2B levels were significantly increased in human PIK3C2A deficient cells, including both patient-derived cells and HeLa cells surviving <italic>PIK3C2A</italic> deletion, suggesting that this may partially compensate for the lack of PIK3C2A in humans, although it remains to be determined whether a similar compensatory pathway exists in mice.</p>
+      <p>It is intriguing that both PIK3C2A and OCRL have important roles in primary cilia formation [<xref rid="pgen.1008088.ref026" ref-type="bibr">26</xref>,<xref rid="pgen.1008088.ref053" ref-type="bibr">53</xref>,<xref rid="pgen.1008088.ref054" ref-type="bibr">54</xref>]. Primary cilia are evolutionary conserved microtubule-derived cellular organelles that protrude from the surface of most mammalian cell types. Primary cilia formation is initiated by a cascade of processes involving the targeted trafficking and docking of Golgi-derived vesicles near the mother centriole. They play a pivotal role in a number of processes, such as left-right patterning during embryonic development, cell growth, and differentiation. Abnormal phosphatidylinositol metabolism results in ciliary dysfunction [<xref rid="pgen.1008088.ref055" ref-type="bibr">55</xref>], including loss of PIK3C2A that impairs ciliogenesis in mouse embryonic fibroblasts, likely due to defective trafficking of ciliary components [<xref rid="pgen.1008088.ref026" ref-type="bibr">26</xref>]. The importance of primary cilia in embryonic development and tissue homeostasis has become evident over the two past decades, as a number of proteins which localize to the cilium harbor defects causing syndromic diseases, collectively known as ciliopathies [<xref rid="pgen.1008088.ref056" ref-type="bibr">56</xref>,<xref rid="pgen.1008088.ref057" ref-type="bibr">57</xref>]. Hallmark features of ciliopathies share many features with PIK3C2A deficiency and include skeletal abnormalities, progressive vision and hearing loss, mild to severe intellectual disabilities, polydactyly, and kidney phenotypes. Many of these disorders, including Bardet-Biedl Syndrome, Meckel Syndrome, and Joubert Syndrome are also associated with decreased cilium length [<xref rid="pgen.1008088.ref058" ref-type="bibr">58</xref>], as seen in PIK3C2A deficient cells. Ciliary length is a function of both axoneme elongation and cilium disassembly, and is molecularly regulated by intraflagellar protein transport, including the velocity of transport and cargo loading, as well as soluble tubulin levels and microtubule modifications [<xref rid="pgen.1008088.ref059" ref-type="bibr">59</xref>,<xref rid="pgen.1008088.ref060" ref-type="bibr">60</xref>]. As defects in intraflagellar protein transport were likely indicated by abnormal IFT88 localization along the length of the cilium in PIK3C2A deficient cells, this may represent a potential mechanism underlying the shortened cilium. Further work and the identification of additional patients with mutations in PIK3C2A will continue to improve our understanding of the genotype-phenotype correlation associated with PIK3C2A deficiency. However, the identification of the first patients with PIK3C2A deficiency establishes a role for PIK3C2A in neurological and skeletal development, as well as vision, and growth and implicates loss-of-function PIK3C2A mutations as a potentially new cause of a cilia-associated disease.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="sec004">
+      <title>Materials and methods</title>
+      <sec id="sec005">
+        <title>Ethics statement</title>
+        <p>The study was approved by the Helsinki Ethics Committees of Rambam Health Care Campus (#0038-14-RMB), the University Hospital Institutional Review Board for Case Western Reserve University (#NHR-15-39), the Ethics Committee of the Friedrich-Alexander University Erlangen-N&#xFC;rnberg (#164_15 B), and was in accordance with the regulations of the University Medical Center Groningen&#x2019;s ethical committee. Written informed consent was obtained from all participants.</p>
+      </sec>
+      <sec id="sec006">
+        <title>Whole exome sequencing</title>
+        <p>Whole exome sequencing (WES) of two patients from Family I was performed using DNA (1&#x3BC;g) extracted from whole blood and fragmented and enriched using the Truseq DNA PCR Free kit (Illumina). Samples were sequenced on a HiSeq2500 (Illumina) with 2x100bp read length and analyzed as described [<xref rid="pgen.1008088.ref061" ref-type="bibr">61</xref>]. Raw fastq files were mapped to the reference human genome GRCh37 using BWA [<xref rid="pgen.1008088.ref062" ref-type="bibr">62</xref>] (v.0.7.12). Duplicate reads were removed by Picard (v. 1.119) and local realignment and base quality score recalibration was performed following the GATK pipeline [<xref rid="pgen.1008088.ref063" ref-type="bibr">63</xref>] (v. 3.3). The average read depth was 98x (I-II-1) and 117x (I-II-2). HaplotypeCaller was used to call SNPs and indels and variants were further annotated with Annovar [<xref rid="pgen.1008088.ref064" ref-type="bibr">64</xref>]. Databases used in Annovar were RefSeq [<xref rid="pgen.1008088.ref065" ref-type="bibr">65</xref>], Exome Aggregation Consortium (ExAC) [<xref rid="pgen.1008088.ref032" ref-type="bibr">32</xref>] (v. exac03), ClinVar [<xref rid="pgen.1008088.ref066" ref-type="bibr">66</xref>] (v. clinvar_20150330) and LJB database [<xref rid="pgen.1008088.ref067" ref-type="bibr">67</xref>] (v. ljb26_all). Exome variants in Family I were filtered out if they were not homozygous in both affected individuals, had a population allele frequency greater than 0.1% in either the ExAC database [<xref rid="pgen.1008088.ref032" ref-type="bibr">32</xref>] or the Greater Middle East Variome Project [<xref rid="pgen.1008088.ref068" ref-type="bibr">68</xref>], and were not predicted to be deleterious by either SIFT [<xref rid="pgen.1008088.ref069" ref-type="bibr">69</xref>] or Polyphen2 [<xref rid="pgen.1008088.ref070" ref-type="bibr">70</xref>].</p>
+        <p>Whole exome sequencing was performed on the two affected individuals of Family II and both their parents essentially as previously described [<xref rid="pgen.1008088.ref071" ref-type="bibr">71</xref>]. Target regions were enriched using the Agilent SureSelectXT Human All Exon 50Mb Kit. Whole-exome sequencing was performed on the Illumina HiSeq platform (BGI Europe) followed by data processing with BWA [<xref rid="pgen.1008088.ref062" ref-type="bibr">62</xref>] (read alignment) and GATK [<xref rid="pgen.1008088.ref063" ref-type="bibr">63</xref>] (variant calling) software packages. Variants were annotated using an in-house developed pipeline. Prioritization of variants was done by an in-house designed &#x2018;variant interface&#x2019; and manual curation.</p>
+        <p>The DNAs of Family III were enriched using the SureSelect Human All Exon Kit v6 (Agilent) and sequenced on an Illumina HiSeq 2500 (Illumina). Alignment, variant calling, and annotation were performed as described [<xref rid="pgen.1008088.ref072" ref-type="bibr">72</xref>]. The average read depth was 95x (III-II-2), 119x (III-I-1) and 113x (III-I-2). Variants were selected that were covered by at least 10% of the average coverage of each exome and for which at least 5 novel alleles were detected from 2 or more callers. All modes of inheritance were analyzed [<xref rid="pgen.1008088.ref072" ref-type="bibr">72</xref>]. Variants were prioritized based on a population frequency of 10<sup>&#x2212;3</sup> or below (based on the ExAC database [<xref rid="pgen.1008088.ref032" ref-type="bibr">32</xref>] and an in-house variant database), on the evolutionary conservation, and on the mutation severity prediction.</p>
+        <p>All candidate variants in Families I, II, and III were confirmed by Sanger sequencing (primers listed in <xref ref-type="supplementary-material" rid="pgen.1008088.s008">S4 Table</xref>).</p>
+      </sec>
+      <sec id="sec007">
+        <title>Copy number variant (CNV) analysis</title>
+        <p>Microarray analysis for CNV detection in Family I was performed using a HumanOmni5-Quad chip (Illumina). SNP array raw data was mapped to the reference human genome GRCh37 and analyzed using GenomeStudio (v. 2011/1). Signal intensity files with Log R ratio and B-allele frequency were further analyzed with PennCNV [<xref rid="pgen.1008088.ref073" ref-type="bibr">73</xref>] (v. 2014/5/7). In Family III the diagnostic chromosomal microarray analysis was performed with an Affymetrix CytoScan HD-Array and analyzed using Affymetrix Chromosome analysis Suite-Software, compared with the Database of Genomic Variants and 820 in house controls. All findings refer to UCSC Genome Browser on Human, February 2009 Assembly (hg19), Human Genome built 37.</p>
+        <p>CNV analysis on the WES data of Families II and III were performed using CoNIFER [<xref rid="pgen.1008088.ref074" ref-type="bibr">74</xref>]. Variants were annotated using an in-house developed pipeline. Prioritization of variants was done by an in-house designed &#x2018;variant interface&#x2019; and manual curation as described before [<xref rid="pgen.1008088.ref075" ref-type="bibr">75</xref>]. Subsequent segregation analysis of the pathogenic CNV in Family II was performed with MAQ by using a targeted primer set with primers in exons 3, 10, 20 and 24 which are located within the deletion and exons 28, 32, 34 which are located outside of the deletion (Multiplex Amplicon Quantification (MAQ); Multiplicom).</p>
+      </sec>
+      <sec id="sec008">
+        <title>Cell culture</title>
+        <p>Human dermal fibroblasts were obtained from sterile skin punches cultured in DMEM (Dulbecco's Modified Eagle's Medium) supplemented with 10&#x2013;20% Fetal Calf Serum, 1% Sodium Pyruvate and 1% Penicillin and streptomycin (P/S) in 5% CO2 at 37&#xB0;C. Control fibroblasts were obtained from healthy age-matched volunteers. Fibroblasts from passages 4&#x2013;8 were used for the experiments. To measure cell proliferation, cells were detached using trypsin and counted with an Automated Cell Counter (ThermoFisher). Cells (n = 2500) were plated in triplicate in 96-well plates. Viability was measured at day 2, 4, 6 and 8. Each measurement was normalized to day 0 (measured the day after plating) and expressed as a fold increase. Viability was assessed by using CellTiter-Glo Luminescent Cell Viability Assay (Promega). Three independent experiments were performed.</p>
+      </sec>
+      <sec id="sec009">
+        <title>Inducible knockdown of <italic>PIK3C2A</italic></title>
+        <p>HeLa cells were infected with lentiviral particles containing pLKO-TET-PI3KC2A-shRNA or pLKO-TET-scramble-shRNA in six-well plates (n = 50,000 cells). After two days, the medium containing lentiviral particles was replaced with DMEM 10% FBS, 1.5&#x3BC;g/ml puromycin. After 7 days of selection, cells were detached and 100,000 cells were plated in six-well plates in triplicate in the presence of doxycycline (0.5, 1 and 2 &#x3BC;g/ml). Medium containing doxycycline was replaced every 48 hours. After 10 days of doxycycline treatment, cells were lysed and analysed by Western blot.</p>
+      </sec>
+      <sec id="sec010">
+        <title>cDNA and quantitative real time-PCR</title>
+        <p>Total RNA was purified from primary fibroblasts using the PureLink RNA purification kit (ThermoFisher) or RNAPure peqGOLD (Peqlab). RNA was reverse transcribed into complementary DNA with random hexamer using a high-Capacity cDNA Reverse Transcription Kit (ThermoFisher). RT-PCR from lymphocytes to detect exon-skipping in family III was performed using primers flanking exon 6. The resulting product was sequenced on an Illumina HiSeq2500 (Illumina) to detect splicing variants with high sensitivity. Gene expression was quantified by SYBR Green real-time PCR using the CFX Connect Real-Time System (BioRad). Primers used are detailed in <xref ref-type="supplementary-material" rid="pgen.1008088.s008">S4 Table</xref>. Expression levels were calculated using the &#x394;&#x394;CT method relative to <italic>GADPH</italic>.</p>
+      </sec>
+      <sec id="sec011">
+        <title>Western blotting</title>
+        <p>Protein was extracted from cultured primary fibroblast cells as described [<xref rid="pgen.1008088.ref076" ref-type="bibr">76</xref>,<xref rid="pgen.1008088.ref077" ref-type="bibr">77</xref>]. Extracts were quantified using the DC protein assay (BioRad) or the BCA method. Equal amounts of protein were separated by SDS-PAGE and electrotransferred onto polyvinylidene difluoride membranes (Millipore). Membranes were blocked with TBST/5% fat-free dried milk and stained with antibodies as detailed in <xref ref-type="supplementary-material" rid="pgen.1008088.s009">S5 Table</xref>. Secondary antibodies were goat anti-rabbit (1:5,000, ThermoFisher #31460) goat anti-mouse (1:5,000, ThermoFisher #31430), goat anti-rabbit (1:2,000, Dako #P0448), and goat anti-mouse (1:2,000, Dako #P0447).</p>
+      </sec>
+      <sec id="sec012">
+        <title>Immunostaining</title>
+        <p>Primary fibroblasts were grown on glass coverslips to approximately 80% - 90% confluency in DMEM + 10% FCS + 1% P/S, at which time the medium was replaced with DMEM without FCS for 48 hours to induce ciliogenesis. Cells were fixed in either methanol for 10 minutes at -20&#xB0;C or 4% paraformaldehyde for 10 minutes at room temperature (RT). Fixed cells were washed in PBS, and incubated with 10% normal goat serum, 1% bovine serum albumin in PBS for 1 hour at RT. If cells were fixed with paraformaldehyde, blocking solutions contained 0.5% Triton X-100. Cells were incubated with primary antibody overnight at 4&#xB0;C, washed in PBS, and incubated with secondary antibody including 4',6-diamidino-2-Phenylindole (DAPI) to stain nuclei for 1 hours at RT. Coverslips were mounted on glass slides with fluoromount (Science Services) and imaged on a confocal laser scanning system with a 63x objectives (LSM 710, Carl Zeiss MicroImaging). Primary antibodies are detailed in <xref ref-type="supplementary-material" rid="pgen.1008088.s009">S5 Table</xref>.</p>
+      </sec>
+      <sec id="sec013">
+        <title>Cilia analysis</title>
+        <p>To induce ciliogenesis, cells were grown in DMEM with 0&#x2013;0.2% FCS for 48 hours. Cells were washed in PBS, then fixed and permeabilized in ice-cold methanol for 5 minutes, followed by extensive washing with PBS. After blocking in 5% Bovine Serum Albumin, cells were incubated with primary antibodies for 1.5 hours at RT and extensively washed in PBS-T. Primary antibodies used for Centrin and ARL13B are detailed in <xref ref-type="supplementary-material" rid="pgen.1008088.s009">S5 Table</xref>. To wash off the primary antibody, cells were extensively washed in PBS-T. Subsequently, cells were incubated with secondary antibodies, Alexa Flour 488 (1:800, Invitrogen) and Alexa Fluor 568 (1:800, Invitrogen), for 45 min followed by washing with PBS-T. Finally, cells were shortly rinsed in ddH2O and samples were mounted using Vectashield with DAPI. Images were taken using an Axio Imager Z2 microscope with an Apotome (Zeiss) at 63x magnification. Cilia were measured manually using Fiji software taking the whole length of the cilium based on ARL13B staining. At least 300 cilia were measured per sample. Cilia lengths were pooled for 3 control cell lines and compare to 2 patient-derived samples (II-II-2 and II-II-3). Statistical significance was calculated using a Student t-test. PI(3)P at the ciliary base was detected in randomly chosen cells using the same exposure for each acquisition. A specific anti-PI(3)P antibody (Echelo Z-P003) was used to quantify the PI(3)P by measuring the green fluorescent intensity around the ciliary base in a region with a diameter of 8 &#x3BC;m and a depth of 10 &#x3BC;m as previously illustrated and described [<xref rid="pgen.1008088.ref026" ref-type="bibr">26</xref>].</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="sec014">
+      <title>Supporting information</title>
+      <supplementary-material content-type="local-data" id="pgen.1008088.s001">
+        <label>S1 Fig</label>
+        <caption>
+          <title>Images of individuals with PIK3C2A deficiency.</title>
+          <p>Photographic images of (A) teeth, (B) hands, and (C) feet are shown from the five individuals with PIK3C2A deficiency. (D) X-Ray images of the pelvis and (E) MRI images of the brain are shown when available. White arrows in the MRI images indicate regions of altered signal intensity.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1008088.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1008088.s002">
+        <label>S2 Fig</label>
+        <caption>
+          <title>Homozygous loss-of-function mutations in <italic>PIK3C2A</italic>.</title>
+          <p>(A) CNV analysis confirmed a homozygous deletion encompassing exons 1&#x2013;24 out of 32 total exons of <italic>PIK3C2A</italic>, indicated with the red line (B) Sanger sequencing confirmed homozygosity for the <italic>PIK3C2A</italic> c.585T variant in Family I. (C) Sanger sequencing confirmed homozygosity for the <italic>PIK3C2A</italic> c.1640+1 G&gt;T variant in Family III.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1008088.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1008088.s003">
+        <label>S3 Fig</label>
+        <caption>
+          <title>The c.1650+1G&gt;T mutation in <italic>PIK3C2A</italic> disrupts the splice donor site in intron 6.</title>
+          <p>(A) Deep sequencing of RT-PCR products revealed 4 alternative transcripts in lymphocytes (red lines) compared to control samples (blue lines): *: r.1561_1704del; p.Ala521_Glu568del, **: r. 1640_1641ins1640+1_1640+27; p. Arg547SerinsTyrIleIle*, ***: r.1561_1640del; p.Ala521Thrfs*4, ****: r.1449_1640del; p.Asn483_Arg547delinsLys. Exon/intron structure of <italic>PIK3C2A</italic> (exons: yellow boxes) with transcripts of the patient of family III compared to controls. (B) Example of sequenced RT-PCR products from cDNA of fibroblasts from wild-type control and the patient of family III using primers located in exons 3 and 10. Skipping of exons 5 and 6 is the result of the mutation. Positions of primers are indicated by orange arrows and position of the splice site mutation is indicated by a black arrow.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1008088.s003.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1008088.s004">
+        <label>S4 Fig</label>
+        <caption>
+          <title>Quantification of fluorescence in patient-derived fibroblasts.</title>
+          <p>Quantification of fluorescence intensity for (A) PI(3)P at the ciliary base, (B) RAB11 at the ciliary base, and (C) ciliary IFT88. Data is shown separately for each individual family as indicated.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1008088.s004.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1008088.s005">
+        <label>S1 Table</label>
+        <caption>
+          <title>Detailed phenotypic characteristics of patients in Families I, II, and III.</title>
+          <p>(XLSX)</p>
+        </caption>
+        <media xlink:href="pgen.1008088.s005.xlsx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1008088.s006">
+        <label>S2 Table</label>
+        <caption>
+          <title>Hematological evaluation of patients in Family I.</title>
+          <p>(XLSX)</p>
+        </caption>
+        <media xlink:href="pgen.1008088.s006.xlsx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1008088.s007">
+        <label>S3 Table</label>
+        <caption>
+          <title>Homozygous candidate variants identified by whole exome sequencing.</title>
+          <p>(XLSX)</p>
+        </caption>
+        <media xlink:href="pgen.1008088.s007.xlsx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1008088.s008">
+        <label>S4 Table</label>
+        <caption>
+          <title>List of primers used in this study.</title>
+          <p>(XLSX)</p>
+        </caption>
+        <media xlink:href="pgen.1008088.s008.xlsx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1008088.s009">
+        <label>S5 Table</label>
+        <caption>
+          <title>List of antibodies used in this study.</title>
+          <p>(XLSX)</p>
+        </caption>
+        <media xlink:href="pgen.1008088.s009.xlsx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1008088.s010">
+        <label>S6 Table</label>
+        <caption>
+          <title>Raw data underlying <xref ref-type="fig" rid="pgen.1008088.g003">Fig 3</xref> and <xref ref-type="fig" rid="pgen.1008088.g004">Fig 4A</xref>.</title>
+          <p>(XLSX)</p>
+        </caption>
+        <media xlink:href="pgen.1008088.s010.xlsx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>The authors would like to thank the Genome Aggregation Database (gnomAD) and the groups that provided exome and genome variant data to this resource. A full list of contributing groups can be found at <ext-link ext-link-type="uri" xlink:href="http://gnomad.broadinstitute.org/about">http://gnomad.broadinstitute.org/about</ext-link>. This research was also supported by the Genomics Core Facility of the CWRU School of Medicine&#x2019;s Genetics and Genome Sciences Department. We would also like to thank the Research Institute for Children&#x2019;s Health at Case Western Reserve University and its director, Dr. Mitchell Drumm, for support and guidance.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pgen.1008088.ref001">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Chong</surname><given-names>JX</given-names></name>, <name><surname>Buckingham</surname><given-names>KJ</given-names></name>, <name><surname>Jhangiani</surname></name>, <name><surname>Boehm</surname><given-names>C</given-names></name>, <name><surname>Sobreira</surname><given-names>N</given-names></name>, <name><surname>Smith</surname><given-names>JD</given-names></name>, <etal>et al</etal>
+<article-title>The Genetic Basis of Mendelian Phenotypes: Discoveries, Challenges, and Opportunities</article-title>. <source>Am J Hum Genet</source>. <year>2015</year>;<volume>97</volume>: <fpage>199</fpage>&#x2013;<lpage>215</lpage>. <pub-id pub-id-type="doi">10.1016/j.ajhg.2015.06.009</pub-id>
+<pub-id pub-id-type="pmid">26166479</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref002">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Boycott</surname><given-names>KM</given-names></name>, <name><surname>Vanstone</surname><given-names>MR</given-names></name>, <name><surname>Bulman</surname><given-names>DE</given-names></name>, <name><surname>MacKenzie</surname><given-names>AE</given-names></name>. <article-title>Rare-disease genetics in the era of next-generation sequencing: discovery to translation</article-title>. <source>Nat Rev Genet</source>. <year>2013</year>;<volume>14</volume>: <fpage>681</fpage>&#x2013;<lpage>691</lpage>. <pub-id pub-id-type="doi">10.1038/nrg3555</pub-id>
+<pub-id pub-id-type="pmid">23999272</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref003">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Sobreira</surname><given-names>N</given-names></name>, <name><surname>Schiettecatte</surname><given-names>F</given-names></name>, <name><surname>Valle</surname><given-names>D</given-names></name>, <name><surname>Hamosh</surname><given-names>A</given-names></name>. <article-title>GeneMatcher: a matching tool for connecting investigators with an interest in the same gene</article-title>. <source>Hum Mutat</source>. <year>2015</year>;<volume>36</volume>: <fpage>928</fpage>&#x2013;<lpage>930</lpage>. <pub-id pub-id-type="doi">10.1002/humu.22844</pub-id>
+<pub-id pub-id-type="pmid">26220891</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref004">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Koboldt</surname><given-names>DC</given-names></name>, <name><surname>Steinberg</surname><given-names>KM</given-names></name>, <name><surname>Larson</surname><given-names>DE</given-names></name>, <name><surname>Wilson</surname><given-names>RK</given-names></name>, <name><surname>Mardis</surname><given-names>ER</given-names></name>. <article-title>The next-generation sequencing revolution and its impact on genomics</article-title>. <source>Cell</source>. <year>2013</year>;<volume>155</volume>: <fpage>27</fpage>&#x2013;<lpage>38</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2013.09.006</pub-id>
+<pub-id pub-id-type="pmid">24074859</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref005">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Cantley</surname><given-names>LC</given-names></name>. <article-title>The Phosphoinositide 3-Kinase Pathway.</article-title>
+<source>Science</source>. <year>2002</year>;<volume>296</volume>: <fpage>1655</fpage>&#x2013;<lpage>1657</lpage>. <pub-id pub-id-type="doi">10.1126/science.296.5573.1655</pub-id>
+<pub-id pub-id-type="pmid">12040186</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref006">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Balla</surname><given-names>T.</given-names></name>
+<article-title>Phosphoinositides: Tiny Lipids With Giant Impact on Cell Regulation</article-title>. <source>Physiol Rev</source>. <year>2013</year>;<volume>93</volume>: <fpage>1019</fpage>&#x2013;<lpage>1137</lpage>. <pub-id pub-id-type="doi">10.1152/physrev.00028.2012</pub-id>
+<pub-id pub-id-type="pmid">23899561</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref007">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Jean</surname><given-names>S</given-names></name>, <name><surname>Kiger</surname><given-names>AA</given-names></name>. <article-title>Classes of phosphoinositide 3-kinases at a glance</article-title>. <source>J Cell Sci</source>. <year>2014</year>;<volume>127</volume>: <fpage>923</fpage>&#x2013;<lpage>928</lpage>. <pub-id pub-id-type="doi">10.1242/jcs.093773</pub-id>
+<pub-id pub-id-type="pmid">24587488</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref008">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Wenk</surname><given-names>MR</given-names></name>, <name><surname>Lucast</surname><given-names>L</given-names></name>, <name><surname>Di Paolo</surname><given-names>G</given-names></name>, <name><surname>Romanelli</surname><given-names>AJ</given-names></name>, <name><surname>Suchy</surname><given-names>SF</given-names></name>, <name><surname>Nussbaum</surname><given-names>RL</given-names></name>, <etal>et al</etal>
+<article-title>Phosphoinositide profiling in complex lipid mixtures using electrospray ionization mass spectrometry</article-title>. <source>Nat Biotechnol</source>. <year>2003</year>;<volume>21</volume>: <fpage>813</fpage>&#x2013;<lpage>817</lpage>. <pub-id pub-id-type="doi">10.1038/nbt837</pub-id>
+<pub-id pub-id-type="pmid">12808461</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref009">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Staiano</surname><given-names>L</given-names></name>, <name><surname>De Leo</surname><given-names>MG</given-names></name>, <name><surname>Persico</surname><given-names>M</given-names></name>, <name><surname>De Matteis</surname><given-names>MA</given-names></name>. <article-title>Mendelian disorders of PI metabolizing enzymes</article-title>. <source>Biochim Biophys Acta BBA&#x2014;Mol Cell Biol Lipids</source>. <year>2015</year>;<volume>1851</volume>: <fpage>867</fpage>&#x2013;<lpage>881</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbalip.2014.12.001</pub-id>
+<pub-id pub-id-type="pmid">25510381</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref010">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Chow</surname><given-names>CY</given-names></name>, <name><surname>Zhang</surname><given-names>Y</given-names></name>, <name><surname>Dowling</surname><given-names>JJ</given-names></name>, <name><surname>Jin</surname><given-names>N</given-names></name>, <name><surname>Adamska</surname><given-names>M</given-names></name>, <name><surname>Shiga</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>Mutation of FIG4 causes neurodegeneration in the pale tremor mouse and patients with CMT4J</article-title>. <source>Nature</source>. <year>2007</year>;<volume>448</volume>: <fpage>68</fpage>&#x2013;<lpage>72</lpage>. <pub-id pub-id-type="doi">10.1038/nature05876</pub-id>
+<pub-id pub-id-type="pmid">17572665</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref011">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Nicholson</surname><given-names>G</given-names></name>, <name><surname>Lenk</surname><given-names>GM</given-names></name>, <name><surname>Reddel</surname><given-names>SW</given-names></name>, <name><surname>Grant</surname><given-names>AE</given-names></name>, <name><surname>Towne</surname><given-names>CF</given-names></name>, <name><surname>Ferguson</surname><given-names>CJ</given-names></name>, <etal>et al</etal>
+<article-title>Distinctive genetic and clinical features of CMT4J: a severe neuropathy caused by mutations in the PI(3,5)P&#x2082; phosphatase FIG4</article-title>. <source>Brain J Neurol</source>. <year>2011</year>;<volume>134</volume>: <fpage>1959</fpage>&#x2013;<lpage>1971</lpage>. <pub-id pub-id-type="doi">10.1093/brain/awr148</pub-id>
+<pub-id pub-id-type="pmid">21705420</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref012">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Laporte</surname><given-names>J</given-names></name>, <name><surname>Hu</surname><given-names>LJ</given-names></name>, <name><surname>Kretz</surname><given-names>C</given-names></name>, <name><surname>Mandel</surname><given-names>JL</given-names></name>, <name><surname>Kioschis</surname><given-names>P</given-names></name>, <name><surname>Coy</surname><given-names>JF</given-names></name>, <etal>et al</etal>
+<article-title>A gene mutated in X-linked myotubular myopathy defines a new putative tyrosine phosphatase family conserved in yeast</article-title>. <source>Nat Genet</source>. <year>1996</year>;<volume>13</volume>: <fpage>175</fpage>&#x2013;<lpage>182</lpage>. <pub-id pub-id-type="doi">10.1038/ng0696-175</pub-id>
+<pub-id pub-id-type="pmid">8640223</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref013">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Angulo</surname><given-names>I</given-names></name>, <name><surname>Vadas</surname><given-names>O</given-names></name>, <name><surname>Gar&#xE7;on</surname><given-names>F</given-names></name>, <name><surname>Banham-Hall</surname><given-names>E</given-names></name>, <name><surname>Plagnol</surname><given-names>V</given-names></name>, <name><surname>Leahy</surname><given-names>TR</given-names></name>, <etal>et al</etal>
+<article-title>Phosphoinositide 3-kinase &#x3B4; gene mutation predisposes to respiratory infection and airway damage</article-title>. <source>Science</source>. <year>2013</year>;<volume>342</volume>: <fpage>866</fpage>&#x2013;<lpage>871</lpage>. <pub-id pub-id-type="doi">10.1126/science.1243292</pub-id>
+<pub-id pub-id-type="pmid">24136356</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref014">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Lucas</surname><given-names>CL</given-names></name>, <name><surname>Kuehn</surname><given-names>HS</given-names></name>, <name><surname>Zhao</surname><given-names>F</given-names></name>, <name><surname>Niemela</surname><given-names>JE</given-names></name>, <name><surname>Deenick</surname><given-names>EK</given-names></name>, <name><surname>Palendira</surname><given-names>U</given-names></name>, <etal>et al</etal>
+<article-title>Dominant-activating germline mutations in the gene encoding the PI(3)K catalytic subunit p110&#x3B4; result in T cell senescence and human immunodeficiency</article-title>. <source>Nat Immunol</source>. <year>2014</year>;<volume>15</volume>: <fpage>88</fpage>&#x2013;<lpage>97</lpage>. <pub-id pub-id-type="doi">10.1038/ni.2771</pub-id>
+<pub-id pub-id-type="pmid">24165795</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref015">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>McCartney</surname><given-names>AJ</given-names></name>, <name><surname>Zhang</surname><given-names>Y</given-names></name>, <name><surname>Weisman</surname><given-names>LS</given-names></name>. <article-title>Phosphatidylinositol 3,5-bisphosphate: low abundance, high significance</article-title>. <source>BioEssays News Rev Mol Cell Dev Biol</source>. <year>2014</year>;<volume>36</volume>: <fpage>52</fpage>&#x2013;<lpage>64</lpage>. <pub-id pub-id-type="doi">10.1002/bies.201300012</pub-id>
+<pub-id pub-id-type="pmid">24323921</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref016">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Bissig</surname><given-names>C</given-names></name>, <name><surname>Crois&#xE9;</surname><given-names>P</given-names></name>, <name><surname>Heiligenstein</surname><given-names>X</given-names></name>, <name><surname>Hurbain</surname><given-names>I</given-names></name>, <name><surname>Lenk</surname><given-names>GM</given-names></name>, <name><surname>Kaufman</surname><given-names>E</given-names></name>, <etal>et al</etal>
+<article-title>PIKfyve complex regulates early melanosome homeostasis required for physiological amyloid formation</article-title>. <source>J Cell Sci</source>. <year>2019</year>; <pub-id pub-id-type="doi">10.1242/jcs.229500</pub-id>
+<pub-id pub-id-type="pmid">30709920</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref017">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Mironova</surname><given-names>YA</given-names></name>, <name><surname>Lin</surname><given-names>J-P</given-names></name>, <name><surname>Kalinski</surname><given-names>AL</given-names></name>, <name><surname>Huffman</surname><given-names>LD</given-names></name>, <name><surname>Lenk</surname><given-names>GM</given-names></name>, <name><surname>Havton</surname><given-names>LA</given-names></name>, <etal>et al</etal>
+<article-title>Protective role of the lipid phosphatase Fig4 in the adult nervous system</article-title>. <source>Hum Mol Genet</source>. <year>2018</year>;<volume>27</volume>: <fpage>2443</fpage>&#x2013;<lpage>2453</lpage>. <pub-id pub-id-type="doi">10.1093/hmg/ddy145</pub-id>
+<pub-id pub-id-type="pmid">29688489</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref018">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Mironova</surname><given-names>YA</given-names></name>, <name><surname>Lenk</surname><given-names>GM</given-names></name>, <name><surname>Lin</surname><given-names>J-P</given-names></name>, <name><surname>Lee</surname><given-names>SJ</given-names></name>, <name><surname>Twiss</surname><given-names>JL</given-names></name>, <name><surname>Vaccari</surname><given-names>I</given-names></name>, <etal>et al</etal>
+<article-title>PI(3,5)P2 biosynthesis regulates oligodendrocyte differentiation by intrinsic and extrinsic mechanisms.</article-title>
+<source>eLife</source>. <year>2016</year>;<volume>5</volume>
+<pub-id pub-id-type="doi">10.7554/eLife.24506</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref019">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Devereaux</surname><given-names>K</given-names></name>, <name><surname>Dall&#x2019;Armi</surname><given-names>C</given-names></name>, <name><surname>Alcazar-Roman</surname><given-names>A</given-names></name>, <name><surname>Ogasawara</surname><given-names>Y</given-names></name>, <name><surname>Zhou</surname><given-names>X</given-names></name>, <name><surname>Wang</surname><given-names>F</given-names></name>, <etal>et al</etal>
+<article-title>Regulation of mammalian autophagy by class II and III PI 3-kinases through PI3P synthesis</article-title>. <source>PloS One.</source>
+<year>2013</year>;<volume>8</volume>: <fpage>e76405</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0076405</pub-id>
+<pub-id pub-id-type="pmid">24098492</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref020">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Yoshioka</surname><given-names>K</given-names></name>, <name><surname>Yoshida</surname><given-names>K</given-names></name>, <name><surname>Cui</surname><given-names>H</given-names></name>, <name><surname>Wakayama</surname><given-names>T</given-names></name>, <name><surname>Takuwa</surname><given-names>N</given-names></name>, <name><surname>Okamoto</surname><given-names>Y</given-names></name>, <etal>et al</etal>
+<article-title>Endothelial PI3K-C2&#x3B1;, a class II PI3K, has an essential role in angiogenesis and vascular barrier function</article-title>. <source>Nat Med</source>. <year>2012</year>;<volume>18</volume>: <fpage>1560</fpage>&#x2013;<lpage>1569</lpage>. <pub-id pub-id-type="doi">10.1038/nm.2928</pub-id>
+<pub-id pub-id-type="pmid">22983395</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref021">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Leibiger</surname><given-names>B</given-names></name>, <name><surname>Moede</surname><given-names>T</given-names></name>, <name><surname>Uhles</surname><given-names>S</given-names></name>, <name><surname>Barker</surname><given-names>CJ</given-names></name>, <name><surname>Creveaux</surname><given-names>M</given-names></name>, <name><surname>Domin</surname><given-names>J</given-names></name>, <etal>et al</etal>
+<article-title>Insulin-feedback via PI3K-C2alpha activated PKBalpha/Akt1 is required for glucose-stimulated insulin secretion</article-title>. <source>FASEB J Off Publ Fed Am Soc Exp Biol</source>. <year>2010</year>;<volume>24</volume>: <fpage>1824</fpage>&#x2013;<lpage>1837</lpage>. <pub-id pub-id-type="doi">10.1096/fj.09-148072</pub-id>
+<pub-id pub-id-type="pmid">20061534</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref022">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Krag</surname><given-names>C</given-names></name>, <name><surname>Malmberg</surname><given-names>EK</given-names></name>, <name><surname>Salcini</surname><given-names>AE</given-names></name>. <article-title>PI3KC2&#x3B1;, a class II PI3K, is required for dynamin-independent internalization pathways</article-title>. <source>J Cell Sci</source>. <year>2010</year>;<volume>123</volume>: <fpage>4240</fpage>&#x2013;<lpage>4250</lpage>. <pub-id pub-id-type="doi">10.1242/jcs.071712</pub-id>
+<pub-id pub-id-type="pmid">21081650</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref023">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Falasca</surname><given-names>M</given-names></name>, <name><surname>Maffucci</surname><given-names>T</given-names></name>. <article-title>Regulation and cellular functions of class II phosphoinositide 3-kinases</article-title>. <source>Biochem J</source>. <year>2012</year>;<volume>443</volume>: <fpage>587</fpage>&#x2013;<lpage>601</lpage>. <pub-id pub-id-type="doi">10.1042/BJ20120008</pub-id>
+<pub-id pub-id-type="pmid">22507127</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref024">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Behrends</surname><given-names>C</given-names></name>, <name><surname>Sowa</surname><given-names>ME</given-names></name>, <name><surname>Gygi</surname><given-names>SP</given-names></name>, <name><surname>Harper</surname><given-names>JW</given-names></name>. <article-title>Network organization of the human autophagy system</article-title>. <source>Nature</source>. <year>2010</year>;<volume>466</volume>: <fpage>68</fpage>&#x2013;<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1038/nature09204</pub-id>
+<pub-id pub-id-type="pmid">20562859</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref025">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Campa</surname><given-names>CC</given-names></name>, <name><surname>Franco</surname><given-names>I</given-names></name>, <name><surname>Hirsch</surname><given-names>E</given-names></name>. <article-title>PI3K-C2&#x3B1;: One enzyme for two products coupling vesicle trafficking and signal transduction</article-title>. <source>FEBS Lett</source>. <year>2015</year>;<volume>589</volume>: <fpage>1552</fpage>&#x2013;<lpage>1558</lpage>. <pub-id pub-id-type="doi">10.1016/j.febslet.2015.05.001</pub-id>
+<pub-id pub-id-type="pmid">25979177</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref026">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Franco</surname><given-names>I</given-names></name>, <name><surname>Gulluni</surname><given-names>F</given-names></name>, <name><surname>Campa</surname><given-names>CC</given-names></name>, <name><surname>Costa</surname><given-names>C</given-names></name>, <name><surname>Margaria</surname><given-names>JP</given-names></name>, <name><surname>Ciraolo</surname><given-names>E</given-names></name>, <etal>et al</etal>
+<article-title>PI3K Class II &#x3B1; Controls Spatially Restricted Endosomal PtdIns3P and Rab11 Activation to Promote Primary Cilium Function</article-title>. <source>Dev Cell</source>. <year>2014</year>;<volume>28</volume>: <fpage>647</fpage>&#x2013;<lpage>658</lpage>. <pub-id pub-id-type="doi">10.1016/j.devcel.2014.01.022</pub-id>
+<pub-id pub-id-type="pmid">24697898</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref027">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Posor</surname><given-names>Y</given-names></name>, <name><surname>Eichhorn-Gruenig</surname><given-names>M</given-names></name>, <name><surname>Puchkov</surname><given-names>D</given-names></name>, <name><surname>Sch&#xF6;neberg</surname><given-names>J</given-names></name>, <name><surname>Ullrich</surname><given-names>A</given-names></name>, <name><surname>Lampe</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>Spatiotemporal control of endocytosis by phosphatidylinositol-3,4-bisphosphate</article-title>. <source>Nature</source>. <year>2013</year>;<volume>499</volume>: <fpage>233</fpage>&#x2013;<lpage>237</lpage>. <pub-id pub-id-type="doi">10.1038/nature12360</pub-id>
+<pub-id pub-id-type="pmid">23823722</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref028">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Gulluni</surname><given-names>F</given-names></name>, <name><surname>Martini</surname><given-names>M</given-names></name>, <name><surname>De Santis</surname><given-names>MC</given-names></name>, <name><surname>Campa</surname><given-names>CC</given-names></name>, <name><surname>Ghigo</surname><given-names>A</given-names></name>, <name><surname>Margaria</surname><given-names>JP</given-names></name>, <etal>et al</etal>
+<article-title>Mitotic Spindle Assembly and Genomic Stability in Breast Cancer Require PI3K-C2&#x3B1; Scaffolding Function</article-title>. <source>Cancer Cell</source>. <year>2017</year>;<volume>32</volume>: <fpage>444</fpage>&#x2013;<lpage>459.e7</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccell.2017.09.002</pub-id>
+<pub-id pub-id-type="pmid">29017056</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref029">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Laflamme</surname><given-names>N</given-names></name>, <name><surname>Leblanc</surname><given-names>JF</given-names></name>, <name><surname>Mailloux</surname><given-names>J</given-names></name>, <name><surname>Faure</surname><given-names>N</given-names></name>, <name><surname>Labrie</surname><given-names>F</given-names></name>, <name><surname>Simard</surname><given-names>J</given-names></name>. <article-title>Mutation R96W in cytochrome P450c17 gene causes combined 17 alpha-hydroxylase/17-20-lyase deficiency in two French Canadian patients</article-title>. <source>J Clin Endocrinol Metab</source>. <year>1996</year>;<volume>81</volume>: <fpage>264</fpage>&#x2013;<lpage>268</lpage>. <pub-id pub-id-type="doi">10.1210/jcem.81.1.8550762</pub-id>
+<pub-id pub-id-type="pmid">8550762</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref030">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Martin</surname><given-names>RM</given-names></name>, <name><surname>Lin</surname><given-names>CJ</given-names></name>, <name><surname>Costa</surname><given-names>EMF</given-names></name>, <name><surname>de Oliveira</surname><given-names>ML</given-names></name>, <name><surname>Carrilho</surname><given-names>A</given-names></name>, <name><surname>Villar</surname><given-names>H</given-names></name>, <etal>et al</etal>
+<article-title>P450c17 deficiency in Brazilian patients: biochemical diagnosis through progesterone levels confirmed by CYP17 genotyping</article-title>. <source>J Clin Endocrinol Metab</source>. <year>2003</year>;<volume>88</volume>: <fpage>5739</fpage>&#x2013;<lpage>5746</lpage>. <pub-id pub-id-type="doi">10.1210/jc.2003-030988</pub-id>
+<pub-id pub-id-type="pmid">14671162</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref031">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Kurolap</surname><given-names>A</given-names></name>, <name><surname>Orenstein</surname><given-names>N</given-names></name>, <name><surname>Kedar</surname><given-names>I</given-names></name>, <name><surname>Weisz Hubshman</surname><given-names>M</given-names></name>, <name><surname>Tiosano</surname><given-names>D</given-names></name>, <name><surname>Mory</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>Is one diagnosis the whole story? patients with double diagnoses</article-title>. <source>Am J Med Genet A</source>. <year>2016</year>;<volume>170</volume>: <fpage>2338</fpage>&#x2013;<lpage>2348</lpage>. <pub-id pub-id-type="doi">10.1002/ajmg.a.37799</pub-id>
+<pub-id pub-id-type="pmid">27271787</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref032">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Lek</surname><given-names>M</given-names></name>, <name><surname>Karczewski</surname><given-names>KJ</given-names></name>, <name><surname>Minikel</surname><given-names>EV</given-names></name>, <name><surname>Samocha</surname><given-names>KE</given-names></name>, <name><surname>Banks</surname><given-names>E</given-names></name>, <name><surname>Fennell</surname><given-names>T</given-names></name>, <etal>et al</etal>
+<article-title>Analysis of protein-coding genetic variation in 60,706 humans</article-title>. <source>Nature</source>. <year>2016</year>;<volume>536</volume>: <fpage>285</fpage>&#x2013;<lpage>291</lpage>. <pub-id pub-id-type="doi">10.1038/nature19057</pub-id>
+<pub-id pub-id-type="pmid">27535533</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref033">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Breslow</surname><given-names>DK</given-names></name>, <name><surname>Holland</surname><given-names>AJ</given-names></name>. <article-title>Mechanism and Regulation of Centriole and Cilium Biogenesis</article-title>. <source>Annu Rev Biochem</source>. <year>2019</year>;<fpage>88</fpage>
+<pub-id pub-id-type="doi">10.1146/annurev-biochem-013118-111153</pub-id>
+<pub-id pub-id-type="pmid">30601682</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref034">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Pazour</surname><given-names>GJ</given-names></name>, <name><surname>Baker</surname><given-names>SA</given-names></name>, <name><surname>Deane</surname><given-names>JA</given-names></name>, <name><surname>Cole</surname><given-names>DG</given-names></name>, <name><surname>Dickert</surname><given-names>BL</given-names></name>, <name><surname>Rosenbaum</surname><given-names>JL</given-names></name>, <etal>et al</etal>
+<article-title>The intraflagellar transport protein, IFT88, is essential for vertebrate photoreceptor assembly and maintenance</article-title>. <source>J Cell Biol</source>. <year>2002</year>;<volume>157</volume>: <fpage>103</fpage>&#x2013;<lpage>113</lpage>. <pub-id pub-id-type="doi">10.1083/jcb.200107108</pub-id>
+<pub-id pub-id-type="pmid">11916979</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref035">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Bhogaraju</surname><given-names>S</given-names></name>, <name><surname>Engel</surname><given-names>BD</given-names></name>, <name><surname>Lorentzen</surname><given-names>E</given-names></name>. <article-title>Intraflagellar transport complex structure and cargo interactions</article-title>. <source>Cilia</source>. <year>2013</year>;<volume>2</volume>: <fpage>10</fpage>
+<pub-id pub-id-type="doi">10.1186/2046-2530-2-10</pub-id>
+<pub-id pub-id-type="pmid">23945166</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref036">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Consortium</surname><given-names>GTEx</given-names></name>. <article-title>The Genotype-Tissue Expression (GTEx) project</article-title>. <source>Nat Genet</source>. <year>2013</year>;<volume>45</volume>: <fpage>580</fpage>&#x2013;<lpage>585</lpage>. <pub-id pub-id-type="doi">10.1038/ng.2653</pub-id>
+<pub-id pub-id-type="pmid">23715323</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref037">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Vanhaesebroeck</surname><given-names>B</given-names></name>, <name><surname>Whitehead</surname><given-names>MA</given-names></name>, <name><surname>Pi&#xF1;eiro</surname><given-names>R</given-names></name>. <article-title>Molecules in medicine mini-review: isoforms of PI3K in biology and disease</article-title>. <source>J Mol Med</source>. <year>2016</year>;<volume>94</volume>: <fpage>5</fpage>&#x2013;<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1007/s00109-015-1352-5</pub-id>
+<pub-id pub-id-type="pmid">26658520</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref038">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Lupski</surname><given-names>JR</given-names></name>, <name><surname>Belmont</surname><given-names>JW</given-names></name>, <name><surname>Boerwinkle</surname><given-names>E</given-names></name>, <name><surname>Gibbs</surname><given-names>RA</given-names></name>. <article-title>Clan genomics and the complex architecture of human disease</article-title>. <source>Cell</source>. <year>2011</year>;<volume>147</volume>: <fpage>32</fpage>&#x2013;<lpage>43</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2011.09.008</pub-id>
+<pub-id pub-id-type="pmid">21962505</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref039">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Blair</surname><given-names>DR</given-names></name>, <name><surname>Lyttle</surname><given-names>CS</given-names></name>, <name><surname>Mortensen</surname><given-names>JM</given-names></name>, <name><surname>Bearden</surname><given-names>CF</given-names></name>, <name><surname>Jensen</surname><given-names>AB</given-names></name>, <name><surname>Khiabanian</surname><given-names>H</given-names></name>, <etal>et al</etal>
+<article-title>A Nondegenerate Code of Deleterious Variants in Mendelian Loci Contributes to Complex Disease Risk</article-title>. <source>Cell</source>. <year>2013</year>;<volume>155</volume>: <fpage>70</fpage>&#x2013;<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2013.08.030</pub-id>
+<pub-id pub-id-type="pmid">24074861</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref040">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Marouli</surname><given-names>E</given-names></name>, <name><surname>Graff</surname><given-names>M</given-names></name>, <name><surname>Medina-Gomez</surname><given-names>C</given-names></name>, <name><surname>Lo</surname><given-names>KS</given-names></name>, <name><surname>Wood</surname><given-names>AR</given-names></name>, <name><surname>Kjaer</surname><given-names>TR</given-names></name>, <etal>et al</etal>
+<article-title>Rare and low-frequency coding variants alter human adult height</article-title>. <source>Nature</source>. <year>2017</year>;<volume>542</volume>: <fpage>186</fpage>&#x2013;<lpage>190</lpage>. <pub-id pub-id-type="doi">10.1038/nature21039</pub-id>
+<pub-id pub-id-type="pmid">28146470</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref041">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Lotta</surname><given-names>LA</given-names></name>, <name><surname>Gulati</surname><given-names>P</given-names></name>, <name><surname>Day</surname><given-names>FR</given-names></name>, <name><surname>Payne</surname><given-names>F</given-names></name>, <name><surname>Ongen</surname><given-names>H</given-names></name>, <name><surname>van de Bunt</surname><given-names>M</given-names></name>, <etal>et al</etal>
+<article-title>Integrative genomic analysis implicates limited peripheral adipose storage capacity in the pathogenesis of human insulin resistance</article-title>. <source>Nat Genet</source>. <year>2016</year>;<volume>49</volume>: <fpage>17</fpage>&#x2013;<lpage>26</lpage>. <pub-id pub-id-type="doi">10.1038/ng.3714</pub-id>
+<pub-id pub-id-type="pmid">27841877</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref042">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Semple</surname><given-names>RK</given-names></name>, <name><surname>Savage</surname><given-names>DB</given-names></name>, <name><surname>Cochran</surname><given-names>EK</given-names></name>, <name><surname>Gorden</surname><given-names>P</given-names></name>, <name><surname>O&#x2019;Rahilly</surname><given-names>S</given-names></name>. <article-title>Genetic syndromes of severe insulin resistance</article-title>. <source>Endocr Rev</source>. <year>2011</year>;<volume>32</volume>: <fpage>498</fpage>&#x2013;<lpage>514</lpage>. <pub-id pub-id-type="doi">10.1210/er.2010-0020</pub-id>
+<pub-id pub-id-type="pmid">21536711</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref043">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Goes</surname><given-names>FS</given-names></name>, <name><surname>McGrath</surname><given-names>J</given-names></name>, <name><surname>Avramopoulos</surname><given-names>D</given-names></name>, <name><surname>Wolyniec</surname><given-names>P</given-names></name>, <name><surname>Pirooznia</surname><given-names>M</given-names></name>, <name><surname>Ruczinski</surname><given-names>I</given-names></name>, <etal>et al</etal>
+<article-title>Genome-wide association study of schizophrenia in Ashkenazi Jews</article-title>. <source>Am J Med Genet Part B Neuropsychiatr Genet Off Publ Int Soc Psychiatr Genet</source>. <year>2015</year>;<volume>168</volume>: <fpage>649</fpage>&#x2013;<lpage>659</lpage>. <pub-id pub-id-type="doi">10.1002/ajmg.b.32349</pub-id>
+<pub-id pub-id-type="pmid">26198764</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref044">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>Ruderfer</surname><given-names>DM</given-names></name>, <name><surname>Fanous</surname><given-names>AH</given-names></name>, <name><surname>Ripke</surname><given-names>S</given-names></name>, <name><surname>McQuillin</surname><given-names>A</given-names></name>, <name><surname>Amdur</surname><given-names>RL</given-names></name>, <article-title>Schizophrenia Working Group of Psychiatric Genomics Consortium, et al. Polygenic dissection of diagnosis and clinical dimensions of bipolar disorder and schizophrenia</article-title>. <source>Mol Psychiatry</source>. <year>2014</year>;<volume>19</volume>: <fpage>1017</fpage>&#x2013;<lpage>1024</lpage>. <pub-id pub-id-type="doi">10.1038/mp.2013.138</pub-id>
+<pub-id pub-id-type="pmid">24280982</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref045">
+        <label>45</label>
+        <mixed-citation publication-type="journal"><collab>Schizophrenia Psychiatric Genome-Wide Association Study (GWAS) Consortium</collab>. <article-title>Genome-wide association study identifies five new schizophrenia loci</article-title>. <source>Nat Genet</source>. <year>2011</year>;<volume>43</volume>: <fpage>969</fpage>&#x2013;<lpage>976</lpage>. <pub-id pub-id-type="doi">10.1038/ng.940</pub-id>
+<pub-id pub-id-type="pmid">21926974</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref046">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><name><surname>Conduit</surname><given-names>SE</given-names></name>, <name><surname>Dyson</surname><given-names>JM</given-names></name>, <name><surname>Mitchell</surname><given-names>CA</given-names></name>. <article-title>Inositol polyphosphate 5-phosphatases; new players in the regulation of cilia and ciliopathies</article-title>. <source>FEBS Lett</source>. <year>2012</year>;<volume>586</volume>: <fpage>2846</fpage>&#x2013;<lpage>2857</lpage>. <pub-id pub-id-type="doi">10.1016/j.febslet.2012.07.037</pub-id>
+<pub-id pub-id-type="pmid">22828281</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref047">
+        <label>47</label>
+        <mixed-citation publication-type="journal"><name><surname>Travaglini</surname><given-names>L</given-names></name>, <name><surname>Brancati</surname><given-names>F</given-names></name>, <name><surname>Silhavy</surname><given-names>J</given-names></name>, <name><surname>Iannicelli</surname><given-names>M</given-names></name>, <name><surname>Nickerson</surname><given-names>E</given-names></name>, <name><surname>Elkhartoufi</surname><given-names>N</given-names></name>, <etal>et al</etal>
+<article-title>Phenotypic spectrum and prevalence of INPP5E mutations in Joubert syndrome and related disorders</article-title>. <source>Eur J Hum Genet EJHG</source>. <year>2013</year>;<volume>21</volume>: <fpage>1074</fpage>&#x2013;<lpage>1078</lpage>. <pub-id pub-id-type="doi">10.1038/ejhg.2012.305</pub-id>
+<pub-id pub-id-type="pmid">23386033</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref048">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><name><surname>B&#xF6;kenkamp</surname><given-names>A</given-names></name>, <name><surname>Ludwig</surname><given-names>M</given-names></name>. <article-title>The oculocerebrorenal syndrome of Lowe: an update</article-title>. <source>Pediatr Nephrol Berl Ger</source>. <year>2016</year>;<volume>31</volume>: <fpage>2201</fpage>&#x2013;<lpage>2212</lpage>. <pub-id pub-id-type="doi">10.1007/s00467-016-3343-3</pub-id>
+<pub-id pub-id-type="pmid">27011217</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref049">
+        <label>49</label>
+        <mixed-citation publication-type="journal"><name><surname>Mehta</surname><given-names>ZB</given-names></name>, <name><surname>Pietka</surname><given-names>G</given-names></name>, <name><surname>Lowe</surname><given-names>M</given-names></name>. <article-title>The cellular and physiological functions of the Lowe syndrome protein OCRL1</article-title>. <source>Traffic Cph Den</source>. <year>2014</year>;<volume>15</volume>: <fpage>471</fpage>&#x2013;<lpage>487</lpage>. <pub-id pub-id-type="doi">10.1111/tra.12160</pub-id>
+<pub-id pub-id-type="pmid">24499450</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref050">
+        <label>50</label>
+        <mixed-citation publication-type="journal"><name><surname>Wiessner</surname><given-names>M</given-names></name>, <name><surname>Roos</surname><given-names>A</given-names></name>, <name><surname>Munn</surname><given-names>CJ</given-names></name>, <name><surname>Viswanathan</surname><given-names>R</given-names></name>, <name><surname>Whyte</surname><given-names>T</given-names></name>, <name><surname>Cox</surname><given-names>D</given-names></name>, <etal>et al</etal>
+<article-title>Mutations in INPP5K, Encoding a Phosphoinositide 5-Phosphatase, Cause Congenital Muscular Dystrophy with Cataracts and Mild Cognitive Impairment</article-title>. <source>Am J Hum Genet</source>. <year>2017</year>;<volume>100</volume>: <fpage>523</fpage>&#x2013;<lpage>536</lpage>. <pub-id pub-id-type="doi">10.1016/j.ajhg.2017.01.024</pub-id>
+<pub-id pub-id-type="pmid">28190456</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref051">
+        <label>51</label>
+        <mixed-citation publication-type="journal"><name><surname>Osborn</surname><given-names>DPS</given-names></name>, <name><surname>Pond</surname><given-names>HL</given-names></name>, <name><surname>Mazaheri</surname><given-names>N</given-names></name>, <name><surname>Dejardin</surname><given-names>J</given-names></name>, <name><surname>Munn</surname><given-names>CJ</given-names></name>, <name><surname>Mushref</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>Mutations in INPP5K Cause a Form of Congenital Muscular Dystrophy Overlapping Marinesco-Sj&#xF6;gren Syndrome and Dystroglycanopathy</article-title>. <source>Am J Hum Genet</source>. <year>2017</year>;<volume>100</volume>: <fpage>537</fpage>&#x2013;<lpage>545</lpage>. <pub-id pub-id-type="doi">10.1016/j.ajhg.2017.01.019</pub-id>
+<pub-id pub-id-type="pmid">28190459</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref052">
+        <label>52</label>
+        <mixed-citation publication-type="journal"><name><surname>Bothwell</surname><given-names>SP</given-names></name>, <name><surname>Farber</surname><given-names>LW</given-names></name>, <name><surname>Hoagland</surname><given-names>A</given-names></name>, <name><surname>Nussbaum</surname><given-names>RL</given-names></name>. <article-title>Species-specific difference in expression and splice-site choice in Inpp5b, an inositol polyphosphate 5-phosphatase paralogous to the enzyme deficient in Lowe Syndrome</article-title>. <source>Mamm Genome</source>. <year>2010</year>;<volume>21</volume>: <fpage>458</fpage>&#x2013;<lpage>466</lpage>. <pub-id pub-id-type="doi">10.1007/s00335-010-9281-7</pub-id>
+<pub-id pub-id-type="pmid">20872266</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref053">
+        <label>53</label>
+        <mixed-citation publication-type="journal"><name><surname>Prosseda</surname><given-names>PP</given-names></name>, <name><surname>Luo</surname><given-names>N</given-names></name>, <name><surname>Wang</surname><given-names>B</given-names></name>, <name><surname>Alvarado</surname><given-names>JA</given-names></name>, <name><surname>Hu</surname><given-names>Y</given-names></name>, <name><surname>Sun</surname><given-names>Y</given-names></name>. <article-title>Loss of OCRL increases ciliary PI(4,5)P2 in Lowe oculocerebrorenal syndrome</article-title>. <source>J Cell Sci</source>. <year>2017</year>;<volume>130</volume>: <fpage>3447</fpage>&#x2013;<lpage>3454</lpage>. <pub-id pub-id-type="doi">10.1242/jcs.200857</pub-id>
+<pub-id pub-id-type="pmid">28871046</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref054">
+        <label>54</label>
+        <mixed-citation publication-type="journal"><name><surname>Luo</surname><given-names>N</given-names></name>, <name><surname>West</surname><given-names>CC</given-names></name>, <name><surname>Murga-Zamalloa</surname><given-names>CA</given-names></name>, <name><surname>Sun</surname><given-names>L</given-names></name>, <name><surname>Anderson</surname><given-names>RM</given-names></name>, <name><surname>Wells</surname><given-names>CD</given-names></name>, <etal>et al</etal>
+<article-title>OCRL localizes to the primary cilium: a new role for cilia in Lowe syndrome</article-title>. <source>Hum Mol Genet</source>. <year>2012</year>;<volume>21</volume>: <fpage>3333</fpage>&#x2013;<lpage>3344</lpage>. <pub-id pub-id-type="doi">10.1093/hmg/dds163</pub-id>
+<pub-id pub-id-type="pmid">22543976</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref055">
+        <label>55</label>
+        <mixed-citation publication-type="journal"><name><surname>Bielas</surname><given-names>SL</given-names></name>, <name><surname>Silhavy</surname><given-names>JL</given-names></name>, <name><surname>Brancati</surname><given-names>F</given-names></name>, <name><surname>Kisseleva</surname><given-names>MV</given-names></name>, <name><surname>Al-Gazali</surname><given-names>L</given-names></name>, <name><surname>Sztriha</surname><given-names>L</given-names></name>, <etal>et al</etal>
+<article-title>Mutations in INPP5E, encoding inositol polyphosphate-5-phosphatase E, link phosphatidyl inositol signaling to the ciliopathies</article-title>. <source>Nat Genet</source>. <year>2009</year>;<volume>41</volume>: <fpage>1032</fpage>&#x2013;<lpage>1036</lpage>. <pub-id pub-id-type="doi">10.1038/ng.423</pub-id>
+<pub-id pub-id-type="pmid">19668216</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref056">
+        <label>56</label>
+        <mixed-citation publication-type="journal"><name><surname>Braun</surname><given-names>DA</given-names></name>, <name><surname>Hildebrandt</surname><given-names>F</given-names></name>. <article-title>Ciliopathies</article-title>. <source>Cold Spring Harb Perspect Biol</source>. <year>2017</year>;<fpage>9</fpage>
+<pub-id pub-id-type="doi">10.1101/cshperspect.a028191</pub-id>
+<pub-id pub-id-type="pmid">27793968</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref057">
+        <label>57</label>
+        <mixed-citation publication-type="journal"><name><surname>Reiter</surname><given-names>JF</given-names></name>, <name><surname>Leroux</surname><given-names>MR</given-names></name>. <article-title>Genes and molecular pathways underpinning ciliopathies</article-title>. <source>Nat Rev Mol Cell Biol</source>. <year>2017</year>;<volume>18</volume>: <fpage>533</fpage>&#x2013;<lpage>547</lpage>. <pub-id pub-id-type="doi">10.1038/nrm.2017.60</pub-id>
+<pub-id pub-id-type="pmid">28698599</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref058">
+        <label>58</label>
+        <mixed-citation publication-type="journal"><name><surname>van Reeuwijk</surname><given-names>J</given-names></name>, <name><surname>Arts</surname><given-names>HH</given-names></name>, <name><surname>Roepman</surname><given-names>R</given-names></name>. <article-title>Scrutinizing ciliopathies by unraveling ciliary interaction networks</article-title>. <source>Hum Mol Genet</source>. <year>2011</year>;<volume>20</volume>: <fpage>R149</fpage>&#x2013;<lpage>R157</lpage>. <pub-id pub-id-type="doi">10.1093/hmg/ddr354</pub-id>
+<pub-id pub-id-type="pmid">21862450</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref059">
+        <label>59</label>
+        <mixed-citation publication-type="journal"><name><surname>Broekhuis</surname><given-names>JR</given-names></name>, <name><surname>Leong</surname><given-names>WY</given-names></name>, <name><surname>Jansen</surname><given-names>G</given-names></name>. <article-title>Regulation of cilium length and intraflagellar transport</article-title>. <source>Int Rev Cell Mol Biol</source>. <year>2013</year>;<volume>303</volume>: <fpage>101</fpage>&#x2013;<lpage>138</lpage>. <pub-id pub-id-type="doi">10.1016/B978-0-12-407697-6.00003-9</pub-id>
+<pub-id pub-id-type="pmid">23445809</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref060">
+        <label>60</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>L</given-names></name>, <name><surname>Dynlacht</surname><given-names>BD</given-names></name>. <article-title>The regulation of cilium assembly and disassembly in development and disease</article-title>. <source>Development</source>. <year>2018</year>;<volume>145</volume>: <fpage>dev151407</fpage>
+<pub-id pub-id-type="doi">10.1242/dev.151407</pub-id>
+<pub-id pub-id-type="pmid">30224385</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref061">
+        <label>61</label>
+        <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>A</given-names></name>, <name><surname>Tiosano</surname><given-names>D</given-names></name>, <name><surname>Guran</surname><given-names>T</given-names></name>, <name><surname>Baris</surname><given-names>HN</given-names></name>, <name><surname>Bayram</surname><given-names>Y</given-names></name>, <name><surname>Mory</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>Mutations in the mitochondrial ribosomal protein MRPS22 lead to primary ovarian insufficiency</article-title>. <source>Hum Mol Genet</source>. <year>2018</year>;<volume>27</volume>: <fpage>1913</fpage>&#x2013;<lpage>1926</lpage>. <pub-id pub-id-type="doi">10.1093/hmg/ddy098</pub-id>
+<pub-id pub-id-type="pmid">29566152</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref062">
+        <label>62</label>
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>H</given-names></name>, <name><surname>Durbin</surname><given-names>R</given-names></name>. <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>. <source>Bioinforma Oxf Engl</source>. <year>2009</year>;<volume>25</volume>: <fpage>1754</fpage>&#x2013;<lpage>1760</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/btp324</pub-id>
+<pub-id pub-id-type="pmid">19451168</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref063">
+        <label>63</label>
+        <mixed-citation publication-type="journal"><name><surname>McKenna</surname><given-names>A</given-names></name>, <name><surname>Hanna</surname><given-names>M</given-names></name>, <name><surname>Banks</surname><given-names>E</given-names></name>, <name><surname>Sivachenko</surname><given-names>A</given-names></name>, <name><surname>Cibulskis</surname><given-names>K</given-names></name>, <name><surname>Kernytsky</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>The Genome Analysis Toolkit: A MapReduce framework for analyzing next-generation DNA sequencing data</article-title>. <source>Genome Res</source>. <year>2010</year>;<volume>20</volume>: <fpage>1297</fpage>&#x2013;<lpage>1303</lpage>. <pub-id pub-id-type="doi">10.1101/gr.107524.110</pub-id>
+<pub-id pub-id-type="pmid">20644199</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref064">
+        <label>64</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>K</given-names></name>, <name><surname>Li</surname><given-names>M</given-names></name>, <name><surname>Hakonarson</surname><given-names>H</given-names></name>. <article-title>ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</article-title>. <source>Nucleic Acids Res</source>. <year>2010</year>;<volume>38</volume>: <fpage>e164</fpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkq603</pub-id>
+<pub-id pub-id-type="pmid">20601685</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref065">
+        <label>65</label>
+        <mixed-citation publication-type="journal"><name><surname>Pruitt</surname><given-names>KD</given-names></name>, <name><surname>Tatusova</surname><given-names>T</given-names></name>, <name><surname>Maglott</surname><given-names>DR</given-names></name>. <article-title>NCBI reference sequences (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins</article-title>. <source>Nucleic Acids Res</source>. <year>2007</year>;<volume>35</volume>: <fpage>D61</fpage>&#x2013;<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkl842</pub-id>
+<pub-id pub-id-type="pmid">17130148</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref066">
+        <label>66</label>
+        <mixed-citation publication-type="journal"><name><surname>Landrum</surname><given-names>MJ</given-names></name>, <name><surname>Lee</surname><given-names>JM</given-names></name>, <name><surname>Benson</surname><given-names>M</given-names></name>, <name><surname>Brown</surname><given-names>G</given-names></name>, <name><surname>Chao</surname><given-names>C</given-names></name>, <name><surname>Chitipiralla</surname><given-names>S</given-names></name>, <etal>et al</etal>
+<article-title>ClinVar: public archive of interpretations of clinically relevant variants</article-title>. <source>Nucleic Acids Res</source>. <year>2016</year>;<volume>44</volume>: <fpage>D862</fpage>&#x2013;<lpage>868</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkv1222</pub-id>
+<pub-id pub-id-type="pmid">26582918</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref067">
+        <label>67</label>
+        <mixed-citation publication-type="journal"><name><surname>Liu</surname><given-names>X</given-names></name>, <name><surname>Jian</surname><given-names>X</given-names></name>, <name><surname>Boerwinkle</surname><given-names>E</given-names></name>. <article-title>dbNSFP: a lightweight database of human nonsynonymous SNPs and their functional predictions</article-title>. <source>Hum Mutat</source>. <year>2011</year>;<volume>32</volume>: <fpage>894</fpage>&#x2013;<lpage>899</lpage>. <pub-id pub-id-type="doi">10.1002/humu.21517</pub-id>
+<pub-id pub-id-type="pmid">21520341</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref068">
+        <label>68</label>
+        <mixed-citation publication-type="journal"><name><surname>Scott</surname><given-names>EM</given-names></name>, <name><surname>Halees</surname><given-names>A</given-names></name>, <name><surname>Itan</surname><given-names>Y</given-names></name>, <name><surname>Spencer</surname><given-names>EG</given-names></name>, <name><surname>He</surname><given-names>Y</given-names></name>, <name><surname>Azab</surname><given-names>MA</given-names></name>, <etal>et al</etal>
+<article-title>Characterization of Greater Middle Eastern genetic variation for enhanced disease gene discovery</article-title>. <source>Nat Genet</source>. <year>2016</year>;<volume>48</volume>: <fpage>1071</fpage>&#x2013;<lpage>1076</lpage>. <pub-id pub-id-type="doi">10.1038/ng.3592</pub-id>
+<pub-id pub-id-type="pmid">27428751</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref069">
+        <label>69</label>
+        <mixed-citation publication-type="journal"><name><surname>Kumar</surname><given-names>P</given-names></name>, <name><surname>Henikoff</surname><given-names>S</given-names></name>, <name><surname>Ng</surname><given-names>PC</given-names></name>. <article-title>Predicting the effects of coding non-synonymous variants on protein function using the SIFT algorithm</article-title>. <source>Nat Protoc</source>. <year>2009</year>;<volume>4</volume>: <fpage>1073</fpage>&#x2013;<lpage>1081</lpage>. <pub-id pub-id-type="doi">10.1038/nprot.2009.86</pub-id>
+<pub-id pub-id-type="pmid">19561590</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref070">
+        <label>70</label>
+        <mixed-citation publication-type="journal"><name><surname>Adzhubei</surname><given-names>IA</given-names></name>, <name><surname>Schmidt</surname><given-names>S</given-names></name>, <name><surname>Peshkin</surname><given-names>L</given-names></name>, <name><surname>Ramensky</surname><given-names>VE</given-names></name>, <name><surname>Gerasimova</surname><given-names>A</given-names></name>, <name><surname>Bork</surname><given-names>P</given-names></name>, <etal>et al</etal>
+<article-title>A method and server for predicting damaging missense mutations</article-title>. <source>Nat Methods</source>. <year>2010</year>;<volume>7</volume>: <fpage>248</fpage>&#x2013;<lpage>249</lpage>. <pub-id pub-id-type="doi">10.1038/nmeth0410-248</pub-id>
+<pub-id pub-id-type="pmid">20354512</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref071">
+        <label>71</label>
+        <mixed-citation publication-type="journal"><name><surname>Neveling</surname><given-names>K</given-names></name>, <name><surname>Feenstra</surname><given-names>I</given-names></name>, <name><surname>Gilissen</surname><given-names>C</given-names></name>, <name><surname>Hoefsloot</surname><given-names>LH</given-names></name>, <name><surname>Kamsteeg</surname><given-names>E-J</given-names></name>, <name><surname>Mensenkamp</surname><given-names>AR</given-names></name>, <etal>et al</etal>
+<article-title>A post-hoc comparison of the utility of sanger sequencing and exome sequencing for the diagnosis of heterogeneous diseases</article-title>. <source>Hum Mutat</source>. <year>2013</year>;<volume>34</volume>: <fpage>1721</fpage>&#x2013;<lpage>1726</lpage>. <pub-id pub-id-type="doi">10.1002/humu.22450</pub-id>
+<pub-id pub-id-type="pmid">24123792</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref072">
+        <label>72</label>
+        <mixed-citation publication-type="journal"><name><surname>Hauer</surname><given-names>NN</given-names></name>, <name><surname>Popp</surname><given-names>B</given-names></name>, <name><surname>Schoeller</surname><given-names>E</given-names></name>, <name><surname>Schuhmann</surname><given-names>S</given-names></name>, <name><surname>Heath</surname><given-names>KE</given-names></name>, <name><surname>Hisado-Oliva</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>Clinical relevance of systematic phenotyping and exome sequencing in patients with short stature</article-title>. <source>Genet Med</source>. <year>2018</year>;<volume>20</volume>: <fpage>630</fpage>&#x2013;<lpage>638</lpage>. <pub-id pub-id-type="doi">10.1038/gim.2017.159</pub-id>
+<pub-id pub-id-type="pmid">29758562</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref073">
+        <label>73</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>K</given-names></name>, <name><surname>Li</surname><given-names>M</given-names></name>, <name><surname>Hadley</surname><given-names>D</given-names></name>, <name><surname>Liu</surname><given-names>R</given-names></name>, <name><surname>Glessner</surname><given-names>J</given-names></name>, <name><surname>Grant</surname><given-names>SFA</given-names></name>, <etal>et al</etal>
+<article-title>PennCNV: an integrated hidden Markov model designed for high-resolution copy number variation detection in whole-genome SNP genotyping data</article-title>. <source>Genome Res</source>. <year>2007</year>;<volume>17</volume>: <fpage>1665</fpage>&#x2013;<lpage>1674</lpage>. <pub-id pub-id-type="doi">10.1101/gr.6861907</pub-id>
+<pub-id pub-id-type="pmid">17921354</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref074">
+        <label>74</label>
+        <mixed-citation publication-type="journal"><name><surname>Krumm</surname><given-names>N</given-names></name>, <name><surname>Sudmant</surname><given-names>PH</given-names></name>, <name><surname>Ko</surname><given-names>A</given-names></name>, <name><surname>O&#x2019;Roak</surname><given-names>BJ</given-names></name>, <name><surname>Malig</surname><given-names>M</given-names></name>, <name><surname>Coe</surname><given-names>BP</given-names></name>, <etal>et al</etal>
+<article-title>Copy number variation detection and genotyping from exome sequence data</article-title>. <source>Genome Res</source>. <year>2012</year>;<volume>22</volume>: <fpage>1525</fpage>&#x2013;<lpage>1532</lpage>. <pub-id pub-id-type="doi">10.1101/gr.138115.112</pub-id>
+<pub-id pub-id-type="pmid">22585873</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref075">
+        <label>75</label>
+        <mixed-citation publication-type="journal"><name><surname>Pfundt</surname><given-names>R</given-names></name>, <name><surname>Del Rosario</surname><given-names>M</given-names></name>, <name><surname>Vissers</surname><given-names>LELM</given-names></name>, <name><surname>Kwint</surname><given-names>MP</given-names></name>, <name><surname>Janssen</surname><given-names>IM</given-names></name>, <name><surname>de Leeuw</surname><given-names>N</given-names></name>, <etal>et al</etal>
+<article-title>Detection of clinically relevant copy-number variants by exome sequencing in a large cohort of genetic disorders</article-title>. <source>Genet Med Off J Am Coll Med Genet</source>. <year>2017</year>;<volume>19</volume>: <fpage>667</fpage>&#x2013;<lpage>675</lpage>. <pub-id pub-id-type="doi">10.1038/gim.2016.163</pub-id>
+<pub-id pub-id-type="pmid">28574513</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref076">
+        <label>76</label>
+        <mixed-citation publication-type="journal"><name><surname>Buchner</surname><given-names>DA</given-names></name>, <name><surname>Charrier</surname><given-names>A</given-names></name>, <name><surname>Srinivasan</surname><given-names>E</given-names></name>, <name><surname>Wang</surname><given-names>L</given-names></name>, <name><surname>Paulsen</surname><given-names>MT</given-names></name>, <name><surname>Ljungman</surname><given-names>M</given-names></name>, <etal>et al</etal>
+<article-title>Zinc Finger Protein 407 (ZFP407) Regulates Insulin-stimulated Glucose Uptake and Glucose Transporter 4 (Glut4) mRNA</article-title>. <source>J Biol Chem</source>. <year>2015</year>;<volume>290</volume>: <fpage>6376</fpage>&#x2013;<lpage>6386</lpage>. <pub-id pub-id-type="doi">10.1074/jbc.M114.623736</pub-id>
+<pub-id pub-id-type="pmid">25596527</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1008088.ref077">
+        <label>77</label>
+        <mixed-citation publication-type="journal"><name><surname>Knaup</surname><given-names>KX</given-names></name>, <name><surname>Guenther</surname><given-names>R</given-names></name>, <name><surname>Stoeckert</surname><given-names>J</given-names></name>, <name><surname>Monti</surname><given-names>JM</given-names></name>, <name><surname>Eckardt</surname><given-names>K-U</given-names></name>, <name><surname>Wiesener</surname><given-names>MS</given-names></name>. <article-title>HIF is not essential for suppression of experimental tumor growth by mTOR inhibition</article-title>. <source>J Cancer</source>. <year>2017</year>;<volume>8</volume>: <fpage>1809</fpage>&#x2013;<lpage>1817</lpage>. <pub-id pub-id-type="doi">10.7150/jca.16486</pub-id>
+<pub-id pub-id-type="pmid">28819378</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

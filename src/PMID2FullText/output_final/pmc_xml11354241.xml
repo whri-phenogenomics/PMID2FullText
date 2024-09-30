@@ -1,0 +1,962 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id><journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id><journal-id journal-id-type="publisher-id">ijms</journal-id><journal-title-group><journal-title>International Journal of Molecular Sciences</journal-title></journal-title-group><issn pub-type="epub">1422-0067</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39201553</article-id><article-id pub-id-type="pmc">11354241</article-id><article-id pub-id-type="doi">10.3390/ijms25168867</article-id><article-id pub-id-type="publisher-id">ijms-25-08867</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Genetic Variants in the <italic toggle="yes">TBC1D2B</italic> Gene Are Associated with Ramon Syndrome and Hereditary Gingival Fibromatosis</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Kularbkaew</surname><given-names>Thatphicha</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af1-ijms-25-08867" ref-type="aff">1</xref><xref rid="af2-ijms-25-08867" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Thongmak</surname><given-names>Tipaporn</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af3-ijms-25-08867" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><name><surname>Sandeth</surname><given-names>Phan</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af4-ijms-25-08867" ref-type="aff">4</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7914-3164</contrib-id><name><surname>Durward</surname><given-names>Callum S.</given-names></name><xref rid="af5-ijms-25-08867" ref-type="aff">5</xref></contrib><contrib contrib-type="author"><name><surname>Vittayakittipong</surname><given-names>Pichai</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af6-ijms-25-08867" ref-type="aff">6</xref></contrib><contrib contrib-type="author"><name><surname>Duke</surname><given-names>Paul</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af7-ijms-25-08867" ref-type="aff">7</xref></contrib><contrib contrib-type="author"><name><surname>Iamaroon</surname><given-names>Anak</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af8-ijms-25-08867" ref-type="aff">8</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9042-8446</contrib-id><name><surname>Kintarak</surname><given-names>Sompid</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af9-ijms-25-08867" ref-type="aff">9</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-3543-8136</contrib-id><name><surname>Intachai</surname><given-names>Worrachet</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af1-ijms-25-08867" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8581-397X</contrib-id><name><surname>Ngamphiw</surname><given-names>Chumpol</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af10-ijms-25-08867" ref-type="aff">10</xref></contrib><contrib contrib-type="author"><name><surname>Tongsima</surname><given-names>Sissades</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af10-ijms-25-08867" ref-type="aff">10</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4646-1860</contrib-id><name><surname>Jatooratthawichot</surname><given-names>Peeranat</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af11-ijms-25-08867" ref-type="aff">11</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8015-5528</contrib-id><name><surname>Cox</surname><given-names>Timothy C.</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><xref rid="af12-ijms-25-08867" ref-type="aff">12</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-3042-1626</contrib-id><name><surname>Ketudat Cairns</surname><given-names>James R.</given-names></name><xref rid="af11-ijms-25-08867" ref-type="aff">11</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9841-0881</contrib-id><name><surname>Kantaputra</surname><given-names>Piranit</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role><xref rid="af1-ijms-25-08867" ref-type="aff">1</xref><xref rid="af2-ijms-25-08867" ref-type="aff">2</xref><xref rid="c1-ijms-25-08867" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Proff</surname><given-names>Peter</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-ijms-25-08867"><label>1</label>Center of Excellence in Medical Genetics Research, Faculty of Dentistry, Chiang Mai University, Chiang Mai 50200, Thailand; <email>ktonmaii@hotmail.com</email> (T.K.); <email>worrachet.intachai@gmail.com</email> (W.I.)</aff><aff id="af2-ijms-25-08867"><label>2</label>Division of Pediatric Dentistry, Faculty of Dentistry, Chiang Mai University, Chiang Mai 50200, Thailand</aff><aff id="af3-ijms-25-08867"><label>3</label>Pediatric Division, Hatyai Hospital, Songkhla 90110, Thailand; <email>tipaing@gmail.com</email></aff><aff id="af4-ijms-25-08867"><label>4</label>Department of Oral and Maxillofacial Surgery, Preah Ang Duong Hospital, Phnom Penh 120201, Cambodia; <email>phan_sandeth@yahoo.fr</email></aff><aff id="af5-ijms-25-08867"><label>5</label>Faculty of Dentistry, University of Puthisastra, Phnom Penh 120201, Cambodia; <email>callumspencerdurward@gmail.com</email></aff><aff id="af6-ijms-25-08867"><label>6</label>Department of Oral and Maxillofacial Surgery, Faculty of Dentistry, Prince of Songkla University, Songkhla 90110, Thailand; <email>pichai.v@hotmail.com</email></aff><aff id="af7-ijms-25-08867"><label>7</label>Royal Adelaide Hospital, Adelaide, SA 5000, Australia; <email>paulduke01@gmail.com</email></aff><aff id="af8-ijms-25-08867"><label>8</label>Department of Oral Biology and Diagnostic Sciences, Faculty of Dentistry, Chiang Mai University, Chiang Mai 50200, Thailand; <email>iamaroon@yahoo.com</email></aff><aff id="af9-ijms-25-08867"><label>9</label>Department of Oral Diagnostic Sciences, Faculty of Dentistry, Prince of Songkla University, Songkhla 90110, Thailand; <email>sompid.k@psu.ac.th</email></aff><aff id="af10-ijms-25-08867"><label>10</label>National Biobank of Thailand, National Center for Genetic Engineering and Biotechnology, Thailand Science Park, Pathum Thani 12120, Thailand; <email>chumpol.nga@gmail.com</email> (C.N.); <email>sissades.ton@biotec.or.th</email> (S.T.)</aff><aff id="af11-ijms-25-08867"><label>11</label>School of Chemistry, Institute of Science, and Center for Biomolecular Structure, Function and Application, Suranaree University of Technology, Nakhon Ratchasima 30000, Thailand; <email>pj.cbsfa@gmail.com</email> (P.J.); <email>cairns@sut.ac.th</email> (J.R.K.C.)</aff><aff id="af12-ijms-25-08867"><label>12</label>Departments of Oral &amp; Craniofacial Sciences, School of Dentistry, and Pediatrics, School of Medicine, University of Missouri-Kansas City, Kansas City, MO 64108, USA; <email>coxtc@umkc.edu</email></aff><author-notes><corresp id="c1-ijms-25-08867"><label>*</label>Correspondence: <email>dentaland17@gmail.com</email></corresp></author-notes><pub-date pub-type="epub"><day>15</day><month>8</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>8</month><year>2024</year></pub-date><volume>25</volume><issue>16</issue><elocation-id>8867</elocation-id><history><date date-type="received"><day>20</day><month>6</month><year>2024</year></date><date date-type="rev-recd"><day>28</day><month>7</month><year>2024</year></date><date date-type="accepted"><day>05</day><month>8</month><year>2024</year></date></history><permissions><copyright-statement>&#xA9; 2024 by the authors.</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Ramon syndrome (MIM 266270) is an extremely rare genetic syndrome, characterized by gingival fibromatosis, cherubism-like lesions, epilepsy, intellectual disability, hypertrichosis, short stature, juvenile rheumatoid arthritis, and ocular abnormalities. Hereditary or non-syndromic gingival fibromatosis (HGF) is also rare and considered to represent a heterogeneous group of disorders characterized by benign, slowly progressive, non-inflammatory gingival overgrowth. To date, two genes, <italic toggle="yes">ELMO2</italic> and <italic toggle="yes">TBC1D2B</italic>, have been linked to Ramon syndrome. The objective of this study was to further investigate the genetic variants associated with Ramon syndrome as well as HGF. Clinical, radiographic, histological, and immunohistochemical examinations were performed on affected individuals. Exome sequencing identified rare variants in <italic toggle="yes">TBC1D2B</italic> in both conditions: a novel homozygous variant (c.1879_1880del, p.Glu627LysfsTer61) in a Thai patient with Ramon syndrome and a rare heterozygous variant (c.2471A&gt;G, p.Tyr824Cys) in a Cambodian family with HGF. A novel variant (c.892C&gt;T, p.Arg298Cys) in <italic toggle="yes">KREMEN2</italic> was also identified in the individuals with HGF. With support from mutant protein modeling, our data suggest that <italic toggle="yes">TBC1D2B</italic> variants contribute to both Ramon syndrome and HGF, although variants in additional genes might also contribute to the pathogenesis of HGF.</p></abstract><kwd-group><kwd>fibromatosis</kwd><kwd>gingival</kwd><kwd>cherubism</kwd><kwd>epilepsy</kwd><kwd>whole exome sequencing</kwd><kwd>TBC1D2B</kwd><kwd>KREMEN2</kwd></kwd-group><funding-group><award-group><funding-source>Chiang Mai University</funding-source></award-group><award-group><funding-source>Genomics Thailand Research Grant of Health Systems Research Institute of Thailand</funding-source><award-id>64&#x2013;123</award-id></award-group><award-group><funding-source>Stowers Family Endowment for dental and musculoskeletal research</funding-source></award-group><award-group><funding-source>Center for Biomolecular Structure, Function and Application, Suranaree University of Technology</funding-source></award-group><funding-statement>This research was supported by Chiang Mai University (P.K.) and The Genomics Thailand Research Grant of Health Systems Research Institute of Thailand (64&#x2013;123) (P.K.). T.C. is supported by a Stowers Family Endowment for dental and musculoskeletal research. J.K.C. and P.J. are supported by The Center for Biomolecular Structure, Function and Application, Suranaree University of Technology.</funding-statement></funding-group></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="sec1-ijms-25-08867">
+      <title>1. Introduction</title>
+      <p>Ramon syndrome (MIM 266270) or neurodevelopmental disorder with seizures and gingival overgrowth (MIM 619323) is an extremely rare genetic syndrome that was first described in two Israeli siblings in 1967 by Dr. Yochanan Ramon [<xref rid="B1-ijms-25-08867" ref-type="bibr">1</xref>]. It is associated with a variety of phenotypic manifestations that can significantly impact the quality of life of affected individuals. The clinical findings include cherubism-like lesions, gingival fibromatosis (gingival overgrowth or overgrown gingiva), epilepsy, intellectual disability, hypertrichosis, short stature, juvenile rheumatoid arthritis, and ocular abnormalities. The onset is in childhood [<xref rid="B2-ijms-25-08867" ref-type="bibr">2</xref>,<xref rid="B3-ijms-25-08867" ref-type="bibr">3</xref>,<xref rid="B4-ijms-25-08867" ref-type="bibr">4</xref>]. The genetic analysis of the original patients was performed in 2018 and implicated a homozygous variant in <italic toggle="yes">Engulfment and cell motility gene 2</italic> (<italic toggle="yes">ELMO2</italic>; MIM 606421) as underlying Ramon syndrome [<xref rid="B5-ijms-25-08867" ref-type="bibr">5</xref>]. However, a more recent study demonstrated that the loss of function of <italic toggle="yes">Tbc1 domain family member 2B</italic> (<italic toggle="yes">TBC1D2B</italic>; MIM 619152) was the cause of Ramon syndrome [<xref rid="B6-ijms-25-08867" ref-type="bibr">6</xref>]. Three additional loss-of-function mutations in <italic toggle="yes">TBC1D2B</italic> were subsequently reported in separate individuals affected with a neurodevelopmental disorder, gingival overgrowth, cherubism-like lesions, seizures, and ocular abnormalities, consistent with a diagnosis of Ramon syndrome [<xref rid="B7-ijms-25-08867" ref-type="bibr">7</xref>].</p>
+      <p>Gingival fibromatosis, which is one of the clinical features of Ramon syndrome, may be present as an isolated condition (hereditary or non-syndromic gingival fibromatosis) (HGF; MIM 135300, 605544, 609955, 611010) or in association with several syndromes (syndromic). In addition to Ramon syndrome, these include Zimmermann&#x2013;Laband (MIM 135500), Rutherfurd (MIM 180900), Jones (MIM 135550), and Cowden (MIM 158350) syndromes [<xref rid="B8-ijms-25-08867" ref-type="bibr">8</xref>,<xref rid="B9-ijms-25-08867" ref-type="bibr">9</xref>,<xref rid="B10-ijms-25-08867" ref-type="bibr">10</xref>,<xref rid="B11-ijms-25-08867" ref-type="bibr">11</xref>]. In contrast, HGF is an extremely rare presentation which is characterized by benign, slowly progressive, non-inflammatory gingival overgrowth [<xref rid="B12-ijms-25-08867" ref-type="bibr">12</xref>]. In most patients, overgrown gingiva begins at the time when the permanent teeth erupt; however, in rare occasions it may appear along with the eruption of the primary teeth [<xref rid="B13-ijms-25-08867" ref-type="bibr">13</xref>,<xref rid="B14-ijms-25-08867" ref-type="bibr">14</xref>]. Histologically, the gingival tissues of patients with HGF exhibit an increased number of collagen fiber bundles running in different directions with few fibroblasts [<xref rid="B12-ijms-25-08867" ref-type="bibr">12</xref>]. Genetic heterogeneity of HGF is suggested by anomalies in syndromic presentations. To date, genetic variants in five genes, <italic toggle="yes">SOS RAS/RAC guanine nucleotide exchange factor 1</italic> (<italic toggle="yes">SOS1</italic>; MIM 182530), <italic toggle="yes">RE1-silencing transcription factor</italic> (<italic toggle="yes">REST</italic>; MIM 600571), <italic toggle="yes">Zinc finger protein 862 (ZNF862</italic>), <italic toggle="yes">Anaplastic Lymphoma Kinase</italic> (<italic toggle="yes">ALK</italic>; MIM 105590), and <italic toggle="yes">CD36 Antigen</italic> (<italic toggle="yes">CD36</italic>; MIM 173510) have been linked to HGF [<xref rid="B15-ijms-25-08867" ref-type="bibr">15</xref>,<xref rid="B16-ijms-25-08867" ref-type="bibr">16</xref>,<xref rid="B17-ijms-25-08867" ref-type="bibr">17</xref>,<xref rid="B18-ijms-25-08867" ref-type="bibr">18</xref>]. </p>
+      <p>Gingival fibromatosis has been linked to abnormal activation of the epithelial-to-mesenchymal transition [<xref rid="B19-ijms-25-08867" ref-type="bibr">19</xref>], which is an important process during normal development involving the downregulation of E-cadherin expression, subsequent loss of epithelial cell contact, and increased cell motility [<xref rid="B20-ijms-25-08867" ref-type="bibr">20</xref>]. The treatment of cultured human gingival epithelial cells with transforming growth factor &#x3B2;-1 (TGFB1) has been shown to induce the loss of cell surface E-cadherin, the upregulation of the expression of Snail family transcriptional repressor 2 (SLUG), and the subsequent epithelial-to-mesenchymal transition [<xref rid="B19-ijms-25-08867" ref-type="bibr">19</xref>,<xref rid="B21-ijms-25-08867" ref-type="bibr">21</xref>], providing a model for the presentation of HGF.</p>
+      <p>The objective of this study was to further investigate the genetic variants associated with Ramon syndrome as well as HGF. Here, we provide further support for the role of <italic toggle="yes">TBC1D2B</italic> in Ramon syndrome with the identification a novel homozygous variant in a Thai patient. Importantly, we also report a rare heterozygous variant in the <italic toggle="yes">TBC1D2B</italic> gene together with a novel heterozygous variant in the <italic toggle="yes">KREMEN2</italic> gene in three family members with HGF, suggesting an overlap in the pathogenesis of HGF with Ramon syndrome. </p>
+    </sec>
+    <sec sec-type="results" id="sec2-ijms-25-08867">
+      <title>2. Results</title>
+      <sec id="sec2dot1-ijms-25-08867">
+        <title>2.1. Patient Reports</title>
+        <p>Patient 1, a 7-year-old Thai girl, had suffered from gingival fibromatosis affecting the maxilla and mandible since age four (<xref rid="ijms-25-08867-t001" ref-type="table">Table 1</xref>; <xref rid="ijms-25-08867-f001" ref-type="fig">Figure 1</xref>a,b). A gingivectomy was performed to correct the overgrown gingiva, but recurrence was evident three years later. A histopathologic examination of the gingival tissue showed an elongation of the rete ridges in the stratified squamous epithelial layer. The underlying fibrous connective tissue was markedly thickened with the normal density of fibroblasts (hematoxylin-eosin, original magnification: &#xD7;20) (<xref rid="ijms-25-08867-f002" ref-type="fig">Figure 2</xref>a). A computerized tomography scan at age 7 years showed persistent open anterior fontanelle (<xref rid="ijms-25-08867-f001" ref-type="fig">Figure 1</xref>e) and cherubism-like lesions in the mandible (<xref rid="ijms-25-08867-f001" ref-type="fig">Figure 1</xref>e&#x2013;j). The histological sections from the mandibular lesions demonstrated multinucleated osteoclast-like giant cells within a fibrous stroma (<xref rid="ijms-25-08867-f002" ref-type="fig">Figure 2</xref>b). In addition, the child started having seizure episodes at the age of 5 years and was diagnosed as having focal epilepsy. The antiseizure medication prescribed for her was phenytoin, which was subsequently changed to valproic acid. Epilepsy and left eye amblyopia were also noted, suggesting a diagnosis of Ramon syndrome, a syndromic form of gingival fibromatosis [<xref rid="B1-ijms-25-08867" ref-type="bibr">1</xref>].</p>
+        <p>Patients 2&#x2013;4 were of Cambodian ancestry (<xref rid="ijms-25-08867-t001" ref-type="table">Table 1</xref>). Patient 2, a 92-year-old male, presented with HGF and cataracts (<xref rid="ijms-25-08867-f003" ref-type="fig">Figure 3</xref>a,d). His two sons, ages 64 (patient 3; <xref rid="ijms-25-08867-f003" ref-type="fig">Figure 3</xref>b,e) and 49 years (patient 4; <xref rid="ijms-25-08867-f003" ref-type="fig">Figure 3</xref>c,f), presented with HGF which had the onset at 5&#x2013;6 years of age. A histopathological study of the gingiva of patient 3 revealed dysplastic changes of the epithelial cells characterized by increased mitoses, enlarged nuclei with prominent nucleoli, and an increased nuclear/cytoplasmic ratio, suggestive of epithelial dysplasia (<xref rid="ijms-25-08867-f004" ref-type="fig">Figure 4</xref>). A gingivectomy and the removal of all the permanent teeth were performed on patients 3 and 4 with no recurrence after 7 years. The panoramic radiographs of patients 3 and 4 showed dense mandibular bone with displacement of the teeth. Generalized alveolar bone loss was observed in both patients (<xref rid="ijms-25-08867-f003" ref-type="fig">Figure 3</xref>g,h).</p>
+      </sec>
+      <sec id="sec2dot2-ijms-25-08867">
+        <title>2.2. Bioinformatic and Mutation Analysis</title>
+        <p>Exome sequencing was performed on all affected individuals. A bioinformatic analysis identified a homozygous single base deletion (c.1879_1880del) in the <italic toggle="yes">TBC1D2B</italic> gene in the patient with Ramon syndrome (patient 1) (<xref rid="ijms-25-08867-f005" ref-type="fig">Figure 5</xref>a). The novel variant is predicted to result in a frameshift (p.Glu627LysfsTer61) that would cause loss of the entire TCB/Rab-GAP domain (<xref rid="ijms-25-08867-f006" ref-type="fig">Figure 6</xref>a,c), although the location of the variant would also predict the mRNA to undergo nonsense-mediated decay. This variant is predicted to be disease causing by MutationTaster (Prob = 1) (<uri xlink:href="https://www.mutationtaster.org">https://www.mutationtaster.org</uri>; accessed on 28 September 2023) and damaging by SIFT (0.858) (<uri xlink:href="https://bio.tools/sift">https://bio.tools/sift</uri>; accessed on 28 September 2023).</p>
+        <p>An extremely rare heterozygous base substitution variant (c.2471A&gt;G) in the <italic toggle="yes">TBC1D2B</italic> gene was identified in patients 2&#x2013;4 with hereditary gingival fibromatosis (<xref rid="ijms-25-08867-f005" ref-type="fig">Figure 5</xref>b). The heterozygous missense variant (c.2471A&gt;G; rs199928887) is located in the C-terminal TBC/Rab-GAP domain and represents a change from tyrosine at position 824 to a cysteine (<xref rid="ijms-25-08867-f006" ref-type="fig">Figure 6</xref>a,c). This variant has an allele frequency of 0.00001301 (gnomAD database, v4.1). The Combined Annotation Dependent Depletion (CADD) score of p.Tyr824Cys was 22.8 and it was predicted to be disease causing (0.999153978449563), probably damaging (0.999), and damaging (0.01) by MutationTaster, PolyPhen-2, and SIFT, respectively. Despite the location of the Tyr824Cys change, its heterozygosity raises the possibility that additional variants might also play a role in the presentation in family 2. In this regard, patients 2&#x2013;4 also segregated for a novel heterozygous variant (c.892C&gt;T; p.Arg298Cys) in the <italic toggle="yes">Kringle domain-containing transmembrane protein 2</italic> (<italic toggle="yes">KREMEN2</italic>; MIM 609899) (<xref rid="ijms-25-08867-f005" ref-type="fig">Figure 5</xref>c). The CADD score of p.Arg298Cys was 23.5 and it was predicted to be disease causing by MutationTaster (prob = 0.876965507429932) (<uri xlink:href="https://www.mutationtaster.org">https://www.mutationtaster.org</uri>; accessed on 28 September 2023) and probably damaging by PolyPhen-2 (0.994) (<uri xlink:href="http://genetics.bwh.harvard.edu/pph2/">http://genetics.bwh.harvard.edu/pph2/</uri> accessed on 28 September 2023).</p>
+      </sec>
+      <sec id="sec2dot3-ijms-25-08867">
+        <title>2.3. Protein Models</title>
+        <p>Schematics of the TBC1D2B and KREMEN2 protein domain structures show the positions of the mutations relative to the major structural domains of the protein based on NCBI accession numbers NP_653173.1 and NP_757384.1, respectively (<xref rid="ijms-25-08867-f006" ref-type="fig">Figure 6</xref>a,b). The structural models for human TBC1D2B (UniProt: Q9UPU7) and KREMEN2 (UniProt: Q8NCW0) were acquired from the AlphaFold2 database at the European Bioinformatics Institute (<uri xlink:href="https://alphafold.ebi.ac.uk">https://alphafold.ebi.ac.uk</uri>; accessed on 28 September 2023). AlphaFold2 is a protein structural modeling system that utilizes artificial intelligence (AI) to produce highly accurate protein structural models in the absence of experimental structures [<xref rid="B22-ijms-25-08867" ref-type="bibr">22</xref>] and the models generated had high reliability scores in the region of the mutations. A predicted 3-dimensional structure model of the TBC1D2B TBC/Rab-GAP domain (blue) in complex with Rab GTPase was generated by superposition of the TCB1D2B model with the crystal structure of the complex of the TCB1D2B homologue Gyp1p with Rab (PDB: 2G77, Pan, Eathiraj, Munson &amp; Lambright, 2006) to show the position of Rab binding (<xref rid="ijms-25-08867-f006" ref-type="fig">Figure 6</xref>c). This entire domain is missing in the p.Glu627LysfsTer61 mutation, so no Rab binding is possible. The position of Tyr824 is shown at the beginning of &#x3B1;-helix 11, which makes part of the interface with the Rab protein. The interaction of Tyr824 with its neighbors helps position this helix for interaction. A cysteine at position 824 is too small to make most of these interactions, as shown in the expanded pictures. We therefore propose that the Tyr824Cys mutation disrupts or destabilizes the interaction with Rab to impact the activity of TBC1D2B.</p>
+        <p>A predicted 3-dimensional model of the KREMEN2 protein was also generated with the area around Arg298 expanded to show neighboring charged residues. Arg298Cys mutation in the CUB domain is predicted to cause a loss of charge on the surface (<xref rid="ijms-25-08867-f006" ref-type="fig">Figure 6</xref>d). The CUB domain of the KREMEN2 is important for protein-protein and glycosaminoglycan-protein interactions. This change in the CUB domain might disrupt its interaction with one or more partner proteins such as DKK1, a Wnt inhibitor protein.</p>
+      </sec>
+      <sec id="sec2dot4-ijms-25-08867">
+        <title>2.4. Immunohistochemical Findings</title>
+        <p>An immunohistochemical analysis of patient 1 revealed that, in comparison to a normal gingival control, the expression of E-cadherin appeared to be decreased in the basal layer of the epidermis, while the expression of BCL-2 and &#x3B2;-catenin appeared to be increased in the basal layer and the suprabasal layer of the epidermis, respectively. In patient 1, there was an apparent reduction in &#x3B2;-catenin expression and an increase in BCL-2 expression in the lamina propria. There was no consistent difference in E-cadherin, BCL-2, and &#x3B2;-catenin expression between normal gingival tissue and the gingival tissue of patient 4 (<xref rid="ijms-25-08867-f007" ref-type="fig">Figure 7</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="sec3-ijms-25-08867">
+      <title>3. Discussion</title>
+      <sec id="sec3dot1-ijms-25-08867">
+        <title>3.1. Genetic Variant in the TBC1D2B Gene and Ramon Syndrome</title>
+        <p>Our finding of a novel homozygous truncating allele in patient 1 (c.1879_1880del; p.Glu627LysfsTer61) adds further support for the alteration in <italic toggle="yes">TBC1D2B</italic> as a major cause of Ramon syndrome, given that only eighteen cases of this syndrome have been reported since 1967 [<xref rid="B1-ijms-25-08867" ref-type="bibr">1</xref>,<xref rid="B2-ijms-25-08867" ref-type="bibr">2</xref>,<xref rid="B3-ijms-25-08867" ref-type="bibr">3</xref>,<xref rid="B4-ijms-25-08867" ref-type="bibr">4</xref>,<xref rid="B5-ijms-25-08867" ref-type="bibr">5</xref>,<xref rid="B6-ijms-25-08867" ref-type="bibr">6</xref>,<xref rid="B23-ijms-25-08867" ref-type="bibr">23</xref>,<xref rid="B24-ijms-25-08867" ref-type="bibr">24</xref>]. The syndrome is characterized by cherubism-like lesions, which are progressive cystic formations that can be found predominantly in the mandible, epilepsy, neurodevelopmental disorder, gingival fibromatosis, hypertrichosis, short stature, juvenile rheumatoid arthritis, and ocular abnormalities [<xref rid="B1-ijms-25-08867" ref-type="bibr">1</xref>,<xref rid="B2-ijms-25-08867" ref-type="bibr">2</xref>,<xref rid="B3-ijms-25-08867" ref-type="bibr">3</xref>,<xref rid="B4-ijms-25-08867" ref-type="bibr">4</xref>,<xref rid="B5-ijms-25-08867" ref-type="bibr">5</xref>,<xref rid="B24-ijms-25-08867" ref-type="bibr">24</xref>]. Ocular abnormalities include Axenfeld anomaly, retinopathy, pale anomalous optic disc, and visual loss [<xref rid="B6-ijms-25-08867" ref-type="bibr">6</xref>,<xref rid="B23-ijms-25-08867" ref-type="bibr">23</xref>]. The most consistent finding in patients with Ramon syndrome appeared to be gingival fibromatosis, which was found in all but one patient evaluated at eight months of age [<xref rid="B6-ijms-25-08867" ref-type="bibr">6</xref>]. Bi-allelic variants resulting in loss of function of the ELMO2 [<xref rid="B5-ijms-25-08867" ref-type="bibr">5</xref>] and TBC1D2B proteins [<xref rid="B6-ijms-25-08867" ref-type="bibr">6</xref>] have been reported in Ramon syndrome. Recently, a novel bi-allelic frameshift variant in the <italic toggle="yes">TBC1D2B</italic> gene was also found in two siblings with gingival fibromatosis, fibrous dysplasia of face, mental deterioration, limb tremors, gait ataxia, and seizures [<xref rid="B7-ijms-25-08867" ref-type="bibr">7</xref>].</p>
+        <p>Hereditary gingival fibromatosis is a rare condition of overgrown gingival tissue, which can be either isolated or syndromic, including Ramon syndrome, Zimmermann&#x2013;Laband syndrome, gingival fibromatosis with hypertrichosis (MIM 135400), Robinow syndrome (MIM 180700), Jones syndrome, Rutherford syndrome, hyaline fibromatosis syndrome (MIM 228600), and Enamel-Renal-Gingival syndrome (MIM 204690). To date, genetic variants in five genes, <italic toggle="yes">SOS1</italic>, <italic toggle="yes">REST</italic>, <italic toggle="yes">ZNF862</italic>, <italic toggle="yes">ALK</italic>, and <italic toggle="yes">CD36</italic>, have been linked to hereditary gingival fibromatosis [<xref rid="B15-ijms-25-08867" ref-type="bibr">15</xref>,<xref rid="B16-ijms-25-08867" ref-type="bibr">16</xref>,<xref rid="B17-ijms-25-08867" ref-type="bibr">17</xref>,<xref rid="B18-ijms-25-08867" ref-type="bibr">18</xref>].</p>
+        <p>In addition to identifying a novel homozygous truncating allele in patient 1, the observation of a rare, heterozygous <italic toggle="yes">TBC1D2B</italic> missense variant that segregated with HGF in family 2 also suggests variants in this gene contribute to isolated gingival presentations.</p>
+      </sec>
+      <sec id="sec3dot2-ijms-25-08867">
+        <title>3.2. Genetic Variants in the TBC1D2B Gene and Gingival Fibromatosis</title>
+        <sec id="sec3dot2dot1-ijms-25-08867">
+          <title>3.2.1. Genetic Mechanisms and Clinical Implications</title>
+          <p><italic toggle="yes">TBC1D2B</italic> is known to regulate the activities of the small GTPases RAB5, RAB31, RAB7, and RAB22, which together play a role in endosomal trafficking. RAB5 and RAB7 are responsible for early and late endosomal trafficking, respectively [<xref rid="B25-ijms-25-08867" ref-type="bibr">25</xref>]. Genetic variants in <italic toggle="yes">TBC1D2B</italic> have been shown to result in abnormal interaction with RAB31 [<xref rid="B26-ijms-25-08867" ref-type="bibr">26</xref>] and abnormal activation of RAC1 [<xref rid="B27-ijms-25-08867" ref-type="bibr">27</xref>], RAB5 [<xref rid="B28-ijms-25-08867" ref-type="bibr">28</xref>], RAB7 [<xref rid="B26-ijms-25-08867" ref-type="bibr">26</xref>], and RAB22 [<xref rid="B29-ijms-25-08867" ref-type="bibr">29</xref>]. The abnormal activation of RABs, including RAB5, RAB7, and RAB22, leads to abnormal endosomal trafficking [<xref rid="B25-ijms-25-08867" ref-type="bibr">25</xref>], increased internalization and degradation of E-cadherin [<xref rid="B29-ijms-25-08867" ref-type="bibr">29</xref>], increased epithelial-to-mesenchymal transition [<xref rid="B29-ijms-25-08867" ref-type="bibr">29</xref>], uncontrolled cell growth [<xref rid="B30-ijms-25-08867" ref-type="bibr">30</xref>], and subsequent gingival fibromatosis [<xref rid="B19-ijms-25-08867" ref-type="bibr">19</xref>] (<xref rid="ijms-25-08867-f008" ref-type="fig">Figure 8</xref>). Our immunohistochemical study showed decreased expression of E-cadherin in the gingiva of the patient with Ramon syndrome (patient 1), supporting the involvement of the epithelial-to-mesenchymal transition in the pathogenesis of Ramon syndrome. A pathogenic role for the epithelial-to-mesenchymal transition in gingival overgrowth is further supported by a study in rats showing decreased expression of E-cadherin in phenytoin-, nifedipine-, and cyclosporin A-induced gingival overgrowth tissue [<xref rid="B19-ijms-25-08867" ref-type="bibr">19</xref>].</p>
+          <p>Aberrant activation of RAC1, via RAB5, leads to the dysregulation of actin cytoskeleton dynamics, organization, and function, which also affects TGFB signaling [<xref rid="B31-ijms-25-08867" ref-type="bibr">31</xref>], as well as NFkB and NFACT1 signaling [<xref rid="B32-ijms-25-08867" ref-type="bibr">32</xref>]. Dysregulation of TGFB signaling can also lead to gingival overgrowth through the increased production of IL-6, which leads to fibroblast overactivation and connective tissue accumulation [<xref rid="B33-ijms-25-08867" ref-type="bibr">33</xref>] as well as decreased apoptotic activity through increased expression of CCN2, periostin, and members of the lysyl family of enzymes [<xref rid="B34-ijms-25-08867" ref-type="bibr">34</xref>,<xref rid="B35-ijms-25-08867" ref-type="bibr">35</xref>] (<xref rid="ijms-25-08867-f008" ref-type="fig">Figure 8</xref>).</p>
+        </sec>
+        <sec id="sec3dot2dot2-ijms-25-08867">
+          <title>3.2.2. Immunohistochemistry Results and Clinical Implications</title>
+          <p>BCL-2 and &#x3B2;-catenin play important roles in inhibiting apoptosis and increasing Wnt/&#x3B2;-catenin signaling, respectively. The increased expression of BCL-2 and &#x3B2;-catenin in the gingival tissues of patient 1 suggested that the overgrown gingiva of the patient with Ramon syndrome was associated with increased inhibition of apoptosis and increased Wnt/&#x3B2;-catenin signaling. These findings are also supported by the overexpression of BCL-2 in the nifedipine- and phenytoin-induced gingiva overgrowth model [<xref rid="B36-ijms-25-08867" ref-type="bibr">36</xref>,<xref rid="B37-ijms-25-08867" ref-type="bibr">37</xref>] and the increased expression of &#x3B2;-catenin in the overgrown gingiva of rats treated with cyclosporine A [<xref rid="B38-ijms-25-08867" ref-type="bibr">38</xref>]. In addition, the decreased expression of E-cadherin in the gingiva of patient 1 could also exacerbate the accumulation of free &#x3B2;-catenin, which then enters the nucleus and contributes to increased cell proliferation and changes in gingival morphology [<xref rid="B39-ijms-25-08867" ref-type="bibr">39</xref>].</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot3-ijms-25-08867">
+        <title>3.3. Genetic Variants in TBC1D2B and KREMEN2 and Hereditary Gingival Fibromatosis</title>
+        <sec id="sec3dot3dot1-ijms-25-08867">
+          <title>3.3.1. A Heterozygous Missense Variant in the <italic toggle="yes">TBC1D2B</italic> Gene in Patients 2&#x2013;4</title>
+          <p>Patients 2&#x2013;4 were found to carry a rare heterozygous missense variant (c.2471A&gt;G) in the <italic toggle="yes">TBC1D2B</italic> gene. Of note, the heterozygous variants in <italic toggle="yes">TBC1D2B</italic> have never been reported to cause abnormalities in humans. The amino acid Tyr824 is highly conserved in the TCB1D2B protein (<xref rid="ijms-25-08867-f005" ref-type="fig">Figure 5</xref>d) and is located at the beginning of the eleventh &#x3B1;-helix in the TCB/Rab-GAP domain. Based on its homology to Gyp1p, another Rab-GAP, this &#x3B1;-helix directly interacts with RAB proteins [<xref rid="B40-ijms-25-08867" ref-type="bibr">40</xref>], a finding supported by our AlphaFold model (<xref rid="ijms-25-08867-f006" ref-type="fig">Figure 6</xref>a,c).</p>
+        </sec>
+        <sec id="sec3dot3dot2-ijms-25-08867">
+          <title>3.3.2. A Novel Heterozygous Variant in the <italic toggle="yes">KREMEN2</italic> Gene in Patients 2&#x2013;4</title>
+          <p>In addition to the <italic toggle="yes">TBC1D2B</italic> variant, patients 2&#x2013;4 also had a novel heterozygous variant (c.892C&gt;T; p.Arg298Cys) in the <italic toggle="yes">KREMEN2</italic> gene. This variant is predicted to be disease causing and probably damaging by MutationTaster and PolyPhen-2, respectively. The CADD score of this variant was 23.5. The Arg to Cys change in the extracellular domain of KREMEN2 could disrupt its binding to partner proteins, either because of the change in amino acid charge or because the cysteine could disrupt normal disulfide bond formation within the protein (<xref rid="ijms-25-08867-f006" ref-type="fig">Figure 6</xref>b,d).</p>
+          <p><italic toggle="yes">KREMEN2</italic> is an essential regulator of the Wnt/&#x3B2;-catenin signaling pathway that is involved in various embryonic developmental processes, bone formation, and tumorigenesis [<xref rid="B41-ijms-25-08867" ref-type="bibr">41</xref>]. It can directly bind to LRP5/6 and block their interaction with DKK1/2 [<xref rid="B42-ijms-25-08867" ref-type="bibr">42</xref>,<xref rid="B43-ijms-25-08867" ref-type="bibr">43</xref>]. The aberrant activation of Wnt signaling by such a variant would be predicted to be associated with increased endocytosis of the Wnt ligand&#x2013;receptor complex. In addition, studies showed that the increased expression of KREMEN2 appeared to promote tumorigenesis and metastasis in gastric cancer [<xref rid="B44-ijms-25-08867" ref-type="bibr">44</xref>] and was associated with a worse prognosis in colon cancer [<xref rid="B45-ijms-25-08867" ref-type="bibr">45</xref>].</p>
+          <p>We therefore posit that the genetic variant in <italic toggle="yes">KREMEN2</italic> might contribute to the HGF presentation in this family via exacerbating the already perturbed endosome trafficking as a result of the heterozygous <italic toggle="yes">TBC1D2B</italic> variant, leading to an increased epithelial-to-mesenchymal transition, uncontrolled cell growth, and subsequent gingival hyperplasia and fibromatosis. Indeed, it is increasingly appreciated that many human diseases are more accurately described genetically when two or more gene mutations are involved, a process known as digenic inheritance or oligogenic inheritance, respectively [<xref rid="B46-ijms-25-08867" ref-type="bibr">46</xref>]. Thus, we propose here that the <italic toggle="yes">TBC1D2B</italic> variant acts as a primary driver and the <italic toggle="yes">KREMEN2</italic> variant as a genetic modifier.</p>
+        </sec>
+        <sec id="sec3dot3dot3-ijms-25-08867">
+          <title>3.3.3. Genetic Variant in the <italic toggle="yes">KREMEN2</italic> Gene and Dense Mandibular Bone in Patients 2 and 3</title>
+          <p>In addition to gingival fibromatosis, patients 3 and 4 also had dense mandibular bone. Of note, <italic toggle="yes">KREMEN2</italic> is also critical for bone formation and <italic toggle="yes">Kremen2</italic>-KO mice have been demonstrated to have increased bone formation [<xref rid="B41-ijms-25-08867" ref-type="bibr">41</xref>]. Furthermore, overexpression of <italic toggle="yes">Kremen2</italic> in mice resulted in severe osteoporosis with decreased osteoblast and increased osteoclast differentiation and function [<xref rid="B41-ijms-25-08867" ref-type="bibr">41</xref>]. Therefore, the genetic variant in the <italic toggle="yes">KREMEN2</italic> gene may also contribute to the dense mandibular bone in patients 2 and 3.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot4-ijms-25-08867">
+        <title>3.4. Genetic Variant in the TBC1D2B Gene and Cherubism-like Lesions</title>
+        <p>As mentioned earlier, a cherubism-like lesion is one of the features commonly found in Ramon syndrome. A gain-of-function mutation in the <italic toggle="yes">SH3 domain-binding protein 2</italic> (<italic toggle="yes">SH3BP2</italic>; MIM 602104) on chromosome 4p16.3 has been reported to cause cherubism [<xref rid="B47-ijms-25-08867" ref-type="bibr">47</xref>,<xref rid="B48-ijms-25-08867" ref-type="bibr">48</xref>]. SH3BP2 cooperates with Vav proteins, which are guanine nucleotide exchange factors that activate the small GTPases Ras and Rac1 [<xref rid="B49-ijms-25-08867" ref-type="bibr">49</xref>]. Deletion of Rac1 in osteoclasts has been reported to cause osteopetrosis; its deletion severely disrupts the cytoskeleton of osteoclasts [<xref rid="B50-ijms-25-08867" ref-type="bibr">50</xref>]. As cherubism-like lesions are a part of Ramon syndrome, it is therefore expected that cherubism and Ramon syndrome share some pathogenesis pathways.</p>
+        <p>Patient 1 displayed cherubism-like lesions on both sides of the mandible, which was consistent with the other five patients carrying homozygous and compound heterozygous variants in the <italic toggle="yes">TBC1D2B</italic> gene reported in two previous studies [<xref rid="B6-ijms-25-08867" ref-type="bibr">6</xref>,<xref rid="B7-ijms-25-08867" ref-type="bibr">7</xref>]. Thus, the alteration in the TBC1D2B protein may also lead to a cherubism-like phenotype via the abnormal activation of downstream RAB5, overactivation of RAC1, abnormal NFkB, and NFACT1 signaling in osteoclast progenitor cells, which subsequently leads to increased osteoclast formation and hyperosteolysis [<xref rid="B32-ijms-25-08867" ref-type="bibr">32</xref>,<xref rid="B48-ijms-25-08867" ref-type="bibr">48</xref>,<xref rid="B51-ijms-25-08867" ref-type="bibr">51</xref>] (<xref rid="ijms-25-08867-f008" ref-type="fig">Figure 8</xref>).</p>
+      </sec>
+      <sec id="sec3dot5-ijms-25-08867">
+        <title>3.5. Genetic Variant in the TBC1D2B Gene and Seizures</title>
+        <p>Patient 1 had her first seizure at the age of five and was diagnosed with focal epilepsy. Seizures were also found in four patients with homozygous and compound heterozygous variants in the <italic toggle="yes">TBC1D2B</italic> gene reported in two previous studies but at different ages of onset: two at 19 years, one at 3 months, and one at 32 years of age [<xref rid="B6-ijms-25-08867" ref-type="bibr">6</xref>,<xref rid="B7-ijms-25-08867" ref-type="bibr">7</xref>]. It is proposed that aberrant TBC1D2B activity may lead to abnormal neural development and seizures via the overactivation of the RAC1 and RAF1/MAPK/ERK signaling pathways and dysregulation of TGFB signaling [<xref rid="B52-ijms-25-08867" ref-type="bibr">52</xref>,<xref rid="B53-ijms-25-08867" ref-type="bibr">53</xref>] (<xref rid="ijms-25-08867-f008" ref-type="fig">Figure 8</xref>).</p>
+      </sec>
+      <sec id="sec3dot6-ijms-25-08867">
+        <title>3.6. Genetic Variants in the TBC1D2B Gene and Epithelial Dysplasia</title>
+        <p>The histopathological examination of the gingiva of patient 3 revealed dysplastic changes of the epithelial cells characterized by increased mitoses, enlarged nuclei with prominent nucleoli, and an increased nuclear/cytoplasmic ratio, which are suggestive of epithelial dysplasia. This presentation has never been documented in the previous studies of patients with <italic toggle="yes">TBC1D2B</italic> variants. Epithelial dysplasia has, however, been reported in a patient with HGF of unknown genetic etiology [<xref rid="B54-ijms-25-08867" ref-type="bibr">54</xref>].</p>
+        <p>As mentioned above, TBC1D2B is known to regulate the activities of the small GTPases RAB5, RAB7, and RAB22, which together play a role in the epithelial-to-mesenchymal transition and E-cadherin internalization. Thus, it is hypothesized that aberrant TBC1D2B activity may lead to an increased epithelial-to-mesenchymal transition, degradation of E-cadherin, and subsequent epithelial dysplasia. In addition, the histopathological study of the gingiva of patient 1 showed elongation of the rete ridges in the stratified squamous epithelial layer (<xref rid="ijms-25-08867-f002" ref-type="fig">Figure 2</xref>a), which is a typical feature of gingival overgrowth. The elongated rete ridges observed in patient 1 were consistent with the previous studies and were suggested to be the result of increased epithelial plasticity and epithelial-to-mesenchymal transition [<xref rid="B19-ijms-25-08867" ref-type="bibr">19</xref>,<xref rid="B55-ijms-25-08867" ref-type="bibr">55</xref>] (<xref rid="ijms-25-08867-f008" ref-type="fig">Figure 8</xref>).</p>
+      </sec>
+      <sec id="sec3dot7-ijms-25-08867">
+        <title>3.7. Genetic Variants in the TBC1D2B Gene and Recurrence of Overgrown Gingiva</title>
+        <p>Patient 1 underwent gingivectomy to correct the overgrowing gingiva at four years of age; recurrent gingival overgrowth was observed three years later. In contrast, a 7-year follow-up of patients 3 and 4 showed no evidence of the recurrence of gingival overgrowth after a gingivectomy and the removal of all teeth. It is known that the presence of teeth promotes the recurrence of gingival overgrowth after surgery. The overgrowth disappears or recedes when the corresponding teeth are extracted [<xref rid="B56-ijms-25-08867" ref-type="bibr">56</xref>,<xref rid="B57-ijms-25-08867" ref-type="bibr">57</xref>,<xref rid="B58-ijms-25-08867" ref-type="bibr">58</xref>]. However, the exact role of teeth in promoting the recurrence of gingival overgrowth after surgery is unknown. What is known is that gingival fibroblasts from patients with recurrence show increased cell proliferation compared with fibroblasts from patients without recurrence. In addition, it has been noted that gingival overgrowth with dense connective tissue and abundant blood vessels and fibroblasts is more likely to recur after surgery [<xref rid="B59-ijms-25-08867" ref-type="bibr">59</xref>]. A genetic predisposition may impact individual responses following surgical interventions and may interact with dental factors such as an oral microbiome. Consequently, variations in the genes associated with inflammation and tissue remodeling may result in differing susceptibilities to the recurrence of gingival overgrowth.</p>
+      </sec>
+      <sec id="sec3dot8-ijms-25-08867">
+        <title>3.8. Future Research Directions</title>
+        <p>Future research and potential therapeutic strategies for hereditary gingival fibromatosis should emphasize the cellular processes involved, particularly the epithelial-mesenchymal transition and the Wnt signaling pathway. Additionally, it is important to investigate how these processes relate to other clinical manifestations of Ramon syndrome.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-ijms-25-08867">
+      <title>4. Materials and Methods</title>
+      <sec id="sec4dot1-ijms-25-08867">
+        <title>4.1. Ethics Statement</title>
+        <p>This study was conducted in accordance with the Declaration of Helsinki and national guidelines. Informed consent was obtained from the patients or the parents of the patients in accordance with regulations of the Human Experimentation Committee of the Faculty of Dentistry, Chiang Mai University (certificate of approval number 12/2023).</p>
+      </sec>
+      <sec id="sec4dot2-ijms-25-08867">
+        <title>4.2. Patient Recruitment</title>
+        <p>Inclusion criteria for patient recruitment were patients diagnosed with gingival fibromatosis, regardless of age, gender, or whether other clinical features were present. The experimental period was from October 2022 to April 2024. A Thai patient with Ramon syndrome and her parents and three Cambodian patients from one family with HGF were enrolled in this study.</p>
+        <p>Patient 1 was a 7-year-old Thai girl with gingival fibromatosis in the maxilla and mandible, cherubism-like lesions in the mandible, a persistent opening of anterior fontanelle, epilepsy, and left eye amblyopia. Patients 2&#x2013;4 were of Cambodian ancestry. Patient 2, a 92-year-old male, presented with HGF and cataracts. His two sons, ages 64 (patient 3) and 49 years (patient 4), presented with HGF.</p>
+      </sec>
+      <sec id="sec4dot3-ijms-25-08867">
+        <title>4.3. Whole Exome Sequencing, Mutation Analysis, and Bioinformatic Analyses</title>
+        <p>The patients&#x2019; genomic DNA was isolated from blood samples in BD Vancutainer<sup>&#xAE;</sup> EDTA tubes (10.0 mL K<sub>2</sub>E, 18.0 mg EDTA) (BD-Plymouth, PL6 7BP, UK) for whole exome sequencing. Whole exome sequencing is a widely used technique that targets the majority of coding regions in the genome, where most disease-causing mutations are found. This method was performed on the Thai patient with Ramon syndrome and her two unaffected parents, as well as on the three Cambodian patients with hereditary gingival fibromatosis.</p>
+        <p>All prepared DNA samples were subjected to exome capture using the SureSelect V6+UTR-post kit (Agilent Technologies, Santa Clara, CA, USA). The average depth of the sequencing was 80&#xD7; using the targeted capture SureSelect V6 kit (PR7000-0152; Agilent Technologies, Santa Clara, CA, USA), which also captures untranslated regions. We adopted GATK3.8 best practices to identify variants for each sample; the alignment of the raw sequencing FASTQ file with the human genome reference sequence, GRCh38+decoy, was performed using BWA-mem. The variant effect predictor (VEP) and the database of non-synonymous functional prediction (dbNSFP) were used to computationally assign effects to the resulting variants of each individual. The annotated variant calling format (VCF) files were stored in our in-house database that allows us to query pathogenic variants according to different modes of segregation. Furthermore, the variant allele frequencies were determined by comparing against public databases, including 1000 Genomes, gnomAD, GenomeAsia, and the recent Thai Reference Exome database. The prioritization of the variants was established based on multiple considerations.</p>
+        <p>Prioritized candidate variants of interest were validated and evaluated for segregation by PCR-based amplification and Sanger sequencing. The Sanger sequencing was done to verify the presence of variants in DNA samples. The DNA samples designated for sequencing were mixed with primers in tubes. The sequence primers used for <italic toggle="yes">TBC1D2B</italic> variants were as follows: Exon 9 for patient 1, forward: 5&#x2032;-AAAGTACCACGTGTGCCTGAT-3&#x2032;; reverse: 5&#x2032;-CTGGATTCCGCCAGGAGAAG-3&#x2032;. Exon 11 for patients 2&#x2013;4, forward: 5&#x2032;-GTCTGCTCGTCTGCTTACCC-3&#x2032;; reverse: 5&#x2032;-CCAGATCTAGTGCAGGCCG-3&#x2032;. The sequence primers used for the <italic toggle="yes">KREMEN2</italic> variant for patients 2&#x2013;4: forward: 5&#x2032;-GTG TCC TGG TCC TCA GGA TG-3&#x2032;; reverse: 5&#x2032;-AGA GCG GGG TGG GAA CA-3&#x2032;.</p>
+      </sec>
+      <sec id="sec4dot4-ijms-25-08867">
+        <title>4.4. Structural Assessment of Variants</title>
+        <p>In order to understand possible effects of the mutations on the proteins that may explain the molecular basis of disease, molecular models of the proteins were obtained. The structural models for human TBC1D2B (UniProt: Q9UPU7) and KREMEN2 (UniProt: Q8NCW0) were acquired from the AlphaFold2 database at the European Bioinformatics Institute (<uri xlink:href="https://alphafold.ebi.ac.uk">https://alphafold.ebi.ac.uk</uri>). To investigate whether the mutations could affect interactions between TBC1D2B and Rab proteins, the predicted 3-dimensional structure model of the TBC1D2B TBC/Rab-GAP domain in complex with Rab GTPase was generated by superposition of this model with the crystal structure of the Gyp1p-Rab complex (PDB: 2G77, Pan, Eathiraj, Munson &amp; Lambright, 2006) in the molecular viewing program PyMol v.2.6 (Schr&#xF6;dinger Inc., New York, NY, USA). All structures and mutations were visualized in PyMol v.2.6.</p>
+      </sec>
+      <sec id="sec4dot5-ijms-25-08867">
+        <title>4.5. Immunohistochemistry</title>
+        <p>Formalin-fixed, paraffin-embedded gingival tissues were cut into 4&#x2013;5 &#x3BC;m thick sections and placed on Superfrost Plus microscope slides. The slides were heated at 60 &#xB0;C for one hour in an incubator to enhance tissue attachment and soften the paraffin. The sections were deparaffinized with xylene and rehydrated through graded ethanol into water. Antigen retrieval was performed by using CC1 (prediluted, pH 8.0) antigen retrieval solution (Ventana). The immunohistochemistry procedure was performed on a Ventana BenchMark ULTRA autostainer according to the standard protocol. The slides were incubated with primary antibodies. The following primary antibodies were used: E-cadherin, a major component of the epithelial adherens junction complex and a marker of the epithelial-mesenchymal transition process (clone NH-38, Dako, Santa Clara, USA, ready-to-use); BCL2, an inhibitor of apoptosis induced by programmed cell death stimuli (clone 124, Dako, USA, ready-to-use); and &#x3B2;-catenin, a key effector in the canonical Wnt signaling pathway and a crucial component of cadherin-based adherens junctions (clone &#x3B2;-catenin-1, code M3539; Dako, Santa Clara, USA, 3:100 dilution). The visualization process was performed with the Ultraview universal DAB IHC detection kit, and it was afterwards counterstained in hematoxylin and bluing solution. The slides were gently cleaned and dehydrated in graded ethanol and xylene. Finally, they were mounted with mounting media on a microscope slide.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions" id="sec5-ijms-25-08867">
+      <title>5. Conclusions</title>
+      <p>TBC1D2B is a regulator of RAB5, RAB7, and RAB22, which are critical for endosome maturation and E-cadherin internalization [<xref rid="B26-ijms-25-08867" ref-type="bibr">26</xref>,<xref rid="B28-ijms-25-08867" ref-type="bibr">28</xref>,<xref rid="B29-ijms-25-08867" ref-type="bibr">29</xref>]. Defective endosomal maturation and E-cadherin internalization as a result of the <italic toggle="yes">TBC1D2B</italic> mutations result in an increased epithelial-to-mesenchymal transition, uncontrolled cell growth, and subsequent gingival fibromatosis. We propose that the rare heterozygous variant in the <italic toggle="yes">TBC1D2B</italic> gene contributes to the pathogenesis of HGF, perhaps in concert with variants that disrupt either Wnt signaling, endosome maturation, or lysosomal activity. It appears that gingival fibromatosis in patients with <italic toggle="yes">TBC1D2B</italic> variants is a consequence of disrupted RAB-mediated endocytic trafficking as a result of the altered TBC1D2B protein. Future research and therapeutic strategies for hereditary gingival fibromatosis should focus on the cellular processes involved, particularly the epithelial-mesenchymal transition and the Wnt signaling pathway. Furthermore, examining the relationship between these processes and other clinical manifestations of Ramon syndrome is essential. It is crucial to perform a thorough examination and genetic testing in patients with HGF in order to provide an accurate diagnosis and genetic counseling in the future.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We appreciate the cooperation provided by our patients and their families, as well as their permission to have their medical and dental information used for the benefit of other patients.</p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, T.K., T.T., P.S., C.S.D., P.V., P.D., A.I., S.K., W.I., C.N., S.T., P.J., T.C.C., J.R.K.C. and P.K.; methodology, T.K., T.T., P.S., C.S.D., P.V., P.D., A.I., S.K., W.I., C.N., S.T., P.J., T.C.C., J.R.K.C. and P.K.; validation, T.K., T.T., P.S., C.S.D., P.V., P.D., A.I., S.K., W.I., C.N., S.T., P.J., T.C.C., J.R.K.C. and P.K.; formal analysis, T.K., T.T., P.S., C.S.D., P.V., P.D., A.I., S.K., W.I., C.N., S.T., P.J., T.C.C., J.R.K.C. and P.K.; investigation, T.K., T.T., P.S., C.S.D., P.V., P.D., A.I., S.K., W.I., C.N., S.T., P.J., T.C.C., J.R.K.C. and P.K.; resources, P.K.; data curation, T.K., T.T., P.S., C.S.D., P.V., P.D., A.I., S.K., W.I., C.N., S.T., P.J., T.C.C., J.R.K.C. and P.K.; methodology, T.K., T.T., P.S., C.S.D., P.V., P.D., A.I., S.K., W.I., C.N., S.T., P.J., T.C.C., J.R.K.C. and P.K.; writing&#x2014;original draft preparation, T.K., T.T., P.S., C.S.D., P.V., P.D., A.I., S.K., W.I., C.N., S.T., P.J., T.C.C., J.R.K.C. and P.K.; writing&#x2014;review and editing, T.K., T.T., P.S., C.S.D., P.V., P.D., A.I., S.K., W.I., C.N., S.T., P.J., T.C.C., J.R.K.C. and P.K.; supervision, P.K.; project administration, P.K.; funding acquisition, P.K. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>This study involving human participants was approved by the Human Experimentation Committee of the Faculty of Dentistry, Chiang Mai University (No. 12/2023) and was performed in accordance with the ethical standards of the 1964 Declaration of Helsinki and its later amendments or comparable ethical standards.</p>
+    </notes>
+    <notes>
+      <title>Informed Consent Statement</title>
+      <p>Written informed consent has been obtained from the patients or their parents to publish this paper.</p>
+    </notes>
+    <notes notes-type="data-availability">
+      <title>Data Availability Statement</title>
+      <p>Data are contained within the article.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-25-08867">
+        <label>1.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ramon</surname><given-names>Y.</given-names></name>
+<name><surname>Berman</surname><given-names>W.</given-names></name>
+<name><surname>Bubis</surname><given-names>J.J.</given-names></name>
+</person-group><article-title>Gingival fibromatosis combined with cherubism</article-title><source>Oral Surg. Oral Med. Oral Pathol.</source><year>1967</year><volume>24</volume><fpage>435</fpage><lpage>448</lpage><pub-id pub-id-type="doi">10.1016/0030-4220(67)90416-1</pub-id><pub-id pub-id-type="pmid">5235465</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B2-ijms-25-08867">
+        <label>2.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pridmore</surname><given-names>C.</given-names></name>
+<name><surname>Baraitser</surname><given-names>M.</given-names></name>
+<name><surname>Leonard</surname><given-names>J.</given-names></name>
+</person-group><article-title>Ramon syndrome with diabetes mellitus and vascular skin lesions in two sibs</article-title><source>Clin. Dysmorphol.</source><year>1992</year><volume>1</volume><fpage>29</fpage><lpage>35</lpage><pub-id pub-id-type="doi">10.1097/00019605-199201000-00005</pub-id><pub-id pub-id-type="pmid">1342855</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B3-ijms-25-08867">
+        <label>3.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Suhanya</surname><given-names>J.</given-names></name>
+<name><surname>Aggarwal</surname><given-names>C.</given-names></name>
+<name><surname>Mohideen</surname><given-names>K.</given-names></name>
+<name><surname>Jayachandran</surname><given-names>S.</given-names></name>
+<name><surname>Ponniah</surname><given-names>I.</given-names></name>
+</person-group><article-title>Cherubism combined with epilepsy, mental retardation and gingival fibromatosis (Ramon syndrome): A case report</article-title><source>Head Neck Pathol.</source><year>2010</year><volume>4</volume><fpage>126</fpage><lpage>131</lpage><pub-id pub-id-type="doi">10.1007/s12105-009-0155-9</pub-id><pub-id pub-id-type="pmid">20512637</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B4-ijms-25-08867">
+        <label>4.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pina-Neto</surname><given-names>J.M.</given-names></name>
+<name><surname>Moreno</surname><given-names>A.F.</given-names></name>
+<name><surname>Silva</surname><given-names>L.R.</given-names></name>
+<name><surname>Velludo</surname><given-names>M.A.</given-names></name>
+<name><surname>Petean</surname><given-names>E.B.</given-names></name>
+<name><surname>Ribeiro</surname><given-names>M.V.</given-names></name>
+<name><surname>Athayde-Junior</surname><given-names>L.</given-names></name>
+<name><surname>Voltarelli</surname><given-names>J.C.</given-names></name>
+</person-group><article-title>Cherubism, gingival fibromatosis, epilepsy, and mental deficiency (Ramon syndrome) with juvenile rheumatoid arthritis</article-title><source>Am. J. Med. Genet.</source><year>1986</year><volume>25</volume><fpage>433</fpage><lpage>441</lpage><pub-id pub-id-type="doi">10.1002/ajmg.1320250305</pub-id><pub-id pub-id-type="pmid">3789007</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B5-ijms-25-08867">
+        <label>5.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mehawej</surname><given-names>C.</given-names></name>
+<name><surname>Hoischen</surname><given-names>A.</given-names></name>
+<name><surname>Farah</surname><given-names>R.A.</given-names></name>
+<name><surname>Marey</surname><given-names>I.</given-names></name>
+<name><surname>David</surname><given-names>M.</given-names></name>
+<name><surname>Stora</surname><given-names>S.</given-names></name>
+<name><surname>Lachlan</surname><given-names>K.</given-names></name>
+<name><surname>Brunner</surname><given-names>H.G.</given-names></name>
+<name><surname>M&#xE9;garban&#xE9;</surname><given-names>A.</given-names></name>
+</person-group><article-title>Homozygous mutation in ELMO2 may cause Ramon syndrome</article-title><source>Clin. Genet.</source><year>2018</year><volume>93</volume><fpage>703</fpage><lpage>706</lpage><pub-id pub-id-type="doi">10.1111/cge.13166</pub-id><pub-id pub-id-type="pmid">29095483</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B6-ijms-25-08867">
+        <label>6.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Harms</surname><given-names>F.L.</given-names></name>
+<name><surname>Parthasarathy</surname><given-names>P.</given-names></name>
+<name><surname>Zorndt</surname><given-names>D.</given-names></name>
+<name><surname>Alawi</surname><given-names>M.</given-names></name>
+<name><surname>Fuchs</surname><given-names>S.</given-names></name>
+<name><surname>Halliday</surname><given-names>B.J.</given-names></name>
+<name><surname>McKeown</surname><given-names>C.</given-names></name>
+<name><surname>Sampaio</surname><given-names>H.</given-names></name>
+<name><surname>Radhakrishnan</surname><given-names>N.</given-names></name>
+<name><surname>Radhakrishnan</surname><given-names>S.K.</given-names></name>
+<etal/>
+</person-group><article-title>Biallelic loss-of-function variants in TBC1D2B cause a neurodevelopmental disorder with seizures and gingival overgrowth</article-title><source>Hum. Mutat.</source><year>2020</year><volume>41</volume><fpage>1645</fpage><lpage>1661</lpage><pub-id pub-id-type="doi">10.1002/humu.24071</pub-id><pub-id pub-id-type="pmid">32623794</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B7-ijms-25-08867">
+        <label>7.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Correia-Costa</surname><given-names>G.R.</given-names></name>
+<name><surname>de Leeuw</surname><given-names>N.</given-names></name>
+<name><surname>Pfundt</surname><given-names>R.</given-names></name>
+<name><surname>Sgardioli</surname><given-names>I.C.</given-names></name>
+<name><surname>Dos Santos</surname><given-names>A.P.</given-names></name>
+<name><surname>de Lima Santos</surname><given-names>M.</given-names></name>
+<name><surname>Gil-da-Silva-Lopes</surname><given-names>V.L.</given-names></name>
+<name><surname>Vieira</surname><given-names>T.P.</given-names></name>
+</person-group><article-title>Biallelic frameshift variant in the TBC1D2B gene in two siblings with progressive gingival overgrowth, fibrous dysplasia of face, and mental deterioration</article-title><source>Clin. Genet.</source><year>2022</year><volume>102</volume><fpage>537</fpage><lpage>542</lpage><pub-id pub-id-type="doi">10.1111/cge.14215</pub-id><pub-id pub-id-type="pmid">36029130</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B8-ijms-25-08867">
+        <label>8.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Strzelec</surname><given-names>K.</given-names></name>
+<name><surname>Dziedzic</surname><given-names>A.</given-names></name>
+<name><surname>&#x141;azarz-Bartyzel</surname><given-names>K.</given-names></name>
+<name><surname>Grabiec</surname><given-names>A.M.</given-names></name>
+<name><surname>Gutmajster</surname><given-names>E.</given-names></name>
+<name><surname>Kaczmarzyk</surname><given-names>T.</given-names></name>
+<name><surname>Plakwicz</surname><given-names>P.</given-names></name>
+<name><surname>Gawron</surname><given-names>K.</given-names></name>
+</person-group><article-title>Clinics and genetic background of hereditary gingival fibromatosis</article-title><source>Orphanet J. Rare Dis.</source><year>2021</year><volume>16</volume><fpage>492</fpage><pub-id pub-id-type="doi">10.1186/s13023-021-02104-9</pub-id><pub-id pub-id-type="pmid">34819125</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B9-ijms-25-08867">
+        <label>9.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gawron</surname><given-names>K.</given-names></name>
+<name><surname>&#x141;azarz-Bartyzel</surname><given-names>K.</given-names></name>
+<name><surname>Potempa</surname><given-names>J.</given-names></name>
+<name><surname>Chomyszyn-Gajewska</surname><given-names>M.</given-names></name>
+</person-group><article-title>Gingival fibromatosis: Clinical, molecular and therapeutic issues</article-title><source>Orphanet J. Rare Dis.</source><year>2016</year><volume>11</volume><fpage>9</fpage><pub-id pub-id-type="doi">10.1186/s13023-016-0395-1</pub-id><pub-id pub-id-type="pmid">26818898</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B10-ijms-25-08867">
+        <label>10.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hart</surname><given-names>T.C.</given-names></name>
+<name><surname>Pallos</surname><given-names>D.</given-names></name>
+<name><surname>Bozzo</surname><given-names>L.</given-names></name>
+<name><surname>Almeida</surname><given-names>O.P.</given-names></name>
+<name><surname>Marazita</surname><given-names>M.L.</given-names></name>
+<name><surname>O&#x2019;Connell</surname><given-names>J.R.</given-names></name>
+<name><surname>Cortelli</surname><given-names>J.R.</given-names></name>
+</person-group><article-title>Evidence of genetic heterogeneity for hereditary gingival fibromatosis</article-title><source>J. Dent. Res.</source><year>2000</year><volume>79</volume><fpage>1758</fpage><lpage>1764</lpage><pub-id pub-id-type="doi">10.1177/00220345000790100501</pub-id><pub-id pub-id-type="pmid">11077991</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B11-ijms-25-08867">
+        <label>11.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Poulopoulos</surname><given-names>A.</given-names></name>
+<name><surname>Kittas</surname><given-names>D.</given-names></name>
+<name><surname>Sarigelou</surname><given-names>A.</given-names></name>
+</person-group><article-title>Current concepts on gingival fibromatosis-related syndromes</article-title><source>J. Investig. Clin. Dent.</source><year>2011</year><volume>2</volume><fpage>156</fpage><lpage>161</lpage><pub-id pub-id-type="doi">10.1111/j.2041-1626.2011.00054.x</pub-id><pub-id pub-id-type="pmid">25426785</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B12-ijms-25-08867">
+        <label>12.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Coletta</surname><given-names>R.D.</given-names></name>
+<name><surname>Graner</surname><given-names>E.</given-names></name>
+</person-group><article-title>Hereditary gingival fibromatosis: A systematic review</article-title><source>J. Periodontol.</source><year>2006</year><volume>77</volume><fpage>753</fpage><lpage>764</lpage><pub-id pub-id-type="doi">10.1902/jop.2006.050379</pub-id><pub-id pub-id-type="pmid">16671866</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B13-ijms-25-08867">
+        <label>13.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Boutiou</surname><given-names>E.</given-names></name>
+<name><surname>Ziogas</surname><given-names>I.A.</given-names></name>
+<name><surname>Giannis</surname><given-names>D.</given-names></name>
+<name><surname>Doufexi</surname><given-names>A.E.</given-names></name>
+</person-group><article-title>Hereditary gingival fibromatosis in children: A systematic review of the literature</article-title><source>Clin. Oral Investig.</source><year>2021</year><volume>25</volume><fpage>3599</fpage><lpage>3607</lpage><pub-id pub-id-type="doi">10.1007/s00784-020-03682-x</pub-id><pub-id pub-id-type="pmid">33188467</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B14-ijms-25-08867">
+        <label>14.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chaurasia</surname><given-names>A.</given-names></name>
+</person-group><article-title>Hereditary gingival fibromatosis</article-title><source>Natl. J. Maxillofac. Surg.</source><year>2014</year><volume>5</volume><fpage>42</fpage><lpage>46</lpage><pub-id pub-id-type="doi">10.4103/0975-5950.140171</pub-id><pub-id pub-id-type="pmid">25298717</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B15-ijms-25-08867">
+        <label>15.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hart</surname><given-names>T.C.</given-names></name>
+<name><surname>Zhang</surname><given-names>Y.</given-names></name>
+<name><surname>Gorry</surname><given-names>M.C.</given-names></name>
+<name><surname>Hart</surname><given-names>P.S.</given-names></name>
+<name><surname>Cooper</surname><given-names>M.</given-names></name>
+<name><surname>Marazita</surname><given-names>M.L.</given-names></name>
+<name><surname>Marks</surname><given-names>J.M.</given-names></name>
+<name><surname>Cortelli</surname><given-names>J.R.</given-names></name>
+<name><surname>Pallos</surname><given-names>D.</given-names></name>
+</person-group><article-title>A mutation in the SOS1 gene causes hereditary gingival fibromatosis type 1. Am</article-title><source>J. Hum. Genet.</source><year>2002</year><volume>70</volume><fpage>943</fpage><lpage>954</lpage><pub-id pub-id-type="doi">10.1086/339689</pub-id><pub-id pub-id-type="pmid">11868160</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B16-ijms-25-08867">
+        <label>16.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bayram</surname><given-names>Y.</given-names></name>
+<name><surname>White</surname><given-names>J.J.</given-names></name>
+<name><surname>Elcioglu</surname><given-names>N.</given-names></name>
+<name><surname>Cho</surname><given-names>M.T.</given-names></name>
+<name><surname>Zadeh</surname><given-names>N.</given-names></name>
+<name><surname>Gedikbasi</surname><given-names>A.</given-names></name>
+<name><surname>Palanduz</surname><given-names>S.</given-names></name>
+<name><surname>Ozturk</surname><given-names>S.</given-names></name>
+<name><surname>Cefle</surname><given-names>K.</given-names></name>
+<name><surname>Kasapcopur</surname><given-names>O.</given-names></name>
+<etal/>
+</person-group><article-title>REST Final-Exon-Truncating Mutations Cause Hereditary Gingival Fibromatosis</article-title><source>Am. J. Hum. Genet.</source><year>2017</year><volume>101</volume><fpage>149</fpage><lpage>156</lpage><pub-id pub-id-type="doi">10.1016/j.ajhg.2017.06.006</pub-id><pub-id pub-id-type="pmid">28686854</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B17-ijms-25-08867">
+        <label>17.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Machado</surname><given-names>R.A.</given-names></name>
+<name><surname>de Andrade</surname><given-names>R.S.</given-names></name>
+<name><surname>P&#xEA;go</surname><given-names>S.P.B.</given-names></name>
+<name><surname>Krepischi</surname><given-names>A.C.V.</given-names></name>
+<name><surname>Coletta</surname><given-names>R.D.</given-names></name>
+<name><surname>Martelli-J&#xFA;nior</surname><given-names>H.</given-names></name>
+</person-group><article-title>New evidence of genetic heterogeneity causing hereditary gingival fibromatosis and ALK and CD36 as new candidate genes</article-title><source>J. Periodontol.</source><year>2023</year><volume>94</volume><fpage>108</fpage><lpage>118</lpage><pub-id pub-id-type="doi">10.1002/JPER.22-0219</pub-id><pub-id pub-id-type="pmid">35665929</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B18-ijms-25-08867">
+        <label>18.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>J.</given-names></name>
+<name><surname>Chen</surname><given-names>D.</given-names></name>
+<name><surname>Huang</surname><given-names>H.</given-names></name>
+<name><surname>Luo</surname><given-names>N.</given-names></name>
+<name><surname>Chen</surname><given-names>H.</given-names></name>
+<name><surname>Zhao</surname><given-names>J.</given-names></name>
+<name><surname>Wang</surname><given-names>Y.</given-names></name>
+<name><surname>Zhao</surname><given-names>T.</given-names></name>
+<name><surname>Huang</surname><given-names>S.</given-names></name>
+<name><surname>Ren</surname><given-names>Y.</given-names></name>
+<etal/>
+</person-group><article-title>A novel gene ZNF862 causes hereditary gingival fibromatosis</article-title><source>eLife</source><year>2022</year><volume>11</volume><fpage>e66646</fpage><pub-id pub-id-type="doi">10.7554/eLife.66646</pub-id><pub-id pub-id-type="pmid">35142290</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B19-ijms-25-08867">
+        <label>19.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sume</surname><given-names>S.S.</given-names></name>
+<name><surname>Kantarci</surname><given-names>A.</given-names></name>
+<name><surname>Lee</surname><given-names>A.</given-names></name>
+<name><surname>Hasturk</surname><given-names>H.</given-names></name>
+<name><surname>Trackman</surname><given-names>P.C.</given-names></name>
+</person-group><article-title>Epithelial to mesenchymal transition in gingival overgrowth</article-title><source>Am. J. Pathol.</source><year>2010</year><volume>177</volume><fpage>208</fpage><lpage>218</lpage><pub-id pub-id-type="doi">10.2353/ajpath.2010.090952</pub-id><pub-id pub-id-type="pmid">20489142</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B20-ijms-25-08867">
+        <label>20.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lee</surname><given-names>J.M.</given-names></name>
+<name><surname>Dedhar</surname><given-names>S.</given-names></name>
+<name><surname>Kalluri</surname><given-names>R.</given-names></name>
+<name><surname>Thompson</surname><given-names>E.W.</given-names></name>
+</person-group><article-title>The epithelial-mesenchymal transition: New insights in signaling, development, and disease</article-title><source>J. Cell Biol.</source><year>2006</year><volume>172</volume><fpage>973</fpage><lpage>981</lpage><pub-id pub-id-type="doi">10.1083/jcb.200601018</pub-id><pub-id pub-id-type="pmid">16567498</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B21-ijms-25-08867">
+        <label>21.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yang</surname><given-names>F.</given-names></name>
+<name><surname>Lu</surname><given-names>J.</given-names></name>
+<name><surname>Yu</surname><given-names>Y.</given-names></name>
+<name><surname>Gong</surname><given-names>Y.</given-names></name>
+</person-group><article-title>Epithelial to mesenchymal transition in Cyclosporine A-induced rat gingival overgrowth</article-title><source>Arch. Oral Biol.</source><year>2017</year><volume>81</volume><fpage>48</fpage><lpage>55</lpage><pub-id pub-id-type="doi">10.1016/j.archoralbio.2017.04.024</pub-id><pub-id pub-id-type="pmid">28472720</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B22-ijms-25-08867">
+        <label>22.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jumper</surname><given-names>J.</given-names></name>
+<name><surname>Evans</surname><given-names>R.</given-names></name>
+<name><surname>Pritzel</surname><given-names>A.</given-names></name>
+<name><surname>Green</surname><given-names>T.</given-names></name>
+<name><surname>Figurnov</surname><given-names>M.</given-names></name>
+<name><surname>Ronneberger</surname><given-names>O.</given-names></name>
+<name><surname>Tunyasuvunakool</surname><given-names>K.</given-names></name>
+<name><surname>Bates</surname><given-names>R.</given-names></name>
+<name><surname>&#x17D;&#xED;dek</surname><given-names>A.</given-names></name>
+<name><surname>Potapenko</surname><given-names>A.</given-names></name>
+<etal/>
+</person-group><article-title>Highly accurate protein structure prediction with AlphaFold</article-title><source>Nature</source><year>2021</year><volume>596</volume><fpage>583</fpage><lpage>589</lpage><pub-id pub-id-type="doi">10.1038/s41586-021-03819-2</pub-id><pub-id pub-id-type="pmid">34265844</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B23-ijms-25-08867">
+        <label>23.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Parkin</surname><given-names>B.</given-names></name>
+<name><surname>Law</surname><given-names>C.</given-names></name>
+</person-group><article-title>Axenfeld anomaly and retinal changes in Ramon syndrome: Follow-up of two sibs</article-title><source>Am. J. Med. Genet.</source><year>2001</year><volume>104</volume><fpage>131</fpage><lpage>134</lpage><pub-id pub-id-type="doi">10.1002/ajmg.1590</pub-id><pub-id pub-id-type="pmid">11746043</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B24-ijms-25-08867">
+        <label>24.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Surej Kumar</surname><given-names>L.K.</given-names></name>
+<name><surname>Deepa</surname><given-names>D.S.</given-names></name>
+<name><surname>Dilna</surname><given-names>S.</given-names></name>
+</person-group><article-title>Ramon Syndrome- A Rare Form of Cherubism</article-title><source>Ann. Maxillofac. Surg.</source><year>2019</year><volume>9</volume><fpage>415</fpage><lpage>418</lpage><pub-id pub-id-type="doi">10.4103/ams.ams_12_19</pub-id><pub-id pub-id-type="pmid">31909027</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B25-ijms-25-08867">
+        <label>25.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Stenmark</surname><given-names>H.</given-names></name>
+</person-group><article-title>Rab GTPases as coordinators of vesicle traffic</article-title><source>Nat. Rev. Mol. Cell Biol.</source><year>2009</year><volume>10</volume><fpage>513</fpage><lpage>525</lpage><pub-id pub-id-type="doi">10.1038/nrm2728</pub-id><pub-id pub-id-type="pmid">19603039</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B26-ijms-25-08867">
+        <label>26.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wei</surname><given-names>D.</given-names></name>
+<name><surname>Zhan</surname><given-names>W.</given-names></name>
+<name><surname>Gao</surname><given-names>Y.</given-names></name>
+<name><surname>Huang</surname><given-names>L.</given-names></name>
+<name><surname>Gong</surname><given-names>R.</given-names></name>
+<name><surname>Wang</surname><given-names>W.</given-names></name>
+<name><surname>Zhang</surname><given-names>R.</given-names></name>
+<name><surname>Wu</surname><given-names>Y.</given-names></name>
+<name><surname>Gao</surname><given-names>S.</given-names></name>
+<name><surname>Kang</surname><given-names>T.</given-names></name>
+</person-group><article-title>RAB31 marks and controls an ESCRT-independent exosome pathway</article-title><source>Cell Res.</source><year>2021</year><volume>31</volume><fpage>157</fpage><lpage>177</lpage><pub-id pub-id-type="doi">10.1038/s41422-020-00409-1</pub-id><pub-id pub-id-type="pmid">32958903</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B27-ijms-25-08867">
+        <label>27.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Margiotta</surname><given-names>A.</given-names></name>
+<name><surname>Bucci</surname><given-names>C.</given-names></name>
+</person-group><article-title>Coordination between Rac1 and Rab Proteins: Functional Implications in Health and Disease</article-title><source>Cells</source><year>2019</year><volume>8</volume><elocation-id>396</elocation-id><pub-id pub-id-type="doi">10.3390/cells8050396</pub-id><pub-id pub-id-type="pmid">31035701</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B28-ijms-25-08867">
+        <label>28.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gillingham</surname><given-names>A.K.</given-names></name>
+<name><surname>Bertram</surname><given-names>J.</given-names></name>
+<name><surname>Begum</surname><given-names>F.</given-names></name>
+<name><surname>Munro</surname><given-names>S.</given-names></name>
+</person-group><article-title>In vivo identification of GTPase interactors by mitochondrial relocalization and proximity biotinylation</article-title><source>eLife</source><year>2019</year><volume>8</volume><fpage>e45916</fpage><pub-id pub-id-type="doi">10.7554/eLife.45916</pub-id><pub-id pub-id-type="pmid">31294692</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B29-ijms-25-08867">
+        <label>29.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Manshouri</surname><given-names>R.</given-names></name>
+<name><surname>Coyaud</surname><given-names>E.</given-names></name>
+<name><surname>Kundu</surname><given-names>S.T.</given-names></name>
+<name><surname>Peng</surname><given-names>D.H.</given-names></name>
+<name><surname>Stratton</surname><given-names>S.A.</given-names></name>
+<name><surname>Alton</surname><given-names>K.</given-names></name>
+<name><surname>Bajaj</surname><given-names>R.</given-names></name>
+<name><surname>Fradette</surname><given-names>J.J.</given-names></name>
+<name><surname>Minelli</surname><given-names>R.</given-names></name>
+<name><surname>Peoples</surname><given-names>M.D.</given-names></name>
+<etal/>
+</person-group><article-title>ZEB1/NuRD complex suppresses TBC1D2b to stimulate E-cadherin internalization and promote metastasis in lung cancer</article-title><source>Nat. Commun.</source><year>2019</year><volume>10</volume><fpage>5125</fpage><pub-id pub-id-type="doi">10.1038/s41467-019-12832-z</pub-id><pub-id pub-id-type="pmid">31719531</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B30-ijms-25-08867">
+        <label>30.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>W.</given-names></name>
+<name><surname>Liu</surname><given-names>H.T.</given-names></name>
+</person-group><article-title>MAPK signal pathways in the regulation of cell proliferation in mammalian cells</article-title><source>Cell Res.</source><year>2002</year><volume>12</volume><fpage>9</fpage><lpage>18</lpage><pub-id pub-id-type="doi">10.1038/sj.cr.7290105</pub-id><pub-id pub-id-type="pmid">11942415</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B31-ijms-25-08867">
+        <label>31.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Melchionna</surname><given-names>R.</given-names></name>
+<name><surname>Trono</surname><given-names>P.</given-names></name>
+<name><surname>Tocci</surname><given-names>A.</given-names></name>
+<name><surname>Nistic&#xF2;</surname><given-names>P.</given-names></name>
+</person-group><article-title>Actin Cytoskeleton and Regulation of TGF&#x3B2; Signaling: Exploring Their Links</article-title><source>Biomolecules</source><year>2021</year><volume>11</volume><elocation-id>336</elocation-id><pub-id pub-id-type="doi">10.3390/biom11020336</pub-id><pub-id pub-id-type="pmid">33672325</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B32-ijms-25-08867">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Bosco</surname><given-names>E.E.</given-names></name>
+<name><surname>Mulloy</surname><given-names>J.C.</given-names></name>
+<name><surname>Zheng</surname><given-names>Y.</given-names></name>
+</person-group>
+          <article-title>Rac1 GTPase: A &#x201C;Rac&#x201D; of all trades. Cell Mol</article-title>
+          <source>Life Sci.</source>
+          <year>2009</year>
+          <volume>66</volume>
+          <fpage>370</fpage>
+          <lpage>374</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-008-8552-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-ijms-25-08867">
+        <label>33.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ganesh</surname><given-names>P.R.</given-names></name>
+</person-group><article-title>Immunoexpression of interleukin-6 in drug-induced gingival overgrowth patients</article-title><source>Contemp. Clin. Dent.</source><year>2016</year><volume>7</volume><fpage>140</fpage><lpage>145</lpage><pub-id pub-id-type="doi">10.4103/0976-237X.183048</pub-id><pub-id pub-id-type="pmid">27307657</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B34-ijms-25-08867">
+        <label>34.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Trackman</surname><given-names>P.C.</given-names></name>
+<name><surname>Kantarci</surname><given-names>A.</given-names></name>
+</person-group><article-title>Molecular and clinical aspects of drug-induced gingival overgrowth</article-title><source>J. Dent. Res.</source><year>2015</year><volume>94</volume><fpage>540</fpage><lpage>546</lpage><pub-id pub-id-type="doi">10.1177/0022034515571265</pub-id><pub-id pub-id-type="pmid">25680368</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B35-ijms-25-08867">
+        <label>35.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Leguit</surname><given-names>R.J.</given-names></name>
+<name><surname>Raymakers</surname><given-names>R.A.P.</given-names></name>
+<name><surname>Hebeda</surname><given-names>K.M.</given-names></name>
+<name><surname>Goldschmeding</surname><given-names>R.</given-names></name>
+</person-group><article-title>CCN2 (Cellular Communication Network factor 2) in the bone marrow microenvironment, normal and malignant hematopoiesis</article-title><source>J. Cell Commun. Signal</source><year>2021</year><volume>15</volume><fpage>25</fpage><lpage>56</lpage><pub-id pub-id-type="doi">10.1007/s12079-020-00602-2</pub-id><pub-id pub-id-type="pmid">33428075</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B36-ijms-25-08867">
+        <label>36.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Saito</surname><given-names>K.</given-names></name>
+<name><surname>Mori</surname><given-names>S.</given-names></name>
+<name><surname>Tanda</surname><given-names>N.</given-names></name>
+<name><surname>Sakamoto</surname><given-names>S.</given-names></name>
+</person-group><article-title>Immunolocalizaiton of c-Myc and bcl-2 proto-oncogene products in gingival hyperplasia induced by nifedipine and phenytoin</article-title><source>J. Periodontol.</source><year>2000</year><volume>71</volume><fpage>44</fpage><lpage>49</lpage><pub-id pub-id-type="doi">10.1902/jop.2000.71.1.44</pub-id><pub-id pub-id-type="pmid">10695937</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B37-ijms-25-08867">
+        <label>37.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Handajani</surname><given-names>J.</given-names></name>
+<name><surname>Santoso</surname><given-names>A.L.</given-names></name>
+<name><surname>Haniastuti</surname><given-names>T.</given-names></name>
+<name><surname>Utoro</surname><given-names>T.</given-names></name>
+<name><surname>Sosroseno</surname><given-names>W.</given-names></name>
+</person-group><article-title>Effect of nifedipine on the expression of bcl-2 protein in rat gingiva</article-title><source>Clin. Oral Investig.</source><year>2003</year><volume>7</volume><fpage>56</fpage><lpage>58</lpage><pub-id pub-id-type="doi">10.1007/s00784-003-0194-7</pub-id><pub-id pub-id-type="pmid">12673440</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B38-ijms-25-08867">
+        <label>38.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tu</surname><given-names>H.P.</given-names></name>
+<name><surname>Chen</surname><given-names>Y.T.</given-names></name>
+<name><surname>Fu</surname><given-names>E.</given-names></name>
+<name><surname>Shen</surname><given-names>E.C.</given-names></name>
+<name><surname>Wu</surname><given-names>M.H.</given-names></name>
+<name><surname>Chen</surname><given-names>Y.L.</given-names></name>
+<name><surname>Chiang</surname><given-names>C.Y.</given-names></name>
+<name><surname>Chiu</surname><given-names>H.C.</given-names></name>
+</person-group><article-title>Cyclosporine A enhances gingival &#x3B2;-catenin stability via Wnt signaling</article-title><source>J. Periodontol.</source><year>2015</year><volume>86</volume><fpage>473</fpage><lpage>482</lpage><pub-id pub-id-type="doi">10.1902/jop.2014.140397</pub-id><pub-id pub-id-type="pmid">25353064</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B39-ijms-25-08867">
+        <label>39.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tu</surname><given-names>H.P.</given-names></name>
+<name><surname>Chen</surname><given-names>Y.T.</given-names></name>
+<name><surname>Shieh</surname><given-names>Y.S.</given-names></name>
+<name><surname>Chin</surname><given-names>Y.T.</given-names></name>
+<name><surname>Huang</surname><given-names>R.Y.</given-names></name>
+<name><surname>Yang</surname><given-names>S.F.</given-names></name>
+<name><surname>Gau</surname><given-names>C.H.</given-names></name>
+<name><surname>Fu</surname><given-names>E.</given-names></name>
+</person-group><article-title>Cyclosporin-induced downregulation of the expression of E-cadherin during proliferation of edentulous gingival epithelium in rats</article-title><source>J. Periodontol.</source><year>2006</year><volume>77</volume><fpage>832</fpage><lpage>839</lpage><pub-id pub-id-type="doi">10.1902/jop.2006.050316</pub-id><pub-id pub-id-type="pmid">16671876</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B40-ijms-25-08867">
+        <label>40.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Park</surname><given-names>S.Y.</given-names></name>
+<name><surname>Jin</surname><given-names>W.</given-names></name>
+<name><surname>Woo</surname><given-names>J.R.</given-names></name>
+<name><surname>Shoelson</surname><given-names>S.E.</given-names></name>
+</person-group><article-title>Crystal structures of human TBC1D1 and TBC1D4 (AS160) RabGTPase-activating protein (RabGAP) domains reveal critical elements for GLUT4 translocation</article-title><source>J. Biol. Chem.</source><year>2011</year><volume>286</volume><fpage>18130</fpage><lpage>18138</lpage><pub-id pub-id-type="doi">10.1074/jbc.M110.217323</pub-id><pub-id pub-id-type="pmid">21454505</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B41-ijms-25-08867">
+        <label>41.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Schulze</surname><given-names>J.</given-names></name>
+<name><surname>Seitz</surname><given-names>S.</given-names></name>
+<name><surname>Saito</surname><given-names>H.</given-names></name>
+<name><surname>Schneebauer</surname><given-names>M.</given-names></name>
+<name><surname>Marshall</surname><given-names>R.P.</given-names></name>
+<name><surname>Baranowsky</surname><given-names>A.</given-names></name>
+<name><surname>Busse</surname><given-names>B.</given-names></name>
+<name><surname>Schilling</surname><given-names>A.F.</given-names></name>
+<name><surname>Friedrich</surname><given-names>F.W.</given-names></name>
+<name><surname>Albers</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group><article-title>Negative regulation of bone formation by the transmembrane Wnt antagonist Kremen-2</article-title><source>PLoS ONE</source><year>2010</year><volume>5</volume><elocation-id>e10309</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0010309</pub-id><pub-id pub-id-type="pmid">20436912</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B42-ijms-25-08867">
+        <label>42.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mao</surname><given-names>B.</given-names></name>
+<name><surname>Niehrs</surname><given-names>C.</given-names></name>
+</person-group><article-title>Kremen2 modulates Dickkopf2 activity during Wnt/LRP6 signaling</article-title><source>Gene</source><year>2003</year><volume>302</volume><fpage>179</fpage><lpage>183</lpage><pub-id pub-id-type="doi">10.1016/S0378-1119(02)01106-X</pub-id><pub-id pub-id-type="pmid">12527209</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B43-ijms-25-08867">
+        <label>43.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mart&#xED;nez-Gil</surname><given-names>N.</given-names></name>
+<name><surname>Ugartondo</surname><given-names>N.</given-names></name>
+<name><surname>Grinberg</surname><given-names>D.</given-names></name>
+<name><surname>Balcells</surname><given-names>S.</given-names></name>
+</person-group><article-title>Wnt Pathway Extracellular Components and Their Essential Roles in Bone Homeostasis</article-title><source>Genes</source><year>2022</year><volume>13</volume><elocation-id>138</elocation-id><pub-id pub-id-type="doi">10.3390/genes13010138</pub-id><pub-id pub-id-type="pmid">35052478</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B44-ijms-25-08867">
+        <label>44.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>B.</given-names></name>
+<name><surname>Wang</surname><given-names>S.Q.</given-names></name>
+<name><surname>Huang</surname><given-names>J.</given-names></name>
+<name><surname>Xu</surname><given-names>W.</given-names></name>
+<name><surname>Lv</surname><given-names>H.</given-names></name>
+<name><surname>Nie</surname><given-names>C.</given-names></name>
+<name><surname>Wang</surname><given-names>J.</given-names></name>
+<name><surname>Zhao</surname><given-names>H.</given-names></name>
+<name><surname>Liu</surname><given-names>Y.</given-names></name>
+<name><surname>Li</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group><article-title>Knockdown of Kremen2 Inhibits Tumor Growth and Migration in Gastric Cancer</article-title><source>Front. Oncol.</source><year>2020</year><volume>10</volume><elocation-id>534095</elocation-id><pub-id pub-id-type="doi">10.3389/fonc.2020.534095</pub-id><pub-id pub-id-type="pmid">33489867</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B45-ijms-25-08867">
+        <label>45.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Long</surname><given-names>J.</given-names></name>
+<name><surname>Cong</surname><given-names>F.</given-names></name>
+<name><surname>Wei</surname><given-names>Y.</given-names></name>
+<name><surname>Liu</surname><given-names>J.</given-names></name>
+<name><surname>Tang</surname><given-names>W.</given-names></name>
+</person-group><article-title>Increased Kremen2 predicts worse prognosis in colon cancer</article-title><source>Pathol. Oncol. Res.</source><year>2023</year><volume>29</volume><fpage>1611082</fpage><pub-id pub-id-type="doi">10.3389/pore.2023.1611082</pub-id><pub-id pub-id-type="pmid">37123533</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B46-ijms-25-08867">
+        <label>46.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Deltas</surname><given-names>C.</given-names></name>
+</person-group><article-title>Digenic inheritance and genetic modifiers</article-title><source>Clin. Genet.</source><year>2018</year><volume>93</volume><fpage>429</fpage><lpage>438</lpage><pub-id pub-id-type="doi">10.1111/cge.13150</pub-id><pub-id pub-id-type="pmid">28977688</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B47-ijms-25-08867">
+        <label>47.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ueki</surname><given-names>Y.</given-names></name>
+<name><surname>Tiziani</surname><given-names>V.</given-names></name>
+<name><surname>Santanna</surname><given-names>C.</given-names></name>
+<name><surname>Fukai</surname><given-names>N.</given-names></name>
+<name><surname>Maulik</surname><given-names>C.</given-names></name>
+<name><surname>Garfinkle</surname><given-names>J.</given-names></name>
+<name><surname>Ninomiya</surname><given-names>C.</given-names></name>
+<name><surname>doAmaral</surname><given-names>C.</given-names></name>
+<name><surname>Peters</surname><given-names>H.</given-names></name>
+<name><surname>Habal</surname><given-names>M.</given-names></name>
+<etal/>
+</person-group><article-title>Mutations in the gene encoding c-Abl-binding protein SH3BP2 cause cherubism</article-title><source>Nat. Genet.</source><year>2001</year><volume>28</volume><fpage>125</fpage><lpage>126</lpage><pub-id pub-id-type="doi">10.1038/88832</pub-id><pub-id pub-id-type="pmid">11381256</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B48-ijms-25-08867">
+        <label>48.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Reichenberger</surname><given-names>E.J.</given-names></name>
+<name><surname>Levine</surname><given-names>M.A.</given-names></name>
+<name><surname>Olsen</surname><given-names>B.R.</given-names></name>
+<name><surname>Papadaki</surname><given-names>M.E.</given-names></name>
+<name><surname>Lietman</surname><given-names>S.A.</given-names></name>
+</person-group><article-title>The role of SH3BP2 in the pathophysiology of cherubism</article-title><source>Orphanet J. Rare Dis.</source><year>2012</year><volume>7</volume><fpage>S5</fpage><pub-id pub-id-type="doi">10.1186/1750-1172-7-S1-S5</pub-id><pub-id pub-id-type="pmid">22640988</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B49-ijms-25-08867">
+        <label>49.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Teitelbaum</surname><given-names>S.L.</given-names></name>
+</person-group><article-title>The osteoclast and its unique cytoskeleton</article-title><source>Ann. N. Y. Acad. Sci.</source><year>2011</year><volume>1240</volume><fpage>14</fpage><lpage>17</lpage><pub-id pub-id-type="doi">10.1111/j.1749-6632.2011.06283.x</pub-id><pub-id pub-id-type="pmid">22172034</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B50-ijms-25-08867">
+        <label>50.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Croke</surname><given-names>M.</given-names></name>
+<name><surname>Ross</surname><given-names>F.P.</given-names></name>
+<name><surname>Korhonen</surname><given-names>M.</given-names></name>
+<name><surname>Williams</surname><given-names>D.A.</given-names></name>
+<name><surname>Zou</surname><given-names>W.</given-names></name>
+<name><surname>Teitelbaum</surname><given-names>S.L.</given-names></name>
+</person-group><article-title>Rac deletion in osteoclasts causes severe osteopetrosis</article-title><source>J. Cell Sci.</source><year>2011</year><volume>124</volume><fpage>3811</fpage><lpage>3821</lpage><pub-id pub-id-type="doi">10.1242/jcs.086280</pub-id><pub-id pub-id-type="pmid">22114304</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B51-ijms-25-08867">
+        <label>51.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Boyce</surname><given-names>B.F.</given-names></name>
+<name><surname>Xiu</surname><given-names>Y.</given-names></name>
+<name><surname>Li</surname><given-names>J.</given-names></name>
+<name><surname>Xing</surname><given-names>L.</given-names></name>
+<name><surname>Yao</surname><given-names>Z.</given-names></name>
+</person-group><article-title>NF-&#x3BA;B-Mediated Regulation of Osteoclastogenesis</article-title><source>Endocrinol. Metab.</source><year>2015</year><volume>30</volume><fpage>35</fpage><lpage>44</lpage><pub-id pub-id-type="doi">10.3803/EnM.2015.30.1.35</pub-id><pub-id pub-id-type="pmid">25827455</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B52-ijms-25-08867">
+        <label>52.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Col&#xF3;n-Ramos</surname><given-names>D.A.</given-names></name>
+</person-group><article-title>Synapse formation in developing neural circuits</article-title><source>Curr. Top. Dev. Biol.</source><year>2009</year><volume>87</volume><fpage>53</fpage><lpage>79</lpage><pub-id pub-id-type="doi">10.1016/s0070-2153(09)01202-2</pub-id><pub-id pub-id-type="pmid">19427516</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B53-ijms-25-08867">
+        <label>53.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Iroegbu</surname><given-names>J.D.</given-names></name>
+<name><surname>Ijomone</surname><given-names>O.K.</given-names></name>
+<name><surname>Femi-Akinlosotu</surname><given-names>O.M.</given-names></name>
+<name><surname>Ijomone</surname><given-names>O.M.</given-names></name>
+</person-group><article-title>ERK/MAPK signalling in the developing brain: Perturbations and consequences</article-title><source>Neurosci. Biobehav. Rev.</source><year>2021</year><volume>131</volume><fpage>792</fpage><lpage>805</lpage><pub-id pub-id-type="doi">10.1016/j.neubiorev.2021.10.009</pub-id><pub-id pub-id-type="pmid">34634357</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B54-ijms-25-08867">
+        <label>54.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Redman</surname><given-names>R.S.</given-names></name>
+<name><surname>Ward</surname><given-names>C.C.</given-names></name>
+<name><surname>Patterson</surname><given-names>R.H.</given-names></name>
+</person-group><article-title>Focus of epithelial dysplasia arising in hereditary gingival fibromatosis</article-title><source>J. Periodontol.</source><year>1985</year><volume>56</volume><fpage>158</fpage><lpage>162</lpage><pub-id pub-id-type="doi">10.1902/jop.1985.56.3.158</pub-id><pub-id pub-id-type="pmid">3857322</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B55-ijms-25-08867">
+        <label>55.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kantarci</surname><given-names>A.</given-names></name>
+<name><surname>Nseir</surname><given-names>Z.</given-names></name>
+<name><surname>Kim</surname><given-names>Y.S.</given-names></name>
+<name><surname>Sume</surname><given-names>S.S.</given-names></name>
+<name><surname>Trackman</surname><given-names>P.C.</given-names></name>
+</person-group><article-title>Loss of basement membrane integrity in human gingival overgrowth</article-title><source>J. Dent. Res.</source><year>2011</year><volume>90</volume><fpage>887</fpage><lpage>893</lpage><pub-id pub-id-type="doi">10.1177/0022034511404703</pub-id><pub-id pub-id-type="pmid">21483030</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B56-ijms-25-08867">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+<name><surname>Fletcher</surname><given-names>J.P.</given-names></name>
+</person-group>
+          <article-title>Gingival Abnormalities of Genetic Origin: A Preliminary Communication with Special Reference to Hereditary Generalized Gingival Fibromatosis</article-title>
+          <source>J. Dent. Res.</source>
+          <year>1966</year>
+          <volume>45</volume>
+          <fpage>597</fpage>
+          <lpage>612</lpage>
+          <pub-id pub-id-type="doi">10.1177/00220345660450032401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-ijms-25-08867">
+        <label>57.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Becker</surname><given-names>W.</given-names></name>
+<name><surname>Collings</surname><given-names>C.K.</given-names></name>
+<name><surname>Zimmerman</surname><given-names>E.R.</given-names></name>
+<name><surname>De la Rosa</surname><given-names>M.</given-names></name>
+<name><surname>Singdahlsen</surname><given-names>D.</given-names></name>
+</person-group><article-title>Hereditary gingival fibromatosis</article-title><source>Oral Surg. Oral Med. Oral Pathol.</source><year>1967</year><volume>24</volume><fpage>313</fpage><lpage>318</lpage><pub-id pub-id-type="doi">10.1016/0030-4220(67)90035-7</pub-id><pub-id pub-id-type="pmid">5234265</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B58-ijms-25-08867">
+        <label>58.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Cuestas-Carnero</surname><given-names>R.</given-names></name>
+<name><surname>Bornancini</surname><given-names>C.A.</given-names></name>
+</person-group><article-title>Hereditary generalized gingival fibromatosis associated with hypertrichosis: Report of five cases in one family</article-title><source>J. Oral Maxillofac. Surg.</source><year>1988</year><volume>46</volume><fpage>415</fpage><lpage>420</lpage><pub-id pub-id-type="doi">10.1016/0278-2391(88)90229-7</pub-id><pub-id pub-id-type="pmid">3163377</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B59-ijms-25-08867">
+        <label>59.</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gawron</surname><given-names>K.</given-names></name>
+<name><surname>&#x141;azarz-Bartyzel</surname><given-names>K.</given-names></name>
+<name><surname>Kowalska</surname><given-names>A.</given-names></name>
+<name><surname>Bereta</surname><given-names>G.</given-names></name>
+<name><surname>Nowakowska</surname><given-names>Z.</given-names></name>
+<name><surname>Plakwicz</surname><given-names>P.</given-names></name>
+<name><surname>Potempa</surname><given-names>J.</given-names></name>
+<name><surname>Fertala</surname><given-names>A.</given-names></name>
+<name><surname>Chomyszyn-Gajewska</surname><given-names>M.</given-names></name>
+</person-group><article-title>Fibroblasts from recurrent fibrotic overgrowths reveal high rate of proliferation in vitro-findings from the study of hereditary and idiopathic gingival fibromatosis</article-title><source>Connect. Tissue Res.</source><year>2019</year><volume>60</volume><fpage>29</fpage><lpage>39</lpage><pub-id pub-id-type="doi">10.1080/03008207.2018.1517758</pub-id><pub-id pub-id-type="pmid">30231645</pub-id>
+</element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig position="float" id="ijms-25-08867-f001">
+      <label>Figure 1</label>
+      <caption>
+        <p>Patient 1. (<bold>a</bold>,<bold>b</bold>) Patient 1, aged 4 years, carrying a homozygous variant c.1879_1880del; p.Glu627LysfsTer61 in the <italic toggle="yes">TBC1D2B</italic> gene. Non-inflammatory gingival overgrowth is evident. (<bold>c</bold>,<bold>d</bold>) Patient 1, aged 7 years, demonstrating recurrent gingival overgrowth. (<bold>e</bold>&#x2013;<bold>i</bold>) A computerized tomography scan showing expansile and perforated mandible (arrows) and a persistent opening of the anterior fontanelle (arrow). (<bold>j</bold>) Panoramic radiograph showing expansile mandible with cherubism-like lesions (arrows). Unerupted permanent mandibular molars are associated with cherubism-like lesions.</p>
+      </caption>
+      <graphic xlink:href="ijms-25-08867-g001" position="float"/>
+    </fig>
+    <fig position="float" id="ijms-25-08867-f002">
+      <label>Figure 2</label>
+      <caption>
+        <p>(<bold>a</bold>) Histopathologic examination of the gingival tissue of patient 1. The overlying surface stratified squamous epithelium demonstrates elongation of the rete ridges. The underlying fibrous connective tissue is markedly thickened with normal density of fibroblasts (hematoxylin-eosin, original magnification: &#xD7;20). (<bold>b</bold>) Histological section of the sample from of the mandible of patient 1 demonstrating multinucleated osteoclast-like giant cells (arrows) within a fibrous stroma, a characteristic feature of cherubism.</p>
+      </caption>
+      <graphic xlink:href="ijms-25-08867-g002" position="float"/>
+    </fig>
+    <fig position="float" id="ijms-25-08867-f003">
+      <label>Figure 3</label>
+      <caption>
+        <p>Patients 2&#x2013;4 with HGF who carried a novel heterozygous variant in the <italic toggle="yes">TBC1D2B</italic> (p.Tyr824Cys) and <italic toggle="yes">KREMEN2</italic> (p.Arg259Cys) genes. (<bold>a</bold>) Patient 2 with cataracts and gingival overgrowth. (<bold>b</bold>) Patient 3 with severe gingival overgrowth. (<bold>c</bold>) Patient 4 with gingival overgrowth. (<bold>d</bold>) Gingival overgrowth in patient 2. (<bold>e</bold>) Severe gingival overgrowth in patient 3. (<bold>f</bold>) Gingival overgrowth in patient 4. (<bold>g</bold>) Panoramic radiograph of patient 3 showing dense mandibular bone, displacement of teeth, and generalized alveolar bone loss. (<bold>h</bold>) Panoramic radiograph of patient 4 showing dense mandibular bone of patient 4 with generalized alveolar bone loss.</p>
+      </caption>
+      <graphic xlink:href="ijms-25-08867-g003" position="float"/>
+    </fig>
+    <fig position="float" id="ijms-25-08867-f004">
+      <label>Figure 4</label>
+      <caption>
+        <p>(<bold>a</bold>) Histopathologic examination of the gingival tissue of patient 3. The overlying surface stratified squamous epithelium demonstrates elongation of the rete ridges. The underlying fibrous connective tissue is markedly thickened with normal density of fibroblasts (hematoxylin-eosin, original magnification: &#xD7;20). (<bold>b</bold>) Dysplastic changes of epithelial cells characterized by increased mitoses, enlarged nuclei with prominent nucleoli (arrows), and increased nuclear/cytoplasmic ratios, suggestive of epithelial dysplasia.</p>
+      </caption>
+      <graphic xlink:href="ijms-25-08867-g004" position="float"/>
+    </fig>
+    <fig position="float" id="ijms-25-08867-f005">
+      <label>Figure 5</label>
+      <caption>
+        <p>(<bold>a</bold>&#x2013;<bold>c</bold>) Sequence chromatograms of <italic toggle="yes">TBC1D2B</italic> and <italic toggle="yes">KREMEN2</italic> variants in patients 1&#x2013;4, controls, and their unaffected family members. (<bold>d</bold>) Conservation of amino acid residues. The amino acids Tyr824 and Arg298 are highly conserved across vertebrate species.</p>
+      </caption>
+      <graphic xlink:href="ijms-25-08867-g005" position="float"/>
+    </fig>
+    <fig position="float" id="ijms-25-08867-f006">
+      <label>Figure 6</label>
+      <caption>
+        <p>Protein changes and consequences. (<bold>a</bold>) Map of the TBC1D2B protein sequence. (<bold>b</bold>) Map of the KREMEN2 protein sequence. (<bold>c</bold>) Predicted 3-dimensional structure model of the TBC1D2B. (<bold>d</bold>) Predicted 3-dimensional model of KREMEN2. The protein domains in (<bold>c</bold>,<bold>d</bold>) are colored similar to their colors in the domain maps in (<bold>a</bold>,<bold>b</bold>). Side chains of mutated residues and their surrounding amino acid residues are shown in stick representation. Magenta carbon, red oxygen, blue nitrogen, and dark yellow sulfur atoms depict the mutations.</p>
+      </caption>
+      <graphic xlink:href="ijms-25-08867-g006" position="float"/>
+    </fig>
+    <fig position="float" id="ijms-25-08867-f007">
+      <label>Figure 7</label>
+      <caption>
+        <p>Representative images of immunohistochemistry study to determine E-cadherin, BCL-2, and &#x3B2;-catenin expression in (<bold>a</bold>,<bold>d</bold>,<bold>g</bold>) normal gingiva controls, (<bold>b</bold>,<bold>e</bold>,<bold>h</bold>) patient 1 (Ramon syndrome), and (<bold>c</bold>,<bold>f</bold>,<bold>i</bold>) patient 4 (HGF) (magnification, 8&#xD7;). (<bold>b</bold>) E-cadherin showed decreased expression in the basal layer of the epidermis in patient 1. (<bold>e</bold>) BCL-2 showed increased expression in the basal layer of the epidermis and the lamina propria in patient 1. (<bold>h</bold>) &#x3B2;-catenin showed increased expression in the upper layer of the epidermis but decreased expression in the lamina propria of patient 1. No differences of (<bold>a</bold>,<bold>c</bold>) E-cadherin, (<bold>d</bold>,<bold>f</bold>) BCL-2, and (<bold>g</bold>,<bold>i</bold>) &#x3B2;-catenin expression were observed between the gingiva of patient 4 and the normal gingival tissue.</p>
+      </caption>
+      <graphic xlink:href="ijms-25-08867-g007" position="float"/>
+    </fig>
+    <fig position="float" id="ijms-25-08867-f008">
+      <label>Figure 8</label>
+      <caption>
+        <p>Flowchart showing hypothetical pathogenesis mechanisms leading to gingival fibromatosis, seizure, epithelial dysplasia, and cherubism-like lesions as the results of genetic variants in <italic toggle="yes">TBC1D2B</italic>, <italic toggle="yes">SOS1</italic>, <italic toggle="yes">ELMO2</italic>, and <italic toggle="yes">REST</italic>. The main pathogenetic mechanisms appear to be overactivation of RAC1, dysregulated TGFB signaling, and increased epithelial-to-mesenchymal transition. Refs. [<xref rid="B1-ijms-25-08867" ref-type="bibr">1</xref>,<xref rid="B2-ijms-25-08867" ref-type="bibr">2</xref>,<xref rid="B3-ijms-25-08867" ref-type="bibr">3</xref>,<xref rid="B4-ijms-25-08867" ref-type="bibr">4</xref>,<xref rid="B5-ijms-25-08867" ref-type="bibr">5</xref>,<xref rid="B6-ijms-25-08867" ref-type="bibr">6</xref>,<xref rid="B7-ijms-25-08867" ref-type="bibr">7</xref>,<xref rid="B8-ijms-25-08867" ref-type="bibr">8</xref>,<xref rid="B9-ijms-25-08867" ref-type="bibr">9</xref>,<xref rid="B10-ijms-25-08867" ref-type="bibr">10</xref>,<xref rid="B11-ijms-25-08867" ref-type="bibr">11</xref>,<xref rid="B12-ijms-25-08867" ref-type="bibr">12</xref>,<xref rid="B13-ijms-25-08867" ref-type="bibr">13</xref>,<xref rid="B14-ijms-25-08867" ref-type="bibr">14</xref>,<xref rid="B15-ijms-25-08867" ref-type="bibr">15</xref>,<xref rid="B16-ijms-25-08867" ref-type="bibr">16</xref>,<xref rid="B17-ijms-25-08867" ref-type="bibr">17</xref>,<xref rid="B18-ijms-25-08867" ref-type="bibr">18</xref>,<xref rid="B19-ijms-25-08867" ref-type="bibr">19</xref>,<xref rid="B20-ijms-25-08867" ref-type="bibr">20</xref>,<xref rid="B21-ijms-25-08867" ref-type="bibr">21</xref>,<xref rid="B23-ijms-25-08867" ref-type="bibr">23</xref>,<xref rid="B24-ijms-25-08867" ref-type="bibr">24</xref>,<xref rid="B25-ijms-25-08867" ref-type="bibr">25</xref>,<xref rid="B26-ijms-25-08867" ref-type="bibr">26</xref>,<xref rid="B27-ijms-25-08867" ref-type="bibr">27</xref>,<xref rid="B28-ijms-25-08867" ref-type="bibr">28</xref>,<xref rid="B29-ijms-25-08867" ref-type="bibr">29</xref>,<xref rid="B30-ijms-25-08867" ref-type="bibr">30</xref>,<xref rid="B31-ijms-25-08867" ref-type="bibr">31</xref>,<xref rid="B32-ijms-25-08867" ref-type="bibr">32</xref>,<xref rid="B33-ijms-25-08867" ref-type="bibr">33</xref>,<xref rid="B34-ijms-25-08867" ref-type="bibr">34</xref>,<xref rid="B35-ijms-25-08867" ref-type="bibr">35</xref>].</p>
+      </caption>
+      <graphic xlink:href="ijms-25-08867-g008" position="float"/>
+    </fig>
+    <table-wrap position="float" id="ijms-25-08867-t001">
+      <object-id pub-id-type="pii">ijms-25-08867-t001_Table 1</object-id>
+      <label>Table 1</label>
+      <caption>
+        <p>Patients with the <italic toggle="yes">TBC1D2B</italic> and <italic toggle="yes">KREMEN2</italic> variants and their phenotypes.</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Families</th>
+            <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Patients</th>
+            <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Phenotypes</th>
+            <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Clinical Findings</th>
+            <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Variants </th>
+            <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Prediction/Ranking</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1 <break/>(Female)</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Ramon <break/>Syndrome</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Gingival fibromatosis, cherubism-like lesions, <break/>a persistent open <break/>anterior fontanelle, <break/>focal epilepsy, <break/>left eye amblyopia</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic toggle="yes">TBC1D2B</italic> variant <break/>NM_144572.2; NP_653173.1 <break/>c.1879_1880del <break/>p.Glu627LysfsTer61 <break/>chr 15-78305554-TTC-T <break/>Novel</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MutationTaster: Disease causing <break/>Prob = 1 <break/>PolyPhen-2: N/A <break/>SIFT: Damaging; score = 0.858 <break/>CADD: N/A <break/>DANN: N/A <break/>Varsome: N/A</td>
+          </tr>
+          <tr>
+            <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">2</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2 <break/>(Male)</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Hereditary <break/>gingival <break/>fibromatosis</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Gingival fibromatosis</td>
+            <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><italic toggle="yes">TBC1D2B</italic> variant <break/>NM_144572.2; NP_653173.1 <break/>c.2471A&gt;G <break/>p.Tyr824Cys <break/>chr 15-78295750-T-C <break/>rs199928887 <break/>MAF = 0.00001301 <break/>
+<break/>
+<break/>
+<break/><italic toggle="yes">KREMEN2</italic> variant <break/>NM_172229.3; NP_757384.1 <break/>c.892C&gt;T <break/>p.Arg298Cys <break/>chr 16-3017162-C-T <break/>Novel</td>
+            <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">MutationTaster: Disease causing Prob = 0.999153978449563 <break/>PolyPhen-2: Probably damaging; score = 0.999 <break/>SIFT: Damaging; score = 0.01 <break/>CADD score = 22.8 <break/>DANN score = 0.9935 <break/>Varsome: Uncertain Significance <break/>
+<break/>
+<break/>
+<break/>
+<break/>MutationTaster: Disease causing <break/>Prob = 0.876965507429932 <break/>PolyPhen-2: Probably damaging; score = 0.994 <break/>SIFT: Tolerated; <break/>score = 0.18 <break/>CADD score = 23.5 <sup>1</sup>
+<break/>DANN score = 0.9981 <sup>2</sup>
+<break/>Varsome: Uncertain significance</td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3 <break/>(Male)</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Hereditary <break/>gingival <break/>fibromatosis</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Gingival fibromatosis, <break/>epithelial dysplasia, <break/>dense mandibular bone</td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4 <break/>(Male)</td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Hereditary <break/>gingival <break/>fibromatosis </td>
+            <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Gingival fibromatosis, <break/>dense mandibular bone</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p><sup>1</sup> The Combined Annotation Dependent Depletion (CADD); &#x2264;22 means moderate benign, &#x2264;23.2 means supporting benign, &#x2265;25.6 means supporting pathogenic (<uri xlink:href="https://varsome.com/about/resources/germline-implementation/">https://varsome.com/about/resources/germline-implementation/</uri>, accessed on 14 April 2024). <sup>2</sup> Deleterious Annotation of genetic variants using Neural Networks (DANN); &#x2264;0.915 means moderate benign, &#x2264;0.974 means supporting benign, &#x2265;0.999 means supporting pathogenic (<uri xlink:href="https://varsome.com/about/resources/germline-implementation/">https://varsome.com/about/resources/germline-implementation/</uri>, accessed on 14 April 2024).</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

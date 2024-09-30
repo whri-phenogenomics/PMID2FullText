@@ -1,0 +1,795 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">JCI Insight</journal-id><journal-id journal-id-type="iso-abbrev">JCI Insight</journal-id><journal-id journal-id-type="publisher-id">JCI Insight</journal-id><journal-title-group><journal-title>JCI Insight</journal-title></journal-title-group><issn pub-type="epub">2379-3708</issn><publisher><publisher-name>American Society for Clinical Investigation</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38771644</article-id><article-id pub-id-type="pmc">11383180</article-id>
+<article-id pub-id-type="publisher-id">177588</article-id><article-id pub-id-type="doi">10.1172/jci.insight.177588</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><italic toggle="yes">ADAM17</italic> variant causes hair loss via ubiquitin ligase TRIM47&#x2013;mediated degradation</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Xiaoxiao</given-names></name><email>xiaowangsmiling@163.com</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Pan</surname><given-names>Chaolan</given-names></name><email>15700060319@163.com</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Zheng</surname><given-names>Luyao</given-names></name><email>zluyaosky@163.com</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref><xref rid="A3" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Jianbo</given-names></name><email>wangjianbo1020@163.com</email><xref rid="A4" ref-type="aff">4</xref></contrib><contrib contrib-type="author"><name><surname>Zou</surname><given-names>Quan</given-names></name><email>zouquan1009@163.com</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Sun</surname><given-names>Peiyi</given-names></name><email>sunpeiyi17@163.com</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Zhou</surname><given-names>Kaili</given-names></name><email>18816936168@163.com</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Zhao</surname><given-names>Anqi</given-names></name><email>zhaoanqi201607@163.com</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A5" ref-type="aff">5</xref></contrib><contrib contrib-type="author"><name><surname>Cao</surname><given-names>Qiaoyu</given-names></name><email>15821916550@163.com</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A5" ref-type="aff">5</xref></contrib><contrib contrib-type="author"><name><surname>He</surname><given-names>Wei</given-names></name><email>heweiaust@163.com</email><xref rid="A5" ref-type="aff">5</xref></contrib><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Yumeng</given-names></name><email>wym1821753@126.com</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Cheng</surname><given-names>Ruhong</given-names></name><email>chengruhong@xinhuamed.com.cn</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Yao</surname><given-names>Zhirong</given-names></name><email>yaozhirong@xinhuamed.com.cn</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Si</given-names></name><email>zhangsi@fudan.edu.cn</email><xref rid="A6" ref-type="aff">6</xref></contrib><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Hui</given-names></name><email>zhanghui@xinhuamed.com.cn</email><xref rid="A1" ref-type="aff">1</xref></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Li</surname><given-names>Ming</given-names></name><email>mingli@fudan.edu.cn</email><xref rid="A1" ref-type="aff">1</xref><xref rid="A5" ref-type="aff">5</xref></contrib></contrib-group><aff id="A1"><label>1</label>Department of Dermatology, Xinhua Hospital, and</aff><aff id="A2"><label>2</label>Institute of Dermatology, Shanghai Jiaotong University School of Medicine, Shanghai, China.</aff><aff id="A3"><label>3</label>Department of Dermatology, Anhui Provincial Children&#x2019;s Hospital, Hefei, China.</aff><aff id="A4"><label>4</label>Department of Dermatology, Henan Provincial People&#x2019;s Hospital, Zhengzhou University People&#x2019;s Hospital, and Henan University People&#x2019;s Hospital, Zhengzhou, China.</aff><aff id="A5"><label>5</label>Department of Dermatology, The Children&#x2019;s Hospital of Fudan University, Shanghai, China.</aff><aff id="A6"><label>6</label>NHC Key Laboratory of Glycoconjugate Research, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Fudan University, Shanghai, China.</aff><author-notes><corresp>Address correspondence to: Ming Li, The Children&#x2019;s Hospital of Fudan University, 399 Wanyuan Road, Building 7, Minhang District, Shanghai 201102, China. Phone: 86. 21.64931226; Email: <email>mingli@fudan.edu.cn</email>. Or to: Hui Zhang, Xinhua Hospital, Shanghai Jiaotong University School of Medicine, 1665 Kongjiang Road, Building 3, Yangpu District, Shanghai 200092, China. Phone: 86.21.25076930; Email: <email>zhanghui@xinhuamed.com.cn</email>. Or to: Si Zhang, School of Basic Medical Sciences, Fudan University, 137 Dong&#x2019;an Road, Building West 7, Room 305, Xuhui District, Shanghai 200032, China. Phone: 86.21.54237223; Email: <email>zhangsi@fudan.edu.cn</email>.</corresp><fn><p><bold>Authorship note:</bold> XW, CP, LZ, JW, and QZ contributed equally to this work as co&#x2013;first authors.</p></fn></author-notes><pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-21T12:00:00-0400"><day>21</day><month>5</month><year>2024</year></pub-date><pub-date date-type="collection" publication-format="electronic" iso-8601-date="2024-07-08T12:00:00-0400"><day>8</day><month>7</month><year>2024</year></pub-date><pub-date pub-type="pmc-release"><day>21</day><month>5</month><year>2024</year></pub-date><!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.--><volume>9</volume><issue>13</issue><elocation-id>e177588</elocation-id><history><date date-type="received"><day>14</day><month>11</month><year>2023</year></date><date date-type="accepted"><day>15</day><month>5</month><year>2024</year></date></history><permissions><copyright-statement>&#xA9; 2024 Wang et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Wang et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit <ext-link xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license></permissions><self-uri xlink:href="https://insight.jci.org/articles/view/177588">This article is available online at https://insight.jci.org/articles/view/177588</self-uri><abstract><p>Hypotrichosis is a genetic disorder characterized by a diffuse and progressive loss of scalp and/or body hair. Nonetheless, the causative genes for several affected individuals remain elusive, and the underlying mechanisms have yet to be fully elucidated. Here, we discovered a dominant variant in <underline>a</underline>
+<underline>d</underline>isintegrin and <underline>a</underline>
+<underline>m</underline>etalloproteinase domain 17 (<italic toggle="yes">ADAM17</italic>) gene caused hypotrichosis with woolly hair. <italic toggle="yes">Adam17</italic> (p.D647N) knockin mice mimicked the hair abnormality in patients. <italic toggle="yes">ADAM17</italic> (p.D647N) mutation led to hair follicle stem cell (HFSC) exhaustion and caused abnormal hair follicles, ultimately resulting in alopecia. Mechanistic studies revealed that ADAM17 binds directly to E3 ubiquitin ligase tripartite motif-containing protein 47 (TRIM47). <italic toggle="yes">ADAM17</italic> variant enhanced the association between ADAM17 and TRIM47, leading to an increase in ubiquitination and subsequent degradation of ADAM17 protein. Furthermore, reduced ADAM17 protein expression affected the Notch signaling pathway, impairing the activation, proliferation, and differentiation of HFSCs during hair follicle regeneration. Overexpression of Notch intracellular domain rescued the reduced proliferation ability caused by <italic toggle="yes">Adam17</italic> variant in primary fibroblast cells.</p></abstract><abstract abstract-type="graphical"><p>
+<graphic xlink:href="jciinsight-9-177588-g040.jpg" position="float"/>
+</p></abstract><abstract abstract-type="toc"><p>An autosomal dominant hypotrichosis-associated ADAM17 variant increases the interaction between ADAM17 and TRIM47, leading to heightened autoubiquitination and subsequent ADAM17 degradation.</p></abstract><kwd-group kwd-group-type="specialties"><kwd>Dermatology</kwd><kwd>Genetics</kwd></kwd-group><kwd-group kwd-group-type="keywords"><kwd>Genetic diseases</kwd><kwd>Genetic variation</kwd><kwd>Ubiquitin-proteosome system</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id>https://doi.org/10.13039/501100001809</institution-id></institution-wrap>
+</funding-source><award-id>82073422,82273504,82303990</award-id></award-group><award-group><funding-source>Shanghai Municipal Natural Science Foundation</funding-source><award-id>22YF1427100,22ZR1440800,20ZR1434900</award-id></award-group><award-group><funding-source>Medical Engineering Cross Research Foundation of Shanghai Jiaotong University</funding-source><award-id>YG2022ZD010,YG2022QN040</award-id></award-group><award-group><funding-source>Clinical Research Plan of SHDC</funding-source><award-id>SHDC22022302</award-id></award-group></funding-group></article-meta></front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p>Human hair, especially human scalp hair, has important ornamental functions that are essential for social communication and sense of well-being. Unwanted hair loss poses psychosocial distress to affected individuals and affects their quality of life (<xref rid="B1" ref-type="bibr">1</xref>). A comprehensive survey conducted on individuals with hair loss revealed that they are more prone to experiencing anxiety, depression, and sleep disorders (<xref rid="B2" ref-type="bibr">2</xref>). Additionally, a concerning increase in suicide rates has been found among individuals suffering from hair loss (<xref rid="B3" ref-type="bibr">3</xref>, <xref rid="B4" ref-type="bibr">4</xref>). Congenital hypotrichosis (HYPT) is a hair disorder marked by sparse or complete absence of hair on the scalp and/or other body parts. Occasionally, some cases accompanied by tightly coiled, curled, or woolly hair are called autosomal recessive woolly hair (ARWH) or autosomal dominant woolly hair (ADWH) depending on their congenital pattern (<xref rid="B5" ref-type="bibr">5</xref>, <xref rid="B6" ref-type="bibr">6</xref>). <italic toggle="yes">Keratin</italic> (KRT) <italic toggle="yes">74</italic> and <italic toggle="yes">KRT71</italic> mutations are known to cause nonsyndromic ADWH1 (OMIM#613981) and ADWH2 (OMIM#615896), respectively (<xref rid="B7" ref-type="bibr">7</xref>, <xref rid="B8" ref-type="bibr">8</xref>). Nevertheless, the causative genes for several affected individuals are still unidentified, and the underlying mechanisms have not been fully comprehended.</p>
+      <p><underline>A</underline><underline>d</underline>isintegrin and <underline>a</underline><underline>m</underline>etalloproteinase domain 17 (ADAM17), a type I transmembrane metallopeptidase, is responsible for shedding the ectodomains of over 90 substrates, including cytokines (such as TNF-&#x3B1;), cytokine receptors (such as IL-6R and TNFR), and adhesion proteins (<xref rid="B9" ref-type="bibr">9</xref>). It functions as a molecular switch to regulate both inflammation and tissue regeneration and is linked to various inflammatory diseases, such as Alzheimer&#x2019;s disease, inflammation-related atherosclerosis, and rheumatoid arthritis (<xref rid="B10" ref-type="bibr">10</xref>&#x2013;<xref rid="B12" ref-type="bibr">12</xref>). In addition, there is compelling evidence supporting the critical involvement of ADAM17 in many cancers and as a potential therapeutic target (<xref rid="B13" ref-type="bibr">13</xref>&#x2013;<xref rid="B15" ref-type="bibr">15</xref>). Even though ADAM17 can cleave multiple substrates in vitro or in cell-free assays, only some of them have a substantial impact on development and disease in vivo. For instance, in skin, deletion of ADAM17 in keratinocytes stimulates atopic dermatitis, driven by Th2 and/or Th17 response(s), due to a selective hindrance in the recruitment of the transcription factor c-Fos to the Th2-polarizing cytokine TSLP (<xref rid="B16" ref-type="bibr">16</xref>). ADAM17 regulates epidermal growth factor receptor (EGFR) ligand-dependent terminal keratinocyte differentiation, thus preserving the skin barrier (<xref rid="B17" ref-type="bibr">17</xref>). Additionally, ADAM17 is also involved in the development of the hair follicle inner root sheath (IRS) and the establishment of hair follicle stem cell (HFSC) niche (<xref rid="B18" ref-type="bibr">18</xref>, <xref rid="B19" ref-type="bibr">19</xref>). Further exploration is necessary to fully understand the impact of ADAM17 on hair follicle development.</p>
+      <p>Tripartite motif-containing protein 47 (TRIM47) functions as an E3 ubiquitin ligase and is involved in numerous biological processes, including tumorigenesis, cerebral ischemia/reperfusion injury, and endothelial inflammation (<xref rid="B20" ref-type="bibr">20</xref>&#x2013;<xref rid="B24" ref-type="bibr">24</xref>). The interaction between E3 ubiquitin ligase and the target protein is a core step in ubiquitin&#x2013;proteasome system&#x2013;mediated protein degradation (<xref rid="B25" ref-type="bibr">25</xref>). TRIM47 aggravates lipopolysaccharide-induced acute lung injury through the K63-linked ubiquitination of TRAF2 (<xref rid="B26" ref-type="bibr">26</xref>). TRIM47 promotes tumorigenesis by facilitating the ubiquitination and subsequent degradation of SMAD4, FBP1, and PKC-&#x3B5;/PKD3 (<xref rid="B21" ref-type="bibr">21</xref>, <xref rid="B23" ref-type="bibr">23</xref>, <xref rid="B27" ref-type="bibr">27</xref>). Nevertheless, the pathologic and clinical roles of TRIM47 in hair follicles remain unclear.</p>
+      <p>In this study, we identified that a variant in the conserved ADAM17 dynamic interaction sequence (CANDIS) domain of <italic toggle="yes">ADAM17</italic> caused autosomal dominant hypotrichosis with woolly hair. An <italic toggle="yes">Adam17</italic>-knockin mouse model mimicked the hair abnormality in patients. We discovered that TRIM47, an E3 ubiquitin ligase, interacted with the mutant ADAM17, promoting its ubiquitination and ultimate protein degradation. Eventually, reduced ADAM17 expression led to dysfunction in the Notch signaling pathway, which in turn contributed to hair follicle malformation.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>ADAM17 variant leads to autosomal dominant hypotrichosis with woolly hair.</title>
+        <p>We conducted a study on a Chinese family consisting of 7 patients with generalized hypotrichosis and curly hair. The majority of affected individuals exhibited tightly curled and sparse hair either at birth or during the early stage of infancy. The men exhibited varying degrees of hypotrichosis, often displaying fragile and thin scalp hair. Notably, they also had woolly hair and patchy hair loss of eyebrows, eyelashes, beard, mustache, axilla, and body. Hair growth tended to be limited, at a rate of 1&#x2013;2 cm since birth throughout their lifetime, leading to complete hair loss as they aged. Conversely, women presented milder symptoms in comparison with men, often showing only woolly hair and punctate or flaky alopecia (<xref rid="F1" ref-type="fig">Figure 1A</xref>). No abnormalities were detected concerning their skin, nails, teeth, or sweating. Hematoxylin and eosin (HE) staining of scalp sections exhibited a marked reduction in hair follicle counts, with minimal inflammatory infiltration observed around hair follicles (<xref rid="F1" ref-type="fig">Figure 1B</xref>). Scanning electron microscopy (SEM) imaging of healthy individuals&#x2019; hair revealed a consistent ceramic tile&#x2013;like arrangement of hair cuticles, whereas a patient&#x2019;s hair displayed longitudinal grooves and cleavages. Moreover, the patient&#x2019;s hair exhibited irregular transverse sections and widespread exfoliation of the hair cuticle (<xref rid="F1" ref-type="fig">Figure 1C</xref>).</p>
+        <p>The provided pedigree offered persuasive evidence supporting the autosomal dominant mode of inheritance for the phenotypes (<xref rid="F1" ref-type="fig">Figure 1D</xref>). To identify potential pathogenic variants associated with hypotrichosis causative genes like <italic toggle="yes">KRT74</italic>, <italic toggle="yes">KRT25</italic>, <italic toggle="yes">KRT71</italic>, <italic toggle="yes">APCDD1</italic>, <italic toggle="yes">RPL21</italic>, <italic toggle="yes">SNRPE</italic>, <italic toggle="yes">CDSN</italic>, <italic toggle="yes">U2HR</italic>, <italic toggle="yes">EPS8L3</italic>, <italic toggle="yes">HR</italic>, <italic toggle="yes">DSG4</italic>, <italic toggle="yes">LIPH</italic>, <italic toggle="yes">LPAR6</italic>, <italic toggle="yes">DSC3</italic>, <italic toggle="yes">KRT25</italic>, <italic toggle="yes">LSS</italic>, <italic toggle="yes">TTMP</italic>, <italic toggle="yes">KRT86</italic>, <italic toggle="yes">KRT83</italic>, and <italic toggle="yes">KRT81</italic>, gene panel sequencing was used. However, the variant search yielded no results. We performed a genome-wide linkage analysis approach using single nucleotide polymorphisms (SNPs) and found evidence for linkage to chromosome 2 with a maximum log of the likelihood odds ratio (LOD) score of 3.18 (<xref rid="F1" ref-type="fig">Figure 1E</xref>). Subsequently, we narrowed down the candidate region to 19.6 cM, between markers rs979290 and rs57254657, which encompassed 126 annotated genes, through genotyping of markers in the identified region (<xref rid="sd" ref-type="sec">Supplemental Figure 1</xref>; supplemental material available online with this article; <ext-link xlink:href="https://doi.org/10.1172/jci.insight.177588DS1" ext-link-type="uri">https://doi.org/10.1172/jci.insight.177588DS1</ext-link>). We conducted whole-exome sequencing on an affected family member (II:4), screening all variants in the critical region, and detected a heterozygous missense mutation c.1939G&gt;A (p.Asp647Asn) in the <italic toggle="yes">ADAM17</italic> gene (NM_003183). Upon conducting Sanger sequencing on all family members, we identified that the mutation was detected only in affected family members (<xref rid="F1" ref-type="fig">Figure 1F</xref>). All identified variants were absent from public databases (1,000 Genomes, ClinVar, Ensembl, and gnomAD) and 600 healthy controls.</p>
+        <p>Furthermore, ADAM17 is predominantly expressed in the hair cortex, IRS, and outer root sheath (ORS) of hair follicle (<xref rid="F1" ref-type="fig">Figure 1G</xref> and <xref rid="sd" ref-type="sec">Supplemental Figure 2</xref>). Aspartic residue at position 647 is located within the CANDIS domain of ADAM17, which is highly conserved and plays a vital role in protein interactions (<xref rid="F1" ref-type="fig">Figure 1, H and I</xref>).</p>
+      </sec>
+      <sec>
+        <title>Adam17 (p.D647N) mutant mouse model mimics hair loss in HYPT.</title>
+        <p>In order to ascertain whether the <italic toggle="yes">ADAM17</italic> (p.D647N) mutation is pathogenic, we constructed and <italic toggle="yes">Adam17</italic> (p.D647N) knockin mouse model using CRISPR/Cas9-mediated genome engineering (<xref rid="sd" ref-type="sec">Supplemental Figure 3</xref>, A and B). Homozygous mice (Adam17<sup>D647N/D647N</sup>) were distinguishable from wild-type or heterozygous littermates (Adam17<sup>D647N/+</sup>) by their abnormal hair characteristics, including wavy vibrissa hair and a thinner, wavy, gray coat (<xref rid="F2" ref-type="fig">Figure 2A</xref>). These distinctive features first appeared shortly after birth and gradually worsened as the mice aged (<xref rid="F2" ref-type="fig">Figure 2A</xref>). Four hair follicle types with varying shapes and sizes emerged during hair development in the dorsal skin of mice, including guard (primary), auchene and awl (secondary), and zigzag (tertiary) hairs (<xref rid="B28" ref-type="bibr">28</xref>). Compared with the wild-type, Adam17<sup>D647N/D647N</sup> pelages exhibited a reduction in primary and secondary hairs but a significant increase in the proportion of zigzag hairs. All 4 hair types in the Adam17<sup>D647N/D647N</sup> pelage displayed waviness, disorganized medulla, and irregular melanin piles (<xref rid="F2" ref-type="fig">Figure 2B</xref>). Furthermore, SEM revealed irregular and broken scales, suggesting a defect in the hair cuticle (<xref rid="F2" ref-type="fig">Figure 2C</xref>).</p>
+        <p>HE staining showed that Adam17<sup>D647N/D647N</sup> mice exhibited a diminished count of hair follicles and abnormal hair architecture at the first anagen (P7) and the second anagen (P28) (<xref rid="F2" ref-type="fig">Figure 2, D and E</xref>). Hair follicles in wild-type mice exhibited distinctive concentric layers, namely ORS, companion layer, IRS (Henle&#x2019;s layer, Huxley&#x2019;s layer, and cuticle), and hair shaft (cuticle, cortex, and medulla). However, the concentric structure of hair follicles in Adam17<sup>D647N/D647N</sup> mice was disrupted, along with a disturbed distribution of cells in the IRS (<xref rid="F2" ref-type="fig">Figure 2D</xref>). Additionally, hair shafts in the Adam17<sup>D647N/D647N</sup> mice displayed irregularities and deformities, suggesting a potential role for ADAM17 in hair shaft development (<xref rid="F2" ref-type="fig">Figure 2E</xref>). Immunofluorescence demonstrated that IRS labeled by Gata3 and hair cortex keratins labeled by the AE13 antibody were markedly diminished in the hair follicles of Adam17<sup>D647N/D647N</sup> mice. Conversely, there was a noticeably increased expression of K5, which functioned as a pivotal marker for ORS (<xref rid="F2" ref-type="fig">Figure 2F</xref>). Furthermore, Ki67 immunostaining revealed a decreased cell proliferation ability in hair germ of Adam17<sup>D647N/D647N</sup> mice (<xref rid="F2" ref-type="fig">Figure 2F</xref>). These observations were supported by Western blotting (<xref rid="F2" ref-type="fig">Figure 2, G and H</xref>, and <xref rid="sd" ref-type="sec">Supplemental Figure 3C</xref>). In addition, transmission electron microscopy (TEM) demonstrated that hair follicles in wild-type mice exhibited distinctive concentric layers, while all layers apart from the hair shaft and IRS cuticle of hair follicles in Adam17<sup>D647N/D647N</sup> mice were indistinguishable (<xref rid="F2" ref-type="fig">Figure 2I</xref>). Overall, these results suggested that the p.D647N mutation in <italic toggle="yes">ADAM17</italic> had a substantial impact on the proper organization of hair follicles.</p>
+        <p>During the weaning period, Adam17<sup>D647N/D647N</sup> mice exhibited a distinguishable shiny, red, and semitransparent skin phenotype. Subsequently, at P15, a notable incidence of erythroderma developed along with a substantial amount of desquamation (<xref rid="sd" ref-type="sec">Supplemental Figure 3D</xref>). Ultimately, this affliction resolved spontaneously in the subsequent days. Additionally, Adam17<sup>D647N/D647N</sup> mice experienced notable developmental retardation within the first 4 months (<xref rid="sd" ref-type="sec">Supplemental Figure 3E</xref>). Remarkably, these mice displayed edema in their extremities and a significantly high mortality rate during the peri-weaning period (<xref rid="sd" ref-type="sec">Supplemental Figure 3F</xref>). Conversely, no discernible anomalies were detected in the fur or skin of Adam17<sup>D647N/+</sup> mice as per our observation (<xref rid="F2" ref-type="fig">Figure 2</xref> and <xref rid="sd" ref-type="sec">Supplemental Figure 3</xref>).</p>
+      </sec>
+      <sec>
+        <title>Disruption of HFSCs in Adam17-mutant mice contributes to the woolly hair and alopecia phenotype.</title>
+        <p>To further explore whether HFs in Adam17<sup>D647N/D647N</sup> mice are defective in forming new hair, we shaved hair and monitored the appearance of skin pigmentation. Adam17<sup>D647N/D647N</sup> mice exhibited a delayed onset of anagen in a partial area of dorsal skin compared with their wild-type counterparts (<xref rid="F3" ref-type="fig">Figure 3, A and B</xref>). This observation suggested that the <italic toggle="yes">Adam17</italic> (p.D647N) mutation hindered hair regeneration. HFs generate a new bulge beside the old one and persist to the next cycle in the telogen phase, which is called club hair (<xref rid="B29" ref-type="bibr">29</xref>). HE staining demonstrated a remarkable decrease of 2-bulge HFs in telogen phase (P63) (<xref rid="F3" ref-type="fig">Figure 3, C and D</xref>). CD34 and K15 are specifically expressed in the inner and outer layers of the club hair, respectively, and are commonly used to label HFSCs (<xref rid="B30" ref-type="bibr">30</xref>). The whole-mount immunostaining against CD34 and K15 revealed that wild-type HFs developed a 2-bulge architecture, whereas Adam17<sup>D647N/D647N</sup> mice usually had only 1 (<xref rid="F3" ref-type="fig">Figure 3D</xref>, right panel, and <xref rid="F3" ref-type="fig">Figure 3, E and F</xref>).</p>
+        <p>At telogen, both wild-type and mutant bulge cells consisted of an &#x3B1;6 integrin&#x2013;rich (ITGA6-rich) basal layer and an ITGA6-low suprabasal layer, both of which were CD34<sup>+</sup>. Adam17<sup>D647N/D647N</sup> follicles displayed fewer CD34<sup>+</sup> bulge cells by fluorescence-activated cell sorting (FACS) than wild-type follicles (<xref rid="F3" ref-type="fig">Figure 3G</xref>). Adam17<sup>D647N/D647N</sup> follicles displayed lower Ki67 positivity than wild-type follicles (<xref rid="F3" ref-type="fig">Figure 3G</xref>). Immunofluorescence of CD200, the marker of secondary hair germ, verified a decreased differentiation of HFSCs in Adam17<sup>D647N/D647N</sup> mice at early stage of anagen (P21) (<xref rid="F3" ref-type="fig">Figure 3H</xref>). Taken together, we find that the <italic toggle="yes">Adam17</italic> (p.D647N) mutation leads to HFSC abnormalities.</p>
+      </sec>
+      <sec>
+        <title>ADAM17 mutation decreases its protein stability owing to enhanced auto-ubiquitination.</title>
+        <p>To elucidate the potential impact of the p.D647N mutation on ADAM17, we analyzed its expression in humans and mouse samples. Notably, our investigations revealed a significant reduction of ADAM17 protein levels in affected individuals compared with healthy controls (<xref rid="F4" ref-type="fig">Figure 4, A and B</xref>), though we did not observe any significant differences in <italic toggle="yes">ADAM17</italic> mRNA levels (<xref rid="F4" ref-type="fig">Figure 4C</xref>). Correspondingly, we observed a decrease in the protein level of Adam17, instead of mRNA levels, in hair follicles of Adam17<sup>D647N/D647N</sup> mice (<xref rid="F4" ref-type="fig">Figure 4, D&#x2013;F</xref>). We postulated that this might be attributable to the differential stability of 2 proteins, as mRNA levels could not account for the difference in protein levels. To investigate the stabilities of 2 proteins, we stably overexpressed wild-type and mutant ADAM17 in HaCaT cells, an immortalized human keratinocyte line. Cycloheximide chase assays results indicated that the mutant ADAM17 displayed a shorter half-life compared with the wild-type counterpart (<xref rid="F4" ref-type="fig">Figure 4G</xref> and <xref rid="sd" ref-type="sec">Supplemental Figure 4A</xref>). Subsequently, we treated HaCaT cells with the proteasome inhibitor MG132 or lysosome inhibitor chloroquine (CQ). Our findings revealed that MG132, but not CQ, deterred the reduction of the mutant ADAM17 protein level relative to the wild-type counterpart, suggesting that the ubiquitin/proteasome pathway was involved in the further degradation of the mutant ADAM17 expression (<xref rid="F4" ref-type="fig">Figure 4, H and I</xref>, and <xref rid="sd" ref-type="sec">Supplemental Figure 4</xref>, C and E). Additionally, we verified that <italic toggle="yes">Adam17</italic> (p.D647N) mutation decreased its protein stability via ubiquitin/proteasome pathway in primary cultured fibroblasts from wild-type and Adam17<sup>D647N/D647N</sup> mice (<xref rid="sd" ref-type="sec">Supplemental Figure 4</xref>, B, D, and F). Indeed, hyperubiquitination of mutant ADAM17 was observed in HEK293T cells (<xref rid="F4" ref-type="fig">Figure 4J</xref>). In summary, our findings indicate that the mutant ADAM17 displays elevated auto-ubiquitination levels, ultimately leading to decreased protein stability and lower abundance.</p>
+        <p>Furthermore, we evaluated the shedding activity of ADAM17 in human skin tissue, as well as in primary cultured mouse skin fibroblast cells and HaCaT cells. Our findings indicated a significant reduction in ADAM17 shedding activity in the skin tissue of patients and primary cultured mouse skin fibroblast cells (<xref rid="sd" ref-type="sec">Supplemental Figure 5</xref>, A and B). This reduction may be attributed to a decrease in the expression of ADAM17 (<xref rid="F4" ref-type="fig">Figure 4, A&#x2013;C</xref>, and <xref rid="sd" ref-type="sec">Supplemental Figure 4B</xref>). It is worth noting that we overexpressed wild-type and mutant ADAM17 in HaCaT cells and observed no significant difference in shedding activity between the 2 groups at identical ADAM17 expression levels (<xref rid="sd" ref-type="sec">Supplemental Figure 5C</xref>). These results suggest that <italic toggle="yes">ADAM17</italic> variant does not impact its shedding activity.</p>
+      </sec>
+      <sec>
+        <title>ADAM17 mutation reinforces the bond between ADAM17 and its specific E3 ubiquitin ligase, TRIM47.</title>
+        <p>E3 ubiquitin ligases exhibit substrate specificity by selectively binding to target proteins, which results in their ubiquitination and subsequent degradation. To gain insight into the molecular mechanisms underlying <italic toggle="yes">ADAM17</italic> (p.D647N) mutation causing reduced protein stability, we set out to identify its E3 ubiquitin ligase by co-immunoprecipitation (co-IP) coupled with mass spectrometry. Through in-depth bioinformatic analysis of potential ADAM17-binding proteins identified, we located RING-E3 ligase TRIM47 as a potential interactor of ADAM17 (<xref rid="F5" ref-type="fig">Figure 5, A and B</xref>, and <xref rid="sd" ref-type="sec">Supplemental Table 1</xref>). We validated the direct interaction between ADAM17 and TRIM47 using co-IP and pulldown assay (<xref rid="F5" ref-type="fig">Figure 5, C and D</xref>). The endogenous association between Adam17 and Trim47 was then verified by co-IP assay in the epidermal tissue lysates of mice (<xref rid="F5" ref-type="fig">Figure 5E</xref>). Confocal immunofluorescence revealed that Adam17 and Trim47 were colocalized in HaCaT cells, primary cultured mouse skin fibroblasts, and HFs of mice (<xref rid="F5" ref-type="fig">Figure 5, F&#x2013;H</xref>). Moreover, TRIM47 showed high expression in HFSCs (<xref rid="sd" ref-type="sec">Supplemental Figure 6A</xref>). <italic toggle="yes">ADAM17</italic> (p.D647N) mutation strengthened the association between ADAM17 and TRIM47, verifying the mass spectrometry results (<xref rid="F5" ref-type="fig">Figure 5, B&#x2013;G</xref>). Subsequent to the aforementioned validation of direct interaction between ADAM17 and TRIM47, we probed the effect of knockdown/overexpression of TRIM47 in mutant ADAM17 HaCaT cells (<xref rid="sd" ref-type="sec">Supplemental Figure 6B</xref>). Our results indicated that knockdown of TRIM47 impaired the degradation of the mutant ADAM17 (<xref rid="F5" ref-type="fig">Figure 5I</xref>), while overexpression of TRIM47 accentuated degradation of the mutant ADAM17 (<xref rid="sd" ref-type="sec">Supplemental Figure 6C</xref>). These results indicate that <italic toggle="yes">ADAM17</italic> (p.D647N) mutation reinforces the bond between ADAM17 and TRIM47, ultimately resulting in a reduced protein stability.</p>
+        <p>A computational 3D complex structural model by ZDock based on the x-ray crystal structure from the Protein Data Bank was further generated (<xref rid="F5" ref-type="fig">Figure 5J</xref>, left panel). Docking simulation data from the model demonstrated that amino acids D597, K626, D636, K640, D647, D657, L659, N671, and I672 of ADAM17 form a &#x201C;hairpin&#x201D; structure (<xref rid="F5" ref-type="fig">Figure 5J</xref>, right upper panel) and that amino acids F409, K425, Y428, D431, A476, R581, and R582 of TRIM47 form a &#x201C;hairpin&#x201D; structure (<xref rid="F5" ref-type="fig">Figure 5J</xref>, right lower panel). Based on the 3D complex structure model, it was deduced that these hairpin-like structures were accountable for facilitating their interaction.</p>
+      </sec>
+      <sec>
+        <title>ADAM17 deficiency blocks the Notch signaling pathway, consequently impairing HF development.</title>
+        <p>To explore intrinsic effects resulting from the loss of ADAM17 expression, we performed proteomic analysis on the dorsal skin during the anagen phase (P28). Analysis of differentially expressed proteins (DEPs) revealed that <italic toggle="yes">Adam17</italic> variant led to broad changes in protein levels (<xref rid="F6" ref-type="fig">Figure 6, A and B</xref>). Specifically, we detected a significant increase in ubiquinone and other terpenoid-quinone biosynthesis enzymes (Vkorc1, Coq6, and Coq3), along with the upregulation of the Adam17-specific E3 ubiquitin ligase Trim47 (<xref rid="F6" ref-type="fig">Figure 6, A and B</xref>, and <xref rid="sd" ref-type="sec">Supplemental Figure 6D</xref>). Then we verified the upregulation of TRIM47 in mouse skin samples and HaCaT cells (<xref rid="sd" ref-type="sec">Supplemental Figure 6</xref>, E&#x2013;G). Our study revealed that <italic toggle="yes">Adam17</italic> mutation markedly affected the proper development and organization of HFs. Indeed, significant reductions were observed in proteins related to keratinocyte differentiation and HF morphogenesis (<xref rid="F6" ref-type="fig">Figure 6B</xref>), especially proteins linked to hair shaft and IRS structure (<xref rid="F6" ref-type="fig">Figure 6C</xref>). Furthermore, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis demonstrated decreased activity within structural homeostasis-related pathways, including Notch signaling pathway and cell adhesion pathway (<xref rid="F6" ref-type="fig">Figure 6D</xref>).</p>
+        <p>Previous research has indicated that ADAM17 can shed TGF-&#x3B1;, which in turn actives EGFR signaling in HFs (<xref rid="B18" ref-type="bibr">18</xref>, <xref rid="B19" ref-type="bibr">19</xref>). Thus, we conducted immunohistochemical staining to examine the influence of <italic toggle="yes">Adam17</italic> variant on the EGFR signaling pathway. Our findings revealed that the <italic toggle="yes">Adam17</italic> variant did not impact the expression of EGFR, as well as the phosphorylation of EGFR at tyrosine 992 (p-EGFR [Tyr992]) and tyrosine 1068 (p-EGFR [Tyr1068]) in Adam17<sup>D647N/D647N</sup> mice (<xref rid="sd" ref-type="sec">Supplemental Figure 7</xref>). Given that Notch signaling exerts regulatory effects on the differentiation of HFSCs into specific HF cell types, is it plausible that Notch is the underlying cause of the hair loss phenotype observed in ADAM17-mutant mice? The activity of key molecules in the Notch signaling pathway was investigated in humans and mouse samples. Ligand-mediated activation induces proteolytic cleavages of Notch and releases the Notch intracellular domain (NICD), which enters the nucleus and stimulates transcription of target genes (<xref rid="B31" ref-type="bibr">31</xref>). Our findings indicate a significant decrease in the protein level of NICD upon <italic toggle="yes">ADAM17</italic> variant, leading to decreased expression of Notch target genes, including <italic toggle="yes">Hes1</italic>, <italic toggle="yes">Hes5</italic>, <italic toggle="yes">Hey1</italic>, and <italic toggle="yes">Hey2</italic> (<xref rid="F7" ref-type="fig">Figure 7, A and B</xref>, and <xref rid="sd" ref-type="sec">Supplemental Figure 8</xref>, A and B). Real-time PCR (RT-PCR) analysis demonstrated that the <italic toggle="yes">Adam17</italic> mutation resulted in inhibited Notch target gene transcripts in mouse skin (<xref rid="F7" ref-type="fig">Figure 7C</xref>). Immunohistochemistry and immunofluorescence assays revealed a reduced amount of NICD in the HFs of mice during anagen (<xref rid="F7" ref-type="fig">Figure 7, D and E</xref>, and <xref rid="sd" ref-type="sec">Supplemental Figure 8C</xref>). The nuclear and cytoplasmic protein extraction assays further verified that the <italic toggle="yes">ADAM17</italic> (p.D647N) variants effectively inhibited the Notch signaling pathway in keratinocytes. This is supported by the observed reduction in the expression of NICD and its target genes within the cell nucleus (<xref rid="F7" ref-type="fig">Figure 7F</xref>). To further investigate the involvement of the Notch signaling pathway in <italic toggle="yes">Adam17</italic> mutation&#x2013;induced HF malformation, we overexpressed NICD in primary cultured Adam17<sup>D647N/D647N</sup> mouse skin fibroblasts. Our findings indicated that <italic toggle="yes">Adam17</italic> mutation significantly reduced the proliferation ability of primary fibroblasts, which could be rescued by overexpression of NICD (<xref rid="F7" ref-type="fig">Figure 7, G and H</xref>, and <xref rid="sd" ref-type="sec">Supplemental Figure 8</xref>, D and E). Collectively, our results validate the relationship between the <italic toggle="yes">ADAM17</italic> (p.D647N) mutation and Notch activation in HF development (<xref rid="F7" ref-type="fig">Figure 7I</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>This study presented compelling evidence for the involvement of ADAM17 in the growth of HFs and differentiation of HFSCs, underscoring its significance as a potent molecule in the development of HYPT. Our investigation revealed that <italic toggle="yes">ADAM17</italic> (p.D647N) variant caused HYPT in humans, and a <italic toggle="yes">Adam17</italic> (p.D647N) mutation mouse model successfully emulated sparse and woolly hair observed in HYPT. Moreover, detailed mechanistic investigations demonstrated that <italic toggle="yes">ADAM17</italic> mutation enhanced the interaction between ADAM17 and its E3 ubiquitin ligase, TRIM47, leading to increased auto-ubiquitination and consequent degradation of ADAM17. Then, reduced ADAM17 expression led to a decrease in the Notch signaling pathway, ultimately inhibiting the development of HFs.</p>
+      <p>Inherited hair loss disorders exhibit clinical and genetic heterogeneity, making it challenging to genotype patients accurately for diagnosis confirmation and genetic counseling. To date, over 14 detailed pathogenic genes of HYPT are reported to link with nonsyndromic hypotrichosis, including hereditary hypotrichosis simplex (HHS), Marie Unna hereditary hypotrichosis, localized autosomal recessive hypotrichosis (LAH), ADWH, and ARWH (<xref rid="B6" ref-type="bibr">6</xref>&#x2013;<xref rid="B8" ref-type="bibr">8</xref>, <xref rid="B32" ref-type="bibr">32</xref>&#x2013;<xref rid="B37" ref-type="bibr">37</xref>) (<xref rid="sd" ref-type="sec">Supplemental Table 2</xref>). HYPT3 and HYPT13 with pathogenic <italic toggle="yes">KRT74</italic> and <italic toggle="yes">KRT71</italic> genes, respectively, were also classified as ADWH subtypes 1 and 2 (<xref rid="B7" ref-type="bibr">7</xref>, <xref rid="B8" ref-type="bibr">8</xref>). In this study, we identified a subtype of congenital hypotrichosis with woolly hair that we designated ADWH3, caused by a heterozygous mutation in <italic toggle="yes">ADAM17</italic>. Affected women exhibited curly hair resembling steel wool, while men displayed a range of phenotypic severity from limited to complete baldness, notwithstanding the pervasive thinning of body hair. Unlike HHS and LAH, which only affects scalp hair or is limited to some areas (<xref rid="B36" ref-type="bibr">36</xref>), ADWH3&#x2019;s phenotypes were distinguished by a general scarcity of hair throughout the body. Nonetheless, typical of other forms of HYPT, progressive hair loss with age was also extensive (<xref rid="B38" ref-type="bibr">38</xref>, <xref rid="B39" ref-type="bibr">39</xref>). Given the challenges associated with distinguishing this type of disorder from other congenital HYPT, genetic testing assumes critical importance.</p>
+      <p>Although the dominant variant in the <italic toggle="yes">ADAM17</italic> gene causes hypotrichosis with woolly hair in humans, homozygous variants are necessary to observe the phenotype in mice. Notably, the homozygous mice, exhibiting a more severe phenotype than heterozygous patients, were characterized by developmental retardation, edema in their extremities, and a markedly high mortality rate during the peri-weaning period. This phenotypic difference is likely due to genetic and biological disparities between mice and humans (<xref rid="B40" ref-type="bibr">40</xref>). It is important to note the phenotypes observed in animal models may vary from those observed in humans (<xref rid="B41" ref-type="bibr">41</xref>). For instance, HPRT deficiency does not constitute a pathological variant in mice, despite its association with severe Lesch-Nyhan syndrome in human hemizygotes (<xref rid="B42" ref-type="bibr">42</xref>, <xref rid="B43" ref-type="bibr">43</xref>). In our study, we found that the heterozygous variant in the <italic toggle="yes">ADAM17</italic> gene impaired stability and exhibited haploinsufficiency in humans, while heterozygous variants maintained adequate protein levels, potentially averting hair development abnormalities in mice. However, further experimental investigation is necessary to fully understand the underlying mechanism.</p>
+      <p>ADAM17, a type I transmembrane protein, is composed of multiple domains. Mutations within these domains can lead to a range of disorders, indicating the sensitivity and delicacy of its structure and function. For instance, mutations in the PD domain have been identified as a key driver of colorectal cancer (<xref rid="B44" ref-type="bibr">44</xref>) and late-onset Alzheimer&#x2019;s disease (<xref rid="B10" ref-type="bibr">10</xref>). Compound heterozygous mutations in the MPD and homozygous deletions in disintegrin domain result in neonatal inflammatory skin and bowel disease 1 (OMIM#614328) (<xref rid="B45" ref-type="bibr">45</xref>, <xref rid="B46" ref-type="bibr">46</xref>). Notably, to date, there are no reported mutations in the highly conserved CANDIS domain. Here, we identified a heterozygous variant in the CANDIS domain of ADAM17 that caused nonsyndromic ADWH3. Further mechanistic investigations revealed that the variant in CANDIS enhanced ADAM17 susceptibility to ubiquitin-mediated degradation by enhancing its association with E3 ubiquitin ligase TRIM47. Ubiquitination is a critical posttranslational modification that plays a pivotal role in protein degradation via the proteasome (<xref rid="B25" ref-type="bibr">25</xref>, <xref rid="B47" ref-type="bibr">47</xref>). Additionally, various posttranslational modifications play a crucial role in the rapid and reversible activation of ADAM17 (<xref rid="B48" ref-type="bibr">48</xref>&#x2013;<xref rid="B50" ref-type="bibr">50</xref>). For instance, cytoplasmic phosphorylation of ADAM17 can regulate its activation, as well as rapid transport to the cell surface (<xref rid="B51" ref-type="bibr">51</xref>), which provides a mechanism for fine-tuning ADAM17 activity in response to cellular signals. Our studies enriched the understanding of the complex regulatory mechanisms that govern ADAM17 function and highlight the importance of structural conservation within the CANDIS domain.</p>
+      <p>Notch pathway is a highly conserved pathway, which exerts regulatory effects on the differentiation of HFSCs into specific HF cell types and represses their differentiation toward the epidermal cell fate (<xref rid="B52" ref-type="bibr">52</xref>). Notch signaling also regulates the skin microbiome and inflammation of the HFSC niche, protecting the HF from inflammatory damage (<xref rid="B53" ref-type="bibr">53</xref>). Notch1-deficient mice exhibited a thinner, shorter, and wavy appearance, accompanied by a defect in the hair cuticle (<xref rid="B54" ref-type="bibr">54</xref>), which were also observed in Adam17<sup>D647N/D647N</sup> mice. In addition, we identified a marked decrease in the expression of key molecules associated with the Notch signaling pathway in both patients and Adam17<sup>D647N/D647N</sup> mice. These findings establish a correlation between ADAM17 and Notch signaling, which has been previously reported in various diseases, including prostate tumors, non&#x2013;small cell lung carcinoma, hepatocellular carcinoma, and diabetic nephropathy (<xref rid="B55" ref-type="bibr">55</xref>&#x2013;<xref rid="B57" ref-type="bibr">57</xref>).</p>
+      <p>However, the classical viewpoint suggests ADAM10 directly cleaves the S2 site of Notch1, thereby releasing the NICD. Subsequently, the NICD translocates to the nucleus, where it interacts with the DNA-binding protein RBPJ and the coactivator Mastermind to facilitate the transcription of target genes, such as <italic toggle="yes">Hes1</italic> and <italic toggle="yes">Hey1</italic> (<xref rid="B53" ref-type="bibr">53</xref>, <xref rid="B58" ref-type="bibr">58</xref>&#x2013;<xref rid="B61" ref-type="bibr">61</xref>). Conversely, ADAM17 can only activate Notch signaling under nonphysiological conditions in vitro (<xref rid="B62" ref-type="bibr">62</xref>&#x2013;<xref rid="B66" ref-type="bibr">66</xref>). ADAM10/Notch signaling axis&#x2013;mediated regulation of host-microbe symbiosis crucially protects HFs from inflammatory destruction. Disruption of this signaling axis leads to skin dysbiosis and HF destruction mediated by innate lymphoid cells (<xref rid="B53" ref-type="bibr">53</xref>). However, a recent study illustrated that <italic toggle="yes">FGFR2</italic> variants resulted in the activation of EGFR and Notch signaling pathways, along with ADAM10, in an ADAM17-dependent manner (<xref rid="B67" ref-type="bibr">67</xref>). Although the molecular mechanisms underlying the crosstalk between ADAM17- and ADAM10-mediated Notch signaling were unknown, it is possible that aberrant activation of ADAM17/EGFR pathways reduces ADAM10 proteolytic activity or alternatively decreases its substrate accessibility (<xref rid="B67" ref-type="bibr">67</xref>). Moreover, ADAM17/EGFR signaling promotes the development of the IRS, which is crucial for hair shaft formation (<xref rid="B18" ref-type="bibr">18</xref>). However, our findings demonstrated that <italic toggle="yes">Adam17</italic> variant did not impact the expression or phosphorylation of EGFR in Adam17<sup>D647N/D647N</sup> mice. Based on these findings, we speculate that the downregulation of Notch signaling observed in our study appears to be a secondary effect resulting from dysfunction in the downstream signaling of ADAM17. Future studies are necessary to investigate whether other signaling pathways also contribute to <italic toggle="yes">ADAM17</italic> variant&#x2013;mediated hair malformations. Understanding the complex interactions between different signaling pathways and their role in HF development may offer insights into potential therapeutic targets for hair loss and other related disorders.</p>
+      <p>Collectively, this study offers valuable insights into the posttranslational modification of ADAM17, highlighting its pivotal function in HF development and expanding the range of inherited hypotrichosis disorders. Our discoveries reveal new possibilities for therapeutic targets for hair loss.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Sex as a biological variable.</title>
+        <p>To ensure the generalizability and relevance of our findings across sexes, we included both male and female human participants, as well as male and female mice, in our study. However, in the mouse portion of the study, sex was not treated as a biological variable because of the absence of observed sex-specific differences in any of the measured endpoints between male and female mice.</p>
+      </sec>
+      <sec>
+        <title>Whole-exome sequencing analysis and pathogenic gene identification.</title>
+        <p>Whole-exome sequencing analysis and pathogenic gene identification were performed using patients&#x2019; blood as described previously (<xref rid="B68" ref-type="bibr">68</xref>). Comprehensive sequencing data analysis was performed based on autosomal dominant inheritance. Genome-wide linkage analysis was performed with a total of 5,789 SNP markers; their average genetic and physical distances were 436 kb and 0.56 cM, respectively. In the linkage analysis, we removed SNPs with a call rate less than 90% monomorphic SNPs, and non-Mendelian transmitted markers, and retained a total number of 4,532 informative autosomal SNPs. Multipoint parametric linkage analyses were performed using the MERLIN program version 1.1.2. A fully penetrant autosomal dominant model was used with a rare disease frequency of 0.0001. Critical recombination events of the pedigree members were determined through haplotype construction in MERLIN.</p>
+      </sec>
+      <sec>
+        <title>Generation of Adam17 mutation mice.</title>
+        <p><italic toggle="yes">Adam17</italic> (p.D647N) mutation mice were generated using CRISPR/Cas9-mediated genome engineering (Cyagen Biosciences). To introduce the desired mutation, a guide RNA targeting the mouse <italic toggle="yes">Adam17</italic> gene, a donor oligo carrying the p.D647N (GAC to AAC) mutation, a synonymous mutation (p. R651= [CGA to AGG]), and Cas9 were coinjected into fertilized mouse eggs, resulting in targeted knockin offspring. F<sub>0</sub> founder animals were identified by PCR and subsequent sequence analysis. The founder animals were then bred to wild-type mice to assess germ line transmission and F<sub>1</sub> animal generation. Heterozygous F<sub>1</sub> mice were intercrossed to generate F<sub>2</sub> mice. To identify Adam17-mutant mice, genomic tail DNA was isolated and subjected to routine genotyping by PCR and subsequent sequence analysis. The primers utilized for PCR and Sanger sequencing are provided in <xref rid="sd" ref-type="sec">Supplemental Table 3</xref>. All animals were group-housed under 12-hour light/12-hour dark cycle with food and water ad libitum.</p>
+      </sec>
+      <sec>
+        <title>Cell culture.</title>
+        <p>HaCaT cell lines were purchased from Chinese Academy of Sciences Shanghai Branch Cell Bank. Cells were cultured in DMEM (Gibco), which was supplemented with 10% fetal bovine serum (Gibco) and 1% penicillin-streptomycin (Gibco).</p>
+      </sec>
+      <sec>
+        <title>Tyramide signal amplification multiple immunofluorescence assay.</title>
+        <p>Tyramide signal amplification multiple immunofluorescences staining experiments were conducted following the manufacturer&#x2019;s instructions (Shanghai Recordbio Technology). Paraffin-embedded skin sections were hydrated sequentially in xylene and gradient ethanol. Sections underwent antigen retrieval with a citrate repair buffer at pH 6.0 and were blocked with 10% horse serum in PBS at room temperature for 1 hour. Primary antibody was added to the sections and incubated overnight at 4&#xB0;C. After that, HRP-conjugated secondary antibodies were added and incubated at room temperature for 1 hour. Finally, the sections were incubated with indicated tyramide fluorescence dyes for 15 minutes at room temperature to complete the fluorescence staining of multiple antibodies.We repeated the above steps starting from the antigen retrieval step for the next primary antibody. The antibodies and their dilutions used in this study were listed in <xref rid="sd" ref-type="sec">Supplemental Table 4</xref>.</p>
+      </sec>
+      <sec>
+        <title>Flow cytometry.</title>
+        <p>Skin epidermal cell suspensions were obtained from defined areas of back skin. Skin was minced and incubated overnight in HBSS buffer (Thermo Fisher Scientific) containing 5 mg/mL dispase II (Yeasen). Next day, the separated epidermal tissue was added to 0.05% trypsin (Thermo Fisher Scientific) with 100 &#x3BC;g/mL DNase I (MilliporeSigma) and agitated for 10 minutes. Thereafter, suspension cells were passed through a 75 &#x3BC;m sieve (MilliporeSigma) and sequentially stained with Fixable Viability Dye eFluor 455UV, anti-CD34 eFluor 660, anti-ITGA6 PE, and anti-Ki67 FITC antibodies. Data were acquired using a BD LSRFortessa X-20 instrument and analyzed on FlowJo software.</p>
+      </sec>
+      <sec>
+        <title>Western blot.</title>
+        <p>Total protein was extracted from cells and tissues by using RIPA lysis buffer, then subjected to separation using sodium dodecyl sulfate-polyacrylamide gel electrophoresis and subsequently electro-transferred onto a polyvinylidene difluoride membrane (MilliporeSigma), in accordance with previously established protocols (<xref rid="B69" ref-type="bibr">69</xref>). Thereafter, the membrane was blocked with 3% BSA at room temperature for 60 minutes, then incubated overnight with primary antibodies as indicated. Following this, the membrane was incubated with secondary antibodies for 1.5 hours. The details of the antibodies and their respective dilutions used in this study are provided in <xref rid="sd" ref-type="sec">Supplemental Table 4</xref>.</p>
+      </sec>
+      <sec>
+        <title>Quantitative RT-PCR.</title>
+        <p>Total RNA was extracted from mouse skin or cells using the RNeasy kit, following the manufacturer&#x2019;s instructions (QIAGEN). The mRNA was reverse-transcribed into cDNA using the PrimeScript RT Reagent kit (Takara). Gene expression was quantified in real time using the SYBR Premix Ex Taq kit (Takara) on a QuantStudio 3 (Applied Biosystems) according to the manufacturer&#x2019;s protocols. Primers used for RT-PCR are provided in <xref rid="sd" ref-type="sec">Supplemental Table 3</xref>. Relative expression was normalized to levels of &#x3B2;-actin.</p>
+      </sec>
+      <sec>
+        <title>In vivo ubiquitination assays.</title>
+        <p>HEK293T cells (Chinese Academy of Sciences Shanghai Branch Cell Bank) were transfected with His-tagged ubiquitin and indicated plasmids. After 24 hours, MG-132 (MedChemExpress, MCE) was added for 8 hours, followed by cell lysis in IP lysis buffer. The lysates were precleared with protein A/G beads (Santa Cruz Biotechnology) for 3 hours, and the cleared supernatants were incubated with HA-tagged antibodies and protein A/G beads at 4&#xB0;C for 16 hours. Following this, the pulldown products were washed 3 times with IP lysis buffer and detected by immunoblotting. The details of the antibodies and their respective dilutions used in this study are provided in <xref rid="sd" ref-type="sec">Supplemental Table 4</xref>.</p>
+      </sec>
+      <sec>
+        <title>Protein stability and degradation.</title>
+        <p>Cycloheximide chase assays were performed on HaCaT cells seeded into 12-well plates to 80%&#x2013;90% confluence. The following day, cells were treated with 50 &#x3BC;M cycloheximide (MCE) for 2, 4, 6, 8, and 12 hours, respectively. The cells were then lysed with RIPA lysis buffer and analyzed by Western blot.</p>
+        <p>Protein degradation by proteasome pathway was investigated in HaCaT cells seeded in 12-well plates at 80%&#x2013;90% confluence. The next day, cells were treated with 10 &#x3BC;M MG132 (MCE) for 2, 4, 6, 8, and 12 hours. The cells were then lysed with RIPA buffer and analyzed using Western blotting.</p>
+        <p>Protein degradation by autophagy pathway was investigated in HaCaT cells seeded in 12-well plates at 80%&#x2013;90% confluence. The next day, cells were treated with 50 &#x3BC;M hydroxychloroquine (MCE) for 2, 4, 6, 8, and 12 hours. The cells were then lysed with RIPA buffer and analyzed using Western blotting.</p>
+      </sec>
+      <sec>
+        <title>Pulldown assay.</title>
+        <p>His-tagged TRIM47 proteins were expressed in bacterial BL21 cells (ABclonal Technology). Following bacterial lysis, His-tagged TRIM47 was purified using Ni-NTA beads (Thermo Fisher Scientific). To investigate the direct interaction between TRIM47 and ADAM17, purified TRIM47 was incubated with in vitro-translated wild-type or mutant ADAM17 overnight at 4&#xB0;C. After washing with ice-cold buffer, proteins were eluted from the beads and detected by immunoblotting.</p>
+      </sec>
+      <sec>
+        <title>Statistics.</title>
+        <p>All data were analyzed statistically using GraphPad Prism Version 8.0. All results were presented as mean &#xB1; SD. Shapiro-Wilk test was performed to check the data distribution. Unpaired 2-tailed <italic toggle="yes">t</italic> tests or Mann-Whitney 2-tailed tests were utilized for comparisons between 2 groups. For comparison among multiple groups, ordinary 1-way ANOVA with Dunnett&#x2019;s post hoc or Kruskal-Wallis test followed by Dunn&#x2019;s post hoc was used based on the Gaussian or non-Gaussian distribution of the data. <italic toggle="yes">P</italic> &lt; 0.05 (2 sided) was considered statistically significant.</p>
+      </sec>
+      <sec>
+        <title>Study approval.</title>
+        <p>This study was approved by Xinhua Hospital, Shanghai Jiaotong University School of Medicine, and was conducted in accordance with the Declaration of Helsinki and the Department of Health and Human Services Belmont Report. All participants in this study were thoroughly informed about the study&#x2019;s objectives, methods, and potential risks and the benefits they could derive from it. Consequently, all patients voluntarily signed a written informed consent form, agreeing to participate in the study and authorizing the use of their tissue samples and photographs for clinical research and potential academic publication. All animal experiments adhered to the regulations specified in the <italic toggle="yes">Guide for the Care and Use of Laboratory Animals</italic> (National Academies Press, 2011). Approval for conducting animal studies was obtained from the Animal Studies Committee at Xinhua Hospital Affiliated to Shanghai Jiaotong University School of Medicine.</p>
+      </sec>
+      <sec>
+        <title>Data availability.</title>
+        <p>The data sets supporting the conclusions of this article are included within the article and its additional files. All <xref rid="sd" ref-type="sec">supporting data values</xref> pertinent to the main manuscript and supplemental materials, including numerical values for all data points depicted in graphs and the underlying values for any reported means, were comprehensively included in the <xref rid="sd" ref-type="sec">Supporting Data Values</xref> file. In this study, the produced data sets are available in the following databases: The mass spectrometry proteomics data and protein interaction AP-MS data have been submitted to the ProteomeXchange Consortium (<ext-link xlink:href="https://proteomecentral.proteomexchange.org" ext-link-type="uri">https://proteomecentral.proteomexchange.org</ext-link>) via the iProX partner repository, with the data set identifiers PXD049458 and PXD049459, respectively. Human variation data have been submitted to CNGB Sequence Archive (<ext-link xlink:href="https://db.cngb.org/cnsa/" ext-link-type="uri">https://db.cngb.org/cnsa/</ext-link>) with the data set identifier sub052490.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Author contributions</title>
+      <p>XW and ML designed and conceived this project and developed methodology. XW, CP, QZ, WH, KZ, YW, AZ, and QC performed experiments and generated data. JW and LZ conducted collection of clinical patient data and relevant specimens. XW, PS, and RC analyzed and interpreted data. XW and CP wrote the draft. ML, SZ, ZY, and HZ revised and finalized the manuscript. All authors contributed to and approved the manuscript. XW, CP, LZ, JW, and QZ contributed equally to this work. The order of co&#x2013;first authors is determined based on the contributions of each author.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="sd">
+      <title>Supplementary Material</title>
+      <supplementary-material id="SD1" position="float" content-type="local-data">
+        <caption>
+          <title>Supplemental data</title>
+        </caption>
+        <media xlink:href="jciinsight-9-177588-s036.pdf" id="d67e1200" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material id="SD2" position="float" content-type="local-data">
+        <caption>
+          <title>Unedited blot and gel images</title>
+        </caption>
+        <media xlink:href="jciinsight-9-177588-s037.pdf" id="d67e1204" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material id="SD3" position="float" content-type="local-data">
+        <caption>
+          <title>Supporting data values</title>
+        </caption>
+        <media xlink:href="jciinsight-9-177588-s038.xlsx" id="d67e1208" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>This work was supported by grants from the National Natural Science Foundation of China (82073422, 82273504, and 82303990), Shanghai Municipal Natural Science Foundation (22YF1427100, 22ZR1440800, and 20ZR1434900), Medical Engineering Cross Research Foundation of Shanghai Jiaotong University (YG2022ZD010, YG2022QN040), and Clinical Research Plan of SHDC (SHDC22022302). We greatly appreciate the patients and their relatives for their participation in this study. We thank the Core Facility of Basic Medical Sciences, Shanghai Jiaotong University School of Medicine, for LC-MS/MS and TEM analyses.</p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p><bold>Conflict of interest:</bold> The authors have declared that no conflict of interest exists.</p>
+      </fn>
+      <fn>
+        <p><bold>Copyright:</bold> &#xA9; 2024, Wang et al. This is an open access article published under the terms of the Creative Commons Attribution 4.0 International License.</p>
+      </fn>
+      <fn>
+        <p><bold>Reference information:</bold><italic toggle="yes"> JCI Insight</italic>. 2024;9(13):e177588.https://doi.org/10.1172/jci.insight.177588.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>CL</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Functional complexity of hair follicle stem cell niche and therapeutic targeting of niche dysfunction for hair regeneration</article-title><source>J Biomed Sci</source><year>2020</year><volume>27</volume><issue>1</issue><elocation-id>43</elocation-id><pub-id pub-id-type="doi">10.1186/s12929-020-0624-8</pub-id><!--<pub-id pub-id-type="pmcid">7073016</pub-id>--><pub-id pub-id-type="pmid">32171310</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Singam</surname><given-names>V</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Association of alopecia areata with hospitalization for mental health disorders in US adults</article-title><source>J Am Acad Dermatol</source><year>2019</year><volume>80</volume><issue>3</issue><fpage>792</fpage><lpage>794</lpage><pub-id pub-id-type="doi">10.1016/j.jaad.2018.07.044</pub-id><pub-id pub-id-type="pmid">30092332</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Prendke</surname><given-names>M</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Quality of life in children and adolescents with alopecia areata-a systematic review</article-title><comment>[published online January 5, 2023].</comment><source>J Eur Acad Dermatol Venereol</source><pub-id pub-id-type="doi">10.1111/jdv.18848</pub-id><pub-id pub-id-type="pmid">36606560</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Toussi</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Psychosocial and psychiatric comorbidities and health-related quality of life in alopecia areata: a systematic review</article-title><source>J Am Acad Dermatol</source><year>2021</year><volume>85</volume><issue>1</issue><fpage>162</fpage><lpage>175</lpage><pub-id pub-id-type="doi">10.1016/j.jaad.2020.06.047</pub-id><!--<pub-id pub-id-type="pmcid">8260215</pub-id>--><pub-id pub-id-type="pmid">32561373</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wasif</surname><given-names>N</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Novel mutations in the keratin-74 (KRT74) gene underlie autosomal dominant woolly hair/hypotrichosis in Pakistani families</article-title><source>Hum Genet</source><year>2011</year><volume>129</volume><issue>4</issue><fpage>419</fpage><lpage>424</lpage><pub-id pub-id-type="doi">10.1007/s00439-010-0938-9</pub-id><pub-id pub-id-type="pmid">21188418</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wen</surname><given-names>Y</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Loss-of-function mutations of an inhibitory upstream ORF in the human hairless transcript cause Marie Unna hereditary hypotrichosis</article-title><source>Nat Genet</source><year>2009</year><volume>41</volume><issue>2</issue><fpage>228</fpage><lpage>233</lpage><pub-id pub-id-type="doi">10.1038/ng.276</pub-id><pub-id pub-id-type="pmid">19122663</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Shimomura</surname><given-names>Y</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Autosomal-dominant woolly hair resulting from disruption of keratin 74 (KRT74), a potential determinant of human hair texture</article-title><source>Am J Hum Genet</source><year>2010</year><volume>86</volume><issue>4</issue><fpage>632</fpage><lpage>638</lpage><pub-id pub-id-type="doi">10.1016/j.ajhg.2010.02.025</pub-id><!--<pub-id pub-id-type="pmcid">2850421</pub-id>--><pub-id pub-id-type="pmid">20346438</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Fujimoto</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>A missense mutation within the helix initiation motif of the keratin K71 gene underlies autosomal dominant woolly hair/hypotrichosis</article-title><source>J Invest Dermatol</source><year>2012</year><volume>132</volume><issue>10</issue><fpage>2342</fpage><lpage>2349</lpage><pub-id pub-id-type="doi">10.1038/jid.2012.154</pub-id><pub-id pub-id-type="pmid">22592156</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Scheller</surname><given-names>J</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>ADAM17: a molecular switch to control inflammation and tissue regeneration</article-title><source>Trends Immunol</source><year>2011</year><volume>32</volume><issue>8</issue><fpage>380</fpage><lpage>387</lpage><pub-id pub-id-type="doi">10.1016/j.it.2011.05.005</pub-id><pub-id pub-id-type="pmid">21752713</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hartl</surname><given-names>D</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>A rare loss-of-function variant of ADAM17 is associated with late-onset familial Alzheimer disease</article-title><source>Mol Psychiatry</source><year>2020</year><volume>25</volume><issue>3</issue><fpage>629</fpage><lpage>639</lpage><pub-id pub-id-type="doi">10.1038/s41380-018-0091-8</pub-id><!--<pub-id pub-id-type="pmcid">7042727</pub-id>--><pub-id pub-id-type="pmid">29988083</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tang</surname><given-names>BY</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>The role of ADAM17 in inflammation-related atherosclerosis</article-title><source>J Cardiovasc Transl Res</source><year>2022</year><volume>15</volume><issue>6</issue><fpage>1283</fpage><lpage>1296</lpage><pub-id pub-id-type="doi">10.1007/s12265-022-10275-4</pub-id><pub-id pub-id-type="pmid">35648358</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Song</surname><given-names>Y</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>RNA interference-mediated suppression of TNF-&#x3B1; converting enzyme as an alternative anti-TNF-&#x3B1; therapy for rheumatoid arthritis</article-title><source>J Control Release</source><year>2021</year><volume>330</volume><fpage>1300</fpage><lpage>1312</lpage><pub-id pub-id-type="doi">10.1016/j.jconrel.2020.11.041</pub-id><pub-id pub-id-type="pmid">33242532</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gao</surname><given-names>MQ</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Human breast cancer-associated fibroblasts enhance cancer cell proliferation through increased TGF-&#x3B1; cleavage by ADAM17</article-title><source>Cancer Lett</source><year>2013</year><volume>336</volume><issue>1</issue><fpage>240</fpage><lpage>246</lpage><pub-id pub-id-type="doi">10.1016/j.canlet.2013.05.011</pub-id><pub-id pub-id-type="pmid">23684931</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pelullo</surname><given-names>M</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Kras/ADAM17-dependent Jag1-ICD reverse signaling sustains colorectal cancer progression and chemoresistance</article-title><source>Cancer Res</source><year>2019</year><volume>79</volume><issue>21</issue><fpage>5575</fpage><lpage>5586</lpage><pub-id pub-id-type="doi">10.1158/0008-5472.CAN-19-0145</pub-id><pub-id pub-id-type="pmid">31506332</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bolik</surname><given-names>J</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Inhibition of ADAM17 impairs endothelial cell necroptosis and blocks metastasis</article-title><source>J Exp Med</source><year>2022</year><volume>219</volume><issue>1</issue><elocation-id>e20201039</elocation-id><pub-id pub-id-type="doi">10.1084/jem.20201039</pub-id><!--<pub-id pub-id-type="pmcid">8689681</pub-id>--><pub-id pub-id-type="pmid">34919140</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Murthy</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Notch activation by the metalloproteinase ADAM17 regulates myeloproliferation and atopic barrier immunity by suppressing epithelial cytokine synthesis</article-title><source>Immunity</source><year>2012</year><volume>36</volume><issue>1</issue><fpage>105</fpage><lpage>119</lpage><pub-id pub-id-type="doi">10.1016/j.immuni.2012.01.005</pub-id><pub-id pub-id-type="pmid">22284418</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Franzke</surname><given-names>CW</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Epidermal ADAM17 maintains the skin barrier by regulating EGFR ligand-dependent terminal keratinocyte differentiation</article-title><source>J Exp Med</source><year>2012</year><volume>209</volume><issue>6</issue><fpage>1105</fpage><lpage>1119</lpage><pub-id pub-id-type="doi">10.1084/jem.20112258</pub-id><!--<pub-id pub-id-type="pmcid">3371728</pub-id>--><pub-id pub-id-type="pmid">22565824</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Inoue</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>LPA-producing enzyme PA-PLA1&#x3B1; regulates hair follicle development by modulating EGFR signalling</article-title><source>EMBO J</source><year>2011</year><volume>30</volume><issue>20</issue><fpage>4248</fpage><lpage>4260</lpage><pub-id pub-id-type="doi">10.1038/emboj.2011.296</pub-id><!--<pub-id pub-id-type="pmcid">3199385</pub-id>--><pub-id pub-id-type="pmid">21857648</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Nagao</surname><given-names>K</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Brief report: requirement of TACE/ADAM17 for hair follicle bulge niche establishment</article-title><source>Stem Cells</source><year>2012</year><volume>30</volume><issue>8</issue><fpage>1781</fpage><lpage>1785</lpage><pub-id pub-id-type="doi">10.1002/stem.1153</pub-id><pub-id pub-id-type="pmid">22696231</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Dou</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Ubiquitination and degradation of NF90 by Tim-3 inhibits antiviral innate immunity</article-title><source>Elife</source><year>2021</year><volume>10</volume><elocation-id>e66501</elocation-id><pub-id pub-id-type="doi">10.7554/eLife.66501</pub-id><!--<pub-id pub-id-type="pmcid">8225388</pub-id>--><pub-id pub-id-type="pmid">34110282</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Liang</surname><given-names>Q</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>TRIM47 is up-regulated in colorectal cancer, promoting ubiquitination and degradation of SMAD4</article-title><source>J Exp Clin Cancer Res</source><year>2019</year><volume>38</volume><issue>1</issue><elocation-id>159</elocation-id><pub-id pub-id-type="doi">10.1186/s13046-019-1143-x</pub-id><!--<pub-id pub-id-type="pmcid">6461818</pub-id>--><pub-id pub-id-type="pmid">30979374</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ji</surname><given-names>YX</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>The deubiquitinating enzyme cylindromatosis mitigates nonalcoholic steatohepatitis</article-title><source>Nat Med</source><year>2018</year><volume>24</volume><issue>2</issue><fpage>213</fpage><lpage>223</lpage><pub-id pub-id-type="doi">10.1038/nm.4461</pub-id><pub-id pub-id-type="pmid">29291351</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>L</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>TRIM47 accelerates aerobic glycolysis and tumor progression through regulating ubiquitination of FBP1 in pancreatic cancer</article-title><source>Pharmacol Res</source><year>2021</year><volume>166</volume><elocation-id>105429</elocation-id><pub-id pub-id-type="doi">10.1016/j.phrs.2021.105429</pub-id><pub-id pub-id-type="pmid">33529753</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>JX</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>TRIM47 promotes malignant progression of renal cell carcinoma by degrading P53 through ubiquitination</article-title><source>Cancer Cell Int</source><year>2021</year><volume>21</volume><issue>1</issue><elocation-id>129</elocation-id><pub-id pub-id-type="doi">10.1186/s12935-021-01831-0</pub-id><!--<pub-id pub-id-type="pmcid">7903798</pub-id>--><pub-id pub-id-type="pmid">33622324</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Morreale</surname><given-names>FE</given-names></name>
+<name><surname>Walden</surname><given-names>H</given-names></name>
+</person-group><article-title>Types of ubiquitin ligases</article-title><source>Cell</source><year>2016</year><volume>165</volume><issue>1</issue><elocation-id>248</elocation-id><pub-id pub-id-type="doi">10.1016/j.cell.2016.03.003</pub-id><pub-id pub-id-type="pmid">27015313</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Qian</surname><given-names>Y</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>TRIM47 is a novel endothelial activation factor that aggravates lipopolysaccharide-induced acute lung injury in mice via K63-linked ubiquitination of TRAF2</article-title><source>Signal Transduct Target Ther</source><year>2022</year><volume>7</volume><issue>1</issue><elocation-id>148</elocation-id><pub-id pub-id-type="doi">10.1038/s41392-022-00953-9</pub-id><!--<pub-id pub-id-type="pmcid">9072678</pub-id>--><pub-id pub-id-type="pmid">35513381</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Azuma</surname><given-names>K</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>TRIM47 activates NF-&#x3BA;B signaling via PKC-&#x3B5;/PKD3 stabilization and contributes to endocrine therapy resistance in breast cancer</article-title><source>Proc Natl Acad Sci U S A</source><year>2021</year><volume>118</volume><issue>35</issue><elocation-id>e2100784118</elocation-id><pub-id pub-id-type="doi">10.1073/pnas.2100784118</pub-id><!--<pub-id pub-id-type="pmcid">8536392</pub-id>--><pub-id pub-id-type="pmid">34433666</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chi</surname><given-names>W</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Dermal papilla cell number specifies hair size, shape and cycling and its reduction causes follicular decline</article-title><source>Development</source><year>2013</year><volume>140</volume><issue>8</issue><fpage>1676</fpage><lpage>1683</lpage><pub-id pub-id-type="doi">10.1242/dev.090662</pub-id><!--<pub-id pub-id-type="pmcid">3621486</pub-id>--><pub-id pub-id-type="pmid">23487317</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hsu</surname><given-names>YC</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Dynamics between stem cells, niche, and progeny in the hair follicle</article-title><source>Cell</source><year>2011</year><volume>144</volume><issue>1</issue><fpage>92</fpage><lpage>105</lpage><pub-id pub-id-type="doi">10.1016/j.cell.2010.11.049</pub-id><!--<pub-id pub-id-type="pmcid">3050564</pub-id>--><pub-id pub-id-type="pmid">21215372</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Purba</surname><given-names>TS</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Human epithelial hair follicle stem cells and their progeny: current state of knowledge, the widening gap in translational research and future challenges</article-title><source>Bioessays</source><year>2014</year><volume>36</volume><issue>5</issue><fpage>513</fpage><lpage>525</lpage><pub-id pub-id-type="doi">10.1002/bies.201300166</pub-id><pub-id pub-id-type="pmid">24665045</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bray</surname><given-names>SJ</given-names></name>
+</person-group><article-title>Notch signalling in context</article-title><source>Nat Rev Mol Cell Biol</source><year>2016</year><volume>17</volume><issue>11</issue><fpage>722</fpage><lpage>735</lpage><pub-id pub-id-type="doi">10.1038/nrm.2016.94</pub-id><pub-id pub-id-type="pmid">27507209</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Shimomura</surname><given-names>Y</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>APCDD1 is a novel Wnt inhibitor mutated in hereditary hypotrichosis simplex</article-title><source>Nature</source><year>2010</year><volume>464</volume><issue>7291</issue><fpage>1043</fpage><lpage>1047</lpage><pub-id pub-id-type="doi">10.1038/nature08875</pub-id><!--<pub-id pub-id-type="pmcid">3046868</pub-id>--><pub-id pub-id-type="pmid">20393562</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Levy-Nissenbaum</surname><given-names>E</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Hypotrichosis simplex of the scalp is associated with nonsense mutations in CDSN encoding corneodesmosin</article-title><source>Nat Genet</source><year>2003</year><volume>34</volume><issue>2</issue><fpage>151</fpage><lpage>153</lpage><pub-id pub-id-type="doi">10.1038/ng1163</pub-id><pub-id pub-id-type="pmid">12754508</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>X</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Exome sequencing identified a missense mutation of EPS8L3 in Marie Unna hereditary hypotrichosis</article-title><source>J Med Genet</source><year>2012</year><volume>49</volume><issue>12</issue><fpage>727</fpage><lpage>730</lpage><pub-id pub-id-type="doi">10.1136/jmedgenet-2012-101134</pub-id><!--<pub-id pub-id-type="pmcid">3512347</pub-id>--><pub-id pub-id-type="pmid">23099647</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zhou</surname><given-names>C</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Mutation in ribosomal protein L21 underlies hereditary hypotrichosis simplex</article-title><source>Hum Mutat</source><year>2011</year><volume>32</volume><issue>7</issue><fpage>710</fpage><lpage>714</lpage><pub-id pub-id-type="doi">10.1002/humu.21503</pub-id><pub-id pub-id-type="pmid">21412954</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pasternack</surname><given-names>SM</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Mutations in SNRPE, which encodes a core protein of the spliceosome, cause autosomal-dominant hypotrichosis simplex</article-title><source>Am J Hum Genet</source><year>2013</year><volume>92</volume><issue>1</issue><fpage>81</fpage><lpage>87</lpage><pub-id pub-id-type="doi">10.1016/j.ajhg.2012.10.022</pub-id><!--<pub-id pub-id-type="pmcid">3542472</pub-id>--><pub-id pub-id-type="pmid">23246290</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>X</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>A missense mutation within the helix termination motif of KRT25 causes autosomal dominant woolly hair/hypotrichosis</article-title><source>J Invest Dermatol</source><year>2018</year><volume>138</volume><issue>1</issue><fpage>230</fpage><lpage>233</lpage><pub-id pub-id-type="doi">10.1016/j.jid.2017.08.035</pub-id><pub-id pub-id-type="pmid">28899683</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>M</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>A recurrent mutation in the APCDD1 gene responsible for hereditary hypotrichosis simplex in a large Chinese family</article-title><source>Br J Dermatol</source><year>2012</year><volume>167</volume><issue>4</issue><fpage>952</fpage><lpage>954</lpage><pub-id pub-id-type="doi">10.1111/j.1365-2133.2012.11001.x</pub-id><pub-id pub-id-type="pmid">22512811</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Shimomura</surname><given-names>Y</given-names></name>
+</person-group><article-title>Congenital hair loss disorders: rare, but not too rare</article-title><source>J Dermatol</source><year>2012</year><volume>39</volume><issue>1</issue><fpage>3</fpage><lpage>10</lpage><pub-id pub-id-type="doi">10.1111/j.1346-8138.2011.01395.x</pub-id><pub-id pub-id-type="pmid">22044263</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Peters</surname><given-names>LL</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>The mouse as a model for human biology: a resource guide for complex trait analysis</article-title><source>Nat Rev Genet</source><year>2007</year><volume>8</volume><issue>1</issue><fpage>58</fpage><lpage>69</lpage><pub-id pub-id-type="doi">10.1038/nrg2025</pub-id><pub-id pub-id-type="pmid">17173058</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Searle</surname><given-names>AG</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Mouse homologues of human hereditary disease</article-title><source>J Med Genet</source><year>1994</year><volume>31</volume><issue>1</issue><fpage>1</fpage><lpage>19</lpage><pub-id pub-id-type="doi">10.1136/jmg.31.1.1</pub-id><!--<pub-id pub-id-type="pmcid">1049593</pub-id>--><pub-id pub-id-type="pmid">8151633</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kuehn</surname><given-names>MR</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>A potential animal model for Lesch-Nyhan syndrome through introduction of HPRT mutations into mice</article-title><source>Nature</source><year>1987</year><volume>326</volume><issue>6110</issue><fpage>295</fpage><lpage>298</lpage><pub-id pub-id-type="doi">10.1038/326295a0</pub-id><pub-id pub-id-type="pmid">3029599</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Guibinga</surname><given-names>GH</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Deficiency of the housekeeping gene hypoxanthine-guanine phosphoribosyltransferase (HPRT) dysregulates neurogenesis</article-title><source>Mol Ther</source><year>2010</year><volume>18</volume><issue>1</issue><fpage>54</fpage><lpage>62</lpage><pub-id pub-id-type="doi">10.1038/mt.2009.178</pub-id><!--<pub-id pub-id-type="pmcid">2839227</pub-id>--><pub-id pub-id-type="pmid">19672249</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pavlenko</surname><given-names>E</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Functional characterization of colon cancer-associated mutations in ADAM17: modifications in the pro-domain interfere with trafficking and maturation</article-title><source>Int J Mol Sci</source><year>2019</year><volume>20</volume><issue>9</issue><elocation-id>2198</elocation-id><pub-id pub-id-type="doi">10.3390/ijms20092198</pub-id><!--<pub-id pub-id-type="pmcid">6539446</pub-id>--><pub-id pub-id-type="pmid">31060243</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Blaydon</surname><given-names>DC</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Inflammatory skin and bowel disease linked to ADAM17 deletion</article-title><source>N Engl J Med</source><year>2011</year><volume>365</volume><issue>16</issue><fpage>1502</fpage><lpage>1508</lpage><pub-id pub-id-type="doi">10.1056/NEJMoa1100721</pub-id><pub-id pub-id-type="pmid">22010916</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B46">
+        <label>46</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Imoto</surname><given-names>I</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Functionally confirmed compound heterozygous ADAM17 missense loss-of-function variants cause neonatal inflammatory skin and bowel disease 1</article-title><source>Sci Rep</source><year>2021</year><volume>11</volume><issue>1</issue><elocation-id>9552</elocation-id><pub-id pub-id-type="doi">10.1038/s41598-021-89063-0</pub-id><!--<pub-id pub-id-type="pmcid">8100128</pub-id>--><pub-id pub-id-type="pmid">33953303</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B47">
+        <label>47</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hatakeyama</surname><given-names>S</given-names></name>
+</person-group><article-title>TRIM family proteins: roles in autophagy, immunity, and carcinogenesis</article-title><source>Trends Biochem Sci</source><year>2017</year><volume>42</volume><issue>4</issue><fpage>297</fpage><lpage>311</lpage><pub-id pub-id-type="doi">10.1016/j.tibs.2017.01.002</pub-id><pub-id pub-id-type="pmid">28118948</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B48">
+        <label>48</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kubo</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Congenital iRHOM2 deficiency causes ADAM17 dysfunction and environmentally directed immunodysregulatory disease</article-title><source>Nat Immunol</source><year>2022</year><volume>23</volume><issue>1</issue><fpage>75</fpage><lpage>85</lpage><pub-id pub-id-type="doi">10.1038/s41590-021-01093-y</pub-id><!--<pub-id pub-id-type="pmcid">11060421</pub-id>--><pub-id pub-id-type="pmid">34937930</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B49">
+        <label>49</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>X</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>iRhoms 1 and 2 are essential upstream regulators of ADAM17-dependent EGFR signaling</article-title><source>Proc Natl Acad Sci U S A</source><year>2015</year><volume>112</volume><issue>19</issue><fpage>6080</fpage><lpage>6085</lpage><pub-id pub-id-type="doi">10.1073/pnas.1505649112</pub-id><!--<pub-id pub-id-type="pmcid">4434755</pub-id>--><pub-id pub-id-type="pmid">25918388</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B50">
+        <label>50</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Adu-Amankwaah</surname><given-names>J</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>ADAM17, a key player of cardiac inflammation and fibrosis in heart failure development during chronic catecholamine stress</article-title><source>Front Cell Dev Biol</source><year>2021</year><volume>9</volume><elocation-id>732952</elocation-id><pub-id pub-id-type="doi">10.3389/fcell.2021.732952</pub-id><!--<pub-id pub-id-type="pmcid">8710811</pub-id>--><pub-id pub-id-type="pmid">34966735</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B51">
+        <label>51</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Xu</surname><given-names>P</given-names></name>
+<name><surname>Derynck</surname><given-names>R</given-names></name>
+</person-group><article-title>Direct activation of TACE-mediated ectodomain shedding by p38 MAP kinase regulates EGF receptor-dependent cell proliferation</article-title><source>Mol Cell</source><year>2010</year><volume>37</volume><issue>4</issue><fpage>551</fpage><lpage>566</lpage><pub-id pub-id-type="doi">10.1016/j.molcel.2010.01.034</pub-id><!--<pub-id pub-id-type="pmcid">4240279</pub-id>--><pub-id pub-id-type="pmid">20188673</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B52">
+        <label>52</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>G</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Pyridoxine regulates hair follicle development via the PI3K/Akt, Wnt and Notch signalling pathways in rex rabbits</article-title><source>Anim Nutr</source><year>2021</year><volume>7</volume><issue>4</issue><fpage>1162</fpage><lpage>1172</lpage><pub-id pub-id-type="doi">10.1016/j.aninu.2021.09.003</pub-id><!--<pub-id pub-id-type="pmcid">8556489</pub-id>--><pub-id pub-id-type="pmid">34754958</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B53">
+        <label>53</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sakamoto</surname><given-names>K</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Disruption of the endopeptidase ADAM10-Notch signaling axis leads to skin dysbiosis and innate lymphoid cell-mediated hair follicle destruction</article-title><source>Immunity</source><year>2021</year><volume>54</volume><issue>10</issue><fpage>2321</fpage><lpage>2337</lpage><pub-id pub-id-type="doi">10.1016/j.immuni.2021.09.001</pub-id><!--<pub-id pub-id-type="pmcid">8516731</pub-id>--><pub-id pub-id-type="pmid">34582748</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B54">
+        <label>54</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Vauclair</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Notch1 is essential for postnatal hair follicle development and homeostasis</article-title><source>Dev Biol</source><year>2005</year><volume>284</volume><issue>1</issue><fpage>184</fpage><lpage>193</lpage><pub-id pub-id-type="doi">10.1016/j.ydbio.2005.05.018</pub-id><pub-id pub-id-type="pmid">15978571</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B55">
+        <label>55</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Revandkar</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Inhibition of Notch pathway arrests PTEN-deficient advanced prostate cancer by triggering p27-driven cellular senescence</article-title><source>Nat Commun</source><year>2016</year><volume>7</volume><elocation-id>13719</elocation-id><pub-id pub-id-type="doi">10.1038/ncomms13719</pub-id><!--<pub-id pub-id-type="pmcid">5159884</pub-id>--><pub-id pub-id-type="pmid">27941799</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B56">
+        <label>56</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Baumgart</surname><given-names>A</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>ADAM17 regulates epidermal growth factor receptor expression through the activation of Notch1 in non-small cell lung cancer</article-title><source>Cancer Res</source><year>2010</year><volume>70</volume><issue>13</issue><fpage>5368</fpage><lpage>5378</lpage><pub-id pub-id-type="doi">10.1158/0008-5472.CAN-09-3763</pub-id><pub-id pub-id-type="pmid">20551051</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B57">
+        <label>57</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>R</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>iNOS promotes CD24<sup>+</sup>CD133<sup>+</sup> liver cancer stem cell phenotype through a TACE/ADAM17-dependent Notch signaling pathway</article-title><source>Proc Natl Acad Sci U S A</source><year>2018</year><volume>115</volume><issue>43</issue><fpage>E10127</fpage><lpage>E10136</lpage><pub-id pub-id-type="doi">10.1073/pnas.1806376115</pub-id><!--<pub-id pub-id-type="pmcid">6205478</pub-id>--><pub-id pub-id-type="pmid">30297396</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B58">
+        <label>58</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Weber</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>The disintegrin/metalloproteinase Adam10 is essential for epidermal integrity and Notch-mediated signaling</article-title><source>Development</source><year>2011</year><volume>138</volume><issue>3</issue><fpage>495</fpage><lpage>505</lpage><pub-id pub-id-type="doi">10.1242/dev.055210</pub-id><!--<pub-id pub-id-type="pmcid">3014635</pub-id>--><pub-id pub-id-type="pmid">21205794</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B59">
+        <label>59</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pan</surname><given-names>D</given-names></name>
+<name><surname>Rubin</surname><given-names>GM</given-names></name>
+</person-group><article-title>Kuzbanian controls proteolytic processing of Notch and mediates lateral inhibition during Drosophila and vertebrate neurogenesis</article-title><source>Cell</source><year>1997</year><volume>90</volume><issue>2</issue><fpage>271</fpage><lpage>280</lpage><pub-id pub-id-type="doi">10.1016/S0092-8674(00)80335-9</pub-id><pub-id pub-id-type="pmid">9244301</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B60">
+        <label>60</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sotillos</surname><given-names>S</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>The metalloprotease-disintegrin Kuzbanian participates in Notch activation during growth and patterning of Drosophila imaginal discs</article-title><source>Development</source><year>1997</year><volume>124</volume><issue>23</issue><fpage>4769</fpage><lpage>4779</lpage><pub-id pub-id-type="doi">10.1242/dev.124.23.4769</pub-id><pub-id pub-id-type="pmid">9428413</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B61">
+        <label>61</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rooke</surname><given-names>J</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>KUZ, a conserved metalloprotease-disintegrin protein with two roles in Drosophila neurogenesis</article-title><source>Science</source><year>1996</year><volume>273</volume><issue>5279</issue><fpage>1227</fpage><lpage>1231</lpage><pub-id pub-id-type="doi">10.1126/science.273.5279.1227</pub-id><pub-id pub-id-type="pmid">8703057</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B62">
+        <label>62</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Alabi</surname><given-names>RO</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Analysis of the conditions that affect the selective processing of endogenous Notch1 by ADAM10 and ADAM17</article-title><source>Int J Mol Sci</source><year>2021</year><volume>22</volume><issue>4</issue><elocation-id>1846</elocation-id><pub-id pub-id-type="doi">10.3390/ijms22041846</pub-id><!--<pub-id pub-id-type="pmcid">7918056</pub-id>--><pub-id pub-id-type="pmid">33673337</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B63">
+        <label>63</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bozkulak</surname><given-names>EC</given-names></name>
+<name><surname>Weinmaster</surname><given-names>G</given-names></name>
+</person-group><article-title>Selective use of ADAM10 and ADAM17 in activation of Notch1 signaling</article-title><source>Mol Cell Biol</source><year>2009</year><volume>29</volume><issue>21</issue><fpage>5679</fpage><lpage>5695</lpage><pub-id pub-id-type="doi">10.1128/MCB.00406-09</pub-id><!--<pub-id pub-id-type="pmcid">2772745</pub-id>--><pub-id pub-id-type="pmid">19704010</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B64">
+        <label>64</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Groot</surname><given-names>AJ</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Epidermal ADAM17 is dispensable for notch activation</article-title><source>J Invest Dermatol</source><year>2013</year><volume>133</volume><issue>9</issue><fpage>2286</fpage><lpage>2288</lpage><pub-id pub-id-type="doi">10.1038/jid.2013.162</pub-id><!--<pub-id pub-id-type="pmcid">3745798</pub-id>--><pub-id pub-id-type="pmid">23657465</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B65">
+        <label>65</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Shimizu</surname><given-names>H</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Alternative mechanisms of Notch activation by partitioning into distinct endosomal domains</article-title><source>J Cell Biol</source><year>2024</year><volume>223</volume><issue>5</issue><elocation-id>e202211041</elocation-id><pub-id pub-id-type="doi">10.1083/jcb.202211041</pub-id><!--<pub-id pub-id-type="pmcid">10868400</pub-id>--><pub-id pub-id-type="pmid">38358349</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B66">
+        <label>66</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Brou</surname><given-names>C</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>A novel proteolytic cleavage involved in Notch signaling: the role of the disintegrin-metalloprotease TACE</article-title><source>Mol Cell</source><year>2000</year><volume>5</volume><issue>2</issue><fpage>207</fpage><lpage>216</lpage><pub-id pub-id-type="doi">10.1016/S1097-2765(00)80417-7</pub-id><pub-id pub-id-type="pmid">10882063</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B67">
+        <label>67</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Dixit</surname><given-names>G</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>FGFR2 mutations promote endometrial cancer progression through dual engagement of EGFR and Notch signalling pathways</article-title><source>Clin Transl Med</source><year>2023</year><volume>13</volume><issue>5</issue><elocation-id>e1223</elocation-id><pub-id pub-id-type="doi">10.1002/ctm2.1223</pub-id><!--<pub-id pub-id-type="pmcid">10172618</pub-id>--><pub-id pub-id-type="pmid">37165578</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B68">
+        <label>68</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>M</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>Mutations in POFUT1, encoding protein O-fucosyltransferase 1, cause generalized Dowling-Degos disease</article-title><source>Am J Hum Genet</source><year>2013</year><volume>92</volume><issue>6</issue><fpage>895</fpage><lpage>903</lpage><pub-id pub-id-type="doi">10.1016/j.ajhg.2013.04.022</pub-id><!--<pub-id pub-id-type="pmcid">3675235</pub-id>--><pub-id pub-id-type="pmid">23684010</pub-id>
+</element-citation>
+      </ref>
+      <ref id="B69">
+        <label>69</label>
+        <element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>F</given-names></name>
+<etal>et al</etal>
+</person-group><article-title>S1P defects cause a new entity of cataract, alopecia, oral mucosal disorder, and psoriasis-like syndrome</article-title><source>EMBO Mol Med</source><year>2022</year><volume>14</volume><issue>5</issue><elocation-id>e14904</elocation-id><pub-id pub-id-type="doi">10.15252/emmm.202114904</pub-id><!--<pub-id pub-id-type="pmcid">9081911</pub-id>--><pub-id pub-id-type="pmid">35362222</pub-id>
+</element-citation>
+      </ref>
+    </ref-list>
+    <notes notes-type="version-changes">
+      <sec sec-type="version-changes">
+        <label>Version 1</label>
+        <title>05/21/2024</title>
+        <p>In-Press Preview</p>
+      </sec>
+      <sec sec-type="version-changes">
+        <label>Version 2</label>
+        <title>07/08/2024</title>
+        <p>Electronic publication</p>
+      </sec>
+    </notes>
+  </back>
+  <floats-group>
+    <fig position="float" id="F1">
+      <label>Figure 1</label>
+      <caption>
+        <title><italic toggle="yes">ADAM17</italic> variant leads to ADWH.</title>
+        <p>(<bold>A</bold>) Representative clinical pictures of patients with ADWH. (<bold>B</bold>) Hematoxylin and eosin (HE) staining of scalp tissues from patients and the normal controls. Scale bars, 125 &#x3BC;m. (<bold>C</bold>) The scanning electron microscopy (SEM) analysis revealed that the patient&#x2019;s hair shaft displayed a nonuniform and abnormal cross-sectional shape. Furthermore, there was a substantial peeling of hair cuticle, which normally functions as the hair shaft&#x2019;s outermost protective layer. Scale bars, 50 &#x3BC;m. (<bold>D</bold>) Pedigree of the family for patients. Hollow boxes represented the healthy men, while solid boxes represented the affected men. Hollow circles represented the healthy women, while solid circles represented the affected women in the family tree. The proband was identified with a black arrow. (<bold>E</bold>) A genome-wide linkage analysis provided evidence of linkage to chromosome 2, with a maximum LOD score of 3.18. (<bold>F</bold>) Gene sequencing revealed the heterozygous <italic toggle="yes">ADAM17</italic> p.Asp647Asn (c.1939G&gt;A) variant in patients. The arrows indicate the variant. (<bold>G</bold>) ADAM17 was predominantly expressed in the hair cortex, inner root sheath (IRS), and outer root sheath (ORS) of human hair follicle. Scale bar, 500 &#x3BC;m. (<bold>H</bold>) Schematic overview of ADAM17 protein and its domains. The p.D647N mutation was localized in CANDIS domain (indicated by a red arrow). SP, signal peptide; PD, pro-domain; Catalytic, catalytic metalloprotease domain; DD, disintegrin domain; MPD, membrane proximal domain; CANDIS, conserved ADAM17 seventeen dynamic interaction sequence; TM, transmembrane domain; CD, cytoplasmic domain. (<bold>I</bold>) Aspartic residue at position 647 is located within the conserved ADAM17 dynamic interaction sequence (CANDIS) domain of ADAM17, which is highly conserved.</p>
+      </caption>
+      <graphic xlink:href="jciinsight-9-177588-g029" position="float"/>
+    </fig>
+    <fig position="float" id="F2">
+      <label>Figure 2</label>
+      <caption>
+        <title><italic toggle="yes">Adam17</italic> (p.D647N) variant causes abnormal hair follicle morphology and hair loss in mice.</title>
+        <p>(<bold>A</bold>) Hair coats and vibrissa hairs of wild-type (WT), Adam17<sup>D647N/+</sup>, and Adam17<sup>D647N/D647N</sup> mice at postnatal day (P) 19, P35, and 6 months (M). (<bold>B</bold>) Pelage hairs were observed under an optical microscope. Left and middle panel: compared with wild-type hairs, all 4 hair types of Adam17<sup>D647N/D647N</sup> pelage hairs showed waviness. Scale bars, 2 mm. Right panel: Adam17<sup>D647N/D647N</sup> mice displayed a significantly reduced proportion of primary and secondary hairs and a significant increase in the proportion of zigzag hairs. (<italic toggle="yes">n</italic> = 4 biological replicates.) (<bold>C</bold>) The scanning electron microscopy (SEM) analysis unveiled a peeling of the hair cuticle in the hair of Adam17<sup>D647N/D647N</sup> mice. Scale bar, 10 &#x3BC;m. (<bold>D</bold>) HE staining revealed notable structural abnormalities of hair follicles (HFs) in Adam17<sup>D647N/D647N</sup> mice at P28. Upper panel scale bars, 250 &#x3BC;m; lower panel scale bars, 50 &#x3BC;m. (<bold>E</bold>) HE staining of longitudinal sections revealed obvious structural abnormalities of HFs in Adam17<sup>D647N/D647N</sup> mice during the first anagen (P7) and second anagen (P28). Scale bars, 250 &#x3BC;m. (<bold>F</bold>) Immunofluorescence staining revealed a substantial decrease in IRS markers within the HFs of Adam17<sup>D647N/D647N</sup> mice, suggesting significant morphological abnormalities of the IRS. Scale bar, 100 &#x3BC;m. (<bold>G</bold>) A schematic illustration of HF layers and markers expressed in HF. (<bold>H</bold>) Immunoblot analysis of HF layer-specific markers in dorsal skin. (<bold>I</bold>) Transmission electron microscopy (TEM) of HFs at approximately 500 &#x3BC;m depth. Left panel scale bar, 5 &#x3BC;m; right panel scale bar, 2 &#x3BC;m. ORS, outer root sheath; IRS, inner root sheath; Cl, companion layer; He, Henle&#x2019;s layer; Hu, Huxley&#x2019;s layer; Cu, cuticle; Co, cortex; Me, medulla. All experiments were repeated 3 times. Data were expressed as mean &#xB1; SD; *<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; 1-way ANOVA (<bold>B</bold>).</p>
+      </caption>
+      <graphic xlink:href="jciinsight-9-177588-g030" position="float"/>
+    </fig>
+    <fig position="float" id="F3">
+      <label>Figure 3</label>
+      <caption>
+        <title><italic toggle="yes">Adam17</italic> (p.D647N) variant affects homeostasis of the HFSC niche in hair follicles.</title>
+        <p>(<bold>A</bold>) Phenotypes of wild-type (WT), Adam17<sup>D647N/+</sup>, and Adam17<sup>D647N/D647N</sup> mice after shaving back skin during telogen (P19) and monitoring initiation of the next hair cycle. <italic toggle="yes">Adam17</italic> mutation impeded hair regeneration. (<bold>B</bold>) Statistical data on the proportion of the skin with pigmentation in mice after hair shaving. (<italic toggle="yes">n</italic> = 6 biological replicates.) (<bold>C</bold>) HE staining of back skin during second telogen (P63). Upper panel scale bars, 300 &#x3BC;m; lower panel scale bars, 50 &#x3BC;m. (<bold>D</bold>&#x2013;<bold>F</bold>) WT hair follicles (HFs) possessed a 2-bulge architecture, whereas Adam17<sup>D647N/D647N</sup> HFs usually had only 1. (<bold>D</bold>) Statistical data on the proportion of 3 HF types. (<italic toggle="yes">n</italic> = 6 biological replicates.) (<bold>E</bold>) Immunofluorescence was performed on whole-mount back skin hair follicles at the second telogen stage using HFSC markers K15 and CD34. Scale bar, 100 &#x3BC;m. (<bold>F</bold>) Skin sections underwent immunofluorescence staining using antibodies specific to HFSC markers. Scale bars, 40 &#x3BC;m. (<bold>G</bold>) Fluorescence-activated cell sorting (FACS) analyses of HFSC populations sorted by high &#x3B1;6-integrin and CD34. Right upper panel: Quantification of CD34-positive/&#x3B1;6-high cells (indicated by the black square brackets) among epithelial cells in second telogen mice. (<italic toggle="yes">n</italic> = 4&#x2013;6 biological replicates.) Right lower panel: Quantification of CD34-positive/Ki67-positive cells among epithelial cells in second telogen mice. (<italic toggle="yes">n</italic> = 4&#x2013;6 biological replicates.) (<bold>H</bold>) HFSC differentiation was blocked in Adam17<sup>D647N/D647N</sup> mice. Scale bars, 40 &#x3BC;m. CD200, the marker of secondary hair germ. Bu, hair bulge. All experiments were repeated 3 times. Data were expressed as mean &#xB1; SD; *<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; 1-way ANOVA (<bold>B</bold> and <bold>D</bold>); Mann-Whitney test (<bold>G</bold>: right upper panel); Kruskal-Wallis test (<bold>G</bold>: right lower panel).</p>
+      </caption>
+      <graphic xlink:href="jciinsight-9-177588-g031" position="float"/>
+    </fig>
+    <fig position="float" id="F4">
+      <label>Figure 4</label>
+      <caption>
+        <title><italic toggle="yes">ADAM17</italic> (p.D647N) variant decreases its protein stability owing to enhanced auto-ubiquitination.</title>
+        <p>(<bold>A</bold>) Immunohistochemical staining showed that the expression of ADAM17 in patients&#x2019; hair follicles (HFs) was significantly lower than that in normal controls. Scale bar, 300 &#x3BC;m (<italic toggle="yes">n</italic> = 8 biological replicates of normal controls; <italic toggle="yes">n</italic> = 8 technical replicates of patient III:1). (<bold>B</bold>) ADAM17 protein level in the scalp tissues of patients was lower than that in the controls. (<italic toggle="yes">n</italic> = 6 biological replicates of controls; <italic toggle="yes">n</italic> = 6 technical replicates of patient III:1.) (<bold>C</bold>) No significant alteration detected in the mRNA levels of <italic toggle="yes">ADAM17</italic>. (<italic toggle="yes">n</italic> = 4 biological replicates of controls; <italic toggle="yes">n</italic> = 4 technical replicates of patient III:1.) (<bold>D</bold>) Adam17 protein level in HFs of Adam17<sup>D647N/D674N</sup> mice was lower than that in wild-type (WT) mice. Left scale bar, 100 &#x3BC;m; right scale bar, 50 &#x3BC;m. (<italic toggle="yes">n</italic> = 28&#x2013;32 technical replicates.) (<bold>E</bold>) Adam17 protein level in skin tissues was significantly reduced in Adam17<sup>D647N/D674N</sup> mice compared with the WT mice. (<italic toggle="yes">n</italic> = 3 biological replicates.) (<bold>F</bold>) No significant changes were observed in the mRNA levels of <italic toggle="yes">Adam17</italic> between ADAM17<sup>D647N/D674N</sup> and WT mice. (<italic toggle="yes">n</italic> = 6 biological replicates.) (<bold>G</bold>) Cycloheximide (CHX) chase analysis showed that <italic toggle="yes">ADAM17</italic> (p.D674N) mutation induced rapid degradation of ADAM17 in HaCaT cells. (<bold>H</bold>) <italic toggle="yes">ADAM17</italic> (p.D647N) mutation resulted in heightened degradation of ADAM17 though proteasome pathway in HaCaT cells. (<bold>I</bold>) <italic toggle="yes">ADAM17</italic> (p.D647N) mutation had no bearing on the degradation of ADAM17 through the autophagy pathway in HaCaT cells. (<bold>J</bold>) <italic toggle="yes">ADAM17</italic> (p.D647N) mutation resulted in heightened ubiquitination and subsequent degradation of ADAM17 via the proteasomal pathway. All experiments were repeated 3 times. Results were expressed as mean &#xB1; SD; *<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; unpaired 2-tailed <italic toggle="yes">t</italic> test (<bold>B</bold> and <bold>C</bold>); 1-way ANOVA (<bold>E</bold> and <bold>F</bold>); Mann-Whitney test (<bold>A</bold>).</p>
+      </caption>
+      <graphic xlink:href="jciinsight-9-177588-g032" position="float"/>
+    </fig>
+    <fig position="float" id="F5">
+      <label>Figure 5</label>
+      <caption>
+        <title>TRIM47 is identified as a specific E3 ubiquitin ligase of ADAM17.</title>
+        <p>(<bold>A</bold>) Liquid chromatography-tandem mass spectrometry (LC-MS/MS) analysis of wild-type and mutant ADAM17 binding proteins. (<bold>B</bold>) Peptide spectrum match score ratios for the proteins identified by mass spectrometry. (<bold>C</bold>) ADAM17 interacts with TRIM47 in HaCaT cells, and their association was enhanced by the <italic toggle="yes">ADAM17</italic> (p.D647N) mutation. (<bold>D</bold>) The direct interaction between ADAM17 and TRIM47 was validated by pulldown assay. (<bold>E</bold>) Endogenous Adam17 binds to Trim47 in the epidermal tissue lysates obtained from mice, and <italic toggle="yes">Adam17</italic> (p.D647N) mutation enhances their association. (<bold>F</bold>) Confocal immunofluorescence revealed a colocalization (yellow) of ADAM17 (red) and TRIM47 (green) in HaCaT cells, and <italic toggle="yes">ADAM17</italic> (p.D647N) mutation enhanced their colocalization. Scale bars, 8 &#x3BC;m (first 3 images); 1 &#x3BC;m (fourth image). (<bold>G</bold>) Confocal immunofluorescence revealed a colocalization (yellow) of Adam17 (red) and Trim47 (green) in primary cultured mouse skin fibroblasts. Scale bars, 10 &#x3BC;m (first 3 images); 1 &#x3BC;m (fourth image). (<bold>H</bold>) Adam17 and Trim47 colocalized in both IRS and ORS of hair follicles. The white arrows indicated the colocalization (yellow) of Trim47 (green) and Adam17 (red). Scale bars, 40 &#x3BC;m (first 4 images); 20 &#x3BC;m (fifth image). (<bold>I</bold>) Knockdown of <italic toggle="yes">TRIM47</italic> impeded the proteasomal degradation of ADAM17. Left panel: Representative immunoblot images of the ADAM17 and TRIM47 protein levels during CHX chase assays. Right panel: quantification of immunoblotting results corresponding to the left panel. (<italic toggle="yes">n</italic> = 3 biological replicates.) (<bold>J</bold>) The 3-dimensional structure of ADAM17/TRIM47 complex in stereo. Right upper panel: essential amino acids of ADAM17 (blue) that polar contacted TRIM47 (green) were depicted. Right lower panel: residues of TRIM47 (green) which polar contacted to ADAM17 (blue) were depicted. All experiments were repeated 3 times. Results were expressed as mean &#xB1; SD; *<italic toggle="yes">P</italic> &lt; 0.05; unpaired 2-tailed <italic toggle="yes">t</italic> test (<bold>I</bold>).</p>
+      </caption>
+      <graphic xlink:href="jciinsight-9-177588-g033" position="float"/>
+    </fig>
+    <fig position="float" id="F6">
+      <label>Figure 6</label>
+      <caption>
+        <title>ADAM17 variant inhibits hair follicle development through the Notch signaling pathway.</title>
+        <p>(<bold>A</bold>) Log<sub>2</sub> fold-change in the normalized counts of Proteomics-Seq reads of differentially expressed proteins (DEPs) in wild-type and Adam17<sup>D647N/D647N</sup> mice. (<bold>B</bold>) Heatmap of DEPs in the indicated mice, annotated for selected proteins. (<bold>C</bold>) DEP analysis revealed a substantial decrease of hair shaft and IRS markers in Adam17<sup>D647N/D647N</sup> mice. (<italic toggle="yes">n</italic> = 3 biological replicates.) (<bold>D</bold>) Pathway enrichment analysis of DEPs revealed marked upregulation of ubiquinone and other terpenoid-quinone biosynthesis pathways and downregulation of Notch signaling pathways. Results were expressed as mean &#xB1; SD; *<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; unpaired 2-tailed <italic toggle="yes">t</italic> test (<bold>C</bold>).</p>
+      </caption>
+      <graphic xlink:href="jciinsight-9-177588-g034" position="float"/>
+    </fig>
+    <fig position="float" id="F7">
+      <label>Figure 7</label>
+      <caption>
+        <title><italic toggle="yes">ADAM17</italic> (p.D647N) variant affects Notch signaling, resulting in hair follicle malformation.</title>
+        <p>(<bold>A</bold>) Effects of <italic toggle="yes">ADAM17</italic> mutation on protein levels of key molecules involved in Notch signaling observed in the skin biopsy of the patient. (<bold>B</bold>) <italic toggle="yes">Adam17</italic> mutation inhibited Notch signaling in the skin tissues of mice. (<bold>C</bold>) Effects of <italic toggle="yes">Adam17</italic> mutation on mRNA levels of key molecules involved in Notch signaling observed in the skin tissues of mice. (<italic toggle="yes">n</italic> = 6 biological replicates.) (<bold>D</bold>) Immunohistochemical staining showed that <italic toggle="yes">Adam17</italic> mutation led to downregulation of ADAM17 and Notch intracellular domain (NICD) expression but not full-length Notch1 in Adam17<sup>D647N/D647N</sup> mice. Scale bar, 250 &#x3BC;m. (<bold>E</bold>) Immunofluorescence showed that <italic toggle="yes">Adam17</italic> mutation led to downregulation of ADAM17 and NICD expression in hair follicle of Adam17<sup>D647N/D647N</sup> mice. Scale bar, 80 &#x3BC;m. (<bold>F</bold>) Cellular component separation assay showed that NICD protein level was decreased in nucleus of ADAM17-mutant HaCaT cells. Lamin B2 and &#x3B1;-tubulin were used as the nuclear (Nue) and cytosolic (Cyto) protein makers, respectively. (<bold>G</bold> and <bold>H</bold>) Overexpressing NICD significantly rescued the proliferation activity of primary fibroblasts derived from Adam17<sup>D647N/D647N</sup> mice. (<italic toggle="yes">n</italic> = 3 biological replicates.) (<bold>I</bold>) Schematic diagram of Notch signaling pathway. Following sequentially cleaving by ADAM10 and &#x3B3;-secretase, Notch released its NICD. NICD then translocated to nucleus, and, in collaboration with RBPJ and Mastermind, activated the transcription of target genes, including members of the <italic toggle="yes">Hes</italic> and <italic toggle="yes">Hey</italic> families. All experiments were repeated 3 times. Results were expressed as mean &#xB1; SD; *<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; 1-way ANOVA and Kruskal-Wallis test (<bold>C</bold>); Brown-Forsythe and Welch ANOVA tests (<bold>G</bold>).</p>
+      </caption>
+      <graphic xlink:href="jciinsight-9-177588-g035" position="float"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>
