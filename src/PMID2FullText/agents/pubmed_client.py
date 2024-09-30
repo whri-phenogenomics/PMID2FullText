@@ -5,7 +5,7 @@ import os
 import time
 from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Union
+from typing import Union
 from urllib import parse
 from dotenv import load_dotenv
 
@@ -52,14 +52,11 @@ class PubmedClient:
 
 
     def text(
-        self, ids: Union[list[PMID], PMID], output, raw=False, autoformat=True, pubmedcental=True
+        self, ids: Union[list[PMID], PMID], output
     ):
         """Get the text of one or more papers from their PMIDs.
 
         :param ids: List of PubMed IDs, or string with single PMID
-        :param raw: if True, do not parse the xml, just return the raw output with tags
-        :param autoformat: if True include title and abstract concatenated
-        :param pubmedcentral: if True, retreive text from PubMed Central where possible
         :return: the text of a single entry, or a list of strings for text of multiple entries
         """
         xml_datas = []
@@ -130,13 +127,10 @@ class PubmedClient:
         return xml_data
 
 
-    def parse_pmxml(self, xml: str, raw: bool, autoformat: bool, pubmedcentral: bool):
+    def parse_pmxml(self, xml: str, pubmedcentral: bool):
         """Extract structured text from PubMed and PubMed Central XML.
 
         :param xml: One or more xml entries, as string
-        :param raw: if True, do not parse the xml beyond separating documents
-        :param autoformat: if True include title and abstract concatenated
-            Otherwise the output will include ALL text contents besides XML tags
         :param pubmedcentral: if True replace abstract with PubMed Central text
             If there isn't a PMC ID, just use the abstract.
             If there is a PMC ID, use the abstract AND chunk the body text.
@@ -177,9 +171,8 @@ class PubmedClient:
 @click.option('-o', '--output_dir', default='output_fun/pmc_xml', help="Directory to save XML files.")
 @click.option('--max-text-length', default=0, type=int, help="Maximum length of text to include in each output file.")
 @click.option('--no-pmcid', default="output/no_pmcid.txt", help="File to save PMIDs without PMCID.")
-@click.option('--raw', is_flag=True, help="If set, do not parse the XML, just return the raw output with tags.")
 @click.option('--verbose', is_flag=True, help="Enable verbose logging.")
-def main(file_path, output_dir, max_text_length, no_pmcid, raw, verbose):
+def main(file_path, output_dir, max_text_length, no_pmcid, verbose):
     """Download PubMed articles as XML files."""
 
     if verbose:

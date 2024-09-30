@@ -57,14 +57,9 @@ class PubmedXMLWrapper:
 
                 soup = self.parse_pmxml(xml_content)
 
-                # Check if the <body> tag exists
                 if not self.check_body_tag(soup):
                     no_body_count += 1
                     no_body_files.append(file_name)
-
-                # title = self.get_title(soup)
-                # abstract = self.get_abstract(soup)
-                # print(f"File: {file_name}\nTitle: {title}\nAbstract: {abstract}\n")
 
         return total_files, no_body_count, no_body_files
 
